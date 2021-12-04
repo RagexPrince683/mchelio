@@ -1,0 +1,22 @@
+DisplayName = C-704
+Type = ATMissile
+Power = 410
+Acceleration = 5.2
+Explosion = 18
+ExplosionBlock = 15
+ExplosionInWater = 5
+Flaming = true
+Sight = MissileSight 
+ProximityFuseDist = 1
+Sound = missile_1_snd
+Delay = 15
+LockTime = 15
+ModelBullet = agm84
+
+
+Round = 2
+MaxAmmo = 2
+SuppliedNum = 2
+Item = 6, iron_ingot
+Item = 6, gunpowder
+Item =  1, redstone

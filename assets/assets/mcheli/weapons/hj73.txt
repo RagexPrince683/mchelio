@@ -1,0 +1,19 @@
+DisplayName = ºì¼ý-73C ATM
+Type = ATMissile
+Power = 200
+Acceleration = 2.0
+Explosion = 5
+Flaming = true
+Sight = MoveSight
+Delay = 180
+ModelBullet = 9M113
+Sound = missile_2_snd
+Group = MainGun
+Round = 2
+DamageFactor = tank, 1.2
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

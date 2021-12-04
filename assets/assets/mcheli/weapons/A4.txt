@@ -1,0 +1,28 @@
+DisplayName = Aggregat 4 V2 Missile
+Type = ASMissile
+Power = 1000
+Acceleration = 10
+Explosion = 10
+ExplosionBlock = 5
+ExplosionInWater = 3
+Flaming = true
+Sight = MoveSight
+Delay = 4
+Sound = bomb_snd
+ModelBullet = A4
+Gravity = -0.001
+DisableSmoke = false
+
+Bomblet = 15
+BombletDiff = 0.75
+ExplosionAltitude = 5
+
+ModelBomblet = 380mm
+
+ReloadTime = 1200
+Round = 1
+MaxAmmo = 1
+SuppliedNum = 1
+Item = 32, iron_ingot
+Item = 12, tnt
+Item = 20, redstone

@@ -1,0 +1,108 @@
+﻿DisplayName = ZTZ-96A
+AddDisplayName = en_US, ZTZ-96A
+AddDisplayName = ja_JP, ZTZ-96A
+ItemID = 33404
+MaxHp = 530
+Speed = 0.65
+Sound = mbtrun
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 2.0
+MinRotationPitch = -50
+MaxRotationPitch = 5
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = true
+StepHeight = 1.5
+DefaultFreelook = true
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.3
+DefaultFreelook = true
+CameraRotationSpeed = 26
+
+HUD = mbt_hud
+
+AddSeat =  0.00,  0.00, 0.00
+
+StepHeight = 1.5
+
+HideEntity = true
+
+CameraZoom = 3
+
+CameraPosition = 0.0, 3.50, 0.50, true
+
+; 指定した高さまでの水に触れてもダメージを受けない
+; 2であれば2ブロックまでダメージ無し
+SubmergedDamageHeight = 3
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+
+; 転輪の回転速度：0より小さい値を設定すると逆回転する
+;TrackRollerRot = 30
+
+MotionFactor = 0.9
+
+SetWheelPos =  1.75,  -0.24,  3.02, 1.44, -1.54, -2.91, -4.85
+
+;転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
+;履帯と同じ動きをするが、履帯がなくても設定可能
+
+AddTrackRoller = -1.4859,  0.8358,  3.5860
+AddTrackRoller =  1.4859,  0.8358,  3.5860
+AddTrackRoller = -1.4555,  0.2460,  2.5490
+AddTrackRoller =  1.4555,  0.2460,  2.5490
+AddTrackRoller = -1.4555,  0.2460,  1.4273
+AddTrackRoller =  1.4555,  0.2460,  1.4273
+AddTrackRoller = -1.4555,  0.2460,  0.2840
+AddTrackRoller =  1.4555,  0.2460,  0.2840
+AddTrackRoller = -1.4555,  0.2460, -0.7526
+AddTrackRoller =  1.4555,  0.2460, -0.7526
+AddTrackRoller = -1.4555,  0.2460, -1.9361
+AddTrackRoller =  1.4555,  0.2460, -1.9361
+AddTrackRoller = -1.4555,  0.2460, -3.1441
+AddTrackRoller =  1.4555,  0.2460, -3.1441
+AddTrackRoller = -1.4592,  0.8551, -4.3277
+AddTrackRoller =  1.4592,  0.8551, -4.3277
+
+; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
+MotionFactor = 0.9
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+ArmorMinDamage = 43
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+ArmorMaxDamage = 500
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+ArmorDamageFactor = 0.95
+;後退可能にする
+EnableBack = true
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.0
+
+
+AddWeapon = 2a46_apfsds,  0.00, 2.20, 0.00,  0.0, 0.0, true,1, 0,-360,360, -50, 7
+AddWeapon = 2a46_heat,  0.00, 2.20, 0.00,  0.0, 0.0, true,1, 0,-360,360, -50, 7
+AddPartWeapon = 2a46_apfsds, false, true, false,  0.00, 2.20, 0.00, 0
+AddPartWeaponChild = false, true, 0.00, 2.20, 1.43
+
+AddWeapon = mg7_7mm,  -0.78, 3.48, 0.71,  0.0, 0.0, true,1, 0,-360,360, -30, 30
+AddPartWeapon = mg7_7mm, false, true, false,  0.00, 1.65, 0.00, 0
+AddPartWeaponChild = false, true, -0.78, 3.48, 0.71
+
+AddWeapon = mg_coaxial, -0.37, 2.11, 1.99,  0.0, 0.0, true,1, 0,-360,360, -50, 7
+AddPartWeapon = mg_coaxial, false, true, false,  0.00, 1.65, 0.00, 0
+AddPartWeaponChild = false, true, -0.37, 2.11, 1.99
+
+MaxFuel         = 800
+FuelConsumption = 2.0
+
+BoundingBox =  0.0, 1.0, -1.2,  4.0, 2.0
+BoundingBox =  0.0, 2.5, -0.5,  3.0, 1.0
+BoundingBox =  0.0, 1.0,  1.5,  4.0, 2.0

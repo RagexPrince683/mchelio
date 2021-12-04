@@ -1,0 +1,23 @@
+DisplayName = GIAT THL 20mm
+Type = MachineGun2
+Power = 17
+Acceleration = 10.0
+Explosion = 1
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 0.6
+SoundPitch = 1.0
+Accuracy = 0.0
+HeatCount = 5
+MaxHeatCount = 150
+ModeNum = 2
+Sound = gun_h3_snd
+
+; SetCartridge = model_name, Acceleration, Yaw, Pitch, ModelScale, Gravity, Bound
+SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
+
+MaxAmmo = 1200
+SuppliedNum = 200
+Item =  2, iron_ingot
+Item =  2, gunpowder

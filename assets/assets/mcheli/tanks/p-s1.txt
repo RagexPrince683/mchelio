@@ -1,0 +1,88 @@
+DisplayName = SA-22 Greyhound Air Defense System
+AddDisplayName = en_US, SA-22 Greyhound Air Defense System
+AddDisplayName = ja_JP, P-S1 自走式近距離防空システム
+MaxHp = 100
+Speed = 0.8
+Sound = vehicle_run
+ThrottleUpDown = 5
+MobilityYawOnGround = 6.5
+MaxFuel         = 1000
+FuelConsumption = 0.8
+CameraZoom = 6
+EnableNightVision = true
+EnableEntityRadar = true
+EnableGunnerMode = true
+Gravity = -0.1
+GravityInWater = -0.1
+MinRotationPitch = -85
+MaxRotationPitch = 5
+MobilityRoll = 0
+StepHeight = 1.0
+MotionFactor = 0.9
+;ArmorMinDamage = 20
+;ArmorMaxDamage = 500
+DamageFactor = 0.7
+EnableBack = true
+
+CameraPosition = 0.0, 4.4, 0.0
+CameraPosition = 0.0, 4.4, 0.0
+
+AddTexture = p-s1_1
+
+SubmergedDamageHeight = 3
+
+;  M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+WeightType = Tank
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 0.8
+
+HUD = mbt_hud, none, none, gunner, gunner, gunner
+
+EntityWidth  = 0.7
+EntityHeight = 0.7
+
+AddSeat =  0.71, 1.52, 6.08
+AddSeat = -0.05, 1.52, 6.08
+AddSeat = -0.71, 1.52, 6.08
+AddSeat =  0.75, 1.52, 3.42
+AddGunnerSeat =  0.16, 1.52, 3.42,  0.0, 5.65,-1.56, true
+AddGunnerSeat = -0.53, 1.52, 3.42,  0.0, 4.4, 0.0, true
+
+AddPartCanopy =  1.183, 1.8, 6.858, 0,-1,0, 40
+AddPartCanopy = -1.183, 1.8, 6.858, 0, 1,0, 40
+AddPartCanopy =  0.36, 3.0, 6.0, 0,0,-1, 100
+AddPartCanopy =  1.31, 2.55, 3.834, 0,-1,0, 90
+AddPartCanopy = -1.31, 2.55, 3.834, 0, 1,0, 90
+
+SetWheelPos =  0.98,  -0.37,  5.66, 1.52, -1.91
+
+AddPartWheel =  0.98, 0.33, 5.66, 40
+AddPartWheel = -0.98, 0.33, 5.66, 40
+AddPartWheel =  0.98, 0.33, 3.52, 20
+AddPartWheel = -0.98, 0.33, 3.52, 20
+AddPartWheel =  0.0,  0.33,-0.41
+AddPartWheel =  0.0,  0.33,-1.91
+
+PivotTurnThrottle = 0.2
+TrackRollerRot = 30
+
+AddPartSlideHatch = 0.0, -0.48, 0.0
+
+;30mm機関砲・SAM
+AddPartWeapon = 2a38m_ap / 2a38_hei / 57e6, false, true, false,  0.0, 2.5, 0.0
+AddPartWeaponChild = false, true, 0.0, 3.3, -0.805
+AddPartWeaponChild = false, true, 0.0, 4.044, 0.509
+AddTurretWeapon = 2a38_ap,   0.769, 3.31, 0.805,  0.0, 0.0, true,1, 0,-360,360, -85, 5
+AddTurretWeapon = 2a38_ap,  -0.769, 3.31, 0.805,  0.0, 0.0, true,1, 0,-360,360, -85, 5
+AddTurretWeapon = 2a38_hei,  0.769, 3.31, 0.805,  0.0, 0.0, true,1, 0,-360,360, -85, 5
+AddTurretWeapon = 2a38_hei, -0.769, 3.31, 0.805,  0.0, 0.0, true,1, 0,-360,360, -85, 5
+AddTurretWeapon = 57e6,  1.16, 3.13, -2.8,  0.0,-3.0, true,6, 0,-360,360, -85, 5
+AddTurretWeapon = 57e6, -1.16, 3.13, -2.8,  0.0,-3.0, true,6, 0,-360,360, -85, 5
+
+;Target acquisition radar
+AddTurretWeapon = UHF_radar, 0.0, 4.6, -1.558, 0.0, 0.0, false, 5
+
+AddRecipe = " I ",  "XXX",  "III",  X, iron_block,  I, iron_ingot

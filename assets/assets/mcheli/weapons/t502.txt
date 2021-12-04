@@ -1,0 +1,16 @@
+DisplayName = ¿ÕµØµ¼µ¯
+Type = ASMissile
+Power = 120
+Acceleration = 4.2
+Explosion = 21
+Flaming = true
+Sight = MoveSight
+Delay = 200
+ModelBullet = agm84
+Sound = missile_2_snd
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

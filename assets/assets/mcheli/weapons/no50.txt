@@ -1,0 +1,19 @@
+DisplayName = No50 500kg bomb
+Type = Bomb
+Power = 55
+Acceleration = 0.1
+Explosion = 6
+ExplosionInWater = 2
+Flaming = true
+Sight = None
+Delay = 5
+
+ReloadTime = 250
+Round = 1
+
+Piercing  = 2
+
+MaxAmmo = 12
+SuppliedNum = 3
+Item =  4, iron_ingot
+Item =  1, gunpowder

@@ -1,0 +1,17 @@
+DisplayName = BGM-71A "TOW"
+Type = TVMissile
+Power = 260
+Acceleration = 2.0
+LockTime = 20
+Explosion = 2
+Flaming = true
+Sight = MoveSight
+Delay = 20
+ModelBullet = 9M113
+Sound = missile_2_snd
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

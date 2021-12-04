@@ -1,0 +1,77 @@
+﻿DisplayName = PZL-230F
+AddDisplayName = ja_JP, PZL-230F
+ItemID = 91201
+MaxHp = 100
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 1.2
+FlareType = 3
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+CameraPosition = 0.0, 0.70, -2.18
+EnableGunnerMode = true
+AutoPilotRot = 0
+ThirdPersonDist = 20
+HUD = plane
+ThrottleUpDown = 0.3
+
+MobilityRoll = 2.5
+MobilityPitch = 9.5
+
+AddSeat = 0.0,  1.9,  1.7
+
+EntityWidth  = 0.7
+EntityHeight = 0.7
+
+AddPartCanopy =  0.0, 3.3072, 0.3404,  -1,0,0,  50
+
+AddPartThrottle = 0.0, 2.4, -13.2,  0,0,0,  0, 0,0,0.165
+
+AddPartLG    =  0.0, 1.5, 1.5,    -1,0,0,  90
+AddPartLG    =  0.0, 1.2, 2.7,     1,0,0,  45
+AddPartLG    = -0.1979, 1.0734, 2.6,    0,0, 1,  120
+AddPartLG    =  0.1979, 1.0734, 2.6,    0,0,-1,  120
+AddPartLG    =  0.0, 1.3, -2.5,     1,0,0,  115
+AddPartLG    =  0.0, 1.3, -4.2,    -1,0,0,  40
+AddPartLG    = -2.1672, 1.0725, -1.9,    0,0, -1,  110
+AddPartLG    =  2.1672, 1.0725, -1.9,    0,0,  1,  110
+AddPartLG    = -2.5234, 1.1353, -2.8,    0,0,  1,  90
+AddPartLG    =  2.5234, 1.1353, -2.8,    0,0, -1,  90
+
+AddWeapon = GAU-12(PZL),    0.97, 1.4,  0.8,   0.0, 0.0
+
+AddPartWeaponMissile = R-73(PZL),      false,  false,  false,    -4.11, 1.47, -2.0
+AddPartWeaponMissile = R-73(PZL),      false,  false,  false,     4.11, 1.47, -2.0
+AddPartWeaponMissile = R-73(PZL),      false,  false,  false,    -3.61, 1.37, -2.0
+AddPartWeaponMissile = R-73(PZL),      false,  false,  false,     3.61, 1.37, -2.0
+AddPartWeaponMissile = R-73(PZL),      false,  false,  false,    -3.11, 1.27, -2.0
+AddPartWeaponMissile = R-73(PZL),      false,  false,  false,     3.11, 1.27, -2.0
+AddPartWeaponMissile = R-77(PZL),      false,  false,  false,    -1.67, 0.88, -1.0
+AddPartWeaponMissile = R-77(PZL),      false,  false,  false,     1.67, 0.88, -1.0
+AddPartWeaponMissile = Kh-31A(PZL),      false,  false,  false,  -0.73, 0.39,  0.0
+AddPartWeaponMissile = Kh-31A(PZL),      false,  false,  false,   0.73, 0.39,  0.0
+
+AddWeapon = R-73(PZL),     -4.11, 1.47, -2.0,   0.0, 0.0
+AddWeapon = R-73(PZL),      4.11, 1.47, -2.0,   0.0, 0.0
+AddWeapon = R-73(PZL),     -3.61, 1.37, -2.0,   0.0, 0.0
+AddWeapon = R-73(PZL),      3.61, 1.37, -2.0,   0.0, 0.0
+AddWeapon = R-73(PZL),     -3.11, 1.27, -2.0,   0.0, 0.0
+AddWeapon = R-73(PZL),      3.11, 1.27, -2.0,   0.0, 0.0
+AddWeapon = R-77(PZL),     -1.67, 0.88, -1.0,   0.0, 0.0
+AddWeapon = R-77(PZL),      1.67, 0.88, -1.0,   0.0, 0.0
+AddWeapon = Kh-31A(PZL),   -0.73, 0.39,  0.0,   0.0, 0.0
+AddWeapon = Kh-31A(PZL),    0.73, 0.39,  0.0,   0.0, 0.0
+
+MaxFuel         = 1400
+FuelConsumption = 1.0
+
+AddRecipe = " Y ",  "XXX",  "DXD",  X, iron_block, Y, glass, D, diamond_block
+
+BoundingBox =  0.0, 1.7, 4.7,  1.0, 1.0
+BoundingBox =  0.0, 2.0, 3.3,  1.2, 1.7
+BoundingBox =  0.0, 2.0, 1.5,  1.5, 2.0
+BoundingBox =  0.0, 1.5, -2.0,  3.0, 1.0
+BoundingBox =  0.0, 1.5, -4.8,  3.0, 1.0
+BoundingBox = -3.0, 1.5, -4.0,  3.0, 1.0
+BoundingBox =  3.0, 1.5, -4.0,  3.0, 1.0

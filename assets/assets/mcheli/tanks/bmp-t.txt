@@ -1,0 +1,92 @@
+DisplayName = BMP-T
+AddDisplayName = en_US, BMP-T
+AddDisplayName = ja_JP, BMP-T
+ItemID = 191919
+MaxHp = 150
+Speed = 0.8
+Sound = mbtrun
+ThrottleUpDown = 10.0
+MinRotationPitch = -50
+MaxRotationPitch =  20
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = 0.1
+DamageFactor = 0.0
+EnableNightVision = true
+DefaultFreelook = true
+CameraRotationSpeed = 26
+SubmergedDamageHeight = 4
+OnGroundPitchFactor = 3.0
+OnGroundRollFactor  = 3.0
+
+HideEntity = true
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+MobilityYawOnGround = 3.0
+
+HUD = mbt_hud
+
+AddSeat =  0.00,  1.25, 0.00
+
+MotionFactor = 0.9
+
+SetWheelPos =  1.75,  -0.24,  3.02, 1.44, -1.54, -2.91
+
+AddCrawlerTrack = false, 0.30, 1.00,  -0.22/2.98, 0.33/3.85, 0.54/4.06, 0.81/4.06, 1.02/3.87, 1.02/3.59, 1.02/-2.92, 1.02/-3.19, 0.81/-3.39, 0.54/-3.39, 0.35/-3.21, -0.22/-2.34
+AddCrawlerTrack = false, 0.30, -1.00,  -0.22/2.98, 0.33/3.85, 0.54/4.06, 0.81/4.06, 1.02/3.87, 1.02/3.59, 1.02/-2.92, 1.02/-3.19, 0.81/-3.39, 0.54/-3.39, 0.35/-3.21, -0.22/-2.34
+
+AddTrackRoller = 1.30,   0.68,  -3.06
+AddTrackRoller = 1.30,   0.22,  -2.16
+AddTrackRoller = 1.30,   0.22,  -1.13
+AddTrackRoller = 1.30,   0.22,  -0.10
+AddTrackRoller = 1.30,   0.22,   0.92
+AddTrackRoller = 1.30,   0.22,   1.86
+AddTrackRoller = 1.30,   0.22,   2.80
+AddTrackRoller = 1.30,   0.68,   3.72
+
+AddTrackRoller = -1.30,   0.68,  -3.06
+AddTrackRoller = -1.30,   0.22,  -2.16
+AddTrackRoller = -1.30,   0.22,  -1.13
+AddTrackRoller = -1.30,   0.22,  -0.10
+AddTrackRoller = -1.30,   0.22,   0.92
+AddTrackRoller = -1.30,   0.22,   1.86
+AddTrackRoller = -1.30,   0.22,   2.80
+AddTrackRoller = -1.30,   0.68,   3.72
+
+AddWeapon = 2A42_30mmHEI,  0.13, 2.63, 0.0,  0.0, 0.0, true,1, 0,-360,360, -45, 5
+AddWeapon = 2A42_30mmHEI,  -0.13, 2.63, 0.0,  0.0, 0.0, true,1, 0,-360,360, -45, 5
+AddWeapon = 2A42_30mmAPDS,  0.13, 2.63, 0.0,  0.0, 0.0, true,1, 0,-360,360, -45, 5
+AddWeapon = 2A42_30mmAPDS,  -0.13, 2.63, 0.0,  0.0, 0.0, true,1, 0,-360,360, -45, 5
+AddWeapon = PKT_7.62mm,  0.00, 2.82, 0.0,  0.0, 0.0, true,1, 0,-360,360, -45, 5
+AddWeapon = 9M120_HEAT,  1.15, 2.80,  0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
+AddWeapon = 9M120_HEAT,  1.15, 2.50,  0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
+AddWeapon = 9M120_HEAT,  -1.15, 2.80, -0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
+AddWeapon = 9M120_HEAT,  -1.15, 2.50, -0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
+AddWeapon = 9M120_HIT,  1.15, 2.80,  0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
+AddWeapon = 9M120_HIT,  1.15, 2.50,  0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
+AddWeapon = 9M120_HIT,  -1.15, 2.80, -0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
+AddWeapon = 9M120_HIT,  -1.15, 2.50, -0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
+AddPartWeapon = 2A42_30mmHEI, false, true, false,  0.00, 2.63, 0.0, 0
+AddPartWeaponChild = false, true, 0.00, 2.63, 0.0
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+ArmorMinDamage = 2
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+ArmorMaxDamage = 1000
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+ArmorDamageFactor = 1.00
+
+MaxFuel         = 1200
+FuelConsumption = 2.0
+
+BoundingBox =  0.0, 2.64, 0.0,  3.10, 1.83
+BoundingBox =  0.0, 0.79, -1.75, 4.30, 1.59
+BoundingBox =  0.0, 0.79, 2.26, 4.30, 1.59
+
+StepHeight = 1.5

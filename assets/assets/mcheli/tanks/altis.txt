@@ -1,0 +1,77 @@
+﻿DisplayName = TOYOTA COROLLA 2014 
+AddDisplayName = ja_JP, TOYOTA COROLLA 2014 
+AddDisplayName = en_US, Toyota Corolla 2014 
+ItemID = 28745
+MaxHp = 100
+ThrottleUpDown = 10.0
+Speed = 0.9
+MobilityYawOnGround = 5.0
+StepHeight = 1.2
+Sound = bm
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 4
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 1.0
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+ThirdPersonDist = 8
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
+AddTexture = altisr
+AddTexture = altisbla
+;AddTexture = altisng
+AddTexture = altisy
+
+;後退可能にする
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+; Tank or Car or Unknown
+WeightType = Car
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.05,  -0.24,  1.965, -1.789
+
+HUD = bnr32_hud, none
+
+AddPartSteeringWheel =   -0.7418, 1.10, 1.133,   0.0, -0.4, 1,  -100
+
+AddSeat =  -0.6854,  0.3, 0.3811
+AddSeat =  0.6854,  0.3, 0.3811
+AddSeat = -0.6854,  0.3, -1.234
+AddSeat =  0.00,  0.3, -1.234
+AddSeat =  0.6854,  0.3, -1.234
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.2
+
+; タイヤの回転スピード
+PartWheelRot = 40
+; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
+AddPartWheel     = -1.153,  0.1786,  2.097, 30
+AddPartWheel     =  1.153,  0.1786,  2.097, 30
+AddPartWheel     =  0.00,  0.1786, -2.147
+
+AddPartCanopy =  -1.378, 0.5731, 1.455,  0,1,0,  70
+
+AddPartHatch    =    1.378, 0.5731, 1.455,   0,1,0,   -70
+AddPartHatch    =     -1.378, 0.5731, -0.3075,   0,1,0,   70
+AddPartHatch    =     1.378, 0.5731, -0.3075,   0,1,0,   -70
+AddPartHatch    =     0.00,   1.32, -2.819, 1,0,0,   90
+
+InventorySize = 35
+
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+
+;ヘッドライト
+AddFixedSearchLight =  0.7758, 0.7832, 3.0392,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight = -0.7758, 0.7832, 3.0392,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+EntityWidth  = 0.85
+EntityHeight = 0.85

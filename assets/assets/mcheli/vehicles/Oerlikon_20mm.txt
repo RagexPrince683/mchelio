@@ -1,0 +1,29 @@
+﻿DisplayName = Oerlikon 20mm gun
+AddDisplayName = ja_JP, エリコン 20mm機関砲
+ItemID = 28601
+MaxHp = 50
+HideEntity = true
+MinRotationPitch = -75
+MaxRotationPitch =  8
+CameraPosition = 0.0, 1.1, 0.0
+
+DamageFactor = 1.0
+
+; M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+HUD = vehicle
+
+AddSeat = 0.0, 0.5, -1.2
+
+; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
+;脚
+AddPart      = true, true, false, 0,   0.0, 0.0, 0.0
+;本体
+AddChildPart = false,false,true,  0,   0.0, 0.7663, -0.3456
+;砲身
+AddChildPart = false,false,true,  2,   0.0, 0.7663, -0.3456, 0.1
+
+AddTurretWeapon = Oerlikon_20mm, 0.0, 0.7663, -0.3456,   0.0, 0.0,   true,1, 0,-360,360, -75, 8
+
+AddRecipe = "IIF",  "DDD",  "XXX",  X, Iron_Block, I, Iron_Ingot, D, Dispenser, F, Flint_and_Steel

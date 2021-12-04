@@ -1,0 +1,19 @@
+DisplayName = 30mm Machine gun
+Type = MachineGun1
+Power = 19
+Acceleration = 4.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+;SoundDelay = 3
+;Accuracy = 2.0
+HeatCount = 5
+MaxHeatCount = 150
+ReloadTime = 40
+Round = 45
+
+MaxAmmo = 240
+SuppliedNum = 120
+Item =  4, iron_ingot
+Item =  3, gunpowder

@@ -1,0 +1,20 @@
+DisplayName = 3BK18M[HEAT]
+Type = MachineGun2
+Power = 550
+ModelBullet = 3bk18m
+Acceleration = 8.0
+Explosion = 1
+ExplosionBlock = 1
+Flaming = false
+Sight = MoveSight
+Delay = 170
+ModeNum = 1
+SoundPitch = 0.5
+SoundVolume = 20
+Sound = cannon_3_snd
+group = maingun
+
+MaxAmmo = 30
+SuppliedNum = 15
+Item =  3, iron_ingot
+Item =  2, gunpowder

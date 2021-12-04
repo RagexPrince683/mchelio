@@ -1,0 +1,20 @@
+DisplayName = 20mm Machinegun [Front]
+Type = MachineGun1
+Power = 16
+Acceleration = 5.0
+Explosion = 1
+ExplosionBlock = 0
+Flaming = false
+Sight = None
+Delay = 2
+SoundVolume = 5
+HeatCount = 5
+MaxHeatCount = 100
+Sound = gun_l4_snd
+Accuracy = 2.0
+
+MaxAmmo = 800
+SuppliedNum = 200
+Item =  2, iron_ingot
+Item =  2, gunpowder
+

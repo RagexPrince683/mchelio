@@ -1,0 +1,43 @@
+DisplayName = Front 38cm Guns
+Type = MachineGun1
+ModelBullet = b1
+Power = 500
+Acceleration = 38
+AccelerationInWater = 12.0
+Explosion = 30
+ExplosionBlock = 19
+ExplosionInWater = 15
+Flaming = true
+Sight = None
+Delay = 0
+ReloadTime = 800
+SoundPitch = 0.08
+SoundVolume = 200
+Sound = cannon_4_snd
+Gravity = -0.05
+DamageFactor = helicopter, 2.0
+DamageFactor = plane,      2.0
+DamageFactor = vehicle,    1.0
+DamageFactor = tank,       1.0
+Recoil = 0.2
+
+; AddMuzzleFlash = distance, bigness, life time,  A,  R,  G,  B
+AddMuzzleFlash      =           14.5,   10.10,        27,  220,254,159,74
+AddMuzzleFlash      =           14.0,   9.05,        20,  220,254,219,104
+AddMuzzleFlash      =           13.5,   4.00,        18,  220,254,219,184
+AddMuzzleFlash      =           13.0,   2.0,        8,  220,254,219,184
+; AddMuzzleFlashSmoke = Distance from source, number of displays, size, range, display time,  A,  R,  G,  B
+AddMuzzleFlashSmoke   =             13.5,     30,   8.0,  7.0,       105,  230,160,140,120
+AddMuzzleFlashSmoke   =             15.6,     30,   10.0,  4.0,       115,  240,190,170,150
+AddMuzzleFlashSmoke   =             16.7,     40,   11.0,  2.0,       125,  250,190,170,150
+
+
+DisplayMortarDistance = true
+
+; RecoilBufCount = Time to for barrel to get to normal position after recoil
+RecoilBufCount = 70, 4
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  2, gunpowder

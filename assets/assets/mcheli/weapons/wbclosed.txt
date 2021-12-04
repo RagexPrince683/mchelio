@@ -1,0 +1,2 @@
+DisplayName = Weaponbay closed
+Type = Dummy

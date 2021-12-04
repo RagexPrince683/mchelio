@@ -1,0 +1,22 @@
+DisplayName = SD 50 Semi-AP Bomb
+Type = Bomb
+Power = 30
+Acceleration = 0.2
+Explosion = 3
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 6
+Sound = bomb_snd
+
+Piercing = 1
+
+ReloadTime = 200
+Round = 6
+
+ModelBullet = type3_15_5
+
+MaxAmmo = 12
+SuppliedNum = 6
+Item =  3, iron_ingot
+Item =  3, gunpowder

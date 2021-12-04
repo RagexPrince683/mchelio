@@ -1,0 +1,22 @@
+DisplayName = Taurus KEPD 350
+Type = TVMissile
+Power = 1000
+Acceleration = 2.0
+Explosion = 15
+Sight = MoveSight
+Delay = 110
+Piercing = 5
+Round = 12
+ModeNum = 2
+ModelBullet = Taurus
+Sound = missile_1_snd
+DisableSmoke = true
+Particle = largeexplode
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  5, iron_ingot
+Item =  10, gunpowder
+Item =  5, redstone

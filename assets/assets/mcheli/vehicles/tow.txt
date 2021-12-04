@@ -1,0 +1,26 @@
+﻿DisplayName = BGM-71 TOW
+AddDisplayName = ja_JP, BGM-71 TOW
+ItemID = 30035
+MaxHp = 50
+CameraZoom = 3
+AddSeat = 0,0,0
+CameraPosition = 0,  1.7,  0
+HideEntity = true
+
+DamageFactor = 1.0
+
+; M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+HUD = vehicle
+
+RotationPitchMin = -25
+RotationPitchMax =  25
+
+AddPart = true,true,true,0, 0, 1 , 0
+AddPart = true,true,false,0, 0, 0, 0
+
+AddWeapon =  bgm-71,  0,1,0
+
+
+Boundingbox = 0.00,  1.10,  0.00,  0.7, 1.0

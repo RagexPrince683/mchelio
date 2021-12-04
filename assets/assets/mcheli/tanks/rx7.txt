@@ -1,0 +1,89 @@
+DisplayName = Mazda RX-7FC
+AddDisplayName = en_US, Mazda RX-7FC
+AddDisplayName = ja_JP, マツダ RX-7FC
+ItemID = 28745
+MaxHp = 100
+ThrottleUpDown = 10.0
+Speed = 0.8
+MobilityYawOnGround = 5.0
+StepHeight = 1.2
+Sound = prop
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 1.0
+EnableNightVision = true
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+
+AddTexture = rx7
+AddTexture = rx7_bk
+AddTexture = rx7_w
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
+
+EntityWidth  = 0.7
+EntityHeight = 0.7
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+;後退可能にする
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+; Tank or Car or Unknown
+WeightType = Car
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.05,  -0.24,  1.965, -1.789
+
+HUD = bnr32_hud, none
+
+AddSeat = -0.54,   0.01, -0.25
+AddSeat =  0.54,   0.01, -0.25
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.1
+
+; タイヤの回転スピード
+PartWheelRot = 40
+; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
+AddPartWheel     = -1.07,  0.13,  1.87, 30
+AddPartWheel     =  1.07,  0.13,  1.87, 30
+AddPartWheel     = -1.07,  0.13,  -1.63, 0
+AddPartWheel     =  1.07,  0.13,  -1.63, 0
+
+AddPartSteeringWheel =  -0.54,  0.72,  0.57,  0.0, 0.0, -1.73,   130
+
+AddPartThrottle = -0.53, 0.84, 0.70,  0,0,1, 220
+AddPartThrottle = -0.40, 0.80, 0.70,  0,0,1, 175
+
+AddPartCanopy    =    1.23,   0.62,   0.90,   0,1,0,   -60
+AddPartCanopy   =   -1.23,   0.62,   0.90,   0,1,0,   60
+AddPartCanopy   =    1.23,   0.62,   0.90,   0,1,0,   -60
+AddPartCanopy   =   -1.23,   0.62,   0.90,   0,1,0,   60
+AddPartCanopy = 0,0,0, 0,0,0, 0
+
+InventorySize = 9
+
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, gold_ingot, R, redstone
+
+;ヘッドライト
+AddFixedSearchLight =  0.73, 0.72, 2.50,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight = -0.73, 0.72, 2.50,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+AddPartLightHatch =  0.00, 0.735, 2.61,   1,0, 0, -41.5
+
+;テールランプ
+AddFixedSearchLight =  0.86, 0.55,-2.88,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+AddFixedSearchLight =  0.64, 0.55,-2.88,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+AddFixedSearchLight = -0.86, 0.55,-2.88,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+AddFixedSearchLight = -0.64, 0.55,-2.88,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+

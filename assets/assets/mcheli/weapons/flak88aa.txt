@@ -1,0 +1,36 @@
+DisplayName = 88mm AA Shell
+Type = Rocket
+Power = 25
+ModelBullet = 88mm
+Acceleration = 35
+Explosion = 2
+ExplosionBlock = 1
+Flaming = false
+Sight = MoveSight
+Delay = 80
+ReloadTime = 50
+Round = 5
+Bomblet = 30
+BombletDiff = 2.0
+DisableSmoke = true
+Sound = rocket_snd
+DamageFactor = helicopter, 4.0
+DamageFactor = plane,      4.0
+RecoilBufCount = 40, 5
+
+
+SetCartridge = 800mmcartridge, 0.8,  90, 15, 0.11, -0.05, 0.5
+
+
+TrajectoryParticle = smoke
+TrajectoryParticleStartTick = 0
+
+DisplayMortarDistance = true
+
+RecoilBufCount = 25, 5
+
+MaxAmmo = 20
+SuppliedNum = 3
+Item =   1, iron_ingot
+Item =  2, gunpowder
+Item =   1, redstone

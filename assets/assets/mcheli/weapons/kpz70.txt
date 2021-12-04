@@ -1,0 +1,118 @@
+DisplayName = KPz.70
+MaxHp = 350
+Speed = 1.0
+Sound = tank_gte
+ThrottleUpDown = 25.0
+MobilityYawOnGround = 3.0
+MinRotationPitch = -50
+MaxRotationPitch = 20
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 3
+CameraPosition = 0.00,  2.90, 1.02
+EnableNightVision = true
+CameraRotationSpeed = 40
+;EnableEntityRadar = false
+MaxFuel         = 1200
+FuelConsumption = 3.0
+StepHeight = 1.5
+DefaultFreelook = true
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.3
+FlareType = 10
+
+; 指定した高さまでの水に触れてもダメージを受けない
+; 2であれば2ブロックまでダメージ無し
+SubmergedDamageHeight = 3
+
+HideEntity = true
+
+AddTexture = kpz70_1
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+; 重心Z座標設定
+WeightedCenterZ = 0.0
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+
+HUD = mbt_hud, mbt_gnr
+
+AddGunnerSeat =  0.00,  2.60,  0.90,    0.00,  2.60,  0.90,  false, -90, 90, true
+AddGunnerSeat =  0.00, 0.80, 0.00,    1.40,  3.80,  -0.80,  false, -90, 90, true
+
+; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
+MotionFactor = 0.9
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+ArmorMinDamage = 12
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+ArmorMaxDamage = 500
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+ArmorDamageFactor = 0.95
+;後退可能にする
+EnableBack = true
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.0
+;AddCrawlerTrack = 履帯の表裏逆転,  1つの履帯の間隔, 履帯のXの位置, 履帯の回転ポイントY/Z, 履帯の回転ポイントY/Z, 履帯の回転ポイントY/Z, ...
+;転輪がなくても動作する
+AddCrawlerTrack = false, 0.37, -2.20,  1.22/ -5.25,  1.17/ -5.35,   0.80/ -5.45,  0.60/ -5.35, -0.10/-4.30, -0.23/ -3.94,  -0.23/  2.44,  0.38/3.87,   0.63/ 4.11,  0.96/ 4.11,  1.25/ 3.70
+AddCrawlerTrack = false, 0.37,  2.20,  1.22/ -5.25,  1.17/ -5.35,   0.80/ -5.45,  0.60/ -5.35, -0.10/-4.30, -0.23/ -3.94,  -0.23/  2.44,  0.38/3.87,   0.63/ 4.11,  0.96/ 4.11,  1.25/ 3.70 
+
+
+; 転輪の回転速度：0より小さい値を設定すると逆回転する
+;TrackRollerRot = 30
+
+;転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
+;履帯と同じ動きをするが、履帯がなくても設定可能
+AddTrackRoller = -1.87,  0.81,  3.70
+AddTrackRoller = -1.87,  0.18,  2.22
+AddTrackRoller = -1.87,  0.18,  1.02 
+AddTrackRoller = -1.87,  0.18, -0.24
+AddTrackRoller = -1.87,  0.18, -1.45
+AddTrackRoller = -1.87,  0.18, -2.61
+AddTrackRoller = -1.87,  0.18, -3.78
+AddTrackRoller = -1.87,  0.81, -5.14
+
+AddTrackRoller = 1.87,  0.81,  3.70
+AddTrackRoller = 1.87,  0.18,  2.22
+AddTrackRoller = 1.87,  0.18,  1.02 
+AddTrackRoller = 1.87,  0.18, -0.24
+AddTrackRoller = 1.87,  0.18, -1.45
+AddTrackRoller = 1.87,  0.18, -2.61
+AddTrackRoller = 1.87,  0.18, -3.78
+AddTrackRoller = 1.87,  0.81, -5.14
+
+
+;主砲
+AddPartWeapon = kpz70_apfsds / kpz70_heat / kpz70_atgm, false, true, false,  0.00, 2.00, 0.00, 0
+AddPartWeaponChild = false, true, 0.00, 2.00, 2.40, 0.0
+AddPartWeaponChild = false, true, 0.00, 2.00, 2.40, 0.5
+AddTurretWeapon =kpz70_apfsds, 0.00, 2.00, 3.06,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = kpz70_heat, 0.00, 2.00, 3.06,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = kpz70_atgm, 0.00, 2.00, 3.06,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = kpz70_7.62mm,   -0.26, 1.90, 2.80,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+
+;機銃（土台）
+AddPartTurretWeapon    = kpz70_20mm,  false, true, false, 1.40, 2.45, -0.80
+;機銃
+AddPartTurretWeapon    = kpz70_20mm,  true, true, true, 1.40, 3.10, -0.80
+AddTurretWeapon    = kpz70_20mm, 1.40, 3.10, -0.80,  0.0, 0.0, false,  2, 0, -360,360, -80,10
+
+;RideRack = 乗る機体名, ラック番号 (1～) 
+RideRack = c5, 1
+RideRack = c5, 2
+
+BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25

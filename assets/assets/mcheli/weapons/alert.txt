@@ -1,0 +1,7 @@
+DisplayName = WARNING ALERT
+Type = MachineGun1
+Power = 0
+Sight = None
+Delay = 200
+ModelBullet = dummy
+Sound = alert_snd

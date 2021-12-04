@@ -1,0 +1,62 @@
+DisplayName = UH60JA Utility helicopter
+AddDisplayName = ja_JP, UH60JA 多用途ヘリコプター
+ItemID = 28838
+MaxHp = 100
+EnableGunnerMode = false
+EnableFoldBlade = true
+EnableNightVision = true
+EnableEntityRadar = true
+Speed = 0.65
+ThrottleUpDown = 0.8
+FlareType = 3
+CameraPosition = 0.6, 0.3, 2.87
+MaxFuel         = 1500
+FuelConsumption = 1.0
+
+; M = Military(軍用機).  M = Multi-Mission(多目的機)
+Category = M.M
+
+AddTexture = uh-60ja_1
+
+HUD = heli, heli_gnr, none, none, none, none, none, none, none
+
+MobilityYaw = 0.9
+MobilityPitch = 0.9
+MobilityRoll = 0.9
+
+AddPartCamera = 0.6, 0.33, 2.87
+
+AddRotor= 4, 90,  0.00,  3.98, -2.33,   0.0, 1.0, 0.0, true
+AddRotor= 1,  0, -0.60,  4.07, -14.57,  1.0, 0.0, 0.0, false
+
+; seat 1,2
+AddSeat       =-0.85,  0.90,  1.30
+AddGunnerSeat = 0.85,  0.90,  1.30,    0.6, 0.3, 2.9,  true
+; other seat
+
+AddSeat =  0.95,  0.90,  0.15
+AddSeat = -0.95,  0.90,  0.15
+AddSeat =  0.95,  0.90, -0.71
+AddSeat = -0.95,  0.90, -0.71
+
+AddSeat = 0.87,  0.90, -3.62
+AddSeat = 0.00,  0.90, -3.62
+AddSeat =-0.87,  0.90, -3.62
+
+AddRepellingHook =  1.64, 2.05, -2.30, 30
+AddRepellingHook = -1.64, 2.05, -2.30, 30
+
+AddPartSlideHatch =   0.083,  0.00, -2.11
+AddPartSlideHatch =  -0.083,  0.00, -2.11
+
+AddRecipe = " X ",  "X X",  "IXI",  X, iron_block, I, iron_ingot
+
+InventorySize = 27
+
+; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range, ParaAlt
+AddRack = container,      0.67, 1.1, -1.95,   1.0, 0.0, -2.0,   12.0,   40
+AddRack = container,     -0.67, 1.1, -1.95,  -1.0, 0.0, -2.0,   12.0,   40
+
+BoundingBox =  0.0, 2.3, -2.0,  2.8, 3.8
+BoundingBox =  0.0, 1.8, -4.5,  2.8, 2.4
+BoundingBox =  0.0, 3.5,-14.5,  2.0, 3.0

@@ -1,0 +1,115 @@
+﻿DisplayName = J-20 Firefang
+AddDisplayName = zh_CN, J20 威龙 
+ItemID = 4181
+MaxHp = 100
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 1.2
+FlareType = 3
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 1400
+FuelConsumption = 1.0
+Stealth = 0.3
+CameraPosition = 0.0, 0.55, -2.18
+ThrottleUpDown = 0.3
+
+EnableGunnerMode = true
+AutoPilotRot = 0
+
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+
+MobilityRoll = 2.5
+MobilityPitch = 9.5
+
+
+HUD = plane
+
+
+AddSeat = 0.00,  2.75,  0.2775
+
+
+
+AddPartCanopy =  0.00, 3.97, -1.700,  -1,0,0,60
+
+
+AddTexture = j20_1
+
+AddPartLG    =  0.00,  1.4055,  -3.1139,    -1, 0, 0,  92
+AddPartLGRev =  0.00,  1.4055,  -3.1139,    1, 0, 0,  30
+AddPartLGRev =  0.2723,  1.5221,  -1.379,    0.011, 0.05, 1.0,  90
+
+AddPartLG    =  0,  -0.05,  0,    0, 0, 1.0,  53
+AddPartLGRev =  2.1289,  2.3865,  -10.2911,    0, 0, 1,  55
+
+
+AddPartLG    =  0,  -0.05,  0,    0, 0, 1.0, -53
+AddPartLGRev =  -2.1289,  2.3365,  -10.2911,    0, 0, 1,  -55
+
+
+AddPartSteeringWheel =  2.7568,  3.0615,  -17.4379,  0.0, 1.0, 0,   -25
+AddPartSteeringWheel =  -2.7568,  3.0615,  -17.4379,  0.0, 1.0, 0,   -25
+
+
+AddPartSteeringWheel =  6.8427,  2.5646,  -15.8312,  -1.0, 0.1, -0.1666,   -30
+AddPartSteeringWheel =  -6.8427,  2.5646,  -15.8312,  1.0, 0.1, -0.1666,   -30
+
+AddPartThrottle =  2.4917, 2.9579, -3.9433,  1,0,0.00, -17
+AddPartThrottle = -2.4917, 2.9579, -3.9433,  1,0,0.00, -17
+
+AddPartHatch =   4.0758, 2.7532, -15.9390,  1,0,0.25, -25
+AddPartHatch =   -4.0758, 2.7532, -15.9390,  1,0,-0.25, -25
+
+;AddPartThrottle =  0, 0, 0,    0, 0, 0,      0,       0, 0, -3.9504 
+
+
+
+AddPartWeaponBay = pl-9 ,  1.2428,  1.3144, -6.3984,    0.000, 0, 1.000,  80
+AddPartWeaponBay = pl-9 ,  -0.75, -0.20, -6.40,          0.0, 0.05, -1, 30
+AddPartWeaponBay = pl-9 , -1.2428,  1.3144, -6.3984,    0.000, 0, 1.000, -80
+AddPartWeaponBay = pl-9 ,  0.75, -0.20, -6.40,           0.0, 0.05, -1,  -30
+
+AddPartWeaponBay = pl-12,                2.1442,  2.4731, -6.1681,    0.000,  0.000, 1.000,  75
+AddPartWeaponBay = pl-12,                -2.1442,  2.4731, -6.1681,   0.000,  0.000, 1.000,  -75
+
+
+AddPartWeaponBay = pl-12,                1.4478,  1.6491, -7.1151,   0.05,  -0.11, 1.000,  -35
+AddPartWeaponBay = pl-12,               -1.4478,  1.6491, -7.1151,   -0.05,  -0.11, 1.000, 35
+
+
+AddPartWeaponMissile = pl-9,      false,  false,  false,    0.84, 1.27, -7.28 
+AddPartWeaponMissile = pl-9,      false,  false,  false,   -0.84, 1.27, -7.28
+AddPartWeaponMissile = pl-9,      false,  false,  false,    0.84, 1.27, -7.28
+AddPartWeaponMissile = pl-9,      false,  false,  false,   -0.84, 1.27, -7.28
+
+AddPartWeaponMissile = pl-12,      false,  false,  false,    1.72, 1.53, -6.72
+AddPartWeaponMissile = pl-12,      false,  false,  false,   -1.72, 1.53, -6.72
+
+AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.0,    0.0, 0.0
+AddWeapon = gsh-23-2,    -1.74, 2.45, -5.56,   0.0, 0.0
+AddWeapon = pl-12,        1.72, 1.53, -6.72,   0.0, 0.0
+AddWeapon = pl-12,       -1.72, 1.53, -6.72,   0.0, 0.0
+AddWeapon = pl-9,      0.84, 1.27, -7.28,   0.0, 0.0
+AddWeapon = pl-9,     -0.84, 1.27, -7.28,   0.0, 0.0
+AddWeapon = pl-9,      0.84, 1.27, -7.28,   0.0, 0.0
+AddWeapon = pl-9,     -0.84, 1.27, -7.28,   0.0, 0.0
+
+
+
+
+BoundingBox =  0.00, 2.70, 0.30,  2.3, 2.3
+BoundingBox =  0.00, 2.70, 2.20,  1.8, 2.3
+
+BoundingBox =  0.00, 2.50, -4.20,  5.5, 2.5
+
+BoundingBox =  0.00, 2.30, -9.8,  4.0, 2.6
+BoundingBox =  0.00, 2.30, -12.8,  4.0, 2.6
+
+BoundingBox = -2.92, 2.30, -12.60,  5.1, 1.1
+BoundingBox =  2.92, 2.30, -12.60,  5.1, 1.1
+
+
+BoundingBox =  0.00, 2.30, -15.5,  3.7, 2.5
+

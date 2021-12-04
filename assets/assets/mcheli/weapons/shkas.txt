@@ -1,0 +1,20 @@
+DisplayName = ShKAS 7.62mm
+Type = MachineGun1
+Power = 6
+Acceleration = 8.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+;SoundDelay = 3
+;Accuracy = 2.0
+HeatCount = 1
+MaxHeatCount = 150
+SoundPitch = 0.5
+Sound = mac1934_snd
+Gravity = -0.04
+
+MaxAmmo = 400
+SuppliedNum = 100
+Item =  2, iron_ingot
+Item =  2, gunpowder

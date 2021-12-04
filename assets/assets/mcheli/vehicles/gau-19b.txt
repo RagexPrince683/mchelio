@@ -1,0 +1,28 @@
+﻿DisplayName = GAU-19/b
+AddDisplayName = ja_JP, GAU-19/b 12.7mmガトリング
+ItemID = 30032
+MaxHp = 50
+EnableNightVision = true
+EnableEntityRadar = false
+HideEntity = true
+RotationPitchMin = -50
+RotationPitchMax =  10
+DamageFactor = 1.0
+CameraZoom = 3
+CameraPosition = 0.00,  1.57, 0.00
+
+; M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+HUD = vehicle
+
+AddSeat = 0.00,  1.57, 0.00
+
+AddPart = true, true, false, 0, 0.00, 0.00, 0.0
+AddPart = true,true, true,  0, 0.00, 0.97, 0.0
+AddChildPart = true, false,false, 1,  0.00, 0.97, 0.00
+
+AddWeapon = gau-19,  0.00, 1.02, 1.04,   0.0, -1.0
+
+BoundingBox =  0.00, 0.60,  0.00,  0.5, 1.5
+

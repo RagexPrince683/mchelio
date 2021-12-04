@@ -1,0 +1,22 @@
+DisplayName = T1 G7a
+Type = Torpedo
+Power = 600
+ModelBullet = g7a
+Acceleration = 1.0
+AccelerationInWater = 2.0
+Explosion = 0
+ExplosionInWater = 10
+Flaming = false
+Sight = None
+Delay = 10
+GuidedTorpedo = false
+Gravity = -0.10
+GravityInWater = 0
+ReloadTime = 600
+Round = 4
+
+MaxAmmo = 18
+SuppliedNum = 1 
+Item =  1, iron_ingot
+Item =  5, gunpowder
+Item =  1, redstone

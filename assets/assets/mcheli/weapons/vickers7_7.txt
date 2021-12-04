@@ -1,0 +1,18 @@
+DisplayName = Vickeres 7.7mm machine gun
+Type = MachineGun1
+Power = 10
+Acceleration = 8.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 2
+SoundDelay = 2
+Accuracy = 1.5
+HeatCount = 1
+MaxHeatCount = 100
+SoundPitch = 0.5
+
+MaxAmmo = 200
+SuppliedNum = 100
+Item =  2, iron_ingot
+Item =  2, gunpowder

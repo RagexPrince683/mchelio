@@ -1,0 +1,19 @@
+DisplayName = 13.2mm Machine gun
+Type = MachineGun2
+Power = 18
+Acceleration = 4.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+;SoundDelay = 3
+;Accuracy = 2.0
+HeatCount = 5
+MaxHeatCount = 150
+ReloadTime = 40
+Round = 45
+
+MaxAmmo = 200
+SuppliedNum = 100
+Item =  3, iron_ingot
+Item =  2, gunpowder

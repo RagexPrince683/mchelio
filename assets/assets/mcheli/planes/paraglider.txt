@@ -1,0 +1,47 @@
+﻿DisplayName = MotorParaglider
+AddDisplayName = ja_JP, モーターパラグライダー
+ItemID = 30025
+MaxHp = 50
+Speed = 0.8
+Sound = prop
+RotorSpeed = 200.0
+MaxFuel         = 900
+FuelConsumption = 1.0
+
+; C = Civilian(民間機)
+Category = C
+
+HUD = civilian_aircraft
+
+AddTexture = paraglider_0
+AddTexture = paraglider_1
+AddTexture = paraglider_2
+AddTexture = paraglider_3
+AddTexture = paraglider_4
+AddTexture = paraglider_5
+AddTexture = paraglider_6
+AddTexture = paraglider_7
+AddTexture = paraglider_8
+AddTexture = paraglider_9
+AddTexture = paraglider_10
+
+MobilityYaw = 0.7
+MobilityPitch = 0.7
+MobilityRoll = 0.7
+MinRotationPitch = -90
+MaxRotationPitch =  90
+MinRotationRoll  = -90
+MaxRotationRoll  =  90
+
+AddSeat = 0.0,  0.19, 0.56
+
+AddPartRotor =    0.00,  0.68, -0.32,   1,0, 0
+AddBlade = 3, 120,  0.00,  0.68, -0.32,   0,0,-1
+
+AddRecipe = "XXX",  "G G",  " I ",  X, Wool,  G, String,  I, Piston
+
+BoundingBox =  0.00, 11.40,  0.00,  5.0, 1.5
+BoundingBox =  6.34,  9.83,  0.00,  5.0, 1.5
+BoundingBox = -6.34,  9.83,  0.00,  5.0, 1.5
+
+BoundingBox =  0.00,  0.74,  0.18,  1.5, 1.5

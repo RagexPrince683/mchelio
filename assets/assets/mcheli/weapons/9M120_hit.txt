@@ -1,0 +1,20 @@
+DisplayName = 9M120 Ataka HIT
+Type = TVMissile
+Power = 150
+Acceleration = 2.0
+Explosion = 6
+Flaming = true
+Sight = MoveSight
+ReloadTime = 200
+Delay = 40
+Round = 4
+ModelBullet = 9M113
+Sound = 9M120_snd
+ModeNum = 2
+FAE = true
+
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  3, gunpowder
+Item =  1, redstone

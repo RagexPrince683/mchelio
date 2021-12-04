@@ -1,0 +1,34 @@
+DisplayName = Type99_75mmTankGun [HEAT]
+Type = MachineGun2
+Power = 50
+Acceleration = 2.5
+ModelBullet = bullet76mm
+Explosion = 1
+ExplosionBlock = 0
+Sight = MoveSight
+ReloadTime = 100
+Round = 1
+Sound = cannon_1_snd
+SoundVolume = 1.0
+Accuracy = 1.25
+Piercing = 0
+HeatCount = 350
+MaxHeatCount = 600
+Gravity = -0.01
+GravityInWater = -1.0
+Particle = flame
+RecoilBufCount = 20, 5
+DamageFactor = plane, 3.0
+DamageFactor = helicopter, 3.0
+Recoil = 2.0
+
+AddMuzzleFlash      =           4.6,   2.25,        3,  220,254,159,74
+AddMuzzleFlash      =           5.0,   1.50,        5,  220,254,219,104
+
+AddMuzzleFlashSmoke   =         4.8,     24,   7.0,  4.0,       50,  220,160,140,120
+AddMuzzleFlashSmoke   =         5.2,     16,   8.0,  6.0,       70,  200,190,170,150
+
+MaxAmmo = 30
+SuppliedNum = 5
+Item =  5, iron_ingot
+Item =  8, gunpowder

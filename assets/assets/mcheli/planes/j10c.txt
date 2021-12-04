@@ -1,0 +1,92 @@
+﻿DisplayName = J-10 Firebird
+AddDisplayName = ja_JP, J-10 Firebird
+ItemID = 8480
+MaxHp = 100
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 1.10
+FlareType = 3
+ParticlesScale = 0.5
+EnableSeaSurfaceParticle = true
+MaxFuel         = 1400
+FuelConsumption = 1.0
+Stealth = 0.3
+CameraPosition = 0.0, 0.70, -1.58
+EnableGunnerMode = true
+AutoPilotRot = 0
+ThrottleUpDown = 0.3
+
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+
+MobilityRoll = 2.5
+MobilityPitch = 9.5
+
+HUD = plane
+
+SmoothShading = true
+
+
+AddSeat = 0.00,  2.70, -0.10
+
+
+AddPartCanopy =  0.00, 3.9581, -1.8604,  -1,0,0,70
+
+
+
+AddPartLG    =  0.00,  1.6617,  -2.3010,    1, 0, 0,  107.67
+AddPartLGRev =  0.3639,  1.2582,  -4.1153,    0, 0, 1,  121
+AddPartLGRev =  -0.3639,  1.2582,  -4.1153,    0, 0, 1,  -121
+
+AddPartLG    =  0,  1.6056,  -9.2707,    1, 0, 0,  -110
+AddPartLGRev =  0.9254,  1.2940,  -8.6405,    0, 0, 1,  123
+
+
+AddPartLG    =  0,  1.6056,  -9.2707,    1, 0, 0,  -110
+AddPartLGRev =  -0.9254,  1.2940,  -8.6405,    0, 0, 1,  -123
+
+AddPartSteeringWheel =  0,  5.2332,  -14.6605,  0.0, -1.0, 0.725,   -20
+
+
+AddPartSteeringWheel =  3.5105, 1.4145, -10.8172,  -1,0.12,0.0, -25
+AddPartSteeringWheel =  -3.5105, 1.4145, -10.8172,  1,0.12,0.0, -25
+
+
+
+AddPartWeaponMissile = PL-9,      false,  false,  false,    5.7554, 0.6499, -7.7229 
+AddPartWeaponMissile = PL-9,      false,  false,  false,   -5.7554, 0.6499, -7.7229
+AddPartWeaponMissile = LS-6,      false,  false,  false,    2.7742, 0.8029, -7.7510
+AddPartWeaponMissile = LS-6,      false,  false,  false,   -2.7742, 0.8029, -7.7510
+AddPartWeaponMissile = LS-8,      false,  false,  false,    3.9692, 0.4248, -7.4724
+AddPartWeaponMissile = LS-8,      false,  false,  false,   -3.9692, 0.4248, -7.4724
+
+
+AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.0,   0.0, 0.0
+AddWeapon = gsh-30-101,   0.6380, 1.0396, -4.6317,    0.0, 0.0
+AddWeapon = gsh-30-101,  -0.6380, 1.0396, -4.6317,   0.0, 0.0
+AddWeapon = PL-9,      5.7554, 0.6499, -7.7229,   0.0, 0.0
+AddWeapon = PL-9,     -5.7554, 0.6499, -7.7229,   0.0, 0.0
+AddWeapon = LS-6,      2.7742, 0.8029, -7.7510,     0.0, 0.0
+AddWeapon = LS-6,     -2.7742, 0.8029, -7.7510,     0.0, 0.0
+AddWeapon = LS-8,      3.9692, 0.4248, -7.4724,     0.0, 0.0
+AddWeapon = LS-8,     -3.9692, 0.4248, -7.4724,     0.0, 0.0
+
+
+
+
+
+BoundingBox =  0.00, 2.40, -1.80,  2.9, 2.0
+BoundingBox =  0.00, 3.10, 0.80,  1.7, 1.8
+
+BoundingBox =  0.00, 2.30, -6.20,  5.0, 2.5
+
+BoundingBox = -2.92, 1.90, -9.60,  4.0, 1.6
+BoundingBox =  2.92, 1.90, -9.60,  4.0, 1.6
+
+BoundingBox =  0.00, 1.80, -11.8,  3.0, 2.0
+BoundingBox =  0.00, 1.80, -14.5,  2.7, 2.0
+
+
+
+

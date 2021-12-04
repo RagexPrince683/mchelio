@@ -1,0 +1,21 @@
+DisplayName =3BM22
+Type = MachineGun2
+Power = 150
+ModelBullet = 3bm42
+Acceleration = 8.0
+Explosion = 1
+ExplosionBlock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 150
+ModeNum = 1
+SoundPitch = 1
+SoundVolume = 20
+Sound =t80gs
+Gravity = -0.00238
+DisplayMortarDistance = true
+
+MaxAmmo = 10
+SuppliedNum = 10
+Item =  3, iron_ingot
+Item =  2, gunpowder

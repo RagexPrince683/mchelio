@@ -1,0 +1,82 @@
+﻿DisplayName = Mk1
+AddDisplayName = en_US, Mark 1
+AddDisplayName = ja_JP, Mk1戦車
+ItemID = 52129
+MaxHp = 50
+Speed = 0.15
+ThrottleUpDown = 3.0
+Gravity = -0.1
+GravityInWater = -0.5
+DamageFactor = 0.00
+EnableNightVision = false
+EnableEntityRadar = false
+Sound = Tank
+HUD = ww2tank_hud, ww2tank_hud, ww2tank_hud
+WeightType = Tank
+DefaultFreelook = true
+
+AddTexture = mk11
+AddTexture = mk12
+
+EnableBack = true
+SetWheelPos =  1.0,  -0.24,  5.0, 3.0, 1.0, -1.0, -3.0, -5.0
+
+SubmergedDamageHeight = 1
+WeightedCenterZ = 0.0
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.5
+
+MobilityYawOnGround = 1.5
+PivotTurnThrottle = 0.0
+
+AddSeat = 0.0, 2.75, 5.5
+AddGunnerSeat = -0.75, 1.5, 2.1946,   -2.2372, 3.0, 2.1946,   false, -25, 25, false
+AddGunnerSeat =  0.75, 1.5, 2.1946,    2.2372, 3.0, 2.1946,   false, -25, 25, false
+
+StepHeight = 2.0
+InventorySize = 9
+ParticlesScale = 0.1
+SmoothShading = true
+HideEntity = true
+
+ArmorMinDamage = 10
+
+MotionFactor = 0.92
+
+MaxFuel         = 2000
+FuelConsumption = 2.5
+
+AddCrawlerTrack = false, 0.35, -1.75,   3.13/ -0.84, 2.67/ -2.89, 0.98/ -5.53, 0.71/ -5.93, 0.08/ -5.85, -0.19/ -5.5, -0.4/ -3.03, -0.4/ 2.16, 0.06/ 3.75, 1.66/ 6.6, 1.88/ 6.94, 2.26/ 7.06, 2.64/ 6.93, 2.82/ 6.66, 3.21/ 3.54
+AddCrawlerTrack = false, 0.35,  1.75,   3.13/ -0.84, 2.67/ -2.89, 0.98/ -5.53, 0.71/ -5.93, 0.08/ -5.85, -0.19/ -5.5, -0.4/ -3.03, -0.4/ 2.16, 0.06/ 3.75, 1.66/ 6.6, 1.88/ 6.94, 2.26/ 7.06, 2.64/ 6.93, 2.82/ 6.66, 3.21/ 3.54
+
+AddPartWheel =  0.0,  0.9522, -8.3544
+PartWheelRot = 3
+SetWheelPos =  1.5,  -0.24,  4.0, 2.0, 0.0, -2.0, -4.0, -6.0
+
+MinRotationPitch = -30
+MaxRotationPitch =  30
+
+AddWeapon = 57mmTankGun(R),  -2.2372, 1.9952, 2.1946,  0.0, 0.0, true, 2, 0,-0,120, -10, 15
+AddPartWeapon = 57mmTankGun(R), false, true, false,  -2.2372, 1.9952, 2.1946, 0
+AddPartWeaponChild = false, true, -2.2372, 1.9952, 2.4462
+AddPartWeaponChild = false, true, -2.2372, 1.9952, 2.4462, 0.3
+
+AddWeapon = 57mmTankGun(L),  2.2372, 1.9952, 2.1946,  0.0, 0.0, true, 3, 0,-120,0, -10, 15
+AddPartWeapon = 57mmTankGun(L), false, true, false,  2.2372, 1.9952, 2.1946, 0
+AddPartWeaponChild = false, true, 2.2372, 1.9952, 2.4462
+AddPartWeaponChild = false, true, 2.2372, 1.9952, 2.4462, 0.3
+
+AddWeapon = 7_7mmMG(F),  0.0, 2.8243, 5.4769,  0.0, 0.0, false, 1, 0,-30,30, -30, 30
+AddPartWeapon = 7_7mmMG(F), false, true, true,  0.0, 2.8243, 5.4769, 0
+AddWeapon = 7_7mmMG(R1),  -2.8908, 1.9714, 0.7828,  0.0, 0.0, false, 2, 90,-30,30, -30, 30
+AddPartWeapon = 7_7mmMG(R1), false, true, true,  -2.8908, 1.9714, 0.7828, 0
+AddWeapon = 7_7mmMG(L1),  2.8908, 1.9714, 0.7828,  0.0, 0.0, false, 3, -90,-30,30, -30, 30
+AddPartWeapon = 7_7mmMG(L1), false, true, true,  2.8908, 1.9714, 0.7828, 0
+
+BoundingBox =  0.0, 0.8,  1.5, 3.5, 2.0
+BoundingBox =  0.0, 0.8, -2.2, 3.5, 2.0
+BoundingBox =  0.0, 2.5, -0.7, 3.5, 1.0
+BoundingBox =  0.0, 2.5,  2.8, 3.5, 1.0
+BoundingBox = -1.0, 2.0,  5.5, 1.5, 1.0
+BoundingBox =  1.0, 2.0,  5.5, 1.5, 1.0

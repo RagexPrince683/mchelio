@@ -1,0 +1,19 @@
+DisplayName = RS-82
+Type = Rocket
+Power = 25
+Acceleration = 4.0
+Explosion = 2
+Flaming = false
+Sight = MoveSight
+Delay = 5
+ReloadTime = 130
+Round = 6
+ModeNum = 1
+Bomblet = 15
+BombletDiff = 3.0
+Gravity = -0.03
+
+MaxAmmo = 18
+SuppliedNum = 3
+Item =  2, iron_ingot
+Item =  3, gunpowder

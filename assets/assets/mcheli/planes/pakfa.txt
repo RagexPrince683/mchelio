@@ -1,0 +1,89 @@
+﻿DisplayName = Sukhoi T-50 PAK-FA
+AddDisplayName = ja_JP, スホーイ T-50 PAK-FA
+MaxHp = 100
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 1.1
+OnGroundPitch = -2.0
+FlareType = 3
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 1600
+FuelConsumption = 1.0
+Stealth = 0.3
+CameraPosition = 0.0, 1.6, -8.5, false
+EnableGunnerMode = true
+AutoPilotRot = 0
+ThrottleUpDown = 0.3
+
+ThirdPersonDist = 28
+
+AddTexture = pakfa_1
+AddTexture = pakfa_2
+
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+
+MobilityRoll = 3.5
+MobilityPitch = 14.0
+
+HUD = plane
+
+AddSeat = 0.00,  2.83,  2.3
+
+AddPartSlideCanopy =  0.00, 0.27, -0.96
+
+AddPartNozzle =  1.8788, 2.4198, -15.61, -1,0,0
+AddPartNozzle = -1.8788, 2.4198, -15.61, -1,0,0
+
+AddPartLG    =  0.3987, 1.8685,   0.0   ,    0,0,-1,  90
+AddPartLG    = -0.3987, 1.8685,   0.0   ,    0,0, 1,  90
+AddPartLG    =  0.0   , 2.2905,  -0.2647,   -1,0, 0, 100
+AddPartLG    =  0.0   , 1.8984,  -1.9647,   -1,0, 0,  17
+AddPartSlideRotLG    = 0, 0, 0, 0, 2.6341, -6.9146,    1,0, 0,  70
+AddPartLG    =  3.4825, 2.1132, 0.0,    0,0,-1,  90
+AddPartLG    =  3.2532, 2.4433,-7.9347,  -1,0,0,  90
+AddPartLG    = -3.4825, 2.1132, 0.0   ,  0,0, 1,  90
+AddPartLGHatch    =  0.3987, 1.8685, 0.0,    0,0, 1,  90
+AddPartLGHatch    = -0.3987, 1.8685, 0.0,    0,0,-1,  90
+
+AddPartWeaponMissile = pakfa_r-73,false,false,false,0,0,0
+AddPartWeaponMissile = pakfa_r-73,false,false,false,0,0,0
+AddPartWeaponMissile = pakfa_r-77,false,false,false,0,0,0
+AddPartWeaponMissile = pakfa_r-77,false,false,false,0,0,0
+AddPartWeaponMissile = pakfa_r-77,false,false,false,0,0,0
+AddPartWeaponMissile = pakfa_r-77,false,false,false,0,0,0
+
+AddPartWeaponBay = gsh-30-1, -1.0368, 2.837, 0, 0, 0, 1, 180
+AddPartWeaponBay = pakfa_r-73, 4.1497,2.4687,0,0,0,1,70
+AddPartWeaponBay = pakfa_r-73,-4.1497,2.4687,0,0,0,-1,70
+AddPartWeaponBay = pakfa_r-77, 0.8132,1.9883,0,0,0, 1,90
+AddPartWeaponBay = pakfa_r-77,-0.8132,1.9883,0,0,0,-1,90
+AddPartWeaponBay = pakfa_r-77, 0.7698,1.9602,0,0,0, 1,90
+AddPartWeaponBay = pakfa_r-77,-0.7698,1.9602,0,0,0,-1,90
+
+AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.0,    0.0, 0.0
+
+AddWeapon = gsh-30-1,    -1.0974, 2.8696, 1.661,   0.0, 0.0
+AddWeapon = pakfa_r-73,  3.8378,2.4168,-4.3243,0,0
+AddWeapon = pakfa_r-73, -3.8378,2.4168,-4.3243,0,0
+AddWeapon = pakfa_r-77,  0.3501,2.1729,-2.7827,0,0
+AddWeapon = pakfa_r-77, -0.3501,2.1729,-2.7827,0,0
+AddWeapon = pakfa_r-77,  0.3501,2.4224,-9.7052,0,0
+AddWeapon = pakfa_r-77, -0.3501,2.4224,-9.7052,0,0
+
+BoundingBox =  0.00, 2.70, 0.00,  2.0, 2.0
+BoundingBox =  0.00, 3.13, 2.00,  2.0, 2.0
+BoundingBox =  0.00, 3.13, 4.00,  2.0, 2.0
+BoundingBox =  0.00, 2.50, 5.44,  1.5, 1.5
+BoundingBox =  0.00, 2.11, -7.50,  8.0, 2.0
+BoundingBox =  0.00, 3.11, -3.50,  4.0, 2.0
+BoundingBox =  -1.69, 2.50, -15.49,  1.0, 1.0, 2.0
+BoundingBox =  -1.69, 2.50, -13.49,  1.0, 1.0, 2.0
+BoundingBox =  1.69, 2.50, -15.49,  1.0, 1.0, 2.0
+BoundingBox =  1.69, 2.50, -13.49,  1.0, 1.0, 2.0
+BoundingBox =  -5.89, 2.79, -10.82,  3.5, 0.5, 0.5
+BoundingBox =  5.89, 2.79, -10.82,  3.5, 0.5, 0.5
+BoundingBox =  -4.61, 2.79, -15.13,  3.5, 0.5, 0.5
+BoundingBox =  4.61, 2.79, -15.13,  3.5, 0.5, 0.5

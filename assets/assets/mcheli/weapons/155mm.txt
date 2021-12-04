@@ -1,0 +1,24 @@
+DisplayName = 155mmgun
+Type = MachineGun2
+Power = 100
+ModelBullet = bullet155mm
+Acceleration = 5.2
+Explosion = 4
+ExplosionBlock = 5
+Flaming = false
+Sight = MoveSight
+Delay = 50
+ModeNum = 1
+Piercing  = 0
+SoundPitch = 0.7
+SoundVolume = 20
+Sound = cannon_1_snd
+Recoil = 2.0
+
+RecoilBufCount = 25, 5
+
+
+MaxAmmo = 40
+SuppliedNum = 20
+Item =  3, iron_ingot
+Item =  3, gunpowder

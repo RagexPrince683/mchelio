@@ -1,0 +1,25 @@
+DisplayName = Canister Shell
+Type = Rocket
+Power = 30
+Explosion = 1
+ExplosionBlock = 0
+Acceleration = 8.0
+Sight = None
+ReloadTime = 160
+Round = 1
+SoundVolume = 10.0
+Sound = mbtshot
+Accuracy = 1.5
+BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+BombletSTime = 6
+BombletDiff = 0.7
+Bomblet = 30
+ModelBullet = bullet76mm
+ModelBomblet = bullet
+DisableSmoke = true
+
+MaxAmmo = 5
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder

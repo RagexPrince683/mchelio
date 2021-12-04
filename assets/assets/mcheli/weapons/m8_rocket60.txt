@@ -1,0 +1,20 @@
+DisplayName = M8 110mm Rocket
+Type = Rocket
+Power = 150
+ModelBullet = hydra70
+Acceleration = 3.5
+Explosion = 1
+ExplosionBlock = 0
+Flaming = false
+Sound = missile_4_snd
+Sight = MoveSight
+Delay = 0
+ReloadTime = 200
+Round = 60
+Gravity = -0.01
+Particle = largeexplode
+
+MaxAmmo = 60
+SuppliedNum = 60
+Item =  2, iron_ingot
+Item =  2, gunpowder

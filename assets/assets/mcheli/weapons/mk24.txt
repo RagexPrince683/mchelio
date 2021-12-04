@@ -1,0 +1,20 @@
+DisplayName = MK24 Flare
+Type = MkRocket
+Power = 0
+Acceleration = 0.5
+Explosion = 0
+Flaming = false
+Sight = None
+Sound = bomb_snd
+Round = 4
+ReloadTime = 300
+Delay = 13
+ModelBullet = mk24
+Gravity = -0.02
+
+
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

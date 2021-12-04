@@ -1,0 +1,16 @@
+DisplayName = A-10 CAS
+Type = CAS
+Power = 70
+Acceleration = 6.0
+Explosion = 4
+ExplosionBlock = 2
+Flaming = false
+Sight = None
+Delay = 600
+Sound = pi
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

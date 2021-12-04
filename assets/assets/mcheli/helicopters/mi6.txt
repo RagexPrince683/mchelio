@@ -1,0 +1,40 @@
+﻿DisplayName = Mil Mi-6
+AddDisplayName = ja_JP, Mil Mi-6
+ItemID = 28831
+MaxHp = 100
+Speed = 0.6
+MaxFuel = 2800
+FuelConsumption = 1.0
+onGroundPitch = 4.56
+ThirdPersonDist = 20
+
+; C = Civilian(民間機)
+Category = C
+
+MobilityYaw = 0.9
+MobilityPitch = 0.9
+MobilityRoll = 0.9
+
+AddSeat =   0.5367,  1.1162,  6.827
+AddSeat =  -0.5367,  1.1162,  6.827
+
+AddWeapon = targeting_pod_mob,     0.00,  0.30, 5.94,   0.0, 0.0,  true, 2
+AddWeapon = targeting_pod_pv30s,   0.00,  0.30, 5.94,   0.0, 0.0,  false,2
+
+AddPartHatch =  -0.97,  0.8582,  -5.641,  0, 1, 0, 80
+AddPartHatch =   0.97,  0.8582,  -5.641,  0, -1, 0, 80
+
+AddRotor= 1, 0,  0.02228,  5.02,   0.00,  0,1,0
+AddRotor= 1, 0,  -0.5653,  3.711, -16.08,  1,0,0
+
+
+AddRack =  0, 2.1, -22.8,   0, 0,-42.3,      11,    100000
+
+
+AddRecipe = "XYX", "XGX", "DI ", X, iron_block, Y, glass, G, feather, I, iron_ingot, D, redstone_lamp
+
+BoundingBox =  0.0,  1.12,  4.49,  2.2, 2.2
+BoundingBox =  0.0,  1.72,  2.49,  2.2, 3.0
+BoundingBox =  0.0,  1.96,  0.01,  2.2, 3.5
+BoundingBox =  0.0,  2.02, -5.06,  2.2, 2.2
+BoundingBox =  0.0,  3.26,-11.42,  2.2, 2.2

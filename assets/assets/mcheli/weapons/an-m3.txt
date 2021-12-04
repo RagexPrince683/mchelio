@@ -1,0 +1,19 @@
+DisplayName = Browning AN/M3 12.7mm
+Type = MachineGun1
+Power = 9
+Acceleration = 8.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+;SoundDelay = 3
+;Accuracy = 2.0
+HeatCount = 1
+MaxHeatCount = 50
+SoundPitch = 0.8
+Sound = gun_l1_snd
+
+MaxAmmo = 600
+SuppliedNum = 200
+Item =  2, iron_ingot
+Item =  2, gunpowder

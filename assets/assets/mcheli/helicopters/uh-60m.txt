@@ -1,0 +1,72 @@
+DisplayName = UH60M blackhawk
+AddDisplayName = ja_JP, UH60M ブラックホーク
+ItemID = 28835
+MaxHp = 100
+EnableGunnerMode = false
+EnableFoldBlade = true
+EnableNightVision = true
+EnableEntityRadar = true
+Speed = 0.65
+ThrottleUpDown = 0.8
+FlareType = 3
+CameraPosition = 0.0, 0.7, 3.5
+MaxFuel         = 1500
+FuelConsumption = 1.0
+
+; M = Military(軍用機).  M = Multi-Mission(多目的機)
+Category = M.M
+
+AddTexture = uh-60m_2
+AddTexture = uh-60m_il
+
+HUD = heli, heli_gnr, gunner, gunner, none, none, none, none, none, none
+
+MobilityYaw = 0.9
+MobilityPitch = 0.9
+MobilityRoll = 0.9
+
+AddPartCamera = 0.0, 0.70, 2.88
+
+AddPartWeapon    = m134_lm, false, true, false,  1.62, 1.475, -0.31
+AddPartWeapon    = m134_lm, false, true, true,   1.62, 1.475, -0.31
+AddPartRotWeapon = m134_lm, false, true, true,   1.62, 1.475, -0.31, -1,0,0
+AddPartWeapon    = m134_rm, false, true, false, -1.62, 1.475, -0.31
+AddPartWeapon    = m134_rm, false, true, true,  -1.62, 1.475, -0.31
+AddPartRotWeapon = m134_rm, false, true, true,  -1.62, 1.475, -0.31,  1,0,0
+
+AddRotor= 4, 90,  0.00,  3.98, -2.33,   0.0, 1.0, 0.0, true
+AddRotor= 1,  0, -0.60,  4.07, -14.57,  1.0, 0.0, 0.0, false
+
+; seat 1,2
+AddSeat       =-0.85,  0.90,  1.30
+AddGunnerSeat = 0.85,  0.90,  1.30,    0.0, 0.7, 3.5,  true
+; M134D
+AddSeat = 0.95,  0.90, -0.31
+AddSeat =-0.95,  0.90, -0.31
+; other seat
+AddSeat = 0.87,  0.90, -3.62
+AddSeat = 0.00,  0.90, -3.62
+AddSeat =-0.87,  0.90, -3.62
+AddSeat = 0.87,  0.90, -1.23
+AddSeat = 0.00,  0.90, -1.23
+AddSeat =-0.87,  0.90, -1.23
+
+AddRepellingHook =  1.64, 2.05, -2.30, 30
+AddRepellingHook = -1.64, 2.05, -2.30, 30
+
+AddWeapon = m134_lm,  1.62, 1.48,-0.31,   0.0, 0.0, false, 3, -90,-80, 80, -50,80
+AddWeapon = m134_rm, -1.62, 1.48,-0.31,   0.0, 0.0, false, 4,  90,-80, 80, -50,80
+
+AddPartSlideHatch =   0.083,  0.00, -2.11
+AddPartSlideHatch =  -0.083,  0.00, -2.11
+
+AddRecipe = "X X",  "X X",  " X ",  X, iron_block,
+
+InventorySize = 27
+
+; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range, ParaAlt
+AddRack = zodiac,      0.0, 0.3, -3.0,   0.0, 0.0, -3.0,   12.0,   40
+
+BoundingBox =  0.0, 2.3, -2.0,  2.8, 3.8
+BoundingBox =  0.0, 1.8, -4.5,  2.8, 2.4
+BoundingBox =  0.0, 3.5,-14.5,  2.0, 3.0

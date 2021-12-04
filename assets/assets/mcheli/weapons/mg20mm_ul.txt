@@ -1,0 +1,17 @@
+DisplayName = 2cmFlak38
+Type = MachineGun1
+Power = 16
+Acceleration = 8.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 2
+SoundVolume = 10
+Sound = gun_h2_snd
+ReloadTime = 8
+
+MaxAmmo = 40
+SuppliedNum = 20
+Item =  2, iron_ingot
+Item =  2, gunpowder
+

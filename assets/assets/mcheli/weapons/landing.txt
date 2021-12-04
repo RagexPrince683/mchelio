@@ -1,0 +1,2 @@
+DisplayName = これより着陸シーケンス
+Type = Dummy

@@ -1,0 +1,19 @@
+DisplayName = 12.7mmRCMG
+Type = MachineGun1
+Power = 10
+Acceleration = 8.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+;SoundDelay = 3
+Accuracy = 1.0
+HeatCount = 2
+MaxHeatCount = 200
+SoundPitch = 1.0
+Sound = gun_h4_snd
+
+MaxAmmo = 1200
+SuppliedNum = 300
+Item =  2, iron_ingot
+Item =  2, gunpowder

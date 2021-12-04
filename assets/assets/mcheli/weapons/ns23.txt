@@ -1,0 +1,21 @@
+DisplayName = NS-23 23mm
+Type = MachineGun1
+Power = 20
+Acceleration = 5.5
+Explosion = 1
+ExplosionBlock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 2
+Accuracy = 4.0
+Gravity = -0.04
+Particle = largeexplode
+HeatCount = 2
+MaxHeatCount = 100
+Sound = mk108_snd
+SoundPitch = 2.0
+
+MaxAmmo = 200
+SuppliedNum = 50
+Item =  3, iron_ingot
+Item =  3, gunpowder

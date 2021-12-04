@@ -1,0 +1,13 @@
+﻿DisplayName = donou joint
+AddDisplayName = ja_JP, 土嚢繋ぎ用
+ItemID = 30039
+MaxHp = 100
+HideEntity = true
+RotationPitchMin = -80
+RotationPitchMax =  25
+DamageFactor = 1.0
+CanRide = false
+
+AddSeat = 0.0, 1.0, 0.0
+
+AddShapelessRecipe = mcheli:donou

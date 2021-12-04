@@ -1,0 +1,21 @@
+DisplayName = S-8KOM 80mmÉçÉPÉbÉgíe [HEAT]
+Type = Rocket
+Power = 80
+ModelBullet = hydra70
+Acceleration = 4.0
+Accuracy = 1
+Explosion = 4
+Sound = rocket_snd
+TrajectoryParticle = fireworksSpark 
+Sight = MoveSight
+Delay = 0
+ReloadTime = 110
+Round = 76
+Accuracy = 2
+Piercing = 1
+Group = s-8
+
+MaxAmmo = 80
+SuppliedNum = 20
+Item =  3, iron_ingot
+Item =  3, gunpowder

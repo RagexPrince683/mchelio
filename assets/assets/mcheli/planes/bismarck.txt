@@ -1,0 +1,358 @@
+﻿DisplayName = Battleship Bismarck
+AddDisplayName = en_US, Battleship Bismarck
+ItemID = 66921
+MaxHp = 41700
+Speed = 0.5
+Sound = boat
+Float = true
+ThrottleUpDown = 0.2
+FloatOffset = -0.3
+MinRotationPitch = 0
+MaxRotationPitch = 0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = 0.1
+DamageFactor = 0.2
+EnableNightVision = true
+EnableEntityRadar = true
+EnableGunnerMode = true
+Inventory = 90
+
+AddTexture = bismarckalt
+AddTexture = bismarckalt2
+
+CameraPosition = 0.00, 45.00, 3.1, true
+
+HideEntity = false
+
+HUD = ww2tank_hud, ww2tank_hud, ww2tank_hud, ww2tank_hud, ww2tank_hud, ww2tank_hud, ww2tank_hud, ww2tank_hud
+
+Category = M.C
+
+CanMoveOnGround = false
+CanRotOnGround  = false
+MobilityYawOnGround = 0.5
+
+
+MaxFuel         = 5000
+FuelConsumption = 2.0
+
+AddPartSteeringWheel =  2.235, -1.6106,  -108.735,   0.15, 1, 0,  -50
+AddPartSteeringWheel = -2.235, -1.6106, -108.735,   0.15, 1, 0,  -50
+
+AddSeat =  0.00, 21.80, 13.8
+
+
+AddGunnerSeat =  0.00, 45.00, 0.00, 0.00, 40.00, 0.00, true, -80, 35
+AddGunnerSeat =  0.00, 21.80, 13.8, 0.00, 20.00, 60.00, true, -80, 35
+AddGunnerSeat =  0.00, 21.80, 13.8, 0.00, 20.00, -72.88, true, -80, 35
+AddGunnerSeat =  0.00, 21.80, 13.8, 0.00, 20.00, -72.88, true, -80, 35
+AddGunnerSeat =  0.00, 21.80, 13.8, 10.00, 20.00, 0.00, true, -80, 35
+AddGunnerSeat =  0.00, 21.80, 13.8, -10.00, 20.00, 0.00, true, -80, 35
+AddGunnerSeat =  0.00, 21.80, 13.8, 0.00, 40.00, 0.00, true, -80, 35
+AddGunnerSeat =  0.00, 45.00, 0.00, 0.00, 40.00, 0.00, true, -80, 35
+AddGunnerSeat =  0.00, 21.80, 13.8, 0.00, 20.00, 60.00, true, -80, 35
+
+;Main Guns 1 -----------------------------------------------------------------
+
+AddPartWeapon = b1a / bb1, false, true, false, 0.00, 8.2395, 68.1119, 0
+AddPartWeaponChild = false, true, 0.00, 9.6394, 71.84
+AddPartWeaponChild = false, true, 0.00, 9.6394, 71.84, 2
+TurretPosition = 0.00, 8.2395, 68.111
+AddTurretWeapon = b1a, -2.0482, 9.6394, 71.84, 0.0, 0.0, false, 10, 0, -130,130, -40, 5, 2
+AddTurretWeapon = b1a, 2.0482, 9.6394, 71.84, 0.0, 0.0, false, 10, 0, -130,130, -40, 5, 2
+
+
+AddPartWeapon = b1b /bb1, false, true, false, 0.00, 11.8243, 49.8479, 0
+AddPartWeaponChild = false, true, 0.00, 13.198, 53.544
+AddPartWeaponChild = false, true, 0.00, 13.198, 53.544, 2
+TurretPosition = 0.00, 11.8243, 49.8479
+AddTurretWeapon = b1b, -2.0482, 13.198, 53.544, 0.0, 0.0, false, 3, 0, -130,130, -40, 5, 1.5
+AddTurretWeapon = b1b, 2.0482, 13.198, 53.544, 0.0, 0.0, false, 3, 0, -130,130, -40, 5, 1.5
+
+
+AddPartWeapon = b1c /bb2, false, true, false, 0.00, 11.8243, -62.4341, 0
+AddPartWeaponChild = false, true, 0.00, 13.2258, -66.0889
+AddPartWeaponChild = false, true, 0.00, 13.2258, -66.0889, 2
+TurretPosition = 0.00, 11.8243, -62.4341
+AddTurretWeapon = b1c, 2.0482, 13.2258, -66.0889, 0.0, 0.0, false, 4, 180, -130, 130, -40, 5, 2
+AddTurretWeapon = b1c, -2.0482, 13.2258, -66.0889, 0.0, 0.0, false, 4, 180, -130, 130, -40, 5, 2
+
+
+AddPartWeapon = b1d /bb2, false, true, false, 0.00, 8.2395, -81.1652, 0
+AddPartWeaponChild = false, true, 0.00, 9.6203, -84.8076
+AddPartWeaponChild = false, true, 0.00, 9.6203, -84.8076, 2
+TurretPosition = 0.00, 8.2395, -81.1652
+AddTurretWeapon = b1d, 2.0482, 9.6203, -84.8076, 0.0, 0.0, false, 5, 180,-130, 130, -40, 5, 2
+AddTurretWeapon = b1d, -2.0482, 9.6203, -84.8076, 0.0, 0.0, false, 5, 180, -130, 130, -40, 5, 2
+
+
+;aiming systems --------------------------------------------------------
+
+AddPartWeapon = b1a / bb1, false, true, false, 0.00, 0.0, 9.0373 
+AddPartWeapon = b1b / bb1, false, true, false, 0.00, 0.0, 22.4449
+AddPartWeapon = b1c / b1d / bb2, false, true, false, 0.00, 0.0, -37.5135
+
+;secondary armament --------------------------------------------------
+
+AddPartWeapon = b2a, false, true, false, 9.64, 7.2561, 25.803 
+AddPartWeaponChild = false, true,  8.4998, 8.3626, 27.3566, 1
+AddPartWeaponChild = false, true, 10.78, 8.3626, 27.3566, 1
+
+AddPartWeapon = b2a, false, true, false, 15.1068, 7.2561, 7.886 
+AddPartWeaponChild = false, true, 13.9659, 8.3626, 9.9739, 1
+AddPartWeaponChild = false, true, 16.2465, 8.3626, 9.9739, 1
+
+AddPartWeapon = b2a, false, true, false, 12.0803, 7.2561, -23.2443 
+AddPartWeaponChild = false, true, 10.9399, 8.3626, -21.3812, 1
+AddPartWeaponChild = false, true, 13.22, 8.3626, -21.3812, 1
+
+
+
+AddPartWeapon = b2b, false, true, false, -9.64, 7.2561, 25.803 
+AddPartWeaponChild = false, true, -8.4998, 8.3626, 27.3566, 1
+AddPartWeaponChild = false, true, -10.78, 8.3626, 27.3566, 1
+
+AddPartWeapon = b2b, false, true, false, -15.1068, 7.2561, 7.886 
+AddPartWeaponChild = false, true, -13.9659, 8.3626, 9.9739, 1
+AddPartWeaponChild = false, true, -16.2465, 8.3626, 9.9739, 1
+
+AddPartWeapon = b2b, false, true, false, -12.0803, 7.2561, -23.2443
+AddPartWeaponChild = false, true, -10.9399, 8.3626, -21.3812, 1
+AddPartWeaponChild = false, true, -13.22, 8.3626, -21.3812, 1
+
+
+TurretPosition = 9.64, 7.2561, 25.803 
+AddTurretWeapon = b2a, 8.4998, 8.3626, 27.3566, 0.0, 0.0, false, 6, 0, -125,0, -40, 5, 1
+AddTurretWeapon = b2a, 10.78, 8.3626, 27.3566, 0.0, 0.0, false, 6, 0, -125,0, -40, 5, 1
+TurretPosition = 15.1068, 7.2561, 7.886
+AddTurretWeapon = b2a, 13.9659, 8.3626, 9.9739, 0.0, 0.0, false, 6, 0, -180,10, -40, 5, 1
+AddTurretWeapon = b2a, 16.2465, 8.3626, 9.9739, 0.0, 0.0, false, 6, 0, -180,10, -40, 5, 1
+TurretPosition = 12.0803, 7.2561, -23.2443 
+AddTurretWeapon = b2a, 10.9399, 8.3626, -21.3812, 0.0, 0.0, false, 6, 0, -190,-15, -40, 5, 1
+AddTurretWeapon = b2a, 13.22, 8.3626, -21.3812, 0.0, 0.0, false, 6, 0, -190,-15, -40, 5, 1
+
+TurretPosition = -9.64, 7.2561, 25.803 
+AddTurretWeapon = b2b, -8.4998, 8.3626, 27.3566, 0.0, 0.0, false, 7, 0, 0,125, -40, 5, 1
+AddTurretWeapon = b2b, -10.78, 8.3626, 27.3566, 0.0, 0.0, false, 7, 0, 0,125, -40, 5, 1
+TurretPosition = -15.1068, 7.2561, 7.886
+AddTurretWeapon = b2b, -13.9659, 8.3626, 9.9739, 0.0, 0.0, false, 7, 0, -10,180, -40, 5, 1
+AddTurretWeapon = b2b, -16.2465, 8.3626, 9.9739, 0.0, 0.0, false, 7, 0, -10,180, -40, 5, 1
+TurretPosition = -12.0803, 7.2561, -23.2443
+AddTurretWeapon = b2b, -10.9399, 8.3626, -21.3812, 0.0, 0.0, false, 7, 0, 10,190, -40, 5, 1
+AddTurretWeapon = b2b, -13.22, 8.3626, -21.3812, 0.0, 0.0, false, 7, 0, 10,190, -40, 5, 1
+
+
+;AA Guns ----------------------------------------------------------
+
+AddPartWeapon = b3, false, true, false, 11.4012, 9.5014, 15.2223
+AddPartWeaponChild = false, true, 11.4012, 11.3122, 12.2877, 1
+
+AddPartWeapon = b3, false, true, false, 12.1209, 9.5014, 0.3764
+AddPartWeaponChild = false, true, 12.1209, 11.3122, -2.5586, 1
+
+AddPartWeapon = b3, false, true, false, 10.5362, 9.5014, -17.0841
+AddPartWeaponChild = false, true, 10.5362, 11.3122, -20.0191, 1
+
+AddPartWeapon = b3, false, true, false, 10.1151, 9.5014, -29.5814 
+AddPartWeaponChild = false, true, 10.1151, 11.3122, -32.5164, 1
+
+
+
+AddPartWeapon = b3, false, true, false, -11.4012, 9.5014, 15.2223
+AddPartWeaponChild = false, true, -11.4012, 11.3122, 12.2877, 1
+
+AddPartWeapon = b3, false, true, false, -12.1209, 9.5014, 0.3764
+AddPartWeaponChild = false, true, -12.1209, 11.3122, -2.5586, 1
+
+AddPartWeapon = b3, false, true, false, -10.5362, 9.5014, -17.0841
+AddPartWeaponChild = false, true, -10.5362, 11.3122, -20.0191, 1
+
+AddPartWeapon = b3, false, true, false, -10.1151, 9.5014, -29.5814 
+AddPartWeaponChild = false, true, -10.1151, 11.3122, -32.5164, 1
+
+
+AddWeapon = b3, 11.6512, 11.3122, 12.2877, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3, 11.1512, 11.3122, 12.2877, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3, 12.3709, 11.3122, -2.5586, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3, 11.8709, 11.3122, -2.5586, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3, 10.7862, 11.3122, -20.0191, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3, 10.2862, 11.3122, -20.0191, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3, 10.3651, 11.3122, -32.5164, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3,  9.8651, 11.3122, -32.5164, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+
+AddWeapon = b3, -11.6512, 11.3122, 12.2877, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3, -11.1512, 11.3122, 12.2877, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3, -12.3709, 11.3122, -2.5586, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3, -11.8709, 11.3122, -2.5586, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3, -10.7862, 11.3122, -20.0191, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3, -10.2862, 11.3122, -20.0191, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3, -10.3651, 11.3122, -32.5164, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+AddWeapon = b3,  -9.8651, 11.3122, -32.5164, 0.0, 0.0, false, 8, 0, -360,360, -85, 3, 0.2
+
+
+
+___________________________________________________________________________________
+;searchlights
+
+AddPartWeapon = bsl, false, true, false, 0.00, 0.00, 15.81
+AddPartWeaponChild = false, true, 0.00, 27.45, 16.04, 0
+
+
+AddPartWeapon = bsl, false, true, false, 3.44, 19.97, 0.76
+AddPartWeaponChild = false, true, 3.44, 21.72, 0.99, 0
+
+AddPartWeapon = bsl, false, true, false, 4.97, 17.72, -25.40
+AddPartWeaponChild = false, true, 4.97, 19.47, -25.17, 0
+
+AddPartWeapon = bsl, false, true, false, 3.66, 19.07, -9.48
+AddPartWeaponChild = false, true, 3.66, 20.83, -9.25, 0
+
+
+AddPartWeapon = bsl, false, true, false, -3.44, 19.97, 0.76
+AddPartWeaponChild = false, true, -3.44, 21.72, 0.99, 0
+
+AddPartWeapon = bsl, false, true, false, -4.97, 17.72, -25.40
+AddPartWeaponChild = false, true, -4.97, 19.47, -25.17, 0
+
+AddPartWeapon = bsl, false, true, false, -3.66, 19.07, -9.48
+AddPartWeaponChild = false, true, -3.66, 20.83, -9.25, 0
+
+
+
+AddWeapon = bsl,  0, 0, 0, 0.0, 0.0, false, 2, 0, -360,360, -90, 10, 0
+
+
+
+AddSearchLight      = 0.00, 27.45, 16.04,   0x50FFFFFF,   0x10FFFFC0,    400.0, 50.0,       0,   0
+
+AddSearchLight      = 3.44, 21.72, 0.99,   0x50FFFFFF,   0x10FFFFC0,    400.0, 50.0,       0,   0
+AddSearchLight      = 4.97, 19.47, -25.17,   0x50FFFFFF,   0x10FFFFC0,    400.0, 50.0,       0,   0
+AddSearchLight      = 3.66, 20.83, -9.25,   0x50FFFFFF,   0x10FFFFC0,    400.0, 50.0,       0,   0
+
+AddSearchLight      = -3.44, 21.72, 0.99,   0x50FFFFFF,   0x10FFFFC0,    400.0, 50.0,       0,   0
+AddSearchLight      = -4.97, 19.47, -25.17,   0x50FFFFFF,   0x10FFFFC0,    400.0, 50.0,       0,   0
+AddSearchLight      = -3.66, 20.83, -9.25,   0x50FFFFFF,   0x10FFFFC0,    400.0, 50.0,       0,   0
+
+
+;________________________________________________________________________________________________
+
+;light AA guns
+
+AddPartWeapon = b4, false, true, false, 5.9861, 10.1487, 38.8755 
+AddPartWeaponChild = false, true, 5.9861, 11.30, 38.50, 0.2
+
+AddPartWeapon = b4, false, true, false, 3.1631, 19.1992, 15.8801 
+AddPartWeaponChild = false, true, 3.1631, 20.3529, 15.45, 0
+
+AddPartWeapon = b4, false, true, false, 5.7103, 12.0201, -38.8371 
+AddPartWeaponChild = false, true, 5.7103, 13.1738, -39.25, 0
+
+AddPartWeapon = b4, false, true, false, 5.729, 10.1606, -50.0360 
+AddPartWeaponChild = false, true, 5.729, 11.3142, -50.45, 0
+
+
+AddPartWeapon = b4, false, true, false, -5.9861, 10.1487, 38.8755 
+AddPartWeaponChild = false, true, -5.9861, 11.30, 38.50, 0.2
+
+AddPartWeapon = b4, false, true, false, -3.1631, 19.1992, 15.8801 
+AddPartWeaponChild = false, true, -3.1631, 20.3529, 15.45, 0
+
+AddPartWeapon = b4, false, true, false, -5.7103, 12.0201, -38.8371 
+AddPartWeaponChild = false, true, -5.7103, 13.1738, -39.25, 0
+
+AddPartWeapon = b4, false, true, false, -5.729, 10.1606, -50.0360 
+AddPartWeaponChild = false, true, -5.729, 11.3142, -50.45, 0
+
+
+
+AddWeapon = b4,  5.9861, 11.30, 38.50, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+AddWeapon = b4,  5.9861, 11.30, 38.50, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+
+AddWeapon = b4,  3.1631, 20.3529, 15.45, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+AddWeapon = b4,  3.1631, 20.3529, 15.45, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+
+AddWeapon = b4,  5.7103, 13.1738, -39.25, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+AddWeapon = b4,  5.7103, 13.1738, -39.25, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+
+AddWeapon = b4,  5.729, 11.3142, -50.45, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+AddWeapon = b4,  5.729, 11.3142, -50.45, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+
+
+AddWeapon = b4,  -5.9861, 11.30, 38.50, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+AddWeapon = b4,  -5.9861, 11.30, 38.50, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+
+AddWeapon = b4,  -3.1631, 20.3529, 15.45, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+AddWeapon = b4,  -3.1631, 20.3529, 15.45, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+
+AddWeapon = b4,  -5.7103, 13.1738, -39.25, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+AddWeapon = b4,  -5.7103, 13.1738, -39.25, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+
+AddWeapon = b4,  -5.729, 11.3142, -50.45, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+AddWeapon = b4,  -5.729, 11.3142, -50.45, 0.0, 0.0, false, 9, 0, -360,360, -90, 10, 0.1
+
+;______________________________________________________________________________________________________
+
+AddPartRotor =   6.015, -5.4956, 0.00, 0, 0, 1
+AddBlade = 1, 0, 6.015, -5.4956, 0.00, 0, 0, 1
+
+AddPartRotor =   0.00,  -5.8856,   0.00, 0, 0, 1
+AddBlade = 1, 0, 0.00,  -5.8656,   0.00, 0, 0, 1
+
+AddPartRotor =   -6.015, -5.4956, 0.00, 0, 0, -1
+AddBlade = 1, 0, -6.015, -5.4956, 0.00, 0, 0, -1
+
+AddParticleSplash =  0.08,  0.18,   120.56,   8,      12.0,    1.1,   80,       0.30,  -0.005
+AddParticleSplash = -0.08,  0.18,   120.56,   8,      12.0,    1.1,   80,       0.30,  -0.005
+AddParticleSplash =  0.2, -0.18,  119.25,   8,      12.0,    1.1,   60,       0.10,   -0.005
+AddParticleSplash = -0.2, -0.18,  119.25,   8,      12.0,    1.1,   60,       0.10,   -0.005
+AddParticleSplash =  3.57, -0.18,  -112.05,   8,      12.0,    1.1,   60,       0.10,   -0.005
+AddParticleSplash = -3.57, -0.18,  -112.05,   8,      12.0,    1.1,   60,       0.10,   -0.005
+AddParticleSplash =  2.57, -0.18,  -112.05,   8,      12.0,    1.1,   60,       0.10,   -0.005
+AddParticleSplash = -2.57, -0.18,  -112.05,   8,      12.0,    1.1,   60,       0.10,   -0.005
+AddParticleSplash =  1.57, -0.18,  -112.05,   8,      12.0,    1.1,   60,       0.10,   -0.005
+AddParticleSplash = -1.57, -0.18,  -112.05,   8,      12.0,    1.1,   60,       0.10,   -0.005
+AddParticleSplash =  0.57, -0.18,  -112.05,   8,      12.0,    1.1,   60,       0.10,   -0.005
+AddParticleSplash = -0.57, -0.18,  -112.05,   8,      12.0,    1.1,   60,       0.10,   -0.005
+AddParticleSplash =  4.57, -0.18,  -112.05,   8,      12.0,    1.1,   60,       0.10,   -0.005
+AddParticleSplash = -4.57, -0.18,  -112.05,   8,      12.0,    1.1,   60,       0.10,   -0.005
+
+
+
+BoundingBox =   0.00, -0.50, 0.00,  35.00, 14.00, 1.0
+BoundingBox =   0.00, -0.50, 32.50,  30.00, 14.00, 1.0
+BoundingBox =   0.00, -0.50, 60.00,  25.00, 14.00, 1.0
+BoundingBox =   0.00, -0.50, 81.00,  17.00, 14.00, 1.0
+BoundingBox =   0.00, -0.50, 94.50,  10.00, 15.00, 1.0
+BoundingBox =   0.00,  0.50, 104.50,  10.00, 16.00, 1.0
+BoundingBox =   0.00,  0.50, 112.00,  10.00, 16.00, 1.0
+
+BoundingBox =   0.00, -0.50, -32.50,  30.00, 14.00, 1.0
+BoundingBox =   0.00, -0.50, -60.00,  25.00, 14.00, 1.0
+BoundingBox =   0.00, -0.50, -81.00,  17.00, 14.00, 1.0
+BoundingBox =   0.00, -0.50, -94.50,  10.00, 15.00, 1.0
+BoundingBox =   0.00, -0.50, -104.50,  10.00, 15.00, 1.0
+BoundingBox =   0.00, -0.50, -112.00,  10.00, 15.00, 1.0
+
+BoundingBox =   0.00, 11.50, 29.00,  16.00, 10.50, 1.2
+BoundingBox =   0.00, 12.50, 13.00,  16.00, 12.00, 1.2
+BoundingBox =   0.00, 25.00, 8.50,  3.00, 13.00, 1.5
+BoundingBox =   0.00, 25.00, 11.50,  3.00, 13.00, 1.5
+BoundingBox =   0.00, 23.09, 13.00,  4.00, 3.00, 2.0
+BoundingBox =   0.00, 10.75, -21.60,  12.00, 8.00, 1.2
+BoundingBox =   0.00, 10.75, -32.60,  10.00, 8.00, 1.2
+BoundingBox =   0.00, 10.00, -42.60,  10.00, 7.00, 1.2
+BoundingBox =   0.00, 11.00, -62.31,  10.00, 8.50, 0.7
+BoundingBox =   0.00, 11.00, 49.82,  10.00, 8.50, 0.7
+BoundingBox =   0.00, 9.00, 68.00,  10.00, 5.00, 0.7
+BoundingBox =   0.00, 9.00, -81.20,  10.00, 5.00, 0.7
+BoundingBox =   0.00, 8.00, 8.50,  25.00, 3.00, 1.2
+BoundingBox =   0.00, 8.00, -16.50,  25.00, 3.00, 1.2
+BoundingBox =   0.00, 8.00, -39.00,  20.00, 3.00, 1.2
+BoundingBox =   0.00, 8.00, -59.00,  20.00, 3.00, 1.2
+BoundingBox =   0.00, 17.30, -4.66,  4.00, 16.00, 1.2
+BoundingBox =   0.00, 17.30, -0.65,  4.00, 16.00, 1.2
+BoundingBox =   0.00, 11.30, 4.20,  6.00, 4.00, 1.2
+
+
+AddRecipe = "DDD",  "OOO",  "TNT",  D, diamond_block,  O, obsidian, T, tnt, N, nether_star

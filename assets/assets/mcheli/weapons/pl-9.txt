@@ -1,0 +1,20 @@
+DisplayName = PL 9
+Type = AAMissile
+Power = 42
+Acceleration = 3
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 9
+ReloadTime = 110
+Round = 4
+LockTime = 15
+ProximityFuseDist = 1
+ModelBullet = PL-9
+Sound = missile_1_snd
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

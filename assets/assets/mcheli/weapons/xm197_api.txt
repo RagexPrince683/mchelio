@@ -1,0 +1,22 @@
+DisplayName = XM197 [API]
+Type = MachineGun2
+ModelBullet = bullet
+Power = 15
+Acceleration = 8.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+SoundDelay = 3
+SoundPitch = 0.9
+Accuracy = 4.5
+HeatCount = 4
+MaxHeatCount = 120
+Sound = gun_l2_snd
+
+SetCartridge = cartridge, 0,   0, 0, 3.00, -0.04, 0.50
+
+MaxAmmo = 900
+SuppliedNum = 150
+Item =  3, iron_ingot
+Item =  3, gunpowder

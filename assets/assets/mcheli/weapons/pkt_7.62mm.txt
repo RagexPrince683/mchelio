@@ -1,0 +1,18 @@
+DisplayName = PKT_7.62mm
+Type = MachineGun1
+Power = 2
+Acceleration = 8.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+Accuracy = 2.0
+Round = 200
+ReloadTime = 150
+SoundPitch = 1.0
+Sound = gun_l1_snd
+
+MaxAmmo = 2000
+SuppliedNum = 400
+Item =  2, iron_ingot
+Item =  2, gunpowder

@@ -1,0 +1,37 @@
+﻿DisplayName = SkyArrow
+AddDisplayName = ja_JP, SkyArrow
+MaxHp = 100
+Speed = 0.9
+Float = false
+Sound = prop
+MaxFuel         = 600
+FuelConsumption = 0.7
+RotorSpeed = 200.0
+
+AddSeat =  0.0, 0.0, 0.8
+
+; C = Civilian(民間機)
+Category = C
+
+HUD = civilian_aircraft
+
+EntityWidth  = 0.8
+EntityHeight = 0.8
+
+AddTexture = SkyArrow_blue
+AddTexture = SkyArrow_yukari
+
+ThrottleUpDown = 0.5
+MobilityYaw = 1.0
+MobilityPitch = 1.5
+MobilityRoll = 2.0
+MobilityYawOnGround = 2.0
+
+AddPartRotor =    0.00, 1.70, 1.45,   1,0,0
+AddBlade = 1, 0,  0.00, 1.70, 1.45,   0,0,-1
+
+AddPartCanopy = -0.421, 0.622, 0.603, 0.08, -0.12, 1, 80
+
+InventorySize = 9
+
+AddRecipe = "  F",  "GSW",  "ISW",  W, Wool,  G, Glass,  I, Iron_Ingot,  F, Furnace,  S, slime_ball

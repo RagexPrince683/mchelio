@@ -1,0 +1,20 @@
+DisplayName = GSh-30-2 30mm
+Type = MachineGun1
+Power = 60
+Acceleration = 5.0
+Explosion = 1
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundDelay = 3
+Accuracy = 1
+HeatCount = 20
+MaxHeatCount = 300
+ReloadTime =100
+Round = 3000
+Sound = mig21_30mm
+
+MaxAmmo = 3000
+SuppliedNum = 0
+Item =  4, iron_ingot
+Item =  3, gunpowder

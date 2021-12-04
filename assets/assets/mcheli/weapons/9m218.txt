@@ -1,0 +1,33 @@
+DisplayName = 9M218
+Type = Rocket
+Power = 700
+Acceleration = 4.0
+Flaming = true
+Sight = None
+Gravity = -0.03
+Delay = 2
+SoundVolume = 0.6
+SoundPitch = 1.0
+Accuracy = 0.3
+Explosion = 8
+ExplosionBlock = 5
+Round = 40
+ReloadTime = 1000
+ModelBullet = m30
+Group = Rocket
+
+
+;Bomblet = 10
+;BombletDiff = 0.3
+;BombletSTime = 60
+ModelBomblet = cbc
+
+Sound = missile_10_snd
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.1
+
+MaxAmmo = 120
+SuppliedNum = 10
+Item =  5, iron_ingot
+Item =  5, gunpowder

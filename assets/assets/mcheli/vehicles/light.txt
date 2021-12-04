@@ -1,0 +1,20 @@
+﻿DisplayName = Light
+AddDisplayName = ja_JP, 探哨灯
+ItemID = 30040
+MaxHp = 100
+HideEntity = true
+RotationPitchMin = -80
+RotationPitchMax =  25
+DamageFactor = 1.0
+CameraPosition = 0.00, 1.74, 0.0
+CanRide = false
+
+AddSeat = 0.00, 1.74, 0.0
+
+; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
+;脚
+AddPart		= true, true, false, 0,   0, 0.00, 0.0
+;本体-砲身
+AddPart		= true,true, true,  0,   0, 0.74, 0.0
+
+AddRecipe = "III",  "GSI",  "IRI",  I, iron_ingot, G, glass, S, glowstone_dust, R, redstone

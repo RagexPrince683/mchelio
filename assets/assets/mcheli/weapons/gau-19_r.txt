@@ -1,0 +1,23 @@
+DisplayName = GAU-19 12.7mm(R)
+Type = MachineGun2
+ModelBullet = bullet
+Power = 12
+Acceleration = 4.0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+Sound = gau-19_snd
+SoundDelay = 3
+SoundPitch = 0.5
+Accuracy = 2.0
+HeatCount = 2
+MaxHeatCount = 130
+ModeNum = 2
+
+; SetCartridge = model_name, Acceleration, Yaw, Pitch, ModelScale, Gravity, Bound
+SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
+
+MaxAmmo = 1200
+SuppliedNum = 200
+Item =  1, iron_ingot
+Item =  2, gunpowder

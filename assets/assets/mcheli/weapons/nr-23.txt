@@ -1,0 +1,17 @@
+DisplayName = NR-23 23mm
+Type = MachineGun1
+Power = 18
+Acceleration = 6.5
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+HeatCount = 10
+MaxHeatCount = 150
+ReloadTime = 25
+Sound = gun_h2_snd
+
+MaxAmmo = 300
+SuppliedNum = 150
+Item =  3, iron_ingot
+Item =  2, gunpowder

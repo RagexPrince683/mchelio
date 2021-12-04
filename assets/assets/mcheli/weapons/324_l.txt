@@ -1,0 +1,23 @@
+DisplayName =324mm ·´Ç±ÓãÀ×
+Type = Torpedo
+Power = 350
+ModelBullet = mk46
+Acceleration = 0.8
+AccelerationInWater = 1.5
+Explosion = 5
+ExplosionInWater = 12
+Flaming = false
+Sight = None
+Delay = 100
+GuidedTorpedo = false
+Gravity = -0.03
+GravityInWater = 0
+ReloadTime = 100
+Round = 3
+Sound = bomb_snd
+
+MaxAmmo = 3
+SuppliedNum = 3
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

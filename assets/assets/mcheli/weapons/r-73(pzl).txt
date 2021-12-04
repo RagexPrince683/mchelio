@@ -1,0 +1,19 @@
+DisplayName = R-73 missile
+Type = AAMissile
+Power = 60
+Acceleration = 3
+Explosion = 4
+Flaming = false
+Sight = MissileSight
+Delay = 20
+ReloadTime = 120
+Round = 6
+LockTime = 30
+ProximityFuseDist = 1
+Sound = missile_1_snd
+
+MaxAmmo = 6
+SuppliedNum = 2
+Item =  4, iron_ingot
+Item =  6, gunpowder
+Item =  2, redstone

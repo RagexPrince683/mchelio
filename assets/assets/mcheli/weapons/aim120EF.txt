@@ -1,0 +1,19 @@
+DisplayName = AIM-120 AMRAAM
+Type = AAMissile
+Power = 70
+Acceleration = 5
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 9
+ReloadTime = 110
+Round = 4
+LockTime = 15
+ProximityFuseDist = 1
+ModelBullet = aim120EF
+Sound = missile_1_snd
+
+MaxAmmo = 4
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

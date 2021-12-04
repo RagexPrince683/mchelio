@@ -1,0 +1,18 @@
+DisplayName = RÖV-20 anti-aircraft laser
+Type = MachineGun1
+ModelBullet = laser
+Power = 30
+Acceleration = 9.9
+Explosion = 2
+Flaming = true
+Sight = MoveSight
+Delay = 0
+SoundDelay = 1
+Accuracy = 0
+HeatCount = 1
+MaxHeatCount = 25
+
+MaxAmmo = 300
+SuppliedNum = 100
+Item =  2, iron_ingot
+Item =  2, gunpowder

@@ -1,0 +1,17 @@
+DisplayName = 20mm Machine gun firing upward
+Type = MachineGun1
+Power = 16
+Acceleration = 8.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 10
+HeatCount = 3
+MaxHeatCount = 60
+
+MaxAmmo = 200
+SuppliedNum = 100
+Item =  2, iron_ingot
+Item =  2, gunpowder
+

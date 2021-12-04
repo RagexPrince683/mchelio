@@ -1,0 +1,46 @@
+﻿DisplayName = Sikorsky S-76 V.I.P
+AddDisplayName = ja_JP, シコルスキー S-76 V.I.P仕様
+ItemID = 30046
+MaxHp = 100
+MaxFuel         = 1200
+FuelConsumption = 1.0
+Regeneration = true
+
+AddTexture = s76vip_white
+AddTexture = s76vip_green
+AddTexture = s76vip_black
+
+; C = Civilian(民間機)
+Category = C
+
+HUD = civilian_aircraft, civilian_aircraft, none, none, none, none, none
+
+Speed = 0.6
+
+AddRotor= 4, 90,  0.00,  3.89, -4.38,  0.0, 1.0, 0.0, false
+AddRotor= 1, 60,  0.68,  3.90, -14.06,  1.0, 0.0, 0.0
+
+AddPartLG =  0.87, 1.03, -5.99, -0.3, 0,-1, 100
+AddPartLG =  0.43, 0.81, -6.15,  1.0, 0, 0, 165,  0,-1,0, 100
+AddPartLG = -0.87, 1.03, -5.99, -0.3, 0, 1, 100
+AddPartLG = -0.43, 0.81, -6.15,  1.0, 0, 0, 165,  0, 1,0, 100
+AddPartLG =  0.25, 0.57,  0.32,  0.0, 0,-1, 100
+AddPartLG = -0.25, 0.57,  0.32,  0.0, 0, 1, 100
+AddPartLG =  0.00, 0.55,  0.07,  1.0, 0, 0, 120
+
+AddSeat =-0.62,  0.96, -1.27
+AddSeat = 0.62,  0.96, -1.27
+AddSeat =-0.65,  1.05, -2.64
+AddSeat = 0.65,  1.05, -2.64
+AddSeat =-0.79,  1.05, -4.24
+AddSeat = 0.00,  1.05, -4.24
+AddSeat = 0.79,  1.05, -4.24
+
+AddRecipe = "IFI",  "GKB",  "BB ",  B, iron_block,  I, iron_ingot,  G, glass,  K, gold_ingot,  F, furnace,
+
+InventorySize = 27
+
+
+BoundingBox =  0.0, 1.7, 1.5,  2.4, 2.5
+BoundingBox =  0.0, 2.1, -1.5,  2.4, 3.3
+BoundingBox =  0.0, 3.2, -11.5,  1.0, 2.4

@@ -1,0 +1,59 @@
+﻿DisplayName = Mil MI 12
+AddDisplayName = ja_JP, Mil MI 12
+ItemID = 28811
+MaxHp = 100
+EnableNightVision = true
+Float = false
+Speed = 0.6
+ThrottleUpDown = 0.3
+FlareType = 3
+MaxFuel         = 2400
+FuelConsumption = 1.0
+onGroundPitch = 2.5
+Float = true
+FloatOffset = -0.9
+ThirdPersonDist = 16
+
+; M = Military(軍用機).  M = Multi-Mission(多目的機)
+Category = M.M
+
+HUD = heli, none, gunner, gunner, gunner
+
+AddTexture = mi12hope
+
+MobilityYaw = 0.9
+MobilityPitch = 0.9
+MobilityRoll = 0.9
+
+AddPartHatch = -3.076, 5.064, -27.71, 0.0, 1.0, 0.0, 90
+AddPartHatch =  3.076, 5.064, -27.71, 0.0, -1.0, 0.0, 90
+
+AddRotor = 1, 0,  -21.51,  12.19,  -13.89,  0.0, 2.0, 0.0
+AddRotor = 1, 0,   21.51,  12.19,  -13.89,  0.0, -2.0, 0.0
+
+AddRecipe = " X ",  "XCX",  "X X",  X, iron_block, C, chest
+
+InventorySize = 80
+
+BoundingBox =  0.0, 2.5, -1.0,  2.5, 3.4
+BoundingBox =  0.0, 1.6, -4.0,  2.8, 3.0
+BoundingBox =  0.0, 1.6, -7.0,  2.8, 3.0
+BoundingBox =  0.0, 1.6,-10.0,  2.8, 3.0
+BoundingBox =  0.0, 3.5,-12.0,  2.0, 3.0
+
+AddSeat =  0.00,  6.835,  4.158
+AddSeat =  1.374,  6.835,  2.445
+AddSeat = -1.374,  6.835,  2.445
+AddSeat =  0.7105,  4.594,  5.936
+AddSeat = -0.7105,  4.594,  5.936
+AddSeat =  1.374,  4.594,  4.629
+AddSeat = -1.374,  4.594,  4.629
+
+; AddRack=Entity type,                    RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute atl,  Yaw, Pitch
+AddRack = mh-60g/mh-60l_dap/sh-60/sh-3 ,   0.0, 4.2103,  -7.115,   0, 0, -2.5,      11,    100000
+
+AddRack = container, 0.0, -1.0103,  -2.20,   0, 0, 0.3
+AddRack = container, 0.0, -1.503,  -3.20,   0, 0,0.3
+AddRack = container, 0.0, -2.0103,  -4.20,   0, 0,0.3
+AddRack = container, 0.0, -3.0103,  -5.20,   0, 0,0.3
+AddRack = container, 0.0, -4.0103,  -6.20,   0, 0,0.3

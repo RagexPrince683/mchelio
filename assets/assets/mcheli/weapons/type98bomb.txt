@@ -1,0 +1,18 @@
+DisplayName = Type98 No25 Bomb
+Type = Bomb
+Power = 45
+Acceleration = 0.2
+Explosion = 4
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 5
+
+ReloadTime = 150
+Round = 1
+Piercing  = 1
+
+MaxAmmo = 12
+SuppliedNum = 3
+Item =  3, iron_ingot
+Item =  3, gunpowder

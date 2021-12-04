@@ -1,0 +1,15 @@
+﻿DisplayName = 3_8cmflakm42u
+ItemID = 31701
+MaxHp = 50
+HideEntity = false
+MinRotationPitch = -50
+MaxRotationPitch =  2
+DamageFactor = 1.0
+CameraPosition = 0.0,  1.00,  -1.50
+
+AddSeat = 0.00,  0.30, -1.50
+
+AddPart = true, true, false, 0,  1.06, -0.00, 0.00
+AddPart = true, true, true, 0,  1.06, -0.00, 0.00
+
+AddWeapon = mg37mmu,  -0.00, 1.06,  0.00,  0,0

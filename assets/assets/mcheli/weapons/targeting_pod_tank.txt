@@ -1,0 +1,11 @@
+DisplayName = Spot planes/helicopters/tanks
+Type = TargetingPod
+Sight = None
+Delay = 60
+Sound = lockon
+
+Length = 100
+Radius = 20
+;Target = planes/helicopters/vehicles/players/monsters/others
+Target = planes/helicopters/vehicles
+MarkTime = 60

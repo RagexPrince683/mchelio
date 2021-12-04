@@ -1,0 +1,21 @@
+DisplayName =3BK18M
+Type = MachineGun2
+Power = 550
+ModelBullet =3bk18m
+Acceleration = 7.0
+Explosion = 2
+ExplosionBlock = 1
+Flaming = false
+Sight = None
+Delay = 10
+SoundPitch = 1
+SoundVolume = 20
+Sound = t80gs
+Gravity = -0.0048
+DisplayMortarDistance = true
+group = maingun
+
+MaxAmmo = 10
+SuppliedNum = 10
+Item =  3, iron_ingot
+Item =  2, gunpowder

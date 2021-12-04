@@ -1,0 +1,22 @@
+DisplayName = ºì¼ý-10
+Type = ATMissile
+Power = 86
+Acceleration = 4.0
+Explosion = 6
+Flaming = true
+Sight = MissileSight 
+Delay = 35
+LockTime = 15
+ModeNum = 35
+ProximityFuseDist = 1
+ModelBullet = HJ10
+Sound = missile_1_snd
+RidableOnly = true
+FixMode = 2
+DamageFactor = tank, 2.0
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

@@ -1,0 +1,20 @@
+DisplayName = 105mmgun(APFSDS)
+Type = MachineGun2
+Power = 80
+ModelBullet = bullet105mm
+Acceleration = 4.8
+Explosion = 5
+ExplosionBlock = 4
+Flaming = false
+Sight = MoveSight
+Delay = 84
+ModeNum = 1
+Piercing  = 2
+SoundPitch = 0.5
+SoundVolume = 20
+Sound = cannon_1_snd
+
+MaxAmmo = 100
+SuppliedNum = 20
+Item =  5, iron_ingot
+Item =  3, gunpowder

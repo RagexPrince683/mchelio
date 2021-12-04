@@ -1,0 +1,127 @@
+﻿ DisplayName = TK-X
+AddDisplayName = en_US, TK-X
+AddDisplayName = zh_CN, TK-10坦克
+ItemID = 8759
+MaxHp = 620
+Speed = 0.65
+Sound = mbt_run
+ThrottleUpDown = 20.0
+MobilityYawOnGround = 4.0
+MinRotationPitch = -40
+MaxRotationPitch = 7
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraPosition = 0.00,  3.70, 0.00, true
+CameraZoom = 6
+EnableNightVision = true
+CameraRotationSpeed = 27
+FlareType = 10
+MaxFuel         = 1600
+FuelConsumption = 1.3
+StepHeight = 1.3
+DefaultFreelook = true
+OnGroundPitchFactor = 2.5
+OnGroundRollFactor  = 1.0
+EnableGunnerMode = true
+SubmergedDamageHeight = 4
+EnableEntityRadar = true
+HideEntity = true
+
+
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+
+WeightedCenterZ = 1.5
+
+
+SetWheelPos =  1.37,  -0.32,  3.60, 1.43, -0.75
+
+HUD = mbt_hud,mbt_gnr
+
+
+AddSeat =  0.00,  1.10,  0.00, true
+
+
+
+MotionFactor = 0.9
+
+
+ArmorMinDamage = 40
+;ArmorMaxDamage = 500
+ArmorDamageFactor = 1.0
+
+EnableBack = true
+
+
+PivotTurnThrottle = 0.0
+
+
+
+AddCrawlerTrack = false, 0.22,  1.95,  1.26/ -4.72,  1.18/ -4.98,  0.80/ -5.00,  0.54/ -4.86,  -0.18/ -3.67,  -0.21/ -3.68,  -0.21/ 3.45,  -0.10/ 3.55,  0.46/ 4.67,  0.79/ 4.78,  1.25/ 4.65,  1.25/ 4.48
+
+
+
+AddCrawlerTrack = false, 0.22, -1.95,  1.14/ -4.72,  1.10/ -4.98,  0.80/ -5.00,  0.54/ -4.94,  -0.16/ -3.64,  -0.23/ -3.88,  -0.23/  3.45,  -0.11/ 3.56,  0.48/ 4.57,  0.78/ 4.68,  1.12/ 4.58,  1.22/ 4.36
+
+
+
+；AddCrawlerTrack = false, 0.20, -1.8665,  1.2626/ 3.8560, 1.3706/ -4.2668, 1.3465/ -4.4689, 1.2626/ -4.6537, 0.9237/ -4.8641, 0.7203/ -4.8595, 0.5341/ -4.7781, 0.3829/ -4.6412, -0.1192/ -3.6453, -0.2122/ -3.4650, -0.2665/ -3.2705, -0.2820/ -3.0696, -0.2820/ 2.9641, -0.2591/ 3.1658, -0.1823/ 3.3523, 0.2817/ 4.3940, 0.3936/ 4.5606, 0.5447/ 4.6930, 0.7371/ 4.7511, 0.9378/ 4.7269, 1.1122/ 4.6221, 1.2273/ 4.4568, 1.2626/ 4.2582, 1.2626/ 4.0569
+
+
+
+
+
+
+
+
+
+
+
+TrackRollerRot = 30
+
+
+AddTrackRoller =   2.1624,  0.7647,  4.2574
+AddTrackRoller =   2.1624,  0.2306,  3.0458
+AddTrackRoller =   2.1624,  0.2306,  1.4896
+AddTrackRoller =   2.1624,  0.2306, -0.0666
+AddTrackRoller =   2.1624,  0.2306, -1.6229
+AddTrackRoller =   2.1624,  0.2306, -3.1791
+AddTrackRoller =   2.1624,  0.8256, -4.3259
+
+AddTrackRoller =  -2.1624,  0.7647,  4.2574
+AddTrackRoller =  -2.1624,  0.2306,  3.0458
+AddTrackRoller =  -2.1624,  0.2306,  1.4896
+AddTrackRoller =  -2.1624,  0.2306, -0.0666
+AddTrackRoller =  -2.1624,  0.2306, -1.6229
+AddTrackRoller =  -2.1624,  0.2306, -3.1791
+AddTrackRoller =  -2.1624,  0.8256, -4.3259
+
+
+
+
+AddPartWeapon = Rh120-L55_apfsds/ Rh120-L55_heat, false, true, false,  0.00, 2.3204, 0.00, 0
+AddPartWeaponChild = false, true, 0.00, 2.3204, 2.2626, 0.0
+AddPartWeaponChild = false, true, 0.00, 2.3204, 2.2626, 0.5
+
+
+AddTurretWeapon = Rh120-L55_apfsds, 0.00, 2.3204, 2.2626,  0.0, 0.0, true, 1, 0, -360, 360, -40, 7
+AddTurretWeapon = Rh120-L55_heat,     0.00, 2.3204, 2.2626,  0.0, 0.0, true, 1, 0, -360, 360, -40, 7
+AddTurretWeapon = mg7_62mm_mbt,      0.25, 2.3204, 2.2626,  0.0, 0.0, true, 1, 0, -360, 360, -40, 7
+
+
+;BoundingBox =  0.00, 0.73,  0.27,  5.02, 2.67,  0.60
+;BoundingBox =  0.00, 2.46,  0.10,  5.40, 1.52,  0.70
+;BoundingBox =   1.25, 0.65,  4.00,  2.58, 2.21,  0.80
+;BoundingBox =  -1.25, 0.65,  4.00,  2.58, 2.21,  0.80
+;BoundingBox =   1.25, 0.95,  -3.58,  2.60, 2.51,  0.90
+;BoundingBox =  -1.25, 0.95,  -3.58,  2.60, 2.51,  0.90
+
+
+
+
+EntityWidth  = 0.8
+EntityHeight = 0.8

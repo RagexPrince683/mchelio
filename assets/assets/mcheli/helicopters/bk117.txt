@@ -1,0 +1,54 @@
+DisplayName = Kawasaki/ Eurocopter BK 117 B-2
+AddDisplayName = ja_JP, 川崎/ユーロコプター BK 117 B-2
+MaxHp = 100
+EnableNightVision = true
+Speed = 0.7
+MaxFuel         = 1200
+FuelConsumption = 1.0
+onGroundPitch = 2.09
+
+Regeneration = true
+
+HUD = heli, none, none, none, none
+
+Category = C
+
+MobilityYaw = 1.1
+MobilityPitch = 1.1
+MobilityRoll = 1.1
+
+AddTexture = bk117_drh
+
+AddSeat = -0.40,  0.50,  1.99
+AddSeat =  0.40,  0.74,  1.99
+AddSeat =  0.40,  0.74,  1.20
+AddSeat = -0.40,  0.74,  1.20
+AddSeat = -0.45,  0.74, -0.25
+
+AddRotor= 1, 0,  0.00,  2.75,   0.00,  0,1,0
+AddRotor= 1, 0,  0.10,  2.84,  -7.32,  1,0,0
+
+AddPartSlideHatch =  0.018, -0.03, -1.06
+AddPartSlideHatch = -0.018, -0.03, -1.06
+
+AddPartHatch =  0.8775, 0.9265, -1.0977,  0.2509, -1,  0.761
+AddPartHatch = -0.8775, 0.9265, -1.0977,  0.2509,  1, -0.761
+
+AddPartSlideHatch =  0.018,  0.03, -1.06
+AddPartSlideHatch = -0.018,  0.03, -1.06
+
+AddWeapon = targeting_pod_block, 0.0, 0.0, 0.0, 0.0, 0.0, true, 2
+AddWeapon = targeting_pod_pv50s, 0.0, 0.0, 0.0, 0.0, 0.0, true, 2
+
+; パラメータは前から順に 武器設定ファイル名、位置(X,Y,Z)、回転角度(横,縦), パイロット使用可否, 座席, DefaultYaw, MinYaw, MaxYaw, MinPitch, MaxPitch
+
+BoundingBox =  0.0,  1.39,  0.00,  1.8, 2.5
+BoundingBox =  0.0,  1.11,  2.06,  1.8, 1.8
+BoundingBox =  0.0,  1.76, -1.81,  1.5, 1.8
+BoundingBox =  0.0,  2.15, -6.21,  2.0, 1.2
+
+EntityWidth  = 0.9
+EntityHeight = 0.9
+
+MaxFuel         = 1000
+FuelConsumption = 1.0

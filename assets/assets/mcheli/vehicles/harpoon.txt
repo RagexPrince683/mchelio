@@ -1,0 +1,20 @@
+﻿DisplayName = harpoon
+AddDisplayName = ja_JP, ハープーン
+ItemID = 28698
+AddTexture = harpoon
+CameraPosition = 0.0, 4.50, 0.0
+CameraZoom = 5
+MinRotationPitch = -50
+MaxRotationPitch = 50
+AddSeat = 0.0,  0.0, 0.0
+HideEntity = true
+EnableGunnerMode = false
+
+DamageFactor = 1.0
+
+AddturretWeapon = rgm84,  -0.51, 3.28, -4.60, 0.00, 0.00, true, 1, 0, 0, 0, -30, -30
+RigidityTime = 20
+
+HUD = vehicle
+
+AddRecipe = "RXR", " X ", " X ", X,iron_block , R,redstone_block

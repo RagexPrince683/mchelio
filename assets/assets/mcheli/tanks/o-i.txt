@@ -1,0 +1,102 @@
+﻿DisplayName = O-I
+AddDisplayName = ja_JP, O-I
+ItemID = 191989
+MaxHp = 200
+Speed = 0.45
+Sound = HT_Run_snd
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = false
+CameraRotationSpeed = 26
+MinRotationPitch = -90
+MaxRotationPitch = 45
+
+HideEntity = true
+
+WeightType = Tank
+
+MobilityYawOnGround = 3.0
+
+HUD = ww2tank_hud
+
+
+AddSeat =  -0.00,  4.3, 0.00
+
+AddCrawlerTrack = false, 0.5, 2.91,  -0.16/5.10, 0.72/6.79, 1.08/7.16, 1.60/7.16, 1.97/6.79, 1.97/6.27, 1.97/-6.19, 1.97/-6.71, 1.60/-7.07, 1.08/-7.07, 0.72/-6.71, -0.16/-5.11 
+AddCrawlerTrack = false, 0.5, -2.91,  -0.16/5.10, 0.72/6.79, 1.08/7.16, 1.60/7.16, 1.97/6.79, 1.97/6.27, 1.97/-6.19, 1.97/-6.71, 1.60/-7.07, 1.08/-7.07, 0.72/-6.71, -0.16/-5.11 
+
+SetWheelPos =  2.91,  -0.16,  6.53, 4.89, 3.49, 2.09, 0.69, -0.70, -2.10, -3.50, -4.90, -6.45
+
+TrackRollerRot = 30
+
+AddTrackRoller = -2.18,  1.34,   6.53
+AddTrackRoller = -2.18,  0.35,   4.89
+AddTrackRoller = -2.18,  0.35,   3.49
+AddTrackRoller = -2.18,  0.35,   2.09
+AddTrackRoller = -2.18,  0.35,   0.69
+AddTrackRoller = -2.18,  0.35,  -0.70
+AddTrackRoller = -2.18,  0.35,  -2.10
+AddTrackRoller = -2.18,  0.35,  -3.50
+AddTrackRoller = -2.18,  0.35,  -4.90
+AddTrackRoller = -2.18,  1.34,  -6.54
+
+AddTrackRoller = 2.18,  1.34,   6.53
+AddTrackRoller = 2.18,  0.35,   4.89
+AddTrackRoller = 2.18,  0.35,   3.49
+AddTrackRoller = 2.18,  0.35,   2.09
+AddTrackRoller =-2.18,  0.35,   0.69
+AddTrackRoller = 2.18,  0.35,  -0.70
+AddTrackRoller = 2.18,  0.35,  -2.10
+AddTrackRoller = 2.18,  0.35,  -3.50
+AddTrackRoller = 2.18,  0.35,  -4.90
+AddTrackRoller = 2.18,  1.34,  -6.54
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 0.8
+
+AddPartWeapon = ww2tank_lc_ht, false, true, false,  0.00, 3.54, 0.01, 0
+AddPartWeaponChild = false, true, 0.00, 4.25, 1.41
+AddPartWeapon = ww2tank_mc_ht_L, false, true, false,  1.37, 2.42, 3.72, 0
+AddPartWeaponChild = false, true, 1.37, 2.81, 4.66
+AddPartWeapon = ww2tank_mc_ht_R, false, true, false,  -1.37, 2.42, 3.72, 0
+AddPartWeaponChild = false, true, -1.37, 2.81, 4.66
+
+AddWeapon = ww2tank_lc_ht,  0.00, 4.24, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddWeapon = ww2tank_mc_ht_L,  1.37, 2.81, 3.72,  0.0, 0.0, true,1, 0,-95,20, -20, 10
+AddWeapon = ww2tank_mc_ht_R,  -1.37, 2.81, 3.72,  0.0, 0.0, true,1, 0,-20,95, -20, 10
+
+AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
+AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  false,2
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+ArmorMinDamage = 10
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+;ArmorMaxDamage = 500
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+ArmorDamageFactor = 1.0
+
+MaxFuel         = 1200
+FuelConsumption = 2.0
+
+BoundingBox =  1.35, 1.49, 4.50,  3.31, 1.81, 1.0
+BoundingBox =  -1.35, 1.49, 4.50,  3.31, 1.81, 1.0
+BoundingBox =  0.00, 2.00, -0.90,  7.00, 3.07, 1.0
+BoundingBox =  1.68, 1.53, -5.67,  2.99, 2.27, 1.0
+BoundingBox =  -1.68, 1.53, -5.67,  2.99, 2.27, 1.0
+BoundingBox =  1.38, 2.74, 3.75,  1.95, 1.10, 1.0
+BoundingBox =  -1.38, 2.74, 3.75,  1.95, 1.10, 1.0
+BoundingBox =  0.00, 4.37, -0.05,  3.70, 1.75, 1.0
+BoundingBox =  0.00, 3.10, -5.88,  1.92, 1.01, 1.0
+
+BoundingBox =  0.00, 1.54, -4.82,  5.46, 1.90, 2.0
+
+
+
+StepHeight = 1.5

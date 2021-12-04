@@ -1,0 +1,87 @@
+﻿DisplayName = Typespesial5 bort
+AddDisplayName = ja_JP, 特５式内火艇
+ItemID = 30034
+MaxHp = 100
+Speed = 0.4
+Sound = vehiclerun
+Float = true
+ThrottleUpDown = 0.5
+MaxFuel         = 1000
+FuelConsumption = 1
+FloatOffset = -0.4
+MobilityYawOnGround = 2.0
+ThrottleUpDown = 10.0
+MinRotationPitch = 0
+MaxRotationPitch = 0
+MobilityRoll = 0
+InventorySize = 27
+AutoPilotRot = 0.0
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+Gravity = -1
+GravityInWater = 1
+AddPartCanopy = 0.00,2.6,-5.82,1,0,0,120
+
+StepHeight = 1.5
+
+; W = WWII
+Category = W
+
+HUD = plane_wwii
+
+;AddSeat =  X, Y, Z
+AddSeat =  0.00,  2.35,  -1.29
+AddSeat =  -0.56,  0.87,  0.1
+AddSeat =  -0.56,  0.87,  -1.7
+AddSeat =  0.56,  0.87,  0.1
+AddSeat =  0.56,  0.87,  -1.7
+
+
+;AddGunnerSeat =  X,Y,Z, CamX,CamY,CamZ
+AddGunnerSeat = -0.56,  0.87,  0.10,    0.00, 2.11, 1.95
+AddGunnerSeat =  0.00, 0.87, -3.9,    0.00, 2.11, -5.88
+
+AddPartWeapon = mg25mm, false, true, true,  0, 2.72, -1.19
+AddPartWeapon = mg25mm, false, true, flase, 0, 2.72, -1.19
+AddPartWeapon = 47mm,  false, true, true,  0.78, 2.18,  0.5
+AddPartWeapon = mg7_7mm_f,  false, true, true,  0.03, 2.11, 1.53
+
+AddPartRotor =    0.00,  0.69, -3.85,   1,0,0
+AddBlade = 1, 0,  0.00,  0.69, -3.85,   1,0,0
+AddPartRotor =    0.00,  0.27, -3.06,  1,0,0
+AddBlade = 1, 0,  0.00, 0.27, -3.06, 1,0,0
+AddPartRotor =   0.00,  0.27,-2.05,  1,0,0
+AddBlade = 1, 0, 0.00,  0.27,-2.05, 1,0,0
+AddPartRotor =   0.00,  0.27,-1.11, 1,0,0
+AddBlade = 1, 0, 0.00,  0.27,-1.11, 1,0,0
+AddPartRotor =   0.00,  0.27,-0.17, 1,0,0
+AddBlade = 1, 0, 0.00,  0.27,-0.17, 1,0,0
+AddPartRotor =   0.00,  0.27,0.79, 1,0,0
+AddBlade = 1, 0, 0.00,  0.27,0.79, 1,0,0
+AddPartRotor =   0.00,  0.27,1.81, 1,0,0
+AddBlade = 1, 0, 0.00,  0.27,1.81, 1,0,0
+AddPartRotor =   0.00,  0.75,2.63,  1,0,0
+AddBlade = 1, 0, 0.00,  0.75,2.63, 1,0,0
+AddPartRotor =   0.00,  0.93,1.30, 1,0,0
+AddBlade = 1, 0, 0.00,  0.93,1.30, 1,0,0
+AddPartRotor =   0.00,  0.93,0.25, 1,0,0
+AddBlade = 1, 0, 0.00,  0.93,0.25, 1,0,0
+AddPartRotor =   0.00,  0.86,-1.30,  1,0,0
+AddBlade = 1, 0, 0.00,  0.86,-1.30, 1,0,0
+AddPartRotor =   0.00,  0.86,-2.38,  1,0,0
+AddBlade = 1, 0, 0.00,  0.86,-2.38, 1,0,0
+AddPartRotor =   0.64,  0.21,0.00,  0,0,-1
+AddBlade = 1, 0,  0.64,  0.21,0.00,  0,0,-1
+AddPartRotor =    -0.64,  0.21,0.00,  0,0,1
+AddBlade = 1, 0,  -0.64,  0.21,0.00,  0,0,1
+
+
+
+AddWeapon = mg25mm,   0.00,2.72, -1.19, 0.0, 0.0, true,1 , 0, -180, 180, -15,60
+AddWeapon = 47mm,  0.77,2.18,2.87,  0.0, 0.0, true,1 , 0, -3, 3, -3,3
+AddWeapon = mg7_7mm_f,   0.00, 2.11, 1.95,   0.0, 0.0, false,6, 0, -5, 5, -5,5
+AddWeapon = mg7_7mm_r,   0.00, 2.11, -5.88,   0.0, 0.0, false,7, -180, -5, 5, -5,5
+
+BoundingBox =  0.00,  1.09,  3.08,  2.0, 2.0
+BoundingBox =  0.00,  1.33, -0.45,  3.0, 3.0
+BoundingBox =  0.00,  1.33, -4.01,  2.0, 2.0

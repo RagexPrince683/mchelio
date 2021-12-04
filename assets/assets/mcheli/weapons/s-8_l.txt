@@ -1,0 +1,20 @@
+DisplayName = Rocket
+Type = Rocket
+Power = 15
+ModelBullet = hydra70
+Acceleration = 4.5
+Explosion = 6
+ExplosionBlock = 5
+Flaming = false
+Sight = MoveSight
+Delay = 3
+ReloadTime = 110
+Round = 32
+ModeNum = 2
+Sound = rocket_snd
+
+MaxAmmo = 32
+SuppliedNum = 9
+Item =  3, iron_ingot
+Item =  2, gunpowder
+

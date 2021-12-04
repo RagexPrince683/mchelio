@@ -1,0 +1,73 @@
+﻿DisplayName = ACH47a Guns-A-Go-Go Chinook
+AddDisplayName = ja_JP, ACH47a アームド チヌーク
+ItemID = 28811
+MaxHp = 100
+EnableNightVision = true
+Float = true
+Speed = 0.5
+ThrottleUpDown = 0.3
+FlareType = 1
+MaxFuel         = 2400
+FuelConsumption = 1.0
+onGroundPitch = 2.5
+Float = true
+FloatOffset = -0.9
+
+; M = Military(軍用機).  S = Multi-Mission(多目的機)
+Category = M.S
+
+HUD = heli, none, gunner, gunner, gunner, gunner,
+
+MobilityYaw = 0.7
+MobilityPitch = 0.7
+MobilityRoll = 0.7
+AddPartWeapon    = m3m_l,    false, true, true,   -0.7,    1.4433,   -4.7
+
+AddPartWeapon    = m134_l50,  false, true,  false,  -1.2859,  1.7843,  4.9367
+AddPartWeapon    = m134_l50,  false, true,  true,   -1.2859,  1.7843,  4.9367
+AddPartRotWeapon = m134_l50,  false, true,  true,   -1.2859,  1.7843,  4.9367, -1,0,0
+AddPartWeapon    = m134_r50,  false, true,  false,   1.2859,  1.7843,  4.9367
+AddPartWeapon    = m134_r50,  false, true,  true,    1.2859,  1.7843,  4.9367
+AddPartRotWeapon = m134_r50,  false, true,  true,    1.2859,  1.7843,  4.9367,  1,0,0
+AddPartWeapon    = m75_40mm,  false, false, true,    0.00,    0.4051,  6.8922
+AddPartWeapon    = m134_l502, false, true,  false,   1.2859,  1.8159, -1.6054
+AddPartWeapon    = m134_l502, false, true,  true,    1.2859,  1.8159, -1.6054
+AddPartRotWeapon = m134_l502, false, true,  true,    1.2859,  1.8159, -1.6054, -1,0,0
+AddPartWeapon    = m134_r502, false, true,  false,  -1.2859,  1.8159, -1.6054
+AddPartWeapon    = m134_r502, false, true,  true,   -1.2859,  1.8159, -1.6054
+AddPartRotWeapon = m134_r502, false, true,  true,   -1.2859,  1.8159, -1.6054,  1,0,0
+
+
+AddRotor = 3, 120, 0.0, 4.4943,   6.1578,  0.0,  1.0, 0.11, false
+AddRotor = 3, 120, 0.0, 5.7352,  -6.1578,  0.0, -1.0, -0.093, false
+
+AddSeat 	  =  0.79,  1.3433,   5.9559
+AddGunnerSeat = -0.79,  1.3433,   5.9559, -0.79,  1.3433,   5.9559, false
+AddGunnerSeat = -0.8278,1.1933,  -3.6641, -0.8278,1.1933,  -3.6641, false
+AddGunnerSeat = -0.68,  1.2933,   4.9336, -0.68,  1.2933,   4.9336, false
+AddGunnerSeat =  0.68,  1.2933,   4.9336,  0.68,  1.2933,   4.9336, false
+AddGunnerSeat =  0.68,  1.2933,  -1.6054,  0.68,  1.2933,  -1.6054, false
+AddGunnerSeat = -0.68,  1.2933,  -1.6054, -0.68,  1.2933,  -1.6054, false
+
+AddPartLG =  0.00, 0.4029,   1.9249,  1,0,0, 10
+AddPartLG =  0.00, 0.7219,  -5.2282,  1,0,0, 10
+
+AddWeapon = m3m_l,     -0.7,    1.4433,    -4.695,   0.0, 0.0,  false, 3, -180,-70, 70, -5,   30
+AddWeapon = m134_l50,  -1.2859, 1.8143,  -4.9367,  0.0, 0.0,  false, 4,  90, -70, 70, -80,  80
+AddWeapon = m134_r50,   1.2859, 1.8143,  -4.9367,  0.0, 0.0,  false, 5, -90, -70, 70, -80,  80
+AddWeapon = m3m_r,      2.9497, 0.8333,    3.1985,  0.0, 0.0,  true,  1,  0,   0,  0,   0,   10
+AddWeapon = m3m_r,     -2.9497, 0.8333,    3.1985,  0.0, 0.0,  true,  1,  0,   0,  0,   0,   10
+AddWeapon = hydra70_l,  2.3,    0.4913,   2.4526,  1.0, 0.0,  true,  1,  0,   0,  0,   0,   10
+AddWeapon = hydra70_l, -2.3,    0.4913,   2.4526, -1.0, 0.0,  true,  1,  0,   0,  0,   0,   10
+AddWeapon = m75_40mm,   0.00,   0.4051,  6.8922,  0.0, 0.0,  true,  1,  0,   0,  0,   0,   30
+AddWeapon = m134_l502,  1.2859, 1.8159, -1.6054,  0.0, 0.0,  false, 6, -90, -70, 70, -80,  80
+AddWeapon = m134_r502, -1.2859, 1.8159, -1.6054,  0.0, 0.0,  false, 7,  90, -70, 70, -80,  80
+AddRecipe = "AXA",  "XCX",  "XAX",  X, iron_block, C, chest, A, gunpowder
+
+InventorySize = 18
+
+BoundingBox =  0.0, 2.5,  5.45,  2.5, 3.4
+BoundingBox =  0.0, 1.6,  4.45,  2.8, 3.0
+BoundingBox =  0.0, 1.6, -0.55,  2.8, 3.0
+BoundingBox =  0.0, 1.6, -3.55,  2.8, 3.0
+BoundingBox =  0.0, 3.5, -5.55,  2.0, 3.0

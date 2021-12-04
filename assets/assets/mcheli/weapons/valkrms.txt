@@ -1,0 +1,16 @@
+DisplayName = RMS-1
+Type = Bomb
+Power = 75
+Acceleration = 0.1
+Explosion = 8
+ExplosionInWater = 0
+ExplosionAltitude = 8
+FAE = true
+Flaming = true
+Sight = None
+Delay = 350
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  5, iron_ingot
+Item =  5, gunpowder

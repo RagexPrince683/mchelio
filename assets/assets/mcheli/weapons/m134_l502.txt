@@ -1,0 +1,19 @@
+DisplayName = M134D Minigun
+Type = MachineGun2
+Power = 8
+Acceleration = 8.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+ReloadTime = 80
+Round = 50
+SoundDelay = 3
+Accuracy = 4.0
+SetCartridge = cartridge, 0.0, 0, 0, 2.00, -0.04, 0.40
+Sound = gun_l2_snd
+
+MaxAmmo = 300
+SuppliedNum = 100
+Item =  2, iron_ingot
+Item =  2, gunpowder

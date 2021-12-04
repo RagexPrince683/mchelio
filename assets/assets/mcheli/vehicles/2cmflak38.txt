@@ -1,0 +1,15 @@
+﻿DisplayName = 20mmFlak38
+ItemID = 31700
+MaxHp = 50
+HideEntity = false
+MinRotationPitch = -70
+MaxRotationPitch =  2
+DamageFactor = 1.0
+CameraPosition = 0.0,  1.00,  -1.50
+
+AddSeat = 0.00,  0.20, -1.50
+
+AddPart = true, true, true, 0,  0.92, -0.00, 0.00
+
+AddWeapon = mg20mmul,  -0.13, 1.09,  0.00,  0,0
+AddWeapon = mg20mmul,  0.13, 1.09,  0.00,  0,0

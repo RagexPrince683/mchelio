@@ -1,0 +1,23 @@
+DisplayName = S-8S 80mmÉçÉPÉbÉgíe [Flechette]
+Type = Rocket
+Power = 40
+ModelBullet = hydra70
+Acceleration = 4.0
+Accuracy = 1
+Explosion = 0
+Bomblet = 20
+BombletDiff = 1.2
+BombletSTime = 5
+Sound = rocket_snd
+TrajectoryParticle = fireworksSpark 
+Sight = MoveSight
+Delay = 0
+ReloadTime = 110
+Round = 76
+Accuracy = 2
+Group = s-8
+
+MaxAmmo = 80
+SuppliedNum = 20
+Item =  3, iron_ingot
+Item =  3, gunpowder

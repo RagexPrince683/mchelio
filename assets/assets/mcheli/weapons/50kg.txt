@@ -1,0 +1,17 @@
+DisplayName = 50kg bomb
+Type = Bomb
+Power = 10
+Acceleration = 0.1
+Explosion = 2
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 5
+
+ReloadTime = 25
+Round = 2
+MaxAmmo = 12
+SuppliedNum = 4
+
+Item = 1, iron_ingot
+Item = 1, gunpowder

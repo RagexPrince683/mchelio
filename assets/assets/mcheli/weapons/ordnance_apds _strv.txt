@@ -1,0 +1,19 @@
+DisplayName = Ordnance Rifled Gun[APDS] for Strv103
+Type = MachineGun1
+Power = 180
+Explosion = 0
+ExplosionBlock = 0
+Acceleration = 8.0
+Sight = None
+ReloadTime = 140
+Round = 1
+SoundVolume = 10.0
+Sound = mbtshot
+Accuracy = 1.0
+BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+
+MaxAmmo = 40
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder

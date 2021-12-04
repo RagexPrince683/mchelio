@@ -1,0 +1,20 @@
+DisplayName = fueltank
+Type = Bomb
+Power = 50
+Acceleration = 0.1
+Explosion = 5
+ExplosionBlock = 3
+ExplosionInWater = 0
+Flaming = true
+Sight = None
+Delay = 5
+Sound = bomb_snd
+FuelSupplyRange = 20
+
+ReloadTime = 150
+Round = 1
+MaxAmmo = 2
+SuppliedNum = 0
+
+Item = 4, iron_ingot
+Item = 4, gunpowder

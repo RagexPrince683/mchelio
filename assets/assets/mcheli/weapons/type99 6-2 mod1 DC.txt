@@ -1,0 +1,20 @@
+DisplayName = 60kg depth charge
+Type = Bomb
+Power = 30
+Acceleration = 0.1
+Explosion = 2
+ExplosionInWater = 4
+Flaming = false
+Sight = None
+Delay = 3
+
+ReloadTime = 150
+Round = 1
+
+Piercing  = 2
+
+MaxAmmo = 9
+SuppliedNum = 3
+
+Item = 2, iron_ingot
+Item = 1, gunpowder

@@ -1,0 +1,48 @@
+﻿DisplayName = Mil Mi-8 T 
+AddDisplayName = ja_JP, Mil Mi-8 T 
+ItemID = 28831
+MaxHp = 100
+Speed = 0.8
+MaxFuel = 2400
+FuelConsumption = 1.0
+onGroundPitch = 4.56
+ThirdPersonDist = 20
+
+; C = Civilian(民間機)
+Category = C
+
+MobilityYaw = 0.9
+MobilityPitch = 0.9
+MobilityRoll = 0.9
+
+AddSeat =   0.6734,  0.60,  4.171
+AddSeat =  -0.6734,  0.60,  4.171
+AddSeat =   0.7280, 0.5781, 2.192
+AddSeat =  -0.7280, 0.5781, 2.192
+AddSeat =   0.7280, 0.5781, 1.266
+AddSeat =  -0.7280, 0.5781, 1.266
+AddSeat =   0.7280, 0.5781, 0.3197
+AddSeat =  -0.7280, 0.5781, 0.3197
+AddSeat =   0.7280, 0.5781, -0.5550
+AddSeat =  -0.7280, 0.5781, -0.5550
+AddSeat =   0.7280, 0.5781, -1.412
+AddSeat =  -0.7280, 0.5781, -1.412
+
+
+AddWeapon = targeting_pod_mob,     0.00,  0.30, 5.94,   0.0, 0.0,  true, 2
+AddWeapon = targeting_pod_pv30s,   0.00,  0.30, 5.94,   0.0, 0.0,  false,2
+
+AddRotor= 1, 0,  0.00,  4.198,  0.00,  0,1,0
+AddRotor= 1, 0,  0.3863,  4.375, -12.58,  1,0,0
+
+AddPartHatch =  -0.9959,  1.234,  -2.61,  0, 1, 0, 95
+AddPartHatch =   0.9959,  1.234,  -2.61,   0, -1, 0, 95
+AddPartSlideHatch =  0.00, 0.00, -1.0
+
+AddRecipe = "XYX", "XGX", "DI ", X, iron_block, Y, glass, G, feather, I, iron_ingot, D, redstone_lamp
+
+BoundingBox =  0.0,  1.12,  4.49,  2.2, 2.2
+BoundingBox =  0.0,  1.72,  2.49,  2.2, 3.0
+BoundingBox =  0.0,  1.96,  0.01,  2.2, 3.5
+BoundingBox =  0.0,  2.02, -5.06,  2.2, 2.2
+BoundingBox =  0.0,  3.26,-11.42,  2.2, 2.2

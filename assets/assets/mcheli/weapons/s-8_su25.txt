@@ -1,0 +1,18 @@
+DisplayName = S-8 80mmRocket
+Type = Rocket
+Power = 100
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 3
+Flaming = false
+Sight = None
+Delay = 1
+ReloadTime = 150
+Round = 36
+Sound = missile_9_snd
+DisplayMortarDistance = true
+
+MaxAmmo = 36
+SuppliedNum = 36
+Item =  4, iron_ingot
+Item =  3, gunpowder

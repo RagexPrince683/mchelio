@@ -1,0 +1,102 @@
+﻿DisplayName = Z 9-G
+AddDisplayName = ja_JP, Z 9-G
+ItemID = 28883
+MaxHp = 100
+EnableGunnerMode = true
+EnableNightVision = true
+EnableEntityRadar = true
+Speed = 0.65
+ThrottleUpDown = 0.6
+FlareType = 3
+CameraPosition = 0.0, 0.8762, 2.8448
+MaxFuel         = 1800
+FuelConsumption = 1.0
+ThirdPersonDist = 20
+
+; M = Military(軍用機).  S = Antisubmarine(対潜機)
+Category = M.S
+
+HUD = heli, heli_gnr, gunner, none, none, none, none
+
+MobilityYaw = 0.9
+MobilityPitch = 0.9
+MobilityRoll = 0.9
+
+
+
+AddRotor= 1,  0,  0.00,  6.1731, -4.6258,   0.0, 1.0, 0.0, false
+AddRotor= 1,  0,  0.00,  2.7287, -17.0016,  1.0, 0.0, 0.0, false
+AddRotor= 1,  0,  0.00,  2.7287, -17.0016, -1.0, 0.0, 0.0, false
+
+
+
+
+AddSeat       =  0.8726,  1.6079,  -0.20
+AddGunnerSeat = -0.8726,  1.6079,  -0.20,  0.0, 0.8762, 2.8448,  true
+
+AddSeat       =   0.9337,  1.7630,  -5.1741
+AddSeat       =  -0.9337,  1.7630,  -5.1741
+AddSeat       =   0.9337,  1.7630,  -4.0029
+AddSeat       =  -0.9337,  1.7630,  -4.0029
+AddSeat       =   0.9337,  1.7630,  -2.8315
+AddSeat       =  -0.9337,  1.7630,  -2.8315
+
+
+
+AddPartLG =  0.00, 0.8651, 1.4383,  1,0, 0,  95
+AddPartLGRev =  0.4947, 0.6189, 0.9621,  0,0, 1,  110
+AddPartLGRev = -0.4947, 0.6189, 0.9621,  0,0, 1, -110
+AddPartLG =  1.4889, 1.0455, -6.1360,  1,0.3, 0,  90
+AddPartLG = -1.4889, 1.0455, -6.1360, -1,0.3, 0, -90
+AddPartLGRev =  1.7087, 1.1874, -6.3781,  0,0, 1,  90
+AddPartLGRev =  0.7798, 0.5364, -6.3868,  0.2,0,-1.2,  50
+AddPartLGRev = -1.7087, 1.1874, -6.3781,  0,0, 1, -90
+AddPartLGRev = -0.7798, 0.5364, -6.3868,  0.2,0, 1.2,  50
+
+
+AddPartCamera = 0.0, 0.8762, 2.8448, true, false
+AddPartCamera = 0.0, 0.8762, 2.8448, true, true
+
+
+
+AddPartWeaponMissile = HJ10, false, false, false,  3.86, 1.44,-6.5
+AddPartWeaponMissile = HJ10, false, false, false, -3.86, 1.44,-6.5
+AddPartWeaponMissile = HJ10, false, false, false,  3.15, 1.44,-6.5
+AddPartWeaponMissile = HJ10, false, false, false, -3.15, 1.44,-6.5
+AddPartWeaponMissile = HJ10TV, false, false, false,  3.86, 0.73,-6.5
+AddPartWeaponMissile = HJ10TV, false, false, false, -3.86, 0.73,-6.5
+AddPartWeaponMissile = HJ10TV, false, false, false,  3.15, 0.73,-6.5
+AddPartWeaponMissile = HJ10TV, false, false, false, -3.15, 0.73,-6.5
+
+
+
+
+AddWeapon = HJ10,  3.86, 1.44,-6.5,   0.0, 0.0, true,  2
+AddWeapon = HJ10, -3.86, 1.44,-6.5,   0.0, 0.0, true,  2
+AddWeapon = HJ10,  3.15, 1.44,-6.5,   0.0, 0.0, true,  2
+AddWeapon = HJ10, -3.15, 1.44,-6.5,   0.0, 0.0, true,  2
+AddWeapon = HJ10TV,  3.86, 0.73,-6.5,   0.0, 0.0, true,  2
+AddWeapon = HJ10TV, -3.86, 0.73,-6.5,   0.0, 0.0, true,  2
+AddWeapon = HJ10TV,  3.15, 0.73,-6.5,   0.0, 0.0, true,  2
+AddWeapon = HJ10TV, -3.15, 0.73,-6.5,   0.0, 0.0, true,  2
+
+AddWeapon = targeting_pod_mob,     0.0, 0.7, 3.5,   0.0, 0.0,  true, 1
+AddWeapon = targeting_pod_pv10s,   0.0, 0.7, 3.5,   0.0, 0.0,  false,1
+
+AddPartWeaponBay = open,  -1.7467,  2.5426,  -1.3640,  0, 1, 0, 75
+AddPartWeaponBay = open,   1.7467,  2.5426,  -1.3640,  0,-1, 0, 75
+
+AddPartWeaponBay = open,   1.6158,  1,9280,  -0.0009,  0, -1, 0, 75
+AddPartWeaponBay = open,  -1.6158,  1,9280,  -0.0009,  0, 1, 0, 75
+
+
+AddWeapon = open,         0, 0,0,   0.0, 0.0,  true, 2
+
+
+InventorySize = 27
+
+
+
+BoundingBox =  0.0, 2.3, -2.0,  2.8, 3.8
+BoundingBox =  0.0, 1.8, -4.5,  2.8, 2.4
+BoundingBox =  0.0, 3.5,-14.5,  2.0, 3.0

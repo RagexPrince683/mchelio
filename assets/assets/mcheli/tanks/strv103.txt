@@ -1,0 +1,81 @@
+DisplayName = Strv.103B
+AddDisplayName = en_US, Strv.103B
+AddDisplayName = ja_JP, Strv.103B
+ItemID = 30077
+MaxHp = 220
+Speed = 1.0
+Sound = mbtrun
+MobilityYawOnGround = 4.0
+ThrottleUpDown = 10.0
+MinRotationPitch = -12
+MaxRotationPitch = 5
+
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = 0.1
+CameraZoom = 3
+CameraPosition = 0.00,  2.0, -1.0
+EnableNightVision = true
+HideEntity = true
+EnableBack = true
+DamageFactor = 0.0
+
+MobilityYawOnGround = 2.0
+
+; 指定した高さまでの水に触れてもダメージを受けない
+; 2であれば2ブロックまでダメージ無し
+SubmergedDamageHeight = 2
+
+OnGroundPitchFactor = 3.0
+OnGroundRollFactor  = 1.8
+
+;AddTexture = strv1
+
+HideEntity = true
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.25,  -0.24,  1.76, -1.81, 0.6, -0.6
+
+HUD = ww2tank_hud
+
+AddGunnerSeat =  0.00,  1.0, -1.0
+
+MotionFactor = 0.9
+
+AddTrackRoller = -1.4751,  0.4319,  1.6042
+AddTrackRoller = -1.4159,  0.0301,  0.8191
+AddTrackRoller = -1.4159,  0.0301,  -0.0634
+AddTrackRoller = -1.4159,  0.0301, -0.9120
+AddTrackRoller = -1.4159,  0.0301, -1.7606
+AddTrackRoller = -1.4941,  0.4894, -2.5367
+
+AddTrackRoller =  1.4751,  0.4319,  1.6042
+AddTrackRoller =  1.4159,  0.0301,  0.8191
+AddTrackRoller =  1.4159,  0.0301,  -0.0634
+AddTrackRoller =  1.4159,  0.0301, -0.9120
+AddTrackRoller =  1.4159,  0.0301, -1.7606
+AddTrackRoller =  1.4941,  0.4894, -2.5367
+
+AddWeapon = ordnance_apds _strv,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -5,5
+AddWeapon = ordnance_he_strv, 0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -5,5
+AddWeapon = canistershell,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -5,5
+AddWeapon = smokeshell,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -5,5
+AddWeapon = mbt_cas, 0.00, 1.1444, 3.9061, 0.0 , 0.0
+AddPartWeapon = ordnance_apds _strv, false, true, true, 0.00, 1.1444, 0.00,  0.0, -1.0,
+
+MaxFuel         = 600
+FuelConsumption = 2.0
+
+;ArmorMinDamage = 10
+;ArmorMaxDamage = 1000
+
+
+BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
+BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1
+
+
+StepHeight = 1.5

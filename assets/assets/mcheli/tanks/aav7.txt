@@ -1,0 +1,90 @@
+﻿DisplayName = AAV7A1 Amtrak
+AddDisplayName = en_US, AAV7A1 Amtrak
+AddDisplayName = ja_JP, AAV7A1 アムトラック
+MaxHp = 100
+Speed = 0.6
+Sound = tankrun_de
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.5
+EnableNightVision = true
+CameraRotationSpeed = 30
+StepHeight = 2.0
+MinRotationPitch = -14
+MaxRotationPitch = 5
+DefaultFreelook = true
+MaxFuel         = 1200
+FuelConsumption = 2.0
+HideEntity = true
+FlareType = 10
+Float = true
+FloatOffset = -2.0
+
+MobilityYawOnGround = 3.0
+
+HUD = mbt_hud
+
+; 指定した高さまでの水に触れてもダメージを受けない
+; 2であれば2ブロックまでダメージ無し
+SubmergedDamageHeight = 3
+CameraPosition = 0.00,  3.00,  0.63, true
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+
+HideEntity = true
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+
+AddSeat =  0.00,  3.00,  0.63
+AddSeat = -0.81, 0.92, -0.37
+AddSeat =  0.81, 0.92, -0.37
+AddSeat = -0.81, 0.92, -1.27
+AddSeat =  0.81, 0.92, -1.27
+AddSeat = -0.81, 0.92, -2.17
+AddSeat =  0.81, 0.92, -2.17
+
+AddCrawlerTrack = false, 0.37, -2.15,  0.74/-3.38, 0.63/-3.64, 0.37/-3.75, 0.11/-3.64, -0.13/-2.81, -0.18/-2.55, -0.18/1.71, -0.13/1.97, 0.11/2.73, 0.37/2.84, 0.63/2.73, 0.74/2.47, 0.77/-0.40
+AddCrawlerTrack = false, 0.37, -2.15,  0.74/-3.38, 0.63/-3.64, 0.37/-3.75, 0.11/-3.64, -0.13/-2.81, -0.18/-2.55, -0.18/1.71, -0.13/1.97, 0.11/2.73, 0.37/2.84, 0.63/2.73, 0.74/2.47, 0.77/-0.40
+;TrackRollerRot = 30
+
+
+AddTrackRoller =  0.00, 0.38, 2.47
+AddTrackRoller =  0.00, 0.13, 1.71
+AddTrackRoller =  0.00, 0.13, 0.92
+AddTrackRoller =  0.00, 0.13, 0.13
+AddTrackRoller =  0.00, 0.13,-0.99
+AddTrackRoller =  0.00, 0.13,-1.77
+AddTrackRoller =  0.00, 0.13,-2.55
+AddTrackRoller =  0.00, 0.38,-3.38
+AddTrackRoller =  0.00, 0.61,-0.40
+
+AddPartWeapon = m2_1 / mk19_he, false, true, false,  -1.19, 2.42, 1.40, 0
+AddPartWeaponChild = false, true, -0.77, 2.57, 1.90, 0.0
+AddTurretWeapon = m2_1, -1.49, 2.58, 3.02,  0.0, 0.0, true,1, 0,-360,360, -20, 7
+AddTurretWeapon = mk19_he, -0.86, 2.57, 2.74,  0.0, 0.0, true,1, 0,-360,360, -20, 7
+
+AddPartHatch =   0.00,  0.59,  -3.67, 1,0,0, -100
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+ArmorMinDamage = 9
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+;ArmorMaxDamage = 250
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+ArmorDamageFactor = 0.98
+
+
+BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
+BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
+BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25

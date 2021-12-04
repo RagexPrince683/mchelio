@@ -1,0 +1,81 @@
+DisplayName = Bal-e Coastal Defense System
+AddDisplayName = en_US, Bal-e Coastal Defense System
+MaxHp = 100
+Speed = 0.8
+Sound = vehicle_run
+ThrottleUpDown = 5
+MobilityYawOnGround = 6.5
+MaxFuel         = 1000
+FuelConsumption = 0.8
+CameraPosition = -0.9612, 2.3, 4.7212, true
+EnableNightVision = true
+EnableEntityRadar = false
+Gravity = -0.1
+GravityInWater = -0.1
+CameraRotationSpeed = 35
+MinRotationPitch = -45
+MaxRotationPitch = 45
+MobilityRoll = 0
+InventorySize = 10
+StepHeight = 1.5
+DefaultFreelook = true
+MotionFactor = 0.9
+ThirdPersonDist = 12
+
+SubmergedDamageHeight = 3
+
+;  M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+WeightType = Tank
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 0.8
+
+HUD = mbt_hud, mbt_gnr, gunner, gunner
+
+AddGunnerSeat =  -0.9612, 1.325, 4.7212
+
+SetWheelPos =  1.53,  -0.35,  2.72, 0.16, -2.42
+
+AddPartWheel =   1.3983, 0.4388, 3.0778, 40
+AddPartWheel =   -1.3983, 0.4388, 3.0778, 40
+AddPartWheel =   1.3983, 0.4388, 0.6719, 20
+AddPartWheel =   -1.3983, 0.4388, 0.6719, 20
+AddPartWheel =   1.3983, 0.4388, -3.2297
+AddPartWheel =   -1.3983, 0.4388, -3.2297
+AddPartWheel =   1.3983, 0.4388, -5.4502
+AddPartWheel =   -1.3983, 0.4388, -5.4502
+
+EnableBack = true
+
+PivotTurnThrottle = 0.2
+
+TrackRollerRot = 30
+
+AddPartWeaponBay	= Kh35, 0.66, 1.4930, -7.0575, 1.0, 0.0, 0.0, -45
+
+AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  1
+AddWeapon = Kh35, 1.1037, 4.0304, -5.6102, 0, 0
+AddWeapon = Kh35, 0.3686, 4.0304, -5.6102, 0, 0
+AddWeapon = Kh35, -0.3663, 4.0304, -5.6102, 0, 0
+AddWeapon = Kh35, -1.1013, 4.0304, -5.6102, 0, 0
+AddWeapon = Kh35, 1.1037, 4.6216, -6.2015, 0, 0
+AddWeapon = Kh35, 0.3686, 4.6216, -6.2015, 0, 0
+AddWeapon = Kh35, -0.3663, 4.6216, -6.2015, 0, 0
+AddWeapon = Kh35, -1.1013, 4.6216, -6.2015, 0, 0
+
+
+
+DamageFactor = 0.6
+
+
+;RideRack = 乗る機体名, ラック番号 (1～) 
+
+
+BoundingBox =  0.0, 1.8, -6.5,   3.4, 3.8,  1.00
+BoundingBox =  0.0, 1.8, -3.0,   3.4, 3.8,  1.00
+BoundingBox =  0.0, 1.8,  0.5,   3.4, 3.8,  1.00
+BoundingBox =  0.0, 1.4,  4.0,   3.4, 3.0,  1.00
+
+AddRecipe = " I ",  "XXX",  "III",  X, iron_block,  I, iron_ingot

@@ -1,0 +1,2 @@
+DisplayName = 機体電源オフ
+Type = Dummy

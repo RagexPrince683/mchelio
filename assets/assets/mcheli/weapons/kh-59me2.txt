@@ -1,0 +1,40 @@
+DisplayName = Kh-59ME远程防区外空地导弹
+Type = ASMissile
+Power = 200
+Acceleration = 3.2
+Explosion = 20
+Flaming = true
+Sight = MoveSight
+Delay = 300
+ModelBullet = agm84
+Sound = missile_1_snd
+DelayFuse = 10
+Delay = 35
+ReloadTime = 140
+Round = 2
+Radius = 90
+
+RigidityTime = 15
+RidableOnly = false
+
+
+TrajectoryParticle = largesmoke
+
+
+
+
+
+
+
+
+
+DamageFactor = plane, 3.5
+DamageFactor = tank, 3.5
+DamageFactor = heli, 3.5
+DamageFactor = vehicle,3.5
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

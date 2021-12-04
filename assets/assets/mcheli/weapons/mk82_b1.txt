@@ -1,0 +1,19 @@
+DisplayName = MK82 500lb bomb
+Type = Bomb
+Power = 45
+Acceleration = 0.1
+Explosion = 4
+ExplosionBlock = 3
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 4
+Sound = bomb_snd
+ModelBullet = mk82_b
+
+ReloadTime = 300
+Round = 28
+MaxAmmo = 28
+SuppliedNum = 4
+Item = 2, iron_ingot
+Item = 2, gunpowder

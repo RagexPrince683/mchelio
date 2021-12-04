@@ -1,0 +1,15 @@
+DisplayName = 105mm Deckgun
+Type = MachineGun2
+Power = 180
+ModelBullet = bullet76mm
+Acceleration = 5.0
+Explosion = 2
+Flaming = false
+Sight = MoveSight
+Delay = 30
+ReloadTime = 30
+
+MaxAmmo = 60
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  2, gunpowder

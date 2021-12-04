@@ -1,0 +1,30 @@
+﻿DisplayName = 15.0cm AA Canon 
+AddDisplayName = ja_JP, 一七式十五糎高角砲
+ItemID = 28615
+MaxHp = 200
+HideEntity = true
+MinRotationPitch = -75
+MaxRotationPitch =  5
+DamageFactor = 1.0
+CameraZoom = 3
+CameraPosition = 0.0, 2.10, 0.0
+
+; W = WWII,  A = AAGun(対空砲)
+Category = W.A
+
+HUD = vehicle_wwii
+
+AddSeat = 0.00,  0.70, 0.00
+
+; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
+;本体-砲身
+AddPart		 = true,  true,  false, 0,   0.00, 0.00,  0.00
+AddChildPart = false, false, true,  0,   0.00, 2.04, -1.32
+AddChildPart = false, false, true,  2,   0.00, 2.04, -1.32, 0.8
+
+AddWeapon = 15cm_vt,  0.00, 2.10, 5.67,   0.0, 0.0
+
+AddRecipe = " I ",  " D ",  "XXX",  X, iron_block, I, iron_ingot, D, dispenser
+
+
+BoundingBox =  0.0, 2.0, 0.0,  3.0, 3.0

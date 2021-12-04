@@ -1,0 +1,18 @@
+DisplayName = M344A1 105mm HEAT
+Type = Rocket
+Power = 40
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 3
+Flaming = false
+Sound = rocket_snd
+Sight = MoveSight
+Delay = 9
+ReloadTime = 110
+Round = 1
+Gravity = -0.005
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  2, gunpowder

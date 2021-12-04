@@ -1,0 +1,10 @@
+﻿DisplayName = TOW 2
+Type = TVMissile
+Power = 200
+Acceleration = 6
+Explosion = 2
+Flaming = false
+Sight = MoveSight
+Delay =60
+ModeNum = 2
+Sound = missile_15_snd

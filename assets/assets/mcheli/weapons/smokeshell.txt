@@ -1,0 +1,20 @@
+DisplayName = Smoke Shell
+Type = MkRocket
+Power = 80
+Acceleration = 7.0
+Explosion = 6
+ExplosionBlock = 3
+Flaming = false
+Sight = MoveSight
+Sound = mbtshot
+SoundVolume = 10.0
+ReloadTime = 180
+Round = 1
+Gravity = -0.02
+DisableSmoke = true
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

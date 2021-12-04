@@ -1,0 +1,15 @@
+DisplayName = 3.7cmFlakM42U
+Type = MachineGun2
+Power = 40
+ModelBullet = bullet76mm
+Acceleration = 5.0
+Explosion = 2
+Flaming = false
+Sight = MoveSight
+Delay = 4
+ReloadTime = 10
+
+MaxAmmo = 5
+SuppliedNum = 5
+Item =  2, iron_ingot
+Item =  2, gunpowder

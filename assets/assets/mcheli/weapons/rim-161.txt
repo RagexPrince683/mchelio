@@ -1,0 +1,17 @@
+DisplayName = RIM-161 SM-3
+Type = AAMissile
+Power = 100
+Acceleration = 4.0
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 20
+LockTime = 10
+ModelBullet = sm-3
+Sound = missile_2_snd
+
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

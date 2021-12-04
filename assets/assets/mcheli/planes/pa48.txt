@@ -1,0 +1,70 @@
+DisplayName = Piper PA-48 Enforcer
+AddDisplayName = ja_JP, パイパーPA-48 エンフォーサ
+ItemID = 28713
+MaxHp = 100
+Speed = 0.8
+Sound = turboprop
+ThrottleUpDown = 0.3
+MaxFuel         = 1600
+FuelConsumption = 1.0
+EnableEjectionSeat = false
+EnableNightVision = true
+onGroundPitch = 16.0
+EntityWidth  = 0.85
+EntityHeight = 0.85
+RotorSpeed = 200.0
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+HUD = plane
+
+AddSeat = 0.0,  1.70, -0.94
+
+AddTexture = pa48_1
+AddTexture = pa48_2
+
+AddPartRotor =    0.00,  2.11, 4.41,   1,0, 0
+AddBlade = 1, 0,  0.00,  2.11, 4.41,   0,0,-1
+
+AddPartSlideCanopy = 0.0, 0.1, -0.7
+
+;Right
+AddPartLG = -2.25, 1.60,  0.01,  0,0, 1, 80
+;Left
+AddPartLG =  2.25, 1.60,  0.01,  0,0,-1, 80
+;Tail
+AddPartLG =  0.00, 1.99, -5.00, -1,0, 0, 96
+
+AddWeapon = gpu-2,       2.75, 1.07, 1.14, 2.0, -2.3
+AddWeapon = gpu-2,      -2.75, 1.07, 1.14,-2.0, -2.3
+AddWeapon =  blu1,       3.58, 1.15,-0.45, 0.0,  0.0
+AddWeapon =  blu1,      -3.58, 1.15,-0.45, 0.0,  0.0
+AddWeapon =  blu1,       4.38, 1.25,-0.45, 0.0,  0.0
+AddWeapon =  blu1,      -4.38, 1.25,-0.45, 0.0,  0.0
+AddWeapon =  mk82,       5.15, 1.38,-1.46, 0.0,  0.0
+AddWeapon =  mk82,      -5.15, 1.38,-1.46, 0.0,  0.0
+AddWeapon =  mk82,       5.91, 1.50,-1.46, 0.0,  0.0
+AddWeapon =  mk82,      -5.91, 1.50,-1.46, 0.0,  0.0
+
+AddWeapon = smoke_white, 6.73, 2.17,-1.36, 0.0,  0.0
+AddWeapon = smoke_white,-6.73, 2.17,-1.36, 0.0,  0.0
+
+AddPartRotWeapon     = gpu-2,  false,  false,  false,   2.75, 1.07, 1.14, 0,0,1
+AddPartRotWeapon     = gpu-2,  false,  false,  false,  -2.75, 1.07, 1.14, 0,0,1
+
+AddPartWeaponMissile = blu1,   false,  false,  false,   2.28, 0.61,-0.29
+AddPartWeaponMissile = blu1,   false,  false,  false,  -2.28, 0.61,-0.29
+AddPartWeaponMissile = blu1,   false,  false,  false,   2.80, 0.68,-0.29
+AddPartWeaponMissile = blu1,   false,  false,  false,  -2.80, 0.68,-0.29
+
+AddPartWeaponMissile = mk82,   false,  false,  false,   3.29, 0.76,-0.93
+AddPartWeaponMissile = mk82,   false,  false,  false,  -3.29, 0.76,-0.93
+AddPartWeaponMissile = mk82,   false,  false,  false,   3.77, 0.84,-0.93
+AddPartWeaponMissile = mk82,   false,  false,  false,  -3.77, 0.84,-0.93
+
+BoundingBox =  0.00, 1.42, -1.00,  3.0, 1.8
+BoundingBox = -2.92, 1.12, -1.00,  2.0, 0.6
+BoundingBox =  2.92, 1.12, -1.00,  2.0, 0.6
+
+AddRecipe = "IGI",  "IXI",  "T T",  X, iron_block, G, glass, I, iron_ingot, T, tnt

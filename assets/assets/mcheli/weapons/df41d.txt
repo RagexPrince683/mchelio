@@ -1,0 +1,53 @@
+DisplayName = ÖÞ¼Êµ¯µÀµ¼µ¯
+Type = ATMissile
+Power = 4100
+Acceleration = 3.5
+Explosion = 50
+ExplosionBlock = 50
+ExplosionInWater = 45
+Flaming = true
+Sight = MissileSight
+ProximityFuseDist = 20
+Sound = missile_1_snd
+Delay = 15
+ModelBullet = DF41
+Piercing  = 2
+ReloadTime = 250
+RigidityTime = 20
+RidableOnly = true
+
+
+TrajectoryParticle = largeexplode
+
+
+
+
+;DisableSmoke = true
+
+
+AddMuzzleFlash      =  5,      4.10,        16,  200,254,129,44
+AddMuzzleFlash      =  5,      4.05,         10,  200,254,219,104
+AddMuzzleFlash      =  5,      4.00,         8,  200,254,219,184
+AddMuzzleFlashSmoke =  5, 37,  30.0,  25.0, 180,  220,160,130,120
+AddMuzzleFlashSmoke =  5, 26,  38.0,  27.0, 160,   200,190,170,150
+
+
+AddMuzzleFlashSmoke =  -28, 47,  45.0,  30.0, 180,  220,190,180,180
+AddMuzzleFlashSmoke =  -28, 36,  50.0,  32.0, 160,  200,190,170,150
+
+AddMuzzleFlashSmoke =  -35, 47,  48.0,  33.0, 180,  220,190,180,180
+AddMuzzleFlashSmoke =  -35, 36,  52.0,  37.0, 160,  200,190,170,150
+
+AddMuzzleFlash      =  -34,      7.10,        16,  200,254,129,44
+AddMuzzleFlash      =  -32,      7.05,         10,  200,254,219,104
+AddMuzzleFlash      =  -29,      7.00,         8,  200,254,219,184
+
+
+
+
+Round = 1
+MaxAmmo = 1
+SuppliedNum = 1
+Item = 10, iron_ingot
+Item = 10, gunpowder
+Item = 10, redstone

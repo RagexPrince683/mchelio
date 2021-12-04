@@ -1,0 +1,24 @@
+DisplayName = FAB250
+Type = Bomb
+Power = 150
+Acceleration = 0.1
+Explosion = 8
+ExplosionBlock = 3
+Flaming = false
+Sight =  MoveSight
+Delay = 1
+ReloadTime = 500
+Sound = bomb_snd
+ModelBullet = fab250
+DisplayMortarDistance = true
+DamageFactor = player, 10
+DamageFactor = heli, 10
+DamageFactor = tank, 2
+DamageFactor =vehicle , 4
+
+Round = 8
+MaxAmmo = 8
+SuppliedNum = 1
+
+Item = 4, iron_ingot
+Item = 4, gunpowder

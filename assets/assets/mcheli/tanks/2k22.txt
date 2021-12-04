@@ -1,0 +1,102 @@
+DisplayName = 2K22 SPAAG
+AddDisplayName = en_US, 2K22 SPAAG
+AddDisplayName = ja_JP, 2K22 ツングーツカ
+ItemID = 30100
+MaxHp = 50
+Speed = 0.7
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 2.0
+MinRotationPitch = -90
+MaxRotationPitch = 5
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 3
+EnableNightVision = true
+CameraRotationSpeed = 25
+EnableEntityRadar = true
+MaxFuel         = 1200
+FuelConsumption = 3.0
+;StepHeight = 1.5
+FlareType = 10
+AddTexture = 2k22_1
+CameraPosition = 0.00,  3.5, -0.35,false
+HideEntity = true
+EnableBack = true
+
+
+
+AddGunnerSeat =  0.00,  2.5, -0.35,   0.00, 5, -0.35,  false, -90, 5, true
+
+;0.00, 2.01, 0.64
+HUD = mbt_hud,vehicle
+AddTurretWeapon =2a38,0.00, 2.01, 0.64,  0.0, 0.0, true,1, 0,-360,360, -90, 5
+
+
+
+
+
+AddWeapon = 2a38,  1.02, 2.8, -0.85,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddWeapon = 2a38,  0.93,2.8, -1.09,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddWeapon = 2a38,  -0.87, 2.8, -0.97,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddWeapon = 2a38,  -0.97,2.8, -1.07,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+
+AddWeapon = 9M113M,  1.41, 2.6, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddWeapon = 9M113M,  1.19,2.6, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddWeapon = 9M113MGA,  1.41, 2.4, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddWeapon =9M113MGA,  1.19,2.4, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+
+AddWeapon = 9M113M,  -1.14, 2.6, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddWeapon = 9M113M,  -1.36,2.6, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddWeapon = 9M113MGA,  -1.14, 2.4, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddWeapon = 9M113MGA,  -1.36,2.4, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+
+AddPartWeapon = 2a38, false, true, false, 0.00, 2.01, 0.64, 0
+AddPartWeaponChild = false, true,  0.82, 2.75, -0.78
+AddPartWeaponChild = false, true, 0.00, 2.75, -0.78, 0.1
+AddPartWeaponChild = false, true, 0.00, 2.75, -0.78, 0.1
+AddPartWeaponChild = false, true, 0.00, 2.75, -0.78, 0.1
+AddPartWeaponChild = false, true, 0.00, 2.75, -0.78, 0.1
+AddPartWeaponChild = false, true,   0.01, 2.79, -1.16
+AddPartWeaponChild = false, true,   0.00, 2.63, 2.13
+; パラメータは前から順に 武器設定ファイル名、位置(X,Y,Z)、回転角度(横,縦), パイロット使用可否, 座席, DefaultYaw, MinYaw, MaxYaw, MinPitch, MaxPitch
+
+
+
+
+AddCrawlerTrack = true, 0.15, -1.12,  -0.30/-2.65, 0.22/-3.85, 0.33/-4.12, 0.6/-4.23, 0.87/-4.12, 0.98/-3.85, 0.98/3.5, 0.87/3.77, 0.6/3.88, 0.33/3.77, -0.3/2.6,
+AddCrawlerTrack = true, 0.15, 1.12,  -0.30/-2.65,0.22/-3.85, 0.33/-4.12, 0.6/-4.23, 0.87/-4.12, 0.98/-3.85, 0.98/3.5, 0.87/3.77, 0.6/3.88, 0.33/3.77, -0.3/2.6,
+
+
+AddTrackRoller = -1.71,  0.60,  3.5
+AddTrackRoller = -1.71,  0.16,  2.59
+AddTrackRoller = -1.71,  0.16,  1.54
+AddTrackRoller = -1.71,  0.16,  0.5
+AddTrackRoller = -1.71,  0.16,  -0.55
+AddTrackRoller = -1.71,  0.16,  -1.6
+AddTrackRoller = -1.71,  0.16,  -2.65
+AddTrackRoller = -1.71,  0.60,  -3.85
+
+AddTrackRoller = 1.71,  0.60,  3.5
+AddTrackRoller = 1.71,  0.16,  2.59
+AddTrackRoller = 1.71,  0.16,  1.54
+AddTrackRoller = 1.71,  0.16,  0.5
+AddTrackRoller = 1.71,  0.16,  -0.55
+AddTrackRoller = 1.71,  0.16,  -1.6
+AddTrackRoller = 1.71,  0.16,  -2.65
+AddTrackRoller = 1.71,  0.60,  -3.85
+
+
+MaxFuel         = 600
+FuelConsumption = 2.0
+
+
+BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25

@@ -1,0 +1,25 @@
+DisplayName = G-RX6 18Ž®‹›—‹ (HWT)
+Type = TVMissile
+Power = 533
+ModelBullet = hwt
+Acceleration = 2.0
+Explosion = 0
+ExplosionInWater = 15
+ExplosionBlock = 25
+Sight = MoveSight
+Delay = 20
+Gravity = -0.04
+GravityInWater = 0
+ReloadTime = 300
+SoundPitch = 0.1
+SoundVolume = 3
+Sound = missile_1_snd
+Round = 6
+ModeNum = 2
+TrajectoryParticle = cloud
+
+MaxAmmo = 20
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  4, gunpowder
+Item =  3, redstone

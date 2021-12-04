@@ -1,0 +1,20 @@
+DisplayName = LS-8 Missile
+Type = TVMissile
+Power = 2000
+Acceleration = 2.0
+Explosion = 8
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ModelBullet = agm130
+Sound = missile_1_snd
+DisableSmoke = true
+Piercing  = 1
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

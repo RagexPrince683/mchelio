@@ -1,0 +1,21 @@
+DisplayName = GBU-48(V)1/B Paveway II
+Type = ASMissile
+Power = 1000
+Acceleration = 1.7
+Explosion = 20
+ExplosionBlock = 10
+Sight = MoveSight
+Delay = 5
+Round = 2
+ReloadTime = 140
+SoundVolume = 3
+SoundPitch = 0.1
+Sound = bomb_snd
+ModelBullet = gbu48
+Gravity = -0.01
+DisableSmoke = true
+
+MaxAmmo = 2
+Item =  4, iron_ingot
+Item =  4, gunpowder
+Item =  4, redstone

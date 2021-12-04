@@ -1,0 +1,28 @@
+DisplayName = “ñŽ®‹›—‹
+Type = Torpedo
+Power = 450
+ModelBullet = oxygen_torpedo
+Acceleration = 1.5
+AccelerationInWater = 2.5
+Explosion = 4
+ExplosionInWater = 12
+Flaming = false
+Sight = MoveSight
+Delay = 10
+Gravity = -0.04
+GravityInWater = 0
+ReloadTime = 160
+Round = 2
+Sound = missile_1_snd
+SoundPitch = 0.1
+SoundVolume = 3
+
+TrajectoryParticle = cloud
+
+DamageFactor = plane, 8.0
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

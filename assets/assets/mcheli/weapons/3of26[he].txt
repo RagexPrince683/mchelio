@@ -1,0 +1,20 @@
+DisplayName = 3OF26[HE]
+Type = MachineGun2
+Power = 42
+ModelBullet = 3of26
+Acceleration = 4.0
+Explosion = 3
+ExplosionBlock = 4
+Flaming = false
+Sight = MoveSight
+Delay = 170
+ModeNum = 1
+SoundPitch = 0.5
+SoundVolume = 20
+Sound = cannon_4_snd
+group = maingun
+
+MaxAmmo = 30
+SuppliedNum = 15
+Item =  3, iron_ingot
+Item =  2, gunpowder

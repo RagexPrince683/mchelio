@@ -1,0 +1,20 @@
+DisplayName = 95mm CS HE
+Type = MachineGun2
+Power = 95
+ModelBullet = bullet76mm
+Acceleration = 3.0
+Explosion = 3
+ExplosionBlock = 2
+Flaming = false
+Sight = MoveSight
+Delay = 150
+ModeNum = 1
+SoundPitch = 0.5
+SoundVolume = 20
+Sound = cannon_4_snd
+Gravity = -0.01
+
+MaxAmmo = 85
+SuppliedNum = 20
+Item =  3, iron_ingot
+Item =  2, gunpowder

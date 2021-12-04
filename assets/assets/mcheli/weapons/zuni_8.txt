@@ -1,0 +1,15 @@
+DisplayName = Zuni FFAR
+Type = Rocket
+Power = 60
+Acceleration = 4.0
+Explosion = 5
+Flaming = true
+Sight = MoveSight
+Round = 8
+Delay = 14
+Sound = missile_2_snd
+
+MaxAmmo = 16
+SuppliedNum = 4
+Item =  3, iron_ingot
+Item =  3, gunpowder

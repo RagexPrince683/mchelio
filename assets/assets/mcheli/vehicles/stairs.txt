@@ -1,0 +1,17 @@
+DisplayName = Stairs
+MaxHp = 100
+
+; M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+AddSeat = 0, -0.4, 1.0
+CameraPosition = 0, 0.75, 1.0
+
+DamageFactor = 1.0
+
+;AddRecipe = " Y ",  " X ",  "XZX",  X, iron_block, Y, glass, Z, iron_ingot
+
+AddRack = nada,   0,-0.05, 0.0,  0,0,0,  0
+AddRack = nada,   0, 0.64, 0.2,  0,0,0,  0
+AddRack = nada,   0, 1.30, 0.4,  0,0,0,  0
+;AddRack = nada,   0,-0.34375, -4.0,  0,0,0,  0

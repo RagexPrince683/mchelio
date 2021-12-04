@@ -1,0 +1,30 @@
+﻿DisplayName = fl282 float
+AddDisplayName = ja_JP, fl282 フロート
+ItemID = 30203
+MaxHp = 100
+Float  = true
+OnGroundPitch = 7.5
+ThrottleUpDown = 1.0
+DamageFactor = 0.5
+Stealth = 0.5
+Speed = 1.1
+MaxFuel         = 600
+FuelConsumption = 0.6
+
+EntityWidth  = 0.6
+EntityHeight = 0.6
+
+MobilityYaw = 1.5
+MobilityPitch = 1.0
+MobilityRoll = 1.5
+
+AddRotor= 1,   0,  0.24,  2.13, -0.94,  0.0, 1.0, 0.0
+AddRotor= 1,   0, -0.24,  2.13, -0.94,  0.0,-1.0, 0.0
+
+AddSeat = 0.0,  0.31,  0.12
+
+
+BoundingBox =  0.0, 0.85, 0.0,  2.0, 2.0
+
+0.133
+0.078

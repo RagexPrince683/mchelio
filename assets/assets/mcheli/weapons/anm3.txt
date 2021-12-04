@@ -1,0 +1,19 @@
+DisplayName = AN/M3 12.7mm 
+Type = MachineGun2
+Power = 9
+Acceleration = 10.0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 1.2
+SoundPitch = 1.0
+Sound = gun_h1_snd
+Accuracy = 2.0
+HeatCount = 3
+MaxHeatCount = 150
+SetCartridge = cartridge, 0.3,  90, -20, 3.00, -0.04, 0.40
+
+MaxAmmo = 500
+SuppliedNum = 250
+Item =  4, iron_ingot
+Item =  5, gunpowder

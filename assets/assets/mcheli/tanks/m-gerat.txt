@@ -1,0 +1,77 @@
+DisplayName = M-Gerat 420mm howitzer
+AddDisplayName = en_US, M-Gerat 420mm howitzer
+ItemID = 39808
+Speed = 0.2
+StepHeight = 1.5
+
+Sound = 12PounderFieldGun_movement
+
+
+
+CameraPosition = 0.0, 3.50, 0.0, true
+HUD = mbt_hud,
+
+
+EnableNightVision = false
+EnableEntityRadar = false
+
+MobilityYawOnGround = 1.8
+MobilityYaw = 2.0
+MobilityPitch = 5.0
+MobilityRoll = 1.0
+MinRotationPitch = -63
+MaxRotationPitch =  4
+
+
+
+
+ThrottleUpDown = 10.0
+
+
+AddSeat = 0.40,  0.81,  2.25
+HideEntity = true
+CameraZoom = 3
+
+AddWeapon = 420mmhowitzer, 0.0, 2.3167, 1.4123,   0, -1, true, 1,0,-20,20, -63,  0,-1
+AddPartWeapon = 420mmhowitzer, false, true, true,  0.0, 2.6000,  0.60
+AddPartWeaponChild= false, false, 0.0,  2.6000,  0.60, 0.5
+
+
+BoundingBox =  0.0, 1.30, 2.7,  2.6, 0.8, 0.2
+BoundingBox =  0.0, 0.48, 2.7,  2.6, 0.8, 0.8
+
+BoundingBox =  0.0, 0.98, 0.0,  3.2, 1.5, 0.9
+BoundingBox =  0.0, 0.98, -2.7,  2.6, 1.5, 1.0
+
+
+
+Float  = false
+SubmergedDamageHeight = 1
+MaxHp = 100
+Gravity = -0.2
+GravityInWater = -0.1
+
+MaxFuel         = 2400
+FuelConsumption = 2.0
+
+AddPartWheel =   -1.53,  0.35,-0.65
+AddPartWheel =    1.53,  0.35,-0.65
+
+
+
+
+EnableBack = true
+MotionFactor = 0.3
+
+DamageFactor = 1.0
+
+PivotTurnThrottle = 0.0
+WeightedCenterZ = 0.0
+OnGroundPitchFactor = 1.5
+OnGroundRollFactor  = 1.5
+WeightType = Tank 
+
+
+
+
+

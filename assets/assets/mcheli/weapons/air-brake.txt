@@ -1,0 +1,2 @@
+DisplayName = エアブレーキ展開
+Type = Dummy

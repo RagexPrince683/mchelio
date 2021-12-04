@@ -1,0 +1,20 @@
+DisplayName = Rehinmetall Smoothbore Gun[HEAT]
+Type = MachineGun1
+Power = 370
+Explosion = 4
+ExplosionBlock = 4
+Acceleration = 7.0
+Sight = None
+ReloadTime = 140
+Round = 1
+SoundVolume = 10.0
+Sound = mbtshot
+Accuracy = 0.5
+BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+
+MaxAmmo = 40
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  2, blazepowder

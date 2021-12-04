@@ -1,0 +1,15 @@
+﻿DisplayName = Hull
+AddDisplayName = ja_JP, Hull
+ItemID = 31120
+MaxHp = 40
+HideEntity = true
+MinRotationPitch = -5
+MaxRotationPitch =  4
+DamageFactor = 1.0
+CameraZoom = 1
+CameraPosition = 0.0, 2.00, 0.0
+
+AddSeat = 0.00,  0.00, 0.00
+
+AddRecipe = "XXX",  "   ",  "XXX",  X, iron_ingot,
+

@@ -1,0 +1,105 @@
+DisplayName = Il-28
+AddDisplayName = ja_JP, Il-28 ビーグル
+MaxHp = 150
+Speed = 0.9
+ThrottleUpDown = 0.15
+AutoPilotRot = 0.00
+CameraPosition = 0.0, 1.10, -4.47
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+MaxFuel         = 2400
+FuelConsumption = 2.0
+ThirdPersonDist = 28
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+
+AddTexture = il28_ddr
+AddTexture = il28_dprk
+AddTexture = il28_cs
+AddTexture = il28_pla
+AddTexture = il28_none
+
+UnmountPosition = 4.0, 1.0, -2.0
+
+HUD = plane_wwii, gunner, none
+
+MobilityYaw = 1.0
+MobilityRoll = 1.0
+MobilityPitch = 3.0
+
+MobilityYawOnGround = 4.0
+
+AddSeat = 0,  2.71,  -2.10
+AddGunnerSeat = 0, 2.48, -18.7,   0.0, 3.50, -19.5,   true,-60,45
+AddSeat = 0,  1.92,  -0.10
+
+AddPartWeapon = nr23_g,false, true, false,       0, 2.4023, -19.4921
+AddPartWeaponChild  =        false, true,  0.0000, 2.4023, -19.4921
+AddPartWeaponChild  =        false, true,  0.0000, 2.4023, -19.4921
+
+AddPartWeaponMissile = fab250,     false, false,false, 0.315,1.954,-6.446
+AddPartWeaponMissile = fab250,     false, false,false,-0.315,1.954,-6.446
+AddPartWeaponMissile = fab250,     false, false,false, 0.315,1.954,-8.8842
+AddPartWeaponMissile = fab250,     false, false,false,-0.315,1.954,-8.8842
+AddPartWeaponMissile = fab250,     false, false,false, 0.315,2.3867,-6.446
+AddPartWeaponMissile = fab250,     false, false,false,-0.315,2.3867,-6.446
+AddPartWeaponMissile = fab250,     false, false,false, 0.315,2.3867,-8.8842
+AddPartWeaponMissile = fab250,     false, false,false,-0.315,2.3867,-8.8842
+
+AddPartWeaponBay = fab250 ,  0.7887, 1.8253, -5.8617, 0, 0,  1, 90
+AddPartWeaponBay = fab250 , -0.7887, 1.8253, -5.8617, 0, 0, -1, 90
+
+AddPartLG = 0, 1.7228, 0.4158, 1, 0, 0, 90
+AddPartSlideRotLG = 0, 0.5, -0.7, 0, 1.8, -1, -1,0,0,40
+AddPartLG = 0.3119, 1.6016, -0.7964, 0, 0, -1, 90
+AddPartLG =-0.3119, 1.6016, -0.7964, 0, 0, 1, 90
+AddPartLG = 2.8161, 1.5758, -6.8931, 0, 0, 1, 90
+AddPartLG = 4.8231, 1.5758, -6.8931, 0, 0,-1, 90
+AddPartLG = 3.8523,    1.6, -9.1522, -1,-0.3, 0, 135
+AddPartLG =-2.8161, 1.5758, -6.8931, 0, 0,-1, 90
+AddPartLG =-4.8231, 1.5758, -6.8931, 0, 0, 1, 90
+AddPartLG =-3.8523,    1.6, -9.1522, -1, 0.3, 0, 135
+
+AddPartNozzle =  3.8196, 2.3235, -13.7, 1, 0, 0
+AddPartNozzle = -3.8196, 2.3235, -13.7, 1, 0, 0
+
+AddWeapon = nr23_g,  0.1851, 2.4023, -19.4021,   0.0, 0.0, false, 2,180,-50,50,-60,45
+AddWeapon = nr23_g, -0.1851, 2.4023, -19.4021,   0.0, 0.0, false, 2,180,-50,50,-60,45
+
+AddWeapon = nr23_n,  0.61, 2.0967, -0.4,   0.0, 0.0, true, 1
+AddWeapon = nr23_n, -0.61, 2.0967, -0.4,   0.0, 0.0, true, 1
+
+AddWeapon = fab250,      0.315,1.954, -6.446, 0, 90, true,  1
+AddWeapon = fab250,     -0.315,1.954, -6.446, 0, 90, true,  1
+AddWeapon = fab250,      0.315,1.954,-8.8842, 0, 90, true,  1
+AddWeapon = fab250,     -0.315,1.954,-8.8842, 0, 90, true,  1
+AddWeapon = fab250,      0.315,2.3867,-6.446, 0, 90, true,  1
+AddWeapon = fab250,     -0.315,2.3867,-6.446, 0, 90, true,  1
+AddWeapon = fab250,     0.315,2.3867,-8.8842, 0, 90, true,  1
+AddWeapon = fab250,    -0.315,2.3867,-8.8842, 0, 90, true,  1
+
+BoundingBox =  0, 2.56, 0,  2.0, 2, 1.0
+BoundingBox =  0, 2.56, -2,  2.0, 3, 1.0
+BoundingBox =  0, 2.56, -4,  2.0, 2, 0.8
+BoundingBox =  0, 2.56, -6,  2.0, 2, 0.8
+BoundingBox =  0, 2.56, -8,  2.0, 2, 0.8
+BoundingBox =  0, 2.56, -10,  2.0, 2, 0.8
+BoundingBox =  0, 2.56, -12,  2.0, 2, 0.8
+BoundingBox =  0, 2.56, -14,  2.0, 2, 1.0
+BoundingBox =  0, 2.56, -16,  2.0, 2, 1.0
+BoundingBox =  0, 2.56, -18,  2.0, 2, 1.0
+BoundingBox =  3.82, 2.06, -4,  2.0, 2, 1.0
+BoundingBox =  3.82, 2.06, -6,  2.0, 2, 1.2
+BoundingBox =  3.82, 2.06, -8,  2.0, 2, 1.2
+BoundingBox =  3.82, 2.06, -10,  2.0, 2, 1.2
+BoundingBox =  3.82, 2.06, -12,  2.0, 2, 0.8
+BoundingBox = -3.82, 2.06, -4,  2.0, 2, 1.0
+BoundingBox = -3.82, 2.06, -6,  2.0, 2, 1.2
+BoundingBox = -3.82, 2.06, -8,  2.0, 2, 1.2
+BoundingBox = -3.82, 2.06, -10,  2.0, 2, 1.2
+BoundingBox = -3.82, 2.06, -12,  2.0, 2, 0.8
+BoundingBox =  0, 3.0, -10,  5, 0.5, 1.0
+BoundingBox =  6, 3.0, -10,  3, 0.5, 0.8
+BoundingBox =  -6, 3.0, -10,  3, 0.5, 0.8
+
+AddRecipe = " Y ",  "YIY",  "FTF",  I, iron_block, Y, iron_ingot, T, tnt, F, furnace

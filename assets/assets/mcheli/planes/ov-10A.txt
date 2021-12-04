@@ -1,0 +1,62 @@
+DisplayName = OV-10A Bronco
+AddDisplayName = ja_JP, OV-10A ブロンコ
+ItemID = 28760
+MaxHp = 100
+Speed = 0.9
+Sound = prop
+ThrottleUpDown = 0.2
+MaxFuel         = 1200
+FuelConsumption = 1.0
+RotorSpeed = 200.0
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+AddTexture = ov-10A_1
+AddTexture = ov-10A_2
+AddTexture = ov-10A_3
+
+HUD = plane, gunner, none, none
+
+AddSeat =  0.0, 1.3,  0.00
+AddSeat =  0.0, 1.5, -1.38
+AddSeat =  0.0, 1.3, -2.34
+AddSeat =  0.0, 1.28, -4.80
+
+AddPartRotor =     2.6648,  1.9937, -1.30,   1,0,0
+AddBlade =  1, 0,  2.6648,  1.9937, -1.30,   0,0,1
+
+AddPartRotor =    -2.6648,  1.9937, -1.30,   1,0,0
+AddBlade =  1, 0, -2.6648,  1.9937, -1.30,   0,0,-1
+
+AddPartLG    =  0.00, 1.39, 0.58,     1,0,0, -90
+AddPartLG    =  0.00, 1.71, -3.04,     1,0,0,  75
+
+AddPartHatch =  0.64, 0.00,  -5.29,    0,1,0, -180
+
+AddWeapon = m60_tw,  0.98, 0.98, -1.59,   0.0, -1.0
+AddWeapon = m60_tw, -0.98, 0.98, -1.59,   0.0, -1.0
+
+AddWeapon = hydra70_14,  0.55, 0.54, -2.38,   0.0, -1.0
+AddWeapon = hydra70_14, -0.55, 0.54, -2.38,   0.0, -1.0
+AddWeapon = zuni_8,      1.14, 0.36, -2.12,   0.0, -1.0
+AddWeapon = zuni_8,     -1.14, 0.36, -2.12,   0.0, -1.0
+AddWeapon = zuni_mpsm,   4.93, 1.18, -1.55,   0.0, -1.0
+AddWeapon = zuni_mpsm,  -4.93, 1.18, -1.55,   0.0, -1.0
+
+AddWeapon = hydra70_m264rp,  0.55, 0.54, -2.38,   0.0, -1.0
+AddWeapon = hydra70_m264rp, -0.55, 0.54, -2.38,   0.0, -1.0
+
+AddWeapon = targeting_pod_mob,     0.0, 0.7, 3.5,   0.0, 0.0,  false, 2
+AddWeapon = targeting_pod_pv10s,   0.0, 0.7, 3.5,   0.0, 0.0,  false,2
+
+; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range, ParaAlt
+AddRack = container,      0.0, 1.60, -3.38,   0.0, 0.0, -5.0,   12.0,   40
+
+AddRecipe = " G ",  "PXP",  "I I",  X, iron_block, G, glass, I, iron_ingot, P,heavy_weighted_pressure_plate
+
+BoundingBox =  0.00,  1.88,  0.00,  2.5, 2.5
+BoundingBox =  0.00,  1.88, -4.65,  2.5, 2.5
+
+BoundingBox =  4.96,  2.63, -3.87,  3.0, 0.6
+BoundingBox = -4.96,  2.63, -3.87,  3.0, 0.6

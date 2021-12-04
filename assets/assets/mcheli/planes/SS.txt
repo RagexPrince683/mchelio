@@ -1,0 +1,52 @@
+﻿DisplayName = Kairyu
+AddDisplayName = ja_JP, 特殊潜航艇 海龍
+ItemID = 31110
+MaxHp = 600
+Speed = 0.6
+Float = true
+;FloatOffset = -1.25
+FloatOffset = -6.25
+Sound = vehicle_drive
+CanMoveOnGround = false
+EnableBack = true
+ThrottleUpDown = 2.0
+Gravity = -0.1
+GravityInWater = 0
+DamageFactor = 0.5
+ArmorDamageFactor = 0.8
+MobilityYaw =  3.5
+MobilityYawOnGround = 2.0
+Stealth = 0.8
+EntityWidth  = 0.8
+EntityHeight = 0.8
+CameraPosition = 0.0, 4.8, 1.5, false
+CameraPosition = 0.0, 4.8, 1.5, false
+
+AddPartCanopy =  0.0, 2.45, 1.84, -1,0,0, 100
+
+MaxFuel    = 1070
+
+FuelConsumption = 0.2
+
+HUD = plane_gnr
+
+AddPartSlideHatch = 0.0, 0.9, 0.0
+
+AddSeat =  0.0, 0.08, 1.81
+AddGunnerSeat =  0.0, 0.08, 0.68, 0.0, 4.8, 1.5, true
+
+AddPartRotor =    0.0, 0.76, -9.5,  -1,0, 0
+AddBlade = 1, 0,  0.0, 0.76, -9.5,   0,0, 1
+RotorSpeed = 25.0
+
+AddPartSteeringWheel = 0.0, 1.0, -8.65, 0.0, -1.0, 0.0, 40
+
+AddWeapon = 45cm,  0.67, -0.03, 5.94, 0.0, 0.0, true, 1, 0, -40, 40, -20, 20
+AddWeapon = 45cm, -0.67, -0.03, 5.94, 0.0, 0.0, true, 1, 0, -40, 40, -20, 20
+AddWeapon = crash_dive, 0.0, 0.08, 1.81, 0.0, 0.0
+
+AddPartWeaponBay = crash_dive, 0.0, 0.76, 2.15,  1.0, 0.0, 0.0, 30
+AddPartWeaponBay = crash_dive, 0.0, 0.76,-8.54,-1.0, 0.0, 0.0, 30
+
+AddPartWeaponMissile = 45cm, false,  false,  false,  0.67, -0.03, 5.94
+AddPartWeaponMissile = 45cm, false,  false,  false, -0.67, -0.03, 5.94

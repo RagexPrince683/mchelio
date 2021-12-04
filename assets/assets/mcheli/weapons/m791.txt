@@ -1,0 +1,22 @@
+DisplayName = M791 25mm APDS-T
+Type = MachineGun2
+Power = 25
+Acceleration = 5.0
+Explosion = 1
+Flaming = false
+Sight = MoveSight
+Delay = 4
+ReloadTime = 120
+Round = 100
+SoundVolume = 3
+SoundPitch = 1.0
+Sound = gun_h2_snd
+Accuracy = 1.5
+ModeNum = 1
+Recoil = 0.5
+
+
+MaxAmmo = 100
+SuppliedNum = 50
+Item =  2, iron_ingot
+Item =  2, gunpowder

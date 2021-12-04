@@ -1,0 +1,113 @@
+﻿DisplayName = M4 Sherman
+AddDisplayName = en_US, M4 Sherman
+AddDisplayName = ja_JP, M4 シャーマン
+ItemID = 30181
+MaxHp = 45
+Speed = 0.6
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = true
+CameraRotationSpeed = 45
+StepHeight = 2.5
+MinRotationPitch = -25
+MaxRotationPitch = 12
+DefaultFreelook = true
+HideEntity = true
+FlareType = 10
+CameraZoom = 3
+CameraPosition = 0.00,  3.50,  0.90, false
+
+MobilityYawOnGround = 3.0
+
+HUD = bmct_hud, mbt_gnr
+
+AddTexture = m4-g
+AddTexture = m4-s
+
+
+; 指定した高さまでの水に触れてもダメージを受けない
+; 2であれば2ブロックまでダメージ無し
+SubmergedDamageHeight = 3
+
+OnGroundPitchFactor = 1.5
+OnGroundRollFactor  = 1.3
+
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.42,  -0.24,  2.63, 1.55,  0.80,  -0.27, -1.01, -2.10
+
+AddGunnerSeat =  0.00,  1.00,  0.25,    0.00,  3.50,  0.90,  false, -90, 90, true
+AddGunnerSeat = -0.55,  2.60, -0.29,    -0.57, 4.47, 0.00, true, -90, 90, true
+
+AddCrawlerTrack = true, 0.13, -1.42,  -0.26/2.63, -0.16/2.87, 0.30/3.52, 0.63/3.64, 1.04/3.23, 1.00/1.54, 1.00/-2.11, 0.90/-2.93,0.56/-3.39, 0.28/-3.19, -0.15/-2.34, -0.26/-2.10
+AddCrawlerTrack = true, 0.13,  1.42,  -0.26/2.63, -0.16/2.87, 0.30/3.52, 0.63/3.64, 1.04/3.23, 1.00/1.54, 1.00/-2.11, 0.90/-2.93,0.56/-3.39, 0.28/-3.19, -0.15/-2.34, -0.26/-2.10
+
+
+AddTrackRoller = -1.42,  0.63,  3.23
+AddTrackRoller = -1.42,  0.10,  2.63
+AddTrackRoller = -1.42,  0.10,  1.55
+AddTrackRoller = -1.42,  0.10,  0.80
+AddTrackRoller = -1.42,  0.10, -0.27
+AddTrackRoller = -1.42,  0.10, -1.01
+AddTrackRoller = -1.42,  0.10, -2.10
+AddTrackRoller = -1.42,  0.54, -2.93
+AddTrackRoller = -1.42,  0.87, -2.11
+AddTrackRoller = -1.42,  0.87, -0.30
+AddTrackRoller = -1.42,  0.87,  1.54
+
+AddTrackRoller = 1.42,  0.63,  3.23
+AddTrackRoller = 1.42,  0.10,  2.63
+AddTrackRoller = 1.42,  0.10,  1.55
+AddTrackRoller = 1.42,  0.10,  0.80
+AddTrackRoller = 1.42,  0.10, -0.27
+AddTrackRoller = 1.42,  0.10, -1.01
+AddTrackRoller = 1.42,  0.10, -2.10
+AddTrackRoller = 1.42,  0.54, -2.93
+AddTrackRoller = 1.42,  0.87, -2.11
+AddTrackRoller = 1.42,  0.87, -0.30
+AddTrackRoller = 1.42,  0.87,  1.54
+
+
+
+
+
+AddPartWeapon = 75mm_M3AP / 75mm_M3HE, false, true, false,  0.00, 2.20, 0.00, 0
+AddPartWeaponChild = false, true, 0.00, 2.58, 0.98, 0.5
+AddPartWeaponChild = false, true, 0.00, 2.58, 0.98
+AddTurretWeapon = 75mm_M3AP,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 12
+AddTurretWeapon = 75mm_M3HE,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 12
+AddTurretWeapon = mg7_62mm,   0.24, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 12
+
+;M2
+AddPartTurretWeapon    =M2_12.7mm,   false, true, true,   -0.57, 3.47, 0.18
+AddTurretWeapon = M2_12.7mm,    -0.57, 3.57, 0.30,   0.0, 0.0, true, 2, 0, -360,360, -50,30
+
+
+
+
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+ArmorMinDamage = 9
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+ArmorMaxDamage = 400
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+ArmorDamageFactor = 0.8
+
+MaxFuel         = 1200
+FuelConsumption = 1.0
+
+BoundingBox =  0.0, 0.7, -1.2,  2.8, 2.0
+BoundingBox =  0.0, 2.0, 0.1,  2.0, 1.0
+BoundingBox =  0.0, 0.7,  1.5,  2.8, 2.0

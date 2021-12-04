@@ -1,0 +1,108 @@
+DisplayName = Lamborghini Huracán Performante Spyder v2.0
+MaxHp = 100
+Speed = 1.85
+Sound = Lamborghini_H
+MobilityYawOnGround = 10.0
+ThrottleUpDown = 10.0
+MinRotationPitch = -90
+MaxRotationPitch =  90
+MobilityRoll = 0
+Gravity = -0.15
+GravityInWater = -0.1
+DamageFactor = 1.0
+ThirdPersonDist = 5
+
+AddTexture = l hps1 2
+AddTexture = l hps1 gris
+AddTexture = l hps1 2 gris
+AddTexture = l hps1 negro
+AddTexture = l hps1 2 negro
+AddTexture = l hps1 rojo 2
+AddTexture = l hps1 2 rojo 2
+AddTexture = l hps1 rojo
+AddTexture = l hps1 2 rojo
+AddTexture = l hps1 naranja
+AddTexture = l hps1 2 naranja
+AddTexture = l hps1 amarillo
+AddTexture = l hps1 2 amarillo
+AddTexture = l hps1 verde
+AddTexture = l hps1 2 verde
+AddTexture = l hps1 verde 2
+AddTexture = l hps1 2 verde 2
+AddTexture = l hps1 azul
+AddTexture = l hps1 2 azul
+AddTexture = l hps1 cian
+AddTexture = l hps1 2 cian
+
+CameraPosition =  0.48,  0.82,  0.00, true
+CameraPosition = -0.75,  0.65,  0.60, true, -135, 0
+CameraPosition = -0.11,  0.80, -0.40, true,  -15, 15
+CameraPosition = -0.60,  0.91, -0.30, true,  -32, 18
+CameraPosition =  1.65,  0.30,  3.90, true, -207, 0
+CameraPosition = -1.60, -0.15, -2.70, true,  -15, 0
+CameraPosition =  1.60,  0.10,  1.00, true,   15, 0
+
+HUD = lamborghini_huracan_hud, none
+ 
+AddSeat =   0.48,  -0.29,  -0.1
+AddSeat =  -0.48,  -0.17,  -0.1 
+
+SetWheelPos =  0.70,  -0.24,  1.82, -1.93
+
+PartWheelRot = 61
+
+AddPartWheel     = -0.9045,  0.0856,  1.5261,   30
+AddPartWheel     =  0.9045,  0.0856,  1.5261,   30
+AddPartWheel     = -1.1921,  0.1062, -1.8044
+AddPartWheel     =  1.1921,  0.1062, -1.8044
+
+;後退可能にする
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+; Tank or Car or Unknown
+WeightType = Unknown
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.1
+
+AddPartSteeringWheel =   0.9045,  0.0856,  1.5261,  0.0, 1.0, 0.0,   30
+AddPartSteeringWheel =  -0.9045,  0.0856,  1.5261,  0.0, 1.0, 0.0,   30
+
+AddPartSteeringWheel =   0.4825,  0.5423,  0.4412,  0.0, 1, -2.74747419,   130
+
+AddPartCanopy   =  1.107, 0.358, 1.051,  0, 1, 0, -60
+AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
+
+AddPartHatch = -1.107, 0.358, 1.051,  0, 1, 0, 60
+                   
+AddPartThrottle =  0.483, 0.60, 0.7273,  0, 1, -5.67128182, -230
+
+;AddFixedSearchLight= 座標X, Y, Z,       開始地点の色, 終了地点の色,  距離, 終端の半径, Yaw, Pitch
+;ヘッドライト                           
+;AddFixedSearchLight =  0.95, 0.50, 2.70,   0x20FFFFFF,   0x00FFFFC0,    30.0, 15.0,  -5,  0
+;AddFixedSearchLight = -0.95, 0.50, 2.70,   0x20FFFFFF,   0x00FFFFC0,    30.0, 15.0,   5,  0
+
+MaxFuel         = 600
+FuelConsumption = 0.5
+
+AddWeapon = L_Claxon,    0.00, 0.00, 0.00,  0.0,0.0
+AddWeapon = L_H_StartUp,    0.00, 0.00, 0.00,  0.0,0.0
+AddWeapon = L_H_EngineSound,    0.00, 0.00, 0.00,  0.0,0.0
+
+EntityWidth  = 0.78
+EntityHeight = 0.78
+
+StepHeight = 1.5
+
+
+BoundingBox =  0.0, 0.50,  1.85,   1.7, 0.6
+BoundingBox = 0.0, 0.20, 0.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 2.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, -1.6, 2.7, 0.2
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
+InventorySize = 9

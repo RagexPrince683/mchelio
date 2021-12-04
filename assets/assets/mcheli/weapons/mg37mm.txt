@@ -1,0 +1,21 @@
+DisplayName = 37mm Machine gun
+Type = MachineGun2
+Power = 80
+Acceleration = 4.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 2
+;SoundDelay = 3
+;Accuracy = 2.0
+HeatCount = 3
+MaxHeatCount = 100
+
+ReloadTime = 100
+Round = 90
+
+MaxAmmo = 1800
+SuppliedNum = 4
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

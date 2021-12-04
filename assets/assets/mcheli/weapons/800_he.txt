@@ -1,0 +1,45 @@
+DisplayName = 80cm Shell [HE]
+Type = MachineGun1
+ModelBullet = 800mm
+Power = 900
+Acceleration = 150
+AccelerationInWater = 40.0
+Explosion = 80
+ExplosionBlock = 20
+ExplosionInWater = 20
+Flaming = true
+Sight = none
+Delay = 300
+ReloadTime = 500
+SoundPitch = 0.001
+SoundVolume = 500
+Sound = gun_h7_snd
+Gravity = -0.02
+DamageFactor = helicopter, 1.0
+DamageFactor = plane,      1.0
+DamageFactor = vehicle,    1.0
+DamageFactor = tank,       1.0
+Recoil = 0.4
+Group = MainGun
+SetCartridge = 800mmcartridge, 0.8,  90, 15, 1.0, -0.05, 0.5
+
+; AddMuzzleFlash = distance, size, life time,   A,  R,  G,  B
+AddMuzzleFlash   =     33.0, 5.10,        27, 220,254,159, 74
+AddMuzzleFlash   =     32.0, 4.05,        20, 220,254,219,104
+AddMuzzleFlash   =     32.0, 3.00,        18, 220,254,219,184
+AddMuzzleFlash   =     30.0, 2.00,         8, 220,254,219,184
+
+; AddMuzzleFlashSmoke = Distance from source, number of displays, size, range, display time,   A,  R,  G,  B
+AddMuzzleFlashSmoke   =                 36.2,                 30, 32.0,   4.0,           62, 220, 50, 50, 50
+AddMuzzleFlashSmoke   =                 37.2,                 20, 23.0,   7.0,     	 55, 230, 10, 10, 10
+AddMuzzleFlashSmoke   =                 37.2,                 40, 43.0,  12.0,           75, 250, 30, 30, 30
+
+DisplayMortarDistance = true
+
+RecoilBufCount = 80, 15
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =   8, iron_ingot
+Item =  16, gunpowder
+Item =   4, redstone

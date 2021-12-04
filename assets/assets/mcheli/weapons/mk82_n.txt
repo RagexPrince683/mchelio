@@ -1,0 +1,20 @@
+DisplayName = Mk82 500lb Napalm B
+Type = Bomb
+Power = 45
+Acceleration = 0.1
+Explosion = 6
+ExplosionInWater = 0
+Flaming = true
+Sight = None
+Delay = 3
+Sound = bomb_snd
+ModelBullet = mk82_b
+FAE = true
+
+ReloadTime = 150
+Round = 24
+
+MaxAmmo = 24
+SuppliedNum = 3
+Item =  1, iron_ingot
+Item =  3, gunpowder

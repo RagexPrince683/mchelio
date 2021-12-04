@@ -1,0 +1,17 @@
+DisplayName = 12.7HeavyMachineGun(M2)
+Type = MachineGun2
+Power = 13
+Acceleration = 9.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+ReloadTime = 30
+HeatCount = 1
+MaxHeatCount = 150
+SoundPitch = 1.0
+Sound = gun_l1_snd
+MaxAmmo = 1200
+SuppliedNum = 1200
+Item =  5, iron_ingot
+Item =  2, gunpowder

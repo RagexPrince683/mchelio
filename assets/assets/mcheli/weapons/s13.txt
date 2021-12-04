@@ -1,0 +1,17 @@
+DisplayName = S-13 80mmRocket
+Type = Rocket
+Power = 140
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 4
+Flaming = false
+Sight = None
+Delay = 1
+ReloadTime = 150
+Round = 14
+Sound = missile_9_snd
+
+MaxAmmo = 14
+SuppliedNum = 14
+Item =  4, iron_ingot
+Item =  6, gunpowder

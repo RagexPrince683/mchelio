@@ -1,0 +1,20 @@
+DisplayName = BLU-1 Naparlm
+Type = Bomb
+Power = 45
+Acceleration = 0.1
+Explosion = 6
+ExplosionInWater = 0
+Flaming = true
+Sight = None
+Delay = 6
+Sound = bomb_snd
+ModelBullet = blu10b
+FAE = true
+
+ReloadTime = 150
+Round = 4
+
+MaxAmmo = 12
+SuppliedNum = 6
+Item =  3, iron_ingot
+Item =  3, gunpowder

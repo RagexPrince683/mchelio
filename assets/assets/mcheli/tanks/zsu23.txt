@@ -1,0 +1,82 @@
+DisplayName =ZSU-23-4
+AddDisplayName = en_US, ZSU-23-4
+AddDisplayName = ja_JP, ZSU-23-4
+ItemID = 30100
+MaxHp = 100
+Speed = 0.7
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 2.0
+MinRotationPitch = -70
+MaxRotationPitch = 5
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 3
+EnableNightVision = false
+CameraRotationSpeed = 25
+EnableEntityRadar = true
+MaxFuel         = 1200
+FuelConsumption = 3.0
+FlareType = 10
+CameraPosition = 0.00,  3.2, 0.17,false
+HideEntity = true
+EnableBack = true
+AddTexture =zsu1
+
+AddGunnerSeat =  0.00,  0, 0.17,   0.00,  3.2, 0.17, false, -80, 5, true
+
+
+HUD = mbt_hud,vehicle
+AddTurretWeapon =23mm, 0.00, 2.74, 0,  0.0, 0.0, true,1, 0,-360,360, -80, 5
+
+AddWeapon = 23mm,  0.24, 2.55, 1,  1.0, 0.0, true,1, 0,-360,360, -80, 5
+AddWeapon = 23mm,  0.33, 2.13, 1,  -1.0, 0.0, true,1, 0,-360,360, -80, 5
+AddWeapon = 23mm,  -0.24, 2.55, 1,  1.0, 0.0, true,1, 0,-360,360, -80, 5
+AddWeapon =23mm,  -0.33, 2.13, 1,  -1.0, 0.0, true,1, 0,-360,360, -80, 5
+
+AddPartWeapon = 23mm, false, true, false, 0.00, 2.74, 0, 0
+AddPartWeaponChild = false, true,  0, 3.81, -1.8
+AddPartWeaponChild = false, true, -0.48, 2.74, 1.19
+AddPartWeaponChild = false, true,   0.00, 2.27, 1.5
+
+; パラメータは前から順に 武器設定ファイル名、位置(X,Y,Z)、回転角度(横,縦), パイロット使用可否, 座席, DefaultYaw, MinYaw, MaxYaw, MinPitch, MaxPitch
+
+
+
+
+AddCrawlerTrack = true, 0.15, -1.89,  -0.30/-2.65, 0.22/-3.85, 0.33/-4.12, 0.6/-4.23, 0.87/-4.12, 0.98/-3.85, 0.98/3.5, 0.87/3.77, 0.6/3.88, 0.33/3.77, -0.3/2.6,
+AddCrawlerTrack = true, 0.15, 1.89,  -0.30/-2.65,0.22/-3.85, 0.33/-4.12, 0.6/-4.23, 0.87/-4.12, 0.98/-3.85, 0.98/3.5, 0.87/3.77, 0.6/3.88, 0.33/3.77, -0.3/2.6,
+
+
+AddTrackRoller = -1.89,  0.60,  3.5
+AddTrackRoller = -1.89,  0.16,  2.59
+AddTrackRoller = -1.89,  0.16,  1.54
+AddTrackRoller = -1.89,  0.16,  0.5
+AddTrackRoller = -1.89,  0.16,  -0.55
+AddTrackRoller = -1.89,  0.16,  -1.6
+AddTrackRoller = -1.89,  0.16,  -2.65
+AddTrackRoller = -1.89,  0.60,  -3.85
+
+AddTrackRoller = 1.89,  0.60,  3.5
+AddTrackRoller = 1.89,  0.16,  2.59
+AddTrackRoller = 1.89,  0.16,  1.54
+AddTrackRoller = 1.89,  0.16,  0.5
+AddTrackRoller = 1.89,  0.16,  -0.55
+AddTrackRoller = 1.89,  0.16,  -1.6
+AddTrackRoller = 1.89,  0.16,  -2.65
+AddTrackRoller = 1.89,  0.60,  -3.85
+
+
+MaxFuel         = 600
+FuelConsumption = 2.0
+
+
+BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25

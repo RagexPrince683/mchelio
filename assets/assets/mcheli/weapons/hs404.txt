@@ -1,0 +1,16 @@
+DisplayName = Hispano HS.404 20mm
+Type = MachineGun1
+Power = 18
+Acceleration = 7.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+HeatCount = 8
+MaxHeatCount = 100
+Accuracy = 3.0
+
+MaxAmmo = 200
+SuppliedNum = 100
+Item =  2, iron_ingot
+Item =  2, gunpowder

@@ -1,0 +1,15 @@
+DisplayName = GAU-19 12.7mm
+Type = MachineGun2
+ModelBullet = bullet
+Power = 13
+Acceleration = 4.0
+Explosion = 1
+Flaming = false
+Sight = MoveSight
+Delay = 0
+SoundDelay = 3
+SoundPitch = 0.5
+Accuracy = 3.4
+HeatCount = 1
+MaxHeatCount = 80
+ModeNum = 2

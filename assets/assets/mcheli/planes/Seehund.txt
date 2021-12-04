@@ -1,0 +1,49 @@
+﻿DisplayName = XXVIIB Seehund
+AddDisplayName = ja_JP, XXVIIBゼーフント
+ItemID = 31110
+MaxHp = 800
+Speed = 0.8
+Float = true
+FloatOffset = -4.0
+Sound = vehicle_drive
+CanMoveOnGround = false
+EnableBack = true
+ThrottleUpDown = 2.0
+Gravity = -0.1
+GravityInWater = 0
+DamageFactor = 0.4
+ArmorDamageFactor = 0.8
+MobilityYaw =  3.5
+MobilityYawOnGround = 2.0
+Stealth = 0.8
+CameraPosition = 0.0, 4.3, 0.7, false
+CameraPosition = 0.0, 4.3, 0.7, false
+
+AddPartCanopy =  0.0, 2.581, 0.253, 1,0,0, 100
+
+MaxFuel    = 1070
+
+FuelConsumption = 0.2
+
+HUD = plane_gnr
+
+AddPartSlideHatch = 0.0, 1.0, 0.0
+
+AddSeat =  0.0, 0.47, 0.3
+AddSeat =  0.0, 0.47,-1.2
+
+AddPartRotor =    0.0, 0.755, -6.5,   1,0, 0
+AddBlade = 1, 0,  0.0, 0.755, -6.5,   0,0,-1
+RotorSpeed = 25.0
+
+AddPartSteeringWheel = 0.0, 1.0, -6.445, 0.0, -1.0, 0.0, 40
+
+AddWeapon = G7e,  0.65, 0.16, 0.08, 0.0, 0.0, true, 1, 0, -10, 10, -20, 20
+AddWeapon = G7e, -0.65, 0.16, 0.08, 0.0, 0.0, true, 1, 0, -10, 10, -20, 20
+AddWeapon = crash_dive, 0.0, 0.47, 0.3, 0.0, 0.0
+AddWeapon = lorelei, 0.0, 1.47,-1.2, 0.0, 0.0, false, 2
+
+AddPartWeaponBay = crash_dive, 0.0, 0.05, -5.98, -1,0,0, 30
+
+AddPartWeaponMissile = G7e, false,  false,  false,  0.65, 0.16, 0.08
+AddPartWeaponMissile = G7e, false,  false,  false, -0.65, 0.16, 0.08

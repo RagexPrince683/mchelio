@@ -1,0 +1,20 @@
+DisplayName = MAC1934 7.5mm
+Type = MachineGun1
+Power = 7
+Acceleration = 8.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+;SoundDelay = 3
+Accuracy = 1.0
+HeatCount = 1
+MaxHeatCount = 200
+SoundPitch = 1.0
+Sound = mac1934_snd
+Gravity = -0.04
+
+MaxAmmo = 400
+SuppliedNum = 100
+Item =  2, iron_ingot
+Item =  2, gunpowder

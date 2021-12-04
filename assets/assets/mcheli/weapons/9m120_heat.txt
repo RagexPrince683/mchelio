@@ -1,0 +1,20 @@
+DisplayName = 9M120 Ataka HEAT
+Type = TVMissile
+Power = 300
+Acceleration = 2.0
+Piercing = 2
+Explosion = 3
+Flaming = false
+Sight = MoveSight
+ReloadTime = 200
+Delay = 40
+Round = 4
+ModelBullet = 9M113
+Sound = 9M120_snd
+ModeNum = 2
+
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

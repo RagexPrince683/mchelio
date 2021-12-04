@@ -1,0 +1,78 @@
+﻿DisplayName = M163 VADS
+AddDisplayName = en_US, M163 VADS
+AddDisplayName = ja_JP, M163 対空自走砲
+ItemID = 30191
+MaxHp = 100
+Speed = 0.7
+ThrottleUpDown = 5.0
+Gravity = -0.1
+GravityInWater = -0.5
+DamageFactor = 0.6
+EnableNightVision = true
+EnableEntityRadar = true
+Sound = mbt_run
+HUD = mbt_hud, 
+WeightType = Tank
+DefaultFreelook = true
+CameraZoom = 3
+
+AddTexture = m163_1
+
+EnableBack = true
+SetWheelPos =  1.00,  -0.24,  2.50, 1.00, -1.00, -2.50
+
+SubmergedDamageHeight = 1
+WeightedCenterZ = 0.0
+
+OnGroundPitchFactor = 2.5
+OnGroundRollFactor  = 2.0
+
+MobilityYawOnGround = 2.0
+PivotTurnThrottle = 0.0
+
+AddSeat       =   0.00, 2.91,  -0.46, true
+CameraPosition =  0.00, 3.37,  0.10, false
+
+
+StepHeight = 1.5
+InventorySize = 25
+ParticlesScale = 0.1
+SmoothShading = true
+HideEntity = true
+
+ArmorMinDamage = 12
+
+MotionFactor = 0.92
+
+MaxFuel         = 1000
+FuelConsumption = 1.5
+
+TrackRollerRot = 35
+
+AddTrackRoller = 0.00, 0.51, -2.68
+AddTrackRoller = 0.00, 0.21, -1.76
+AddTrackRoller = 0.00, 0.21, -0.87
+AddTrackRoller = 0.00, 0.21, -0.01
+AddTrackRoller = 0.00, 0.21,  0.87
+AddTrackRoller = 0.00, 0.21,  1.76
+AddTrackRoller = 0.00, 0.64,  2.69
+
+AddCrawlerTrack = false, 0.14, -2.15,   1.07/ 2.64, 0.91/ 3.05, 0.59/ 3.11, 0.25/ 2.98, -0.14/ 2.03, -0.28/ 1.65, -0.28/ -1.77, -0.14/ -2.14, 0.22/ -2.96, 0.51/ -3.08, 0.80/ -2.96, 0.91/ -2.67,
+AddCrawlerTrack = false, 0.14,  2.15,   1.07/ 2.64, 0.91/ 3.05, 0.59/ 3.11, 0.25/ 2.98, -0.14/ 2.03, -0.28/ 1.65, -0.28/ -1.77, -0.14/ -2.14, 0.22/ -2.96, 0.51/ -3.08, 0.80/ -2.96, 0.91/ -2.67,
+
+MinRotationPitch = -80
+MaxRotationPitch = 7
+
+AddPartWeapon = m61a1_v, false, true, false, 0.00, 2.46, -0.18
+AddPartWeaponChild = false, true, 0.00, 3.04, -0.19, 0,0
+AddPartRotWeapon = m61a1_v, false, true, true,  0.00, 3.07,  -0.18, 0,0
+
+AddTurretWeapon = m61a1_v,   0.03, 3.07, 0.71, 0.0, 0.0, true,1 , 0, -360, 360, -80,7
+
+AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 1
+AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,1
+
+BoundingBox =  0.0, 0.8,  1.3,   3.0, 2.0,  0.8
+BoundingBox =  0.0, 0.8,  -1.7,   3.0, 2.0,  1.5
+
+AddRecipe = "IXI",  "IXI",  "XIX",  X,iron_block,  I,iron_ingot
