@@ -12,6 +12,11 @@ ReloadTime = 180
 ProximityFuseDist = 1
 Sound = missile_3_snd
 
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+
 MaxAmmo = 12
 SuppliedNum = 3
 Item =  1, iron_ingot

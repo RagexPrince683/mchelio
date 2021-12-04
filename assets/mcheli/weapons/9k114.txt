@@ -1,6 +1,6 @@
 DisplayName = 9M114
 Type = ATMissile
-Power = 52
+Power = 560
 Acceleration = 2.0
 Explosion = 4
 Flaming = true
@@ -10,7 +10,10 @@ ModeNum = 2
 Sound = missile_1_snd
 RidableOnly = true
 
-DamageFactor = tank, 2.0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 8
 SuppliedNum = 2

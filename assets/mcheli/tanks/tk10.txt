@@ -1,5 +1,5 @@
 ﻿ DisplayName = TK-X
-AddDisplayName = en_US, TK-X
+AddDisplayName = en_US, Type 10 MBT
 AddDisplayName = zh_CN, TK-10坦克
 ItemID = 8759
 MaxHp = 620
@@ -43,7 +43,7 @@ SetWheelPos =  1.37,  -0.32,  3.60, 1.43, -0.75
 HUD = mbt_hud,mbt_gnr
 
 
-AddSeat =  0.00,  1.10,  0.00, true
+AddGunnerSeat =  0.00,  1.10,  0.00, true
 
 
 
@@ -113,12 +113,13 @@ AddTurretWeapon = Rh120-L55_heat,     0.00, 2.3204, 2.2626,  0.0, 0.0, true, 1, 
 AddTurretWeapon = mg7_62mm_mbt,      0.25, 2.3204, 2.2626,  0.0, 0.0, true, 1, 0, -360, 360, -40, 7
 
 
-;BoundingBox =  0.00, 0.73,  0.27,  5.02, 2.67,  0.60
-;BoundingBox =  0.00, 2.46,  0.10,  5.40, 1.52,  0.70
-;BoundingBox =   1.25, 0.65,  4.00,  2.58, 2.21,  0.80
-;BoundingBox =  -1.25, 0.65,  4.00,  2.58, 2.21,  0.80
-;BoundingBox =   1.25, 0.95,  -3.58,  2.60, 2.51,  0.90
-;BoundingBox =  -1.25, 0.95,  -3.58,  2.60, 2.51,  0.90
+BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
 
 
 
