@@ -1,7 +1,7 @@
 DisplayName = XGM-61C
 Type = TVMissile
 Group = MainGun
-Power = 250
+Power = 431
 Acceleration = 1.5
 LockTime = 20
 Round = 1
@@ -14,6 +14,11 @@ Sound = 9m120_snd
 SoundPitch = 0.8
 ReloadTime = 100
 ModeNum = 2
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 5
 SuppliedNum = 1

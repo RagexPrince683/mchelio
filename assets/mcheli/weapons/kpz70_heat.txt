@@ -1,7 +1,7 @@
 DisplayName = 152mm XM150E5[HEAT]
 Type = MachineGun1
 Group = MainGun
-Power = 240
+Power = 380
 Explosion = 0
 ExplosionBlock = 0
 Acceleration = 7.0
@@ -15,6 +15,11 @@ Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Recoil = 2.0
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 10
 SuppliedNum = 1

@@ -1,7 +1,7 @@
 DisplayName = 152mm XM150E5[APFSDS]
 Type = MachineGun1
 Group = MainGun
-Power = 280
+Power = 346
 Explosion = 0
 ExplosionBlock = 0
 Acceleration = 10.0
@@ -16,6 +16,11 @@ ModelBullet = bullet105mm
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Recoil = 2.0
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 15
 SuppliedNum = 1
