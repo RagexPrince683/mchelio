@@ -72,6 +72,7 @@
 "ht_run_snd": {"category": "master","sounds": ["ht_run_snd"]},
 "inline-four": {"category": "master","sounds": ["inline-four"]},
 "jeth": {"category": "master","sounds": ["jeth"]},
+"lamborghini_h": {"category": "master","sounds": ["lamborghini_h"]},
 "laserblue_snd": {"category": "master","sounds": ["laserblue_snd"]},
 "locked": {"category": "master","sounds": ["locked"]},
 "lockon": {"category": "master","sounds": ["lockon"]},
