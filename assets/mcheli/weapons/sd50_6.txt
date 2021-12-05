@@ -1,6 +1,6 @@
 DisplayName = SD 50 Semi-AP Bomb
 Type = Bomb
-Power = 30
+Power = 500
 Acceleration = 0.2
 Explosion = 3
 ExplosionInWater = 0

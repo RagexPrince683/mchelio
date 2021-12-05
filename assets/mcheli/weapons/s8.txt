@@ -1,6 +1,10 @@
 DisplayName = S-8 Rocket B-8M1
 Type = Rocket
-Power = 40
+Power = 350
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 Acceleration = 3.5
 Explosion = 4
 Flaming = false

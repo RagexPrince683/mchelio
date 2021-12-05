@@ -1,6 +1,6 @@
 DisplayName = No50 500kg bomb
 Type = Bomb
-Power = 55
+Power = 1000
 Acceleration = 0.1
 Explosion = 6
 ExplosionInWater = 2

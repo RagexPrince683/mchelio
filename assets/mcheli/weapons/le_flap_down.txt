@@ -1,2 +1,2 @@
-DisplayName = 前縁フラップ展開
+DisplayName = flap down
 Type = Dummy

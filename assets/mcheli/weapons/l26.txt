@@ -1,6 +1,6 @@
 DisplayName =L26 APFSDS
 Type = MachineGun1
-Power = 190
+Power = 471
 ModelBullet = bullet105mm
 Explosion = 1
 ExplosionBlock = 1
@@ -15,6 +15,11 @@ Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.01
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 AddMuzzleFlash      =  10.2,      1.80,        7,  220,254,159,74
 AddMuzzleFlash      =  10.1,      1.75,        6,  220,254,219,104

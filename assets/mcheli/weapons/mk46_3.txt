@@ -1,6 +1,6 @@
 DisplayName = Mark 46 torpedo
 Type = Torpedo
-Power = 35
+Power = 350
 ModelBullet = mk46
 Acceleration = 1.0
 AccelerationInWater = 1.5

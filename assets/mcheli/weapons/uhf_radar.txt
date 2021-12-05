@@ -1,4 +1,4 @@
-DisplayName = 索敵用レーダー
+DisplayName = Radar
 Type = TargetingPod
 Delay = 2
 Sight = MoveSight

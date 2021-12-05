@@ -1,6 +1,10 @@
 DisplayName = 60kg depth charge
 Type = Bomb
-Power = 30
+Power = 500
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 Acceleration = 0.1
 Explosion = 2
 ExplosionInWater = 4

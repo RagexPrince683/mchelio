@@ -12,6 +12,10 @@ ModeNum = 1
 Bomblet = 15
 BombletDiff = 3.0
 Gravity = -0.03
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 12
 SuppliedNum = 4

@@ -1,2 +1,2 @@
-DisplayName = これより着陸シーケンス
+DisplayName = Landing
 Type = Dummy

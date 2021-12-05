@@ -1,6 +1,10 @@
 ﻿DisplayName = TOW 2
 Type = TVMissile
-Power = 200
+Power = 900
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 Acceleration = 6
 Explosion = 2
 Flaming = false

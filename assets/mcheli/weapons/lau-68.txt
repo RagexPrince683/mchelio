@@ -1,6 +1,6 @@
 DisplayName = LAU-68 70mm Rocket
 Type = Rocket
-Power = 35
+Power = 300
 ModelBullet = hydra70
 Acceleration = 4.0
 Explosion = 3
@@ -10,6 +10,11 @@ Sight = MoveSight
 Delay = 7
 ReloadTime = 110
 Round = 19
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 8
 SuppliedNum = 4

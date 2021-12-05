@@ -1,6 +1,6 @@
-DisplayName = »ð¼ýµ¯
+DisplayName = S-8
 Type = Rocket
-Power = 19
+Power = 350
 ModelBullet = hydra70
 Acceleration = 4.5
 Explosion = 6
@@ -13,6 +13,10 @@ Round = 12
 ModeNum = 2
 Sound = rocket_snd
 Gravity = -0.05
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 
 

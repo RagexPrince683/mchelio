@@ -1,2 +1,2 @@
-DisplayName = ‹@‘Ì“dŒ¹ƒIƒ“
+DisplayName = Power On
 Type = Dummy

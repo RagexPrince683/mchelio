@@ -1,4 +1,4 @@
-DisplayName = アクティブ・ソナー
+DisplayName = Ping
 Type = TargetingPod
 Delay = 60
 Sight = MoveSight

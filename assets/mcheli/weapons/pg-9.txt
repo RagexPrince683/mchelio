@@ -1,6 +1,6 @@
 DisplayName = PG-9
 Type = MachineGun2
-Power = 350
+Power = 400
 ModelBullet = PG-9
 Acceleration = 10
 Explosion = 5

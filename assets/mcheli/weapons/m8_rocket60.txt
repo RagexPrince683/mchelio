@@ -1,6 +1,6 @@
 DisplayName = M8 110mm Rocket
 Type = Rocket
-Power = 150
+Power = 400
 ModelBullet = hydra70
 Acceleration = 3.5
 Explosion = 1

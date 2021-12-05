@@ -1,6 +1,10 @@
 DisplayName = RGM-84 Harpoon
 Type = ASMissile
-Power = 50
+Power = 1000
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 Acceleration = 4.0
 Explosion = 8
 Flaming = true

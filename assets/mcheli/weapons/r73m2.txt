@@ -1,6 +1,10 @@
 DisplayName = R-73M2 AAM
 Type = AAMissile
 Power = 42
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 Acceleration = 4
 Explosion = 4
 Flaming = false

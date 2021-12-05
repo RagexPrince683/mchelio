@@ -1,6 +1,6 @@
 DisplayName = TRIGAT-LR
 Type = ATMissile
-Power = 60
+Power = 1300
 Acceleration = 4.0
 Explosion = 2
 Flaming = false

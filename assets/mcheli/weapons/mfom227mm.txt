@@ -1,6 +1,10 @@
 DisplayName = 227mm M26 Rocket
 Type = Rocket
-Power = 95
+Power = 500
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 Explosion = 10
 ExplosionBlock = 7
 Acceleration = 4.0

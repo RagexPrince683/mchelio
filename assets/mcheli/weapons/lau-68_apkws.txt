@@ -1,6 +1,6 @@
 DisplayName = LAU-68/APKWS
 Type = TVMissile
-Power = 40
+Power = 400
 Acceleration = 2.0
 Explosion = 3
 Flaming = true
@@ -11,7 +11,10 @@ Round = 4
 ReloadTime = 120
 Sound = lau-68_snd
 
-DamageFactor = tank, 2.0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 8
 SuppliedNum = 2

@@ -1,6 +1,6 @@
 DisplayName = LAU-10 127mm Rocket
 Type = Rocket
-Power = 40
+Power = 457
 ModelBullet = hydra70
 Acceleration = 4.0
 Explosion = 4
@@ -10,6 +10,11 @@ Sight = MoveSight
 Delay = 11
 ReloadTime = 130
 Round = 8
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 8
 SuppliedNum = 4

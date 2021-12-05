@@ -1,6 +1,10 @@
 DisplayName = MK82 bomb
 Type = Bomb
-Power = 45
+Power = 1000
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 ModelBullet = mk82
 Acceleration = 0.1
 Explosion = 4

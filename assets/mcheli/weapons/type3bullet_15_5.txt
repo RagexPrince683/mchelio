@@ -14,8 +14,10 @@ Bomblet = 25
 BombletDiff = 2.0
 DisableSmoke = true
 Sound = rocket_snd
-DamageFactor = helicopter, 2.5
-DamageFactor = plane,      2.5
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 12
 SuppliedNum = 6

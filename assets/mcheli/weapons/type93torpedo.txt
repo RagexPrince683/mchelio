@@ -1,6 +1,6 @@
 DisplayName = Type93 torpedo
 Type = Torpedo
-Power = 35
+Power = 350
 ModelBullet = type93torpedo
 Acceleration = 1.5
 AccelerationInWater = 2.5

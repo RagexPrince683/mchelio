@@ -1,6 +1,10 @@
 DisplayName = Taurus KEPD 350
 Type = TVMissile
 Power = 1000
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 Acceleration = 2.0
 Explosion = 15
 Sight = MoveSight
@@ -12,8 +16,6 @@ ModelBullet = Taurus
 Sound = missile_1_snd
 DisableSmoke = true
 Particle = largeexplode
-
-DamageFactor = tank, 2.0
 
 MaxAmmo = 2
 SuppliedNum = 1

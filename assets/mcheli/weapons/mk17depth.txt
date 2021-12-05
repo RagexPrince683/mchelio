@@ -1,6 +1,6 @@
 DisplayName = Mk17 Depth-Bomb
 Type = Bomb
-Power = 50
+Power = 1000
 Acceleration = 0.1
 Explosion = 4
 ExplosionInWater = 9

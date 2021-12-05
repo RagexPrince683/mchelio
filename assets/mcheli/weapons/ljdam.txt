@@ -1,6 +1,6 @@
 DisplayName = GBU-54(V)1/B LJDAM
 Type = ASMissile
-Power = 400
+Power = 1000
 Acceleration = 2
 Explosion = 7
 ExplosionInWater = 0

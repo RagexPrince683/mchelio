@@ -1,2 +1,2 @@
-DisplayName = 機体電源オフ
+DisplayName = Power Off
 Type = Dummy

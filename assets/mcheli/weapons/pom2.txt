@@ -1,6 +1,6 @@
-DisplayName = POM-2S Anti-Personal Mine
+DisplayName = POM-2S Anti-Personell Mine
 Type = Bomb
-Power = 10
+Power = 100
 Acceleration = 0.2
 Explosion = 4
 ExplosionBlock = 0
@@ -19,10 +19,12 @@ ProximityFuseDist = 2.0
 
 ModelBullet = pom2
 
-DamageFactor = tank, 0.0
+
 DamageFactor = player, 10.0
-DamageFactor = heli, 0.0
-DamageFactor = vehicle, 0.0
+DamageFactor = tank, 0.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 20
 SuppliedNum = 10

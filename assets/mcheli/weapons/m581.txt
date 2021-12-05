@@ -1,6 +1,10 @@
 DisplayName = M581 105mm MPSM
 Type = Rocket
-Power = 16
+Power = 100
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 Acceleration = 4.0
 Explosion = 1
 Flaming = false

@@ -1,6 +1,10 @@
 DisplayName = Mk82 500lb Napalm B
 Type = Bomb
-Power = 45
+Power = 1000
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 Acceleration = 0.1
 Explosion = 6
 ExplosionInWater = 0
