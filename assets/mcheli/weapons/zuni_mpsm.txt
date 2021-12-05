@@ -14,6 +14,11 @@ BombletSTime = 5
 BombletDiff = 1.1
 Piercing  = 2
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+
 ModelBullet = hydra70
 ModelBomblet = cbc
 

@@ -1,4 +1,4 @@
-DisplayName = íÔ“¹—pq‹ó‹@e
+DisplayName = ww2 plane mg
 Type = MachineGun1
 Power = 10
 Acceleration = 10.0

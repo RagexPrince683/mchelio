@@ -1,6 +1,6 @@
-DisplayName = Ó¥»÷ 18 ·´½¢µ¼µ¯
+DisplayName = YJ-18
 Type = ATMissile
-Power = 400
+Power = 1000
 Acceleration = 3.8
 Explosion = 18
 Flaming = true
@@ -45,8 +45,10 @@ AddMuzzleFlashSmoke =  3, 16,  27.0,  7.0, 90,  200,190,170,150
 
 
 
-
-DamageFactor = plane, 3.5
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 
 MaxAmmo = 16
