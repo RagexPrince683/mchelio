@@ -1,6 +1,6 @@
 DisplayName = AGM-84 Harpoon
 Type = ASMissile
-Power = 40
+Power = 1000
 Acceleration = 4.0
 Explosion = 9
 Flaming = true

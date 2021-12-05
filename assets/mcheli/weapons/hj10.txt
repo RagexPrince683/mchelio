@@ -1,6 +1,6 @@
 DisplayName = ºì¼ý-10
 Type = ATMissile
-Power = 86
+Power = 1000
 Acceleration = 4.0
 Explosion = 6
 Flaming = true
@@ -13,7 +13,10 @@ ModelBullet = HJ10
 Sound = missile_1_snd
 RidableOnly = true
 FixMode = 2
-DamageFactor = tank, 2.0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 4
 SuppliedNum = 2

@@ -17,6 +17,11 @@ SoundDelay = 4
 SoundPitch = 0.3
 Sound = cannon_1_snd
 
+DamageFactor = tank, 3.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+
 MaxAmmo = 60
 SuppliedNum = 20
 Item =  6, iron_ingot

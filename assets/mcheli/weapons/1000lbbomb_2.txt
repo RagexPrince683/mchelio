@@ -1,6 +1,6 @@
 DisplayName = 1000lb bomb
 Type = Bomb
-Power = 450
+Power = 1000
 ModelBullet = 1000lbBomb
 Acceleration = 0.1
 Explosion = 10

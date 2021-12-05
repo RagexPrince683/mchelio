@@ -45,3 +45,5 @@ AddWeapon = targeting_pod_pv10s,   0.0, 0.10, 2.91,   0.0, 0.0,  false,2
 AddRecipe = " Y ",  "YXY",  " Y ",  X, iron_block, Y, iron_ingot
 
 BoundingBox =  0.0, 1.7, 0.0,  2.4, 2.5
+
+DamageFactor = 0.8

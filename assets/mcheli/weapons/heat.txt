@@ -1,6 +1,6 @@
 DisplayName = HEAT
 Type = MachineGun1
-Power = 150
+Power = 430
 ModelBullet =bullet105mm
 Explosion = 1
 ExplosionBlock = 3
@@ -15,6 +15,11 @@ BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.02
 Delay = 10
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 
 

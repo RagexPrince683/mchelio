@@ -1,6 +1,6 @@
 DisplayName = 9K118 Sheksna
 Type = TVMissile
-Power = 52
+Power = 750
 Acceleration = 2.0
 Explosion = 4
 Flaming = true
@@ -9,7 +9,10 @@ Delay = 100
 ModeNum = 2
 Sound = missile_1_snd
 
-DamageFactor = tank, 2.0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 4
 SuppliedNum = 2

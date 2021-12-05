@@ -1,6 +1,6 @@
 DisplayName = CBU-72 FAE1
 Type = Bomb
-Power = 40
+Power = 1000
 Acceleration = 0.1
 Explosion = 15
 ExplosionInWater = 0

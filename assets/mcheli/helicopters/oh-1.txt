@@ -73,3 +73,5 @@ AddRecipe = "I X",  "IX ",  "I X",  X, iron_block, I, iron_ingot
 BoundingBox =  0.0, 2.5, -2.0,  1.5, 3.3
 BoundingBox =  0.0, 2.0, -4.0,  2.0, 2.0
 BoundingBox =  0.0, 2.5, -9.0,  2.0, 3.0
+
+DamageFactor = 0.8

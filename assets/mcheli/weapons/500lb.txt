@@ -1,8 +1,9 @@
 DisplayName = 500lb Bomb
 Type = Bomb
-Power = 10
+Power = 1000
 Acceleration = 1.5
 Explosion = 3
+
 Sight = None
 Delay = 6
 ReloadTime = 380

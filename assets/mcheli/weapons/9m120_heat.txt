@@ -1,6 +1,6 @@
 DisplayName = 9M120 Ataka HEAT
 Type = TVMissile
-Power = 300
+Power = 800
 Acceleration = 2.0
 Piercing = 2
 Explosion = 3
@@ -12,6 +12,11 @@ Round = 4
 ModelBullet = 9M113
 Sound = 9M120_snd
 ModeNum = 2
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 8
 SuppliedNum = 2

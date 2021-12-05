@@ -1,6 +1,6 @@
 DisplayName = ¶«º£-10 Ñ²º½µ¼µ¯
 Type = ASMissile
-Power = 300
+Power = 1000
 Acceleration = 3.2
 Explosion = 20
 Flaming = true

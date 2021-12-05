@@ -1,6 +1,6 @@
 DisplayName = EGBU-24 PavewayIII
 Type = ASMissile
-Power = 32
+Power = 1000
 Acceleration = 1.3
 Explosion = 5
 Flaming = true

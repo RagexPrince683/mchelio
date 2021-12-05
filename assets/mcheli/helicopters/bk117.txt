@@ -52,3 +52,5 @@ EntityHeight = 0.9
 
 MaxFuel         = 1000
 FuelConsumption = 1.0
+
+DamageFactor = 0.8

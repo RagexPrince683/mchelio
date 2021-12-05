@@ -1,6 +1,11 @@
 DisplayName = BGM-71A "TOW"
 Type = TVMissile
-Power = 260
+Power = 900
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 Acceleration = 2.0
 LockTime = 20
 Explosion = 2

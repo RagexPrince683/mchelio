@@ -88,3 +88,6 @@ BoundingBox =  0.0, 1.6, -2.0,  1.7, 1.8
 BoundingBox =  0.0, 1.6, -4.0,  1.0, 1.5
 
 AddRecipe = "DX ",  "XRX",  "HX ",  X, iron_block, R,redstone_block,  D,dispenser, H,heavy_weighted_pressure_plate
+
+
+DamageFactor = 0.8

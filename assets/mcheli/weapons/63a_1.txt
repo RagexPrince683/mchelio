@@ -1,6 +1,6 @@
 DisplayName = 105mm Gun  [AP]
 Type = MachineGun2
-Power = 180
+Power = 353
 ModelBullet = bullet105mm
 Acceleration = 6.8
 Explosion = 2

@@ -43,3 +43,4 @@ AddRecipe = " Y ", "YXY", " R ",  X, iron_block, Y, iron_ingot, R, redstone
 
 BoundingBox =  0.0, 1.7, -0.5,  2.4, 2.5
 BoundingBox =  0.0, 2.0, -6.5,  1.0, 1.0
+

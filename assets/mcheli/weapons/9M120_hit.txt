@@ -13,6 +13,12 @@ Sound = 9M120_snd
 ModeNum = 2
 FAE = true
 
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+
 MaxAmmo = 8
 SuppliedNum = 2
 Item =  1, iron_ingot

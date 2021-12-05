@@ -61,3 +61,5 @@ AddRecipe = "X X",  "X X",  "GXG",  X, iron_block, G, gunpowder
 BoundingBox =  0.0, 3.0, -1.0,  2.0, 4.8
 BoundingBox =  0.0, 2.5, -3.5,  2.0, 3.8
 BoundingBox =  0.0, 2.5, -6.0,  2.0, 3.0
+
+DamageFactor = 0.8

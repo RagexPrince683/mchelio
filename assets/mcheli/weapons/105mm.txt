@@ -1,13 +1,18 @@
 DisplayName = 105mm Deckgun
 Type = MachineGun2
-Power = 180
+Power = 353
 ModelBullet = bullet76mm
 Acceleration = 5.0
 Explosion = 2
 Flaming = false
 Sight = MoveSight
-Delay = 30
-ReloadTime = 30
+Delay = 120
+ReloadTime = 120
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 60
 SuppliedNum = 1

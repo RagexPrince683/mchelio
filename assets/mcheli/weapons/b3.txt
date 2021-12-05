@@ -17,8 +17,8 @@ Sound = gun_h7_snd
 Gravity = -0.01
 DamageFactor = helicopter, 4.0
 DamageFactor = plane,      4.0
-DamageFactor = vehicle,    1.0
-DamageFactor = tank,       1.0
+DamageFactor = vehicle,    1.5
+DamageFactor = tank,       1.5
 Recoil = 0.01
 
 TimeFuse = 2

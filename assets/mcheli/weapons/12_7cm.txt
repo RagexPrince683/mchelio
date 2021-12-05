@@ -1,6 +1,6 @@
 DisplayName = 12.7cm Gun
 Type = MachineGun2
-Power = 30
+Power = 80
 ModelBullet = bullet76mm
 Acceleration = 6.0
 Explosion = 3
@@ -13,6 +13,11 @@ HeatCount = 25
 MaxHeatCount = 60
 SoundVolume = 0.6
 Sound = cannon_1_snd
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 120
 SuppliedNum = 30

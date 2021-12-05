@@ -1,6 +1,6 @@
 DisplayName = GBU-38/B JDAM
 Type = ASMissile
-Power = 32
+Power = 1000
 Acceleration = 4
 Explosion = 6
 ExplosionBlock = 3

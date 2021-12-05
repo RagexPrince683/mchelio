@@ -11,6 +11,11 @@ Delay = 9
 ReloadTime = 110
 Round = 7
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+
 MaxAmmo = 14
 SuppliedNum = 7
 Item =  1, iron_ingot

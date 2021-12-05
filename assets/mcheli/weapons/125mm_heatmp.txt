@@ -1,6 +1,6 @@
 DisplayName = 125mm HEAT_MP
 Type = MachineGun2
-Power = 250
+Power = 500
 ModelBullet = bullet105mm
 Acceleration = 8.0
 Explosion = 0

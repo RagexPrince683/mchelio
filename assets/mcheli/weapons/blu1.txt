@@ -1,6 +1,6 @@
-DisplayName = BLU-1 Naparlm
+DisplayName = BLU-1 Napalm
 Type = Bomb
-Power = 45
+Power = 1000
 Acceleration = 0.1
 Explosion = 6
 ExplosionInWater = 0

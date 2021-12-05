@@ -1,6 +1,6 @@
 DisplayName = 250kg bomb
 Type = Bomb
-Power = 50
+Power = 1000
 Acceleration = 0.1
 Explosion = 4
 ExplosionBlock = 2

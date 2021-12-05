@@ -200,3 +200,5 @@ ExclusionSeat = 10,3
 ExclusionSeat = 8,4
 ExclusionSeat = 12,4
 ExclusionSeat = 13,4
+
+DamageFactor = 0.8

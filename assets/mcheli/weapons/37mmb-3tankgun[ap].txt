@@ -1,6 +1,6 @@
 DisplayName = 37mmB-3 TankGun[AP]
 Type = MachineGun2
-Power = 30
+Power = 42
 Acceleration = 6.5
 ModelBullet = bullet76mm
 Explosion = 0

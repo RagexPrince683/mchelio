@@ -1,4 +1,4 @@
-DisplayName = CLASH DIVE
+DisplayName = CRASH DIVE
 Type = MachineGun1
 Power = 0
 Sight = None

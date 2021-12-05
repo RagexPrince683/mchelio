@@ -1,6 +1,6 @@
 DisplayName = TV-Guided ATGM
 Type = TVMissile
-Power = 52
+Power = 1000
 Acceleration = 2.0
 Explosion = 3
 ExplosionBlock = 0

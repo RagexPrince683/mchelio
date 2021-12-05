@@ -1,2 +1,2 @@
-DisplayName = エアブレーキ展開
+DisplayName = Air Brake
 Type = Dummy

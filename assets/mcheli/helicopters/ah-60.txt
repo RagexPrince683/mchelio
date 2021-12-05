@@ -78,3 +78,5 @@ AddRecipe = "TXT",  "X X",  "X X",  X, iron_block, T, tnt
 BoundingBox =  0.0, 2.3, -2.0,  2.8, 3.8
 BoundingBox =  0.0, 1.8, -4.5,  2.8, 2.4
 BoundingBox =  0.0, 3.5,-14.5,  2.0, 3.0
+
+DamageFactor = 0.8

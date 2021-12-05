@@ -1,6 +1,6 @@
 DisplayName = AGM-86B ALCM
 Type = TVMissile
-Power = 82
+Power = 1000
 Acceleration = 2.0
 Explosion = 10
 Sight = MoveSight
@@ -11,7 +11,10 @@ ModelBullet = alcm
 Sound = missile_1_snd
 DisableSmoke = true
 
-DamageFactor = tank, 2.0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 12
 SuppliedNum = 3

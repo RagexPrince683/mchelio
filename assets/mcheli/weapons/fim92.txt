@@ -11,8 +11,10 @@ ProximityFuseDist = 1
 Sound = missile_1_snd
 Zoom = 1.8
 
-DamageFactor = plane, 1.8
-DamageFactor = helicopter, 1.8
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 ; DEBUG
 ;RigidityTime = 30

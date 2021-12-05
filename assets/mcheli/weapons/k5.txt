@@ -1,6 +1,6 @@
 DisplayName = k5
 Type = Rocket
-Power = 50
+Power = 150
 ModelBullet = hydra70
 Acceleration = 5.5
 Explosion = 5
@@ -12,9 +12,10 @@ Delay = 7
 ReloadTime = 50
 Round = 1
 
-DamageFactor = plane, 5.0
-DamageFactor = helicopter, 5.0
-DamageFactor = tank, 2.5
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 ; Particle test
 ;TrajectoryParticle = heart

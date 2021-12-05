@@ -1,6 +1,6 @@
 DisplayName = 9ÑM14 ÑMÑpÑ|ÑêÑÑÑ{Ñp [ATGM]
 Type = TVMissile
-Power = 300
+Power = 400
 Acceleration = 2.0
 Piercing = 2
 Explosion = 3

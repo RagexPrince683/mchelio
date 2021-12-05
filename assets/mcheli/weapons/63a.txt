@@ -1,6 +1,6 @@
 DisplayName = 105mmgun
 Type = MachineGun2
-Power = 80
+Power = 353
 ModelBullet = bullet105mm
 Acceleration = 4.8
 Explosion = 3

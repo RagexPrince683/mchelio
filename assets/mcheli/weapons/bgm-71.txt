@@ -1,9 +1,14 @@
 ﻿DisplayName = BGM-71
 Type = TVMissile
-Power = 50
+Power = 900
 Acceleration = 1
 Explosion = 5
 Flaming = false
 Sight = MoveSight
 Delay = 100
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 ModeNum = 2

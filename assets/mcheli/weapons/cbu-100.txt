@@ -1,6 +1,6 @@
 DisplayName = CBU-100 Cluster Bomb
 Type = Bomb
-Power = 18
+Power = 100
 Acceleration = 0.1
 Explosion = 3
 ExplosionInWater = 0

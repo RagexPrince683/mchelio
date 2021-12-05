@@ -1,6 +1,6 @@
 DisplayName = 12.7*108mm Gun
 Type = MachineGun1
-Power = 15
+Power = 23
 Acceleration = 9.0
 Explosion = 2
 ExplosionBlock = 1

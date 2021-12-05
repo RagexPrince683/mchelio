@@ -1,12 +1,17 @@
 DisplayName = Kh-35
 Type = ASMissile
-Power = 40
+Power = 1000
 Acceleration = 4.0
 Explosion = 7
 Flaming = true
 Sight = MoveSight
 Delay = 300
 Sound = missile_2_snd
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 8
 SuppliedNum = 4

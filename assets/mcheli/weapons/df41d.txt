@@ -1,6 +1,6 @@
 DisplayName = ÖÞ¼Êµ¯µÀµ¼µ¯
 Type = ATMissile
-Power = 4100
+Power = 41000
 Acceleration = 3.5
 Explosion = 50
 ExplosionBlock = 50

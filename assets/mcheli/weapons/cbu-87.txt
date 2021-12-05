@@ -1,6 +1,6 @@
 DisplayName = CBU-87/B Cluster Bomb
 Type = Bomb
-Power = 16
+Power = 100
 Acceleration = 0.1
 Explosion = 4
 ExplosionInWater = 0

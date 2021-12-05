@@ -1,6 +1,6 @@
 DisplayName = KD-88Ô¶³Ì¿ÕµØµ¼µ¯
 Type = ASMissile
-Power = 200
+Power = 1000
 Acceleration = 3.2
 Explosion = 20
 Flaming = true

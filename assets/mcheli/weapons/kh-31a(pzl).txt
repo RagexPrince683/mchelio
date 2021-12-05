@@ -1,6 +1,6 @@
 DisplayName = Kh-31A
 Type = ASMissile
-Power = 100
+Power = 1000
 Acceleration = 4.0
 Explosion = 10
 Flaming = true
@@ -8,9 +8,10 @@ Sight = MoveSight
 Delay = 200
 Sound = missile_2_snd
 
-DamageFactor = tank, 3.0
+DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = helicopter, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 2
 SuppliedNum = 2

@@ -1,6 +1,6 @@
 DisplayName = FAB-500 SH
 Type = Bomb
-Power = 60
+Power = 1000
 Acceleration = 0.05
 Explosion = 5
 ExplosionBlock = 4

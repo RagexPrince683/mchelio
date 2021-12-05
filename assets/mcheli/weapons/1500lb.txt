@@ -1,8 +1,8 @@
 DisplayName = 1500lb Bomb
 Type = Bomb
-Power = 15
+Power = 1000
 Acceleration = 1.0
-Explosion = 3
+Explosion = 15
 ExplosionInWater = 1
 Flaming = false
 Sight = None

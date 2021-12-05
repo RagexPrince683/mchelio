@@ -23,3 +23,5 @@ AddSeat =-0.50,  0.96,  0.29
 AddRecipe = " G ",  "IXI",  " I ",  X, iron_block, G, glass, I, iron_ingot
 
 BoundingBox =  0.0, 1.7, 0.0,  2.4, 2.5
+
+DamageFactor = 0.8

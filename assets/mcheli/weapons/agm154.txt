@@ -1,6 +1,6 @@
 DisplayName = AGM-154
 Type = ASMissile
-Power = 32
+Power = 100
 Acceleration = 1.7
 Explosion = 5
 ExplosionBlock = 4

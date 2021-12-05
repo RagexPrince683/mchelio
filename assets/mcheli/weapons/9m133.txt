@@ -1,6 +1,6 @@
 DisplayName = 9M133 Kornet-M
 Type = ATMissile
-Power = 70
+Power = 1000
 Acceleration = 2.0
 Explosion = 4
 ExplosionBlock = 0
@@ -21,8 +21,10 @@ AddMuzzleFlash      =  8.0,     2.00,        5,  220,254,219,184
 AddMuzzleFlashSmoke =  8.2, 30, 12.0,  4.0, 65,  220,160,140,120
 AddMuzzleFlashSmoke = 10.2, 20, 13.0,  7.0, 55,  200,190,170,150
 
-DamageFactor = tank, 2.0
-DamageFactor = vehicle, 2.0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 4
 SuppliedNum = 2

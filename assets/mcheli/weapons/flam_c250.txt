@@ -1,6 +1,6 @@
 DisplayName = FLAM-C250B 250kgIncendiary
 Type = Bomb
-Power = 12
+Power = 1000
 Acceleration = 1.3
 Explosion = 4
 Flaming = true

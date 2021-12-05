@@ -1,6 +1,6 @@
 DisplayName = CJ-10
 Type = TVMissile
-Power = 280
+Power = 1000
 Acceleration = 2.2
 Explosion = 18
 Flaming = true

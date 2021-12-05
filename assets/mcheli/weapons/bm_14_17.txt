@@ -1,6 +1,6 @@
 DisplayName = BM-14-17 140mm Rocket
 Type = Rocket
-Power = 42
+Power = 120
 ModelBullet = hydra70
 Acceleration = 5.0
 Explosion = 2
@@ -12,6 +12,11 @@ Round = 17
 Sound = missile_4_snd
 Gravity = -0.03
 Accuracy = 5.0
+
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 34
 SuppliedNum = 34

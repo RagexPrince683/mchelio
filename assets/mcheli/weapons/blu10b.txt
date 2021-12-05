@@ -1,6 +1,6 @@
 DisplayName = BLU-10/B
 Type = Bomb
-Power = 45
+Power = 1000
 Acceleration = 0.1
 Explosion = 4
 ExplosionInWater = 0

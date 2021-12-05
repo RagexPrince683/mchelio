@@ -1,6 +1,6 @@
 DisplayName = FAB250
 Type = Bomb
-Power = 150
+Power = 1000
 Acceleration = 0.1
 Explosion = 8
 ExplosionBlock = 3

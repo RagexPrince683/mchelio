@@ -1,6 +1,6 @@
 DisplayName = DM23 105mm APFSDS
 Type = MachineGun1
-Power = 230
+Power = 390
 ModelBullet = bullet105mm
 Explosion = 0
 ExplosionBlock = 0

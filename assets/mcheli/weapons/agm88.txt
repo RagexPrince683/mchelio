@@ -1,6 +1,6 @@
 DisplayName = AGM-88 HARM
 Type = ASMissile
-Power = 50
+Power = 1000
 Acceleration = 4.0
 Explosion = 9
 Flaming = true
@@ -8,6 +8,11 @@ Sight = MoveSight
 Delay = 300
 ModelBullet = agm84
 Sound = missile_2_snd
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 2
 SuppliedNum = 2

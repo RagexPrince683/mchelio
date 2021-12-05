@@ -14,6 +14,11 @@ Sound = 150mmAA
 Particle = largeexplode
 ProximityFuseDist = 10.0
 
+DamageFactor = tank, 3.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+
 MaxAmmo = 32
 SuppliedNum = 16
 Item =  3, iron_ingot

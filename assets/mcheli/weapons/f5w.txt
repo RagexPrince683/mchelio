@@ -1,6 +1,6 @@
 DisplayName = F5W 936kg Torpedo
 Type = Torpedo
-Power = 40
+Power = 500
 ModelBullet = f5w
 Acceleration = 0.0
 AccelerationInWater = 1.0

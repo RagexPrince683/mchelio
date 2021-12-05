@@ -12,9 +12,10 @@ Delay = 4
 Round = 8
 ReloadTime = 200
 
-DamageFactor = tank, 3.0
+DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
-DamageFactor = helicopter, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 ; Particle test
 ;TrajectoryParticle = heart

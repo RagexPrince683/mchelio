@@ -1,6 +1,6 @@
 DisplayName = 60mm Mortar
 Type = MachineGun1
-Power = 20
+Power = 40
 Explosion = 3
 ExplosionBlock = 2
 Acceleration = 4.0
@@ -14,8 +14,10 @@ Sound = gun_l4_snd
 Accuracy = 1.5
 ModelBullet = bullet76mm
 BulletColor = 255, 255, 100, 100
+DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = helicopter, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 ; ’…’e‹——£‚Ì•\Ž¦
 DisplayMortarDistance = true

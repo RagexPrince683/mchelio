@@ -13,6 +13,12 @@ Round = 19
 ModeNum = 2
 Piercing  = 2
 
+
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+
 MaxAmmo = 19
 SuppliedNum = 19
 Item =  3, iron_ingot

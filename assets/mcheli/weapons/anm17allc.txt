@@ -1,6 +1,6 @@
 DisplayName = AN-M17All C
 Type = Bomb
-Power = 15
+Power = 100
 Acceleration = 0.1
 Explosion = 3
 Flaming = true

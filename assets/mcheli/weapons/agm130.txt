@@ -1,6 +1,6 @@
 DisplayName = AGM-130
 Type = TVMissile
-Power = 72
+Power = 1000
 Acceleration = 2.0
 Explosion = 10
 Sight = MoveSight

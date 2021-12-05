@@ -1,6 +1,6 @@
 DisplayName = GBU-12 Paveway II
 Type = ASMissile
-Power = 32
+Power = 1000
 Acceleration = 1.7
 Explosion = 5
 ExplosionBlock = 3

@@ -1,6 +1,6 @@
 DisplayName = Kh-31
 Type = ASMissile
-Power = 40
+Power = 1000
 Acceleration = 4.0
 Explosion = 7
 Flaming = true
