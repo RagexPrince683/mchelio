@@ -92,9 +92,9 @@ FuelConsumption = 2.0
 
 AddTexture = t-90a
 AddTexture = t-90a_1
-AddTexture = t-90a_2
-AddTexture = t-90a_3
-AddTexture = t-90a_4
+AddTexture = t-90a_6
+AddTexture = t-90a_5
+;AddTexture = t-90a_4
 
 BoundingBox =  0.0, 0.6, -2.4,  3.0, 1.2
 BoundingBox =  0.0, 1.6, 0.0,  2.0, 0.8

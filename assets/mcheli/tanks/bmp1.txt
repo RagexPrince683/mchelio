@@ -1,4 +1,4 @@
-﻿DisplayName = BMP-1 IFV
+DisplayName = BMP-1 IFV
 AddDisplayName = en_US, BMP-1 IFV
 AddDisplayName = ja_JP, BMP-1 歩兵戦闘車
 MaxHp = 100
@@ -7,7 +7,7 @@ Sound = tankrun_de
 ThrottleUpDown = 10.0
 MobilityRoll = 0
 Gravity = -0.1
-GravityInWater = -0.1
+GravityInWater = 0.1
 DamageFactor = 0.0
 EnableNightVision = true
 CameraRotationSpeed = 30
