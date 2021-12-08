@@ -11,7 +11,7 @@ MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll = 0
 Gravity = -0.1
-GravityInWater = 0.1
+GravityInWater = -0.1
 DamageFactor = 1.0
 
 CameraPosition  = 0.00,  2.50, -6.00

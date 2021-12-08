@@ -44,8 +44,8 @@ AddPartWeapon = mg12_7mm_tf, false, true, true,  0.00, 4.36, -20.71
 AddPartWeapon = mg12_7mm_uf, false, true, true,  0.00, 1.81, -27.68
 AddPartWeapon = mg12_7mm_rr, false, true, true,  0.00, 3.59, -34.84
 
-AddPartWeaponBay = 250kg / anm17allc,  0.98, 0.88, -12.3, 0, 0,  1, 90
-AddPartWeaponBay = 250kg / anm17allc, -0.98, 0.88, -12.3, 0, 0, -1, 90
+AddPartWeaponBay = 250kg / anm17allc/ littleboy,  0.98, 0.88, -12.3, 0, 0,  1, 90
+AddPartWeaponBay = 250kg / anm17allc/ littleboy, -0.98, 0.88, -12.3, 0, 0, -1, 90
 
 ;AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 駐退距離
 

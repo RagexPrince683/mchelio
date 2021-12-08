@@ -35,7 +35,7 @@ HideEntity = true
 WeightType = Tank
 
 
-WeightedCenterZ = 1.5
+WeightedCenterZ = 0.0
 
 
 SetWheelPos =  1.37,  -0.32,  3.60, 1.43, -0.75
