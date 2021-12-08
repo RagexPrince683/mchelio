@@ -1,6 +1,6 @@
-DisplayName = ºì¼ý-73C ATM
+DisplayName = HJ-73C ATM
 Type = ATMissile
-Power = 1000
+Power = 400
 Acceleration = 2.0
 Explosion = 5
 Flaming = true

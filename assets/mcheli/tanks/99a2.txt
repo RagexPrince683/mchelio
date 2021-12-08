@@ -31,7 +31,7 @@ EnableEntityRadar = true
 HideEntity = true
 
 AddTexture = 99a2_1
-AddTexture = 99a2_2
+;AddTexture = 99a2_2
 
 ; Tank or Car or Unknown
 WeightType = Tank
