@@ -13,8 +13,8 @@ MaxFuel         = 6000
 FuelConsumption = 1.0
 ThirdPersonDist = 52
 
-MinRotationRoll = -70
-MaxRotationRoll =  70
+;MinRotationRoll = -70
+;MaxRotationRoll =  70
 MobilityYaw = 0.4
 MobilityPitch = 0.4
 MobilityRoll = 0.3

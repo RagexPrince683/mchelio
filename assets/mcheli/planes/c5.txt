@@ -19,8 +19,8 @@ HUD = plane,plane
 MobilityRoll = 0.1
 MobilityYaw = 0.1
 MobilityPitch = 0.1
-MinRotationRoll =-30
-MaxRotationRoll =30
+;MinRotationRoll =-30
+;MaxRotationRoll =30
 
 AddSeat = 0.62, 6.8, 2.4
 AddSeat = -0.62, 6.8, 2.4

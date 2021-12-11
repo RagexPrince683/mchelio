@@ -23,7 +23,8 @@ CameraRotationSpeed = 26
 
 HUD = mbt_hud
 
-AddSeat =  0.00,  0.00, 0.00
+
+AddGunnerSeat =  0.00,  0.00, 0.00, 0.0, 3.50, 0.00, false, -65, 5, true
 
 StepHeight = 1.5
 

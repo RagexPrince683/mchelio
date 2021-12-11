@@ -27,8 +27,8 @@ MobilityPitch = 0.5
 MobilityRoll = 0.3
 MinRotationPitch = -90
 MaxRotationPitch =  90
-MinRotationRoll  = -90
-MaxRotationRoll  =  90
+;MinRotationRoll  = -90
+;MaxRotationRoll  =  90
 
 ; M = Military(ÜŠÓÃ™C).  A = Attacker(¹¥“Ä™C)
 Category = M.A

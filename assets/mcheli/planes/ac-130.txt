@@ -28,8 +28,8 @@ MobilityPitch = 0.4
 MobilityRoll = 0.2
 MinRotationPitch = -60
 MaxRotationPitch =  60
-MinRotationRoll  = -60
-MaxRotationRoll  =  60
+;MinRotationRoll  = -60
+;MaxRotationRoll  =  60
 
 AddSeat =  0.65,  2.43,  2.00
 AddGunnerSeat =  0.00,  1.00,-7.50

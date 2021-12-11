@@ -24,8 +24,8 @@ HUD = plane_wwii, plane_wwii, gunner, gunner, gunner
 MobilityRoll = 0.4
 MinRotationPitch = -70
 MaxRotationPitch =  70
-MinRotationRoll  = -70
-MaxRotationRoll  =  70
+;MinRotationRoll  = -70
+;MaxRotationRoll  =  70
 
 AddTexture = bv138_1
 AddTexture = bv138_2

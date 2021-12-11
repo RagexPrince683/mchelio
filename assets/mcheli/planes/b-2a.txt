@@ -25,8 +25,8 @@ MobilityPitch = 0.5
 MobilityRoll = 0.3
 MinRotationPitch = -60
 MaxRotationPitch =  60
-MinRotationRoll  = -60
-MaxRotationRoll  =  60
+;MinRotationRoll  = -60
+;MaxRotationRoll  =  60
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A

@@ -7,14 +7,14 @@ Speed = 1.0
 Sound = tank
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 6.0
-MinRotationPitch = -60
+MinRotationPitch = -85
 MaxRotationPitch = 10
 MobilityRoll = 0
 Gravity = -0.1
 GravityInWater = -0.1
 DamageFactor = 0.0
 CameraZoom = 3
-CameraPosition = 0.00,  3.20, 1.00, false
+;CameraPosition = 0.00,  3.20, 1.00, false
 EnableNightVision = true
 CameraRotationSpeed = 100
 EnableEntityRadar = true
@@ -37,9 +37,8 @@ HUD = mbt_hud
 AddTexture = gepard_1
 AddTexture = gepard_2
 
-AddSeat       =   0.00,  3.60, -0.68, true
-CameraPosition =  0.00,  5.00, -0.68, false
-
+AddGunnerSeat =  0.00,  3.50, 0.00, 0.0, 3.50, 0.00, false, -85, 10, false
+CameraPosition =  0.00,  5.00, -0.68, true
 MotionFactor = 0.9
 ;ArmorMinDamage 
 ArmorMinDamage = 12
@@ -70,7 +69,7 @@ SetWheelPos =  2.02,  -0.29,  1.98,  -3.17
 
 
 AddPartWeapon = KDA_APDS / KDA_HEI, false, true, false,  0.00, 1.63, -0.64, 0
-AddPartWeaponChild = flase, true,  0.00, 2.59, -1.13
+AddPartWeaponChild = false, true,  0.00, 2.59, -1.13
 AddTurretWeapon = KDA_APDS,  1.11, 2.71, -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
 AddTurretWeapon = KDA_APDS, -1.11, 2.71, -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
 AddTurretWeapon = KDA_HEI,  1.11, 2.71, -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
