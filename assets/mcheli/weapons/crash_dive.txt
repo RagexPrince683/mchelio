@@ -3,6 +3,6 @@ Type = MachineGun1
 Power = 0
 Sight = None
 Delay = 200
-ModelBullet = dummy
+ModelBullet = none
 Sound = dive_alert
 SoundVolume = 6.0

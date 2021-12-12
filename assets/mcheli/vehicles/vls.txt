@@ -16,7 +16,7 @@ AddWeapon = rgm109, 0, 30, 0, 0.00, 0.00
 
 AddWeapon = rim-161, 0, 30, 0, 0, 0
 
-AddWeapon = balloon, 0, 1, 0, 0, 0
+;AddWeapon = balloon, 0, 1, 0, 0, 0
 
 AddWeapon = rgm109a, 0, 30, 0, 0, 0
 

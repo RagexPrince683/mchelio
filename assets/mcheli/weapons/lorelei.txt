@@ -1,9 +1,0 @@
-DisplayName = Mozart Wiegenlied
-Type = Rocket
-DisableSmoke = true
-Power = 0
-Sight = None
-Delay = 6000
-ModelBullet = dummy
-Sound = lorelei_snd
-SoundVolume = 10.0
