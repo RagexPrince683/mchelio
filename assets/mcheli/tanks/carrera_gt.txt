@@ -1,0 +1,48 @@
+DisplayName = Porsche Carrera GT
+MaxHp = 100
+Speed = 3.2
+Sound = porshe
+MobilityYawOnGround = 8.0
+ThrottleUpDown = 10.0
+MinRotationPitch = 45
+MaxRotationPitch = 45
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = 0.1
+DamageFactor = 1.0
+
+HUD = bnr32_hud, none
+
+AddSeat =  0.5838,  0.1579, 0.2252
+AddSeat =  -0.5838,  0.2579, 0.2252
+
+EnableBack = true
+Category = C
+WeightType = Car
+AddTexture = carrera_gt_1
+
+PivotTurnThrottle = 0.1
+
+PartWheelRot = 45
+SetWheelPos =  1.59,  -0.2,  2.2165, -2.2706
+AddPartSteeringWheel =  0.5596,  0.8883,  0.7051,  0, 0.3196, -1,   95
+AddPartWheel     =  1.57,  0.2272, 2.2165, 35
+AddPartWheel     =  -1.57,  0.2272, 2.2165, 35
+AddPartWheel     = 1.6089,  0.2885, -2.2706
+AddPartWheel     = -1.6089,  0.2885,-2.2706
+;AddWeapon = otstrel, 0.6593,  0, -3,   0.0, 1.0
+
+AddPartCanopy = 1.4679, 0.5733, 1.364, 0.0, 1.0, 0.0, -60
+AddPartCanopy = -1.4679, 0.5733, 1.364, 0.0, 1.0, 0.0, 60
+AddPartHatch = 0, 1.0261, 1.8087, 1, 0, 0.0, -60
+AddPartHatch = 0, 1.2335, -1.026, -1, 0, 0, -60
+
+MaxFuel         = 500
+FuelConsumption = 0.5
+
+AddRecipe = " G ",  "I I",  "IIR",   G, glass, I, iron_ingot, R, redstone
+
+BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
+BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1
+
+StepHeight = 1.5
