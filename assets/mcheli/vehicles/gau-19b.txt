@@ -4,25 +4,47 @@ ItemID = 30032
 MaxHp = 50
 EnableNightVision = true
 EnableEntityRadar = false
-HideEntity = true
+HideEntity = false
 RotationPitchMin = -50
 RotationPitchMax =  10
 DamageFactor = 1.0
 CameraZoom = 3
-CameraPosition = 0.00,  1.57, 0.00
+CameraPosition = 0.00,  1.57, -0.20
+
+Gravity = -0.1
+GravityInWater = -0.1
 
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
 
 HUD = vehicle
 
-AddSeat = 0.00,  1.57, 0.00
+;AddSeat = 0.00,  1.57, 0.00
+;AddGunnerSeat = 0.00,  0.57, -0.20, 0.00,  0.57, -0.20, false, true
+;AddGunnerSeat =  0.00,  0.0, -0.20, 0.00,  0.0, -0.20, true, -25, 4
+AddSeat = 0.00,  0.0, -0.20
+
+
+AddWeapon = gau-19,  0.00,  0.57, -0.20,  0.0, 0.0, false,1, 0,-75,75, -50, 10
+AddPartWeapon = gau-19, true, true, true,   0.00, 0.00, 0.00, 0
+;AddPartWeaponChild = false, true, 0.00, 2.02,  0.00
+AddPartWeaponChild = false, true, 0.00, 2.02,  0.00
 
 AddPart = true, true, false, 0, 0.00, 0.00, 0.0
 AddPart = true,true, true,  0, 0.00, 0.97, 0.0
 AddChildPart = true, false,false, 1,  0.00, 0.97, 0.00
 
-AddWeapon = gau-19,  0.00, 1.02, 1.04,   0.0, -1.0
+;AddWeapon = gau-19,  0.00, 1.02, 1.04
+;,   0.0, -1.0, false, 5, 0, -360, 360, -50, 10
+
+;AddPartWeapon = gau-19, false, true, false,  0.00, 2.4866, 0.00, 0
+;AddPartWeaponChild = false, true, 0.00, 2.4866, 2.2667, 0.0
+;AddPartWeaponChild = false, true, 0.00, 2.4866, 2.2667, 0.5
+;AddTurretWeapon = gau-19, 0.00,  0.57, -0.20,  0.0, 0.0, true,1, 0,-360,360, -50, 10
+;AddTurretWeapon = 125HE, 0.00, 2.4866, 2.2667,  0.0, 0.0, true,1, 0,-360,360, -50, 7
+
+;AddTurretWeapon = gmw,    0.00, 2.95, -0.59, 0.0, 0.0, false, 5, 0, -360, 360, -25,  4
+
 
 BoundingBox =  0.00, 0.60,  0.00,  0.5, 1.5
 

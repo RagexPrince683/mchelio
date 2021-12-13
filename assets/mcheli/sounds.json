@@ -76,7 +76,6 @@
 "laserblue_snd": {"category": "master","sounds": ["laserblue_snd"]},
 "locked": {"category": "master","sounds": ["locked"]},
 "lockon": {"category": "master","sounds": ["lockon"]},
-"lorelei_snd": {"category": "master","sounds": ["lorelei_snd"]},
 "l_claxon": {"category": "master","sounds": ["l_claxon"]},
 "l_hp_enginesound": {"category": "master","sounds": ["l_hp_enginesound"]},
 "l_hp_startup": {"category": "master","sounds": ["l_hp_startup"]},
