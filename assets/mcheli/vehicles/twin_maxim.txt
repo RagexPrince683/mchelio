@@ -2,12 +2,14 @@
 AddDisplayName = ja_JP, マキシム機関銃(二挺結合)
 ItemID = 30068
 MaxHp = 100
-HideEntity = true
+HideEntity = false
 MinRotationPitch = -85
 MaxRotationPitch =  5
 DamageFactor = 1.0
 CameraZoom = 0
 CameraPosition = 0.0,  2.00, -1.10
+
+
 
 ; W = WWII,  A = AAGun(対空砲)
 Category = W.A

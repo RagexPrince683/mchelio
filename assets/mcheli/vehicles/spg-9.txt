@@ -2,7 +2,7 @@
 AddDisplayName = ja_JP, SPG-9
 ItemID = 28602
 MaxHp = 200
-HideEntity = true
+HideEntity = false
 MinRotationPitch = -7
 MaxRotationPitch =  3
 DamageFactor = 1.0

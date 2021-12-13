@@ -5,7 +5,7 @@ MaxHp = 50
 CameraZoom = 3
 AddSeat = 0,0,0
 CameraPosition = 0,  1.7,  0
-HideEntity = true
+HideEntity = false
 
 DamageFactor = 1.0
 

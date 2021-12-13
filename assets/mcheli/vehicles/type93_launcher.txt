@@ -9,6 +9,8 @@ DamageFactor = 1.0
 CameraZoom = 3
 CameraPosition = 0.0, 4.0, 0.0
 
+
+
 ; M = Military,  T = Torpedo(魚雷)
 Category = M.T
 

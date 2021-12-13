@@ -10,6 +10,8 @@ AddSeat = 0.0,  0.0, 0.0
 HideEntity = true
 EnableGunnerMode = false
 
+MaxHp = 50
+
 DamageFactor = 1.0
 
 AddWeapon = rgm109, 0, 30, 0, 0.00, 0.00
