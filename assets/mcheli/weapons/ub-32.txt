@@ -1,0 +1,23 @@
+DisplayName = UB-32M [S-5 Rocket]
+Type = Rocket
+Power = 150
+ModelBullet = hydra70
+Acceleration = 5
+Explosion = 3
+Flaming = false
+Sight = MoveSight
+Sound = rocket_snd
+Delay = 6
+ReloadTime = 110
+Round = 64
+Gravity = -0.075
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+
+MaxAmmo = 64
+SuppliedNum = 16
+Item =  3, iron_ingot
+Item =  3, gunpowder

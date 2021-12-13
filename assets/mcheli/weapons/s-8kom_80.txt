@@ -1,4 +1,4 @@
-DisplayName = S-8KOM 80mmƒƒPƒbƒg’e [HEAT]
+DisplayName = S-8KOM 80mm Rocket [HEAT]
 Type = Rocket
 Power = 400
 DamageFactor = tank, 1.0

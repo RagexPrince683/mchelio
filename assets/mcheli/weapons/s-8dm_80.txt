@@ -1,4 +1,4 @@
-DisplayName = S-8DM 80mmƒƒPƒbƒg’e [Thermobaric]
+DisplayName = S-8DM 80mm Rocket [Thermobaric]
 Type = Rocket
 Power = 300
 DamageFactor = tank, 1.0

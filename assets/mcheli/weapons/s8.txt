@@ -1,6 +1,6 @@
 DisplayName = S-8 Rocket B-8M1
 Type = Rocket
-Power = 350
+Power = 400
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0

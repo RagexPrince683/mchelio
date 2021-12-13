@@ -1,6 +1,6 @@
 DisplayName = S-8
 Type = Rocket
-Power = 350
+Power = 400
 ModelBullet = hydra70
 Acceleration = 4.5
 Explosion = 6

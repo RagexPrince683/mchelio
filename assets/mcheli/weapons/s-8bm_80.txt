@@ -1,4 +1,4 @@
-DisplayName = S-8BM 80mmƒƒPƒbƒg’e [AP]
+DisplayName = S-8BM 80mm Rocket [AP]
 Type = Rocket
 Power = 400
 DamageFactor = tank, 1.0
