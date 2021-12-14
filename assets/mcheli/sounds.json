@@ -124,6 +124,7 @@
 "plane_cv": {"category": "master","sounds": ["plane_cv"]},
 "plastic_bomb_snd": {"category": "master","sounds": ["plastic_bomb_snd"]},
 "policesiren_j_snd": {"category": "master","sounds": ["policesiren_j_snd"]},
+"porshe": {"category": "master","sounds": ["porshe"]},
 "prop": {"category": "master","sounds": ["prop"]},
 "prop_a": {"category": "master","sounds": ["prop_a"]},
 "prop_b": {"category": "master","sounds": ["prop_b"]},
