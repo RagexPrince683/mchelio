@@ -1,7 +1,9 @@
 DisplayName = Mk.15 mod.31 SeaRAM
 AddDisplayName = ja_JP, Mk.15 mod.31 SeaRAM
 ItemID = 28602
-MaxHp = 200
+MaxHp = 100
+Gravity = -9.81
+GravityInWater = -1.0
 EnableNightVision = true
 EnableEntityRadar = true
 HideEntity = true

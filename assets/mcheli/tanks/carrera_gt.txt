@@ -7,8 +7,8 @@ ThrottleUpDown = 10.0
 MinRotationPitch = 45
 MaxRotationPitch = 45
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = 0.1
+Gravity = -9.81
+GravityInWater = -1.0
 DamageFactor = 1.0
 
 HUD = bnr32_hud, none

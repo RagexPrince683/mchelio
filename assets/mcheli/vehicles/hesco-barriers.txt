@@ -1,10 +1,12 @@
 ﻿DisplayName = HESCO Sand-Barriers
 AddDisplayName = ja_JP, HESCO社製 バリケード
 ItemID = 30037
-MaxHp = 500
+MaxHp = 1500
 HideEntity = true
 RotationPitchMin = -90
 RotationPitchMax =  90
+Gravity = -9.81
+GravityInWater = -1.0
 DamageFactor = 1.0
 CameraZoom = 1
 CanRide = false

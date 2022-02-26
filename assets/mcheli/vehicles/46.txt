@@ -1,13 +1,15 @@
 DisplayName = 46cmCanon
 AddDisplayName = ja_JP, 46cm3連装砲
 ItemID = 28603
-MaxHp = 2000
+MaxHp = 100
 HideEntity = true
 MinRotationPitch = -30
 MaxRotationPitch =  5
 DamageFactor = 1.0
 CameraZoom = 4
 CameraPosition = 0.0, 6.0, 0.00
+Gravity = -9.81
+GravityInWater = -1.0
 
 ; W = WWII
 Category = W

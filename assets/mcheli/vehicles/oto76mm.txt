@@ -1,7 +1,9 @@
 DisplayName = Oto Melara 76 mm gun
 AddDisplayName = ja_JP, オート・メラーラ76mm砲
 ItemID = 28601
-MaxHp = 200
+MaxHp = 100
+Gravity = -9.81
+GravityInWater = -1.0
 HideEntity = true
 MinRotationPitch = -83
 MaxRotationPitch =  15

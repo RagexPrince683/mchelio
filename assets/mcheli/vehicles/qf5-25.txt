@@ -2,6 +2,8 @@
 AddDisplayName = ja_JP, QF 5.25インチ砲 マークI
 ItemID = 30067
 MaxHp = 100
+Gravity = -9.81
+GravityInWater = -1.0
 HideEntity = true
 MinRotationPitch = -70
 MaxRotationPitch =  5

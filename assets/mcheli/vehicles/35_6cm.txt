@@ -1,13 +1,15 @@
 ﻿DisplayName = 35.6cm
 AddDisplayName = ja_JP, 45口径35.6cm連装砲
 ItemID = 30031
-MaxHp = 600
+MaxHp = 100
 HideEntity = true
 MinRotationPitch = -20
 MaxRotationPitch =  5
 DamageFactor = 1.0
 CameraZoom = 4
 CameraPosition = 0.0, 5.50, 0.0
+Gravity = -9.81
+GravityInWater = -1.0
 
 ; W = WWII,  A = AAGun(対空砲)
 Category = W.A

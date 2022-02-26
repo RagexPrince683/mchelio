@@ -1,11 +1,13 @@
 ﻿DisplayName = AntiTank Barricade
 AddDisplayName = ja_JP, 対戦車バリケード
 ItemID = 30036
-MaxHp = 80
+MaxHp = 100
 HideEntity = true
 RotationPitchMin = -90
 RotationPitchMax =  90
 DamageFactor = 1.0
+Gravity = -9.81
+GravityInWater = -1.0
 CameraZoom = 1
 CanRide = false
 

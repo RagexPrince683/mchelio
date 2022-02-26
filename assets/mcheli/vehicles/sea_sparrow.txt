@@ -1,7 +1,9 @@
 DisplayName =  Mk29 Missile Launcher
 AddDisplayName = ja_JP, Mk29 艦対空個艦防衛ミサイル
 ItemID = 28615
-MaxHP = 350
+MaxHP = 100
+Gravity = -9.81
+GravityInWater = -1.0
 CameraPosition = 0.0, 3.5, 0.0
 CameraZoom = 5
 MinRotationPitch = -50

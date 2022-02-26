@@ -1,7 +1,9 @@
 DisplayName = VADS
 AddDisplayName = ja_JP,対空機関砲 VADS
 ItemID = 28614
-MaxHP = 250
+MaxHP = 100
+Gravity = -9.81
+GravityInWater = -1.0
 EnableNightVision = true
 EnableEntityRadar = true
 HideEntity = false

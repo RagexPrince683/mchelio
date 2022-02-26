@@ -1,8 +1,10 @@
 DisplayName = Oto Melara 127 mm gun
 AddDisplayName = ja_JP, オート・メラーラ127mm砲
 ItemID = 30110
-MaxHp = 200
+MaxHp = 100
 HideEntity = true
+Gravity = -9.81
+GravityInWater = -1.0
 MinRotationPitch = -83
 MaxRotationPitch =  15
 DamageFactor = 1.0

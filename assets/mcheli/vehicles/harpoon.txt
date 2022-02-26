@@ -9,6 +9,8 @@ MaxRotationPitch = 50
 AddSeat = 0.0,  0.0, 0.0
 HideEntity = true
 EnableGunnerMode = false
+Gravity = -9.81
+GravityInWater = -1.0
 
 DamageFactor = 1.0
 

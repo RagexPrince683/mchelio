@@ -1,7 +1,7 @@
 ﻿DisplayName = GAU-19/b
 AddDisplayName = ja_JP, GAU-19/b 12.7mmガトリング
 ItemID = 30032
-MaxHp = 50
+MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = false
 HideEntity = false
@@ -11,8 +11,8 @@ DamageFactor = 1.0
 CameraZoom = 3
 CameraPosition = 0.00,  1.57, -0.20
 
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -9.81
+GravityInWater = -1.0
 
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A

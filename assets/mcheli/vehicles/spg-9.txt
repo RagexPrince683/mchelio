@@ -1,7 +1,9 @@
 ﻿DisplayName = SPG-9
 AddDisplayName = ja_JP, SPG-9
 ItemID = 28602
-MaxHp = 200
+MaxHp = 100
+Gravity = -9.81
+GravityInWater = -1.0
 HideEntity = false
 MinRotationPitch = -7
 MaxRotationPitch =  3

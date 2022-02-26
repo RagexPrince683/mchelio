@@ -1,13 +1,15 @@
 ﻿DisplayName = 15.0cm AA Canon with pivot
 AddDisplayName = ja_JP, 一七式十五糎高角砲 支脚有リ
 ItemID = 28616
-MaxHp = 200
+MaxHp = 100
 HideEntity = true
 MinRotationPitch = -75
 MaxRotationPitch =  5
 DamageFactor = 1.0
 CameraZoom = 3
 CameraPosition = 0.0, 2.70, 0.0
+Gravity = -9.81
+GravityInWater = -1.0
 
 ; W = WWII,  A = AAGun(対空砲)
 Category = W.A

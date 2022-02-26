@@ -9,13 +9,13 @@ ThrottleUpDown = 10.0
 MinRotationPitch = -50
 MaxRotationPitch =  20
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = 0.1
+Gravity = -9.81
+GravityInWater = -0.1
 DamageFactor = 0.0
 EnableNightVision = true
 DefaultFreelook = true
 CameraRotationSpeed = 26
-SubmergedDamageHeight = 4
+SubmergedDamageHeight = 5
 OnGroundPitchFactor = 3.0
 OnGroundRollFactor  = 3.0
 

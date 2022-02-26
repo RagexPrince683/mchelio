@@ -1,11 +1,13 @@
 ﻿DisplayName = 20mmFlak38
 ItemID = 31700
-MaxHp = 50
+MaxHp = 100
 HideEntity = false
 MinRotationPitch = -70
 MaxRotationPitch =  2
 DamageFactor = 1.0
 CameraPosition = 0.0,  1.00,  -1.50
+Gravity = -9.81
+GravityInWater = -1.0
 
 AddSeat = 0.00,  0.20, -1.50
 

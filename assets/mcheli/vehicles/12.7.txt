@@ -1,13 +1,15 @@
 DisplayName = 12.7cmAACanon
 AddDisplayName = ja_JP, 12.7cm連装高角砲
 ItemID = 28607
-MaxHp = 150
+MaxHp = 100
 HideEntity = true
 MinRotationPitch = -80
 MaxRotationPitch =  8
 DamageFactor = 1.0
 CameraZoom = 3
 CameraPosition = 0.0, 3.02, 0.0
+Gravity = -9.81
+GravityInWater = -1.0
 
 ; W = WWII,  A = AAGun(対空砲)
 Category = W.A

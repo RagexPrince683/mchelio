@@ -1,7 +1,7 @@
 DisplayName = Krupp C/34 40.6cm Coastal-Artillery
 AddDisplayName = ja_JP, クルップ C/34 沿岸砲
 ItemID = 28601
-MaxHp = 600
+MaxHp = 100
 HideEntity = true
 MinRotationPitch = -40
 MaxRotationPitch =  5
@@ -9,6 +9,8 @@ DamageFactor = 1.0
 CameraZoom = 4
 CameraPosition = 0.0, 5.00, 0.0, true
 ThirdPersonDist = 16
+Gravity = -9.81
+GravityInWater = -1.0
 
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A

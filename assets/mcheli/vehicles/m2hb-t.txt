@@ -1,13 +1,15 @@
 ﻿DisplayName = M2HB 12.7mm TwinType
 AddDisplayName = ja_JP, M2HB 二艇結合
 ItemID = 30033
-MaxHp = 30
+MaxHp = 100
 HideEntity = true
 RotationPitchMin = -80
 RotationPitchMax =  25
 DamageFactor = 1.0
 CameraZoom = 1
 CameraPosition = 0.00,  1.57, 0.00
+Gravity = -9.81
+GravityInWater = -1.0
 
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A

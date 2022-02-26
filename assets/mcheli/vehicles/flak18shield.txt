@@ -1,7 +1,7 @@
 ﻿DisplayName = 88mm AA-Gun Flak 18 with shield
 AddDisplayName = en_US, 88mm AA-Gun Flak 18 with shield
 AddDisplayName = de_DE, 88mm Flak 18 mit Schild
-MaxHp = 150
+MaxHp = 100
 HideEntity = true
 MinRotationPitch = -85
 MaxRotationPitch =  5
@@ -9,6 +9,8 @@ DamageFactor = 1.0
 CameraZoom = 1
 CameraPosition = 1.00,  2.5, 0.00
 ThirdPersonDist = 10
+Gravity = -9.81
+GravityInWater = -1.0
 
 ;AddTexture = flak36
 ;AddTexture = flak36alt

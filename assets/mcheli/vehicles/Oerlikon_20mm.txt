@@ -1,7 +1,9 @@
 ﻿DisplayName = Oerlikon 20mm gun
 AddDisplayName = ja_JP, エリコン 20mm機関砲
 ItemID = 28601
-MaxHp = 50
+MaxHp = 100
+Gravity = -9.81
+GravityInWater = -1.0
 HideEntity = true
 MinRotationPitch = -75
 MaxRotationPitch =  8

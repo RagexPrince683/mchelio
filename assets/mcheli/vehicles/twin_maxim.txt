@@ -2,6 +2,8 @@
 AddDisplayName = ja_JP, マキシム機関銃(二挺結合)
 ItemID = 30068
 MaxHp = 100
+Gravity = -9.81
+GravityInWater = -1.0
 HideEntity = false
 MinRotationPitch = -85
 MaxRotationPitch =  5

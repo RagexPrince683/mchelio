@@ -1,7 +1,7 @@
 DisplayName =  S-75 SAM
 AddDisplayName = ja_JP, S-75 地対空ミサイル
 ItemID = 28612
-MaxHP = 350
+MaxHP = 100
 AddTexture = s-75_tan
 CameraPosition = 0.0, 4.50, 0.0
 CameraZoom = 5
@@ -9,6 +9,8 @@ MinRotationPitch = -50
 MaxRotationPitch = 0
 AddSeat = 0.0,  0.0, 0.0
 HideEntity = true
+Gravity = -9.81
+GravityInWater = -1.0
 
 DamageFactor = 1.0
 
