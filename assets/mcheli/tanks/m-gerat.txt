@@ -48,7 +48,7 @@ BoundingBox =  0.0, 0.98, -2.7,  2.6, 1.5, 1.0
 Float  = false
 SubmergedDamageHeight = 1
 MaxHp = 100
-Gravity = -9.81
+Gravity = -0.61
 GravityInWater = -1.0
 
 MaxFuel         = 2400

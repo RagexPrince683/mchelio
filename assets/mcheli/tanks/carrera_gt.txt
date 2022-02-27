@@ -7,7 +7,7 @@ ThrottleUpDown = 10.0
 MinRotationPitch = 45
 MaxRotationPitch = 45
 MobilityRoll = 0
-Gravity = -9.81
+Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 1.0
 
