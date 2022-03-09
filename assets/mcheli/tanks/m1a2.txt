@@ -6,8 +6,8 @@ Speed = 0.7
 Sound = tank_gte
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 2.0
-MinRotationPitch = -50
-MaxRotationPitch = 5
+MinRotationPitch = -65
+MaxRotationPitch = 10
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -98,9 +98,9 @@ AddTrackRoller =  1.82,  0.81, -4.59
 AddPartWeapon = rehinmetall_apfsds / rehinmetall_he, false, true, false,  0.00, 2.10, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.5
-AddTurretWeapon = rehinmetall_apfsds, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -50, 7
-AddTurretWeapon = rehinmetall_he,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -50, 7
-AddTurretWeapon = mg7_62mm_mbt,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -50, 7
+AddTurretWeapon = rehinmetall_apfsds, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = rehinmetall_he,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = mg7_62mm_mbt,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 9
 
 ;RWS M2
 AddPartTurretWeapon    = m2_rws,   true, true, true,  -0.846, 3.68, 0.373
