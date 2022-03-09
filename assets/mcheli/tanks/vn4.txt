@@ -20,6 +20,8 @@ StepHeight = 1.5
 DefaultFreelook = true
 MotionFactor = 0.9
 ThirdPersonDist = 12
+EnableNightVision = true
+FlareType = 10
 
 SubmergedDamageHeight = 3
 
@@ -70,8 +72,8 @@ AddPartCanopy = -1.5434, 1.9848, 0.2335,  0, 1,0,  70
 
 
 
-AddFixedSearchLight =  1.0461, 1.3968, 2.5918,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
-AddFixedSearchLight = -1.0461, 1.3968, 2.5918,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+;AddFixedSearchLight =  1.0461, 1.3968, 2.5918,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+;AddFixedSearchLight = -1.0461, 1.3968, 2.5918,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
 
 
 
@@ -103,7 +105,7 @@ AddTurretWeapon = targeting_pod_block,   0.60, 3.40, 0.60,   0.0, 0.0,  true, 2
 
 
 
-DamageFactor = 1.0
+DamageFactor = 0.0
 
 
 RideRack = c5, 1
