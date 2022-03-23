@@ -189,10 +189,23 @@ AddPartSteeringWheel =   0.8084,  1.9722,  5.9498,   0, 1, -2.1445,   130
 MaxFuel = 600
 FuelConsumption = 2.0
 
-BoundingBox =  0.0, 0.6,  4,   3.4, 1.8,  0.70
-BoundingBox = -0.9, 1.6,  4,   2.4, 3.2,  0.70
-BoundingBox =  0.9, 1.6,  3,   2.4, 3.2,  0.70
-BoundingBox =  0.0, 1.4, 0,   3.8, 3.0,  1.00
-BoundingBox =  0.0, 3.0, 0,   2.0, 1.0,  1.25
-BoundingBox = -0.9, 1.2, -2.5,   2.4, 1.6,  1.25
-BoundingBox =  0.9, 1.2, -2.5,   2.4, 1.6,  1.25
+;BoundingBox =  0.0, 0.6,  4,   3.4, 1.8,  0.70
+;BoundingBox = -0.9, 1.6,  4,   2.4, 3.2,  0.70
+;BoundingBox =  0.9, 1.6,  3,   2.4, 3.2,  0.70
+;BoundingBox =  0.0, 1.4, 0,   3.8, 3.0,  1.00
+;BoundingBox =  0.0, 3.0, 0,   2.0, 1.0,  1.25
+;BoundingBox = -0.9, 1.2, -2.5,   2.4, 1.6,  1.25
+;BoundingBox =  0.9, 1.2, -2.5,   2.4, 1.6,  1.25
+
+BoundingBox = -0.03, 1.0737, 7.5854, 3.0, 1.8, 1.0
+BoundingBox = 0.0, 2.317, -0.04794, 2.0, 1.8, 15.0
+
+
+BoundingBox = 0.0, 0.20, 4.5, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 3.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 5.5, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 6.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, -0.5, 2.7, 0.2
+
+
+DefaultFreelook = true
