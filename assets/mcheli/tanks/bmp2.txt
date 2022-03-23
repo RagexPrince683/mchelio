@@ -81,7 +81,7 @@ ArmorMinDamage = 9
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 1000
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
-ArmorDamageFactor = 0.98
+ArmorDamageFactor = 1.00
 
 BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
 BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00

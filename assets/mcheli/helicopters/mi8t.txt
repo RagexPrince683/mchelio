@@ -1,5 +1,6 @@
 ﻿DisplayName = Mil Mi-8 T armed
 AddDisplayName = ja_JP, Mil Mi-8 T armed
+AddDisplayName = en_US, Mi-8 T 
 ItemID = 28831
 MaxHp = 100
 Speed = 0.8

@@ -52,9 +52,9 @@ MotionFactor = 0.8
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
 ArmorMinDamage = 12
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
-ArmorMaxDamage = 400
+;ArmorMaxDamage = 400
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
-ArmorDamageFactor = 0.8
+ArmorDamageFactor = 1.0
 ;後退可能にする
 EnableBack = true
 

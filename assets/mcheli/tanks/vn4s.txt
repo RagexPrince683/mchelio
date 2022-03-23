@@ -96,7 +96,7 @@ AddPartRotWeapon = 1273,   false, true, true,  0.00, 3.1827, 0.00, 0,0,1
 
 ArmorMinDamage = 9
 
-ArmorMaxDamage = 500
+;ArmorMaxDamage = 500
 
 ArmorDamageFactor = 1.00
 

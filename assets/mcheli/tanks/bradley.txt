@@ -43,8 +43,8 @@ AddSeat = 0.87, 0.5, -2.2
 
 MotionFactor = 0.95
 ArmorMinDamage = 8
-ArmorMaxDamage = 600
-ArmorDamageFactor = 0.95
+;ArmorMaxDamage = 600
+ArmorDamageFactor = 1.00
 EnableBack = true
 AddPartHatch = -0.0939, 0.9925, -2.9184, 0.05, 1.0, -0.1, 110
 PivotTurnThrottle = 0.0

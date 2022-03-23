@@ -45,7 +45,7 @@ ArmorMinDamage = 12
 ;ArmorMaxDamage 
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor 
-ArmorDamageFactor = 0.9
+ArmorDamageFactor = 1.0
 EnableBack = true
 
 PivotTurnThrottle = 0.0

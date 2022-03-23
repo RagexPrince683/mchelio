@@ -73,7 +73,7 @@ AddPartHatch =   0.00,  0.46,  -5.18, 1,0,0, -120
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
 ArmorMinDamage = 9
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
-ArmorMaxDamage = 500
+;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
 ArmorDamageFactor = 1.00
 ;後退可能にする(暫定処置で今後削除される可能性有り)

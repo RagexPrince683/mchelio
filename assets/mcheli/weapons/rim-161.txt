@@ -11,7 +11,7 @@ Flaming = false
 Sight = MissileSight
 Delay = 20
 LockTime = 10
-ModelBullet = sm-3
+ModelBullet = r-77
 Sound = missile_2_snd
 
 MaxAmmo = 8

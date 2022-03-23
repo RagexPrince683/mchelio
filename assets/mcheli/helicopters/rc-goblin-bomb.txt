@@ -8,7 +8,7 @@ SmallUAV = true
 Sound = radicon_heli
 ThrottleUpDown = 5.0
 ParticlesScale = 0.2
-MaxFuel         = 60
+MaxFuel         = 1100
 FuelConsumption = 0.1
 Stealth = 0.2
 

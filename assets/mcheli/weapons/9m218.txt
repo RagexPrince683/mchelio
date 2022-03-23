@@ -15,6 +15,7 @@ Round = 40
 ReloadTime = 1000
 ModelBullet = m30
 Group = Rocket
+recoil = 0.5
 
 
 ;Bomblet = 10
@@ -22,10 +23,10 @@ Group = Rocket
 ;BombletSTime = 60
 ModelBomblet = cbc
 
-Sound = missile_10_snd
+Sound = missile_4_snd
 DisplayMortarDistance = true
-FixCameraPitch = true
-CameraRotationSpeedPitch = 0.1
+FixCameraPitch = false
+;CameraRotationSpeedPitch = 0.5
 
 MaxAmmo = 120
 SuppliedNum = 10

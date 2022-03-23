@@ -71,4 +71,4 @@ BoundingBox =  0.0, 1.6, -4.0,  1.0, 1.5
 
 AddRecipe = "DX ",  "XRX",  " X ",  X, iron_block, R,redstone_block,  D,dispenser
 
-DamageFactor = 0.8
+DamageFactor = 0.6

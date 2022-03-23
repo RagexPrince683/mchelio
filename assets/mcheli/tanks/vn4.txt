@@ -88,7 +88,7 @@ AddPartWeaponBay	= targeting_pod_pv10s,  -1.1792, 2.6453, 0.1941, 0.0, -0.7, -1.
 
 ArmorMinDamage = 9
 
-ArmorMaxDamage = 500
+;ArmorMaxDamage = 500
 
 ArmorDamageFactor = 1.00
 
