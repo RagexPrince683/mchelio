@@ -2,7 +2,7 @@
 AddDisplayName = ja_JP, TOYOTA COROLLA 2014 
 AddDisplayName = en_US, Toyota Corolla 2014 
 ItemID = 28745
-MaxHp = 100
+MaxHp = 150
 ThrottleUpDown = 10.0
 Speed = 0.9
 MobilityYawOnGround = 5.0
@@ -84,3 +84,15 @@ AddFixedSearchLight = -1.20, 1.06,-3.30,   0xFFFF0000,   0x10FF0000,    0.05, 0.
 
 EntityWidth  = 0.85
 EntityHeight = 0.85
+
+
+;engine?
+BoundingBox =  0.0, 0.65,  2.05,   2.6, 0.8
+;mid
+BoundingBox = 0.0, 0.20, 0.0, 2.7, 0.2
+;front
+BoundingBox = 0.0, 0.20, 2.0, 2.7, 0.2
+;rear
+BoundingBox = 0.0, 0.20, -2.0, 2.7, 0.2
+Regeneration = true
+ArmorDamageFactor = 2.32

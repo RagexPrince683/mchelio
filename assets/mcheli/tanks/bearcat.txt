@@ -2,7 +2,7 @@
 AddDisplayName = en_US, Lenco Bearcat
 AddDisplayName = ja_JP, レンコ ベアキャット
 ItemID = 33410
-MaxHp = 100
+MaxHp = 150
 Speed = 0.7
 Sound = vehiclerun
 MobilityYawOnGround = 5.5
@@ -71,7 +71,27 @@ AddWeapon = targeting_pod_mob, 0.0, 0.0, 0.0, 0.0, 0.0, true, 2
 MaxFuel         = 1500
 FuelConsumption = 1.0
 
-BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
-BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1
+
+
+
+
+;old method
+;BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
+;BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1
 
 StepHeight = 1.5
+
+BoundingBox =  0.0, 0.82,  2.9439,   2.4, 1.4
+
+;rest
+BoundingBox = 0.0, 1.30, 0.58, 2.4, 2.0
+BoundingBox = 0.0, 1.30, -1.25, 2.4, 2.0
+;BoundingBox = 0.0, 0.90, -1.25, 2.0, 1.0, 0.0
+;BoundingBox = 0.0, 0.90, -1.33, 1.9, 1.0, 1.0
+UnmountPosition = 0.65, 1.50, 1.16
+
+BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
+ArmorMinDamage = 35
+ArmorDamageFactor = 2.32
+Regeneration = true
+;ArmorMaxDamage = 50
