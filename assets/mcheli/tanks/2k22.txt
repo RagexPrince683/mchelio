@@ -22,13 +22,19 @@ FuelConsumption = 3.0
 ;StepHeight = 1.5
 FlareType = 10
 AddTexture = 2k22_1
-CameraPosition = 0.00,  3.5, -0.35,false
+
 HideEntity = true
 EnableBack = true
 
 
 
-AddGunnerSeat =  0.00,  2.5, -0.35,   0.00, 5, -0.35,  false, -90, 5, true
+;AddGunnerSeat =  0.00,  0, -0,   0.00,  3.5, -0,  false, -90, 5, true
+
+AddGunnerSeat =  0.00,  0.00, 0.00, 0.0, 3.50, 0.00, false, -65, 5, true
+
+CameraPosition = 0.0, 3.50, 0.50, true
+
+;CameraPosition = 0.00,  3.5, -0.0, true
 
 ;0.00, 2.01, 0.64
 HUD = mbt_hud,vehicle
@@ -38,22 +44,47 @@ AddTurretWeapon =2a38,0.00, 2.01, 0.64,  0.0, 0.0, true,1, 0,-360,360, -90, 5
 
 
 
-AddWeapon = 2a38,  1.02, 2.8, -0.85,  1.0, 0.0, true,1, 0,-360,360, -90, 5
-AddWeapon = 2a38,  0.93,2.8, -1.09,  1.0, 0.0, true,1, 0,-360,360, -90, 5
-AddWeapon = 2a38,  -0.87, 2.8, -0.97,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
-AddWeapon = 2a38,  -0.97,2.8, -1.07,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+;AddWeapon = 2a38,  1.02, 2.8, -0.85,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+;AddWeapon = 2a38,  0.93,2.8, -1.09,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+;AddWeapon = 2a38,  -0.87, 2.8, -0.97,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+;AddWeapon = 2a38,  -0.97,2.8, -1.07,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
 
-AddWeapon = 9M113M,  1.41, 2.6, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
-AddWeapon = 9M113M,  1.19,2.6, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
-AddWeapon = 9M113MGA,  1.41, 2.4, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
-AddWeapon =9M113MGA,  1.19,2.4, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+;AddWeapon = 9M113M,  1.41, 2.6, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+;AddWeapon = 9M113M,  1.19,2.6, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+;AddWeapon = 9M113MGA,  1.41, 2.4, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+;AddWeapon =9M113MGA,  1.19,2.4, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
 
-AddWeapon = 9M113M,  -1.14, 2.6, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
-AddWeapon = 9M113M,  -1.36,2.6, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
-AddWeapon = 9M113MGA,  -1.14, 2.4, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
-AddWeapon = 9M113MGA,  -1.36,2.4, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+;AddWeapon = 9M113M,  -1.14, 2.6, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+;AddWeapon = 9M113M,  -1.36,2.6, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+;AddWeapon = 9M113MGA,  -1.14, 2.4, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+;AddWeapon = 9M113MGA,  -1.36,2.4, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
 
-AddPartWeapon = 2a38, false, true, false, 0.00, 2.01, 0.64, 0
+
+
+; test test test
+; test test 
+
+
+
+
+AddTurretWeapon = 2a38,  1.02, 2.8, -0.85,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddTurretWeapon = 2a38,  0.93,2.8, -1.09,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddTurretWeapon = 2a38,  -0.87, 2.8, -0.97,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddTurretWeapon = 2a38,  -0.97,2.8, -1.07,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+
+AddTurretWeapon = 9M113M,  1.41, 2.6, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddTurretWeapon = 9M113M,  1.19,2.6, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddTurretWeapon = 9M113MGA,  1.41, 2.4, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddTurretWeapon =9M113MGA,  1.19,2.4, -1.11,  1.0, 0.0, true,1, 0,-360,360, -90, 5
+
+AddTurretWeapon = 9M113M,  -1.14, 2.6, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddTurretWeapon = 9M113M,  -1.36,2.6, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddTurretWeapon = 9M113MGA,  -1.14, 2.4, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+AddTurretWeapon = 9M113MGA,  -1.36,2.4, -1.11,  -1.0, 0.0, true,1, 0,-360,360, -90, 5
+
+
+;this is how you fix scuffed camera 0, y value, 0
+AddPartWeapon = 2a38, false, true, false, 0.00, 2.01, 0.0, 0
 AddPartWeaponChild = false, true,  0.82, 2.75, -0.78
 AddPartWeaponChild = false, true, 0.00, 2.75, -0.78, 0.1
 AddPartWeaponChild = false, true, 0.00, 2.75, -0.78, 0.1
@@ -100,3 +131,6 @@ BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
 BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
 BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
 BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+
+UnmountPosition = 0.00,  2.5, -0.35
+DefaultFreeLook = true
