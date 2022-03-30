@@ -92,12 +92,12 @@ AddRecipe = "RGR",  "III",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
 
 ;engine?
-BoundingBox =  0.0, 0.50,  1.9,   2.2, 0.6
+BoundingBox =  0.0, 0.50,  1.9,   2.0, 0.6
 ;mid
-BoundingBox = 0.0, 0.20, 0.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 0.0, 2.5, 0.2
 ;front
-BoundingBox = 0.0, 0.20, 1.8, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 1.8, 2.5, 0.2
 ;rear
-BoundingBox = 0.0, 0.20, -1.6, 2.7, 0.2
+BoundingBox = 0.0, 0.20, -1.6, 2.5, 0.2
 Regeneration = true
 ArmorDamageFactor = 2.32

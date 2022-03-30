@@ -84,8 +84,8 @@ StepHeight = 1.5
 BoundingBox =  0.0, 0.82,  2.9439,   2.4, 1.4
 
 ;rest
-BoundingBox = 0.0, 1.30, 0.58, 2.4, 2.0
-BoundingBox = 0.0, 1.30, -1.25, 2.4, 2.0
+BoundingBox = 0.0, 1.40, 0.58, 2.8, 2.0
+BoundingBox = 0.0, 1.40, -1.25, 2.8, 2.0
 ;BoundingBox = 0.0, 0.90, -1.25, 2.0, 1.0, 0.0
 ;BoundingBox = 0.0, 0.90, -1.33, 1.9, 1.0, 1.0
 UnmountPosition = 0.65, 1.50, 1.16

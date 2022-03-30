@@ -61,3 +61,16 @@ AddPartSteeringWheel =  -0.6939,  0.9551,  0.5262,  0.0, 1.0, -5.1476,   130
 
 InventorySize = 9
 
+;engine?
+BoundingBox =  0.0, 0.58,  2.2,   2.0, 0.8
+;mid
+BoundingBox = 0.0, 0.20, 0.0, 2.85, 0.2
+;front
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;BoundingBox = 0.0, 0.20, 9.4, 2.85, 0.2
+BoundingBox = 0.0, 0.20, 2.2, 2.75, 0.2
+;rear
+BoundingBox = 0.0, 0.20, -2.70, 2.80, 0.2
+Regeneration = true
+ArmorDamageFactor = 2.32
+
+UnmountPosition = -0.66, 1.00, -0.08

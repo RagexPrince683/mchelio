@@ -85,13 +85,13 @@ AddFixedSearchLight = -0.62, 0.78,-3.09,   0xFFFF0000,   0x10FF0000,    0.05, 0.
 AddFixedSearchLight = -0.97, 0.78,-3.05,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
 
 ;engine?
-BoundingBox =  0.0, 0.50,  1.9,   2.2, 0.6
+BoundingBox =  0.0, 0.50,  1.9,   2.0, 0.6
 ;mid
-BoundingBox = 0.0, 0.20, 0.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 0.0, 2.5, 0.2
 ;front
-BoundingBox = 0.0, 0.20, 1.8, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 1.8, 2.5, 0.2
 ;rear
-BoundingBox = 0.0, 0.20, -1.6, 2.7, 0.2
+BoundingBox = 0.0, 0.20, -1.6, 2.5, 0.2
 Regeneration = true
 ArmorDamageFactor = 2.32
 
