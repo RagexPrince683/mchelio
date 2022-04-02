@@ -104,6 +104,29 @@ AddPartWeaponChild = false, true, -0.37, 2.11, 1.99
 MaxFuel         = 800
 FuelConsumption = 2.0
 
-BoundingBox =  0.0, 1.0, -1.2,  4.0, 2.0
-BoundingBox =  0.0, 2.5, -0.5,  3.0, 1.0
-BoundingBox =  0.0, 1.0,  1.5,  4.0, 2.0
+UnmountPosition = 0.0, 3.50, 0.00
+
+ArmorMinDamage = 20
+
+;upper front plate era
+BoundingBox =  0.0, 1.45,  2.7,  2.6, 0.4, 0.16
+;lower front plate
+BoundingBox =  0.0, 0.84,  2.7,  2.7, 0.9, 1.12
+
+
+;side armor 50mm
+BoundingBox =  0.0, 1.0, -0.7,  3.0, 1.3, 2.4
+BoundingBox =  0.0, 1.3, -1.3,  3.0, 1.3, 2.4
+
+;turret 700mm composite
+BoundingBox =  0.0, 2.1, 0.0,  2.8, 1.0, 0.12
+
+
+;front hull 125mm composite
+BoundingBox = 0.6, 1.3,  2.0,  1.5, 1.0, 0.64
+BoundingBox =  -0.6, 1.3,  2.0,  1.5, 1.0, 0.64
+
+;rear 45mm
+BoundingBox =  0.3, 1.3,  -3.9,  2.3, 1.3, 1.76
+BoundingBox =  -0.3, 1.3,  -3.9,  2.3, 1.3, 1.76
+
