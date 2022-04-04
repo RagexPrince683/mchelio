@@ -37,7 +37,9 @@ HUD = mbt_hud,vehicle
 AddPartWeapon =4OF27, false, true, false,  0.00, 0,0,0
 AddPartWeaponChild = false, true, 0.41, 2.05, 1.39, 0
 AddPartWeaponChild = false, true, 0.41, 2.05, 1.39, 0.5
-AddTurretWeapon =4OF27, 0, 2.05, 7.8,  0.0, 0.0, true,1, 0,-360,180, -80, 7
+;AddTurretWeapon =4OF27, 0, 2.05, 7.8,  0.0, 0.0, true,1, 0,-360,180, -80, 7
+
+AddTurretWeapon =4OF27, -0.0285, 2.0529, 7.8027,  0.0, 0.0, true,1, 0,-360,180, -55, 0
 ; AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 駐退距離
 
 
@@ -85,3 +87,8 @@ BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
 BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
 BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
 BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+
+
+DefaultFreeLook = true
+
+UnmountPosition = 0.01,  1.5, 0

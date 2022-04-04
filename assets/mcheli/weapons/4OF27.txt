@@ -2,9 +2,9 @@ DisplayName = 4of27
 Type = MachineGun1
 Power = 700
 ModelBullet = bullet105mm
-Explosion = 20
-ExplosionBlock = 20
-Acceleration = 16.0
+Explosion = 25
+ExplosionBlock = 5
+Acceleration = 4.0
 Sight = None
 ReloadTime =10000
 Delay = 50
@@ -18,11 +18,19 @@ Gravity = -0.07
 group = maingun
 
 ; 着弾距離の表示
-DisplayMortarDistance = true
+;DisplayMortarDistance = true
 ; カメラの垂直方向を0に固定する
-FixCameraPitch = true
+;FixCameraPitch = true
 ; カメラの回転速度の倍率(小さくするとより細かく着弾地点が調整ができる)
-CameraRotationSpeedPitch = 0.1
+;CameraRotationSpeedPitch = 0.1
+
+
+;Sound = missile_4_snd
+DisplayMortarDistance = true
+FixCameraPitch = false
+;CameraRotationSpeedPitch = 0.5
+
+
 
 AddMuzzleFlash      =  0,      1.80,        7,  220,254,159,74
 AddMuzzleFlash      =  0,      1.75,        6,  220,254,219,104
