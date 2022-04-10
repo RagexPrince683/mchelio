@@ -1,4 +1,5 @@
 ﻿DisplayName = mc-Aircraft Carrier
+AddDisplayName = en_US, Generic Aircraft Carrier
 AddDisplayName = ja_JP, mc航空母艦
 
 
@@ -12,14 +13,14 @@ MaxFuel         = 3500
 FuelConsumption = 1.2
 Gravity = -0.15
 ArmorDamageFactor = 1.0
-DamageFactor = 0.3
+DamageFactor = 0.0
 Regeneration = true
 MobilityYawOnGround = 0.6
 EnableNightVision = true
 EnableEntityRadar = true
 MotionFactor = 0.90
 ParticlesScale = 18.5
-Stealth = 0.5
+Stealth = 0.0
 RotorSpeed = 3
 FuelSupplyRange = 80
 AmmoSupplyRange = 80
