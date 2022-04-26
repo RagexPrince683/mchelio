@@ -62,3 +62,13 @@ AddFixedSearchLight = -0.37, 1.01, 2.26,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15
 EntityWidth  = 0.9
 EntityHeight = 0.9
 
+
+BoundingBox = 0.0, 0.78, 1.35, 1.00, 0.7
+BoundingBox = 0.0, 0.40, 1.50, 1.85, 0.2
+BoundingBox = 0.0, 0.40, 0.0, 1.85, 0.2
+BoundingBox = 0.0, 0.40, -0.95, 1.85, 0.2
+
+Regeneration = true
+ArmorDamageFactor = 2.32
+
+unmountposition = 0.45, 1.30,  0.38

@@ -50,8 +50,8 @@ AddPartWheel     =  0.58,  0.17,  1.64, 30
 AddPartWheel     = -0.58,  0.17,  1.64, 30
 AddPartWheel     =  0.00,  0.17, -1.04
 
-AddPartTurretWeapon    = m8c / m344 / m581,   false, true, false,  0.00, 1.33, -1.18
-AddPartTurretWeapon    = m8c / m344 / m581,   false, true, true, 0.00, 1.65, -1.18
+AddPartWeapon    = m8c / m344 / m581,   false, true, false,  0.00, 1.33, -1.18
+AddPartWeapon    = m8c / m344 / m581,   false, true, true, 0.00, 1.65, -1.18
 AddTurretWeapon = m8c, 0.00, 1.84, -1.35,   0.0, 0.0, false, 3, 0, -10, 90, -20,20
 AddTurretWeapon = m344, 0.00, 1.67, -1.35,   0.0, 0.0, false, 3, 0, -10, 90, -20,20
 AddTurretWeapon = m581, 0.00, 1.67, -1.35,   0.0, 0.0, false, 3, 0, -10, 90, -20,20
@@ -69,3 +69,12 @@ AddFixedSearchLight = -0.37, 1.01, 2.26,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15
 EntityWidth  = 0.9
 EntityHeight = 0.9
 
+BoundingBox = 0.0, 0.78, 1.35, 1.00, 0.7
+BoundingBox = 0.0, 0.40, 1.50, 1.85, 0.2
+BoundingBox = 0.0, 0.40, 0.0, 1.85, 0.2
+BoundingBox = 0.0, 0.40, -0.95, 1.85, 0.2
+
+Regeneration = true
+ArmorDamageFactor = 2.32
+
+unmountposition = 0.45, 1.30,  0.38

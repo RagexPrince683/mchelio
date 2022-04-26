@@ -1,11 +1,11 @@
 ﻿DisplayName = phantom
-AddDisplayName = en_US, Rolls-Royce Phantom
+AddDisplayName = en_US, Rolls-Royce Phantom Unarmored
 AddDisplayName = ja_JP, ロールスロイス ファントム
 ItemID = 30111
 MaxHp = 100
-ThrottleUpDown = 10.0
-Speed = 0.6
-MobilityYawOnGround = 3.5
+ThrottleUpDown = 5.0
+Speed = 3.36
+MobilityYawOnGround = 5.5
 StepHeight = 1.2
 Sound = prop
 MinRotationPitch = -90
@@ -18,6 +18,10 @@ EnableNightVision = true
 MaxFuel           = 1200
 FuelConsumption   = 1.0
 FlareType = 10
+
+EntityWidth  = 0.9
+EntityHeight = 0.9
+
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8

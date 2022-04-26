@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, 三菱 スタリオン
 ItemID = 28745
 MaxHp = 100
 ThrottleUpDown = 10.0
-Speed = 0.8
+Speed = 2.83
 MobilityYawOnGround = 8.0
 StepHeight = 1.2
 Sound = prop
@@ -50,7 +50,7 @@ AddSeat = -0.46,   0.15, -0.37
 AddSeat =  0.46,   0.15, -0.37
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
-PivotTurnThrottle = 0.1
+PivotTurnThrottle = 0.6
 
 ; タイヤの回転スピード
 PartWheelRot = 40
