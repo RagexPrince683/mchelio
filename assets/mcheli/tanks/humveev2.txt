@@ -1,0 +1,106 @@
+﻿DisplayName = Humvee
+AddDisplayName = ja_JP, Humvee
+AddDisplayName = en_US, Humvee Different Variant
+ItemID = 30032
+MaxHp = 150
+ThrottleUpDown = 9.0
+Speed = 0.8
+MobilityYawOnGround = 9.0
+StepHeight = 2.0
+Sound = Humvee
+MinRotationPitch = -90
+MaxRotationPitch =  90
+MobilityRoll     = 0
+Gravity        = -0.17
+GravityInWater = -0.1
+DamageFactor   = 1.00
+EnableNightVision = false
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+ThirdPersonDist = 5
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
+AddTexture = humveev22
+AddTexture = humveev2v
+AddTexture = humveev22v
+
+;後退可能にする
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+; Tank or Car or Unknown
+WeightType = Car
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  0.70,  -0.24,  2.00, -1.55
+
+HUD = Humvee_hud, none
+
+AddSeat =  0.70,  0.18,  0.31
+AddSeat = -0.70,  0.30,  0.31
+AddSeat = -0.67,  0.30, -0.41
+AddSeat =  0.67,  0.30, -0.41
+AddSeat =  0.95,  0.95, -1.74
+AddSeat = -0.95,  0.95, -1.74
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.1
+
+; タイヤの回転スピード
+PartWheelRot = 40
+; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
+AddPartWheel     = -1.00,  0.168,  2.0657, 30
+AddPartWheel     =  1.00,  0.168,  2.0657, 30
+AddPartWheel     = -1.00,  0.168, -1.6257
+AddPartWheel     =  1.00,  0.168, -1.6257
+
+AddPartHatch = 0.00, 0.6000, -2.4072,  1, 0, 0,  -92.4
+AddPartHatch =-0.702, 1.578, -2.4058,  0, 1, 0,   120
+AddPartHatch = 0.702, 1.578, -2.4058,  0, 1, 0,  -120
+
+;ハンドル
+AddPartSteeringWheel =   0.7536,  1.0616,  0.6816,   0, 1, -2.1445,   130
+
+AddPartThrottle =  0.5469, 0.9717, 0.862,  0,1,-3.7320,  -220
+
+AddPartCanopy   =  1.19, 0.93, 1.0277,  0, 1, 0, -60
+AddPartCanopy   =  0,0,0,  0,1,0,  0
+
+InventorySize = 27
+
+AddRack = container, 0.0, 1.05, -1.765,   0.0, 0.00, -3.17
+
+;ヘッドライト
+AddFixedSearchLight =  0.515, 0.72, 2.30,      0x20FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight = -0.515, 0.72, 2.30,      0x20FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+;テールランプ
+AddFixedSearchLight =  0.965, 0.794,-2.462,   0xFFFF0000,   0x10FF0000,    0.0, 0.16 
+AddFixedSearchLight = -0.965, 0.794,-2.463,   0xFFFF0000,   0x10FF0000,    0.0, 0.16
+
+AddWeapon = none, 0.00, 0.00, 0.00,  0.0,0.0
+AddWeapon = horn, 0.00, 0.00, 0.00,  0.0,0.0
+
+EntityWidth  = 0.85
+EntityHeight = 0.85
+BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
+;rest
+BoundingBox = 0.0, 0.70, -0.20, 2.4, 2.0
+BoundingBox = 0.0, 0.90, -1.25, 2.0, 1.0, 0.0
+BoundingBox = 0.0, 0.90, -1.33, 1.9, 1.0, 1.0
+
+UnmountPosition = 0.70,  1.18,  0.31
+
+;RIP AddRecipe = "BBB",  "CDC", "CEC",  B, glass, C, hfr:item.part_wheel, D, hfr:item.part_engine_1, E, hfr:item.part_plating_1
+
+AddRecipe = " G ",  "I I",  " I ",   G, glass, I, iron_ingot
+
+
+BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
+Regeneration = true
+ArmorMinDamage = 35
+ArmorDamageFactor = 2.32

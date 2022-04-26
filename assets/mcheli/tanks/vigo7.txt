@@ -3,9 +3,9 @@ DisplayName = Toyota Hilux Vigo Generation 7
 AddDisplayName = ja_JP, Toyota Hilux Vigo Generation 7
 AddDisplayName = en_US, Toyota Hilux Vigo Generation 7
 ItemID = 28745
-MaxHp = 100
+MaxHp = 200
 ThrottleUpDown = 10.0
-Speed = 0.8
+Speed = 2.53
 MobilityYawOnGround = 5.0
 StepHeight = 1.2
 Sound = engineb
@@ -66,3 +66,17 @@ AddFixedSearchLight = -0.77, 1.0, 2.85,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.
 
 EntityWidth  = 0.8
 EntityHeight = 0.8
+
+unmountposition = 0.5477,  0.55, 0.2827
+
+
+BoundingBox = 0.0, 0.8, 1.8, 1.7, 1.0
+
+BoundingBox = 0.0, 0.4, 2.1, 1.8, 0.2
+
+BoundingBox = 0.0, 0.3, 1.4, 2.4, 0.2
+
+BoundingBox = 0.0, 0.3, 0.0, 2.4, 0.2
+BoundingBox = 0.0, 0.3, -2.55, 2.4, 0.2
+
+BoundingBox = 0.0, 0.3, -2, 2.4, 0.2

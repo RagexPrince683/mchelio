@@ -3,7 +3,7 @@ AddDisplayName = en_US, Lenco Bearcat
 AddDisplayName = ja_JP, レンコ ベアキャット
 ItemID = 33410
 MaxHp = 150
-Speed = 0.7
+Speed = 1.95
 Sound = vehiclerun
 MobilityYawOnGround = 5.5
 ThrottleUpDown = 10.0
@@ -88,10 +88,11 @@ BoundingBox = 0.0, 1.40, 0.58, 2.8, 2.0
 BoundingBox = 0.0, 1.40, -1.25, 2.8, 2.0
 ;BoundingBox = 0.0, 0.90, -1.25, 2.0, 1.0, 0.0
 ;BoundingBox = 0.0, 0.90, -1.33, 1.9, 1.0, 1.0
-UnmountPosition = 0.65, 1.50, 1.16
+
 
 BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
 ArmorMinDamage = 35
 ArmorDamageFactor = 2.32
 Regeneration = true
 ;ArmorMaxDamage = 50
+UnmountPosition = 0.65, 1.50, 1.16
