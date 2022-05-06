@@ -101,6 +101,6 @@ AddRecipe = " G ",  "I I",  " I ",   G, glass, I, iron_ingot
 
 
 BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
-Regeneration = true
+Regeneration = false
 ArmorMinDamage = 35
 ArmorDamageFactor = 2.32

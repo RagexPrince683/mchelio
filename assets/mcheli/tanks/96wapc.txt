@@ -29,7 +29,7 @@ StepHeight = 2.0
 FlareType = 10
 EntityWidth  = 0.7
 EntityHeight = 0.7
-DefaultFreelook = false
+DefaultFreelook = true
 
 SubmergedDamageHeight = 3
 
@@ -43,17 +43,17 @@ OnGroundRollFactor  = 0.8
 
 HUD = mbt_hud, gunner
 
-AddSeat = -0.64, 0.80,  2.82
+AddSeat = -0.64, 1.00,  2.82
 AddSeat = -0.64, 2.00,  0.48
 
-AddSeat =  0.64, 0.68, -4.54
-AddSeat = -0.64, 0.68, -4.54
-AddSeat =  0.64, 0.68, -3.74
-AddSeat = -0.64, 0.68, -3.74
-AddSeat =  0.64, 0.68, -3.10
-AddSeat = -0.64, 0.68, -3.10
-AddSeat =  0.64, 0.68, -2.50
-AddSeat = -0.64, 0.68, -2.50
+AddSeat =  0.64, 1.00, -4.54
+AddSeat = -0.64, 1.00, -4.54
+AddSeat =  0.64, 1.00, -3.74
+AddSeat = -0.64, 1.00, -3.74
+AddSeat =  0.64, 1.00, -3.10
+AddSeat = -0.64, 1.00, -3.10
+AddSeat =  0.64, 1.00, -2.50
+AddSeat = -0.64, 1.00, -2.50
 
 SetWheelPos =  1.50,  -0.24,  3.75, 1.71, -0.15, -2.01
 
@@ -71,11 +71,11 @@ AddTurretWeapon = 96, -0.62, 2.88, 0.48,  0.0, 0.0, false, 2, 0,-90,90, -20, 5
 AddPartHatch =   0.00,  0.46,  -5.18, 1,0,0, -120
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 9
+;ArmorMinDamage = 9
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
-ArmorDamageFactor = 1.00
+;ArmorDamageFactor = 1.00
 ;後退可能にする(暫定処置で今後削除される可能性有り)
 EnableBack = true
 
@@ -95,6 +95,23 @@ RideRack = c5, 2
 
 AddRecipe = "III",  " I ",  "III",   I, iron_ingot
 
-BoundingBox =  0.0, 1.4,  1.0,   3.4, 3.8,  1.00
-BoundingBox =  0.0, 1.0, -2.0,   3.4, 2.3,  1.25
-BoundingBox =  0.0, 1.0, -4.0,   2.0, 2.0,  0.90
+UnmountPosition = -0.64, 1.50,  2.82
+
+
+DamageFactor = 0.8
+
+Regeneration = true
+ArmorMinDamage = 35
+ArmorDamageFactor = 0.90
+
+;BoundingBox =  0.0, 1.4,  1.0,   3.4, 3.8,  1.00
+;BoundingBox =  0.0, 1.0, -2.0,   3.4, 2.3,  1.25
+;BoundingBox =  0.0, 1.0, -4.0,   2.0, 2.0,  0.90
+
+BoundingBox = 0.0, 1.5, 1.0, 3.6, 2.0, 1.0
+BoundingBox = 0.0, 1.3, 2.0, 3.4, 1.7, 1.0
+
+
+BoundingBox = 0.0, 1.5, -1.5, 3.6, 2.0, 1.0
+
+BoundingBox = 0.0, 1.5, -3.4, 3.6, 2.0, 1.0

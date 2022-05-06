@@ -109,5 +109,5 @@ UnmountPosition = 0.70,  1.18,  0.31
 BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
 ArmorMinDamage = 35
 ArmorDamageFactor = 2.32
-Regeneration = true
+Regeneration = false
 ;ArmorMaxDamage = 50

@@ -2,7 +2,7 @@
 AddDisplayName = en_US, 40.6cm SK C/34 "Adolfkanone"
 MaxHp = 1000
 Speed = 0.0
-Sound = vehiclerun
+;Sound = vehiclerun
 ThrottleUpDown = 4.0
 MobilityYawOnGround = 0.5
 MinRotationPitch = -60
@@ -16,13 +16,13 @@ CameraPosition = 0.00, 3.1395, 0.9325
 HideEntity = true
 EnableNightVision = false
 CameraRotationSpeed = 5
-MaxFuel         = 10
-FuelConsumption = 0.01
+MaxFuel         = 100000000
+FuelConsumption = 0.00
 StepHeight = 0.0
 DefaultFreelook = true
 OnGroundPitchFactor = 1.0
 OnGroundRollFactor  = 1.0
-FlareType = 2
+;FlareType = 2
 ThirdPersonDist = 12
 
 ;AddTexture = c34
@@ -41,7 +41,7 @@ AddSeat = 0.00, 3.1395, 0.9325
 
 ArmorMinDamage = 10
 
-MotionFactor = 0.1
+MotionFactor = 0.2
 
 EnableBack = true
 EnableBack = true
@@ -142,10 +142,13 @@ AddRack = 003, -3.0, 1.0, -8.0, 0, 0.2, 0, 10, 10
 AddRack = 003, -3.0, 0.5, -9.0, 0, 0.2, 0, 10, 10
 
 
-BoundingBox =  0.0, 0.635, 1.53,   2.0, 0.9,   0.90
-BoundingBox =  0.0, 0.83, -0.09,   2.6, 1.3,   0.90
-BoundingBox =  0.0, 0.83, -1.69,   2.6, 1.3,   0.90
-BoundingBox =  0.0, 1.85, -0.50,   1.9, 0.75,   0.90
+;BoundingBox =  0.0, 0.635, 1.53,   4.0, 0.9,   0.90
+;BoundingBox =  0.0, 0.83, -0.09,   4.6, 1.3,   0.90
+;BoundingBox =  0.0, 0.83, -1.69,   4.6, 1.3,   0.90
+;BoundingBox =  0.0, 1.85, -0.50,   4.9, 0.75,   0.90
+
+BoundingBox = 0.0, 3.0, 0.0, 2.0, 3.7, 3.0
+BoundingBox = -1.5, 3.0, 0.0, 4.0, 0.0, 1.0
 
 
 AddRecipe = "IRX",  "XXX",  "XXX",  X, iron_block,  I, iron_ingot, R, redstone

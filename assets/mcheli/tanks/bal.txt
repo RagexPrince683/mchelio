@@ -67,15 +67,32 @@ AddWeapon = Kh35, -1.1013, 4.6216, -6.2015, 0, 0
 
 
 
-DamageFactor = 0.6
+DamageFactor = 1.0
 
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 
 
-BoundingBox =  0.0, 1.8, -6.5,   3.4, 3.8,  1.00
-BoundingBox =  0.0, 1.8, -3.0,   3.4, 3.8,  1.00
-BoundingBox =  0.0, 1.8,  0.5,   3.4, 3.8,  1.00
-BoundingBox =  0.0, 1.4,  4.0,   3.4, 3.0,  1.00
+;BoundingBox =  0.0, 1.8, -6.5,   3.4, 3.8,  1.00
+;BoundingBox =  0.0, 1.8, -3.0,   3.4, 3.8,  1.00
+;BoundingBox =  0.0, 1.8,  0.5,   3.4, 3.8,  1.00
+;BoundingBox =  0.0, 1.4,  4.0,   3.4, 3.0,  1.00
+
+
+BoundingBox = 0.00, 1.0737, 5.5, 1.0, 1.2, 1.0
+BoundingBox = 1.00, 1.0737, 5.5, 1.0, 1.2, 1.0
+BoundingBox = -1.00, 1.0737, 5.5, 1.0, 1.2, 1.0
+BoundingBox = 0.0, 2.317, -0.04794, 2.0, 1.8, 15.0
+
+
+BoundingBox = 0.0, 0.40, 4.0, 3.0, 0.2
+BoundingBox = 0.0, 0.40, 2.0, 3.0, 0.2
+BoundingBox = 0.0, 0.40, 1.0, 3.0, 0.2
+BoundingBox = 0.0, 0.40, 0.0, 3.0, 0.2
+BoundingBox = 0.0, 0.40, -1.5, 3.0, 0.2
+BoundingBox = 0.0, 0.40, -2.5, 3.0, 0.2
+BoundingBox = 0.0, 0.40, -4.0, 3.0, 0.2
+
+
 
 AddRecipe = " I ",  "XXX",  "III",  X, iron_block,  I, iron_ingot

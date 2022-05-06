@@ -7,7 +7,7 @@ EnableEntityRadar = true
 EnableEjectionSeat = true
 ;Speed = 40.68
 ;sad
-;divide by 30
+;divide by 30 aircraft
 Speed = 1.35
 FlareType = 3
 ParticlesScale = 0.7
