@@ -105,7 +105,7 @@ AddTurretWeapon = targeting_pod_block,   0.60, 3.40, 0.60,   0.0, 0.0,  true, 2
 
 
 
-DamageFactor = 0.0
+DamageFactor = 0.8
 
 
 RideRack = c5, 1
@@ -124,3 +124,5 @@ BoundingBox = 0.0, 1.5, -3.4, 3.2, 2.6, 1.0
 ArmorMinDamage = 35
 ArmorDamageFactor = 2.32
 Regeneration = true
+
+unmountposition = 0.6701, 1.50,  -0.3

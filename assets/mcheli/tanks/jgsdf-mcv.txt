@@ -4,13 +4,13 @@ ItemID = 30070
 MaxHp = 100
 Speed = 0.6
 Sound = vehiclerun
-ThrottleUpDown = 1.5
+ThrottleUpDown = 0.8
 MaxFuel         = 1000
 FuelConsumption = 0.8
 AddTexture = jgsdf-mcv-1
 AddTexture = jgsdf-mcv-2
 AddTexture = jgsdf-mcv-3
-CameraPosition = 0.00,2.50, -0.674, true
+CameraPosition = 0.00, 2.50, -0.674, true
 CameraZoom = 3
 HUD = mbt_hud, gunner, gunner
 EnableGunnerMode = true
@@ -20,13 +20,15 @@ Gravity = -0.61
 GravityInWater = -1.0
 MobilityYawOnGround = 2.0
 MinRotationPitch = -50
-MaxRotationPitch = 5
+MaxRotationPitch = 7
 MobilityRoll = 0
 InventorySize = 9
 StepHeight = 1.2
 EnableBack = true
 WeightType = Tank
 DefaultFreelook = true
+
+CameraRotationSpeed = 35
 
 ;ArmorMinDamage = 60 
 ;ArmorMaxDamage = 400
@@ -52,7 +54,7 @@ AddWeapon = h2hb,   0.00, 2.8, -0.654,   0.0, 0.0, true,  2, 0, -360, 360, -10,1
 AddRecipe = "AAX",  "XRX",  "LXL",  A,tnt,X, iron_block, R, redstone, L, leather
 AddRecipe = "AAX",  "XRX",  "SXS",  A,tnt,X, iron_block, R, redstone, S, slime_ball
 FlareType = 1
-DamageFactor = 0.0
+DamageFactor = 0.4
 
 AddPartWeapon = m240_r,       false, true, false,  0.00,1.401, -0.674
 AddPartWeaponChild   = false, true, 0.00, 1.802, 0.478
@@ -61,11 +63,13 @@ AddPartWeaponChild   = false, true, -0.512, 2.662, -0.654
 
 HideEntity = true
 
-BoundingBox =  0.0, 0.462, 1.49,  2.98, 1.524
-BoundingBox =  0.0, 0.544, -1.49,  2.98, 1.689
-BoundingBox =  0.0, 1.68, -0.674,  2.76, 0.912
+;BoundingBox =  0.0, 0.462, 1.49,  2.98, 1.524
+;BoundingBox =  0.0, 0.544, -1.49,  2.98, 1.689
+;BoundingBox =  0.0, 1.68, -0.674,  2.76, 0.912
 
-PivotTurnThrottle = 0.2
+
+
+PivotTurnThrottle = 0.4
 
 Category = M.A
 ;Left

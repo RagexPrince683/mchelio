@@ -38,8 +38,8 @@ HUD = bnr32_hud, none
 
 AddPartSteeringWheel =   0.5836, 1.252, 0.7021,   0.0, -0.4, 1,  -100
 
-AddSeat =  0.5477,  0.5, 0.2827
-AddSeat =  -0.5477,  0.5, 0.2827
+AddSeat =  0.5477,  0.55, 0.2827
+AddSeat =  -0.5477,  0.55, 0.2827
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.4
@@ -67,7 +67,7 @@ AddFixedSearchLight = -0.77, 1.0, 2.85,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.
 EntityWidth  = 0.8
 EntityHeight = 0.8
 
-unmountposition = 0.5477,  0.55, 0.2827
+unmountposition = 0.5477,  1.50, 0.2827
 
 
 BoundingBox = 0.0, 0.8, 1.8, 1.7, 1.0
