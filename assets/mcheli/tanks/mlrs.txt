@@ -4,7 +4,7 @@ AddDisplayName = ru_RU, M270 МЛРС
 MaxHp = 100
 ThrottleUpDown = 10.0
 Speed = 0.65
-MobilityYawOnGround = 6.0
+MobilityYawOnGround = 3.2
 StepHeight = 1.5
 Sound = tank_gte
 MinRotationPitch = -90
@@ -17,7 +17,7 @@ MobilityRoll     = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1.0
-EnableNightVision = false
+EnableNightVision = true
 MaxFuel           = 1000
 FuelConsumption   = 5
 ThirdPersonDist = 10
@@ -67,5 +67,14 @@ AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
 
 AddRecipe = "GIG",  "III",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
-BoundingBox =  0.0, 1.4,  -2.0,   3.4, 3.8,  1.00
-BoundingBox =  0.0, 1.4, 2.0,   3.4, 2.3,  1.00
+;BoundingBox =  0.0, 1.4,  -2.0,   3.4, 3.8,  1.00
+;BoundingBox =  0.0, 1.4, 2.0,   3.4, 2.3,  1.00
+
+BoundingBox = 0.0, 1.5, 2.6, 2.8, 1.0, 1.0
+
+BoundingBox = 0.0, 1.5, 2.2, 3.0, 2.5, 1.0
+
+BoundingBox = 0.0, 1.5, -0.7, 3.0, 2.5, 1.0
+BoundingBox = 0.0, 1.5, -2.35, 3.0, 2.5, 1.0
+
+unmountposition = 0.0, 1.50, 2.6841

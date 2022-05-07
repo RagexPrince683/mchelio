@@ -5,7 +5,7 @@ MaxHp = 100
 Speed = 0.8
 Sound = vehicle_run
 ThrottleUpDown = 5
-MobilityYawOnGround = 6.5
+MobilityYawOnGround = 4.5
 MaxFuel         = 1000
 FuelConsumption = 0.8
 CameraZoom = 6
@@ -21,11 +21,11 @@ StepHeight = 1.0
 MotionFactor = 0.9
 ;ArmorMinDamage = 20
 ;ArmorMaxDamage = 500
-DamageFactor = 0.7
+DamageFactor = 1.0
 EnableBack = true
 
-CameraPosition = 0.0, 4.4, 0.0
-CameraPosition = 0.0, 4.4, 0.0
+CameraPosition = 0.0, 4.4, 0.0, true
+;CameraPosition = 0.0, 4.4, 0.0
 
 AddTexture = p-s1_1
 
@@ -39,17 +39,17 @@ WeightType = Tank
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = mbt_hud, none, none, gunner, gunner, gunner
+HUD = mbt_hud, none, none, gunner, gunner
 
 EntityWidth  = 0.7
 EntityHeight = 0.7
 
-AddSeat =  0.71, 1.52, 6.08
-AddSeat = -0.05, 1.52, 6.08
-AddSeat = -0.71, 1.52, 6.08
-AddSeat =  0.75, 1.52, 3.42
-AddGunnerSeat =  0.16, 1.52, 3.42,  0.0, 5.65,-1.56, true
-AddGunnerSeat = -0.53, 1.52, 3.42,  0.0, 4.4, 0.0, true
+AddSeat =  0.71, 1.42, 6.08
+AddSeat = -0.05, 1.42, 6.08
+AddSeat = -0.71, 1.42, 6.08
+AddSeat =  0.75, 1.42, 3.42
+AddGunnerSeat =  0.16, 1.52, 3.42,  0.0, 5.65,-1.56, false, -85, 5
+;AddGunnerSeat = -0.53, 1.52, 3.42,  0.0, 4.4, 0.0, true
 
 AddPartCanopy =  1.183, 1.8, 6.858, 0,-1,0, 40
 AddPartCanopy = -1.183, 1.8, 6.858, 0, 1,0, 40
@@ -69,20 +69,51 @@ AddPartWheel =  0.0,  0.33,-1.91
 PivotTurnThrottle = 0.2
 TrackRollerRot = 30
 
-AddPartSlideHatch = 0.0, -0.48, 0.0
+;AddPartSlideHatch = 0.0, -0.48, 0.0
+
+
 
 ;30mm機関砲・SAM
 AddPartWeapon = 2a38m_ap / 2a38_hei / 57e6, false, true, false,  0.0, 2.5, 0.0
 AddPartWeaponChild = false, true, 0.0, 3.3, -0.805
+;AddPartWeaponChild = false, true, 0.0, 0.0, 0.0
 AddPartWeaponChild = false, true, 0.0, 4.044, 0.509
-AddTurretWeapon = 2a38_ap,   0.769, 3.31, 0.805,  0.0, 0.0, true,1, 0,-360,360, -85, 5
-AddTurretWeapon = 2a38_ap,  -0.769, 3.31, 0.805,  0.0, 0.0, true,1, 0,-360,360, -85, 5
-AddTurretWeapon = 2a38_hei,  0.769, 3.31, 0.805,  0.0, 0.0, true,1, 0,-360,360, -85, 5
-AddTurretWeapon = 2a38_hei, -0.769, 3.31, 0.805,  0.0, 0.0, true,1, 0,-360,360, -85, 5
+AddTurretWeapon = 2a38_ap,   0.7338, 3.3009, 0,  0.0, 0.0, true,1, 0,-360,360, -85, 5
+AddTurretWeapon = 2a38_ap,  -0.7338, 3.3009, 0,  0.0, 0.0, true,1, 0,-360,360, -85, 5
+AddTurretWeapon = 2a38_hei,  0.7338, 3.3009, 0,  0.0, 0.0, true,1, 0,-360,360, -85, 5
+AddTurretWeapon = 2a38_hei, -0.7338, 3.3009, 0,  0.0, 0.0, true,1, 0,-360,360, -85, 5
 AddTurretWeapon = 57e6,  1.16, 3.13, -2.8,  0.0,-3.0, true,6, 0,-360,360, -85, 5
 AddTurretWeapon = 57e6, -1.16, 3.13, -2.8,  0.0,-3.0, true,6, 0,-360,360, -85, 5
 
 ;Target acquisition radar
 AddTurretWeapon = UHF_radar, 0.0, 4.6, -1.558, 0.0, 0.0, false, 5
 
-AddRecipe = " I ",  "XXX",  "III",  X, iron_block,  I, iron_ingot
+AddRecipe = " I ",  "XXX",  "XXX",  X, iron_block,  I, iron_ingot
+
+
+;BoundingBox = 0.0, 1.0, 1.0, 1.0, 1.0, 1.0
+
+
+;BoundingBox = -0.03, 1.0737, 7.5854, 3.0, 1.8, 1.0
+BoundingBox = 0.0, 2.317, -0.04794, 2.0, 1.8, 15.0
+
+
+BoundingBox = 0.00, 1.5, 6.7, 0.5, 1.2, 1.0
+BoundingBox = 1.00, 1.5, 6.7, 0.5, 1.2, 1.0
+BoundingBox = 0.50, 1.5, 6.7, 0.5, 1.2, 1.0
+BoundingBox = -0.50, 1.5, 6.7, 0.5, 1.2, 1.0
+BoundingBox = -1.00, 1.5, 6.7, 0.5, 1.2, 1.0
+
+
+BoundingBox = 0.0, 0.95, 2.5, 2.7, 0.2
+BoundingBox = 0.0, 0.95, 1.0, 2.7, 0.2
+BoundingBox = 0.0, 0.95, 3.5, 2.5, 0.2
+BoundingBox = 0.0, 0.95, 5.8, 2.5, 0.2
+BoundingBox = 0.0, 0.95, -1.85, 2.7, 0.2
+BoundingBox = 0.0, 0.95, -0.0, 2.5, 0.2
+
+DefaultFreeLook = true
+
+unmountposition = 0.71, 1.52, 6.08
+
+CameraRotationSpeed = 75
