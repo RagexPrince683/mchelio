@@ -2,7 +2,7 @@
 AddDisplayName = en_US, 2S19 MSTA
 AddDisplayName = ja_JP, 2S19 ムスタ自走榴弾砲
 ItemID = 30100
-MaxHp = 20
+MaxHp = 300
 Speed = 0.7
 Sound = mbt_run
 ThrottleUpDown = 10.0
@@ -80,15 +80,21 @@ AddTrackRoller =  -2.06,  0.60,  -2.87
 MaxFuel = 600
 FuelConsumption = 2.0
 
-BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
-BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
-BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
-BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
-BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
-BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
-BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+;BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+;BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+;BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+;BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+;BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+;BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+;BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
 
 
 DefaultFreeLook = true
 
 UnmountPosition = 0.01,  1.5, 0
+
+
+BoundingBox = 0.0, 0.5, 0.0, 3.0, 1.2, 1.0
+BoundingBox = 0.0, 0.5, 2.0, 3.0, 1.0, 1.0
+BoundingBox = 0.0, 0.5, 2.8, 3.0, 0.5, 1.0
+;wip
