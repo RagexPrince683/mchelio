@@ -14,7 +14,7 @@ MaxHeatCount = 250
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 2.0
-DamageFactor = vehicle 2.0
+DamageFactor = vehicle, 2.0
 DamageFactor = heli, 2.0
 
 AddMuzzleFlash      =  2.6,      0.22,        1,  150,254,159,84

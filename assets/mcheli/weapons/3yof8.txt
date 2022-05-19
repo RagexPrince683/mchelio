@@ -1,6 +1,6 @@
-DisplayName = 3„T„O„U8 30„}„} [HEI-T]
+DisplayName = 3UOF8 [HEI-T]
 Type = MachineGun1
-Power = 18
+Power = 20
 Acceleration = 5.0
 Explosion = 2
 Flaming = false
@@ -15,7 +15,14 @@ Accuracy = 1.5
 ModeNum = 1
 group = maingun
 
+;DamageFactor = 0.5, tank
+
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
+
+DamageFactor = tank, 0.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 100
 SuppliedNum = 50

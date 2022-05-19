@@ -1,4 +1,4 @@
-DisplayName = 40mm‘Îl‘Îí‘•b‚Ä‚«’e
+DisplayName = 40mm
 Type = Rocket
 ModelBullet = mk19bullet
 Power = 15

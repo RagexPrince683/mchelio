@@ -1,9 +1,9 @@
 DisplayName = 80cm Shell [AP]
 Type = MachineGun1
 ModelBullet = 800mm
-Power = 900
-Acceleration = 150
-AccelerationInWater = 40.0
+Power = 1000
+Acceleration = 4
+AccelerationInWater = 4.0
 Explosion = 30
 ExplosionBlock = 20
 ExplosionInWater = 15
@@ -15,10 +15,10 @@ SoundPitch = 0.2
 SoundVolume = 50
 Sound = cannon_1_snd
 Gravity = -0.05
-DamageFactor = helicopter, 2.0
-DamageFactor = plane,      2.0
-DamageFactor = vehicle,    2.0
-DamageFactor = tank,       2.0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 SetCartridge = 800mmcartridge, 0.8,  90, 15, 1.0, -0.05, 0.5
 

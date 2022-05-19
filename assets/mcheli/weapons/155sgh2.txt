@@ -1,6 +1,6 @@
-DisplayName = 155MM Howitzer Gun [∆’Õ®µØ]
+DisplayName = 155MM Howitzer Gun [autism]
 Type = MachineGun2
-Power = 310
+Power = 100
 ModelBullet = bullet105mm
 Acceleration = 5.6
 Explosion = 15
@@ -14,7 +14,10 @@ Sound = cannon_1_snd
 Recoil = 1.5
 Delay = 85
 Gravity = -0.18
-DamageFactor = tank, 3.5
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 
 DisplayMortarDistance = true

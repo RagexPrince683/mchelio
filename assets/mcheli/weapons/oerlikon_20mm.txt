@@ -1,6 +1,11 @@
-DisplayName = ƒGƒŠƒRƒ“ 20mm‹@ŠÖ–C
+DisplayName = Oerlikon 20mm
 Type = MachineGun2
 Power = 20
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 Acceleration = 9.0
 Explosion = 1
 Flaming = false

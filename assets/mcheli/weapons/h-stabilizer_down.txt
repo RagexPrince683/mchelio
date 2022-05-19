@@ -1,2 +1,2 @@
-DisplayName = …•½”ö—ƒ‰º‚°
+DisplayName = Down
 Type = Dummy

@@ -18,7 +18,7 @@ Gravity = -0.01
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
+DamageFactor = vehicle, 2.0
 DamageFactor = heli, 3.0
 
 AddMuzzleFlash      =  10.2,      1.80,        7,  220,254,159,74

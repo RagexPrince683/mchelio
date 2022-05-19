@@ -15,6 +15,11 @@ Accuracy = 2.0
 HeatCount = 1
 MaxHeatCount = 650
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
+
 SetCartridge = cartridge, -0.5,  0.00, -25, 3.50, -0.04, 0.60
 
 

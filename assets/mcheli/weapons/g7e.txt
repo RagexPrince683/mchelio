@@ -1,4 +1,4 @@
-DisplayName = G7e ‹›—‹
+DisplayName = G7e Torpedo
 Type = Torpedo
 Power = 533
 ModelBullet = G7e

@@ -1,6 +1,6 @@
 DisplayName = 50mmMainGun
 Type = MachineGun2
-Power = 20
+Power = 106
 Acceleration = 6.5
 Explosion = 2
 ExplosionBlock = 1
@@ -13,6 +13,11 @@ ModeNum = 2
 Gravity = -0.01
 Particle = largeexplode
 Sound = ww2tankshot_snd
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 AddMuzzleFlash      =  5.2,      0.80,        7,  200,254,129,44
 AddMuzzleFlash      =  5.1,      0.75,        6,  200,254,219,104

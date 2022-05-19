@@ -6,7 +6,7 @@ Acceleration = 7.0
 
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
+DamageFactor = vehicle, 2.0
 DamageFactor = heli, 3.0
 Explosion = 3
 Flaming = false

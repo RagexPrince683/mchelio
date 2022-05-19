@@ -1,6 +1,6 @@
 DisplayName = 7.62mm MG
 Type = MachineGun2
-Power = 7
+Power = 14
 Acceleration = 8.0
 Flaming = false
 Sight = MoveSight

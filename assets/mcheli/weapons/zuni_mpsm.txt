@@ -1,7 +1,7 @@
 DisplayName = Zuni MPSM
 Type = Rocket
 Power = 28
-Acceleration = 4.0
+Acceleration = 4
 Explosion = 1
 Flaming = false
 Sound = missile_2_snd
@@ -16,7 +16,7 @@ Piercing  = 2
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
+DamageFactor = vehicle, 2.0
 DamageFactor = heli, 3.0
 
 ModelBullet = hydra70

@@ -14,7 +14,7 @@ Delay = 30
 Gravity = -0.06
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
+DamageFactor = vehicle, 2.0
 DamageFactor = heli, 3.0
 
 ; ’…’e‹——£‚Ì•\Ž¦

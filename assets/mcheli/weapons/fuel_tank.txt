@@ -1,4 +1,4 @@
-DisplayName = ドロップタンク投棄
+DisplayName = Fuel Tanks
 Type = Bomb
 Power = 1
 Acceleration = 0.5

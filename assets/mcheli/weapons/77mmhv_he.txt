@@ -1,6 +1,6 @@
 DisplayName = 77mmHV HE
 Type = MachineGun2
-Power = 80
+Power = 9
 ModelBullet = bullet76mm
 Acceleration = 4.0
 Explosion = 2
@@ -13,6 +13,11 @@ SoundPitch = 0.5
 SoundVolume = 20
 Sound = cannon_4_snd
 Gravity = -0.01
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 85
 SuppliedNum = 20

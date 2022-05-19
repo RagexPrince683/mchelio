@@ -1,7 +1,7 @@
 DisplayName = 380mm Grenade [HE]
 Type = MachineGun1
 ModelBullet = 380mm
-Power = 380
+Power = 1000
 Acceleration = 100
 AccelerationInWater = 40.0
 Explosion = 15
@@ -15,10 +15,10 @@ SoundPitch = 0.15
 SoundVolume = 60
 Sound = antiair-shoot
 Gravity = -0.15
-DamageFactor = helicopter, 2.0
-DamageFactor = plane,      2.0
-DamageFactor = vehicle,    1.0
-DamageFactor = tank,       1.0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 Group = MainGun
 Recoil = 0.38
 

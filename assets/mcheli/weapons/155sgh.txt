@@ -1,6 +1,6 @@
-DisplayName = 155MM Howitzer Gun [»ð¼ýÔö³Ìµ¯]
+DisplayName = 155MM Howitzer Gun [I don't even fucking know anymore]
 Type = MachineGun2
-Power = 350
+Power = 100
 ModelBullet = bullet105mm
 Acceleration = 6.0
 Explosion = 15
@@ -14,7 +14,10 @@ Sound = cannon_1_snd
 Recoil = 1.5
 Delay = 85
 Gravity = -0.10
-DamageFactor = tank, 3.5
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 
 DisplayMortarDistance = true

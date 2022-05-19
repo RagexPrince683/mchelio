@@ -1,7 +1,7 @@
 DisplayName = 127mm Shell [HE]
 Type = MachineGun1
 ModelBullet = 127mm
-Power = 320
+Power = 100
 Acceleration = 18
 AccelerationInWater = 10.0
 Explosion = 12
@@ -15,10 +15,10 @@ SoundPitch = 0.6
 SoundVolume = 12
 Sound = ww2tankshot_snd
 Gravity = -0.05
-DamageFactor = helicopter, 1.0
-DamageFactor = plane,      1.0
-DamageFactor = vehicle,    1.0
-DamageFactor = tank,       3.5
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 SetCartridge = 800mmcartridge, 0.8,  90, 15, 0.11, -0.05, 0.5
 

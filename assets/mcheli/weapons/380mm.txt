@@ -1,7 +1,7 @@
 DisplayName = 380mm Grenade [HE]
 Type = MachineGun1
 ModelBullet = 380mm
-Power = 500
+Power = 1000
 Acceleration = 10
 AccelerationInWater = 4.0
 Explosion = 20
@@ -15,10 +15,10 @@ SoundPitch = 0.15
 SoundVolume = 60
 Sound = cannon_2_snd
 Gravity = -0.15
-DamageFactor = helicopter, 10.0
-DamageFactor = plane,      10.0
-DamageFactor = vehicle,    2.0
-DamageFactor = tank,       1.0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 ; AddMuzzleFlash = distance, bigness, life time,  A,  R,  G,  B
 AddMuzzleFlash      =           1.3,   3.10,        27,  220,254,159,74

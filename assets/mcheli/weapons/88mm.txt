@@ -1,7 +1,7 @@
 DisplayName = 88mm Shell [HE]
 Type = MachineGun1
 ModelBullet = 88mm
-Power = 180
+Power = 100
 Acceleration = 15
 AccelerationInWater = 9.0
 Explosion = 5
@@ -18,7 +18,7 @@ Gravity = -0.05
 DamageFactor = helicopter, 1.0
 DamageFactor = plane,      1.0
 DamageFactor = vehicle,    1.0
-DamageFactor = tank,       3.0
+DamageFactor = tank,       1.0
 
 SetCartridge = 800mmcartridge, 0.8,  90, 15, 0.11, -0.05, 0.5
 

@@ -14,6 +14,11 @@ SoundPitch = 1.0
 Sound = gun_h5_snd
 Accuracy = 2.0
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
+
 AddMuzzleFlash      = 2.1,     0.85,        1,  150,254,219,154
 AddMuzzleFlash      = 2.0,     0.80,        1,  150,254,219,184
 AddMuzzleFlashSmoke = 2.2, 1,  10.0,  3.0, 25,  160,160,140,120

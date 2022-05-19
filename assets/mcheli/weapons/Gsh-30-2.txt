@@ -14,6 +14,11 @@ ReloadTime =100
 Round = 3000
 Sound = mig21_30mm
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
+
 MaxAmmo = 3000
 SuppliedNum = 0
 Item =  4, iron_ingot

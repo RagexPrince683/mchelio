@@ -1,6 +1,6 @@
-DisplayName = Type90_75mmTankGun [APHE]
+DisplayName = Type90 75mmTankGun [APHE]
 Type = MachineGun2
-Power = 75
+Power = 140
 Acceleration = 5.5
 ModelBullet = bullet76mm
 Explosion = 1
@@ -18,8 +18,10 @@ Gravity = -0.01
 GravityInWater = -1.0
 Particle = flame
 RecoilBufCount = 20, 5
+DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = helicopter, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 Recoil = 2.0
 
 AddMuzzleFlash      =           4.6,   2.25,        3,  220,254,159,74

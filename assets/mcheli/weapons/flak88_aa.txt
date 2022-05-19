@@ -21,6 +21,11 @@ Recoil = 0.02
 ModeNum = 1
 Group = MainGun
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
+
 SetCartridge = 800mmcartridge, 0.8,  90, 15, 0.11, -0.05, 0.5
 
 

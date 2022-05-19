@@ -1,9 +1,9 @@
 DisplayName = Front 38cm Guns
 Type = MachineGun1
 ModelBullet = b1
-Power = 500
-Acceleration = 38
-AccelerationInWater = 12.0
+Power = 1000
+Acceleration = 4
+AccelerationInWater = 4.0
 Explosion = 30
 ExplosionBlock = 19
 ExplosionInWater = 15

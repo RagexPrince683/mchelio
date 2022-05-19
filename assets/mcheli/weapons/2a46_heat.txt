@@ -20,6 +20,11 @@ AddMuzzleFlash      =  10.0,      1.70,        5,  200,254,219,184
 AddMuzzleFlashSmoke =  12.2, 20,  10.0,  3.0, 45,  220,160,140,120
 AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
+
 Recoil = 1.5
 
 MaxAmmo = 40

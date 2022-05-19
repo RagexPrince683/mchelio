@@ -1,6 +1,6 @@
 DisplayName = 152mm howitzer
 Type = MachineGun2
-Power = 160
+Power = 44
 Acceleration = 6.0
 Explosion = 3
 ExplosionBlock = 2
@@ -13,6 +13,11 @@ Accuracy = 2.0
 Gravity = -0.04
 Sound = cannon_4_snd
 Recoil = 2.5
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  7.1,      1.75,        6,  200,254,219,104

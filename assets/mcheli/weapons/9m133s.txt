@@ -23,7 +23,7 @@ AddMuzzleFlashSmoke = 10.2, 20, 13.0,  7.0, 55,  200,190,170,150
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
+DamageFactor = vehicle, 2.0
 DamageFactor = heli, 3.0
 
 MaxAmmo = 4

@@ -1,6 +1,6 @@
-DisplayName = 155MM Howitzer Gun [ƽ�䵯]
+DisplayName = 155MM Howitzer Gun [yooooo]
 Type = MachineGun2
-Power = 270
+Power = 100
 ModelBullet = bullet105mm
 Acceleration = 9.0
 Explosion = 13
@@ -16,7 +16,10 @@ Delay = 150
 CameraRotationSpeedPitch = 0.6
 
 
-DamageFactor = tank, 3.5
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 AddMuzzleFlash      =  12,      2.10,        16,  200,254,129,44
 AddMuzzleFlash      =  12,      2.05,        10,  200,254,219,104

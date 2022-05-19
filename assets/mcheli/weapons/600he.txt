@@ -1,8 +1,8 @@
 DisplayName = 600mm Grenade [HE]
 Type = MachineGun1
 ModelBullet = 600mm
-Power = 800
-Acceleration = 120
+Power = 1000
+Acceleration = 4
 AccelerationInWater = 40.0
 Explosion = 30
 ExplosionBlock = 17
@@ -15,10 +15,10 @@ SoundPitch = 0.005
 SoundVolume = 60
 Sound = gun_h6_snd
 Gravity = -0.2
-DamageFactor = helicopter, 2.0
-DamageFactor = plane,      2.0
-DamageFactor = vehicle,    2.0
-DamageFactor = tank,       2.0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 FixCameraPitch = true
 Recoil = 1.7
 

@@ -9,6 +9,11 @@ Sight = MoveSight
 Delay = 4
 ReloadTime = 10
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
+
 MaxAmmo = 5
 SuppliedNum = 5
 Item =  2, iron_ingot

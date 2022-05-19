@@ -20,6 +20,12 @@ BombletSTime = 1
 BombletDiff = 0.2
 ModelBomblet = flechette
 
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
+
 Group = MainGun
 
 SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40

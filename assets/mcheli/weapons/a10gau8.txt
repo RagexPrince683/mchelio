@@ -4,9 +4,14 @@ Power = 32
 Acceleration = 4.0
 Explosion = 2
 ExplosionBlock = 1
-Flaming = false
+Flaming = true
 Sight = None
 Delay = 300
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 3
 SuppliedNum = 1

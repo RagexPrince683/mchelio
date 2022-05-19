@@ -17,6 +17,11 @@ SoundVolume = 2
 Gravity = -0.04
 Accuracy = 4.0
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
+
 SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
 
 MaxAmmo = 100

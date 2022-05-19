@@ -1,6 +1,6 @@
 DisplayName = Heavy Artillery Gun
 Type = MachineGun2
-Power = 120
+Power = 100
 Acceleration = 6.0
 Explosion = 6
 ExplosionBlock = 7
@@ -13,6 +13,11 @@ Accuracy = 2.0
 Gravity = -0.04
 Particle = largeexplode
 Sound = HT_Fire_snd
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 
 MaxAmmo = 50

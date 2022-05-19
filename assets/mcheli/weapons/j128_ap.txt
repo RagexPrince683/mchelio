@@ -1,7 +1,7 @@
 DisplayName = 128mm Shell [AP]
 Type = MachineGun1
 ModelBullet = 128mm
-Power = 120
+Power = 100
 Acceleration = 180
 AccelerationInWater = 100.0
 Explosion = 0
@@ -15,10 +15,10 @@ SoundPitch = 1.0
 SoundVolume = 12
 Sound = ww2tankgun_snd
 Gravity = -0.05
-DamageFactor = helicopter, 2.0
-DamageFactor = plane,      2.0
-DamageFactor = vehicle,    2.0
-DamageFactor = tank,       2.0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 Recoil = 0.46
 Group = MainGun
 

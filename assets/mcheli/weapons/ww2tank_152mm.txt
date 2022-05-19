@@ -1,6 +1,6 @@
-DisplayName = 122mmMainGun[HE]
+DisplayName = 152mmMainGun[HE]
 Type = MachineGun1
-Power = 70
+Power = 95
 Acceleration = 5.5
 Explosion = 5
 Sight = None
@@ -11,6 +11,11 @@ Accuracy = 1.5
 Gravity = -0.02
 Particle = largeexplode
 Sound = ww2tankshot_snd
+
+DamageFactor = tank, 3.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 15
 SuppliedNum = 10

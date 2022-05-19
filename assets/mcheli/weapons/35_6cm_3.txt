@@ -1,4 +1,4 @@
-DisplayName = ŽOŽ®‘Î‹ó’e
+DisplayName = autism
 Type = Rocket
 Power = 23
 ModelBullet = rocket
