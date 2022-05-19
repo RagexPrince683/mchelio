@@ -18,10 +18,8 @@ Gravity = -0.01
 GravityInWater = -1.0
 Particle = flame
 RecoilBufCount = 20, 5
-DamageFactor = tank, 1.0
-DamageFactor = plane, 5.0
-DamageFactor = vehicle, 5.0
-DamageFactor = heli, 5.0
+DamageFactor = plane, 3.0
+DamageFactor = helicopter, 3.0
 Recoil = 2.0
 
 AddMuzzleFlash      =           4.6,   2.25,        3,  220,254,159,74

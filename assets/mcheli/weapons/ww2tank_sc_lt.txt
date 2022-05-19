@@ -1,6 +1,6 @@
 DisplayName = Small-Caliber Gun [LT]
 Type = MachineGun2
-Power = 30
+Power = 85
 Acceleration = 9.0
 Explosion = 2
 ExplosionBlock = 2
@@ -15,11 +15,6 @@ Gravity = -0.02
 Particle = largeexplode
 Sound = ww2tankshot_snd
 ModeNum = 2
-
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
 
 MaxAmmo = 50
 SuppliedNum = 10

@@ -1,4 +1,4 @@
-DisplayName = T14 G7es 
+DisplayName = T14 G7es
 Type = Torpedo
 Power = 600
 ModelBullet = g7es

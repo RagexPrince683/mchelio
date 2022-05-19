@@ -1,4 +1,4 @@
-DisplayName = G-RX6 Torpedo (HWT)
+DisplayName = G-RX6 18Ž®‹›—‹ (HWT)
 Type = Torpedo
 Power = 533
 ModelBullet = hwt

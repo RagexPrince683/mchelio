@@ -15,11 +15,6 @@ Particle = largeexplode
 ReloadTime = 30
 Sound = gun_h2_snd
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
-
 MaxAmmo = 150
 SuppliedNum = 50
 Item =  4, iron_ingot

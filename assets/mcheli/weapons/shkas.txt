@@ -1,6 +1,6 @@
 DisplayName = ShKAS 7.62mm
 Type = MachineGun1
-Power = 14
+Power = 6
 Acceleration = 8.0
 Explosion = 0
 Flaming = false

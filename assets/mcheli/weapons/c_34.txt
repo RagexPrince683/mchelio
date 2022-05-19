@@ -1,7 +1,7 @@
 DisplayName = Krupp C/34 40.6cm
 Type = MachineGun1
 ModelBullet = 91ap_46
-Power = 1000
+Power = 80
 Acceleration = 8
 AccelerationInWater = 4.0
 Explosion = 12
@@ -14,10 +14,10 @@ SoundPitch = 0.8
 SoundVolume = 15
 Sound = cannon_1_snd
 Gravity = -0.025
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
+DamageFactor = helicopter, 8.0
+DamageFactor = plane,      8.0
+DamageFactor = vehicle,    8.0
+DamageFactor = tank,       8.0
 
 DisplayMortarDistance = true
 

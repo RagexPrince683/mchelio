@@ -1,9 +1,9 @@
 DisplayName = Bismarck Secondary Artillery Left (150mm HE Grenades)
 Type = MachineGun1
 ModelBullet = b2
-Power = 100
-Acceleration = 4
-AccelerationInWater = 4.0
+Power = 150
+Acceleration = 200
+AccelerationInWater = 80.0
 Explosion = 8
 ExplosionBlock = 7
 ExplosionInWater = 5
@@ -15,10 +15,10 @@ SoundPitch = 0.8
 SoundVolume = 40
 Sound = gun_h6_snd
 Gravity = -0.01
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
+DamageFactor = helicopter, 1.0
+DamageFactor = plane,      1.0
+DamageFactor = vehicle,    1.0
+DamageFactor = tank,       1.0
 Recoil = 0.05
 
 ; AddMuzzleFlash = distance, size, life time,  A,  R,  G,  B

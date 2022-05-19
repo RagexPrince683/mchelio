@@ -2,7 +2,7 @@
 
 Type = Rocket
 
-Power = 100
+Power = 250
 
 ModelBullet = 8cm raket
 
@@ -27,8 +27,3 @@ Accuracy = 1
 MaxAmmo = 50
 
 ReloadTime = 80
-
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0

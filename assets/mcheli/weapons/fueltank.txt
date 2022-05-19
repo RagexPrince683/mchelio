@@ -1,4 +1,4 @@
-DisplayName = Fuel Tank
+DisplayName = fueltank
 Type = Bomb
 Power = 50
 Acceleration = 0.1

@@ -1,6 +1,6 @@
 DisplayName = 95mm CS HEAT
 Type = MachineGun2
-Power = 110
+Power = 140
 ModelBullet = bullet76mm
 Acceleration = 6.0
 Explosion = 0
@@ -13,13 +13,6 @@ SoundPitch = 0.5
 SoundVolume = 20
 Sound = cannon_3_snd
 Gravity = -0.01
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
-
-group = maingun
-
 
 MaxAmmo = 85
 SuppliedNum = 20

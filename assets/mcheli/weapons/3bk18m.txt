@@ -15,11 +15,6 @@ Gravity = -0.0048
 DisplayMortarDistance = true
 group = maingun
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
-
 MaxAmmo = 10
 SuppliedNum = 10
 Item =  3, iron_ingot

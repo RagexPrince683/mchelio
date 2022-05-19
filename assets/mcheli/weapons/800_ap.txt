@@ -1,9 +1,9 @@
 DisplayName = 80cm Shell [AP]
 Type = MachineGun2
 ModelBullet = 800mm
-Power = 1000
-Acceleration = 4
-AccelerationInWater = 4.0
+Power = 1200
+Acceleration = 150
+AccelerationInWater = 40.0
 Explosion = 8
 ExplosionBlock = 0
 ExplosionInWater = 0
@@ -15,15 +15,13 @@ SoundPitch = 0.001
 SoundVolume = 500
 Sound = gun_h7_snd
 Gravity = -0.02
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
+DamageFactor = helicopter, 2.0
+DamageFactor = plane,      2.0
+DamageFactor = vehicle,    2.0
+DamageFactor = tank,       2.0
 Recoil = 0.4
 SetCartridge = 800mmcartridge, 0.8,  90, 15, 1.0, -0.05, 0.5
 Group = MainGun
-
-
 
 ; AddMuzzleFlash = distance, size, life time,   A,  R,  G,  B
 AddMuzzleFlash   =     33.0, 5.10,        27, 220,254,159, 74

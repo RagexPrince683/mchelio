@@ -1,17 +1,12 @@
 DisplayName = 50kg bomb
 Type = Bomb
-Power = 1000
+Power = 10
 Acceleration = 0.1
 Explosion = 2
 ExplosionInWater = 0
 Flaming = false
 Sight = None
 Delay = 5
-
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
 
 ReloadTime = 25
 Round = 2

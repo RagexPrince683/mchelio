@@ -16,11 +16,6 @@ Particle = largeexplode
 Gravity = -0.01
 group = maingun
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
-
 MaxAmmo = 40
 SuppliedNum = 1
 Item =  1, iron_ingot

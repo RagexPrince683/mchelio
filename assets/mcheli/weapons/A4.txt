@@ -13,11 +13,6 @@ ModelBullet = A4
 Gravity = -0.001
 DisableSmoke = false
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
-
 Bomblet = 15
 BombletDiff = 0.75
 ExplosionAltitude = 5

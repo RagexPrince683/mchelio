@@ -1,4 +1,4 @@
-DisplayName = KD-88
+DisplayName = KD-88Ô¶³Ì¿ÕµØµ¼µ¯
 Type = ASMissile
 Power = 1000
 Acceleration = 3.2

@@ -15,8 +15,6 @@ GravityInWater = 0
 ReloadTime = 600
 Round = 4
 
-
-
 MaxAmmo = 18
 SuppliedNum = 1 
 Item =  1, iron_ingot

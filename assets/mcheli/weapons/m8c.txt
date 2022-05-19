@@ -1,6 +1,6 @@
 DisplayName = M8C .50 Spotting rifle
 Type = MachineGun2
-Power = 27
+Power = 9
 Acceleration = 10.0
 Flaming = false
 Sight = MoveSight
@@ -12,8 +12,6 @@ Accuracy = 2.0
 HeatCount = 150
 MaxHeatCount = 150
 SetCartridge = cartridge, 0.3,  90, -20, 3.00, -0.04, 0.40
-
-
 
 MaxAmmo = 1
 SuppliedNum = 1

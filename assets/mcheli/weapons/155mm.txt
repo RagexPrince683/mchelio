@@ -15,11 +15,6 @@ SoundVolume = 20
 Sound = cannon_1_snd
 Recoil = 2.0
 
-DamageFactor = tank, 1.8
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
-
 RecoilBufCount = 25, 5
 
 

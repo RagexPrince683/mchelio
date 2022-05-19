@@ -13,11 +13,6 @@ MaxHeatCount = 150
 SoundVolume = 0.6
 SetCartridge = cartridge, 0.4,  0, 0, 5.00, -0.04, 0.40
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
-
 MaxAmmo = 200
 SuppliedNum = 50
 Item =  3, iron_ingot

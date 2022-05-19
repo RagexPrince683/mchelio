@@ -13,11 +13,6 @@ MaxHeatCount = 100
 Sound = gun_l4_snd
 Accuracy = 2.0
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
-
 MaxAmmo = 800
 SuppliedNum = 200
 Item =  2, iron_ingot

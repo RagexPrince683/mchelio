@@ -15,10 +15,6 @@ MaxHeatCount = 50
 Sound = gun_l4_snd
 SoundVolume = 3
 Round = 560
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
 
 ;AddMuzzleFlash      = 2.1,     0.85,        1,  150,254,219,154
 ;AddMuzzleFlash      = 2.0,     0.80,        1,  150,254,219,184

@@ -1,7 +1,7 @@
-DisplayName = 76mm M1[AP]
+DisplayName = 76mm M1戦車砲[AP]
 Type = MachineGun1
-Power = 91
-Acceleration = 4.0
+Power = 130
+Acceleration = 7.5
 Explosion = 0
 ExplosionBlock = 0
 Sight = None
@@ -14,11 +14,6 @@ Gravity = -0.01
 Particle = largeexplode
 Sound = ww2tankshot_snd
 BulletColor        = 255, 255, 100, 100
-
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
 
 ; AddMuzzleFlash = 発射元からの距離, サイズ, 表示時間,  A,  R,  G,  B
 AddMuzzleFlash      =           8.2,   2.10,        7,  220,254,159,74

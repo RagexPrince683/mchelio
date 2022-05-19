@@ -1,2 +1,2 @@
-DisplayName = Down
+DisplayName = カナード下げ
 Type = Dummy

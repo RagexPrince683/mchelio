@@ -1,6 +1,6 @@
 DisplayName = C-704
 Type = ATMissile
-Power = 1000
+Power = 410
 Acceleration = 5.2
 Explosion = 18
 ExplosionBlock = 15
@@ -12,11 +12,6 @@ Sound = missile_1_snd
 Delay = 15
 LockTime = 15
 ModelBullet = agm84
-
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
 
 
 Round = 2

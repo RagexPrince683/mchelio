@@ -15,11 +15,6 @@ MaxHeatCount = 100
 Sound = mk108_snd
 SoundPitch = 2.0
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
-
 MaxAmmo = 200
 SuppliedNum = 50
 Item =  3, iron_ingot

@@ -1,6 +1,6 @@
-DisplayName =3BM42
+DisplayName =3BM44
 Type = MachineGun2
-Power = 457
+Power = 250
 ModelBullet = 3bm42
 Acceleration = 8.0
 Explosion = 1

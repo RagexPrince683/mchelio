@@ -14,13 +14,9 @@ Bomblet = 30
 BombletDiff = 2.0
 DisableSmoke = true
 Sound = rocket_snd
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
+DamageFactor = helicopter, 4.0
+DamageFactor = plane,      4.0
 RecoilBufCount = 40, 5
-
-
 
 
 SetCartridge = 800mmcartridge, 0.8,  90, 15, 0.11, -0.05, 0.5

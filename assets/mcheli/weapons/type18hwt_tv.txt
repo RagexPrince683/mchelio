@@ -1,4 +1,4 @@
-DisplayName = G-RX6 imposter (HWT)
+DisplayName = G-RX6 18Ž®‹›—‹ (HWT)
 Type = TVMissile
 Power = 533
 ModelBullet = hwt

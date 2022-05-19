@@ -1,9 +1,9 @@
 DisplayName = 88mm HE Shell
 Type = MachineGun1
 ModelBullet = 88mm
-Power = 100
-Acceleration = 4
-AccelerationInWater = 4.0
+Power = 80
+Acceleration = 150
+AccelerationInWater = 9.0
 Explosion = 2
 ExplosionBlock = 2
 ExplosionInWater = 1
@@ -15,10 +15,10 @@ SoundPitch = 1.0
 SoundVolume = 10
 Sound = ww2tankshot_snd
 Gravity = -0.05
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
+DamageFactor = helicopter, 1.0
+DamageFactor = plane,      1.0
+DamageFactor = vehicle,    1.0
+DamageFactor = tank,       1.0
 Recoil = 0.02
 Group = MainGun
 

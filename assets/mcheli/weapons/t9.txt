@@ -14,11 +14,6 @@ HeatCount = 8
 MaxHeatCount = 100
 Gravity = -0.04
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
-
 MaxAmmo = 100
 SuppliedNum = 20
 Item =  3, iron_ingot

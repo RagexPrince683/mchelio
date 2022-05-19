@@ -11,7 +11,7 @@ Delay = 5000
 Destruct = true
 DamageFactor = tank, 10.0
 DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
+DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
 MaxAmmo = 1

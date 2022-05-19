@@ -1,7 +1,7 @@
 DisplayName = S-8
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
+DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 Type = Rocket
 Power = 400

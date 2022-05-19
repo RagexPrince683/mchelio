@@ -1,7 +1,7 @@
 DisplayName = Zuni FFAR
 Type = Rocket
 Power = 300
-Acceleration = 4
+Acceleration = 4.0
 Explosion = 5
 Flaming = true
 Sight = MoveSight
@@ -11,7 +11,7 @@ Sound = missile_2_snd
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
+DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
 MaxAmmo = 16

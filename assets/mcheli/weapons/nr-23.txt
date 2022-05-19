@@ -11,11 +11,6 @@ MaxHeatCount = 150
 ReloadTime = 25
 Sound = gun_h2_snd
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
-
 MaxAmmo = 300
 SuppliedNum = 150
 Item =  3, iron_ingot

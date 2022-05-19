@@ -16,7 +16,7 @@ BulletColor        = 255, 255, 100, 100
 Recoil = 1.8
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
+DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
 ; AddMuzzleFlash = 発射元からの距離, サイズ, 表示時間,  A,  R,  G,  B

@@ -1,7 +1,7 @@
 DisplayName = 75mm Shell [HE]
 Type = MachineGun1
 ModelBullet = 75mm
-Power = 100
+Power = 75
 Acceleration = 450
 AccelerationInWater = 90.0
 Explosion = 3
@@ -15,10 +15,10 @@ SoundPitch = 0.8
 SoundVolume = 10
 Sound = cannon_2_snd
 Gravity = -0.05
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
+DamageFactor = helicopter, 1.0
+DamageFactor = plane,      1.0
+DamageFactor = vehicle,    1.0
+DamageFactor = tank,       1.0
 Recoil = 0.45
 
 

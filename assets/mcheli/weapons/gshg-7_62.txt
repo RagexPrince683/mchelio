@@ -16,8 +16,6 @@ Sound = gun_l2_snd
 HeatCount = 1
 MaxHeatCount = 150
 
-
-
 AddMuzzleFlash      =  0.6,      0.22,        2,  170,254,159,84
 AddMuzzleFlash      =  0.5,      0.20,        1,  150,254,219,184
 AddMuzzleFlashSmoke =  2.2,  1,   5.0,  2.0, 15,  180,250,245,240

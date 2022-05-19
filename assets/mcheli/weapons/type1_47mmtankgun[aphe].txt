@@ -1,6 +1,6 @@
 DisplayName = Type1_47mmTankGun [APHE]
 Type = MachineGun2
-Power = 87
+Power = 50
 Acceleration = 6.0
 ModelBullet = bullet76mm
 Explosion = 1
@@ -18,10 +18,8 @@ Gravity = -0.01
 GravityInWater = -1.0
 Particle = flame
 RecoilBufCount = 20, 5
-DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
+DamageFactor = helicopter, 3.0
 Recoil = 1.5
 
 AddMuzzleFlash      =           2.0,   2.25,        2,  220,254,159,74

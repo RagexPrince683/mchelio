@@ -1,6 +1,6 @@
 DisplayName = RS-82
 Type = Rocket
-Power = 100
+Power = 25
 Acceleration = 4.0
 Explosion = 2
 Flaming = false
@@ -12,11 +12,6 @@ ModeNum = 1
 Bomblet = 15
 BombletDiff = 3.0
 Gravity = -0.03
-
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
 
 MaxAmmo = 18
 SuppliedNum = 3

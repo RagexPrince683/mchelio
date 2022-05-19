@@ -1,9 +1,9 @@
 DisplayName = 38cm Main Gun
 Type = MachineGun1
 ModelBullet = b1
-Power = 1000
-Acceleration = 4
-AccelerationInWater = 4.0
+Power = 380
+Acceleration = 380
+AccelerationInWater = 120.0
 Explosion = 30
 ExplosionBlock = 19
 ExplosionInWater = 15
@@ -15,10 +15,10 @@ SoundPitch = 0.05
 SoundVolume = 200
 Sound = gun_h2_snd
 Gravity = -0.01
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
+DamageFactor = helicopter, 1.0
+DamageFactor = plane,      1.0
+DamageFactor = vehicle,    1.0
+DamageFactor = tank,       1.0
 Recoil = 0.2
 
 

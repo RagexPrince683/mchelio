@@ -1,6 +1,6 @@
-DisplayName = 100MM GUN [APFSDS]
+DisplayName = 社会主义 100MM GUN [APFSDS]
 Type = MachineGun1
-Power = 239
+Power = 120
 ModelBullet = bullet105mm
 Acceleration = 8.2
 Explosion = 2
@@ -16,11 +16,6 @@ Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Group = MainGun
 Recoil = 2.5
-
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
 
 AddMuzzleFlash      =  9.3,      2.10,        7,  220,254,159,74
 AddMuzzleFlash      =  9.2,      2.05,        6,  220,254,219,104

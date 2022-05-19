@@ -9,11 +9,6 @@ Delay = 1
 HeatCount = 10
 MaxHeatCount = 100
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
-
 MaxAmmo = 200
 SuppliedNum = 100
 Item =  2, iron_ingot

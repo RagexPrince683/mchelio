@@ -1,4 +1,4 @@
-DisplayName = GAU-12 PZL
+DisplayName = GAU-12 イコライザー
 Type = MachineGun1
 Power = 20
 Acceleration = 8.0
@@ -13,12 +13,7 @@ SoundPitch = 0.5
 Sound = gun_l2_snd
 Accuracy = 1.0
 
-
-
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
+DamageFactor = tank, 0.7
 
 MaxAmmo = 560
 SuppliedNum = 560

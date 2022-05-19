@@ -1,4 +1,4 @@
-DisplayName = mental retardation
+DisplayName = ‹ãˆê®“Ob’e
 Type = MachineGun1
 ModelBullet = 91ap
 Power = 60

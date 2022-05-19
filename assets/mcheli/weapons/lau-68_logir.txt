@@ -13,7 +13,7 @@ RidableOnly = true
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
+DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
 MaxAmmo = 12

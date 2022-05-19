@@ -1,6 +1,6 @@
 DisplayName = 2A46 Smoothbore Gun[HE]
 Type = MachineGun1
-Power = 47
+Power = 10
 Explosion = 4
 ExplosionBlock = 4
 Acceleration = 6.5
@@ -13,11 +13,6 @@ Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 group = maingun
-
-DamageFactor = tank, 2.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle, 2.0
-DamageFactor = heli, 3.0
 
 AddMuzzleFlash      =  10.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  10.1,      1.75,        6,  200,254,219,104
