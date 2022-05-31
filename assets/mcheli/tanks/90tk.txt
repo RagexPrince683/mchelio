@@ -48,14 +48,14 @@ HUD = mbt_hud, gunner
 AddTexture = 90tk
 AddTexture = 90tk_1
 
-AddGunnerSeat =  0.00,  3.50, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
+AddGunnerSeat =  0.00,  1.50, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
 AddGunnerSeat =  1.00,  2.20, 0.12,  1.00,  3.50,  0.12,  false, -90, 90, true
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.9
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 12
+
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
@@ -105,10 +105,22 @@ AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
 RideRack = c5, 1
 RideRack = c5, 2
 
-BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
-BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
-BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
-BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
-BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
-BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
-BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+ArmorMinDamage = 20
+;hull front
+BoundingBox = 0.0, 0.9, 1.65, 2.6, 1.0, 0.04
+BoundingBox = 0.0, 0.8, 2.5, 2.6, 1.0, 0.04
+BoundingBox = 0.0, 0.7, 3.35, 2.6, 0.6, 0.04
+;mid 35
+BoundingBox = 0.0, 1.0, 0.0, 2.8, 1.0, 0.57
+;wip
+
+
+
+
+;BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+;BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+;BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+;BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+;BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+;BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+;BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
