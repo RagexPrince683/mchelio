@@ -51,12 +51,12 @@ SetWheelPos =  1.75,  -0.24,  4.85, 3.02, 1.44, -1.54, -2.91
 HUD = mbt_hud, gunner
 
 AddGunnerSeat = 0.00,  2.50,  0.25,   2.00,  3.50,  0.25, false, -90, 90, true
-AddGunnerSeat = 0.00,  1.00, -1.25,  -0.55,  3.80, -1.16, false, -90, 90, true
+AddGunnerSeat = 0.00,  1.00, -1.25,  -0.40,  3.60, -0.90, false, -90, 90, true
 
 MotionFactor = 0.9
 
 
-ArmorMinDamage = 42
+
 
 ;ArmorMaxDamage = 500
 
@@ -115,12 +115,42 @@ RideRack = c5, 1
 RideRack = c5, 2
 
 
-BoundingBox =  0.0, 1.0,  4.0,  2.1, 2.0, 0.75
-BoundingBox = -0.8, 1.6,  2.5,  2.1, 4.0, 0.75
-BoundingBox =  0.8, 1.6,  2.5,  2.1, 4.0, 0.75
+;BoundingBox =  0.0, 1.0,  4.0,  2.1, 2.0, 0.75
+;BoundingBox = -0.8, 1.6,  2.5,  2.1, 4.0, 0.75
+;BoundingBox =  0.8, 1.6,  2.5,  2.1, 4.0, 0.75
 
-BoundingBox =  0.0, 1.3, -0.5,  4.0, 3.2, 1.00
-BoundingBox =  0.8, 1.3, -3.5,  2.0, 2.0, 1.20
-BoundingBox = -0.8, 1.3, -3.5,  2.0, 2.0, 1.20
+;BoundingBox =  0.0, 1.3, -0.5,  4.0, 3.2, 1.00
+;BoundingBox =  0.8, 1.3, -3.5,  2.0, 2.0, 1.20
+;BoundingBox = -0.8, 1.3, -3.5,  2.0, 2.0, 1.20
 
-BoundingBox =  0.0, 3.0,  0.0,  2.0, 1.0, 1.20
+;BoundingBox =  0.0, 3.0,  0.0,  2.0, 1.0, 1.20
+
+ArmorMinDamage = 20
+;mid section 35mm
+BoundingBox = 0.0, 1.15, 0.0, 3.11, 1.6, 0.57
+;520mm front
+BoundingBox = 0.0, 1.25, 0.3, 3.10, 1.4, 0.03
+BoundingBox = 0.0, 1.10, 0.5, 3.10, 1.359, 0.03
+BoundingBox = 0.0, 1.20, 0.7, 3.10, 1.299, 0.03
+BoundingBox = 0.0, 1.18, 0.9, 3.10, 1.189, 0.03
+BoundingBox = 0.0, 1.17, 1.1, 3.10, 1.079, 0.03
+BoundingBox = 0.0, 1.16, 1.3, 3.10, 0.969, 0.03
+BoundingBox = 0.0, 1.15, 1.5, 3.10, 0.859, 0.03
+BoundingBox = 0.0, 1.14, 1.7, 3.10, 1.049, 0.03
+BoundingBox = 0.0, 1.13, 1.9, 3.10, 0.969, 0.03
+BoundingBox = 0.0, 1.12, 2.1, 3.10, 0.859, 0.03
+BoundingBox = 0.0, 1.11, 2.3, 3.10, 1.079, 0.03
+BoundingBox = 0.0, 1.10, 2.5, 3.10, 0.969, 0.03
+BoundingBox = 0.0, 1.09, 2.9, 2.90, 0.859, 0.03
+
+;turret 1185mm
+BoundingBox = 0.0, 2.45, 0.0, 3.0, 1.0, 0.016
+
+;engine side 20mm
+BoundingBox = 0.0, 1.15, -3.1, 3.11, 1.6, 1.00
+
+;engine back 20mm lol
+BoundingBox = 0.0, 1.15, -4.5, 3.11, 1.6, 1.00
+
+
+UnmountPosition = 0.00,  1.50,  0.25

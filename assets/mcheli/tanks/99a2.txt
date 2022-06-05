@@ -1,5 +1,5 @@
-﻿DisplayName = ZTZ-99A
-AddDisplayName = en_US, ZTZ-99A
+﻿DisplayName = ZTZ-99A Stage 2
+AddDisplayName = en_US, ZTZ-99A Stage 2
 AddDisplayName = ja_JP, ZTZ 99A
 ItemID = 8897
 MaxHp = 700
@@ -26,9 +26,12 @@ OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 1.0
 FlareType = 10
 EnableGunnerMode = true
-SubmergedDamageHeight = 4
-EnableEntityRadar = true
+SubmergedDamageHeight = 3
+EnableEntityRadar = false
 HideEntity = true
+
+
+;fix this stupid shit's zoom level
 
 AddTexture = 99a2_1
 ;AddTexture = 99a2_2
@@ -45,7 +48,7 @@ SetWheelPos =  2.20,  -0.32,  4.4572, 3.2213, 1.5132,-0.1437,-1.8455,-3.1451
 HUD = mbt_hud,mbt_gnr, mbt_gnr
 
 
-AddGunnerSeat =  0.00,  2.00,  0.00, true
+AddGunnerSeat =  0.00,  2.00,  0.00,         0.00,  2.00,  0.00, false, -50, 7, true
 AddGunnerSeat = -1.038,  2.7814, -0.7645,   -1.0216,  4.10, -0.3992, false, -90, 90, true
 AddGunnerSeat =  0.9856,  2.7814,  0.0088,    0.9846,  4.25,  0.8800,  false, -90, 90, true
 
@@ -54,7 +57,7 @@ AddGunnerSeat =  0.9856,  2.7814,  0.0088,    0.9846,  4.25,  0.8800,  false, -9
 MotionFactor = 0.9
 
 
-ArmorMinDamage = 10
+
 ;ArmorMaxDamage = 350
 ArmorDamageFactor = 1.00
 
@@ -97,21 +100,41 @@ AddTrackRoller =  -2.57,  0.7146, -4.5362
 AddPartWeapon = 125AP / 125HE, false, true, false,  0.00, 2.4866, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.4866, 2.2667, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.4866, 2.2667, 0.5
-AddTurretWeapon = 125AP, 0.00, 2.4866, 2.2667,  0.0, 0.0, true,1, 0,-360,360, -50, 7
-AddTurretWeapon = 125HE, 0.00, 2.4866, 2.2667,  0.0, 0.0, true,1, 0,-360,360, -50, 7
+AddTurretWeapon = 125AP, 0.00, 2.4866, 0.0,  0.0, 0.0, true,1, 0,-360,360, -50, 7
+AddTurretWeapon = 125HE, 0.00, 2.4866, 0.0,  0.0, 0.0, true,1, 0,-360,360, -50, 7
+AddTurretWeapon = mg7_62mm, -0.5, 2.4866, 0.0, 0.0, 0.0, true,1, 0,-360,360, -5, 7
 
 
 AddPartTurretWeapon    = 12_7mmgun,   false, true, true,  -1.038, 3.574, 0.20
 AddTurretWeapon = 12_7mmgun,   -1.038, 3.7867,  0.20,   0.0, 0.0, false, 2, 0, -360,360, -70,30
 
 
-BoundingBox =  0.00, 0.7259,  0.272,  5.020, 2.668,  0.60
-BoundingBox =  0.00, 2.46,  0.10,  5.40, 1.52,  0.70
-BoundingBox =   1.25, 0.65,  4.00,  2.58, 2.21,  0.80
-BoundingBox =  -1.25, 0.65,  4.00,  2.58, 2.21,  0.80
-BoundingBox =   1.25, 0.95,  -3.58,  2.60, 2.51,  0.90
-BoundingBox =  -1.25, 0.95,  -3.58,  2.60, 2.51,  0.90
+;BoundingBox =  0.00, 0.7259,  0.272,  5.020, 2.668,  0.60
+;BoundingBox =  0.00, 2.46,  0.10,  5.40, 1.52,  0.70
+;BoundingBox =   1.25, 0.65,  4.00,  2.58, 2.21,  0.80
+;BoundingBox =  -1.25, 0.65,  4.00,  2.58, 2.21,  0.80
+;BoundingBox =   1.25, 0.95,  -3.58,  2.60, 2.51,  0.90
+;BoundingBox =  -1.25, 0.95,  -3.58,  2.60, 2.51,  0.90
 
+ArmorMinDamage = 20
+
+;side
+BoundingBox = 0.0, 1.1, 0.0, 3.5, 1.6, 0.4
+BoundingBox = 0.0, 1.0, 2.0, 3.6, 1.5, 0.4
+;top front 30mm
+BoundingBox = 0.0, 1.1, 2.8, 1.5, 1.6, 0.66
+;front armor
+BoundingBox = 0.0, 0.9, 3.0, 3.5, 1.3, 0.07
+BoundingBox = 0.0, 0.9, 3.6, 3.5, 1.0, 0.07
+;engine side
+BoundingBox = 0.0, 1.1, -3.2, 3.6, 1.3, 0.4
+;engine back
+BoundingBox = 0.0, 1.1, -3.3, 3.5, 1.3, 0.44
+;turret
+BoundingBox = 0.0, 2.6, 0.0, 3.0, 1.4, 0.023
+
+
+UnmountPosition = 0.00,  2.00,  0.00
 
 
 

@@ -3,11 +3,11 @@ AddDisplayName = en_US, AAV7A1 Amtrak
 AddDisplayName = ja_JP, AAV7A1 アムトラック
 MaxHp = 100
 Speed = 0.6
-Sound = tankrun_de
+Sound = tank
 ThrottleUpDown = 10.0
 MobilityRoll = 0
 Gravity = -0.61
-GravityInWater = -1.0
+GravityInWater = 0.1
 DamageFactor = 0.5
 EnableNightVision = true
 CameraRotationSpeed = 30
@@ -43,7 +43,7 @@ WeightType = Tank
 ; X座標のマイナス側は必要なし
 SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
 
-AddSeat =  0.00,  3.00,  0.63
+AddSeat =  0.00,  1.00,  0.63
 AddSeat = -0.81, 0.92, -0.37
 AddSeat =  0.81, 0.92, -0.37
 AddSeat = -0.81, 0.92, -1.27
@@ -85,6 +85,18 @@ ArmorMinDamage = 9
 ArmorDamageFactor = 1.00
 
 
-BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
-BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
-BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25
+BoundingBox = 0.0, 1.3, -2.3, 3.0, 2.5, 1.0
+BoundingBox = 0.0, 1.3, 0.0, 3.0, 2.5, 1.0
+BoundingBox = 0.0, 1.3, 2.0, 3.0, 2.5, 1.0
+BoundingBox = 0.0, 1.5, 3.6, 2.2, 1.3, 1.0
+
+
+
+
+;BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
+;BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
+;BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25
+
+UnmountPosition = 0.00,  1.50,  0.63
+
+
