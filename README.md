@@ -1,12 +1,28 @@
 How to install:
 Step 0: have minecraft
+
+
 Step 1: ensure you have minecraft forge https://files.minecraftforge.net/ 
+
+
 Step 2: click the green code drop down menu on the front page
+
+
 Step 3: click download as zip
+
+
 Step 4: extract
+
+
 Step 5: rename the folder mchelio to mcheli
+
+
 Step 6: put the folder mcheli into the mods folder in your minecraft directory
+
+
 Step 7: Launch minecraft
+
+
 
 
 If you already know how to install mcheli please read:
