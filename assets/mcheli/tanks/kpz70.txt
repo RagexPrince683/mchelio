@@ -45,14 +45,14 @@ SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
 
 HUD = mbt_hud, mbt_gnr
 
-AddGunnerSeat =  0.00,  2.60,  0.90,    0.00,  2.60,  0.90,  false, -90, 90, true
+AddGunnerSeat =  0.00,  1.60,  0.90,    0.00,  2.60,  0.90,  false, -90, 90, true
 AddGunnerSeat =  0.00, 0.80, 0.00,    1.40,  3.80,  -0.80,  false, -90, 90, true
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.9
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 37
+
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
@@ -111,10 +111,27 @@ AddTurretWeapon    = kpz70_20mm, 1.40, 3.10, -0.80,  0.0, 0.0, false,  2, 0, -36
 RideRack = c5, 1
 RideRack = c5, 2
 
-BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
-BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
-BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
-BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
-BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
-BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
-BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+;BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+;BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+;BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+;BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+;BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+;BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+;BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+
+ArmorMinDamage = 25
+;side armor 35mm
+BoundingBox = 0.0, 1.0, 0.0, 3.0, 1.0, 0.71
+;front plate hull 312mm
+BoundingBox = 0.0, 1.0, 2.5, 3.0, 1.0, 0.08
+;turret 520mm
+BoundingBox = 0.0, 2.0, 0.0, 3.3, 1.0, 0.04
+;engine side 35mm
+BoundingBox = 0.0, 1.0, -3.0, 2.99, 1.0, 0.71
+BoundingBox = 0.0, 1.0, -3.8, 3.0, 1.0, 0.71
+;engine back 40mm
+BoundingBox = 0.0, 1.0, -4.15, 2.95, 1.0, 0.62
+
+
+
+UnmountPosition = 0.00,  1.60,  0.90

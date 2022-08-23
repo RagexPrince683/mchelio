@@ -47,7 +47,7 @@ HUD = mbt_hud, gunner
 
 
 
-AddGunnerSeat =  0.00,  3.50, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
+AddGunnerSeat =  0.00,  1.00, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
 AddGunnerSeat =  0.83,  1.7, -1.31,  0.83,  3.33, -1.31,  false, -90, 90, true
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
@@ -111,10 +111,24 @@ AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
 RideRack = c5, 1
 RideRack = c5, 2
 
-BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
-BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
-BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
-BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
-BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
-BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
-BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+;BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+;BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+;BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+;BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+;BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+;BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+;BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+
+;side armor 70mm
+BoundingBox = 0.0, 1.0, 0.0, 3.0, 1.0, 0.28
+;front plate 330mm
+BoundingBox = 0.0, 1.0, 2.8, 3.0, 1.0, 0.06
+;turret 670mm
+BoundingBox = 0.0, 2.00, 0.0, 3.6, 1.05, 0.02
+;side plate
+BoundingBox = 0.0, 1.1, -4.4, 3.0, 1.3, 0.52
+BoundingBox = 0.0, 1.1, -3.0, 3.0, 1.3, 0.52
+;rear plate
+BoundingBox = 0.0, 1.1, -4.45, 2.99, 1.3, 1
+
+UnmountPosition = 0.00,  1.50, 1.55

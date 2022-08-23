@@ -2,7 +2,7 @@ DisplayName = challenger1 MBT
 AddDisplayName = en_US, Challenger 1 MBT
 AddDisplayName = ja_JP, チャレンジャー1
 ItemID = 30100
-MaxHp = 250
+MaxHp = 500
 Speed = 0.5
 Sound = mbt_run
 ThrottleUpDown = 10.0
@@ -47,14 +47,14 @@ HUD = mbt_hud, gunner
 
 
 
-AddGunnerSeat =  0.00,  3.50, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
+AddGunnerSeat =  0.00,  1.00, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
 AddGunnerSeat =  -0.78,  1.14, -0.74,   -0.78,  3.5, -0.74,  false, -90, 90, true
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.9
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 12
+ArmorMinDamage = 20
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
@@ -111,10 +111,30 @@ AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
 RideRack = c5, 1
 RideRack = c5, 2
 
-BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
-BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
-BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
-BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
-BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
-BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
-BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+;BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+;BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+;BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+;BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+;BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+;BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+;BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+
+
+
+
+
+
+
+;side armor 70mm
+BoundingBox = 0.0, 1.0, 0.0, 3.0, 1.0, 0.28
+;front plate 220mm+0.07/38
+BoundingBox = 0.0, 1.0, 2.8, 3.0, 1.0, 0.07
+;turret 500mm
+BoundingBox = 0.0, 2.00, 0.0, 3.6, 1.05, 0.04
+;side plate
+BoundingBox = 0.0, 1.1, -4.4, 3.0, 1.3, 0.28
+BoundingBox = 0.0, 1.1, -3.0, 3.0, 1.3, 0.28
+;rear plate
+BoundingBox = 0.0, 1.1, -4.45, 2.99, 1.3, 1
+
+UnmountPosition = 0.00,  1.50, 1.55

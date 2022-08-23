@@ -37,7 +37,7 @@ HUD = mbt_hud
 AddTexture = gepard_1
 AddTexture = gepard_2
 
-AddGunnerSeat =  0.00,  3.50, 0.00, 0.0, 3.50, 0.00, false, -85, 10, false
+AddGunnerSeat =  0.00,  2.50, 0.00, 0.0, 3.50, 0.00, false, -85, 10, false
 CameraPosition =  0.00,  5.00, -0.68, true
 MotionFactor = 0.9
 ;ArmorMinDamage 
@@ -78,8 +78,12 @@ AddTurretWeapon = KDA_HEI, -1.11, 2.71, -0.64,  0.0, 0.0, true,1, 0,-360,360, -8
 AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 1
 AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,1
 
-BoundingBox =  0.0, 1.0, -1.2,  4.0, 2.0
-BoundingBox =  0.0, 2.5, -0.5,  3.0, 1.0
-BoundingBox =  0.0, 1.0,  1.5,  4.0, 2.0
 
+BoundingBox = 0.0, 2.3, 0.0, 2.0, 1.7, 1.0
+BoundingBox = 0.0, 1.15, -3.3, 3.0, 0.7, 1.0
+BoundingBox = 0.0, 1.15, -3.0, 3.0, 1.3, 1.0
+BoundingBox = 0.0, 1.1, -2.0, 3.0, 1.2, 1.0
+BoundingBox = 0.0, 1.1, 0.0, 3.0, 1.2, 1.0
+BoundingBox = 0.0, 1.0, 1.5, 3.0, 0.8, 1.0
 
+UnmountPosition = 0.00,  1.50, 0.00
