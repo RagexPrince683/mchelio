@@ -1,0 +1,108 @@
+DisplayName = Dodge Challenger
+AddDisplayName = en_US, Dodge Challenger
+AddDisplayName = ja_JP, Dodge Challenger
+ItemID = 33406
+MaxHp = 120
+Speed = 2.66
+Sound = chal
+MobilityYawOnGround = 9.0
+ThrottleUpDown = 10.0
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll = 0
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor = 1.0
+
+EntityWidth  = 0.9
+EntityHeight = 0.9
+
+CameraPosition  = 0.383,  0.97, 0.00
+;CameraPosition  = 0.00,  2.50, -6.00
+
+
+HUD = s15_hud, none, none, none, none
+
+AddSeat =  0.383,  0.03, 0.00
+AddSeat =  -0.689,  0.13, 0.0 
+
+
+
+AddSeat = 0.4062, 0.26, -0.9312
+AddSeat = -0.1367, 0.26, -0.9312
+AddSeat = -0.6923, 0.26, -0.9312
+
+;後退可能にする
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+; Tank or Car or Unknown
+WeightType = Car
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.1
+
+; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
+AddPartWheel     = -1.2198,  0.1839, 1.8265, 15
+AddPartWheel     =  0.9042,  0.1839, 1.8265, 15
+AddPartWheel     = -1.2071,  0.1839, -1.8611
+AddPartWheel     =  0.8915,  0.1839, -1.8611
+
+AddPartSteeringWheel =  0.4128,  0.8113,  0.4347,  0, 0.3196, -1,   160
+
+;AddFixedSearchLight= 座標X, Y, Z,       開始地点の色, 終了地点の色,  距離, 終端の半径, Yaw, Pitch
+;ヘッドライト
+AddFixedSearchLight =  -0.885, 0.639, 2.765,   0x50FFFFFF,   0x00FFFFC0,    0.14, 0.20,  -5,  0
+AddFixedSearchLight = 0.568, 0.639, 2.765,   0x50FFFFFF,   0x00FFFFC0,    0.14, 0.20,  -5,  0
+
+AddFixedSearchLight =  -1.10, 0.639, 2.71,   0x50FFFFFF,   0x00FFFFC0,    0.14, 0.20,  -5,  0
+AddFixedSearchLight = 0.785, 0.639, 2.71,   0x50FFFFFF,   0x00FFFFC0,    0.14, 0.20,  -5,  0
+
+;テールランプ
+;L
+AddFixedSearchLight =  0.75, 0.835,-3.130,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  -0.0,  0
+AddFixedSearchLight =  0.675, 0.835,-3.130,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  -0.0,  0
+AddFixedSearchLight =  0.575, 0.835,-3.135,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  -0.0,  0
+AddFixedSearchLight =  0.475, 0.835,-3.14,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  -0.0,  0
+AddFixedSearchLight =  0.375, 0.835,-3.155,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  -0.0,  0
+AddFixedSearchLight =  0.275, 0.835,-3.16,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  -0.0,  0
+AddFixedSearchLight =  0.175, 0.835,-3.165,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  -0.0,  0
+;AddFixedSearchLight =  0.075, 0.835,-3.17,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  -0.0,  0
+;R
+AddFixedSearchLight = -0.48, 0.835,-3.165,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+AddFixedSearchLight = -0.58, 0.835,-3.16,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+AddFixedSearchLight = -0.68, 0.835,-3.155,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+AddFixedSearchLight = -0.78, 0.835,-3.14,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+AddFixedSearchLight = -0.88, 0.835,-3.135,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+AddFixedSearchLight = -0.98, 0.835,-3.135,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+AddFixedSearchLight = -1.08, 0.835,-3.130,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+;AddFixedSearchLight = -1.18, 0.835,-3.130,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+
+AddWeapon = smoke_none, 1.2,  -0.3,-1.7592,   1.0, 0.0
+AddWeapon = smoke_white, 1.2,  -0.3,-1.7592,   1.0, 0.0
+AddWeapon = smoke_white, -1.2, -0.3, -1.7592,   1.0, 0.0
+AddWeapon = l_Claxon, 0, -0.5, 0, 1.0, 0.0
+
+MaxFuel         = 600
+FuelConsumption = 0.6
+
+;BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
+;BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1
+
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+
+StepHeight = 1.2
+
+;engine?
+BoundingBox =  0.0, 0.50,  1.9,   2.0, 0.6
+;mid
+BoundingBox = 0.0, 0.20, 0.0, 2.5, 0.2
+;front
+BoundingBox = 0.0, 0.20, 1.7, 2.5, 0.2
+;rear
+BoundingBox = 0.0, 0.20, -1.6, 2.5, 0.2
+Regeneration = true
+ArmorDamageFactor = 2.32
+
+unmountposition = 0.383,  1.0, 0.00

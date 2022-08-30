@@ -2,7 +2,7 @@ DisplayName = Porsche Carrera GT
 AddDisplayName = en_US, Porsche Carrera GT
 MaxHp = 100
 Speed = 3.2
-Sound = bm
+Sound = inline_four
 MobilityYawOnGround = 8.0
 ThrottleUpDown = 10.0
 MinRotationPitch = 45
@@ -54,7 +54,40 @@ BoundingBox = 0.0, 0.20, 0.0, 2.9, 0.2
 BoundingBox = 0.0, 0.20, 2.0, 2.9, 0.2
 ;rear
 BoundingBox = 0.0, 0.20, -2.0, 2.9, 0.2
-Regeneration = true
+;Regeneration = false
 ArmorDamageFactor = 2.32
 
-StepHeight = 1.5
+;headlight
+AddFixedSearchLight = -1.2284, 0.7013, 2.9555,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.1,  -5,  0
+AddFixedSearchLight = -1.0196, 0.6148, 3.1051,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.1,  -5,  0
+AddFixedSearchLight = 1.2284, 0.7013, 2.9555,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.1,  -5,  0
+AddFixedSearchLight = 1.0196, 0.6148, 3.1051,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.1,  -5,  0
+
+
+
+
+;taillight
+AddFixedSearchLight = 0.9196, 0.8748, -3.3990,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  10.0,  40
+AddFixedSearchLight = -0.9196, 0.8748, -3.3990,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -10.0,  40
+AddFixedSearchLight = 1.0196, 0.8748, -3.3690,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  10.0,  40
+AddFixedSearchLight = -1.0196, 0.8748, -3.3690,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -10.0,  40
+AddFixedSearchLight = 1.1196, 0.8648, -3.3290,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  10.0,  40
+AddFixedSearchLight = -1.1196, 0.8648, -3.3290,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -10.0,  40
+AddFixedSearchLight = 1.2196, 0.8748, -3.2990,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  10.0,  40
+AddFixedSearchLight = -1.2196, 0.8748, -3.2990,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -10.0,  40
+
+
+AddFixedSearchLight = 0.9196, 0.9648, -3.3990,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  10.0,  40
+AddFixedSearchLight = -0.9196, 0.9648, -3.3990,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -10.0,  40
+AddFixedSearchLight = 1.0196, 0.9648, -3.3690,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  10.0,  40
+AddFixedSearchLight = -1.0196, 0.9648, -3.3690,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -10.0,  40
+AddFixedSearchLight = 1.1196, 0.9548, -3.3290,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  10.0,  40
+AddFixedSearchLight = -1.1196, 0.9548, -3.3290,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -10.0,  40
+AddFixedSearchLight = 1.2196, 0.9648, -3.2990,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  10.0,  40
+AddFixedSearchLight = -1.2196, 0.9648, -3.2990,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -10.0,  40
+
+AddFixedSearchLight = -1.3696, 0.9848, -3.2351,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -75.0,  40
+AddFixedSearchLight = 1.3696, 0.9848, -3.2351,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  75.0,  40
+
+StepHeight = 1.2
+UnmountPosition = 0.5838,  1.50, 0.2252
