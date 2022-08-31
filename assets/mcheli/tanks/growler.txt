@@ -4,8 +4,8 @@ AddDisplayName = ja_JP, グラウラーITV
 ItemID = 28766
 MaxHp = 100
 ThrottleUpDown = 10.0
-Speed = 0.6
-MobilityYawOnGround = 6.0
+Speed = 0.8
+MobilityYawOnGround = 7.5
 StepHeight = 1.5
 Sound = prop
 MinRotationPitch = -90
@@ -58,12 +58,15 @@ InventorySize = 9
 AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
 ;ヘッドライト
-AddFixedSearchLight =  0.52, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
-AddFixedSearchLight = -0.52, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+AddFixedSearchLight =  0.58, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,  -5,  0
+AddFixedSearchLight = -0.58, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,   5,  0
+
+AddFixedSearchLight =  0.36, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,  -5,  0
+AddFixedSearchLight = -0.36, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,   5,  0
 
 ;テールランプ
-AddFixedSearchLight =  0.36, 0.37,-1.58,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
-AddFixedSearchLight = -0.36, 0.37,-1.58,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+AddFixedSearchLight =  0.373, 0.37,-1.62,   0xFFFF0000,   0x10FF0000,    0.05, 0.20,  6.0,  0
+AddFixedSearchLight = -0.373, 0.37,-1.62,   0xFFFF0000,   0x10FF0000,    0.05, 0.20, -6.0,  0
 
 EntityWidth  = 0.9
 EntityHeight = 0.9
@@ -86,4 +89,4 @@ BoundingBox = 0.0, 0.20, -0.75, 1.65, 0.2
 Regeneration = true
 ArmorDamageFactor = 1.0
 
-unmountposition = 0.41, 1.30, -0.27
+unmountposition = 0.41, 0.55, -0.27
