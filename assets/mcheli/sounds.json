@@ -175,7 +175,6 @@
 "type99 6-2 mod1 dc_snd": {"category": "master","sounds": ["type99 6-2 mod1 dc_snd"]},
 "valkamm_snd": {"category": "master","sounds": ["valkamm_snd"]},
 "valkgu11_snd": {"category": "master","sounds": ["valkgu11_snd"]},
-"valklaser_snd": {"category": "master","sounds": ["valklaser_snd"]},
 "valkrms_snd": {"category": "master","sounds": ["valkrms_snd"]},
 "valkumm_snd": {"category": "master","sounds": ["valkumm_snd"]},
 "vehiclerun": {"category": "master","sounds": ["vehiclerun"]},

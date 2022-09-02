@@ -51,6 +51,9 @@ HUD = bnr32_hud, none
 AddSeat = -0.54,  0.12, -0.02
 AddSeat =  0.54,  0.22, -0.02
 
+AddSeat = -0.54,  0.22, -1.02
+AddSeat =  0.54,  0.22, -1.02
+
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.1
 
