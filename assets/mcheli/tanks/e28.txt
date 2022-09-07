@@ -7,7 +7,7 @@ ThrottleUpDown = 10.0
 Speed = 0.9
 MobilityYawOnGround = 5.0
 StepHeight = 1.2
-Sound = bmold
+Sound = inline_four
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 4
@@ -40,7 +40,7 @@ SetWheelPos =  1.05,  -0.24,  1.965, -1.789
 
 HUD = bnr32_hud, none
 
-AddPartSteeringWheel =   0.6983, 1.059, 0.9846,   0.0, -0.4, 1,  -100
+AddPartSteeringWheel =   0.6983, 1.1025, 0.8001,   0.0, -0.4, 1,  -100
 
 AddSeat =  0.7227,  0.3, 0.3
 AddSeat = -0.7227,  0.3, 0.3
