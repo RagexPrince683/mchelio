@@ -1,7 +1,7 @@
 DisplayName = KV-2 Gigant
 AddDisplayName = en_US, KV-2 Gigant
 AddDisplayName = ja_JP, KV-2 ギガント
-MaxHp = 75
+MaxHp = 100
 Speed = 0.45
 Sound = mbt_run
 MobilityYawOnGround = 2.0
@@ -38,7 +38,7 @@ AddGunnerSeat =  0.00,  1.05, -1.00,   0.0, 1.6, 2.8,  false, -90, 90
 ; Tank or Car or Unknown
 WeightType = Tank
 
-ArmorMinDamage = 10
+
 
 MotionFactor = 0.9
 
@@ -97,8 +97,25 @@ AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
 
 AddRecipe = " X ",  " X ",  "XXX",  X, iron_block,  I, iron_ingot
 
-BoundingBox =  0.00,  0.8,  1.5,  4.0, 2.0,  0.7
-BoundingBox =  0.00,  0.8, -1.0,  4.0, 2.0,  0.9
-BoundingBox =  0.00,  2.7,  0.0,  2.4, 2.6,  1.1
-BoundingBox =  0.00,  0.8, -3.0,  4.0, 2.0,  1.2
 
+ArmorMinDamage = 30
+
+;sideback 75
+BoundingBox = 0.0, 1.0, -3.45, 2.7, 1.7, 0.4
+BoundingBox = 0.0, 1.0, -2.70, 2.7, 1.7, 0.4
+;backback 65
+BoundingBox = 0.0, 1.0, -3.48, 2.69, 1.7, 0.46
+
+;center 75
+BoundingBox = 0.0, 1.0, 0.0, 2.7, 1.7, 0.4
+;lower plate 75
+BoundingBox = 0.0, 0.7, 2.3, 2.69, 1.1, 0.4
+;upper plate 89
+BoundingBox = 0.0, 1.0, 1.85, 1.0, 1.7, 0.33
+;upper 89
+BoundingBox = 0.8, 1.0, 1.85, 1.0, 1.7, 0.33
+;upper 89
+BoundingBox = -0.8, 1.0, 1.85, 1.0, 1.7, 0.33
+
+;turret 96
+BoundingBox = 0.0, 2.8, 0.0, 1.5, 1.9, 0.31
