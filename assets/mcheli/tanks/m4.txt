@@ -99,7 +99,7 @@ EnableBack = true
 MotionFactor = 0.9
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 9
+ArmorMinDamage = 19
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 400
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
@@ -108,6 +108,36 @@ ArmorDamageFactor = 1.0
 MaxFuel         = 1200
 FuelConsumption = 1.0
 
-BoundingBox =  0.0, 0.7, -1.2,  2.8, 2.0
-BoundingBox =  0.0, 2.0, 0.1,  2.0, 1.0
-BoundingBox =  0.0, 0.7,  1.5,  2.8, 2.0
+;rear/side 38.1
+
+BoundingBox =  0.0, 1.0, -1.5,  3.6, 2.0, 0.49
+BoundingBox =  0.0, 1.0, 0.0,  3.6, 2.0, 0.49
+
+;64mm plates on side that protect ammo but I can't add ammo because mcheli sucks
+
+BoundingBox =  1.4, 1.6, 1.23,  0.9, 0.7, 0.29
+BoundingBox =  -1.4, 1.6, 1.23,  0.9, 0.7, 0.29
+
+
+;turret 76mm
+BoundingBox =  0.0, 2.5, 0.0,  2.0, 1.0, 0.25
+
+;side flat on angled hull
+BoundingBox =  1.5, 1.3, 2.2,  0.8, 1.3, 0.49
+BoundingBox =  -1.5, 1.3, 2.2,  0.8, 1.3, 0.49
+
+;90mm
+
+BoundingBox =  0.0, 1.19,  1.8,  3.0, 2.0, 0.21
+
+BoundingBox =  1.3, 1.0,  2.4,  1.0, 2.0, 0.21
+BoundingBox =  -1.3, 1.0,  2.4,  1.0, 2.0, 0.21
+
+;angles 120mm 55deg
+
+BoundingBox = 0.7, 1.0, 2.0, 2.0, 2.0, 0.15
+BoundingBox = -0.7, 1.0, 2.0, 2.0, 2.0, 0.15
+
+;Calliope part
+
+;BoundingBox =  0.0, 4.5, 0.0,  2.8, 1.0, 1.00

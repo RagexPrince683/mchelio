@@ -11,7 +11,8 @@ DamageFactor = 0.6
 EnableNightVision = true
 EnableEntityRadar = true
 Sound = mbt_run
-HUD = mbt_hud, 
+;HUD = mbt_hud, 
+HUD = mbt_hud, none, none, none, none, none, none,
 WeightType = Tank
 DefaultFreelook = true
 CameraZoom = 3
@@ -30,8 +31,23 @@ OnGroundRollFactor  = 2.0
 MobilityYawOnGround = 2.0
 PivotTurnThrottle = 0.0
 
-AddSeat       =   0.00, 2.91,  -0.46, true
-CameraPosition =  0.00, 3.37,  0.10, false
+;AddGunnerSeat       =   0.00, 1.91,  -0.46, 0.00, 1.91,  -0.46, true, 90, -90, true
+;CameraPosition =  0.00, 3.37,  0.10, false
+
+;AddSeat       =   0.00, 2.91,  -0.46, true
+
+TurretPosition = 0.0, 1.0, 0.0
+
+AddGunnerSeat =  0.00,  2.00,  0.00,         0.00,  8.00,  0.00, true, -90, 90, true
+
+AddSeat       =   0.56, 0.85, -0.56
+AddSeat       =  -0.56, 0.85, -0.56
+AddSeat       =   0.56, 0.85, -1.60
+AddSeat       =  -0.56, 0.85, -1.60
+AddSeat       =   0.56, 0.85, -2.46
+AddSeat       =  -0.56, 0.85, -2.46
+
+CameraPosition =  0.00, 4.37,  -0.10, true
 
 
 StepHeight = 1.5
@@ -40,7 +56,7 @@ ParticlesScale = 0.1
 SmoothShading = true
 HideEntity = true
 
-ArmorMinDamage = 12
+
 
 MotionFactor = 0.92
 
@@ -63,16 +79,28 @@ AddCrawlerTrack = false, 0.14,  2.15,   1.07/ 2.64, 0.91/ 3.05, 0.59/ 3.11, 0.25
 MinRotationPitch = -80
 MaxRotationPitch = 7
 
-AddPartWeapon = m61a1_v, false, true, false, 0.00, 2.46, -0.18
-AddPartWeaponChild = false, true, 0.00, 3.04, -0.19, 0,0
-AddPartRotWeapon = m61a1_v, false, true, true,  0.00, 3.07,  -0.18, 0,0
+AddPartWeapon = m61a1_v, false, true, false, 0.00, 2.46, -0.0
+AddPartWeaponChild = false, true, 0.00, 3.04, -0.0, 0,0
+AddPartRotWeapon = m61a1_v, false, true, true,  0.00, 3.07,  -0.0, 0,0
 
-AddTurretWeapon = m61a1_v,   0.03, 3.07, 0.71, 0.0, 0.0, true,1 , 0, -360, 360, -80,7
+;AddTurretWeapon = m61a1_v,   0.03, 3.07, 0.71, 0.0, 0.0, true,1 , 0, -360, 360, -80,7
+
+AddTurretWeapon = m61a1_v, 0.00, 3.07, 0.71,  0.0, 0.0, true,1, 0,-360,360, -80, 7
 
 AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 1
 AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,1
 
-BoundingBox =  0.0, 0.8,  1.3,   3.0, 2.0,  0.8
-BoundingBox =  0.0, 0.8,  -1.7,   3.0, 2.0,  1.5
+
+ArmorMinDamage = 29
+
+BoundingBox = 0.0, 1.25, -1.8, 3.0, 2.6, 1.0
+
+BoundingBox = 0.0, 1.25, 0.0, 3.0, 2.6, 1.0
+
+BoundingBox = 0.0, 1.35, 0.8, 3.0, 2.3, 1.0
+BoundingBox = 0.0, 1.25, 1.0, 3.0, 2.2, 1.0
+BoundingBox = 0.0, 1.05, 1.2, 3.0, 2.0, 1.0
+BoundingBox = 0.0, 0.80, 1.4, 3.0, 1.8, 1.0
+BoundingBox = 0.0, 0.60, 1.75, 3.0, 1.4, 1.0
 
 AddRecipe = "IXI",  "IXI",  "XIX",  X,iron_block,  I,iron_ingot

@@ -2,7 +2,7 @@ DisplayName = M26
 AddDisplayName = ja_JP, M26 パーシング
 AddDisplayName = en_US, M26
 ItemID = 30997
-MaxHp = 101
+MaxHp = 162
 Speed = 0.6
 Sound = tank
 ThrottleUpDown = 6.0
@@ -43,7 +43,7 @@ AddGunnerSeat = 0.00,  0.00, 0.00
 MotionFactor = 0.9
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 10
+
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
@@ -85,13 +85,44 @@ AddPartWeaponChild = false, true, 0.00, 2.314, 1.908, 0.5
 AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
 
-BoundingBox =  1.15,  0.87,  2.25,  2.2,  2.0, 0.9
-BoundingBox = -1.15,  0.87,  2.25,  2.2,  2.0, 0.9
-BoundingBox =  0.00,  0.87, -1.45,  4.5,  2.0, 1.0
+;BoundingBox =  1.15,  0.87,  2.25,  2.2,  2.0, 0.9
+;BoundingBox = -1.15,  0.87,  2.25,  2.2,  2.0, 0.9
+;BoundingBox =  0.00,  0.87, -1.45,  4.5,  2.0, 1.0
 
-BoundingBox =  0.00,  2.36,  0.70,  2.2,  1.5, 1.0
+;BoundingBox =  0.00,  2.36,  0.70,  2.2,  1.5, 1.0
 
-BoundingBox =  0.00,  0.87, -2.04,  3.8,  1.7, 1.1
+;BoundingBox =  0.00,  0.87, -2.04,  3.8,  1.7, 1.1
+
+ArmorMinDamage = 22
+
+;turret 
+
+BoundingBox = 0.0, 2.2, 0.0, 2.2, 1.0, 0.13
+
+
+;back 
+BoundingBox = 0.0, 1.0, -2.51, 2.79, 1.0, 0.44
+
+; side
+BoundingBox = 0.0, 1.0, 0.0, 2.8, 1.4, 0.28
+BoundingBox = 0.0, 1.0, -2.0, 2.8, 1.4, 0.28
+BoundingBox = 0.0, 1.0, -2.5, 2.8, 1.0, 0.28
+;start front
+BoundingBox = 0.0, 1.0, 1.4, 2.79, 1.4, 0.16
+
+;staircase
+BoundingBox = 0.0, 0.99, 1.5, 2.79, 1.0, 0.15
+
+BoundingBox = 0.0, 0.99, 1.5, 2.79, 1.0, 0.16
+BoundingBox = 0.0, 0.98, 1.6, 2.79, 0.9, 0.16
+BoundingBox = 0.0, 0.97, 1.7, 2.79, 0.8, 0.16
+BoundingBox = 0.0, 0.96, 1.8, 2.79, 0.7, 0.16
+BoundingBox = 0.0, 0.95, 1.9, 2.79, 0.6, 0.16
+BoundingBox = 0.0, 0.94, 2.0, 2.79, 0.5, 0.16
+
+BoundingBox = 0.0, 0.85, 2.3, 2.79, 0.1, 0.21
+
+BoundingBox = -0.8, 1.20, 3.3, 0.25, 0.25, 0.88
 
 
 MaxFuel         = 600
