@@ -3,8 +3,8 @@ AddDisplayName = en_US, MXT-MV Husky TSV
 AddDisplayName = ja_JP, MXT-MV ハスキーTSV
 MaxHp = 100
 ThrottleUpDown = 10.0
-Speed = 1.51
-MobilityYawOnGround = 4.5
+Speed = 0.7
+MobilityYawOnGround = 9.0
 StepHeight = 1.5
 Sound = prop
 MinRotationPitch = -90
@@ -13,7 +13,7 @@ MobilityRoll     = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 0.6
-EnableNightVision = true
+EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 1.0
 
@@ -22,6 +22,8 @@ OnGroundRollFactor  = 3.8
 
 ;後退可能にする
 EnableBack = true
+
+AddPartSteeringWheel =  -0.691,  1.46,  0.626,  0, 0.3196, -1,   130
 
 ; Tank or Car or Unknown
 WeightType = Car
@@ -42,6 +44,14 @@ AddSeat =  0.70, 1.45, -2.35
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.1
+;front headlights
+AddFixedSearchLight =  1.00, 1.10, 2.84,      0x20FFFFFF,   0x00FFFFC0,    0.2, 2.0,  -5,  0
+AddFixedSearchLight = -1.00, 1.10, 2.84,      0x20FFFFFF,   0x00FFFFC0,    0.2, 2.0,   5,  0
+
+;rear lights
+AddFixedSearchLight =  0.9074, 1.1367,-3.1433,   0xFFFF0000,   0x10FF0000,    0.0, 0.16 
+AddFixedSearchLight = -0.9074, 1.1367,-3.1433,   0xFFFF0000,   0x10FF0000,    0.0, 0.16
+
 
 ; タイヤの回転スピード
 PartWheelRot = 40

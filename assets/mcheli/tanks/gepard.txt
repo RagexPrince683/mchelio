@@ -41,7 +41,7 @@ AddGunnerSeat =  0.00,  2.50, 0.00, 0.0, 3.50, 0.00, false, -85, 10, false
 CameraPosition =  0.00,  5.00, -0.68, true
 MotionFactor = 0.9
 ;ArmorMinDamage 
-ArmorMinDamage = 12
+ArmorMinDamage = 15
 ;ArmorMaxDamage 
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor 

@@ -67,7 +67,7 @@ AddTexture = pgz-95_2
 MotionFactor = 0.9
 
 
-ArmorMinDamage = 10
+
 
 ;ArmorMaxDamage = 300
 
@@ -137,9 +137,26 @@ AddTurretWeapon = hy6,      0.8802, 3.3506, -0.9190, 0.0, 0.0, true, 2, 0, -360,
 AddTurretWeapon = hy6,      -0.8802, 3.3506, -0.9190, 0.0, 0.0, true, 2, 0, -360, 360
 
 
-BoundingBox =  0.0, 0.9,  3.2,   3.4, 2.3,  0.80
-BoundingBox =  0.0, 2.6,  -0.2,   2.4, 1.2,  1.00
-BoundingBox =  0.0, 0.9, -0.8,   3.4, 2.3,  0.90
+ArmorMinDamage = 15
+
+
+;staircase 130mm
+;BoundingBox = 0.0, 0.65, 4.125, 2.99, 0.9, 1.0
+BoundingBox = 0.0, 0.68, 3.75,  2.99, 1.0, 1.0
+BoundingBox = 0.0, 0.78, 3,  2.99, 1.1, 1.0
+BoundingBox = 0.0, 0.85, 2.25,  2.99, 1.5, 1.0
+BoundingBox = 0.0, 0.95, 1.5,  2.99, 1.6, 1.0
+BoundingBox = 0.0, 1.05, 0.75,  2.99, 1.7, 1.0
+
+;77mm lower pl8
+;BoundingBox = 0.0, 0.69, 2.8, 2.99, 0.8, 1.0
+
+BoundingBox = 0.0, 2.25, 0.0, 1.5, 1.0, 1.0
+
+
+
+BoundingBox = 0.0, 1.1, 0.0, 3.0, 1.8, 1.0
+BoundingBox = 0.0, 1.1, -1.25, 3.2, 1.8, 1.0
 
 
 

@@ -1,7 +1,7 @@
 DisplayName = M61A1 Vulcan
 Type = MachineGun2
 ModelBullet = bullet
-Power = 12
+Power = 53
 Acceleration = 8.0
 Explosion = 0
 Flaming = false
