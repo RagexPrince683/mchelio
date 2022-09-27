@@ -12,7 +12,7 @@ MaxRotationPitch = 6
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
-DamageFactor = 0.0
+DamageFactor = 1.0
 CameraPosition = 0.00,  5.22, 0.000, true
 EnableNightVision = true
 CameraRotationSpeed = 27
@@ -58,9 +58,9 @@ AddSeat =  1.173,  0.75, -2.6056
 MotionFactor = 0.9
 
 
-ArmorMinDamage = 12
+
 ;ArmorMaxDamage = 300
-ArmorDamageFactor = 1.00
+ArmorDamageFactor = 0.98
 
 EnableBack = true
 
@@ -115,12 +115,15 @@ AddPartTurretWeapon    = 12_7mmgun,   false, true, true,   1.3752, 4.3978, 1.695
 AddTurretWeapon = 12_7mmgun,    1.3752, 4.6589, 1.6905,   0.0, 0.0, false, 2, 0, -80,80, -70,15
 
 
-BoundingBox =   0.00, 1.00,  1.58,  5.46, 2.71,  0.60
-BoundingBox =   0.00, 2.95,  0.15,  4.44, 2.25,  1.00
-BoundingBox =   1.25, 0.65,  5.78,  2.88, 2.21,  0.80
-BoundingBox =  -1.25, 0.65,  5.78,  2.88, 2.21,  0.80
-BoundingBox =   1.25, 0.85,  -2.28,  2.90, 2.51,  0.90
-BoundingBox =  -1.25, 0.85,  -2.28,  2.90, 2.51,  0.90
+ArmorMinDamage = 19
+
+
+BoundingBox =   0.00, 1.00,  1.58,  5.46, 2.21,  0.60
+BoundingBox =   0.00, 2.90,  0.15,  4.44, 2.10,  1.00
+BoundingBox =   1.25, 0.85,  5.78,  2.88, 2.01,  0.80
+BoundingBox =  -1.25, 0.85,  5.78,  2.88, 2.01,  0.80
+BoundingBox =   1.25, 1.05,  -2.28,  2.90, 2.01,  0.90
+BoundingBox =  -1.25, 1.05,  -2.28,  2.90, 2.01,  0.90
 
 
 

@@ -136,13 +136,16 @@ AddTurretWeapon = hy6,      -0.8802, 3.5378, -0.9190, 0.0, 0.0, true, 2, 0, -360
 AddTurretWeapon = hy6,      0.8802, 3.3506, -0.9190, 0.0, 0.0, true, 2, 0, -360, 360
 AddTurretWeapon = hy6,      -0.8802, 3.3506, -0.9190, 0.0, 0.0, true, 2, 0, -360, 360
 
+AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 1
+AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,1
+
 
 ArmorMinDamage = 15
 
 
 ;staircase 130mm
 ;BoundingBox = 0.0, 0.65, 4.125, 2.99, 0.9, 1.0
-BoundingBox = 0.0, 0.68, 3.75,  2.99, 1.0, 1.0
+BoundingBox = 0.0, 0.80, 3.75,  2.99, 1.0, 1.0
 BoundingBox = 0.0, 0.78, 3,  2.99, 1.1, 1.0
 BoundingBox = 0.0, 0.85, 2.25,  2.99, 1.5, 1.0
 BoundingBox = 0.0, 0.95, 1.5,  2.99, 1.6, 1.0
