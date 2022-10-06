@@ -141,3 +141,5 @@ BoundingBox = -0.7, 1.0, 2.0, 2.0, 2.0, 0.15
 ;Calliope part
 
 ;BoundingBox =  0.0, 4.5, 0.0,  2.8, 1.0, 1.00
+
+unmountposition = 0.00,  1.50,  0.25

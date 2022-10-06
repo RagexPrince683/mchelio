@@ -12,7 +12,7 @@ EnableNightVision = true
 EnableEntityRadar = true
 Sound = mbt_run
 ;HUD = mbt_hud, 
-HUD = mbt_hud, none, none, none, none, none, none,
+HUD = mbt_hud, none, none, none, none, none, none
 WeightType = Tank
 DefaultFreelook = true
 CameraZoom = 3
@@ -104,3 +104,5 @@ BoundingBox = 0.0, 0.80, 1.4, 3.0, 1.8, 1.0
 BoundingBox = 0.0, 0.60, 1.75, 3.0, 1.4, 1.0
 
 AddRecipe = "IXI",  "IXI",  "XIX",  X,iron_block,  I,iron_ingot
+
+unmountposition = 0.00,  1.50,  0.00

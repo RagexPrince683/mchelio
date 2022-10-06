@@ -40,23 +40,23 @@ WeightedCenterZ = 0.0
 ; X座標のマイナス側は必要なし
 SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
 
-HUD = t64u, soviet_mbt_gunner
+HUD = mbt_hudtwo, soviet_mbt_gunner
 
 
 
 
-AddGunnerSeat =  0.00,  3.50, 1.55,   0.6,  2.13, 5,  false, -90, 90, true
+AddGunnerSeat =  0.00,  0.50, 2.05,   0.6,  2.13, 5,  false, -90, 90, true
 AddGunnerSeat =  1.00,  2.20, 0.12,  1.00,  3.50,  0.12,  false, -90, 90, true
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.9
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 12
+
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
-ArmorDamageFactor = 0.95
+ArmorDamageFactor = 1.00
 ;後退可能にする
 EnableBack = true
 
@@ -111,15 +111,53 @@ AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
 RideRack = c5, 1
 RideRack = c5, 2
 
-BoundingBox =  0, 0.6,  2.5,   3.8, 1.8,  0.7
-BoundingBox = -0.9, 1.6,  1.0,   2, 1.8,  0.5
-BoundingBox =  0.9, 1.6,  1.0,   2, 1.8,  0.5
-BoundingBox =  2.3, 0.7,  2,   0.5, 1.8,  2
-BoundingBox =  2.3, 0.7,  1,   0.5, 1.8,  2
-BoundingBox =  -2.3, 0.7,  2,   0.5, 1.8,  2
-BoundingBox =  -2.3, 0.7,  1,   0.5, 1.8,  2
-BoundingBox =  0.0, 1.6, -0.5,   2, 1.8,  10
-BoundingBox =  0, 0.7, -2.7,   3.8, 1.6,  10
-BoundingBox =  0, 0.7, -1,   3.8, 1.6, 3
+
+
+
+
+;BoundingBox =  0, 0.6,  2.5,   3.8, 1.8,  0.7
+;BoundingBox = -0.9, 1.6,  1.0,   2, 1.8,  0.5
+;BoundingBox =  0.9, 1.6,  1.0,   2, 1.8,  0.5
+;BoundingBox =  2.3, 0.7,  2,   0.5, 1.8,  2
+;BoundingBox =  2.3, 0.7,  1,   0.5, 1.8,  2
+;BoundingBox =  -2.3, 0.7,  2,   0.5, 1.8,  2
+;BoundingBox =  -2.3, 0.7,  1,   0.5, 1.8,  2
+;BoundingBox =  0.0, 1.6, -0.5,   2, 1.8,  10
+;BoundingBox =  0, 0.7, -2.7,   3.8, 1.6,  10
+;BoundingBox =  0, 0.7, -1,   3.8, 1.6, 3
+
+;side armor 
+BoundingBox = 0.0, 0.75, 1.0, 3.1, 1.55, 0.22
+;front plate
+
+BoundingBox = 0.0, 0.70, 2.7, 3.0, 0.1, 0.04
+BoundingBox = 0.0, 0.80, 2.50, 3.0, 0.1, 0.04
+BoundingBox = 0.0, 0.90, 2.30, 3.0, 0.1, 0.04
+BoundingBox = 0.0, 1.00, 2.10, 3.0, 0.1, 0.04
+BoundingBox = 0.0, 1.10, 1.90, 3.0, 0.1, 0.05
+BoundingBox = 0.0, 1.20, 1.70, 3.0, 0.1, 0.05
+BoundingBox = 0.0, 1.30, 1.50, 3.0, 0.1, 0.11
+BoundingBox = 0.0, 1.40, 1.30, 3.0, 0.1, 0.12
+BoundingBox = 0.0, 1.475, 1.10, 3.0, 0.1, 0.12
+
+;lower plate 
+
+BoundingBox = 0.0, 0.40, 2.65, 3.0, 0.5, 0.09
+
+;back side armor 
+BoundingBox = 0.0, 0.85, -2.0, 3.1, 1.35, 0.22
+BoundingBox = 0.0, 0.85, -2.4, 3.1, 1.35, 0.27
+
+BoundingBox = 0.0, 0.90, -2.55, 3.0, 1.2, 0.4
+
+BoundingBox = 0.0, 1.865, 0.0, 2.6, 0.7, 0.04
+
+ArmorMinDamage = 20
+
+unmountposition = 0.00,  1.50, 2.05
+
 
 Sound = t64run
+
+
+

@@ -1,0 +1,25 @@
+DisplayName = M8 114mm Rocket
+Type = Rocket
+Power = 29
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 5
+ExplosionBlock = 2
+Flaming = false
+Sound = missile_4_snd
+Sight = MoveSight
+Delay = 4
+ReloadTime = 200
+Round = 60
+Piercing = 0
+Gravity = -0.01
+Particle = largeexplode
+DamageFactor = tank, 10.0
+DamageFactor = plane, 10.0
+DamageFactor = vehicle, 10.0
+DamageFactor = helicopter, 10.0
+
+MaxAmmo = 60
+SuppliedNum = 1
+Item =  1, hbm:item.ingot_dura_steel
+Item =  1, hbm:item.ingot_semtex

@@ -48,13 +48,13 @@ SetWheelPos =  1.79,  -0.21,  4.14, 3.01, 0.83, -1.11, -3.26
 
 HUD = mbt_hud, mbt_hud
 
-AddGunnerSeat = 0.00,  2.50, 0.25
+AddGunnerSeat = 0.00,  1.50, 0.25
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.9
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 12
+
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
@@ -102,6 +102,38 @@ AddTurretWeapon = mg7_62mm,  -0.17, 2.25, 2.10,  0.0, 0.0, true,1, 0,-360,360, -
 
 AddRecipe = "XXX",  "X X",  "III",  X, iron_block,  I, iron_ingot
 
-BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.80
-BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
-BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.10
+;BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.80
+;BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
+;BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.10
+
+;side armor 
+BoundingBox = 0.0, 0.75, 1.1, 3.1, 1.55, 0.14
+;front plate
+
+;BoundingBox = 0.0, 0.70, 2.8, 3.0, 0.1, 0.01
+;BoundingBox = 0.0, 0.80, 2.60, 3.0, 0.1, 0.01
+;BoundingBox = 0.0, 0.90, 2.40, 3.0, 0.1, 0.02
+;BoundingBox = 0.0, 1.00, 2.45, 3.0, 0.1, 0.02
+BoundingBox = 0.0, 1.00, 3.05, 3.0, 0.1, 0.02
+BoundingBox = 0.0, 1.10, 2.75, 3.0, 0.1, 0.03
+BoundingBox = 0.0, 1.20, 2.25, 3.0, 0.1, 0.03
+BoundingBox = 0.0, 1.30, 1.80, 3.0, 0.1, 0.09
+BoundingBox = 0.0, 1.40, 1.40, 3.0, 0.1, 0.10
+BoundingBox = 0.0, 1.475, 1.20, 3.0, 0.1, 0.10
+
+;lower plate 
+
+BoundingBox = 0.0, 0.55, 2.60, 3.0, 1.0, 0.08
+
+;back side armor 
+BoundingBox = 0.0, 1.00, -1.9, 3.1, 1.35, 0.14
+BoundingBox = 0.0, 1.00, -2.0, 3.1, 1.35, 0.14
+
+BoundingBox = 0.0, 1.00, -2.13, 3.0, 1.2, 0.4
+
+BoundingBox = 0.0, 1.965, 0.0, 2.6, 0.9, 0.01
+
+
+unmountposition = 0.00,  1.50, 0.25
+
+ArmorMinDamage = 20

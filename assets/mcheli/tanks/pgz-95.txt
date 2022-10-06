@@ -167,3 +167,5 @@ BoundingBox = 0.0, 1.1, -1.25, 3.2, 1.8, 1.0
 
 EntityWidth  = 0.8
 EntityHeight = 0.8
+
+unmountposition = 0.00,  1.33, 0.00

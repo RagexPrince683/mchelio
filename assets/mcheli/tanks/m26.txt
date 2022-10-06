@@ -129,3 +129,5 @@ MaxFuel         = 600
 FuelConsumption = 2.0
 
 StepHeight = 1.2
+
+unmountposition = 0.00,  1.50, 0.00

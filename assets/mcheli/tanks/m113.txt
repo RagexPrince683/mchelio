@@ -11,7 +11,7 @@ DamageFactor = 0.8
 EnableNightVision = true
 EnableEntityRadar = false
 Sound = mbt_run
-HUD = mbt_hud, gunner, none, none, none, none, none, none,
+HUD = mbt_hud, gunner, none, none, none, none, none, none
 WeightType = Tank
 DefaultFreelook = false
 
@@ -89,3 +89,5 @@ BoundingBox = 0.0, 0.80, 1.4, 3.0, 1.8, 1.0
 BoundingBox = 0.0, 0.60, 1.75, 3.0, 1.4, 1.0
 
 AddRecipe = "XIX",  "III",  "XIX",  X,iron_block, I,iron_ingot
+
+unmountposition = 0.84, 1.37,  1.26

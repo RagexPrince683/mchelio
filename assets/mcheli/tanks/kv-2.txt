@@ -119,3 +119,5 @@ BoundingBox = -0.8, 1.0, 1.85, 1.0, 1.7, 0.33
 
 ;turret 96
 BoundingBox = 0.0, 2.8, 0.0, 1.5, 1.9, 0.31
+
+unmountposition = 0.00,  1.45,  0.00

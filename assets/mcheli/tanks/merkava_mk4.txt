@@ -152,3 +152,5 @@ AddSeat =  0.88, 0.45, -0.72
 AddSeat = -0.88, 0.45, -0.72
 AddSeat =  0.88, 0.45, -0.01
 AddSeat = -0.88, 0.45, -0.01
+
+unmountposition = 0.00,  1.50,  0.25

@@ -240,3 +240,5 @@ BoundingBox = 0.0, 0.70, -2.0, 2.5, 1.0, 0.4
 ;AddRack = test, 5.0, 1.0, 1.0,  0, 0,  -4.3,   15,    20
 
 StepHeight = 1.5
+
+unmountposition = 0.00,  1.50, -1.0
