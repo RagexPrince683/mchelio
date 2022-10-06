@@ -26,6 +26,8 @@ HUD = plane
 
 AddSeat       = 0.00,  2.564,  1.762
 
+unmountposition = 0.00,  1.564,  1.762
+
 AddPartCanopy =  0.00, 3.275, 0.3653,  -1,0,0,  50
 
 ;Front

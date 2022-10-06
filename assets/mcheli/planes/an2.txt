@@ -1,4 +1,5 @@
 DisplayName = An-2
+AddDisplayName = en_US, An-2
 AddDisplayName = ja_JP, An-2
 ItemID = 28732
 MaxHp = 100
@@ -61,3 +62,5 @@ BoundingBox =  3.88,  3.38, -0.32,  2.0, 0.3
 BoundingBox = -3.88,  3.38, -0.32,  2.0, 0.3
 
 DamageFactor = 0.8
+
+unmountposition = 0.5267, 1.51,  0.0

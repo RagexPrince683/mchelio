@@ -1,4 +1,5 @@
 DisplayName = A-10 Thunderbolt II
+AddDisplayName = en_US, A-10 Thunderbolt II
 AddDisplayName = ja_JP, A-10 サンダーボルトⅡ
 ItemID = 28705
 MaxHp = 100
@@ -62,11 +63,21 @@ AddWeapon = cbu-72, -0.65, 1.35, -3.9,   0.0, 0.0
 
 AddRecipe = " Y ",  "XDX",  "ZXZ",  X, iron_block, Y, glass, Z, iron_ingot, D, diamond_block
 
-BoundingBox =  0.00, 2.80, -2.60,  2.0, 2.0
-BoundingBox =  0.00, 2.60, -5.60,  2.0, 2.5
+BoundingBox =  0.00, 3.04, -0.39,  1.8, 2.4
+BoundingBox =  0.00, 2.55,  1.21,  1.5, 1.5
+BoundingBox =  0.00, 2.84, -3.05,  2.0, 2.0
+BoundingBox =  0.00, 2.44, -5.60,  2.0, 2.5
 BoundingBox =  0.00, 3.20, -9.20,  4.0, 2.0
-BoundingBox = -2.92, 2.20, -5.60,  3.0, 1.0
-BoundingBox =  2.92, 2.20, -5.60,  3.0, 1.0
+
+BoundingBox = -2.92, 2.19, -6.21,  3.5, 0.7,  0.9
+BoundingBox = -6.83, 2.55, -6.30,  3.0, 0.7,  0.8
+BoundingBox =  2.92, 2.19, -6.21,  3.5, 0.7,  0.9
+BoundingBox =  6.83, 2.55, -6.30,  3.0, 0.7,  0.8
+
+BoundingBox = -1.78, 2.76,-13.54,  2.5, 0.3,  0.8
+BoundingBox =  1.78, 2.76,-13.54,  2.5, 0.3,  0.8
 
 
 DamageFactor = 0.2
+
+UnmountPosition = 0.00,  2.80,  0.0

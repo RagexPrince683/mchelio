@@ -28,6 +28,9 @@ AddTexture = f-15s_mtd_3
 AddTexture = f-15s_mtd_4
 
 AddSeat       = 0.00,  2.43,  0.00
+
+unmountposition = 0.00,  1.53,  0.00
+
 AddGunnerSeat = 0.00,  2.51, -1.76, 0.0, 0.70, 1.6, true
 
 AddPartCanopy =  0.00, 3.57, -2.87,  -1,0,0,  50
@@ -84,3 +87,4 @@ BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0
 BoundingBox = -2.92, 2.20, -9.60,  4.0, 1.0
 BoundingBox =  2.92, 2.20, -9.60,  4.0, 1.0
 BoundingBox =  0.00, 1.80, -11.8,  3.0, 1.5
+BoundingBox =  0.00, 1.80, -13.8,  3.0, 1.5

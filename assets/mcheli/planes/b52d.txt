@@ -104,20 +104,42 @@ AddWeapon = mk82_n, -4.18, 3.94,-17.62,  0, 0
 
 AddRecipe = "I I",  "TTT",  "I I",  I,iron_block, T,tnt
 
-BoundingBox =  0.0, 2.6,  -1.6,  4.0, 4.0
-BoundingBox =  0.0, 2.6,  -6.6,  4.0, 4.0
-BoundingBox =  0.0, 2.6, -11.6,  4.0, 4.0
-BoundingBox =  0.0, 2.6, -16.6,  4.0, 4.0
-BoundingBox =  0.0, 3.0, -20.6,  3.0, 3.0
-BoundingBox =  0.0, 3.0, -23.6,  2.0, 2.0
-BoundingBox =  0.0, 3.0, -26.6,  2.0, 2.0
+BoundingBox =  0.0, 4.0,  -3.6,  4.0, 4.0
+BoundingBox =  0.0, 4.0,  -6.6,  4.0, 4.0
+BoundingBox =  0.0, 4.0, -11.6,  4.0, 4.0
+BoundingBox =  0.0, 4.0, -16.6,  4.0, 4.0
+BoundingBox =  0.0, 4.5, -20.6,  3.0, 3.0
+BoundingBox =  0.0, 4.5, -23.6,  2.0, 2.0
+BoundingBox =  0.0, 4.5, -26.6,  2.0, 2.0
 
-BoundingBox =  -5.0, 2.2, -11.6,  5.0, 1.0
-BoundingBox = -10.0, 3.0, -11.6,  5.0, 1.0
-BoundingBox = -15.0, 3.0, -12.0,  4.4, 1.0
-BoundingBox =   5.0, 2.2, -11.6,  5.0, 1.0
-BoundingBox =  10.0, 3.0, -11.6,  5.0, 1.0
-BoundingBox =  15.0, 3.0, -12.0,  4.4, 1.0
+BoundingBox =  -5.0, 5.2, -17.6,  5.0, 1.0
+BoundingBox = -10.0, 5.0, -18.6,  5.0, 1.0
+BoundingBox = -15.0, 5.0, -21.8,  4.4, 1.0
+BoundingBox =   5.0, 5.2, -17.6,  5.0, 1.0
+BoundingBox =  10.0, 5.0, -18.6,  5.0, 1.0
+BoundingBox =  15.0, 5.0, -21.8,  4.4, 1.0
+
+BoundingBox = -18.0, 5.0, -23.8,  4.4, 1.0
+BoundingBox =  18.0, 5.0, -23.8,  4.4, 1.0
+
+BoundingBox = -21.0, 4.6, -25.8,  4.4, 1.0
+BoundingBox =  21.0, 4.6, -25.8,  4.4, 1.0
+
+BoundingBox = 10.42, 3.62, -13.94, 4.4, 1.0
+BoundingBox = -10.42, 3.62, -13.94, 4.4, 1.0
+
+BoundingBox = 20.41, 3.42, -20.98, 4.4, 1.0
+BoundingBox = -20.41, 3.42, -20.98, 4.4, 1.0
+
+BoundingBox =  0.0, 4.5, -36.6,  6.0, 4.0
+BoundingBox =  0.0, 4.5, -46.6,  6.0, 4.0
+BoundingBox =  0.0, 4.5, -40.6,  6.0, 4.0
+BoundingBox =  0.0, 7.5, -40.6,  6.0, 4.0
+
+BoundingBox =  5.0, 4.5, -46.6,  6.0, 4.0
+BoundingBox =  -5.0, 4.5, -46.6,  6.0, 4.0
 
 
 DamageFactor = 0.8
+
+unmountposition = 0.72,  1.52,  0.21

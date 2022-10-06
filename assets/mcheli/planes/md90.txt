@@ -1,4 +1,5 @@
 DisplayName = MD-90-30
+AddDisplayName = en_US, MD-90-30
 AddDisplayName = ja_JP,MD-90-30
 ItemID = 28727
 MaxHp = 250
@@ -9,7 +10,7 @@ MaxFuel         = 4500
 FuelConsumption = 2.0
 InventorySize = 36
 
-UnmountPosition = 3.0, 2.0, -3.0
+
 
 ; C = Civilian(民間機)
 Category = C
@@ -60,16 +61,16 @@ AddPartLG = 0, 1.50,  1.39,  1,0,0, -125
 AddPartLG = 1.96, 2.26,  1.13,  0,0, 1, -90
 AddPartLG = -1.96, 2.26,  1.13,  0,0, 1, 90
 
-BoundingBox =  0.00,  3.00, -1.00,  3.0, 3.0
-BoundingBox =  0.00,  3.00, -5.00,  3.0, 3.0
-BoundingBox =  0.00,  3.00, -9.00,  3.0, 3.0
-BoundingBox =  0.00,  3.00, -13.00,  3.0, 3.0
-BoundingBox =  0.00,  3.00, -17.00,  3.0, 3.0
-BoundingBox =  0.00,  3.00, -21.00,  3.0, 3.0
-BoundingBox =  0.00,  3.00, -25.00,  3.0, 3.0
-BoundingBox =  0.00,  3.00, -29.00,  3.0, 3.0
-BoundingBox =  0.00,  3.00, -33.00,  3.0, 3.0
-BoundingBox =  0.00,  3.00, -37.00,  3.0, 3.0
+;BoundingBox =  0.00,  3.00, -1.00,  3.0, 3.0
+;BoundingBox =  0.00,  3.00, -5.00,  3.0, 3.0
+;BoundingBox =  0.00,  3.00, -9.00,  3.0, 3.0
+;BoundingBox =  0.00,  3.00, -13.00,  3.0, 3.0
+;BoundingBox =  0.00,  3.00, -17.00,  3.0, 3.0
+;BoundingBox =  0.00,  3.00, -21.00,  3.0, 3.0
+;BoundingBox =  0.00,  3.00, -25.00,  3.0, 3.0
+;BoundingBox =  0.00,  3.00, -29.00,  3.0, 3.0
+;BoundingBox =  0.00,  3.00, -33.00,  3.0, 3.0
+;BoundingBox =  0.00,  3.00, -37.00,  3.0, 3.0
 BoundingBox =  0.00,  3.00, -41.00,  3.0, 3.0
 BoundingBox =  0.00,  3.50, -44.00,  2.0, 2.0
 
@@ -90,3 +91,5 @@ BoundingBox =  -4.00,  3.00, -39.00,  2.0, 2.0
 BoundingBox =  0.00,  8.50, -48.50,  3.0, 0.2
 BoundingBox =  4.00,  8.50, -49.50,  3.0, 0.2
 BoundingBox =  -4.00,  8.50, -49.50,  3.0, 0.2
+
+unmountposition = 0.8, 1.5, 0

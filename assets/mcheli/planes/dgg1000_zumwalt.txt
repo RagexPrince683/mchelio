@@ -1,4 +1,5 @@
 ﻿DisplayName = DGG1000 Zumwalt Destroyer
+AddDisplayName = en_US, DGG1000 Zumwalt Destroyer
 AddDisplayName = ja_JP, DGG1000 ズムウォルト駆逐艦
 
 
@@ -40,10 +41,12 @@ HUD = plane_wwii, gunner, gunner, gunner, gunner, gunner, gunner, none, none, no
 
 AddPartRotation  =  -11.24, 15.05, 62.75,  0, 1, 0, 1.0,   false
 
-UnmountPosition = 4.00, 2.00, -1.00
+UnmountPosition = -1.0, 1.98, 1.76
+
+BoundingBox = -1.0, 1.0, 1.7, 3.5, 3.5, 1.0
 
 ;　main seat
-AddSeat =  -0.05, 0.98, 0.76
+AddSeat =  -1.0, 0.98, 1.76
 
 
 ; entry seat

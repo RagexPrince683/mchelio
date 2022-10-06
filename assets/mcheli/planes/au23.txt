@@ -1,4 +1,5 @@
 DisplayName = Fairchild AU-23A Peacemaker
+AddDisplayName = en_US, Fairchild AU-23A Peacemaker
 AddDisplayName = ja_JP, フェアチャイルド AU-23A ピースメーカー
 ItemID = 28750
 MaxHp = 150
@@ -55,7 +56,12 @@ AddPartWeaponMissile = mk24,     false, false,false, -5.01, 2.57, -2.32
 
 AddRecipe = " G ",  "IXD",  "I I",  X, iron_block, G, glass, I, iron_ingot, D, dispenser
 
-BoundingBox =  0.00, 1.42, -1.00,  3.0, 1.8
+BoundingBox =  -1.70, 2.22, -9.00,  2.0, 1.8
+BoundingBox =  0.00, 2.22, -9.00,  2.0, 1.8
+BoundingBox =  1.70, 2.22, -9.00,  2.0, 1.8
+BoundingBox =  0.00, 3.92, -9.00,  2.0, 1.8
+
+BoundingBox =  0.00, 1.82, -5.00,  3.0, 1.8
 BoundingBox = -2.92, 3.25, -1.50,  2.0, 0.6
 BoundingBox = -4.92, 3.25, -1.50,  2.0, 0.6
 BoundingBox =  2.92, 3.25, -1.50,  2.0, 0.6

@@ -1,4 +1,5 @@
 DisplayName = AC-130H Spectre
+AddDisplayName = en_US, AC-130H Spectre
 AddDisplayName = ja_JP, AC-130 H スペクター
 ItemID = 28713
 MaxHp = 250
@@ -79,7 +80,19 @@ BoundingBox =  0.00, 2.60, -11.60,  4.0, 4.0
 BoundingBox = -4.92, 4.00,  -6.60,  4.0, 1.0
 BoundingBox =  4.92, 4.00,  -6.60,  4.0, 1.0
 
+BoundingBox = -7.92, 4.00,  -6.60,  4.0, 1.0
+BoundingBox =  7.92, 4.00,  -6.60,  4.0, 1.0
+
+BoundingBox = -10.92, 4.00,  -6.60,  4.0, 1.0
+BoundingBox =  10.92, 4.00,  -6.60,  4.0, 1.0
+
+BoundingBox = -15.92, 4.00,  -6.60,  4.0, 1.0
+BoundingBox =  15.92, 4.00,  -6.60,  4.0, 1.0
+
+
 ; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute alt
 AddRack = container,   0.0, 1.4, -4.7,  0.0, 0.0, -16.1,  8.0,    20.0
 
 DamageFactor = 0.8
+
+unmountposition = 0.65,  2.43,  2.00

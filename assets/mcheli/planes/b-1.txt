@@ -1,4 +1,5 @@
 ﻿DisplayName = B-1B Lancer
+AddDisplayName = en_US, B-1B Lancer
 AddDisplayName = ja_JP, B-1B ランサー
 ItemID = 28747
 MaxHp = 250
@@ -67,13 +68,24 @@ AddPartLG = -4.94, 4.89,  -26.32,  0,0,1,  110
 
 AddRecipe = " D ",  "DID",  "RIR",  R,redstone_block, I,iron_block, D,diamond
 
-BoundingBox =  0.0, 6.5,  5.7,  7, 4
+;BoundingBox =  0.0, 6.5,  5.7,  7, 4
 BoundingBox =  0.0, 6.5,  -4.7,  8, 6
-BoundingBox =  0.0, 6.5, -16.7,  8, 6
-BoundingBox =  0.0, 6.5, -35.7,  8, 6
+BoundingBox =  0.0, 6.5, -12.7,  8, 6
+BoundingBox =  0.0, 6.5, -20.7,  8, 6
+BoundingBox =  0.0, 6.5, -30.7,  8, 6
 BoundingBox =  0.0, 6.5, -47.7,  8, 6
 BoundingBox =  0.0, 12.0, -52.0,  6, 4
+BoundingBox =  7.0, 12.0, -52.0,  6, 4
+BoundingBox =  -7.0, 12.0, -52.0,  6, 4
 BoundingBox = -9.5, 4.0, -28.1,  9, 3
 BoundingBox =  9.5, 4.0, -28.1,  9, 3
+BoundingBox = -18.5, 4.0, -28.1,  9, 3
+BoundingBox =  18.5, 4.0, -28.1,  9, 3
+BoundingBox = -28.5, 4.0, -30.1,  9, 3
+BoundingBox =  28.5, 4.0, -30.1,  9, 3
+
+unmountposition = 0.95, 1.86, 3.70
+
+
 
 DamageFactor = 0.8
