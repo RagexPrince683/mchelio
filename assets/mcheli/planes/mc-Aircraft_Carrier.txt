@@ -37,7 +37,15 @@ Category = M.C
 
 HUD = plane_wwii, gunner, gunner, gunner, gunner, gunner, gunner, none, none, none, none, none
 
-UnmountPosition = 6.00, 2.00, -1.00
+UnmountPosition = -2.00, 1.90, -0.00
+
+;　main
+AddSeat =  -2.00,  0.59, -0.0
+BoundingBox = -2.0, 1.0, 0.0, 3.5, 3.5, 1.0
+
+;AddSeat =  -1.5, 0.12, 2.26
+;UnmountPosition = -1.5, 1.98, 2.26
+;BoundingBox = -1.5, 1.0, 2.26, 3.5, 3.5, 1.0
 
 
 ; steeringhundle
@@ -45,8 +53,7 @@ AddPartSteeringWheel =   -38.89, 24.53, -30.59,   0, 1, -0.45,  80
 
 
 
-;　main
-AddSeat =  0.12,  4.59, -0.25
+
 CameraPosition = -38.98, 25.64, -31.97, true
 
 
@@ -250,15 +257,35 @@ AddFixedSearchLight = 4.35, 4.65, -0.21,   0x50FFFFFF,   0x10FFFFC0,    10.0, 10
 
 
 
-BoundingBox = -20.71, 3.84, 78.94,  20.0,  8.0
-BoundingBox = -20.71, 3.84, 64.53,  20.0,  8.0
-BoundingBox = -20.71, 3.84, 47.58,  20.0,  8.0
-BoundingBox = -20.71, 3.84, 29.50,  20.0,  8.0
-BoundingBox = -20.71, 3.84, 14.12,  20.0,  8.0
-BoundingBox = -20.71, 3.84, -2.44,  20.0,  8.0
-BoundingBox = -20.71, 3.84, -29.42,  20.0,  8.0
-BoundingBox = -20.71, 3.84, -48.87,  20.0,  8.0
-BoundingBox = -20.71, 3.84, -64.20,  20.0,  8.0
+BoundingBox = -20.71, 3.84, 70.94,  28.0,  8.0
+BoundingBox = -20.71, 3.84, 64.53,  28.0,  8.0
+BoundingBox = -20.71, 3.84, 47.58,  28.0,  8.0
+BoundingBox = -20.71, 3.84, 29.50,  28.0,  8.0
+BoundingBox = -20.71, 3.84, 14.12,  40.0,  8.0
+BoundingBox = -20.71, 3.84, -2.44,  40.0,  8.0
+BoundingBox = -20.71, 3.84, -29.42,  40.0,  8.0
+BoundingBox = -20.71, 3.84, -48.87,  30.0,  8.0
+BoundingBox = -20.71, 3.84, -60.20,  30.0,  8.0
+
+BoundingBox = -20.71, 7.54, 70.94,  28.0,  8.0
+BoundingBox = -20.71, 7.54, 64.53,  28.0,  8.0
+BoundingBox = -20.71, 7.54, 47.58,  28.0,  8.0
+BoundingBox = -20.71, 7.54, 29.50,  28.0,  8.0
+BoundingBox = -20.71, 7.54, 14.12,  40.0,  8.0
+BoundingBox = -20.71, 7.54, -2.44,  40.0,  8.0
+BoundingBox = -20.71, 7.54, -29.42,  40.0,  8.0
+BoundingBox = -20.71, 7.54, -48.87,  30.0,  8.0
+BoundingBox = -20.71, 7.54, -60.20,  30.0,  8.0
+
+BoundingBox = -20.71, -3.5, 70.94,  20.0,  8.0
+BoundingBox = -20.71, -3.5, 64.53,  20.0,  8.0
+BoundingBox = -20.71, -3.5, 47.58,  20.0,  8.0
+BoundingBox = -20.71, -3.5, 29.50,  20.0,  8.0
+BoundingBox = -20.71, -3.5, 14.12,  32.0,  8.0
+BoundingBox = -20.71, -3.5, -2.44,  32.0,  8.0
+BoundingBox = -20.71, -3.5, -29.42,  32.0,  8.0
+BoundingBox = -20.71, -3.5, -48.87,  22.0,  8.0
+BoundingBox = -20.71, -3.5, -60.20,  22.0,  8.0
 
 
 BoundingBox = -39.67, 21.10, -36.75,  10.0,  8.0

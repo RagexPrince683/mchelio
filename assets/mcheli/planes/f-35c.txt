@@ -1,4 +1,5 @@
 DisplayName = F-35C Lightning II
+AddDisplayName = en_US, F-35C Lightning II
 AddDisplayName = ja_JP, F-35C ライトニング II
 ItemID = 28724
 MaxHp = 100
@@ -75,8 +76,16 @@ AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
 
 AddRecipe = " Y ",  "XTX",  "XDX",  X, iron_block, Y, glass, D, diamond_block, T,tnt
 
-BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
+BoundingBox =  0.00, 1.90, -3.10,  3.0, 2.0
 BoundingBox =  0.00, 1.90, -6.60,  4.0, 2.0
 BoundingBox = -2.92, 2.20, -7.60,  3.0, 1.0
 BoundingBox =  2.92, 2.20, -7.60,  3.0, 1.0
-BoundingBox =  0.00, 1.80, -9.80,  2.0, 1.0
+BoundingBox =  0.00, 2.20, -9.80,  3.0, 1.0
+
+BoundingBox = -4.82, 2.20, -8.00,  2.5, 1.0
+BoundingBox =  4.82, 2.20, -8.00,  2.5, 1.0
+
+BoundingBox = -2.52, 2.20, -11.60,  2.0, 1.0
+BoundingBox =  2.52, 2.20, -11.60,  2.0, 1.0
+
+unmountposition = 0.00,  1.52,  0.32

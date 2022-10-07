@@ -1,4 +1,5 @@
 DisplayName = AV-8B Harrier II
+AddDisplayName = en_US, AV-8B Harrier II
 AddDisplayName = ja_JP, AV-8B ハリアーII
 ItemID = 28700
 MaxHp = 100
@@ -22,6 +23,8 @@ Category = M.A
 HUD = plane
 
 AddSeat = 0.00,  1.57,  0.22
+
+
 
 AddTexture = harrier_1
 AddTexture = harrier_2
@@ -61,7 +64,16 @@ AddWeapon = mk62,    -2.57, 1.15, -5.48,   0.0, 0.0
 
 AddRecipe = " Y ",  "XXX",  "ZXZ",  X, iron_block, Y, glass, Z, iron_ingot
 
-BoundingBox =  0.00, 1.60, -2.60,  2.0, 2.5
+BoundingBox =  0.00, 1.60, -1.50,  2.0, 2.5
+BoundingBox =  0.00, 1.60, -3.20,  2.0, 2.5
 BoundingBox =  0.00, 1.60, -5.60,  3.0, 2.5
-BoundingBox = -2.92, 2.20, -5.60,  3.0, 1.0
-BoundingBox =  2.92, 2.20, -5.60,  3.0, 1.0
+BoundingBox = -2.92, 1.90, -5.60,  3.0, 1.0
+BoundingBox =  2.92, 1.90, -5.60,  3.0, 1.0
+BoundingBox =  0.00, 1.60, -8.00,  2.0, 2.5
+BoundingBox =  0.00, 1.60, -10.00,  2.0, 2.5
+BoundingBox =  0.00, 3.30, -12.00,  2.0, 2.5
+BoundingBox =  0.00, 1.60, -12.00,  2.0, 2.5
+BoundingBox =  1.50, 1.60, -12.00,  2.0, 2.5
+BoundingBox =  -1.50, 1.60, -12.00,  2.0, 2.5
+
+unmountposition = 0.00,  1.57,  0.22

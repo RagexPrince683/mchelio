@@ -1,4 +1,5 @@
 DisplayName = F-16C 
+AddDisplayName = en_US, F-16C 
 AddDisplayName = ja_JP, F-16C
 ItemID = 28740
 MaxHp = 100
@@ -26,7 +27,7 @@ HUD = plane
 
 AddSeat       = 0.00,  2.564,  1.762
 
-unmountposition = 0.00,  1.564,  1.762
+
 
 AddPartCanopy =  0.00, 3.275, 0.3653,  -1,0,0,  50
 
@@ -64,8 +65,13 @@ AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  1
 
 AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt
 
-BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
-BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0
-BoundingBox = -2.92, 2.20, -9.60,  4.0, 1.0
-BoundingBox =  2.92, 2.20, -9.60,  4.0, 1.0
-BoundingBox =  0.00, 1.80, -11.8,  3.0, 1.5
+BoundingBox =  0.00, 2.10, -1.80,  3.0, 2.0
+BoundingBox =  0.00, 2.10, -5.60,  5.0, 2.0
+BoundingBox = -3.92, 2.20, -5.60,  4.0, 1.0
+BoundingBox =  3.92, 2.20, -5.60,  4.0, 1.0
+BoundingBox =  0.00, 2.10, -8.8,  3.0, 1.5
+BoundingBox =  0.00, 2.10, -11.8,  3.0, 1.5
+
+BoundingBox =  0.0, 4.5, -12.0,  2.0, 3.2
+
+unmountposition = 0.00,  1.564,  1.762

@@ -1,4 +1,5 @@
 DisplayName = C5M Super Galaxy
+AddDisplayName = en_US, C5M Super Galaxy
 MaxHp = 250
 Speed = 1.1
 Sound = c5m
@@ -73,7 +74,7 @@ AddPartSlideRotLG = 0.8432, 1.3, -1.8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 AddPartSlideRotLG = -0.8432, 1.3, -1.8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
-BoundingBox =   0.00,  6.70,   0.89,   4.0, 3.5
+BoundingBox =   0.00,  6.70,   -1.89,   4.0, 3.5
 BoundingBox =   0.00,  6.70,  -3.36,   4.0, 3.5
 BoundingBox =   0.00,  6.70,  -7.65,   4.0, 3.5
 BoundingBox =   0.00,  6.70, -11.96,   4.0, 3.5
@@ -96,7 +97,7 @@ BoundingBox =   0.00, 10.07, -52.81,   1.3, 3.0,   0.8
 
 BoundingBox =   0.00,  4.38,   5.60,   3.0, 3.0
 
-BoundingBox =   0.00,  3.67,   0.89,   6.0, 3.2
+BoundingBox =   0.00,  3.67,   -1.89,   6.0, 3.2
 BoundingBox =   0.00,  3.34,  -5.58,   6.5, 3.5
 BoundingBox =   0.00,  3.34, -12.62,   6.5, 3.5
 BoundingBox =   0.00,  3.34, -20.11,   6.5, 3.5
@@ -127,6 +128,11 @@ BoundingBox = -18.60,  3.40, -21.92,   2.3, 2.3,  1.25
 BoundingBox =  18.60,  3.40, -24.70,   2.0, 2.0,  1.25
 BoundingBox = -18.60,  3.40, -24.70,   2.0, 2.0,  1.25
 
+BoundingBox = 2.90, 18.03, -62.23, 4.0, 0.5
+BoundingBox = -2.90, 18.03, -62.23, 4.0, 0.5
+BoundingBox = 6.90, 18.03, -64.23, 4.0, 0.5
+BoundingBox = -6.90, 18.03, -64.23, 4.0, 0.5
+
 
 AddRecipe = "   ",  "Y C",  "X X",  X, iron_block, Y, diamond, C,chest
 
@@ -140,12 +146,12 @@ AddRack = mh-60g/mh-60l_dap/sh-60/uh-60m/sh-3,   0, 2.2, -22.8,   0, 0,-58.0,   
 AddRack = centauro/m1129, 0.0, 2.40, -9,   0, 0, 17.0,   11,   20
 AddRack = centauro/m1129, 0.0, 2.18,-29,   0, 0,-58.0,   11,   20	
 
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/Lamborghini Huracan Performante/bnr32/bnr32_police/impreza/S15/Humvee/Humvee V2/Humvee with weapon, 0.0, 2.40,-11.8,   0, 0, 17.0,   11,   20
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/Lamborghini Huracan Performante/bnr32/bnr32_police/impreza/S15/Humvee/Humvee V2/Humvee with weapon, 0.0, 2.35, -4.8,   0, 0, 17.0,   11,   20
+AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon, 0.0, 2.40,-11.8,   0, 0, 17.0,   11,   20
+AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon, 0.0, 2.35, -4.8,   0, 0, 17.0,   11,   20
 :
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/Lamborghini Huracan Performante/bnr32/bnr32_police/impreza/S15/Humvee/Humvee V2/Humvee with weapon, 0.0, 2.25,-18.8,   0, 0,-58.0,   12,   20
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/Lamborghini Huracan Performante/bnr32/bnr32_police/impreza/S15/Humvee/Humvee V2/Humvee with weapon, 0.0, 2.20,-25.8,   0, 0,-58.0,   12,   20
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/Lamborghini Huracan Performante/bnr32/bnr32_police/impreza/S15/Humvee/Humvee V2/Humvee with weapon, 0.0, 2.15,-32.8,   0, 0,-58.0,   12,   20
+AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon, 0.0, 2.25,-18.8,   0, 0,-58.0,   12,   20
+AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon, 0.0, 2.20,-25.8,   0, 0,-58.0,   12,   20
+AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon, 0.0, 2.15,-32.8,   0, 0,-58.0,   12,   20
 
 AddRack = ah-64,   0, 2.4,  -4.8,   0, 0, 17.0,      11,    100000,  0, -3.55
 AddRack = ah-64,   0, 2.2, -22.8,   0, 0,-58.0,      11,    100000,  0, -3.55
@@ -202,3 +208,5 @@ ExclusionSeat = 12,4
 ExclusionSeat = 13,4
 
 DamageFactor = 0.8
+
+unmountposition = 0.62, 1.5, 2.4

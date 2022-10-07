@@ -1,4 +1,5 @@
 DisplayName = EMB 314 Super Tucano
+AddDisplayName = en_US, EMB 314 Super Tucano
 AddDisplayName = ja_JP, エンブラエル EMB-314
 ItemID = 28703
 MaxHp = 100

@@ -1,4 +1,5 @@
 DisplayName = BAe Harrier II
+AddDisplayName = en_US, BAe Harrier II
 AddDisplayName = ja_JP, BAe ハリアー II
 ItemID = 28702
 MaxHp = 100
@@ -61,7 +62,16 @@ AddWeapon = agm-65,    -4.85, 1.09, -4.35,  -1.0, 0.0
 
 AddRecipe = " X ",  "XXX",  "ZXZ",  X, iron_block, Z, iron_ingot
 
-BoundingBox =  0.00, 1.60, -2.60,  2.0, 2.5
+BoundingBox =  0.00, 1.60, -1.50,  2.0, 2.5
+BoundingBox =  0.00, 1.60, -3.20,  2.0, 2.5
 BoundingBox =  0.00, 1.60, -5.60,  3.0, 2.5
-BoundingBox = -2.92, 2.20, -5.60,  3.0, 1.0
-BoundingBox =  2.92, 2.20, -5.60,  3.0, 1.0
+BoundingBox = -2.92, 1.90, -5.60,  3.0, 1.0
+BoundingBox =  2.92, 1.90, -5.60,  3.0, 1.0
+BoundingBox =  0.00, 1.60, -8.00,  2.0, 2.5
+BoundingBox =  0.00, 1.60, -10.00,  2.0, 2.5
+BoundingBox =  0.00, 3.30, -12.00,  2.0, 2.5
+BoundingBox =  0.00, 1.60, -12.00,  2.0, 2.5
+BoundingBox =  1.50, 1.60, -12.00,  2.0, 2.5
+BoundingBox =  -1.50, 1.60, -12.00,  2.0, 2.5
+
+unmountposition = 0.00,  1.57,  0.22

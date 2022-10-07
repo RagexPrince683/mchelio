@@ -1,4 +1,5 @@
 DisplayName =  Airbus A400M Atlas
+AddDisplayName = en_US, Airbus A400M Atlas
 AddDisplayName = ja_JP, エアバス A400M アトラス
 ItemID = 30048
 EnableNightVision = true
@@ -62,67 +63,12 @@ AddBlade = 1, 0,  -7.36,  4.66, -11.97,   0,0,-1
 AddPartRotor =   -14.10,  4.15, -13.93,  -1,0, 0
 AddBlade = 1, 0, -14.10,  4.15, -13.93,   0,0, 1
 
-;コンテナとインプレッサの排他設定1
-ExclusionSeat = 5, 27
-ExclusionSeat = 6, 27
-ExclusionSeat = 7, 27
-ExclusionSeat = 8, 27
-ExclusionSeat = 9, 27
-ExclusionSeat = 10,27
-;コンテナとインプレッサの排他設定2
-ExclusionSeat = 11, 28
-ExclusionSeat = 12, 28
-ExclusionSeat = 13, 28
-ExclusionSeat = 14, 28
-ExclusionSeat = 15, 28
-ExclusionSeat = 16, 28
-;コンテナとインプレッサの排他設定3
-ExclusionSeat = 17, 29
-ExclusionSeat = 18, 29
-ExclusionSeat = 19, 29
-ExclusionSeat = 20, 29
-ExclusionSeat = 21, 29
-ExclusionSeat = 22, 29
 
-;コンテナとBNRの排他設定1
-ExclusionSeat = 5, 30
-ExclusionSeat = 6, 30
-ExclusionSeat = 7, 30
-ExclusionSeat = 8, 30
-ExclusionSeat = 9, 30
-ExclusionSeat = 10,30
-ExclusionSeat = 11, 30
-ExclusionSeat = 12, 30
-;コンテナとBNRの排他設定2
-ExclusionSeat = 11, 31
-ExclusionSeat = 12, 31
-ExclusionSeat = 13, 31
-ExclusionSeat = 14, 31
-ExclusionSeat = 15, 31
-ExclusionSeat = 16, 31
-ExclusionSeat = 17, 31
-ExclusionSeat = 18, 31
-ExclusionSeat = 19, 31
-ExclusionSeat = 20, 31
-;コンテナとBNRの排他設定3
-ExclusionSeat = 19, 32
-ExclusionSeat = 20, 32
-ExclusionSeat = 21, 32
-ExclusionSeat = 22, 32
-ExclusionSeat = 23, 32
-ExclusionSeat = 24, 32
-ExclusionSeat = 25, 32
-ExclusionSeat = 26, 32
-
-;インプレッサとBNRの排他設定1
-ExclusionSeat = 27, 30
-ExclusionSeat = 28, 30
-;インプレッサとBNRの排他設定2
-ExclusionSeat = 28, 31
-ExclusionSeat = 29, 31
-;インプレッサとBNRの排他設定3
-ExclusionSeat = 29, 32
-
+AddRack = bnr32 / bnr32_police / impreza / growler / phantom / S15 / mxtmv,   0.00,  1.98, -10.69,   0, 0, -34.93,   15,    5
+AddRack = bnr32 / bnr32_police / impreza / growler / phantom / S15 / mxtmv,   0.00,  1.98, -17.47,   0, 0, -34.93,   15,    5
+AddRack = bnr32 / bnr32_police / impreza / growler / phantom / S15 / mxtmv,   0.00,  1.98, -24.25,   0, 0, -34.93,   15,    5
+AddRack = m1129,   0.00,  1.98, -12.30,   0, 0, -34.93,   15,    5
+AddRack = bnr32 / bnr32_police / impreza / growler / phantom / S15 / mxtmv,   0.00,  1.98, -20.47,   0, 0, -34.93,   15,    5
 
 AddRack = container,     0.65,  2.19, -8.01,    0, 0, -34.93,   15,    5
 AddRack = container,    -0.65,  2.19, -8.01,    0, 0, -34.93,   15,    5
@@ -130,35 +76,81 @@ AddRack = container,     0.65,  2.19, -9.86,    0, 0, -34.93,   15,    5
 AddRack = container,    -0.65,  2.19, -9.86,    0, 0, -34.93,   15,    5
 AddRack = container,     0.65,  2.19, -11.71,   0, 0, -34.93,   15,    5
 AddRack = container,    -0.65,  2.19, -11.71,   0, 0, -34.93,   15,    5
-AddRack = container,     0.65,  1.98, -13.56,   0, 0, -34.93,   15,    5
-AddRack = container,    -0.65,  1.98, -13.56,   0, 0, -34.93,   15,    5
-AddRack = container,     0.65,  1.98, -15.41,   0, 0, -34.93,   15,    5
-AddRack = container,    -0.65,  1.98, -15.41,   0, 0, -34.93,   15,    5
-AddRack = container,     0.65,  1.98, -17.26,   0, 0, -34.93,   15,    5
-AddRack = container,    -0.65,  1.98, -17.26,   0, 0, -34.93,   15,    5
-AddRack = container,     0.65,  1.98, -19.11,   0, 0, -34.93,   15,    5
-AddRack = container,    -0.65,  1.98, -19.11,   0, 0, -34.93,   15,    5
-AddRack = container,     0.65,  1.98, -20.96,   0, 0, -34.93,   15,    5
-AddRack = container,    -0.65,  1.98, -20.96,   0, 0, -34.93,   15,    5
-AddRack = container,     0.65,  1.98, -22.81,   0, 0, -34.93,   15,    5
-AddRack = container,    -0.65,  1.98, -22.81,   0, 0, -34.93,   15,    5
-AddRack = container,     0.65,  1.98, -24.66,   0, 0, -34.93,   15,    5
-AddRack = container,    -0.65,  1.98, -24.66,   0, 0, -34.93,   15,    5
-AddRack = container,     0.65,  1.98, -26.51,   0, 0, -34.93,   15,    5
-AddRack = container,    -0.65,  1.98, -26.51,   0, 0, -34.93,   15,    5
+AddRack = container,     0.65,  2.19, -13.56,   0, 0, -34.93,   15,    5
+AddRack = container,    -0.65,  2.19, -13.56,   0, 0, -34.93,   15,    5
+AddRack = container,     0.65,  2.19, -15.41,   0, 0, -34.93,   15,    5
+AddRack = container,    -0.65,  2.19, -15.41,   0, 0, -34.93,   15,    5
+AddRack = container,     0.65,  2.19, -17.26,   0, 0, -34.93,   15,    5
+AddRack = container,    -0.65,  2.19, -17.26,   0, 0, -34.93,   15,    5
+AddRack = container,     0.65,  2.19, -19.11,   0, 0, -34.93,   15,    5
+AddRack = container,    -0.65,  2.19, -19.11,   0, 0, -34.93,   15,    5
+AddRack = container,     0.65,  2.19, -20.96,   0, 0, -34.93,   15,    5
+AddRack = container,    -0.65,  2.19, -20.96,   0, 0, -34.93,   15,    5
+AddRack = container,     0.65,  2.19, -22.81,   0, 0, -34.93,   15,    5
+AddRack = container,    -0.65,  2.19, -22.81,   0, 0, -34.93,   15,    5
+AddRack = container,     0.65,  2.19, -24.66,   0, 0, -34.93,   15,    5
+AddRack = container,    -0.65,  2.19, -24.66,   0, 0, -34.93,   15,    5
+AddRack = container,     0.65,  2.19, -26.51,   0, 0, -34.93,   15,    5
+AddRack = container,    -0.65,  2.19, -26.51,   0, 0, -34.93,   15,    5
 
-AddRack = impreza,   0.00,  1.98, -10.16,   0, 0, -34.93,   15,    5
-AddRack = impreza,   0.00,  1.98, -15.55,   0, 0, -34.93,   15,    5
-AddRack = impreza,   0.00,  1.98, -20.94,   0, 0, -34.93,   15,    5
+;Excluir containers debido al auto de 1° lugar
+ExclusionSeat = 5, 10
+ExclusionSeat = 5, 11
+ExclusionSeat = 5, 12
+ExclusionSeat = 5, 13
+ExclusionSeat = 5, 14
+ExclusionSeat = 5, 15
+ExclusionSeat = 5, 16
+ExclusionSeat = 5, 17
 
-AddRack = bnr32/bnr32_police,   0.00,  1.98, -10.69,   0, 0, -34.93,   15,    5
-AddRack = bnr32/bnr32_police,   0.00,  1.98, -17.47,   0, 0, -34.93,   15,    5
-AddRack = bnr32/bnr32_police,   0.00,  1.98, -24.25,   0, 0, -34.93,   15,    5
+;Excluir containers debido al auto de 2° lugar
+ExclusionSeat = 6, 18
+ExclusionSeat = 6, 19
+ExclusionSeat = 6, 20
+ExclusionSeat = 6, 21
+ExclusionSeat = 6, 22
+ExclusionSeat = 6, 23
+ExclusionSeat = 7, 24
+ExclusionSeat = 7, 25
 
-AddRecipe = "ITI",  "CCC",  "ATA",  I,iron_block, C,mcheli:container, T,trapped_chest, A,anvil
+;Excluir containers debido al auto de 3° lugar
+ExclusionSeat = 7, 26
+ExclusionSeat = 7, 27
+ExclusionSeat = 7, 28
+ExclusionSeat = 7, 29
+ExclusionSeat = 7, 30
+ExclusionSeat = 7, 31
+
+;Excluir containers debido al M1129 de 4° lugar
+ExclusionSeat = 8, 10
+ExclusionSeat = 8, 11
+ExclusionSeat = 8, 12
+ExclusionSeat = 8, 13
+ExclusionSeat = 8, 14
+ExclusionSeat = 8, 15
+ExclusionSeat = 8, 16
+ExclusionSeat = 8, 17
+ExclusionSeat = 8, 18
+ExclusionSeat = 8, 19
+
+;Excluir autos debido al M1129 de 4° lugar
+ExclusionSeat = 8, 5
+ExclusionSeat = 8, 6
+ExclusionSeat = 8, 7
+
+;Excluir containers debido al auto de 5° lugar
+ExclusionSeat = 9, 20
+ExclusionSeat = 9, 21
+ExclusionSeat = 9, 22
+ExclusionSeat = 9, 23
+ExclusionSeat = 9, 24
+ExclusionSeat = 9, 25
+ExclusionSeat = 9, 26
+ExclusionSeat = 9, 27
+
 
 BoundingBox =  0.00, 3.35,  3.00,   2.5, 2.5
-BoundingBox =  0.00, 3.90, -0.73,   4.5, 5.0
+BoundingBox =  0.00, 3.90, -3.73,   4.5, 5.0
 BoundingBox =  0.00, 4.00, -6.50,   6.0, 6.0
 BoundingBox =  0.00, 4.40, -12.5,   6.0, 7.0
 BoundingBox =  0.00, 4.40, -18.5,   6.0, 7.0
@@ -178,11 +170,37 @@ BoundingBox =  14.1, 4.00, -14.7,   1.5, 2.2,   1.25
 BoundingBox =  14.1, 4.20, -16.4,   1.5, 2.5,   1.25
 BoundingBox =  14.1, 4.35, -18.1,   1.5, 2.5,   1.25
 BoundingBox =  14.1, 4.75, -19.8,   1.5, 1.5,   1.25
+BoundingBox = -14.1, 4.00, -14.7,   1.5, 2.2,   1.25
+BoundingBox = -14.1, 4.20, -16.4,   1.5, 2.5,   1.25
+BoundingBox = -14.1, 4.35, -18.1,   1.5, 2.5,   1.25
+BoundingBox = -14.1, 4.75, -19.8,   1.5, 1.5,   1.25
 
 BoundingBox =  7.35, 4.51, -12.7,   1.5, 2.2,   1.25
 BoundingBox =  7.35, 4.71, -14.4,   1.5, 2.5,   1.25
 BoundingBox =  7.35, 4.81, -16.1,   1.5, 2.5,   1.25
 BoundingBox =  7.35, 5.26, -17.8,   1.5, 1.5,   1.25
+
+BoundingBox = -7.35, 4.51, -12.7,   1.5, 2.2,   1.25
+BoundingBox = -7.35, 4.71, -14.4,   1.5, 2.5,   1.25
+BoundingBox = -7.35, 4.81, -16.1,   1.5, 2.5,   1.25
+BoundingBox = -7.35, 5.26, -17.8,   1.5, 1.5,   1.25
+
+BoundingBox =  0.00, 12.20, -43.2,   3.0, 12.0
+BoundingBox =  0.00, 12.20, -45.2,   3.0, 12.0
+BoundingBox =  0.00, 12.20, -47.2,   3.0, 12.0
+BoundingBox =  0.00, 12.20, -49.2,   3.0, 12.0
+
+BoundingBox = 2.87, 16.69, -47.64, 3.5, 0.5
+BoundingBox = -2.87, 16.69, -47.64, 3.5, 0.5
+
+BoundingBox = 3.87, 16.69, -47.64, 3.5, 0.5
+BoundingBox = -3.87, 16.69, -47.64, 3.5, 0.5
+
+BoundingBox = 4.87, 16.69, -48.64, 3.5, 0.5
+BoundingBox = -4.87, 16.69, -48.64, 3.5, 0.5
+
+BoundingBox = 6.87, 16.69, -49.64, 3.5, 0.5
+BoundingBox = -6.87, 16.69, -49.64, 3.5, 0.5
 
 
 DamageFactor = 0.8

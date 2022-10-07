@@ -1,4 +1,5 @@
 ﻿DisplayName = mig 23
+AddDisplayName = en_US, Mig-23
 AddDisplayName = ja_JP, mig23
 ItemID = 28720
 MaxHp = 100
@@ -22,31 +23,48 @@ Category = M.A
 
 HUD = plane
 
-AddSeat = 0.00, 2.0,  -0.90
+;-21.58
+
+AddSeat = 0.00, 1.4342,  -0.40
 
 
-AddPartLG =  0.00, 1.242,  0.2687,  1,0,0, 90
-AddPartLG = -0.00, 1.081, -6.760,  1,0,0, 90,  0,0,1, 90
-AddPartLG =  0.00, 1.081, -6.760,  1,0,0, 90,  0,0,-1, 90
+AddPartLG =  0.00, 1.0262,  0.2687,  1,0,0, 90
+AddPartLG = -0.00, 0.8652, -6.760,  1,0,0, 90,  0,0,1, 90
+AddPartLG =  0.00, 0.8652, -6.760,  1,0,0, 90,  0,0,-1, 90
 
 
-AddPartWing  =  1.50, 1.867, -6.418,  0, -1,0, 35
+AddPartWing  =  1.50, 1.6512, -6.418,  0, -1,0, 35
 
-AddPartWing  = -1.50, 1.867, -6.418,  0, 1,0, 35
-
-
-AddPartWeaponMissile = k5, false, false, false,  1.701, 2.066, -5.641
-AddPartWeaponMissile = k5, false, false, false,  -1.701, 2.066, -5.641
+AddPartWing  = -1.50, 1.6512, -6.418,  0, 1,0, 35
 
 
-AddWeapon = 23mm, 0.00, 0.80,  1.78
-AddWeapon = k5,  1.701, 2.066, -5.641, 0.0, 0.0 , true, 2
-AddWeapon = k5,  -1.701, 2.066, -5.641, 0.0, 0.0 , true, 2
+AddPartWeaponMissile = k5, false, false, false,  1.701, 1.8502, -5.641
+AddPartWeaponMissile = k5, false, false, false,  -1.701, 1.8502, -5.641
+
+
+AddWeapon = 23mm, 0.00, 0.5842,  1.78
+AddWeapon = k5,  1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
+AddWeapon = k5,  -1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
 
 AddRecipe = " X ",  "XXX",  "DXD",  X, iron_block, D, dispenser
 
-BoundingBox =  0.0, 2.2, -1.3,  2.5, 1.8
+EntityWidth  = 0.7
+EntityHeight = 0.7
+
+BoundingBox =  0.0, 1.9842, -2.3,  2.5, 1.8
 BoundingBox =  0.0, 1.8, -4.5,  3.0, 2.5
-BoundingBox =  0.0, 1.8, -8.0,  3.0, 2.0
-BoundingBox = -2.9, 1.9, -6.0,  3.0, 1.0
-BoundingBox =  2.9, 1.9, -6.0,  3.0, 1.0
+BoundingBox =  0.0, 1.8, -7.0,  3.0, 2.0
+BoundingBox =  0.0, 1.9842, -9.5,  2.5, 1.8
+BoundingBox =  0.0, 1.9842, -11.5,  2.5, 1.8
+BoundingBox =  0.0, 1.9842, -12.5,  2.5, 1.8
+BoundingBox =  1.5, 1.9842, -12.5,  2.5, 1.8
+BoundingBox =  -1.5, 1.9842, -12.5,  2.5, 1.8
+BoundingBox =  0.0, 3.7842, -12.5,  2.5, 1.8
+
+BoundingBox = -2.9, 2.1, -7.0,  3.0, 1.0
+BoundingBox =  2.9, 2.1, -7.0,  3.0, 1.0
+
+BoundingBox = -5.5, 2.1, -7.5,  2.5, 1.0
+BoundingBox =  5.5, 2.1, -7.5,  2.5, 1.0
+
+UnmountPosition = 0.00, 1.5,  -0.40

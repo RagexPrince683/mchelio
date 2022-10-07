@@ -1,4 +1,5 @@
 DisplayName = Piper PA-48 Enforcer
+AddDisplayName = en_US, Piper PA-48 Enforcer
 AddDisplayName = ja_JP, パイパーPA-48 エンフォーサ
 ItemID = 28713
 MaxHp = 100
@@ -63,8 +64,23 @@ AddPartWeaponMissile = mk82,   false,  false,  false,  -3.29, 0.76,-0.93
 AddPartWeaponMissile = mk82,   false,  false,  false,   3.77, 0.84,-0.93
 AddPartWeaponMissile = mk82,   false,  false,  false,  -3.77, 0.84,-0.93
 
-BoundingBox =  0.00, 1.42, -1.00,  3.0, 1.8
-BoundingBox = -2.92, 1.12, -1.00,  2.0, 0.6
-BoundingBox =  2.92, 1.12, -1.00,  2.0, 0.6
+;BoundingBox =  0.00, 1.42, -1.00,  3.0, 1.8
+BoundingBox = -2.92, 1.22, -1.00,  2.0, 0.6
+BoundingBox =  2.92, 1.22, -1.00,  2.0, 0.6
+
+BoundingBox = -4.92, 1.22, -1.00,  2.0, 0.6
+BoundingBox =  4.92, 1.22, -1.00,  2.0, 0.6
+
+BoundingBox = -0.92, 1.22, -1.00,  2.0, 0.6
+BoundingBox =  0.92, 1.22, -1.00,  2.0, 0.6
+
+BoundingBox =  0.00, 1.95, -3.00,  1.8, 1.8
+BoundingBox =  0.00, 1.95, -5.00,  1.8, 1.8
+BoundingBox =  0.00, 1.95, -6.50,  1.8, 1.8
+BoundingBox =  1.50, 1.95, -6.50,  1.8, 1.8
+BoundingBox =  -1.50, 1.95, -6.50,  1.8, 1.8
+BoundingBox =  0.00, 3.55, -6.50,  1.8, 1.8
 
 AddRecipe = "IGI",  "IXI",  "T T",  X, iron_block, G, glass, I, iron_ingot, T, tnt
+
+Unmountposition = 0.0,  1.50, -0.94

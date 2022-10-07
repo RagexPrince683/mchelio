@@ -1,4 +1,5 @@
 DisplayName = Su25
+AddDisplayName = en_US, SU-25
 AddDisplayName = ja_JP, Su25
 ItemID = 28720
 MaxHp = 100
@@ -71,11 +72,11 @@ AddWeapon = s13,  -3.35, 1.35, 1.3, 0.0, 0.0 , true, 2
 AddWeapon = s13,  3.35, 1.35, 1.3, 0.0, 0.0 , true, 2
 
 BoundingBox =  0,1.3, 6.3,  1.5, 1,0.9
-BoundingBox =  0,1.3, 5,  1.5, 1,0.87
+BoundingBox =  0,1.3, 4.7,  1.5, 1,0.87
 
-BoundingBox =  0,1.6,2.8, 2, 3, 0.8
+BoundingBox =  0,1.6,3.0, 2, 3, 0.8
 
-BoundingBox =  0,2, 0, 4, 2,0.85
+BoundingBox =  0,2, 0.0, 4, 2,0.85
 BoundingBox =  0,2, -4, 4, 2,1
 
 BoundingBox =  0.0, 2.3, -7,  3, 2,2
@@ -88,3 +89,5 @@ BoundingBox =  -4.8,2, -2, 4, 1,0.8
 
 AddFixedSearchLight =  0, 0, 0,  0,   0,    0, 0,  0,  0
 Sound = mig21_s
+
+unmountposition = 0,1.53,3.48
