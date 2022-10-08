@@ -1,4 +1,5 @@
 ﻿DisplayName = J-11B
+AddDisplayName = en_US, J-11B
 AddDisplayName = zh_CN, 歼11B
 ItemID = 6855
 MaxHp = 100
@@ -78,15 +79,21 @@ AddWeapon = PL-8, 9.39, 1.20, -12.44,   2.0, -3.0
 AddPartHatch =  0.00, 3.5784, -6.8482,  1,0,0, -43
 AddPartHatch =  0.00, 3.9204, -3.927,  1,0,0, 40
 
-BoundingBox =  0.00, 2.8, 4.8,  2.0, 2,0.5
-BoundingBox =  0.00, 3.3,  -4.5,  3.5, 2.0,1
-BoundingBox =  0.00, 3.1,  2.20,  2.2, 2.0,1
-BoundingBox =  0.00, 3.5,  -1.0,  3.5, 2,1
+BoundingBox =  0.00, 2.8, 3.5,  1.5, 1.5,0.5
+BoundingBox =  0.00, 3.3,  -5.0,  3.5, 2.0,1
+BoundingBox =  0.00, 3.1,  2.20,  1.5, 1.5,1
 BoundingBox =  0.00, 2.3,  -9.0, 4.5, 2.0,1.5
-BoundingBox =  0.00, 2.3,  -14.0, 4.5, 2.0,1.2
+BoundingBox =  0.00, 2.3,  -13.5, 4.5, 2.0,1.2
+BoundingBox =  0.00, 2.3,  -16.5, 4.5, 2.0,1.0
+
 
 BoundingBox =  4.37, 2.0, -10.47,  4.0, 1,1.2
 BoundingBox = -4.37, 2.0, -10.47,  4.0, 1,1.2
 
-BoundingBox =  3.2, 1.87, -16.64,  3, 1,0.9
-BoundingBox = -3.2, 1.87, -16.64,  3, 1,0.9
+BoundingBox =  7.27, 2.0, -12.47,  4.0, 1,1.2
+BoundingBox = -7.27, 2.0, -12.47,  4.0, 1,1.2
+
+BoundingBox =  3.5, 1.87, -16.64,  3, 1,1.0
+BoundingBox = -3.5, 1.87, -16.64,  3, 1,1.0
+
+unmountposition = 0.00, 1.54, 0.00

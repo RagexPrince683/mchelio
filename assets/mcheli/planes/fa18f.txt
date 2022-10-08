@@ -1,4 +1,5 @@
 DisplayName = F/A-18F
+AddDisplayName = en_US, F/A-18F
 AddDisplayName = ja_JP, F/A-18Fスーパーホーネット
 ItemID = 28715
 MaxHp = 100
@@ -62,8 +63,29 @@ AddRecipe = " XP",  "GXX",  " XP",  X,iron_block, G,redstone_block, P,furnace
 AddPartWing =  4.91, 1.89, -5.14,  0,0,1,  90
 AddPartWing = -4.91, 1.89, -5.14,  0,0,1, -90
 
-BoundingBox =  0.00, 1.60, -1.00,  3.0, 1.8
-BoundingBox =  0.00, 1.60, -4.50,  3.0, 1.8
-BoundingBox =  0.00, 1.60, -8.00,  3.0, 1.8
-BoundingBox = -2.92, 1.70, -5.00,  3.0, 0.6
-BoundingBox =  2.92, 1.70, -5.00,  3.0, 0.6
+BoundingBox =  0.00, 1.82,  4.60,  1.0, 1.0
+BoundingBox =  0.00, 2.05,  3.60,  1.2, 1.4
+;BoundingBox =  0.00, 2.25,  4.00,  1.2, 1.8
+BoundingBox =  0.00, 2.25,  -2.85,  1.2, 1.8
+BoundingBox =  0.00, 2.20,  -1.80,  1.3, 1.7
+BoundingBox =  0.00, 2.20,  -1.40,  1.3, 1.7
+;BoundingBox =  0.00, 1.90, -1.75,  3.0, 1.7
+BoundingBox =  0.00, 1.90, -2.05,  3.0, 1.7
+BoundingBox =  0.00, 1.95, -5.05,  3.0, 1.6
+BoundingBox =  0.00, 1.50, -7.85,  3.0, 1.6
+BoundingBox =  0.00, 1.50, -9.45,  3.0, 1.6
+
+
+BoundingBox =  3.30, 1.60, -5.15,  3.5, 0.5
+BoundingBox = -3.30, 1.60, -5.15,  3.5, 0.5
+
+BoundingBox =  5.80, 1.60, -5.35,  3.0, 0.5
+BoundingBox = -5.80, 1.60, -5.35,  3.0, 0.5
+
+BoundingBox =  2.40, 1.70, -10.95,  3.0, 0.4
+BoundingBox =  -2.40, 1.70, -10.95,  3.0, 0.4
+
+BoundingBox =  1.25, 3.88, -8.80,  1.4, 3.0
+BoundingBox =  -1.25, 3.88, -8.80,  1.4, 3.0
+
+unmountposition = 0.00,  1.55,  2.20

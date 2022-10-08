@@ -1,4 +1,5 @@
 ﻿DisplayName = J8 II
+AddDisplayName = en_US, J8 II
 AddDisplayName = ja_JP, J8 II
 ItemID = 25547
 MaxHp = 100
@@ -61,9 +62,44 @@ AddWeapon = pl-9,    -3.3858, 2.2826, -11.1230,   0.0, -1.0
 AddWeapon = targeting_pod_ph50s,   0.0, 3.1,-0.6,    0.0, 0.0
 
 
-BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
-BoundingBox =  0.00, 1.90, -7.60,  3.5, 2.0
-BoundingBox = -3.8, 0.80, -6.80,  3.8, 1.0
-BoundingBox =  3.8, 0.80, -6.80,  3.8, 1.0
-BoundingBox =  0.00, 2.70, -11.8,  3.0, 3.0
-BoundingBox =  0.00, 1.20, 1.60,  1.5, 1.5
+BoundingBox =  0.00, 2.70, 1.60,  1.5, 2.5
+
+BoundingBox =  0.00, 3.30, -2.80,  3.0, 3.3
+BoundingBox =  0.00, 3.30, -5.80,  3.0, 3.3
+BoundingBox =  0.00, 3.30, -8.80,  3.0, 3.3
+
+
+
+BoundingBox =  0.00, 3.30, -11.8,  3.0, 3.3
+BoundingBox =  0.00, 3.20, -14.8,  3.0, 3.0
+BoundingBox =  0.00, 3.20, -17.8,  3.0, 3.0
+BoundingBox =  0.00, 3.20, -20.8,  3.0, 3.0
+BoundingBox =  0.00, 3.20, -22.4,  3.0, 3.0
+
+
+BoundingBox =  0.00, 6.20, -21.8,  3.0, 3.0
+
+BoundingBox =  0.00, 6.20, -23.4,  3.0, 3.0
+
+
+BoundingBox =  1.70, 3.20, -22.4,  3.0, 0.5
+BoundingBox =  -1.70, 3.20, -22.4,  3.0, 0.5
+
+BoundingBox =  2.70, 3.20, -23.4,  3.0, 0.5
+BoundingBox =  -2.70, 3.20, -23.4,  3.0, 0.5
+
+BoundingBox =  4.90, 3.20, -25.4,  3.0, 0.5
+BoundingBox =  -4.90, 3.20, -25.4,  3.0, 0.5
+
+
+
+
+BoundingBox = -5.7, 2.50, -14.80,  5.5, 1.0
+BoundingBox =  5.7, 2.50, -14.80,  5.5, 1.0
+
+BoundingBox = -4.5, 2.50, -14.80,  5.5, 1.0
+BoundingBox =  4.5, 2.50, -14.80,  5.5, 1.0
+
+
+UnmountPosition = 0.0, 1.58, 0.00
+

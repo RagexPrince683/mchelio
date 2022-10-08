@@ -1,6 +1,16 @@
 DisplayName = Little Boy
 Type = Nuke
-Power = 50
+;50 is equivelent to 82m in width
+;50*1.64=82m
+;82m/1.64=50
+;little boy was 1287.48m wide
+;I corrupted a world for this...
+;785.04
+;785=868m block damage
+;540m actually...
+;540/1.64
+
+Power = 329
 Acceleration = 0.1
 Sight = None
 Sound = bomb_snd

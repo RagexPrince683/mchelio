@@ -1,4 +1,5 @@
 ﻿DisplayName = F-14D Tomcat
+AddDisplayName = en_US, F-14D Tomcat
 AddDisplayName = ja_JP, F-14D トムキャット
 ItemID = 30000
 MaxHp = 100
@@ -68,11 +69,25 @@ AddWeapon = gbu12,    0.59, 0.97, -1.65, 0.0, 0.0, true, 2
 
 AddWeapon = targeting_pod_ph50s,   0.0, 2.7, 0.1,    0.0, 0.0, true,  2
 
-BoundingBox =  0.00, 1.60, -2.50,  3.0, 1.8
+BoundingBox =  0.00, 1.80, -3.50,  3.0, 1.8
 BoundingBox =  0.00, 1.50, -5.50,  3.0, 2.0
 BoundingBox =  0.00, 1.40, -8.50,  3.0, 2.2
 BoundingBox =  0.00, 1.50,-11.50,  3.0, 2.0
 BoundingBox = -2.92, 2.00, -7.00,  3.0, 1.0
 BoundingBox =  2.92, 2.00, -7.00,  3.0, 1.0
+
+BoundingBox = -2.72, 1.60, -12.30,  2.3, 0.7
+BoundingBox =  2.72, 1.60, -12.30,  2.3, 0.7
+
+BoundingBox =  1.51, 3.18, -12.80,  1.0, 3.0
+BoundingBox =  -1.51, 3.18, -12.80,  1.0, 3.0
+
+BoundingBox = -5.52, 2.00, -7.30,  2.5, 0.7
+BoundingBox =  5.52, 2.00, -7.30,  2.5, 0.7
+
+BoundingBox = -7.72, 2.00, -7.70,  2.0, 0.5
+BoundingBox =  7.72, 2.00, -7.70,  2.0, 0.5
+
+unmountposition = 0.00, 1.50, 0.49
 
 DamageFactor = 0.8

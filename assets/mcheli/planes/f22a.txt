@@ -1,4 +1,5 @@
 DisplayName = F-22A Raptor
+AddDisplayName = en_US, F-22A Raptor
 AddDisplayName = ja_JP, F-22A ラプター
 ItemID = 28726
 MaxHp = 100
@@ -95,8 +96,23 @@ AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.0,    0.0, 0.0
 
 AddRecipe = " Y ",  "XXX",  "DXD",  X, iron_block, Y, glass, D, diamond_block
 
-BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
-BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0
-BoundingBox = -2.92, 2.20, -9.60,  4.0, 1.0
-BoundingBox =  2.92, 2.20, -9.60,  4.0, 1.0
-BoundingBox =  0.00, 1.80, -11.8,  3.0, 1.5
+BoundingBox =  0.00, 1.90, -3.10,  3.0, 2.0
+BoundingBox =  0.00, 1.90, -6.60,  4.0, 2.0
+BoundingBox =  0.00, 1.90, -9.60,  4.0, 2.0
+BoundingBox =  0.00, 1.90, -12.60,  4.0, 2.0
+
+BoundingBox =  1.95, 3.88, -12.00,  1.8, 3.0
+BoundingBox =  -1.95, 3.88, -12.00,  1.8, 3.0
+
+
+BoundingBox = -4.30, 2.19, -10.02,  4.8, 1.0
+BoundingBox =  4.30, 2.19, -10.02,  4.8, 1.0
+BoundingBox =  0.00, 2.20, -9.80,  3.0, 1.0
+
+;BoundingBox = -4.82, 2.20, -8.00,  2.5, 1.0
+;BoundingBox =  4.82, 2.20, -8.00,  2.5, 1.0
+
+BoundingBox = -3.02, 2.20, -14.60,  2.5, 1.0
+BoundingBox =  3.02, 2.20, -14.60,  2.5, 1.0
+
+unmountposition = 0.00,  1.52,  0.32
