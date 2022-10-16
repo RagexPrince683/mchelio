@@ -1,4 +1,4 @@
-DisplayName =23mm
+DisplayName = 23mm Auto Cannon
 Type = MachineGun2
 ModelBullet = bullet
 Power = 10
@@ -27,6 +27,17 @@ SetCartridge = cartridge, 0.2, 0.1, -0.1, 2.00, -0.04, 0.40
 ; Gravity      : 重力の強さ
 ; Bound        : ブロックにぶつかった時の跳ね返りの強さ
 AddTexture = red
+
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 23mm Auto Cannon
+SoundVolume = 15
+
 
 
 AddMuzzleFlash      =  0,      0.62,        0,  150,254,159,84

@@ -1,4 +1,4 @@
-DisplayName = 9„M117 „K„p„ƒ„„„u„„ [ATGM]
+DisplayName = 9M117 [ATGM]
 Type = TVMissile
 Power = 750
 Acceleration = 2.0
@@ -12,6 +12,23 @@ Round = 4
 ModelBullet = 9M113
 Sound = missile_1_snd
 ModeNum = 2
+
+Delay = 40
+ReloadTime = 200
+Group = MainGun
+;Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Piercing = 0
+;Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 9M117 [ATGM]
+SoundVolume = 15
+
 
 MaxAmmo = 1
 SuppliedNum = 1

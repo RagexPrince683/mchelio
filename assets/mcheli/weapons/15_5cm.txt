@@ -1,7 +1,7 @@
 DisplayName = 15.5cm Type91[AP]
 Type = MachineGun1
 ModelBullet = 91ap_15_5
-Power = 60
+Power = 500
 Acceleration = 5.7
 Explosion = 5
 ExplosionBlock = 3
@@ -17,10 +17,22 @@ SoundDelay = 4
 SoundPitch = 0.3
 Sound = cannon_1_snd
 
-DamageFactor = tank, 3.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+Delay = 15
+ReloadTime = 125
+Group = MainGun
+;Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Piercing = 0
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 15.5cm Type91[AP]
+SoundVolume = 15
+
 
 MaxAmmo = 60
 SuppliedNum = 20

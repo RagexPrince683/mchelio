@@ -1,6 +1,6 @@
-DisplayName = 社会主义 100MM GUN [APFSDS]
+DisplayName = 100mm Cannon [APFSDS]
 Type = MachineGun1
-Power = 120
+Power = 335
 ModelBullet = bullet105mm
 Acceleration = 8.2
 Explosion = 2
@@ -16,6 +16,21 @@ Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Group = MainGun
 Recoil = 2.5
+
+Delay = 90
+ReloadTime = 120
+Group = MainGun
+Acceleration = 7.0
+Piercing = 5
+Accuracy = 0.0
+DamageFactor = tank, 10.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
+AddDisplayName = en_US, 100mm Cannon [APFSDS]
+SoundVolume = 15
+
 
 AddMuzzleFlash      =  9.3,      2.10,        7,  220,254,159,74
 AddMuzzleFlash      =  9.2,      2.05,        6,  220,254,219,104

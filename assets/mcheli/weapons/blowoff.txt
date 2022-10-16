@@ -7,8 +7,23 @@ ExplosionInWater = 0
 Flaming = false
 Sight = None
 Delay = 20
+
+;Delay = 10
+;Power = 0
+;Accuracy = 0
+;Flaming = false
+ModelBullet = 0_none
+Particle = none
+;SoundVolume = 15.0
+;SoundPitchRandom = 0
+Gravity = -9
+;AddDisplayName = en_US,
+;SoundVolume = 15
+
+
+
 ReloadTime = 0
 Particle = largesmoke
 TimeFuse = 1
-ModelBullet = dummy
+;ModelBullet = dummy
 Sound = blowoff

@@ -1,4 +1,4 @@
-DisplayName = 90 mm Gun M3
+DisplayName = 90mm Gun M3
 Type = MachineGun2
 Power = 190
 ModelBullet = bullet105mm
@@ -15,6 +15,8 @@ Accuracy = 1.5
 Gravity = -0.02
 Sound = cannon_4_snd
 Recoil = 1.5
+
+
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  7.1,      1.75,        6,  200,254,219,104

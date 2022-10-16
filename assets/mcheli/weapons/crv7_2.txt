@@ -1,6 +1,6 @@
 DisplayName = CRV7 Rocket
 Type = Rocket
-Power = 40
+Power = 140
 ModelBullet = crv7
 Acceleration = 5.0
 Explosion = 3
@@ -13,10 +13,18 @@ Round = 19
 ModeNum = 2
 Piercing  = 2
 
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Piercing = 0
+Accuracy = 0.0
 DamageFactor = tank, 1.5
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
+SoundVolume = 15
 
 MaxAmmo = 38
 SuppliedNum = 19

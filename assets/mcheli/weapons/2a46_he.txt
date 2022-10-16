@@ -26,3 +26,20 @@ MaxAmmo = 40
 SuppliedNum = 1
 Item =  1, iron_ingot
 Item =  1, gunpowder
+
+Delay = 165
+ReloadTime = 165
+Group = MainGun
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+ModelBullet = bullet105mm
+Piercing = 0
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+SoundVolume = 15
+AddDisplayName = en_US, 2A46 Smoothbore Gun[HE]
+

@@ -13,6 +13,17 @@ SoundPitch = 1.0
 Sound = gun_h1_snd
 Accuracy = 2.0
 
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US, 
+SoundVolume = 15
+
+
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
 MaxAmmo = 320

@@ -1,4 +1,4 @@
-DisplayName =  122mm Rocket
+DisplayName = 122mm Rocket
 Type = Rocket
 Power = 400
 ModelBullet = agm130
@@ -13,6 +13,23 @@ Round = 40
 Gravity = -0.03
 
 DisplayMortarDistance = true
+
+Delay = 8
+ReloadTime = 280
+Group = MainGun
+;Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Piercing = 0
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 122mm Rocket
+SoundVolume = 15
+
 
 
 AddMuzzleFlash      =  2.2,      1.80,        8,  200,254,129,44

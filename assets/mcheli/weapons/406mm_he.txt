@@ -15,12 +15,23 @@ SoundPitch = 0.15
 SoundVolume = 60
 Sound = ww2tankshot_snd
 Gravity = -0.05
-DamageFactor = helicopter, 1.0
-DamageFactor = plane,      1.0
-DamageFactor = vehicle,    1.0
-DamageFactor = tank,       1.0
 Group = MainGun
 Recoil = 0.406
+
+Delay = 100
+ReloadTime = 406
+Group = MainGun
+Acceleration = 6.0
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Accuracy = 0.0
+DamageFactor = tank, 2.5
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 406mm Artillery Grenade [AP]
+SoundVolume = 15
 
 ; AddMuzzleFlash = distance, size, life time,  A,  R,  G,  B
 AddMuzzleFlash      =           13,   3.10,        27,  220,254,159,74

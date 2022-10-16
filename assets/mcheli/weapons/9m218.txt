@@ -17,6 +17,22 @@ ModelBullet = m30
 Group = Rocket
 recoil = 0.5
 
+Delay = 2
+ReloadTime = 1400
+Group = MainGun
+;Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Piercing = 0
+;Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 9M218
+SoundVolume = 15
+
 
 ;Bomblet = 10
 ;BombletDiff = 0.3

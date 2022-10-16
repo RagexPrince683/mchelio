@@ -1,4 +1,4 @@
-DisplayName = 7_62mmGun
+DisplayName = 7.62mm Gun
 Type = MachineGun1
 Power = 7
 Acceleration = 9.0
@@ -22,3 +22,6 @@ MaxAmmo = 4500
 SuppliedNum = 500
 Item =  2, iron_ingot
 Item =  2, gunpowder
+
+AddDisplayName = en_US, 7.62mm Gun
+Acceleration = 7.0

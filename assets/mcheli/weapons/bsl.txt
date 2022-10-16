@@ -1,2 +1,0 @@
-DisplayName = C for Searchlights
-Type = Dummy

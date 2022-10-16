@@ -1,4 +1,4 @@
-DisplayName = 155MM Howitzer Gun [ƽ�䵯]
+DisplayName = 155mm Howitzer Gun [ERFB-BB/HE]
 Type = MachineGun2
 Power = 270
 ModelBullet = bullet105mm
@@ -15,8 +15,24 @@ Recoil = 1.5
 Delay = 150
 CameraRotationSpeedPitch = 0.6
 
+Delay = 150
+ReloadTime = 150
+Group = MainGun
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+ModelBullet = bullet105mm
+Piercing = 0
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 155mm Howitzer Gun [ERFB-BB/HE]
+SoundVolume = 15
 
-DamageFactor = tank, 3.5
+
+
 
 AddMuzzleFlash      =  12,      2.10,        16,  200,254,129,44
 AddMuzzleFlash      =  12,      2.05,        10,  200,254,219,104

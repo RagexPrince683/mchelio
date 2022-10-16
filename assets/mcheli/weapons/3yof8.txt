@@ -1,4 +1,4 @@
-DisplayName = 3„T„O„U8 30„}„} [HEI-T]
+DisplayName = 2a42 Cannon 3UOR6 30mm [HE-T]
 Type = MachineGun1
 Power = 18
 Acceleration = 5.0
@@ -21,4 +21,15 @@ MaxAmmo = 100
 SuppliedNum = 50
 Item =  2, iron_ingot
 Item =  2, gunpowder
+
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 2a42 Cannon 3UOR6 30mm [HE-T]
+SoundVolume = 15
+
 

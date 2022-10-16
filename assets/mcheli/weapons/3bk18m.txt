@@ -1,4 +1,5 @@
-DisplayName =3BK18M
+DisplayName = 3BK18M
+AddDisplayName = en_US, 3BK18M [HEAT-FS]
 Type = MachineGun2
 Power = 550
 ModelBullet =3bk18m
@@ -9,7 +10,7 @@ Flaming = false
 Sight = None
 Delay = 150
 SoundPitch = 1
-SoundVolume = 20
+SoundVolume = 15
 Sound = t80gs
 Gravity = -0.0048
 DisplayMortarDistance = true
@@ -19,3 +20,19 @@ MaxAmmo = 10
 SuppliedNum = 10
 Item =  3, iron_ingot
 Item =  2, gunpowder
+
+Delay = 150
+ReloadTime = 150
+Group = MainGun
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+ModelBullet = bullet105mm
+Piercing = 0
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+

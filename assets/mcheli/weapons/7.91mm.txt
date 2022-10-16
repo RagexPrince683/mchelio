@@ -31,3 +31,6 @@ MaxAmmo = 100
 SuppliedNum = 100
 Item =   10, iron_ingot
 Item =  5, gunpowder
+
+AddDisplayName = en_US, 7.91mm MG34
+Acceleration = 7.0

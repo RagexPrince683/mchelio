@@ -8,7 +8,7 @@ Sight = MoveSight
 Delay = 0
 SoundDelay = 6
 SoundPitch = 2
-Accuracy = 3.0
+Accuracy = 2.0
 HeatCount = 1
 MaxHeatCount = 150
 Sound = 2k22c
@@ -39,3 +39,14 @@ MaxAmmo = 1600
 SuppliedNum = 400
 Item =  5, iron_ingot
 Item =  5, gunpowder
+
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+SoundVolume = 15
+AddDisplayName = en_US, 2A38 [30mmCannon]
+

@@ -17,6 +17,15 @@ Round = 1
 TimeFuse = 500
 Sound = type91torpedo_snd
 
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 26DA Torpedo
+
+
 MaxAmmo = 4
 SuppliedNum = 1
 Item =  2, iron_ingot

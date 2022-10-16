@@ -1,4 +1,4 @@
-DisplayName = 9ÑM14 ÑMÑpÑ|ÑêÑÑÑ{Ñp [ATGM]
+DisplayName = 9M14 [ATGM TV]
 Type = TVMissile
 Power = 400
 Acceleration = 2.0
@@ -6,12 +6,26 @@ Piercing = 2
 Explosion = 3
 Flaming = false
 Sight = MoveSight
-ReloadTime = 200
-Delay = 40
 Round = 4
 ModelBullet = 9M113
 Sound = missile_1_snd
 ModeNum = 2
+
+Delay = 40
+ReloadTime = 200
+Group = MainGun
+;Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Piercing = 0
+;Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 9M14 [ATGM TV]
+SoundVolume = 15
 
 MaxAmmo = 1
 SuppliedNum = 1

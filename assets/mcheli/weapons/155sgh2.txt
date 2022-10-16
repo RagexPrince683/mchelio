@@ -1,10 +1,10 @@
-DisplayName = 155MM Howitzer Gun [∆’Õ®µØ]
-Type = MachineGun2
-Power = 310
+DisplayName = 155mm Howitzer Gun [Canister]
+Type = Rocket
+Power = 100
 ModelBullet = bullet105mm
 Acceleration = 5.6
-Explosion = 15
-ExplosionBlock = 12
+Explosion = 10
+ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
 Piercing  = 1
@@ -13,8 +13,34 @@ SoundVolume = 20
 Sound = cannon_1_snd
 Recoil = 1.5
 Delay = 85
-Gravity = -0.18
-DamageFactor = tank, 3.5
+Gravity = -0.050
+
+Bomblet = 15
+BombletSTime = 20
+BombletDiff = 1.0
+ModelBomblet = bullet
+
+
+Delay = 150
+ReloadTime = 150
+Group = MainGun
+Acceleration = 2.7
+;ratio time
+;0.05/2.7
+;2.7*0.0185
+;brain broke please try again later
+;Acceleration = 0.05 no
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Piercing = 0
+Accuracy = 0.0
+;DamageFactor = tank, 2.0
+;DamageFactor = plane, 4.5
+;DamageFactor = vehicle 4.5
+;DamageFactor = heli, 4.5
+;DamageFactor = player, 20.0
+;AddDisplayName = en_US, 155mm Howitzer Gun [ERFB/HE]
+SoundVolume = 15
 
 
 DisplayMortarDistance = true
@@ -23,6 +49,8 @@ FixCameraPitch = true
 
 CameraRotationSpeedPitch = 0.6
 
+
+DisableSmoke = true
 
 
 AddMuzzleFlash      =  12,      2.10,        16,  200,254,129,44

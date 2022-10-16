@@ -12,6 +12,18 @@ BombletSTime = 20
 BombletDiff = 1.2
 Sound = bomb_snd
 
+Acceleration = 0.5
+;Explosion = 25
+;Explosive mass	125 kg
+;Power = 500
+;ExplosionBlock = 2
+;ExplosionInWater = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 ModelBullet = cbu87
 ModelBomblet = cbc
 

@@ -1,5 +1,5 @@
 DisplayName = AGM-65 Maverick
-Type = ASMissile
+Type = TVMissile
 Power = 1000
 Acceleration = 4.0
 Explosion = 6
@@ -8,6 +8,20 @@ Sight = MoveSight
 Delay = 110
 ModelBullet = agm65e
 Sound = missile_2_snd
+
+;Acceleration = 0.5
+Explosion = 9
+;Explosive mass	50 kg kg
+;Power = 1080
+ExplosionBlock = 5
+ExplosionInWater = 0
+ModeNum = 2
+DamageFactor = tank, 2.0
+DamageFactor = plane, 2.0
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 Round = 2
 MaxAmmo = 4

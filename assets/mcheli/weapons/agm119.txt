@@ -1,17 +1,20 @@
 DisplayName = AGM-119B Penguin
-Type = ASMissile
+Type = TVMissile
 Power = 1000
 Acceleration = 4.0
-Explosion = 9
+Explosion = 20
+ExplosionBlock = 10
 Flaming = true
 Sight = MoveSight
 Delay = 350
 Sound = missile_2_snd
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 MaxAmmo = 4
 SuppliedNum = 1

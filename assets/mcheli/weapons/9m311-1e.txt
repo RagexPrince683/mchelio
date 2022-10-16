@@ -1,4 +1,4 @@
-DisplayName = 9„M311 „S„‚„u„…„s„€„|„Ž„~„y„{
+DisplayName = 9M311
 Type = AAMissile
 Power = 56
 Acceleration = 4

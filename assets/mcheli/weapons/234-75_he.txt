@@ -15,10 +15,23 @@ SoundPitch = 1.0
 SoundVolume = 10
 Sound = cannon_2_snd
 Gravity = -0.05
-DamageFactor = helicopter, 1.0
-DamageFactor = plane,      1.0
-DamageFactor = vehicle,    1.0
-DamageFactor = tank,       1.0
+
+Delay = 60
+ReloadTime = 20
+Group = MainGun
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Piercing = 0
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 75mm Shell [HE]
+SoundVolume = 15
+
 
 Recoil = 0.02
 

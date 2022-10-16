@@ -1,4 +1,4 @@
-DisplayName = 155mmgun
+DisplayName = 155mm Cannon
 Type = MachineGun2
 Power = 100
 ModelBullet = bullet155mm
@@ -14,6 +14,22 @@ SoundPitch = 0.7
 SoundVolume = 20
 Sound = cannon_1_snd
 Recoil = 2.0
+
+Delay = 50
+ReloadTime = 150
+Group = MainGun
+Acceleration = 6.0
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Accuracy = 0.0
+DamageFactor = tank, 2.5
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 155mm Cannon
+SoundVolume = 15
+
 
 RecoilBufCount = 25, 5
 

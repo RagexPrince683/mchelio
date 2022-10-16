@@ -1,4 +1,4 @@
-DisplayName = 12.7cm Right
+DisplayName = 12.7cm Gun Right
 Type = MachineGun2
 Power = 80
 ModelBullet = bullet76mm
@@ -14,10 +14,21 @@ MaxHeatCount = 80
 SoundVolume = 0.6
 Sound = cannon_1_snd
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+Delay = 10
+ReloadTime = 150
+Group = MainGun
+Acceleration = 7.0
+;BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Piercing = 0
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 12.7cm Gun Right
+SoundVolume = 15
 
 
 MaxAmmo = 120

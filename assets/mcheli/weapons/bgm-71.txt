@@ -1,14 +1,28 @@
 ﻿DisplayName = BGM-71
 Type = TVMissile
 Power = 900
-Acceleration = 1
+Acceleration = 2
 Explosion = 5
 Flaming = false
 Sight = MoveSight
 Delay = 100
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+
+
+Delay = 100
+ReloadTime = 200
+;Group = MainGun
+;Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Piercing = 0
+;Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 2.0
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
+SoundVolume = 15
+
 ModeNum = 2

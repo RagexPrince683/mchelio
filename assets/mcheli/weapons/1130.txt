@@ -1,7 +1,7 @@
 DisplayName = H/PJ-11 30mm Gun
 Type = MachineGun1
 Power = 42
-Acceleration = 10.0
+Acceleration = 7.0
 Explosion = 0
 ExplosionBlock = 1
 Flaming = false
@@ -14,6 +14,7 @@ Sound = gun_h5_snd
 Accuracy = 2.0
 HeatCount = 1
 MaxHeatCount = 650
+SoundVolume = 15
 
 SetCartridge = cartridge, -0.5,  0.00, -25, 3.50, -0.04, 0.60
 

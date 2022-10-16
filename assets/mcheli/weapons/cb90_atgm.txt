@@ -1,4 +1,4 @@
-DisplayName = TV-Guided ATGM
+DisplayName = AGM-114 Hellfire ATGM
 Type = TVMissile
 Power = 1000
 Acceleration = 2.0

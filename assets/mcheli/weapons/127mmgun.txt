@@ -1,4 +1,4 @@
-DisplayName = OtoMelara127mm gun
+DisplayName = Oto Melara 127mm gun
 Type = MachineGun2
 Power = 40
 ModelBullet = bullet76mm
@@ -15,6 +15,22 @@ SoundVolume = 1.6
 SetCartridge = cartridge, 0.4,  0, 0, 7.50, -0.04, 0.40
 Sound = cannon_1_snd
 ProximityFuseDist = 2
+
+
+ReloadTime = 150
+Group = MainGun
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Piercing = 0
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, Oto Melara 127mm gun
+SoundVolume = 15
 
 AddMuzzleFlash      = 8.1,      0.85,        1,  150,254,219,154
 AddMuzzleFlash      = 8.0,      0.80,        1,  150,254,219,184

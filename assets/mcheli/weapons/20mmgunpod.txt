@@ -1,4 +1,4 @@
-DisplayName = 20mmGunpod
+DisplayName = 20mm Gunpod
 Type = MachineGun1
 Power = 17
 Acceleration = 8.0
@@ -13,6 +13,17 @@ SoundPitch = 0.8
 Accuracy = 1.7
 SoundVolume = 2
 Sound = gun_h4_snd
+
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 20mm Gunpod
+SoundVolume = 15
+
 
 AddMuzzleFlash      =  1.6,      0.42,        4,  170,254,159,84
 AddMuzzleFlash      =  1.5,      0.40,        3,  150,254,219,184

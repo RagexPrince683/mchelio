@@ -1,4 +1,4 @@
-DisplayName = 2A72 30mmGun
+DisplayName = 2A72 30mm Gun
 Type = MachineGun2
 Power = 65
 Acceleration = 6.0
@@ -24,3 +24,13 @@ MaxAmmo = 1200
 SuppliedNum = 200
 Item =  2, iron_ingot
 Item =  2, gunpowder
+
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+SoundVolume = 15
+AddDisplayName = en_US, 2A72 30mm Gun
