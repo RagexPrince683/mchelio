@@ -1,4 +1,4 @@
-DisplayName = ÖÞ¼Êµ¯µÀµ¼µ¯
+DisplayName = DF-41 Thermonuclear Warhead
 Type = ATMissile
 Power = 41000
 Acceleration = 3.5
