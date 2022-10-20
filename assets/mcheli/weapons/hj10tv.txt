@@ -1,6 +1,6 @@
-DisplayName = ºì¼ý 10
+DisplayName = HJ-10
 Type = TVMissile
-Power = 1000
+Power = 850
 Acceleration = 2.0
 Explosion = 6
 Flaming = true
@@ -17,6 +17,11 @@ DamageFactor = heli, 3.0
 
 ;DEBUG:Manual control only
 FixMode = 2
+
+Delay = 35
+ReloadTime = 100
+;Group = MainGun
+;Acceleration = 7.0
 
 
 

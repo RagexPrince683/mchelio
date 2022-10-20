@@ -17,6 +17,19 @@ Gravity = -0.01
 DisableSmoke = true
 Piercing  = 1
 
+;bomb rewrite
+;Acceleration = 0.5
+Explosion = 100
+;Explosive mass	269.9*5 kg kg
+Power = 5080
+ExplosionBlock = 15
+ExplosionInWater = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 MaxAmmo = 2
 SuppliedNum = 1
 Item =  1, iron_ingot

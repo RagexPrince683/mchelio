@@ -1,2 +1,2 @@
-DisplayName = …•½”ö—ƒ‰º‚°
+DisplayName = Stabilizer Down
 Type = Dummy

@@ -1,4 +1,4 @@
-DisplayName = KD-88Ô¶³Ì¿ÕµØµ¼µ¯
+DisplayName = KD-88
 Type = ASMissile
 Power = 1000
 Acceleration = 3.2
@@ -28,10 +28,12 @@ TrajectoryParticle = largesmoke
 
 
 
-DamageFactor = plane, 3.5
-DamageFactor = tank, 3.5
-DamageFactor = heli, 3.5
-DamageFactor = vehicle,3.5
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 MaxAmmo = 2
 SuppliedNum = 2

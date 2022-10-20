@@ -16,6 +16,19 @@ DamageFactor = heli, 10
 DamageFactor = tank, 2
 DamageFactor =vehicle , 4
 
+Acceleration = 0.5
+Explosion = 28
+;Explosive mass	269.9/around 2 kg kg
+Power = 540
+ExplosionBlock = 5
+ExplosionInWater = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+
 Round = 8
 MaxAmmo = 8
 SuppliedNum = 1

@@ -13,6 +13,17 @@ SoundPitch = 0.6
 Sound = gun_l2_snd
 Accuracy = 0.8
 
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
+SoundVolume = 15
+
+
 MaxAmmo = 1200
 SuppliedNum = 200
 Item =  2, iron_ingot

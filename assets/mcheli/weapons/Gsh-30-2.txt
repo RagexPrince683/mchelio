@@ -1,4 +1,4 @@
-DisplayName = GSh-30-2 30mm
+DisplayName = GSh-30-2 30mm Machine Gun
 Type = MachineGun1
 Power = 60
 Acceleration = 5.0
@@ -13,6 +13,16 @@ MaxHeatCount = 300
 ReloadTime =100
 Round = 3000
 Sound = mig21_30mm
+
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+;DamageFactor = plane, 1.5
+;DamageFactor = vehicle, 1.5
+;DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
+SoundVolume = 15
 
 MaxAmmo = 3000
 SuppliedNum = 0

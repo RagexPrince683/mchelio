@@ -1,6 +1,6 @@
-DisplayName = Kh-59ME远程防区外空地导弹
+DisplayName = Kh-59ME
 Type = ASMissile
-Power = 1000
+Power = 520
 Acceleration = 3.2
 Explosion = 20
 Flaming = true

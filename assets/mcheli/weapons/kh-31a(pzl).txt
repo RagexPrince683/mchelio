@@ -1,8 +1,11 @@
 DisplayName = Kh-31A
 Type = ASMissile
-Power = 1000
+Power = 230
 Acceleration = 4.0
-Explosion = 10
+;Explosion = 10
+Explosion = 8
+ExplosionBlock = 2
+ExplosionInWater = 0
 Flaming = true
 Sight = MoveSight
 Delay = 200

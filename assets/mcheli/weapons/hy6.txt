@@ -1,4 +1,4 @@
-DisplayName = ∫Ï”ß 6
+DisplayName = HY-6
 Type = AAMissile
 Power = 52
 Acceleration = 3

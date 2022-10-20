@@ -1,4 +1,4 @@
-DisplayName = GBU-12 PavewayII
+DisplayName = GBU-12 Paveway II
 Type = ASMissile
 Power = 1000
 Acceleration = 1.3
@@ -14,6 +14,18 @@ Sound = bomb_snd
 ModelBullet = egbu-24
 Gravity = -0.001
 DisableSmoke = true
+
+;Acceleration = 0.5
+Explosion = 25
+;Explosive mass	269.9/around 2 kg kg
+Power = 540
+ExplosionBlock = 5
+ExplosionInWater = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 MaxAmmo = 4
 SuppliedNum = 2

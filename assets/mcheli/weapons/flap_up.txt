@@ -1,2 +1,2 @@
-DisplayName = ƒtƒ‰ƒbƒvŽû”[
+DisplayName = Flap Up
 Type = Dummy

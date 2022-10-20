@@ -8,7 +8,7 @@ Delay = 1
 SoundVolume = 4
 SoundPitch = 1.0
 Sound = m3m_H
-Accuracy = 0.5
+Accuracy = 0.8
 HeatCount = 1
 MaxHeatCount = 250
 

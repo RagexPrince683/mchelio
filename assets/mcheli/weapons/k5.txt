@@ -1,4 +1,4 @@
-DisplayName = k5
+DisplayName = K-5
 Type = Rocket
 Power = 150
 ModelBullet = hydra70

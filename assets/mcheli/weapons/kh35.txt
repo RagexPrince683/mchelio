@@ -1,10 +1,10 @@
 DisplayName = Kh-35
 Type = TVMissile
-Power = 1000
+Power = 320
 Acceleration = 2.5
-Explosion = 16
-ExplosionBlock = 8
-ExplosionInWater = 7
+Explosion = 8
+ExplosionBlock = 2
+ExplosionInWater = 0
 Flaming = true
 Sight = MoveSight
 Delay = 100
