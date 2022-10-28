@@ -1,6 +1,6 @@
-DisplayName = Kh-59ME远程防区外空地导弹
+DisplayName = Kh-59ME
 Type = ASMissile
-Power = 1000
+Power = 720
 Acceleration = 3.2
 Explosion = 20
 Flaming = true
@@ -26,12 +26,15 @@ TrajectoryParticle = largesmoke
 
 
 
+ExplosionBlock = 5
+ExplosionInWater = 0
 
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 MaxAmmo = 2
 SuppliedNum = 2

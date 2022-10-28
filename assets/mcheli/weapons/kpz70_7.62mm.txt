@@ -1,7 +1,7 @@
 DisplayName = 7.62mm MG3A1 gun
 Type = MachineGun1
 Power = 10
-Acceleration = 8.0
+Acceleration = 7.5
 Explosion = 0
 Flaming = false
 Sight = MoveSight
