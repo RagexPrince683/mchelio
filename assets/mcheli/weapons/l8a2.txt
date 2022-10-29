@@ -1,4 +1,4 @@
-DisplayName =L8A2
+DisplayName = L8A2
 Type = MachineGun2
 Power = 5
 Acceleration = 8.0

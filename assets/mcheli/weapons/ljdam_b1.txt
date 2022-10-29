@@ -1,8 +1,9 @@
 DisplayName = GBU-54 LJDAM
 Type = ASMissile
-Power = 1000
+Power = 500
 Acceleration = 2
-Explosion = 7
+Explosion = 25
+ExplosionBlock = 2
 ExplosionInWater = 0
 Flaming = false
 Sight = MoveSight
@@ -15,6 +16,16 @@ Sound = bomb_snd
 ModelBullet = mk82_b
 Gravity = -0.02
 DisableSmoke = true
+
+Piercing = 0
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+SoundVolume = 15
 
 MaxAmmo = 6
 SuppliedNum = 3

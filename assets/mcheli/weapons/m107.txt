@@ -3,7 +3,7 @@ Type = MachineGun1
 Power = 500
 ModelBullet = bullet105mm
 Explosion = 20
-ExplosionBlock = 20
+ExplosionBlock = 5
 Acceleration = 16.0
 Sight = None
 ReloadTime =10000
@@ -14,19 +14,28 @@ Sound = cannon_4_snd
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.07
+Gravity = -0.10
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+Delay = 90
+ReloadTime = 150
+Group = MainGun
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+Piercing = 0
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+SoundVolume = 15
 
 ; 着弾距離の表示
 DisplayMortarDistance = true
 ; カメラの垂直方向を0に固定する
 FixCameraPitch = true
 ; カメラの回転速度の倍率(小さくするとより細かく着弾地点が調整ができる)
-CameraRotationSpeedPitch = 0.2
+CameraRotationSpeedPitch = 1.0
 
 AddMuzzleFlash      =  0,      1.80,        7,  220,254,159,74
 AddMuzzleFlash      =  0,      1.75,        6,  220,254,219,104

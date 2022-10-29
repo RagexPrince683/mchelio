@@ -13,6 +13,21 @@ SoundPitch = 0.5
 SoundVolume = 20
 Sound = cannon_3_snd
 
+Delay = 170
+ReloadTime = 80
+Group = MainGun
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+Piercing = 5
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+SoundVolume = 15
+
+
 AddMuzzleFlash      =  10.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  10.1,      1.75,        6,  200,254,219,104
 AddMuzzleFlash      =  10.0,      1.70,        5,  200,254,219,184

@@ -38,8 +38,16 @@ HUD = mbt_hud,vehicle
 AddPartWeapon =m107/bb, false, true, false,  0.00, 0,0,0
 AddPartWeaponChild = false, true, 0.66, 2.06, 1.87, 0
 AddPartWeaponChild = false, true, 0.66, 2.06, 1.87, 0.5
-AddTurretWeapon =m107, 0, 2.17, 8.41,  0.0, 0.0, true,1, 0,-360,180, -80, 7
-AddTurretWeapon = bb, 0, 2.17, 8.41,  0.0, 0.0, true,1, 0,-360,180, -80, 7
+;AddTurretWeapon =m107, 0, 2.17, 8.41,  0.0, 0.0, true,1, 0,-360,180, -80, 7
+
+AddTurretWeapon =m107, -0.0289, 2.1748, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -80, 7
+AddTurretWeapon = bb, -0.0289, 2.1748, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -80, 7
+
+;AddTurretWeapon = m107,   0.00, 2.9709, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -65, 6
+;AddTurretWeapon = 155sgh1,  0.00, 2.9709, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -65, 6
+;AddTurretWeapon = 155sgh2,  0.00, 2.9709, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -65, 6
+
+
 ; AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 駐退距離
 
 AddPartTurretWeapon    =  m240_r,   false, true, true,  0.98, 3.18, 0.57

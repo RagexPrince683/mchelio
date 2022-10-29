@@ -1,8 +1,8 @@
 DisplayName = M197
 Type = MachineGun2
 ModelBullet = bullet
-Power = 11
-Acceleration = 8.0
+Power = 16
+Acceleration = 7.0
 Explosion = 0
 Flaming = false
 Sight = MoveSight

@@ -1,4 +1,4 @@
-DisplayName =L37A2
+DisplayName = L37A2
 Type = MachineGun2
 Power = 15
 Acceleration = 8.0

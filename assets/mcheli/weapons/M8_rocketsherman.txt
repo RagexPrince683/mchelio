@@ -14,10 +14,17 @@ Round = 60
 Piercing = 0
 Gravity = -0.01
 Particle = largeexplode
-DamageFactor = tank, 10.0
-DamageFactor = plane, 10.0
-DamageFactor = vehicle, 10.0
-DamageFactor = helicopter, 10.0
+
+
+Piercing = 0
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+SoundVolume = 15
 
 MaxAmmo = 60
 SuppliedNum = 1

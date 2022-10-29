@@ -1,7 +1,7 @@
 DisplayName = M197 M940 [MPT-SD] 20mm gun
 Type = MachineGun2
 Power = 16
-Acceleration = 8.0
+Acceleration = 7.0
 Explosion = 1
 Flaming = false
 Sight = MoveSight

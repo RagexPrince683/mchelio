@@ -11,10 +11,14 @@ Delay = 7
 ReloadTime = 110
 Round = 19
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+Piercing = 0
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+SoundVolume = 15
 
 MaxAmmo = 8
 SuppliedNum = 4

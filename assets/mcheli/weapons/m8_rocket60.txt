@@ -14,6 +14,16 @@ Round = 60
 Gravity = -0.01
 Particle = largeexplode
 
+Piercing = 0
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+SoundVolume = 15
+
 MaxAmmo = 60
 SuppliedNum = 60
 Item =  2, iron_ingot

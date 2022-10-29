@@ -1,2 +1,2 @@
-DisplayName = flap down
+DisplayName = Flap Down
 Type = Dummy
