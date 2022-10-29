@@ -43,11 +43,10 @@ SetWheelPos =  1.05,  -0.24,  1.965, -1.789
 
 HUD = bnr32_hud, car_police_navi
 
-AddSeat = -0.54,  0.12, -0.02
-AddSeat =  0.54,  0.22, -0.02
-
-AddSeat = -0.54,  0.22, -1.02
-AddSeat =  0.54,  0.22, -1.02
+AddSeat =  0.54,  0.12, -0.02
+AddSeat = -0.54,  0.22, -0.02
+AddSeat = -0.54,  0.22, -1.10
+AddSeat =  0.54,  0.22, -1.10
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.1
@@ -60,10 +59,20 @@ AddPartWheel     =  1.05,  0.157,  1.965, 30
 AddPartWheel     = -1.05,  0.157, -1.789
 AddPartWheel     =  1.05,  0.157, -1.789
 
-AddPartSteeringWheel =  -0.5386,  0.8820,  0.4793,  0.0, 1.0, -1.73,   130
+AddPartSteeringWheel =   0.5386,  0.8820,  0.4793,  0.0, 1.0, -1.73,   130
+
+
+AddPartSteeringWheel =   1.05,  0.157,  1.965,  0.0, 1.0, 0.0,   30
+AddPartSteeringWheel =  -1.05,  0.157,  1.965,  0.0, 1.0, 0.0,   30
 
 AddPartThrottle = -0.454, 0.882, 0.800,  0,1,-1.73, -220
 AddPartThrottle = -0.623, 0.882, 0.800,  0,1,-1.73, -175
+AddPartThrottle = -0.623, 0.882, 0.800,  0,1,-1.73, 0
+
+AddPartCanopy   =  1.18, 0.32, 1.20,  0, 1, 0, -70
+AddPartCanopy   =  1.18, 0.32, 1.20,  0, 1, 0, -70
+AddPartCanopy   =  1.18, 0.32, 1.20,  0, 1, 0, -70
+AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
 
 ;AddFixedSearchLight= 座標X, Y, Z,       開始地点の色, 終了地点の色,  距離, 終端の半径, Yaw, Pitch
 ;ヘッドライト
@@ -105,4 +114,4 @@ BoundingBox = 0.0, 0.20, -1.6, 2.5, 0.2
 Regeneration = true
 ArmorDamageFactor = 2.32
 
-UnmountPosition = -0.54,  1.50, -0.02
+UnmountPosition = 0.54,  1.50, -0.02
