@@ -1,5 +1,5 @@
-DisplayName = Mitsubishi Starion
-AddDisplayName = en_US, Mitsubishi Starion
+DisplayName = Mitsubishi Starion ESI-R
+AddDisplayName = en_US, Mitsubishi Starion ESI-R
 AddDisplayName = ja_JP, 三菱 スタリオン
 ItemID = 28745
 MaxHp = 100
@@ -7,7 +7,7 @@ ThrottleUpDown = 10.0
 Speed = 2.83
 MobilityYawOnGround = 8.5
 StepHeight = 1.2
-Sound = prop
+Sound = starion
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
@@ -18,15 +18,18 @@ EnableNightVision = true
 MaxFuel           = 1200
 FuelConsumption   = 1.0
 
-EntityWidth  = 0.7
-EntityHeight = 0.7
+EntityWidth  = 0.85
+EntityHeight = 0.85
 
 Addtexture = starion
 Addtexture = starion1
 Addtexture = starion2
 
-OnGroundPitchFactor = 18.0
-OnGroundRollFactor  = 4.8
+;OnGroundPitchFactor = 0.5
+;OnGroundRollFactor  = 0.8
+
+WeightedCenterZ = 0.0
+
 
 
 VariableSweepWing  = true
@@ -44,10 +47,11 @@ WeightType = Car
 ; X座標のマイナス側は必要なし
 SetWheelPos =  0.88,  -0.24,  1.65, -1.28
 
-HUD = bnr32_hud, none
+HUD = bnr32_hud, none, none
 
-AddSeat = -0.46,   0.15, -0.37
-AddSeat =  0.46,   0.15, -0.37
+AddSeat = -0.46,   0.00, 0.0
+AddSeat =  0.46,   0.10, 0.0
+AddSeat =  0.46,   0.18, -1.0
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.6
