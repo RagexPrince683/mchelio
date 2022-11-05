@@ -24,7 +24,7 @@ Step 6: put the main (root directory) folder mcheli into the mods folder in your
 Step 7: Install HBM's Nuclear Tech Mod as that is a dependency for this mod. The link can be found here: https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT I am unsure if the latest HBM release works so if it does not, use the HBM version https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT/releases/tag/1.0.27X3920
 
 
-Step 7: Launch minecraft
+Step 8: Launch minecraft
 
 
 
