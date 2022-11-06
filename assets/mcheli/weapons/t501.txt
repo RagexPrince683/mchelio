@@ -1,4 +1,4 @@
-DisplayName = T501
+DisplayName = R-73 Air To Air Missile
 Type = AAMissile
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0

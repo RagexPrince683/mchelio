@@ -15,6 +15,19 @@ Sound = bomb_snd
 ModelBullet = mk82_b
 FAE = true
 
+;bomb rewrite
+Acceleration = 0.5
+Explosion = 15
+;Explosive mass	? kg
+Power = 500
+ExplosionBlock = 2
+ExplosionInWater = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 ReloadTime = 150
 Round = 24
 

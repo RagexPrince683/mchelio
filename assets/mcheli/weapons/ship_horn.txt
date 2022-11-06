@@ -1,4 +1,4 @@
-DisplayName = ship_horn
+DisplayName = Ship Horn
 Type = MachineGun1
 Power = 0
 Accuracy = 0
@@ -8,5 +8,5 @@ Delay = 10
 ModelBullet = horn_mdl
 Particle = none
 Sound = ship_horn_snd
-SoundVolume = 5.0
+SoundVolume = 150.0
 SoundPitchRandom = 0

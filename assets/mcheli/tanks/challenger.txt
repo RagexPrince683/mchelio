@@ -1,6 +1,6 @@
-DisplayName = Dodge Challenger
-AddDisplayName = en_US, Dodge Challenger
-AddDisplayName = ja_JP, Dodge Challenger
+DisplayName = Dodge Challenger R/T
+AddDisplayName = en_US, Dodge Challenger R/T
+AddDisplayName = ja_JP, Dodge Challenger R/T
 ItemID = 33406
 MaxHp = 120
 Speed = 2.66
@@ -48,10 +48,10 @@ WeightType = Car
 PivotTurnThrottle = 0.1
 
 ; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
-AddPartWheel     = -1.2198,  0.1839, 1.8265, 15
-AddPartWheel     =  0.9042,  0.1839, 1.8265, 15
-AddPartWheel     = -1.2071,  0.1839, -1.8611
-AddPartWheel     =  0.8915,  0.1839, -1.8611
+AddPartWheel     = -1.0884,  0.1839, 1.8265, 15
+AddPartWheel     =  1.0893,  0.1839, 1.8265, 15
+AddPartWheel     = -1.0884,  0.1839, -1.8574
+AddPartWheel     =  1.0893,  0.1839, -1.8604
 
 AddPartSteeringWheel =  0.571,  0.8113,  0.4347,  0, 0.3196, -1,   160
 

@@ -1,11 +1,11 @@
-DisplayName = Type98 No25 Bomb
+DisplayName = Type 98 No 25 Bomb
 Type = Bomb
-Power = 1000
+Power = 500
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 9.81
+Acceleration = 0.5
 Explosion = 4
 ExplosionInWater = 0
 Flaming = false

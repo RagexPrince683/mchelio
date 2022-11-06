@@ -1,4 +1,4 @@
-DisplayName = Taurus KEPD 350
+DisplayName = Taurus KEPD 350 Cruise Missile
 Type = TVMissile
 Power = 1000
 DamageFactor = tank, 1.0
@@ -6,7 +6,7 @@ DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 Acceleration = 2.0
-Explosion = 15
+Explosion = 55
 Sight = MoveSight
 Delay = 110
 Piercing = 5
@@ -16,6 +16,18 @@ ModelBullet = Taurus
 Sound = missile_1_snd
 DisableSmoke = true
 Particle = largeexplode
+
+
+;Explosive mass	269.9 kg kg
+Power = 4000
+ExplosionBlock = 10
+ExplosionInWater = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 MaxAmmo = 2
 SuppliedNum = 1

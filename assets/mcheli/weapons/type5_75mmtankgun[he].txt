@@ -1,4 +1,4 @@
-DisplayName = Type5_75mmTankGun [HE]
+DisplayName = Type 5 75mm Tank Gun [HE]
 Type = MachineGun2
 Power = 10
 Acceleration = 6.0
@@ -21,6 +21,13 @@ RecoilBufCount = 20, 5
 DamageFactor = plane, 3.0
 DamageFactor = helicopter, 3.0
 Recoil = 2.0
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 AddMuzzleFlash      =           4.6,   2.25,        3,  220,254,159,74
 AddMuzzleFlash      =           5.0,   1.50,        5,  220,254,219,104

@@ -1,16 +1,17 @@
-DisplayName = SA-2 Guidline
+DisplayName = SA-2 Guideline
 Type = AAMissile
 Power = 150
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 3.5
+Acceleration = 5.5
 Explosion = 9
 Flaming = true
 Sight = MissileSight
-Delay = 400
-LockTime = 50
+Delay = 40
+ReloadTime = 400
+LockTime = 25
 ModelBullet = sa2missile
 
 MaxAmmo = 4

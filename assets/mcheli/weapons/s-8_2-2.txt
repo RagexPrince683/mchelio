@@ -1,4 +1,4 @@
-DisplayName = S-8
+DisplayName = S-8 80mm Rocket
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
@@ -17,6 +17,17 @@ Round = 12
 ModeNum = 2
 Sound = rocket_snd
 Gravity = -0.05
+
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+Piercing = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
+SoundVolume = 15
 
 
 

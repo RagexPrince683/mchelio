@@ -1,6 +1,6 @@
-﻿DisplayName = Skyline GT-R BNR32
-AddDisplayName = en_US, Skyline GT-R BNR32
-AddDisplayName = ja_JP, スカイラインGT-R BNR32
+﻿﻿DisplayName = Nissan Skyline GT-R 
+AddDisplayName = en_US, Nissan Skyline GT-R 
+AddDisplayName = ja_JP, スカイラインGT-R 
 ItemID = 28745
 MaxHp = 100
 ThrottleUpDown = 10.0

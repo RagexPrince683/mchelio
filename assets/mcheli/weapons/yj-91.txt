@@ -1,5 +1,5 @@
-DisplayName = 鹰击91超音速远程 反舰/反辐射 导弹
-Type = AAMissile
+DisplayName = YJ-91 Supersonic Long-Range Anti-Ship/Anti-Radiation Missile
+Type = ATMissile
 Power = 300
 Acceleration = 5.0
 Explosion = 18
@@ -27,10 +27,12 @@ TrajectoryParticleStartTick = 10
 
 
 
-DamageFactor = tank, 1.5
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 
 MaxAmmo = 2

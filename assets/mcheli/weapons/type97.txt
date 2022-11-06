@@ -1,12 +1,13 @@
-DisplayName = Type97 No6 Bomb
+DisplayName = Type 97 No6 Bomb
 Type = Bomb
-Power = 1000
+Power = 100
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 0.1
+Acceleration = 0.5
 Explosion = 4
+ExplosionBlock = 2
 ExplosionInWater = 0
 Flaming = false
 Sight = None

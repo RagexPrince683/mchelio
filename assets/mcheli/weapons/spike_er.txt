@@ -1,4 +1,4 @@
-DisplayName = SPIKE ER
+DisplayName = SPIKE-ER Anti-Tank Missile
 Type = ASMissile
 Power = 1000
 DamageFactor = tank, 1.0
@@ -13,6 +13,11 @@ Delay = 100
 ReloadTime = 240
 ModelBullet = agm114
 Sound = missile_1_snd
+
+Delay = 100
+ReloadTime = 240
+;Acceleration = 7.0
+
 
 MaxAmmo = 4
 SuppliedNum = 2

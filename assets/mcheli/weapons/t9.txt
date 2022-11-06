@@ -1,4 +1,4 @@
-DisplayName = T9 37mm
+DisplayName = T9 37mm Cannon
 Type = Machinegun2
 Power = 25
 Acceleration = 6.5
@@ -13,6 +13,17 @@ ModeNum = 2
 HeatCount = 8
 MaxHeatCount = 100
 Gravity = -0.04
+
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
+SoundVolume = 15
+
 
 MaxAmmo = 100
 SuppliedNum = 20

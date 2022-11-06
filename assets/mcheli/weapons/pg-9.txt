@@ -1,4 +1,4 @@
-DisplayName = PG-9
+DisplayName = PG-9 73mm Cannon [HEAT]
 Type = MachineGun2
 Power = 400
 ModelBullet = PG-9
@@ -11,6 +11,21 @@ Delay = 180
 ModeNum = 1
 Sound = cannon_1_snd
 Gravity = -0.01
+
+Delay = 70
+ReloadTime = 100
+Group = MainGun
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+Piercing = 0
+Accuracy = 0.5
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
+SoundVolume = 15
 
 MaxAmmo = 10
 SuppliedNum = 5

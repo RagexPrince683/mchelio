@@ -1,4 +1,4 @@
-DisplayName = Spot planes/helicopters/tanks
+DisplayName = Spot Planes/Helicopters/Tanks
 Type = TargetingPod
 Sight = None
 Delay = 6

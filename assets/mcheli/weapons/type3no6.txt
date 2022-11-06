@@ -1,4 +1,4 @@
-DisplayName = Type3 No6 mod27
+DisplayName = Type 3 No6 Mod 27
 Type = Rocket
 Power = 25
 Acceleration = 4.0

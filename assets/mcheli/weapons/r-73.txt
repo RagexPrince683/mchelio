@@ -1,4 +1,4 @@
-DisplayName = R-73 missile
+DisplayName = R-73 Air To Air Missile
 Type = AAMissile
 Power = 56
 DamageFactor = tank, 1.5

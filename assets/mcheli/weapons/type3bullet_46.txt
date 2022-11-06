@@ -1,4 +1,4 @@
-DisplayName = 46cm Type3 Anti-Air Shell[AA]
+DisplayName = 46cm Type 3 Anti-Air Shell [AA]
 Type = Rocket
 Power = 25
 ModelBullet = type3_46

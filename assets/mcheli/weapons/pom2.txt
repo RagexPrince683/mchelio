@@ -13,7 +13,7 @@ Sound = bomb_snd
 ReloadTime = 150
 Round = 10
 
-DelayFuse = 3600
+DelayFuse = 9999999
 
 ProximityFuseDist = 2.0
 

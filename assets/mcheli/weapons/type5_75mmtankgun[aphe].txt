@@ -1,4 +1,4 @@
-DisplayName = Type5_75mmTankGun [APHE]
+DisplayName = Type 5 75mm Tank Gun [APHE]
 Type = MachineGun2
 Power = 80
 Acceleration = 6.5

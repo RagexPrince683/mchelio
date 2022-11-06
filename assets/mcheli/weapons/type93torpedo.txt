@@ -1,4 +1,4 @@
-DisplayName = Type93 torpedo
+DisplayName = Type 93 Torpedo
 Type = Torpedo
 Power = 350
 ModelBullet = type93torpedo

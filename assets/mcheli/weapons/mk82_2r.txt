@@ -1,4 +1,4 @@
-DisplayName = MK82 bomb
+DisplayName = MK82 Bomb
 Type = Bomb
 Power = 1000
 DamageFactor = tank, 1.0
@@ -16,6 +16,19 @@ Sound = bomb_snd
 
 ReloadTime = 120
 Round = 2
+
+;bomb rewrite
+Acceleration = 0.5
+Explosion = 15
+;Explosive mass	? kg
+Power = 500
+ExplosionBlock = 2
+ExplosionInWater = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 MaxAmmo = 4
 SuppliedNum = 2

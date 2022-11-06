@@ -1,4 +1,4 @@
-﻿DisplayName = TOW 2
+﻿DisplayName = TOW-2 Missile
 Type = TVMissile
 Power = 900
 DamageFactor = tank, 1.0
@@ -9,6 +9,7 @@ Acceleration = 6
 Explosion = 2
 Flaming = false
 Sight = MoveSight
-Delay =60
+Delay = 60
+ReloadTime = 100
 ModeNum = 2
 Sound = missile_15_snd

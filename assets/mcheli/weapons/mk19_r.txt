@@ -3,7 +3,7 @@ Type = Rocket
 ModelBullet = mk19bullet
 Power = 15
 Acceleration = 2.5
-Explosion = 2
+Explosion = 4
 ExplosionBlock = 0
 ExplosionInWater = 0
 Flaming = true
@@ -18,6 +18,13 @@ Gravity = -0.04
 Accuracy = 4.0
 
 SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
+
+DamageFactor = tank, 1.5
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 MaxAmmo = 100
 SuppliedNum = 25

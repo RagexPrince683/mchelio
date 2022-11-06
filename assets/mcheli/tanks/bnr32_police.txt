@@ -1,6 +1,6 @@
-DisplayName = Skyline GT-R BNR32 Police
-AddDisplayName = en_US, Skyline GT-R BNR32 Police
-AddDisplayName = ja_JP, スカイラインGT-R BNR32 警察仕様
+DisplayName = Nissan Skyline GT-R Police
+AddDisplayName = en_US, Nissan Skyline GT-R Police
+AddDisplayName = ja_JP, スカイラインGT-R 警察仕様
 ItemID = 30132
 MaxHp = 100
 ThrottleUpDown = 10.0

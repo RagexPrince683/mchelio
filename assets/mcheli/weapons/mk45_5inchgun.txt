@@ -1,4 +1,4 @@
-DisplayName = Mk45 5inch gun
+DisplayName = Mk45 5inch Naval Gun
 Type = MachineGun2
 Power = 100
 DamageFactor = tank, 1.0

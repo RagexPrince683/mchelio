@@ -2,8 +2,7 @@ DisplayName = 88mm Shell [AP]
 Type = MachineGun1
 ModelBullet = 88mm
 Power = 90
-Acceleration = 450
-AccelerationInWater = 9.0
+Acceleration = 7.5
 Explosion = 2
 ExplosionBlock = 0
 ExplosionInWater = 0
@@ -21,6 +20,19 @@ DamageFactor = vehicle,    2.0
 DamageFactor = tank,       2.0
 Recoil = 0.80
 Group = MainGun
+
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
+SoundVolume = 15
+
+
+
 
 SetCartridge = 800mmcartridge, 0.8,  90, 15, 0.11, -0.05, 0.5
 

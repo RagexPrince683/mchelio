@@ -17,6 +17,12 @@ DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
+Delay = 40
+ReloadTime = 200
+Group = MainGun
+;Acceleration = 7.0
+
+
 MaxAmmo = 10
 SuppliedNum = 5
 Item =  1, iron_ingot

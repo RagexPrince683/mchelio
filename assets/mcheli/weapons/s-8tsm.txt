@@ -1,7 +1,7 @@
-DisplayName = S-8TsM 80mmMarker
+DisplayName = S-8TsM 80mm Marker
 Type = MkRocket
 Power = 0
-Acceleration = 3.0
+Acceleration = 7.0
 Explosion = 0
 Flaming = false
 Sight = MoveSight

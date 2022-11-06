@@ -1,4 +1,4 @@
-DisplayName = Rehinmetall Smoothbore Gun[APFSDS]
+DisplayName = Rehinmetall Smoothbore Cannon [APFSDS]
 Type = MachineGun1
 Power = 680
 Explosion = 0

@@ -18,6 +18,19 @@ Sound = bomb_snd
 BulletColorInWater = 255,  25,  25,  75
 BulletColor        = 255, 255, 255, 255
 
+;bomb rewrite
+Acceleration = 0.5
+Explosion = 5
+;Explosive mass	125 kg
+Power = 500
+ExplosionBlock = 2
+ExplosionInWater = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 MaxAmmo = 8
 SuppliedNum = 4
 Item =  2, iron_ingot

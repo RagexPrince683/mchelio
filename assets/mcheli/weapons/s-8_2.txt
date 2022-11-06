@@ -1,4 +1,4 @@
-DisplayName = S-8
+DisplayName = S-8 80mm Rocket
 Type = Rocket
 Power = 400
 ModelBullet = hydra70
@@ -18,6 +18,16 @@ DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+Piercing = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
+SoundVolume = 15
 
 
 MaxAmmo = 12

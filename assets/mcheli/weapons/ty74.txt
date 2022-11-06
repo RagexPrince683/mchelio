@@ -1,7 +1,7 @@
-DisplayName = 7.62mm MG
+DisplayName = 7.62mm Machine Gun
 Type = MachineGun2
-Power = 7
-Acceleration = 8.0
+Power = 8
+Acceleration = 7.5
 Flaming = false
 Sight = MoveSight
 Delay = 1

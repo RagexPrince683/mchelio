@@ -13,7 +13,10 @@ ReloadTime = 120
 Sound = missile_1_snd
 RidableOnly = true
 
-DamageFactor = tank, 2.0
+Delay = 30
+ReloadTime = 120
+;Acceleration = 7.0
+
 
 MaxAmmo = 16
 SuppliedNum = 4

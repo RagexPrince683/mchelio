@@ -1,4 +1,4 @@
-DisplayName =Type3 Anti-Air Shell[AA]
+DisplayName = Type 3 Anti-Air Shell [AA]
 Type = Rocket
 Power = 15
 ModelBullet = rocket
@@ -14,6 +14,7 @@ Bomblet = 20
 BombletDiff = 2.0
 DisableSmoke = true
 Sound = rocket_snd
+
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0

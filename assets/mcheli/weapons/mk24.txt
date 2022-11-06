@@ -1,7 +1,7 @@
 DisplayName = MK24 Flare
 Type = MkRocket
 Power = 0
-Acceleration = 0.5
+Acceleration = 7.5
 Explosion = 0
 Flaming = false
 Sight = None

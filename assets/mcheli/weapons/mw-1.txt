@@ -1,6 +1,6 @@
-DisplayName = MW-1 BombDispenser
+DisplayName = MW-1 Bomb Dispenser
 Type = Bomb
-Power = 100
+Power = 50
 Acceleration = 0.8
 Explosion = 3
 ExplosionInWater = 0

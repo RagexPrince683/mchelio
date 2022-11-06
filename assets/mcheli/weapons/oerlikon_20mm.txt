@@ -1,11 +1,11 @@
-DisplayName = ƒGƒŠƒRƒ“ 20mm‹@ŠÖ–C
+DisplayName = Oerlikon 20mm Cannon
 Type = MachineGun2
 Power = 20
-Acceleration = 9.0
+Acceleration = 7.5
 Explosion = 1
 Flaming = false
 Sight = MoveSight
-Delay = 4
+Delay = 2
 ReloadTime = 30
 SoundPitch = 1.0
 Sound = mg30mm_snd

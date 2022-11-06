@@ -1,7 +1,7 @@
-DisplayName = PKT_7.62mm
+DisplayName = PKT 7.62mm Machine Gun
 Type = MachineGun1
-Power = 2
-Acceleration = 8.0
+Power = 7
+Acceleration = 7.5
 Explosion = 0
 Flaming = false
 Sight = MoveSight

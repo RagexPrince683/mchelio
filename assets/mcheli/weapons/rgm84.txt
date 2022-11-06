@@ -1,6 +1,6 @@
 DisplayName = RGM-84 Harpoon
 Type = ASMissile
-Power = 1000
+Power = 1080
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
@@ -12,6 +12,13 @@ Sight = MoveSight
 Delay = 20
 ModelBullet = harpoonmissle
 Sound = missile_2_snd
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 MaxAmmo = 4
 SuppliedNum = 1

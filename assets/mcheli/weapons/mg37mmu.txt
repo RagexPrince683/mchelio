@@ -1,4 +1,4 @@
-DisplayName = 3.7cmFlakM42U
+DisplayName = 3.7cm Flak M42U
 Type = MachineGun2
 Power = 40
 ModelBullet = bullet76mm
@@ -8,6 +8,18 @@ Flaming = false
 Sight = MoveSight
 Delay = 4
 ReloadTime = 10
+
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
+SoundVolume = 15
+
+
 
 MaxAmmo = 5
 SuppliedNum = 5

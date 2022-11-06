@@ -1,4 +1,4 @@
-DisplayName = Nuclear bomb
+DisplayName = Generic Nuclear bomb
 Type = ASMissile
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0

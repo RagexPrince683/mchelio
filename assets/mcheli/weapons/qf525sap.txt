@@ -1,4 +1,4 @@
-DisplayName = QF 5.25in Gun[SAP]
+DisplayName = QF 5.25in Gun [SAP]
 Type = MachineGun1
 Power = 35
 DamageFactor = tank, 1.0
