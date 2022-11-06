@@ -21,8 +21,10 @@ Step 5: rename the folder 'mchelio-main' to mcheli (ensure that there is an asse
 
 Step 6: put the main (root directory) folder mcheli into the mods folder in your minecraft directory (NOT JUST THE ROOT FOLDER MCHELI you can tell which one is the root foldered mcheli if it has classfiles in it. You want those in your mods folder but you want both assets and mcheli to be subrooted folders.) 
 
+Step 7: Install HBM's Nuclear Tech Mod as that is a dependency for this mod. The link can be found here: https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT I am unsure if the latest HBM release works so if it does not, use the HBM version https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT/releases/tag/1.0.27X3920
 
-Step 7: Launch minecraft
+
+Step 8: Launch minecraft
 
 
 
