@@ -1,7 +1,7 @@
 DisplayName = Toyota with UB-32
 AddDisplayName = en_US, Toyota with UB-32
 AddDisplayName = ru_RU, Тойота с УБ-32
-MaxHp = 100
+MaxHp = 200
 ThrottleUpDown = 10.0
 Speed = 0.7
 MobilityYawOnGround = 6.0
@@ -16,7 +16,7 @@ DamageFactor   = 1.00
 MaxFuel           = 800
 FuelConsumption   = 1.0
 ThirdPersonDist = 10
-WeightType = Tank
+WeightType = Car
 WeightedCenterZ = 0.0
 
 OnGroundPitchFactor = 15.0

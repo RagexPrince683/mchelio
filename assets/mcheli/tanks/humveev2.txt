@@ -2,10 +2,10 @@
 AddDisplayName = ja_JP, Humvee
 AddDisplayName = en_US, Humvee Different Variant
 ItemID = 30032
-MaxHp = 150
+MaxHp = 200
 ThrottleUpDown = 4.0
 Speed = 1.51
-MobilityYawOnGround = 4.0
+MobilityYawOnGround = 7.0
 StepHeight = 2.0
 Sound = Humvee
 MinRotationPitch = -90
@@ -93,7 +93,7 @@ BoundingBox = 0.0, 0.70, -0.20, 2.4, 2.0
 BoundingBox = 0.0, 0.90, -1.25, 2.0, 1.0, 0.0
 BoundingBox = 0.0, 0.90, -1.33, 1.9, 1.0, 1.0
 
-UnmountPosition = 0.70,  1.18,  0.31
+UnmountPosition = 0.70,  1.50,  0.31
 
 ;RIP AddRecipe = "BBB",  "CDC", "CEC",  B, glass, C, hfr:item.part_wheel, D, hfr:item.part_engine_1, E, hfr:item.part_plating_1
 

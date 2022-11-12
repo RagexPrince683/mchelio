@@ -16,7 +16,7 @@ DamageFactor   = 1.00
 MaxFuel           = 800
 FuelConsumption   = 1.0
 ThirdPersonDist = 10
-WeightType = Tank
+WeightType = Car
 WeightedCenterZ = 0.0
 
 OnGroundPitchFactor = 15.0

@@ -1,4 +1,5 @@
 ﻿DisplayName = T-64BV
+AddDisplayName = en_US, T-64BV
 AddDisplayName = ja_JP, T-64BV
 ItemID = 31400
 MaxHp = 330

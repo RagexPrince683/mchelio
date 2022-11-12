@@ -46,6 +46,9 @@ DamageFactor = player, 10.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
+DisplayName = Rh120-L55 [APFSDS]
+AddDisplayName = en_US, Rh120-L55 [APFSDS]
+
 
 MaxAmmo = 40
 SuppliedNum = 10

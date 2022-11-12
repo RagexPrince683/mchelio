@@ -1,5 +1,6 @@
-﻿DisplayName = Panavia Tornado IDS
-AddDisplayName = ja_JP, パナヴィア トーネード IDS
+﻿DisplayName = Mig-21
+AddDisplayName = en_US, Mig-21
+AddDisplayName = ja_JP, Mig-21
 ItemID = 28720
 MaxHp = 100
 EnableNightVision = true
