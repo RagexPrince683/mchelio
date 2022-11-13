@@ -1,4 +1,5 @@
 ﻿DisplayName = CH47 chnuke radicon
+AddDisplayName = CH47 chnuke radicon
 AddDisplayName = ja_JP, CH-47 チヌーク ラジコンヘリ
 ItemID = 30024
 MaxHp = 20

@@ -105,3 +105,6 @@ AddRecipe = "DDG",  "DGT",  "GTI",  I,iron_block, G,gold_block, D,diamond_block,
 DamageFactor = 0.8
 
 unmountposition = 0.80,  1.70,  0.28
+
+enableback = true
+

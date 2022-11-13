@@ -38,3 +38,6 @@ AddPartSteeringWheel =  0.00,  0.00, -1.21,  0.0, -1.0, 0.0,   30
 
 AddRecipe = " W ",  "W W",  " X ",  X, iron_ingot, W, wool
 
+enableback = true
+
+

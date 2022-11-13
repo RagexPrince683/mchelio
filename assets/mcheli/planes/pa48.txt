@@ -84,3 +84,5 @@ BoundingBox =  0.00, 3.55, -6.50,  1.8, 1.8
 AddRecipe = "IGI",  "IXI",  "T T",  X, iron_block, G, glass, I, iron_ingot, T, tnt
 
 Unmountposition = 0.0,  1.50, -0.94
+
+enableback = true

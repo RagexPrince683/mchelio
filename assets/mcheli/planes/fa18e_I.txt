@@ -94,3 +94,6 @@ unmountposition = 0.00,  1.502,  4.22
 
 EntityWidth  = 0.94
 EntityHeight = 0.94
+
+enableback = true
+

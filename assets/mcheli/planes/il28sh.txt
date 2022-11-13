@@ -105,3 +105,5 @@ BoundingBox = 0.0, 5.76, -19.16, 1.0, 2.5
 unmountposition = 0,  1.50,  -2.10
 
 AddRecipe = " Y ",  "YIY",  "FDF",  I, iron_block, Y, iron_ingot, D, dispenser, F, furnace
+
+enableback = true

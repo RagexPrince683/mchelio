@@ -71,3 +71,4 @@ UnmountPosition = 0.00, 1.50, -0.60
 
 AddRecipe = " X ",  "XTX",  "TXT",  X, iron_block, T, tnt
 
+enableback = true

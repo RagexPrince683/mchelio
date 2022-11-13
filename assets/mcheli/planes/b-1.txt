@@ -89,3 +89,5 @@ unmountposition = 0.95, 1.86, 3.70
 
 
 DamageFactor = 0.8
+
+enableback = true
