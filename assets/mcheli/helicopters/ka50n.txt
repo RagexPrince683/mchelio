@@ -69,6 +69,8 @@ BoundingBox =  0.0, 2.2,  0.0,  2.0, 3.8
 BoundingBox =  0.0, 1.6, -2.0,  1.7, 1.8
 BoundingBox =  0.0, 1.6, -4.0,  1.0, 1.5
 
+unmountposition = 0.00,  1.50,  2.40
+
 AddRecipe = "DX ",  "XRX",  " X ",  X, iron_block, R,redstone_block,  D,dispenser
 
 DamageFactor = 0.6

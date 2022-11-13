@@ -83,4 +83,6 @@ BoundingBox =  0.0, 2.5, -2.0,  2.0, 3.8
 BoundingBox =  0.0, 2.0, -4.5,  2.0, 2.4
 BoundingBox =  0.0, 2.5,-12.0,  2.0, 3.0
 
+unmountposition = 0.00, 1.50, -0.75
+
 DamageFactor = 0.8

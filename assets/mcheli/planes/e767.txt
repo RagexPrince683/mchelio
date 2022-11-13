@@ -1,4 +1,5 @@
 DisplayName = E767
+AddDisplayName = en_US, E767
 AddDisplayName = ja_JP, E767
 ItemID = 28747
 MaxHp = 250
@@ -67,10 +68,68 @@ AddPartLGHatch = -0.30, 1.37,  -23.54,  0,0,1, 90
 AddRecipe = " R ",  "DYD",  "III",  Y,mcheli:uav_station, R,redstone_block, I,iron_block, D,diamond
 
 
-BoundingBox =  0.0, 4.2,  -4.7,  8, 6
-BoundingBox =  0.0, 4.2, -16.7,  8, 6
-BoundingBox =  0.0, 4.2, -35.7,  8, 6
-BoundingBox = -9.5, 4.0, -24.1,  9, 3
-BoundingBox =  9.5, 4.0, -24.1,  9, 3
+BoundingBox = 0.0, 3.91, -5.30, 4.0, 4.0
+
+BoundingBox = 0.0, 3.91, -9.30, 4.0, 4.0
+
+BoundingBox = 0.0, 3.91, -13.30, 4.0, 4.0
+
+BoundingBox = 0.0, 3.91, -17.30, 4.0, 4.0
+
+BoundingBox = 0.0, 3.91, -21.30, 4.0, 4.0
+
+BoundingBox = 0.0, 3.91, -25.30, 4.0, 4.0
+
+BoundingBox = 0.0, 3.91, -29.30, 4.0, 4.0
+
+BoundingBox = 0.0, 3.91, -33.30, 4.0, 4.0
+
+BoundingBox = 0.0, 3.91, -37.30, 4.0, 4.0
+
+BoundingBox = 0.0, 3.91, -41.30, 4.0, 4.0
+
+BoundingBox = 0.0, 3.91, -33.30, 4.0, 4.0
+
+BoundingBox = 0.0, 9.54, -41.63, 2.0, 8.0
+BoundingBox = 0.0, 9.54, -42.63, 2.0, 8.0
+BoundingBox = 0.0, 9.54, -43.63, 2.0, 8.0
+BoundingBox = 0.0, 9.54, -44.63, 2.0, 8.0
+
+
+BoundingBox = 4.07, 4.52, -42.85, 4.0, 0.8
+BoundingBox = -4.07, 4.52, -42.85, 4.0, 0.8
+
+BoundingBox = 6.07, 4.52, -44.85, 4.0, 0.8
+BoundingBox = -6.07, 4.52, -44.85, 4.0, 0.8
+
+BoundingBox = 4.22, 2.94, -20.10, 5.0, 0.8
+BoundingBox = -4.22, 2.94, -20.10, 5.0, 0.8
+
+BoundingBox = 4.22, 2.94, -23.10, 5.0, 0.8
+BoundingBox = -4.22, 2.94, -23.10, 5.0, 0.8
+
+
+
+BoundingBox = 6.22, 2.94, -23.10, 5.0, 0.8
+BoundingBox = -6.22, 2.94, -23.10, 5.0, 0.8
+
+BoundingBox = 8.22, 2.94, -24.10, 5.0, 0.8
+BoundingBox = -8.22, 2.94, -24.10, 5.0, 0.8
+
+BoundingBox = 10.22, 3.04, -26.10, 5.0, 0.8
+BoundingBox = -10.22, 3.04, -26.10, 5.0, 0.8
+
+BoundingBox = 12.22, 3.04, -27.10, 5.0, 0.8
+BoundingBox = -12.22, 3.04, -27.10, 5.0, 0.8
+
+BoundingBox = 14.22, 3.54, -27.10, 5.0, 0.8
+BoundingBox = -14.22, 3.54, -27.10, 5.0, 0.8
+
+BoundingBox = 16.22, 3.84, -28.10, 5.0, 0.8
+BoundingBox = -16.22, 3.84, -28.10, 5.0, 0.8
+
+
+
+UnmountPosition = 0.7, 1.5, -0.25
 
 DamageFactor = 0.8

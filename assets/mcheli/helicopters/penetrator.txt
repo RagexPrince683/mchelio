@@ -57,6 +57,8 @@ AddGunnerSeat = 0.00,  1.00, -0.70
 AddSeat       = 0.32,  0.72, -3.89
 AddSeat       =-0.32,  0.72, -3.89
 
+unmountposition = 0.00,  1.50,  0.46
+
 AddRecipe = "CXC",  "XGX",  "I I",  X, iron_block, G, gunpowder, I, iron_ingot, C,coal_block
 
 BoundingBox =  0.0, 2.3, -2.0,  2.8, 3.8

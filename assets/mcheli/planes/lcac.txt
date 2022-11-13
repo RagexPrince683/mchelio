@@ -1,4 +1,5 @@
 ﻿DisplayName = LCAC
+AddDisplayName = en_US, Landing Craft Air Cushion (LCAC)
 AddDisplayName = ja_JP, LCACエアクッション艇
 ItemID = 30112
 MaxHp = 150
@@ -62,5 +63,17 @@ EntityWidth  = 0.9
 EntityHeight = 0.9
 ;段差超え
 StepHeight = 1.5
+
+BoundingBox = 0.0, 0.0, 0.0, 14, 1.0
+
+BoundingBox = 0.0, 0.0, 5.0, 14, 1.0
+
+BoundingBox = 0.0, 0.0, -5.0, 14, 1.0
+
+Unmountposition = 0.00,  14.00, -14.46
+
+regeneration = true
+
+EnableBack = true
 
 ThrottleUpDown = 10

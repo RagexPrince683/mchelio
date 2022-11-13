@@ -61,4 +61,6 @@ BoundingBox =  0.0, 2.5, -6.0,  2.0, 3.0
 
 AddRepellingHook = 1.97, 3.51, -6.12, 30
 
+unmountposition = 0.50,  1.50,  0.09
+
 DamageFactor = 0.8

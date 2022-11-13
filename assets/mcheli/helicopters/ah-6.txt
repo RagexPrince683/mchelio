@@ -1,4 +1,4 @@
-DisplayName =  AH-6 Killer Egg
+DisplayName = AH-6 Killer Egg
 AddDisplayName = ja_JP, AH-6 キラ－エッグ
 ItemID = 28801
 MaxHp = 100
@@ -45,5 +45,7 @@ AddWeapon = targeting_pod_pv10s,   0.0, 0.10, 2.91,   0.0, 0.0,  false,2
 AddRecipe = " Y ",  "YXY",  " Y ",  X, iron_block, Y, iron_ingot
 
 BoundingBox =  0.0, 1.7, 0.0,  2.4, 2.5
+
+unmountposition = -0.45,  1.50,  1.20
 
 DamageFactor = 0.8

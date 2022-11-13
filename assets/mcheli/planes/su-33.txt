@@ -1,4 +1,5 @@
 DisplayName = Su-33 Flanker-D
+AddDisplayName = en_US, Su-33 Flanker-D
 AddDisplayName = ja_JP, Su-33 フランカーD
 ItemID = 28716
 MaxHp = 100
@@ -63,11 +64,24 @@ AddPartWing =  2.83,  1.85, -4.63,  0,0,    1, 110
 
 BoundingBox =  0.00, 2.01, 10.64,  1.5, 1.5
 BoundingBox =  0.00, 1.66,  2.11,  3.0, 3.0
-BoundingBox =  0.00, 2.66,  7.10,  2.0, 2.0
-BoundingBox =  0.00, 1.78,  5.47,  3.0, 1.5
+BoundingBox =  0.00, 2.66,  5.80,  2.0, 2.0
+BoundingBox =  0.00, 1.78,  4.87,  3.0, 1.5
 
-BoundingBox =  4.37, 1.87, -1.47,  3.0, 0.8
-BoundingBox = -4.37, 1.87, -1.47,  3.0, 0.8
+BoundingBox = 0.0, 1.62, -5.14, 3.5, 1.5
+BoundingBox = 0.0, 1.62, -1.50, 3.5, 1.5
+
+BoundingBox =  3.87, 1.87, -1.47,  4.0, 0.8
+BoundingBox = -3.87, 1.87, -1.47,  4.0, 0.8
 
 BoundingBox =  2.98, 1.87, -5.64,  2.5, 0.5
 BoundingBox = -2.98, 1.87, -5.64,  2.5, 0.5
+
+BoundingBox = 1.55, 3.65, -3.94, 1.0, 2.5
+BoundingBox = -1.55, 3.65, -3.94, 1.0, 2.5
+
+BoundingBox = 1.55, 3.65, -5.00, 1.0, 2.5
+BoundingBox = -1.55, 3.65, -5.00, 1.0, 2.5
+
+
+
+unmountposition = 0.00,  1.50,  7.21

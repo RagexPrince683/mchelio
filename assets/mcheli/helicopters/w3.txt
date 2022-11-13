@@ -68,4 +68,6 @@ BoundingBox =  0.0, 2.5,-10.0,  2.0, 3.0
 
 AddRecipe = "III",  " X ",  "XTX",  X, iron_block, T, tnt, I, iron_ingot
 
+unmountposition = -0.55,  1.50,  2.40
+
 DamageFactor = 0.8

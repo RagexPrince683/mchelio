@@ -75,8 +75,8 @@ AddWeapon = pakfa_r-77,  0.3501,2.4224,-9.7052,0,0
 AddWeapon = pakfa_r-77, -0.3501,2.4224,-9.7052,0,0
 
 BoundingBox =  0.00, 2.70, 0.00,  2.0, 2.0
-BoundingBox =  0.00, 3.13, 2.00,  2.0, 2.0
-BoundingBox =  0.00, 3.13, 4.00,  2.0, 2.0
+;BoundingBox =  0.00, 3.13, 2.00,  2.0, 2.0
+BoundingBox =  0.00, 2.80, 4.00,  2.0, 2.0
 BoundingBox =  0.00, 2.50, 5.44,  1.5, 1.5
 BoundingBox =  0.00, 2.11, -7.50,  8.0, 2.0
 BoundingBox =  0.00, 3.11, -3.50,  4.0, 2.0

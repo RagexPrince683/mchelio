@@ -83,9 +83,19 @@ SweepWingSpeed = 0.7
 
 AddRecipe = " Y ",  "XXX",  "XDX",  X, iron_block, Y, glass, D, diamond
 
+
 BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
 BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0
 BoundingBox = -4.52, 2.20, -9.60,  4.0, 1.0
 BoundingBox =  4.52, 2.20, -9.60,  4.0, 1.0
 BoundingBox =  0.00, 1.80, -11.8,  3.0, 1.5
 BoundingBox =  0.00, 1.80, -13.8,  3.0, 1.5
+
+BoundingBox = 3.05, 2.16, -14.59, 3.0, 1.0
+BoundingBox = -3.05, 2.16, -14.59, 3.0, 1.0
+BoundingBox = 1.99, 3.73, -13.91, 1.0, 3.0
+BoundingBox = -1.99, 3.73, -13.91, 1.0, 3.0
+BoundingBox = 1.99, 3.93, -14.91, 1.0, 3.3
+BoundingBox = -1.99, 3.93, -14.91, 1.0, 3.3
+BoundingBox = 1.99, 3.73, -12.91, 1.0, 3.0
+BoundingBox = -1.99, 3.73, -12.91, 1.0, 3.0

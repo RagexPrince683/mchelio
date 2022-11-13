@@ -1,4 +1,5 @@
-DisplayName = UH60M blackhawk
+DisplayName = UH60M Black Hawk
+AddDisplayName = en_US, UH60M Black Hawk
 AddDisplayName = ja_JP, UH60M ブラックホーク
 ItemID = 28835
 MaxHp = 100
@@ -70,5 +71,7 @@ AddRack = zodiac,      0.0, 0.3, -3.0,   0.0, 0.0, -3.0,   12.0,   40
 BoundingBox =  0.0, 2.3, -2.0,  2.8, 3.8
 BoundingBox =  0.0, 1.8, -4.5,  2.8, 2.4
 BoundingBox =  0.0, 3.5,-14.5,  2.0, 3.0
+
+unmountposition = -0.85,  1.50,  1.30
 
 DamageFactor = 0.8

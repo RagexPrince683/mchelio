@@ -1,4 +1,5 @@
 ﻿DisplayName =  AH-1F/S Cobra
+AddDisplayName = en_US, AH-1F/S Cobra
 AddDisplayName = ja_JP, AH-1F/S コブラ
 ItemID = 28824
 MaxHp = 100
@@ -71,6 +72,8 @@ AddWeapon = targeting_pod_pv10s,   0.0, 1.179, 2.89,   0.0, 0.0,  false,2
 BoundingBox =  0.0, 2.5, -2.0,  2.0, 3.8
 BoundingBox =  0.0, 2.0, -4.5,  2.0, 2.4
 BoundingBox =  0.0, 2.5,-12.0,  2.0, 3.0
+
+unmountposition = 0.00, 1.50, -0.62
 
 
 DamageFactor = 0.8

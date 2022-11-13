@@ -35,6 +35,8 @@ AddSeat = 0,0,0
 AddSeat =-0.45,  0.80,  1.20
 AddSeat = 0.45,  0.80,  1.20
 
+UnmountPosition = -0.45,  1.50,  1.20
+
 AddWeapon = m134, -1.48, 0.40, 1.54,  -1.0, 0.0
 AddWeapon = m134,  1.48, 0.40, 1.54,   1.0, 0.0
 

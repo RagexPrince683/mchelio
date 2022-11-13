@@ -19,7 +19,6 @@ AddTexture = il28_cs
 AddTexture = il28_pla
 AddTexture = il28_none
 
-UnmountPosition = 4.0, 1.0, -2.0
 
 HUD = plane_wwii, gunner, none
 
@@ -27,7 +26,7 @@ MobilityYaw = 1.0
 MobilityRoll = 1.0
 MobilityPitch = 3.0
 
-MobilityYawOnGround = 4.0
+MobilityYawOnGround = 2.0
 
 AddSeat = 0,  2.71,  -2.10
 AddGunnerSeat = 0, 2.48, -18.7,   0.0, 3.50, -19.5,   true,-60,45
@@ -71,7 +70,7 @@ AddWeapon = s-5k,      1.8944,2.2728, -8.1181, 0, 0, true,  1
 AddWeapon = s-5k,     -1.8944,2.2728, -8.1181, 0, 0, true,  1
 
 BoundingBox =  0, 2.56, 0,  2.0, 2, 1.0
-BoundingBox =  0, 2.56, -2,  2.0, 3, 1.0
+;BoundingBox =  0, 2.56, -2,  2.0, 3, 1.0
 BoundingBox =  0, 2.56, -4,  2.0, 2, 0.8
 BoundingBox =  0, 2.56, -6,  2.0, 2, 0.8
 BoundingBox =  0, 2.56, -8,  2.0, 2, 0.8
@@ -91,7 +90,18 @@ BoundingBox = -3.82, 2.06, -8,  2.0, 2, 1.2
 BoundingBox = -3.82, 2.06, -10,  2.0, 2, 1.2
 BoundingBox = -3.82, 2.06, -12,  2.0, 2, 0.8
 BoundingBox =  0, 3.0, -10,  5, 0.5, 1.0
-BoundingBox =  6, 3.0, -10,  3, 0.5, 0.8
-BoundingBox =  -6, 3.0, -10,  3, 0.5, 0.8
+BoundingBox =  6, 3.2, -10,  3, 0.5, 0.8
+BoundingBox =  -6, 3.2, -10,  3, 0.5, 0.8
+
+BoundingBox =  9, 3.2, -9.5,  3, 0.5, 1.0
+BoundingBox =  -9, 3.2, -9.5,  3, 0.5, 1.0
+
+BoundingBox = 2.05, 4.33, -18.54, 2.5, 0.5
+BoundingBox = -2.05, 4.33, -18.54, 2.5, 0.5
+
+BoundingBox = 0.0, 5.76, -18.16, 1.0, 2.5
+BoundingBox = 0.0, 5.76, -19.16, 1.0, 2.5
+
+unmountposition = 0,  1.50,  -2.10
 
 AddRecipe = " Y ",  "YIY",  "FDF",  I, iron_block, Y, iron_ingot, D, dispenser, F, furnace

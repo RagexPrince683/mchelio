@@ -1,4 +1,5 @@
-﻿DisplayName = Z 9-G
+﻿DisplayName = Z9-G
+AddDisplayName = en_US, Z9-G
 AddDisplayName = ja_JP, Z 9-G
 ItemID = 28883
 MaxHp = 100
@@ -100,6 +101,8 @@ InventorySize = 27
 BoundingBox =  0.0, 2.3, -2.0,  2.8, 3.8
 BoundingBox =  0.0, 1.8, -4.5,  2.8, 2.4
 BoundingBox =  0.0, 3.5,-14.5,  2.0, 3.0
+
+unmountposition = 0.8726,  1.50,  -0.20
 
 
 DamageFactor = 0.8

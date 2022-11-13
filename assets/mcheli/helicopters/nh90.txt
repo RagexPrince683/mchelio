@@ -1,4 +1,4 @@
-DisplayName = NHIndustries NH90-TTH
+DisplayName = NH Industries NH90-TTH
 AddDisplayName = ja_JP, NHインダストリーズ NH90-TTH
 ItemID = 28997
 MaxHp = 100
@@ -71,5 +71,7 @@ BoundingBox =  0.0, 1.8,  3.0,  2.0, 2.5
 BoundingBox =  0.0, 1.8,  1.0,  2.0, 2.5
 BoundingBox =  0.0, 1.8, -1.0,  2.0, 2.5
 BoundingBox =  0.0, 2.5,-8.0,  2.0, 3.0
+
+unmountposition = -0.40, 1.50, 5.11
 
 DamageFactor = 0.8

@@ -1,4 +1,4 @@
-DisplayName = Kawasaki/ Eurocopter BK 117 B-2
+DisplayName = Kawasaki/Eurocopter BK 117 B-2
 AddDisplayName = ja_JP, 川崎/ユーロコプター BK 117 B-2
 MaxHp = 100
 EnableNightVision = true
@@ -52,5 +52,7 @@ EntityHeight = 0.9
 
 MaxFuel         = 1000
 FuelConsumption = 1.0
+
+UnmountPosition = -0.40,  1.50,  1.99
 
 DamageFactor = 0.8

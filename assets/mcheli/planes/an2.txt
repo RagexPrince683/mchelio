@@ -58,8 +58,14 @@ AddRecipe = " PI",  "FXI",  " W ",  X,iron_block, P,heavy_weighted_pressure_plat
 BoundingBox =  0.00,  2.15, -3.41,  1.5, 1.5
 BoundingBox =  0.00,  2.15,  2.03,  1.3, 1.3
 
+
+BoundingBox =  1.88,  3.38, -0.32,  2.0, 0.3
+BoundingBox = -1.88,  3.38, -0.32,  2.0, 0.3
 BoundingBox =  3.88,  3.38, -0.32,  2.0, 0.3
 BoundingBox = -3.88,  3.38, -0.32,  2.0, 0.3
+BoundingBox =  5.88,  3.38, -0.32,  2.0, 0.3
+BoundingBox = -5.88,  3.38, -0.32,  2.0, 0.3
+
 
 DamageFactor = 0.8
 

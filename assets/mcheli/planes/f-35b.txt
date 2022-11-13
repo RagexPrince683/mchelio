@@ -90,4 +90,11 @@ BoundingBox =  4.82, 2.20, -8.00,  2.5, 1.0
 BoundingBox = -2.52, 2.20, -11.60,  2.0, 1.0
 BoundingBox =  2.52, 2.20, -11.60,  2.0, 1.0
 
+BoundingBox = 2.03, 3.55, -10.96, 1.0, 2.5
+BoundingBox = -2.03, 3.55, -10.96, 1.0, 2.5
+BoundingBox = 2.03, 3.55, -11.96, 1.0, 2.5
+BoundingBox = -2.03, 3.55, -11.96, 1.0, 2.5
+BoundingBox = 2.03, 3.05, -9.96, 1.0, 2.5
+BoundingBox = -2.03, 3.05, -9.96, 1.0, 2.5
+
 unmountposition = 0.00,  1.52,  0.32

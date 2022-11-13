@@ -1,4 +1,5 @@
 DisplayName = B-29 Superfortress
+AddDisplayName = en_US, B-29 Superfortress
 AddDisplayName = ja_JP, B-29 スーパーフォートレス
 ItemID = 28729
 MaxHp = 250
@@ -103,13 +104,36 @@ AddWeapon = anm17allc,   0.55,  1.08, -16.0, 0, 90, true,  1
 AddWeapon = anm17allc,  -0.55,  1.08, -16.0, 0, 90, true,  1
 
 
-BoundingBox =  0.0, 2.6,  -1.6,  4.0, 4.0
+BoundingBox =  0.0, 2.6,  -2.6,  4.0, 4.0
 BoundingBox =  0.0, 2.6,  -6.6,  4.0, 4.0, 0.75
-BoundingBox =  0.0, 2.6, -11.6,  4.0, 4.0, 0.75
-BoundingBox =  0.0, 2.6, -16.6,  4.0, 4.0, 0.75
-BoundingBox =  0.0, 3.0, -20.6,  3.0, 3.0
-BoundingBox =  0.0, 3.0, -23.6,  2.0, 2.0
-BoundingBox =  0.0, 3.0, -26.6,  2.0, 2.0
+BoundingBox =  0.0, 2.6, -10.6,  4.0, 4.0, 0.75
+BoundingBox =  0.0, 2.6, -14.6,  4.0, 4.0, 0.75
+BoundingBox =  0.0, 3.0, -18.6,  4.0, 4.0
+BoundingBox =  0.0, 3.0, -22.6,  4.0, 4.0
+BoundingBox =  0.0, 3.5, -26.6,  4.0, 4.0
+
+BoundingBox =  0.0, 4.0, -30.6,  4.0, 4.0
+
+BoundingBox =  4.0, 4.0, -30.6,  4.0, 0.8
+BoundingBox =  -4.0, 4.0, -30.6,  4.0, 0.8
+
+BoundingBox =  0.0, 8.0, -30.6,  1.0, 4.5
+BoundingBox =  0.0, 8.0, -31.6,  1.0, 4.5
+
+BoundingBox =  0.0, 7.0, -29.6,  1.0, 4.5
+BoundingBox =  0.0, 7.0, -32.6,  1.0, 4.5
+
+
+;engines
+BoundingBox = 5.49, 2.43, -7.63, 1.5, 1.5
+BoundingBox = 11.93, 2.91, -8.50, 1.5, 1.5
+
+BoundingBox = -5.49, 2.43, -7.63, 1.5, 1.5
+BoundingBox = -11.93, 2.91, -8.50, 1.5, 1.5
+
+
+
+
 
 BoundingBox =  -5.0, 2.2, -11.6,  5.0, 1.0, 1.25
 BoundingBox = -10.0, 3.0, -11.6,  5.0, 1.0, 1.25
@@ -117,5 +141,7 @@ BoundingBox = -15.0, 3.0, -12.0,  4.4, 1.0, 0.75
 BoundingBox =   5.0, 2.2, -11.6,  5.0, 1.0, 1.25
 BoundingBox =  10.0, 3.0, -11.6,  5.0, 1.0, 0.75
 BoundingBox =  15.0, 3.0, -12.0,  4.4, 1.0, 1.25
+
+unmountposition = -0.55,  1.50, -0.28
 
 DamageFactor = 0.8

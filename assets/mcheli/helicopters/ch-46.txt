@@ -1,4 +1,5 @@
 ﻿DisplayName = Boeing Vertol CH-46 
+AddDisplayName = en_US, Boeing Vertol CH-46 
 AddDisplayName = ja_JP, ボーイング・バートル CH-46 
 ItemID = 28811
 MaxHp = 100
@@ -74,6 +75,8 @@ AddSeat =  0.93, 1.23,-2.19
 AddSeat = -0.93, 1.23,-2.19
 AddSeat =  0.93, 1.23,-2.80
 AddSeat = -0.93, 1.23,-2.80
+
+unmountposition = 0.72,  1.50,  4.65
 
 
 ; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range, ParaAlt

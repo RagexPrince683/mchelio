@@ -1,4 +1,5 @@
-﻿DisplayName = Sikorsky S-76 V.I.P
+﻿DisplayName = Sikorsky S-76 VIP
+AddDisplayName = en_US, Sikorsky S-76 VIP
 AddDisplayName = ja_JP, シコルスキー S-76 V.I.P仕様
 ItemID = 30046
 MaxHp = 100
@@ -40,9 +41,11 @@ AddRecipe = "IFI",  "GKB",  "BB ",  B, iron_block,  I, iron_ingot,  G, glass,  K
 
 InventorySize = 27
 
+unmountposition = -0.62,  1.50, -1.27
 
-BoundingBox =  0.0, 1.7, 1.5,  2.4, 2.5
+
+;BoundingBox =  0.0, 1.7, 1.5,  2.4, 2.5
 BoundingBox =  0.0, 2.1, -1.5,  2.4, 3.3
-BoundingBox =  0.0, 3.2, -11.5,  1.0, 2.4
+BoundingBox =  0.0, 3.2, -13.5,  1.0, 2.4
 
 DamageFactor = 0.8

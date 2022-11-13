@@ -35,4 +35,6 @@ AddPartHatch = -0.87, 1.01, 2.48,  0.046,  1.0, -0.51,  70
 
 AddRecipe = "IRI",  " G ",  "BFB",  R, iron_block,  I, iron_ingot,  G, Glass,  B,  boat,  F, iron_bars,
 
+unmountposition = -0.43,  1.50,  1.76
+
 InventorySize = 27
