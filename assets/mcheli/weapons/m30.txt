@@ -1,0 +1,32 @@
+DisplayName = M30 [Guided Rocket]
+Type = TVMissile
+Power = 300
+Acceleration = 2.0
+Explosion = 10
+ExplosionBlock = 3
+Flaming = false
+Sight = MoveSight
+Delay = 50
+ModeNum = 2
+ModelBullet = m28
+Sound = missile_11_snd
+
+TrajectoryParticle = fireworksSpark
+
+AddMuzzleFlash      =  2.2,      1.80,        8,  200,254,129,44
+AddMuzzleFlash      =  2.1,      1.75,        7,  200,254,219,104
+AddMuzzleFlash      =  2.0,      1.70,        6,  200,254,219,184
+AddMuzzleFlashSmoke =  3.2, 20,  11.0,  3.0, 45,  220,160,140,120
+AddMuzzleFlashSmoke =  4.2, 10,  12.0,  6.0, 35,  200,190,170,150
+
+AddMuzzleFlash      =  -4.2,      1.80,        8,  200,254,129,44
+AddMuzzleFlash      =  -4.1,      1.75,        7,  200,254,219,104
+AddMuzzleFlash      =  -4.0,      1.70,        6,  200,254,219,184
+AddMuzzleFlashSmoke =  -5.2, 25,  12.0,  3.0, 45,  220,160,140,120
+AddMuzzleFlashSmoke =  -6.2, 13,  13.0,  6.0, 35,  200,190,170,150
+
+MaxAmmo = 6
+SuppliedNum = 6
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

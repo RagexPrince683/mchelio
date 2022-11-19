@@ -25,7 +25,7 @@ AddTexture = carrera_gt_1
 PivotTurnThrottle = 0.1
 
 PartWheelRot = 45
-SetWheelPos =  1.59,  -0.2,  2.2165, -2.2706
+SetWheelPos =  1.00,  -0.2,  2.2165, -2.2706
 AddPartSteeringWheel =  0.5596,  0.8883,  0.7051,  0, 0.3196, -1,   95
 AddPartWheel     =  1.57,  0.2272, 2.2165, 35
 AddPartWheel     =  -1.57,  0.2272, 2.2165, 35
@@ -39,7 +39,7 @@ AddPartHatch = 0, 1.0261, 1.8087, 1, 0, 0.0, -60
 AddPartHatch = 0, 1.2335, -1.026, -1, 0, 0, -60
 
 MaxFuel         = 500
-FuelConsumption = 0.5
+FuelConsumption = 0.6
 
 AddRecipe = " G ",  "I I",  "IIR",   G, glass, I, iron_ingot, R, redstone
 

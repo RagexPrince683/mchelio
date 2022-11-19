@@ -57,6 +57,8 @@ AddPartSteeringWheel =  0.571,  0.8113,  0.4347,  0, 0.3196, -1,   160
 
 AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
 
+SetWheelPos =  0.60,  -0.24,  1.851, -1.934
+
 ;AddFixedSearchLight= 座標X, Y, Z,       開始地点の色, 終了地点の色,  距離, 終端の半径, Yaw, Pitch
 ;ヘッドライト
 AddFixedSearchLight =  -0.7268, 0.639, 2.765,   0x50FFFFFF,   0x00FFFFC0,    0.14, 0.20,  -5,  0

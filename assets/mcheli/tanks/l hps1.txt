@@ -47,7 +47,7 @@ HUD = lamborghini_huracan_hud, none
 AddSeat =   0.48,  -0.29,  -0.1
 AddSeat =  -0.48,  -0.17,  -0.1 
 
-SetWheelPos =  0.70,  -0.24,  1.82, -1.93
+SetWheelPos =  0.70,  -0.24,  1.52, -1.83
 
 PartWheelRot = 61
 

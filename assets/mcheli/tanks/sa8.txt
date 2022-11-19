@@ -1,0 +1,93 @@
+DisplayName = SA-8
+AddDisplayName = en_US, SA-8
+AddDisplayName = ja_JP, SA-8
+ItemID = 36432
+MaxHp = 200
+ThrottleUpDown = 5.0
+Speed = 0.5
+MobilityYawOnGround = 6.0
+StepHeight = 1.5
+Sound = prop
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity = -0.61
+GravityInWater = 0.1
+DamageFactor   = 0.8
+EnableNightVision = true
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+EnableEntityRadar = true
+CameraPosition = -0.68, 2.1,  3.53, true
+
+CameraRotationSpeed = 40
+
+OnGroundPitchFactor = 15.0
+OnGroundRollFactor  = 5.2
+
+AddTexture = sa82
+
+;後退可能にする
+EnableBack = true
+; C = Civilian(民間機)
+
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  0.68,  -0.24,  1.20, -1.10
+
+HUD = mbt_hud, vehicle, none
+
+AddSeat = -0.70, 0.79,  0.27
+AddSeat =  0.70, 0.79,  0.27
+AddSeat = -0.70, 1.07, -1.01
+AddSeat =  0.70, 1.07, -1.01
+AddGunnerSeat =  0.01, 1.50, 0.05, 0.00, 4.65, -0.02, false, -40, 4
+AddSeat = -0.70, 1.45, -2.35
+AddSeat =  0.70, 1.45, -2.35
+
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.2
+
+; タイヤの回転スピード
+PartWheelRot = 40
+; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
+AddPartWheel     = -1.16,  0.34,  3.04, 10
+AddPartWheel     = 1.19,  0.34,  3.04, 10
+AddPartWheel     = -1.16,  0.34, -0.19
+AddPartWheel     = 1.19,  0.34, -0.19
+AddPartWheel     = -1.16,  0.34, -3.21, 10
+AddPartWheel     = 1.19,  0.34, -3.21, 10
+
+AddTurretWeapon = sa8,    -0.05, 2.95, 0.05, 0.0, 0.0, false, 5, 0, -360, 360, -35,  4
+AddPartWeapon = sa8, false, true, false,  -0.05, 2.30, 0.05, 0
+AddPartWeaponChild = false, true, -0.05, 2.33, 0.05
+
+InventorySize = 9
+
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+
+;ヘッドライト
+AddFixedSearchLight =  0.52, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight = -0.52, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+;テールランプ
+AddFixedSearchLight =  0.36, 0.37,-1.58,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+AddFixedSearchLight = -0.36, 0.37,-1.58,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+
+EntityWidth  = 0.9
+EntityHeight = 0.9
+
+
+AddRack = container, 0.00, 1.20, -1.06,  0.0, 0.0, 0.0, 5.0
+
+BoundingBox =  0.0, 1.0,  1.5,   2.6, 1.0,   0.90
+BoundingBox =  0.0, 1.5, -0.5,   2.6, 2.0,   1.00
+BoundingBox =  0.0, 1.5, -1.5,   2.6, 2.0,   1.10
+
+unmountposition = -0.70, 1.50,  0.27

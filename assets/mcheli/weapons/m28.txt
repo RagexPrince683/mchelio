@@ -1,0 +1,46 @@
+DisplayName = M28 [Unguided Rocket]
+Type = Rocket
+Power = 220
+Acceleration = 2.5
+Flaming = false
+Sight = None
+Gravity = -0.01
+Delay = 6
+SoundVolume = 3.6
+SoundPitch = 5.0
+Accuracy = 0.2
+Explosion = 4
+ExplosionBlock = 2
+Round = 6
+ReloadTime = 500
+ModelBullet = m28
+Group = Rocket
+
+;Bomblet = 10
+;BombletDiff = 0.3
+;BombletSTime = 60
+ModelBomblet = cbc
+
+AddMuzzleFlash      =  2.2,      1.80,        8,  200,254,129,44
+AddMuzzleFlash      =  2.1,      1.75,        7,  200,254,219,104
+AddMuzzleFlash      =  2.0,      1.70,        6,  200,254,219,184
+AddMuzzleFlashSmoke =  3.2, 20,  11.0,  3.0, 45,  220,160,140,120
+AddMuzzleFlashSmoke =  4.2, 10,  12.0,  6.0, 35,  200,190,170,150
+
+AddMuzzleFlash      =  -4.2,      1.80,        8,  200,254,129,44
+AddMuzzleFlash      =  -4.1,      1.75,        7,  200,254,219,104
+AddMuzzleFlash      =  -4.0,      1.70,        6,  200,254,219,184
+AddMuzzleFlashSmoke =  -5.2, 25,  12.0,  3.0, 45,  220,160,140,120
+AddMuzzleFlashSmoke =  -6.2, 13,  13.0,  6.0, 35,  200,190,170,150
+
+TrajectoryParticle = fireworksSpark
+
+Sound = missile_11_snd
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.1
+
+MaxAmmo = 6
+SuppliedNum = 6
+Item =  5, iron_ingot
+Item =  5, gunpowder

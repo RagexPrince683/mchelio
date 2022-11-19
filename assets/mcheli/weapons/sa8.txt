@@ -1,0 +1,22 @@
+DisplayName = 9M33M2
+Type = AAMissile
+Power = 60
+Acceleration = 3
+Explosion = 4
+Flaming = false
+Sight = MissileSight
+Delay = 100
+LockTime = 35
+ProximityFuseDist = 1
+Sound = missile_1_snd
+
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+
+MaxAmmo = 6
+SuppliedNum = 6
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  2, redstone

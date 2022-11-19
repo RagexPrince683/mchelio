@@ -35,7 +35,7 @@ AddPartWheel =  1.18, 0.33, 3.00, 30
 AddPartWheel = -1.18, 0.33,-1.03
 AddPartWheel = -1.18, 0.33,-1.03
 
-SetWheelPos =  1.18,  -0.24,  3.00, -1.03
+SetWheelPos =  0.88,  -0.24,  3.00, -1.03
 
 AddPartSteeringWheel =  0.6057, 1.4257, 1.6868,  0, 0.3625,-1,  130
 
