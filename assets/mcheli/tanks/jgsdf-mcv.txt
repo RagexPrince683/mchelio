@@ -2,7 +2,7 @@
 AddDisplayName = en_US, JGSDF Maneuver Combat Vehicle
 AddDisplayName = ja_JP, 陸上自衛隊 機動戦闘車
 ItemID = 30070
-MaxHp = 100
+MaxHp = 200
 Speed = 0.6
 Sound = vehiclerun
 ThrottleUpDown = 1.8
@@ -34,7 +34,7 @@ CameraRotationSpeed = 35
 ;ArmorMinDamage = 60 
 ;ArmorMaxDamage = 400
 
-SetWheelPos =  1.02,  0.00,  2.06,  0.70, 0.00, -2.22, -2.14
+SetWheelPos =  1.02,  0.00,  2.35,  0.70, -0.80, -2.22, -2.30
 
 
 StepHeight = 1.5

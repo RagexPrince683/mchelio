@@ -2,7 +2,7 @@
 AddDisplayName = ja_JP, BM21
 AddDisplayName = en_US, BM-21 Grad
 ItemID = 30100
-MaxHp = 100
+MaxHp = 150
 Speed = 0.7
 Sound = mbt_run
 ThrottleUpDown = 10.0
@@ -32,7 +32,7 @@ WeightType =  Car
 WeightedCenterZ = 0
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
-SetWheelPos =  1.74,  -0.47,  7.16,  1.57,-0.6 
+SetWheelPos =  1.35,  -0.47,  7.35,  1.65,-0.5
 
 MotionFactor = 0.9
 ;old retard method

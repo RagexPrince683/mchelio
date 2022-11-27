@@ -1,6 +1,6 @@
-DisplayName = M26
+DisplayName = M26 Pershing
 AddDisplayName = ja_JP, M26 パーシング
-AddDisplayName = en_US, M26
+AddDisplayName = en_US, M26 Pershing
 ItemID = 30997
 MaxHp = 162
 Speed = 0.6
@@ -30,7 +30,8 @@ WeightType = Tank
 
 MotionFactor = 0.9
 
-SetWheelPos =  1.31, -0.24, 2.41, 1.37, -0.13, -1.80, -2.96, -3.93
+SetWheelPos =  1.51, -0.24, 2.41, 1.37, -0.13, -1.80, -2.96
+;-3.93
 
 
 ; 指定した高さまでの水に触れてもダメージを受けない
@@ -78,6 +79,7 @@ AddTrackRoller =  1.757,  0.6061,  -3.463
 AddTrackRoller = -1.757,  0.6061,  -3.463
 
 AddWeapon = 90mm_gun_m3,   0.00, 2.314, 0.7542,   0.0, 0.0, true, 2,0,-360,360, -20,10
+AddWeapon = browning,   1.00, 2.314, 0.7542,   0.0, 0.0, true, 2,0,-360,360, -20,10
 AddPartWeapon    = 90mm_gun_m3,      false, true, false,  0.00,  1.70, 0.7542
 AddPartWeaponChild = false, true, 0.00, 2.314, 1.908,
 AddPartWeaponChild = false, true, 0.00, 2.314, 1.908, 0.5

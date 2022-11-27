@@ -1,7 +1,7 @@
 DisplayName = MXT-MV Husky TSV
 AddDisplayName = en_US, MXT-MV Husky TSV
 AddDisplayName = ja_JP, MXT-MV ハスキーTSV
-MaxHp = 100
+MaxHp = 150
 ThrottleUpDown = 10.0
 Speed = 0.7
 MobilityYawOnGround = 9.0
@@ -30,7 +30,7 @@ WeightType = Car
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos = 1.03, -0.24, -2.05, 2.02
+SetWheelPos = 0.72, -0.24, -2.05, 2.02
 
 HUD = bnr32_hud, none, none, none, gunner
 

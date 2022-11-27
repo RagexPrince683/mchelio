@@ -40,7 +40,7 @@ WeightType = Tank
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
+SetWheelPos =  1.50,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
 
 AddGunnerSeat = 0.00, 1.23, 0.57, 0.00, 3.83, 0.57,  false, -90, 90, true
 AddSeat = 0.48, 0.68, -2.10

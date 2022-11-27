@@ -22,7 +22,7 @@ AddTexture = type743
 AddTexture = type744
 
 EnableBack = true
-SetWheelPos =  1.4,  -0.24,  3.0, 1.0, -1.0, -3.0, -5.0
+SetWheelPos =  1.4,  -0.24,  2.0, 1.0, -1.0, -3.0, -2.0
 
 SubmergedDamageHeight = 2
 WeightedCenterZ = 0.0

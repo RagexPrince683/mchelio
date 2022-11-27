@@ -46,7 +46,7 @@ WeightedCenterZ = 0.0
 
 
 
-SetWheelPos =  1.75,  -0.24,  4.85, 3.02, 1.44, -1.54, -2.91
+SetWheelPos =  1.75,  -0.24,  0.0, 3.02, 1.44, -1.54, -2.91
 
 HUD = mbt_hud, gunner
 

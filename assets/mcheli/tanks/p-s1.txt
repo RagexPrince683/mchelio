@@ -24,7 +24,7 @@ MotionFactor = 0.9
 DamageFactor = 1.0
 EnableBack = true
 
-CameraPosition = 0.0, 4.4, 0.0, true
+;CameraPosition = 0.0, 4.4, 0.0, true
 ;CameraPosition = 0.0, 4.4, 0.0
 
 AddTexture = p-s1_1
@@ -34,21 +34,32 @@ SubmergedDamageHeight = 3
 ;  M = Military,  A = AAGun(対空砲)
 Category = M.A
 
-WeightType = Tank
+WeightType = Car
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = mbt_hud, none, none, gunner, gunner
+HUD = bnr32_hud, mbt_hud, gunner, none, none
 
 EntityWidth  = 0.7
 EntityHeight = 0.7
 
+;AddSeat =  0.16, 1.52, 3.42
+;AddGunnerSeat =  0.75, 1.42, 3.42,  0.0, 5.65,-1.56, false, -85, 5
+
 AddSeat =  0.71, 1.42, 6.08
+AddGunnerSeat =  0.16, 1.52, 3.42,  0.0, 4.4, 0.0, false, -85, 5, false
 AddSeat = -0.05, 1.42, 6.08
 AddSeat = -0.71, 1.42, 6.08
 AddSeat =  0.75, 1.42, 3.42
-AddGunnerSeat =  0.16, 1.52, 3.42,  0.0, 5.65,-1.56, false, -85, 5
+
+
+;AddGunnerSeat =  0.0, 1.2009, 2.6841,  0, 5.5, -5, false, -90,45, false
+
+
+
+
+
 ;AddGunnerSeat = -0.53, 1.52, 3.42,  0.0, 4.4, 0.0, true
 
 AddPartCanopy =  1.183, 1.8, 6.858, 0,-1,0, 40
@@ -70,23 +81,59 @@ PivotTurnThrottle = 0.2
 TrackRollerRot = 30
 
 ;AddPartSlideHatch = 0.0, -0.48, 0.0
+;AddPartWeaponChild = false, true, 0.0, 0.0, 0.0
 
 
 
 ;30mm機関砲・SAM
-AddPartWeapon = 2a38m_ap / 2a38_hei / 57e6, false, true, false,  0.0, 2.5, 0.0
-AddPartWeaponChild = false, true, 0.0, 3.3, -0.805
-;AddPartWeaponChild = false, true, 0.0, 0.0, 0.0
-AddPartWeaponChild = false, true, 0.0, 4.044, 0.509
-AddTurretWeapon = 2a38_ap,   0.7338, 3.3009, 0,  0.0, 0.0, true,1, 0,-360,360, -85, 5
-AddTurretWeapon = 2a38_ap,  -0.7338, 3.3009, 0,  0.0, 0.0, true,1, 0,-360,360, -85, 5
-AddTurretWeapon = 2a38_hei,  0.7338, 3.3009, 0,  0.0, 0.0, true,1, 0,-360,360, -85, 5
-AddTurretWeapon = 2a38_hei, -0.7338, 3.3009, 0,  0.0, 0.0, true,1, 0,-360,360, -85, 5
-AddTurretWeapon = 57e6,  1.16, 3.13, -2.8,  0.0,-3.0, true,6, 0,-360,360, -85, 5
-AddTurretWeapon = 57e6, -1.16, 3.13, -2.8,  0.0,-3.0, true,6, 0,-360,360, -85, 5
+
+
+;AddWeapon			= mfom227mm,    0,  2.5, -2.8,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
+
+
+
+
+
+
+;AddWeapon = 2a38_ap,   0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+;AddWeapon = 2a38_ap,  -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+;AddWeapon = 2a38_hei,  0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+;AddWeapon = 2a38_hei, -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+;AddWeapon = 57e6,  1.16, 3.13, -2.8,  0.0,-3.0, false,2, 0,-360,360, -85, 5
+;AddWeapon = 57e6, -1.16, 3.13, -2.8,  0.0,-3.0, false,2, 0,-360,360, -85, 5
+
+;AddPartWeapon 		= 2a38m_ap / 2a38_hei / 57e6,    false, true,  false,  0.0, 2.5, 0.0
+
+;AddPartWeapon 		= 2a38m_ap,    false, true,  false, 0.00,  2.5, 0.0
+
+;AddPartWeaponChild 		= false, true, 0.0, 3.3, -0.805
+
+;AddPartWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.3196
+;AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
+
+
+;AddWeapon			= mfom227mm,    0,  2.5, -2.8,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
+;AddPartWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.3196
+;AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
+
+AddWeapon			= 2a38_ap,   0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+AddWeapon			= 2a38_ap,   -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+AddWeapon			= 2a38_hei,   0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+AddWeapon			= 2a38_hei,   -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+
+AddWeapon			= 57e6,   1.16, 3.13, -2.8,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+AddWeapon			= 57e6,  -1.16, 3.13, -2.8,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+
+AddWeapon			= UHF_radar, 0.0, 4.6, -1.558, 0.0, 0.0, false, 2, 0, -360, 360, -90,  90
+
+
+AddPartWeapon 		= 2a38_ap,    false, true,  false, 0.00,  2.5, 0.0
+AddPartWeaponChild 		= false, true, 0.0, 3.3, -0.805
+
+
 
 ;Target acquisition radar
-AddTurretWeapon = UHF_radar, 0.0, 4.6, -1.558, 0.0, 0.0, false, 5
+;AddTurretWeapon = UHF_radar, 0.0, 4.6, -1.558, 0.0, 0.0, false, 5, 0, -360, 360, -90,  90
 
 AddRecipe = " I ",  "XXX",  "XXX",  X, iron_block,  I, iron_ingot
 
@@ -111,6 +158,8 @@ BoundingBox = 0.0, 0.95, 3.5, 2.5, 0.2
 BoundingBox = 0.0, 0.95, 5.8, 2.5, 0.2
 BoundingBox = 0.0, 0.95, -1.85, 2.7, 0.2
 BoundingBox = 0.0, 0.95, -0.0, 2.5, 0.2
+
+BoundingBox = 0.0, 2.5, 0.0, 2.5, 3.0, 1.5
 
 DefaultFreeLook = true
 

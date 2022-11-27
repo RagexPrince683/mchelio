@@ -1,7 +1,7 @@
 DisplayName = Toyota Hilux
 AddDisplayName = en_US, Toyota Hilux
 AddDisplayName = ru_RU, Тойота Hilux
-MaxHp = 100
+MaxHp = 150
 ThrottleUpDown = 10.0
 Speed = 0.7
 MobilityYawOnGround = 6.0
@@ -24,7 +24,7 @@ OnGroundRollFactor  = 5.2
 
 EnableBack = true
 
-SetWheelPos =  0.68,  -0.24,  1.20, -1.10
+SetWheelPos =  0.55,  -0.24,  3.63, -0.10
 
 HUD = bnr32_hud, gunner
 

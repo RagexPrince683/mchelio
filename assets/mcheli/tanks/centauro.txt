@@ -2,7 +2,7 @@ DisplayName = B1 centauro
 AddDisplayName = en_US, B1 Centauro
 AddDisplayName = ja_JP, チェンタウロ偵察戦闘車
 ItemID = 30102
-MaxHp = 100
+MaxHp = 200
 Speed = 0.8
 Sound = vehicle_run
 ThrottleUpDown = 5
@@ -43,7 +43,7 @@ AddGunnerSeat =  0.00, 1.01,  0.00,   0.60, 3.40,  0.60, false, -90, 90, true
 AddGunnerSeat =  0.78, 2.33, -0.16,   0.78, 3.63, -0.16, true, -90, 90, true
 AddGunnerSeat = -0.80, 2.41, -0.97,  -0.80, 3.71, -0.97, true, -90, 90, true
 
-SetWheelPos =  1.50,  -0.24,  3.75, 1.71, -0.15, -2.01
+SetWheelPos =  1.25,  -0.24,  3.75, 1.71, -0.15, -2.01
 
 AddPartWheel =    1.25,  0.43, 3.75, 20
 AddPartWheel =    1.25,  0.43, 1.71, 10

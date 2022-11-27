@@ -1,13 +1,16 @@
 ﻿DisplayName = BMP-2 IFV
 AddDisplayName = en_US, BMP-2 IFV
 AddDisplayName = ja_JP, BMP-2 歩兵戦闘車
-MaxHp = 100
+MaxHp = 200
 Speed = 0.6
 Sound = vehicle_run
 ThrottleUpDown = 10.0
 MobilityRoll = 0
 Gravity = -0.61
-GravityInWater = 0.1
+Float = true
+FloatOffset = 0.0
+
+GravityInWater = -0.2
 DamageFactor = 0.0
 EnableNightVision = true
 CameraRotationSpeed = 30
@@ -40,7 +43,7 @@ WeightType = Tank
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
+SetWheelPos =  1.10,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
 
 ;AddGunnerSeat = 0.00, 2.10, 0.24
 AddGunnerSeat = 0.00, 1.10, 0.24, 0.00, 2.10, 0.0, true, -90, 90, true

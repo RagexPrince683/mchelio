@@ -1,6 +1,6 @@
 DisplayName = Bal-e Coastal Defense System
 AddDisplayName = en_US, Bal-e Coastal Defense System
-MaxHp = 100
+MaxHp = 200
 Speed = 0.8
 Sound = vehicle_run
 ThrottleUpDown = 5
@@ -27,7 +27,7 @@ SubmergedDamageHeight = 3
 ;  M = Military,  A = AAGun(対空砲)
 Category = M.A
 
-WeightType = Tank
+WeightType = Car
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
@@ -36,7 +36,7 @@ HUD = mbt_hud, mbt_gnr, gunner, gunner
 
 AddGunnerSeat =  -0.9612, 1.325, 4.7212
 
-SetWheelPos =  1.53,  -0.35,  2.72, 0.16, -2.42
+SetWheelPos =  0.97,  -0.35,  3.055, 0.63, -3.33, -5.50
 
 AddPartWheel =   1.3983, 0.4388, 3.0778, 40
 AddPartWheel =   -1.3983, 0.4388, 3.0778, 40

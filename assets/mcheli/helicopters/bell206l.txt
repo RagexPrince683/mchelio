@@ -35,8 +35,10 @@ AddRecipe = " R ",  "X X",  "X X",  X, iron_block,  R, redstone_block
 InventorySize = 27
 
 
-BoundingBox =  0.0, 1.7, 1.5,  2.4, 2.5
-BoundingBox =  0.0, 2.1, -1.5,  2.4, 3.3
+;BoundingBox =  0.0, 1.7, 1.5,  2.4, 2.5
+BoundingBox = 0.0, 4.27, -0.932, 1.0, 1.5, 1.5
+
+BoundingBox =  0.0, 2.1, -2.5,  2.4, 3.3
 BoundingBox =  0.0, 3.2, -11.5,  1.0, 2.4
 
 Unmountposition = -0.44,  1.50,  1.49

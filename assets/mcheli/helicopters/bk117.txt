@@ -42,10 +42,16 @@ AddWeapon = targeting_pod_pv50s, 0.0, 0.0, 0.0, 0.0, 0.0, true, 2
 
 ; パラメータは前から順に 武器設定ファイル名、位置(X,Y,Z)、回転角度(横,縦), パイロット使用可否, 座席, DefaultYaw, MinYaw, MaxYaw, MinPitch, MaxPitch
 
-BoundingBox =  0.0,  1.39,  0.00,  1.8, 2.5
-BoundingBox =  0.0,  1.11,  2.06,  1.8, 1.8
-BoundingBox =  0.0,  1.76, -1.81,  1.5, 1.8
-BoundingBox =  0.0,  2.15, -6.21,  2.0, 1.2
+;BoundingBox =  0.0,  1.39,  0.00,  1.8, 2.5
+;BoundingBox =  0.0,  1.11,  2.06,  1.8, 1.8
+;BoundingBox =  0.0,  1.76, -1.81,  1.5, 1.8
+
+
+BoundingBox =  0.0,  2.35, -7.21,  2.3, 1.5
+
+BoundingBox =  0.0, 1.65, -1.5,  2.0, 2.5
+
+BoundingBox = 0.0, 2.5, 0.0, 1.0, 1.5, 1.5
 
 EntityWidth  = 0.9
 EntityHeight = 0.9

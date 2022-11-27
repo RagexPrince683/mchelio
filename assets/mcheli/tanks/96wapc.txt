@@ -2,7 +2,7 @@
 AddDisplayName = en_US, Type 96 APC TypeA
 AddDisplayName = ja_JP, 96式装輪装甲車 A型
 ItemID = 30102
-MaxHp = 100
+MaxHp = 200
 Speed = 1.5
 Sound = vehicle_run
 ThrottleUpDown = 5
@@ -55,7 +55,7 @@ AddSeat = -0.64, 1.00, -3.10
 AddSeat =  0.64, 1.00, -2.50
 AddSeat = -0.64, 1.00, -2.50
 
-SetWheelPos =  1.40,  -0.24,  3.05, 1.51, -0.55, -2.51
+SetWheelPos =  1.40,  -0.24,  1.95, -0.237, -2.21, -4.13
 
 AddPartWheel =   -1.38,  0.43, 1.96, 20
 AddPartWheel =    1.38,  0.43, 1.96, 20

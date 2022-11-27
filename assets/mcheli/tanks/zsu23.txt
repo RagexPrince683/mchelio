@@ -1,8 +1,8 @@
 DisplayName =ZSU-23-4
-AddDisplayName = en_US, ZSU-23-4
+AddDisplayName = en_US, ZSU-23-4 Shilka
 AddDisplayName = ja_JP, ZSU-23-4
 ItemID = 30100
-MaxHp = 100
+MaxHp = 200
 Speed = 0.7
 Sound = mbt_run
 ThrottleUpDown = 10.0
@@ -48,6 +48,9 @@ AddPartWeapon = 23mm, false, true, false, 0.00, 2.74, 0, 0
 AddPartWeaponChild = false, true,  0, 3.81, -1.8
 AddPartWeaponChild = false, true, -0.48, 2.74, 1.19
 AddPartWeaponChild = false, true,   0.00, 2.27, 1.5
+
+SetWheelPos =  1.50,  -0.24,  2.86,  0.70, -0.76, -2.22
+
 
 ; パラメータは前から順に 武器設定ファイル名、位置(X,Y,Z)、回転角度(横,縦), パイロット使用可否, 座席, DefaultYaw, MinYaw, MaxYaw, MinPitch, MaxPitch
 

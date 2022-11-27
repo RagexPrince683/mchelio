@@ -38,7 +38,7 @@ WeightedCenterZ = 0.0
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  1.75,  -0.24,  4.85, 3.02, 1.44, -1.54, -2.91
+SetWheelPos =  1.55,  -0.24,  0.00, 3.02, 1.44, -1.54, -2.91
 
 HUD = mbt_hud, gunner
 ;HUD = ww2tank_hud, ww2tank_hud, none, none, none, none, none, none

@@ -29,7 +29,7 @@ OnGroundRollFactor  = 1.3
 
 WeightType = Tank
 WeightedCenterZ = 0
-SetWheelPos =  2.14,  -0.24,  5.28,  2.91, 0.89, -0.93 ,-2.03
+SetWheelPos =  1.80,  -0.24,  3.00,  1.95, 0.89, -0.35,-1.65
 MotionFactor = 0.9
 AddGunnerSeat =  0.01,  0, 0,   0.01,  3,   0.00,  false, -90, 90, true
 ;m107 bb

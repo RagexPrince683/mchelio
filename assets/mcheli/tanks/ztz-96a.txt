@@ -41,16 +41,14 @@ SubmergedDamageHeight = 3
 ; Tank or Car or Unknown
 WeightType = Tank
 
-;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
-; X座標のマイナス側は必要なし
-SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
 
 ; 転輪の回転速度：0より小さい値を設定すると逆回転する
 ;TrackRollerRot = 30
 
 MotionFactor = 0.9
 
-SetWheelPos =  1.75,  -0.24,  3.02, 1.44, -1.54, -2.91, -4.85
+SetWheelPos =  1.75,  -0.24,  3.02, 1.44, -1.54, -2.91, 0.0
+;, -4.85
 
 ;転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
 ;履帯と同じ動きをするが、履帯がなくても設定可能

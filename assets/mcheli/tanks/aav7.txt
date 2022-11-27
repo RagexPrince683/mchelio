@@ -1,7 +1,7 @@
 ﻿DisplayName = AAV7A1 Amtrak
 AddDisplayName = en_US, AAV7A1 Amtrak
 AddDisplayName = ja_JP, AAV7A1 アムトラック
-MaxHp = 100
+MaxHp = 200
 Speed = 0.6
 Sound = tank
 ThrottleUpDown = 10.0
@@ -41,7 +41,7 @@ WeightType = Tank
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+SetWheelPos =  1.25,  -0.24,  2.25,  0.70, -0.76, -2.22, -3.50
 
 AddSeat =  0.00,  1.00,  0.63
 AddSeat = -0.81, 0.92, -0.37

@@ -2,7 +2,7 @@
 AddDisplayName = en_US, Type 87 RCV
 AddDisplayName = ja_JP, 87式偵察警戒車
 ItemID = 30102
-MaxHp = 100
+MaxHp = 200
 Speed = 1.5
 Sound = vehicle_run
 ThrottleUpDown = 5

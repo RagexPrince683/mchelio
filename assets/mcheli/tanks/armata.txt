@@ -30,7 +30,7 @@ SubmergedDamageHeight = 3
 HideEntity = true
 WeightType = tank
 WeightedCenterZ = 0.0
-SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+SetWheelPos =  1.82,  -0.24,  3.20,  1.20, -0.00, -1.20, -2.8
 HUD = mbt_hud, mbt_gnr
 
 ;canride = true

@@ -1,7 +1,7 @@
 DisplayName = M1129 Self-Propelled Mortar
 AddDisplayName = en_US, M1129 Self-Propelled Mortar
 AddDisplayName = ja_JP, M1129 自走迫撃砲
-MaxHp = 100
+MaxHp = 200
 Speed = 0.8
 Sound = vehicle_run
 ThrottleUpDown = 5
@@ -39,7 +39,7 @@ AddGunnerSeat =  0.86, 1.54,  2.12
 AddGunnerSeat = -0.75, 2.52, -0.62,  -0.75, 3.52, -0.62, false, -90,  90, false
 AddGunnerSeat =  0.00, 1.16, -1.67,   0.00, 3.19, -1.67, true,  -87, -45, false
 
-SetWheelPos =  1.53,  -0.35,  2.72, 0.16, -2.42
+SetWheelPos =  1.28,  -0.35,  2.72, 1.09, -0.76, -2.42
 
 AddPartWheel =   -1.53,  0.39, 2.72, 40
 AddPartWheel =    1.53,  0.39, 2.72, 40

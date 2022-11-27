@@ -1,4 +1,4 @@
-﻿ DisplayName = TK-X
+﻿DisplayName = TK-X
 AddDisplayName = en_US, Type 10 MBT
 AddDisplayName = zh_CN, TK-10坦克
 ItemID = 8759
@@ -38,7 +38,7 @@ WeightType = Tank
 WeightedCenterZ = 0.0
 
 
-SetWheelPos =  1.37,  -0.32,  0.60, 1.43, -0.75
+SetWheelPos =  1.79,  -0.21,  2.00, 3.01, 0.83, -1.11, -2.50
 
 HUD = mbt_hud,mbt_gnr
 

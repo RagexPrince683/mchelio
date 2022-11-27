@@ -1,7 +1,7 @@
 DisplayName = M3 Bradley
 AddDisplayName = en_US, M3 Bradley
 AddDisplayName = ru_RU, M2 Брэдли
-MaxHp = 100
+MaxHp = 200
 Speed = 0.8
 Sound = tank_gte
 ThrottleUpDown = 20.0
@@ -28,7 +28,7 @@ SubmergedDamageHeight = 4
 HideEntity = true
 WeightType = Unknown
 WeightedCenterZ = 0.0
-SetWheelPos =  1.46,  -0.24,  3.7918,   2.7549,  1.9609,  1.21729,  0.2849, -0.5194, -1.2981, -2.319
+SetWheelPos =  1.00,  -0.24,  3.0918,   2.7549,  1.9609,  1.21729,  0.2849, -0.5194, -1.2981, -2.319
 ThirdPersonDist = 8
 HUD = mbt_hud, none, none,none,none,none, none, none,none,none,none
 EntityWidth  = 0.7
@@ -84,6 +84,9 @@ AddTurretWeapon = bgm71a,     1.3285, 3.0382, -0.7165,  0.0, 0.0, true,1, 0,-360
 AddTurretWeapon = bgm71a,     1.0565, 3.0382, -0.7165,  0.0, 0.0, true,1, 0,-360,360, -90, 90
 AddWeapon = targeting_pod_tank, 0.00, 3.50, 0.00, 0.0, 0.0, false, 1, 0, -360, 360, -90, 90
 
+;RideRack = 乗る機体名, ラック番号 (1～) 
+RideRack = c5, 1
+RideRack = c5, 2
 
 
 ArmorMinDamage = 8

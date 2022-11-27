@@ -20,7 +20,7 @@ CameraZoom = 3
 AddTexture = m163_1
 
 EnableBack = true
-SetWheelPos =  1.00,  -0.24,  2.50, 1.00, -1.00, -2.50
+SetWheelPos =  1.00,  -0.24,  2.30, 0.80, -0.80, -2.30
 
 SubmergedDamageHeight = 1
 WeightedCenterZ = 0.0

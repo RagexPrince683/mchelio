@@ -1,5 +1,5 @@
 DisplayName = Bell47G
-AddDisplayName = en_US, Bell 47G
+AddDisplayName = en_US, Bell 47 G
 AddDisplayName = ja_JP, Bell47G
 ItemID = 28807
 MaxHp = 100
@@ -23,7 +23,11 @@ AddSeat =-0.50,  0.96,  0.29
 
 AddRecipe = " G ",  "IXI",  " I ",  X, iron_block, G, glass, I, iron_ingot
 
-BoundingBox =  0.0, 1.7, 0.0,  2.4, 2.5
+;BoundingBox =  0.0, 1.7, 0.0,  2.4, 2.5
+
+BoundingBox = 0.0, 3.66, -1.21, 1.0, 1.5, 1.5
+BoundingBox = 0.0, 2.15, -10.07, 1.5, 1.5, 1.5
+BoundingBox = 0.0, 1.50, -1.21, 2.0, 2.0, 1.5
 
 Unmountposition = 0.50,  1.50,  0.29
 

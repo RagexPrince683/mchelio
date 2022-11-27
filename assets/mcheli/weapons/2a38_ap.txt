@@ -1,9 +1,10 @@
-DisplayName = 2A38M 30mm CannonÅ AP-TÅ
+DisplayName = 2A38M 30mm Cannon AP-T
 Type = Rocket
 Power = 65
 ModelBullet = bullet
 Acceleration = 46.8
 Explosion = 1
+ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 0

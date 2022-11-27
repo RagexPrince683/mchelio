@@ -22,7 +22,8 @@ AddTexture = t-72b_4
 AddTexture = t-72b_5
 
 EnableBack = true
-SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+SetWheelPos =  1.62,  -0.24,  2.86,  0.70, -0.76, -2.22, 
+;-4.14
 
 SubmergedDamageHeight = 2
 WeightedCenterZ = 0.0

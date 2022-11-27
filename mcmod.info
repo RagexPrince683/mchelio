@@ -8,9 +8,9 @@
   "url": "http://forum.minecraftuser.jp/viewtopic.php?f=13&t=14837",
   "updateUrl": "",
   "authors": ["EMB4"],
-  "credits": "RagexPrince683, Grzybek for models, Atom_14, tons of users from some japanese forum", "www.v-krftv.co.jp/woyl_krftv",
+  "credits": "RagexPrince683, Grzybek for models, Atom_14, tons of users from some japanese forum", "www.v-krftv.co.jp/woyl_krftv", "Zealot", "Hamzah",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod/files/3376488"]
 }
 ]
