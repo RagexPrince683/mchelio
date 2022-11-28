@@ -44,7 +44,15 @@ AddWeapon = targeting_pod_pv10s,   0.0, 0.10, 2.91,   0.0, 0.0,  false,2
 
 AddRecipe = " Y ",  "YXY",  " Y ",  X, iron_block, Y, iron_ingot
 
-BoundingBox =  0.0, 1.7, 0.0,  2.4, 2.5
+BoundingBox =  0.0, 1.7, -1.5,  2.0, 2.0
+
+BoundingBox = 0.0, 2.8, 0.0, 1.0, 1.5, 1.5 
+
+BoundingBox = 0.0, 1.96, -2.83, 1.0, 1.0
+BoundingBox = 0.0, 1.96, -3.83, 1.0, 1.0
+BoundingBox = 0.0, 1.96, -4.83, 1.0, 1.0
+BoundingBox = 0.0, 1.96, -5.83, 1.0, 1.0
+BoundingBox = 0.0, 2.36, -6.83, 1.0, 1.8
 
 unmountposition = -0.45,  1.50,  1.20
 

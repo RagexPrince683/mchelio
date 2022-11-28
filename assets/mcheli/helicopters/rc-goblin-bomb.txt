@@ -17,7 +17,7 @@ HUD = heli
 ; C = Civilian(–¯ŠÔ‹@)
 Category = C
 
-AddSeat =  0.0, 2.0, 0.0
+AddSeat =  0.0, 0.0, 0.0
 
 AddTexture = rc-goblin-1
 AddTexture = rc-goblin-2
@@ -30,4 +30,4 @@ AddWeapon = plastic_bomb, 0,0,0,  0,0
 AddRecipe = "SSS",  "PRI",  "BGG",  I, iron_ingot,  R, redstone,  S, stick,  P, glass_pane,  B, Iron_Bars,  G, gunpowder
 
 
-BoundingBox =  0.0, 0.0, 0.0,  1.5, 1.5
+;BoundingBox =  0.0, 0.0, 0.0,  1.5, 1.5

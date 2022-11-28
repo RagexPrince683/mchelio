@@ -103,8 +103,19 @@ RideRack = c5, 1
 RideRack = c5, 2
 
 BoundingBox =  0.0, 2.5, -2.0,  2.0, 3.8
-BoundingBox =  0.0, 2.0, -4.5,  2.0, 2.4
-BoundingBox =  0.0, 2.5,-12.0,  2.0, 3.0
+
+BoundingBox =  0.0, 4.0, -2.0,  1.0, 2.5, 1.5
+
+BoundingBox =  0.0, 2.0, -4.0,  2.0, 2.4
+BoundingBox =  0.0, 3.0,-12.0,  2.0, 3.0
+
+BoundingBox = 0.0, 1.47, -5.11, 1.0, 1.0
+BoundingBox = 0.0, 1.47, -6.11, 1.0, 1.0
+BoundingBox = 0.0, 1.47, -7.11, 1.0, 1.0
+BoundingBox = 0.0, 1.47, -8.11, 1.0, 1.0
+BoundingBox = 0.0, 1.47, -9.11, 1.0, 1.0
+BoundingBox = 0.0, 1.47, -10.11, 1.0, 1.0
+BoundingBox = 0.0, 1.47, -11.11, 1.0, 1.0
 
 unmountposition = 0.00,  1.50, -0.28
 

@@ -17,7 +17,7 @@ HUD = heli
 ; C = Civilian(–¯ŠÔ‹@)
 Category = C
 
-AddSeat =  0.0, 2.0, 0.0
+AddSeat =  0.0, 0.0, 0.0
 
 AddTexture = rc-goblin-1
 AddTexture = rc-goblin-2
