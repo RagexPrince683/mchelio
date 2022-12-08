@@ -72,6 +72,9 @@ BoundingBox = 0.0, 1.50, -6, 1.0, 1.0
 BoundingBox = 0.0, 1.50, -7, 1.0, 1.0
 BoundingBox = 0.0, 1.50, -8, 1.0, 1.0
 BoundingBox = 0.0, 1.50, -9, 1.0, 1.0
+BoundingBox = 0.0, 1.50, -10, 1.0, 1.0
+BoundingBox = 0.0, 1.50, -11, 1.0, 1.0
+BoundingBox = 0.0, 2.50, -12, 1.0, 1.0
 
 EntityWidth  = 0.8
 EntityHeight = 0.8

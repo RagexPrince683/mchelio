@@ -68,9 +68,21 @@ InventorySize = 27
 ; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range, ParaAlt
 AddRack = zodiac,      0.0, 0.3, -3.0,   0.0, 0.0, -3.0,   12.0,   40
 
-BoundingBox =  0.0, 2.3, -2.0,  2.8, 3.8
-BoundingBox =  0.0, 1.8, -4.5,  2.8, 2.4
-BoundingBox =  0.0, 3.5,-14.5,  2.0, 3.0
+BoundingBox = 0.0, 3.5, -2.35, 1.0, 1.5, 1.5
+
+BoundingBox =  0.0, 1.8, -5.5,  2.8, 2.4
+BoundingBox = 0.0, 1.5, -7.40, 1.0, 2.0
+BoundingBox = 0.0, 1.5, -8.40, 1.0, 2.0
+BoundingBox = 0.0, 1.5, -9.40, 1.0, 2.0
+BoundingBox = 0.0, 1.5, -10.40, 1.0, 2.0
+BoundingBox = 0.0, 1.5, -11.40, 1.0, 2.0
+BoundingBox = 0.0, 1.5, -12.40, 1.0, 2.0
+BoundingBox = 0.0, 1.5, -13.40, 1.0, 2.0
+
+BoundingBox = 0.0, 2.92, -1.00, 3.0, 1.0
+BoundingBox = 0.0, 2.92, -2.60, 3.0, 1.0
+
+BoundingBox =  0.0, 3.5,-14.5,  2.0, 2.0
 
 unmountposition = -0.85,  1.50,  1.30
 

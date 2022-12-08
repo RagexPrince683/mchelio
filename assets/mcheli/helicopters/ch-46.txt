@@ -49,11 +49,14 @@ AddRecipe = " X ",  "XCX",  " X ",  X, iron_block, C, chest
 
 InventorySize = 54
 
-BoundingBox =  0.0, 2.5, 4.0,  2.5, 3.4
-BoundingBox =  0.0, 1.6, 1.0,  2.8, 3.0
-BoundingBox =  0.0, 1.6, -2.0,  2.8, 3.0
-BoundingBox =  0.0, 1.6,-5.0,  2.8, 3.0
-BoundingBox =  0.0, 3.5,-7.0,  2.0, 3.0
+;BoundingBox =  0.0, 2.5, 4.0,  2.5, 3.4
+;BoundingBox =  0.0, 1.6, 1.0,  2.8, 3.0
+;BoundingBox =  0.0, 1.6, -2.0,  2.8, 3.0
+;BoundingBox =  0.0, 1.6,-5.0,  2.8, 3.0
+;BoundingBox =  0.0, 3.5,-7.0,  2.0, 3.0
+
+
+
 
 AddSeat =  0.72,  1.09,  4.65
 AddSeat = -0.72,  1.09,  4.65
@@ -77,6 +80,21 @@ AddSeat =  0.93, 1.23,-2.80
 AddSeat = -0.93, 1.23,-2.80
 
 unmountposition = 0.72,  1.50,  4.65
+
+
+BoundingBox = 0.0, 3.5, 4.45, 1.0, 1.0, 1.5
+BoundingBox = 0.0, 4.71, -7.18, 1.0, 2.0, 1.5
+BoundingBox = 0.0, 4.0, -7.45, 2.0, 2.0
+BoundingBox = 0.0, 4.0, -6.00, 2.0, 2.0
+BoundingBox = 0.0, 3.14, -4.50, 1.0, 1.0
+BoundingBox = 0.0, 3.14, -3.50, 1.0, 1.0
+BoundingBox = 0.0, 3.14, -2.50, 1.0, 1.0
+BoundingBox = 0.0, 3.14, -1.50, 1.0, 1.0
+BoundingBox = 0.0, 3.14, -0.50, 1.0, 1.0
+BoundingBox = 0.0, 3.14, 0.50, 1.0, 1.0
+BoundingBox = 0.0, 3.14, 1.50, 1.0, 1.0
+BoundingBox = 0.0, 3.14, 2.50, 1.0, 1.0
+BoundingBox = 0.0, 3.14, 3.50, 1.0, 1.0
 
 
 ; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range, ParaAlt
