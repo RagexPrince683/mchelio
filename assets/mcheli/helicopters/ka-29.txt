@@ -62,6 +62,15 @@ AddRecipe = "X X",  "X X",  "GXG",  X, iron_block, G, gunpowder
 ;BoundingBox =  0.0, 2.5, -3.5,  2.0, 3.8
 ;BoundingBox =  0.0, 2.5, -6.0,  2.0, 3.0
 
-unmountposition = 0.60,  1.50, -2.00
+BoundingBox = 0.0, 3.81, -1.5, 2.5, 1.5
+BoundingBox = 0.0, 3.81, -4.0, 2.5, 1.5
+
+BoundingBox = 0.0, 2.00, -7.50, 2.0, 2.0
+BoundingBox = 0.0, 2.6, -9.1, 1.5, 1.0
+BoundingBox = 0.0, 2.8, -11.0, 2.5, 1.5
+
+BoundingBox = 0.0, 5.8, -3.0, 1.0, 2.5, 1.5
+
+unmountposition = 0.70,  1.50,  0.76
 
 DamageFactor = 0.8

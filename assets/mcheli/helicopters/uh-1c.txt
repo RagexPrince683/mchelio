@@ -56,9 +56,17 @@ AddWeapon = hydra70_l,  -1.91, 0.27, -2.54,  -1.0, 0.0,  true,  1,  0,0,0, 0, 30
 AddRecipe = " X ",  "XGX",  "I I",  X, iron_block, G, gunpowder, I, iron_ingot
 
 
-BoundingBox =  0.0, 2.3, -2.0,  2.8, 3.8
-BoundingBox =  0.0, 1.8, -4.5,  2.8, 2.4
-BoundingBox =  0.0, 3.5,-12.0,  2.0, 3.0
+BoundingBox = 0.0, 3.3, -2.5, 0.5, 1.5, 1.5
+BoundingBox =  0.0, 2.0, -3.5,  2.8, 1.4
+BoundingBox =  0.0, 3.2,-12.0,  1.0, 1.5
+
+BoundingBox = 0.0, 1.46, -5.50, 1.0, 1.0
+BoundingBox = 0.0, 1.46, -6.50, 1.0, 1.0
+BoundingBox = 0.0, 1.56, -7.50, 1.0, 1.0
+BoundingBox = 0.0, 1.56, -8.50, 1.0, 1.0
+BoundingBox = 0.0, 1.56, -9.50, 1.0, 1.0
+BoundingBox = 0.0, 1.86, -10.50, 1.0, 1.0
+BoundingBox = 0.0, 1.86, -11.50, 1.0, 1.0
 
 unmountposition = -0.50,  1.50,  0.10
 
