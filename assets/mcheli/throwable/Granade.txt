@@ -15,7 +15,8 @@ DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 
-AddRecipe = "DY",  Y, iron_ingot, D, gunpowder
+;AddRecipe = "DY",  Y, iron_ingot, D, gunpowder
+;hell no
 
 Gravity = -0.08
 GravityInWater = -1.00
