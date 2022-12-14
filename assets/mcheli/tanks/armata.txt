@@ -35,7 +35,7 @@ HUD = mbt_hud, mbt_gnr
 
 ;canride = true
 AddGunnerSeat =  0.00,  0.85,  2.0,    0.00,  2.70,  -0.5,  true, -30, 5, true
-AddGunnerSeat =  0.000   ,  2.40 ,  1.0,   -0.486, 4.1548, -1.4652, false, -50, 5, true
+AddGunnerSeat =  0.000   ,  0.85 ,  1.0,   -0.486, 4.1548, -1.4652, false, -50, 5, true
 
 ;AddFixRotSeat = 0.0, 3.0, 2.0, 0
 
@@ -92,7 +92,7 @@ AddTurretWeapon = 9m119m,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -
 ;AddPartTurretWeapon    = mg7_62mm_mbt,   false, true, true,  -0.486, 3.5548, -1.4652
 ;AddPartTurretWeapon    = mg7_62mm_mbt,  false, true, false, -0.486, 3.5548, -1.4652
 
-AddTurretWeapon = mg7_62mm_mbt,    -0.486, 3.5548, -1.4652,   0.0, 0.0, false, 2, 0, -360,360, -30,5
+AddTurretWeapon = mg7_62mm_mbt,    0.186, 3.5548, -1.4652,   0.0, 0.0, false, 2, 0, -360,360, -45,5
 AddPartTurretWeapon = mg7_62mm_mbt,   true, true, true,  -0.486, 3.5548, -1.4652
 AddPartTurretWeapon = mg7_62mm_mbt,  false, true, false, -0.486, 3.5548, -1.4652
 
