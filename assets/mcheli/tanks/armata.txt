@@ -108,7 +108,7 @@ AddPartTurretWeapon = mg7_62mm_mbt,  false, true, false, -0.486, 3.5548, -1.4652
 
 ;AddTurretWeapon = mg7_62mm_mbt,   -0.0939, 3.5920, -1.2962,   0.0, 0.0, false, 2, 0, -360,360, -30,5
 
-AddRecipe = "XXX",  "XXX",  "IXI",  X, iron_block,  I, iron_ingot
+AddRecipe = "XDX",  "XDX",  "IXI",  X, iron_block,  D, diamond_block,  I, iron_ingot
 RideRack = c5, 1
 RideRack = c5, 2
 ;maybe some day

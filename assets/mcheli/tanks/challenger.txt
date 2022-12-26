@@ -5,6 +5,7 @@ ItemID = 33406
 MaxHp = 100
 Speed = 2.66
 Sound = chal
+;~260lb-ft torque
 MobilityYawOnGround = 9.0
 ThrottleUpDown = 10.0
 MinRotationPitch = -90
