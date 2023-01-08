@@ -60,26 +60,26 @@ AddPartCamera = 0.0, 0.8762, 2.8448, true, true
 
 
 
-AddPartWeaponMissile = HJ10, false, false, false,  3.86, 1.44,-6.5
-AddPartWeaponMissile = HJ10, false, false, false, -3.86, 1.44,-6.5
-AddPartWeaponMissile = HJ10, false, false, false,  3.15, 1.44,-6.5
-AddPartWeaponMissile = HJ10, false, false, false, -3.15, 1.44,-6.5
-AddPartWeaponMissile = HJ10TV, false, false, false,  3.86, 0.73,-6.5
-AddPartWeaponMissile = HJ10TV, false, false, false, -3.86, 0.73,-6.5
-AddPartWeaponMissile = HJ10TV, false, false, false,  3.15, 0.73,-6.5
-AddPartWeaponMissile = HJ10TV, false, false, false, -3.15, 0.73,-6.5
+;AddPartWeaponMissile = HJ10, false, false, false,  3.86, 1.44,-6.5
+;AddPartWeaponMissile = HJ10, false, false, false, -3.86, 1.44,-6.5
+;AddPartWeaponMissile = HJ10, false, false, false,  3.15, 1.44,-6.5
+;AddPartWeaponMissile = HJ10, false, false, false, -3.15, 1.44,-6.5
+;AddPartWeaponMissile = HJ10TV, false, false, false,  3.86, 0.73,-6.5
+;AddPartWeaponMissile = HJ10TV, false, false, false, -3.86, 0.73,-6.5
+;AddPartWeaponMissile = HJ10TV, false, false, false,  3.15, 0.73,-6.5
+;AddPartWeaponMissile = HJ10TV, false, false, false, -3.15, 0.73,-6.5
 
 
 
 
-AddWeapon = HJ10,  3.86, 1.44,-6.5,   0.0, 0.0, true,  2
-AddWeapon = HJ10, -3.86, 1.44,-6.5,   0.0, 0.0, true,  2
-AddWeapon = HJ10,  3.15, 1.44,-6.5,   0.0, 0.0, true,  2
-AddWeapon = HJ10, -3.15, 1.44,-6.5,   0.0, 0.0, true,  2
-AddWeapon = HJ10TV,  3.86, 0.73,-6.5,   0.0, 0.0, true,  2
-AddWeapon = HJ10TV, -3.86, 0.73,-6.5,   0.0, 0.0, true,  2
-AddWeapon = HJ10TV,  3.15, 0.73,-6.5,   0.0, 0.0, true,  2
-AddWeapon = HJ10TV, -3.15, 0.73,-6.5,   0.0, 0.0, true,  2
+;AddWeapon = HJ10,  3.86, 1.44,-6.5,   0.0, 0.0, true,  2
+;AddWeapon = HJ10, -3.86, 1.44,-6.5,   0.0, 0.0, true,  2
+;AddWeapon = HJ10,  3.15, 1.44,-6.5,   0.0, 0.0, true,  2
+;AddWeapon = HJ10, -3.15, 1.44,-6.5,   0.0, 0.0, true,  2
+;AddWeapon = HJ10TV,  3.86, 0.73,-6.5,   0.0, 0.0, true,  2
+;AddWeapon = HJ10TV, -3.86, 0.73,-6.5,   0.0, 0.0, true,  2
+;AddWeapon = HJ10TV,  3.15, 0.73,-6.5,   0.0, 0.0, true,  2
+;AddWeapon = HJ10TV, -3.15, 0.73,-6.5,   0.0, 0.0, true,  2
 
 AddWeapon = targeting_pod_mob,     0.0, 0.7, 3.5,   0.0, 0.0,  true, 1
 AddWeapon = targeting_pod_pv10s,   0.0, 0.7, 3.5,   0.0, 0.0,  false,1
