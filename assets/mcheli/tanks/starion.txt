@@ -71,7 +71,10 @@ AddPartCanopy =  -1.02, 0.92, 1.02, 0,1,0,  60
 AddPartCanopy =   1.02, 0.92, 1.02, 0,1,0,  -60
 AddPartCanopy =   1.02, 0.92, 1.02, 0,0,0,  0
 
-AddPartSteeringWheel =  -0.48,  0.68,  0.46,  0.0, 0.0, -1.00,  130
+;AddPartSteeringWheel =  -0.48,  0.68,  0.46,  0.0, 0.0, -1.00,  130
+
+AddPartSteeringWheel =  -0.484,  0.687,  0.461,  0.0, 0.0, -1.00,  130
+
 
 AddPartThrottle = -0.35, 0.91, 0.75,  0,0,1, 220
 AddPartThrottle = -0.59, 0.91, 0.75,  0,0,1, 220

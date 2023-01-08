@@ -2,7 +2,7 @@
 AddDisplayName = ja_JP, TOYOTA COROLLA 2014 
 AddDisplayName = en_US, Toyota Corolla 2014 
 ItemID = 28745
-MaxHp = 150
+MaxHp = 100
 ThrottleUpDown = 10.0
 Speed = 0.9
 MobilityYawOnGround = 5.0

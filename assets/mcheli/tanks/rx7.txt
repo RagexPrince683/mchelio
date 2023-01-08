@@ -68,7 +68,10 @@ AddPartWheel     =  1.07,  0.13,  1.87, 30
 AddPartWheel     = -1.07,  0.13,  -1.63, 0
 AddPartWheel     =  1.07,  0.13,  -1.63, 0
 
-AddPartSteeringWheel =  -0.54,  0.72,  0.57,  0.0, 0.0, -1.73,   130
+;AddPartSteeringWheel =  -0.54,  0.72,  0.57,  0.0, 0.0, -1.73,   130
+
+AddPartSteeringWheel =  -0.54,  0.72,  0.57,  0.0, 1.0, -5.1476,   130
+
 
 AddPartThrottle = -0.53, 0.84, 0.70,  0,0,1, 220
 AddPartThrottle = -0.40, 0.80, 0.70,  0,0,1, 175
