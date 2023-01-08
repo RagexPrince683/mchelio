@@ -8,7 +8,7 @@ Speed = 1.74
 MobilityYawOnGround = 9.0
 ;7.5
 StepHeight = 1.8
-Sound = inline_four
+Sound = ejtwentyfive
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll = 0

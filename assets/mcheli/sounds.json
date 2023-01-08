@@ -32,6 +32,7 @@
 "chal": {"category": "master","sounds": ["chal"]},
 "dive_alert": {"category": "master","sounds": ["dive_alert"]},
 "eject_seat": {"category": "master","sounds": ["eject_seat"]},
+"ejtwentyfive": {"category": "master","sounds": ["ejtwentyfive"]},
 "engineb": {"category": "master","sounds": ["engineb"]},
 "fighter_jet": {"category": "master","sounds": ["fighter_jet"]},
 "fim92_reload": {"category": "master","sounds": ["fim92_reload"]},
