@@ -1,12 +1,13 @@
 DisplayName = Police Speaker
 Type = MachineGun1
 Power = 0
-ModelBullet = none
+ModelBullet = 0_none
 Acceleration = 1.0
 Explosion = 0
 Flaming = false
 Sight = None
-Delay = 30
+Delay = 40
+ReloadTime = 150
 SoundVolume = 15.0
 Sound = speaker
 DelayFuse = 1
@@ -16,4 +17,4 @@ Particle = none
 
 MaxAmmo = 1000
 SuppliedNum = 1000
-Item =  1, redstone
+;Item =  1, redstone

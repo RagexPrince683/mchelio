@@ -1,5 +1,5 @@
 ﻿DisplayName = phantom
-AddDisplayName = en_US, Rolls-Royce Phantom Unarmored
+AddDisplayName = en_US, Rolls-Royce Phantom Armored
 AddDisplayName = ja_JP, ロールスロイス ファントム
 ItemID = 30111
 MaxHp = 150
@@ -14,7 +14,7 @@ MobilityRoll     = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1.0
-;EnableNightVision = true
+EnableNightVision = true
 MaxFuel           = 1200
 FuelConsumption   = 1.0
 FlareType = 10
@@ -73,11 +73,14 @@ AddPartWheel     = -1.1431,  0.0827, -1.9971
 
 ;-0.1348
 
-AddRecipe = "GGG",  "III",  "RIR",   G, glass, I, iron_ingot, R, redstone
+AddRecipe = "GGG",  "IJI",  "RIR",   G, glass, I, iron_ingot, J, mcheli:phantom, R, redstone
 
 AddPartSteeringWheel =  -0.5551,  0.6807,  0.3714,  0.0, 1.0, -5.1476,   130
 
 InventorySize = 9
+
+;armor
+BoundingBox = 0.0, 0.55, -0.5, 2.2, 1.95
 
 ;engine?
 BoundingBox =  0.0, 0.50,  1.8,   1.8, 0.6
@@ -88,7 +91,11 @@ BoundingBox = 0.0, 0.10, -0.0, 2.32, 0.2
 BoundingBox = 0.0, 0.10, 1.8, 2.32, 0.2
 ;rear
 BoundingBox = 0.0, 0.10, -2.20, 2.32, 0.2
-Regeneration = true
+;Regeneration = true
+;ArmorDamageFactor = 2.32
+
+Regeneration = false
+ArmorMinDamage = 35
 ArmorDamageFactor = 2.32
 
-UnmountPosition = -0.66, 1.00, -0.08
+UnmountPosition = -0.66, 1.30, -0.08

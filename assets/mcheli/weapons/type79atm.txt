@@ -1,0 +1,38 @@
+﻿DisplayName = Type 79 Anti Tank Guided Missile
+Type = TVMissile
+Power = 700
+Acceleration = 9
+Explosion = 2
+Flaming = false
+Sight = MoveSight
+Delay =60
+DisplayName = Type 79 Anti Tank Missile
+DisplayName = Type 79 Anti Tank Missile
+
+DisplayName = Type 79 Anti Tank Missile
+
+DisplayName = Type 79 Anti Tank Missile
+DisplayName = Type 79 Anti Tank Missile
+
+DisplayName = Type 79 Anti Tank Missile
+
+
+
+
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+Acceleration = 6
+Explosion = 2
+Flaming = false
+Sight = MoveSight
+Delay = 60
+ReloadTime = 100
+
+
+
+
+ModeNum = 2
+Sound = missile_15_snd

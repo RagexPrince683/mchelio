@@ -21,6 +21,10 @@ OnGroundRollFactor  = 4.8
 
 SetWheelPos =  0.69,  -0.24,  1.74,  -1.67
 
+WeightType = Car
+
+Category = C
+
 HUD = impreza_hud, none, none, none
 
 AddSeat =   0.56,  0.20,  -0.06
