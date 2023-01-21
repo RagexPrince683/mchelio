@@ -40,13 +40,16 @@ SetWheelPos =  1.05,  -0.24,  1.965, -1.789
 
 HUD = bnr32_hud, none
 
-AddPartSteeringWheel =   -0.7418, 1.10, 1.133,   0.0, -0.4, 1,  -100
+EntityWidth  = 0.95
+EntityHeight = 0.95
 
-AddSeat =  -0.6854,  0.3, 0.3811
-AddSeat =  0.6854,  0.3, 0.3811
-AddSeat = -0.6854,  0.3, -1.234
-AddSeat =  0.00,  0.3, -1.234
-AddSeat =  0.6854,  0.3, -1.234
+AddPartSteeringWheel =   -0.593, 0.734, 0.784,   0.0, -0.4, 1,  -100
+
+AddSeat =  -0.5948,  -0.05, 0.1070
+AddSeat =  0.5548,  0.05, 0.1070
+AddSeat = -0.5548,  0.05, -0.965
+AddSeat =  0.00,  0.05, -0.965
+AddSeat =  0.5548,  0.05, -0.965
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.2
@@ -54,45 +57,57 @@ PivotTurnThrottle = 0.2
 ; タイヤの回転スピード
 PartWheelRot = 40
 ; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
-AddPartWheel     = -1.153,  0.1786,  2.097, 30
-AddPartWheel     =  1.153,  0.1786,  2.097, 30
-AddPartWheel     =  0.00,  0.1786, -2.147
+AddPartWheel     = -1.0769,  0.0510,  1.6865, 15
+AddPartWheel     =  1.0769,  0.0510,  1.6865, 15
+AddPartWheel     =  1.0769,  0.0510, -1.7296
+AddPartWheel     =  -1.0769,  0.0510, -1.7296
 
-AddPartCanopy =  -1.378, 0.5731, 1.455,  0,1,0,  70
+AddPartCanopy =  -1.0807, 0.0252, 1.0587,  0,1,0,  70
 
-AddPartHatch    =    1.378, 0.5731, 1.455,   0,1,0,   -70
-AddPartHatch    =     -1.378, 0.5731, -0.3075,   0,1,0,   70
-AddPartHatch    =     1.378, 0.5731, -0.3075,   0,1,0,   -70
-AddPartHatch    =     0.00,   1.32, -2.819, 1,0,0,   90
+AddPartHatch    =    1.0758, 0.0252, 1.0587,   0,1,0,   -70
+AddPartHatch    =     -1.0565, 0.0239, -0.2801,   0,1,0,   70
+AddPartHatch    =     1.0511, 0.0239, -0.2787,   0,1,0,   -70
+AddPartHatch    =     0.00,   0.9917, -2.3310, 1,0,0,   70
 
 InventorySize = 35
 
 AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
 ;ヘッドライト
-AddFixedSearchLight =  0.7758, 0.7832, 3.0392,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
-AddFixedSearchLight = -0.7758, 0.7832, 3.0392,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+AddFixedSearchLight =  -0.8331, 0.5422, 2.2565,   0x50FFFFFF,   0x00FFFFC0,    0.5, 1.0,  -5,  0
+AddFixedSearchLight = 0.8331, 0.5422, 2.2565,   0x50FFFFFF,   0x00FFFFC0,    0.5, 1.0,   5,  0
 
-AddFixedSearchLight =  0.88, 1.06,-3.50,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
-AddFixedSearchLight = -0.88, 1.06,-3.50,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
-AddFixedSearchLight =  1.00, 1.06,-3.50,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
-AddFixedSearchLight = -1.00, 1.06,-3.50,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
-AddFixedSearchLight =  1.10, 1.06,-3.40,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
-AddFixedSearchLight = -1.10, 1.06,-3.40,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
-AddFixedSearchLight =  1.20, 1.06,-3.30,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
-AddFixedSearchLight = -1.20, 1.06,-3.30,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+AddFixedSearchLight =  -0.649, 0.756,-2.82,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+AddFixedSearchLight = 0.649, 0.756,-2.82,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+
+AddFixedSearchLight =  -0.730, 0.756,-2.80,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+AddFixedSearchLight = 0.730, 0.756,-2.80,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+
+AddFixedSearchLight =  -0.930, 0.756,-2.75,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  -50.0,  0
+AddFixedSearchLight = 0.930, 0.756,-2.75,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, 50.0,  0
+
+AddFixedSearchLight =  -0.930, 0.706,-2.65,   0xFFFF0000,   0x10FF0000,    0.05, 0.45,  -45.0,  0
+AddFixedSearchLight = 0.930, 0.706,-2.65,   0xFFFF0000,   0x10FF0000,    0.05, 0.45, 45.0,  0
+
+AddFixedSearchLight =  -1.08, 0.756,-2.50,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  -90.0,  0
+AddFixedSearchLight = 1.08, 0.756,-2.50,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, 90.0,  0
+
+AddFixedSearchLight =  -1.08, 0.72,-2.30,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  -90.0,  0
+AddFixedSearchLight = 1.08, 0.72,-2.30,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, 90.0,  0
 
 EntityWidth  = 0.85
 EntityHeight = 0.85
 
 
 ;engine?
-BoundingBox =  0.0, 0.65,  2.05,   2.6, 0.8
+BoundingBox =  0.0, 0.45,  2.05,   1.3, 0.6
 ;mid
-BoundingBox = 0.0, 0.20, 0.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 0.0, 2.3, 0.2
 ;front
-BoundingBox = 0.0, 0.20, 2.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, -1.5, 2.3, 0.2
 ;rear
-BoundingBox = 0.0, 0.20, -2.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 1.5, 2.3, 0.2
 Regeneration = true
 ArmorDamageFactor = 2.32
+
+unmountposition = -0.5948,  1.00, 0.1070
