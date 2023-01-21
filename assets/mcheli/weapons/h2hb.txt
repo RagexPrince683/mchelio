@@ -16,6 +16,9 @@ MaxHeatCount = 150
 Item =  2, iron_ingot
 Item =  2, gunpowder
 
+MaxAmmo = 1200
+SuppliedNum = 300
+
 Acceleration = 7.5
 Piercing = 0
 ;DamageFactor = tank, 1.0

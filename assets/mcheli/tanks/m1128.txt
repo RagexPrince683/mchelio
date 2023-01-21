@@ -16,7 +16,7 @@ Gravity = -0.61
 GravityInWater = -1.0
 CameraRotationSpeed = 35
 MinRotationPitch = -15
-MaxRotationPitch = 6
+MaxRotationPitch = 5
 MobilityRoll = 0
 InventorySize = 10
 StepHeight = 1.5
@@ -67,9 +67,9 @@ TrackRollerRot = 30
 AddPartWeapon =m900/m456a2/canistershell, false, true, false,  0.00, 0, 0, 0
 AddPartWeaponChild = false, true, -0.61, 2.78, -1.05, 0.0
 AddPartWeaponChild = false, true, -0.61, 2.78, -1.05, 0.5
-AddTurretWeapon = m900, 0.00, 2.99, 7.14,  0.0, 0.0, true,1, 0,-360,180, -30, 7
-AddTurretWeapon = m456a2, 0.00, 2.99, 7.14,  0.0, 0.0, true,1, 0,-360,180, -30, 7
-AddTurretWeapon = canistershell, 0.00, 2.99, 7.14,  0.0, 0.0, true,1, 0,-360,180, -30, 7
+AddTurretWeapon = m900, 0.00, 2.99, 7.14,  0.0, 0.0, true,1, 0,-360,180, -15, 5
+AddTurretWeapon = m456a2, 0.00, 2.99, 7.14,  0.0, 0.0, true,1, 0,-360,180, -15, 5
+AddTurretWeapon = canistershell, 0.00, 2.99, 7.14,  0.0, 0.0, true,1, 0,-360,180, -15, 5
 
 DamageFactor = 0.0
 

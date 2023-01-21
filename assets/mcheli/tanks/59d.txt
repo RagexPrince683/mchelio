@@ -7,8 +7,8 @@ Speed = 0.60
 Sound = mbt_run
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 4.0
-MinRotationPitch = -35
-MaxRotationPitch = 6
+MinRotationPitch = -60
+MaxRotationPitch = 5
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -100,9 +100,9 @@ AddTrackRoller = -1.51, 0.8006,-3.3547
 AddPartWeapon = 100AP / 100HE, false, true, false,  0.00, 2.2927, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.2927, 1.23, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.2927, 1.23, 0.4
-AddTurretWeapon = 100AP, 0.00, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -35, 6
-AddTurretWeapon = 100HE, 0.00, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -35, 6
-AddTurretWeapon =  mg_coaxial, 0.35, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -35, 6
+AddTurretWeapon = 100AP, 0.00, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -18, 5
+AddTurretWeapon = 100HE, 0.00, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -18, 5
+AddTurretWeapon =  mg_coaxial, 0.35, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -18, 5
 
 
 
@@ -110,7 +110,7 @@ AddTurretWeapon =  mg_coaxial, 0.35, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360
 
 AddPartTurretWeapon    = 12_7mmgun,   false, true, true,  -0.4993, 3.5321, 0.0339
 AddPartTurretWeapon    = 12_7mmgun,  false, true, false, -0.4993, 3.2936, 0.0339
-AddTurretWeapon = 12_7mmgun,   -0.4993, 3.5321,  0.5321,   0.0, 0.0, false, 2, 0, -80,80, -60,25
+AddTurretWeapon = 12_7mmgun,   -0.4993, 3.5321,  0.5321,   0.0, 0.0, false, 2, 0, -80,80, -60,10
 
 
 

@@ -44,10 +44,10 @@ SetWheelPos =  0.80,  -0.24,  1.965, -1.789
 
 HUD = bnr32_hud, none
 
-AddSeat =  0.563,  0.02, -0.364
-UnmountPosition = 0.54,  1.50, -0.02
+AddSeat =  0.563, -0.08, -0.364
+UnmountPosition = 0.54,  1.00, -0.02
 
-AddSeat = -0.563,  0.12, -0.364
+AddSeat = -0.563,  0.02, -0.364
 
 
 ;AddSeat = -0.54,  0.22, -1.10
@@ -59,23 +59,24 @@ PivotTurnThrottle = 0.1
 ; タイヤの回転スピード
 PartWheelRot = 40
 ; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
-AddPartWheel     = -1.0807,  0.1841,  1.7279, 30
-AddPartWheel     =  1.0807,  0.1841,  1.7279, 30
-AddPartWheel     = -1.0439,  0.1763, -1.6403
-AddPartWheel     =  1.0439,  0.1763, -1.6403
+AddPartWheel     = -1.0807,  0.0841,  1.7279, 30
+AddPartWheel     =  1.0807,  0.0841,  1.7279, 30
+AddPartWheel     = -1.0807,  0.0763, -1.6403
+AddPartWheel     =  1.0807,  0.0763, -1.6403
 
 ;AddPartSteeringWheel =   0.5751,  0.7766,  0.416,  0.0,  0.9766,  0.0416,   130
 ;AddPartSteeringWheel =  -0.691,  1.46,  0.626,  0, 0.3196, -1,   130
 ;AddPartSteeringWheel =   1.05,  0.157,  1.965,  0.0, 1.0, 0.0,   30
 ;AddPartSteeringWheel =  -1.05,  0.157,  1.965,  0.0, 1.0, 0.0,   30
 
-AddPartSteeringWheel =  0.557,  0.807,  0.0377,  0, 0.3196, -1,   160
+AddPartSteeringWheel =  0.557,  0.707,  0.0377,  0, 0.3196, -1,   160
 
 ;AddPartSteeringWheel =  0.549,  0.797,  0.0503,  0, 0.3196, -1,   160
 
-AddPartThrottle =  0.623, 0.882, 0.800,  0,1,-1.73, -220
-AddPartThrottle =  0.453, 0.882, 0.800,  0,1,-1.73, -175
-AddPartThrottle = -0.623, 0.882, 0.800,  0,1,-1.73, 0
+AddPartThrottle =  0.623, 0.782, 0.800,  0,1,-1.73, -220
+AddPartThrottle =  0.453, 0.782, 0.800,  0,1,-1.73, -175
+AddPartThrottle = -0.623, 0.782, 0.800,  0,1,-1.73, 0
+;0.8
 
 ;AddPartCanopy   =  1.18, 0.32, 1.20,  0, 1, 0, -70
 ;AddPartCanopy   =  1.18, 0.32, 1.20,  0, 1, 0, -70
@@ -89,11 +90,11 @@ InventorySize = 9
 AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
 ;ヘッドライト
-AddFixedSearchLight =  0.826, 0.747, 2.21,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
-AddFixedSearchLight = -0.826, 0.747, 2.21,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
+AddFixedSearchLight =  0.826, 0.647, 2.21,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = -0.826, 0.647, 2.21,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
 
-AddFixedSearchLight =  0.826, 0.667, 2.33,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
-AddFixedSearchLight = -0.826, 0.667, 2.33,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
+AddFixedSearchLight =  0.826, 0.567, 2.33,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = -0.826, 0.567, 2.33,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
 
 
 
@@ -102,11 +103,11 @@ AddFixedSearchLight = -0.826, 0.667, 2.33,   0x50FFFFFF,   0x00FFFFC0,    0.25, 
 ;テールランプ
 
 
-AddFixedSearchLight = -0.760, 0.788, -2.50,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -0.0,  180
-AddFixedSearchLight = 0.760, 0.788, -2.50,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -0.0,  180
+AddFixedSearchLight = -0.760, 0.688, -2.50,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -0.0,  180
+AddFixedSearchLight = 0.760, 0.688, -2.50,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -0.0,  180
 
-AddFixedSearchLight = 0.652, 0.783, -2.61,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -0.0,  180
-AddFixedSearchLight = -0.652, 0.783, -2.61,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -0.0,  180
+AddFixedSearchLight = 0.652, 0.683, -2.61,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -0.0,  180
+AddFixedSearchLight = -0.652, 0.683, -2.61,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -0.0,  180
 
 
 

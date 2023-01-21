@@ -40,7 +40,7 @@ WeightType = Car
 ; X座標のマイナス側は必要なし
 SetWheelPos =  0.65,  -0.10,  2.0955, -1.9971
 
-HUD = bnr32_hud, none
+HUD = bnr32_hud, mbt_gnr, none
 
 AddSeat = -0.555, 0.069, -0.00723
 AddSeat =  0.555, 0.138, -0.00723
@@ -66,6 +66,15 @@ AddPartWheel     =  1.1431,  0.0827, 2.0955, 30
 AddPartWheel     = -1.1431,  0.0827, 2.0955, 30
 AddPartWheel     =  1.1431,  0.0827, -1.9971
 AddPartWheel     = -1.1431,  0.0827, -1.9971
+
+
+
+AddFixedSearchLight =  0.6650, 0.6148, 2.7959,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = -0.6650, 0.6148, 2.7959,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
+
+AddFixedSearchLight =  0.766, 0.588,-3.375,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  -0.766, 0.588,-3.375,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+
 
 ;-0.607
 

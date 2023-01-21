@@ -2,13 +2,13 @@
 AddDisplayName = en_US, Leopard 1A4
 AddDisplayName = ja_JP, レオパルト1A4
 ItemID = 30059
-MaxHp = 100
+MaxHp = 200
 Speed = 0.7
 Sound = mbt_run
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 2.0
 MinRotationPitch = -50
-MaxRotationPitch = 5
+MaxRotationPitch = 9
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -38,7 +38,7 @@ AddTexture = leopard1_1
 
 TurretPosition = 0.0, 1.0, 0.0
 
-AddGunnerSeat       =   0.00,  1.93, 0.70, 0.00,  1.93, 0.70, false, -50, 5, true
+AddGunnerSeat       =   0.00,  1.93, 0.70, 0.00,  1.93, 0.70, false, -50, 9, true
 AddGunnerSeat       =   0.50,  2.85, -0.46,  0.50,  3.61, -0.46,  false, -90, 90, true
 
 
@@ -73,12 +73,12 @@ SetWheelPos =  1.30,  -0.29,  1.98,  -3.02, 0.0, 1.0, -1.0, -2.0
 AddPartWeapon = dm23 / m156, false, true, false,  0.00, 1.83, 0.00, 0
 AddPartWeaponChild = flase, true,  0.00, 2.25, 1.44
 AddPartWeaponChild = false, true,  0.00, 2.25, 1.44
-AddTurretWeapon = dm23,  0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -14, 9
-AddTurretWeapon = m156,  0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -14, 9
-AddTurretWeapon = mg3,  -0.37, 2.24, 0.00,  0.0, 0.0, true,1, 0,-360,360, -14, 9
+AddTurretWeapon = dm23,  0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = m156,  0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = mg3,  -0.37, 2.24, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
 
 AddPartTurretWeapon = mg3_l, false, true, true, 0.74, 3.32, 0.01
-AddTurretWeapon     = mg3_l, 0.74, 3.32, 0.01, 0.0, 0.0, false,  2 , 0, -360, 360, -35,35
+AddTurretWeapon     = mg3_l, 0.74, 3.32, 0.01, 0.0, 0.0, false,  2 , 0, -360, 360, -20,8
 
 
 ArmorMinDamage = 30

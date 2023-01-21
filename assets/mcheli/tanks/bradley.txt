@@ -5,7 +5,7 @@ MaxHp = 200
 Speed = 0.8
 Sound = tank_gte
 ThrottleUpDown = 20.0
-MobilityYawOnGround = 4.1
+MobilityYawOnGround = 4.0
 MinRotationPitch = -90
 MaxRotationPitch = 45
 MobilityRoll = 0
@@ -26,7 +26,7 @@ FlareType = 10
 CameraZoom = 1
 SubmergedDamageHeight = 4
 HideEntity = true
-WeightType = Unknown
+WeightType = Tank
 WeightedCenterZ = 0.0
 SetWheelPos =  1.00,  -0.24,  3.0918,   2.7549,  1.9609,  1.21729,  0.2849, -0.5194, -1.2981, -2.319
 ThirdPersonDist = 8
@@ -43,6 +43,8 @@ AddSeat = 0.87, 0.5, -1
 AddSeat = 0.87, 0.5, -1.4
 AddSeat = 0.87, 0.5, -1.8
 AddSeat = 0.87, 0.5, -2.2
+
+
 
 MotionFactor = 0.95
 

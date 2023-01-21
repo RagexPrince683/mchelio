@@ -7,8 +7,8 @@ Speed = 0.7
 Sound = mbt_run
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 2.0
-MinRotationPitch = -50
-MaxRotationPitch = 5
+MinRotationPitch = -60
+MaxRotationPitch = 7
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -90,14 +90,14 @@ AddTrackRoller =  0.00,  0.36,  6.34
 AddPartWeapon = 120_apf / 120_heatm, false, true, false,  0.00, 1.72, -0.01, 0
 AddPartWeaponChild = false, true, 0.00, 2.12, 1.88, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.12, 1.88, 0.5
-AddTurretWeapon = 120_apf, 0.00, 2.12, 7.57,  0.0, 0.0, true,1, 0,-360,360, -20, 7
-AddTurretWeapon = 120_heatm, 0.00, 2.12, 7.57,  0.0, 0.0, true,1, 0,-360,360, -20, 7
-AddTurretWeapon = ty74,      0.38, 1.91, 2.24,  0.0, 0.0, true,1, 0,-360,360, -20, 7
+AddTurretWeapon = 120_apf, 0.00, 2.12, 7.57,  0.0, 0.0, true,1, 0,-360,360, -10, 7
+AddTurretWeapon = 120_heatm, 0.00, 2.12, 7.57,  0.0, 0.0, true,1, 0,-360,360, -10, 7
+AddTurretWeapon = ty74,      0.38, 1.91, 2.24,  0.0, 0.0, true,1, 0,-360,360, -10, 7
 
 
 AddPartTurretWeapon    = m2_1,   false, true, true,   0.30, 3.07, 0.60
 AddPartTurretWeapon    = m2_1,   false, true, false,  0.30, 3.07, 0.60
-AddTurretWeapon = m2_1,    0.31, 3.07,  0.59,   0.0, 0.0, false, 2, 0, -90,90, -50,10
+AddTurretWeapon = m2_1,    0.31, 3.07,  0.59,   0.0, 0.0, false, 2, 0, -90,90, -60,8
 
 AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
 

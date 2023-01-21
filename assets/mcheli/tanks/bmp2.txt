@@ -15,7 +15,7 @@ DamageFactor = 0.0
 EnableNightVision = true
 CameraRotationSpeed = 30
 StepHeight = 1.7
-MinRotationPitch = -14
+MinRotationPitch = -60
 MaxRotationPitch = 5
 DefaultFreelook = true
 MaxFuel         = 1200
@@ -71,9 +71,9 @@ AddTrackRoller = 0.00,  0.62, -2.79
 AddPartWeapon = 3ubr6 / 3yof8 , false, true, false, 0.00, 1.65, -0.24, 0
 AddPartWeaponChild = false, true, 0.00, 2.09, 0.60
 AddPartWeaponChild = false, true, 0.00, 2.09, 0.60
-AddWeapon = 3ubr6,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -40, 5
-AddWeapon = 3yof8,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -0, 5
-AddWeapon = pkt,    0.16, 2.08, 0.00,  0.0, 0.0, true,1, 0,-360,360, -40, 5
+AddWeapon = 3ubr6,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 5
+AddWeapon = 3yof8,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 5
+AddWeapon = pkt,    0.16, 2.08, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 5
 AddWeapon = 9M113_1, 0.00, 2.35, 2.29,  0.0, 0.0, true,1, 0,-360,360, -90, 90
 
 
