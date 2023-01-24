@@ -38,7 +38,7 @@ SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
 
 ;AddGunnerSeat =  0.00, 1.58, 0.44, 0.00, 1.58, 0.44, false, -90, 90, true
 
-AddGunnerSeat =  0.00, 1.58, 0.44, 0.00, 2.58, 0.44, false, -14, 5, false
+AddGunnerSeat =  0.00, 1.58, 0.44, 0.00, 2.58, 0.44, false, -14, 4, false
 
 CameraPosition =  0.00, 2.58, 0.44, true
 
@@ -66,21 +66,21 @@ AddTrackRoller = 2.32,  0.16,  -1.07
 AddTrackRoller = 2.32,  0.16,  -2.12
 AddTrackRoller = 2.32,  0.60,  -3.32
 
-AddWeapon = 2A46M-1_APFSDS,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 5
-AddWeapon = 2A46M-1_HEATMP,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 5
-AddWeapon = 2A46M-1_HE,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddWeapon = 2A46M-1_APFSDS,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 4
+AddWeapon = 2A46M-1_HEATMP,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 4
+AddWeapon = 2A46M-1_HE,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 4
 AddWeapon = 9M119M,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -90, 90
-AddWeapon = mg_coaxial,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddWeapon = mg_coaxial,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 4
 AddPartWeapon = 2A46M-1_APFSDS, false, true, false,  0.00, 1.58, 0.44, 0
 AddPartWeaponChild = false, true, 0.00, 1.60, 1.81
 
-AddWeapon = mg12_7mm,  -0.95, 2.73, 0.54,  0.0, 0.0, true,1, 0,-360,360, -60, 3
+AddWeapon = mg12_7mm,  -0.95, 2.73, 0.54,  0.0, 0.0, true,1, 0,-360,360, -75, 4
 AddPartWeapon = mg12_7mm, false, true, false,  0.00, 1.58, 0.44, 0
 AddPartWeaponChild = false, true, 0.00, 2.64, 0.54
 
-AddWeapon = none,  0.00, 0.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -14, 5
-AddPartWeapon = none, false, true, false,  0.00, 1.58, 0.44, 0
-AddPartWeaponChild = false, true, 0.00, 1.61, 2.18
+;AddWeapon = none,  0.00, 0.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -14, 4
+;AddPartWeapon = none, false, true, false,  0.00, 1.58, 0.44, 0
+;AddPartWeaponChild = false, true, 0.00, 1.61, 2.18
 
 
 EnableBack = true
@@ -140,3 +140,6 @@ BoundingBox = 0.0, 1.565, 0.5, 2.6, 0.7, 0.02
 
 
 unmountposition = 0.00, 1.58, 0.44
+
+
+AddRecipe = "XII",  " G ",  "III",  X, iron_block,  I, iron_ingot, G, mcheli:t-90

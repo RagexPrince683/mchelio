@@ -2,11 +2,12 @@
 AddDisplayName = en_US, M113 APC
 AddDisplayName = ja_JP, M113 装甲兵員輸送車
 ItemID = 30191
-MaxHp = 100
+MaxHp = 200
 Speed = 0.7
 ThrottleUpDown = 5.0
 Gravity = -0.61
-GravityInWater = 0.1
+GravityInWater = -0.2
+Float = true
 DamageFactor = 0.8
 EnableNightVision = true
 EnableEntityRadar = false
@@ -20,7 +21,7 @@ AddTexture = m113a3
 EnableBack = true
 SetWheelPos =  1.00,  -0.24,  2.50, 1.00, -1.00, -2.50
 
-SubmergedDamageHeight = 1
+SubmergedDamageHeight = 2
 WeightedCenterZ = 0.0
 
 OnGroundPitchFactor = 2.5
@@ -88,6 +89,6 @@ BoundingBox = 0.0, 1.05, 1.2, 3.0, 2.0, 1.0
 BoundingBox = 0.0, 0.80, 1.4, 3.0, 1.8, 1.0
 BoundingBox = 0.0, 0.60, 1.75, 3.0, 1.4, 1.0
 
-AddRecipe = "XIX",  "III",  "XIX",  X,iron_block, I,iron_ingot
+AddRecipe = "XIX",  "III",  "III",  X,iron_block, I,iron_ingot
 
 unmountposition = 0.84, 1.37,  1.26

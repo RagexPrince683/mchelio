@@ -2,7 +2,7 @@
 AddDisplayName = en_US, M163 VADS
 AddDisplayName = ja_JP, M163 対空自走砲
 ItemID = 30191
-MaxHp = 100
+MaxHp = 200
 Speed = 0.7
 ThrottleUpDown = 5.0
 Gravity = -0.61
@@ -47,7 +47,7 @@ AddSeat       =  -0.56, 0.85, -1.60
 AddSeat       =   0.56, 0.85, -2.46
 AddSeat       =  -0.56, 0.85, -2.46
 
-CameraPosition =  0.00, 4.37,  -0.10, true
+CameraPosition =  0.00, 4.37,  -0.00, true
 
 
 StepHeight = 1.5
@@ -85,7 +85,7 @@ AddPartRotWeapon = m61a1_v, false, true, true,  0.00, 3.07,  -0.0, 0,0
 
 ;AddTurretWeapon = m61a1_v,   0.03, 3.07, 0.71, 0.0, 0.0, true,1 , 0, -360, 360, -80,7
 
-AddTurretWeapon = m61a1_v, 0.00, 3.07, 0.71,  0.0, 0.0, true,1, 0,-360,360, -80, 7
+AddTurretWeapon = m61a1_v, 0.00, 3.07, 0.71,  0.0, 0.0, true,1, 0,-360,360, -80, 5
 
 AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 1
 AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,1
@@ -103,6 +103,6 @@ BoundingBox = 0.0, 1.05, 1.2, 3.0, 2.0, 1.0
 BoundingBox = 0.0, 0.80, 1.4, 3.0, 1.8, 1.0
 BoundingBox = 0.0, 0.60, 1.75, 3.0, 1.4, 1.0
 
-AddRecipe = "IXI",  "IXI",  "XIX",  X,iron_block,  I,iron_ingot
+AddRecipe = " IR",  "I I",  "III",  I, iron_ingot, R, redstone
 
 unmountposition = 0.00,  1.50,  0.00

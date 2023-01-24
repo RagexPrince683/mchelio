@@ -10,7 +10,7 @@ MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
-EnableNightVision = true
+EnableNightVision = false
 CameraRotationSpeed = 45
 StepHeight = 2.5
 MinRotationPitch = -25
@@ -82,13 +82,13 @@ AddTrackRoller = 1.42,  0.87,  1.54
 AddPartWeapon = 75mm_M3AP / 75mm_M3HE, false, true, false,  0.00, 2.20, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.58, 0.98, 0.5
 AddPartWeaponChild = false, true, 0.00, 2.58, 0.98
-AddTurretWeapon = 75mm_M3AP,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 12
-AddTurretWeapon = 75mm_M3HE,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 12
-AddTurretWeapon = mg7_62mm,   0.24, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 12
+AddTurretWeapon = 75mm_M3AP,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
+AddTurretWeapon = 75mm_M3HE,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
+AddTurretWeapon = mg7_62mm,   0.24, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
 
 ;M2
 AddPartTurretWeapon    =M2_12.7mm,   false, true, true,   -0.57, 3.47, 0.18
-AddTurretWeapon = M2_12.7mm,    -0.57, 3.57, 0.30,   0.0, 0.0, true, 2, 0, -360,360, -50,30
+AddTurretWeapon = M2_12.7mm,    -0.57, 3.57, 0.30,   0.0, 0.0, true, 2, 0, -360,360, -25,10
 
 
 
@@ -143,3 +143,5 @@ BoundingBox = -0.7, 1.0, 2.0, 2.0, 2.0, 0.15
 ;BoundingBox =  0.0, 4.5, 0.0,  2.8, 1.0, 1.00
 
 unmountposition = 0.00,  1.50,  0.25
+
+AddRecipe = "III",  "IXI",  "IXI",  X,iron_block,  I,iron_ingot

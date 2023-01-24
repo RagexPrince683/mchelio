@@ -6,15 +6,15 @@ Speed = 0.5
 Sound = tank_gte
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 3.0
-MinRotationPitch = -20
-MaxRotationPitch = 3
+MinRotationPitch = -85
+MaxRotationPitch = 5
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
 CameraZoom = 3
 CameraPosition = 0.00,  3.50, 0.95, true
-EnableNightVision = true
+EnableNightVision = false
 CameraRotationSpeed = 35
 ;EnableEntityRadar = true
 MaxFuel         = 1500
@@ -103,13 +103,18 @@ AddTrackRoller =  1.95,  0.57, -5.53
 ;主砲
 AddPartWeapon = 130mm_s26_ap /130mm_s26_he, false, true, false,  0.00, 2.07, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.36, 1.68, 0.0
-AddTurretWeapon = 130mm_s26_ap, 0.00, 2.44, 1.51,  0.0, 0.0, true,1, 0,-360,360, -18, 6
-AddTurretWeapon = 130mm_s26_he, 0.00, 2.44, 1.51,  0.0, 0.0, true,1, 0,-360,360, -18, 6
-AddTurretWeapon = 14_5mm_kpvt, 0.00, 2.91, 3.51,  0.0, 0.0, true,1, 0,-360,360, -18, 6
+AddTurretWeapon = 130mm_s26_ap, 0.00, 2.44, 1.51,  0.0, 0.0, true,1, 0,-360,360, -15, 3
+AddTurretWeapon = 130mm_s26_he, 0.00, 2.44, 1.51,  0.0, 0.0, true,1, 0,-360,360, -15, 3
+;AddTurretWeapon = 14_5mm_kpvt, 0.00, 2.91, 3.51,  0.0, 0.0, true,1, 0,-360,360, -15, 3
+AddTurretWeapon = 7_62mm_sgmt, 0.00, 2.91, 3.51,  0.0, 0.0, true,1, 0,-360,360, -15, 3
+
 
 ;機銃
-AddPartTurretWeapon    =7_62mm_sgmt,   false, true, true,   0.00, 4.72, -2.09
-AddTurretWeapon = 7_62mm_sgmt,    0.00, 4.72, -2.09,   0.0, 0.0, true, 2, 0, -360,360, -50,30
+AddPartTurretWeapon    =14_5mm_kpvt,   false, true, true,   0.00, 4.72, -2.09
+AddTurretWeapon = 14_5mm_kpvt,    0.00, 4.72, -2.09,   0.0, 0.0, true, 2, 0, -360,360, -85,5
+
+
+AddRecipe = "XIX",  "IDI",  "III",  X, iron_block,  D, diamond_block,  I, iron_ingot
 
 
 
@@ -117,11 +122,36 @@ AddTurretWeapon = 7_62mm_sgmt,    0.00, 4.72, -2.09,   0.0, 0.0, true, 2, 0, -36
 RideRack = c5, 1
 RideRack = c5, 2
 
-BoundingBox =  0.0, 0.6,  1.6,   3.2, 2.0,  0.70
-BoundingBox =  0.0, 1.6,  1.0,   2.0, 3.2,  0.70
-BoundingBox =  0.0, 0.8, -1.5,   3.6, 2.0,  1.00
-BoundingBox =  0.0, 2.5, -1.0,   2.0, 1.0,  1.25
-BoundingBox = -0.9, 1.2, -3.5,   2.0, 1.6,  1.25
-BoundingBox =  0.9, 1.2, -3.5,   2.0, 1.6,  1.25
+;small patch at angle on front plate that is 150mm add it retard
+BoundingBox =  0.0, 1.1,  4.69,   0.3, 0.3,  0.2
+;lower front plate
+BoundingBox =  0.0, 0.8,  3.5,   2.5, 1.0,  0.15
+;semi sloped hatch
+BoundingBox =  0.0, 1.8,  3.0,   1.5, 1.0,  0.10
+;upper front plate
+BoundingBox =  0.0, 1.1,  2.8,   3.2, 1.0,  0.12
+BoundingBox =  1.4, 1.7,  3.0,   2.2, 0.8,  0.12
+BoundingBox =  -1.4, 1.7,  3.0,   2.2, 0.8,  0.12 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;BoundingBox =  0.0, 5.6,  1.0,   2.0, 3.2,  0.70
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;BoundingBox =  0.0, 0.8, -0.0,   5.0, 1.0,  1.00
+;top side 670mm HAHAHHAHAHA FUCK NO GAIJIN IS RETARDED LMAO 100mm bottom 260top
+BoundingBox =  0.0, 1.7, 0.3,   3.4, 0.7,  0.15
+BoundingBox =  0.0, 1.7, -2.5,   3.4, 0.7,  0.15
+BoundingBox =  0.0, 0.9, 2.3,   3.4, 0.9,  0.4
+BoundingBox =  0.0, 0.9, -1.0,   3.4, 0.9,  0.4
+BoundingBox =  0.0, 0.9, -3.0,   3.4, 0.9,  0.4
+
+;turret
+BoundingBox =  0.0, 2.5, -0.0,   3.4, 1.0,  0.16
+
+;rear 100=.4 60=0.66
+BoundingBox = -0.6, 1.2, -4.7,   2.0, 1.6,  0.66
+BoundingBox = 0.6, 1.2, -4.7,   2.0, 1.6,  0.66
+
+BoundingBox = -0.6, 1.6, -5.0,   1.9, 1.0,  0.4
+BoundingBox = 0.6, 1.6, -5.0,   1.9, 1.0,  0.4
+BoundingBox = -1.5, 1.6, -5.7,   0.5, 1.0,  0.4
+BoundingBox = 1.5, 1.6, -5.7,   0.5, 1.0,  0.4
 
 UnmountPosition = 0.00,  1.50,  0.25

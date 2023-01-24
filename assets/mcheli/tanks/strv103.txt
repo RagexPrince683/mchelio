@@ -8,11 +8,12 @@ Sound = mbtrun
 MobilityYawOnGround = 4.0
 ThrottleUpDown = 10.0
 MinRotationPitch = -12
-MaxRotationPitch = 5
+MaxRotationPitch = 10
 
 MobilityRoll = 0
 Gravity = -0.61
-GravityInWater = 0.1
+float = true
+GravityInWater = -0.2
 CameraZoom = 3
 CameraPosition = 0.00,  2.0, -1.0
 EnableNightVision = true
@@ -60,10 +61,10 @@ AddTrackRoller =  1.4159,  0.0301, -0.9120
 AddTrackRoller =  1.4159,  0.0301, -1.7606
 AddTrackRoller =  1.4941,  0.4894, -2.5367
 
-AddWeapon = ordnance_apds _strv,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -5,5
-AddWeapon = ordnance_he_strv, 0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -5,5
-AddWeapon = canistershell,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -5,5
-AddWeapon = smokeshell,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -5,5
+AddWeapon = ordnance_apds _strv,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
+AddWeapon = ordnance_he_strv, 0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
+AddWeapon = canistershell,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
+AddWeapon = smokeshell,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
 AddWeapon = mbt_cas, 0.00, 1.1444, 3.9061, 0.0 , 0.0
 AddPartWeapon = ordnance_apds _strv, false, true, true, 0.00, 1.1444, 0.00,  0.0, -1.0,
 
@@ -242,3 +243,6 @@ BoundingBox = 0.0, 0.70, -2.0, 2.5, 1.0, 0.4
 StepHeight = 1.5
 
 unmountposition = 0.00,  1.50, -1.0
+
+
+AddRecipe = "IXX",  "IXI",  "IXI",  X,iron_block,  I,iron_ingot

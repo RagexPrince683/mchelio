@@ -105,4 +105,6 @@ Regeneration = false
 ArmorMinDamage = 35
 ArmorDamageFactor = 2.32
 
-AddRecipe = " G ",  "I I",  " I ",   G, glass, I, iron_ingot
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+
+

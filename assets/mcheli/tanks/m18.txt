@@ -2,7 +2,7 @@
 AddDisplayName = en_US, M18 Hellcat
 AddDisplayName = ja_JP, M18 ヘルキャット
 ItemID = 30184
-MaxHp = 100
+MaxHp = 200
 Speed = 1.6
 Sound = mbt_run
 ThrottleUpDown = 100.0
@@ -13,8 +13,8 @@ DamageFactor = 0.5
 EnableNightVision = false
 CameraRotationSpeed = 80
 StepHeight = 4.6
-MinRotationPitch = -20
-MaxRotationPitch = 12
+MinRotationPitch = -70
+MaxRotationPitch = 10
 DefaultFreelook = true
 HideEntity = false
 CameraZoom = 3
@@ -88,14 +88,14 @@ AddTrackRoller = 1.28,  0.75,  0.45
 AddPartWeapon = 76mm_M1AP / 76mm_M1HE, false, true, false,  0.00, 1.93, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 1.93, 1.08, 0.5
 AddPartWeaponChild = false, true, 0.00, 1.93, 1.08
-AddTurretWeapon = 76mm_M1AP,  0.00, 1.93, 1.08,  0.0, 0.0, true,1, 0,-360,360, -20, 12
-AddTurretWeapon = 76mm_M1HE,  0.00, 1.93, 1.08,  0.0, 0.0, true,1, 0,-360,360, -20, 12
+AddTurretWeapon = 76mm_M1AP,  0.00, 1.93, 1.08,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = 76mm_M1HE,  0.00, 1.93, 1.08,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 
 
 ;M2
 AddPartTurretWeapon    =M2_12.7mm,   false, true, false,    0.70, 2.50, -0.63
 AddPartWeaponChild = false, true,  0.70, 2.50, -0.26
-AddTurretWeapon = M2_12.7mm,    0.70, 2.50, -0.26,   0.0, 0.0, true, 2, 0, -360,360, -50,25
+AddTurretWeapon = M2_12.7mm,    0.70, 2.50, -0.26,   0.0, 0.0, true, 2, 0, -360,360, -70,10
 
 
 
@@ -131,3 +131,5 @@ BoundingBox = 0.0, 1.15, -1.6, 3.0, 0.7, 1.0
 BoundingBox = 0.0, 0.8, -1.5, 3.0, 1.2, 1.0
 
 unmountposition = -0.50,  1.50, -0.63
+
+AddRecipe = "III",  "IXI",  "III",  X,iron_block,  I,iron_ingot

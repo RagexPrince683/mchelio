@@ -89,6 +89,8 @@ ArmorDamageFactor = 1.00
 ;BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
 ;BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25
 
+AddRecipe = "XIX",  "III",  "III",  X,iron_block, I,iron_ingot
+
 
 
 BoundingBox = 0.0, 1.0, 0.0, 3.5, 1.45, 1.0

@@ -112,3 +112,5 @@ BoundingBox = 0.0, 1.2, -5.4, 3.0, 2.0, 1.0
 
 
 UnmountPosition = 0.00, 1.68,  0.00
+
+AddRecipe = "IXI",  " I ",  "III",  X, iron_block,  I, iron_ingot

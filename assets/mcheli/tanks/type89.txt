@@ -1,7 +1,7 @@
 DisplayName = Type89 IFV
-AddDisplayName = ja_JP, Type89 IFV
+AddDisplayName = ja_JP, Type 89 IFV
 ItemID = 30100
-MaxHp = 150
+MaxHp = 200
 Speed = 1.0
 Sound = mbt_run
 ThrottleUpDown = 10.0
@@ -132,10 +132,10 @@ ArmorMinDamage = 10
 
 
 ;staircase 130mm
-BoundingBox = 0.0, 0.65, 2.75, 2.99, 0.9, 0.17
-BoundingBox = 0.0, 0.68, 2.5, 2.99, 1.0, 0.17
-BoundingBox = 0.0, 0.78, 2.0, 2.99, 1.1, 0.16
-BoundingBox = 0.0, 0.85, 1.5, 2.99, 1.5, 0.16
+BoundingBox = 0.0, 0.8, 3.0, 2.99, 0.9, 0.17
+BoundingBox = 0.0, 0.8, 2.5, 2.99, 1.0, 0.17
+BoundingBox = 0.0, 0.88, 2.0, 2.99, 1.1, 0.16
+BoundingBox = 0.0, 0.90, 1.5, 2.99, 1.5, 0.16
 BoundingBox = 0.0, 0.95, 1.0, 2.99, 1.6, 0.15
 BoundingBox = 0.0, 1.05, 0.5, 2.99, 1.7, 0.15
 

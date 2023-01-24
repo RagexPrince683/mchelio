@@ -54,7 +54,7 @@ AddPartWeaponChild = false, true, 0.0296, 2.1174, 0.1342, 0.0
 
 InventorySize = 9
 
-AddRecipe = "IGI",  "IRI",  "III",   G, glass, I, iron_ingot, R, redstone
+AddRecipe = "IGI",  "IRI",  "III",   G, glass, I, iron_ingot, R, mcheli:toyota_unarmed
 AddFixedSearchLight =  0.7879, 0.6448, 4.4096,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5, 0, 0
 AddFixedSearchLight = -0.7879, 0.6448, 4.4096,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5, 0, 0
 
@@ -84,4 +84,4 @@ BoundingBox = 0.0, 0.3, 1.5, 2.0, 0.2
 
 BoundingBox = 0.0, 0.3, -0.76, 2.0, 0.2
 
-unmountposition = 0.4386, 0.6, 1.9374
+unmountposition = 0.4386, 1.5, 1.9374

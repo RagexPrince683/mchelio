@@ -1,14 +1,14 @@
 ﻿DisplayName = PGZ 95
-AddDisplayName = en_US, PGZ 95
+AddDisplayName = en_US, PGZ04A
 AddDisplayName = ja_JP, PGZ 95
 ItemID = 9997
-MaxHp = 100
+MaxHp = 200
 Speed = 0.63
 Sound = mbt_run
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 4.0
 MinRotationPitch = -85
-MaxRotationPitch = 10
+MaxRotationPitch = 5
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -125,10 +125,10 @@ AddPartWeaponChild = false, true, -0.7520, 2.8392, -0.9190
 AddPartWeaponChild = false, true, 0.7520, 2.8392, -0.9190
 AddPartWeaponChild = false, true, -0.7520, 2.8392, -0.9190
 
-AddTurretWeapon = 25mm,   0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  10
-AddTurretWeapon = 25mm,   -0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  10
-AddTurretWeapon = 25mm,   0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  10
-AddTurretWeapon = 25mm,   -0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  10
+AddTurretWeapon = 25mm,   0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = 25mm,   -0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = 25mm,   0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = 25mm,   -0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
 
 
 AddTurretWeapon = hy6,      0.8802, 3.5378, -0.9190, 0.0, 0.0, true, 2, 0, -360, 360
@@ -169,3 +169,5 @@ EntityWidth  = 0.8
 EntityHeight = 0.8
 
 unmountposition = 0.00,  1.33, 0.00
+
+AddRecipe = " IR",  "IXI",  "III",  X, redstone_block,  I, iron_ingot, R, redstone

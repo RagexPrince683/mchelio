@@ -133,6 +133,8 @@ BoundingBox = 0.0, 1.1, -3.3, 3.5, 1.3, 0.44
 ;turret
 BoundingBox = 0.0, 2.6, 0.0, 3.0, 1.4, 0.023
 
+AddRecipe = "XDX",  "XDX",  "IXI",  X, iron_block,  D, diamond_block,  I, iron_ingot
+
 
 UnmountPosition = 0.00,  2.00,  0.00
 

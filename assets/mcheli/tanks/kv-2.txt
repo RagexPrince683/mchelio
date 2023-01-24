@@ -16,8 +16,8 @@ HideEntity = true
 MaxFuel         = 1500
 FuelConsumption = 2.0
 CameraRotationSpeed = 26
-MinRotationPitch = -14
-MaxRotationPitch = 7
+MinRotationPitch = -16
+MaxRotationPitch = 16
 DefaultFreelook = true
 
 SubmergedDamageHeight = 3
@@ -85,7 +85,7 @@ AddTrackRoller = -1.70,  0.6740, -4.3796
 
 ----------------------------------------------------
 
-AddWeapon      = 152mm_howitzer,  0.00, 3.017, 0.00,  0.0, 0.0, true,1, 0,-360,360, -14, 7
+AddWeapon      = 152mm_howitzer,  0.00, 3.017, 0.00,  0.0, 0.0, true,1, 0,-360,360, -12, 5
 AddPartWeapon  = 152mm_howitzer, false, true,  false,  0.00, 0.00, 0.00
 AddPartWeaponChild = false, true,   0.00, 3.017, 1.245
 AddPartWeaponChild = false, true,   0.00, 3.017, 1.245, 0.5
@@ -95,7 +95,7 @@ AddPartWeapon = ww2tank_coaxmg, false, true, false,  0.5994, 1.515, 2.609, 0
 
 AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
 
-AddRecipe = " X ",  " X ",  "XXX",  X, iron_block,  I, iron_ingot
+AddRecipe = " X ",  " X ",  "III",  X, iron_block,  I, iron_ingot
 
 
 ArmorMinDamage = 30

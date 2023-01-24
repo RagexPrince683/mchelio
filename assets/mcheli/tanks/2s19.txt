@@ -144,4 +144,7 @@ BoundingBox = 0.0, 2.1, 0.0, 3.5, 1.8, 1.0
 ;good enough
 
 
+AddRecipe = " I ",  "IXI",  "IXI",  X, iron_block,  I, iron_ingot
+
+
 

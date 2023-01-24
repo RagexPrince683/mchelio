@@ -91,3 +91,5 @@ Regeneration = true
 ArmorDamageFactor = 2.32
 
 InventorySize = 9
+
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone

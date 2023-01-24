@@ -2,7 +2,7 @@
 AddDisplayName = ja_JP, PLZ-45
 AddDisplayName = en_US, PLZ-45
 ItemID = 8997
-MaxHp = 100
+MaxHp = 200
 Speed = 0.60
 Sound = mbt_run
 ThrottleUpDown = 20.0
@@ -131,3 +131,5 @@ EntityWidth  = 0.8
 EntityHeight = 0.8
 
 unmountposition = 0.00,  1.50, 0.00
+
+AddRecipe = "IXI",  " X ",  "III",  X, iron_block,  I, iron_ingot

@@ -7,7 +7,7 @@ Speed = 0.65
 Sound = mbt_run
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 2.5
-MinRotationPitch = -50
+MinRotationPitch = -15
 MaxRotationPitch = 5
 MobilityRoll = 0
 Gravity = -0.61
@@ -95,10 +95,10 @@ AddTrackRoller =  1.79, 0.81, -3.26
 AddPartWeapon = kba-3_ap / kba-3_he, false, true, false,  0.00, 1.52, 0.25, 0
 AddPartWeaponChild = false, true, 0.00, 2.01, 1.62
 
-AddTurretWeapon = kba-3_ap,   0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -50, 5
-AddTurretWeapon = kba-3_he,   0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -50, 5
+AddTurretWeapon = kba-3_ap,   0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -15, 5
+AddTurretWeapon = kba-3_he,   0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -15, 5
 AddTurretWeapon = 9M119M,     0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -90, 90
-AddTurretWeapon = mg7_62mm,  -0.17, 2.25, 2.10,  0.0, 0.0, true,1, 0,-360,360, -50, 5
+AddTurretWeapon = mg7_62mm,  -0.17, 2.25, 2.10,  0.0, 0.0, true,1, 0,-360,360, -15, 5
 
 AddRecipe = "XXX",  "X X",  "III",  X, iron_block,  I, iron_ingot
 

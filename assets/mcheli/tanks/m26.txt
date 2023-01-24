@@ -14,8 +14,8 @@ DamageFactor = 0.0
 CameraZoom = 2
 CameraPosition = 0.00,  3.6, 0.7542, true
 CameraRotationSpeed = 26
-MinRotationPitch = -34
-MaxRotationPitch = 7
+MinRotationPitch = -20
+MaxRotationPitch = 10
 DefaultFreelook = true
 
 HideEntity = true
@@ -38,7 +38,7 @@ SetWheelPos =  1.51, -0.24, 2.41, 1.37, -0.13, -1.80, -2.96
 ; 2であれば2ブロックまでダメージ無し
 SubmergedDamageHeight = 2
 
-AddGunnerSeat = 0.00,  0.00, 0.00
+AddGunnerSeat = 0.00,  1.00, 0.00
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.9
@@ -133,3 +133,5 @@ FuelConsumption = 2.0
 StepHeight = 1.2
 
 unmountposition = 0.00,  1.50, 0.00
+
+AddRecipe = "III",  "IXI",  "IXX",  X,iron_block,  I,iron_ingot

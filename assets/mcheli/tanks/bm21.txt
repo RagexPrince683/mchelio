@@ -208,6 +208,8 @@ BoundingBox = 0.0, 0.20, 6.5, 3.5, 0.2
 BoundingBox = 0.0, 0.20, -0.5, 2.7, 0.2
 BoundingBox = 0.0, 0.20, -0.0, 3.5, 0.2
 
+AddRecipe = " G ",  "I I",  " IX",   G, glass, I, iron_ingot, X, iron_block
+
 
 DefaultFreelook = true
 

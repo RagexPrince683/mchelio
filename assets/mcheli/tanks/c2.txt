@@ -7,8 +7,8 @@ Speed = 0.6
 Sound = mbt_run
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 2.0
-MinRotationPitch = -50
-MaxRotationPitch = 5
+MinRotationPitch = -20
+MaxRotationPitch = 10
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -98,12 +98,12 @@ AddTrackRoller = -2.26,  0.87,  -5.52
 AddPartWeapon = l26, false, true, false,  0.00, 1.72, -0.01, 0
 AddPartWeaponChild = false, true, -0.05, 2.20, 2.07, 0.0
 AddPartWeaponChild = false, true, -0.05, 2.20, 2.07, 0.5
-AddTurretWeapon = l26, 0.00, 2.20, 9.91,  0.0, 0.0, true,1, 0,-360,180, -20, 7
-AddTurretWeapon = l37a7, 0.00, 2.20, 9.91,  0.0, 0.0, true,1, 0,-360,180, -20, 7
-AddTurretWeapon =  l8a2, -0.5, 2.4, 2.33,  0.0, 0.0, true,1, 0,-360,180, -45, 7
+AddTurretWeapon = l26, 0.00, 2.20, 9.91,  0.0, 0.0, true,1, 0,-360,180, -20, 10
+AddTurretWeapon = l37a7, 0.00, 2.20, 9.91,  0.0, 0.0, true,1, 0,-360,180, -20, 10
+AddTurretWeapon =  l8a2, -0.5, 2.4, 2.33,  0.0, 0.0, true,1, 0,-360,180, -20, 10
 
 AddPartTurretWeapon    =l37a2,   false, true, true,0.25,3.23,-0.86,0
-AddTurretWeapon = l37a2,0.26, 3.41, -0.5 ,0,0, false, 2, 0, -360,360, -70,30
+AddTurretWeapon = l37a2,0.26, 3.41, -0.5 ,0,0, false, 2, 0, -360,360, -50,10
 
 AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
 

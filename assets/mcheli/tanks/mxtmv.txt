@@ -95,3 +95,5 @@ UnmountPosition = -0.70, 1.79,  0.27
 ArmorMinDamage = 50
 ArmorDamageFactor = 2.0
 Regeneration = true
+
+AddRecipe = " G ",  "IXI",  "RIR",   G, glass, I, iron_ingot, X, iron_block, R, redstone

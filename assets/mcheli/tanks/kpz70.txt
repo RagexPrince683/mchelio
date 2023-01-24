@@ -6,7 +6,7 @@ Speed = 1.0
 Sound = tank_gte
 ThrottleUpDown = 25.0
 MobilityYawOnGround = 3.0
-MinRotationPitch = -50
+MinRotationPitch = -65
 MaxRotationPitch = 20
 MobilityRoll = 0
 Gravity = -0.61
@@ -105,7 +105,7 @@ AddTurretWeapon = kpz70_7.62mm,   -0.26, 1.90, 2.80,  0.0, 0.0, true,1, 0,-360,3
 AddPartTurretWeapon    = kpz70_20mm,  false, true, false, 1.40, 2.45, -0.80
 ;機銃
 AddPartTurretWeapon    = kpz70_20mm,  true, true, true, 1.40, 3.10, -0.80
-AddTurretWeapon    = kpz70_20mm, 1.40, 3.10, -0.80,  0.0, 0.0, false,  2, 0, -360,360, -80,10
+AddTurretWeapon    = kpz70_20mm, 1.40, 3.10, -0.80,  0.0, 0.0, false,  2, 0, -360,360, -65,9
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
@@ -131,6 +131,8 @@ BoundingBox = 0.0, 1.0, -3.0, 2.99, 1.0, 0.71
 BoundingBox = 0.0, 1.0, -3.8, 3.0, 1.0, 0.71
 ;engine back 40mm
 BoundingBox = 0.0, 1.0, -4.15, 2.95, 1.0, 0.62
+
+AddRecipe = "IXI",  "RIR",  "III",  X, iron_block,  I, iron_ingot, R, redstone_block
 
 
 

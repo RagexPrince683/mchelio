@@ -7,8 +7,8 @@ Speed = 0.7
 Sound = mbt_run
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 2.0
-MinRotationPitch = -70
-MaxRotationPitch = 5
+MinRotationPitch = -85
+MaxRotationPitch = 4
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -25,7 +25,7 @@ HideEntity = true
 EnableBack = true
 AddTexture =zsu1
 
-AddGunnerSeat =  0.00,  0, 0.17,   0.00,  3.2, 0.17, false, -80, 5, true
+AddGunnerSeat =  0.00,  0, 0.17,   0.00,  3.2, 0.17, false, -85, 4, true
 
 
 HUD = mbt_hud,vehicle
@@ -39,10 +39,10 @@ HUD = mbt_hud,vehicle
 
 ;AddTurretWeapon =23mm, 0.00, 2.74, 0,  0.0, 0.0, true,1, 0,-360,360, -80, 5
 
-AddTurretWeapon = 23mm,  -0.251, 2.55, 3.82,  0.0, 0.0, true,1, 0,-360,360, -80, 5
-AddTurretWeapon = 23mm,  0.247, 2.55, 3.82,  0.0, 0.0, true,1, 0,-360,360, -80, 5
-AddTurretWeapon = 23mm,  -0.349, 2.13, 3.82,  0.0, 0.0, true,1, 0,-360,360, -80, 5
-AddTurretWeapon = 23mm,  0.340, 2.13, 3.82,  0.0, 0.0, true,1, 0,-360,360, -80, 5
+AddTurretWeapon = 23mm,  -0.251, 2.55, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+AddTurretWeapon = 23mm,  0.247, 2.55, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+AddTurretWeapon = 23mm,  -0.349, 2.13, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+AddTurretWeapon = 23mm,  0.340, 2.13, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
 
 AddPartWeapon = 23mm, false, true, false, 0.00, 2.74, 0, 0
 AddPartWeaponChild = false, true,  0, 3.81, -1.8
@@ -113,5 +113,7 @@ BoundingBox = -0.1, 1.5, -2.5, 4.0, 0.65, 1.0
 
 
 BoundingBox = -0.1, 2.2, 0.0, 4.0, 0.85, 1.0
+
+AddRecipe = " IR",  "I I",  "III",  I, iron_ingot, R, redstone
 
 ArmorMinDamage = 4

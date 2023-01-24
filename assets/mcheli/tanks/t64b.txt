@@ -6,8 +6,8 @@ MaxHp = 330
 Speed = 1.0
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 2.0
-MinRotationPitch = -50
-MaxRotationPitch = 5
+MinRotationPitch = -70
+MaxRotationPitch = 6
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -98,14 +98,14 @@ AddTrackRoller = -2.32,  0.6,  -3.78
 AddPartWeapon =3bm22/3bk18m/9k119, false, true, false,  0.00, 0, 0, 0
 AddPartWeaponChild = false, true, -0.43, 1.78, 1.5, 0.0
 AddPartWeaponChild = false, true, -0.43, 1.78, 1.5, 0.5
-AddTurretWeapon = 3bm22, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -30, 7
-AddTurretWeapon = 3bk18m, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -30, 7
-AddTurretWeapon = 9k119, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -30, 7
-AddTurretWeapon = mg_coaxial,  -0.46, 1.73, 1.84,  0.0, 0.0, true,1, 0,-360,180, -30, 7
+AddTurretWeapon = 3bm22, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -14, 6
+AddTurretWeapon = 3bk18m, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -14, 6
+AddTurretWeapon = 9k119, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -14, 6
+AddTurretWeapon = mg_coaxial,  -0.46, 1.73, 1.84,  0.0, 0.0, true,1, 0,-360,180, -14, 6
 
 AddPartTurretWeapon    = mg12_7mms,   false, true, false,  -0.72, 2.84, -0.61
 AddPartTurretWeapon    = mg12_7mms, false, true, true, -0.72, 2.96, -0.61
-AddTurretWeapon = mg12_7mms,    -0.69, 3.07, 0.99,   0.0, 0.0, false, 2, 0, -360,180, -50,10
+AddTurretWeapon = mg12_7mms,    -0.69, 3.07, 0.99,   0.0, 0.0, false, 2, 0, -360,180, -70,5
 
 AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
 

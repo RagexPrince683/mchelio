@@ -1,7 +1,7 @@
 ﻿DisplayName = SPz Marder 1A3 IFV
 AddDisplayName = en_US, SPz Marder 1A3 IFV
 AddDisplayName = ja_JP, マルダー1A3 歩兵戦闘車
-MaxHp = 100
+MaxHp = 200
 Speed = 0.6
 Sound = mbt_run
 ThrottleUpDown = 10.0
@@ -14,8 +14,8 @@ CameraRotationSpeed = 30
 
 CameraPosition = 0.50, 3.23, 0.57, true
 StepHeight = 1.7
-MinRotationPitch = -60
-MaxRotationPitch = 10
+MinRotationPitch = -65
+MaxRotationPitch = 17
 DefaultFreelook = true
 MaxFuel         = 1200
 FuelConsumption = 2.0
@@ -64,9 +64,9 @@ AddTrackRoller = 0.00,  0.62, -3.32
 
 AddPartWeapon = dm43 / dm81, false, true, false, 0.00, 1.82, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.92, -0.73
-AddTurretWeapon = dm43,  0.00, 3.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 10
-AddTurretWeapon = dm81,  0.00, 3.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 10
-AddTurretWeapon = mg3,   1.1524, 2.9334,0.0296,  0.0, 0.0, true,1, 0,-360,360, -60, 10
+AddTurretWeapon = dm43,  0.00, 3.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -65, 17
+AddTurretWeapon = dm81,  0.00, 3.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -65, 17
+AddTurretWeapon = mg3,   1.1524, 2.9334,0.0296,  0.0, 0.0, true,1, 0,-360,360, -65, 17
 ;;AddTurretWeapon = mg7_62mm,   0.24, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 12
 
 AddTurretWeapon = milan, -0.86, 3.09, 0.29,  0.0, 0.0, true,1, 0,-360,360, -90, 90

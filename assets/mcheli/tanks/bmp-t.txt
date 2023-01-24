@@ -113,3 +113,5 @@ StepHeight = 1.5
 
 
 UnmountPosition = 0.00,  1.50, 0.00
+
+AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot

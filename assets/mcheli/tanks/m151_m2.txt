@@ -64,7 +64,7 @@ AddTurretWeapon = m2_1, 0.02, 2.05, -0.73,   0.0, 0.0, false, 3, 0, -60, 60, -20
 
 InventorySize = 9
 
-AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+AddRecipe = " G ",  "I I",  "RIR",   G, mcheli:m151, I, iron_ingot, R, redstone
 
 ;ヘッドライト
 AddFixedSearchLight =  0.37, 1.01, 2.26,   0x50FFFFFF,   0x00FFFFC0,    0.5, 1.0,  -5,  0

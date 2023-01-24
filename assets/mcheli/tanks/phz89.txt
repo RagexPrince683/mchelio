@@ -2,7 +2,7 @@
 AddDisplayName = en_US, PHZ-89
 AddDisplayName = zh_CN, 89式火箭炮
 ItemID = 38875
-MaxHp = 100
+MaxHp = 200
 Speed = 0.65
 Sound = tank
 ThrottleUpDown = 20.0
@@ -175,7 +175,7 @@ AddPartTurretWeapon    = m240_r,   false, true, false,  2.1514, 4.5920, -0.7037,
 
 
 
-
+AddRecipe = " G ",  "III",  "IIX",   G, redstone, I, iron_ingot, X, iron_block
 
 
 

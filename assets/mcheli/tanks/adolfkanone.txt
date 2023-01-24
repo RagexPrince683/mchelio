@@ -1,8 +1,8 @@
 ﻿DisplayName = 40.6cm SK C/34 "Adolfkanone"
 AddDisplayName = en_US, 40.6cm SK C/34 "Adolfkanone"
-MaxHp = 1000
+MaxHp = 250
 Speed = 0.0
-;Sound = vehiclerun
+Sound = none
 ThrottleUpDown = 4.0
 MobilityYawOnGround = 0.5
 MinRotationPitch = -60
@@ -39,7 +39,7 @@ AddSeat = 0.00, 3.1395, 0.9325
 ;AddGunnerSeat = 2.0, 2.0, -4.0
 ;AddGunnerSeat = -2.0, 2.0, -4.0
 
-ArmorMinDamage = 10
+ArmorMinDamage = 5
 
 MotionFactor = 0.2
 

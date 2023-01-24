@@ -103,11 +103,11 @@ AddFixedSearchLight = -0.826, 0.567, 2.33,   0x50FFFFFF,   0x00FFFFC0,    0.25, 
 ;テールランプ
 
 
-AddFixedSearchLight = -0.760, 0.688, -2.50,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -0.0,  180
-AddFixedSearchLight = 0.760, 0.688, -2.50,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -0.0,  180
+AddFixedSearchLight = -0.760, 0.688, -2.50,   0xFFFF0000,   0x10FF0000,    -0.05, -0.35,  -0.0,  180
+AddFixedSearchLight = 0.760, 0.688, -2.50,   0xFFFF0000,   0x10FF0000,    -0.05, -0.35,  -0.0,  180
 
-AddFixedSearchLight = 0.652, 0.683, -2.61,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -0.0,  180
-AddFixedSearchLight = -0.652, 0.683, -2.61,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -0.0,  180
+AddFixedSearchLight = 0.652, 0.683, -2.61,   0xFFFF0000,   0x10FF0000,    -0.05, -0.35,  -0.0,  180
+AddFixedSearchLight = -0.652, 0.683, -2.61,   0xFFFF0000,   0x10FF0000,    -0.05, -0.35,  -0.0,  180
 
 
 

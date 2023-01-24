@@ -142,3 +142,5 @@ TurretPosition = 0.0, 0.0, 0.0
 
 UnmountPosition = 0.00,  2.5, -0.35
 DefaultFreeLook = true
+
+AddRecipe = " IR",  "IXI",  "III",  X, redstone_block,  I, iron_ingot, R, redstone

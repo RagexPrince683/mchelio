@@ -8,7 +8,7 @@ Sound = mbt_run
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 5.0
 MinRotationPitch = -90
-MaxRotationPitch = 0
+MaxRotationPitch = 90
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -38,7 +38,7 @@ SetWheelPos =  1.54,  -0.47,  6.95,  1.25,-0.6
 MotionFactor = 0.9
 
 AddSeat =  0.91,2.11,7.46
-AddGunnerSeat = -0.91,2.11,7.46, 0.0, 4.50, 0.0, false, -80, 7
+AddGunnerSeat = -0.91,2.11,7.46, 0.0, 4.50, 0.0, false, -90, 90
 ;CameraPosition = -0.91,4.31,7.46
 
 HUD = bnr32_hud,mbt_hud
@@ -49,19 +49,19 @@ HUD = bnr32_hud,mbt_hud
 
 
 
-AddTurretWeapon = m28, -0.55, 3.27, -0.7,  0.0, 0.0, false,2, 0,-360,360, -80, 7
-AddTurretWeapon = m28,  0.00, 3.27, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -80, 7
-AddTurretWeapon = m28,  0.54, 3.27, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -80, 7
-AddTurretWeapon = m28, -0.55, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -80, 7
-AddTurretWeapon = m28,  0.00, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -80, 7
-AddTurretWeapon = m28,  0.54, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -80, 7
+AddTurretWeapon = m28, -0.55, 3.27, -0.7,  0.0, 0.0, false,2, 0,-360,360, -25, 3
+AddTurretWeapon = m28,  0.00, 3.27, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 3
+AddTurretWeapon = m28,  0.54, 3.27, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 3
+AddTurretWeapon = m28, -0.55, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 3
+AddTurretWeapon = m28,  0.00, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 3
+AddTurretWeapon = m28,  0.54, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 3
 
-AddTurretWeapon = m30, -0.55, 3.27, -0.7,  0.0, 0.0, false,2, 0,-360,360, -80, 7
-AddTurretWeapon = m30,  0.00, 3.27, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -80, 7
-AddTurretWeapon = m30,  0.54, 3.27, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -80, 7
-AddTurretWeapon = m30, -0.55, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -80, 7
-AddTurretWeapon = m30,  0.00, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -80, 7
-AddTurretWeapon = m30,  0.54, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -80, 7
+AddTurretWeapon = m30, -0.55, 3.27, -0.7,  0.0, 0.0, false,2, 0,-360,360, -25, 3
+AddTurretWeapon = m30,  0.00, 3.27, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 3
+AddTurretWeapon = m30,  0.54, 3.27, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 3
+AddTurretWeapon = m30, -0.55, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 3
+AddTurretWeapon = m30,  0.00, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 3
+AddTurretWeapon = m30,  0.54, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 3
 
 
 
@@ -105,3 +105,5 @@ BoundingBox = 0.0, 2.5, 0.0, 4.0, 2.5
 
 
 unmountposition = 0.91, 1.50 ,7.46
+
+AddRecipe = "IXI",  "RXR",  "III",  X, iron_block,  I, iron_ingot, R, redstone_block
