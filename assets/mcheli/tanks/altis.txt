@@ -57,8 +57,8 @@ PivotTurnThrottle = 0.2
 ; タイヤの回転スピード
 PartWheelRot = 40
 ; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
-AddPartWheel     = -1.0769,  0.0510,  1.6865, 15
-AddPartWheel     =  1.0769,  0.0510,  1.6865, 15
+AddPartWheel     = -1.0769,  0.0510,  1.6865, 25
+AddPartWheel     =  1.0769,  0.0510,  1.6865, 25
 AddPartWheel     =  1.0769,  0.0510, -1.7296
 AddPartWheel     =  -1.0769,  0.0510, -1.7296
 

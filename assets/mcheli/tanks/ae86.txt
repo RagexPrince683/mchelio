@@ -1,12 +1,11 @@
-﻿
-AddDisplayName = en_US, Toyota Corolla AE86
+﻿AddDisplayName = en_US, Toyota Corolla AE86
 DisplayName = Toyota Corolla AE86
 AddDisplayName = ja_JP, Toyota Corolla AE86
 ItemID = 28745
 MaxHp = 100
 ThrottleUpDown = 10.0
 Speed = 1.0
-MobilityYawOnGround = 5.0
+MobilityYawOnGround = 10.0
 StepHeight = 1.2
 Sound = cardrive
 MinRotationPitch = -90
@@ -37,10 +36,13 @@ SetWheelPos =  1.05,  -0.24,  1.965, -1.789
 
 HUD = bnr32_hud, none
 
-AddPartSteeringWheel =   -0.6983, 1.195, 0.7043,   0.0, -0.3, 1,  -100
+AddPartSteeringWheel =   -0.603, 0.671, 0.279,   0.0, -0.3, 1,  -100
 
-AddSeat =  -0.7227,  0.3, -0.2
-AddSeat =  0.7227,  0.3, -0.2
+AddSeat =  -0.590,  0.000, -0.0912
+AddSeat =  0.530,  0.171, -0.0912
+
+EntityWidth  = 0.85
+EntityHeight = 0.85
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.2
@@ -48,29 +50,40 @@ PivotTurnThrottle = 0.2
 ; タイヤの回転スピード
 PartWheelRot = 40
 ; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
-AddPartWheel     = -1.106,  0.2539, 2.025, 30
-AddPartWheel     =  1.106,  0.2539, 2.025, 30
-AddPartWheel     =  0.00,  0.2539, -1.916
+AddPartWheel     = -1.1576,  0.0098, 1.9914, 35
+AddPartWheel     =  1.1576,  0.0098, 1.9915, 35
+AddPartWheel     =  1.1576,  0.0098, -1.7047
+AddPartWheel     =  -1.1576,  0.0098, -1.7046
 
-AddPartCanopy =  -1.419, 0.8328, 1.164,  0,1,0,  70
 
-AddPartHatch    =  1.419, 0.8328, 1.164,   0,1,0,  -70
-AddPartHatch    =     0.00,   1.866, -1.686, 1,0,0,   90
+AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
+
+;AddPartCanopy =  -1.419, 0.8328, 1.164,  0,1,0,  70
+
+;AddPartHatch    =  1.419, 0.8328, 1.164,   0,1,0,  -70
+;AddPartHatch    =     0.00,   1.866, -1.686, 1,0,0,   90
 
 InventorySize = 35
 
 AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
-AddPartLightHatch =  0.0, 1.082, 2.855,   1,0,0, -90
+
+AddWeapon = smoke_none, 1.2,  -0.3,-1.7592,   1.0, 0.0
+AddWeapon = L_Claxon,    0.00, 0.00, 0.00,  0.0,0.0
+
+;AddPartLightHatch =  0.6231, 0.5053, 2.8163,   -1,0,0, -90
+
+AddPartLightHatch =  0.00, 0.5669, 3.0,   1,0, 0, -90
+
 
 ;ヘッドライト
-AddFixedSearchLight =  0.77, 1.2, 2.85,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
-AddFixedSearchLight = -0.77, 1.2, 2.85,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+AddFixedSearchLight =  -0.782, 0.886, 2.78,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = 0.782, 0.886, 2.78,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
 
-AddFixedSearchLight =  0.77, 1.0,-3.38,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
-AddFixedSearchLight = -0.77, 1.0,-3.38,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
-AddFixedSearchLight =  0.88, 1.0,-3.38,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
-AddFixedSearchLight = -0.88, 1.0,-3.38,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+;AddFixedSearchLight =  0.77, 1.0,-3.38,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+;AddFixedSearchLight = -0.77, 1.0,-3.38,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+;AddFixedSearchLight =  0.88, 1.0,-3.38,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+;AddFixedSearchLight = -0.88, 1.0,-3.38,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
 
 EntityWidth  = 1.0
 EntityHeight = 1.0
