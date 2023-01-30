@@ -36,10 +36,10 @@ SetWheelPos =  1.05,  -0.24,  1.965, -1.789
 
 HUD = bnr32_hud, none
 
-AddPartSteeringWheel =   -0.603, 0.671, 0.279,   0.0, -0.3, 1,  -100
+AddPartSteeringWheel =   -0.603, 0.771, 0.279,   0.0, -0.3, 1,  -100
 
-AddSeat =  -0.590,  0.000, -0.0912
-AddSeat =  0.530,  0.171, -0.0912
+AddSeat =  -0.590,  0.100, -0.0912
+AddSeat =  0.530,  0.271, -0.0912
 
 EntityWidth  = 0.85
 EntityHeight = 0.85
@@ -50,11 +50,11 @@ PivotTurnThrottle = 0.2
 ; タイヤの回転スピード
 PartWheelRot = 40
 ; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
-AddPartWheel     = -1.1576,  0.0098, 1.9914, 35
-AddPartWheel     =  1.1576,  0.0098, 1.9915, 35
-AddPartWheel     =  1.1576,  0.0098, -1.7047
-AddPartWheel     =  -1.1576,  0.0098, -1.7046
-
+AddPartWheel     = -1.1576,  0.1298, 1.9914, 35
+AddPartWheel     =  1.1576,  0.1298, 1.9915, 35
+AddPartWheel     =  1.1576,  0.1298, -1.7047
+AddPartWheel     =  -1.1576,  0.1298, -1.7046
+;2= 0.0098 to 0.1298
 
 AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
 
@@ -73,12 +73,23 @@ AddWeapon = L_Claxon,    0.00, 0.00, 0.00,  0.0,0.0
 
 ;AddPartLightHatch =  0.6231, 0.5053, 2.8163,   -1,0,0, -90
 
-AddPartLightHatch =  0.00, 0.5669, 3.0,   1,0, 0, -90
+AddPartLightHatch =  0.00, 0.6469, 2.95,   1,0, 0, -90
 
 
 ;ヘッドライト
-AddFixedSearchLight =  -0.782, 0.886, 2.78,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
-AddFixedSearchLight = 0.782, 0.886, 2.78,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
+AddFixedSearchLight =  -0.782, 0.686, 3.09,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = 0.782, 0.686, 3.09,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
+
+
+
+
+AddFixedSearchLight =  0.5362, 0.7500,-3.0822,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  6.0,  0
+AddFixedSearchLight =  -0.5362, 0.7500,-3.0822,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  -6.0,  0
+
+AddFixedSearchLight =  0.8562, 0.7500,-3.0522,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  6.0,  0
+AddFixedSearchLight =  -0.8562, 0.7500,-3.0522,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  -6.0,  0
+
+
 
 ;AddFixedSearchLight =  0.77, 1.0,-3.38,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
 ;AddFixedSearchLight = -0.77, 1.0,-3.38,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
@@ -98,5 +109,7 @@ BoundingBox = 0.0, 0.20, 2.0, 2.7, 0.2
 BoundingBox = 0.0, 0.20, -2.0, 2.7, 0.2
 Regeneration = true
 ArmorDamageFactor = 2.32
+
+unmountposition = -0.590,  1.500, -0.0912
 
 

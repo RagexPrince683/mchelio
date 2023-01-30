@@ -19,31 +19,33 @@ Category = M.A
 
 HUD = vehicle
 
-;AddSeat = 0.00,  1.57, 0.00
-;AddGunnerSeat = 0.00,  0.57, -0.20, 0.00,  0.57, -0.20, false, true
-;AddGunnerSeat =  0.00,  0.0, -0.20, 0.00,  0.0, -0.20, true, -25, 4
-AddSeat = 0.00,  0.0, -0.20
 
 
-AddWeapon = gau-19,  0.00,  0.57, -0.20,  0.0, 0.0, false,1, 0,-75,75, -50, 10
+AddGunnerSeat =  0.00,  0.0, -0.20, 0.00,  0.0, -0.20, false, -25, 4
+
+
+AddTurretWeapon = gau-19,  0.00,  0.57, -0.20,  0.0, 0.0, true,1, 0,-75,75, -50, 10
 AddPartWeapon = gau-19, true, true, true,   0.00, 0.00, 0.00, 0
-;AddPartWeaponChild = false, true, 0.00, 2.02,  0.00
-AddPartWeaponChild = false, true, 0.00, 2.02,  0.00
+
+AddPartWeaponChild = false, false, 0.00, 2.02,  0.00
 
 AddPart = true, true, false, 0, 0.00, 0.00, 0.0
 AddPart = true,true, true,  0, 0.00, 0.97, 0.0
 AddChildPart = true, false,false, 1,  0.00, 0.97, 0.00
 
-;AddWeapon = gau-19,  0.00, 1.02, 1.04
-;,   0.0, -1.0, false, 5, 0, -360, 360, -50, 10
+;AddPart = gau-19, true, true, false, 0,   0.00, 0.00, 0.00
+;AddPartWeaponChild = false, false, true,  0,   0.00, 2.02,  0.00
+;AddPartWeaponChild = false, false, true,  2,   0.00, 2.02,  0.00, 0.5
+;AddPartWeaponChild = false, false, true,  2,   0.00, 2.02,  0.00, 0.5
+;
+;AddPartWeapon = 12_7cm/type3bullet, true, true, false,   0.00, 0.00, 0.00, 0
 
-;AddPartWeapon = gau-19, false, true, false,  0.00, 2.4866, 0.00, 0
-;AddPartWeaponChild = false, true, 0.00, 2.4866, 2.2667, 0.0
-;AddPartWeaponChild = false, true, 0.00, 2.4866, 2.2667, 0.5
-;AddTurretWeapon = gau-19, 0.00,  0.57, -0.20,  0.0, 0.0, true,1, 0,-360,360, -50, 10
-;AddTurretWeapon = 125HE, 0.00, 2.4866, 2.2667,  0.0, 0.0, true,1, 0,-360,360, -50, 7
+;AddPartWeapon = type3bullet, true, true, false, 0,   0.00, 0.00, 0.00
 
-;AddTurretWeapon = gmw,    0.00, 2.95, -0.59, 0.0, 0.0, false, 5, 0, -360, 360, -25,  4
+;AddTurretWeapon = 12_7cm,        0.37, 2.02, 6.20,   0.0, -1.0,   true,1, 0,-360,360, -80, 8
+;AddTurretWeapon = 12_7cm,       -0.56, 2.02, 6.20,   0.0, -1.0,   true,1, 0,-360,360, -80, 8
+;AddTurretWeapon = type3bullet,   0.37, 2.02, 6.20,   0.0, -1.0,   true,1, 0,-360,360, -80, 8
+;AddTurretWeapon = type3bullet,  -0.56, 2.02, 6.20,   0.0, -1.0,   true,1, 0,-360,360, -80, 8
 
 
 BoundingBox =  0.00, 0.60,  0.00,  0.5, 1.5

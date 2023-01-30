@@ -1,4 +1,5 @@
 ﻿DisplayName = SGE-30 Goalkeeper
+AddDisplayName = en_US, SGE-30 Goalkeeper
 AddDisplayName = ja_JP, SGE-30 ゴールキーパー
 ItemID = 28601
 MaxHp = 100
@@ -12,6 +13,8 @@ MaxRotationPitch =  25
 DamageFactor = 1.0
 CameraZoom = 3
 CameraPosition = 0.0, 1.67, 0.0
+
+UAV = false
 
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
