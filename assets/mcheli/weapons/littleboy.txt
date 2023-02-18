@@ -1,5 +1,7 @@
 DisplayName = Little Boy
-Type = Nuke
+;Type = Nuke
+Type = bomb
+;debug
 ;50 is equivelent to 82m in width
 ;50*1.64=82m
 ;82m/1.64=50
