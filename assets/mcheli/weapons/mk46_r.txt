@@ -1,0 +1,25 @@
+DisplayName = Mk.46 [Torpedo]
+Type = Torpedo
+Power = 57
+ModelBullet = mk46
+Acceleration = 1.0
+AccelerationInWater = 1.5
+Explosion = 3
+ExplosionInWater = 9
+Flaming = false
+Sight = None
+Delay = 30
+GuidedTorpedo = false
+Gravity = -0.03
+GravityInWater = 0
+ReloadTime = 100
+Round = 3
+Sound = bomb_snd
+
+FixCameraPitch = true
+
+MaxAmmo = 9
+SuppliedNum = 3
+Item =  2, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

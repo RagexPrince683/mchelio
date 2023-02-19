@@ -1,10 +1,10 @@
 DisplayName = USS Arleigh Burke Destroyer
 AddDisplayName = ru_RU, USS Arleigh Burke Destroyer
 ItemID = 28748
-MaxHp = 2500
+MaxHp = 9500
 Speed = 0.65
 Sound = warship_snd
-SoundVolume = 15
+SoundVolume = 50
 Float = true
 ThrottleUpDown = 0.9
 FloatOffset = -0.1
@@ -13,8 +13,9 @@ MaxRotationPitch = 0
 MobilityRoll = 0
 Gravity = -0.1
 GravityInWater = 0.1
-DamageFactor = 0.8
+DamageFactor = 0.2
 ThirdPersonDist = 70
+AmmoSupplyRange = 40
 FlareType = 10
 ParticlesScale = 1.7
 HideEntity = true
@@ -30,6 +31,8 @@ MaxFuel         = 2500
 FuelConsumption = 2.0
 
 AddSeat = 0.29, 9.20, 6.49
+
+unmountposition = 0.29, 1.50, 6.49
 
 AddGunnerSeat = 0.29, 2.07, 11.82, 0.29, 4.07, 11.82, false, -90.0, 4.0
 
@@ -159,10 +162,10 @@ AddParticleSplash = -1.0, -0.18,  -20.0,   2,      12.0,    1.1,   60,       0.0
 
 AddRack = mh-53e / sh-3 / sh-60,   0.28, 0.88, -38.61,   0, 0, -34.93,   15,    5
 
-ArmorMinDamage = 100
-ArmorMaxDamage = 2000
+;ArmorMinDamage = 100
+;ArmorMaxDamage = 2000
 
-AddRecipe = "II ",  "AAA",  "BBP",   I, iron_ingot,  B, boat , A, anvil, P,piston
+;AddRecipe = "II ",  "AAA",  "BBP",   I, iron_ingot,  B, boat , A, anvil, P,piston
 
 BoundingBox =  0.05,  0.05, 0.05,  10.0, 10.0
 BoundingBox =  0.05, -1.43, 10.25,  10.0, 7.0

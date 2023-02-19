@@ -1,0 +1,21 @@
+DisplayName = RIM-66 Standart [Anti-Aircraft Missile]
+Type = AAMissile
+Power = 134
+Acceleration = 6
+Explosion = 7
+Flaming = false
+Sight = MissileSight
+Delay = 20
+ReloadTime = 110
+LockTime = 15
+ProximityFuseDist = 2
+ModelBullet = sm2
+Sound = missile_cruise_snd
+
+Round = 8
+
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

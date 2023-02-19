@@ -1,0 +1,21 @@
+DisplayName = RIM-161 Standart [Anti-Aircraft Missile]
+Type = AAMissile
+Power = 174
+Acceleration = 6
+Explosion = 8
+Flaming = false
+Sight = MissileSight
+Delay = 20
+ReloadTime = 110
+LockTime = 12
+ProximityFuseDist = 1
+ModelBullet = aim7
+Sound = missile_cruise_snd
+
+Round = 2
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
