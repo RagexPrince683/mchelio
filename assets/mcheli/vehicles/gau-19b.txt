@@ -24,7 +24,7 @@ HUD = vehicle
 AddGunnerSeat =  0.00,  0.0, -0.20, 0.00,  0.0, -0.20, false, -25, 4
 
 
-AddTurretWeapon = gau-19,  0.00,  0.57, -0.20,  0.0, 0.0, true,1, 0,-75,75, -50, 10
+AddTurretWeapon = gau-19,  0.00,  0.57, -0.20,  0.0, 0.0, true,1, 0,-360,360, -50, 10
 AddPartWeapon = gau-19, true, true, true,   0.00, 0.00, 0.00, 0
 
 AddPartWeaponChild = false, false, 0.00, 2.02,  0.00
