@@ -14,6 +14,16 @@ HeatCount = 1
 MaxHeatCount = 150
 Sound = gun_l2_snd
 
+Delay = 0
+SoundVolume = 5.5
+SoundPitch = 5.5
+Accuracy = 3
+HeatCount = 1
+MaxHeatCount = 150
+Sound = gun_m61a1_snd
+Power = 40
+Acceleration = 8.0
+
 MaxAmmo = 1200
 SuppliedNum = 400
 Item =  5, iron_ingot

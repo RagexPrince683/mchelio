@@ -21,6 +21,8 @@ ParticlesScale = 1.7
 HideEntity = true
 DefaultFreelook = true
 
+
+
 HUD = plane, vehicle, vehicle, vehicle, vehicle, vehicle, vehicle, vehicle, vehicle, vehicle_wwii, vehicle_wwii
 
 CanMoveOnGround = false
@@ -165,6 +167,8 @@ AddRack = mh-53e / sh-3 / sh-60,   0.28, 0.88, -38.61,   0, 0, -34.93,   15,    
 ;ArmorMinDamage = 100
 ;ArmorMaxDamage = 2000
 
+ArmorMinDamage = 20
+
 ;AddRecipe = "II ",  "AAA",  "BBP",   I, iron_ingot,  B, boat , A, anvil, P,piston
 
 BoundingBox =  0.05,  0.05, 0.05,  10.0, 10.0
@@ -178,3 +182,7 @@ BoundingBox =  0.05, -1.43, -38.21,  10.0, 4.0
 BoundingBox =  0.05,  4.79, 3.17,  10.0, 10.0
 BoundingBox =  0.05,  4.79, -16.06,  10.0, 10.0
 BoundingBox =  0.05,  4.79, -3.15,  10.0, 10.0
+
+enableback = true
+
+unmountposition = 0.0, 4.0, 12.04

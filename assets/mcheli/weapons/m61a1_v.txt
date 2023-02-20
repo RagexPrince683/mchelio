@@ -14,6 +14,17 @@ HeatCount = 1
 MaxHeatCount = 150
 Sound = gun_l2_snd
 
+
+Delay = 0
+SoundVolume = 5.5
+SoundPitch = 5.5
+Accuracy = 3
+HeatCount = 1
+MaxHeatCount = 150
+Sound = gun_m61a1_snd
+Power = 40
+Acceleration = 8.0
+
 SetCartridge = cartridge, 0.3,  90, 5, 3.00, -0.04, 0.40
 
 AddMuzzleFlash      =  3.2,      0.52,        1,  120,254,139,24
