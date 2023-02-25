@@ -16,7 +16,8 @@ Category = M.A
 
 HUD = vehicle
 
-AddSeat = 0.00,  1.37, 0.00
+AddSeat = 0.00,  -0.3, -1.30
+Sound = none 
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;脚

@@ -1,4 +1,4 @@
-DisplayName = Mk.15 Phalanx
+DisplayName = Mk.15 Phalanx CIWS
 AddDisplayName = ja_JP, Mk.15 ファランクス
 ItemID = 28600
 MaxHp = 100
@@ -19,6 +19,8 @@ Category = M.A
 HUD = vehicle
 
 AddSeat = 0.00,  1.57, 0.00
+
+unmountposition = 0.0, 1.5, 0.0
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;脚

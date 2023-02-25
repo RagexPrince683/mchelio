@@ -1,4 +1,5 @@
 ﻿DisplayName = GAU-19/b
+AddDisplayName = en_US, GAU-19/B
 AddDisplayName = ja_JP, GAU-19/b 12.7mmガトリング
 ItemID = 30032
 MaxHp = 100
@@ -21,7 +22,8 @@ HUD = vehicle
 
 
 
-AddGunnerSeat =  0.00,  0.0, -0.20, 0.00,  0.0, -0.20, false, -25, 4
+AddGunnerSeat =  0.00,  0.0, -0.65, 0.00,  0.0, -0.20, false, -25, 4
+unmountposition = 0.00,  1.0, -0.65
 
 
 AddTurretWeapon = gau-19,  0.00,  0.57, -0.20,  0.0, 0.0, true,1, 0,-360,360, -50, 10

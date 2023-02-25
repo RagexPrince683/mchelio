@@ -11,7 +11,7 @@ Delay = 0
 HeatCount = 1
 MaxHeatCount = 150
 SoundPitch = 1.0
-Sound = gun_l1_snd
+Sound = leotwoafourcoax
 
 Acceleration = 7.5
 Piercing = 0

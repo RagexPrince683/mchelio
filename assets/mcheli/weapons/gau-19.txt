@@ -1,7 +1,7 @@
 DisplayName = GAU-19 12.7mm
 Type = MachineGun2
 ModelBullet = bullet
-Power = 13
+Power = 31
 Acceleration = 4.0
 Explosion = 1
 Flaming = false
@@ -13,3 +13,11 @@ Accuracy = 3.4
 HeatCount = 1
 MaxHeatCount = 80
 ModeNum = 2
+
+SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
+
+
+MaxAmmo = 1200
+SuppliedNum = 200
+Item =  1, iron_ingot
+Item =  2, gunpowder

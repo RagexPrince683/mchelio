@@ -9,9 +9,9 @@ Flaming = false
 Sight = MoveSight
 Delay = 170
 ModeNum = 1
-SoundPitch = 0.5
+;SoundPitch = 0.5
 SoundVolume = 20
-Sound = cannon_3_snd
+Sound = leotwoafourmain
 
 Delay = 170
 ReloadTime = 170
