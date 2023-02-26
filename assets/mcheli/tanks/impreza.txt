@@ -47,6 +47,9 @@ AddPartWheel     = -1.00,  0.1209,  1.7999, 30
 
 AddPartSteeringWheel =  0.5669,  0.9087,  0.4210,  0, 0.488, -1,  130
 
+AddPartSteeringWheel =   -1.00,  0.1209,  1.7999,  0.0, 1.0, 0.0,   30
+AddPartSteeringWheel =  1.00,  0.1209,  1.7999,  0.0, 1.0, 0.0,   30
+
 AddPartCanopy   =  0.95, 0.32, 0.95,  0, 1, 0, -70
 AddPartCanopy   =  0.95, 0.32, 0.95,  0, 1, 0, -70
 AddPartCanopy   =  0.00, 0.00, 0.00,  0, 0, 0,  0

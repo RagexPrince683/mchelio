@@ -111,7 +111,7 @@ AddTurretWeapon = m2_rws,   -0.846, 3.68,  0.373,   0.0, 0.0, false, 2, 0, -360,
 ;M240
 AddPartTurretWeapon    = m240_r,   false, true, true,   1.243, 3.24, -0.77
 AddPartTurretWeapon    = m240_r,   false, true, false,  1.243, 3.24, -0.77
-AddTurretWeapon = m240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -50,30
+AddTurretWeapon = m240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -65,9
 
 AddRecipe = "XXX",  " X ",  "III",  X, iron_block,  I, iron_ingot
 
