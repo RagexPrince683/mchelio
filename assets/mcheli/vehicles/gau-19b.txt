@@ -23,7 +23,8 @@ HUD = vehicle
 
 
 AddGunnerSeat =  0.00,  0.0, -0.65, 0.00,  0.0, -0.20, false, -25, 4
-unmountposition = 0.00,  1.0, -0.65
+unmountposition = 0.00,  3.694, -0.65
+;4.694 or 3.694
 
 
 AddTurretWeapon = gau-19,  0.00,  0.57, -0.20,  0.0, 0.0, true,1, 0,-360,360, -50, 10
