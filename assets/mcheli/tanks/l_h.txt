@@ -78,6 +78,8 @@ AddPartThrottle =  0.4931, 0.6348, 1.2320,  0, 0.0185 , -0.0417, -230
 MaxFuel         = 600
 FuelConsumption = 0.5
 
+AddWeapon = smoke_none, 1.2,  -0.3,-1.7592,   1.0, 0.0
+
 AddWeapon = l_h_startup,      0.00, -1.00, 0.00,  0.0,0.0
 AddWeapon = l_h_enginesound,  0.00, -1.00, 0.00,  0.0,0.0
 ;AddWeapon = Derrape,          1.05, -0.35, -1.28, 180.0, -15.0

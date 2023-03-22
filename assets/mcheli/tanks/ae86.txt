@@ -7,7 +7,7 @@ ThrottleUpDown = 10.0
 Speed = 1.0
 MobilityYawOnGround = 10.0
 StepHeight = 1.2
-Sound = cardrive
+Sound = aeeightysix
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 4
@@ -63,7 +63,7 @@ AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
 ;AddPartHatch    =  1.419, 0.8328, 1.164,   0,1,0,  -70
 ;AddPartHatch    =     0.00,   1.866, -1.686, 1,0,0,   90
 
-InventorySize = 35
+InventorySize = 9
 
 AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 

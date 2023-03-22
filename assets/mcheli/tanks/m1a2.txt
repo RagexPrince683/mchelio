@@ -5,7 +5,7 @@ MaxHp = 800
 Speed = 0.7
 Sound = abrams
 ThrottleUpDown = 20.0
-SoundPitch = 0.8
+SoundPitch = 0.6
 MobilityYawOnGround = 2.0
 MinRotationPitch = -20
 MaxRotationPitch = 10
@@ -101,7 +101,7 @@ AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.5
 AddTurretWeapon = abramsapfsds, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 9
 AddTurretWeapon = abramsheat,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 9
-AddTurretWeapon = mg7_62mm_mbt,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = abramscoax,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 9
 
 ;RWS M2
 AddPartTurretWeapon    = m2_rws,   true, true, true,  -0.846, 3.68, 0.373
