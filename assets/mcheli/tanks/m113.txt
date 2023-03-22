@@ -27,10 +27,10 @@ WeightedCenterZ = 0.0
 OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 2.0
 
-MobilityYawOnGround = 2.0
+MobilityYawOnGround = 3.0
 PivotTurnThrottle = 0.0
 
-AddSeat       =   0.84, 1.07,  1.26, true
+AddSeat       =   0.84, 1.07,  1.26, false
 AddSeat       =   0.03, 2.30, -0.02
 AddSeat       =   0.56, 0.85, -0.56
 AddSeat       =  -0.56, 0.85, -0.56

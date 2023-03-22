@@ -25,6 +25,10 @@ DefaultFreelook = true
 MotionFactor = 0.9
 FlareType = 10
 
+Float= True
+GravityInWater = -0.2
+FloatOffset = 0.0
+
 SubmergedDamageHeight = 3
 
 ;  M = Military,  A = AAGun(対空砲)

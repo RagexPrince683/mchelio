@@ -26,6 +26,7 @@ DamageFactor = player, 20.0
 
 
 
+
 ReloadTime = 150
 Round = 32
 MaxAmmo = 64
