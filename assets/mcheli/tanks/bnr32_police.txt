@@ -90,6 +90,8 @@ AddFixedSearchLight = -0.97, 0.78,-3.05,   0xFFFF0000,   0x10FF0000,    0.05, 0.
 AddPartHatch    =     0.00,   0.62,   1.28,   1,0,0,   5
 
 ;音声ギミック
+
+AddWeapon = smoke_none, 1.2,  -0.3,-1.7592,   1.0, 0.0
 AddWeapon =  1_horn         , 0.00,  0.42,  3.05,   0.0, 90
 AddWeapon =  1_siren_police , 0.00,  0.42,  3.05,   0.0, 90,  true,  2
 

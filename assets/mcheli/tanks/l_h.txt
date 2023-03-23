@@ -174,3 +174,5 @@ InventorySize = 9
 
 ;AddRack = Paint L_H,  0.0, -0.04895, 0.0,   0.0, 0.0, -3.17,  10, 10, 0, 3.0
 ;AddRack = Paint L_H,  0.0, 100, 0.0,   0.0, 0.0, -3.17,  10, 10, 0, 3.0
+
+UnmountPosition = 0.493,  1.5,  0.36

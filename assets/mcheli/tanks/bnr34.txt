@@ -50,6 +50,8 @@ HUD = bnr34_hud, none
 
 AddSeat = -0.54,  0.19, -0.02
 AddSeat =  0.54,  0.29, -0.02
+AddSeat = -0.48,  0.27, -1.14
+AddSeat =  0.48,  0.27, -1.14
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.1
@@ -74,6 +76,7 @@ AddPartThrottle = -0.639, 0.949, 0.859,  0,1,-3.39, -220
 AddPartThrottle =  0.000, 0.000, 0.800,  0,1,-1.73, 0
 
 ;音声ギミック
+AddWeapon = smoke_none, 1.2,  -0.3,-1.7592,   1.0, 0.0
 AddWeapon =  1_horn , 0.00,  0.42,  3.05, 0.0, 90
 
 InventorySize = 9
@@ -81,8 +84,8 @@ InventorySize = 9
 AddRecipe = " G ",  "ILI",  "RIR",   G, glass, I, iron_ingot, R, redstone, L,light_weighted_pressure_plate
 
 ;ヘッドライト
-AddFixedSearchLight =  0.70, 0.66, 2.80,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
-AddFixedSearchLight = -0.70, 0.66, 2.80,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+AddFixedSearchLight =  0.70, 0.66, 3.15,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = -0.70, 0.66, 3.15,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
 
 ;テールランプ
 AddFixedSearchLight =  0.94, 0.95,-3.17,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,   14.0,  14.5
@@ -103,4 +106,4 @@ BoundingBox = 0.0, 0.20, -1.6, 2.5, 0.2
 Regeneration = true
 ArmorDamageFactor = 2.32
 
-UnmountPosition = 0.54,  1.50, -0.02
+UnmountPosition = -0.54,  1.50, -0.02
