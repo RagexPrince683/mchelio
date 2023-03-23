@@ -1,0 +1,106 @@
+﻿DisplayName = Skyline GT-R BNR34
+AddDisplayName = en_US, Skyline GT-R R34
+AddDisplayName = ja_JP, スカイラインGT-R BNR34
+ItemID = 30034
+MaxHp = 100
+ThrottleUpDown = 10.0
+Speed = 1.74
+;198mph
+MobilityYawOnGround = 8.8
+StepHeight = 1.2
+Sound = rbtwentyfive
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor   = 1.0
+EnableNightVision = true
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
+CameraPosition = -0.54,  1.22, -0.02, true
+CameraPosition  = 0.00,  2.50, -6.00, true
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+AddTexture = bnr34_1
+AddTexture = bnr34_2
+AddTexture = bnr34_3
+AddTexture = bnr34_4
+AddTexture = bnr34_5
+
+;後退可能にする
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+; Tank or Car or Unknown
+WeightType = Car
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.05,  -0.24,  1.965, -1.789
+
+HUD = bnr34_hud, none
+
+AddSeat = -0.54,  0.19, -0.02
+AddSeat =  0.54,  0.29, -0.02
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.1
+
+; タイヤの回転スピード
+PartWheelRot = 40
+; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
+AddPartWheel     = -1.07,  0.168,  2.018, 30
+AddPartWheel     =  1.07,  0.168,  2.018, 30
+AddPartWheel     = -1.07,  0.168, -1.860
+AddPartWheel     =  1.07,  0.168, -1.860
+
+;ハンドル
+AddPartSteeringWheel =  -0.5386,  0.9605,  0.4534,  0.0, 1.0, -1.73,   130
+
+；前輪ブレーキ
+AddPartSteeringWheel =  -1.07,  0.168,  2.018,  0.0, 1.0, 0.0,   30
+AddPartSteeringWheel =   1.07,  0.168,  2.018,  0.0, 1.0, 0.0,   30
+
+AddPartThrottle = -0.438, 0.949, 0.859,  0,1,-3.39, -185
+AddPartThrottle = -0.639, 0.949, 0.859,  0,1,-3.39, -220
+AddPartThrottle =  0.000, 0.000, 0.800,  0,1,-1.73, 0
+
+;音声ギミック
+AddWeapon =  1_horn , 0.00,  0.42,  3.05, 0.0, 90
+
+InventorySize = 9
+
+AddRecipe = " G ",  "ILI",  "RIR",   G, glass, I, iron_ingot, R, redstone, L,light_weighted_pressure_plate
+
+;ヘッドライト
+AddFixedSearchLight =  0.70, 0.66, 2.80,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight = -0.70, 0.66, 2.80,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+;テールランプ
+AddFixedSearchLight =  0.94, 0.95,-3.17,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,   14.0,  14.5
+AddFixedSearchLight =  0.64, 0.92,-3.22,   0xFFFF0000,   0x10FF0000,    0.03, 0.25,    4.8,  15.0
+AddFixedSearchLight = -0.64, 0.92,-3.22,   0xFFFF0000,   0x10FF0000,    0.03, 0.25,   -4.8,  15.0
+AddFixedSearchLight = -0.94, 0.95,-3.17,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -14.0,  14.5
+
+
+
+;engine?
+BoundingBox =  0.0, 0.50,  1.9,   2.0, 0.6
+;mid
+BoundingBox = 0.0, 0.20, 0.0, 2.5, 0.2
+;front
+BoundingBox = 0.0, 0.20, 1.8, 2.5, 0.2
+;rear
+BoundingBox = 0.0, 0.20, -1.6, 2.5, 0.2
+Regeneration = true
+ArmorDamageFactor = 2.32
+
+UnmountPosition = 0.54,  1.50, -0.02

@@ -1,5 +1,8 @@
 DisplayName = GBU-31
-Type = ASMissile
+Type = ATMissile
+DisableSmoke = true
+
+
 Power = 1000
 Acceleration = 1.7
 Explosion = 6
@@ -18,7 +21,7 @@ DisableSmoke = true
 
 ;bomb rewrite
 ;Acceleration = 0.5
-Explosion = 100
+Explosion = 50
 ;Explosive mass	269.9*5 kg kg
 Power = 1080
 ExplosionBlock = 5

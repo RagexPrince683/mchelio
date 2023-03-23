@@ -52,6 +52,9 @@ AddPartWeaponMissile = gbu-31,   false,  false,  false,   -1.15,  1.97, -3.55
 
 AddWeapon = dummy_bay_closed, 0,0,0,0,0
 AddWeapon = gbu-31,  1.15,  1.97, -3.55,  0, 0
+
+;AddTurretWeapon = gbu-31, 1.15,  1.97, -3.55,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+
 AddWeapon = gbu-31, -1.15,  1.97, -3.55,  0, 0
 
 AddWeapon = targeting_pod_mob,   0.0, 1.7, 5.2,  0.0, 0.0
