@@ -13,6 +13,11 @@ MaxHeatCount = 200
 SoundPitch = 1.0
 Sound = gun_h4_snd
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
+
 MaxAmmo = 1200
 SuppliedNum = 300
 Item =  2, iron_ingot

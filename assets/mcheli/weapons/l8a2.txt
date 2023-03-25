@@ -1,6 +1,6 @@
 DisplayName = L8A2
 Type = MachineGun2
-Power = 5
+Power = 7
 Acceleration = 8.0
 Flaming = false
 Sight = MoveSight
@@ -12,6 +12,11 @@ Accuracy = 0.7
 HeatCount = 5
 MaxHeatCount = 150
 SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
 
 MaxAmmo = 200
 SuppliedNum = 100

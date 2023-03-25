@@ -1,8 +1,9 @@
-DisplayName = 12.7cmAACanon
+DisplayName = 12.7cm AA Cannon
+AddDisplayName = en_US, 12.7cm AA Cannon
 AddDisplayName = ja_JP, 12.7cm連装高角砲
 ItemID = 28607
 MaxHp = 100
-HideEntity = true
+HideEntity = false
 MinRotationPitch = -80
 MaxRotationPitch =  8
 DamageFactor = 1.0
@@ -16,7 +17,7 @@ Category = W.A
 
 HUD = vehicle_wwii
 
-AddSeat = 0.00,  2.02, 0.00
+AddGunnerSeat = 2.00,  1.12, 0.00, 0.0, 3.02, 0.0, false, -80, 8, true
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;本体-砲身

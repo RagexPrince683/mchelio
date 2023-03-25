@@ -18,6 +18,8 @@ HUD = vehicle
 
 AddSeat = 0.00,  0.00, 0.00
 
+unmountposition = 0.0, 1.5, 0.0
+
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;砲塔
 AddPart = true, true, false, 0, 0.0, 0.0, 0.0

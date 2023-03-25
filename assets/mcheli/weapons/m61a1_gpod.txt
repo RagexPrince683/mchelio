@@ -28,6 +28,11 @@ Acceleration = 8.0
 Piercing = 2
 SetCartridge = cartridge, 0.3,  180, 5, 3.00, -0.04, 0.40
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
+
 MaxAmmo = 2400
 SuppliedNum = 600
 Item =  5, iron_ingot

@@ -1,5 +1,5 @@
 DisplayName = M2 12.7 Heavy Machine Gun
-Power = 13
+Power = 31
 Acceleration = 7.0
 Type = MachineGun2
 Flaming = false

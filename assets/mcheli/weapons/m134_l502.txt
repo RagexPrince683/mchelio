@@ -13,6 +13,11 @@ Accuracy = 4.0
 SetCartridge = cartridge, 0.0, 0, 0, 2.00, -0.04, 0.40
 Sound = gun_l2_snd
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
+
 MaxAmmo = 300
 SuppliedNum = 100
 Item =  2, iron_ingot

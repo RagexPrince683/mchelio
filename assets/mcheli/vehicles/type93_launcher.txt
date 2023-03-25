@@ -1,4 +1,4 @@
-DisplayName = Type 93 torpedo
+DisplayName = Type 93 Torpedo Launcher
 AddDisplayName = ja_JP, 九三式魚雷
 ItemID = 28609
 MaxHp = 100
@@ -11,6 +11,8 @@ DamageFactor = 1.0
 CameraZoom = 3
 CameraPosition = 0.0, 4.0, 0.0
 
+
+Unmountposition = 0.00,  1.5, 0.00
 
 
 ; M = Military,  T = Torpedo(魚雷)

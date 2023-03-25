@@ -1,4 +1,4 @@
-DisplayName = Oto Melara 127 mm gun
+DisplayName = Oto Melara 127mm Naval Gun
 AddDisplayName = ja_JP, オート・メラーラ127mm砲
 ItemID = 30110
 MaxHp = 100
@@ -11,6 +11,8 @@ DamageFactor = 1.0
 CameraZoom = 4
 CameraPosition = 0.0, 4.00, 0.0
 ThirdPersonDist = 8
+
+unmountposition = 0.0, 1.60, 0.0
 
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A

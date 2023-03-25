@@ -1,6 +1,12 @@
 DisplayName = Little Boy
 ;Type = Nuke
 Type = bomb
+nukeYield = 119
+;479
+
+;chemYield = 10
+Explosion = 1
+
 ;debug
 ;50 is equivelent to 82m in width
 ;50*1.64=82m
@@ -12,14 +18,14 @@ Type = bomb
 ;540m actually...
 ;540/1.64
 
-Power = 329
+;Power = 329
 Acceleration = 0.1
 Sight = None
 Sound = bomb_snd
 Delay = 4
 SoundVolume = 8
 Gravity = -0.01
-Piercing = 10
+;Piercing = 10
 MaxAmmo = 1
 SuppliedNum = 1
 Item = 1, hbm:tile.nuke_boy

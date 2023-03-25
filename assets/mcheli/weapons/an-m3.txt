@@ -1,7 +1,7 @@
-DisplayName = Browning AN/M3 12.7mm
+DisplayName = Browning AN/M3 12.7mm Machine Gun
 Type = MachineGun1
-Power = 9
-Acceleration = 8.0
+Power = 31
+Acceleration = 7.0
 Explosion = 0
 Flaming = false
 Sight = MoveSight
@@ -12,6 +12,11 @@ HeatCount = 1
 MaxHeatCount = 50
 SoundPitch = 0.8
 Sound = gun_l1_snd
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
 
 MaxAmmo = 600
 SuppliedNum = 200

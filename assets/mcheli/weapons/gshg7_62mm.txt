@@ -1,4 +1,4 @@
-DisplayName = GShG-7.62 machine gun
+DisplayName = GShG - 7.62 Machine Gun
 Type = MachineGun2
 ModelBullet = bullet
 Power = 8
@@ -21,10 +21,10 @@ AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
 
 Acceleration = 7.5
 Piercing = 0
-;DamageFactor = tank, 1.0
-;DamageFactor = plane, 1.5
-;DamageFactor = vehicle, 1.5
-;DamageFactor = heli, 1.5
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
 DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15

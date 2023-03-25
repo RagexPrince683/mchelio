@@ -1,7 +1,7 @@
 DisplayName = 23mm Auto Cannon
 Type = MachineGun2
 ModelBullet = bullet
-Power = 10
+Power = 16
 Acceleration = 8.0
 Flaming = false
 Sight = MoveSight

@@ -1,4 +1,4 @@
-DisplayName = Oto Melara 76 mm gun
+DisplayName = Oto Melara 76mm Naval Gun
 AddDisplayName = ja_JP, オート・メラーラ76mm砲
 ItemID = 28601
 MaxHp = 100
@@ -10,6 +10,8 @@ MaxRotationPitch =  15
 DamageFactor = 1.0
 CameraZoom = 4
 CameraPosition = 0.0, 2.37, 0.0
+
+unmountposition = 0.0, 1.40, 0.0
 
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A

@@ -1,8 +1,8 @@
-﻿DisplayName = M2HB 12.7mm TwinType
+﻿DisplayName = M2HB 12.7mm Twin Type
 AddDisplayName = ja_JP, M2HB 二艇結合
 ItemID = 30033
 MaxHp = 100
-HideEntity = true
+HideEntity = false
 RotationPitchMin = -80
 RotationPitchMax =  25
 DamageFactor = 1.0
@@ -17,6 +17,8 @@ Category = M.A
 HUD = vehicle
 
 AddSeat = 0.00,  0.30, -0.80
+
+
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;本体-砲身

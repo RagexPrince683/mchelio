@@ -12,6 +12,11 @@ ReloadTime = 150
 SoundPitch = 1.0
 Sound = gun_l1_snd
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
+
 MaxAmmo = 2000
 SuppliedNum = 400
 Item =  2, iron_ingot

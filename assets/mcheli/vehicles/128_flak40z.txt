@@ -1,7 +1,8 @@
 ﻿DisplayName = 12.8cm Flakzwilling 40
+AddDisplayName = en_US, 12.8cm Flakzwilling 40
 ItemID = 28622
 MaxHp = 100
-HideEntity = true
+HideEntity = false
 MinRotationPitch = -75
 MaxRotationPitch =  3
 DamageFactor = 1.0
@@ -15,7 +16,9 @@ Category = W.A
 
 HUD = vehicle_wwii
 
-AddSeat = 0.00,  1.22, 0.00
+AddGunnerSeat = 2.89,  1.56, -1.32, 0.0, 3.40, 0.0, false, -75, 3, true
+
+unmountposition = 0.00,  1.52, 0.00
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;本体-砲身

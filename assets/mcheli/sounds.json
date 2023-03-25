@@ -93,6 +93,7 @@
 "l_h": {"category": "master","sounds": ["l_h"]},
 "l_h_enginesound": {"category": "master","sounds": ["l_h_enginesound","l_h_enginesound1","l_h_enginesound2"]},
 "l_h_startup": {"category": "master","sounds": ["l_h_startup"]},
+"m2_snd": {"category": "master","sounds": ["m2_snd"]},
 "m3m_h": {"category": "master","sounds": ["m3m_h"]},
 "mac1934_snd": {"category": "master","sounds": ["mac1934_snd"]},
 "maxim_aa_snd": {"category": "master","sounds": ["maxim_aa_snd"]},

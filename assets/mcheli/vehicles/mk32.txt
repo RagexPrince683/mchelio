@@ -1,22 +1,26 @@
-DisplayName = Mk.32 Torpedo tube
+DisplayName = Mk.32 Torpedo Tube
 AddDisplayName = ja_JP, Mk 32 短魚雷発射管
 ItemID = 28605
 MaxHp = 100
 Gravity = -9.81
 GravityInWater = -1.0
-HideEntity = true
+HideEntity = false
 MinRotationPitch = -2
 MaxRotationPitch = 2
 DamageFactor = 1.0
 CameraZoom = 2
 CameraPosition = 0.0, 2.0, 0.0
 
+Unmountposition = 0.0, 1.0, -1.2
+
 ; M = Military,  T = Torpedo(魚雷)
 Category = M.T
 
 HUD = vehicle_wwii
 
-AddSeat = 0.00,  1.0, 0.00
+
+
+AddSeat = 0.00,  -0.44, -1.2
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 AddPart	= true, true, false, 0,   0.00, 0.00, 0.00

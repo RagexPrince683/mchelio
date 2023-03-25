@@ -1,4 +1,5 @@
-﻿DisplayName = 15.0cm AA Canon 
+﻿DisplayName = 15.0cm AA Cannon 
+AddDisplayName = en_US, 15.0cm AA Cannon 
 AddDisplayName = ja_JP, 一七式十五糎高角砲
 ItemID = 28615
 MaxHp = 100
@@ -17,13 +18,19 @@ Category = W.A
 
 HUD = vehicle_wwii
 
-AddSeat = 0.00,  0.70, 0.00
+;AddSeat = 0.00,  0.70, 0.00
+
+AddGunnerSeat = -1.03,  1.20, -1.32, 0.0, 2.10, 0.0, false, -75, 5, true
+
+unmountposition = -1.03,  1.40, -1.32
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;本体-砲身
 AddPart		 = true,  true,  false, 0,   0.00, 0.00,  0.00
 AddChildPart = false, false, true,  0,   0.00, 2.04, -1.32
 AddChildPart = false, false, true,  2,   0.00, 2.04, -1.32, 0.8
+
+;AddTurretWeapon = 15cm_vt,  0.00, 2.10, 5.67,   0.0, 0.0
 
 AddWeapon = 15cm_vt,  0.00, 2.10, 5.67,   0.0, 0.0
 

@@ -1,4 +1,5 @@
-DisplayName =  Mk29 Missile Launcher
+DisplayName =  Mk29 Sea Sparrow 
+AddDisplayName = en_US,  Mk29 Sea Sparrow 
 AddDisplayName = ja_JP, Mk29 艦対空個艦防衛ミサイル
 ItemID = 28615
 MaxHP = 100
@@ -9,6 +10,8 @@ CameraZoom = 5
 MinRotationPitch = -50
 MaxRotationPitch = 0
 AddSeat = 0.0,  0.0, 0.0
+HideEntity = true
+unmountposition = 0.0,  1.4, 0.0
 DamageFactor = 1.0
 
 ; M = Military,  M = Missile(ミサイル)
@@ -28,4 +31,4 @@ AddChildPart = true,false,true,  0,  0.00, 1.49, 0.00
 
 AddRecipe = "T T",  " X ",  "XAX",  X,iron_block, T,tnt, A,iron_ingot
 
-BoundingBox =  0.0, 1.0, 0.0,  3.0, 2.5
+BoundingBox =  0.0, 1.0, 0.0,  2.0, 2.5

@@ -15,6 +15,11 @@ SoundVolume = 2.0
 Sound = ww2tankcoax_snd
 BulletColor        = 255, 119, 255, 116
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
+
 MaxAmmo = 1000
 SuppliedNum = 200
 Item =  2, iron_ingot

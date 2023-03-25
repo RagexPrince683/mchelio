@@ -16,6 +16,11 @@ ModeNum = 2
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
+
 
 MaxAmmo = 1200
 SuppliedNum = 200

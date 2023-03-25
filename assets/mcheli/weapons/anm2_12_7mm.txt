@@ -1,7 +1,7 @@
-DisplayName = ANM2_12.7mmMachineGun
+DisplayName = AN/M2 12.7mm Machine Gun
 Type = MachineGun1
-Power = 8
-Acceleration = 6.5
+Power = 31
+Acceleration = 7
 Explosion = 0
 Flaming = false
 Sight = MoveSight
@@ -13,6 +13,13 @@ MaxHeatCount = 160
 SoundPitch = 0.8
 Sound = gun_h4_snd
 SoundVolume = 0.7
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
+
+DamageFactor = player, 20.0
 
 SetCartridge = cartridge, 0.0, 0, 0, 2.0, -0.04, 0.4
 

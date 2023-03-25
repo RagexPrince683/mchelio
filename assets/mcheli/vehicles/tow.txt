@@ -5,9 +5,11 @@ MaxHp = 100
 Gravity = -9.81
 GravityInWater = -1.0
 CameraZoom = 3
-AddSeat = 0,0,0
+AddSeat = 0,-0.4,-1
 CameraPosition = 0,  1.7,  0
 HideEntity = false
+
+
 
 DamageFactor = 1.0
 
@@ -22,7 +24,7 @@ RotationPitchMax =  25
 AddPart = true,true,true,0, 0, 1 , 0
 AddPart = true,true,false,0, 0, 0, 0
 
-AddWeapon =  bgm-71,  0,1,0
+AddTurretWeapon =  bgm-71,  0,1,0
 
 
 Boundingbox = 0.00,  1.10,  0.00,  0.7, 1.0

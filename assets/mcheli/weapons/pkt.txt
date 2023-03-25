@@ -12,6 +12,11 @@ Accuracy = 0.7
 HeatCount = 4
 MaxHeatCount = 150
 
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
+
 
 
 MaxAmmo = 1000

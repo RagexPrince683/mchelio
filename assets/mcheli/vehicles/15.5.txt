@@ -1,4 +1,5 @@
-DisplayName = 15.5cmCanon
+DisplayName = 15.5cm Cannon
+AddDisplayName = en_US, 15.5cm Cannon
 AddDisplayName = ja_JP, 15.5cm3連装砲
 ItemID = 28604
 MaxHp = 100
@@ -17,6 +18,8 @@ Category = W
 HUD = vehicle_wwii
 
 AddSeat = 0.00,  2.50, 0.00
+
+unmountposition = 0.00,  1.50, 0.00
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;本体-砲身

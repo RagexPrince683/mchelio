@@ -1,7 +1,7 @@
-DisplayName = AN/M3 12.7mm 
+DisplayName = AN/M3 12.7mm Machine Gun
 Type = MachineGun2
-Power = 9
-Acceleration = 10.0
+Power = 31
+Acceleration = 7.0
 Flaming = false
 Sight = MoveSight
 Delay = 1
@@ -12,6 +12,11 @@ Accuracy = 2.0
 HeatCount = 3
 MaxHeatCount = 150
 SetCartridge = cartridge, 0.3,  90, -20, 3.00, -0.04, 0.40
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
 
 MaxAmmo = 500
 SuppliedNum = 250
