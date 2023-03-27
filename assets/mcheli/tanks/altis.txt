@@ -36,7 +36,7 @@ WeightType = Car
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  1.05,  -0.24,  1.965, -1.789
+SetWheelPos =  0.60,  -0.24,  1.68, -1.72
 
 HUD = bnr32_hud, none
 

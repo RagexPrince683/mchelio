@@ -1,4 +1,4 @@
-DisplayName = 14.5mm KPVT machine gun [API-T]
+DisplayName = 14.5mm KPVT Machine Gun [API-T]
 Type = MachineGun2
 Power = 49
 Acceleration = 5.0

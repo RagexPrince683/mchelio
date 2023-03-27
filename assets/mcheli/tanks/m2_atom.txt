@@ -18,7 +18,8 @@ FuelConsumption   = 0
 DefaultFreelook = true
 ThirdPersonDist = 3
 
-SetWheelPos = 0.0, -0.0, 0.0
+;SetWheelPos = 0.0, 0.0, 0.0
+SetWheelPos =  0.20,  -0.20,  0.20, -0.20
 
 
 

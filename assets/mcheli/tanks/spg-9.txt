@@ -11,7 +11,8 @@ DamageFactor = 1.0
 CameraZoom = 4
 CameraPosition = 0.0, 2.27, 0.0
 speed = 0.01
-SetWheelPos = 0.0, -0.0, 0.0
+;SetWheelPos = 0.0, -0.0, 0.0, 0, 0
+SetWheelPos =  0.20,  -0.20,  0.20, -0.20
 enableback = true
 
 ThrottleUpDown = 9.9

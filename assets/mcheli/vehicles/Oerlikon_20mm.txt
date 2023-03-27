@@ -20,9 +20,9 @@ Category = M.A
 HUD = vehicle
 ;, vehicle
 
-AddSeat = 0.0, 0.0, -1.2
+;AddSeat = 0.0, 0.0, -1.2
 
-;AddGunnerSeat = 0.0, 0.0, -1.2, 0.0, 1.1, 0.0, false, -75, 8, true
+AddGunnerSeat = 0.0, 0.0, -1.2, 0.0, 1.1, 0.0, false, -75, 8, true
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;脚
@@ -31,6 +31,8 @@ AddPart      = true, true, false, 0,   0.0, 0.0, 0.0
 AddChildPart = false,false,true,  0,   0.0, 0.7663, -0.3456
 ;砲身
 AddChildPart = false,false,true,  2,   0.0, 0.7663, -0.3456, 0.1
+
+unmountposition = 0.0, 1.5, -1.2
 
 
 

@@ -1,4 +1,5 @@
 ﻿DisplayName = Quick Firing 5.25in
+AddDisplayName = en_US, Quick Firing 5.25in
 AddDisplayName = ja_JP, QF 5.25インチ砲 マークI
 ItemID = 30067
 MaxHp = 100
@@ -31,4 +32,4 @@ AddWeapon = qf525sap, -1.24, 2.69, 5.17,   0.0, 0.0
 AddWeapon = qf525aa,  1.24, 2.69, 5.17,   0.0, 0.0
 AddWeapon = qf525aa, -1.24, 2.69, 5.17,   0.0, 0.0
 
-BoundingBox =  0.0, 1.5, 0.0,  3.0, 3.0
+BoundingBox =  0.0, 1.5, 0.0,  3.5, 3.5

@@ -31,6 +31,6 @@ AddChildPart = false,false,true,  2,   0.00, 2.24, -0.68, 0.4
 
 AddWeapon = 127mmgun,  0.00, 2.24, -0.68,   0.0, -1.0,   true,1, 0,-360,360, -83, 15
 
-BoundingBox =  0.0, 1.8, 0.0,  4.0, 4.0
+BoundingBox =  0.0, 1.8, 0.0,  3.0, 3.0
 
 AddRecipe = "ZXZ",  "XDR",  "ZXR",  X, iron_block, R, redstone_block, Z, gold_ingot, D, dispenser

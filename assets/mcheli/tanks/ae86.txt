@@ -32,7 +32,7 @@ WeightType = Car
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  1.05,  -0.24,  1.965, -1.789
+SetWheelPos =  0.70,  -0.24,  1.99, -1.70
 
 HUD = bnr32_hud, none
 
@@ -100,13 +100,13 @@ EntityWidth  = 1.0
 EntityHeight = 1.0
 
 ;engine?
-BoundingBox =  0.0, 0.65,  2.05,   2.6, 0.8
+BoundingBox =  0.0, 0.65,  2.05,   1.5, 0.8
 ;mid
-BoundingBox = 0.0, 0.20, 0.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 0.0, 2.4, 0.2
 ;front
-BoundingBox = 0.0, 0.20, 2.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, 2.0, 2.4, 0.2
 ;rear
-BoundingBox = 0.0, 0.20, -2.0, 2.7, 0.2
+BoundingBox = 0.0, 0.20, -2.0, 2.4, 0.2
 Regeneration = true
 ArmorDamageFactor = 2.32
 

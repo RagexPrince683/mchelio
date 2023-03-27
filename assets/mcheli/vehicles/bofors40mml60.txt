@@ -1,8 +1,9 @@
-DisplayName = bofors 40 mm/l60
+DisplayName = Bofors 40mm/l60
+AddDisplayName = en_US, Bofors 40mm/l60
 AddDisplayName = ja_JP, ボフォース 40 mm/l60
 ItemID = 28610
 MaxHp = 100
-HideEntity = true
+HideEntity = false
 MinRotationPitch = -89
 MaxRotationPitch =  5
 DamageFactor = 1.0
@@ -16,7 +17,12 @@ Category = W.A
 
 HUD = vehicle_wwii
 
-AddSeat = 0.00,  0.87, 0.00
+EntityWidth  = 0.85
+EntityHeight = 0.85
+
+;AddSeat = -0.423,  0.736, -0.460
+
+AddGunnerSeat = -0.423,  0.536, -0.460, 0.0, 1.50, 0.0, false, -89, 5, true
 
 AddTexture = bofors40mml60_2
 
@@ -28,4 +34,6 @@ AddWeapon = bofors40mm_l,  0.00, 1.67,  0.00,  0,0
 
 AddRecipe = "  I",  "BIG",  "TTT",  T, iron_block,  I, iron_ingot,  G, dye,2,  B, dye,3
 
-BoundingBox =  0.0, 0.8, 0.0,  2.0, 1.5
+BoundingBox =  0.0, 0.8, 0.0,  0.5, 1.5
+
+unmountposition = -0.423,  1.536, -0.460

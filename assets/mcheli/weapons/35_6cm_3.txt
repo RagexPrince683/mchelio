@@ -1,4 +1,5 @@
-DisplayName = 36cm Gun Airburst
+DisplayName = 36cm Cannon Airburst
+DisableSmoke = True
 Type = Rocket
 Power = 23
 ModelBullet = rocket
@@ -13,6 +14,8 @@ Bomblet = 20
 BombletDiff = 5.0
 MaxAmmo = 8
 SuppliedNum = 2
+
+Gravity = -0.01
 
 Delay = 80
 ReloadTime = 220
@@ -29,6 +32,9 @@ DamageFactor = player, 20.0
 AddDisplayName = en_US, 36cm Gun
 Sound = 150mmAA
 SoundVolume = 15
+
+
+
 
 Item =  3, iron_ingot
 Item =  3, gunpowder

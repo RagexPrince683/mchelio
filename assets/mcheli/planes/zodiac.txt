@@ -1,7 +1,7 @@
-DisplayName =Zodiac Boat
+DisplayName = Zodiac Boat
 AddDisplayName = ja_JP, ゴムボート
 ItemID = 28743
-MaxHp = 100
+MaxHp = 30
 Speed = 0.5
 Float = true
 FloatOffset = -0.5
@@ -13,6 +13,8 @@ Gravity = -0.15
 GravityInWater = -0.1
 DamageFactor = 1.0
 StepHeight = 0.0
+
+unmountposition = 0.0, 1.0, 0.0
 
 CanMoveOnGround = false
 CanRotOnGround  = false

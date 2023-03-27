@@ -1,4 +1,5 @@
-﻿DisplayName = harpoon
+﻿DisplayName = RGM-84 Harpoon Missile Launching Platform
+AddDisplayName = en_US, RGM-84 Harpoon Missile Launching Platform
 AddDisplayName = ja_JP, ハープーン
 ItemID = 28698
 AddTexture = harpoon
@@ -6,7 +7,7 @@ CameraPosition = 0.0, 4.50, 0.0
 CameraZoom = 5
 MinRotationPitch = -50
 MaxRotationPitch = 50
-AddSeat = 0.0,  0.0, 0.0
+AddSeat = 0.0,  1.5, 0.0
 HideEntity = true
 EnableGunnerMode = false
 Gravity = -9.81
@@ -19,4 +20,8 @@ RigidityTime = 20
 
 HUD = vehicle
 
+BoundingBox = 0.0, 1.2, 0.0, 1.8, 1.8
+
 AddRecipe = "RXR", " X ", " X ", X,iron_block , R,redstone_block
+
+unmountposition = 0.0, 1.5, 0.0

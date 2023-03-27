@@ -1,8 +1,9 @@
-﻿DisplayName = 15.0cm AA Canon with pivot
+﻿DisplayName = 15.0cm AA Cannon with quadripod mount
+AddDisplayName = en_US, 15.0cm AA Cannon with quadripod mount
 AddDisplayName = ja_JP, 一七式十五糎高角砲 支脚有リ
 ItemID = 28616
 MaxHp = 100
-HideEntity = true
+HideEntity = false
 MinRotationPitch = -75
 MaxRotationPitch =  5
 DamageFactor = 1.0
@@ -16,7 +17,12 @@ Category = W.A
 
 HUD = vehicle_wwii
 
-AddSeat = 0.00,  1.32, 0.00
+;AddSeat = 0.00,  1.32, 0.00
+
+AddGunnerSeat = -0.968,  1.73, -1.32, 0.0, 2.70, 0.0, false, -75, 5, true
+
+unmountposition = -0.968,  1.73, -1.32
+
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;本体-砲身
@@ -29,4 +35,4 @@ AddWeapon = 15cm_vt,  0.00, 2.70, 5.67,   0.0, 0.0
 AddRecipe = " I ",  "IFI",  " I ",  I, iron_ingot, F, mcheli:150_flak
 
 
-BoundingBox =  0.0, 2.0, 0.0,  3.0, 3.0
+BoundingBox =  0.0, 1.5, 0.0,  2.0, 2.5
