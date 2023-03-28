@@ -1,11 +1,15 @@
 DisplayName = DF-41 Thermonuclear Warhead
-Type = ATMissile
-Power = 41000
+Type = TVMissile
+;Power = 41000
 Acceleration = 3.5
-Explosion = 50
-ExplosionBlock = 50
-ExplosionInWater = 45
-Flaming = true
+Explosion = 1
+;119:469m
+nukeYield = 395
+
+
+;ExplosionBlock = 50
+;ExplosionInWater = 45
+;Flaming = true
 Sight = MissileSight
 ProximityFuseDist = 20
 Sound = missile_1_snd
