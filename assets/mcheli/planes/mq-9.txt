@@ -58,6 +58,8 @@ AddWeapon = targeting_pod_mob,   0.0, 0.9, 0.0,  0.0, 0.0
 AddWeapon = targeting_pod_pv30s, 0.0, 0.9, 0.0,  0.0, 0.0
 AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
 
+;AddWeapon = plastic_bomb, 0,0,0,  0,0
+
 AddRecipe = " II",  "RXI",  " II",  X, iron_block, I, iron_ingot, R, redstone_block
 
 BoundingBox =  0.0, 1.6, -1.0,  1.6, 1.4

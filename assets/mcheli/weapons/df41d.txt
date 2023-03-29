@@ -4,7 +4,8 @@ Type = TVMissile
 Acceleration = 3.5
 Explosion = 1
 ;119:469m
-nukeYield = 395
+;nukeYield = 395 just too big
+nukeYield = 195
 
 
 ;ExplosionBlock = 50

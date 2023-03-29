@@ -1,0 +1,34 @@
+DisplayName = Geran 2
+AddDisplayName = en_US, Geran 2
+AddDisplayName = ja_JP, Geran 2
+MaxHp = 1
+Speed = 0.6
+Sound = radicon_heli
+CameraPosition = 0.0, 0.40, 0.34
+ThrottleUpDown = 5.0
+MaxFuel         = 120
+FuelConsumption = 0.1
+Stealth = 0.2
+SmallUAV = true
+ParticlesScale = 0.2
+HUD = plane
+ThirdPersonDist = 4
+
+AddSeat =  0.0, 0.0, 0.0
+
+; M = Military(軍用機).  Q = Drone(無人航空機)
+Category = M.Q
+
+AddWeapon = geran_bomb, 0,0,0,  0,0
+AddWeapon = plastic_bomb, 0,0,0,  0,0
+
+AddRecipe = " I ",  " I ",  " F ",  I,iron_ingot, F,furnace
+
+AddPartRotor= 1, 0, 0,  0,     0,  0.0, 0.0, 1.0
+;,false
+AddBlade= 1, 0, 0,  0,     0,  0.0, 0.0, 1.0
+;,false
+RotorSpeed = 200.0
+
+;BoundingBox =  0.0, 0.0, 0.0,  1.5, 1.5
+
