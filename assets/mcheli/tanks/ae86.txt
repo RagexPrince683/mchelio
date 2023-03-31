@@ -22,6 +22,9 @@ OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 
 
+;MotionFactor = 1.00
+
+
 ;後退可能にする
 EnableBack = true
 ; C = Civilian(民間機)

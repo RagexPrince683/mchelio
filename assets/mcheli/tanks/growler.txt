@@ -18,8 +18,12 @@ EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 1.0
 
-OnGroundPitchFactor = 15.0
-OnGroundRollFactor  = 5.2
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 0.0
+
+WeightedCenterZ = -0.5
+
+MotionFactor = 0.90
 
 AddTexture = growler_1
 AddTexture = growler_2
@@ -78,6 +82,10 @@ RideRack = mh-53e, 1
 RideRack = mh-53e, 2
 
 AddRack = container, 0.00, 1.20, -1.06,  0.0, 0.0, 0.0, 5.0
+
+;AddPartSteeringWheel =   0.4098,  0.9609,  0.1915,   0, 0, 0,   130
+
+AddPartSteeringWheel =  0.4098,  0.9609,  0.1915,  0, 1.0802,-1,  130
 
 
 
