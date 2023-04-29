@@ -1,6 +1,8 @@
 DisplayName = SPIKE-ER Anti-Tank Missile
-Type = ASMissile
+Type = ATMissile
 Power = 1000
+;radius=8000
+accuracy = 1.0
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0

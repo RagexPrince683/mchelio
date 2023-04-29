@@ -21,6 +21,8 @@ AddGunnerSeat = 1.38, 1.95, -1.51, 1.38, 3.15, 0.98, true, -55, 0, true
 
 ;unmountposition = -1.31,  1.581, 0
 
+;TurretPosition = 0, 0, 3.7127
+
 ;AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;脚
 AddPart      = true, true, false, 2, 0.0, 0.0, 0.0, 2.0

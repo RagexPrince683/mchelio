@@ -1,6 +1,7 @@
 DisplayName = GBU-28
 Type = ASMissile
 Power = 1000
+radius=300
 Acceleration = 1.7
 ;Explosion = 6
 ;ExplosionBlock = 5

@@ -4,7 +4,7 @@ AddDisplayName = en_US, Humvee Different Variant
 ItemID = 30032
 MaxHp = 200
 ThrottleUpDown = 4.0
-Speed = 1.51
+Speed = 1.19
 MobilityYawOnGround = 7.0
 StepHeight = 2.0
 Sound = hmv
@@ -89,7 +89,7 @@ EntityWidth  = 0.85
 EntityHeight = 0.85
 BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
 ;rest
-BoundingBox = 0.0, 0.70, -0.20, 2.4, 2.0
+BoundingBox = 0.0, 0.70, -0.20, 2.8, 2.0
 BoundingBox = 0.0, 0.90, -1.25, 2.0, 1.0, 0.01
 BoundingBox = 0.0, 0.90, -1.33, 1.9, 1.0, 1.0
 
