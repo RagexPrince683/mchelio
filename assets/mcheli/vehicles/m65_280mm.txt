@@ -3,12 +3,12 @@ AddDisplayName = ja_JP, M65 280mm カノン砲
 AddDisplayName = en_US, M65 280mm Atomic 'Annie'
 ItemID = 28601
 MaxHp = 100
-HideEntity = true
+HideEntity = false
 MinRotationPitch = -55
 MaxRotationPitch =  0
 CameraZoom = 4
-CameraRotationSpeed = 5
-CameraPosition = 1.38, 3.15, 0.98
+CameraRotationSpeed = 1
+CameraPosition = -1.38, 3.15, 0.98
 
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
@@ -17,19 +17,21 @@ HUD = mbt_hud
 
 ;AddGunnerSeat = 1.38, 1.95, -1.51, 1.38, 3.15, 0.98, true,  0, 0
 
-AddGunnerSeat = 1.38, 1.95, -1.51, 1.38, 3.15, 0.98, true, -55, 0, true
+AddGunnerSeat = -2.42, 0.85, -2.80, 1.38, 3.15, 0.98, true, -55, 0, true
+
+;-2.62, 1.85, -2.80
 
 ;unmountposition = -1.31,  1.581, 0
 
-;TurretPosition = 0, 0, 3.7127
+TurretPosition = 0, 0, 0
 
 ;AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;脚
 AddPart      = true, true, false, 2, 0.0, 0.0, 0.0, 2.0
 ;本体
-AddChildPart = true, false, true,  0, 0.0, 2.654, 0.9794
+AddChildPart = true, false, true,  0, 0.0, 2.68, -2.03
 ;砲身
-AddChildPart = true, false, true,  2, 0.0, 2.654, 0.9794, 0.4
+AddChildPart = true, false, true,  2, 0.0, 2.68, -2.03, 0.4
 
 AddTurretWeapon = w9, 0.0, 2.654, 0.9794,  0.0, 0.0,  true,1, 0,-360,360, -55, 0
 
@@ -42,4 +44,4 @@ AddRecipe = "ZXZ",  "XDR",  "ZXR",  X, iron_block, R, redstone_block, Z, iron_in
 BoundingBox =  0.0, 0.9,  0.0,  4.0, 1.8
 ;BoundingBox =  0.0, 0.9, -4.0,  4.0, 1.8
 
-unmountposition = 1.38, 1.95, -1.51
+unmountposition = -2.42, 0.85, -2.80

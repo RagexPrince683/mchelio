@@ -19,7 +19,7 @@ Gravity = -0.15
 RecoilBufCount = 70, 3
 DisplayMortarDistance = true
 FixCameraPitch = true
-CameraRotationSpeedPitch = 0.1
+CameraRotationSpeedPitch = 0.5
 FixCameraPitch = true
 TrajectoryParticle = crit
 
