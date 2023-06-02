@@ -10,9 +10,9 @@ Sight = MoveSight
 Delay = 84
 ModeNum = 1
 Piercing  = 0
-SoundPitch = 0.7
+SoundPitch = 1.6
 SoundVolume = 20
-Sound = cannon_1_snd
+Sound = centauro
 Recoil = 2
 
 Delay = 90
