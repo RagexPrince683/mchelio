@@ -16,8 +16,8 @@ Gravity = -0.61
 GravityInWater = -1.0
 CameraRotationSpeed = 35
 GravityInWater = -1.0
-MinRotationPitch = -15
-MaxRotationPitch = 6
+MinRotationPitch = -60
+MaxRotationPitch = 10
 MobilityRoll = 0
 InventorySize = 25
 StepHeight = 1.5
@@ -80,9 +80,9 @@ TrackRollerRot = 30
 
 AddPartWeapon    = b32 / mdz,   false, true, false,  0.00, 2.68, 0.00
 AddPartWeaponChild = false, true, 0.00, 2.48, 0.40
-AddWeapon = b32,   0.00, 2.48, 0.40,   0.0, 0.0, false, 1, 0, -360,360, -60,10
-AddWeapon = mdz,   0.00, 2.48, 0.40,   0.0, 0.0, false, 1, 0, -360,360, -60,10
-AddWeapon = pkt,  -0.11, 2.48, 0.77,   0.0, 0.0, false, 1, 0, -360,360, -60,10
+AddTurretWeapon = b32,   0.00, 2.48, 0.40,   0.0, 0.0, false, 1, 0, -360,360, -60,10
+AddTurretWeapon = mdz,   0.00, 2.48, 0.40,   0.0, 0.0, false, 1, 0, -360,360, -60,10
+AddTurretWeapon = pkt,  -0.11, 2.48, 0.77,   0.0, 0.0, false, 1, 0, -360,360, -60,10
 
 AddPartHatch =  -1.30,  1.90,  -1.61, 0,1, 0, 60
 AddPartHatch =   1.30,  1.90,  -1.61, 0,1, 0, -60

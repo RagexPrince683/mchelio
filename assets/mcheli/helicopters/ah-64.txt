@@ -6,6 +6,7 @@ EnableGunnerMode = true
 EnableFoldBlade = true
 EnableNightVision = true
 EnableEntityRadar = true
+sound = apache
 Speed = 0.7
 FlareType = 3
 ; FlareOption = 位置X, 位置Y, 位置Z

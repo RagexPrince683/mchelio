@@ -1,6 +1,6 @@
 ﻿DisplayName = DF-41D
 AddDisplayName = ja_JP, DF-41D
-AddDisplayName = en_US, DF-41D
+AddDisplayName = en_US, HTF5980 Strategic DF-41 ICBM TEL
 MaxHp = 200
 Speed = 0.4
 Sound = vehicle_run
