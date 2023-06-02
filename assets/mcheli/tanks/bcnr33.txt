@@ -8,7 +8,7 @@ Speed = 1.74
 ;186mph
 MobilityYawOnGround = 8.3
 StepHeight = 1.2
-Sound = rbtwentyfive
+Sound = rthirtythree
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
