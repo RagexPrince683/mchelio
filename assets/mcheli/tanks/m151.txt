@@ -37,7 +37,7 @@ SetWheelPos =  0.48,  -0.24,  1.65, -1.00
 
 HUD = bnr32_hud, none,
 
-AddSeat =  0.45, 0.74,  0.38
+AddSeat =  0.45, 0.54,  0.38
 AddSeat = -0.45, 0.74,  0.38
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0

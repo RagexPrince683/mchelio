@@ -4,7 +4,8 @@ AddDisplayName = ja_JP, 82式指揮通信車
 ItemID = 30102
 MaxHp = 200
 Speed = 1.5
-Sound = vehicle_run
+Sound = dieselman
+SoundPitch = 0.3
 ThrottleUpDown = 5
 MobilityYawOnGround = 5.5
 MaxFuel         = 1000
@@ -77,9 +78,9 @@ PivotTurnThrottle = 0.2
 TrackRollerRot = 30
 
 
-AddPartWeapon    = m2_1,   false, true, true,  -0.59, 2.97, -1.99
-AddPartWeapon    = m2_1,   false, true, false, -0.59, 2.97, -1.99
-AddTurretWeapon = m2_1,    -0.59, 3.00, -1.99,   0.0, 0.0, false, 3, 0, -90,90, -50,10
+AddPartWeapon    = m2_1,   false, true, true,  -0.5957, 2.6538, -2.0184
+AddPartWeapon    = m2_1,   false, true, false, -0.5957, 2.6538, -2.0184
+AddTurretWeapon = m2_1,    -.5949, 3.0028, -.7233,   0.0, 0.0, true, 3, 0, -90,90, -50,10
 
 AddPartSteeringWheel =  -.355, 1.61,1.90,  -0, 1.0,-1,  130
 

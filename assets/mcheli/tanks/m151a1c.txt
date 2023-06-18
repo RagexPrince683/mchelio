@@ -1,5 +1,5 @@
 ﻿DisplayName = M151A1C 106mm RCL Rifle 
-AddDisplayName = en_US, M151A1C 106mm RCL Rifle 
+AddDisplayName = en_US, M151A1C Kennedy Jeep with 106mm RCL Rifle 
 AddDisplayName = ja_JP, M151A1C 106mm 無反動砲搭載型
 ItemID = 28766
 MaxHp = 100
@@ -36,7 +36,7 @@ SetWheelPos =  0.48,  -0.24,  1.65, -1.00
 
 HUD = bnr32_hud, none, gunner
 
-AddSeat =  0.45, 0.74,  0.38
+AddSeat =  0.45, 0.54,  0.38
 AddSeat = -0.45, 0.74,  0.38
 AddSeat =  0.58, 0.96, -1.25
 

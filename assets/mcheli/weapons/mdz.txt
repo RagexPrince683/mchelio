@@ -10,9 +10,13 @@ ReloadTime = 120
 Round = 500
 SoundVolume = 3
 SoundPitch = 1.0
-Sound = gun_h1_snd
+Sound = btreightymain
 Accuracy = 1.5
 ModeNum = 1
+Gravity = -0.001
+
+HeatCount = 5
+MaxHeatCount = 250
 
 
 Acceleration = 7.5

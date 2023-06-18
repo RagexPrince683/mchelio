@@ -86,11 +86,11 @@ AddPartWeaponBay	= targeting_pod_pv10s,  -0.7210, 2.6453, 3.6112, 0.0, -0.7, -1.
 AddPartWeaponBay	= targeting_pod_pv10s,  -1.1792, 2.6453, 3.6112, 0.0, -0.7, -1.00,   90
 
 
-AddWeapon = 1273,    0.00, 3.1827, -0.0003, 0.0, 0.0, false,  3,   0, -360,360, -70.0, 20.0
+AddWeapon = type89,    0.00, 3.1827, -0.0003, 0.0, 0.0, false,  3,   0, -360,360, -70.0, 20.0
 
-AddPartWeapon = 1273, false, true, false,0.00, 3.1827, 0.00
+AddPartWeapon = type89, false, true, false,0.00, 3.1827, 0.00
 AddPartWeaponChild = false, true, 0.00, 3.1827, 0.00
-AddPartRotWeapon = 1273,   false, true, true,  0.00, 3.1827, 0.00, 0,0,1
+;AddPartRotWeapon = 1273,   false, true, true,  0.00, 3.1827, 0.00, 0,0,1
 
 
 

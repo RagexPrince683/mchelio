@@ -3,7 +3,7 @@ AddDisplayName = en_US, M1129 Self-Propelled Mortar
 AddDisplayName = ja_JP, M1129 自走迫撃砲
 MaxHp = 200
 Speed = 0.8
-Sound = vehicle_run
+Sound = stryker
 ThrottleUpDown = 5
 MobilityYawOnGround = 6.5
 MaxFuel         = 1000
@@ -51,7 +51,7 @@ AddPartWheel =   -1.53,  0.39,-2.42
 AddPartWheel =   -1.53,  0.39,-2.42
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 9
+ArmorMinDamage = 31
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%

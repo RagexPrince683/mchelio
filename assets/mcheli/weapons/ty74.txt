@@ -7,7 +7,7 @@ Sight = MoveSight
 Delay = 1
 SoundVolume = 0.6
 SoundPitch = 1.0
-Sound = gun_h1_snd
+Sound = typesevenfourmachinegun
 Accuracy = 0.4
 
 MaxAmmo = 1000

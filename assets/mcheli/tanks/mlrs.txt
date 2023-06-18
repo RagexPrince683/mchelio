@@ -1,7 +1,7 @@
 DisplayName = M270 MLRS
 AddDisplayName = en_US, M270 MLRS
 AddDisplayName = ru_RU, M270 МЛРС
-MaxHp = 200
+MaxHp = 250
 ThrottleUpDown = 10.0
 Speed = 0.65
 MobilityYawOnGround = 3.2
@@ -33,9 +33,9 @@ SetWheelPos =  1.2,  -0.24,  2.8535, -1.4583, -3.2653
 
 HUD = mbt_hud, mbt_hud
 
-AddSeat =  0.0, 1.2009, 2.6841
+AddSeat =  -1.0, 1.2009, 2.6841
 
-AddGunnerSeat =  0.0, 1.2009, 2.6841,  0, 5.5, -5, false, -90,45, false
+AddGunnerSeat =  1.0, 1.01, 2.97,  0, 5.5, -0, true, -90,45, false
 
 ;;PivotTurnThrottle = 0.1
 
@@ -61,7 +61,9 @@ AddTrackRoller = 1.5, 0.1281,-1.7099
 AddTrackRoller = 1.5, 0.1281,-2.5599
 AddTrackRoller = 1.5, 0.4728,-3.3221
 
-AddWeapon			= mfom227mm,    0,  2.5, -2.8,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
+TurretPosition = 1.7500, 1.0628, -0.7071
+
+AddTurretWeapon			= mfom227mm,    0,  2.5, -1.38,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
 AddPartWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.3196
 AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
 

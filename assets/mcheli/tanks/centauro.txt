@@ -69,13 +69,18 @@ PivotTurnThrottle = 0.2
 TrackRollerRot = 30
 
 AddWeapon        = 105mmb1,  0.00, 2.39, 0.00, 0.0, 0.0, true,  1 , 0, -360, 360, -16,6
+AddWeapon        = 105mmb1heat,  0.00, 2.39, 0.00, 0.0, 0.0, true,  1 , 0, -360, 360, -16,6
 AddPartWeapon    = 105mmb1,  false, true, false,  0.00, 2.01, 0.00
+AddTurretWeapon     = centmg3,  0.422, 2.33, 1.79, 0.0, 0.0, true,   1 , 0, -360, 360, -16,6
 AddPartWeaponChild= false, true, 0.00, 2.36, 1.32
 AddPartWeaponChild= false, true, 0.00, 2.36, 1.32,  0.5
 
 AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 2
 AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,2
 AddTurretWeapon = targeting_pod_block,   0.60, 3.40, 0.60,   0.0, 0.0,  true, 2
+
+
+
 
 AddTurretWeapon     = mg3_l,  1.1824, 3.3164, -0.1427, 0.0, 0.0, true,   3 , 0, -360, 360, -35,35
 AddPartTurretWeapon = mg3_l, false, true, true,  1.1824, 3.1640, -0.1427

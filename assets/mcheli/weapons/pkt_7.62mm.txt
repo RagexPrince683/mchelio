@@ -10,7 +10,7 @@ Accuracy = 2.0
 Round = 200
 ReloadTime = 150
 SoundPitch = 1.0
-Sound = gun_l1_snd
+Sound = pkt
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5

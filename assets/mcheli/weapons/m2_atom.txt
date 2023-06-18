@@ -14,6 +14,7 @@ SoundDelay = 2
 Accuracy = 0.5
 HeatCount = 4
 MaxHeatCount = 225
+Gravity = -0.001
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5

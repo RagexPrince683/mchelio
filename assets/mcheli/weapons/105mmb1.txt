@@ -1,6 +1,6 @@
-DisplayName = 105mm [APDS]
+DisplayName = 105mm [APFSDS - M735]
 Type = MachineGun2
-Power = 303
+Power = 353
 ModelBullet = bullet105mm
 Acceleration = 4.8
 Explosion = 3
@@ -29,6 +29,22 @@ DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 AddDisplayName = en_US, 105mm [APDS]
 SoundVolume = 15
+
+
+
+Group = MainGun
+Acceleration = 7.0
+ModelBullet = bullet105mm
+Piercing = 5
+Accuracy = 0.0
+DamageFactor = tank, 10.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
+;AddDisplayName = en_US,
+SoundVolume = 15
+
 
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44

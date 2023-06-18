@@ -2,7 +2,7 @@
 AddDisplayName = en_US, BTR-90 With M-13 Launcher
 MaxHp = 250
 Speed = 0.8
-Sound = vehicle_run
+Sound = bmpone
 ThrottleUpDown = 5
 MobilityYawOnGround = 5.5
 MaxFuel         = 1000
@@ -43,25 +43,33 @@ OnGroundRollFactor  = 0.8
 
 HUD = mbt_hud, mbt_hud
 
-CameraPosition = 0.00, 3.68,  1.46, true
+CameraPosition = 0.00, 3.28,  0.00, false
 
-AddGunnerSeat =  0.00, 1.68,  3.00, 0.00, 2.56, 1.4644, false, -15, 6, false
+AddGunnerSeat =  0.00, 1.68,  0.00, 0.00, 2.56, 1.4644, false, -15, 6, false
 ;AddSeat = -0.31, 0.75, -1.62 
+AddSeat = -0.31, 0.75, -1.62 
+AddSeat =  0.31, 0.75, -1.62 
+AddSeat = -0.31, 0.75, -1.98
+AddSeat =  0.31, 0.75, -1.98
+AddSeat = -0.31, 0.75, -2.32
+AddSeat =  0.31, 0.75, -2.32
+AddSeat = -0.31, 0.75, -2.64
+AddSeat =  0.31, 0.75, -2.64
 
-SetWheelPos =  1.70,  -0.24,  3.27, 1.35, -1.38, -3.28
+SetWheelPos =  1.30,  -0.24,  1.04, -1.02, -3.42, -5.36
 
-AddPartWheel =    1.736,  0.417, 3.277, 30
-AddPartWheel =    -1.736,  0.417, 3.277, 30
-AddPartWheel =    1.736,  0.417, 1.35, 15
-AddPartWheel =    -1.736,  0.417, 1.35, 15
+AddPartWheel =    1.30,  0.43, 1.05, 20
+AddPartWheel =    1.30,  0.43,-1.05, 10
+AddPartWheel =    0.00,  0.43,-3.46
+AddPartWheel =    0.00,  0.43,-5.41
 
-AddPartWheel =   1.736,  0.417, -1.38
-AddPartWheel =   -1.736, 0.417,-1.38
-AddPartWheel =   1.736,  0.417, -3.28
-AddPartWheel =   -1.736,  0.417, -3.28
+AddPartWheel =   -1.30,  0.43, 1.05, 20
+AddPartWheel =   -1.30,  0.43,-1.05, 10
+AddPartWheel =   -0.00,  0.43,-3.46
+AddPartWheel =   -0.00,  0.43,-5.41
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 5
+ArmorMinDamage = 15
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
@@ -73,22 +81,59 @@ PivotTurnThrottle = 0.2
 
 TrackRollerRot = 30
 
-AddPartWeapon    = b32, false, true, false,  0.00, 2.56, 1.4644 
-AddPartWeaponChild = false, true, 0.00, 2.986, 2.38
+;;AddWeapon = agm114,  1.72,  0.96, -1.64,  1, 0,  true,2
+
+AddPartWeapon    = b32, false, true, false,  0.00, 2.68, 0.00
+AddPartWeaponChild = false, true, 0.00, 2.48, 0.40
 AddPartWeapon = bm13btr, false, true, false,  0.00, 2.71, -4.81, 30
 AddPartWeaponChild = false, true, 0.00, 2.71, -4.81
-AddWeapon = b32,   0.00, 2.98, 1.4644,   0.0, 0.0, false, 1, 0, -360,360, -60,10
-AddWeapon = mdz,   0.00, 2.98, 1.4644,   0.0, 0.0, false, 1, 0, -360,360, -60,10
-AddWeapon = pkt,  0.00, 2.98, 1.4644,   0.0, 0.0, false, 1, 0, -360,360, -60,10
-AddWeapon = 9M120_HEAT,  0.00, 2.98, 1.4644,   0.0, 0.0, false, 1, 0, -360,360, -60,10
-AddWeapon = bm13btr,  1.53, 3.87, -6.23,  0.0, 0.0, false,1, 0,0,0, -19, 2
-AddWeapon = bm13btr,  1.08, 3.87, -6.23,  0.0, 0.0, false,1, 0,0,0, -19, 2
-AddWeapon = bm13btr,  0.64, 3.87, -6.23,  0.0, 0.0, false,1, 0,0,0, -19, 2
-AddWeapon = bm13btr,  0.18, 3.87, -6.23,  0.0, 0.0, false,1, 0,0,0, -19, 2
-AddWeapon = bm13btr,  -0.18, 3.87, -6.23,  0.0, 0.0, false,1, 0,0,0, -19, 2
-AddWeapon = bm13btr,  -0.64, 3.87, -6.23,  0.0, 0.0, false,1, 0,0,0, -19, 2
-AddWeapon = bm13btr,  -1.08, 3.87, -6.23,  0.0, 0.0, false,1, 0,0,0, -19, 2
-AddWeapon = bm13btr,  -1.53, 3.87, -6.23,  0.0, 0.0, false,1, 0,0,0, -19, 2
+AddTurretWeapon = b32,   0.00, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -60,10
+AddTurretWeapon = mdz,   0.00, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -60,10
+AddTurretWeapon = pkt,  0.2064, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -60,10
+AddTurretWeapon = 9M120_HEAT,  1.5436, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -60,10
+AddTurretWeapon = 9M120_HEAT,  1.3206, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -60,10
+AddTurretWeapon = 9M120_HEAT,  -1.5436, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -60,10
+AddTurretWeapon = 9M120_HEAT,  -1.3206, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -60,10
+AddWeapon = none, 0.0, 0.0, 0.0
+AddPartWeapon = none, false, false, false, 0.0, 3.1726, -7.8120, 1.0, 0.0, true,1, 0,0,0, -0, 0
+AddWeapon = bm13btr,  1.2306, 3.4696, -6.6524,  1.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  0.8611, 3.4696, -6.6524,  1.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  0.5098, 3.4696, -6.6524,  1.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  0.1403, 3.4696, -6.6524,  1.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  -0.2182, 3.4696, -6.6524,  1.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  -0.5727, 3.4696, -6.6524,  1.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  -0.9232, 3.4696, -6.6524,  1.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  -1.2459, 3.4696, -6.6524,  1.0, 0.0, true,1, 0,0,0, -19, 2
+
+
+
+AddPartWeaponMissile = bm13btr,   false,  false,  false,     1.2306, 3.4696, -6.6524
+AddPartWeaponMissile = bm13btr,   false,  false,  false,    0.8611, 3.4696, -6.6524
+AddPartWeaponMissile = bm13btr,   false,  false,  false,     0.5098, 3.4696, -6.6524
+AddPartWeaponMissile = bm13btr,   false,  false,  false,    0.1403, 3.4696, -6.6524
+AddPartWeaponMissile = bm13btr, false,  false,  false,     -0.2182, 3.4696, -6.6524
+AddPartWeaponMissile = bm13btr, false,  false,  false,    -0.2182, 3.4696, -6.6524
+AddPartWeaponMissile = bm13btr, false,  false,  false,     -0.5727, 3.4696, -6.6524
+AddPartWeaponMissile = bm13btr, false,  false,  false,    -0.9232, 3.4696, -6.6524
+AddPartWeaponMissile = bm13btr, false,  false,  false,    -1.2459, 3.4696, -6.6524
+
+AddWeapon = bm13btr,  1.2306, 3.0127, -6.6012,  0.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  0.8611, 3.0127, -6.6012,  0.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  0.5098, 3.0127, -6.6012,  0.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  0.1403, 3.0127, -6.6012,  0.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  -0.2182, 3.0127, -6.6012,  0.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  -0.5727, 3.0127, -6.6012,  0.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  -0.9232, 3.0127, -6.6012,  0.0, 0.0, true,1, 0,0,0, -19, 2
+AddWeapon = bm13btr,  -1.2459, 3.0127, -6.6012,  0.0, 0.0, true,1, 0,0,0, -19, 2
+
+AddPartWeaponMissile = bm13btr, false, false, false, 1.2306, 3.0127, -6.6012
+AddPartWeaponMissile = bm13btr, false, false, false, 0.8611, 3.0127, -6.6012
+AddPartWeaponMissile = bm13btr, false, false, false, 0.5098, 3.0127, -6.6012
+AddPartWeaponMissile = bm13btr, false, false, false, 0.1403, 3.0127, -6.6012
+AddPartWeaponMissile = bm13btr, false, false, false, -0.2182, 3.0127, -6.6012
+AddPartWeaponMissile = bm13btr, false, false, false, -0.5727, 3.0127, -6.6012
+AddPartWeaponMissile = bm13btr, false, false, false, -0.9232, 3.0127, -6.6012
+AddPartWeaponMissile = bm13btr, false, false, false, -1.2459, 3.0127, -6.6012
 
 AddPartHatch =  -1.30,  1.90,  -1.61, 0,1, 0, 60
 AddPartHatch =   1.30,  1.90,  -1.61, 0,1, 0, -60
@@ -106,22 +151,20 @@ RideRack = c5, 2
 AddRecipe = "III",  " I ",  "III",   I, iron_ingot
 
 
-BoundingBox = 0.00, 2.8,  1.46, 1.5, 0.6
-
-BoundingBox = 0.0, 4.0, -6.0, 1.5, 1.5, 2.5
-
-BoundingBox = 0.0, 1.4, -3.4, 2.8, 2.3
-
-BoundingBox = 0.0, 1.4, -2.8, 2.8, 2.3
-
-BoundingBox = 0.0, 1.4, 0.0, 2.8, 2.3
-BoundingBox = 0.0, 1.4, 2.8, 2.8, 2.3
-;time to do a staircase
-BoundingBox = 0.0, 1.5, 3.1, 2.7, 2.0
-BoundingBox = 0.0, 1.6, 3.4, 2.5, 1.7
-BoundingBox = 0.0, 1.7, 3.8, 2.3, 1.4
-BoundingBox = 0.0, 1.7, 4.2, 2.1, 1.1
-BoundingBox = 0.0, 1.8, 4.6, 1.9, 0.8
 
 
-unmountposition = 0.00, 1.68,  3.00
+BoundingBox = 0.0, 3.0, -6.5, 1.5, 1.5, 2.5
+
+BoundingBox = 0.0, 2.15, 0.0, 1.0, 1.0, 1.0
+
+BoundingBox = 0.0, 1.2, 0.0, 3.0, 2.0, 1.0
+BoundingBox = 0.0, 1.2, 1.0, 2.7, 1.8, 1.0
+BoundingBox = 0.0, 1.2, 1.5, 2.5, 1.6, 1.0
+BoundingBox = 0.0, 1.2, 2.4, 2.3, 0.4, 1.0
+
+
+BoundingBox = 0.0, 1.2, -2.5, 3.0, 2.0, 1.0
+BoundingBox = 0.0, 1.2, -5.4, 3.0, 2.0, 1.0
+
+
+UnmountPosition = 0.00, 1.68,  0.00

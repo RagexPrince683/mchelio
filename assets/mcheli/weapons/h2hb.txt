@@ -35,3 +35,4 @@ DamageFactor = heli, 0.5
 
 ;AddDisplayName = en_US,
 SoundVolume = 15
+Sound = m2_snd

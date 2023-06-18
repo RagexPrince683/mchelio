@@ -5,14 +5,18 @@ Acceleration = 5.0
 Explosion = 2
 Flaming = false
 Sight = MoveSight
-Delay = 1
+Delay = 0
 ReloadTime = 120
-Round = 50
+Round = 200
 SoundVolume = 3
 SoundPitch = 1.0
-Sound = gun_h1_snd
+Sound = gepardmain
 Accuracy = 1.5
 ModeNum = 1
+Gravity = -0.001
+
+AddMuzzleFlashSmoke =  4.2, 10,  2.0,  1.0, 45,  220,160,140,120
+;AddMuzzleFlashSmoke = 4.2, 10,  2.0,  1.0, 35,  200,190,170,150
 
 Acceleration = 7.5
 Piercing = 0
