@@ -5,7 +5,7 @@ Acceleration = 5.0
 Explosion = 2
 Flaming = false
 Sight = MoveSight
-Delay = 4
+Delay = 3
 ReloadTime = 120
 Round = 100
 SoundVolume = 3
@@ -14,6 +14,14 @@ Sound = rcvtwentyfive
 Accuracy = 1.5
 ModeNum = 1
 Recoil = 0.5
+HeatCount = 6
+MaxHeatCount = 150
+
+AddMuzzleFlashSmoke =  3.6,  1,   5.0,  0.8, 55,  180,250,245,240
+AddMuzzleFlashSmoke =  4.6,  1,   3.0,  0.5, 75,  180,220,217,214
+AddMuzzleFlashSmoke =  5.6,  2,   2.0,  0.5, 85,  180,220,217,214
+AddMuzzleFlashSmoke =  6.6,  3,   1.0,  0.5, 95,  180,220,217,214
+;give more time
 
 Acceleration = 7.5
 Piercing = 0

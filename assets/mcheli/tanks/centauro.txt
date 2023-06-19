@@ -40,8 +40,8 @@ HUD = mbt_hud, mbt_gnr, gunner, gunner
 
 AddGunnerSeat =  0.00, 1.00,  0.00
 AddGunnerSeat =  0.00, 1.01,  0.00,   0.60, 3.40,  0.60, false, -90, 90, true
-AddGunnerSeat =  0.78, 2.33, -0.16,   0.78, 3.63, -0.16, true, -90, 90, true
-AddGunnerSeat = -0.80, 2.41, -0.97,  -0.80, 3.71, -0.97, true, -90, 90, true
+AddGunnerSeat =  0.78, 2.33, -0.16,   0.78, 3.63, -0.16, false, -90, 90, true
+AddGunnerSeat = -0.80, 2.41, -0.97,  -0.80, 3.71, -0.97, false, -90, 90, true
 
 SetWheelPos =  1.25,  -0.24,  3.75, 1.71, -0.15, -2.01
 

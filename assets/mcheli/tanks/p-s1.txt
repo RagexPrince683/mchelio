@@ -116,13 +116,13 @@ TrackRollerRot = 30
 ;AddPartWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.3196
 ;AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
 
-AddWeapon			= 2a38_ap,   0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
-AddWeapon			= 2a38_ap,   -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
-AddWeapon			= 2a38_hei,   0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
-AddWeapon			= 2a38_hei,   -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+AddTurretWeapon			= 2a38_ap,   0.7338, 3.3009, 0,  0.0, 0.0,   false,2, 0,-360,360, -85, 5
+AddTurretWeapon			= 2a38_ap,   -0.7338, 3.3009, 0,  0.0, 0.0,  false,2, 0,-360,360, -85, 5
+AddTurretWeapon			= 2a38_hei,   0.7338, 3.3009, 0,  0.0, 0.0,  false,2, 0,-360,360, -85, 5
+AddTurretWeapon			= 2a38_hei,   -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
 
-AddWeapon			= 57e6,   1.16, 3.13, -2.8,  0.0, 0.0, false,2, 0,-360,360, -85, 5
-AddWeapon			= 57e6,  -1.16, 3.13, -2.8,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+AddTurretWeapon			= 57e6,   1.16, 3.13, -2.8,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+AddTurretWeapon			= 57e6,  -1.16, 3.13, -2.8,  0.0, 0.0, false,2, 0,-360,360, -85, 5
 
 AddWeapon			= UHF_radar, 0.0, 4.6, -1.558, 0.0, 0.0, false, 2, 0, -360, 360, -90,  90
 

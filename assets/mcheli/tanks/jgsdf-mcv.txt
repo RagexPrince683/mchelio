@@ -5,7 +5,7 @@ ItemID = 30070
 MaxHp = 200
 Speed = 0.6
 Sound = mcv
-ThrottleUpDown = 1.8
+ThrottleUpDown = 2.8
 MaxFuel         = 1000
 FuelConsumption = 0.8
 AddTexture = jgsdf-mcv-1
@@ -21,8 +21,8 @@ EnableEntityRadar = false
 Gravity = -0.61
 GravityInWater = -1.0
 MobilityYawOnGround = 6.0
-MinRotationPitch = -15
-MaxRotationPitch = 6
+MinRotationPitch = -60
+MaxRotationPitch = 8
 MobilityRoll = 0
 InventorySize = 9
 StepHeight = 1.2
@@ -58,7 +58,7 @@ AddPartTurretWeapon = h2hb, false, true, true,  -0.511,2.65, 0.130
 AddTurretWeapon = 105mm_apfsdsmcv,   0.00,1.73, 0.1147, 0.0, 0.0, true,  1 , 0, -360, 360, -15,6
 AddTurretWeapon = 105mm_heatmcv,   0.00,1.73, 0.1147, 0.0, 0.0, true,  1 , 0, -360, 360, -15,6
 AddTurretWeapon     = m240_r,  0.2621,1.73, 0.1147, 0.0, 0.0, true,   1 , 0, -360, 360, -15,6
-AddTurretWeapon = h2hb,   -0.5304, 2.7845, 0.9357,   0.0, 0.0, true,  1, 0, -360, 360, -15,6
+AddTurretWeapon = h2hb,   -0.5304, 2.7845, 0.9357,   0.0, 0.0, true,  1, 0, -360, 360, -60,8
 
 
 

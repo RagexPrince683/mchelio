@@ -13,8 +13,8 @@ EnableEntityRadar = false
 Gravity = -1.0
 CameraRotationSpeed = 35
 GravityInWater = -1.0
-MinRotationPitch = -15
-MaxRotationPitch = 6
+MinRotationPitch = -75
+MaxRotationPitch = 5
 MobilityRoll = 0
 HideEntity = true
 InventorySize = 25
@@ -80,15 +80,15 @@ PivotTurnThrottle = 0.2
 
 TrackRollerRot = 30
 
-AddPartWeapon    = b32, false, true, false,  0.00, 2.68, 0.00
+AddPartWeapon    = b32, false, true, false,  -0.00, 2.68, -0.00
 AddPartWeaponChild = false, true, 0.00, 2.986, 2.38
-AddTurretWeapon = b32,   0.00, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -60,10
-AddTurretWeapon = mdz,   0.00, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -60,10
-AddTurretWeapon = pkt,  0.2064, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -60,10
-AddTurretWeapon = 9M120_HEAT,  1.5436, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -60,10
-AddTurretWeapon = 9M120_HEAT,  1.3206, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -60,10
-AddTurretWeapon = 9M120_HEAT,  -1.5436, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -60,10
-AddTurretWeapon = 9M120_HEAT,  -1.3206, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -60,10
+AddTurretWeapon = b32,   0.00, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -75,5
+AddTurretWeapon = mdz,   0.00, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -75,5
+AddTurretWeapon = pkt,  0.2064, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -75,5
+AddTurretWeapon = 9M120_HEAT,  1.5436, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -75,5
+AddTurretWeapon = 9M120_HEAT,  1.3206, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -75,5
+AddTurretWeapon = 9M120_HEAT,  -1.5436, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -75,5
+AddTurretWeapon = 9M120_HEAT,  -1.3206, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -75,5
 
 
 DamageFactor = 0.1
