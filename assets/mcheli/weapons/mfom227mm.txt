@@ -9,7 +9,7 @@ Explosion = 10
 ExplosionBlock = 7
 Acceleration = 4.0
 SoundVolume = 8.0
-Sound = missile_4_snd
+Sound = mlrs
 Accuracy = 2.0
 ModelBullet = bullet105mm
 Flaming = false
@@ -35,7 +35,7 @@ SoundVolume = 15
 
 
 DisplayMortarDistance = true
-FixCameraPitch = true
+FixCameraPitch = false
 CameraRotationSpeedPitch = 0.8
 
 AddMuzzleFlash      =           5.1,   1.05,        2,  220,254,219,104

@@ -1,5 +1,5 @@
 ﻿DisplayName = phantom
-AddDisplayName = en_US, Rolls-Royce Phantom Unarmored
+AddDisplayName = en_US, Rolls-Royce Phantom
 AddDisplayName = ja_JP, ロールスロイス ファントム
 ItemID = 30111
 MaxHp = 150
@@ -100,3 +100,5 @@ Regeneration = true
 ArmorDamageFactor = 2.32
 
 UnmountPosition = -0.66, 1.00, -0.08
+
+ArmorMinDamage = 2

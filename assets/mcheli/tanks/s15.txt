@@ -103,3 +103,5 @@ Regeneration = true
 ArmorDamageFactor = 2.32
 
 unmountposition = -0.57,  1.50, -0.10 
+
+ArmorMinDamage = 2

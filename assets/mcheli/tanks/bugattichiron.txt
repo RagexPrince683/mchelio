@@ -157,3 +157,5 @@ OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 
 InventorySize = 9
+
+ArmorMinDamage = 2

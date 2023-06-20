@@ -10,7 +10,8 @@ ReloadTime = 80
 Round = 12
 LockTime = 10
 ProximityFuseDist = 1
-Sound = missile_1_snd
+Sound = pantsirmis
+SoundVolume = 15
 
 
 

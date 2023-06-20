@@ -94,3 +94,5 @@ AddFixedSearchLight = 1.3696, 0.9848, -3.2351,   0xFFFF0000,   0x10FF0000,    0.
 
 StepHeight = 1.2
 UnmountPosition = 0.5838,  1.50, 0.2252
+
+ArmorMinDamage = 2

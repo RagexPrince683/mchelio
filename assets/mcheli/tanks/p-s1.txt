@@ -1,9 +1,9 @@
 DisplayName = SA-22 Greyhound Air Defense System
-AddDisplayName = en_US, SA-22 Greyhound Air Defense System
+AddDisplayName = en_US, KAMAZ-6560 with Pantsir SA-22 Greyhound Air Defense System
 AddDisplayName = ja_JP, P-S1 自走式近距離防空システム
-MaxHp = 100
+MaxHp = 150
 Speed = 0.8
-Sound = vehicle_run
+Sound = kamaz
 ThrottleUpDown = 5
 MobilityYawOnGround = 4.5
 MaxFuel         = 1000
@@ -116,6 +116,8 @@ TrackRollerRot = 30
 ;AddPartWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.3196
 ;AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
 
+TurretPosition = 0.0, 2.0, 0.0
+
 AddTurretWeapon			= 2a38_ap,   0.7338, 3.3009, 0,  0.0, 0.0,   false,2, 0,-360,360, -85, 5
 AddTurretWeapon			= 2a38_ap,   -0.7338, 3.3009, 0,  0.0, 0.0,  false,2, 0,-360,360, -85, 5
 AddTurretWeapon			= 2a38_hei,   0.7338, 3.3009, 0,  0.0, 0.0,  false,2, 0,-360,360, -85, 5
@@ -166,3 +168,5 @@ DefaultFreeLook = true
 unmountposition = 0.71, 1.52, 6.08
 
 CameraRotationSpeed = 75
+
+ArmorMinDamage = 2

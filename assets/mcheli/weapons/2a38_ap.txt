@@ -10,11 +10,14 @@ Sight = MoveSight
 Delay = 0
 SoundVolume = 3
 SoundPitch = 0.6
-Sound = gun_h1_snd
+Sound = pantsirbrt
 Accuracy = 2.0
 Piercing = 1
 BulletColor = 230, 200, 20, 80
 TrajectoryParticle = crit
+HeatCount = 1
+MaxHeatCount = 150
+Gravity = -0.001
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
