@@ -1,4 +1,5 @@
 ﻿DisplayName = SPG-9
+AddDisplayName = en_US, SPG-9
 AddDisplayName = ja_JP, SPG-9
 ItemID = 28602
 MaxHp = 100

@@ -1,4 +1,4 @@
-DisplayName = 152 mm howitzer 2A65 OF-45 [HE]
+DisplayName = 152mm howitzer 2A65 OF-45 [HE]
 Type = MachineGun1
 Power = 700
 ModelBullet = bullet105mm
@@ -9,7 +9,7 @@ Sight = None
 ReloadTime =10000
 Delay = 50
 Round = 35
-Sound = cannon_4_snd
+Sound = msta
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode

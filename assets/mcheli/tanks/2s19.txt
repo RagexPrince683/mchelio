@@ -4,11 +4,11 @@ AddDisplayName = ja_JP, 2S19 ムスタ自走榴弾砲
 ItemID = 30100
 MaxHp = 200
 Speed = 0.7
-Sound = mbt_run
+Sound = tseventytwopass
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 2.0
-MinRotationPitch = -70
-MaxRotationPitch = 3
+MinRotationPitch = -68
+MaxRotationPitch = 4
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -39,7 +39,7 @@ AddPartWeaponChild = false, true, 0.41, 2.05, 1.39, 0
 AddPartWeaponChild = false, true, 0.41, 2.05, 1.39, 0.5
 ;AddTurretWeapon =4OF27, 0, 2.05, 7.8,  0.0, 0.0, true,1, 0,-360,180, -80, 7
 
-AddTurretWeapon =4OF27, -0.0285, 2.0529, 7.8027,  0.0, 0.0, true,1, 0,-360,180, -70, 3
+AddTurretWeapon =4OF27, -0.0285, 2.0529, 7.8027,  0.0, 0.0, true,1, 0,-360,180, -68, 4
 ; AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 駐退距離
 
 

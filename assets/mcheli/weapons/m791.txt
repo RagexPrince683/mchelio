@@ -16,6 +16,7 @@ ModeNum = 1
 Recoil = 0.5
 HeatCount = 6
 MaxHeatCount = 150
+Gravity = -0.001
 
 ; AddMuzzleFlashSmoke = Distance from source, number of displays, size, range, display time,   A,  R,  G,  B
 

@@ -11,6 +11,7 @@ Sound = abramscoax
 Accuracy = 0.7
 HeatCount = 4
 MaxHeatCount = 150
+Gravity = -0.005
 
 Acceleration = 7.5
 Piercing = 0

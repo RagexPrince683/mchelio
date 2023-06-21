@@ -4,7 +4,8 @@ AddDisplayName = ja_JP, 2K22 ツングーツカ
 ItemID = 30100
 MaxHp = 200
 Speed = 0.7
-Sound = mbt_run
+;Sound = tseventytwopass
+Sound = tthirtyfour
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 2.0
 MinRotationPitch = -90
@@ -25,6 +26,8 @@ AddTexture = 2k22_1
 
 HideEntity = true
 EnableBack = true
+
+WeightType = Tank
 
 
 
@@ -142,6 +145,8 @@ BoundingBox = 0.0, 1.6, -2.90, 3.3, 0.5, 1.0
 BoundingBox = 0.0, 2.5, 0.64, 2.0, 1.3, 1.0
 
 TurretPosition = 0.0057, 2.1969, 0.5350
+
+ArmorMinDamage = 25
 
 
 UnmountPosition = 0.00,  2.5, -0.35

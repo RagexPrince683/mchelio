@@ -1,17 +1,16 @@
-DisplayName = RWS M2 12.7mm
+DisplayName = 7.62mm SGMT
 Type = MachineGun1
-Power = 31
-Acceleration = 7.0
+Power = 8
+Acceleration = 8.0
 Explosion = 0
 Flaming = false
 Sight = MoveSight
-Delay = 2
-;SoundDelay = 3
+Delay = 1
 Accuracy = 1.0
-HeatCount = 5
-MaxHeatCount = 180
+HeatCount = 3
+MaxHeatCount = 150
 SoundPitch = 1.0
-Sound = m2_snd
+Sound = sgmt
 Gravity = -0.005
 
 Acceleration = 7.5
@@ -20,12 +19,11 @@ DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
-DamageFactor = player, 20.0
-AddDisplayName = en_US,
+;DamageFactor = player, 20.0
+;AddDisplayName = en_US,
 SoundVolume = 15
 
-
-MaxAmmo = 1200
-SuppliedNum = 300
+MaxAmmo = 3500
+SuppliedNum = 250
 Item =  2, iron_ingot
 Item =  2, gunpowder

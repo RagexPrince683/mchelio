@@ -23,6 +23,7 @@ Acceleration = 7.0
 Piercing = 0
 Accuracy = 0.0
 SoundVolume = 15
+Gravity = -0.001
 
 
 Acceleration = 7.0

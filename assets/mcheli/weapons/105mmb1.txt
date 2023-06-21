@@ -29,6 +29,7 @@ DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 AddDisplayName = en_US, 105mm [APDS]
 SoundVolume = 15
+Gravity = -0.001
 
 
 

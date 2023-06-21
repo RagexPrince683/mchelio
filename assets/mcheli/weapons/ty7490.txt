@@ -1,10 +1,11 @@
-DisplayName = 7.62mm Machine Gun
+DisplayName = 7.62 mm Type 74 machine gun
 Type = MachineGun2
 Power = 8
 Acceleration = 7.5
 Flaming = false
 Sight = MoveSight
 Delay = 1
+ReloadTime = 80
 SoundVolume = 0.6
 SoundPitch = 1.0
 Sound = typesevenfourmachinegun
@@ -14,7 +15,7 @@ Round = 250
 HeatCount = 5
 MaxHeatCount = 350
 
-MaxAmmo = 1000
+MaxAmmo = 4500
 SuppliedNum = 250
 Item =  2, iron_ingot
 Item =  2, gunpowder

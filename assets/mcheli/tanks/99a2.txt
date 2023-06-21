@@ -4,9 +4,9 @@ AddDisplayName = ja_JP, ZTZ 99A
 ItemID = 8897
 MaxHp = 700
 Speed = 0.60
-Sound = mbt_run
+Sound = ninetynineeng
 ThrottleUpDown = 20.0
-MobilityYawOnGround = 4.0
+MobilityYawOnGround = 3.5
 MinRotationPitch = -60
 MaxRotationPitch = 5
 MobilityRoll = 0
@@ -97,16 +97,16 @@ AddTrackRoller =  -2.57,  0.2941, -3.1443
 AddTrackRoller =  -2.57,  0.7146, -4.5362
 
 
-AddPartWeapon = 125AP / 125HE, false, true, false,  0.00, 2.4866, 0.00, 0
+AddPartWeapon = 99125AP / 99125HE, false, true, false,  0.00, 2.4866, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.4866, 2.2667, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.4866, 2.2667, 0.5
-AddTurretWeapon = 125AP, 0.00, 2.4866, 0.0,  0.0, 0.0, true,1, 0,-360,360, -13, 5
-AddTurretWeapon = 125HE, 0.00, 2.4866, 0.0,  0.0, 0.0, true,1, 0,-360,360, -13, 5
-AddTurretWeapon = mg7_62mm, -0.5, 2.4866, 0.0, 0.0, 0.0, true,1, 0,-360,360, -13, 5
+AddTurretWeapon = 99125AP, 0.00, 2.4866, 0.0,  0.0, 0.0, true,1, 0,-360,360, -13, 5
+AddTurretWeapon = 99125HE, 0.00, 2.4866, 0.0,  0.0, 0.0, true,1, 0,-360,360, -13, 5
+AddTurretWeapon = 99mg7_62mm, -0.5, 2.4866, 0.0, 0.0, 0.0, true,1, 0,-360,360, -13, 5
 
 
-AddPartTurretWeapon    = 12_7mmgun,   false, true, true,  -1.038, 3.574, 0.20
-AddTurretWeapon = 12_7mmgun,   -1.038, 3.7867,  0.20,   0.0, 0.0, false, 2, 0, -360,360, -60,5
+AddPartTurretWeapon    = 9912_7mmgun,   false, true, true,  -1.038, 3.574, 0.20
+AddTurretWeapon = 9912_7mmgun,   -1.038, 3.7867,  0.20,   0.0, 0.0, false, 2, 0, -360,360, -85,6
 
 
 ;BoundingBox =  0.00, 0.7259,  0.272,  5.020, 2.668,  0.60

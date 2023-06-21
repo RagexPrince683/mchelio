@@ -13,7 +13,8 @@ HeatCount = 5
 MaxHeatCount = 150
 SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
 
--0.001
+;-0.001
+Gravity = -0.005
 
 Acceleration = 7.5
 Piercing = 0

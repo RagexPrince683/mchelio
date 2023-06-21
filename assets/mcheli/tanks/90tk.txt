@@ -4,9 +4,9 @@ AddDisplayName = ja_JP, 90式戦車
 ItemID = 30100
 MaxHp = 585
 Speed = 0.7
-Sound = mbt_run
+Sound = typeninety
 ThrottleUpDown = 10.0
-MobilityYawOnGround = 2.0
+MobilityYawOnGround = 2.8
 MinRotationPitch = -60
 MaxRotationPitch = 7
 MobilityRoll = 0
@@ -92,7 +92,7 @@ AddPartWeaponChild = false, true, 0.00, 2.12, 1.88, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.12, 1.88, 0.5
 AddTurretWeapon = 120_apf, 0.00, 2.12, 7.57,  0.0, 0.0, true,1, 0,-360,360, -10, 7
 AddTurretWeapon = 120_heatm, 0.00, 2.12, 7.57,  0.0, 0.0, true,1, 0,-360,360, -10, 7
-AddTurretWeapon = ty74,      0.38, 1.91, 2.24,  0.0, 0.0, true,1, 0,-360,360, -10, 7
+AddTurretWeapon = ty7490,      0.38, 1.91, 2.24,  0.0, 0.0, true,1, 0,-360,360, -10, 7
 
 
 AddPartTurretWeapon    = m2_1,   false, true, true,   0.30, 3.07, 0.60

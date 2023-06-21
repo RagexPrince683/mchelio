@@ -9,14 +9,14 @@ Sight = None
 ReloadTime = 80
 Round = 1
 SoundVolume = 10.0
-Sound = cannon_4_snd
+Sound = typeninetymain
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.01
 
-Delay = 80
-ReloadTime = 80
+Delay = 62
+ReloadTime = 62
 Group = MainGun
 Acceleration = 7.0
 ModelBullet = bullet105mm

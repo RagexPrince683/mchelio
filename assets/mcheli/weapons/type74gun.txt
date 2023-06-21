@@ -1,6 +1,6 @@
 DisplayName = Type 74 7.62mm Machine Gun
 Type = MachineGun2
-Power = 3
+Power = 8
 Acceleration = 8.0
 Flaming = false
 Sight = MoveSight
@@ -11,6 +11,7 @@ Sound = gun_l1_snd
 Accuracy = 0.7
 HeatCount = 5
 MaxHeatCount = 150
+Gravity = -0.005
 SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
 
 
