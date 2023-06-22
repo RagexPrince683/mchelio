@@ -3,7 +3,7 @@ AddDisplayName = en_US, BMP-2 IFV
 AddDisplayName = ja_JP, BMP-2 歩兵戦闘車
 MaxHp = 200
 Speed = 0.6
-Sound = bmpone
+Sound = bmptwoeng
 SoundPitch = 0.3
 ThrottleUpDown = 10.0
 MobilityRoll = 0
@@ -69,13 +69,13 @@ AddTrackRoller = 0.00,  0.11, -1.06
 AddTrackRoller = 0.00,  0.11, -2.05
 AddTrackRoller = 0.00,  0.62, -2.79
 
-AddPartWeapon = 3ubr6 / 3yof8 , false, true, false, 0.00, 1.65, -0.24, 0
+AddPartWeapon = bmp23ubr6 / bmp23yof8 , false, true, false, 0.00, 1.65, -0.2461, 0
 AddPartWeaponChild = false, true, 0.00, 2.09, 0.60
 AddPartWeaponChild = false, true, 0.00, 2.09, 0.60
-AddWeapon = 3ubr6,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 5
-AddWeapon = 3yof8,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 5
-AddWeapon = pkt,    0.16, 2.08, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 5
-AddWeapon = 9M113_1, 0.00, 2.35, 2.29,  0.0, 0.0, true,1, 0,-360,360, -90, 90
+AddTurretWeapon = bmp23ubr6,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 5
+AddTurretWeapon = bmp23yof8,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 5
+AddTurretWeapon = bmp2pkt,    0.16, 2.08, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 5
+AddTurretWeapon = bmp29M113_1, 0.00, 2.35, 2.29,  0.0, 0.0, true,1, 0,-360,360, -90, 90
 
 
 AddPartHatch =   1.19,  0.46,  -3.42, 0,1, 0, -90
@@ -86,7 +86,7 @@ EnableBack = true
 MotionFactor = 0.9
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 9
+ArmorMinDamage = 20
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 1000
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%

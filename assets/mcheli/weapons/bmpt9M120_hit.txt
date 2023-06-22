@@ -1,15 +1,18 @@
-DisplayName = 9M120 Ataka HEAT
+DisplayName = 9M120 Ataka HIT
 Type = TVMissile
-Power = 800
+Power = 150
 Acceleration = 2.0
-Piercing = 2
-Explosion = 3
-Flaming = false
+Explosion = 6
+Flaming = true
 Sight = MoveSight
+ReloadTime = 200
+Delay = 40
 Round = 4
 ModelBullet = 9M113
-Sound = 9M120_snd
+Sound = bmptmissile
 ModeNum = 2
+FAE = true
+
 
 Delay = 40
 ReloadTime = 200
@@ -24,11 +27,11 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 9M120 Ataka HEAT
+AddDisplayName = en_US, 9M120 Ataka HIT
 SoundVolume = 15
 
 MaxAmmo = 8
 SuppliedNum = 2
 Item =  1, iron_ingot
-Item =  1, gunpowder
+Item =  3, gunpowder
 Item =  1, redstone

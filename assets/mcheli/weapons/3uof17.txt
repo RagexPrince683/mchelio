@@ -1,6 +1,6 @@
-DisplayName = 2A70 3UOF17 100mm [HE-frag]
+DisplayName = 2A70 3OF70 100mm [HE-frag]
 Type = MachineGun2
-Power = 120
+Power = 36
 ModelBullet = bullet105mm
 Acceleration = 8.0
 Explosion = 3
@@ -29,7 +29,7 @@ Item =  2, gunpowder
 
 Acceleration = 7.5
 Piercing = 0
-DamageFactor = tank, 1.0
+DamageFactor = tank, 2.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5

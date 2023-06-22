@@ -1,4 +1,4 @@
-DisplayName = 9M218
+DisplayName = 122mm Rocket [9M218 HEAT]
 Type = Rocket
 Power = 700
 Acceleration = 4.0
@@ -8,6 +8,7 @@ Gravity = -0.03
 Delay = 2
 SoundVolume = 0.6
 SoundPitch = 1.0
+
 Accuracy = 0.3
 Explosion = 8
 ExplosionBlock = 5
@@ -39,7 +40,7 @@ SoundVolume = 15
 ;BombletSTime = 60
 ModelBomblet = cbc
 
-Sound = missile_4_snd
+Sound = grad
 DisplayMortarDistance = true
 FixCameraPitch = false
 ;CameraRotationSpeedPitch = 0.5

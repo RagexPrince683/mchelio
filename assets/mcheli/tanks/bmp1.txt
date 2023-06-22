@@ -66,9 +66,11 @@ AddTrackRoller = 0.00,  0.62, -2.79
 
 AddPartWeapon = pg9 / pkt , false, true, false, 0.00, 1.65, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.01, 1.05
-AddWeapon = pg9,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
-AddWeapon = pkt,  -0.30, 2.01,0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
-AddWeapon = 9m14, 0.00, 2.35, 2.29,  0.0, 0.0, true,1, 0,-360,360, -25, 5
+AddTurretWeapon = pg9,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
+AddTurretWeapon = pkt,  -0.30, 2.01,0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
+AddTurretWeapon = 9m14, 0.00, 2.35, 2.29,  0.0, 0.0, true,1, 0,-360,360, -25, 5
+;todo make missile weapon
+;todo make hatch a weapon so the zoom feature isn't overlapped
 
 
 AddPartHatch =   1.19,  0.46,  -3.42, 0,1, 0, -90
@@ -79,7 +81,7 @@ EnableBack = true
 MotionFactor = 0.9
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 9
+ArmorMinDamage = 20
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 1000
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%

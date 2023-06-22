@@ -1,24 +1,29 @@
 DisplayName = PKT 7.62mm Machine Gun
-Type = MachineGun1
+Type = MachineGun2
 Power = 7
 Acceleration = 7.5
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
-Accuracy = 2.0
-Round = 200
-ReloadTime = 150
+SoundVolume = 0.6
 SoundPitch = 1.0
 Sound = pkt
+Accuracy = 0.7
+HeatCount = 4
+MaxHeatCount = 150
 Gravity = -0.001
+
+AddMuzzleFlash      =  0.5,      0.22,        1,  150,254,159,84
+AddMuzzleFlashSmoke =  0.7,  1,   2.0,  0.5, 15,  180,250,245,240
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
 
-MaxAmmo = 2000
-SuppliedNum = 400
+
+
+MaxAmmo = 1000
+SuppliedNum = 250
 Item =  2, iron_ingot
 Item =  2, gunpowder

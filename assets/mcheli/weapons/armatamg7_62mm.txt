@@ -1,4 +1,4 @@
-DisplayName = 7.62mm Type 86
+DisplayName = 7.62mm PKM Machine Gun
 Type = MachineGun1
 Power = 7
 Acceleration = 10.0
@@ -6,18 +6,14 @@ Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
-ReloadTime = 80
 ;SoundDelay = 3
 Accuracy = 2.0
+HeatCount = 3
+MaxHeatCount = 150
 SoundPitch = 1.0
 SoundVolume = 2.0
 Sound = pkt
 BulletColor        = 255, 189, 255, 116
-HeatCount = 4
-MaxHeatCount = 150
-Gravity = -0.001
-
-
 
 Acceleration = 7.5
 Piercing = 0

@@ -2,10 +2,10 @@ DisplayName = M3 Bradley
 AddDisplayName = en_US, M3 Bradley
 AddDisplayName = ru_RU, M3 Брэдли
 MaxHp = 200
-Speed = 0.8
+Speed = 0.75
 Sound = tank_gte
 ThrottleUpDown = 20.0
-MobilityYawOnGround = 4.0
+MobilityYawOnGround = 3.0
 MinRotationPitch = -90
 MaxRotationPitch = 45
 MobilityRoll = 0
@@ -46,7 +46,7 @@ AddSeat = 0.87, 0.5, -2.2
 
 
 
-MotionFactor = 0.95
+MotionFactor = 0.9
 
 ;ArmorMaxDamage = 600
 ArmorDamageFactor = 1.00

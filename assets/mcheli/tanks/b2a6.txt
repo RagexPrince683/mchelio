@@ -1,10 +1,10 @@
-﻿DisplayName = 豹2 A6
+﻿DisplayName = 2 A6
 AddDisplayName = en_US, Leopard 2A6
 AddDisplayName = zh_CN, 豹2 A6 
 ItemID = 37775
 MaxHp = 650
 Speed = 0.6
-Sound = tank
+Sound = leopardtwoasix
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 2.5
 MinRotationPitch = -50
@@ -99,12 +99,12 @@ AddTrackRoller = -2.1624,  0.2249, -3.1273
 AddTrackRoller = -2.1624,  0.2249, -4.2958
 AddTrackRoller = -2.1624,  0.8166, -5.1873
 
-AddPartWeapon = Rh120-L55_apfsds / Rh120-L55_heat, false, true, false,  0.00, 2.4010, 0.00, 0
+AddPartWeapon = 2a6Rh120-L55_apfsds / 2a6Rh120-L55_heat, false, true, false,  0.00, 2.4010, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.4010, 2.3024, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.4010, 2.3024, 0.5
-AddTurretWeapon = Rh120-L55_apfsds, 0.00, 2.4010, 2.3024,  0.0, 0.0, true,1, 0,-360,360, -20, 9
-AddTurretWeapon = Rh120-L55_heat,     0.00, 2.4010, 2.3024,  0.0, 0.0, true,1, 0,-360,360, -20, 9
-AddTurretWeapon = mg7_62mm_mbt,       0.20, 2.4010, 2.3024,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = 2a6Rh120-L55_apfsds, 0.00, 2.4010, 2.3024,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = 2a6Rh120-L55_heat,     0.00, 2.4010, 2.3024,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = 2a6mg7_62mm_mbt,       0.20, 2.4010, 2.3024,  0.0, 0.0, true,1, 0,-360,360, -20, 9
 
 
 MaxFuel         = 1200
