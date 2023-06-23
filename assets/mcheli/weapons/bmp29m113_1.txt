@@ -1,4 +1,4 @@
-DisplayName = 9M120 ATGM [TV]
+DisplayName = 9M120 ATGM
 Type = TVMissile
 Power = 600
 Acceleration = 2.0
@@ -11,7 +11,7 @@ ReloadTime = 200
 Delay = 40
 Round = 4
 ModelBullet = 9M113
-Sound = missile_1_snd
+Sound = bmptmissile
 ModeNum = 2
 
 Delay = 40

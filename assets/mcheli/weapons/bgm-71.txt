@@ -23,6 +23,7 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
+Sound = tow
 SoundVolume = 15
 
 ModeNum = 2

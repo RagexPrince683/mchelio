@@ -1,5 +1,5 @@
-DisplayName = 2A82-1М Smoothbore Gun[HEAT-MP]
-AddDisplayName = en_US, 2A82-1М Smoothbore Gun[HEAT-MP]
+DisplayName = 2A82-1M Smoothbore Gun[HEAT-MP]
+AddDisplayName = en_US, 2A82-1M Smoothbore Gun[HEAT-MP]
 AddDisplayName = ru_RU, 2A82-1M Гладкоствольная 125 мм пушка [Кумулятивный]
 Type = MachineGun2
 Power = 650
