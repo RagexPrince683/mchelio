@@ -3,7 +3,7 @@ AddDisplayName = en_US, KV-2 Gigant
 AddDisplayName = ja_JP, KV-2 ギガント
 MaxHp = 100
 Speed = 0.45
-Sound = mbt_run
+Sound = kvtwo
 MobilityYawOnGround = 2.0
 ThrottleUpDown = 10.0
 MobilityRoll = 0
@@ -90,8 +90,8 @@ AddPartWeapon  = 152mm_howitzer, false, true,  false,  0.00, 0.00, 0.00
 AddPartWeaponChild = false, true,   0.00, 3.017, 1.245
 AddPartWeaponChild = false, true,   0.00, 3.017, 1.245, 0.5
 
-AddWeapon     = ww2tank_coaxmg,  0.5994, 1.515,  2.61,  0.0, 0.0, true,2, 0,-16.12, 16.12, -23.62, 22.00
-AddPartWeapon = ww2tank_coaxmg, false, true, false,  0.5994, 1.515, 2.609, 0
+AddWeapon     = kvww2tank_coaxmg,  0.5994, 1.515,  2.61,  0.0, 0.0, true,2, 0,-16.12, 16.12, -23.62, 22.00
+AddPartWeapon = kvww2tank_coaxmg, false, true, false,  0.5994, 1.515, 2.609, 0
 
 AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
 

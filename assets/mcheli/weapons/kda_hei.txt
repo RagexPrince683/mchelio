@@ -1,13 +1,13 @@
 DisplayName = Oerlikon KDA 35mm HEI
 Type = MachineGun2
-Power = 15
+Power = 11
 Acceleration = 5.0
 Explosion = 2
 Flaming = false
 Sight = MoveSight
 Delay = 0
 ReloadTime = 120
-Round = 200
+Round = 320
 SoundVolume = 3
 SoundPitch = 1.0
 Sound = gepardmain
@@ -31,7 +31,7 @@ SoundVolume = 15
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
-MaxAmmo = 800
-SuppliedNum = 200
+MaxAmmo = 680
+SuppliedNum = 320
 Item =  2, iron_ingot
 Item =  2, gunpowder

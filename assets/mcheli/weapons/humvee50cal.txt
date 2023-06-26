@@ -1,23 +1,28 @@
 DisplayName = 12.7mm M2HB Machine Gun
 Type = MachineGun2
 Power = 31
-Acceleration = 4.0
+;Acceleration = 4.0
 Flaming = false
 Sight = MoveSight
 Delay = 1
 SoundVolume = 4
 SoundPitch = 1.0
-Sound = m3m_H
 Accuracy = 0.8
 HeatCount = 1
 MaxHeatCount = 250
 
+Sound = m2_snd
+Gravity = -0.005
+
+Acceleration = 7.5
+Piercing = 0
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
-
 DamageFactor = player, 20.0
+AddDisplayName = en_US,
+SoundVolume = 15
 
 AddMuzzleFlash      =  2.6,      0.22,        1,  150,254,159,84
 AddMuzzleFlash      =  2.5,      0.20,        1,  150,254,219,184

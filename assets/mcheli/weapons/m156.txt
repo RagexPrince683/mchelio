@@ -1,6 +1,6 @@
-DisplayName = M156 105mm HESH
+DisplayName = 120mm Rh-120 L/44 DM12 [HEAT-FS]
 Type = MachineGun2
-Power = 220
+Power = 480
 ModelBullet = bullet105mm
 Acceleration = 8.0
 Explosion = 2
@@ -11,21 +11,25 @@ Delay = 170
 ModeNum = 1
 SoundPitch = 0.5
 SoundVolume = 20
-Sound = cannon_3_snd
+Sound = leoonemain
+
+Gravity = -0.001
 
 Delay = 170
-ReloadTime = 80
+ReloadTime = 170
 Group = MainGun
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
-Piercing = 5
+Piercing = 0
 Accuracy = 0.0
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
+;AddDisplayName = en_US,
 SoundVolume = 15
+
 
 
 AddMuzzleFlash      =  10.2,      1.80,        7,  200,254,129,44
@@ -36,7 +40,7 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 2.5
 
-MaxAmmo = 14
-SuppliedNum = 1
+MaxAmmo = 20
+SuppliedNum = 10
 Item =  1, iron_ingot
 Item =  2, gunpowder

@@ -1,24 +1,23 @@
-DisplayName = L23A1 APFSDS
+DisplayName = 120mm L11A5 [Shot L23 APFSDS]
 Type = MachineGun1
-Power = 396
+Power = 410
 ModelBullet = bullet105mm
 Explosion = 1
 ExplosionBlock = 1
 Acceleration = 16.0
 Sight = None
-ReloadTime = 80
 Delay = 100
-Round = 35
+Round = 26
 SoundVolume = 1.0
-Sound = cannon_4_snd
+Sound = chalmain
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.01
+Gravity = -0.001
 
 
 Delay = 100
-ReloadTime = 80
+ReloadTime = 100
 Group = MainGun
 Acceleration = 7.0
 Piercing = 5
@@ -40,7 +39,7 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 2.5
 
-MaxAmmo = 35
-SuppliedNum = 1
+MaxAmmo = 26
+SuppliedNum = 15
 Item =  1, iron_ingot
 Item =  1, gunpowder

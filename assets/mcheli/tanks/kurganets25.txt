@@ -1,9 +1,9 @@
 DisplayName = Kurganets-25 IFV
 AddDisplayName = en_US, Kurganets-25 IFV
 AddDisplayName = ja_JP, Kurganets-25 歩兵戦闘車
-MaxHp = 100
+MaxHp = 250
 Speed = 0.55
-Sound = mbt_run
+Sound = kurg
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 4.0
 MinRotationPitch = -50
@@ -58,7 +58,7 @@ AddSeat = -0.88, 0.45,  0.68
 MotionFactor = 0.9
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-;ArmorMinDamage = 10
+ArmorMinDamage = 31
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 10
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
@@ -100,11 +100,11 @@ AddTrackRoller = 1.51, 0.02,-0.02
 AddTrackRoller = 1.51, 0.02,-0.83
 AddTrackRoller = 1.51, 0.49,-1.63
 
-AddPartWeapon = 2a42_ifv / mg_coaxial / 9m133 / 9m133s, false, true, false,  0.00, 2.14, 0.00, 0
+AddPartWeapon = 2a42_ifv / kurgmg_coaxial / 9m133 / 9m133s, false, true, false,  0.00, 2.14, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.64, 0.23
 
 AddTurretWeapon = 2a42_ifv,   -0.04, 2.64, 3.42, 0.0, 0.0, true, 1, 0, -360, 360, -20,  8
-AddTurretWeapon = mg_coaxial,  0.12, 2.57, 0.55, 0.0, 0.0, true, 1, 0, -360, 360, -20,  8
+AddTurretWeapon = kurgmg_coaxial,  0.12, 2.57, 0.55, 0.0, 0.0, true, 1, 0, -360, 360, -20,  8
 AddTurretWeapon = 9m133,      -1.74, 2.64, 0.64, 0.0, 0.0, true, 1, 0, -360, 360
 AddTurretWeapon = 9m133,       1.74, 2.64, 0.64, 0.0, 0.0, true, 1, 0, -360, 360
 AddTurretWeapon = 9m133s,     -1.41, 2.64, 0.64, 0.0, 0.0, true, 1, 0, -360, 360
@@ -141,7 +141,7 @@ BoundingBox = -1.55, 1.11, 1.55, 1.0, 1.40, 1
 BoundingBox = -1.55, 1.11, 0.55, 1.0, 1.40, 1
 
 
-ArmorDamageFactor = 10.0
+ArmorDamageFactor = 0.96
 
 ;bugged?
 

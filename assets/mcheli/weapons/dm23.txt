@@ -1,6 +1,6 @@
-DisplayName = DM23 105mm APFSDS
+DisplayName = 120mm Rh-120 L/44 DM23 [APFSDS]
 Type = MachineGun1
-Power = 390
+Power = 408
 ModelBullet = bullet105mm
 Explosion = 0
 ExplosionBlock = 0
@@ -9,14 +9,14 @@ Sight = None
 ReloadTime = 80
 Round = 1
 SoundVolume = 10.0
-Sound = cannon_4_snd
+Sound = leoonemain
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.01
+Gravity = -0.001
 
-Delay = 80
-ReloadTime = 80
+Delay = 170
+ReloadTime = 170
 Group = MainGun
 Acceleration = 7.0
 ModelBullet = bullet105mm
@@ -37,7 +37,7 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 2.5
 
-MaxAmmo = 24
-SuppliedNum = 1
+MaxAmmo = 20
+SuppliedNum = 10
 Item =  1, iron_ingot
 Item =  1, gunpowder

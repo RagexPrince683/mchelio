@@ -1,20 +1,20 @@
-DisplayName = L26 APFSDS
+DisplayName = 120mm L30A1 [L27A1 APFSDS]
 Type = MachineGun1
-Power = 471
+Power = 564
 ModelBullet = bullet105mm
 Explosion = 1
 ExplosionBlock = 1
-Acceleration = 16.0
+;Acceleration = 16.0
 Sight = None
 ReloadTime = 80
 Delay = 100
-Round = 35
+Round = 25
 SoundVolume = 1.0
-Sound = cannon_4_snd
+Sound = chalmain
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.01
+Gravity = -0.001
 
 ;APFSDS
 Delay = 100
@@ -41,7 +41,7 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 2.5
 
-MaxAmmo = 35
-SuppliedNum = 1
+MaxAmmo = 25
+SuppliedNum = 15
 Item =  1, iron_ingot
 Item =  1, gunpowder
