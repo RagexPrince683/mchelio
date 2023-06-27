@@ -10,7 +10,7 @@ ReloadTime =10000
 Delay = 50
 Round = 35
 SoundVolume = 10
-Sound = cannon_4_snd
+Sound = mspg
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
@@ -35,7 +35,7 @@ DisplayMortarDistance = true
 ; カメラの垂直方向を0に固定する
 FixCameraPitch = true
 ; カメラの回転速度の倍率(小さくするとより細かく着弾地点が調整ができる)
-CameraRotationSpeedPitch = 1.0
+CameraRotationSpeedPitch = 0.6
 
 AddMuzzleFlash      =  0,      1.80,        7,  220,254,159,74
 AddMuzzleFlash      =  0,      1.75,        6,  220,254,219,104

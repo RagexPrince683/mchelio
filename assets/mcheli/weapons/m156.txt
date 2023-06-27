@@ -9,7 +9,7 @@ Flaming = false
 Sight = MoveSight
 Delay = 170
 ModeNum = 1
-SoundPitch = 0.5
+;SoundPitch = 0.5
 SoundVolume = 20
 Sound = leoonemain
 

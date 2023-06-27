@@ -4,11 +4,11 @@ AddDisplayName = en_US, M109 105mm Self Propelled Howitzer
 ItemID = 30100
 MaxHp = 200
 Speed = 0.7
-Sound = mbt_run
+Sound = sphhowitzereng
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 2.0
 MinRotationPitch = -80
-MaxRotationPitch = 7
+MaxRotationPitch = 3
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -40,8 +40,8 @@ AddPartWeaponChild = false, true, 0.66, 2.06, 1.87, 0
 AddPartWeaponChild = false, true, 0.66, 2.06, 1.87, 0.5
 ;AddTurretWeapon =m107, 0, 2.17, 8.41,  0.0, 0.0, true,1, 0,-360,180, -80, 7
 
-AddTurretWeapon =m107, -0.0289, 2.1748, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -80, 7
-AddTurretWeapon = bb, -0.0289, 2.1748, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -80, 7
+AddTurretWeapon =m107, -0.0289, 2.1748, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -78, 3
+AddTurretWeapon = bb, -0.0289, 2.1748, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -78, 3
 
 ;AddTurretWeapon = m107,   0.00, 2.9709, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -65, 6
 ;AddTurretWeapon = 155sgh1,  0.00, 2.9709, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -65, 6
@@ -52,7 +52,7 @@ AddTurretWeapon = bb, -0.0289, 2.1748, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -8
 
 AddPartTurretWeapon    =  m240_r,   false, true, true,  0.98, 3.18, 0.57
 AddPartTurretWeapon    = m240_r, false, true, false,   0.98, 3.02, 0.57
-AddTurretWeapon = m240_r,    0.98, 3.21, 2.03,   0.0, 0.0, false, 2, 0, -360,180, -50,10
+AddTurretWeapon = m240_r,    0.98, 3.21, 2.03,   0.0, 0.0, false, 2, 0, -80,80, -50,10
 ; パラメータは前から順に 武器設定ファイル名、位置(X,Y,Z)、回転角度(横,縦), パイロット使用可否, 座席, DefaultYaw, MinYaw, MaxYaw, MinPitch, MaxPitch
 
 
