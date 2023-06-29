@@ -12,8 +12,10 @@ Accuracy = 1
 ModeNum = 2
 Gravity = -0.01
 Particle = largeexplode
-Sound = ww2tankshot_snd
+Sound = meighteenhellcat
 BulletColor        = 255, 255, 100, 100
+
+Gravity = -0.001
 
 Delay = 80
 ReloadTime = 80

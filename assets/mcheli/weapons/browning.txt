@@ -13,6 +13,7 @@ MaxHeatCount = 150
 SoundPitch = 1.0
 Particle = explode
 Sound = gun_l1_snd
+Gravity = -0.005
 
 Acceleration = 7.5
 Piercing = 0

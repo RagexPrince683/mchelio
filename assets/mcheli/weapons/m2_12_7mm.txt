@@ -13,8 +13,10 @@ Delay = 0
 HeatCount = 1
 MaxHeatCount = 200
 SoundPitch = 0.8
-Sound = gun_h4_snd
+Sound = m2_snd
 SoundVolume = 0.8
+
+Gravity = -0.005
 
 SetCartridge = cartridge, 0.2, 90, -40, 1.2, -0.04, 0.4
 

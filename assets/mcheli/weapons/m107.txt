@@ -33,7 +33,7 @@ SoundVolume = 15
 ; 着弾距離の表示
 DisplayMortarDistance = true
 ; カメラの垂直方向を0に固定する
-FixCameraPitch = true
+FixCameraPitch = false
 ; カメラの回転速度の倍率(小さくするとより細かく着弾地点が調整ができる)
 CameraRotationSpeedPitch = 0.6
 

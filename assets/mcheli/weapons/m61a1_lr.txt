@@ -1,7 +1,7 @@
 DisplayName = M61A1 Left Rear
 Type = MachineGun2
 ModelBullet = bullet
-Power = 12
+Power = 40
 Acceleration = 7.0
 Explosion = 0
 Flaming = false
@@ -13,6 +13,8 @@ Accuracy = 3.0
 HeatCount = 1
 MaxHeatCount = 150
 Sound = gun_l2_snd
+
+Gravity = -0.001
 
 Delay = 0
 SoundVolume = 5.5

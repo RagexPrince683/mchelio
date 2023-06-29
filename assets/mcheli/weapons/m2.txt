@@ -9,6 +9,8 @@ DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
 
+Gravity = -0.005
+
 DamageFactor = player, 20.0
 
 Acceleration = 9.0
@@ -20,7 +22,7 @@ ReloadTime = 30
 HeatCount = 1
 MaxHeatCount = 150
 SoundPitch = 1.0
-Sound = gun_l1_snd
+Sound = m2_snd
 MaxAmmo = 1200
 SuppliedNum = 1200
 Item =  5, iron_ingot

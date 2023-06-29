@@ -12,7 +12,9 @@ SoundPitch = 0.7
 Accuracy = 3.0
 HeatCount = 2
 MaxHeatCount = 150
-Sound = gun_m61a1_snd
+Sound = gun_l2_snd
+
+Gravity = -0.001
 
 Delay = 0
 SoundVolume = 5.5

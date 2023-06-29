@@ -2,9 +2,9 @@
 AddDisplayName = en_US, M18 Hellcat
 AddDisplayName = ja_JP, M18 ヘルキャット
 ItemID = 30184
-MaxHp = 200
+MaxHp = 250
 Speed = 1.6
-Sound = mbt_run
+Sound = meighteenhelleng
 ThrottleUpDown = 100.0
 MobilityRoll = 0
 Gravity = -0.61

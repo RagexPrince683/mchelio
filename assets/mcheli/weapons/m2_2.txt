@@ -7,10 +7,11 @@ Sight = MoveSight
 Delay = 1
 SoundVolume = 1.2
 SoundPitch = 1.0
-Sound = gun_h1_snd
+Sound = m2_snd
 Accuracy = 2.0
 HeatCount = 5
 MaxHeatCount = 200
+Gravity = -0.005
 
 Acceleration = 7.5
 Piercing = 0

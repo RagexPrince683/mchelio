@@ -4,7 +4,7 @@ AddDisplayName = ru_RU, M142 HIMARS
 ItemID = 30153
 MaxHp = 200
 Speed = 0.8
-Sound = mbt_run
+Sound = dieselman
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 5.0
 MinRotationPitch = -90
@@ -38,13 +38,16 @@ SetWheelPos =  1.54,  -0.47,  6.95,  1.25,-0.6
 MotionFactor = 0.9
 
 AddSeat =  0.91,2.11,7.46
-AddGunnerSeat = -0.91,2.11,7.46, 0.00, 4.50, 0, false, -90, 90, false
+AddGunnerSeat = -0.91,2.11,7.46, 0.00, 4.50, 0, false, -90, 90
 ;fuck this shit
+
+;AddGunnerSeat =  0.00, 2.20,-0.59, 0.00, 3.40, -0.59, false, -25, 4
+
 ;CameraPosition = -0.91,4.31,7.46
 
 CameraPosition = 0.00, 2.30, 0, false
 
-TurretPosition = 0.00, 2.30, 0
+;TurretPosition = 0.00, 2.30, 0
 
 HUD = bnr32_hud,mbt_hud
 
@@ -79,8 +82,15 @@ AddPartWeaponChild = false, true, 0.00, 2.74, 0.48
 
 
 
+;AddTurretWeapon = gmw,    0.00, 2.95, -0.59, 0.0, 0.0, false, 5, 0, -360, 360, -25,  4
+;AddTurretWeapon = gmw_fl, 0.00, 2.95, -0.59, 0.0, 0.0, false, 5, 0, -360, 360, -25,  4
+;AddPartWeapon = gmw / gmw_fl, false, true, false,  0.00, 2.30, -0.59, 0
+;AddPartWeaponChild = false, true, 0.00, 2.74, 0.48
 
-TurretPosition = 0.0, 1.0, 0.0
+
+
+;ok nvm it doesn't make sense anymore
+
 
 AddPartCanopy   = -1.78, 2.56, 8.61,  0, 1, 0, 60
 AddPartCanopy   =  1.78, 2.56, 8.61,  0, 1, 0,-60
