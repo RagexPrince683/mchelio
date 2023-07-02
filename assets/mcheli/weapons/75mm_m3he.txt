@@ -1,8 +1,8 @@
 DisplayName = 75mm M3 [HE]
 Type = MachineGun1
-Power = 35
+Power = 20
 Acceleration = 6.5
-Explosion = 2
+Explosion = 3
 ExplosionBlock = 2
 Sight = None
 ReloadTime = 100
@@ -12,7 +12,7 @@ Accuracy = 1
 ModeNum = 2
 Gravity = -0.01
 Particle = largeexplode
-Sound = ww2tankshot_snd
+Sound = shermanmain
 BulletColor        = 255, 255, 100, 100
 
 Delay = 100
@@ -28,6 +28,8 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
+
+Gravity = -0.005
 AddDisplayName = en_US, 75mm M3 [HE]
 SoundVolume = 15
 
@@ -40,7 +42,7 @@ AddMuzzleFlash      =           8.0,   2.00,        5,  220,254,219,184
 AddMuzzleFlashSmoke   =              8.2,     30,   12.0,  4.0,       65,  220,160,140,120
 AddMuzzleFlashSmoke   =             10.2,     20,   13.0,  7.0,       55,  200,190,170,150
 
-MaxAmmo = 50
+MaxAmmo = 47
 SuppliedNum = 25
 Item =  2, iron_ingot
 Item =  3, gunpowder

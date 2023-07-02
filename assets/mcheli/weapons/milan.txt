@@ -1,15 +1,16 @@
-DisplayName = Milan 2 ATGM
+DisplayName = Milan ATGM
 Type = TVMissile
-Power = 550
+Power = 530
 Acceleration = 2.0
+ExplosionBlock = 2
 Explosion = 6
 Flaming = true
 Sight = MoveSight
 ReloadTime = 200
 Delay = 40
-Round = 5
+Round = 4
 ModelBullet = agm114
-Sound = missile_1_snd
+Sound = bmptmissile
 ModeNum = 2
 
 DamageFactor = tank, 1.0
@@ -23,8 +24,8 @@ Group = MainGun
 ;Acceleration = 7.0
 
 
-MaxAmmo = 10
-SuppliedNum = 5
+MaxAmmo = 4
+SuppliedNum = 4
 Item =  1, iron_ingot
 Item =  3, gunpowder
 Item =  1, redstone

@@ -1,8 +1,8 @@
 DisplayName = 90mm Gun M3 [APCR]
 Type = MachineGun2
-Power = 190
-ModelBullet = bullet105mm
-Acceleration = 6.0
+Power = 287
+ModelBullet = bullet
+Acceleration = 7.0
 Explosion = 0
 ExplosionBlock = 0
 Piercing = 5
@@ -13,9 +13,16 @@ Delay = 80
 SoundPitch = 1.2
 SoundVolume = 16.0
 Accuracy = 1.5
-Gravity = -0.02
+Gravity = -0.001
 Sound = big
 Recoil = 1.5
+
+
+DamageFactor = tank, 3.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
 
 
 

@@ -10,7 +10,7 @@ GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = true
 EnableEntityRadar = false
-Sound = Tank
+Sound = tseventytwopass
 HUD = mbt_hud, mbt_hud
 WeightType = Tank
 DefaultFreelook = true
@@ -40,31 +40,19 @@ PivotTurnThrottle = 0.0
 ;AddGunnerSeat = 0.00,  1.00, -1.25,  -0.55,  3.80, -1.16, false, -90, 90, true
 
 
-AddGunnerSeat =  0.0, 1.6, 0.3, -0.59, 1.78, 1.85,  false, -18, 6, true
+AddGunnerSeat =  0.0, 1.6, 0.3, -0.59, 1.78, 1.85,  false, -90, 90, true
 AddGunnerSeat = -0.75,2.0,-0.5, -0.75, 3.1, -0.3576, false, -90, 90, true
 CameraPosition = -0.59, 1.78, 1.85, true
 
 TurretPosition = 0.0, 0.0, -0.0
 
 
-MinRotationPitch = -13
-MaxRotationPitch = 6
-
-
-;AddPartWeapon = rehinmetall_apfsds / canistershell, false, true, false,  0.00, 1.52, 0.25, 0
-;AddPartWeaponChild = false, true, 0.00, 2.01, 1.62, 0.0
-;AddPartWeaponChild = false, true, 0.00, 2.01, 1.62, 0.5
-;AddPartTurretWeapon = mg7_62mm, false, true, true,  -0.83, 3.39,-0.57, 0
-
-;AddTurretWeapon = rehinmetall_apfsds, 0.00, 2.22, 0.00,  0.0,  0.0, true, 1, 0,-360,360, -50, 7
-;AddTurretWeapon = canistershell,      0.00, 2.22, 0.00,  0.0,  0.0, true, 1, 0,-360,360, -50, 7
-;AddTurretWeapon = 60mm_mortar,        0.90, 3.00, 0.52,  0.0,-45.0, true, 1, 0,-360,360, -85, 7
-;AddTurretWeapon = mg12_7mm_l,         0.00, 2.92, 2.70,  0.0,  0.0, true, 1, 0,-360,360, -50, 7
-;AddTurretWeapon = mg7_62mm,          -0.83, 3.39,-0.57,  0.0,  0.0, false,2, 0,-360,360, -80, 50
+MinRotationPitch = -75
+MaxRotationPitch = 5
 
 
 
-AddPartWeapon  = 2A46_APFSDS / 2A46_HEATMP / 2A46M-1_HE, false, true,  false,  0.0, 1.4, 0.0, 0
+AddPartWeapon  = t722A46M-1_APFSDS / t722A46M-1_HEATMP / t722A46M-1_HE, false, true,  false,  0.0, 1.4, 0.0, 0
 
 
 AddPartWeaponChild = false, true,  0.0, 1.706, 1.26, 0.0
@@ -75,11 +63,11 @@ AddPartWeaponChild = false, true,  0.0, 1.706, 1.26, 0.5
 
 ;AddPartWeaponChild = false, true, -0.58, 1.784, 1.74
 
-AddTurretWeapon = 2A46M-1_APFSDS,  0.0, 1.706, 1.26,  0.0, 0.0, false,1, 0,-360,360, -13, 6
-AddTurretWeapon = 2A46M-1_HEATMP,  0.0, 1.706, 1.26,  0.0, 0.0, false,1, 0,-360,360, -13, 6
-AddTurretWeapon = 2A46M-1_HE,      0.0, 1.706, 1.26,  0.0, 0.0, false,1, 0,-360,360, -13, 6
-AddTurretWeapon = 9M119M,          0.0, 1.706, 1.26,  0.0, 0.0, false,1, 0,-360,360, -13, 6
-AddTurretWeapon = mg_coaxial, 0.44, 1.58, 1.54, 0.0, 0.0, false,1, 0,-360,360, -13, 6
+AddTurretWeapon = t722A46M-1_APFSDS,  0.0, 1.706, 1.26,  0.0, 0.0, false,1, 0,-360,360, -13, 5
+AddTurretWeapon = t722A46M-1_HEATMP,  0.0, 1.706, 1.26,  0.0, 0.0, false,1, 0,-360,360, -13, 5
+AddTurretWeapon = t722A46M-1_HE,      0.0, 1.706, 1.26,  0.0, 0.0, false,1, 0,-360,360, -13, 5
+AddTurretWeapon = t729M119M,          0.0, 1.706, 1.26,  0.0, 0.0, false,1, 0,-360,360, -13, 5
+AddTurretWeapon = t72mg_coaxial, 0.44, 1.58, 1.54, 0.0, 0.0, false,1, 0,-360,360, -13, 5
 
 
 

@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, シャーマン・カリオペ
 ItemID = 30182
 MaxHp = 45
 Speed = 0.6
-Sound = mbt_run
+Sound = shermaneng
 ThrottleUpDown = 10.0
 MobilityRoll = 0
 Gravity = -0.61
@@ -82,11 +82,11 @@ AddPartWeaponChild = false, true, 0.00, 2.58, 0.98, 0.5
 AddPartWeaponChild = false, true, 0.00, 2.58, 0.98
 AddTurretWeapon = 75mm_M3AP,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
 AddTurretWeapon = 75mm_M3HE,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
-AddTurretWeapon = mg7_62mm,   0.24, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
+AddTurretWeapon = shermanmg7_62mm,   0.24, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
 
 ;M2
-AddPartTurretWeapon    =M2_12.7mm,   false, true, true,   -0.57, 3.47, 0.18
-AddTurretWeapon = M2_12.7mm,    -0.57, 3.57, 0.30,   0.0, 0.0, true, 2, 0, -360,360, -25,10
+;AddPartTurretWeapon    =M2_12.7mm,   false, true, true,   -0.57, 3.47, 0.18
+;AddTurretWeapon = M2_12.7mm,    -0.57, 3.57, 0.30,   0.0, 0.0, true, 2, 0, -360,360, -25,10
 
 
 

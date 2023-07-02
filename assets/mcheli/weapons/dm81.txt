@@ -1,16 +1,17 @@
-DisplayName = DM81 20mm [HE-I-T]
+DisplayName = DM81 20mm [HEFI-T]
 Type = MachineGun1
-Power = 10
+Power = 7
 Acceleration = 5.0
+ExplosionBlock = 1
 Explosion = 2
 Flaming = false
 Sight = MoveSight
 Delay = 2
 ReloadTime = 120
-Round = 330
+Round = 200
 SoundVolume = 3
 SoundPitch = 1.0
-Sound = gun_h1_snd
+Sound = mardercannon
 Accuracy = 1.5
 ModeNum = 1
 
@@ -25,8 +26,8 @@ SoundVolume = 15
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
-MaxAmmo = 660
-SuppliedNum = 330
+MaxAmmo = 600
+SuppliedNum = 200
 Item =  2, iron_ingot
 Item =  2, gunpowder
 

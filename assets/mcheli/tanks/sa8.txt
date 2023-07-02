@@ -7,7 +7,7 @@ ThrottleUpDown = 5.0
 Speed = 0.5
 MobilityYawOnGround = 12.0
 StepHeight = 1.5
-Sound = vehicle_run
+Sound = sa
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
@@ -46,11 +46,12 @@ SetWheelPos =  1.0,  -0.24,  3.02, -0.198, -3.22
 
 HUD = mbt_hud, none, none, none, vehicle, none, none
 
-AddSeat = -0.45, 0.45,  3.33
+AddSeat = -0.45, 0.45,  3.23
+;, -0.50, 1.8,  3.83, false, -90, 90, true
 AddSeat =  0.70, 0.79,  0.27
 AddSeat = -0.70, 1.07, -1.01
 AddSeat =  0.70, 1.07, -1.01
-AddGunnerSeat =  0.01, 1.50, 0.05, 0.00, 4.65, -0.00, false, -40, 4
+AddGunnerSeat =  0.01, 0.60, 0.05, 0.00, 4.65, -0.00, false, -40, 4
 AddSeat = -0.70, 1.45, -2.35
 AddSeat =  0.70, 1.45, -2.35
 
@@ -70,9 +71,20 @@ AddPartWheel     = 1.19,  0.34, -0.19
 AddPartWheel     = -1.16,  0.34, -3.21, -20
 AddPartWheel     = 1.19,  0.34, -3.21, -20
 
-AddTurretWeapon = sa8,    -0.05, 2.95, 0.05, 0.0, 0.0, false, 5, 0, -360, 360, -35,  4
-AddPartWeapon = sa8, false, true, false,  -0.05, 2.30, 0.05, 0
-AddPartWeaponChild = false, true, -0.05, 2.33, 0.05
+;AddTurretWeapon = sa8,    -0.00, 2.95, 0.00, 0.0, 0.0, false, 5, 0, -360, 360, -35,  4
+AddTurretWeapon = sa8,    -1.4441, 3.9907, 0.3777, 0.0, 0.0, false, 5, 0, -360, 360, -35,  4
+AddTurretWeapon = sa8,    -1.0433, 3.9907, 0.3777, 0.0, 0.0, false, 5, 0, -360, 360, -35,  4
+AddTurretWeapon = sa8,    -0.6747, 3.9907, 0.3777, 0.0, 0.0, false, 5, 0, -360, 360, -35,  4
+
+AddTurretWeapon = sa8,    1.4441, 3.9907, 0.3777, 0.0, 0.0, false, 5, 0, -360, 360, -35,  4
+AddTurretWeapon = sa8,    1.0433, 3.9907, 0.3777, 0.0, 0.0, false, 5, 0, -360, 360, -35,  4
+AddTurretWeapon = sa8,    0.6747, 3.9907, 0.3777, 0.0, 0.0, false, 5, 0, -360, 360, -35,  4
+
+;AddTurretWeapon = gmw,    0.00, 2.95, -0.59, 0.0, 0.0, false, 5, 0, -360, 360, -25,  4
+;this should just work, it just doesn't
+
+AddPartWeapon = sa8, false, true, false,  -0.00, 2.30, 0.00, 0
+AddPartWeaponChild = false, true, -0.00, 2.33, 0.00
 
 InventorySize = 9
 
@@ -89,6 +101,8 @@ AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 EntityWidth  = 0.9
 EntityHeight = 0.9
 
+ArmorMinDamage = 7
+
 
 AddRack = container, 0.00, 1.20, -1.06,  0.0, 0.0, 0.0, 5.0
 
@@ -103,4 +117,4 @@ BoundingBox = 0.0, 0.7, -3.4, 3.0, 0.5
 
 BoundingBox = 0.0, 1.7, 0.0, 2.5, 2.5
 
-unmountposition = -0.45, 1.40,  3.33
+unmountposition = -0.45, 1.15,  3.33

@@ -11,7 +11,7 @@ Accuracy = 2.0
 Sound = fourtymm
 HeatCount = 35
 MaxHeatCount = 180
-Delay = 10
+Delay = 6
 Round = 30
 ReloadTime = 180
 

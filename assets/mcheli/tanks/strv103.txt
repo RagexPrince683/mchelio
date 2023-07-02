@@ -4,8 +4,8 @@ AddDisplayName = ja_JP, Strv.103B
 ItemID = 30077
 MaxHp = 220
 Speed = 1.0
-Sound = mbtrun
-MobilityYawOnGround = 4.0
+Sound = strv
+MobilityYawOnGround = 9.0
 ThrottleUpDown = 10.0
 MinRotationPitch = -12
 MaxRotationPitch = 10
@@ -21,7 +21,7 @@ HideEntity = true
 EnableBack = true
 DamageFactor = 0.0
 
-MobilityYawOnGround = 2.0
+MobilityYawOnGround = 2.8
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
@@ -61,11 +61,13 @@ AddTrackRoller =  1.4159,  0.0301, -0.9120
 AddTrackRoller =  1.4159,  0.0301, -1.7606
 AddTrackRoller =  1.4941,  0.4894, -2.5367
 
+
+AddWeapon = strvapfsds,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
 AddWeapon = ordnance_apds _strv,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
 AddWeapon = ordnance_he_strv, 0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
-AddWeapon = canistershell,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
+;AddWeapon = canistershellstrv,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
 AddWeapon = smokeshell,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
-AddWeapon = mbt_cas, 0.00, 1.1444, 3.9061, 0.0 , 0.0
+;AddWeapon = mbt_cas, 0.00, 1.1444, 3.9061, 0.0 , 0.0
 AddPartWeapon = ordnance_apds _strv, false, true, true, 0.00, 1.1444, 0.00,  0.0, -1.0,
 
 MaxFuel         = 600

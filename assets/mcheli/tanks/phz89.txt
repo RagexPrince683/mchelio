@@ -4,7 +4,7 @@ AddDisplayName = zh_CN, 89式火箭炮
 ItemID = 38875
 MaxHp = 200
 Speed = 0.65
-Sound = tank
+Sound = bmpt
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 2.5
 MaxFuel         = 1200
@@ -85,7 +85,7 @@ AddPartHatch  =   -0.6891,  1.8779,  -2.2030,   0,1,0,   110
 
 
 
-AddTrackRoller =  2.7753,  1.0575,  9.0593
+AddTrackRoller =  2.7753,  1.0575,  9.0563
 AddTrackRoller =  2.8491,  0.3489, 7.8457
 AddTrackRoller =  2.8491,  0.3489,  5.7330
 AddTrackRoller =  2.8491,  0.3489, 4.3006
@@ -93,22 +93,24 @@ AddTrackRoller =  2.8491,  0.3489, 2.4662
 AddTrackRoller =  2.8491,  0.3489, 1.1162
 AddTrackRoller =  2.8491,  0.3489, -0.3987
 AddTrackRoller =  2.8030,  1.0164, -1.7294
-AddTrackRoller =  2.7480,  1.1674, -0.4632
+
+AddTrackRoller =  2.7480,  1.1674, 0.3748
 AddTrackRoller =  2.7480,  1.1674, 3.3892
 AddTrackRoller =  2.7480,  1.1674, 6.5050
 
 
-AddTrackRoller =  -2.7753,  1.0575,  9.0593
-AddTrackRoller =  -2.8491,  0.3489,  7.8457
-AddTrackRoller =  -2.8491,  0.3489,  5.7330
-AddTrackRoller =  -2.8491,  0.3489, 4.3006
-AddTrackRoller =  -2.8491,  0.3489, 2.4662
-AddTrackRoller =  -2.8491,  0.3489, 1.1162
-AddTrackRoller =  -2.8491,  0.3489, -0.3987
-AddTrackRoller =  -2.8030,  1.0164, -1.7294
-AddTrackRoller =  -2.7480,  1.1674, -0.4632
-AddTrackRoller =  -2.7480,  1.1674, 3.3892
-AddTrackRoller =  -2.7480,  1.1674, 6.5050
+AddTrackRoller =  -2.8345,  1.0575,  9.0563
+AddTrackRoller =  -2.9084,  0.3489,  7.8457
+AddTrackRoller =  -2.9084,  0.3489,  5.7330
+AddTrackRoller =  -2.9084,  0.3489, 4.3006
+AddTrackRoller =  -2.9084,  0.3489, 2.4662
+AddTrackRoller =  -2.9084,  0.3489, 1.1162
+AddTrackRoller =  -2.9084,  0.3489, -0.3987
+AddTrackRoller =  -2.8623,  1.0164, -1.7294
+
+AddTrackRoller =  -2.8073,  1.1674, 0.3748
+AddTrackRoller =  -2.8073,  1.1674, 3.3892
+AddTrackRoller =  -2.8073,  1.1674, 6.5050
 
 
 TurretPosition = 0.00, 1.8898, 0.00
@@ -120,57 +122,60 @@ AddPartWeaponChild = false, true, 0.00, 3.3089, 0.00, 0.0
 
 ;102 left 66 right
 
-AddTurretWeapon = 122mm, -1.2777, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.9956, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.7135, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.4314, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.1493, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.1328, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.4149, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.6971, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.9792, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  1.2613, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -1.2777, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.9956, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.7135, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.4314, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.1493, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.1328, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.4149, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.6971, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.9792, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  1.2613, 5.3236, 2.6080,  0.0, 0.0, true,1, 0,-360,360, -55, 0
 
-AddTurretWeapon = 122mm, -1.2777, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.9956, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.7135, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.4314, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.1493, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.1328, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.4149, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.6971, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.9792, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  1.2613, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-
-
-AddTurretWeapon = 122mm, -1.2777, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.9956, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.7135, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.4314, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.1493, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.1328, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.4149, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.6971, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.9792, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  1.2613, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -1.2777, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.9956, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.7135, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.4314, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.1493, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.1328, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.4149, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.6971, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.9792, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  1.2613, 5.0560, 2.6531,  0.0, 0.0, true,1, 0,-360,360, -55, 0
 
 
-AddTurretWeapon = 122mm, -1.2777, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.9956, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.7135, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.4314, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm, -0.1493, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.1328, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.4149, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.6971, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  0.9792, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
-AddTurretWeapon = 122mm,  1.2613, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -1.2777, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.9956, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.7135, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.4314, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.1493, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.1328, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.4149, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.6971, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.9792, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  1.2613, 4.7883, 2.6384,  0.0, 0.0, true,1, 0,-360,360, -55, 0
 
 
-AddTurretWeapon = m240_r,    2.1514, 5.2887, -0.7037,   0.0, 0.0, false, 2, 0, -80,80, -55,20
+AddTurretWeapon = PHZ122mm, -1.2777, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.9956, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.7135, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.4314, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm, -0.1493, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.1328, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.4149, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.6971, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  0.9792, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
+AddTurretWeapon = PHZ122mm,  1.2613, 4.5207, 2.6687,  0.0, 0.0, true,1, 0,-360,360, -55, 0
 
-AddPartTurretWeapon    = m240_r,   false, true, true,   2.1514, 5.1970, -0.7217, 0
-AddPartTurretWeapon    = m240_r,   false, true, false,  2.1514, 4.5920, -0.7037, 0
+
+
+AddTurretWeapon = QJC88,    2.1514, 5.2887, -0.7037,   0.0, 0.0, false, 2, 0, -80,80, -55,20
+AddPartTurretWeapon    = QJC88,   false, true, true,   2.1514, 5.1970, -0.7217, 0
+AddPartTurretWeapon    = QJC88,   false, true, false,  2.1514, 4.5920, -0.7037, 0
+AddPartWeaponChild = false, true, 2.1514, 4.5920, -0.7037
+
+;ArmorMinDamage = 7
 
 
 

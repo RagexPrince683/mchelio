@@ -8,7 +8,10 @@ Sight = MissileSight
 Delay = 100
 LockTime = 35
 ProximityFuseDist = 1
-Sound = missile_1_snd
+Sound = mlrs
+SoundPitch = 0.5
+
+
 
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0

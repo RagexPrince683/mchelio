@@ -78,8 +78,8 @@ AddTrackRoller = -1.757,  0.2341,  -2.419
 AddTrackRoller =  1.757,  0.6061,  -3.463
 AddTrackRoller = -1.757,  0.6061,  -3.463
 
-AddTurretWeapon = m2690mm_gun_m3,   0.00, 2.314, 0.7542,   0.0, 0.0, true, 2,0,-360,360, -20,10
-AddTurretWeapon = m26290mm_gun_m3,   0.00, 2.314, 0.7542,   0.0, 0.0, true, 2,0,-360,360, -20,10
+AddTurretWeapon = m2690mm_gun_m3,   0.00, 2.314, 0.0,   0.0, 0.0, true, 2,0,-360,360, -20,10
+AddTurretWeapon = m26290mm_gun_m3,   0.00, 2.314, 0.0,   0.0, 0.0, true, 2,0,-360,360, -20,10
 AddTurretWeapon = browning,   1.00, 2.314, 0.7542,   0.0, 0.0, true, 2,0,-360,360, -20,10
 AddPartWeapon    = m2690mm_gun_m3,      false, true, false,  0.00,  1.70, 0.7542
 AddPartWeaponChild = false, true, 0.00, 2.314, 1.908,

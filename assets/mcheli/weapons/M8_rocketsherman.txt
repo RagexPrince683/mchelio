@@ -11,6 +11,7 @@ Sight = MoveSight
 Delay = 4
 ReloadTime = 200
 Round = 60
+SoundPitch = 0.4
 Piercing = 0
 Gravity = -0.01
 Particle = largeexplode
@@ -28,5 +29,5 @@ SoundVolume = 15
 
 MaxAmmo = 60
 SuppliedNum = 1
-Item =  1, hbm:item.ingot_dura_steel
-Item =  1, hbm:item.ingot_semtex
+Item =  2, iron_ingot
+Item =  2, gunpowder

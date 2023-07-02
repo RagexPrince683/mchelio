@@ -10,7 +10,7 @@ Sight = MoveSight
 Piercing  = 0
 SoundPitch = 0.7
 SoundVolume = 20
-Sound = cannon_1_snd
+Sound = mspg
 Recoil = 1.5
 Delay = 150
 CameraRotationSpeedPitch = 0.6
@@ -30,6 +30,9 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 AddDisplayName = en_US, 155mm Howitzer Gun [ERFB-BB/HE]
 SoundVolume = 15
+
+DisplayMortarDistance = true
+
 
 
 

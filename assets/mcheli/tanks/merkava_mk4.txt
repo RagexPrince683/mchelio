@@ -3,7 +3,7 @@ AddDisplayName = ja_JP, Merkava Mk.4
 ItemID = 30075
 MaxHp = 300
 Speed = 0.6
-Sound = tank
+Sound = merkavaeng
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 2.5
 MinRotationPitch = -20
@@ -95,16 +95,18 @@ AddTrackRoller =  1.72,  0.18, -2.19
 AddTrackRoller =  1.72,  0.73, -3.10
 
 
-AddPartWeapon = rehinmetall_apfsds / canistershell, false, true, false,  0.00, 1.52, 0.25, 0
+AddPartWeapon = merkava4rehinmetall_apfsds/ merkava4rehinmetall_he / merkava4lahat / merkava120mmcanistershell, false, true, false,  0.00, 1.52, 0.25, 0
 AddPartWeaponChild = false, true, 0.00, 2.01, 1.62, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.01, 1.62, 0.5
-AddPartTurretWeapon = mg7_62mm, false, true, true,  -0.83, 3.39,-0.57, 0
+AddPartTurretWeapon = merkava4mg7_62mm, false, true, true,  -0.83, 3.39,-0.57, 0
 
-AddTurretWeapon = rehinmetall_apfsds, 0.00, 2.22, 0.00,  0.0,  0.0, true, 1, 0,-360,360, -20, 7
-AddTurretWeapon = canistershell,      0.00, 2.22, 0.00,  0.0,  0.0, true, 1, 0,-360,360, -20, 7
-AddTurretWeapon = 60mm_mortar,        0.90, 3.00, 0.52,  0.0,-45.0, true, 1, 0,-360,360, -85, 7
-AddTurretWeapon = mg12_7mm_l,         0.00, 2.92, 2.70,  0.0,  0.0, true, 1, 0,-360,360, -20, 7
-AddTurretWeapon = mg7_62mm,          -0.83, 3.39,-0.57,  0.0,  0.0, false,2, 0,-360,360, -50, 5
+AddTurretWeapon = merkava4rehinmetall_apfsds, 0.00, 2.22, 0.00,  0.0,  0.0, true, 1, 0,-360,360, -20, 7
+AddTurretWeapon = merkava4rehinmetall_he, 0.00, 2.22, 0.00,  0.0,  0.0, true, 1, 0,-360,360, -20, 7
+AddTurretWeapon = merkava4lahat, 0.00, 2.22, 0.00,  0.0,  0.0, true, 1, 0,-360,360, -20, 7
+AddTurretWeapon = merkava120mmcanistershell,      0.00, 2.22, 0.00,  0.0,  0.0, true, 1, 0,-360,360, -20, 7
+AddTurretWeapon = merkava460mm_mortar,        0.90, 3.00, 0.52,  0.0,-45.0, true, 1, 0,-360,360, -85, 7
+AddTurretWeapon = merkava412_7,         0.00, 2.92, 2.70,  0.0,  0.0, true, 1, 0,-360,360, -20, 7
+AddTurretWeapon = merkava4mg7_62mm,          -0.83, 3.39,-0.57,  0.0,  0.0, false,2, 0,-360,360, -80, 50
 
 MaxFuel         = 1200
 FuelConsumption = 2.5

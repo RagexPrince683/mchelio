@@ -10,7 +10,7 @@ ReloadTime = 110
 Round = 2
 LockTime = 15
 ProximityFuseDist = 1
-Sound = missile_1_snd
+Sound = bmptmissile
 
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0

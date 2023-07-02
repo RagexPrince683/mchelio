@@ -4,7 +4,7 @@ AddDisplayName = en_US, PLZ-45
 ItemID = 8997
 MaxHp = 200
 Speed = 0.60
-Sound = mbt_run
+Sound = chinesecrap
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 4.0
 MinRotationPitch = -65
@@ -111,8 +111,8 @@ AddTurretWeapon = 155sgh1,  0.00, 2.9709, 2.2037,  0.0, 0.0, true,1, 0,-360,360,
 AddTurretWeapon = 155sgh2,  0.00, 2.9709, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -65, 6
 
 
-AddPartTurretWeapon    = 12_7mmgun,   false, true, true,   1.3752, 4.3978, 1.6956
-AddTurretWeapon = 12_7mmgun,    1.3752, 4.6589, 1.6905,   0.0, 0.0, false, 2, 0, -80,80, -70,15
+AddPartTurretWeapon    = QJC88,   false, true, true,   1.3752, 4.3978, 1.6956
+AddTurretWeapon = QJC88,    1.3752, 4.6589, 1.6905,   0.0, 0.0, false, 2, 0, -80,80, -70,15
 
 
 ArmorMinDamage = 19

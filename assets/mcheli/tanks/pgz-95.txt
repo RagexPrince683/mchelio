@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, PGZ 95
 ItemID = 9997
 MaxHp = 200
 Speed = 0.63
-Sound = mbt_run
+Sound = chinesecrap
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 4.0
 MinRotationPitch = -85
@@ -118,7 +118,7 @@ AddTrackRoller = -1.8326,  0.7178,  -2.3742
 
 
 
-AddPartWeapon = 25mm / hy6 , false, true, false,  0.00, 2.8397, 0.000, 0
+AddPartWeapon = 25mm / 25mmap / hy6 , false, true, false,  0.00, 2.8397, 0.000, 0
 AddPartWeaponChild = false, true, 0.00, 2.8392, -0.9190
 AddPartWeaponChild = false, true, 0.7520, 2.8392, -0.9190
 AddPartWeaponChild = false, true, -0.7520, 2.8392, -0.9190
@@ -130,11 +130,16 @@ AddTurretWeapon = 25mm,   -0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 
 AddTurretWeapon = 25mm,   0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
 AddTurretWeapon = 25mm,   -0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
 
+AddTurretWeapon = 25mmap,   0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = 25mmap,   -0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = 25mmap,   0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = 25mmap,   -0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
 
-AddTurretWeapon = hy6,      0.8802, 3.5378, -0.9190, 0.0, 0.0, true, 2, 0, -360, 360
-AddTurretWeapon = hy6,      -0.8802, 3.5378, -0.9190, 0.0, 0.0, true, 2, 0, -360, 360
-AddTurretWeapon = hy6,      0.8802, 3.3506, -0.9190, 0.0, 0.0, true, 2, 0, -360, 360
-AddTurretWeapon = hy6,      -0.8802, 3.3506, -0.9190, 0.0, 0.0, true, 2, 0, -360, 360
+
+AddTurretWeapon = hy6,      0.8802, 3.5378, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360
+AddTurretWeapon = hy6,      -0.8802, 3.5378, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360
+AddTurretWeapon = hy6,      0.8802, 3.3506, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360
+AddTurretWeapon = hy6,      -0.8802, 3.3506, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360
 
 AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 1
 AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,1
