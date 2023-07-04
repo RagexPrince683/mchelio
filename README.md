@@ -1,44 +1,15 @@
-How to install:
-
-
-Step 0: have minecraft
-
-
-Step 1: ensure you have minecraft forge https://files.minecraftforge.net/ 
-
-
+Hello! This file was published to Nexusmods by RagexPrince683.
+To get this mod working you need to follow the following steps:
+Step 0: have a minecraft account https://www.minecraft.net/en-us
+Step 1: ensure you have minecraft forge https://files.minecraftforge.net/
 Step 2: click the green code drop down menu on the front page
-
-
 Step 3: click download as zip
-
-
 Step 4: extract the zip file
-
-
-Step 5: rename the folder 'mchelio-main' to mcheli (ensure that there is an assets and a mcheli folder inside of the folder entitled 'mchelio-main' otherwise there may be something wrong.)
-
-
-Step 6: put the main (root directory) folder mcheli into the mods folder in your minecraft directory (NOT JUST THE ROOT FOLDER MCHELI you can tell which one is the root foldered mcheli if it has classfiles in it. You want those in your mods folder but you want both assets and mcheli to be subrooted folders.) 
-
-Step 7: Install HBM's Nuclear Tech Mod as that is a dependency for this mod. The link can be found here: https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT I am unsure if the latest HBM release works so if it does not, use the HBM version https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT/releases/tag/1.0.27X3920
-
-
+Step 5: ensure the file name is 'mcheli' (ensure that there is an assets and a mcheli folder inside of the folder entitled 'mcheli' otherwise there may be something wrong.)
+Step 6: put the main (parent) folder mcheli into the mods folder in your minecraft directory (NOT JUST THE ROOT FOLDER MCHELI you can tell which one is the root foldered mcheli if it has classfiles in it. You want those in your mods folder but you want both assets and mcheli to be subrooted folders.)
+Step 7: Install HBM's Nuclear Tech Mod as it is a dependency for this mod. The link for HBM's mod can be found here: https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT NOTICE!!: if you are using an older version of the mod download this hbm version otherwise you will encounter issues (again only if you are using the first version of mchelio): https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT/releases/tag/1.0.27X3920
 Step 8: Launch minecraft
 
-
-
-
-
-
-
-If you already know how to install and or are a creator for mcheli/mcheli content packs please read:
-
-
-Hello! This is a mcheli pack I stole and tweaked the values for because I just don't care anymore.
 If you so happen to have an issue with this please contact me at: ragexprince684@gmail.com
-I will absolutely wholeheartedly ignore you because I do not check my emails. Thanks in advance!
-To further elaborate on what I would like to see this pack become is something warthunder esque or arma 3 tier for minecraft of course, using mcheli's limitations.
-However, free time isn't infinite and this CERTAINLY doesn't pay at all, so I highly doubt anything that massive will ever come of this.
 
-https://docs.google.com/document/d/1wP-D80ekNj4ffkPDH3FNNgTSrpMfKVsLFk5IBiFDyyw/edit
+If there are any bugs or issues with the project please contact me on discord at: https://discord.gg/uQK6QF2TeA
