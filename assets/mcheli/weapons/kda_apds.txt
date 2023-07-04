@@ -12,6 +12,9 @@ Round = 320
 SoundVolume = 3
 SoundPitch = 1.0
 Sound = gepardmain
+HeatCount = 5
+MaxHeatCount = 450
+
 Accuracy = 1.5
 ModeNum = 1
 Gravity = -0.001

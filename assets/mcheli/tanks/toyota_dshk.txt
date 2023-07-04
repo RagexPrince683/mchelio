@@ -1,12 +1,12 @@
-DisplayName = Toyota with DSHK
-AddDisplayName = en_US, Toyota with DSHK
+DisplayName = Toyota Hilux with DSHK
+AddDisplayName = en_US, Toyota Hilux with DSHK
 AddDisplayName = ru_RU, Тойота с ДШК
 MaxHp = 150
 ThrottleUpDown = 10.0
 Speed = 0.7
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
-Sound = prop
+Sound = hilux
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
@@ -46,8 +46,8 @@ AddPartWheel     =  -0.97,  0.1714, -0.0691
 
 
 ;AddTurretWeapon = dshk12_7mm, 0.296, 2.0606, 0.1342, 0.0, 0.0, false,2, 0,-100,100, -58, 4
-AddWeapon = dshk12_7mm, -0.0671, 2.0606, 0.018, 0.0, 0.0, false,2, 0,-100,100, -30, 1
-AddPartWeapon = dshk12_7mm, false, true, false, -0.0671, 0.8016, 0.018, 0
+AddWeapon = toyotadshk12_7mm, -0.0671, 2.0606, 0.018, 0.0, 0.0, false,2, 0,-100,100, -30, 1
+AddPartWeapon = toyotadshk12_7mm, false, true, false, -0.0671, 0.8016, 0.018, 0
 ;y value for part was 0.8016
 AddPartWeaponChild = false, true, 0.0296, 2.1174, 0.1342, 0.0
 ;weaponchild was -0.411, 0.8633, -0.671

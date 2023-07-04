@@ -34,5 +34,6 @@ ReloadTime = 100
 
 
 
+
 ModeNum = 2
-Sound = missile_15_snd
+Sound = bmptmissile

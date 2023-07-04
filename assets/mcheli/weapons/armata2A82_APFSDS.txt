@@ -21,6 +21,8 @@ Group = MainGun
 Recoil = 3
 Piercing = 5
 
+Gravity = -0.001
+
 DamageFactor = tank, 10.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0

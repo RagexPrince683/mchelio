@@ -3,6 +3,7 @@ Type = MachineGun2
 Power = 11
 Acceleration = 5.0
 Explosion = 2
+ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight
 Delay = 0
@@ -14,6 +15,10 @@ Sound = gepardmain
 Accuracy = 1.5
 ModeNum = 1
 Gravity = -0.001
+ProximityFuseDist = 2.0
+
+HeatCount = 5
+MaxHeatCount = 450
 
 AddMuzzleFlashSmoke =  4.2, 10,  2.0,  1.0, 45,  220,160,140,120
 ;AddMuzzleFlashSmoke = 4.2, 10,  2.0,  1.0, 35,  200,190,170,150

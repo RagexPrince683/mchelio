@@ -1,12 +1,12 @@
-DisplayName = Toyota with B-8V20A
-AddDisplayName = en_US, Toyota with B-8V20A
+DisplayName = Toyota Hilux with B-8V20A
+AddDisplayName = en_US, Toyota Hilux with B-8V20A
 AddDisplayName = ru_RU, Тойота с Б-8В20А
 MaxHp = 150
 ThrottleUpDown = 10.0
 Speed = 0.7
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
-Sound = prop
+Sound = hilux
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
@@ -41,8 +41,8 @@ AddPartWheel     = 0.97,  0.1765, 3.6098, 30
 AddPartWheel     =  -0.97,  0.1765, 3.6098, 30
 AddPartWheel     = 0.97,  0.1714, -0.0691
 AddPartWheel     =  -0.97,  0.1714, -0.0691
-AddTurretWeapon = b-8v20a, -0.06, 2.0668, 0, 0.0, -10, false,2, 0,0,0, -6, 0
-AddPartWeapon = b-8v20a, false,false,true, 0,1.7037,-0.5852
+AddTurretWeapon = toyotab-8v20a, -0.06, 2.0668, 0, 0.0, -10, false,2, 0,0,0, -6, 0
+AddPartWeapon = toyotab-8v20a, false,false,true, 0,1.7037,-0.5852
 
 InventorySize = 9
 

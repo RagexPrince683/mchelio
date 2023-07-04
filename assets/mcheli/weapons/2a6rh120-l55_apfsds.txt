@@ -10,6 +10,8 @@ ReloadTime = 100
 Round = 1
 SoundVolume = 10.0
 Sound = leotwoasixmain
+
+Gravity = -0.001
 Accuracy = 0.5
 ModelBullet = bullet105mm
 BulletColor        = 255, 255, 100, 100

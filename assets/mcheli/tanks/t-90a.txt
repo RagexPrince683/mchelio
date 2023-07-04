@@ -3,7 +3,7 @@ AddDisplayName = en_US, T-90A MBT
 AddDisplayName = ja_JP, T-90A　主力戦車
 MaxHp = 450
 Speed = 0.8
-Sound = mbtrun
+Sound = tninety
 ThrottleUpDown = 10.0
 MobilityRoll = 0
 Gravity = -0.61
@@ -42,7 +42,7 @@ AddGunnerSeat =  0.00, 1.58, 0.44, 0.00, 2.58, 0.44, false, -14, 4, false
 
 CameraPosition =  0.00, 2.58, 0.44, true
 
-TurretPosition = 0.0, 0.0, 0.0
+TurretPosition = 0.00, 1.58, 0.44
 
 AddCrawlerTrack = true, 0.23, -2.40,  -0.30/3.13, -0.17/3.46, 0.34/4.31, 0.61/4.42, 0.87/4.31, 0.98/4.04, 0.98/-3.32, 0.87/-3.59, 0.61/-3.70, 0.34/-3.59, -0.31/-2.12,
 AddCrawlerTrack = true, 0.23, 2.40,  -0.30/3.13, -0.17/3.46, 0.34/4.31, 0.61/4.42, 0.87/4.31, 0.98/4.04, 0.98/-3.32, 0.87/-3.59, 0.61/-3.70, 0.34/-3.59, -0.31/-2.12,
@@ -69,13 +69,13 @@ AddTrackRoller = 2.32,  0.60,  -3.32
 AddWeapon = 2A46M-1_APFSDS,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 4
 AddWeapon = 2A46M-1_HEATMP,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 4
 AddWeapon = 2A46M-1_HE,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 4
-AddWeapon = 9M119M,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -90, 90
-AddWeapon = mg_coaxial,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 4
+AddWeapon = t909M119M,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -90, 90
+AddTurretWeapon = t90mg_coaxial,  0.50, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 4
 AddPartWeapon = 2A46M-1_APFSDS, false, true, false,  0.00, 1.58, 0.44, 0
 AddPartWeaponChild = false, true, 0.00, 1.60, 1.81
 
-AddWeapon = mg12_7mm,  -0.95, 2.73, 0.54,  0.0, 0.0, true,1, 0,-360,360, -75, 4
-AddPartWeapon = mg12_7mm, false, true, false,  0.00, 1.58, 0.44, 0
+AddTurretWeapon = t90mg12_7mm,  -0.95, 2.73, 0.54,  0.0, 0.0, true,1, 0,-360,360, -75, 4
+AddPartWeapon = t90mg12_7mm, false, true, false,  0.00, 1.58, 0.44, 0
 AddPartWeaponChild = false, true, 0.00, 2.64, 0.54
 
 ;AddWeapon = none,  0.00, 0.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -14, 4

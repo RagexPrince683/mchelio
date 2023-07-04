@@ -1,7 +1,7 @@
 DisplayName = Type89 IFV
 AddDisplayName = ja_JP, Type 89 IFV
 ItemID = 30100
-MaxHp = 200
+MaxHp = 250
 Speed = 1.0
 Sound = mbt_run
 ThrottleUpDown = 10.0
@@ -56,7 +56,7 @@ AddSeat =  -0.7,0.6,-1.5
 MotionFactor = 0.9
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-;ArmorMinDamage = 12
+ArmorMinDamage = 12
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%

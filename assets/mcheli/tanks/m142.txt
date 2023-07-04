@@ -73,7 +73,7 @@ AddTurretWeapon = m30, -0.55, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 
 AddTurretWeapon = m30,  0.00, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 3
 AddTurretWeapon = m30,  0.54, 2.72, -0.7,  0.0, 0.0,  false,2, 0,-360,360, -25, 3
 
-
+TurretPosition = 0, 2.30, 0
 
 
 

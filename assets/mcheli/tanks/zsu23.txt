@@ -4,9 +4,10 @@ AddDisplayName = ja_JP, ZSU-23-4
 ItemID = 30100
 MaxHp = 200
 Speed = 0.7
-Sound = mbt_run
+StepHeight = 1.5
+Sound = shilkaeng
 ThrottleUpDown = 10.0
-MobilityYawOnGround = 2.0
+MobilityYawOnGround = 2.8
 MinRotationPitch = -85
 MaxRotationPitch = 4
 MobilityRoll = 0
@@ -25,6 +26,8 @@ HideEntity = true
 EnableBack = true
 AddTexture =zsu1
 
+WeightType = Tank
+
 AddGunnerSeat =  0.00,  0, 0.17,   0.00,  3.2, 0.17, false, -85, 4, true
 
 
@@ -39,12 +42,17 @@ HUD = mbt_hud,vehicle
 
 ;AddTurretWeapon =23mm, 0.00, 2.74, 0,  0.0, 0.0, true,1, 0,-360,360, -80, 5
 
-AddTurretWeapon = 23mm,  -0.251, 2.55, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
-AddTurretWeapon = 23mm,  0.247, 2.55, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
-AddTurretWeapon = 23mm,  -0.349, 2.13, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
-AddTurretWeapon = 23mm,  0.340, 2.13, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+AddTurretWeapon = shilkap23mm,  -0.251, 2.55, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+AddTurretWeapon = shilkap23mm,  0.247, 2.55, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+AddTurretWeapon = shilkap23mm,  -0.349, 2.13, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+AddTurretWeapon = shilkap23mm,  0.340, 2.13, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
 
-AddPartWeapon = 23mm, false, true, false, 0.00, 2.74, 0, 0
+AddTurretWeapon = shilkhe23mm,  -0.251, 2.55, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+AddTurretWeapon = shilkhe23mm,  0.247, 2.55, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+AddTurretWeapon = shilkhe23mm,  -0.349, 2.13, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+AddTurretWeapon = shilkhe23mm,  0.340, 2.13, 3.82,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+
+AddPartWeapon = shilkap23mm / shilkhe23mm, false, true, false, 0.00, 2.74, 0, 0
 AddPartWeaponChild = false, true,  0, 3.81, -1.8
 AddPartWeaponChild = false, true, -0.48, 2.74, 1.19
 AddPartWeaponChild = false, true,   0.00, 2.27, 1.5

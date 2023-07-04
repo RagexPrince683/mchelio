@@ -101,11 +101,11 @@ AddPartWeaponChild = false, true, -0.43, 1.78, 1.5, 0.5
 AddTurretWeapon = 3bm42, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -14, 6
 AddTurretWeapon = 3bk18m, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -14, 6
 AddTurretWeapon = 9k119, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -14, 6
-AddTurretWeapon = mg_coaxial,  -0.46, 1.73, 1.84,  0.0, 0.0, true,1, 0,-360,180, -14, 6
+AddTurretWeapon = t64mg_coaxial,  -0.46, 1.73, 1.84,  0.0, 0.0, true,1, 0,-360,180, -14, 6
 
-AddPartTurretWeapon    = mg12_7mms,   false, true, false,  -0.72, 2.84, -0.61
-AddPartTurretWeapon    = mg12_7mms, false, true, true, -0.72, 2.96, -0.61
-AddTurretWeapon = mg12_7mms,    -0.69, 3.07, 0.99,   0.0, 0.0, false, 2, 0, -360,180, -70,5
+AddPartTurretWeapon    = t64mg12_7mms,   false, true, false,  -0.72, 2.84, -0.61
+AddPartTurretWeapon    = t64mg12_7mms, false, true, true, -0.72, 2.96, -0.61
+AddTurretWeapon = t64mg12_7mms,    -0.69, 3.07, 0.99,   0.0, 0.0, false, 2, 0, -95,95, -70,5
 
 AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
 
@@ -155,4 +155,4 @@ ArmorMinDamage = 20
 
 unmountposition = 0.00,  1.50, 1.55
 
-Sound = t64run
+Sound = tsixtyfoureng

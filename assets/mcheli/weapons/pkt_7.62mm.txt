@@ -13,6 +13,9 @@ SoundPitch = 1.0
 Sound = pkt
 Gravity = -0.001
 
+AddMuzzleFlash      =  1.5,      0.22,        1,  150,254,159,84
+AddMuzzleFlashSmoke =  1.7,  1,   2.0,  0.5, 15,  180,250,245,240
+
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0

@@ -11,10 +11,12 @@ Delay = 6
 HeatCount = 50
 MaxHeatCount = 900
 ReloadTime = 30
-Sound =cannon_5_snd
+Sound =rcvtwentyfive
 SoundVolume = 3
 ;gun_h1_snd
 ;cannon_5_snd
+
+Round = 4
 
 group = maingun
 
@@ -28,7 +30,7 @@ DamageFactor = player, 20.0
 AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 500
-SuppliedNum = 80
+MaxAmmo = 126
+SuppliedNum = 126
 Item =  2, iron_ingot
 Item =  2, gunpowder

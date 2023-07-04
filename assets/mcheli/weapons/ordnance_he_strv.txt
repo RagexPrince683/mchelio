@@ -33,7 +33,7 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-Gravity = -0.001
+Gravity = -0.005
 
 
 AddMuzzleFlash      =  2.2,      1.80,        7,  220,254,159,74

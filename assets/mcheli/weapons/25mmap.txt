@@ -17,6 +17,9 @@ Accuracy = 1.5
 ;ModeNum = 2
 Piercing = 1
 
+HeatCount = 5
+MaxHeatCount = 450
+
 Gravity = -0.001
 
 Acceleration = 7.5

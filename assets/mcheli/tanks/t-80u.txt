@@ -69,17 +69,18 @@ AddTrackRoller = 2.32,  0.16, -1.07
 AddTrackRoller = 2.32,  0.16, -2.12
 AddTrackRoller = 2.32,  0.60, -3.32
 
-AddWeapon = 3bm42[APFSDS],  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -15, 5
-AddWeapon = 3bk18m[HEAT],  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -15, 5
-AddWeapon = 3of26[HE],      0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -15, 5
-AddWeapon = 9M119M[ATGM],          0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -90, 90
-AddWeapon = mg_coaxial,      0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -15, 5
-AddPartWeapon = 3bm42[APFSDS] / 3bk18m[HEAT] / 3of26[HE]/9M119M[ATGM], false, true, false,  0.00, 1.58, 0.44, 0
+AddWeapon = t803bm42[APFSDS],  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -15, 5
+AddWeapon = t803bm46[apfsds],  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -15, 5
+AddWeapon = t803bk18m[HEAT],  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -15, 5
+AddWeapon = t803of26[HE],      0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -15, 5
+AddWeapon = t809M119M[ATGM],          0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -90, 90
+AddTurretWeapon = t80mg_coaxial,      0.50, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -15, 5
+AddPartWeapon = t803bm42[APFSDS] / t803bm46[apfsds] / t803bk18m[HEAT] / t803of26[HE] / t809M119M[ATGM], false, true, false,  0.00, 1.58, 0.44, 0
 AddPartWeaponChild = false, true, 0.00, 1.60, 1.81
 AddPartWeaponChild = false, true, 0.00, 1.60, 1.81, 0.5
 
-AddWeapon = mg12_7mm,  -0.95, 2.73, 0.54,  0.0, 0.0, true,1, 0,-360,360, -60, 5
-AddPartWeapon = mg12_7mm, false, true, false,  0.00, 1.58, 0.44, 0
+AddTurretWeapon = t80mg12_7mm,  -0.95, 2.73, 0.54,  0.0, 0.0, true,1, 0,-360,360, -60, 5
+AddPartWeapon = t80mg12_7mm, false, true, false,  0.00, 1.58, 0.44, 0
 AddPartWeaponChild = false, true, 0.00, 2.64, 0.54
 
 EnableBack = true

@@ -1,10 +1,10 @@
-DisplayName = T-84 Oplot M
-AddDisplayName = en_US, T-84 Oplot M
+DisplayName = T-84 Oplot-M
+AddDisplayName = en_US, T-84 Oplot-M
 AddDisplayName = ja_JP, T-84 オプロートM
 ItemID = 30100
 MaxHp = 600
 Speed = 0.65
-Sound = mbt_run
+Sound = teightyeng
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 2.5
 MinRotationPitch = -15
@@ -58,7 +58,7 @@ MotionFactor = 0.9
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
-ArmorDamageFactor = 1.00
+ArmorDamageFactor = 0.98
 ;後退可能にする
 EnableBack = true
 
@@ -95,10 +95,12 @@ AddTrackRoller =  1.79, 0.81, -3.26
 AddPartWeapon = kba-3_ap / kba-3_he, false, true, false,  0.00, 1.52, 0.25, 0
 AddPartWeaponChild = false, true, 0.00, 2.01, 1.62
 
-AddTurretWeapon = kba-3_ap,   0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -15, 5
-AddTurretWeapon = kba-3_he,   0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -15, 5
-AddTurretWeapon = 9M119M,     0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -90, 90
-AddTurretWeapon = mg7_62mm,  -0.17, 2.25, 2.10,  0.0, 0.0, true,1, 0,-360,360, -15, 5
+AddTurretWeapon = kba-3_ap,   0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -13, 6
+AddTurretWeapon = kba-3_he,   0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -13, 6
+AddTurretWeapon = kba9M119M,     0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -13, 6
+AddTurretWeapon = kbamg7_62mm,  -0.17, 2.25, 2.10,  0.0, 0.0, true,1, 0,-360,360, -13, 6
+
+TurretPosition = 0.0, 1.52, 0.25
 
 AddRecipe = "XXX",  "X X",  "III",  X, iron_block,  I, iron_ingot
 
@@ -117,9 +119,9 @@ BoundingBox = 0.0, 0.75, 1.1, 3.1, 1.55, 0.14
 BoundingBox = 0.0, 1.00, 3.05, 3.0, 0.1, 0.04
 BoundingBox = 0.0, 1.10, 2.75, 3.0, 0.1, 0.04
 BoundingBox = 0.0, 1.20, 2.25, 3.0, 0.1, 0.04
-BoundingBox = 0.0, 1.30, 1.80, 3.0, 0.1, 0.09
-BoundingBox = 0.0, 1.40, 1.40, 3.0, 0.1, 0.10
-BoundingBox = 0.0, 1.475, 1.20, 3.0, 0.1, 0.10
+BoundingBox = 0.0, 1.30, 1.80, 3.0, 0.1, 0.05
+BoundingBox = 0.0, 1.40, 1.40, 3.0, 0.1, 0.06
+BoundingBox = 0.0, 1.475, 1.20, 3.0, 0.1, 0.06
 
 ;lower plate 
 
@@ -132,6 +134,8 @@ BoundingBox = 0.0, 1.00, -2.0, 3.15, 1.35, 0.98
 BoundingBox = 0.0, 1.00, -2.13, 3.0, 1.2, 0.4
 
 BoundingBox = 0.0, 1.965, 0.0, 2.6, 0.9, 0.03
+
+AddRecipe = "XXX",  "XDX",  "IXI",  X, iron_block,  D, diamond_block,  I, iron_ingot
 
 
 unmountposition = 0.00,  1.50, 0.25

@@ -7,7 +7,7 @@ Sight = MoveSight
 Delay = 1
 SoundVolume = 10.0
 SoundPitch = 1.0
-Sound = m2_snd
+Sound = dshk
 Accuracy = 0.5
 HeatCount = 5
 MaxHeatCount = 1500
@@ -34,5 +34,5 @@ SoundVolume = 15
 
 MaxAmmo = 500
 SuppliedNum = 1
-Item =  1, hbm:item.plate_copper
-Item =  2, hbm:item.cordite
+Item =  2, iron_ingot
+Item =  2, gunpowder

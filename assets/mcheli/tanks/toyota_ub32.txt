@@ -1,12 +1,12 @@
-DisplayName = Toyota with UB-32
-AddDisplayName = en_US, Toyota with UB-32
+DisplayName = Toyota Hilux with UB-32
+AddDisplayName = en_US, Toyota Hilux with UB-32
 AddDisplayName = ru_RU, Тойота с УБ-32
 MaxHp = 150
 ThrottleUpDown = 10.0
 Speed = 0.7
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
-Sound = prop
+Sound = hilux
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
@@ -40,8 +40,8 @@ AddPartWheel     = 0.97,  0.1765, 3.6098, 30
 AddPartWheel     =  -0.97,  0.1765, 3.6098, 30
 AddPartWheel     = 0.97,  0.1714, -0.0691
 AddPartWheel     =  -0.97,  0.1714, -0.0691
-AddTurretWeapon = ub-32, -0.06, 2.0668, 0, 0.0, -10, false,2, 0,0,0, -6, 0
-AddPartWeapon = ub-32, false,false,true, 0,1.7037,-0.5852
+AddTurretWeapon = toyotaub-32, -0.06, 2.0668, 0, 0.0, -10, false,2, 0,0,0, -6, 0
+AddPartWeapon = toyotaub-32, false,false,true, 0,1.7037,-0.5852
 
 InventorySize = 9
 

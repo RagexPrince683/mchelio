@@ -17,6 +17,8 @@ BulletColor        = 255, 255, 100, 100
 Group = MainGun
 Recoil = 0.5
 
+Gravity = -0.001
+
 
 Acceleration = 7.0
 ;ModelBullet = bullet105mm

@@ -14,6 +14,8 @@ Sound = ninetyninemain
 Group = MainGun
 Recoil = 0.5
 
+Gravity = -0.001
+
 
 Delay = 90
 ReloadTime = 120

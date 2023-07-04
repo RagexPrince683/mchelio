@@ -4,10 +4,10 @@ AddDisplayName = ja_JP, ZTZ-96A
 ItemID = 33404
 MaxHp = 530
 Speed = 0.65
-Sound = mbtrun
+Sound = chinesecrap
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 2.0
-MinRotationPitch = -60
+MinRotationPitch = -85
 MaxRotationPitch = 6
 MobilityRoll = 0
 Gravity = -0.61
@@ -24,7 +24,7 @@ CameraRotationSpeed = 26
 HUD = mbt_hud
 
 
-AddGunnerSeat =  0.00,  0.00, 0.00, 0.0, 3.50, 0.00, false, -60, 6, true
+AddGunnerSeat =  0.00,  0.00, 0.00, 0.0, 3.50, 0.00, false, -85, 6, true
 
 StepHeight = 1.5
 
@@ -86,17 +86,17 @@ EnableBack = true
 PivotTurnThrottle = 0.0
 
 
-AddWeapon = 2a46_apfsds,  0.00, 2.20, 0.00,  0.0, 0.0, true,1, 0,-360,360, -14, 6
-AddWeapon = 2a46_heat,  0.00, 2.20, 0.00,  0.0, 0.0, true,1, 0,-360,360, -14, 6
-AddPartWeapon = 2a46_apfsds, false, true, false,  0.00, 2.20, 0.00, 0
+AddWeapon = ztz2a46_apfsds,  0.00, 2.20, 0.00,  0.0, 0.0, true,1, 0,-360,360, -12, 5
+AddWeapon = ztz2a46_heat,  0.00, 2.20, 0.00,  0.0, 0.0, true,1, 0,-360,360, -12, 5
+AddPartWeapon = ztz2a46_apfsds, false, true, false,  0.00, 2.20, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.20, 1.43
 
-AddTurretWeapon = mg7_7mm,  -0.78, 3.48, 0.71,  0.0, 0.0, true,1, 0,-360,360, -60, 5
-AddPartWeapon = mg7_7mm, false, true, false,  0.00, 1.65, 0.00, 0
+AddTurretWeapon = ztzmg7_7mm,  -0.78, 3.48, 0.71,  0.0, 0.0, true,1, 0,-360,360, -85, 6
+AddPartWeapon = ztzmg7_7mm, false, true, false,  0.00, 1.65, 0.00, 0
 AddPartWeaponChild = false, true, -0.78, 3.48, 0.71
 
-AddTurretWeapon = mg_coaxial, -0.37, 2.11, 1.99,  0.0, 0.0, true,1, 0,-360,360, -14, 6
-AddPartWeapon = mg_coaxial, false, true, false,  0.00, 1.65, 0.00, 0
+AddTurretWeapon = ztzmg_coaxial, -0.37, 2.11, 1.99,  0.0, 0.0, true,1, 0,-360,360, -12, 5
+AddPartWeapon = ztzmg_coaxial, false, true, false,  0.00, 1.65, 0.00, 0
 AddPartWeaponChild = false, true, -0.37, 2.11, 1.99
 
 MaxFuel         = 800
