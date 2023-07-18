@@ -18,6 +18,12 @@ EnableNightVision = true
 MaxFuel           = 1200
 FuelConsumption   = 1.0
 ThirdPersonDist = 8
+AddTexture = 350zy
+AddTexture = 350zb
+AddTexture = 350zr
+AddTexture = 350zg
+AddTexture = 350zbb
+AddTexture = 350zw
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8

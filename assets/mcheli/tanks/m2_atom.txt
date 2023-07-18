@@ -57,4 +57,6 @@ AddPartWeaponChild = false, true, 0.00, 0.1746,-0.1024,  0.006
 
 AddPartWeapon = m2_atom, false, false, false,  0.000, 0.0000,  0.00, -0.003
 
+AddRecipe = "   ",  "III",  "RIR",   I, iron_ingot, R, redstone
+
 AddWeapon = m2_atom,   0.00, 0.1746,-0.15,  0.0, 0.0,  true,  1, 0,  -25,25, -37, 28

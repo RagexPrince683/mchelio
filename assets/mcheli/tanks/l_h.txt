@@ -170,6 +170,8 @@ BoundingBox = 0.0, 0.00, -1.33, 2.0, 0.2
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 
+AddRecipe = " G ",  "IDI",  "RIR",   G, glass, I, iron_ingot, D, diamond_block, R, redstone
+
 InventorySize = 9
 
 ;AddRack = Paint L_H,  0.0, -0.04895, 0.0,   0.0, 0.0, -3.17,  10, 10, 0, 3.0

@@ -62,11 +62,10 @@ AddTrackRoller =  1.4159,  0.0301, -1.7606
 AddTrackRoller =  1.4941,  0.4894, -2.5367
 
 
-AddWeapon = strvapfsds,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
-AddWeapon = ordnance_apds _strv,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
-AddWeapon = ordnance_he_strv, 0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
-;AddWeapon = canistershellstrv,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
-AddWeapon = smokeshell,  0.00, 1.1444, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
+AddWeapon = strvapfsds,  0.00, 0.5, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
+AddWeapon = ordnance_apds _strv,  0.00, 0.5, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
+AddWeapon = ordnance_he_strv, 0.00, 0.5, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
+AddWeapon = smokeshell,  0.00, 0.5, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
 ;AddWeapon = mbt_cas, 0.00, 1.1444, 3.9061, 0.0 , 0.0
 AddPartWeapon = ordnance_apds _strv, false, true, true, 0.00, 1.1444, 0.00,  0.0, -1.0,
 

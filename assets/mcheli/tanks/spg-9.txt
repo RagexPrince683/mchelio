@@ -57,5 +57,5 @@ AddPartWeapon = PG-9, false, true, false,  0.00, 0.66, -0.10, 0
 AddPartWeaponChild = false, true, 0.00, 1.36, -0.09,0.0
 AddPartWeaponChild = false, true, 0.00, 1.15, -0.09, 0.5
 
-AddRecipe = "XZX",  "XDR",  "XXR",  X, iron_block, R, redstone_block, D, dispenser
+AddRecipe = "XZX",  "XDR",  "XXR",  X, iron_ingot, R, redstone, D, dispenser
 

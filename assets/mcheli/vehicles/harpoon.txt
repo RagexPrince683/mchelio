@@ -22,6 +22,6 @@ HUD = vehicle
 
 BoundingBox = 0.0, 1.2, 0.0, 1.8, 1.8
 
-AddRecipe = "RXR", " X ", " X ", X,iron_block , R,redstone_block
+AddRecipe = "RXR", " X ", "DXD", X,iron_block , R,redstone_block , D,diamond_block
 
 unmountposition = 0.0, 1.5, 0.0
