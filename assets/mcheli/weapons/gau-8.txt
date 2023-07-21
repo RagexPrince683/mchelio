@@ -11,8 +11,10 @@ ReloadTime = 150
 Round = 30
 SoundDelay = 3
 SoundPitch = 1.0
-Sound = gun_h5_snd
+Sound = gaueight
 Accuracy = 2.0
+
+Gravity = -0.001
 
 AddMuzzleFlash      = 2.1,     0.85,        1,  150,254,219,154
 AddMuzzleFlash      = 2.0,     0.80,        1,  150,254,219,184

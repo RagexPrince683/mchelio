@@ -5,9 +5,11 @@ Acceleration = 4.0
 Explosion = 6
 Flaming = true
 Sight = MoveSight
-Delay = 260
+Delay = 2
 ModelBullet = agm65e
-Sound = missile_2_snd
+Sound = mlrs
+SoundPitch = 0.8
+
 
 
 ;Acceleration = 0.5

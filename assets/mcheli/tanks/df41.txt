@@ -40,8 +40,8 @@ Category = M.A
 WeightType = Tank
 WeightedCenterZ = 0.0
 
-OnGroundPitchFactor = 2.0
-OnGroundRollFactor  = 0.8
+;OnGroundPitchFactor = 2.0
+;OnGroundRollFactor  = 0.8
 
 HUD = mbt_hud, mbt_gnr, gunner, gunner
 
@@ -117,3 +117,6 @@ BoundingBox = 0.0, 0.9, -17.0, 5.8, 0.4, 1.0
 BoundingBox = 0.0, 3.0, -19, 4.5, 4.5
 
 unmountposition = 2.224,  1.8, -0.39
+
+OnGroundPitchFactor = 15.0
+OnGroundRollFactor  = 5.2

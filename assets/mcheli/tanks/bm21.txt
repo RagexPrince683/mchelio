@@ -3,10 +3,10 @@ AddDisplayName = ja_JP, BM21
 AddDisplayName = en_US, BM-21 Grad "Ural" Truck
 ItemID = 30100
 MaxHp = 150
-Speed = 0.7
+Speed = 1.0
 Sound = ural
 ThrottleUpDown = 10.0
-MobilityYawOnGround = 2.0
+MobilityYawOnGround = 4.5
 MinRotationPitch = -80
 MaxRotationPitch = 0
 MobilityRoll = 0
@@ -19,7 +19,7 @@ CameraRotationSpeed = 50
 MaxFuel         = 1200
 FuelConsumption = 3.0
 StepHeight = 1.5
-FlareType = 10
+;FlareType = 10
 ;CameraPosition = 0.71,2.5,5.04, false
 ;suck me off
 CameraPosition = 0.71,2.5,5.04, true
@@ -34,7 +34,7 @@ WeightedCenterZ = 0
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 SetWheelPos =  1.35,  -0.47,  7.35,  1.65,-0.5
 
-MotionFactor = 0.9
+MotionFactor = 0.97
 ;old retard method
 ;AddSeat = 0.71,1.72,5.04
 ;AddGunnerSeat =  -0.67,  1.72, 5.07,  -0.67,  2.3, 5.07,  false, -80, 5
@@ -48,7 +48,7 @@ EntityHeight = 1.0
 ;AddSeat = -0.67,  1.72, 5.07
 ;AddGunnerSeat =   0.71,1.72,5.04,   0.71,2.5,5.04,  false, -80, 5
 
-HUD = mbt_hud
+HUD = ww2tank_hudtwo
 ;,mbt_hud
 ;vehicle
 ;HUD = Humvee_hud, none, none, none, gunner
@@ -163,11 +163,11 @@ AddPartCanopy   =  -1.59, 2.16, 6.24,  0, 1, 0, 60
 AddPartCanopy   =  0, 0, 0,  0, 0, 0, 0
 
 
-AddFixedSearchLight =  1.04, 1.19, 9.01,      0x20FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
-AddFixedSearchLight = -1.07, 1.19, 9.01,      0x20FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+AddFixedSearchLight =  1.04, 1.19, 9.01,      0x20FFFFFF,   0x00FFFFC0,    0.5, 1.5,  -5,  0
+AddFixedSearchLight = -1.07, 1.19, 9.01,      0x20FFFFFF,   0x00FFFFC0,    0.5, 1.5,   5,  0
 
-AddFixedSearchLight =  1.04, 1.19, 9.01,   0xFFFF0000,   0x10FF0000,    0.0, 0.16 
-AddFixedSearchLight = -1.07, 1.19, 9.01,   0xFFFF0000,   0x10FF0000,    0.0, 0.16
+;AddFixedSearchLight =  1.04, 1.19, 9.01,   0xFFFF0000,   0x10FF0000,    0.0, 0.16 
+;AddFixedSearchLight = -1.07, 1.19, 9.01,   0xFFFF0000,   0x10FF0000,    0.0, 0.16
 
 ; AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 駐退距離
 
@@ -177,7 +177,7 @@ PivotTurnThrottle = 0.5
 PartWheelRot = 40
 ;0.81 2.08 6.15
 
-AddPartThrottle =  0.81, 2.08, 6.15,  0,0,1,  -230
+AddPartThrottle =  0.831, 2.08, 6.15,  0,1,-1.73, -220
 
 AddPartWheel     = 1.72,  0.3785,  7.33, 30
 AddPartWheel     =  -1.72,  0.3785,  7.33, 30

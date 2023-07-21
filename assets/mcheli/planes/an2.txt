@@ -11,6 +11,8 @@ FuelConsumption = 1.0
 onGroundPitch = 12.31
 InventorySize = 18
 
+
+
 Regeneration = false
 
 AddTexture = an2_2
@@ -22,8 +24,8 @@ AddTexture = an2_5
 ; C = Civilian(民間機)
 Category = C
 
-EntityWidth  = 0.9
-EntityHeight = 0.9
+EntityWidth  = 0.81
+EntityHeight = 0.81
 
 EnableParachuting = true
 ;MobDropOption =降下位置X, 降下位置Y, 降下位置Z, 降下間隔(1/20秒)

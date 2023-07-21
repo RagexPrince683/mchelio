@@ -18,7 +18,7 @@ SmokeSize   = 1.0
 
 ;着弾時に使用するアイテムに種を指定する。耕地に植えることができる。
 DispenseItem = wheat_seeds
-DispenseRange = 4
+DispenseRange = 6
 
 MaxAmmo = 48
 SuppliedNum = 8

@@ -2,7 +2,8 @@ DisplayName = A-10 Thunderbolt II
 AddDisplayName = en_US, A-10 Thunderbolt II
 AddDisplayName = ja_JP, A-10 サンダーボルトⅡ
 ItemID = 28705
-MaxHp = 100
+MaxHp = 150
+Sound = aten
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
@@ -78,7 +79,7 @@ BoundingBox = -1.78, 2.76,-13.54,  2.5, 0.3,  0.8
 BoundingBox =  1.78, 2.76,-13.54,  2.5, 0.3,  0.8
 
 
-DamageFactor = 0.2
+DamageFactor = 0.0
 
 UnmountPosition = 0.00,  2.80,  0.0
 

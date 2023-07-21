@@ -2,14 +2,18 @@ DisplayName = Hydra 70mm Rocket
 Type = Rocket
 Power = 400
 ModelBullet = hydra70
-Acceleration = 4.0
+Acceleration = 7.0
 Explosion = 3
-Sound = rocket_snd
+Sound = hydraseventy
 Flaming = false
 Sight = MoveSight
-Delay = 7
+Delay = 2
 ReloadTime = 110
 Round = 19
+
+SoundVolume = 15
+
+Gravity = -0.001
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0

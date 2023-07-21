@@ -1,8 +1,8 @@
 DisplayName = M102 105mm Howitzer
 Type = MachineGun2
-Power = 400
+Power = 100
 ModelBullet = bullet76mm
-Acceleration = 3.5
+Acceleration = 4.5
 Explosion = 6
 ExplosionBlock = 4
 Flaming = false
@@ -12,7 +12,11 @@ ModeNum = 1
 SoundPitch = 0.7
 SoundVolume = 10
 ;SetCartridge = cartridge, 0.1,  180, 0, 10.0, -0.04, 0.40
-Sound = cannon_1_snd
+Sound = oneofive
+
+SoundVolume = 15
+
+Gravity = -0.001
 
 
 Delay = 90

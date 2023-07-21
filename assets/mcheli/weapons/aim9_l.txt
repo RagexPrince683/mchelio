@@ -9,7 +9,8 @@ Delay = 90
 LockTime = 12
 ProximityFuseDist = 1
 ModelBullet = aim9h
-Sound = missile_1_snd
+Sound = aimnine
+SoundVolume = 15
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
