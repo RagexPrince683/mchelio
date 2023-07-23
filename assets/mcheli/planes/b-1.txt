@@ -4,9 +4,9 @@ AddDisplayName = ja_JP, B-1B ランサー
 ItemID = 28747
 MaxHp = 250
 Speed = 1.4
-Sound = plane
+Sound = bone
 ThrottleUpDown = 0.1
-CameraPosition = -2.42, 4.18, -4.97
+CameraPosition = -2.42, 4.18, -4.87
 EnableNightVision = true
 EnableEntityRadar = true
 EnableGunnerMode = true
@@ -41,19 +41,37 @@ AddGunnerSeat = -0.95, 7.16, 3.70
 AddPartWing =  -6.60, 5.16, -21.42,  0,-1,0, 45
 AddPartWing =   6.60, 5.16, -21.42,  0, 1,0, 45
 
-AddPartWeaponBay = mk82_b1, -1.88, 4.54,-6.49,  0, -0.04, 1.0, -90
-AddPartWeaponBay = mk82_b1,  1.88, 4.54,-6.49,  0, -0.04, 1.0,  90
+AddPartWeaponBay = mk82_b1/cbu-87, -1.88, 4.54,-6.49,  0, -0.04, 1.0, -90
+AddPartWeaponBay = mk82_b1/cbu-87,  1.88, 4.54,-6.49,  0, -0.04, 1.0,  90
+
+
 
 AddPartWeaponBay = ljdam_b1, -1.88, 4.51,-13.71,  0, -0.04, 1.0, -90
 AddPartWeaponBay = ljdam_b1,  1.88, 4.51,-13.71,  0, -0.04, 1.0,  90
 
-AddPartWeaponBay = agm158, -1.88, 4.47,-26.16,  0, -0.04, 1.0, -90
-AddPartWeaponBay = agm158,  1.88, 4.47,-26.16,  0, -0.04, 1.0,  90
+AddPartWeaponBay = agm158/agm154b1/agm86b, -1.88, 4.47,-26.16,  0, -0.04, 1.0, -90
+AddPartWeaponBay = agm158/agm154b1/agm86b,  1.88, 4.47,-26.16,  0, -0.04, 1.0,  90
 
 AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
+
 AddWeapon = mk82_b1,  0.00,  6.01, -9.87,  0, 0, true,  2
+AddWeapon = mk82_b1,  0.30,  6.01, -9.87,  0, 0, true,  2
+AddWeapon = mk82_b1,  -0.30,  6.01, -9.87,  0, 0, true,  2
+AddWeapon = mk82_b1,  0.00,  6.01, -10.87,  0, 0, true,  2
+AddWeapon = mk82_b1,  0.30,  6.01, -10.87,  0, 0, true,  2
+AddWeapon = mk82_b1,  -0.30,  6.01, -10.87,  0, 0, true,  2
+AddWeapon = mk82_b1,  0.00,  6.01, -8.87,  0, 0, true,  2
+AddWeapon = mk82_b1,  0.30,  6.01, -8.87,  0, 0, true,  2
+AddWeapon = mk82_b1,  -0.30,  6.01, -8.87,  0, 0, true,  2
+
+
+AddWeapon = cbu-87,  0.00,  6.01, -9.87,  0, 0, true,  2
 AddWeapon = ljdam_b1, 0.00,  6.01, -17.49,  0, 0, true,  2
 AddWeapon = agm158,   0.00,  6.01, -31.90,  0, 0, true,  2
+AddWeapon = agm154b1,   0.00,  6.01, -31.90,  0, 0, true,  2
+AddWeapon = agm86b,   0.00,  6.01, -31.90,  0, 0, true,  2
+
+AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
 
 
 AddPartLG =  0.00, 4.72,  -0.07,  1,0,0, -110

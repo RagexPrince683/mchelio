@@ -12,7 +12,12 @@ SoundPitch = 0.9
 Accuracy = 4.5
 HeatCount = 2
 MaxHeatCount = 130
-Sound = gun_l2_snd
+Sound = ah
+
+SoundVolume = 15
+
+Gravity = -0.001
+
 
 SetCartridge = cartridge, 0,   0, 0, 3.00, -0.04, 0.50
 

@@ -1,13 +1,13 @@
 DisplayName = GBU-28
 Type = ASMissile
 Power = 1000
-radius=300
+radius=1000
 Acceleration = 1.7
 ;Explosion = 6
 ;ExplosionBlock = 5
 Flaming = true
 Sight = MoveSight
-Delay = 8
+Delay = 5
 Round = 6
 ReloadTime = 90
 SoundVolume = 3

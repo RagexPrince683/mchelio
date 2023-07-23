@@ -1,6 +1,7 @@
-DisplayName = AGM-158 JASSM
-Type = TVMissile
-Power = 1000
+DisplayName = AGM-154 JSOW
+Type = ASMissile
+Power = 500
+radius = 1000
 Acceleration = 2.0
 Explosion = 10
 ExplosionBlock = 3
@@ -8,7 +9,7 @@ ExplosionInWater = 3
 Sight = MoveSight
 Delay = 5
 ModeNum = 2
-ModelBullet = agm158
+ModelBullet = agm154
 Sound = missile_1_snd
 DisableSmoke = true
 

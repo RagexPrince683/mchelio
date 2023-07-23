@@ -1,5 +1,6 @@
 DisplayName = GBU-57 Massive Ordnance Penetrator
-Type = Bomb
+Type = ASMissile
+radius=1000
 Power = 1000
 Acceleration = 2
 Explosion = 15
@@ -14,7 +15,7 @@ Sound = bomb_snd
 ModelBullet = gbu57
 Gravity = -0.01
 DisableSmoke = true
-;Piercing  = 4
+Piercing  = 4
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0

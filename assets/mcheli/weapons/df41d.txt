@@ -1,11 +1,12 @@
 DisplayName = DF-41 Thermonuclear Warhead
-Type = TVMissile
+Type = ASMissile
 ;Power = 41000
-Acceleration = 3.5
+Acceleration = 8.5
 Explosion = 1
 ;119:469m
 ;nukeYield = 395 just too big
-nukeYield = 195
+nukeYield = 255
+radius = 5000
 
 
 ;ExplosionBlock = 50
@@ -17,7 +18,7 @@ Sound = missile_1_snd
 Delay = 15
 ModelBullet = DF41
 Piercing  = 2
-ReloadTime = 250
+ReloadTime = 2500
 RigidityTime = 20
 RidableOnly = true
 
@@ -53,6 +54,6 @@ AddMuzzleFlash      =  -29,      7.00,         8,  200,254,219,184
 Round = 1
 MaxAmmo = 1
 SuppliedNum = 1
-Item = 10, iron_ingot
+Item = 3, hbm:item.missile_nuclear
 Item = 10, gunpowder
-Item = 10, redstone
+Item = 2, iron_block

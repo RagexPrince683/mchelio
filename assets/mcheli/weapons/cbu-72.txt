@@ -8,7 +8,7 @@ ExplosionAltitude = 8
 FAE = true
 Flaming = true
 Sight = None
-Delay = 350
+Delay = 10
 ModelBullet = cbu87
 Sound = bomb_snd
 
