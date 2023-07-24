@@ -10,8 +10,8 @@ Delay = 0
 SoundDelay = 3
 SoundPitch = 0.9
 Accuracy = 4.5
-HeatCount = 4
-MaxHeatCount = 120
+HeatCount = 2
+MaxHeatCount = 130
 Sound = ah
 
 SoundVolume = 15

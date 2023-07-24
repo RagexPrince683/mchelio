@@ -8,7 +8,7 @@ Sight = None
 Sound = bomb_snd
 Round = 4
 ReloadTime = 300
-Delay = 13
+Delay = 6
 ModelBullet = mk24
 Gravity = -0.02
 

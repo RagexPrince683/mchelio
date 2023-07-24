@@ -1,4 +1,4 @@
-DisplayName = 20mm Machinegun [Rear]
+DisplayName = MG 151 20mm Cannon [Rear]
 Type = MachineGun1
 Power = 21
 Acceleration = 5.0
@@ -10,8 +10,8 @@ Delay = 1
 SoundVolume = 5
 HeatCount = 5
 MaxHeatCount = 100
-Sound = gun_l4_snd
-Accuracy = 2.0
+Sound = twentymil
+Accuracy = 2.5
 
 Acceleration = 7.5
 Piercing = 0

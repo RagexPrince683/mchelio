@@ -6,13 +6,15 @@ Explosion = 10
 ExplosionBlock = 3
 ExplosionInWater = 3
 Sight = MoveSight
-Delay = 220
-Round = 1
+Delay = 5
+Round = 12
+ReloadTime = 1500
 ModeNum = 2
 ModelBullet = alcm
 Sound = missile_1_snd
 DisableSmoke = true
 nukeyield = 195
+Group = maingun
 ;I hate hbm proportions
 ;150kt
 
@@ -22,7 +24,7 @@ nukeyield = 195
 ;DamageFactor = heli, 4.5
 ;DamageFactor = player, 20.0
 
-MaxAmmo = 6
+MaxAmmo = 12
 SuppliedNum = 1
 Item =  2, hbm:item.missile_nuclear
 Item =  3, iron_ingot

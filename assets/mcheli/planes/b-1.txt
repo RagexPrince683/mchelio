@@ -41,16 +41,16 @@ AddGunnerSeat = -0.95, 7.16, 3.70
 AddPartWing =  -6.60, 5.16, -21.42,  0,-1,0, 45
 AddPartWing =   6.60, 5.16, -21.42,  0, 1,0, 45
 
-AddPartWeaponBay = mk82_b1/cbu-87, -1.88, 4.54,-6.49,  0, -0.04, 1.0, -90
-AddPartWeaponBay = mk82_b1/cbu-87,  1.88, 4.54,-6.49,  0, -0.04, 1.0,  90
+AddPartWeaponBay = mk82_b1/cbu-87/b28/b61/b83, -1.88, 4.54,-6.49,  0, -0.04, 1.0, -90
+AddPartWeaponBay = mk82_b1/cbu-87/b28/b61/b83,  1.88, 4.54,-6.49,  0, -0.04, 1.0,  90
 
 
 
-AddPartWeaponBay = ljdam_b1, -1.88, 4.51,-13.71,  0, -0.04, 1.0, -90
-AddPartWeaponBay = ljdam_b1,  1.88, 4.51,-13.71,  0, -0.04, 1.0,  90
+AddPartWeaponBay = ljdam_b1/b28/b61/b83, -1.88, 4.51,-13.71,  0, -0.04, 1.0, -90
+AddPartWeaponBay = ljdam_b1/b28/b61/b83,  1.88, 4.51,-13.71,  0, -0.04, 1.0,  90
 
-AddPartWeaponBay = agm158/agm154b1/agm86b, -1.88, 4.47,-26.16,  0, -0.04, 1.0, -90
-AddPartWeaponBay = agm158/agm154b1/agm86b,  1.88, 4.47,-26.16,  0, -0.04, 1.0,  90
+AddPartWeaponBay = agm158/agm154b1/agm86b/b28/b61/b83, -1.88, 4.47,-26.16,  0, -0.04, 1.0, -90
+AddPartWeaponBay = agm158/agm154b1/agm86b/b28/b61/b83,  1.88, 4.47,-26.16,  0, -0.04, 1.0,  90
 
 AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
 
@@ -70,6 +70,15 @@ AddWeapon = ljdam_b1, 0.00,  6.01, -17.49,  0, 0, true,  2
 AddWeapon = agm158,   0.00,  6.01, -31.90,  0, 0, true,  2
 AddWeapon = agm154b1,   0.00,  6.01, -31.90,  0, 0, true,  2
 AddWeapon = agm86b,   0.00,  6.01, -31.90,  0, 0, true,  2
+AddWeapon = b28,  0.00,  6.01, -8.87,  0, 0, true,  2
+AddWeapon = b28, 0.00,  6.01, -17.49,  0, 0, true,  2
+AddWeapon = b28,   0.00,  6.01, -31.90,  0, 0, true,  2
+AddWeapon = b61,  0.00,  6.01, -8.87,  0, 0, true,  2
+AddWeapon = b61,  0.00,  6.01, -17.49,  0, 0, true,  2
+AddWeapon = b61,  0.00,  6.01, -31.90,  0, 0, true,  2
+AddWeapon = b83,  0.00,  6.01, -8.87,  0, 0, true,  2
+AddWeapon = b83,  0.00,  6.01, -17.49,  0, 0, true,  2
+AddWeapon = b83,  0.00,  6.01, -31.90,  0, 0, true,  2
 
 AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
 

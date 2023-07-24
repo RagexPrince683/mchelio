@@ -1,7 +1,7 @@
 DisplayName = 155mm Cannon
 Type = MachineGun2
 Power = 100
-ModelBullet = bullet155mm
+ModelBullet = 91ap
 Acceleration = 5.2
 Explosion = 4
 ExplosionBlock = 5
@@ -13,7 +13,8 @@ Piercing  = 0
 SoundPitch = 0.7
 SoundVolume = 20
 Sound = cannon_1_snd
-Recoil = 2.0
+Recoil = 0.2
+Gravity = -0.005
 
 Delay = 50
 ReloadTime = 150
