@@ -8,7 +8,8 @@ Flaming = true
 Sight = MoveSight
 Delay = 35
 ReloadTime = 350
-Sound = missile_2_snd
+Sound = missile_cruise_snd
+SoundVolume = 15.0
 
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5

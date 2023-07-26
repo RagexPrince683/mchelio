@@ -5,12 +5,16 @@ Acceleration = 4.0
 Explosion = 6
 Flaming = true
 Sight = MoveSight
-Delay = 2
+;Delay = 2
+;ReloadTime = 1000
+;Round = 2
 ModelBullet = agm65e
 Sound = mlrs
 SoundPitch = 0.8
 
-
+Delay = 10
+ReloadTime = 1000
+Round = 2
 
 ;Acceleration = 0.5
 Explosion = 9

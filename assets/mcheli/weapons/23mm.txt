@@ -1,6 +1,8 @@
-DisplayName = 23mm Auto Cannon
+DisplayName = 23mm GSH-23 Auto Cannon
 Type = MachineGun2
 ModelBullet = bullet
+Explosion = 2
+ExplosionBlock = 1
 Power = 16
 Acceleration = 8.0
 Flaming = false
@@ -11,7 +13,14 @@ SoundDelay = 0
 Accuracy = 3.0
 HeatCount = 1
 MaxHeatCount = 150
-Sound = 2k22c
+Round = 200
+ReloadTime = 80
+
+;no
+Sound = gshtwentythree
+;SoundPitch = 0.6
+
+
 ProximityFuseDist = 2.0
 SoundVolume = 10
 ;ロックオンするタイプのミサイルの近接信管の動作距離

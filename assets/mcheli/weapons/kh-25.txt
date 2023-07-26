@@ -1,5 +1,6 @@
 DisplayName = Kh-25ML
 Type = ASMissile
+radius = 800
 Power = 600
 Acceleration = 4.5
 Explosion = 5

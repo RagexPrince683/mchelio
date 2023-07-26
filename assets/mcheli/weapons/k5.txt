@@ -1,8 +1,8 @@
 DisplayName = K-5
-Type = Rocket
+Type = AAMissile
 Power = 150
 ModelBullet = hydra70
-Acceleration = 5.5
+Acceleration = 3.5
 Explosion = 5
 Sound = rocket_snd
 LockTime = 70
@@ -21,7 +21,7 @@ DamageFactor = heli, 3.0
 ;TrajectoryParticle = heart
 ;TrajectoryParticle = fireworksSpark
 
-MaxAmmo = 4
-SuppliedNum = 4
+MaxAmmo = 2
+SuppliedNum = 2
 Item =  3, iron_ingot
 Item =  3, gunpowder

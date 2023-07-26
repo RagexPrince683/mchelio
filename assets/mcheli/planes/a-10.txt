@@ -15,6 +15,9 @@ FuelConsumption = 1.0
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 
+EntityWidth  = 0.90
+EntityHeight = 0.90
+
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
@@ -26,7 +29,7 @@ MobilityYaw = 0.7
 MobilityPitch = 0.7
 MobilityRoll = 0.6
 
-AddSeat = 0.00,  2.80,  0.0
+AddSeat = 0.00,  2.70,  0.0
 
 AddPartCanopy = 0, 3.85, -1.97, -1,0,0,  70
 

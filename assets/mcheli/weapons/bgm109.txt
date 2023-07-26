@@ -1,11 +1,12 @@
 DisplayName = BGM-109 Tomahawk [Cruise Missile]
-Type = Rocket
-Power = 295
-Gravity = -0.01
+Type = ASMissile
+Power = 1000
+radius = 2000
+Gravity = -0.05
 Explosion = 16
 ExplosionBlock = 8
-Acceleration = 3.0
-SoundVolume = 10.0
+Acceleration = 140.0
+SoundVolume = 15.0
 Sound = missile_cruise_snd
 Accuracy = 1.0
 ModelBullet = bgm109

@@ -9,7 +9,9 @@ Delay = 50
 ModelBullet = hydra70
 Round = 4
 ReloadTime = 120
-Sound = lau-68_snd
+Sound = hydraseventy
+
+Gravity = -0.001
 
 Piercing = 0
 

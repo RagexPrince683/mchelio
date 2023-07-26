@@ -22,6 +22,9 @@ Stealth = 0.2
 
 ThrottleUpDown = 0.1
 
+EntityWidth  = 0.88
+EntityHeight = 0.88
+
 
 MobilityYaw = 0.5
 MobilityPitch = 0.5
@@ -36,7 +39,7 @@ Category = M.A
 
 HUD = plane, plane_gnr
 
-AddSeat       =  0.80,  3.40,  0.28
+AddSeat       =  0.80,  3.20,  0.28
 AddGunnerSeat = -0.80,  3.40,  0.28, 0.0, 2.66, 3.78, true
 
 ; 前輪

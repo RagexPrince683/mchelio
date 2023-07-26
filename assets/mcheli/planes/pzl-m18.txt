@@ -10,6 +10,9 @@ MaxFuel         = 1300
 FuelConsumption = 1.0
 onGroundPitch = 13.0
 
+EntityWidth  = 0.86
+EntityHeight = 0.86
+
 ; C = Civilian(民間機)
 Category = C
 
@@ -17,7 +20,7 @@ HUD = plane_wwii
 
 AddTexture = pzl-m18_2
 
-AddSeat =  0.0, 2.67, -2.95
+AddSeat =  0.0, 2.47, -2.95
 
 AddPartCanopy = 0.40, 3.94, -2.99, 0, -0.16, 275, 70
 

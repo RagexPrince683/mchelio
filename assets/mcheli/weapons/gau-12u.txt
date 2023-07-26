@@ -10,8 +10,10 @@ ReloadTime = 50
 Round = 40
 SoundDelay = 3
 SoundPitch = 0.5
-Sound = gun_l2_snd
+Sound = ah
 Accuracy = 1.0
+
+Gravity = -0.001
 
 Acceleration = 7.5
 Piercing = 0

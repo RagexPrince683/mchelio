@@ -13,6 +13,8 @@ MaxHeatCount = 100
 Sound = twentymil
 Accuracy = 2.5
 
+Gravity = -0.005
+
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0

@@ -11,7 +11,7 @@ Round = 2
 LockTime = 10
 ProximityFuseDist = 1
 ModelBullet = aim9lm
-Sound = missile_1_snd
+Sound = aimnine
 
 
 

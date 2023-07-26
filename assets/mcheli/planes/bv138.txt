@@ -31,6 +31,8 @@ MaxRotationPitch =  70
 AddTexture = bv138_1
 AddTexture = bv138_2
 
+
+
 AddSeat = -0.54, 0.60, 2.45
 AddSeat =  0.54, 0.70, 2.45
 
@@ -117,8 +119,8 @@ BoundingBox = -3.94, 2.74, -8.06, 1.0, 1.0
 unmountposition = -0.54, 1.50, 2.45
 
 
-EntityWidth  = 0.8
-EntityHeight = 0.8
+EntityWidth  = 0.70
+EntityHeight = 0.70
 
 DamageFactor = 0.8
 

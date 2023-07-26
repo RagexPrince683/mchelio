@@ -20,6 +20,9 @@ OnGroundPitch = 7.5
 RotorSpeed = 200.0
 ZoomLevel = 1
 
+EntityWidth  = 0.83
+EntityHeight = 0.83
+
 MobilityRoll = 0.50
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
@@ -27,7 +30,7 @@ Category = M.A
 
 HUD = plane, plane_gnr, none
 
-AddSeat =  0.41,  1.65, -0.73
+AddSeat =  0.41,  1.55, -0.73
 AddGunnerSeat =  -0.30,  1.23, -2.40, 0.00, 2.15, -2.68, false
 AddSeat = -0.41,  1.65, -0.73
 

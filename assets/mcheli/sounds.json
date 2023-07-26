@@ -328,6 +328,7 @@
 "ww2tank_spaag_snd": {"category": "master","sounds": ["ww2tank_spaag_snd"]},
 "xm301_snd": {"category": "master","sounds": ["xm301_snd"]},
 "zilonethreefive": {"category": "master","sounds": ["zilonethreefive"]},
-"zoom": {"category": "master","sounds": ["zoom"]}
+"zoom": {"category": "master","sounds": ["zoom"]},
+"zumwaltmis": {"category": "master","sounds": ["zumwaltmis"]}
 }
 

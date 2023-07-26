@@ -8,11 +8,14 @@ Flaming = true
 Sight = MoveSight
 Delay = 0
 ReloadTime = 150
-Round = 30
+Round = 1150
 SoundDelay = 3
 SoundPitch = 1.0
 Sound = gaueight
 Accuracy = 2.0
+HeatCount = 1
+MaxHeatCount = 150
+
 
 Gravity = -0.001
 
@@ -32,7 +35,7 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 
-MaxAmmo = 1200
+MaxAmmo = 1150
 SuppliedNum = 200
 Item =  3, iron_ingot
 Item =  2, gunpowder

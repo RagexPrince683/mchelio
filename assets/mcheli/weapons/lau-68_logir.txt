@@ -8,8 +8,10 @@ Sight = MissileSight
 Delay = 100
 LockTime = 20
 ModelBullet = hydra70
-Sound = lau-68_snd
+Sound = hydraseventy
 RidableOnly = true
+
+Gravity = -0.001
 
 Piercing = 0
 

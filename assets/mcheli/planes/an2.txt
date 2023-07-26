@@ -3,6 +3,7 @@ AddDisplayName = en_US, An-2
 AddDisplayName = ja_JP, An-2
 ItemID = 28732
 MaxHp = 100
+;130mph cruise speed
 Speed = 0.9
 Sound = antwo
 ThrottleUpDown = 0.4

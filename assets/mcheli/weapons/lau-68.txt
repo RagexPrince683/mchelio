@@ -2,16 +2,18 @@ DisplayName = LAU-68 70mm Rocket
 Type = Rocket
 Power = 300
 ModelBullet = hydra70
-Acceleration = 4.0
+Acceleration = 7.0
 Explosion = 3
 Flaming = false
-Sound = rocket_snd
+Sound = hydraseventy
 Sight = MoveSight
 Delay = 7
 ReloadTime = 110
 Round = 19
 
 Piercing = 0
+
+Gravity = -0.001
 
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5

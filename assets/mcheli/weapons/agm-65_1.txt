@@ -5,9 +5,12 @@ Acceleration = 4.0
 Explosion = 6
 Flaming = true
 Sight = MoveSight
-Delay = 110
 ModelBullet = agm65e
-Sound = missile_2_snd
+Delay = 10
+ReloadTime = 1000
+Round = 2
+Sound = mlrs
+SoundPitch = 0.8
 
 ;Acceleration = 0.5
 Explosion = 9
@@ -23,7 +26,7 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
 
-Round = 2
+;Round = 2
 MaxAmmo = 4
 SuppliedNum = 2
 Item =  1, iron_ingot

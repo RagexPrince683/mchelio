@@ -15,6 +15,9 @@ FuelConsumption = 1.0
 ThirdPersonDist = 20
 ThrottleUpDown = 0.3
 
+Sound = ffifteen
+
+
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
@@ -40,8 +43,8 @@ AddPartLG    =  0.4427, 1.541, -5.454,      1,0,0, -90,   0,1,0, -100
 
 
 ; 使用直後は非表示
-AddPartWeaponMissile = agm84f16,    false,  false,  false,    2.545, 1.837, -4.551
-AddPartWeaponMissile = agm84f16,    false,  false,  false,   -2.545, 1.837, -4.551
+AddPartWeaponMissile = agm84,    false,  false,  false,    2.545, 1.837, -4.551
+AddPartWeaponMissile = agm84,    false,  false,  false,   -2.545, 1.837, -4.551
 AddPartWeaponMissile = agm88,    false,  false,  false,    4.316, 1.837, -4.909
 AddPartWeaponMissile = agm88,    false,  false,  false,   -4.316, 1.837, -4.909
 
@@ -61,6 +64,8 @@ AddWeapon = aim7f16,  -5.629, 1.919, -5.267,   0.0, 0.0
 AddWeapon = aim7f16,   6.831, 2.446, -5.983,   0.0, 0.0
 AddWeapon = aim7f16,  -6.831, 2.446, -5.983,   0.0, 0.0
 
+AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
+
 AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  1
 
 AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt
@@ -78,5 +83,8 @@ BoundingBox = -2.55, 2.41, -11.17, 3.0, 0.5
 BoundingBox =  0.0, 4.5, -12.0,  2.0, 3.2
 
 unmountposition = 0.00,  1.564,  1.762
+
+EntityWidth  = 0.81
+EntityHeight = 0.81
 
 enableback = true
