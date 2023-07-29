@@ -1,14 +1,16 @@
-DisplayName = K-5
+DisplayName = K-5 AA-1 Alkali
 Type = AAMissile
 Power = 150
 ModelBullet = hydra70
 Acceleration = 3.5
 Explosion = 5
-Sound = rocket_snd
+Sound = aimnine
+SoundPitch = 0.8
+SoundVolume = 15
 LockTime = 70
 Flaming = true
 Sight = MoveSight
-Delay = 7
+Delay = 70
 ReloadTime = 50
 Round = 1
 

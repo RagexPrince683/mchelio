@@ -4,7 +4,8 @@ AddDisplayName = ja_JP, パイパーPA-48 エンフォーサ
 ItemID = 28713
 MaxHp = 100
 Speed = 0.8
-Sound = turboprop
+Sound = bronco
+SoundPitch = 0.6
 ThrottleUpDown = 0.3
 MaxFuel         = 1600
 FuelConsumption = 1.0
@@ -83,6 +84,6 @@ BoundingBox =  0.00, 3.55, -6.50,  1.8, 1.8
 
 AddRecipe = "IGI",  "IXI",  "T T",  X, iron_block, G, glass, I, iron_ingot, T, tnt
 
-Unmountposition = 0.0,  1.50, -0.94
+Unmountposition = 0.0,  1.90, -0.94
 
 enableback = true

@@ -64,10 +64,10 @@ AddPartNozzle =  4.77, 3.34, -13.32, -1,0,0
 AddPartNozzle = -4.77, 3.34, -13.32, -1,0,0
 
 ; ウェポンベイ
-AddPartWeaponBay = mk82_b2/ gbu38 / gbu28 / agm154 / gbu57 /agm158/b61/b83 , -2.79, 1.86,-6.56,  0, -0.04, 1.0, -90
-AddPartWeaponBay = mk82_b2/ gbu38 / gbu28 / agm154 / gbu57 /agm158/b61/b83 , -0.15, 1.72,-6.56,  0, -0.04, 1.0,  90
-AddPartWeaponBay = mk82_b2/ gbu38 / gbu28 / agm154 / gbu57 /agm158/b61/b83 ,  2.79, 1.86,-6.56,  0, -0.04, 1.0,  90
-AddPartWeaponBay = mk82_b2/ gbu38 / gbu28 / agm154 / gbu57 /agm158/b61/b83 ,  0.15, 1.72,-6.56,  0, -0.04, 1.0, -90
+AddPartWeaponBay = mk82_b2/ gbu38 / gbu28 / agm154/ agm154b1 / gbu57 /agm158/b61/b83 , -2.79, 1.86,-6.56,  0, -0.04, 1.0, -90
+AddPartWeaponBay = mk82_b2/ gbu38 / gbu28 / agm154/ agm154b1 / gbu57 /agm158/b61/b83 , -0.15, 1.72,-6.56,  0, -0.04, 1.0,  90
+AddPartWeaponBay = mk82_b2/ gbu38 / gbu28 / agm154/ agm154b1 / gbu57 /agm158/b61/b83 ,  2.79, 1.86,-6.56,  0, -0.04, 1.0,  90
+AddPartWeaponBay = mk82_b2/ gbu38 / gbu28 / agm154/ agm154b1 / gbu57 /agm158/b61/b83 ,  0.15, 1.72,-6.56,  0, -0.04, 1.0, -90
 
 ;武器設定
 ;1番席が Mk82、  GBU-28、AGM-154、GBU-57、AGM-158　(無誘導[小]、誘導[中,散,大]、誘導[TV])
@@ -89,6 +89,9 @@ AddWeapon = gbu28,   -1.84,  1.80, -6.13,  0, 0
 
 AddWeapon = agm154,   1.84,  1.80, -6.13,  0, 0 , true,  2
 AddWeapon = agm154,  -1.84,  1.80, -6.13,  0, 0 , true,  2
+
+AddWeapon = agm154b1,   1.84,  1.80, -6.13,  0, 0 , true,  2
+AddWeapon = agm154b1,  -1.84,  1.80, -6.13,  0, 0 , true,  2
 
 AddWeapon = gbu57,    1.84,  1.80, -6.13,  0, 0 , true,  2
 AddWeapon = gbu57,   -1.84,  1.80, -6.13,  0, 0 , true,  2

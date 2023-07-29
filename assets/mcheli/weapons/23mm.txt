@@ -10,11 +10,13 @@ Sight = MoveSight
 Delay = 0
 SoundDelay = 0
 ;SoundPitch = 2
-Accuracy = 3.0
+Accuracy = 1.5
 HeatCount = 1
 MaxHeatCount = 150
 Round = 200
 ReloadTime = 80
+
+Gravity = -0.001
 
 ;no
 Sound = gshtwentythree

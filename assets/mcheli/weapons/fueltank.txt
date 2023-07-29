@@ -30,3 +30,4 @@ DamageFactor = player, 20.0
 
 Item = 4, iron_ingot
 Item = 1, mcheli:fuel
+;coal

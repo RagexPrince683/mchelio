@@ -6,19 +6,19 @@ Explosion = 3
 ExplosionInWater = 0
 Flaming = false
 Sight = None
-Delay = 2
-Round = 25
+Delay = 1
+Round = 112
 Bomblet = 2
 BombletSTime = 0
 BombletDiff = 0.3
 ReloadTime = 280
-DelayFuse = 40
+;DelayFuse = 40
 Bound = 0.3
 
 ModelBullet = cbc
 ModelBomblet = cbc
 
-MaxAmmo = 50
-SuppliedNum = 25
+MaxAmmo = 112
+SuppliedNum = 56
 Item =  3, iron_ingot
 Item =  3, gunpowder

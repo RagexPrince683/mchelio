@@ -7,10 +7,13 @@ Flaming = false
 Sight = MoveSight
 Delay = 1
 SoundDelay = 1
-Accuracy = 2.4
-HeatCount = 6
-MaxHeatCount = 150
-Sound = gun_h3_snd
+Accuracy = 1
+HeatCount = 2
+MaxHeatCount = 30
+Sound = gshtwentythree
+SoundPitch = 0.8
+
+Gravity = -0.001
 
 Acceleration = 7.5
 Piercing = 0

@@ -15,9 +15,10 @@ Round = 2
 LockTime = 25
 ProximityFuseDist = 3
 ModelBullet = R-60BM
-Sound = missile_9_snd
+Sound = aimnine
+SoundPitch = 0.8
+SoundVolume = 15
 TrajectoryParticleStartTick = 10
-SoundVolume = 3
 
 
 MaxAmmo = 8

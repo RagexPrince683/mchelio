@@ -11,7 +11,8 @@ Round = 19
 Bomblet = 9
 BombletSTime = 5
 BombletDiff = 0.6
-Sound = rocket_snd
+Sound = hydraseventy
+SoundPitch = 0.9
 ;Piercing  = 2
 
 Gravity = -0.001

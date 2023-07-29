@@ -2,8 +2,8 @@ DisplayName = Su25
 AddDisplayName = en_US, SU-25
 AddDisplayName = ja_JP, Su25
 ItemID = 28720
-MaxHp = 100
-EnableNightVision = flase
+MaxHp = 250
+EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
 Speed = 1.5
@@ -22,6 +22,8 @@ ParticlesScale = 0.7
 ;AddPartCanopy = 位置X, 位置Y, 位置Z, 回転軸X, 回転軸Y, 回転軸Z, 回転角度 0～180
 AddPartCanopy = -0.6, 2.26, 3.28, 0, 0, 1, 90
 AddSeat = 0,1.33,3.48
+
+AddTexture = su251
 
 
 AddPartLG =  0, 0.87, 3.97,  1,0,0, -120
@@ -88,7 +90,7 @@ BoundingBox =  4.8,2, -2, 4, 1,0.8
 BoundingBox =  -4.8,2, -2, 4, 1,0.8
 
 AddFixedSearchLight =  0, 0, 0,  0,   0,    0, 0,  0,  0
-Sound = mig21_s
+Sound = frogfoot
 
 unmountposition = 0,1.53,3.48
 
