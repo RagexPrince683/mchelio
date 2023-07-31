@@ -4,6 +4,7 @@ AddDisplayName = ja_JP, パナヴィア トーネード GR.4
 ItemID = 28721
 MaxHp = 100
 ThrottleUpDown = 0.3
+sound = tornado
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
@@ -73,6 +74,9 @@ AddWeapon = mk82_12,  0.59, 0.87, -5.81, 0.0, 0.0, true, 2
 AddWeapon = mk82_12,  0.20, 0.87, -5.81, 0.0, 0.0, true, 2
 AddWeapon = mk82_12, -0.20, 0.87, -5.81, 0.0, 0.0, true, 2
 AddWeapon = mk82_12, -0.59, 0.87, -5.81, 0.0, 0.0, true, 2
+
+AddPartWeaponMissile = asraam, false, false, false,  -2.3055, 1.9485, -5.9684
+AddPartWeaponMissile = asraam, false, false, false, 2.3055, 1.9485, -5.9684
 
 AddRecipe = " X ",  "XXX",  "TXT",  X, iron_block, T, tnt
 

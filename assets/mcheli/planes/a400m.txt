@@ -9,7 +9,7 @@ FlareType = 2
 MaxHP = 250
 InventorySize = 54
 ThrottleUpDown = 0.1
-Sound = turboprop
+Sound = airbus
 MaxFuel         = 6000
 FuelConsumption = 1.0
 ThirdPersonDist = 52
@@ -64,11 +64,12 @@ AddPartRotor =   -14.10,  4.15, -13.93,  -1,0, 0
 AddBlade = 1, 0, -14.10,  4.15, -13.93,   0,0, 1
 
 
-AddRack = bnr32 / bnr32_police / impreza / growler / phantom / S15 / mxtmv,   0.00,  1.98, -10.69,   0, 0, -34.93,   15,    5
-AddRack = bnr32 / bnr32_police / impreza / growler / phantom / S15 / mxtmv,   0.00,  1.98, -17.47,   0, 0, -34.93,   15,    5
-AddRack = bnr32 / bnr32_police / impreza / growler / phantom / S15 / mxtmv,   0.00,  1.98, -24.25,   0, 0, -34.93,   15,    5
+AddRack = bnr32 / bnr32_police / impreza / growler / phantom / s15 / mxtmv / 350z / humvee / humveewithweapon / humveev2 / starion / rx7 / l hps1 / challenger / carrera_gt / bugattichiron / bnr34 / bcnr33 / altis / ae86 / m151 / m151_m2 / m151a1c / m151a2 / phantomarmored,   0.00,  1.98, -10.69,   0, 0, -34.93,   15,    5
+AddRack = bnr32 / bnr32_police / impreza / growler / phantom / s15 / mxtmv / 350z / humvee / humveewithweapon / humveev2 / starion / rx7 / l hps1 / challenger / carrera_gt / bugattichiron / bnr34 / bcnr33 / altis / ae86 / m151 / m151_m2 / m151a1c / m151a2 / phantomarmored,   0.00,  1.98, -17.47,   0, 0, -34.93,   15,    5
+AddRack = bnr32 / bnr32_police / impreza / growler / phantom / s15 / mxtmv / 350z / humvee / humveewithweapon / humveev2 / starion / rx7 / l hps1 / challenger / carrera_gt / bugattichiron / bnr34 / bcnr33 / altis / ae86 / m151 / m151_m2 / m151a1c / m151a2 / phantomarmored,   0.00,  1.98, -24.25,   0, 0, -34.93,   15,    5
+AddRack = bnr32 / bnr32_police / impreza / growler / phantom / s15 / mxtmv / 350z / humvee / humveewithweapon / humveev2 / starion / rx7 / l hps1 / challenger / carrera_gt / bugattichiron / bnr34 / bcnr33 / altis / ae86 / m151 / m151_m2 / m151a1c / m151a2 / phantomarmored,   0.00,  1.98, -20.47,   0, 0, -34.93,   15,    5
 AddRack = m1129,   0.00,  1.98, -12.30,   0, 0, -34.93,   15,    5
-AddRack = bnr32 / bnr32_police / impreza / growler / phantom / S15 / mxtmv,   0.00,  1.98, -20.47,   0, 0, -34.93,   15,    5
+
 
 AddRack = container,     0.65,  2.19, -8.01,    0, 0, -34.93,   15,    5
 AddRack = container,    -0.65,  2.19, -8.01,    0, 0, -34.93,   15,    5

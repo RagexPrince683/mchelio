@@ -6,6 +6,7 @@ MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
+sound = fthirtyfive
 Speed = 1.2
 FlareType = 4
 ParticlesScale = 0.7
@@ -63,16 +64,16 @@ AddPartWeaponBay = aim-9x,           0.65, 1.22,-4.92,   0.000,  0.000, 1.000, -
 
 AddPartWeaponMissile = gbu-31,   false,  false,  false,   1.21, 1.63, -7.07
 AddPartWeaponMissile = gbu-31,   false,  false,  false,  -1.21, 1.63, -7.07
-AddPartWeaponMissile = cbu-87,   false,  false,  false,   3.50, 1.16, -7.85
-AddPartWeaponMissile = cbu-87,   false,  false,  false,  -3.50, 1.16, -7.85
+AddPartWeaponMissile = 35cbu-87,   false,  false,  false,   3.50, 1.16, -7.85
+AddPartWeaponMissile = 35cbu-87,   false,  false,  false,  -3.50, 1.16, -7.85
 
-AddWeapon = gau-22a,  0.00, 0.79, -4.63, 0.0,-3.0
+AddWeapon = gau-22a35,  0.00, 0.79, -4.63, 0.0,-3.0
 AddWeapon = aim-9x,   0.95, 1.16, -6.53, 0.0, 0.0
 AddWeapon = aim-9x,  -0.95, 1.16, -6.53, 0.0, 0.0
 AddWeapon = gbu-31,   1.21, 1.63, -7.07, 0.0, 0.0
 AddWeapon = gbu-31,  -1.21, 1.63, -7.07, 0.0, 0.0
-AddWeapon = cbu-87,   3.50, 1.16, -7.85, 0.0, 0.0
-AddWeapon = cbu-87,  -3.50, 1.16, -7.85, 0.0, 0.0
+AddWeapon = 35cbu-87,   3.50, 1.16, -7.85, 0.0, 0.0
+AddWeapon = 35cbu-87,  -3.50, 1.16, -7.85, 0.0, 0.0
 
 AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
 

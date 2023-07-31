@@ -7,7 +7,7 @@ Flaming = false
 Sight = MoveSight
 Delay = 0
 ReloadTime = 35
-Round = 182
+Round = 200
 ;SoundDelay = 3
 ;SoundPitch = 2.3
 Sound = gautwentytwo
@@ -34,7 +34,7 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 
-MaxAmmo = 182
-SuppliedNum = 182
+MaxAmmo = 200
+SuppliedNum = 200
 Item =  2, iron_ingot
 Item =  2, gunpowder

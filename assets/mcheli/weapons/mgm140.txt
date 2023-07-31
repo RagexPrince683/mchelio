@@ -1,10 +1,10 @@
 DisplayName = MGM-140 ATACMS [HE Ballistic Rocket]
-Type = Rocket
+Type = ASMissile
 Power = 1000
-Acceleration = 4.5
+Acceleration = 14.5
 Flaming = false
 Sight = None
-Gravity = -0.06
+Gravity = -0.01
 Delay = 50
 SoundVolume = 5.5
 SoundPitch = 5.0
@@ -15,6 +15,7 @@ Round = 1
 ReloadTime = 1500
 ModelBullet = mgm140
 Group = Rocket
+radius = 2000
 
 AddMuzzleFlash      =  2.2,      1.80,        8,  200,254,129,44
 AddMuzzleFlash      =  2.1,      1.75,        7,  200,254,219,104

@@ -16,6 +16,10 @@ Stealth = 0.3
 CameraPosition = 0.0, 0.70, -2.18
 ThrottleUpDown = 0.3
 
+Sound = fthirtyfive
+
+SoundPitch = 0.2
+
 EnableGunnerMode = true
 AutoPilotRot = 0
 ThirdPersonDist = 20

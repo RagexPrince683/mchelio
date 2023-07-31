@@ -20,6 +20,8 @@ EnableGunnerMode = true
 AutoPilotRot = 0
 ThrottleUpDown = 0.3
 
+sound = ftwentytwo
+
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 

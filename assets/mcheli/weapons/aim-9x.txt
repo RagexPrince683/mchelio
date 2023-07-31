@@ -11,7 +11,7 @@ Round = 2
 LockTime = 15
 ProximityFuseDist = 1
 ModelBullet = aim9x
-Sound = missile_1_snd
+Sound = aimnine
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0

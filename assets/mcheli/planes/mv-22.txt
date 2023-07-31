@@ -12,6 +12,7 @@ DefaultVtol = true
 VtolYaw = 0.7
 VtolPitch = 0.4
 Speed = 1.0
+Sound = osprey
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true

@@ -7,18 +7,18 @@ Flaming = false
 Sight = MissileSight
 Delay = 9
 ReloadTime = 110
-Round = 4
+Round = 2
 LockTime = 15
 ProximityFuseDist = 1
 ModelBullet = aim120EF
-Sound = missile_1_snd
+Sound = aimnine
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
-MaxAmmo = 4
+MaxAmmo = 2
 Item =  2, iron_ingot
 Item =  2, gunpowder
 Item =  2, redstone

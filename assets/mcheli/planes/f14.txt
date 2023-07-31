@@ -9,7 +9,7 @@ EnableEjectionSeat = true
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
 Speed = 1.4
-Sound = plane
+Sound = tomcat
 CameraPosition = -2.97, 1.12, -5.00
 ConcurrentGunnerMode = true
 AutoPilotRot = 0
@@ -21,6 +21,8 @@ MaxFuel         = 1200
 FuelConsumption = 1.0
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
+
+
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
@@ -65,6 +67,8 @@ AddWeapon = aim54,   -0.55, 0.91, -6.50, 0.0, 0.0, true, 2
 AddWeapon = aim54,    0.55, 0.91, -6.50, 0.0, 0.0, true, 2
 AddWeapon = gbu12,   -0.59, 0.97, -1.65, 0.0, 0.0, true, 2
 AddWeapon = gbu12,    0.59, 0.97, -1.65, 0.0, 0.0, true, 2
+
+AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0, true, 2
 
 
 AddWeapon = targeting_pod_ph50s,   0.0, 2.7, 0.1,    0.0, 0.0, true,  2

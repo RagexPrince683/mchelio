@@ -7,7 +7,8 @@ Flaming = true
 Sight = MoveSight
 Delay = 300
 ModelBullet = agm84
-Sound = missile_2_snd
+Sound = mlrs
+SoundPitch = 0.8
 
 ;Acceleration = 0.5
 Explosion = 15

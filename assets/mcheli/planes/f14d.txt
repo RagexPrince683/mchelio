@@ -7,6 +7,7 @@ EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
 Speed = 0.9
+sound = tomcat
 FlareType = 4
 VariableSweepWing = true
 SweepWingSpeed = 1.2
@@ -15,6 +16,8 @@ FuelConsumption = 1.0
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 ThrottleUpDown = 0.3
+
+
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F

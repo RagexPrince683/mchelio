@@ -15,6 +15,7 @@ FuelConsumption = 1.0
 ThirdPersonDist = 20
 MotionFactor = 0.968
 ThrottleUpDown = 0.3
+Sound = faeighteen
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F

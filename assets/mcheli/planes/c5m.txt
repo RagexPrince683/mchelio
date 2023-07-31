@@ -7,6 +7,8 @@ ThrottleUpDown = 0.1
 MaxFuel         = 20000
 FuelConsumption = 1.6
 InventorySize = 64
+EnableGunnerMode = true
+AutoPilotRot = 0
 FlareType = 2
 EnableNightVision = true
 EnableEntityRadar = true
@@ -140,18 +142,18 @@ AddRecipe = "   ",  "Y C",  "X X",  X, iron_block, Y, diamond, C,chest
 AddRack = m1a2, 0.0, 2.40, -7,   0, 0, 17.0,   11,   20
 AddRack = m1a2, 0.0, 2.18,-28,   0, 0,-58.0,   11,   20
 
-AddRack = mh-60g/mh-60l_dap/sh-60/uh-60m/sh-3,   0, 2.4,  -4.8,   0, 0, 17.0,      11,    100000
-AddRack = mh-60g/mh-60l_dap/sh-60/uh-60m/sh-3,   0, 2.2, -22.8,   0, 0,-58.0,      11,    100000
+AddRack = mh-60g/mh-60l_dap/sh-60/uh-60m/sh-3/ah-64,   0, 2.4,  -4.8,   0, 0, 17.0,      11,    100000
+AddRack = mh-60g/mh-60l_dap/sh-60/uh-60m/sh-3/ah-64,   0, 2.2, -22.8,   0, 0,-58.0,      11,    100000
 
-AddRack = centauro/m1129, 0.0, 2.40, -9,   0, 0, 17.0,   11,   20
-AddRack = centauro/m1129, 0.0, 2.18,-29,   0, 0,-58.0,   11,   20	
+AddRack = centauro/m1129/, 0.0, 2.40, -9,   0, 0, 17.0,   11,   20
+AddRack = centauro/m1129/, 0.0, 2.18,-29,   0, 0,-58.0,   11,   20	
 
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon, 0.0, 2.40,-11.8,   0, 0, 17.0,   11,   20
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon, 0.0, 2.35, -4.8,   0, 0, 17.0,   11,   20
+AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon/ah-64, 0.0, 2.40,-11.8,   0, 0, 17.0,   11,   20
+AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon/ah-64, 0.0, 2.35, -4.8,   0, 0, 17.0,   11,   20
 :
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon, 0.0, 2.25,-18.8,   0, 0,-58.0,   12,   20
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon, 0.0, 2.20,-25.8,   0, 0,-58.0,   12,   20
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon, 0.0, 2.15,-32.8,   0, 0,-58.0,   12,   20
+AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon/ah-64, 0.0, 2.25,-18.8,   0, 0,-58.0,   12,   20
+AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon/ah-64, 0.0, 2.20,-25.8,   0, 0,-58.0,   12,   20
+AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon/ah-64, 0.0, 2.15,-32.8,   0, 0,-58.0,   12,   20
 
 AddRack = ah-64,   0, 2.4,  -4.8,   0, 0, 17.0,      11,    100000,  0, -3.55
 AddRack = ah-64,   0, 2.2, -22.8,   0, 0,-58.0,      11,    100000,  0, -3.55

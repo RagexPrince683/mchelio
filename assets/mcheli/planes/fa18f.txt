@@ -1,5 +1,5 @@
-DisplayName = F/A-18F
-AddDisplayName = en_US, F/A-18F
+DisplayName = F/A-18F Super Hornet
+AddDisplayName = en_US, F/A-18F Super Hornet
 AddDisplayName = ja_JP, F/A-18Fスーパーホーネット
 ItemID = 28715
 MaxHp = 100
@@ -13,6 +13,11 @@ EnableSeaSurfaceParticle = true
 MaxFuel         = 1200
 FuelConsumption = 1.0
 ThrottleUpDown = 0.3
+ThirdPersonDist = 20
+Sound = faeighteen
+
+EntityWidth  = 0.75
+EntityHeight = 0.75
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F

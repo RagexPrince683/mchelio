@@ -20,9 +20,9 @@ EnableNightVision = true
 EnableEntityRadar = true
 MotionFactor = 0.90
 ParticlesScale = 18.5
-Stealth = 0.3
+;Stealth = 0.3
 RotorSpeed = 10
-AmmoSupplyRange = 40
+;AmmoSupplyRange = 40
 EnableBack = true
 ThirdPersonDist = 60
 CanMoveOnGround = false
@@ -36,7 +36,7 @@ InventorySize = 54
 ;AddSeat =  -0.04, 0.12, -0.02
 AddSeat =  -1.5, 0.12, 2.26
 
-UnmountPosition = -1.5, 1.98, 2.26
+;UnmountPosition = -1.5, 1.98, 2.26
 
 BoundingBox = -1.5, 1.0, 2.26, 3.5, 3.5, 1.0
 
@@ -106,9 +106,13 @@ AddPartSlideHatch =  0.00, 0.00, -12.53
 ; horn
 AddWeapon =  ship_horn, 0.00, 0.10, 0.00,  0.0, 90
 
+UnmountPosition = 0, 20, 0
 
+;AddRack = none, 0, 40, 0,  -11.45, 16.71, 4.94,  15
 
 AddRack = helicopter / mv-22,  -11.45, 11.09, 5.94,  -11.45, 16.71, 4.94,  15
+
+;AddRack = none,  -11.45, 10.09, 5.94,  -11.45, 16.71, 4.94,  15
 
 AddRack =  mc_RHIB / Lcvp,  -11.03, 6.12, -5.66, -10.90, 0.56, -7.87, 8
 
