@@ -1,5 +1,5 @@
 DisplayName = MAM-L
-Type = ATMissile
+Type = ASMissile
 Power = 750
 Acceleration = 4.0
 Explosion = 4

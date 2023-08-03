@@ -219,6 +219,7 @@
 "pantsirmis": {"category": "master","sounds": ["pantsirmis"]},
 "peacemaker": {"category": "master","sounds": ["peacemaker"]},
 "phantom": {"category": "master","sounds": ["phantom"]},
+"phantomplane": {"category": "master","sounds": ["phantomplane"]},
 "pi": {"category": "master","sounds": ["pi"]},
 "ping": {"category": "master","sounds": ["ping"]},
 "pkt": {"category": "master","sounds": ["pkt"]},

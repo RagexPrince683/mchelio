@@ -15,6 +15,8 @@ EnableSeaSurfaceParticle = true
 MaxFuel         = 1400
 FuelConsumption = 1.0
 
+Sound = pakfa
+
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 

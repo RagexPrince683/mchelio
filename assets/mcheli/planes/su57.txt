@@ -18,6 +18,8 @@ CameraPosition = 0.0, 1.25, 0.00
 EnableGunnerMode = true
 AutoPilotRot = 0
 
+sound = pakfa
+
 
 Category = M.F
 

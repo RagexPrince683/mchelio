@@ -3,7 +3,8 @@ Type = MachineGun1
 ModelBullet = bullet
 Power = 30
 Acceleration = 6.0
-Explosion = 0
+Explosion = 1
+ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight
 Delay = 0
@@ -27,7 +28,7 @@ AddMuzzleFlash      =  0,      0.60,        0,  150,254,219,184
 AddMuzzleFlashSmoke =  0,  2,   7.0,  2.5, 15,  130,250,245,240
 AddMuzzleFlashSmoke =  0,  1,   6.0,  2.5, 25,  130,220,217,214
 
-Gravity = -0.001
+Gravity = -0.005
 
 Acceleration = 7.5
 Piercing = 0

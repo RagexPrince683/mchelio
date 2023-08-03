@@ -1,7 +1,8 @@
 DisplayName = MAM-C
-Type = ATMissile
+Type = ASMissile
 Power = 43
 Acceleration = 4.0
+radius = 2000
 Explosion = 2
 Flaming = true
 Sight = MissileSight 

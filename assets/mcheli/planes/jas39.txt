@@ -14,6 +14,8 @@ MotionFactor = 0.968
 ThrottleUpDown = 0.3
 ThirdPersonDist = 16
 
+Sound = faeighteen
+
 MobilityRoll = 2.0
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)

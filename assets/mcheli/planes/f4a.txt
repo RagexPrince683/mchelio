@@ -18,6 +18,7 @@ CameraZoom = 2
 Category = M.F
 onGroundPitch = -2.0
 ThrottleUpDown = 0.3
+Sound = phantomplane
 
 HUD = plane, plane_gnr
 

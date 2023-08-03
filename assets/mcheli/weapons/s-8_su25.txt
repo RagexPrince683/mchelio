@@ -13,7 +13,8 @@ Sight = None
 Delay = 1
 ReloadTime = 150
 Round = 36
-Sound = missile_9_snd
+Sound = hydraseventy
+SoundPitch = 0.8
 DisplayMortarDistance = true
 
 Gravity = -0.001

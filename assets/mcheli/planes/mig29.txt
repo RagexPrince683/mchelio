@@ -6,19 +6,23 @@ Speed = 1.15
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-ThrottleUpDown = 0.3
+ThrottleUpDown = 0.6
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel         = 1000
 FuelConsumption = 1.0
+Sound = migtwentynine
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
 HUD = plane
 
-AddSeat = 0.0, 2.15, -0.6
+EntityWidth  = 0.75
+EntityHeight = 0.75
+
+AddSeat = 0.0, 2.0, -0.5
 
 AddPartCanopy = 0.00,3.45,-2.0,-1,0,0,60
 

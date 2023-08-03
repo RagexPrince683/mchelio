@@ -1,5 +1,5 @@
-﻿DisplayName = Sukhoi T-50 PAK-FA
-AddDisplayName = en_US, Sukhoi T-50 PAK-FA
+﻿DisplayName = Sukhoi T-50 Su-57 (Early) PAK-FA
+AddDisplayName = en_US, Sukhoi T-50 Su-57 (Early) PAK-FA
 AddDisplayName = ja_JP, スホーイ T-50 PAK-FA
 MaxHp = 100
 EnableNightVision = true
@@ -14,6 +14,7 @@ MaxFuel         = 1600
 FuelConsumption = 1.0
 Stealth = 0.3
 CameraPosition = 0.0, 1.6, -8.5, false
+Sound = pakfa
 EnableGunnerMode = true
 AutoPilotRot = 0
 ThrottleUpDown = 0.3
