@@ -1,4 +1,4 @@
-DisplayName = DF-41 Thermonuclear Warhead
+DisplayName = DF-41 Thermonuclear Warhead [5 Mega Tons]
 Type = ASMissile
 ;Power = 41000
 Acceleration = 8.5

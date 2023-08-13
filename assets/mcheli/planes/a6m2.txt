@@ -1,10 +1,10 @@
-DisplayName = ZERO type21
-AddDisplayName = en_US, ZERO Type 21
+DisplayName = A6M5 Zero Type 21
+AddDisplayName = en_US, A6M5 Zero Type 21
 AddDisplayName = ja_JP, 零式艦上戦闘機21型
 ItemID = 28708
 MaxHp = 100
 Speed = 0.95
-Sound = prop
+Sound = zero
 onGroundPitch = 14.3
 ThrottleUpDown = 0.3
 MaxFuel         = 1200
@@ -40,11 +40,11 @@ AddBlade = 1, 0,  0.00,  1.64, 2.83,   0,0,-1
 AddPartWing =  -5.74, 1.83, 0.00,  0,0,-1, 100
 AddPartWing =   5.74, 1.83, 0.00,  0,0, 1, 100
 
-AddWeapon = mg7_7mm,  0.19, 2.18, 1.62,  0.0, -3.0
-AddWeapon = mg7_7mm, -0.19, 2.18, 1.62,  0.0, -3.0
+AddWeapon = mg7_7mma6,  0.19, 2.18, 1.62,  0.0, -3.0
+AddWeapon = mg7_7mma6, -0.19, 2.18, 1.62,  0.0, -3.0
 
-AddWeapon = mg20mm,  2.00, 1.41, 1.69,   2.0, -5.0
-AddWeapon = mg20mm, -2.00, 1.41, 1.69,  -2.0, -5.0
+AddWeapon = mg20mma6,  2.00, 1.41, 1.69,   2.0, -5.0
+AddWeapon = mg20mma6, -2.00, 1.41, 1.69,  -2.0, -5.0
 
 AddRecipe = "I I",  "PGP",  " I ",  I,iron_block, G,dye,7, P,paper
 

@@ -7,10 +7,13 @@ Sight = MoveSight
 Delay = 1
 SoundVolume = 1.0
 SoundPitch = 1.0
-Sound = gun_h1_snd
+Sound = m2_snd
 Accuracy = 1.5
 HeatCount = 8
 MaxHeatCount = 150
+
+Acceleration = 7.5
+Gravity = -0.005
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5

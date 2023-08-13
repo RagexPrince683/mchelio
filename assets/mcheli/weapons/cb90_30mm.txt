@@ -8,10 +8,13 @@ Sight = MoveSight
 Delay = 3
 ReloadTime = 1
 Round = 80
-SoundVolume = 3
-SoundPitch = 1.0
-Sound = gun_h1_snd
+;SoundVolume = 3
+SoundPitch = 0.8
+Sound = twentymil
 Accuracy = 2.0
+
+Acceleration = 7.5
+Gravity = -0.005
 
 Acceleration = 7.5
 Piercing = 0

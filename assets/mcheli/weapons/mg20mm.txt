@@ -10,6 +10,8 @@ SoundVolume = 10
 HeatCount = 3
 MaxHeatCount = 60
 Sound = gun_h2_snd
+Acceleration = 7.5
+Gravity = -0.005
 
 Acceleration = 7.5
 Piercing = 0

@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, B-29 スーパーフォートレス
 ItemID = 28729
 MaxHp = 250
 Speed = 0.68
-Sound = prop
+Sound = btwentynine
 ThrottleUpDown = 0.1
 AutoPilotRot = 0.00
 CameraPosition = 2.0, 1.40, -4.0
@@ -71,6 +71,14 @@ AddPartRotor =    5.33,  2.65,  -5.13,   0, 0, 1
 AddBlade = 1,0,   5.33,  2.65,  -5.13,   0, 0, 1
 
 AddRecipe = "I I",  "TTT",  "I I",  I,iron_block, T,tnt
+
+;AddRecipe = "   ",  " T ",  "   ",  T,mcheli:tu4light
+
+AddRecipe = "IX ",  "   ",  "   ",  I,iron_ingot, X,mcheli:tu4light
+
+;AddShapelessRecipe = iron_ingot,mcheli:tu4light
+;AddShapelessRecipe = iron_block,iron_block
+
 
 
 AddWeapon = mg12_7mm_tf,   0.29,  4.31, -4.05,  0.0, 0.0, true,  5,    0, -360, 360, -60, 3

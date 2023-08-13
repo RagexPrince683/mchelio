@@ -8,12 +8,17 @@ Flaming = false
 Sight = MoveSight
 Delay = 2
 Accuracy = 4.0
-Gravity = -0.04
+;Gravity = -0.04
 Particle = largeexplode
 HeatCount = 2
 MaxHeatCount = 100
-Sound = mk108_snd
-SoundPitch = 2.0
+;Sound = mk108_snd
+;SoundPitch = 2.0
+
+Power = 18
+Sound = shilka
+Acceleration = 7.5
+Gravity = -0.005
 
 Acceleration = 7.5
 Piercing = 0

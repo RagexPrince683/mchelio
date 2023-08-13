@@ -9,8 +9,11 @@ ReloadTime = 100
 Round = 252
 SoundVolume = 5.5
 SoundPitch = 5.5
-Sound = gun_h1_snd
+Sound = twentymil
 Accuracy = 4.0
+
+Acceleration = 7.5
+Gravity = -0.005
 
 AddMuzzleFlash      =   2.1,      0.32,        3,  150,254,159,84
 AddMuzzleFlash      =   2.0,      0.30,        2,  150,254,219,184

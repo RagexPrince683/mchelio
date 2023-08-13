@@ -1,0 +1,87 @@
+﻿DisplayName = TU-95 Bear
+AddDisplayName = en_US, TU-95 Bear
+AddDisplayName = ja_JP, TU-95 Bear
+ItemID = 28729
+MaxHp = 250
+Speed = 1.2
+Sound = twinprop
+ThrottleUpDown = 0.1
+AutoPilotRot = 0.00
+CameraPosition = 2.0, 1.40, -4.0
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+InventorySize = 20
+MaxFuel         = 80000
+FuelConsumption = 3.0
+ThirdPersonDist = 40
+
+UnmountPosition = 3.0, 2.0, -4.0
+
+; W = WWII.  A = Attacker(攻撃機)
+Category = W.A
+
+HUD = plane_wwii, gunner
+
+MobilityYaw = 0.8
+MobilityPitch = 0.8
+MobilityRoll = 0.4
+
+
+AddSeat = 0.36,  2.90, 0.00
+AddSeat = -0.36,  2.90, 0.00
+
+
+AddPartLG =   0.0, 3.00, 1.49,  1,0, 0, 60
+AddPartLG =  0.00, 3.00, -12.30,  1,0,00, 100
+AddPartSlideRotLG =   0.00,  2.00,  -3.31,  0.00, 0.00, 0.00, 1,0,0, 0
+
+
+AddPartRotor =   -10.61,  2.89,  -5.10,   0, 0, 3
+AddBlade = 1,0,  -10.61,  2.89,  -5.10,   0, 0, 3
+
+AddPartRotor =  -5.40,  2.842,  -5.00,   0, 0, 3
+AddBlade = 1,0, -5.40,  2.842,  -5.00,   0, 0, 3
+
+AddPartRotor =   5.40,  2.842,  -5.00,   0, 0, 3
+AddBlade = 1,0,  5.40,  2.842,  -5.00,   0, 0, 3
+
+AddPartRotor =    10.61,  2.89,  -5.10,   0, 0, 3
+AddBlade = 1,0,   10.61,  2.89,  -5.10,   0, 0, 3
+
+
+AddPartRotor =   10.61,  2.89,  -5.00,   0, 0,-3
+AddBlade = 1,0,  10.61,  2.89,  -5.00,   0, 0,-3
+
+AddPartRotor =  5.40,  2.842,  -5.10,   0, 0,-3
+AddBlade = 1,0,  5.40,  2.842,  -5.10,   0, 0,-3
+
+AddPartRotor =   -5.40,  2.842,  -5.10,   0, 0,-3
+AddBlade = 1,0,  -5.40,  2.842,  -5.10,   0, 0,-3
+
+AddPartRotor =  -10.61,  2.89,  -5.00,   0, 0,-3
+AddBlade = 1,0, -10.61,  2.89,  -5.00,   0, 0,-3
+
+AddRecipe = "ITI",  "TTT",  "ITI",  I,iron_block, T,tnt
+
+;;AddWeapon = anthemUSSR,       0.00,  1.00,  -6.0, 0, 90, true,  3
+;bloat
+AddWeapon = 250kg,       0.00,  1.00,  -6.0, 0, 90, true,  3
+AddWeapon = tsarbomba,       0.00,  1.00,  -6.0, 0, 90, true,  1
+AddWeapon = kh20,       0.00,  0.00,  -6.0, 0, 90, true,  3
+
+EnableBack = True
+
+BoundingBox =  0.0, 2.6,  -1.6,  4.0, 4.0
+BoundingBox =  0.0, 2.6,  -6.6,  4.0, 4.0, 0.75
+BoundingBox =  0.0, 2.6, -11.6,  4.0, 4.0, 0.75
+BoundingBox =  0.0, 2.6, -16.6,  4.0, 4.0, 0.75
+BoundingBox =  0.0, 3.0, -20.6,  3.0, 3.0
+BoundingBox =  0.0, 3.0, -23.6,  2.0, 2.0
+BoundingBox =  0.0, 3.0, -26.6,  2.0, 2.0
+
+BoundingBox =  -5.0, 2.2, -11.6,  5.0, 1.0, 1.25
+BoundingBox = -10.0, 3.0, -11.6,  5.0, 1.0, 1.25
+BoundingBox = -15.0, 3.0, -12.0,  4.4, 1.0, 0.75
+BoundingBox =   5.0, 2.2, -11.6,  5.0, 1.0, 1.25
+BoundingBox =  10.0, 3.0, -11.6,  5.0, 1.0, 0.75
+BoundingBox =  15.0, 3.0, -12.0,  4.4, 1.0, 1.25

@@ -14,6 +14,9 @@ SoundPitch = 1.0
 Sound = gun_l1_snd
 
 Acceleration = 7.5
+Gravity = -0.005
+
+Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5

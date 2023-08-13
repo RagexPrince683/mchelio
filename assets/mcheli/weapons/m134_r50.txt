@@ -15,6 +15,9 @@ Sound = gun_l2_snd
 HeatCount = 2
 MaxHeatCount = 130
 
+Acceleration = 7.5
+Gravity = -0.005
+
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0

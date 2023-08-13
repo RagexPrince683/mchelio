@@ -1,0 +1,24 @@
+DisplayName = KH-22 Nuclear Cruise Missile
+Type = TVMissile
+Power = 60
+Acceleration = 5.0
+Explosion = 20
+ExplosionBlock = 1
+Flaming = true
+Sight = MoveSight
+Delay = 5
+Round = 9
+ReloadTime = 190
+SoundVolume = 8
+SoundPitch = 0.1
+Sound = missile_1_snd
+ModelBullet = kh22
+Gravity = -0.01
+DisableSmoke = false
+nukeyield = 210
+
+MaxAmmo = 8
+SuppliedNum = 1
+;Item =  1, hbm:item.missile_generic
+Item =  32, tnt
+Item =  40, redstone

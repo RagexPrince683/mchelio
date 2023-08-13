@@ -1,5 +1,6 @@
 DisplayName = KH-38 Anti-Surface Missile
 Type = ASMissile
+radius = 2000
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
@@ -7,9 +8,11 @@ DamageFactor = heli, 3.0
 Power = 1000
 Acceleration = 4.2
 Explosion = 21
+ExplosionBlock = 5
 Flaming = true
 Sight = MoveSight
-Delay = 200
+Delay = 5
+ReloadTime = 260
 ModelBullet = agm84
 Sound = missile_2_snd
 

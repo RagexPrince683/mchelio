@@ -13,7 +13,8 @@ Accuracy = 2.0
 Gravity = -0.01
 Particle = largeexplode
 ReloadTime = 30
-Sound = gun_h2_snd
+Sound = bofors
+SoundPitch = 0.8
 
 Acceleration = 7.5
 Piercing = 0

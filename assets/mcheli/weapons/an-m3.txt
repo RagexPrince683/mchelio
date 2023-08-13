@@ -10,8 +10,11 @@ Delay = 0
 ;Accuracy = 2.0
 HeatCount = 1
 MaxHeatCount = 50
-SoundPitch = 0.8
-Sound = gun_l1_snd
+;SoundPitch = 0.8
+Sound = m2_snd
+
+Acceleration = 7.5
+Gravity = -0.005
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5

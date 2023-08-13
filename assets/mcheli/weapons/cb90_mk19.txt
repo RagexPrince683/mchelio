@@ -11,11 +11,11 @@ Sight = MoveSight
 Delay = 4
 Round = 4
 ReloadTime = 50
-SoundPitch = 0.3
-SoundVolume = 2
+;SoundPitch = 0.3
+SoundVolume = 15
 Gravity = -0.035
 Accuracy = 4.0
-Sound = mk19_l_snd
+Sound = fourtymm
 
 MaxAmmo = 72
 SuppliedNum = 72

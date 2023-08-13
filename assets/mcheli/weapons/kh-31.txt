@@ -5,7 +5,8 @@ Acceleration = 4.0
 Explosion = 7
 Flaming = true
 Sight = MoveSight
-Delay = 200
+Delay = 5
+ReloadTime = 260
 Sound = missile_2_snd
 
 DamageFactor = tank, 1.0
@@ -13,8 +14,8 @@ DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
-MaxAmmo = 8
-SuppliedNum = 4
+MaxAmmo = 2
+SuppliedNum = 2
 Item =  3, iron_ingot
 Item =  3, gunpowder
 Item =  3, redstone

@@ -3,8 +3,8 @@ Type = Bomb
 Power = 13444
 Acceleration = 0.5
 Explosion = 150
-ExplosionBlock = 30
-ExplosionInWater = 30
+ExplosionBlock = 25
+ExplosionInWater = 25
 Flaming = true
 Sight = None
 Delay = 8
@@ -20,10 +20,10 @@ DamageFactor = player, 20.0
 
 
 ReloadTime = 200
-Round = 4
+;Round = 4
 
 MaxAmmo = 1
 SuppliedNum = 1
 Item =  8, iron_ingot
 Item =  10, gunpowder
-Item =  30, tnt
+Item =  10, tnt

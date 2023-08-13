@@ -1,4 +1,4 @@
-DisplayName = Mk45 Mk116 [HE-VT] 127mm gun
+DisplayName = Mk45 Mk116 [HE-VT] 127mm Gun
 Type = MachineGun2
 Power = 40
 ModelBullet = bullet76mm
@@ -11,12 +11,15 @@ Delay = 13
 ModeNum = 2
 HeatCount = 20
 MaxHeatCount = 120
-SoundVolume = 1.6
+;SoundVolume = 1.6
 SetCartridge = cartridge, 0.4,  0, 0, 7.60, -0.02, 0.70
-Sound = cannon_1_snd
+Sound = markfourtyfive
 ProximityFuseDist = 5
 ; RecoilBufCount = 駐退カウント, 後退中のカウント倍率
 RecoilBufCount = 18, 6
+
+Acceleration = 7.5
+Gravity = -0.005
 
 DamageFactor = helicopter, 2.0
 DamageFactor = plane,      2.0
