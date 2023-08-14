@@ -12,6 +12,7 @@ FuelConsumption = 2.0
 ThirdPersonDist = 28
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
+Sound = migfifteen
 
 AddTexture = il28_ddr
 AddTexture = il28_dprk

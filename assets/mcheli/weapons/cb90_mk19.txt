@@ -16,6 +16,8 @@ SoundVolume = 15
 Gravity = -0.035
 Accuracy = 4.0
 Sound = fourtymm
+SoundVolume = 15
+
 
 MaxAmmo = 72
 SuppliedNum = 72
