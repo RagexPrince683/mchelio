@@ -10,9 +10,9 @@ Sight = MoveSight
 Delay = 50
 ModeNum = 1
 Piercing  = 0
-SoundPitch = 0.7
+SoundPitch = 0.9
 SoundVolume = 20
-Sound = cannon_1_snd
+Sound = msta
 Recoil = 0.2
 Gravity = -0.005
 

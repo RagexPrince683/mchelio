@@ -10,9 +10,10 @@ Delay = 1
 Accuracy = 1.5
 HeatCount = 5
 MaxHeatCount = 150
-Sound = gun_h2_snd
-SoundVolume = 3
-Gravity = -0.01
+Sound = twentymil
+SoundPitch = 0.8
+SoundVolume = 15
+Gravity = -0.001
 BulletColor        = 255, 119, 255, 116
 
 

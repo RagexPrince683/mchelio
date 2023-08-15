@@ -2,7 +2,7 @@ DisplayName = Project1204 Shmel Partol-Boat
 AddDisplayName = en_US, Project 1204 Shmel Patrol-Boat
 AddDisplayName = ja_JP, プロジェクト1204 Shmel国境警備艇
 ItemID = 28748
-MaxHp = 600
+MaxHp = 1850
 Speed = 0.6
 Sound = boat
 Float = true
@@ -13,7 +13,7 @@ MaxRotationPitch = 0
 MobilityRoll = 0
 Gravity = -0.1
 GravityInWater = 0.1
-DamageFactor = 0.8
+DamageFactor = 0.6
 
 HUD = gunner, plane_gnr, plane_gnr, plane_gnr
 
@@ -39,7 +39,7 @@ AddSeat = -0.60, 2.80, -5.23
 AddSeat =  0.60, 2.80, -5.23
 
 AddWeapon = d56ts,    0.00, 1.68,   0.05, 0.0, 0.0, true,  2,   0, -145,145, -30.0, 4.0
-AddWeapon = mg7_62mm, 0.24, 1.68,   0.45, 0.0, 0.0, true,  2,   0, -145,145, -30.0, 4.0
+AddWeapon = prmg7_62mm, 0.24, 1.68,   0.45, 0.0, 0.0, true,  2,   0, -145,145, -30.0, 4.0
 AddWeapon = bm_14_17, 0.00, 2.31, -11.09, 0.0, 0.0, false, 3, 180, -140,140, -30.0, 0.0
 AddWeapon = 2m3m,     0.00, 2.06, -14.82, 0.0, 0.0, false, 4, 180, -170,170, -80.0, 5.0
 AddWeapon = 2m3m,     0.00, 2.26, -14.82, 0.0, 0.0, false, 4, 180, -170,170, -80.0, 5.0

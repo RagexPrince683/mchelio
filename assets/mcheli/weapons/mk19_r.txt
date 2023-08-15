@@ -11,11 +11,14 @@ Sight = MoveSight
 Delay = 3
 Round = 5
 ReloadTime = 50
+Sound = fourtymm
 SoundDelay = 1
-SoundPitch = 0.3
-SoundVolume = 2
+;SoundPitch = 0.3
+SoundVolume = 15
 Gravity = -0.04
 Accuracy = 4.0
+
+DisableSmoke = true
 
 SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
 

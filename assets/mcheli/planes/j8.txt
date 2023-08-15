@@ -4,6 +4,7 @@ AddDisplayName = ja_JP, J8 II
 ItemID = 25547
 MaxHp = 100
 Speed = 1.10
+Sound = migtwentyone
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true

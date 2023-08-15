@@ -11,8 +11,8 @@ Delay = 10
 ModeNum = 1
 HeatCount = 25
 MaxHeatCount = 60
-SoundVolume = 0.6
-Sound = cannon_1_snd
+SoundVolume = 15
+Sound = naval
 
 Gravity = -0.005
 
