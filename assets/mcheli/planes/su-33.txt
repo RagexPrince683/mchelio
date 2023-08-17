@@ -24,7 +24,7 @@ HUD = plane
 AddSeat = 0.00,  2.11,  7.21
 
 MobilityYaw = 10.0
-MobilityRoll = 0.5
+MobilityRoll = 4.5
 MobilityPitch = 4.5
 
 AddPartCanopy = 0.00, 3.55,  5.46, -1,0,0,  60
