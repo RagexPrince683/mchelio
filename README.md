@@ -1,15 +1,19 @@
-Hello! This file was published to Nexusmods by RagexPrince683.
-To get this mod working you need to follow the following steps:
-Step 0: have a minecraft account https://www.minecraft.net/en-us
-Step 1: ensure you have minecraft forge https://files.minecraftforge.net/
-Step 2: click the green code drop down menu on the front page
-Step 3: click download as zip
-Step 4: extract the zip file
-Step 5: ensure the file name is 'mcheli' (ensure that there is an assets and a mcheli folder inside of the folder entitled 'mcheli' otherwise there may be something wrong.)
-Step 6: put the main (parent) folder mcheli into the mods folder in your minecraft directory (NOT JUST THE ROOT FOLDER MCHELI you can tell which one is the root foldered mcheli if it has classfiles in it. You want those in your mods folder but you want both assets and mcheli to be subrooted folders.)
-Step 7: Install HBM's Nuclear Tech Mod as it is a dependency for this mod. The link for HBM's mod can be found here: https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT NOTICE!!: if you are using an older version of the mod download this hbm version otherwise you will encounter issues (again only if you are using the first version of mchelio): https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT/releases/tag/1.0.27X3920
-Step 8: Launch minecraft
+Hello! This file was uploaded by RagexPrince683 to either Modrinth, Nexusmods, or Curseforge. If there is an update available, you can download it from the following sources:
 
-If you so happen to have an issue with this please contact me at: ragexprince684@gmail.com
+Modrinth: [Download Link](https://modrinth.com/mod/mcheli-o)
+Nexusmods: [Download Link](https://www.nexusmods.com/minecraft/mods/375)
+Curseforge (work in progress): [Download Link](https://legacy.curseforge.com/minecraft/mc-mods/mcheli-overdrive)
+To successfully install and use this mod, follow these steps:
 
-If there are any bugs or issues with the project please contact me on discord at: https://discord.gg/uQK6QF2TeA
+Step 0: Ensure you have a Minecraft account: [Minecraft Account](https://www.minecraft.net/en-us)
+Step 1: Make sure you have Minecraft Forge installed: [Minecraft Forge](https://files.minecraftforge.net/)
+Step 2: Download the mod from one of the available sources.
+Step 3: Extract the downloaded ZIP file.
+Step 4: Verify that the extracted folder's name is 'mcheli'. (Ensure there are 'assets' and 'mcheli' folders inside the 'mcheli' folder; otherwise, there might be an issue.)
+Step 5: Place the main (parent) 'mcheli' folder into the 'mods' folder within your Minecraft directory. (Note: Do not just place the root 'mcheli' folder there. The root folder is identifiable by having class files. You need those class files in the 'mods' folder, but 'assets' and 'mcheli' should remain as subfolders.)
+Step 6: Install HBM's Nuclear Tech Mod as it's a dependency for this mod. You can find the mod here: [HBM's Nuclear Tech Mod](https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT) IMPORTANT: If you're using an older version of the mod, download the corresponding HBM version to avoid compatibility issues (only necessary for the first version of mcheli): [HBM's Nuclear Tech Mod Legacy Version](https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT/releases/tag/1.0.27X3920)
+Step 8: Launch Minecraft.
+
+If you encounter any issues, please contact me at: ragexprince684@gmail.com
+
+For reporting bugs or project-related problems, reach out to me on Discord: [Discord Link](https://discord.gg/uQK6QF2TeA)
