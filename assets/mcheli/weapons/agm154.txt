@@ -18,9 +18,9 @@ DisableSmoke = true
 Piercing  = 1
 
 ;15Tick後に15個の子弾をばらまく
-Bomblet = 15
+Bomblet = 30
 BombletSTime = 85
-BombletDiff = 1.1
+BombletDiff = 0.95
 ModelBomblet = cbc
 ;目標から30m以内に入ると爆発
 ;ProximityFuseDist = 30

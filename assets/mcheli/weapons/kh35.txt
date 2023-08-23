@@ -1,6 +1,6 @@
 DisplayName = Kh-35
 Type = TVMissile
-Power = 320
+Power = 1000
 Acceleration = 2.5
 Explosion = 8
 ExplosionBlock = 2
@@ -11,7 +11,14 @@ Delay = 100
 ModeNum = 2
 ModelBullet = Kh35
 SoundVolume = 3
-Sound = HOT-1_snd
+;;Sound = HOT-1_snd
+
+Sound = missile_2_snd
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 AddMuzzleFlash      =  2.2,      1.80,        8,  200,254,129,44
 AddMuzzleFlash      =  2.1,      1.75,        7,  200,254,219,104

@@ -1,6 +1,6 @@
 DisplayName = Kh-31
 Type = ASMissile
-Power = 230
+Power = 1000
 Acceleration = 4.0
 radius = 2000
 Explosion = 7

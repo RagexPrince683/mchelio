@@ -1,6 +1,6 @@
 DisplayName = LAU-68 70mm Rocket
 Type = Rocket
-Power = 300
+Power = 400
 ModelBullet = hydra70
 Acceleration = 7.0
 Explosion = 3

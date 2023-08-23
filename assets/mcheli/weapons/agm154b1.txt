@@ -1,6 +1,6 @@
 DisplayName = AGM-154 JSOW
 Type = ASMissile
-Power = 500
+Power = 1000
 radius = 1000
 Acceleration = 2.0
 Explosion = 10

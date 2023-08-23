@@ -1,6 +1,6 @@
 DisplayName = MAM-C
 Type = ASMissile
-Power = 43
+Power = 430
 Acceleration = 4.0
 radius = 2000
 Explosion = 2

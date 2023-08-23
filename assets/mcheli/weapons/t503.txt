@@ -1,6 +1,6 @@
 DisplayName = KAB-250 Guided Bomb
 Type = ASMissile
-Power = 75
+Power = 1000
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
