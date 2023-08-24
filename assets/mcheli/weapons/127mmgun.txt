@@ -1,20 +1,24 @@
 DisplayName = Oto Melara 127mm gun
 Type = MachineGun2
-Power = 40
+Power = 60
 ModelBullet = bullet76mm
 Acceleration = 8.0
 Explosion = 3
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
-Delay = 13
+Delay = 15
 ModeNum = 2
-HeatCount = 20
+HeatCount = 40
 MaxHeatCount = 120
-SoundVolume = 1.6
+;SoundVolume = 1.6
 SetCartridge = cartridge, 0.4,  0, 0, 7.50, -0.04, 0.40
-Sound = cannon_1_snd
+Sound = naval
+Gravity = -0.005
 ProximityFuseDist = 2
+SoundPitch = 0.9
+
+Gravity = -0.005
 
 
 ReloadTime = 150

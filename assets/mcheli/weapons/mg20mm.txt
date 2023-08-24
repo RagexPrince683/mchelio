@@ -9,7 +9,7 @@ Delay = 1
 SoundVolume = 10
 HeatCount = 3
 MaxHeatCount = 60
-Sound = gun_h2_snd
+Sound = twentymil
 Acceleration = 7.5
 Gravity = -0.005
 
