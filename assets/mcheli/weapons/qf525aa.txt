@@ -1,22 +1,34 @@
 DisplayName = QF 5.25in Gun [AA Shell]
-Type = MachineGun1
-Power = 40
+DisableSmoke = True
+Type = Rocket
+Power = 25
 DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 3.0
+DamageFactor = heli, 4.5
+;DamageFactor = player, 20.0
 ModelBullet = bullet76mm
 Acceleration = 7.0
-Explosion = 4
-ExplosionBlock = 0
+Explosion = 2
+ExplosionBlock = 2
 Flaming = false
 Sight = None
-Delay = 2
+Delay = 5
 Round = 2
 ReloadTime = 90
-SoundVolume = 0.6
-Sound = cannon_1_snd
-ProximityFuseDist = 4
+SoundVolume = 15
+Sound = ww2tankshot_snd
+ProximityFuseDist = 2
+
+HeatCount = 50
+MaxHeatCount = 120
+
+group = maingun
+
+Bomblet = 20
+BombletDiff = 5.0
+
+Gravity = -0.005
 
 MaxAmmo = 200
 SuppliedNum = 50

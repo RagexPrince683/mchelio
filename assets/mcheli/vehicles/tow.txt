@@ -30,4 +30,7 @@ AddPart = true,true,false,0, 0, 0, 0
 AddTurretWeapon =  bgm-71,  0,1,0
 
 
+AddRecipe = " Z ",  "ZXZ",  "Z Z",  X, iron_block, Z, iron_ingot
+
+
 Boundingbox = 0.00,  0.95,  0.00,  0.7, 1.0

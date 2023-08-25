@@ -1,5 +1,5 @@
-﻿DisplayName = Quick Firing 5.25in
-AddDisplayName = en_US, Quick Firing 5.25in
+﻿DisplayName = QF 5.25-inch Mark I
+AddDisplayName = en_US, QF 5.25-inch Mark I
 AddDisplayName = ja_JP, QF 5.25インチ砲 マークI
 ItemID = 30067
 MaxHp = 100
@@ -20,6 +20,9 @@ HUD = vehicle
 AddSeat = 0.00,  0.00, 0.00
 
 unmountposition = 0.0, 1.5, 0.0
+
+
+AddRecipe = "ZXZ",  "DRD",  "ZXR",  X, iron_block, R, iron_ingot, Z, iron_block, D, dispenser
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;砲塔

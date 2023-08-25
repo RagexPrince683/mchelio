@@ -1,5 +1,5 @@
-﻿DisplayName = FC-31
-AddDisplayName = en_US, FC-31
+﻿DisplayName = FC-31 Aircraft Demonstrator
+AddDisplayName = en_US, FC-31 Aircraft Demonstrator
 AddDisplayName = zh_CN, 歼31
 ItemID = 28888
 MaxHp = 100
@@ -12,7 +12,7 @@ ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel         = 1400
 FuelConsumption = 1.0
-Stealth = 0.35
+Stealth = 0.2
 CameraPosition = 0.0, 0.70, -2.18
 ThrottleUpDown = 0.3
 
@@ -94,6 +94,8 @@ BoundingBox =  -3.20, 1.80, -15.8,  2.5, 1.5
 
 BoundingBox =  3.00, 3.90, -13.8,  1.5, 3.1
 BoundingBox =  -3.00, 3.90, -13.8,  1.5, 3.1
+
+;AddRecipe = " Y ",  "XXX",  "DXD",  X, iron_block, Y, glass, D, iron_ingot
 
 
 UnmountPosition = 0.00,  1.50,  0.00

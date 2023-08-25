@@ -64,6 +64,8 @@ BoundingBox = -1.34, 2.68, -7.95, 1.5, 0.3
 BoundingBox = 2.34, 2.68, -7.65, 0.8, 0.3
 BoundingBox = -2.34, 2.68, -7.65, 0.8, 0.3
 
+AddRecipe = " X ",  "XZX",  " Y ",  X, iron_block, Y, furnace, Z, iron_ingot
+
 
 BoundingBox = -2.88, 1.50,  -2.00,  3.8, 0.6
 BoundingBox =  2.88, 1.50,  -2.00,  3.8, 0.6

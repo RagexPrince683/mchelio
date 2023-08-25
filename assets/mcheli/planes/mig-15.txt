@@ -1,5 +1,5 @@
-﻿DisplayName = Mikoyan-Gurevich MiG-15
-AddDisplayName = en_US, Mikoyan-Gurevich MiG-15
+﻿DisplayName = Mikoyan-Gurevich MiG-15 (no payload)
+AddDisplayName = en_US, Mikoyan-Gurevich MiG-15 (no payload)
 AddDisplayName = ko_KR, 미그-15
 AddDisplayName = ja_JP, MiG-15
 ItemID = 40004
@@ -69,6 +69,8 @@ BoundingBox =  4.7, 1.6,  -1.44,  2.4, 0.5, 1.0
 
 
 enableback = true
+
+AddRecipe = " G ",  "IDI",  "I I",  I,iron_block, D,diamond, P,paper, G,glass
 
 
 unmountposition = 0.0, 1.72, 2.65

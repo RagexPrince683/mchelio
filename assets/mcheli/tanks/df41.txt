@@ -1,4 +1,4 @@
-﻿DisplayName = DF-41D
+﻿DisplayName = HTF5980 Strategic DF-41 ICBM TEL
 AddDisplayName = ja_JP, DF-41D
 AddDisplayName = en_US, HTF5980 Strategic DF-41 ICBM TEL
 MaxHp = 200
@@ -120,4 +120,6 @@ unmountposition = 2.224,  1.8, -0.39
 
 OnGroundPitchFactor = 15.0
 OnGroundRollFactor  = 5.2
+
+AddRecipe = " I ",  "XXX",  "XXX",  X, iron_block,  I, iron_ingot
 

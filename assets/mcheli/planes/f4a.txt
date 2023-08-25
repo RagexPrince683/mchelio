@@ -66,7 +66,7 @@ AddWeapon = aim7_f,   -1.1668, 0.9202, -5.3736,  0.0, 0.0,true, 2
 AddWeapon = mk82,  2.5457, 0.7549, -3.9708,   0.0, 0.0, true, 2
 AddWeapon = mk82, -2.5457, 0.7549, -3.9708,   0.0, 0.0, true, 2
 
-AddRecipe = " X ",  "XZX",  "ZYZ",  X, iron_block, Y, furnace, Z, iron_ingot, D, diamond_block
+AddRecipe = " X ",  "XZX",  "ZYZ",  X, iron_block, Y, furnace, Z, iron_ingot
 
 BoundingBox =  0.00, 1.90, -3.30,  3.0, 2.0
 BoundingBox =  0.00, 1.90, -4.50,  3.0, 2.0

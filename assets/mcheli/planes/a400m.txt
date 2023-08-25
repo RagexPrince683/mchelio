@@ -204,6 +204,9 @@ BoundingBox = 6.87, 16.69, -49.64, 3.5, 0.5
 BoundingBox = -6.87, 16.69, -49.64, 3.5, 0.5
 
 
+AddRecipe = "   ",  "Y X",  "X X",  X, iron_block, Y, diamond
+
+
 DamageFactor = 0.8
 
 enableback = true

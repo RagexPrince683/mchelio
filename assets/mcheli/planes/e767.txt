@@ -65,7 +65,7 @@ AddPartLG = -2.25, 2.00,  -23.54,  0,0,1,  90
 AddPartLGHatch =  0.30, 1.37,  -23.54,  0,0,1,-90
 AddPartLGHatch = -0.30, 1.37,  -23.54,  0,0,1, 90
 
-AddRecipe = " R ",  "DYD",  "III",  Y,mcheli:uav_station, R,redstone_block, I,iron_block, D,diamond
+AddRecipe = " R ",  "DYD",  "III",  Y,mcheli:uav_station, R,redstone_block, I,iron_block, D,iron_ingot
 
 
 BoundingBox = 0.0, 3.91, -5.30, 4.0, 4.0

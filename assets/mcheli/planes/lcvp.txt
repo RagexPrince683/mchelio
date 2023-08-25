@@ -126,6 +126,8 @@ AddParticleSplash =  0.8,  0.02,  -10.0,   2,      9.0,    1.1,   60,       0.01
 AddParticleSplash = -0.8,  0.02,  -10.0,   2,      9.0,    1.1,   60,       0.01,   0
 
 
+AddShapelessRecipe = iron_block,iron_block
+
 
 enableback = true
 

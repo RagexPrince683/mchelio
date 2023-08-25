@@ -56,7 +56,7 @@ AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
 
 AddWeapon = targeting_pod_ph50s,   0.0, 3.1, 7.2,    0.0, 0.0
 
-AddRecipe = "HGL",  "BCB",  "IPI",  H, dye,15,  G, glass,  L, dye,12,  B, iron_block,  C, comparator,  I, iron_ingot,  P, gunpowder
+AddRecipe = "HGL",  "BCB",  "IPI",  H, dye,15,  G, glass,  L, dye,12,  B, iron_block,  C, repeater,  I, iron_ingot,  P, gunpowder
 
 
 AddPartWing = -2.85,  2.00,  -2.20,  0,-0.07,-1, 110
