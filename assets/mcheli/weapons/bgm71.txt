@@ -1,4 +1,4 @@
-DisplayName = BGM-71 TOW
+DisplayName = BGM-71E TOW
 Type = TVMissile
 Power = 900
 Acceleration = 2.0

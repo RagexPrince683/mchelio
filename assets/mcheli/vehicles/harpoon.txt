@@ -15,7 +15,7 @@ GravityInWater = -1.0
 
 DamageFactor = 1.0
 
-AddturretWeapon = rgm84,  -0.51, 3.28, -4.60, 0.00, 0.00, true, 1, 0, 0, 0, -30, -30
+AddWeapon = rgm84,  -0.51, 2.68, -4.60, 0.00, 0.00, false, 1, 0, 0, 0, -30, -30
 RigidityTime = 20
 
 HUD = vehicle

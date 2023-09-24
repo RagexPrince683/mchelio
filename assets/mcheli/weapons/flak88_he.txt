@@ -1,13 +1,13 @@
-DisplayName = 88mm HE Shell
+DisplayName = Flak 36 88mm HE Shell
 Type = MachineGun1
 ModelBullet = 88mm
-Power = 80
+Power = 40
 Acceleration = 150
 AccelerationInWater = 9.0
-Explosion = 2
+Explosion = 3
 ExplosionBlock = 2
 ExplosionInWater = 1
-Flaming = true
+Flaming = false
 Sight = None
 Delay = 88
 ReloadTime = 88
@@ -15,12 +15,15 @@ SoundPitch = 1.0
 SoundVolume = 10
 Sound = ww2tankshot_snd
 Gravity = -0.05
-DamageFactor = helicopter, 1.0
-DamageFactor = plane,      1.0
-DamageFactor = vehicle,    1.0
+DamageFactor = helicopter, 2.0
+DamageFactor = plane,      2.0
+DamageFactor = vehicle,    2.0
 DamageFactor = tank,       1.0
 Recoil = 0.02
 Group = MainGun
+
+Gravity = -0.001
+SoundVolume = 15
 
 SetCartridge = 800mmcartridge, 0.8,  90, 15, 0.11, -0.05, 0.5
 
@@ -52,4 +55,4 @@ MaxAmmo = 20
 SuppliedNum = 4
 Item =   1, iron_ingot
 Item =  2, gunpowder
-Item =   1, redstone
+;Item =   1, redstone

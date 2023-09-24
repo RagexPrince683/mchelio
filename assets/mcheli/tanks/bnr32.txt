@@ -2,9 +2,10 @@
 AddDisplayName = en_US, Nissan Skyline GT-R R32
 AddDisplayName = ja_JP, スカイラインGT-R 
 ItemID = 28745
-MaxHp = 100
-ThrottleUpDown = 10.0
-Speed = 1.74
+MaxHp = 200
+ThrottleUpDown = 0.92
+;5.6s
+Speed = 1.56
 MobilityYawOnGround = 8.5
 StepHeight = 1.2
 Sound = rbtwentyfive

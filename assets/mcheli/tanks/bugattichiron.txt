@@ -1,11 +1,11 @@
 DisplayName = Bugatti Chiron
 AddDisplayName = ja_JP, Bugatti Chiron
 ItemID = 99901
-MaxHp = 100
-Speed = 5.1
+MaxHp = 200
+Speed = 2.61
 Sound = bugattic
 MobilityYawOnGround = 12.0
-ThrottleUpDown = 50.0
+ThrottleUpDown = 1.2
 MinRotationPitch = -90
 MaxRotationPitch =  90
 MobilityRoll = 0

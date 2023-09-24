@@ -2,11 +2,12 @@ DisplayName = Nissan Silvia S15
 AddDisplayName = en_US, Nissan Silvia S15
 AddDisplayName = ja_JP, Nissan Silvia S15
 ItemID = 33406
-MaxHp = 100
-Speed = 2.66
+MaxHp = 200
+Speed = 1.55
 sound = srtwenty
 MobilityYawOnGround = 9.5
-ThrottleUpDown = 10.0
+ThrottleUpDown = 0.87
+;5.4s
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll = 0

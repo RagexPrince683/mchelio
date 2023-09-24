@@ -12,8 +12,10 @@ HeatCount = 5
 MaxHeatCount = 150
 ReloadTime = 40
 Round = 45
-Sound = gun_h2_snd
+Sound = twentymil
 SetCartridge = cartridge, 0.0, 0, 0, 3.00, -0.04, 0.40
+
+Gravity = -0.001
 
 Acceleration = 7.5
 Piercing = 0

@@ -1,0 +1,80 @@
+DisplayName = HMS Upholder
+AddDisplayName = ru_RU, HMS Upholder
+ItemID = 28748
+MaxHp = 1000
+Speed = 0.65
+Sound = ship_prop_snd
+Float = true
+ThrottleUpDown = 0.9
+FloatOffset = -25.0
+MinRotationPitch = -90
+MaxRotationPitch = 0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = 0
+DamageFactor = 0.8
+ThirdPersonDist = 50
+ParticlesScale = 1.7
+HideEntity = true
+DefaultFreelook = true
+
+HUD = plane, vehicle_wwii
+
+CanMoveOnGround = false
+CanRotOnGround  = false
+MobilityYawOnGround = 2.0
+MaxFuel         = 1000
+FuelConsumption = 2.0
+
+AddSeat = 0.0044, 11.5484, -6.5553
+
+AddGunnerSeat = -0.0152, 3.7104, -2.0100, -0.0152, 6.7104, -2.0100, false, -90.0, 4.0
+
+AddWeapon = qf3,    -0.0131, 5.0742, -0.7148, 0.0, 0.0, true,  2,   0, -145,145, -30.0, 4.0
+
+AddWeapon = mk2,    -0.6916, 1.3071, 29.6276, 0.0, 0.0, true,  1,  0, -0,0, -30.0, 4.0
+AddWeapon = mk2,    -0.7830, 0.0665, 28.8763, 0.0, 0.0, true,  1,  0, -0,0, -30.0, 4.0
+AddWeapon = mk2,     0.6905, 1.3046, 29.6064, 0.0, 0.0, true,  1,  0, -0,0, -30.0, 4.0
+AddWeapon = mk2,     0.7575, 0.0656, 28.9146, 0.0, 0.0, true,  1,  0, -0,0, -30.0, 4.0
+
+AddPartWeapon = qf3, false, true, false,  -0.0152, 3.7104, -2.0100, 0
+AddPartWeaponChild = false, true, -0.0152, 3.7104, -2.0100, 0.1
+
+AddParticleSplash =  1.6, -0.18,   1.0,   3,      12.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash = -1.6, -0.18,   1.0,   3,      12.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash =  1.6, -0.18,  -4.8,   2,      12.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -1.6, -0.18,  -4.8,   2,      12.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  1.6, -0.18,  -8.0,   2,      12.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -1.6, -0.18,  -8.0,   2,      12.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  0.8, -0.18,  -8.0,   2,      12.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -0.8, -0.18,  -8.0,   2,      12.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  1.5, -0.18,  -18.0,   3,      12.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash = -1.5, -0.18,  -18.0,   3,      12.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash =  1.0, -0.18,  -20.0,   2,      12.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -1.0, -0.18,  -20.0,   2,      12.0,    1.1,   60,       0.01,   0
+
+ArmorMinDamage = 50
+ArmorMaxDamage = 1000
+
+AddRecipe = "II ",  "AAA",  "BBP",   I, iron_ingot,  B, boat , A, anvil, P,piston
+
+BoundingBox =  0.00, -0.4318, -19.9413, 8.16, 8.16
+BoundingBox =  0.00, -0.4318, -11.8825, 8.16, 8.16
+BoundingBox =  0.00, -0.4318, -3.7518, 8.16, 8.16
+BoundingBox =  0.00, -0.4318,  4.4509, 8.16, 8.16
+BoundingBox =  0.00, -0.4318, 12.5961, 8.16, 8.16
+BoundingBox =  0.00, -0.4318, 12.5961, 8.16, 8.16
+
+BoundingBox =  0.00, 1.5646, 30.5810, 2.63, 7.02
+BoundingBox =  0.00, 1.5646, 27.9809, 2.63, 7.02
+BoundingBox =  0.00, 1.5646, 25.5053, 3.02, 7.31
+BoundingBox =  0.00, 0.6890, 22.3404, 3.54, 8.88
+BoundingBox =  0.00, 0.0445, 18.6898, 4.02, 9.52
+
+BoundingBox =  0.2556, 0.0455, -26.2995, 4.66, 6.23
+BoundingBox =  0.2556, 0.0455, -30.1984, 4.66, 5.03
+BoundingBox =  0.2556, 0.1162, -34.5160, 4.66, 4.64
+BoundingBox =  0.2556, 0.4886, -38.3230, 3.96, 4.64
+BoundingBox =  0.2556, 0.4886, -41.7597, 3.96, 4.64
+
+BoundingBox =  0.00, 5.3774, -9.1625, 7.03, 7.03

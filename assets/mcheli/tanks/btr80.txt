@@ -14,7 +14,7 @@ EnableNightVision = true
 EnableEntityRadar = false
 Gravity = -0.61
 GravityInWater = -1.0
-CameraRotationSpeed = 35
+CameraRotationSpeed = 45
 GravityInWater = -1.0
 MinRotationPitch = -60
 MaxRotationPitch = 10
@@ -25,6 +25,7 @@ DefaultFreelook = true
 MotionFactor = 0.9
 FlareType = 10
 CameraPosition = 0.00, 3.28,  0.00, false
+ThirdPersonDist = 8
 
 Float= True
 GravityInWater = -0.2
@@ -38,6 +39,7 @@ Category = M.A
 WeightType = Tank
 
 AddTexture = btr80_1
+AddTexture = btr80_2
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8

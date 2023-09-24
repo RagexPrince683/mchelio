@@ -1,7 +1,7 @@
-DisplayName = 88mm AP Shell
+DisplayName = Flak 36 88mm AP Shell
 Type = MachineGun1
 ModelBullet = 88mm
-Power = 80
+Power = 132
 Acceleration = 150
 AccelerationInWater = 9.0
 Explosion = 0
@@ -32,6 +32,9 @@ DisplayMortarDistance = true
 
 RecoilBufCount = 25, 5
 
+Gravity = -0.001
+SoundVolume = 15
+
 Delay = 88
 ReloadTime = 88
 Group = MainGun
@@ -52,4 +55,4 @@ MaxAmmo = 20
 SuppliedNum = 4
 Item =   1, iron_ingot
 Item =  2, gunpowder
-Item =   1, redstone
+;Item =   1, redstone

@@ -1,12 +1,12 @@
-﻿DisplayName = Mark 45 5-inch Naval Gun
-AddDisplayName = en_US, Mark 45 5-inch Naval Gun
+﻿DisplayName = 5"/54 caliber Mark 45 Gun
+AddDisplayName = en_US, 5"/54 caliber Mark 45 Gun
 AddDisplayName = ja_JP, Mk45 5インチ砲
 ItemID = 28601
 MaxHp = 100
 Gravity = -9.81
 GravityInWater = -1.0
 HideEntity = true
-MinRotationPitch = -83
+MinRotationPitch = -65
 MaxRotationPitch =  15
 DamageFactor = 1.0
 CameraZoom = 4
@@ -21,9 +21,10 @@ HUD = vehicle
 AddSeat = 0.00,  1.37, 0.00
 
 unmountposition = 0.00,  1.57, 0.00
+TurretPosition = 0.0, 1.50, 0.0
 
-AddTurretWeapon = mk45_5inchgun, 0.00, 2.67, 0.00, 0.00, 0.00 , true,1, 0, -360, 360, -75, 5
-AddPartWeapon = mk45_5inchgun, false, true, false, 0.00, 0.09, 0.00, 0.00
+AddTurretWeapon = mk45_5inchgun, 0.00, 2.67, 0.00, 0.00, 0.00 , true,1, 0, -360, 360, -65, 15
+AddPartWeapon = mk45_5inchgun, true, true, false, 0.00, 0.09, 0.00, 0.00
 AddPartWeaponChild = false, true, 0.00, 2.68, 0.38, 0.00
 
 AddRecipe = "ZXZ",  "XDR",  "ZXR",  X, iron_block, R, redstone_block, Z, iron_ingot, D, dispenser

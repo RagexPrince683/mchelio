@@ -1,6 +1,6 @@
 DisplayName = BGM-71A "TOW"
 Type = TVMissile
-Power = 900
+Power = 430
 
 Delay = 100
 ReloadTime = 200
@@ -20,7 +20,8 @@ SoundVolume = 15
 
 Acceleration = 2.0
 LockTime = 20
-Explosion = 2
+Explosion = 5
+ExplosionBlock = 2
 Flaming = true
 Sight = MoveSight
 Delay = 20

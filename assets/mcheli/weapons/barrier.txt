@@ -1,0 +1,27 @@
+DisplayName = Stugna-P [ATGM]
+Type = TVMissile
+Power = 1000
+Piercing = 0
+Acceleration = 2.0
+Explosion = 4
+ExplosionBlock = 3
+Flaming = true
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ModelBullet = 9m113
+Sound = missile_atgm2_snd
+
+DamageFactor = tank, 2.0
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+; DEBUG
+;RigidityTime = 30
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

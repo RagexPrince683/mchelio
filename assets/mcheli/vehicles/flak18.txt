@@ -1,15 +1,14 @@
-﻿DisplayName = 88mm AA-Gun Flak 18
-AddDisplayName = en_US, 88mm AA-Gun Flak 18
-AddDisplayName = de_DE, 88mm Flak 18
+﻿DisplayName = 88mm AA-Gun Flak 36
+AddDisplayName = en_US, 88mm AA-Gun Flak 36
 MaxHp = 100
 HideEntity = false
 MinRotationPitch = -85
-MaxRotationPitch =  5
+MaxRotationPitch =  3
 DamageFactor = 1.0
 Gravity = -9.81
 GravityInWater = -1.0
 CameraZoom = 1
-CameraPosition = 1.00,  2.5, 0.00
+CameraPosition = -1.00,  2.5, 0.00
 ThirdPersonDist = 10
 
 ;AddTexture = flak36
@@ -34,7 +33,7 @@ AddChildPart = true, false, true, 0,  -0.6567, 0.9296, 0.4482
 AddTurretWeapon = flak88_aa,  0.00, 1.7218, -0.7534,   0.0, 1.0
 AddTurretWeapon = flak88_he,  0.00, 1.7218, -0.7534,   0.0, 1.0
 AddTurretWeapon = flak88_ap,  0.00, 1.7218, -0.7534,   0.0, 1.0
-AddTurretWeapon = flaklock, 0.00, 0.00, 0.00, 0.0, 0.0
+;AddTurretWeapon = flaklock, 0.00, 0.00, 0.00, 0.0, 0.0
 ;AddTurretWeapon = flaklock, 0.00, 0.00, 0.00, 0.0, 0.0
 
 ;AddPartWeaponBay = flaklock, 0.00, 0.0518, -2.2458, 1.0, 0.0, 0.0, 90
@@ -42,10 +41,10 @@ AddTurretWeapon = flaklock, 0.00, 0.00, 0.00, 0.0, 0.0
 ;AddPartWeaponBay = flaklock, 1.20, 0.05, 0.3513, 0.0, 0.0, 1.0, 90
 ;AddPartWeaponBay = flaklock, -1.20, 0.05, 0.3513, 0.0, 0.0, 1.0, -90
 
-AddPartWeaponBay = flaklock, 0.00, 0.0518, -2.2458, 1.0, 0.0, 0.0, 0
-AddPartWeaponBay = flaklock, 0.00, 0.0518, 2.2458, 1.0, 0.0, 0.0, 0
-AddPartWeaponBay = flaklock, 1.20, 0.05, 0.3513, 0.0, 0.0, 1.0, 0
-AddPartWeaponBay = flaklock, -1.20, 0.05, 0.3513, 0.0, 0.0, 1.0, 0
+;AddPartWeaponBay = flaklock, 0.00, 0.0518, -2.2458, 1.0, 0.0, 0.0, 0
+;AddPartWeaponBay = flaklock, 0.00, 0.0518, 2.2458, 1.0, 0.0, 0.0, 0
+;AddPartWeaponBay = flaklock, 1.20, 0.05, 0.3513, 0.0, 0.0, 1.0, 0
+;AddPartWeaponBay = flaklock, -1.20, 0.05, 0.3513, 0.0, 0.0, 1.0, 0
 
 
 BoundingBox =  0.0, 0.032, 0.0,  1.296, 0.2976, 1.0

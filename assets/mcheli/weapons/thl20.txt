@@ -8,11 +8,11 @@ Sight = MoveSight
 Delay = 1
 SoundVolume = 0.6
 SoundPitch = 1.0
-Accuracy = 0.0
+Accuracy = 1.6
 HeatCount = 5
 MaxHeatCount = 150
 ModeNum = 2
-Sound = gun_h3_snd
+Sound = gun_m61a1_snd
 
 Acceleration = 7.5
 Piercing = 0

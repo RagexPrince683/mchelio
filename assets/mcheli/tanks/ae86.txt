@@ -2,9 +2,10 @@
 DisplayName = Toyota Corolla AE86
 AddDisplayName = ja_JP, Toyota Corolla AE86
 ItemID = 28745
-MaxHp = 100
-ThrottleUpDown = 10.0
-Speed = 1.0
+MaxHp = 200
+ThrottleUpDown = 0.815
+;8.7s
+Speed = 1.2
 MobilityYawOnGround = 10.0
 StepHeight = 1.2
 Sound = aeeightysix

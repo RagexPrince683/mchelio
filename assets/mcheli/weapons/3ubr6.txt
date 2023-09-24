@@ -8,12 +8,17 @@ Sight = MoveSight
 Delay = 4
 ReloadTime = 120
 Round = 100
-SoundVolume = 3
+SoundVolume = 15
 SoundPitch = 1.0
-Sound = gun_h1_snd
+Sound = bmptwomain
 Accuracy = 1.5
 ModeNum = 1
 group = maingun
+
+Gravity = -0.005
+
+HeatCount = 4
+MaxHeatCount = 150
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 

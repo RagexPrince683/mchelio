@@ -1,0 +1,45 @@
+DisplayName = M444 [Cluster]
+Type = Rocket
+Power = 61
+Acceleration = 6.9
+Sight = MissileSight
+Gravity = -0.04
+Delay = 100
+Sound = artillery_gun_snd
+SoundVolume = 10.0
+SoundPitch = 1.0
+Accuracy = 3.0
+Explosion = 6
+ExplosionBlock = 3
+Round = 45
+ReloadTime = 1000
+ModelBullet = bullet105mm
+Group = Rocket
+
+Bomblet = 18
+BombletDiff = 0.2
+BombletSTime = 0
+ModelBomblet = cbc
+
+DelayFuse = 80
+
+DisableSmoke = true
+
+DisplayMortarDistance = true
+FixCameraPitch = true
+
+AddMuzzleFlash      =  0,      1.80,        7,  220,254,159,74
+AddMuzzleFlash      =  0,      1.75,        6,  220,254,219,104
+AddMuzzleFlash      =  0,      1.70,        5,  220,254,219,184
+AddMuzzleFlashSmoke = 0, 20,  10.0,  3.0, 45,  220,160,140,120
+AddMuzzleFlashSmoke =0, 10,  11.0,  6.0, 35,  200,190,170,150
+AddParticle - largeexplode
+FixCameraPitch = true
+
+Recoil = 2.0
+
+MaxAmmo = 45
+SuppliedNum = 1
+
+Item =  4, iron_ingot
+Item =  2, gunpowder

@@ -13,6 +13,7 @@ Accuracy = 4.5
 HeatCount = 4
 MaxHeatCount = 150
 Sound = ah
+SoundVolume = 15
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5

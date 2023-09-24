@@ -12,7 +12,10 @@ Flaming = true
 Sight = none
 Delay = 20
 ModelBullet = harpoonmissle
-Sound = missile_2_snd
+Sound = aimnine
+SoundPitch = 0.6
+
+SoundVolume = 15
 
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5

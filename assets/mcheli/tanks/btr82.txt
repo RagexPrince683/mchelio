@@ -1,0 +1,111 @@
+﻿DisplayName = BTR-82 APC
+AddDisplayName = ru_RU, BTR-82 APC
+AddDisplayName = en_US, BTR-82 APC
+ItemID = 30102
+MaxHp = 200
+Speed = 1.0
+Sound = apc_run
+ThrottleUpDown = 5
+MobilityYawOnGround = 5.5
+MaxFuel         = 1000
+FuelConsumption = 0.8
+CameraZoom = 4
+EnableNightVision = true
+EnableEntityRadar = false
+Gravity = -0.61
+GravityInWater = -1.0
+CameraRotationSpeed = 45
+GravityInWater = -1.0
+MinRotationPitch = -70
+MaxRotationPitch = 7
+MobilityRoll = 0
+InventorySize = 25
+StepHeight = 1.5
+DefaultFreelook = true
+MotionFactor = 0.9
+FlareType = 10
+ThirdPersonDist = 8
+
+SubmergedDamageHeight = 3
+
+;  M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+WeightType = Tank
+
+AddTexture = btr82_1
+AddTexture = btr82_2
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 0.8
+
+HUD = mbt_hud, 
+
+AddSeat =  0.00, 1.88,  0.00
+AddSeat = -0.31, 0.75, -1.62 
+AddSeat =  0.31, 0.75, -1.62 
+AddSeat = -0.31, 0.75, -1.98
+AddSeat =  0.31, 0.75, -1.98
+AddSeat = -0.31, 0.75, -2.32
+AddSeat =  0.31, 0.75, -2.32
+AddSeat = -0.31, 0.75, -2.64
+AddSeat =  0.31, 0.75, -2.64
+
+SetWheelPos =  1.30,  -0.24,  1.04, -1.02, -3.42, -5.36
+
+AddPartWheel =    1.30,  0.43, 1.05, 20
+AddPartWheel =    1.30,  0.43,-1.05, 10
+AddPartWheel =    0.00,  0.43,-3.46
+AddPartWheel =    0.00,  0.43,-5.41
+
+AddPartWheel =   -1.30,  0.43, 1.05, 20
+AddPartWheel =   -1.30,  0.43,-1.05, 10
+AddPartWheel =   -0.00,  0.43,-3.46
+AddPartWheel =   -0.00,  0.43,-5.41
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+ArmorMinDamage = 20
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+;ArmorMaxDamage = 550
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+ArmorDamageFactor = 1.00
+;後退可能にする(暫定処置で今後削除される可能性有り)
+EnableBack = true
+
+PivotTurnThrottle = 0.2
+
+TrackRollerRot = 30
+
+AddPartWeapon    = 3ubr6,   false, true, false,  0.00, 2.68, 0.00
+AddPartWeaponChild = false, true, 0.00, 2.95, -0.682
+AddTurretWeapon = 3ubr6,   0.00, 2.48, 0.40,   0.0, 0.0, false, 1, 0, -360,360, -70,7
+AddTurretWeapon = 3yof8,   0.00, 2.48, 0.40,   0.0, 0.0, false, 1, 0, -360,360, -70,7
+AddTurretWeapon = pkt,  -0.11, 2.48, 0.77,   0.0, 0.0, false, 1, 0, -360,360, -70,7
+
+AddPartHatch =  -1.30,  1.90,  -1.61, 0,1, 0, 60
+AddPartHatch =   1.30,  1.90,  -1.61, 0,1, 0, -60
+AddPartHatch =  -1.31,  0.53,  -1.92, 0,0, 1, 140
+AddPartHatch =   1.31,  0.53,  -1.92, 0,0, 1, -140
+
+DamageFactor = 0.0
+
+HideEntity = true
+
+;RideRack = 乗る機体名, ラック番号 (1～) 
+RideRack = c5, 1
+RideRack = c5, 2
+
+AddRecipe = "III",  " I ",  "III",   I, iron_ingot
+
+BoundingBox = 0.0, 2.3, 0.0, 1.0, 1.0, 1.0
+
+BoundingBox = 0.0, 1.2, 0.0, 3.0, 2.0, 1.0
+BoundingBox = 0.0, 1.2, 1.0, 2.7, 1.8, 1.0
+BoundingBox = 0.0, 1.2, 1.5, 2.5, 1.6, 1.0
+BoundingBox = 0.0, 1.2, 2.4, 2.3, 0.4, 1.0
+
+unmountposition = 0.00, 1.98,  0.00
+
+
+BoundingBox = 0.0, 1.2, -2.5, 3.0, 2.0, 1.0
+BoundingBox = 0.0, 1.2, -5.4, 3.0, 2.0, 1.0

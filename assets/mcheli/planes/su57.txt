@@ -20,6 +20,15 @@ AutoPilotRot = 0
 
 sound = pakfa
 
+AddTexture = su57_1
+AddTexture = su57_2
+AddTexture = su57_3
+AddTexture = su57_4
+AddTexture = su57_5
+AddTexture = su57_AC
+AddTexture = su57_proto
+AddTexture = su57_TGM
+
 
 Category = M.F
 

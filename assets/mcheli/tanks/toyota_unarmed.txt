@@ -1,9 +1,9 @@
 DisplayName = Toyota Hilux
 AddDisplayName = en_US, Toyota Hilux
 AddDisplayName = ru_RU, Тойота Hilux
-MaxHp = 150
-ThrottleUpDown = 10.0
-Speed = 1.752
+MaxHp = 200
+ThrottleUpDown = 0.81
+Speed = 1.08
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
 Sound = hilux

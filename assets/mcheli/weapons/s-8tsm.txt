@@ -8,6 +8,8 @@ Sight = MoveSight
 Delay = 300
 Sound = rocket_snd
 
+Gravity = -0.001
+
 MaxAmmo = 4
 SuppliedNum = 2
 Item =  1, iron_ingot

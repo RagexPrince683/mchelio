@@ -2,8 +2,9 @@
 AddDisplayName = en_US, Skyline GT-R R34
 AddDisplayName = ja_JP, スカイラインGT-R BNR34
 ItemID = 30034
-MaxHp = 100
-ThrottleUpDown = 10.0
+MaxHp = 200
+ThrottleUpDown = 0.93
+;4.5s 0-60
 Speed = 1.74
 ;198mph
 MobilityYawOnGround = 8.8

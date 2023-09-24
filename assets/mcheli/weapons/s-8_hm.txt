@@ -7,11 +7,13 @@ Explosion = 2
 ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight
-Delay = 1
+Delay = 2
 ReloadTime = 110
 Round = 80
 ModeNum = 2
 Sound = rocket_snd
+
+Gravity = -0.001
 
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100

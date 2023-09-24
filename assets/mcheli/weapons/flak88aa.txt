@@ -1,4 +1,4 @@
-DisplayName = 88mm AA Shell
+DisplayName = Flak 18 88mm AA Shell
 Type = Rocket
 Power = 25
 ModelBullet = 88mm
@@ -13,9 +13,11 @@ Round = 5
 Bomblet = 30
 BombletDiff = 2.0
 DisableSmoke = true
-Sound = rocket_snd
-DamageFactor = helicopter, 4.0
-DamageFactor = plane,      4.0
+Sound = ww2tankshot_snd
+Gravity = -0.001
+SoundVolume = 15
+DamageFactor = helicopter, 1.0
+DamageFactor = plane,      1.0
 RecoilBufCount = 40, 5
 
 
@@ -36,7 +38,7 @@ Acceleration = 7.0
 ;BulletColor        = 255, 255, 100, 100
 ;ModelBullet = bullet105mm
 Piercing = 0
-;Accuracy = 0.0
+Accuracy = 1.5
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
@@ -49,4 +51,3 @@ MaxAmmo = 20
 SuppliedNum = 3
 Item =   1, iron_ingot
 Item =  2, gunpowder
-Item =   1, redstone

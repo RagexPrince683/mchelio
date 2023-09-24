@@ -8,11 +8,12 @@ Sight = MoveSight
 Delay = 1
 ReloadTime = 20
 Round = 50
-SoundVolume = 3
 SoundPitch = 1.0
-Sound = mg30mm_snd
+Sound = ah
+SoundVolume = 15
 Accuracy = 1.0
 ModeNum = 2
+
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5

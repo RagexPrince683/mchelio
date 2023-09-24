@@ -3,11 +3,11 @@ AddDisplayName = en_US, 12.8cm Flakzwilling 40
 ItemID = 28622
 MaxHp = 100
 HideEntity = false
-MinRotationPitch = -75
+MinRotationPitch = -88
 MaxRotationPitch =  3
 DamageFactor = 1.0
 CameraZoom = 2
-CameraPosition = 0.0, 3.40, 0.0
+CameraPosition = 2.89, 3.40, 0.0
 Gravity = -9.81
 GravityInWater = -1.0
 

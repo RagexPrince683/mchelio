@@ -1,5 +1,5 @@
-﻿DisplayName = SGE-30 Goalkeeper
-AddDisplayName = en_US, SGE-30 Goalkeeper
+﻿DisplayName = SGE-30 Goalkeeper CIWS
+AddDisplayName = en_US, SGE-30 Goalkeeper CIWS
 AddDisplayName = ja_JP, SGE-30 ゴールキーパー
 ItemID = 28601
 MaxHp = 100
@@ -8,7 +8,7 @@ GravityInWater = -1.0
 EnableNightVision = true
 EnableEntityRadar = true
 HideEntity = false
-MinRotationPitch = -80
+MinRotationPitch = -85
 MaxRotationPitch =  25
 DamageFactor = 1.0
 CameraZoom = 3
@@ -37,7 +37,7 @@ AddTurretWeapon = gau-8s,  0.00, 0.6765, 0.0,   0.0, -3.0,   true,1, 0,-360,360,
 
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddTurretWeapon = m61a1,  0.00, 1.6764, 2.43,   0.0, -3.0,   true,1, 0,-360,360, -80, 25
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddTurretWeapon = m61a1,  0.00, 1.6764, 2.43,   0.0, -3.0,   true,1, 0,-360,360, -85, 25
 
 AddRecipe = "ABZ",  "ZX ",  "ZXZ", A, mcheli:uav_station, B, mcheli:mk15, X, diamond_block, Y, glass, Z, iron_ingot
 

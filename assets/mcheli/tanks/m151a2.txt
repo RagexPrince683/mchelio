@@ -2,9 +2,9 @@
 AddDisplayName = ja_JP, M151A2 FAV
 AddDisplayName = en_US, M151A2 Kennedy Jeep FAV
 ItemID = 28766
-MaxHp = 100
-ThrottleUpDown = 6.0
-Speed = 1.42
+MaxHp = 200
+ThrottleUpDown = 0.81
+Speed = 0.7
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
 Sound = willyjeep

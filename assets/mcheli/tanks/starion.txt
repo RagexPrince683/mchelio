@@ -3,7 +3,8 @@ AddDisplayName = en_US, Mitsubishi Starion ESI-R
 AddDisplayName = ja_JP, 三菱 スタリオン
 ItemID = 28745
 MaxHp = 100
-ThrottleUpDown = 10.0
+ThrottleUpDown = 0.825
+;8.3s
 Speed = 2.83
 MobilityYawOnGround = 8.5
 StepHeight = 1.2

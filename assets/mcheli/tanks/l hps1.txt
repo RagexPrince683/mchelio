@@ -1,9 +1,10 @@
 DisplayName = Lamborghini Huracán Performante Spyder v2.0
-MaxHp = 100
-Speed = 1.85
+MaxHp = 200
+Speed = 2.01
 Sound = lamborghinih
 MobilityYawOnGround = 11.5
-ThrottleUpDown = 10.0
+ThrottleUpDown = 1.0
+;3.1s
 MinRotationPitch = -90
 MaxRotationPitch =  90
 MobilityRoll = 0

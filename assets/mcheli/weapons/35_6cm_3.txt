@@ -15,7 +15,9 @@ BombletDiff = 5.0
 MaxAmmo = 8
 SuppliedNum = 2
 
-Gravity = -0.01
+;;delete
+
+Gravity = -0.005
 
 Delay = 80
 ReloadTime = 220

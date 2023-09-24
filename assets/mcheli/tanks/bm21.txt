@@ -2,10 +2,10 @@
 AddDisplayName = ja_JP, BM21
 AddDisplayName = en_US, BM-21 Grad "Ural" Truck
 ItemID = 30100
-MaxHp = 150
-Speed = 1.0
+MaxHp = 200
+Speed = 0.53
 Sound = ural
-ThrottleUpDown = 10.0
+ThrottleUpDown = 0.81
 MobilityYawOnGround = 4.5
 MinRotationPitch = -80
 MaxRotationPitch = 0
@@ -26,7 +26,7 @@ CameraPosition = 0.71,2.5,5.04, true
 HideEntity = false
 EnableBack = true
 OnGroundPitchFactor = 2.0
-OnGroundRollFactor  = 1.3
+OnGroundRollFactor  = 0.8
 
 WeightType =  Car
 WeightedCenterZ = 0

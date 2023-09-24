@@ -1,14 +1,14 @@
-﻿DisplayName = 15.0cm AA Cannon with quadripod mount
-AddDisplayName = en_US, 15.0cm AA Cannon with quadripod mount
+﻿DisplayName = 12.8 cm Flak 40 Anti-Aircraft Gun with quadripod mount
+AddDisplayName = en_US, 12.8 cm Flak 40 Anti-Aircraft Gun with quadripod mount
 AddDisplayName = ja_JP, 一七式十五糎高角砲 支脚有リ
 ItemID = 28616
-MaxHp = 100
+MaxHp = 120
 HideEntity = false
-MinRotationPitch = -75
-MaxRotationPitch =  5
+MinRotationPitch = -85
+MaxRotationPitch =  3
 DamageFactor = 1.0
 CameraZoom = 3
-CameraPosition = 0.0, 2.70, 0.0
+CameraPosition = -0.968, 2.70, 0.0
 Gravity = -9.81
 GravityInWater = -1.0
 
@@ -27,10 +27,10 @@ unmountposition = -0.968,  1.73, -1.32
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;本体-砲身
 AddPart		 = true,  true,  false, 0,   0.00, 0.00,  0.00
-AddChildPart = false, false, true,  0,   0.00, 2.65, -1.32
-AddChildPart = false, false, true,  2,   0.00, 2.65, -1.32, 0.8
+AddChildPart = true, false, true,  0,   0.00, 2.65, -1.32
+AddChildPart = true, false, true,  2,   0.00, 2.65, -1.32, 0.8
 
-AddWeapon = 15cm_vt,  0.00, 2.70, 5.67,   0.0, 0.0
+AddWeapon = 15cm_vtstable,  0.00, 2.70, 5.67,   0.0, 0.0
 
 AddRecipe = " I ",  "IFI",  " I ",  I, iron_ingot, F, mcheli:150_flak
 

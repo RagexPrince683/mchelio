@@ -1,7 +1,7 @@
-DisplayName = 36cm Cannon
+DisplayName = 36cm 41st Year Type Naval Gun [AP]
 Type = MachineGun1
 ModelBullet = 91ap
-Power = 50
+Power = 80
 Acceleration = 3.5
 Explosion = 8
 ExplosionInWater = 5
@@ -13,7 +13,7 @@ ReloadTime = 220
 SoundDelay = 4
 SoundPitch = 0.3
 
-Gravity = -0.01
+Gravity = -0.005
 
 Delay = 80
 ReloadTime = 220

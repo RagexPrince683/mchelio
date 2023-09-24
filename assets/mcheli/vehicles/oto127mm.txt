@@ -1,11 +1,11 @@
-DisplayName = Oto Melara 127mm Naval Gun
+DisplayName = Otobreda 127/64 Naval Gun
 AddDisplayName = ja_JP, オート・メラーラ127mm砲
 ItemID = 30110
 MaxHp = 100
 HideEntity = true
 Gravity = -9.81
 GravityInWater = -1.0
-MinRotationPitch = -83
+MinRotationPitch = -85
 MaxRotationPitch =  15
 DamageFactor = 1.0
 CameraZoom = 4
@@ -29,7 +29,7 @@ AddChildPart = false,false,true,  0,   0.00, 2.24, -0.68
 ;砲身
 AddChildPart = false,false,true,  2,   0.00, 2.24, -0.68, 0.4
 
-AddWeapon = 127mmgun,  0.00, 2.24, -0.68,   0.0, -1.0,   true,1, 0,-360,360, -83, 15
+AddWeapon = 127mmgun,  0.00, 2.24, -0.68,   0.0, -1.0,   true,1, 0,-360,360, -85, 15
 
 BoundingBox =  0.0, 1.8, 0.0,  3.0, 3.0
 

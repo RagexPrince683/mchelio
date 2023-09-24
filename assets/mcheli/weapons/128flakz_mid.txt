@@ -1,6 +1,6 @@
 DisplayName = 12.8cm Flakzwilling[MID]
 Type = MachineGun1
-Power = 50
+Power = 60
 ModelBullet = bullet76mm
 Acceleration = 7.0
 Explosion = 6
@@ -14,6 +14,8 @@ SoundVolume = 2.0
 Sound = cannon_1_snd
 Particle = largeexplode
 TimeFuse = 13
+
+Gravity = -0.005
 
 Group = MainGun
 Acceleration = 7.0

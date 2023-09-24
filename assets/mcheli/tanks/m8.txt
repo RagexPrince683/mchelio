@@ -1,0 +1,81 @@
+DisplayName = M8 Greyhound
+AddDisplayName = ru_RU, M8 Greyhound
+ItemID = 30997
+MaxHp = 200
+Speed = 0.6
+Sound = prop_tank
+ThrottleUpDown = 6.0
+MobilityYawOnGround = 3.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 2
+CameraPosition = -0.0114, 4.2456, 0.2101, true
+CameraRotationSpeed = 45
+MinRotationPitch = -34
+MaxRotationPitch = 7
+DefaultFreelook = true
+ThirdPersonDist = 12
+
+HUD = ww2tank_hud, none
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 0.8
+
+WeightType = Tank
+
+MotionFactor = 0.9
+
+SetWheelPos =  1.31, -0.24, 2.41, 1.37, -0.13, -1.80, -2.96, -3.93
+
+SubmergedDamageHeight = 2
+
+AddGunnerSeat =  -0.0114, 1.2456, 0.2101
+
+AddSeat = 1.1521, 1.8258, -1.3680
+AddSeat = 1.1521, 1.8258, -2.0159
+AddSeat = 1.1521, 1.8258, -2.7261
+
+AddSeat = -1.1605, 1.8258, -1.3680
+AddSeat = -1.1605, 1.8258, -2.0159
+AddSeat = -1.1605, 1.8258, -2.7261
+
+MotionFactor = 0.9
+
+ArmorMinDamage = 10
+ArmorMaxDamage = 500
+ArmorDamageFactor = 1.00
+EnableBack = true
+
+PivotTurnThrottle = 0.0
+
+AddTurretWeapon = m51_mbt,  0.0078, 2.4278, 2.5094,   0.0, 0.0, true, 1,0,-360,360, -5,5
+AddTurretWeapon = m63_mbt,  0.0078, 2.4278, 2.5094,   0.0, 0.0, true, 1,0,-360,360, -5,5
+AddTurretWeapon = m74_mbt,  0.0078, 2.4278, 2.5094,   0.0, 0.0, true, 1,0,-360,360, -5,5
+AddTurretWeapon = m2_canister_mbt, 0.0078, 2.4278, 2.5094,   0.0, 0.0, true, 1,0,-360,360, -5,5
+AddTurretWeapon = m2_mbt, -0.2415, 2.4269, 1.6635,   0.0, 0.0, true, 1,0,-360,360, -5,5
+
+AddWeapon = none,  0.0078, 2.4278, 2.5094,   0.0, 0.0, true, 2,0,-360,360, -5,5
+
+AddPartWeapon = m51_mbt / m63_mbt/ m74_mbt/ m2_canister_mbt, false, true, false,  -0.0114, 2.2456, 0.2101
+AddPartWeaponChild = false, true, -0.0114, 2.2456, 0.2101, 0.3
+
+AddPartWheel     =  1.6323, 0.3479,  2.8121
+AddPartWheel     =  1.6323, 0.3479, -0.5581
+AddPartWheel     =  1.6323, 0.3479, -2.4203
+
+AddPartWheel     = -1.6891, 0.3609,  2.8121
+AddPartWheel     = -1.6891, 0.3609, -0.5581
+AddPartWheel     = -1.6891, 0.3609, -2.4203
+
+BoundingBox =  0.00, 0.7375,  2.0098, 3.9608, 2.0918
+BoundingBox =  0.00, 0.7375, -1.9175, 3.9608, 2.0918
+BoundingBox =  0.00, 2.4550,  0.1560, 2.5922, 1.3353, 0.5
+
+MaxFuel         = 600
+FuelConsumption = 2.0
+
+StepHeight = 1.2
+
+AddRecipe = " I ",  "X X",  "III",  X, iron_block,  I, iron_ingot

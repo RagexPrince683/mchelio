@@ -1,5 +1,5 @@
-DisplayName = 46cm Cannon
-AddDisplayName = en_US, 46cm Cannon
+DisplayName = 46 cm/45 Type 94 Naval Gun
+AddDisplayName = en_US, 46 cm/45 Type 94 Naval Gun
 AddDisplayName = ja_JP, 46cm3連装砲
 ItemID = 28603
 MaxHp = 100

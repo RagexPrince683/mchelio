@@ -2,10 +2,11 @@ DisplayName = Nissan Skyline GT-R R32 Police
 AddDisplayName = en_US, Nissan Skyline GT-R R32 Police
 AddDisplayName = ja_JP, スカイラインGT-R 警察仕様
 ItemID = 30132
-MaxHp = 100
-ThrottleUpDown = 10.0
-Speed = 1.74
-;168mph
+MaxHp = 230
+ThrottleUpDown = 0.918
+;bullbar+weight
+Speed = 1.56
+;168mph ;wrong 156
 MobilityYawOnGround = 8.5
 StepHeight = 1.2
 Sound = rbtwentyfive

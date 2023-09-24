@@ -1,12 +1,13 @@
-﻿DisplayName = 88mm AA-Gun Flak 36
-AddDisplayName = en_US, 88mm AA-Gun Flak 36
+﻿DisplayName = 88mm AA-Gun Flak 18
+AddDisplayName = en_US, 88mm AA-Gun Flak 18
+AddDisplayName = de_DE, 88mm Flak 18
 MaxHp = 100
 HideEntity = false
 MinRotationPitch = -85
 MaxRotationPitch =  5
 DamageFactor = 1.0
 CameraZoom = 1
-CameraPosition = 1.00,  2.5132, -0.1507
+CameraPosition = -0.618,  1.6132, -0.1507
 ThirdPersonDist = 10
 Gravity = -9.81
 GravityInWater = -1.0

@@ -15,11 +15,13 @@ BombletSTime = 5
 Sound = rocket_snd
 TrajectoryParticle = fireworksSpark 
 Sight = MoveSight
-Delay = 0
+Delay = 2
 ReloadTime = 110
 Round = 76
 Accuracy = 2
 Group = s-8
+
+Gravity = -0.001
 
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100

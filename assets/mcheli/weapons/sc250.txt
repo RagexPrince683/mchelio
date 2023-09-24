@@ -1,0 +1,20 @@
+DisplayName = SC250 [Bomb]
+Type = Bomb
+Power = 50
+Acceleration = 0.1
+Explosion = 4
+ExplosionBlock = 2
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 5
+Sound = bomb_snd
+ModelBullet = sc250
+
+ReloadTime = 1500
+Round = 2
+MaxAmmo = 2
+SuppliedNum = 8
+
+Item = 4, iron_ingot
+Item = 4, gunpowder

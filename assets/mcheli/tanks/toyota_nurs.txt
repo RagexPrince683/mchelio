@@ -1,9 +1,9 @@
 DisplayName = Toyota Hilux with B-8V20A
 AddDisplayName = en_US, Toyota Hilux with B-8V20A
 AddDisplayName = ru_RU, Тойота с Б-8В20А
-MaxHp = 150
-ThrottleUpDown = 10.0
-Speed = 1.752
+MaxHp = 200
+ThrottleUpDown = 0.81
+Speed = 1.08
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
 Sound = hilux

@@ -2,11 +2,11 @@
 AddDisplayName = en_US, Lenco Bearcat
 AddDisplayName = ja_JP, レンコ ベアキャット
 ItemID = 33410
-MaxHp = 150
-Speed = 1.887
+MaxHp = 200
+Speed = 0.9
 Sound = diesel
 MobilityYawOnGround = 6.5
-ThrottleUpDown = 7.0
+ThrottleUpDown = 0.81
 MinRotationPitch = -90
 MaxRotationPitch = 45
 MobilityRoll = 0

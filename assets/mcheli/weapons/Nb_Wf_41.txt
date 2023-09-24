@@ -1,0 +1,28 @@
+DisplayName = Nb.Wf.41 rocket launcher
+Type = Rocket
+Power = 150
+ModelBullet = HVAR_5inch_Rocket
+Acceleration = 2.0
+Accuracy = 5
+Explosion = 3
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 10
+Round = 10
+ReloadTime = 600
+Gravity = -0.012
+GravityInWater = 0.1
+
+DamageFactor = tank, 3.0
+DamageFactor = plane, 3.0
+DamageFactor = helicopter, 3.0
+
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 30
+SuppliedNum = 10
+Item =  10, iron_ingot
+Item =  20, gunpowder

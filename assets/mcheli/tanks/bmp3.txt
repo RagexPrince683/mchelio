@@ -13,7 +13,7 @@ FloatOffset = 0.0
 GravityInWater = -0.2
 DamageFactor = 0.0
 EnableNightVision = true
-CameraRotationSpeed = 30
+CameraRotationSpeed = 45
 StepHeight = 1.7
 MinRotationPitch = -60
 MaxRotationPitch = 6
@@ -22,6 +22,8 @@ MaxFuel         = 1200
 FuelConsumption = 2.0
 HideEntity = true
 FlareType = 10
+
+ThirdPersonDist = 8
 
 MobilityYawOnGround = 3.0
 

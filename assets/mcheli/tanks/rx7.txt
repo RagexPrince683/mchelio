@@ -2,9 +2,10 @@ DisplayName = Mazda RX-7FC
 AddDisplayName = en_US, Mazda RX-7FC
 AddDisplayName = ja_JP, マツダ RX-7FC
 ItemID = 28745
-MaxHp = 100
-ThrottleUpDown = 5.0
-Speed = 2.6
+MaxHp = 200
+ThrottleUpDown = 0.82
+;8-9s
+Speed = 1.43
 MobilityYawOnGround = 8.5
 StepHeight = 1.2
 sound = wankel
@@ -110,6 +111,6 @@ BoundingBox = 0.0, 0.20, -1.6, 2.5, 0.2
 Regeneration = true
 ArmorDamageFactor = 2.32
 
-unmountposition = -0.54,   0.55, -0.25
+unmountposition = -0.54,   1.55, -0.25
 
 ArmorMinDamage = 2

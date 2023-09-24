@@ -1,0 +1,23 @@
+DisplayName = M74 [AP]
+Type = MachineGun2
+Power = 38
+Acceleration = 9.0
+Explosion = 2
+ExplosionBlock = 1
+Sight = None
+ReloadTime = 150
+Round = 40
+Delay = 15
+SoundVolume = 3.0
+Accuracy = 1.5
+Gravity = -0.03
+Sound = ifv_gun_snd
+Piercing = 3
+
+AddMuzzleFlash      =  7.0,      1.70,        5,  200,254,219,184
+AddMuzzleFlashSmoke =  8.2, 20,  10.0,  3.0, 45,  220,160,140,120
+
+MaxAmmo = 50
+SuppliedNum = 10
+Item =  2, iron_ingot
+Item =  3, gunpowder

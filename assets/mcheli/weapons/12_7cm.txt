@@ -10,7 +10,7 @@ Sight = MoveSight
 Delay = 10
 ModeNum = 1
 HeatCount = 25
-MaxHeatCount = 60
+MaxHeatCount = 160
 SoundVolume = 15
 Sound = naval
 

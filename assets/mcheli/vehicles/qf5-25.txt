@@ -1,5 +1,5 @@
-﻿DisplayName = QF 5.25-inch Mark I
-AddDisplayName = en_US, QF 5.25-inch Mark I
+﻿DisplayName = QF 5.25-inch Mark I Naval Gun
+AddDisplayName = en_US, QF 5.25-inch Mark I Naval Gun
 AddDisplayName = ja_JP, QF 5.25インチ砲 マークI
 ItemID = 30067
 MaxHp = 100
@@ -30,9 +30,9 @@ AddPart = true, true, false, 0, 0.0, 0.0, 0.0
 ;砲身
 AddChildPart = true, false, true, 0, 0.0, 2.66, -0.56
 
-AddWeapon = qf525sap,  1.24, 2.69, 5.17,   0.0, 0.0
-AddWeapon = qf525sap, -1.24, 2.69, 5.17,   0.0, 0.0
-AddWeapon = qf525aa,  1.24, 2.69, 5.17,   0.0, 0.0
-AddWeapon = qf525aa, -1.24, 2.69, 5.17,   0.0, 0.0
+AddWeapon = qf525sap,  1.24, 2.69, 5.17,   0.0, 0.0,   true,1, 0,-360,360,-70, 5
+AddWeapon = qf525sap, -1.24, 2.69, 5.17,   0.0, 0.0,   true,1, 0,-360,360,-70, 5
+AddWeapon = qf525aa,  1.24, 2.69, 5.17,   0.0, 0.0,   true,1, 0,-360,360, -70, 5
+AddWeapon = qf525aa, -1.24, 2.69, 5.17,   0.0, 0.0,   true,1, 0,-360,360, -70, 5
 
 BoundingBox =  0.0, 1.5, 0.0,  3.5, 3.5

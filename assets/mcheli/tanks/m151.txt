@@ -2,8 +2,8 @@
 AddDisplayName = en_US, M151 Kennedy Jeep
 AddDisplayName = ja_JP, M151 ケネディジープ
 ItemID = 28766
-MaxHp = 100
-ThrottleUpDown = 10.0
+MaxHp = 200
+ThrottleUpDown = 0.81
 Speed = 0.7
 MobilityYawOnGround = 7.5
 StepHeight = 1.5

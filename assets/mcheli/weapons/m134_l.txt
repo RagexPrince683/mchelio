@@ -5,14 +5,22 @@ Acceleration = 8.0
 Explosion = 0
 Flaming = false
 Sight = MoveSight
-Delay = 1
+Delay = 0
 ReloadTime = 100
 Round = 100
 SoundDelay = 3
 Accuracy = 4.0
 ; SetCartridge = model_name, Acceleration, Yaw, Pitch, ModelScale, Gravity, Bound
 SetCartridge = cartridge, 0.0, 0, 0, 2.00, -0.04, 0.40
-Sound = gun_l2_snd
+Sound = minigun
+HeatCount = 2
+MaxHeatCount = 130
+
+Acceleration = 7.5
+Gravity = -0.005
+SoundVolume = 15
+
+
 
 Acceleration = 7.5
 Piercing = 0

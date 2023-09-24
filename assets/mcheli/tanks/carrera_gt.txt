@@ -1,10 +1,11 @@
 DisplayName = Porsche Carrera GT
 AddDisplayName = en_US, Porsche Carrera GT
-MaxHp = 100
-Speed = 3.2
+MaxHp = 200
+Speed = 2.05
 Sound = porsche_meighty
 MobilityYawOnGround = 11.0
-ThrottleUpDown = 10.0
+ThrottleUpDown = 0.98
+;3.5s
 MinRotationPitch = 45
 MaxRotationPitch = 45
 MobilityRoll = 0

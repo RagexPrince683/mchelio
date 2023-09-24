@@ -1,4 +1,4 @@
-DisplayName = Oto Melara 127mm gun
+DisplayName = Otobreda 127/64 Naval Gun
 Type = MachineGun2
 Power = 60
 ModelBullet = bullet76mm

@@ -7,13 +7,16 @@ Explosion = 2
 ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight
-Delay = 20
+Delay = 10
 ReloadTime = 60
 Round = 3
 Bomblet = 20
 BombletDiff = 2.0
 DisableSmoke = true
-Sound = rocket_snd
+Sound = naval
+SoundVolume = 15
+
+Gravity = -0.005
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5

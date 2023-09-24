@@ -2,8 +2,9 @@
 AddDisplayName = en_US, Nissan 350Z
 AddDisplayName = ja_JP, スカイラインGT-R 
 ItemID = 28745
-MaxHp = 100
-ThrottleUpDown = 10.0
+MaxHp = 200
+ThrottleUpDown = 0.83
+;5.9s 0-60
 Speed = 1.74
 MobilityYawOnGround = 9.0
 StepHeight = 1.2

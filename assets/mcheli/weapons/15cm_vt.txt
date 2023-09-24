@@ -14,13 +14,15 @@ Sound = 150mmAA
 Particle = largeexplode
 ProximityFuseDist = 10.0
 
+Gravity = -0.005
+
 Delay = 80
 ReloadTime = 80
 Group = MainGun
 ;BulletColor        = 255, 255, 100, 100
 ;ModelBullet = bullet105mm
 Piercing = 0
-Accuracy = 0.0
+Accuracy = 1.0
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

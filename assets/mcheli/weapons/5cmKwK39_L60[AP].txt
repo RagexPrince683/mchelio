@@ -1,0 +1,34 @@
+DisplayName = 5cm KwK 39 L/60 [AP]
+Type = MachineGun2
+Power = 50
+Acceleration = 6.8
+ModelBullet = bullet76mm
+Explosion = 0
+ExplosionBlock = 0
+Sight = MoveSight
+ReloadTime = 100
+Round = 1
+Sound = cannon_1_snd
+SoundVolume = 1.0
+Accuracy = 1.00
+Piercing = 1
+HeatCount = 20
+MaxHeatCount = 25
+Gravity = -0.01
+GravityInWater = -1.0
+Particle = flame
+RecoilBufCount = 40, 5
+DamageFactor = plane, 3.0
+DamageFactor = helicopter, 3.0
+Recoil = 2.5
+
+AddMuzzleFlash      =           2.8,   1.10,        3,  220,254,159,74
+AddMuzzleFlash      =           2.4,   0.85,        2,  220,254,219,104
+
+AddMuzzleFlashSmoke   =              2.2,     7,   5.0,  2.0,       65,  220,160,140,120
+AddMuzzleFlashSmoke   =             2.6,     3,   6.0,  4.0,       55,  200,190,170,150
+
+MaxAmmo = 55
+SuppliedNum = 5
+Item =  2, iron_ingot
+Item =  3, gunpowder

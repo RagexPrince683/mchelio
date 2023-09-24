@@ -2,12 +2,14 @@ DisplayName = Dodge Challenger R/T
 AddDisplayName = en_US, Dodge Challenger R/T
 AddDisplayName = ja_JP, Dodge Challenger R/T
 ItemID = 33406
-MaxHp = 100
-Speed = 2.66
+MaxHp = 200
+Speed = 1.55
 Sound = chal
+;soundpitch = 0.8
 ;~260lb-ft torque
 MobilityYawOnGround = 9.0
-ThrottleUpDown = 10.0
+ThrottleUpDown = 0.91
+;5.3s
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll = 0
@@ -32,6 +34,9 @@ HUD = s15_hud, none, none, none, none
 AddSeat =  0.5412,  0.03, 0.00
 AddSeat =  -0.5412,  0.13, 0.0 
 
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
 
 
 AddSeat = 0.5644, 0.26, -0.9312
@@ -50,8 +55,8 @@ WeightType = Car
 PivotTurnThrottle = 0.1
 
 ; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
-AddPartWheel     = -1.0884,  0.1839, 1.8265, 15
-AddPartWheel     =  1.0893,  0.1839, 1.8265, 15
+AddPartWheel     = -1.0884,  0.1839, 1.8265, 25
+AddPartWheel     =  1.0893,  0.1839, 1.8265, 25
 AddPartWheel     = -1.0884,  0.1839, -1.8574
 AddPartWheel     =  1.0893,  0.1839, -1.8604
 
@@ -63,11 +68,15 @@ SetWheelPos =  0.60,  -0.24,  1.851, -1.934
 
 ;AddFixedSearchLight= 座標X, Y, Z,       開始地点の色, 終了地点の色,  距離, 終端の半径, Yaw, Pitch
 ;ヘッドライト
-AddFixedSearchLight =  -0.7268, 0.639, 2.765,   0x50FFFFFF,   0x00FFFFC0,    0.14, 0.20,  -5,  0
-AddFixedSearchLight = 0.7262, 0.639, 2.765,   0x50FFFFFF,   0x00FFFFC0,    0.14, 0.20,  -5,  0
+
+;brights
+;AddFixedSearchLight =  -0.7268, 0.639, 2.765,   0x50FFFFFF,   0x00FFFFC0,    0.14, 0.20,  -5,  0
+;AddFixedSearchLight = 0.7262, 0.639, 2.765,   0x50FFFFFF,   0x00FFFFC0,    0.14, 0.20,  -5,  0
 
 AddFixedSearchLight =  -0.9435, 0.639, 2.71,   0x50FFFFFF,   0x00FFFFC0,    0.14, 0.20,  -5,  0
 AddFixedSearchLight = 0.9435, 0.639, 2.71,   0x50FFFFFF,   0x00FFFFC0,    0.14, 0.20,  -5,  0
+
+PartWheelRot = 75
 
 ;テールランプ
 ;L

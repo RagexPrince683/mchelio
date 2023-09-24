@@ -11,10 +11,10 @@ Gravity = -0.61
 Float = true
 FloatOffset = 0.0
 
-GravityInWater = -0.2
+GravityInWater = -0.1
 DamageFactor = 0.0
 EnableNightVision = true
-CameraRotationSpeed = 30
+CameraRotationSpeed = 45
 StepHeight = 1.7
 MinRotationPitch = -60
 MaxRotationPitch = 5
@@ -23,6 +23,10 @@ MaxFuel         = 1200
 FuelConsumption = 2.0
 HideEntity = true
 FlareType = 10
+ThirdPersonDist = 8
+
+AddTexture = bmp2_1
+AddTexture = bmp2_2
 
 TurretPosition = 0.0, 2.5619, -0.2461
 

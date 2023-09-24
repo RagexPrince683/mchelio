@@ -2,11 +2,12 @@ DisplayName = Lamborghini Huracán
 AddDisplayName = en_US, Lamborghini Huracán
 AddDisplayName = ja_JP, Lamborghini Huracán
 ItemID = 31400
-MaxHp = 100
-Speed = 1.25
+MaxHp = 200
+Speed = 1.99
 Sound = l_h
 MobilityYawOnGround = 10.0
-ThrottleUpDown = 10.0
+ThrottleUpDown = 1.15
+;2.9s 0-60
 MinRotationPitch = -90
 MaxRotationPitch =  90
 MobilityRoll = 0

@@ -2,9 +2,11 @@
 AddDisplayName = en_US, Rolls-Royce Phantom
 AddDisplayName = ja_JP, ロールスロイス ファントム
 ItemID = 30111
-MaxHp = 150
-ThrottleUpDown = 5.0
-Speed = 3.36
+MaxHp = 200
+ThrottleUpDown = 0.9
+;4.5s 0-60
+
+Speed = 1.55
 MobilityYawOnGround = 8.2
 StepHeight = 1.2
 Sound = phantom
@@ -38,11 +40,11 @@ WeightType = Car
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  0.65,  -0.10,  2.0955, -1.9971
+SetWheelPos =  0.785,  -0.11,  2.30505, -2.19681
 
 HUD = bnr32_hud, none
 
-AddSeat = -0.555, 0.069, -0.00723
+AddSeat = -0.6105, 0.0759, -0.007953
 AddSeat =  0.555, 0.138, -0.00723
 AddSeat = -0.555, 0.138, -1.03
 AddSeat = 0.555, 0.138, -1.03
@@ -62,17 +64,17 @@ PivotTurnThrottle = 0.1
 ; タイヤの回転スピード
 PartWheelRot = 40
 ; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
-AddPartWheel     =  1.1431,  0.0827, 2.0955, 30
-AddPartWheel     = -1.1431,  0.0827, 2.0955, 30
-AddPartWheel     =  1.1431,  0.0827, -1.9971
-AddPartWheel     = -1.1431,  0.0827, -1.9971
+AddPartWheel     =  1.2574,  0.0339, 2.3298, 30
+AddPartWheel     = -1.2574,  0.0339, 2.3298, 30
+AddPartWheel     =  1.2574,  0.0339, -2.1720
+AddPartWheel     = -1.2574,  0.0339, -2.1720
 
 
-AddFixedSearchLight =  0.6650, 0.6148, 2.7959,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
-AddFixedSearchLight = -0.6650, 0.6148, 2.7959,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
+AddFixedSearchLight =   0.7315, 0.6148, 3.0755,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = -0.7315, 0.6148, 3.0755,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
 
-AddFixedSearchLight =  0.766, 0.588,-3.375,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
-AddFixedSearchLight =  -0.766, 0.588,-3.375,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  0.8426, 0.588,-3.7125,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  -0.8426, 0.588,-3.7125,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
 
 
 ;-0.607
@@ -83,7 +85,7 @@ AddFixedSearchLight =  -0.766, 0.588,-3.375,   0xFFFF0000,   0x10FF0000,    -0.0
 
 AddRecipe = "GGG",  "III",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
-AddPartSteeringWheel =  -0.5551,  0.6807,  0.3714,  0.0, 1.0, -5.1476,   130
+AddPartSteeringWheel =  -0.61061,  0.6807,  0.40854,  0.0, 1.0, -5.1476,   130
 
 InventorySize = 9
 
@@ -99,6 +101,6 @@ BoundingBox = 0.0, 0.10, -2.20, 2.32, 0.2
 Regeneration = true
 ArmorDamageFactor = 2.32
 
-UnmountPosition = -0.66, 1.00, -0.08
+UnmountPosition = -0.6105, 1.5, -0.007953
 
 ArmorMinDamage = 2

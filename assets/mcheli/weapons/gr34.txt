@@ -1,0 +1,28 @@
+DisplayName = Gr.34 [HE]
+Type = MachineGun1
+Power = 89
+Explosion = 7
+ExplosionBlock = 5
+Acceleration = 4.0
+Gravity = -0.04
+Sight = MissileSight
+Delay = 60
+ReloadTime = 60
+Round = 1
+SoundVolume = 4.0
+Sound = mortar_gun_snd
+Accuracy = 2.5
+ModelBullet = m69
+BulletColor = 255, 255, 100, 100
+
+DisplayMortarDistance = true
+
+AddMuzzleFlash      =           0.1,   0.55,        1,  220,254,219,104
+AddMuzzleFlash      =           0.0,   0.50,        1,  220,254,219,184
+AddMuzzleFlashSmoke   =              0.2,     10,   4.0,  4.0,       65,  220,160,140,120
+AddMuzzleFlashSmoke   =              0.2,      5,   5.0,  7.0,       55,  200,190,170,150
+
+MaxAmmo = 45
+SuppliedNum = 15
+Item =  1, iron_ingot
+Item =  1, gunpowder

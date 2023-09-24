@@ -1,4 +1,4 @@
-DisplayName = Oto Melara 76mm gun
+DisplayName = Oto Melara 76mm Autocannon
 Type = MachineGun2
 Power = 40
 ModelBullet = bullet76mm

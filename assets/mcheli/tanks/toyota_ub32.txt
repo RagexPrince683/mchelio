@@ -1,9 +1,9 @@
 DisplayName = Toyota Hilux with UB-32
 AddDisplayName = en_US, Toyota Hilux with UB-32
 AddDisplayName = ru_RU, Тойота с УБ-32
-MaxHp = 150
-ThrottleUpDown = 10.0
-Speed = 1.752
+MaxHp = 200
+ThrottleUpDown = 0.81
+Speed = 1.08
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
 Sound = hilux

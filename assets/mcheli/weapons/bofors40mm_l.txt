@@ -11,9 +11,13 @@ Delay = 5
 HeatCount = 18
 MaxHeatCount = 150
 ReloadTime = 30
-Sound = cannon_2_snd
-SoundPitch = 0.6
+
+;SoundPitch = 0.6
 SoundVolume = 15
+
+Gravity = -0.001
+SoundVolume = 15
+Sound = bofors
 
 MaxAmmo = 480
 SuppliedNum = 80

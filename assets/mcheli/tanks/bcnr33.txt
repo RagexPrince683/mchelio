@@ -2,9 +2,10 @@
 AddDisplayName = en_US, Nissan Skyline GT-R R33
 AddDisplayName = ja_JP, スカイラインGT-R BCNR33
 ItemID = 30033
-MaxHp = 100
-ThrottleUpDown = 10.0
-Speed = 1.74
+MaxHp = 200
+ThrottleUpDown = 0.95
+;5.3 0-60 also 4.3s so probably 4.3s
+Speed = 1.55
 ;186mph
 MobilityYawOnGround = 8.3
 StepHeight = 1.2

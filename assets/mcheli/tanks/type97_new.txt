@@ -1,0 +1,95 @@
+﻿DisplayName = Type 97 Chi-Ha
+AddDisplayName = ru_RU, Type 97 Chi-Ha
+ItemID = 191993
+MaxHp = 250
+Speed = 0.5
+Sound = prop_tank
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = false
+CameraRotationSpeed = 45
+MinRotationPitch = -90
+MaxRotationPitch = 45
+HideEntity = true
+DefaultFreeLook = true
+
+MobilityYawOnGround = 3.0
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+MotionFactor = 0.9
+
+HUD = ww2tank_hud
+
+AddSeat =  -0.24,  2.60, 0.47
+
+AddCrawlerTrack = false, 0.28, -1.12,  -0.23/2.64, 0.36/3.51, 0.62/3.77, 0.98/3.77, 1.24/3.51, 1.24/3.14, 1.14/1.93, 1.09/0.08, 1.02/-2.05, 1.00/-3.41, 0.77/-3.75, 0.44/-3.65, 0.21/-3.41, -0.23/-2.54,
+AddCrawlerTrack = false, 0.28, 1.12,  -0.23/2.64, 0.36/3.51, 0.62/3.77, 0.98/3.77, 1.24/3.51, 1.24/3.14, 1.14/1.93, 1.09/0.08, 1.02/-2.05, 1.00/-3.41, 0.77/-3.75, 0.44/-3.65, 0.21/-3.41, -0.23/-2.54,
+
+SetWheelPos = 1.12, 0.15, 3.33, 1.47, 0.51, -0.42, -1.37, -2.37, -3.25
+TrackRollerRot = 30
+
+AddTrackRoller = -1.56,  0.80,   3.33
+AddTrackRoller = -1.44,  0.15,   2.48
+AddTrackRoller = -1.44,  0.15,   1.47
+AddTrackRoller = -1.44,  0.15,   0.51
+AddTrackRoller = -1.44,  0.15,  -0.42
+AddTrackRoller = -1.44,  0.15,  -1.37
+AddTrackRoller = -1.44,  0.15,  -2.37
+AddTrackRoller = -1.47,  0.93,   2.00
+AddTrackRoller = -1.38,  0.94,   0.06
+AddTrackRoller = -1.47,  0.81,  -1.96
+AddTrackRoller = -1.49,  0.60,  -3.25
+
+AddTrackRoller = 1.56,  0.80,   3.33
+AddTrackRoller = 1.44,  0.15,   2.48
+AddTrackRoller = 1.44,  0.15,   1.47
+AddTrackRoller = 1.44,  0.15,   0.51
+AddTrackRoller = 1.44,  0.15,  -0.42
+AddTrackRoller = 1.44,  0.15,  -1.37
+AddTrackRoller = 1.44,  0.15,  -2.37
+AddTrackRoller = 1.47,  0.93,   2.00
+AddTrackRoller = 1.38,  0.94,   0.06
+AddTrackRoller = 1.47,  0.81,  -1.96
+AddTrackRoller = 1.49,  0.60,  -3.25
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 0.8
+
+MotionFactor = 0.85
+
+AddPartWeapon = type1_mbt, false, true, false,  -0.24, 1.79, 0.47, 0
+AddPartWeaponChild = false, true, -0.17, 2.17, 1.58
+AddPartWeapon = type97_mbt, false, true, false, 0.40, 1.54, 1.70, 0
+AddPartWeaponChild = false, true, 0.40, 1.54, 1.70
+
+AddWeapon = type1_mbt,  -0.24, 2.16, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
+AddWeapon = type97_mbt,  0.40, 1.54, 1.70,  0.0, 0.0, true,1, 0,-10,10, -10, 10
+
+AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
+AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  false,2
+
+EnableBack = true
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+ArmorMinDamage = 10
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+ArmorMaxDamage = 500
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+ArmorDamageFactor = 1.00
+
+MaxFuel         = 1200
+FuelConsumption = 2.0
+
+BoundingBox =  0.00, 0.82, 1.86,  3.42, 1.64, 1.0
+BoundingBox =  0.00, 0.82, -1.59,  3.42, 1.64, 1.0
+BoundingBox =  -0.23, 2.26, 0.42,  1.32, 1.10, 1.0
+
+BoundingBox =  0.00, 0.82, -1.78, 3.18, 1.45, 2.0
+
+
+StepHeight = 1.5

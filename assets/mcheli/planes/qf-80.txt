@@ -1,5 +1,5 @@
-﻿DisplayName = QF-80 Shooting Star (Target drone)
-AddDisplayName = en_US, QF-80 Shooting Star (Target drone)
+﻿DisplayName = Lockheed P-80 Shooting Star (Target drone)
+AddDisplayName = en_US, Lockheed P-80 Shooting Star (Target drone)
 AddDisplayName = ko_KR, QF-80 슈팅스타 (무인표적기)
 AddDisplayName = ja_JP, QF-80 Shooting Star(標的機)
 ItemID = 40003

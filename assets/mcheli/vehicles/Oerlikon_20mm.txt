@@ -1,13 +1,13 @@
-﻿DisplayName = Oerlikon 20mm Gun
-AddDisplayName = en_US, Oerlikon 20mm Gun
+﻿DisplayName = Oerlikon 20mm Cannon
+AddDisplayName = en_US, Oerlikon 20mm Cannon
 AddDisplayName = ja_JP, エリコン 20mm機関砲
 ItemID = 28601
 MaxHp = 100
 Gravity = -9.81
 GravityInWater = -1.0
 HideEntity = true
-MinRotationPitch = -75
-MaxRotationPitch =  8
+MinRotationPitch = -90
+MaxRotationPitch =  15
 CameraPosition = 0.0, 1.1, 0.0
 
 HideEntity = false
@@ -36,6 +36,6 @@ unmountposition = 0.0, 1.5, -1.2
 
 
 
-AddTurretWeapon = Oerlikon_20mm, 0.0, 0.7663, -0.3456,   0.0, 0.0,   true,2, 0,-360,360, -75, 8
+AddTurretWeapon = Oerlikon_20mm, 0.0, 0.7663, -0.3456,   0.0, 0.0,   true,2, 0,-360,360, -90, 15
 
 AddRecipe = "IIF",  "DDD",  "XXX",  X, Iron_Block, I, Iron_Ingot, D, Dispenser, F, Flint_and_Steel

@@ -5,11 +5,17 @@ ModelBullet = hydra70
 Acceleration = 4.0
 Explosion = 3
 Flaming = false
-Sound = rocket_snd
+
 Sight = MoveSight
-Delay = 7
+
 ReloadTime = 110
 Round = 10
+
+Gravity = -0.001
+Sound = hydraseventy
+Delay = 2
+
+SoundVolume = 15
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0

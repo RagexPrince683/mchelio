@@ -1,0 +1,60 @@
+DisplayName = Ju-87 Stuka
+AddDisplayName = ru_RU, Ju-87 Stuka
+ItemID = 30005
+MaxHp = 140
+Speed = 0.91
+Float = true
+Sound = prop_g
+ThrottleUpDown = 0.85
+MaxFuel         = 1200
+FuelConsumption = 1.0
+onGroundPitch = 6.8
+ThirdPersonDist = 12
+
+
+; W = WWII.  F = Fighter(???)
+Category = W.F
+
+HUD = plane_wwii
+
+AddSeat = -0.04, 2.8969, -2.5839
+
+AddGunnerSeat = 0.02, 2.74, -4.38, 0.03, 3.94, -5.06, false -90, 20
+
+AddPartSlideCanopy = 0.00, 0.00, -0.60
+
+AddPartRotor =    0.00, 3.0367, 3.8732,   1,0, 0
+AddBlade = 1, 0,  0.00, 3.0367, 3.8732,   0,0,-1
+
+AddWeapon = mg17,  3.30, 2.63, 0.054,  0.0, -3.0
+AddWeapon = mg17, -3.33, 2.6385, 2.54,  0.0, -3.0
+
+AddPartWeapon = mg151w, false, true, true, 0.00, 4.76, -5.94
+AddWeapon     = mg151w, 0.08, 3.4, -7.60, 0.0, 0.0, false,  2, 180, -80, 80, -60, 10
+AddWeapon     = mg151w, 0.08, 3.4, -5.94, 0.0, 0.0, false,  2, 180, -80, 80, -60, 10
+AddPartWeaponChild = false, true,  0.00,4.76,-5.94
+AddPartWeaponChild = false, true,  0.00,4.76,-5.94
+
+AddPartWeaponMissile = sc250, false, false, false,  7.63, 2.61, -3.37
+AddPartWeaponMissile = sc250, false, false, false, -7.63, 2.61, -3.37
+AddWeapon = sc250,  7.63, 2.61, -3.37,   0.0, 0.0,true, 1
+AddWeapon = sc250, -7.63, 2.61, -3.37,   0.0, 0.0,true, 1
+
+BoundingBox =  0.02, 4.6,   3.01,  1.0, 2.0, 0.7
+BoundingBox =  1.35, 2.11,  3.00,  0.7, 0.7, 0.7
+BoundingBox = -1.27, 2.09,  3.00,  0.7, 0.7, 0.7
+BoundingBox =  0.00, 3.04,  3.29,  0.5, 1.0, 0.7
+BoundingBox =  0.08, 2.94,  2.13,  1.0, 1.0, 1.7
+BoundingBox =  0.00, 3.07,  1.25,  1.0, 1.0, 1.9
+BoundingBox =  0.01, 3.12,  0.43,  1.0, 1.0, 1.5
+BoundingBox =  0.05, 4.43, -3.72,  1.5, 1,1
+BoundingBox = -0.02, 3.09, -1.04,  1.5, 1.5
+BoundingBox =  4.58, 2.69, -2.76,  4.0, 0.5
+BoundingBox = -4.29, 2.69, -2.76,  4.0, 0.5
+BoundingBox =  8.71, 2.41, -2.54,  2.0, 0.5
+BoundingBox = -8.40, 2.41, -2.54,  2.0, 0.5
+BoundingBox =  0.12, 2.75, -7.69,  2.0, 1.5
+BoundingBox =  0.12, 2.99, -10.33, 1.6, 1.5
+BoundingBox = -2.05, 3.62, -13.86, 3.0, 0.2
+BoundingBox =  1.9, 3.59, -13.86,  3.0, 0.2
+BoundingBox =  0.58, 4.87, -13.73, 1.0, 3.0

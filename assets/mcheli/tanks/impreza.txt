@@ -2,9 +2,10 @@
 AddDisplayName = en_US, Subaru Impreza
 AddDisplayName = ja_JP, インプレッサ
 ItemID = 30555
-MaxHp = 100
-ThrottleUpDown = 10.0
-Speed = 1.74
+MaxHp = 200
+ThrottleUpDown = 0.925
+;4.78s 0-60
+Speed = 1.44
 MobilityYawOnGround = 9.0
 ;7.5
 StepHeight = 1.8
@@ -57,6 +58,7 @@ AddPartCanopy   =  0.95, 0.32, 0.95,  0, 1, 0, -70
 
 AddPartHatch = 0.00, 0.7705, 1.071, 1.0, 0.0, 0.0, -60
 
+
 AddTexture = impreza 1
 AddTexture = impreza 2
 AddTexture = impreza 3
@@ -64,8 +66,8 @@ AddTexture = impreza 4
 
 ;AddFixedSearchLight= 座標X, Y, Z,       開始地点の色, 終了地点の色,  距離, 終端の半径, Yaw, Pitch
 ;ヘッドライト
-AddFixedSearchLight =  0.73, 0.52, 2.90,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
-AddFixedSearchLight = -0.73, 0.52, 2.90,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight =  0.95, 0.58, 2.77,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = -0.95, 0.58, 2.77,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
 
 ;テールランプ
 AddFixedSearchLight =  0.90, 0.66,-2.95,   0xFFFF0000,   0x10FF0000,    0.05, 0.55,  15.0,  11
@@ -92,7 +94,7 @@ BoundingBox =  0.0, 0.00, -0.4,  2.4, 0.1
 
 BoundingBox = 0.0, 0.5, 1.59, 2.0, 0.5
 
-unmountposition = 0.56,  0.70,  -0.06
+unmountposition = 0.56,  1.50,  -0.06
 Regeneration = true
 ArmorDamageFactor = 2.32
 

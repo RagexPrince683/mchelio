@@ -1,0 +1,29 @@
+DisplayName = M2 [Canister]
+Type = Rocket
+Power = 20
+Explosion = 1
+ExplosionBlock = 0
+Acceleration = 8.0
+Sight = None
+Delay = 15
+ReloadTime = 150
+Round = 40
+SoundVolume = 10.0
+Sound = ifv_gun_snd
+Accuracy = 1.5
+BulletColor        = 255, 255, 100, 100
+BombletSTime = 3
+BombletDiff = 0.7
+Bomblet = 20
+ModelBullet = bullet105mm
+ModelBomblet = bullet
+DisableSmoke = true
+Group = MainGun
+
+AddMuzzleFlash      =  7.0,      1.70,        5,  200,254,219,184
+AddMuzzleFlashSmoke =  8.2, 20,  10.0,  3.0, 45,  220,160,140,120
+
+MaxAmmo = 50
+SuppliedNum = 10
+Item =  1, iron_ingot
+Item =  1, gunpowder
