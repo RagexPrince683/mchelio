@@ -38,7 +38,7 @@ AddSeat = 0.00, 1.0, -1.3733
 
 MotionFactor = 0.9
 
-ArmorMinDamage = 12
+ArmorMinDamage = 7
 ;ArmorMaxDamage = 300
 ArmorDamageFactor = 1.0
 

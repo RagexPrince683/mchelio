@@ -1,15 +1,15 @@
-﻿DisplayName = A-27M Cromwell I
-AddDisplayName = en_US, A-27M Cromwell I
-AddDisplayName = ru_RU, A-27M Cromwell I
+﻿DisplayName = A-27M Cromwell V
+AddDisplayName = en_US, A-27M Cromwell V
+AddDisplayName = ru_RU, A-27M Cromwell V
 MaxHp = 64
 Speed = 0.5
 Sound = prop_tank
-ThrottleUpDown = 10.0
+ThrottleUpDown = 1.0
 MobilityRoll = 0
-Gravity = -0.06
-GravityInWater = 0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
-EnableNightVision = true
+EnableNightVision = false
 CameraRotationSpeed = 45
 DefaultFreeLook = true
 ThirdPersonDist = 12
@@ -34,9 +34,11 @@ WeightType = Tank
 ; X座標のマイナス側は必要なし
 SetWheelPos =  1.45,  -0.24, 2.08, 0.79, -0.68, -2.16, -3.48
 
-HUD = ww2tank_hud
+HUD = ww2tank_hud, ww2tank_hud
 
 AddSeat =  0.00, 1.6957, -0.2821
+
+AddGunnerSeat = 0.5, 0.5, 1.65, 0.67, 2.0, 2.05, false, -25, 4
 
 AddCrawlerTrack = false, 0.25, 0.00,  1.1582/-4.3796,  1.0164/-4.722,  0.6740/-4.8638,  0.3316/-4.722, -0.1742/-3.628, -0.2826/-3.3664, -0.2800/-2.3524, -0.2800/2.4975, -0.1918/2.7590,  0.4125/3.3574,  0.7351/3.5210,  1.0576/3.6074,  1.1912/3.2849,  1.2030/1.5385,  1.2030/-3.1331
 AddCrawlerTrack = false, 0.25, -0.00,  1.1582/-4.3796,  1.0164/-4.722,  0.6740/-4.8638,  0.3316/-4.722, -0.1742/-3.8041, -0.2826/-3.5425, -0.2900/-2.3524, -0.2900/2.4975, -0.1918/2.7590,  0.4125/3.3574,  0.7351/3.5210,  1.0576/3.6074,  1.1912/3.2849,  1.2030/1.5385,  1.2030/-3.1331
@@ -57,10 +59,11 @@ AddTrackRoller = -1.6209,  0.3045,  -2.1627
 AddTrackRoller = -1.6209,  0.3045,  -3.4877
 AddTrackRoller = -1.6209,  0.9055,  -4.5262
 
-AddTurretWeapon = qf6_he_mbt,  0.00, 2.2057, 2.5475,  0.0, 0.0, true,1, 0,-360,360, -5, 5
-AddTurretWeapon = qf6_heat_mbt,  0.00, 2.2057, 2.5475,  0.0, 0.0, true,1, 0,-360,360, -5, 5
-AddWeapon = bren,  0.2289, 2.3150, 1.8192,  0.0, 0.0, true,1, 0,-5,5, -5, 5
-AddPartWeapon = qf6_he_mbt / qf6_heat_mbt, false, true, false,  0.00, 2.2463, -0.2821, 0
+AddTurretWeapon = qf6_he_crom,  0.00, 2.2057, 2.5475,  0.0, 0.0, true,1, 0,-360,360, -5, 8
+AddTurretWeapon = qf6_heat_crom,  0.00, 2.2057, 2.5475,  0.0, 0.0, true,1, 0,-360,360, -5, 8
+AddTurretWeapon = brencromcox,  0.20, 2.2057, 2.5475,  0.0, 0.0, true,1, 0,-360,360, -5, 8
+AddWeapon = brencrom,  0.4889, 1.6150, 1.8192,  0.0, 0.0, true,2, 0,-5,5, -5, 5
+AddPartWeapon = qf6_he_crom / qf6_heat_crom, false, true, false,  0.00, 2.2463, -0.2821, 0
 AddPartWeaponChild = false, true, 0.00, 2.2463, -0.2821
 
 EnableBack = true
@@ -97,11 +100,19 @@ BoundingBox = 0.0, 2.2, 0.0, 2.3, 0.8, 0.22
 
 ;top of engine 14
 
+BoundingBox =  0.0, 1.78, -3.7,  2.4, 0.1, 1.0
+
+;top of front part of tank 20mm
+BoundingBox =  0.0, 1.78, -1.3,  2.4, 0.1, 0.7
+BoundingBox =  0.0, 1.78, 1.0,  2.4, 0.1, 0.7
+
 ;top of turret 20
 
+BoundingBox = 0.0, 2.57, 0.0, 2.2, 0.1, 0.7
 
 
-;front slab probably 64 idk idc tbh
+
+;front slab probably 64 idk idc tbh 63 effective so basically
 BoundingBox =  0.0, 1.25, 1.05,  2.5, 1.1, 0.22
 
 
@@ -120,14 +131,14 @@ BoundingBox =  0.0, 1.25, -1.6,  2.6, 1.1, 0.56
 BoundingBox =  0.0, 0.8, -1.6,  2.6, 1.1, 0.56
 
 
-;upper plate probably 64
-BoundingBox = 0.0, 1.2, 2.1, 2.5, 0.35, 0.22
+;upper plate probably 73
+BoundingBox = 0.0, 1.2, 2.1, 2.5, 0.35, 0.19
 
 ;front bottom plate 57mm
 BoundingBox = 0.0, 0.845, 2.05, 2.5, 0.35, 0.25
 
-;lower slope plate 100mm
-BoundingBox = 0.0, 0.47, 2.0, 2.5, 0.4, 0.14
+;lower slope plate 85mm
+BoundingBox = 0.0, 0.47, 2.0, 2.5, 0.4, 0.16
 
 ;rear 32
 BoundingBox =  0.0, 1.25, -3.7,  2.5, 1.1, 0.44

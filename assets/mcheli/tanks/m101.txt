@@ -1,44 +1,46 @@
 DisplayName = M101 Howitzer
 AddDisplayName = ru_RU, M101 Howitzer
 ItemID = 30151
-MaxHp = 50
+MaxHp = 100
 Sound = none
-Speed = 0.00
-ThrottleUpDown = 10.0
+Speed = 0.001
+ThrottleUpDown = 0.81
 MobilityYawOnGround = 2.0
-MinRotationPitch = -20
+MinRotationPitch = -65
 MaxRotationPitch = 0
-MobilityRoll = -15
-Gravity = -0.1
-GravityInWater = -0.1
-DamageFactor = 0.0
+;MobilityRoll = 0
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor = 1.0
 CameraZoom = 5
 CameraRotationSpeed = 50
 MaxFuel = 1500
 FuelConsumption = 3.0
 StepHeight = 1.5
 CameraPosition = 1.06, 1.04, -0.41
-HideEntity = true
+HideEntity = false
 EnableBack = true
-OnGroundPitchFactor = 2.0
-OnGroundRollFactor  = 1.3
+;OnGroundPitchFactor = 2.0
+;OnGroundRollFactor  = 1.3
 ThirdPersonDist = 25
 DefaultFreelook = true
 
-WeightType = Tank
-WeightedCenterZ = 0
-MotionFactor = 0.9
-AddGunnerSeat = 1.06,  1.04, -0.41, 0.00,  1.6, -0.2, false, -90, 40, true;m107 bb
+;WeightType = Tank
+;WeightedCenterZ = 0
+;MotionFactor = 0.9
+AddGunnerSeat = 1.16,  -0.24, -0.41, 0.00,  1.6, -0.2, false, -65, 0, true;m107 bb
 
 HUD = vehicle
 
 AddPartWeapon = m102, false, false, true, 0.00, 0.87, -0.29, 1, 0, 0, -90, 0
 
-AddWeapon = M1, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -90, 5, 0
-AddWeapon = M327, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -90, 5, 0
-AddWeapon = M548, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -90, 5, 0
-AddWeapon = M546, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -90, 5, 0
-AddWeapon = M413, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -90, 5, 0
-AddWeapon = M444, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -90, 5, 0
+AddWeapon = M1, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 0, 0
+AddWeapon = M327, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 0, 0
+AddWeapon = M548, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 0, 0
+AddWeapon = M546, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 0, 0
+AddWeapon = M413, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 0, 0
+AddWeapon = M444, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 0, 0
 
-BoundingBox =  0.0, 1.5, 0.0,  4.0, 3.0
+BoundingBox =  0.0, 1.0, 0.0,  1.5, 2.5
+
+UnmountPosition = 1.06,  1.54, -0.41

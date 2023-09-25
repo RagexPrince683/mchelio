@@ -10,8 +10,8 @@ MobilityYawOnGround = 2.0
 MinRotationPitch = -90
 MaxRotationPitch = 5
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
 CameraZoom = 3
 EnableNightVision = false
@@ -27,6 +27,8 @@ OnGroundRollFactor  = 1.3
 DefaultFreelook = true
 ThirdPersonDist = 60
 
+;moved back 4.52 so subtract 4.52 from skewed coords
+
 WeightType =  Tank
 WeightedCenterZ = 0
 
@@ -34,21 +36,21 @@ SetWheelPos =  1.74,  -0.47,  7.16,  1.57,-0.6
 
 MotionFactor = 0.9
 
-AddSeat = 1.78, 1.80, 12.09
+AddSeat = 1.78, 1.80, 7.57
 
 HUD = mbt_hud,mbt_hud
 
 FixCameraPitch = true
 
-AddWeapon = scud, 0.10, 1.64, -1.67, 0.0, 0.0, true, 1, 0, -10, 10, -90, 5, 0
-AddWeapon = scudnuclear, 0.10, 1.64, -1.67, 0.0, 0.0, true, 1, 0, -10, 10, -90, 5, 0
+AddWeapon = scud, 0.10, 1.64, -6.19, 0.0, 0.0, true, 1, 0, -10, 10, -90, 0, 0
+AddWeapon = scudnuclear, 0.10, 1.64, -6.19, 0.0, 0.0, true, 1, 0, -10, 10, -90, 0, 0
 
-AddPartWeaponMissile = scud / scudnuclear, false, false, true, 0.10, 1.64, -1.67, 5, 0
+AddPartWeaponMissile = scud / scudnuclear, false, false, true, 0.10, 1.64, -6.19, 5, 0
 
-AddPartWeapon = scud / scudnuclear, false, false, true, 0.10, 1.64, -1.67, 1, 0, 0, -90, 0
+AddPartWeapon = scud / scudnuclear, false, false, true, 0.10, 1.64, -6.19, 1, 0, 0, -90, 0
 
-AddFixedSearchLight =  2.15, 1.76, 13.38, 0x20FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
-AddFixedSearchLight = -1.99, 1.76, 13.38, 0x20FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+AddFixedSearchLight =  2.15, 1.86, 8.7, 0x20FFFFFF,   0x00FFFFC0,    0.5, 0.5,  -5,  0
+AddFixedSearchLight = -1.99, 1.86, 8.7, 0x20FFFFFF,   0x00FFFFC0,    0.5, 0.5,   5,  0
 
 PivotTurnThrottle = 0.1
 PartWheelRot = 40
@@ -68,6 +70,9 @@ AddPartWheel = -1.8273,  0.4602,  0.1276
 
 MaxFuel = 1000
 FuelConsumption = 1.5
+
+unmountposition = 1.78, 1.80, 7.57
+;12.09 to 7.57
 
 BoundingBox =  0.0, 0.6,  4,   3.4, 1.8,  0.70
 BoundingBox = -0.9, 1.6,  4,   2.4, 3.2,  0.70

@@ -1,17 +1,19 @@
 DisplayName = P-17 [HE]
 Type = Rocket
-Power = 400
+Power = 1400
 Acceleration = 4
-Explosion = 20
+Explosion = 40
 ExplosionBlock = 11
 Flaming = false
 Sight = MissileSight
-Delay = 50
+Delay = 2000
 SoundVolume = 10.5
 SoundPitch = 10.0
 Sound = missile_scud_snd
 ModelBullet = scud
 Gravity = -0.03
+
+Group = MainGun
 
 TrajectoryParticle = largeexplode
 

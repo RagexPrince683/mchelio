@@ -4,13 +4,15 @@ Acceleration = 4
 Explosion = 1
 Flaming = false
 Sight = MissileSight
-Delay = 50
+Delay = 2000
 SoundVolume = 10.5
 SoundPitch = 10.0
 Sound = missile_scud_snd
 ModelBullet = scud
 Gravity = -0.03
 nukeYield = 195
+
+Group = MainGun
 
 TrajectoryParticle = largeexplode
 
