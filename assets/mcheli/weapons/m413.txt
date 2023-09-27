@@ -39,7 +39,7 @@ FixCameraPitch = true
 Recoil = 2.0
 
 MaxAmmo = 45
-SuppliedNum = 1
+SuppliedNum = 15
 
 Item =  4, iron_ingot
 Item =  2, gunpowder

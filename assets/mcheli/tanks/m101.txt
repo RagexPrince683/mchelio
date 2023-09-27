@@ -7,16 +7,19 @@ Speed = 0.001
 ThrottleUpDown = 0.81
 MobilityYawOnGround = 2.0
 MinRotationPitch = -65
-MaxRotationPitch = 0
+MaxRotationPitch = 5
 ;MobilityRoll = 0
+MobilityRoll     = 5
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 1.0
 CameraZoom = 5
 CameraRotationSpeed = 50
-MaxFuel = 1500
-FuelConsumption = 3.0
-StepHeight = 1.5
+MaxFuel = 0
+FuelConsumption = 0
+;StepHeight = 1.5
+OnGroundPitchFactor = 1
+OnGroundRollFactor  = 1
 CameraPosition = 1.06, 1.04, -0.41
 HideEntity = false
 EnableBack = true
@@ -25,21 +28,26 @@ EnableBack = true
 ThirdPersonDist = 25
 DefaultFreelook = true
 
+SetWheelPos =  0.20,  -0.20,  0.20, -0.20
+
+WeightType = Unknown
+
 ;WeightType = Tank
 ;WeightedCenterZ = 0
 ;MotionFactor = 0.9
-AddGunnerSeat = 1.16,  -0.24, -0.41, 0.00,  1.6, -0.2, false, -65, 0, true;m107 bb
+AddGunnerSeat = 1.16,  -0.24, -0.41, 0.00,  1.6, -0.2, false, -65, 5, true
+;m107 bb
 
 HUD = vehicle
 
 AddPartWeapon = m102, false, false, true, 0.00, 0.87, -0.29, 1, 0, 0, -90, 0
 
-AddWeapon = M1, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 0, 0
-AddWeapon = M327, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 0, 0
-AddWeapon = M548, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 0, 0
-AddWeapon = M546, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 0, 0
-AddWeapon = M413, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 0, 0
-AddWeapon = M444, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 0, 0
+AddWeapon = m1how, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 5, 0
+AddWeapon = m327, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 5, 0
+AddWeapon = m548, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 5, 0
+AddWeapon = m546, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 5, 0
+AddWeapon = m413, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 5, 0
+AddWeapon = m444, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 5, 0
 
 BoundingBox =  0.0, 1.0, 0.0,  1.5, 2.5
 
