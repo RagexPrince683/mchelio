@@ -1,4 +1,4 @@
-DisplayName = B61 Nuclear Bomb [400 Kilotons]
+DisplayName = B61 Nuclear Bomb [400KT SURFACE]
 Type = Bomb
 ;Power = 1000
 ;DamageFactor = tank, 1.0

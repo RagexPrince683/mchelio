@@ -1,16 +1,17 @@
-DisplayName = Msta-b
-AddDisplayName = uk_UA Мста-б
-AddDisplayName = en_EN Msta-b
+DisplayName = 152mm howitzer 2A65 Msta-B
+AddDisplayName = uk_UA, Мста-б
+AddDisplayName = en_EN, Msta-b
+AddDisplayName = en_US, 152 mm howitzer 2A65 Msta-B
 ItemID = 196619
-MaxHp = 70
-Speed = 0.03
-Sound = vehicle_run
-ThrottleUpDown = 10.0
-MinRotationPitch = -50
-MaxRotationPitch =  20
+MaxHp = 100
+Speed = 0.01
+Sound = none
+ThrottleUpDown = 0.81
+MinRotationPitch = -70
+MaxRotationPitch =  4
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 1.0
 EnableNightVision = false
 DefaultFreelook = true
@@ -19,46 +20,60 @@ SubmergedDamageHeight = 4
 OnGroundPitchFactor = 3.0
 OnGroundRollFactor  = 3.0
 CameraPosition = 0.50, 4.0, -1.43, true
-HideEntity = true
+HideEntity = false
+
+PartWheelRot = 1
 
 WeightType = car
 
-MobilityYawOnGround = 3.0
+MobilityYawOnGround = 2.5
 
 HUD = mbt_hud
 
-AddSeat =  0.07,  0.87, -2.13
+AddSeat =  0.07,  -0.27, -2.13
+
+unmountposition = 0.07,  1.57, -2.13
 
 MotionFactor = 0.03
 
-SetWheelPos =  1.75,  -0.24,  3.02, 1.44, -1.54, -2.91
+SetWheelPos =  1.05,  -0.24,  1.06, -1.0
 
-AddWeapon = mstahe,  0.0, 1.51, -0.49,  0.48, -1.32, true,1, 0, 0, 0, -40, 7
-AddWeapon = mstatv,  0.0, 1.51, -0.49,  0.48, -1.32, true,1, 0, 0, 0, -40, 7
+AddWeapon = mstahe,  0.0, 1.51, -0.49,  0.48, -1.32, true,1, 0, 0, 0, -70, 4
+AddWeapon = mstatv,  0.0, 1.51, -0.49,  0.48, -1.32, true,1, 0, 0, 0, -70, 4
 
 AddPartWheel     =   1.36,  0.33,  -0.04
 AddPartWheel     =   -1.35, 0.33,  -0.04
-AddPartWeaponBay = mstahe / mstabtv , -0.02, 0.67, 0.48,  1, 0, 0, 90
-AddPartWeaponBay = mstahe / mstabtv , 0.75, 0.52, -0.29,  0, 1, 0, 15
-AddPartWeaponBay = mstahe / mstabtv , -0.63, 0.52, -0.29,  0, 1, 0, -15
+AddPartWeaponBay = mstahe / mstatv , -0.02, 0.67, 0.48,  1, 0, 0, 90
+AddPartWeaponBay = mstahe / mstatv , 0.75, 0.52, -0.29,  0, 1, 0, 15
+AddPartWeaponBay = mstahe / mstatv , -0.63, 0.52, -0.29,  0, 1, 0, -15
 
 
-AddPartWeapon = mstahe / mstabtv , false, true, false,  0.51, 2.49, -1.32, 0
+
+
+AddPartWeapon = mstahe / mstatv, false, true, false,  0.51, 2.49, -1.32, 0
 AddPartWeaponChild = false, true, 0.0, 1.51, -0.49, 1
 
 EnableBack = true
 
 MotionFactor = 0.1
 
-ArmorMinDamage = 5
-ArmorMaxDamage = 120
+;ArmorMinDamage = 5
+;ArmorMaxDamage = 120
 ArmorDamageFactor = 1.00
 
 MaxFuel         = 500
 FuelConsumption = 1.0
 
-BoundingBox =  0.40, 2.64, 0.0,  3.10, 2.01
-BoundingBox =  0.40, 0.79, -1.75, 3.10, 2.01
+;BoundingBox =  0.40, 2.64, 0.0,  3.10, 2.01
+;BoundingBox =  0.40, 0.79, -1.75, 3.10, 2.01
+
+BoundingBox = 0.0, 1.2, 0.0, 1.0, 1.8
+
+BoundingBox = 0.75, 1.2, -0.5, 0.5, 1.8
+BoundingBox = -0.75, 1.2, -0.5, 0.5, 1.8
+BoundingBox = 1.25, 1.2, -0.5, 0.5, 1.8
+BoundingBox = -1.25, 1.2, -0.5, 0.5, 1.8
+
 
 
 StepHeight = 1.5

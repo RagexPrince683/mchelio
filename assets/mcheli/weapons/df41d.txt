@@ -1,26 +1,37 @@
-DisplayName = DF-41 Thermonuclear Warhead [5 Mega Tons]
-Type = ASMissile
+DisplayName = DF-41 Thermonuclear Warhead [10x150KT SURFACE]
+Type = Rocket
 ;Power = 41000
-Acceleration = 8.5
+Acceleration = 3.5
 Explosion = 1
 ;119:469m
 ;nukeYield = 395 just too big
-nukeYield = 255
-radius = 5000
+nukeyield = 195
+;radius = 5000
 
+BombletSTime = 120
+BombletDiff = 6.5
+Bomblet = 10
+ModelBomblet = scud
+
+Gravity = -0.032
 
 ;ExplosionBlock = 50
 ;ExplosionInWater = 45
 ;Flaming = true
 Sight = MissileSight
-ProximityFuseDist = 20
-Sound = missile_1_snd
-Delay = 15
+ProximityFuseDist = 50
+SoundVolume = 10.5
+SoundPitch = 10.0
+Sound = missile_scud_snd
+Delay = 2500
 ModelBullet = DF41
 Piercing  = 2
 ReloadTime = 2500
 RigidityTime = 20
 RidableOnly = true
+
+DisplayMortarDistance = true
+FixCameraPitch = true
 
 
 TrajectoryParticle = largeexplode
@@ -54,6 +65,6 @@ AddMuzzleFlash      =  -29,      7.00,         8,  200,254,219,184
 Round = 1
 MaxAmmo = 1
 SuppliedNum = 1
-Item = 3, hbm:item.missile_nuclear
+Item = 10, hbm:item.missile_nuclear
 Item = 10, gunpowder
 Item = 2, iron_block

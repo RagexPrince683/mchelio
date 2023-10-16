@@ -1,4 +1,4 @@
-DisplayName = KH-20 Nuclear Cruise Missile
+DisplayName = KH-20 Nuclear Cruise Missile [3MT SURFACE]
 Type = TVMissile
 Power = 60
 Acceleration = 5.0

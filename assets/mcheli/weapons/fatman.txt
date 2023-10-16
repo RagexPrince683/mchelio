@@ -1,4 +1,4 @@
-DisplayName = Fat Man
+DisplayName = Fat Man Nuclear Bomb [20KT AIRBURST - 457M]
 ;Type = Nuke
 Type = bomb
 nukeYield = 167

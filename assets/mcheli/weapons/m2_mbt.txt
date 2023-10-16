@@ -6,7 +6,7 @@ Explosion = 0
 Flaming = false
 Sight = None
 Delay = 1
-Accuracy = 3.0
+Accuracy = 1.5
 HeatCount = 1
 MaxHeatCount = 150
 SoundPitch = 1.0
@@ -15,6 +15,8 @@ Sound = m2_snd
 BulletColor        = 255, 119, 255, 116
 SoundPitch = 1 
 SoundPitchRandom = 0.1
+HeatCount = 4
+MaxHeatCount = 225
 
 Gravity = -0.005
 

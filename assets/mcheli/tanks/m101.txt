@@ -35,7 +35,7 @@ WeightType = Unknown
 ;WeightType = Tank
 ;WeightedCenterZ = 0
 ;MotionFactor = 0.9
-AddGunnerSeat = 1.16,  -0.24, -0.41, 0.00,  1.6, -0.2, false, -65, 5, true
+AddGunnerSeat = 1.16,  -0.24, -0.41, 0.00,  1.6, -0.2, false, -65, 5, false
 ;m107 bb
 
 HUD = vehicle
@@ -49,6 +49,6 @@ AddWeapon = m546, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 5, 0
 AddWeapon = m413, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 5, 0
 AddWeapon = m444, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 5, 0
 
-BoundingBox =  0.0, 1.0, 0.0,  1.5, 2.5
+BoundingBox =  0.0, 1.0, 0.0,  1.0, 1.0
 
 UnmountPosition = 1.06,  1.54, -0.41

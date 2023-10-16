@@ -10,6 +10,7 @@ ModeNum = 2
 ModelBullet = mstabkr
 Sound = msta
 SoundVolume = 10
+Gravity = -0.20
 Round = 1
 ReloadTime = 200
 

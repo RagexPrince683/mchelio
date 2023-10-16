@@ -1,4 +1,4 @@
-DisplayName = W9 Nuclear Warhead
+DisplayName = W9 Nuclear Warhead [15KT SURFACE]
 Type = MachineGun1
 ModelBullet = w9
 ;Power = 12

@@ -1,4 +1,4 @@
-DisplayName = B28 Nuclear Bomb [1.45 Mega Tons]
+DisplayName = B28 Nuclear Bomb [1.45MT SURFACE]
 Type = Bomb
 ;Power = 1000
 ;DamageFactor = tank, 1.0

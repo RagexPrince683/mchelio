@@ -1,18 +1,18 @@
-﻿DisplayName = 9K72 Elbrus
-AddDisplayName = ru_RU, 9K72 Elbrus
-AddDisplayName = en_US, 9K72 Elbrus
+﻿DisplayName = MAZ-543 with 9K72 Elbrus SS-1C Scud B Missile
+AddDisplayName = ru_RU, MAZ-543 with 9K72 Elbrus SS-1C Scud B Missile
+AddDisplayName = en_US, MAZ-543 with 9K72 Elbrus SS-1C Scud B Missile
 ItemID = 33121
 MaxHp = 200
 Speed = 0.4
 Sound = mbt_run
-ThrottleUpDown = 10.0
-MobilityYawOnGround = 2.0
+ThrottleUpDown = 2.0
+MobilityYawOnGround = 4.0
 MinRotationPitch = -90
 MaxRotationPitch = 5
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
-DamageFactor = 0.0
+DamageFactor = 0.8
 CameraZoom = 3
 EnableNightVision = false
 CameraRotationSpeed = 35
@@ -24,30 +24,33 @@ HideEntity = false
 EnableBack = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
-DefaultFreelook = true
+DefaultFreelook = false
 ThirdPersonDist = 60
 
 ;moved back 4.52 so subtract 4.52 from skewed coords
 
-WeightType =  Tank
+WeightType =  Car
 WeightedCenterZ = 0
 
-SetWheelPos =  1.74,  -0.47,  7.16,  1.57,-0.6 
+SetWheelPos =  1.84,  -0.47,  5.3,  2.76,-1.75,-4.53 
 
 MotionFactor = 0.9
 
 AddSeat = 1.78, 1.80, 7.57
+AddSeat = -1.38, 1.80, 7.57
 
 HUD = mbt_hud,mbt_hud
 
 FixCameraPitch = true
 
-AddWeapon = scud, 0.10, 1.64, -6.19, 0.0, 0.0, true, 1, 0, -10, 10, -90, 0, 0
-AddWeapon = scudnuclear, 0.10, 1.64, -6.19, 0.0, 0.0, true, 1, 0, -10, 10, -90, 0, 0
+AddWeapon = scud, 0.10, 1.64, -6.19, 0.0, 0.0, false, 2, 0, -10, 10, -90, 0, 0
+AddWeapon = scudnuclear, 0.10, 1.64, -6.19, 0.0, 0.0, false, 2, 0, -10, 10, -90, 0, 0
 
-AddPartWeaponMissile = scud / scudnuclear, false, false, true, 0.10, 1.64, -6.19, 5, 0
+AddPartWeaponMissile = scud, false, false, true, 0.10, 1.64, -6.19, 5, 0
 
 AddPartWeapon = scud / scudnuclear, false, false, true, 0.10, 1.64, -6.19, 1, 0, 0, -90, 0
+
+AddPartWeaponMissile = scudnuclear, false, false, true, 0.10, 1.64, -6.19, 5, 0
 
 AddFixedSearchLight =  2.15, 1.86, 8.7, 0x20FFFFFF,   0x00FFFFC0,    0.5, 0.5,  -5,  0
 AddFixedSearchLight = -1.99, 1.86, 8.7, 0x20FFFFFF,   0x00FFFFC0,    0.5, 0.5,   5,  0
@@ -58,15 +61,15 @@ PartWheelRot = 40
 
 AddPartThrottle =  0.81, 2.08, 6.15,  0,0,1,  -230
 
-AddPartWheel =  1.9746,  0.5299,  10.0788
-AddPartWheel =  1.9750,  0.5151,  7.4230
-AddPartWheel =  1.9756,  0.4899,  2.9067
-AddPartWheel =  1.9759,  0.4739,  0.1280
+AddPartWheel =  2.4478,  0.6460,  5.3788, 15
+AddPartWheel =  2.4478,  0.6460,  2.7636, 15
+AddPartWheel =  2.4478,  0.6460,  -1.7543
+AddPartWheel =  2.4478,  0.6460,  -4.5370
 
-AddPartWheel = -1.8287,  0.4714,  10.0785
-AddPartWheel = -1.8283,  0.4630,  7.4226
-AddPartWheel = -1.8277,  0.4384,  2.9063
-AddPartWheel = -1.8273,  0.4602,  0.1276
+AddPartWheel = -2.2632,  0.6460,  5.3788, 15
+AddPartWheel = -2.2632,  0.6460,  2.7636, 15
+AddPartWheel = -2.2632,  0.6460,  -1.7543
+AddPartWheel = -2.2632,  0.6460,  -4.5370
 
 MaxFuel = 1000
 FuelConsumption = 1.5
@@ -74,10 +77,22 @@ FuelConsumption = 1.5
 unmountposition = 1.78, 1.80, 7.57
 ;12.09 to 7.57
 
-BoundingBox =  0.0, 0.6,  4,   3.4, 1.8,  0.70
-BoundingBox = -0.9, 1.6,  4,   2.4, 3.2,  0.70
-BoundingBox =  0.9, 1.6,  3,   2.4, 3.2,  0.70
-BoundingBox =  0.0, 1.4, 0,   3.8, 3.0,  1.00
-BoundingBox =  0.0, 3.0, 0,   2.0, 1.0,  1.25
-BoundingBox = -0.9, 1.2, -2.5,   2.4, 1.6,  1.25
-BoundingBox =  0.9, 1.2, -2.5,   2.4, 1.6,  1.25
+BoundingBox = 0.10, 1.0, 6.6, 4.6, 0.4
+
+BoundingBox = 0.10, 1.0, 4.6, 4.6, 0.4
+
+BoundingBox = 0.10, 2.1, 0.0, 4.3, 1.8
+BoundingBox = 0.10, 2.1, 4.0, 4.3, 1.8
+BoundingBox = 0.10, 2.1, -4.0, 4.3, 1.8
+
+BoundingBox = 0.10, 1.0, 0.0, 4.6, 0.4
+
+BoundingBox = 0.10, 1.0, -3.8, 4.6, 0.4
+
+BoundingBox = 0.10, 1.4, -4.4, 4.6, 0.4
+
+BoundingBox = 0.10, 3.3, -0.0, 1.0, 1.0, 10
+BoundingBox = 0.10, 3.3, -7.0, 1.0, 1.0, 10
+
+
+

@@ -11,7 +11,7 @@ Round = 1
 Delay = 80
 SoundPitch = 1.2
 SoundVolume = 16.0
-Accuracy = 4.5
+Accuracy = 1.2
 Gravity = -0.025
 Sound = tank_gun_snd
 Recoil = 1.5
@@ -26,7 +26,7 @@ DisplayMortarDistance = true
 
 RecoilBufCount = 40, 5
 
-MaxAmmo = 70
-SuppliedNum = 35
+MaxAmmo = 33
+SuppliedNum = 33
 Item =  4, iron_ingot
 Item =  6, gunpowder

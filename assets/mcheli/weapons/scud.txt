@@ -1,10 +1,10 @@
-DisplayName = P-17 [HE]
+DisplayName = R-17 Elbrus Scud B Conventional Missile [HE]
 Type = Rocket
 Power = 1400
 Acceleration = 4
-Explosion = 40
+Explosion = 110
 ExplosionBlock = 11
-Flaming = false
+Flaming = true
 Sight = MissileSight
 Delay = 2000
 SoundVolume = 10.5
@@ -39,7 +39,7 @@ FixCameraPitch = true
 
 Group = maingun
 
-Accuracy = 2.5
+Accuracy = 0.5
 
 EnableGunnerMode = True
 
@@ -48,6 +48,6 @@ Round = 1
 MaxAmmo = 1
 SuppliedNum = 1
 
-Item = 8, iron_ingot
 Item = 4, tnt
-Item = 8, redstone
+Item = 2, iron_block
+Item = 3, redstone

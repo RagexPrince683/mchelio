@@ -1,4 +1,4 @@
-DisplayName = P-17 [Nuclear]
+DisplayName = R-17 Elbrus Scud B Nuclear Missile [70KT SURFACE]
 Type = Rocket
 Acceleration = 4
 Explosion = 1
@@ -10,7 +10,8 @@ SoundPitch = 10.0
 Sound = missile_scud_snd
 ModelBullet = scud
 Gravity = -0.03
-nukeYield = 195
+nukeYield = 185
+;70kt
 
 Group = MainGun
 
@@ -38,15 +39,15 @@ FixCameraPitch = true
 
 Group = maingun
 
-Accuracy = 2.5
+Accuracy = 0.5
 
 EnableGunnerMode = True
 
-ReloadTime = 2000
+ReloadTime = 2500
 Round = 1
 MaxAmmo = 1
 SuppliedNum = 1
 
-Item = 8, iron_ingot
-Item = 4, tnt
-Item = 8, redstone
+Item =  1, hbm:item.missile_nuclear
+Item =  2, iron_block
+Item =  3, redstone

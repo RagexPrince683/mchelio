@@ -1,4 +1,4 @@
-DisplayName = AGM-86B/C W80 Nuclear Warhead [150 Kilotons]
+DisplayName = AGM-86B/C W80 Nuclear Warhead [150KT SURFACE]
 Type = TVMissile
 ;Power = 1000
 Acceleration = 2.0
