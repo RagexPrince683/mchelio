@@ -1,7 +1,7 @@
 DisplayName = Su-27
 AddDisplayName = ja_JP, Su-27 ティルミナートル
 ItemID = 28731
-MaxHp = 220
+MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true

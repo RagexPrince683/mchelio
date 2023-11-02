@@ -1,7 +1,8 @@
-﻿DisplayName = Type95 Ro-GO
-AddDisplayName = ru_RU, Type95 Ro-GO
+﻿DisplayName = Type 95 Ha-Go
+AddDisplayName = en_US, Type 95 Ha-Go
+AddDisplayName = ru_RU, Type 95 Ro-Go
 ItemID = 191990
-MaxHp = 150
+MaxHp = 100
 Speed = 0.6
 Sound = prop_tank
 ThrottleUpDown = 10.0
@@ -81,11 +82,23 @@ ArmorDamageFactor = 1.00
 MaxFuel         = 1200
 FuelConsumption = 2.0
 
-BoundingBox =  0.00, 0.80, 1.41,  2.86, 1.61, 1.0
-BoundingBox =  0.00, 0.80, -1.15,  2.86, 1.61, 1.0
-BoundingBox =  0.16, 2.00, 0.30,  1.21, 0.85, 1.0
+;front lower plate 12
 
-BoundingBox =  0.00, 0.80, -1.33, 2.58, 1.61, 2.0
+;upper front plate 23
+
+;left side plate 12
+
+;where the little angles are is gonna be 35 because angles
+
+;rest is 12
+
+;turret is 30
+
+;side is 12
+
+;rear is 10
+
+;top is 6
 
 
 StepHeight = 1.5

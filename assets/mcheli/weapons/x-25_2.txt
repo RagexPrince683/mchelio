@@ -1,0 +1,17 @@
+DisplayName = X-25ML
+Type = ASMissile
+Power = 35
+Acceleration = 4.5
+Explosion = 5
+Flaming = true
+Sight = MoveSight
+Delay = 60
+Round = 4
+ReloadTime = 200
+Sound = s-13-rocket
+
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

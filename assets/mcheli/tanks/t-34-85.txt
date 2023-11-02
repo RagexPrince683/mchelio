@@ -4,7 +4,7 @@ ItemID = 191992
 MaxHp = 350
 Speed = 0.5
 Sound = prop_tank
-ThrottleUpDown = 10.0
+ThrottleUpDown = 2.0
 MobilityRoll = 0
 Gravity = -0.1
 GravityInWater = -0.1
@@ -74,19 +74,14 @@ MotionFactor = 0.9
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
 ArmorMinDamage = 10
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
-ArmorMaxDamage = 500
+;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
 ArmorDamageFactor = 1.00
 
 MaxFuel         = 1200
 FuelConsumption = 2.0
 
-BoundingBox =  0.00, 0.95, 1.76,  3.94, 1.91, 1.0
-BoundingBox =  0.00, 0.95, -2.21,  3.94, 1.91, 1.0
-BoundingBox =  0.00, 2.50, 1.60,  1.78, 0.98, 1.0
-BoundingBox =  0.00, 2.35, -0.19,  2.28, 1.26, 1.0
-
-BoundingBox =  0.00, 0.94, -2.55,  3.46, 1.90, 2.0
+Boundingbox = 0.0, 1.0, 0.0, 1.0, 1.0
 
 
 StepHeight = 1.5
