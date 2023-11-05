@@ -1,11 +1,11 @@
 ﻿DisplayName = Bf.109
 AddDisplayName = ru_RU, Bf.109
 ItemID = 30063
-MaxHp = 140
+MaxHp = 100
 Speed = 1
 Sound = prop_fighter
 onGroundPitch = 16
-ThrottleUpDown = 0.9
+ThrottleUpDown = 0.3
 MaxFuel         = 1200
 FuelConsumption = 1.0
 ThrottleUpDownOnEntity = 2.0
@@ -35,6 +35,18 @@ AddWeapon = mg151_20,-2.54, 1.55, 0.56,   3.0, 0.0
 
 AddWeapon = mk108, 0.00,  2.14, 3.03
 
-BoundingBox =  0.00, 2.30, -1.63,  2.0, 1.8
+BoundingBox =  0.00, 2.10, 1.63,  1.4, 1.4
 BoundingBox = -2.92, 1.78, -1.23,  2.0, 0.6
 BoundingBox =  2.92, 1.78, -1.23,  2.0, 0.6
+BoundingBox = -1.12, 1.78, -1.23,  2.0, 0.6
+BoundingBox =  1.12, 1.78, -1.23,  2.0, 0.6
+
+BoundingBox =  0.00, 2.10, -2.83,  1.4, 1.4
+BoundingBox =  0.00, 2.50, -4.13,  1.4, 1.4
+BoundingBox =  0.00, 2.50, -5.33,  1.0, 1.0
+BoundingBox =  0.00, 2.60, -6.33,  1.0, 1.0
+BoundingBox =  0.00, 2.70, -7.33,  1.0, 1.0
+BoundingBox =  0.00, 2.90, -8.33,  1.0, 1.0
+BoundingBox =  0.00, 3.20, -8.8,  0.5, 1.5
+BoundingBox =  0.00, 3.20, -8.4,  0.5, 1.5
+BoundingBox =  0.00, 3.20, -7.9,  0.5, 1.5
