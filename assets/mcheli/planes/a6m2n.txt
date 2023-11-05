@@ -1,4 +1,5 @@
 ﻿DisplayName = A6M2-N Rufe
+AddDisplayName = en_US, A6M2-N
 AddDisplayName = ru_RU, A6M2-N Rufe
 ItemID = 30005
 MaxHp = 100
@@ -9,7 +10,9 @@ ThrottleUpDown = 0.3
 MaxFuel         = 1200
 FuelConsumption = 1.0
 
-UnmountPosition = 3.0, 1.0, -2.0
+EnableBack = true
+
+UnmountPosition = 0.0,  2.4, 0.0
 
 EntityWidth  = 0.8
 EntityHeight = 0.8

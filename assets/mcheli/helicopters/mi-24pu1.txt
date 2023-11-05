@@ -1,4 +1,5 @@
-DisplayName = Mi-24Пу1
+DisplayName = Mi-24
+AddDisplayName = en_US, Mi-24
 AddDisplayName = ja_JP, Mi-24VP ハインド
 ItemID = 28809
 MaxHp = 200
@@ -29,6 +30,8 @@ AddSeat = -0.27,  1.08, -0.59
 AddSeat = -0.27,  1.08,  0.08
 AddSeat =  0.25,  0.87,  1.10
 AddSeat = -0.25,  0.87,  1.10
+
+unmountposition = 0.00,  1.90,  3.73
 
 AddPartLG =  0.00,  0.60,  4.00,  1, 0, 0, 43
 

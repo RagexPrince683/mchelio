@@ -1,12 +1,12 @@
 ﻿DisplayName = MiG-3
 AddDisplayName = ru_RU, MiG-3
 ItemID = 30020
-MaxHp = 130
+MaxHp = 100
 Speed = 0.95
-Float = flase
+Float = false
 Sound = prop_fighter
 onGroundPitch = 15
-ThrottleUpDown = 0.8
+ThrottleUpDown = 0.3
 MaxFuel         = 1200
 FuelConsumption = 1.0
 ThirdPersonDist = 12
@@ -17,6 +17,8 @@ Category = W.F
 HUD = plane_wwii
 
 AddSeat = 0.0,  1.65, -1.17
+unmountposition = 0.0,  1.95, -1.17
+enableback = true
 
 AddPartSlideCanopy = 0, 0.00, -0.8
 

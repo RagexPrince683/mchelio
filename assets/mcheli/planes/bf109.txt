@@ -1,4 +1,5 @@
 ﻿DisplayName = Bf.109
+AddDisplayName = en_US, BF-109
 AddDisplayName = ru_RU, Bf.109
 ItemID = 30063
 MaxHp = 100
@@ -17,6 +18,10 @@ HUD = plane_wwii
 
 ;AddSeat =  X, Y, Z
 AddSeat = 0.0,  1.90, -1.87
+
+unmountposition = 0.0,  1.90, -1.87
+
+enableback = true
 
 AddPartCanopy = -0.49, 2.77, -1.66, 0,0,1,75
 
