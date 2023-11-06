@@ -18,6 +18,8 @@ Category = M.F
 
 HUD = su25
 
+enableback = true
+
 AddTexture = su27b-ru_2
 AddTexture = su27b-ru_3
 AddTexture = su27b-ru_4
@@ -30,6 +32,8 @@ AddTexture = su27b-idn
 AddTexture = su27b-ua
 
 AddSeat = 0.0, 2.2757, 2.8290
+
+unmountposition = 0.0, 1.9757, 2.8290
 
 AddPartLG    =  0.0,    2.0280,  0.2609, -1, 0,   0, 110
 AddPartLG    =  0.0,    2.1071, -1.2156, -1, 0,   0, 60
@@ -131,3 +135,5 @@ BoundingBox =  3.9, 1.8, -11.5,  2.0, 0.3
 
 BoundingBox = -1.3, 1.8, -10.5,  1.3, 1.3, 1.5
 BoundingBox =  1.3, 1.8, -10.5,  1.3, 1.3, 1.5
+
+DamageFactor = 0.8

@@ -10,6 +10,7 @@ ThrottleUpDown = 0.3
 MaxFuel         = 1200
 FuelConsumption = 1.0
 ThirdPersonDist = 12
+DamageFactor = 1.0
 
 ; W = WWII.  F = Fighter(戦闘機)
 Category = W.F
@@ -41,14 +42,18 @@ AddWeapon = ,   0.00, 1.52, 4.41,  0.0, 0.0
 
 AddRecipe = " G ",  "IBI",  "IRI",  B, Iron_Block,  I, Iron_Ingot, R,  Dye,1,  G, Glass,
 
-BoundingBox =  0.00,  1.99,  0.00,  1.5, 1.5
-BoundingBox =  0.00,  1.99,  3.13,  1.5, 1.5
-BoundingBox =  0.00,  1.99, -3.86,  1.5, 1.5
+BoundingBox =  0.00,  1.99,  0.00,  1.2, 1.2
+BoundingBox =  0.00,  1.99,  1.13,  1.2, 1.2
+BoundingBox =  0.00,  1.99,  2.13,  1.2, 1.2
+BoundingBox =  0.00,  1.99,  3.13,  1.2, 1.2
+BoundingBox =  0.00,  1.99,  4.13,  1.0, 1.0, 1.5
+BoundingBox =  0.00,  1.99, -2.66,  1.2, 1.2
+BoundingBox =  0.00,  1.99, -3.86,  1.2, 1.2
 
 BoundingBox =  2.39,  1.39,  0.47,  2.8, 0.3
 BoundingBox = -2.39,  1.39,  0.47,  2.8, 0.3
-BoundingBox =  5.91,  1.72,  0.59,  1.5, 0.2
-BoundingBox = -5.91,  1.72,  0.59,  1.5, 0.2
+BoundingBox =  4.91,  1.72,  0.59,  2.5, 0.2
+BoundingBox = -4.91,  1.72,  0.59,  2.5, 0.2
 
 BoundingBox =  1.17,  2.11, -5.22,  1.5, 0.2
 BoundingBox = -1.17,  2.11, -5.22,  1.5, 0.2

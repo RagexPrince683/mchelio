@@ -22,6 +22,8 @@ ParticlesScale = 0.7
 AddSeat = 0.00,2.60,  0.50
 Sound = mig21_s
 
+DamageFactor = 0.8
+
 AddFixedSearchLight=-0.002,3.65,1.35,0xFF084C9E,0xFF084C9E,0.01,0.3,1,0
 
 AddPartCanopy =0,3.59,1.97,1,0,0,60
