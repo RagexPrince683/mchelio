@@ -1,4 +1,5 @@
 ﻿DisplayName = MiG-3
+AddDisplayName = en_US, Mikoyan-Gurevich MiG-3
 AddDisplayName = ru_RU, MiG-3
 ItemID = 30020
 MaxHp = 100
@@ -10,7 +11,7 @@ ThrottleUpDown = 0.3
 MaxFuel         = 1200
 FuelConsumption = 1.0
 ThirdPersonDist = 12
-DamageFactor = 1.0
+DamageFactor = 0.8
 
 ; W = WWII.  F = Fighter(戦闘機)
 Category = W.F
@@ -57,3 +58,9 @@ BoundingBox = -4.91,  1.72,  0.59,  2.5, 0.2
 
 BoundingBox =  1.17,  2.11, -5.22,  1.5, 0.2
 BoundingBox = -1.17,  2.11, -5.22,  1.5, 0.2
+
+BoundingBox =  0.00,  2.95, -5.86,  0.5, 2.2
+BoundingBox =  0.00,  2.85, -6.36,  0.5, 1.8
+BoundingBox =  0.00,  2.85, -5.36,  0.5, 1.8
+BoundingBox =  0.00,  2.65, -4.86,  0.5, 1.8
+BoundingBox =  0.00,  2.35, -4.36,  0.5, 1.8
