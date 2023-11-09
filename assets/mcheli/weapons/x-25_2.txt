@@ -1,6 +1,6 @@
 DisplayName = X-25ML
-Type = ASMissile
-Power = 35
+Type = ATMissile
+Power = 500
 Acceleration = 4.5
 Explosion = 5
 Flaming = true
@@ -9,6 +9,12 @@ Delay = 60
 Round = 4
 ReloadTime = 200
 Sound = s-13-rocket
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 2.5
+DamageFactor = vehicle 2.5
+DamageFactor = heli, 2.5
+DamageFactor = player, 20.0
 
 MaxAmmo = 8
 SuppliedNum = 4

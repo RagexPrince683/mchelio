@@ -15,7 +15,7 @@ MaxFuel         = 80000
 FuelConsumption = 3.0
 ThirdPersonDist = 40
 
-UnmountPosition = 3.0, 2.0, -4.0
+UnmountPosition = 0.36,  2.90, 0.00
 
 ; W = WWII.  A = Attacker(攻撃機)
 Category = W.A
@@ -68,17 +68,65 @@ AddWeapon = kh22tu,       0.00,  0.00,  -6.0, 0, 90, true,  3
 
 EnableBack = True
 
-BoundingBox =  0.0, 2.6,  -1.6,  4.0, 4.0
-BoundingBox =  0.0, 2.6,  -6.6,  4.0, 4.0, 0.75
-BoundingBox =  0.0, 2.6, -11.6,  4.0, 4.0, 0.75
-BoundingBox =  0.0, 2.6, -16.6,  4.0, 4.0, 0.75
-BoundingBox =  0.0, 3.0, -20.6,  3.0, 3.0
-BoundingBox =  0.0, 3.0, -23.6,  2.0, 2.0
-BoundingBox =  0.0, 3.0, -26.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -1.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -3.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -5.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -7.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2, -10.6,  4.0, 2.0, 0.75
+BoundingBox =  0.0, 3.2,  -12.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -14.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -16.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -18.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -20.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -22.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -24.6,  2.0, 2.0
+BoundingBox =  0.0, 3.7,  -26.6,  2.0, 2.5
+BoundingBox =  0.0, 4.5,  -28.6,  2.0, 3.8
+BoundingBox =  0.0, 6.5,  -30.6,  2.0, 5.7
+BoundingBox =  0.0, 6.8,  -32,  1.0, 7.7
 
-BoundingBox =  -5.0, 2.2, -11.6,  5.0, 1.0, 1.25
-BoundingBox = -10.0, 3.0, -11.6,  5.0, 1.0, 1.25
-BoundingBox = -15.0, 3.0, -12.0,  4.4, 1.0, 0.75
-BoundingBox =   5.0, 2.2, -11.6,  5.0, 1.0, 1.25
-BoundingBox =  10.0, 3.0, -11.6,  5.0, 1.0, 0.75
-BoundingBox =  15.0, 3.0, -12.0,  4.4, 1.0, 1.25
+BoundingBox =  2.0, 4.5,  -31,  3.0, 0.3
+BoundingBox =  -2.0, 4.5,  -31,  3.0, 0.3
+
+BoundingBox =  3.5, 4.3,  -32.5,  3.0, 0.3
+BoundingBox =  -3.5, 4.3,  -32.5,  3.0, 0.3
+
+
+BoundingBox =  -4.4, 3.2, -12.6,  5.0, 1.0, 1.25
+BoundingBox =   4.4, 3.2, -12.6,  5.0, 1.0, 1.25
+
+
+
+BoundingBox = -9.0, 3.0, -14.6,  5.0, 1.0, 1.25
+BoundingBox =  9.0, 3.0, -14.6,  5.0, 1.0, 1.25
+
+
+BoundingBox = -13.5, 3.0, -16.0,  4.4, 1.0, 0.75
+BoundingBox =  13.5, 3.0, -16.0,  4.4, 1.0, 0.75
+
+
+BoundingBox = 5.5, 2.70, -9.5, 1.0, 1.0, 1.5
+BoundingBox = -5.5, 2.70, -9.5, 1.0, 1.0, 1.5
+
+BoundingBox = 5.5, 2.70, -8.5, 1.0, 1.0, 1.5
+BoundingBox = -5.5, 2.70, -8.5, 1.0, 1.0, 1.5
+
+BoundingBox = 5.5, 2.70, -7.5, 1.0, 1.0, 1.5
+BoundingBox = -5.5, 2.70, -7.5, 1.0, 1.0, 1.5
+
+BoundingBox = 5.5, 2.70, -6.5, 1.0, 1.0, 1.5
+BoundingBox = -5.5, 2.70, -6.5, 1.0, 1.0, 1.5
+
+
+
+BoundingBox = 10.50, 2.70, -12.50, 1.0, 1.0, 1.5
+BoundingBox = -10.50, 2.70, -12.50, 1.0, 1.0, 1.5
+
+BoundingBox = 10.50, 2.70, -11.50, 1.0, 1.0, 1.5
+BoundingBox = -10.50, 2.70, -11.50, 1.0, 1.0, 1.5
+
+BoundingBox = 10.50, 2.70, -10.50, 1.0, 1.0, 1.5
+BoundingBox = -10.50, 2.70, -10.50, 1.0, 1.0, 1.5
+
+BoundingBox = 10.50, 2.70, -9.50, 1.0, 1.0, 1.5
+BoundingBox = -10.50, 2.70, -9.50, 1.0, 1.0, 1.5

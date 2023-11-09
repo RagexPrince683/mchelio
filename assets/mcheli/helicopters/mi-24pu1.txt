@@ -53,11 +53,11 @@ AddPartHatch = -1.02,  2.07,  1.83,  0, 0,-1, 85
 AddPartHatch = -0.94,  0.75,  1.83,  0, 0, 1, 130
 
 
-AddWeapon = 9m114,  4.25, -2.47,  -0.37,  1, 0,  true, 2
-AddWeapon = 9m114,  3.97, -2.47,  -0.37,  1, 0,  true, 2
+AddWeapon = 9m114mi24,  4.25, 1.14,  -0.37,  1, 0,  true, 2
+AddWeapon = 9m114mi24,  3.97, 1.14,  -0.37,  1, 0,  true, 2
 
-AddWeapon = 9m114, -4.25, -2.47,  -0.37, -1, 0,  true, 2
-AddWeapon = 9m114, -3.97, -2.47,  -0.37, -1, 0,  true, 2
+AddWeapon = 9m114mi24, -4.25, 1.14,  -0.37, -1, 0,  true, 2
+AddWeapon = 9m114mi24, -3.97, 1.14,  -0.37, -1, 0,  true, 2
 
 AddWeapon = s-8_hm,  2.92,  1.14, -2.32,  1, 0
 AddWeapon = s-8_hm,  2.02,  1.14, -2.32,  1, 0
