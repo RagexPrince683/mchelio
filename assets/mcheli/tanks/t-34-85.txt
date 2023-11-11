@@ -144,6 +144,8 @@ Boundingbox = 0.0, 2.3, 0.61, 1.8, 1.3, 0.18
 Boundingbox = 0.0, 1.34, 1.1, 2.0, 1.0, 1
 Boundingbox = 0.0, 1.34, -1.5, 2.0, 1.0, 1
 
+AddRecipe = " X ",  "ID ",  "IIF",   X, iron_block, I, iron_ingot, D, dispenser, F, furnace
+
 
 
 StepHeight = 1.5

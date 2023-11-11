@@ -130,4 +130,4 @@ BoundingBox = 0.0, 3.0, -2.06, 1.0, 1.0, 5
 
 unmountposition = -0.62, 1.5, 1.0
 
-AddRecipe = "  D",  "IKI",  "III",   D, dispenser, I, iron_ingot, K, mcheli:sdkfz234_2
+AddRecipe = "  D",  "IKI",  "III",   D, dispenser, I, iron_ingot, K, redstone

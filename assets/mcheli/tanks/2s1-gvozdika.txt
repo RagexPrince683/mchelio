@@ -89,6 +89,8 @@ BoundingBox = 0.00, 1.5, -1.3733, 1.5, 1.0
 
 unmountposition = 0.00, 1.5, -1.3733
 
+AddRecipe = " I ",  "IXI",  "III",  X, iron_block,  I, iron_ingot
+
 
 EntityWidth  = 0.8
 EntityHeight = 0.8

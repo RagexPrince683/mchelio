@@ -1,4 +1,4 @@
-DisplayName = Tsar Bomba [100MT]
+DisplayName = Tsar Bomba [50MT]
 Type = Bomb
 Power = 50
 Acceleration = 0.01
@@ -11,7 +11,8 @@ Delay = 10
 Sound = bomb_snd
 ModelBullet = tsarbomba
 ;ModelBomblet = 0_none
-nukeyield = 500
+nukeyield = 300
+;ivy mike was only 10.4MT
 
 ReloadTime = 150
 ;Bomblet = 90
@@ -25,5 +26,5 @@ SuppliedNum = 1
 
 Item = 1, hbm:tile.nuke_tsar
 Item = 1, hbm:item.man_core
-;Item = 4, hbm:item.explosive_lenses
-Item = 2, hbm:item.tsar_core
+Item = 4, hbm:item.explosive_lenses
+;Item = 2, hbm:item.tsar_core

@@ -124,6 +124,8 @@ BoundingBox = 0.0, 1.0, 2.2, 2.15, 0.8, 0.4
 ;rear 20
 BoundingBox = 0.0, 1.0, -2.4, 2.1, 0.8, 0.5
 
+AddRecipe = " X ",  "ID ",  "IIF",   X, iron_block, I, iron_ingot, D, dispenser, F, furnace
+
 
 
 StepHeight = 1.5

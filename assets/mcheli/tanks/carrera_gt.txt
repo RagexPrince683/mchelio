@@ -42,7 +42,7 @@ AddPartHatch = 0, 1.2335, -1.026, -1, 0, 0, -60
 MaxFuel         = 500
 FuelConsumption = 0.6
 
-AddRecipe = " G ",  "I I",  "IIR",   G, glass, I, iron_ingot, R, redstone
+AddRecipe = " G ",  "I I",  "IIR",   G, glass, I, gold_ingot, R, diamond
 
 ;BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
 ;BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1

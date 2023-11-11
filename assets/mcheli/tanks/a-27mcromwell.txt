@@ -144,6 +144,8 @@ BoundingBox = 0.0, 0.47, 2.0, 2.5, 0.4, 0.16
 BoundingBox =  0.0, 1.25, -3.7,  2.5, 1.1, 0.44
 BoundingBox =  0.0, 0.8, -3.7,  2.5, 1.1, 0.44
 
+AddRecipe = "DGX",  "IXI",  "CRX",   X, iron_block,  G, glass, I, iron_ingot,  D,dispenser,  R,redstone_block,  C,cobblestone
+
 
 
 unmountposition = 0.00, 1.5957, -0.2821

@@ -1,6 +1,6 @@
-DisplayName = Blowning M1919 7.7mm
+DisplayName = Browning M1919 7.7mm Machine Gun
 Type = MachineGun1
-Power = 4
+Power = 13
 Acceleration = 7.0
 Explosion = 0
 Flaming = false
@@ -12,10 +12,20 @@ HeatCount = 1
 MaxHeatCount = 150
 SoundPitch = 1.0
 Particle = explode
-Gravity = -0.04
+Gravity = -0.005
 Sound = 5mm_gun_snd
 SoundPitch = 1 
 SoundPitchRandom = 0.1
+
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
+
+SoundVolume = 15
+
 
 AddMuzzleFlash      =  1.4,      0.15,        2,  170,254,159,84
 AddMuzzleFlash      =  1.3,      0.10,        1,  150,254,219,184

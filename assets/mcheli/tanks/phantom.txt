@@ -83,7 +83,7 @@ AddFixedSearchLight =  -0.8426, 0.588,-3.7125,   0xFFFF0000,   0x10FF0000,    -0
 
 ;-0.1348
 
-AddRecipe = "GGG",  "III",  "RIR",   G, glass, I, iron_ingot, R, redstone
+AddRecipe = "GGG",  "III",  "RIR",   G, glass, I, gold_ingot, R, diamond
 
 AddPartSteeringWheel =  -0.61061,  0.6807,  0.40854,  0.0, 1.0, -5.1476,   130
 

@@ -37,3 +37,5 @@ AddWeapon = 35_6cm_91,  -2.56, 2.07, 2.91,   0.0, -1.0
 ;;AddWeapon = 35_6cm_3,   2.56, 2.07, 2.91,   0.0, -1.0
 ;;AddWeapon = 35_6cm_3,  -2.56, 2.07, 2.91,   0.0, -1.0
 
+AddRecipe = "ZXZ",  "DRD",  "ZXR",  X, iron_block, R, iron_ingot, Z, iron_block, D, dispenser
+

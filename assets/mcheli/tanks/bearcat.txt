@@ -102,4 +102,4 @@ Regeneration = true
 ;ArmorMaxDamage = 50
 UnmountPosition = 0.65, 1.50, 1.16
 
-AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_block, R, redstone

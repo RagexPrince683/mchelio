@@ -148,7 +148,7 @@ HideEntity = true
 RideRack = c5, 1
 RideRack = c5, 2
 
-AddRecipe = "III",  " I ",  "III",   I, iron_ingot
+AddRecipe = "III",  " I ",  "IDI",   I, iron_ingot, D, dispenser
 
 
 

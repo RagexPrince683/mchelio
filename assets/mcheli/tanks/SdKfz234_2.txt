@@ -111,4 +111,4 @@ unmountposition = 0.0, 1.9,  0.0
 
 
 
-AddRecipe = "   ",  "ID ",  "XXF",   I, iron_ingot, D, dispenser, X, iron_block, F, furnace
+AddRecipe = "   ",  "ID ",  "XIF",   I, iron_ingot, D, dispenser, X, iron_block, F, furnace

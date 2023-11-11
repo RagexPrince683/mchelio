@@ -132,4 +132,4 @@ FuelConsumption = 2.0
 
 StepHeight = 1.2
 
-AddRecipe = " I ",  "X X",  "III",  X, iron_block,  I, iron_ingot
+AddRecipe = " I ",  "X I",  "III",  X, iron_block,  I, iron_ingot

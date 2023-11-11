@@ -1,5 +1,5 @@
 ﻿DisplayName = Z9-G
-AddDisplayName = en_US, Z9-G
+AddDisplayName = en_US, Harbin Z-9G
 AddDisplayName = ja_JP, Z 9-G
 ItemID = 28883
 MaxHp = 100
@@ -123,5 +123,6 @@ BoundingBox = 0.0, 5.5, -4.60, 1.0, 1.5, 1.5
 
 unmountposition = 0.8726,  1.50,  -0.20
 
+AddRecipe = " X ",  "X X",  "IXI",  X, iron_block, I, iron_ingot
 
 DamageFactor = 0.8

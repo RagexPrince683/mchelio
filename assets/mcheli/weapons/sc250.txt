@@ -1,10 +1,10 @@
-DisplayName = SC250 [Bomb]
+DisplayName = SC250
 Type = Bomb
-Power = 50
+Power = 500
 Acceleration = 0.1
-Explosion = 4
-ExplosionBlock = 2
-ExplosionInWater = 0
+Explosion = 24
+ExplosionBlock = 4
+;ExplosionInWater = 0
 Flaming = false
 Sight = None
 Delay = 5

@@ -71,6 +71,10 @@ BoundingBox = 0.0, 2.02, -6.19, 1.0, 1.0
 
 UnmountPosition = -0.40,  1.50,  1.99
 
+
+AddRecipe = "DG ",  "IXI",  "III",  X, iron_block, D, dye,4, G, glass, I, iron_ingot
+AddRecipe = "MD ", "   ", "   ", D, dye,4, M, mcheli:bk117
+
 EntityWidth  = 0.9
 EntityHeight = 0.9
 

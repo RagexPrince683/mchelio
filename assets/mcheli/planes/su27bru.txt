@@ -11,7 +11,7 @@ EnableSeaSurfaceParticle = true
 MaxFuel         = 1000
 FuelConsumption = 1.0
 ThirdPersonDist = 20
-Sound = su27b_engine
+Sound = sutwentyseven
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
@@ -135,5 +135,8 @@ BoundingBox =  3.9, 1.8, -11.5,  2.0, 0.3
 
 BoundingBox = -1.3, 1.8, -10.5,  1.3, 1.3, 1.5
 BoundingBox =  1.3, 1.8, -10.5,  1.3, 1.3, 1.5
+
+
+AddRecipe = " Y ",  "XXX",  "XDX",  X, iron_block, Y, glass, D, diamond
 
 DamageFactor = 0.8

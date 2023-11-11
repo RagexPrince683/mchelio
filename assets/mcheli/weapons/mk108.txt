@@ -1,4 +1,4 @@
-DisplayName = MK108 30mm Cannon
+DisplayName = 30mm MK108 cannon
 Type = MachineGun1
 Power = 25
 Acceleration = 4.5
@@ -13,6 +13,8 @@ Particle = largeexplode
 Round = 10
 ReloadTime = 50
 
+
+
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0
@@ -22,6 +24,8 @@ DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
+
+Gravity = -0.005
 
 
 MaxAmmo = 50

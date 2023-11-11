@@ -82,7 +82,7 @@ RideRack = c5, 2
 
 EnableBack = true
 
-AddRecipe = "III",  " I ",  "III",   I, iron_ingot
+AddRecipe = " I ",  " I ",  "III",   I, iron_ingot
 
 BoundingBox = 0.1136, 2.2, 0.1832, 1.0, 1.0, 1.0
 

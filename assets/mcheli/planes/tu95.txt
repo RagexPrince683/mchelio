@@ -67,6 +67,7 @@ AddRecipe = "ITI",  "TTT",  "ITI",  I,iron_block, T,tnt
 ;bloat
 AddWeapon = 250kg,       0.00,  1.00,  -6.0, 0, 90, true,  3
 AddWeapon = tsarbomba,       0.00,  1.00,  -6.0, 0, 90, true,  1
+AddWeapon = tsarbombahalf,       0.00,  1.00,  -6.0, 0, 90, true,  1
 AddWeapon = kh20,       0.00,  0.00,  -6.0, 0, 90, true,  3
 
 EnableBack = True

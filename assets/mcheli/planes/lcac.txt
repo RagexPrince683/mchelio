@@ -3,9 +3,9 @@ AddDisplayName = en_US, Landing Craft Air Cushion (LCAC)
 AddDisplayName = ja_JP, LCACエアクッション艇
 ItemID = 30112
 MaxHp = 150
-Speed = 0.7
+Speed = 0.5
 Sound = vehicle_drive
-ThrottleUpDown = 10.0
+ThrottleUpDown = 0.9
 MinRotationPitch = 0
 MaxRotationPitch = 0
 MobilityRoll = 0
@@ -58,6 +58,9 @@ AddRack = impreza/S15/container,      -1.66,  3.20, -0.70,   0, 0, -2.5,   11,  
 AddRack = impreza/S15/container,       0.00,  3.00, -7.46,   0, 0, -2.5,   11,    100000,  0.0, -8.39
 
 ;レシピです。対応する大文字が素材を指定しています。上中下の順。
+
+
+AddRecipe = "III",  "AAA",  "ABP",   I, iron_ingot,  B, boat , A, anvil, P,piston
 
 EntityWidth  = 0.9
 EntityHeight = 0.9

@@ -1,13 +1,11 @@
-DisplayName = MG151/20 20mm
+DisplayName = 20mm MG 151 Cannon
 Type = MachineGun1
-Power = 21
-Acceleration = 4.0
+Power = 27
 Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
-HeatCount = 10
-MaxHeatCount = 100
+
 
 Acceleration = 7.5
 Piercing = 0
@@ -18,6 +16,12 @@ DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
+
+Gravity = -0.005
+
+HeatCount = 3
+MaxHeatCount = 60
+Sound = twentymil
 
 
 MaxAmmo = 200

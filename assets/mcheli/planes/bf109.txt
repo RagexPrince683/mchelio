@@ -1,5 +1,5 @@
 ﻿DisplayName = Bf.109
-AddDisplayName = en_US, BF-109
+AddDisplayName = en_US, Bf-109 G-6/R6
 AddDisplayName = ru_RU, Bf.109
 ItemID = 30063
 MaxHp = 100
@@ -66,3 +66,5 @@ BoundingBox =  -0.80, 3.20, -8.2,  0.8, 0.15
 
 BoundingBox =  1.20, 3.20, -8.2,  0.8, 0.15
 BoundingBox =  -1.20, 3.20, -8.2,  0.8, 0.15
+
+AddRecipe = " G ",  "IDI",  "I I",  I,iron_block, D,iron_ingot, P,paper, G,glass
