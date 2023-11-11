@@ -86,6 +86,7 @@
 "diesel": {"category": "master","sounds": ["diesel"]},
 "dieselman": {"category": "master","sounds": ["dieselman"]},
 "dive_alert": {"category": "master","sounds": ["dive_alert"]},
+"dmc": {"category": "master","sounds": ["dmc"]},
 "dp": {"category": "master","sounds": ["dp"]},
 "dromader": {"category": "master","sounds": ["dromader"]},
 "dshk": {"category": "master","sounds": ["dshk"]},

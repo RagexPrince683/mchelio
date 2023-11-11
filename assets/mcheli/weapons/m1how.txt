@@ -1,10 +1,10 @@
-DisplayName = M1 [HE]
+DisplayName = 105mm Howitzer M1 [HE]
 Type = MachineGun2
-Power = 108
+Power = 500
 ModelBullet = bullet105mm
 Acceleration = 4.7
-Explosion = 7
-ExplosionBlock = 6
+Explosion = 20
+ExplosionBlock = 5
 Sight = MoveSight
 ReloadTime = 80
 Round = 45
@@ -12,9 +12,17 @@ Delay = 80
 SoundPitch = 1.2
 SoundVolume = 16.0
 Accuracy = 1.2
-Gravity = -0.025
+Gravity = -0.06
 Sound = artillery_gun_snd
 Recoil = 1.5
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+SoundVolume = 15
+
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  7.1,      1.75,        6,  200,254,219,104

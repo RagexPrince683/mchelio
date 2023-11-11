@@ -4,7 +4,7 @@ AddDisplayName = en_US, BTR-82 APC
 ItemID = 30102
 MaxHp = 200
 Speed = 1.0
-Sound = apc_run
+Sound = turbobtr
 ThrottleUpDown = 5
 MobilityYawOnGround = 5.5
 MaxFuel         = 1000
@@ -25,6 +25,7 @@ DefaultFreelook = true
 MotionFactor = 0.9
 FlareType = 10
 ThirdPersonDist = 8
+CameraPosition = 0.0, 3.8, -0.0, true
 
 SubmergedDamageHeight = 3
 

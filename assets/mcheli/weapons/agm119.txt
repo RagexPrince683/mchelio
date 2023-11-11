@@ -6,7 +6,7 @@ Explosion = 20
 ExplosionBlock = 10
 Flaming = true
 Sight = MoveSight
-Delay = 35
+Delay = 10
 Sound = missile_2_snd
 
 DamageFactor = tank, 2.0

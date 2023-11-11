@@ -1,10 +1,10 @@
-DisplayName = 3OF45[HE]
+DisplayName = 2S19 MSTA-S 152mm 3OF45 [HE]
 Type = MachineGun2
-Power = 530
+Power = 500
 ModelBullet = mstabhe
 Acceleration = 8.0
 Explosion = 10
-ExplosionBlock = 7
+ExplosionBlock = 5
 Flaming = false
 Sight = None
 Delay = 160
@@ -17,6 +17,16 @@ Gravity = -0.10
 Group = MainGun
 Recoil = 2.5
 DisplayMortarDistance = true
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+SoundVolume = 15
+Group = MainGun
+
 
 
 RecoilBufCount = 40, 5

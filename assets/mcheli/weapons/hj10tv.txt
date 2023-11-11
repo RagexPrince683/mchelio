@@ -5,7 +5,7 @@ Acceleration = 2.0
 Explosion = 6
 Flaming = true
 Sight = MoveSight
-Delay = 35
+Delay = 10
 ModeNum = 2
 ModelBullet = HJ10
 Sound = missile_1_snd
@@ -18,7 +18,7 @@ DamageFactor = heli, 3.0
 ;DEBUG:Manual control only
 FixMode = 2
 
-Delay = 35
+Delay = 10
 ReloadTime = 100
 ;Group = MainGun
 ;Acceleration = 7.0

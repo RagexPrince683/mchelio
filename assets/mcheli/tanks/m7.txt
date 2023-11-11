@@ -19,7 +19,7 @@ DefaultFreelook = true
 ThirdPersonDist = 12
 HideEntity = false
 
-HUD = ww2tank_hud, ww2tank_hud
+HUD = mbt_hud, ww2tank_hud
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
@@ -67,7 +67,8 @@ AddTrackRoller = -1.4039, 0.7388, -3.9997
 
 AddWeapon = m1, -0.2168, 2.2811, 2.8361,   0.0, 0.0, true, 1,0,-0,0, -20,10
 AddWeapon = m67, -0.2168, 2.2811, 2.8361,   0.0, 0.0, true, 1,0,-0,0, -20,10
-AddPartWeapon    = m1 / m67, false, false, false, -0.2168, 2.0120, 0.6927
+AddWeapon = m60chem, -0.2168, 2.2811, 2.8361,   0.0, 0.0, true, 1,0,-0,0, -20,10
+AddPartWeapon    = m1 / m67 / m60chem, false, false, false, -0.2168, 2.0120, 0.6927
 AddPartWeaponChild = false, true, -0.2168, 2.0120, 0.6927, 0.5
 
 AddWeapon = m2_mbt, -1.3179, 3.7699, 1.8030,   0.0, 0.0, false, 2,0,-80,80, -20,10

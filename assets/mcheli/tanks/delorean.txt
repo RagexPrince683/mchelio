@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, デロリアン
 ItemID = 30026
 MaxHp = 200
 Speed = 1.3
-Sound = prop
+Sound = dmc
 ThrottleUpDown = 0.815
 ;;EnableVtol = true
 ;;VtolYaw = 1.0
@@ -15,7 +15,7 @@ FuelConsumption = 1.0
 Category = C
 
 PivotTurnThrottle = 0.1
-MobilityYawOnGround = 9.0
+MobilityYawOnGround = 7.2
 ;ThrottleUpDown = 0.91
 DamageFactor = 1.0
 MobilityRoll = 0

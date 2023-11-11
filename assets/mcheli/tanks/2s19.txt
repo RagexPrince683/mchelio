@@ -34,12 +34,12 @@ MotionFactor = 0.9
 AddGunnerSeat =  0.01,  0, 0,   0.01,  4,   0.00,  false, -90, 90, true
 ;m107 bb
 HUD = mbt_hud,vehicle
-AddPartWeapon =4OF27, false, true, false,  0.00, 0,0,0
+AddPartWeapon =4of27, false, true, false,  0.00, 0,0,0
 AddPartWeaponChild = false, true, 0.41, 2.05, 1.39, 0
 AddPartWeaponChild = false, true, 0.41, 2.05, 1.39, 0.5
 ;AddTurretWeapon =4OF27, 0, 2.05, 7.8,  0.0, 0.0, true,1, 0,-360,180, -80, 7
 
-AddTurretWeapon =4OF27, -0.0285, 2.0529, 7.8027,  0.0, 0.0, true,1, 0,-360,180, -68, 4
+AddTurretWeapon =4of27, -0.0285, 2.0529, 7.8027,  0.0, 0.0, true,1, 0,-360,180, -68, 4
 ; AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 駐退距離
 
 

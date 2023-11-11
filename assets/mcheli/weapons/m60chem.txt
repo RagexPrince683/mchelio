@@ -1,10 +1,10 @@
-DisplayName = M1 [HE] 
+DisplayName = M60 [Chemical] 
 Type = MachineGun2
-Power = 500
+Power = 10
 ModelBullet = bullet105mm
-Acceleration = 4.7
-Explosion = 20
-ExplosionBlock = 5
+Acceleration = 4.5
+Explosion = 2
+ExplosionBlock = 1
 Sight = MoveSight
 ReloadTime = 80
 Round = 1
@@ -15,19 +15,19 @@ Accuracy = 1.2
 Gravity = -0.06
 Sound = artillery_gun_snd
 Recoil = 1.5
+;Piercing = 3
 
-DamageFactor = tank, 2.0
-DamageFactor = plane, 4.5
-DamageFactor = vehicle 4.5
-DamageFactor = heli, 4.5
-DamageFactor = player, 20.0
-SoundVolume = 15
+chemyield = 15
 
 group = maingun
 
 
-DisplayMortarDistance = true
-FixCameraPitch = true
+;;DamageFactor = tank, 1.5
+;;DamageFactor = plane, 2.5
+;;DamageFactor = vehicle 2.5
+;;DamageFactor = heli, 2.5
+;;DamageFactor = player, 20.0
+SoundVolume = 15
 
 
 
@@ -40,7 +40,8 @@ DisplayMortarDistance = true
 
 RecoilBufCount = 40, 5
 
-MaxAmmo = 33
-SuppliedNum = 33
+MaxAmmo = 10
+SuppliedNum = 10
 Item =  4, iron_ingot
 Item =  6, gunpowder
+Item = 1, hbm:item.powder_poison

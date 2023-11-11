@@ -85,8 +85,8 @@ AddPartWeapon    = m2690mm_gun_m3,      false, true, false,  0.00,  1.70, 0.7542
 AddPartWeaponChild = false, true, 0.00, 2.314, 1.908,
 AddPartWeaponChild = false, true, 0.00, 2.314, 1.908, 0.5
 
-AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
-AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
+;;AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
+;;AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
 
 ;BoundingBox =  1.15,  0.87,  2.25,  2.2,  2.0, 0.9
 ;BoundingBox = -1.15,  0.87,  2.25,  2.2,  2.0, 0.9

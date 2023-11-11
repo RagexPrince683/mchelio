@@ -1,4 +1,4 @@
-DisplayName = KPVT 14.5mm Cannon [HEI-T]
+DisplayName = 14.5mm KPVT Cannon [HEI-T]
 Type = MachineGun1
 Power = 8
 Acceleration = 7.5
@@ -11,10 +11,10 @@ ReloadTime = 120
 Round = 500
 SoundVolume = 15
 SoundPitch = 1.0
-Sound = cannon_apc_snd
+Sound = btreightymain
 Accuracy = 1.5
 ModeNum = 1
-Gravity = -0.005
+Gravity = -0.001
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
@@ -23,8 +23,8 @@ DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 
 
-HeatCount = 4
-MaxHeatCount = 40
+HeatCount = 5
+MaxHeatCount = 250
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
@@ -38,7 +38,7 @@ AddMuzzleFlashSmoke =  6.6,  3,   1.0,  0.5, 95,  180,220,217,214
 
 Recoil = 0.3
 
-MaxAmmo = 500
+MaxAmmo = 250
 SuppliedNum = 250
 Item =  2, iron_ingot
 Item =  2, gunpowder

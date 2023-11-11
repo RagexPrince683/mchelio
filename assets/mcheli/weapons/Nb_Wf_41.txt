@@ -8,15 +8,20 @@ Explosion = 3
 Sound = rocket_snd
 Flaming = false
 Sight = MoveSight
-Delay = 10
+Delay = 6
 Round = 10
 ReloadTime = 600
 Gravity = -0.012
-GravityInWater = 0.1
+;GravityInWater = 0.1
 
-DamageFactor = tank, 3.0
-DamageFactor = plane, 3.0
-DamageFactor = helicopter, 3.0
+group = maingun
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 ; Particle test
 ;TrajectoryParticle = heart

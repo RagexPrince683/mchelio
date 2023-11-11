@@ -19,7 +19,7 @@ ThirdPersonDist = 8
 AddTexture = Panzerwerfer1
 
 AddSeat = -0.62, 1.5, 1.0
-AddSeat =  0.62, 1.5, 1.0
+AddSeat =  0.62, 1.0, 1.0
 CameraRotationSpeed = 25
 
 EntityWidth  = 0.9
@@ -86,31 +86,31 @@ MaxRotationPitch =  0
 AddPartWeapon = none, false, true, false, 0.0,  2.0, -2.0644
 AddPartWeaponChild = false, true, 0.0,  2.9589, -2.0644
 
-AddPartWeaponMissile = Nb_Wf_41,  false, true, true,   0.0,  2.9589, -2.0644
-AddPartWeaponMissile = Nb_Wf_41,  false, true, true,   0.0,  2.9589, -2.0644
-AddPartWeaponMissile = Nb_Wf_41,  false, true, true,   0.0,  2.9589, -2.0644
-AddPartWeaponMissile = Nb_Wf_41,  false, true, true,   0.0,  2.9589, -2.0644
-AddPartWeaponMissile = Nb_Wf_41,  false, true, true,   0.0,  2.9589, -2.0644
+AddPartWeaponMissile = nb_wf_41,  false, true, true,   0.0,  2.9589, -2.0644
+AddPartWeaponMissile = nb_wf_41,  false, true, true,   0.0,  2.9589, -2.0644
+AddPartWeaponMissile = nb_wf_41,  false, true, true,   0.0,  2.9589, -2.0644
+AddPartWeaponMissile = nb_wf_41,  false, true, true,   0.0,  2.9589, -2.0644
+AddPartWeaponMissile = nb_wf_41,  false, true, true,   0.0,  2.9589, -2.0644
 
-AddPartWeaponMissile = Nb_Wf_41,  false, true, true,   0.0,  2.9589, -2.0644
-AddPartWeaponMissile = Nb_Wf_41,  false, true, true,   0.0,  2.9589, -2.0644
-AddPartWeaponMissile = Nb_Wf_41,  false, true, true,   0.0,  2.9589, -2.0644
-AddPartWeaponMissile = Nb_Wf_41,  false, true, true,   0.0,  2.9589, -2.0644
-AddPartWeaponMissile = Nb_Wf_41,  false, true, true,   0.0,  2.9589, -2.0644
+AddPartWeaponMissile = nb_wf_41,  false, true, true,   0.0,  2.9589, -2.0644
+AddPartWeaponMissile = nb_wf_41,  false, true, true,   0.0,  2.9589, -2.0644
+AddPartWeaponMissile = nb_wf_41,  false, true, true,   0.0,  2.9589, -2.0644
+AddPartWeaponMissile = nb_wf_41,  false, true, true,   0.0,  2.9589, -2.0644
+AddPartWeaponMissile = nb_wf_41,  false, true, true,   0.0,  2.9589, -2.0644
 
 AddTurretWeapon = none,  0.0, 0.0, 0.0,  0.0, 0.0, true,1, 0,-360,360, -35, 0
 
-AddTurretWeapon = Nb_Wf_41,  0.5861, 3.1055, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
-AddTurretWeapon = Nb_Wf_41,  0.2930, 3.1055, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
-AddTurretWeapon = Nb_Wf_41,  0.0,    3.1055, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
-AddTurretWeapon = Nb_Wf_41, -0.2930, 3.1055, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
-AddTurretWeapon = Nb_Wf_41, -0.5861, 3.1055, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
+AddTurretWeapon = nb_wf_41,  0.5861, 3.1055, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
+AddTurretWeapon = nb_wf_41,  0.2930, 3.1055, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
+AddTurretWeapon = nb_wf_41,  0.0,    3.1055, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
+AddTurretWeapon = nb_wf_41, -0.2930, 3.1055, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
+AddTurretWeapon = nb_wf_41, -0.5861, 3.1055, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
 
-AddTurretWeapon = Nb_Wf_41,  0.5861, 2.8124, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
-AddTurretWeapon = Nb_Wf_41,  0.2930, 2.8124, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
-AddTurretWeapon = Nb_Wf_41,  0.0,    2.8124, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
-AddTurretWeapon = Nb_Wf_41, -0.2930, 2.8124, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
-AddTurretWeapon = Nb_Wf_41, -0.5861, 2.8124, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
+AddTurretWeapon = nb_wf_41,  0.5861, 2.8124, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
+AddTurretWeapon = nb_wf_41,  0.2930, 2.8124, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
+AddTurretWeapon = nb_wf_41,  0.0,    2.8124, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
+AddTurretWeapon = nb_wf_41, -0.2930, 2.8124, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
+AddTurretWeapon = nb_wf_41, -0.5861, 2.8124, -2.0644,  0.0, 0.0, true,1, 0,-360,360, -40, 7
 
 BoundingBox = 0.0,  1.2,  2.5, 2.0, 1.3, 0.63
 

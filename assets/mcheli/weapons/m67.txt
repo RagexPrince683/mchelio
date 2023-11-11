@@ -1,8 +1,8 @@
-DisplayName = M67 [HEAT] 
+DisplayName = M67 [HE-AT] 
 Type = MachineGun2
-Power = 128
+Power = 183
 ModelBullet = bullet105mm
-Acceleration = 4.7
+Acceleration = 4.5
 Explosion = 6
 ExplosionBlock = 4
 Sight = MoveSight
@@ -12,10 +12,24 @@ Delay = 80
 SoundPitch = 1.2
 SoundVolume = 16.0
 Accuracy = 1.2
-Gravity = -0.025
-Sound = tank_gun_snd
+Gravity = -0.06
+Sound = artillery_gun_snd
 Recoil = 1.5
-Piercing = 3
+;Piercing = 3
+
+;chemyield = 2
+
+group = maingun
+
+
+DamageFactor = tank, 1.5
+DamageFactor = plane, 2.5
+DamageFactor = vehicle 2.5
+DamageFactor = heli, 2.5
+DamageFactor = player, 20.0
+SoundVolume = 15
+
+
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  7.1,      1.75,        6,  200,254,219,104

@@ -5,11 +5,11 @@ Acceleration = 2.0
 Explosion = 4
 Flaming = true
 Sight = MoveSight
-Delay = 100
+Delay = 10
 ModeNum = 2
 Sound = missile_1_snd
 
-Delay = 100
+Delay = 10
 ReloadTime = 100
 Group = MainGun
 ;Acceleration = 7.0

@@ -1,4 +1,5 @@
 ﻿DisplayName = T-34-85
+AddDisplayName = en_US, T-34-85
 AddDisplayName = ru_RU, T-34-85
 ItemID = 191992
 MaxHp = 350
@@ -15,6 +16,8 @@ MinRotationPitch = -90
 MaxRotationPitch = 45
 DefaultFreeLook = true
 ThirdPersonDist = 12
+CameraPosition = 0.0, 3.4, 0.61, true
+TurretPosition = 0.00, 1.81, 0.68
 
 HideEntity = true
 
@@ -25,7 +28,9 @@ WeightType = Tank
 
 HUD = ww2tank_hud
 
-AddSeat =  0.00,  2.3, 0.61
+unmountposition = 0.00,  1.9, 0.61
+
+AddGunnerSeat =  0.00,  2.3, 0.61, 0.00,  2.3, 0.61, false, -90, 45
 
 AddCrawlerTrack = false, 0.30, -1.91, -0.18/2.53, 0.26/3.57, 0.45/3.76, 0.72/3.76, 0.91/3.57, 0.90/-2.69, 0.83/-3.73, 0.59/-3.97, 0.24/-3.97, -0.00/-3.73, -0.18/-2.69
 AddCrawlerTrack = false, 0.30, 1.91,  -0.18/2.53, 0.26/3.57, 0.45/3.76, 0.72/3.76, 0.91/3.57, 0.90/-2.69, 0.83/-3.73, 0.59/-3.97, 0.24/-3.97, -0.00/-3.73, -0.18/-2.69
@@ -58,14 +63,17 @@ AddPartWeaponChild = false, true, 0.00, 2.42, 2.06
 AddPartWeapon = dt29, false, true, false,  -0.68, 1.39, 2.72, 0
 AddPartWeaponChild = false, true, -0.68, 1.39, 2.72
 
-AddWeapon = br365,  0.00, 2.08, 0.00, 0.00, 0.0, true,1, 0, -360, 360, -22, 45
-AddWeapon = br365k,  0.00, 2.08, 0.00, 0.00, 0.0, true,1, 0, -360, 360, -22, 45
-AddWeapon = uo365,  0.00, 2.08, 0.00, 0.00, 0.0, true,1, 0, -360, 360, -22, 45
-AddWeapon = uo365k,  0.00, 2.08, 0.00, 0.00, 0.0, true,1, 0, -360, 360, -22, 45
+AddWeapon = br365,  0.00, 2.08, 0.00, 0.00, 0.0, true,1, 0, -360, 360, -22, 5
+AddWeapon = br365k,  0.00, 2.08, 0.00, 0.00, 0.0, true,1, 0, -360, 360, -22, 5
+AddWeapon = uo365,  0.00, 2.08, 0.00, 0.00, 0.0, true,1, 0, -360, 360, -22, 5
+AddWeapon = uo365k,  0.00, 2.08, 0.00, 0.00, 0.0, true,1, 0, -360, 360, -22, 5
+AddTurretWeapon = dt29coax, -0.5, 2.08, 0.0, 0.0, 0.0, true, 1, 0, -360, 360, -22, 5
+
+
 AddWeapon = dt29,  -0.68, 1.39, 2.72,  0.0, 0.0, true,1, 0,-10,10, -5, 5
 
-AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
-AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  false,2
+;AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
+;AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  false,2
 
 EnableBack = true
 

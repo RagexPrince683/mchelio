@@ -2,7 +2,7 @@
 AddDisplayName = en_US, Sd.Kfz. 234/2
 AddDisplayName = ja_JP, Sd Kfz 234/2
 ItemID = 91011
-MaxHp = 100
+MaxHp = 200
 Speed = 0.56
 ThrottleUpDown = 1.5
 Gravity = -0.61
@@ -64,10 +64,10 @@ PartWheelRot = 55
 MinRotationPitch = -20
 MaxRotationPitch =  15
 
-AddTurretWeapon = 5cmKwK39_L60[AP], 0.0,  2.0362, 1.0481,  0.0, 0.0, true,1, 0,-360,360, -20, 15
-AddTurretWeapon = 5cmKwK39_L60[HE], 0.0,  2.0362, 1.0481,  0.0, 0.0, true,1, 0,-360,360, -20, 15
+AddTurretWeapon = 5cmkwk39_l60[ap], 0.0,  2.0362, 1.0481,  0.0, 0.0, true,1, 0,-360,360, -20, 15
+AddTurretWeapon = 5cmkwk39_l60[he], 0.0,  2.0362, 1.0481,  0.0, 0.0, true,1, 0,-360,360, -20, 15
 AddTurretWeapon = 7_92mmMG1, -0.3253, 2.0362, 1.0481,  0.0, 0.0, true,1, 0,-360,360, -20, 15
-AddPartWeapon = 5cmKwK39_L60[AP]/5cmKwK39_L60[HE], false, true, false,  0.0,  2.0362, 0.0, 0
+AddPartWeapon = 5cmkwk39_l60[ap]/5cmkwk39_l60[he], false, true, false,  0.0,  2.0362, 0.0, 0
 AddPartWeaponChild = false, true, 0.0,  2.0362, 1.0481
 AddPartWeaponChild = false, true, 0.0,  2.0362, 1.0481, 0.3
 
@@ -105,6 +105,7 @@ BoundingBox = 0.0, 1.1, -2.3, 2.3, 0.5, 0.33
 ;top 5
 ;does not matter as in im on a time crunch
 
+unmountposition = 0.0, 1.9,  0.0
 
 
 

@@ -1,4 +1,4 @@
-DisplayName = M548 [HERA]
+DisplayName = 105mm Howitzer M548 [HERA]
 Type = MachineGun1
 Power = 152
 ModelBullet = bullet105mm
@@ -12,8 +12,14 @@ SoundVolume = 15
 Sound = artillery_gun_snd
 Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
-Gravity = -0.03
-Piercing = 5
+Gravity = -0.05
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+SoundVolume = 15
 
 DisplayMortarDistance = true
 FixCameraPitch = true

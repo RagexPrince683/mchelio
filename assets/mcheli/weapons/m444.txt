@@ -1,12 +1,12 @@
-DisplayName = M444 [Cluster]
+DisplayName = 105mm Howitzer M444 [Cluster]
 Type = Rocket
-Power = 61
+Power = 50
 Acceleration = 6.9
 Sight = MissileSight
 Gravity = -0.04
 ;Delay = 100
 Sound = artillery_gun_snd
-SoundVolume = 10.0
+SoundVolume = 15
 SoundPitch = 1.0
 Accuracy = 0.5
 Explosion = 6
@@ -20,7 +20,7 @@ BombletDiff = 0.2
 BombletSTime = 0
 ModelBomblet = cbc
 
-DelayFuse = 80
+DelayFuse = 10
 
 DisableSmoke = true
 

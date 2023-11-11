@@ -1,18 +1,25 @@
-DisplayName = Type 1 70mm [HE]
+DisplayName = 47mm Type 1 [APHE]
 Type = MachineGun2
-Power = 79
+Power = 77
 Acceleration = 9.0
 Explosion = 3
 ExplosionBlock = 2
 Sight = None
-ReloadTime = 150
+ReloadTime = 80
 Round = 1
 Delay = 80
-SoundVolume = 6.0
+SoundVolume = 15
 Accuracy = 1.5
 Gravity = -0.02
 Sound = tank_gun_snd
 Recoil = 1.5
+
+DamageFactor = tank, 3.5
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
+Piercing = 2
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  7.1,      1.75,        6,  200,254,219,104

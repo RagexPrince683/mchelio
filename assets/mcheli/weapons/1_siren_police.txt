@@ -1,4 +1,4 @@
-DisplayName = Plice Siren
+DisplayName = Japanese Police Siren
 Type = MachineGun1
 Power = 0
 Accuracy = 0

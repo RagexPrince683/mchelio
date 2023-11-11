@@ -1,8 +1,8 @@
-DisplayName = Gr.34 [HE]
+DisplayName = Wurfgranate 34
 Type = MachineGun1
-Power = 89
-Explosion = 7
-ExplosionBlock = 5
+Power = 100
+Explosion = 10
+ExplosionBlock = 3
 Acceleration = 4.0
 Gravity = -0.04
 Sight = MissileSight

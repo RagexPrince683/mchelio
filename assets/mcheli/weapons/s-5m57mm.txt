@@ -7,7 +7,7 @@ Explosion = 3
 Flaming = false
 Sight = MoveSight
 Sound = rocket_snd
-Delay = 10
+Delay = 1
 ReloadTime = 80
 Round = 8
 

@@ -1,4 +1,4 @@
-DisplayName = M327 [HEP]
+DisplayName = 105mm Howitzer M327 [HEP-T]
 Type = MachineGun1
 Power = 152
 ModelBullet = bullet105mm
@@ -12,11 +12,18 @@ SoundVolume = 15
 Sound = artillery_gun_snd
 Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
-Gravity = -0.04
+Gravity = -0.06
 Piercing = 5
 
 DisplayMortarDistance = true
 FixCameraPitch = true
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+SoundVolume = 15
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  7.1,      1.75,        6,  200,254,219,104

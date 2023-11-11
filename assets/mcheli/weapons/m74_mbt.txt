@@ -1,23 +1,30 @@
-DisplayName = M74 [AP]
+DisplayName = 37mm M6 Cannon M74B1 [AP]
 Type = MachineGun2
-Power = 38
-Acceleration = 9.0
+Power = 79
+Acceleration = 7.0
 Explosion = 2
 ExplosionBlock = 1
 Sight = None
 ReloadTime = 150
-Round = 40
-Delay = 15
-SoundVolume = 3.0
+Round = 20
+Delay = 150
+SoundVolume = 15
 Accuracy = 1.5
-Gravity = -0.03
-Sound = ifv_gun_snd
-Piercing = 3
+Gravity = -0.005
+Sound = shermanmain
+Piercing = 2
+
+DamageFactor = tank, 3.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
+
 
 AddMuzzleFlash      =  7.0,      1.70,        5,  200,254,219,184
 AddMuzzleFlashSmoke =  8.2, 20,  10.0,  3.0, 45,  220,160,140,120
 
-MaxAmmo = 50
-SuppliedNum = 10
+MaxAmmo = 20
+SuppliedNum = 20
 Item =  2, iron_ingot
 Item =  3, gunpowder
