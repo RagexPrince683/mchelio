@@ -43,8 +43,10 @@ AddPartWeaponMissile = k5, false, false, false,  -1.701, 1.8502, -5.641
 
 
 AddWeapon = 23mm, 0.00, 0.5842,  1.78
-AddWeapon = k5,  1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
-AddWeapon = k5,  -1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
+AddWeapon = r-60,  1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
+AddWeapon = r-60,  -1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
+AddWeapon = r24,  1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
+AddWeapon = r24,  -1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
 
 AddRecipe = " X ",  "XXX",  "DXD",  X, iron_block, D, dispenser
 
