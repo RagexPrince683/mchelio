@@ -12,7 +12,7 @@ Sight = MissileSight
 Delay = 9
 ReloadTime = 140
 Round = 2
-LockTime = 19
+LockTime = 20
 ProximityFuseDist = 1
 Sound = missile_1_snd
 
