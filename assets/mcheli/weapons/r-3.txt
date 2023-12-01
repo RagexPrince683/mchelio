@@ -1,10 +1,10 @@
 DisplayName = R-3S [AAM]
 Type = AAMissile
-Power = 70
+Power = 35
 DamageFactor = tank, 1.5
-DamageFactor = plane, 2.5
+DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.5
+DamageFactor = heli, 3.0
 Acceleration = 4
 Explosion = 1
 Flaming = true
