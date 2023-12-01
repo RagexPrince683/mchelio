@@ -1,10 +1,10 @@
 DisplayName = R-24R AAM
 Type = AAMissile
-Power = 52
+Power = 55
 DamageFactor = tank, 1.5
-DamageFactor = plane, 2.7
+DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.6
+DamageFactor = heli, 3.0
 Acceleration = 4
 Explosion = 6
 Flaming = false
