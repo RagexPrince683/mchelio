@@ -11,6 +11,8 @@ FlareType = 3
 MaxFuel         = 1200
 FuelConsumption = 1.0
 Sound = r44_heli
+soundpitch = 1.45
+soundvolume = 15
 
 AddTexture = AH-1_1
 

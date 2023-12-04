@@ -14,6 +14,8 @@ MaxFuel         = 1200
 FuelConsumption = 1.5
 
 Sound = heli_k
+soundvolume = 15
+soundpitch = 1.4
 
 MobilityYaw = 1.2
 MobilityPitch = 1.2

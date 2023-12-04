@@ -14,6 +14,10 @@ FuelConsumption = 1.0
 
 HUD = heli, heli_gnr
 
+Sound = heli_k
+soundvolume = 15
+soundpitch = 1.4
+
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 

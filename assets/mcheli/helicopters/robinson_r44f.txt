@@ -8,6 +8,9 @@ Sound = r44_heli
 MaxFuel         = 1200
 FuelConsumption = 1.0
 
+Soundpitch = 1.65
+SoundVolume = 15
+
 ; C = Civilian(民間機)
 Category = C
 

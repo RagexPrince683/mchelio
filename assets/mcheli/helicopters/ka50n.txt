@@ -3,6 +3,8 @@ AddDisplayName = ja_JP, Ka-50N ホーカムA
 ItemID = 28818
 MaxHp = 100
 Speed = 0.65
+soundpitch = 1.4
+
 ThrottleUpDown = 1.0
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
@@ -14,6 +16,7 @@ MaxFuel         = 1200
 FuelConsumption = 1.0
 
 Sound = heli_k
+soundvolume = 15
 
 MobilityYaw = 1.2
 MobilityPitch = 1.2
