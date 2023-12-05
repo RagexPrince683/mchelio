@@ -18,6 +18,9 @@ EnableFoldBlade = true
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
 Category = M.M
 
+sound = chfourtysix
+soundvolume = 15
+
 HUD = heli, none, gunner
 
 AddTexture = ch-46

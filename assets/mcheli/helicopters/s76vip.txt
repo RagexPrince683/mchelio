@@ -11,6 +11,9 @@ AddTexture = s76vip_white
 AddTexture = s76vip_green
 AddTexture = s76vip_black
 
+sound = sseventysix
+soundvolume = 15
+
 ; C = Civilian(民間機)
 Category = C
 

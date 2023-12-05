@@ -8,6 +8,9 @@ FuelConsumption = 1.0
 onGroundPitch = 2.09
 EnableGunnerMode = true
 
+sound = eurocopter
+soundvolume = 15
+
 HUD = heli, tv_missile,none,
 
 CameraPosition = 0.53, -0.13, 2.78, false

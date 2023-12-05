@@ -10,6 +10,10 @@ Speed = 0.7
 FlareType = 3
 
 
+sound = littlebird
+soundpitch = 0.8
+soundvolume = 15
+
 
 AddSeat       = 0.00,  1.9816,  2.5010
 

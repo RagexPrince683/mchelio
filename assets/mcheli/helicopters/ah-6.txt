@@ -12,6 +12,9 @@ FuelConsumption = 1.0
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
+Sound = littlebird
+Soundvolume = 15
+
 HUD = heli, none, none, none
 
 AddTexture = ah-6_jp

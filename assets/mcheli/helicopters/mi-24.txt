@@ -11,6 +11,9 @@ MaxFuel         = 1200
 FuelConsumption = 1.0
 onGroundPitch = 4.56
 
+sound = hind
+soundvolume = 15
+
 HUD = heli, heli_gnr, none, none, none, none, none, none
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)

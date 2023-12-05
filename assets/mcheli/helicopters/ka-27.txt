@@ -12,7 +12,12 @@ CameraPosition = 0.0, 0.0, 3.1
 EnableEntityRadar = true
 MaxFuel         = 1800
 FuelConsumption = 1.0
-Sound = heli_k
+
+
+sound = hind
+soundvolume = 15
+
+
 
 ; M = Military(軍用機).  S = Antisubmarine(対潜機)
 Category = M.S

@@ -18,6 +18,10 @@ Category = M.M
 
 HUD = heli, none, gunner, gunner, gunner
 
+sound = apache
+soundpitch = 1.0
+soundvolume = 15
+
 AddTexture = ch47_2
 AddTexture = ch47_3
 AddTexture = ch47_4

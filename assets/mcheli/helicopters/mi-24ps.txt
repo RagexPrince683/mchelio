@@ -10,6 +10,9 @@ MaxFuel = 2400
 FuelConsumption = 1.0
 onGroundPitch = 4.56
 
+sound = hind
+soundvolume = 15
+
 ; C = Civilian(民間機)
 Category = C
 

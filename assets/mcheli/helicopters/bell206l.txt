@@ -8,6 +8,9 @@ FuelConsumption = 1.0
 ; C = Civilian(民間機)
 Category = C
 
+Sound = littlebird 
+Soundvolume = 15
+
 HUD = civilian_aircraft, none, none, none, none, none
 
 AddTexture = bell206l_bw

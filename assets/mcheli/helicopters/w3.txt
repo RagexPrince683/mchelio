@@ -9,6 +9,10 @@ FlareType = 3
 CameraPosition = 0.0, 1.1, 4.5
 ThirdPersonDist = 16
 
+
+sound = pzl
+soundvolume = 15
+
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 

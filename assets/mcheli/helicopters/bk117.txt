@@ -7,6 +7,9 @@ MaxFuel         = 1200
 FuelConsumption = 1.0
 onGroundPitch = 2.09
 
+sound = eurocopter
+soundvolume = 15
+
 Regeneration = true
 
 HUD = heli, none, none, none, none

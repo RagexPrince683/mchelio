@@ -14,6 +14,10 @@ Regeneration = true
 MaxFuel         = 1500
 FuelConsumption = 1.0
 
+sound = apache
+soundpitch = 1.3
+soundvolume = 15
+
 ; M = Military(軍用機).  H = Search and Rescue/Medevac(捜索救難機)
 Category = M.H
 

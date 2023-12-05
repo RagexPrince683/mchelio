@@ -16,6 +16,9 @@ MaxFuel         = 2800
 FuelConsumption = 1.1
 CameraPosition = 1.52, 0.46, 1.55
 
+sound = stallion
+soundvolume = 15
+
 ; M = Military(軍用機).  C = Transport(輸送機)
 Category = M.C
 

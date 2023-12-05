@@ -14,6 +14,10 @@ onGroundPitch = 2.5
 Float = true
 FloatOffset = -0.9
 
+sound = apache
+soundpitch = 1.0
+soundvolume = 15
+
 ; M = Military(軍用機).  S = Multi-Mission(多目的機)
 Category = M.S
 

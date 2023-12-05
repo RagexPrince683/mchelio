@@ -13,6 +13,10 @@ MaxFuel         = 1350
 FuelConsumption = 1.0
 ConcurrentGunnerMode = true
 
+Sound = r44_heli
+soundpitch = 1.45
+soundvolume = 15
+
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
 Category = M.M
 

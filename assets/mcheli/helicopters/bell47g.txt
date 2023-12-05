@@ -7,6 +7,9 @@ Speed = 0.6
 MaxFuel         = 600
 FuelConsumption = 0.5
 
+Sound = bellfourtyseven
+Soundvolume = 15
+
 ; C = Civilian(–¯ŠÔ‹@)
 Category = C
 

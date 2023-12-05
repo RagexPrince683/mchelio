@@ -10,6 +10,9 @@ FlareType = 3
 MaxFuel         = 600
 FuelConsumption = 1.0
 
+Sound = littlebird
+Soundvolume = 15
+
 ; M = Military(軍用機).  Q = Drone(無人航空機)
 Category = M.Q
 
