@@ -9,6 +9,7 @@ onGroundPitch = 2.09
 EnableGunnerMode = true
 
 sound = eurocopter
+;soundpitch = 1.3
 soundvolume = 15
 
 HUD = heli, tv_missile,none,

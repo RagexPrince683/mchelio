@@ -9,7 +9,10 @@ FlareType = 3
 MaxFuel         = 600
 FuelConsumption = 0.6
 
+
+
 Sound = bellfourtyseven
+soundpitch = 1.3
 Soundvolume = 15
 
 AddPartRotWeapon = m134_l,   false, true, true,   0.4643, 0.1017, 1.9936

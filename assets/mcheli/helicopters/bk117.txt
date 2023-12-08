@@ -8,6 +8,7 @@ FuelConsumption = 1.0
 onGroundPitch = 2.09
 
 sound = eurocopter
+;soundpitch = 1.3
 soundvolume = 15
 
 Regeneration = true

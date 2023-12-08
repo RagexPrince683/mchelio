@@ -1,4 +1,4 @@
-DisplayName =  Boeing AH-6
+DisplayName = Boeing AH-6 ULB
 AddDisplayName = ja_JP, ボーイング AH-6
 ItemID = 28810
 MaxHp = 100

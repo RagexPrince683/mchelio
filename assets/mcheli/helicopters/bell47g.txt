@@ -8,6 +8,7 @@ MaxFuel         = 600
 FuelConsumption = 0.5
 
 Sound = bellfourtyseven
+soundpitch = 1.3
 Soundvolume = 15
 
 ; C = Civilian(–¯ŠÔ‹@)
