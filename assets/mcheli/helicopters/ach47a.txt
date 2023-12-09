@@ -1,11 +1,11 @@
-﻿DisplayName = ACH47a Guns-A-Go-Go Chinook
+﻿DisplayName = ACH47A Guns-A-Go-Go Chinook
 AddDisplayName = en_US, ACH47a Guns-A-Go-Go Chinook
 AddDisplayName = ja_JP, ACH47a アームド チヌーク
 ItemID = 28811
 MaxHp = 100
 EnableNightVision = true
 Float = true
-Speed = 0.5
+Speed = 1.7
 ThrottleUpDown = 0.3
 FlareType = 1
 MaxFuel         = 2400

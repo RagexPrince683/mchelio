@@ -1,8 +1,11 @@
 DisplayName = Ju-87 Stuka
 AddDisplayName = ru_RU, Ju-87 Stuka
 ItemID = 30005
-MaxHp = 100
-Speed = 0.91
+MaxHp = 150
+Speed = 0.4002
+
+;230
+
 Float = true
 Sound = prop_g
 ThrottleUpDown = 0.3

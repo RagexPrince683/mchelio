@@ -3,7 +3,10 @@ AddDisplayName = en_US, OV-10A Bronco
 AddDisplayName = ja_JP, OV-10A ブロンコ
 ItemID = 28760
 MaxHp = 100
-Speed = 0.9
+Speed = 0.48894
+
+;281
+
 Sound = bronco
 ThrottleUpDown = 0.2
 MaxFuel         = 1200

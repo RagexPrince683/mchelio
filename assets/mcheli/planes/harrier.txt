@@ -9,7 +9,10 @@ EnableEjectionSeat = true
 EnableVtol = true
 VtolYaw = 0.3
 VtolPitch = 0.2
-Speed = 1.0
+Speed = 1.10142
+;633
+
+
 Sound = harrier
 FlareType = 3
 ParticlesScale = 0.7

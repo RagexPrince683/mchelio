@@ -5,10 +5,10 @@ ItemID = 30514
 MaxHp = 1800
 ;shift by 102.88 on z axis or +1.0288
 EnableNightVision = true
-Speed = 1.2
+Speed = 0.08004
 Sound = cbninety
 Float = true
-ThrottleUpDown = 2.0
+ThrottleUpDown = 0.95
 FloatOffset = -0.4
 MinRotationPitch = 0
 MaxRotationPitch = 0

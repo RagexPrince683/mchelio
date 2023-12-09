@@ -4,7 +4,10 @@ AddDisplayName = ko_KR, QF-80 슈팅스타 (무인표적기)
 AddDisplayName = ja_JP, QF-80 Shooting Star(標的機)
 ItemID = 40003
 MaxHp = 100
-Speed = 1.0
+Speed = 1.03356
+
+;594
+
 Sound = plane
 onGroundPitch = 2
 TargetDrone = true

@@ -4,11 +4,11 @@ AddDisplayName = ja_JP, mc航空母艦
 
 
 MaxHp = 1100
-Speed = 1.4
+Speed = 0.0609
 Float = true
 FloatOffset = -0.3
 Sound = big_ships
-ThrottleUpDown = 18.8
+ThrottleUpDown = 0.8
 MaxFuel         = 3500
 FuelConsumption = 1.2
 Gravity = -0.15

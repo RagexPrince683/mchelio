@@ -3,7 +3,10 @@ AddDisplayName = en_US, Mikoyan-Gurevich MiG-3
 AddDisplayName = ru_RU, MiG-3
 ItemID = 30020
 MaxHp = 100
-Speed = 0.95
+Speed = 0.69252
+
+;398
+
 Float = false
 Sound = prop_fighter
 onGroundPitch = 15

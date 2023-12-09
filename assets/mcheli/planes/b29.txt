@@ -3,7 +3,10 @@ AddDisplayName = en_US, B-29 Superfortress
 AddDisplayName = ja_JP, B-29 スーパーフォートレス
 ItemID = 28729
 MaxHp = 250
-Speed = 0.68
+Speed = 0.62118
+
+;357 
+
 Sound = btwentynine
 ThrottleUpDown = 0.1
 AutoPilotRot = 0.00

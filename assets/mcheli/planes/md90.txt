@@ -3,7 +3,11 @@ AddDisplayName = en_US, MD-90-30
 AddDisplayName = ja_JP,MD-90-30
 ItemID = 28727
 MaxHp = 250
-Speed = 0.98
+Speed = 1.12
+;.644*1.74
+;644mph
+
+
 Sound = mdninety
 ThrottleUpDown = 0.1
 MaxFuel         = 4500

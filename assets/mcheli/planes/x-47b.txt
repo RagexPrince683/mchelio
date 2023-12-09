@@ -2,7 +2,11 @@ DisplayName = X-47B Pegasus
 AddDisplayName = ja_JP, X-47B ペガサス
 ItemID = 28728
 MaxHp = 100
-Speed = 0.6
+Speed = 1.1919
+
+;685mph cruising speed
+
+
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true

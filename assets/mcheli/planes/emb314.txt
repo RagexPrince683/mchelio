@@ -3,7 +3,9 @@ AddDisplayName = en_US, EMB 314 Super Tucano
 AddDisplayName = ja_JP, エンブラエル EMB-314
 ItemID = 28703
 MaxHp = 100
-Speed = 0.8
+Speed = 0.64032
+
+;368mph
 FlareType = 4
 Sound = embthree
 ThrottleUpDown = 0.3

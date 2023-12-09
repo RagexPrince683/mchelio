@@ -8,7 +8,10 @@ sound = tornado
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 0.9
+Speed = 1.4
+
+;1452mph
+
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true

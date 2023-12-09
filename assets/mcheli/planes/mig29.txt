@@ -2,7 +2,9 @@ DisplayName = MiG-29 Fulcrum
 AddDisplayName = ja_JP, MiG-29 フルクラム
 ItemID = 28717
 MaxHp = 100
-Speed = 1.15
+Speed = 1.52
+;1,520
+
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true

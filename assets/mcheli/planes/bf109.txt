@@ -3,7 +3,12 @@ AddDisplayName = en_US, Bf-109 G-6/R6
 AddDisplayName = ru_RU, Bf.109
 ItemID = 30063
 MaxHp = 100
-Speed = 1
+Speed = 0.74124
+
+
+;426 
+
+
 Sound = prop_fighter
 onGroundPitch = 16
 ThrottleUpDown = 0.3

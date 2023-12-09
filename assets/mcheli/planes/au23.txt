@@ -3,7 +3,10 @@ AddDisplayName = en_US, Fairchild AU-23A Peacemaker
 AddDisplayName = ja_JP, フェアチャイルド AU-23A ピースメーカー
 ItemID = 28750
 MaxHp = 150
-Speed = 0.8
+Speed = 0.2958
+
+;170mph
+
 Sound = peacemaker
 ThrottleUpDown = 0.2
 AutoPilotRot = -0.1

@@ -4,11 +4,14 @@ AddDisplayName = ja_JP, HSV-X1 軍用フェリー
 
 
 MaxHp = 1000
-Speed = 1.2
+Speed = 0.10092
+
+;50 knots
+
 Float = true
 FloatOffset = 0.0
 Sound = big_ships
-ThrottleUpDown = 5.8
+ThrottleUpDown = 0.8
 MaxFuel         = 2000
 FuelConsumption = 1.2
 Gravity = -0.5

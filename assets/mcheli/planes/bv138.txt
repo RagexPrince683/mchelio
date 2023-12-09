@@ -3,7 +3,9 @@ AddAddDisplayName = en_US, BV 138 C-1
 AddDisplayName = ja_JP, BV 138 C-1
 ItemID = 28711
 MaxHp = 150
-Speed = 0.8
+Speed = 0.30798
+;177mph
+
 ThrottleUpDown = 0.1
 Float = true
 FloatOffset = -0.4

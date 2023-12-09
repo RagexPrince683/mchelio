@@ -5,7 +5,8 @@ MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.1
+Speed = 1.324
+
 OnGroundPitch = -2.0
 FlareType = 3
 ParticlesScale = 0.7

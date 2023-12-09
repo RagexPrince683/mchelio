@@ -2,7 +2,10 @@ DisplayName = BQM-74E CHUKAR III(Target drone)
 AddDisplayName = ja_JP, BQM-74E CHUKAR III(標的機)
 ItemID = 28736
 MaxHp = 100
-Speed = 1.2
+Speed = 1.05444
+
+;606mph
+
 Sound = rocket
 onGroundPitch = 20
 UAV = true

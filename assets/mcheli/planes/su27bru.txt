@@ -1,6 +1,6 @@
 DisplayName = Su-27 Flanker-B
 MaxHp = 100
-Speed = 1.20
+Speed = 1.553
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true

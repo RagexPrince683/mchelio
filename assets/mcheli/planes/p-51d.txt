@@ -3,7 +3,10 @@ AddDisplayName = en_US, P-51D Mustang
 AddDisplayName = ja_JP, P-51D マスタング
 ItemID = 30202
 MaxHp = 100
-Speed = 1.29
+Speed = 0.76734
+
+;441 
+
 Sound = mustang
 onGroundPitch = 13
 ThrottleUpDown = 0.3

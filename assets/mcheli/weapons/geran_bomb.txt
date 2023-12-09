@@ -1,8 +1,8 @@
 DisplayName = 50kg Suicide Bomb
 Type = Bomb
-Power = 1080
+Power = 5080
 Acceleration = 0.1
-Explosion = 15
+Explosion = 25
 ExplosionBlock = 5
 ExplosionInWater = 0
 Flaming = true

@@ -3,7 +3,10 @@ AddDisplayName = en_US, Piper PA-48 Enforcer
 AddDisplayName = ja_JP, パイパーPA-48 エンフォーサ
 ItemID = 28713
 MaxHp = 100
-Speed = 0.8
+Speed = 0.7047
+
+;405
+
 Sound = bronco
 SoundPitch = 0.6
 ThrottleUpDown = 0.3

@@ -7,7 +7,10 @@ EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
 Sound = migfifteen
-Speed = 1.2
+Speed = 1.23714
+
+;711
+
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true

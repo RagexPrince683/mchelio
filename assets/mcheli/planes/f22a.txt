@@ -6,9 +6,11 @@ MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.16
-;1.5K mach speed
-;1.74/1.5=1.16
+Speed = 1.5
+
+
+
+
 FlareType = 3
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true

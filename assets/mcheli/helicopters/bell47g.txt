@@ -3,7 +3,7 @@ AddDisplayName = en_US, Bell 47 G
 AddDisplayName = ja_JP, Bell47G
 ItemID = 28807
 MaxHp = 100
-Speed = 0.6
+Speed = 1.05
 MaxFuel         = 600
 FuelConsumption = 0.5
 

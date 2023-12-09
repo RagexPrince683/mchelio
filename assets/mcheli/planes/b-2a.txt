@@ -6,7 +6,10 @@ MaxHp  = 250
 EnableNightVision  = true
 EnableEntityRadar  = true
 EnableEjectionSeat = true
-Speed = 1.0
+Speed = 1.09272
+
+;628
+
 Sound = bone
 SoundPitch = 0.8
 FlareType = 2

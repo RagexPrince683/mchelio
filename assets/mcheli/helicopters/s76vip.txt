@@ -19,7 +19,7 @@ Category = C
 
 HUD = civilian_aircraft, civilian_aircraft, none, none, none, none, none
 
-Speed = 0.6
+Speed = 1.72
 
 AddRotor= 4, 90,  0.00,  3.89, -4.38,  0.0, 1.0, 0.0, false
 AddRotor= 1, 60,  0.68,  3.90, -14.06,  1.0, 0.0, 0.0

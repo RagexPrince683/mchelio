@@ -9,7 +9,12 @@ EnableEjectionSeat = true
 ;Speed = 40.68
 ;sad
 ;divide by 30 aircraft
-Speed = 2.35
+
+;new formula
+;1.8k
+;owie no work
+
+Speed = 1.65
 FlareType = 3
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true

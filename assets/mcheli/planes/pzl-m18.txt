@@ -3,7 +3,12 @@ AddDisplayName = en_US, PZL M-18 Dromader
 AddDisplayName = ja_JP, PZL M-18 ドロマーデル
 ItemID = 28733
 MaxHp = 100
-Speed = 0.7
+Speed = 0.2436
+
+;140
+;.140*1.74
+
+
 Sound = dromader
 ThrottleUpDown = 0.3
 MaxFuel         = 1300

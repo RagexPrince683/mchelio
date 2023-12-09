@@ -4,7 +4,10 @@ AddDisplayName = ko_KR, P-80/F-80 슈팅스타
 AddDisplayName = ja_JP, P-80/F-80 Shooting Star
 ItemID = 40001
 MaxHp = 100
-Speed = 1.4
+Speed = 1.03356
+
+;594 
+
 Sound = shootingstar
 onGroundPitch = 2
 ThrottleUpDown = 0.3

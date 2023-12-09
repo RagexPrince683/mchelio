@@ -3,7 +3,10 @@ AddDisplayName = en_US, TU-95 Bear
 AddDisplayName = ja_JP, TU-95 Bear
 ItemID = 28729
 MaxHp = 250
-Speed = 1.2
+Speed = 0.696
+
+;400mph
+
 Sound = twinprop
 ThrottleUpDown = 0.1
 AutoPilotRot = 0.00

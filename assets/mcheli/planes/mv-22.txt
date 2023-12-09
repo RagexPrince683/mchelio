@@ -11,7 +11,10 @@ MobDropOption = 0.0, 0.0, -11.5,  10
 DefaultVtol = true
 VtolYaw = 0.7
 VtolPitch = 0.4
-Speed = 1.0
+Speed = 0.61074
+
+;351 
+
 Sound = osprey
 FlareType = 4
 ParticlesScale = 0.7

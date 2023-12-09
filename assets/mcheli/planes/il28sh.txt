@@ -1,7 +1,10 @@
 DisplayName = Il-28Sh
 AddDisplayName = ja_JP, Il-28Sh
 MaxHp = 150
-Speed = 0.9
+Speed = 0.90132
+
+;518
+
 ThrottleUpDown = 0.15
 AutoPilotRot = 0.00
 CameraPosition = 0.0, 1.10, -4.47

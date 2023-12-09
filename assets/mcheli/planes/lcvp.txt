@@ -4,11 +4,11 @@ AddDisplayName = ja_JP, Lcvp輸送ボート
 
 
 MaxHp = 100
-Speed = 1.0
+Speed = 0.02436
 Float = true
 FloatOffset = 0.0
 Sound = boat
-ThrottleUpDown = 15.8
+ThrottleUpDown = 0.8
 MaxFuel         = 800
 FuelConsumption = 1.0
 Gravity = -0.15

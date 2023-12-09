@@ -2,7 +2,10 @@ DisplayName = Kawanishi H8K
 AddDisplayName = ja_JP, 二式飛行艇
 ItemID = 28719
 MaxHp = 280
-Speed = 0.80
+Speed = 0.50286
+
+;289 
+
 Sound = prop_bomber
 Float = true
 ThrottleUpDown = 0.5

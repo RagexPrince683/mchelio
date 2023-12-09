@@ -3,7 +3,11 @@ AddDisplayName = en_US, C5A galaxy
 AddDisplayName = ja_JP, C5A ギャラクシー
 ItemID = 28739
 MaxHp = 250
-Speed = 0.8
+Speed = 1.00746
+
+;579 
+
+
 Sound = c5m
 ThrottleUpDown = 0.1
 MaxFuel         = 20000

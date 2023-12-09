@@ -7,7 +7,10 @@ Sound = aten
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.0
+Speed = 0.7308
+;420
+
+
 FlareType = 5
 ThrottleUpDown = 0.2
 MaxFuel         = 1800

@@ -4,12 +4,12 @@ AddDisplayName = ja_JP, DGG1000 ズムウォルト駆逐艦
 
 
 MaxHp = 15656
-Speed = 1.2
+Speed = 0.0609
 Float = true
 FloatOffset = 0.0
 Sound = warship_snd
 SoundVolume = 50
-ThrottleUpDown = 5.8
+ThrottleUpDown = 0.8
 MaxFuel         = 3000
 FuelConsumption = 5.2
 Gravity = -0.5

@@ -3,7 +3,10 @@ AddDisplayName = en_US, A6M5 Zero Type 21
 AddDisplayName = ja_JP, 零式艦上戦闘機21型
 ItemID = 28708
 MaxHp = 100
-Speed = 0.95
+Speed = 0.61074
+
+;351 
+
 Sound = zero
 onGroundPitch = 14.3
 ThrottleUpDown = 0.3

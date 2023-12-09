@@ -3,7 +3,10 @@ AddDisplayName = en_US, E767
 AddDisplayName = ja_JP, E767
 ItemID = 28747
 MaxHp = 250
-Speed = 0.9
+Speed = 1.1484
+
+;660
+
 Sound = eseven
 ThrottleUpDown = 0.1
 AutoPilotRot = -0.50

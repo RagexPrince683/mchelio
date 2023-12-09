@@ -3,7 +3,10 @@ AddDisplayName = en_US, Tupolev Tu-4
 AddDisplayName = ja_JP, Tu-4 スーパーフォートレス
 ItemID = 28777
 MaxHp = 250
-Speed = 0.68
+Speed = 0.60378
+
+;347 
+
 Sound = btwentynine
 ThrottleUpDown = 0.1
 AutoPilotRot = 0.00

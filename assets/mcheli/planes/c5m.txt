@@ -1,11 +1,15 @@
 DisplayName = C5M Super Galaxy
 AddDisplayName = en_US, C5M Super Galaxy
 MaxHp = 250
-Speed = 1.1
+Speed = 0.99354
+
+;571
+
+
 Sound = c5m
 ThrottleUpDown = 0.1
-MaxFuel         = 20000
-FuelConsumption = 1.6
+MaxFuel         = 25000
+FuelConsumption = 1.4
 InventorySize = 64
 EnableGunnerMode = true
 AutoPilotRot = 0

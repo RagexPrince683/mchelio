@@ -21,7 +21,7 @@ AddTexture = bell206l_wr
 AddTexture = bell206l_t
 AddTexture = bell206l_mp
 
-Speed = 0.6
+Speed = 1.5
 
 AddRotor= 1, 0,  0.00,  3.80,  -0.91,  0.0, 1.0, 0.0
 AddRotor= 1, 0,  0.17,  3.00, -11.55,  1.0, 0.0, 0.0
