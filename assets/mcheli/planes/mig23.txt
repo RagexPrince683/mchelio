@@ -1,4 +1,4 @@
-﻿DisplayName = mig 23
+﻿DisplayName = MIG-23M
 AddDisplayName = en_US, Mig-23
 AddDisplayName = ja_JP, mig23
 ItemID = 28720
@@ -8,6 +8,7 @@ EnableEntityRadar = true
 EnableEjectionSeat = true
 Sound = migtwentythree
 Speed = 1.553
+
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -38,8 +39,8 @@ AddPartWing  =  1.50, 1.6512, -6.418,  0, -1,0, 35
 AddPartWing  = -1.50, 1.6512, -6.418,  0, 1,0, 35
 
 
-AddPartWeaponMissile = k5, false, false, false,  1.701, 1.8502, -5.641
-AddPartWeaponMissile = k5, false, false, false,  -1.701, 1.8502, -5.641
+AddPartWeaponMissile = r-60, false, false, false,  1.701, 1.8502, -5.641
+AddPartWeaponMissile = r-60, false, false, false,  -1.701, 1.8502, -5.641
 
 
 AddWeapon = 23mm, 0.00, 0.5842,  1.78

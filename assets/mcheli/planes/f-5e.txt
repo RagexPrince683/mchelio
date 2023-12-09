@@ -1,0 +1,67 @@
+DisplayName = F-5E Tiger II
+AddDisplayName = en_US, F-5E Tiger II
+AddDisplayName = ko_KR, F-5E 타이거
+ItemID = 40013
+MaxHp = 180
+Speed = 1.0
+Sound = fighter_jet
+ThrottleUpDown = 0.8
+MaxFuel = 1000
+FuelConsumption = 1.0
+FlareType = 4
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+EnableSeaSurfaceParticle = true
+ParticlesScale = 0.7
+ThirdPersonDist = 17
+Category = M.F
+
+AddSeat = 0.00, 1.33, 1.067
+AddPartCanopy = -0.57, 2.149, 1.262,  0,0,1, 70
+HUD = plane
+
+EntityHeight = 0.9
+EntityWidth = 0.9
+
+MobilityYaw = 1.5
+MobilityPitch = 2.0
+MobilityRoll = 2.2
+;OnGroundPitch = 1
+
+AddPartLG =  0.0, 1.03, 3.18,  -1,0,0, 100
+AddPartLG =  2.197, 1.20, -3.20,  0,0,-1, 94
+AddPartLG =  -2.197, 1.20, -3.20,  0,0,1, 94
+
+;WEAPON_COUNT
+AddPartWeaponMissile = aim9,  false, false, false,  5.199, 1.292, -3.407
+AddPartWeaponMissile = aim9,  false, false, false,  -5.199, 1.292, -3.407
+AddPartWeaponMissile = mk82,  false, false, false,  2.988, 0.549, -2.967
+AddPartWeaponMissile = mk82,  false, false, false,  -2.988, 0.549, -2.967
+
+AddPartWeaponMissile = droptank, false, false, false, 0.0, 0.246, -1.74
+
+;WEAPON
+AddWeapon = m39a2, 0.238, 1.65, 5.23, 0.0, -0.5
+AddWeapon = m39a2, -0.238, 1.65, 5.23, 0.0, -0.5
+
+AddWeapon = aim9,   5.199, 1.292, -3.407,   0.0, 0.0
+AddWeapon = aim9,  -5.199, 1.292, -3.407,   0.0, 0.0
+
+AddWeapon = hydra70,   3.918, 0.549, -2.024,   1.0, 0.0
+AddWeapon = hydra70,  -3.918, 0.549, -2.024,   -1.0, 0.0
+
+AddWeapon = mk82,  2.988, 0.549, -2.967,  0.0, 0.0
+AddWeapon = mk82,  -2.988, 0.549, -2.967,  0.0, 0.0
+
+;AddWeapon = droptank, 0.0, 0.246, -1.74,  0.0, 0.0
+
+BoundingBox =  0.00, 1.85, 1.3,  2.0, 2.2
+BoundingBox =  0.00, 1.7, -1.5,  2.0, 2.0
+BoundingBox =  0.00, 1.7, -4.0,  2.0, 1.8
+BoundingBox =  0.00, 1.8, -6.5,  2.0, 1.6
+
+BoundingBox = 2.4, 1.5, -3.5, 2.0, 1.0
+BoundingBox = -2.4, 1.5, -3.5, 2.0, 1.0
+
+;AddRecipe = " YX",  "XXP",  "X X",  X, iron_block, Y, glass, P, iron_ingot
