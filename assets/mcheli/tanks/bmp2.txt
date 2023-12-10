@@ -11,10 +11,10 @@ Gravity = -0.61
 Float = true
 FloatOffset = 0.0
 
-GravityInWater = -0.1
+GravityInWater = -0.2
 DamageFactor = 0.0
 EnableNightVision = true
-CameraRotationSpeed = 45
+CameraRotationSpeed = 30
 StepHeight = 1.7
 MinRotationPitch = -60
 MaxRotationPitch = 5
@@ -23,14 +23,10 @@ MaxFuel         = 1200
 FuelConsumption = 2.0
 HideEntity = true
 FlareType = 10
-ThirdPersonDist = 8
-
-AddTexture = bmp2_1
-AddTexture = bmp2_2
 
 TurretPosition = 0.0, 2.5619, -0.2461
 
-MobilityYawOnGround = 3.0
+MobilityYawOnGround = 3.2
 
 HUD = mbt_hud
 
@@ -51,7 +47,7 @@ WeightType = Tank
 SetWheelPos =  1.10,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
 
 ;AddGunnerSeat = 0.00, 2.10, 0.24
-AddGunnerSeat = 0.00, 1.10, 0.24, 0.00, 2.10, 0.0, true, -90, 90, true
+AddGunnerSeat = 0.00, 2.10, 0.24, 0.00, 2.10, 0.0, true, -90, 90, true
 CameraPosition = 0.00, 3.10, 0.0, true
 
 AddSeat = 0.48, 0.59, -1.79
