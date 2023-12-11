@@ -16,7 +16,7 @@ Delay = 150
 CameraRotationSpeedPitch = 0.6
 
 Delay = 150
-ReloadTime = 150
+ReloadTime = 350
 Group = MainGun
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100

@@ -2,9 +2,9 @@ DisplayName = BMP-1 IFV
 AddDisplayName = en_US, BMP-1 IFV
 AddDisplayName = ja_JP, BMP-1 歩兵戦闘車
 MaxHp = 200
-Speed = 0.6
+Speed = 0.878
 Sound = bmpone
-ThrottleUpDown = 10.0
+ThrottleUpDown = 2.0
 MobilityRoll = 0
 Gravity = -0.61
 Float = true
@@ -13,10 +13,10 @@ FloatOffset = 0.0
 GravityInWater = -0.2
 DamageFactor = 0.5
 EnableNightVision = true
-CameraRotationSpeed = 30
+CameraRotationSpeed = 14
 StepHeight = 1.7
-MinRotationPitch = -25
-MaxRotationPitch = 5
+MinRotationPitch = -30
+MaxRotationPitch = 4
 DefaultFreelook = true
 MaxFuel         = 1200
 FuelConsumption = 2.0
@@ -27,7 +27,7 @@ ThirdPersonDist = 8
 AddTexture = bmp1_1
 AddTexture = bmp1_2
 
-MobilityYawOnGround = 3.0
+MobilityYawOnGround = 2.3
 
 HUD = mbt_hud
 

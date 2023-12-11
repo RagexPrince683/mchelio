@@ -16,7 +16,7 @@ Delay = 85
 Gravity = -0.10
 
 Delay = 150
-ReloadTime = 150
+ReloadTime = 350
 Group = MainGun
 Acceleration = 5.0
 BulletColor        = 255, 255, 100, 100

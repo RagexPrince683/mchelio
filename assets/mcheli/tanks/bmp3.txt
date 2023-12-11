@@ -2,7 +2,7 @@
 AddDisplayName = en_US, BMP-3 IFV
 AddDisplayName = ja_JP, BMP-3 歩兵戦闘車
 MaxHp = 200
-Speed = 0.6
+Speed = 0.972
 Sound = bmptwoeng
 ThrottleUpDown = 10.0
 MobilityRoll = 0
@@ -13,7 +13,7 @@ FloatOffset = 0.0
 GravityInWater = -0.2
 DamageFactor = 0.0
 EnableNightVision = true
-CameraRotationSpeed = 30
+CameraRotationSpeed = 25
 StepHeight = 1.7
 MinRotationPitch = -60
 MaxRotationPitch = 6
@@ -23,7 +23,7 @@ FuelConsumption = 2.0
 HideEntity = true
 FlareType = 10
 
-MobilityYawOnGround = 3.0
+MobilityYawOnGround = 2.6
 
 HUD = mbt_hud
 
