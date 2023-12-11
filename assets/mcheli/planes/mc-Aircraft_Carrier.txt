@@ -37,7 +37,7 @@ Category = M.C
 
 HUD = plane_wwii, gunner, gunner, gunner, gunner, gunner, gunner, none, none, none, none, none
 
-UnmountPosition = -2.00, 1.90, -0.00
+UnmountPosition = -2.00, 10.90, -0.00
 
 ;　main
 AddSeat =  -2.00,  0.59, -0.0

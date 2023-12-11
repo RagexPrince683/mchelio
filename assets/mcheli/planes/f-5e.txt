@@ -9,7 +9,9 @@ DamageFactor = 0.8
 
 enableback = true
 
-Sound = fighter_jet
+;Sound = fighter_jet
+
+sound = ffive
 ThrottleUpDown = 0.3
 MaxFuel = 1000
 FuelConsumption = 1.0
