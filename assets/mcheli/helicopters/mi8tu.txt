@@ -34,7 +34,8 @@ AddSeat =  -0.6280, 0.8581, -1.412
 
 
 AddWeapon = targeting_pod_mob,     0.00,  0.30, 5.94,   0.0, 0.0,  true, 2
-AddWeapon = targeting_pod_pv30s,   0.00,  0.30, 5.94,   0.0, 0.0,  false,2
+
+AddWeapon = dispenser_sand,   0.00,  0.30, 5.94,   0.0, 0.0,  true,2
 
 AddRotor= 1, 0,  0.00,  4.198,  0.00,  0,1,0
 AddRotor= 1, 0,  0.3863,  4.375, -12.58,  1,0,0
