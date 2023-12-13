@@ -9,7 +9,7 @@ Flaming = false
 Sight = MoveSight
 Delay = 2
 ReloadTime = 110
-Round = 19
+Round = 38
 
 SoundVolume = 15
 
