@@ -7,9 +7,9 @@ Explosion = 3
 Flaming = false
 Sound = hydraseventy
 Sight = MoveSight
-Delay = 7
-ReloadTime = 110
-Round = 19
+Delay = 5
+ReloadTime = 100
+Round = 38
 
 Piercing = 0
 
