@@ -7,7 +7,7 @@ Flaming = false
 Sight = MoveSight
 Delay = 1
 Accuracy = 2.0
-Round = 200
+Round = 250
 ReloadTime = 150
 SoundPitch = 1.0
 Sound = pkt
@@ -37,6 +37,6 @@ DamageFactor = heli, 0.5
 SoundVolume = 15
 
 MaxAmmo = 2000
-SuppliedNum = 400
+SuppliedNum = 250
 Item =  2, iron_ingot
 Item =  2, gunpowder

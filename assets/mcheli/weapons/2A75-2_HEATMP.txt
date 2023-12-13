@@ -1,23 +1,28 @@
-DisplayName = 2A75 3BK29M [HE ATMP]
+DisplayName = 125mm 2A75 [3BK18M HEAT-FS]
 Type = MachineGun2
-Power = 300
+Power = 550	
 ModelBullet = bullet105mm
-Acceleration = 6.0
-Explosion = 2
-ExplosionBlock = 0
+Acceleration = 7.0
+Explosion = 3
+ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
 Delay = 120
+ReloadTime = 190
+Round = 5
 ModeNum = 1
-SoundPitch = 0.5
-SoundVolume = 10
+SoundPitch = 1
+SoundVolume = 15
 Sound = cannon_3_snd
 Group = MainGun
+Gravity = -0.001
 Recoil = 2.5
-DamageFactor = helicopter, 0.5
-DamageFactor = plane,      0.5
-DamageFactor = vehicle,    0.5
-DamageFactor = tank,       2.5
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 AddMuzzleFlash      =  8.2,     2.10,        7,  220,254,159,74
 AddMuzzleFlash      =  8.1,     2.05,        6,  220,254,219,104
@@ -27,7 +32,7 @@ AddMuzzleFlashSmoke = 10.2, 20, 13.0,  7.0, 55,  200,190,170,150
 
 RecoilBufCount = 40, 5
 
-MaxAmmo = 20
-SuppliedNum = 10
+MaxAmmo = 10
+SuppliedNum = 5
 Item =  2, iron_ingot
 Item =  2, gunpowder
