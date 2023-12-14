@@ -35,10 +35,10 @@ OnGroundRollFactor  = 0.8
 
 CameraRotationSpeed = 35
 
-;ArmorMinDamage = 60 
+ArmorMinDamage = 5
 ;ArmorMaxDamage = 400
 
-SetWheelPos =  1.02,  0.00,  2.35,  0.70, -0.80, -2.22, -2.30
+
 
 AddGunnerSeat =  0.0,  1.20,  -0.674, 0.00, 2.50, -0, true, -90, 90, true
 
@@ -102,6 +102,9 @@ HideEntity = true
 
 PivotTurnThrottle = 0.4
 
+
+SetWheelPos =  1.02,  0.00,  3.14,  1.47, -0.05, -1.48
+
 ;Category = M.A
 ;Left
 AddPartWheel = 1.4292, 0.3000, 3.1473, 10
@@ -115,10 +118,11 @@ AddPartWheel = -1.4293, 0.3000, 1.4789, 10
 AddPartWheel = -1.4292, 0.3000, -0.0533
 AddPartWheel = -1.4292, 0.3000, -1.4832
 
-BoundingBox = 0.0, 1.7, 0.1137, 2.0, 1.0, 1.0
+BoundingBox = 0.0, 1.7, 0.1137, 2.0, 1.0, 0.2
 
-BoundingBox = 0.0, 1.0, -1.0113, 3.0, 1.0, 1.0
-BoundingBox = 0.0, 1.0, 1.7887, 3.0, 1.0, 1.0
-BoundingBox = 0.0, 1.0, 3.1887, 2.6, 0.6, 1.0
+BoundingBox = 0.0, 1.0, -1.0113, 2.8, 1.0, 0.5
+BoundingBox = 0.0, 1.0, 1.66, 2.9, 1.0, 0.5
+BoundingBox = 0.0, 1.0, 1.7887, 2.8, 1.0, 0.05
+BoundingBox = 0.0, 1.0, 3.1887, 2.6, 0.6, 0.12
 
 unmountposition = 0.0, 1.50, 0.1137

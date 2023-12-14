@@ -67,7 +67,7 @@ AddPartWheel =   -0.00,  0.43,-3.46
 AddPartWheel =   -0.00,  0.43,-5.41
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 15
+ArmorMinDamage = 6
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
@@ -80,7 +80,7 @@ PivotTurnThrottle = 0.2
 TrackRollerRot = 30
 
 AddPartWeapon    = b32, false, true, false,  -0.00, 2.68, -0.00
-AddPartWeaponChild = false, true, 0.00, 2.986, 2.38
+AddPartWeaponChild = false, true, 0.00, 2.48, 0.40
 AddTurretWeapon = b32,   0.00, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -70,5
 AddTurretWeapon = mdz,   0.00, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -70,5
 AddTurretWeapon = pkt,  0.2064, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -70,5
@@ -100,16 +100,16 @@ RideRack = c5, 2
 
 AddRecipe = "III",  " I ",  "III",   I, iron_ingot
 
-BoundingBox = 0.0, 2.15, 0.0, 1.0, 1.0, 1.0
+BoundingBox = 0.0, 2.15, 0.0, 1.0, 1.0, 0.2
 
-BoundingBox = 0.0, 1.2, 0.0, 3.0, 2.0, 1.0
-BoundingBox = 0.0, 1.2, 1.0, 2.7, 1.8, 1.0
-BoundingBox = 0.0, 1.2, 1.5, 2.5, 1.6, 1.0
-BoundingBox = 0.0, 1.2, 2.4, 2.3, 0.4, 1.0
+BoundingBox = 0.0, 1.2, 0.0, 3.0, 2.0, 0.75
+BoundingBox = 0.0, 1.2, 1.0, 2.7, 1.8, 0.33
+BoundingBox = 0.0, 1.2, 1.5, 2.5, 1.6, 0.3
+BoundingBox = 0.0, 1.2, 2.4, 2.3, 0.4, 0.3
 
 
-BoundingBox = 0.0, 1.2, -2.5, 3.0, 2.0, 1.0
-BoundingBox = 0.0, 1.2, -5.4, 3.0, 2.0, 1.0
+BoundingBox = 0.0, 1.2, -2.5, 3.0, 2.0, 0.75
+BoundingBox = 0.0, 1.2, -5.4, 3.0, 2.0, 0.75
 
 
 UnmountPosition = 0.00, 1.68,  0.00

@@ -66,7 +66,7 @@ AddPartWheel =   -0.00,  0.43,-3.46
 AddPartWheel =   -0.00,  0.43,-5.41
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 15
+ArmorMinDamage = 6
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
@@ -93,7 +93,7 @@ AddPartHatch =   1.30,  1.90,  -1.61, 0,1, 0, -60
 AddPartHatch =  -1.31,  0.53,  -1.92, 0,0, 1, 140
 AddPartHatch =   1.31,  0.53,  -1.92, 0,0, 1, -140
 
-DamageFactor = 0.0
+DamageFactor = 0.1
 
 HideEntity = true
 
@@ -107,14 +107,16 @@ AddRecipe = "IXI",  " I ",  "III",  X, iron_block,  I, iron_ingot
 
 BoundingBox = -0.0154, 2.2362, -0.0245, 1.5, 1.5, 1.0
 
-BoundingBox = 0.0, 1.2, 0.0, 3.0, 2.0, 1.0
-BoundingBox = 0.0, 1.2, 1.0, 2.7, 1.8, 1.0
-BoundingBox = 0.0, 1.2, 1.5, 2.5, 1.6, 1.0
-BoundingBox = 0.0, 1.2, 2.4, 2.3, 0.4, 1.0
+BoundingBox = 0.0, 1.2, 0.0, 3.0, 2.0, 0.75
+BoundingBox = 0.0, 1.2, 1.0, 2.7, 1.8, 0.33
+BoundingBox = 0.0, 1.2, 1.5, 2.5, 1.6, 0.33
+BoundingBox = 0.0, 1.2, 2.4, 2.3, 0.4, 0.27
+
+
+BoundingBox = 0.0, 1.2, -2.5, 3.0, 2.0, 0.75
+BoundingBox = 0.0, 1.2, -5.4, 3.0, 2.0, 0.75
+
 
 UnmountPosition = -0.0154, 1.6291, -0.0245
 
-
-BoundingBox = 0.0, 1.2, -2.5, 3.0, 2.0, 1.0
-BoundingBox = 0.0, 1.2, -5.4, 3.0, 2.0, 1.0
 
