@@ -1,6 +1,6 @@
 DisplayName = GSh-23-2 Chain gun
 Type = MachineGun2
-Power = 13
+Power = 16
 Acceleration = 8.0
 Explosion = 1
 ExplosionBlock = 0
@@ -8,7 +8,7 @@ Flaming = false
 Sight = MoveSight
 Delay = 0
 ReloadTime = 70
-Round = 80
+Round = 200
 SoundVolume = 1
 SoundPitch = 1.0
 Sound = gun_h7_snd
