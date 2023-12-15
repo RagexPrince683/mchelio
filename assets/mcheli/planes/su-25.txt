@@ -1,0 +1,74 @@
+DisplayName = Su-25 Frogfoot
+AddDisplayName = en_US, Su-25 Frogfoot
+AddDisplayName = ko_KR, 수호이 Su-25
+ItemID = 40008
+MaxHp = 260
+Speed = 1.0
+Sound = fighter_jet
+ThrottleUpDown = 0.8
+MaxFuel = 1000
+FuelConsumption = 1.0
+FlareType = 4
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+EnableSeaSurfaceParticle = true
+ParticlesScale = 0.7
+ThirdPersonDist = 17
+
+Category = M.A
+
+;not supported
+;AddTexture = su-25_ru
+;AddTexture = su-25_sm
+;AddTexture = su-25_ua
+;AddTexture = su-25_nk
+
+AddSeat = 0.00,  1.50,  2.181
+AddPartCanopy = -0.6167, 2.31,  2.725, 0,0,1,  60
+HUD = plane
+
+EntityHeight = 0.9
+EntityWidth = 0.9
+
+MobilityYaw = 0.8
+MobilityPitch = 0.8
+MobilityRoll = 0.7
+OnGroundPitch = 3
+
+AddPartThrottle = 0, 1.543, -6.193,  0, 0, 0,  0,  0, 0, 0.3
+
+AddPartLG =  0.00, 1.10, 1.8,  1,0,0, 90
+AddPartLG =  1.11, 1.25, -2.38,  0,0,-1, 90,  1,0,0, 40
+AddPartLG = -1.11, 1.25, -2.38,  0,0,1, 90, 1,0,0, 40
+
+AddPartWeaponMissile = fab500sh,  false, false, false,  2.337, 1.377, -1.926
+AddPartWeaponMissile = fab500sh,  false, false, false, -2.337, 1.377, -1.926
+AddPartWeaponMissile = fab500sh,  false, false, false,   3.387, 1.377, -2.28
+AddPartWeaponMissile = fab500sh,  false, false, false,  -3.387, 1.377, -2.28
+AddPartWeaponMissile = kh-25,  false, false, false,   5.335, 1.518, -2.28
+AddPartWeaponMissile = kh-25,  false, false, false,  -5.335, 1.518, -2.28
+AddPartWeaponMissile = r-60,  false, false, false,  6.28, 1.642, -2.564
+AddPartWeaponMissile = r-60,  false, false, false, -6.28, 1.642, -2.564
+
+AddWeapon = gsh-30-1,  0.327, 0.959, 4.716,  0.0, 0.0
+AddWeapon = s-8,  4.376, 1.445, -0.378,   1.0, 0.0
+AddWeapon = s-8, -4.376, 1.445, -0.378,  -1.0, 0.0
+AddWeapon = fab500sh,  2.337, 1.377, -1.926,   1.0, 0.0
+AddWeapon = fab500sh, -2.337, 1.377, -1.926,  -1.0, 0.0
+AddWeapon = fab500sh,  3.387, 1.377, -2.28,  1.0, 0.0
+AddWeapon = fab500sh, -3.387, 1.377, -2.28,  -1.0, 0.0
+AddWeapon = kh-25,  5.335, 1.518, -2.28,  1.0, 0.0
+AddWeapon = kh-25, -5.335, 1.518, -2.28,  -1.0, 0.0
+AddWeapon = r-60,   6.28, 1.642, -2.564,   1.0, 0.0
+AddWeapon = r-60,  -6.28, 1.642, -2.564,   -1.0, 0.0
+
+BoundingBox =  0.00, 1.58, 4.716,  1.2, 1.0, 0.9
+BoundingBox =  0.00, 1.9, 2.725,  1.5, 1.6
+BoundingBox =  0.00, 1.9, -0.3,  2, 1.6
+BoundingBox =  0.00, 1.85, -2.9,  2, 1.6
+BoundingBox =  0.00, 1.85, -5.2,  2, 1.3
+BoundingBox =  0.00, 2.0, -7.5,  1.2, 1.2
+
+BoundingBox = 2.5, 2.3,  -3,  2.5, 0.6
+BoundingBox = -2.5, 2.3,  -3,  2.5, 0.6

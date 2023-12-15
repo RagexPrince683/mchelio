@@ -1,0 +1,66 @@
+DisplayName = Buggy (22nd SPGSPB)
+;https://en.wikipedia.org/wiki/22nd_Separate_Guards_Special_Purpose_Brigade 
+MaxHp = 100
+ThrottleUpDown = 10.0 
+Speed = 0.7
+MobilityYawOnGround = 8
+StepHeight = 1.5 
+Sound = prop 
+MinRotationPitch = -90 
+MaxRotationPitch = 90 
+MobilityRoll = 0 
+Gravity = -0.15 
+GravityInWater = -0.1 
+DamageFactor = 1.1
+EnableNightVision = false 
+MaxFuel = 600
+FuelConsumption = 1.0 
+ThirdPersonDist = 5
+
+OnGroundPitchFactor = 17.0 
+OnGroundRollFactor = 5.8 
+
+AddTexture = dra_vdv1
+AddTexture = dra_vdv2
+AddTexture = dra_vdv3
+AddTexture = dra_vdv4
+AddTexture = dra_vdv5
+AddTexture = dra_vdv6
+AddTexture = dra_vdv7
+
+EnableBack = true 
+
+Category = C 
+
+WeightType = Car 
+
+SetWheelPos = 0.68, -0.24, 1.6848, -1.5286 
+
+HUD = bnr32_hud, none, gunner 
+
+AddSeat = 0.58, 0.44, -0.1465
+AddSeat = -0.58, 0.44, -0.1465
+AddGunnerSeat = 0, 1.25, -1.19, 0, 2.45, -1.19
+
+PivotTurnThrottle = 0.1 
+
+PartWheelRot = 45
+AddPartWheel = 0.84, 0.2684, 1.6848, 35
+AddPartWheel = -0.84, 0.2684, 1.6848, 35
+AddPartWheel = 0.84, 0.2684, -1.5286
+AddPartWheel = -0.84, 0.2684, -1.5286
+
+InventorySize = 0
+
+AddRecipe = " I ", "I I", "III", G, glass, I, iron_ingot, R, redstone 
+
+AddFixedSearchLight =  0.5487, 0.8906, 1.9932,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
+AddFixedSearchLight = -0.5487, 0.8905, 1.9932,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25, -6.0,  0
+AddFixedSearchLight =  0.23, 0.6, 2.1752,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
+AddFixedSearchLight = -0.23, 0.6, 2.1752,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25, -6.0,  0
+
+AddWeapon = LAkord,    0.02, 2.264, -0.4977, 0.0, 0.0, false, 3, 0, -360, 360, -30,  6
+AddPartWeapon = LAkord, false, true, false,  0.00, 1.79, -1.19, 0
+AddPartWeaponChild = false, true, 0.0, 2.264, -0.4154
+
+AddPartSteeringWheel =  0.5755, 0.9358, 0.4594,  0, 0.3625,-1,  110

@@ -1,0 +1,24 @@
+DisplayName = MOAB
+Type = Torpedo
+Power = 35
+ModelBullet = moab
+Acceleration = 0.0
+AccelerationInWater = 2.5
+Explosion = 41
+ExplosionInWater = 40
+Flaming = true
+Sight = None
+Delay = 400
+GuidedTorpedo = false
+Gravity = -0.04
+GravityInWater = 0
+ReloadTime = 1200
+Round = 1
+DisableSmoke = false
+Sound = bomb_snd
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

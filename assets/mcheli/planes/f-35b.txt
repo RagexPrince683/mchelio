@@ -21,6 +21,8 @@ VtolYaw = 0.3
 VtolPitch = 0.2
 ThrottleUpDown = 0.3
 
+AddTexture = f-35b_marina
+
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 

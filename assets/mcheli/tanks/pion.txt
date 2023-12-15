@@ -1,0 +1,76 @@
+DisplayName = 2S7 "Pion"
+MaxHp = 180
+Speed = 0.35
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = false
+CameraRotationSpeed = 30
+StepHeight = 1
+MinRotationPitch = -50
+MaxRotationPitch = 0
+DefaultFreelook = false
+HideEntity = false
+CameraPosition = 0.90, 2.61, -3.2266, false
+
+MobilityYawOnGround = 3.0
+
+HUD = mbt_hud
+
+SubmergedDamageHeight = 3
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+WeightType = Unknown
+
+SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
+
+AddGunnerSeat =  0.90, 1.41, -3.2266, 0.90, 2.61, -3.2266, false, -50, 0
+
+AddCrawlerTrack = true, 0.23, -1.8083,  -0.18/2.73, 0.23/3.87, 0.35/3.9963, 0.52/4.0409, 0.68/3.9963, 0.8086/3.8750, 0.85/3.7091, 0.85/-3.507, 0.80/-3.67, 0.6861/-3.79, 0.52/-3.8366, 0.35/-3.7920, 0.23/-3.6716, -0.18/-2.7314
+AddCrawlerTrack = true, 0.23, 1.8083,  -0.18/2.73, 0.23/3.87, 0.35/3.9963, 0.52/4.0409, 0.68/3.9963, 0.8086/3.8750, 0.85/3.7091, 0.85/-3.507, 0.80/-3.67, 0.6861/-3.79, 0.52/-3.8366, 0.35/-3.7920, 0.23/-3.6716, -0.18/-2.7314
+
+AddTrackRoller = -1.20,  0.52,  3.7091
+AddTrackRoller = -1.20,  0.2033,  2.7310
+AddTrackRoller = -1.20,  0.2033,  1.8205
+AddTrackRoller = -1.20,  0.2033,  0.9101
+AddTrackRoller = -1.20,  0.2033,  0
+AddTrackRoller = -1.20,  0.2033,  -0.9105
+AddTrackRoller = -1.20,  0.2033,  -1.8209
+AddTrackRoller = -1.20,  0.2033,  -2.7314
+AddTrackRoller = -1.20,  0.52,  -3.5070
+
+AddTrackRoller = 1.20,  0.52,  3.7091
+AddTrackRoller = 1.20,  0.2033,  2.7310
+AddTrackRoller = 1.20,  0.2033,  1.8205
+AddTrackRoller = 1.20,  0.2033,  0.9101
+AddTrackRoller = 1.20,  0.2033,  0
+AddTrackRoller = 1.20,  0.2033,  -0.9105
+AddTrackRoller = 1.20,  0.2033,  -1.8209
+AddTrackRoller = 1.20,  0.2033,  -2.7314
+AddTrackRoller = 1.20,  0.52,  -3.5070
+
+
+AddWeapon = pion203mm,      0.00, 2.21, -3.1551,  0.0, 0.0, true,1, 0,0,0, -50, 0
+AddPartWeapon = pion203mm, false, true, false, 0.00, 2, -3.08, 0
+AddPartWeaponChild = false, true, 0.00, 2.24, -3.1605
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+ArmorMinDamage = 9
+ArmorMaxDamage = 250
+ArmorDamageFactor = 0.98
+
+MaxFuel         = 1200
+FuelConsumption = 3.0
+
+AddRecipe = "XIX",  "III",  "III",  X, iron_block,  I, iron_ingot
+
+BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
+BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
+BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25

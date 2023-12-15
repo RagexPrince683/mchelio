@@ -1,0 +1,50 @@
+DisplayName = Mersedes Benz EQC 400
+MaxHp = 12000
+ThrottleUpDown = 10.0
+Speed = 6
+MobilityYawOnGround = 10.0
+StepHeight = 1.2
+Sound = Inline-four
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.85
+HUD = bnr32_hud
+EnableNightVision = true
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+HideEntity = true
+CameraZoom = 8
+CameraPosition = 0.0, 1.7, 0.0, false
+CameraPosition = 0.0, 1.7, 0.0, true
+DefaultFreelook = true
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
+Category = C
+
+SetWheelPos =  0.76,  -0.29,  2.31, -1.49
+
+AddSeat =  0, 0.51, -0.4
+
+PartWheelRot = 60
+AddPartWheel = 1, 0.2017, 1.6745, 35
+AddPartWheel = -1, 0.2017, 1.6745, 35
+AddPartWheel = 1, 0.2017, -1.5019
+AddPartWheel = -1, 0.2017, -1.5019
+
+InventorySize = 9
+
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, gold_ingot, R, redstone
+
+AddFixedSearchLight =  0.7675, 0.7205, 2.3095,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,  -5,  0
+AddFixedSearchLight = -0.7675, 0.7205, 2.3095,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,  5,  0
+
+AddFixedSearchLight =  0.7369, 0.9092,-2.3967,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  0
+AddFixedSearchLight = -0.7369, 0.9092,-2.3967,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  0
+
+AddWeapon = drift,    -0.9138, 0.0, -1.6118,  0.0,0.0
+AddWeapon = drift,   0.9138, 0.0, -1.6118,  0.0,0.0

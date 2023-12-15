@@ -1,0 +1,19 @@
+DisplayName = 3M9 Rocket
+Type = AAMissile
+Power = 84
+Acceleration = 8
+Explosion = 6
+Flaming = false
+Sight = MissileSight
+Delay = 24
+ReloadTime = 110
+Round = 3
+LockTime = 12
+ProximityFuseDist = 1
+Sound = missile_1_snd
+
+MaxAmmo = 6
+SuppliedNum = 2
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  4, redstone

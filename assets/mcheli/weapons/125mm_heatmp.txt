@@ -1,0 +1,19 @@
+DisplayName = 125mm HEAT_MP
+Type = MachineGun2
+Power = 200
+ModelBullet = bullet105mm
+Acceleration = 8.0
+Explosion = 2
+ExplosionBlock = 2
+Flaming = false
+Sight = MoveSight
+Delay = 170
+ModeNum = 1
+SoundPitch = 0.5
+SoundVolume = 20
+Sound = cannon_1_snd
+
+MaxAmmo = 30
+SuppliedNum = 15
+Item =  3, iron_ingot
+Item =  2, gunpowder

@@ -1,0 +1,17 @@
+DisplayName = 9M119M ATGM
+Type = TVMissile
+Power = 250
+Acceleration = 2.0
+LockTime = 20
+Explosion = 2
+Flaming = true
+Sight = MoveSight
+Delay = 20
+ModelBullet = 9M119
+Sound = missile_2_snd
+
+MaxAmmo = 10
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

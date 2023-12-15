@@ -1,0 +1,60 @@
+DisplayName = Handley Page Victor B.2
+AddDisplayName = ja_JP, Handley Page Victor B.2
+ItemID = 28738
+MaxHp  = 700
+EnableNightVision  = true
+EnableEntityRadar  = true
+EnableEjectionSeat = true
+Speed = 1.0
+FlareType = 2
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 4800
+FuelConsumption = 2.0
+CameraPosition  = 0.0, 2.66, 3.78
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+AutoPilotRot = 0
+ThirdPersonDist = 24
+
+ThrottleUpDown = 0.5
+MobilityYaw = 0.5
+MobilityPitch = 0.5
+MobilityRoll = 0.3
+MinRotationPitch = -60
+MaxRotationPitch =  60
+MinRotationRoll  = -60
+MaxRotationRoll  =  60
+
+AddPartRotor =   -3.876,  2.418,  -2.411,   0, 0, 1
+AddBlade = 1,0,  -3.876,  2.418,  -2.411,   0, 0, 1
+AddPartRotor =   -2.978,  2.494,  -2.411,   0, 0, 1
+AddBlade = 1,0,  -2.978,  2.494,  -2.411,   0, 0, 1
+AddPartRotor =    2.73,  2.49,  -2.367,   0, 0, -1
+AddBlade = 1,0,   2.73,  2.49,  -2.367,   0, 0, -1
+AddPartRotor =    3.631,  2.416,  -2.367,   0, 0, -1
+AddBlade = 1,0,   3.631,  2.416,  -2.367,   0, 0, -1
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+HUD = plane, plane_gnr
+
+AddSeat       =  0.4279,  2.5,  2.411
+AddGunnerSeat = -0.4279,  2.5,  2.411, 0.0, 2.66, 3.78, true
+
+AddPartLG         =   0.00,  1.456,  -1.67,  1,0,0,  -90
+AddPartLG         =   0.00,  2.255, -8.032,  1,0,0,  -90
+AddPartSlideRotLG =   0.00,  2.1,  1.6223,  0.00, 0.00, 0.00, 1,0,0, 0
+
+
+AddWeapon = 250kg,   0.00,  1.80, -6.13,  0, 0 , true,  2
+AddWeapon = 250kg,   0.00,  1.80, -6.13,  0, 0 , true,  2
+
+BoundingBox =  0.0, 3.5, -1.8,  7.0, 4.0
+BoundingBox =  0.0, 3.5, -8.2,  7.0, 4.0
+BoundingBox =  0.0, 3.0,-14.8,  7.0, 2.0
+BoundingBox =  8.5, 3.2, -9.3, 10.0, 2.3
+BoundingBox = -8.5, 3.2, -9.3, 10.0, 2.3
+
+AddRecipe = "DDG",  "DGT",  "GTI",  I,iron_block, G,gold_block, D,diamond_block, T,tnt

@@ -1,0 +1,51 @@
+DisplayName = Lexus
+MaxHp = 360
+Speed = 4
+Sound = Inline-four
+MobilityYawOnGround = 10.0
+ThrottleUpDown = 10.0
+MinRotationPitch = 45
+MaxRotationPitch = 45
+MobilityRoll = 0
+Gravity = -0.15
+GravityInWater = 0.1
+DamageFactor = 0.8
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+EntityWidth = 0.7
+EntityHeight = 0.7
+
+HUD = bnr32_hud, none
+
+AddSeat =  0.4479,  -0.125, 0.4156
+AddSeat =  -0.4479,  -0.025, 0.4156
+
+EnableBack = true
+Category = C
+WeightType = Car
+
+PivotTurnThrottle = 0.1
+
+PartWheelRot = 50
+SetWheelPos =  1.3037,  -0.2,  1.9718, -2.0517
+AddPartSteeringWheel =  0.4165,  0.6482, 0.9421,  0, 0.3196, -1,   90
+AddPartWheel     =  0.9874,  0.0765, 1.9093, 30
+AddPartWheel     =  -0.9874,  0.0765, 1.9056, 30
+AddPartWheel     =  0.9874,  0.0765, -1.1436
+AddPartWheel     =  -0.9874,  0.0765, -1.1474
+
+AddFixedSearchLight =  0.7996, 0.5278, 2.5108,   0x50FFFFFF,   0x00FFFFC0,    0.125, 0.65, 0, 7
+AddFixedSearchLight =  -0.7996, 0.5278, 2.5108,   0x50FFFFFF,   0x00FFFFC0,    0.125, 0.65, 0, 7
+
+AddFixedSearchLight =  0.8044, 0.568,-2.2996,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  200.0,  0
+AddFixedSearchLight = -0.8044, 0.568,-2.2996,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  200.0,  0
+AddFixedSearchLight =  0.6595, 0.568,-2.2996,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  200.0,  0
+AddFixedSearchLight = -0.6595, 0.568,-2.2996,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  200.0,  0
+
+MaxFuel         = 1000
+FuelConsumption = 2
+
+AddWeapon = drift,    0.9283, 0.0, -1.44,  0.0,0.0
+AddWeapon = drift,   -0.9283, 0.0, -1.44,  0.0,0.0
+
+StepHeight = 1.5

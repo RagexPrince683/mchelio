@@ -1,0 +1,63 @@
+DisplayName = MiG-21PF Fishbed
+AddDisplayName = en_US, MiG-21PF Fishbed
+AddDisplayName = ko_KR, 미그-21PF 피쉬베드
+ItemID = 40012
+MaxHp = 180
+Speed = 1.1
+Sound = fighter_jet
+ThrottleUpDown = 0.7
+MaxFuel = 1000
+FuelConsumption = 1.0
+FlareType = 4
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+EnableSeaSurfaceParticle = true
+ParticlesScale = 0.7
+ThirdPersonDist = 17
+Category = M.F
+
+AddSeat = 0.00, 1.50, 1.40
+AddPartCanopy = -0.46, 2.336, 1.608,  0,0,1, 70
+HUD = plane
+
+EntityHeight = 0.9
+EntityWidth = 0.9
+
+MobilityYaw = 1.5
+MobilityPitch = 1.5
+MobilityRoll = 2.5
+;OnGroundPitch = 1
+
+AddPartLG =  0.0, 0.95, 2.71,  -1,0,0, 110
+AddPartLG =  1.8, 1.40, -3.0,  0,0,-1, 90
+AddPartLG = -1.8, 1.40, -3.0,  0,0,1, 90
+
+;WEAPON_COUNT
+AddPartWeaponMissile = k-13,  false, false, false,  3.369, 0.878, 3.968
+AddPartWeaponMissile = k-13,  false, false, false,  -3.369, 0.878, 3.968
+AddPartWeaponMissile = k-13,  false, false, false,  0.241, 0.918, -2.842
+AddPartWeaponMissile = k-13,  false, false, false,  -0.241, 0.918, -2.842
+
+AddPartWeaponMissile = droptank, false, false, false, 0.0, 0.246, -1.74
+
+;WEAPON
+AddWeapon = gsh-23l, 0.3, 0.75, 1.6, 0.0, -0.5
+AddWeapon = gsh-23l, -0.3, 0.75, 1.6, 0.0, -0.5
+
+AddWeapon = k-13,   3.369, 0.878, 3.968,   1.0, 0.0
+AddWeapon = k-13,  -3.369, 0.878, 3.968,   -1.0, 0.0
+AddWeapon = k-13,   0.241, 0.918, -2.842,   1.0, 0.0
+AddWeapon = k-13,  -0.241, 0.918, -2.842,   -1.0, 0.0
+
+;AddWeapon = droptank, 0.0, 0.246, -1.74,  0.0, 0.0
+
+BoundingBox =  0.00, 1.85, 1.3,  2.0, 2.2
+BoundingBox =  0.00, 1.7, -1.5,  2.0, 2.0
+BoundingBox =  0.00, 1.6, -4.0,  2.0, 2.0
+BoundingBox =  0.00, 1.6, -6.5,  2.0, 2.0
+
+BoundingBox = 2.4, 1.5, -3.5, 2.0, 1.0
+BoundingBox = -2.4, 1.5, -3.5, 2.0, 1.0
+
+;AddRecipe = " YX",  "XXP",  "X X",  X, iron_block, Y, glass, P, iron_ingot

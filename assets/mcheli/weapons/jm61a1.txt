@@ -1,0 +1,29 @@
+DisplayName = JM61A1 20mm‹@ŠÖ–C
+Type = MachineGun2
+ModelBullet = bullet
+Power = 20
+Acceleration = 51.0
+Explosion = 1
+ExplosionBlock = 1
+Flaming = false
+Sight = MoveSight
+Delay = 0
+SoundDelay = 3
+SoundPitch = 0.3
+SoundVolume = 2.5
+HeatCount = 1
+MaxHeatCount = 150
+Sound = gun_l2_snd
+Accuracy = 1.0
+ModeNum = 2
+
+AddMuzzleFlash  =  0.0,             0.10,   1,        140,254,219,184
+AddMuzzleFlash  =  0.1,             0.10,   1,        170,254,219,154
+AddMuzzleFlashSmoke  =  0.0,             1,       2.0,    0.5,  15,      150,250,245,240
+AddMuzzleFlashSmoke  =  0.3,             1,       2.0,    0.5,  15,      180,250,245,240
+AddMuzzleFlashSmoke  =  0.5,             1,       2.0,    0.5,  15,      180,250,245,240
+
+MaxAmmo = 512
+SuppliedNum = 128
+Item =  3, iron_ingot
+Item =  3, gunpowder

@@ -1,0 +1,58 @@
+DisplayName = Land Rover Series 3
+MaxHp = 120
+ThrottleUpDown = 10.0
+Speed = 0.6
+MobilityYawOnGround = 6.0
+StepHeight = 1.5
+Sound = simpe_engine
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.85
+EnableNightVision = false
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+ThirdPersonDist = 4
+DefaultFreelook = true
+
+OnGroundPitchFactor = 10.0
+OnGroundRollFactor  = 4.8
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+EnableBack = true
+
+Category = C
+
+WeightType = Car
+
+AddTexture = land-rover_series-3_2
+AddTexture = land-rover_series-3_3
+AddTexture = land-rover_series-3_4
+
+HUD =  none, none
+
+EntityWidth  = 0.8
+EntityHeight = 0.8
+
+AddSeat =  0.5547,  0.20, 0.2386
+AddSeat = -0.5547,  0.30, 0.2386
+
+AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
+
+PivotTurnThrottle = 0.1
+
+PartWheelRot = 25
+
+AddPartWheel     =  0.7316,   0.0744,  1.8119, 35
+AddPartWheel     = -0.7316,   0.0744,  1.8119, 35
+AddPartWheel     =  0.7316,   0.0744, -1.3130
+AddPartWheel     = -0.7316,   0.0744, -1.3130
+
+InventorySize = 1
+
+
+AddPartSteeringWheel =  0.5216,  1.0828,  0.5411,  0, 0.600, -1,  130

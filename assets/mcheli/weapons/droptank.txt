@@ -1,0 +1,18 @@
+DisplayName = Drop Tank
+Type = Bomb
+Power = 10
+Acceleration = 0.1
+Explosion = 0
+ExplosionInWater = 0
+Flaming = true
+Sight = None
+Delay = 5
+Sound = bomb_snd
+ModelBullet = droptank
+
+ReloadTime = 2000
+Round = 1
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot

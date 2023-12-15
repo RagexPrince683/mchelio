@@ -1,0 +1,72 @@
+DisplayName = T-55
+;ru_RU сделано специально для группы мастерская W&K - ,подписывайтесь!
+;en_EN made specifically for the W&K workshop group - ,subscribe!
+MaxHp = 228
+Speed = 0.58
+Sound = tank_gte
+ThrottleUpDown = 20.0
+MobilityYawOnGround = 4.0
+MinRotationPitch = -30
+MaxRotationPitch = 5
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 2
+CameraPosition = 0.00,  3.10, 0, true
+CameraRotationSpeed = 35
+MaxFuel         = 900
+FuelConsumption = 2
+StepHeight = 1.5
+DefaultFreelook = true
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.3
+SubmergedDamageHeight = 3
+HideEntity = true
+WeightType = Unknown
+SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+HUD = mbt_hud, mbt_gnr
+FlareType = 10
+ThirdPersonDist = 10
+AddGunnerSeat =  0.00,  1.9,  0,    0.00,  1.9,  0,  false, -30, 5, true
+
+MotionFactor = 0.925
+ArmorMinDamage = 8
+ArmorMaxDamage = 250
+ArmorDamageFactor = 0.975
+EnableBack = true
+PivotTurnThrottle = 0.0
+
+AddCrawlerTrack = true, 0.18, -2.09,  -0.31/2.35, -0.2866/2.5234, -0.2103/2.6706, 0.354/3.6068, 0.4036/3.6953, 0.476/3.7717, 0.5714/3.819, 0.6743/3.8365, 0.7773/3.819, 0.8726/3.7717, 0.9489/3.6953, 0.9946/3.6068, 1.0137/3.5010, 1.0938/-3.5359, 1.048/-3.742, 0.9145/-3.9069, 0.7239/-4.0011, 0.5103/-4.011, 0.3197/-3.9069, 0.1862/-3.742, -0.1837/-2.9117, -0.2599/-2.7586, -0.2866/-2.5938
+AddCrawlerTrack = true, 0.18, 2.09,  -0.31/2.35, -0.2866/2.5234, -0.2103/2.6706, 0.354/3.6068, 0.4036/3.6953, 0.476/3.7717, 0.5714/3.819, 0.6743/3.8365, 0.7773/3.819, 0.8726/3.7717, 0.9489/3.6953, 0.9946/3.6068, 1.0137/3.5010, 1.0938/-3.5359, 1.048/-3.742, 0.9145/-3.9069, 0.7239/-4.0011, 0.5103/-4.011, 0.3197/-3.9069, 0.1862/-3.742, -0.1837/-2.9117, -0.2599/-2.7586, -0.2866/-2.5938
+
+AddTrackRoller = -2.06,  0.6743,  3.5009
+AddTrackRoller = -2.06,  0.232,  2.3524
+AddTrackRoller = -2.06,  0.232,  0.839
+AddTrackRoller = -2.06,  0.232,  -0.3033
+AddTrackRoller = -2.06,  0.232,  -1.4398
+AddTrackRoller = -2.06,  0.2587,  -2.594
+AddTrackRoller = -2.06,  0.6171,  -3.5363
+
+AddTrackRoller = 2.06,  0.6743,  3.5009
+AddTrackRoller = 2.06,  0.232,  2.3524
+AddTrackRoller = 2.06,  0.232,  0.839
+AddTrackRoller = 2.06,  0.232,  -0.3033
+AddTrackRoller = 2.06,  0.232,  -1.4398
+AddTrackRoller = 2.06,  0.2587,  -2.594
+AddTrackRoller = 2.06,  0.6171,  -3.5363
+
+
+AddPartWeapon = D10_APFSDS / D10_HE / D10_HEATMP, false, true, false,  0.00, 1.52, 0.00, 0
+AddPartWeaponChild = false, true, 0.00, 1.8221, 1.7149, 0.0
+AddPartWeaponChild = false, true, 0.00, 1.8221, 1.7149, 0.45
+AddTurretWeapon = D10_APFSDS, 0.00, 1.9241, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddTurretWeapon = D10_HE,     0.00, 1.9241, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddTurretWeapon = D10_HEATMP,     0.00, 1.9241, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddTurretWeapon = mg7_62mm_mbt,   -0.3, 1.9241, 0,   0.0, 0.0, true, 1, 0, -360,360, -14,5
+AddRecipe = "III",  "IXI",  "XXX",  X, iron_block,  I, iron_ingot
+
+BoundingBox =  0.0, 0.6,  2.4,   3.7, 1.8,  0.70
+BoundingBox = -0.9, 1.2,  0.0,  2.4, 2.7,  0.70
+BoundingBox =  0.9, 1.2,  0.0,  2.4, 2.7,  0.70
+BoundingBox =  0.0, 1.2, -2.5,   3.5, 2.0,  1.25

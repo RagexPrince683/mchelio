@@ -1,0 +1,91 @@
+DisplayName = BTR-4-E Bucefal
+AddDisplayName = ua_UA BTR-4 E Bucefal
+AddDisplayName = en_EN BTR-4 E Bucefal
+ItemID = 191919
+MaxHp = 400
+Speed = 0.8
+Sound = vehicle_run
+ThrottleUpDown = 10.0
+MinRotationPitch = -50
+MaxRotationPitch =  20
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = 0.0
+DamageFactor = 0.8
+EnableNightVision = true
+DefaultFreelook = true
+CameraRotationSpeed = 40
+FlareType = 10
+SubmergedDamageHeight = 4
+OnGroundPitchFactor = 3.0
+OnGroundRollFactor  = 3.0
+CameraPosition = 0.50, 4.0, -1.43, true
+HideEntity = false
+
+; Tank or Car or Unknown    
+WeightType = Tank
+
+MobilityYawOnGround = 3.0
+
+HUD = mbt_hud
+
+AddSeat =  1.08,  0.80, 3.68
+AddSeat =  -0.11,  0.80, 3.68
+AddSeat =  -0.37,  0.80, -3.38
+AddSeat =  -0.37,  0.80, -2.96
+AddSeat =  -0.37,  0.80, -1.96
+AddSeat =  -0.37,  0.80, -1.21
+AddSeat =  1.32,  0.80, -3.38
+AddSeat =  1.32,  0.80, -2.96
+AddSeat =  1.32,  0.80, -1.96
+AddSeat =  1.32,  0.80, -1.21
+
+MotionFactor = 0.9
+
+SetWheelPos =  1.75,  -0.24,  3.02, 1.44, -1.54, -2.91
+
+AddPartWheel     =   2.21,  0.40,  -2.66
+AddPartWheel     =   2.21,  0.38,  -0.87
+AddPartWheel     =   2.21,  0.38,  1.37, 30
+AddPartWheel     =   2.21,  0.38,  3.18, 40
+AddPartWheel     =   -1.17,  0.40,  -2.66
+AddPartWheel     =   -1.17,  0.38,  -0.87
+AddPartWheel     =   -1.17,  0.38,  1.37, 30
+AddPartWheel     =   -1.17,  0.38,  3.10, 40
+
+AddPartCanopy   =  1.75, 1.62, 4.47,  0, 1, 0,  -37
+AddPartCanopy   = -0.71, 1.74, 4.36,  0, 1, 0,  37
+
+AddPartHatch =   -0.53, 1.57, -4.36, 0.0, 1.0, 0.0, 60
+AddPartHatch =   1.57, 1.57, -4.36, 0.0, 1.0, 0.0, -60
+
+AddWeapon = kba-2_30mmAPDS,  0.50, 3.29, -1.24,  0.48, -1.32, true,1, 0,-360,360, -7, 7
+AddWeapon = kba-2_30mmHEI,   0.50, 3.29, -1.24,  0.0, 0.0, true,1, 0,-360,360, -7, 7
+AddWeapon = barier,          0.37, 3.18, -1.24,  0.0, 0.0, true,1, 0,-360,360, -7, 7
+AddWeapon = 7.62mm,          0.83, 3.37, -1.24,  0.0, 0.0, true,1, 0,-360,360, -7, 7
+AddWeapon = ags-17,          0.37, 3.18, -1.24,  0.0, 0.0, true,1, 0,-360,360, -7, 7
+
+AddPartWeapon = kba-2_30mmAPDS, true, true, false,  0.51, 2.49, -1.32, 0
+AddPartWeaponChild = false, true, 0.07, 3.30, 0.04, 0
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+ArmorMinDamage = 10
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+ArmorMaxDamage = 350
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+ArmorDamageFactor = 1.00
+
+MaxFuel         = 1200
+FuelConsumption = 2.0
+
+BoundingBox =  0.40, 2.64, 0.0,  3.10, 2.01
+BoundingBox =  0.40, 0.79, -1.75, 3.10, 2.01
+BoundingBox =  0.40, 0.79, 2.26, 3.10, 2.01
+
+StepHeight = 1.5
+
+AddRecipe = "TBT",  "TXT",  "IDI",  T, tnt_minecart, B, bow, X, dispenser, I, iron_ingot, D, diamond

@@ -1,0 +1,71 @@
+DisplayName = MC-130 Combatalon
+AddDisplayName = ja_JP, MC-130 Combatalon
+ItemID = 28713
+MaxHp = 800
+Speed = 0.8
+Sound = turboprop
+ThrottleUpDown = 0.3
+AutoPilotRot = -0.60
+CameraPosition = 2.0, 1.40, -4.0
+EnableNightVision = true
+EnableEntityRadar = true
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+FlareType = 2
+InventorySize = 18
+MaxFuel         = 4800
+FuelConsumption = 2.0
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+ThirdPersonDist = 28
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+HUD = plane, plane_gnr, plane_gnr, none, none, none, none
+
+MobilityYaw = 0.4
+MobilityPitch = 0.4
+MobilityRoll = 0.2
+MinRotationPitch = -60
+MaxRotationPitch =  60
+MinRotationRoll  = -60
+MaxRotationRoll  =  60
+
+AddSeat =  0.5355,  2.188,  3.446
+AddSeat = -0.5355,  2.188,  3.446
+AddGunnerSeat =  0.00,  1.00,-7.50
+AddGunnerSeat =  0.00,  1.00,-2.50
+
+
+AddPartLG =  0.00, 1.19,  0.37,  -1,0,0, 30
+AddPartLG =  0.00, 0.5167, -7.980,  1,0,0, -50
+AddPartLG =  0.00, 0.5167, -7.980,  1,0,0, -50
+
+AddPartRotor =   -9.002,  3.818,  -2.24,   0, 0, 1
+AddBlade = 1,0, -9.002,  3.818,  -2.24,   0, 0, 1
+AddPartRotor =  -4.481,  3.61,  -2.24,   0, 0, 1
+AddBlade = 1,0,-4.481,  3.61,  -2.24,   0, 0, 1
+AddPartRotor =   4.481,  3.61,  -2.24,   0, 0, -1
+AddBlade = 1,0, 4.481,  3.61,  -2.24,   0, 0, -1
+AddPartRotor =  9.002,  3.818,  -2.24,   0, 0, -1
+AddBlade = 1,0,9.002,  3.818,  -2.24,   0, 0, -1
+
+AddPartHatch =   0.00, 0.8398, -10.27, -1, 0,0, 30
+AddPartHatch =   0.00, 3.204, -16.04, -1, 0,0, 48
+
+AddPartWeaponMissile = MOAB,    false,  false,  false,  0.00, 2.31, -5.345
+
+AddWeapon = MOAB,  0.00, 0.8398, -10.27,  0.0, -3.0
+
+AddRecipe = "ISI",  "GDC",  "IRI",  I,iron_block, S,stone, G,gunpowder, D,diamond_block, C,chest, R,glass
+
+
+BoundingBox =  0.00, 2.60,  -1.60,  4.0, 4.0
+BoundingBox =  0.00, 2.60,  -6.60,  4.0, 4.0
+BoundingBox =  0.00, 2.60, -11.60,  4.0, 4.0
+BoundingBox = -4.92, 4.00,  -6.60,  4.0, 1.0
+BoundingBox =  4.92, 4.00,  -6.60,  4.0, 1.0
+
+; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute alt
+AddRack = container,   0.0, 1.4, -4.7,  0.0, 0.0, -16.1,  8.0,    20.0

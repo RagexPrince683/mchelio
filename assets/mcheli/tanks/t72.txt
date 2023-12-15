@@ -1,0 +1,83 @@
+DisplayName = T-72A
+MaxHp = 280
+Speed = 0.6
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = true
+CameraRotationSpeed = 30
+StepHeight = 1.7
+MinRotationPitch = -14
+MaxRotationPitch = 5
+DefaultFreelook = true
+HideEntity = true
+FlareType = 10
+
+MobilityYawOnGround = 3.0
+
+HUD = mbt_hud
+
+
+SubmergedDamageHeight = 3
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+
+HideEntity = true
+WeightType = Unknown
+
+
+SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
+
+AddSeat =  0.00, 1.58, 0.44
+
+AddCrawlerTrack = true, 0.17, -2.18,  -0.25/3.2, -0.13/3.42, 0.43/4.39, 0.54/4.54, 0.72/4.6, 0.9/4.54, 1/4.3886, 1.05/-2.934, 0.973/-3.15, 0.817/-3.33, 0.59/-3.41, 0.3585/-3.34, 0.19/-3.156, -0.156/-2.2456, -0.25/-2.015
+AddCrawlerTrack = true, 0.17, 2.18,  -0.25/3.2, -0.13/3.42, 0.43/4.39, 0.54/4.54, 0.72/4.6, 0.9/4.54, 1/4.3886, 1.05/-2.934, 0.973/-3.15, 0.817/-3.33, 0.59/-3.41, 0.3585/-3.34, 0.19/-3.156, -0.156/-2.2456, -0.25/-2.015
+
+
+AddTrackRoller = -1.98,  0.72,  4.29725
+AddTrackRoller = -1.98,  0.215,  3.09
+AddTrackRoller = -1.98,  0.215,  2.08
+AddTrackRoller = -1.98,  0.215,  1.068
+AddTrackRoller = -1.98,  0.215,  0.07
+AddTrackRoller = -1.98,  0.215,  -0.94
+AddTrackRoller = -1.98,  0.215,  -1.95
+AddTrackRoller = -1.98,  0.584,  -2.927
+
+AddTrackRoller = 1.98,  0.72,  4.29725
+AddTrackRoller = 1.98,  0.215,  3.09
+AddTrackRoller = 1.98,  0.215,  2.08
+AddTrackRoller = 1.98,  0.215,  1.068
+AddTrackRoller = 1.98,  0.215,  0.07
+AddTrackRoller = 1.98,  0.215,  -0.94
+AddTrackRoller = 1.98,  0.215,  -1.95
+AddTrackRoller = 1.98,  0.584,  -2.927
+
+
+
+AddWeapon = 2A46_APFSDS,  0.00, 1.7254, 0.2135,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddWeapon = 2A46_HEATMP,  0.00, 1.7254, 0.2135,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddWeapon = 2A46_HE,      0.00, 1.7254, 0.2135,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddWeapon = mg_coaxial,      0.00, 1.7254, 0.2135,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddPartWeapon = 2A46_APFSDS / 2A46_HEATMP / 2A46M_HE, false, true, false,  0.00, 1.4375, 0.2135, 0
+AddPartWeaponChild = false, true, 0.00, 1.70, 1.1937
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+ArmorMinDamage = 9
+ArmorMaxDamage = 250
+ArmorDamageFactor = 0.98
+
+MaxFuel         = 1200
+FuelConsumption = 2.0
+
+AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot
+
+BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
+BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
+BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25

@@ -1,0 +1,19 @@
+DisplayName = DT-29 [7.62mm]
+Type = MachineGun2
+Power = 7
+Acceleration = 8.0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 0.6
+SoundPitch = 1.0
+Sound = gun_h1_snd
+Accuracy = 0.7
+HeatCount = 3
+MaxHeatCount = 126
+Round = 63
+
+MaxAmmo = 3528
+SuppliedNum = 441
+Item =  1, iron_ingot
+Item =  2, gunpowder

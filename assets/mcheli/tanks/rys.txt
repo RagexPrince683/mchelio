@@ -1,0 +1,76 @@
+DisplayName = BMRK "Lynx"
+MaxHp = 220
+Speed = 0.65
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = false
+CameraRotationSpeed = 30
+StepHeight = 1
+MinRotationPitch = -20
+MaxRotationPitch = 5
+DefaultFreelook = false
+HideEntity = true
+CameraPosition = 0.0, 2.1335, 0, false
+FlareType = 10
+AddTexture = rys_1
+
+MobilityYawOnGround = 3.0
+
+HUD = mbt_hud
+
+SubmergedDamageHeight = 3
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+WeightType = Unknown
+
+SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
+
+AddGunnerSeat =  0.0, 1.57, 0.0, 0.0, 2.1335, 0, false, -20, 5
+
+AddCrawlerTrack = true, 0.23, -1.40, -0.15/1.54,  -0.15/-2.55, 0.15/-3.42, 0.245/-3.56, 0.4/-3.64, 0.52/-3.64, 0.72/-3.56, 0.82/-3.42, 0.84/-3.25, 0.93/2.38, 0.88/2.55, 0.74/2.65, 0.56/2.65, 0.42/2.5464, -0.04/1.7
+AddCrawlerTrack = true, 0.23,  1.40,  -0.15/1.54,  -0.15/-2.55, 0.15/-3.42, 0.245/-3.56, 0.4/-3.64, 0.52/-3.64, 0.72/-3.56, 0.82/-3.42, 0.84/-3.25, 0.93/2.38, 0.88/2.55, 0.74/2.65, 0.56/2.65, 0.42/2.5464, -0.04/1.7
+
+AddTrackRoller = -1.0,  0.6525,  2.38
+AddTrackRoller = -1.12,  0.1396,  1.442
+AddTrackRoller = -1.12,  0.1396,  0.7063
+AddTrackRoller = -1.12,  0.1396,  -0.2057
+AddTrackRoller = -1.12,  0.1396,  -0.9634
+AddTrackRoller = -1.12,  0.1396,  -1.64
+AddTrackRoller = -1.12,  0.1396,  -2.4626
+AddTrackRoller = -1.00,  0.4840,  -3.2931
+
+AddTrackRoller = 1.0,  0.6525,  2.38
+AddTrackRoller = 1.13,  0.1396,  1.442
+AddTrackRoller = 1.13,  0.1396,  0.7063
+AddTrackRoller = 1.13,  0.1396,  -0.2057
+AddTrackRoller = 1.13,  0.1396,  -0.9634
+AddTrackRoller = 1.13,  0.1396,  -1.64
+AddTrackRoller = 1.13,  0.1396,  -2.4626
+AddTrackRoller = 1.00,  0.4840,  -3.2931
+
+AddWeapon = mg30mm,      0.00, 1.7555, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
+AddWeapon = mg7_62mm,      0.14, 1.7440, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
+AddWeapon = 9k118tv, -1.04, 1.77, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
+AddWeapon = 9k118tv, -1.04, 1.94, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
+AddWeapon = 9k118tv, 1.13, 1.77, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
+AddWeapon = 9k118tv, 1.13, 1.94, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
+AddPartWeapon = mg30mm / mg7_62mm / 9k118tv, false, true, false, 0.00, 1.5964, 0, 0
+AddPartWeaponChild = false, true, 0.00, 1.7589, 0.7205
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+MaxFuel         = 1200
+FuelConsumption = 3.0
+
+AddRecipe = "XIX",  "III",  "III",  X, iron_block,  I, iron_ingot
+
+BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
+BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
+BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25

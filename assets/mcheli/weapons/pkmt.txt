@@ -1,0 +1,19 @@
+DisplayName = 7.62mm "Kalashnikov" Machine gun
+AddDisplayName = ru_RU, 7.62 мм пулемет Калашникова танковый модернизированный
+Type = MachineGun2
+Power = 8
+Acceleration = 8.0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 0.6
+SoundPitch = 1.0
+Sound = gun_h1_snd
+Accuracy = 0.7
+HeatCount = 4
+MaxHeatCount = 160
+
+MaxAmmo = 1000
+SuppliedNum = 250
+Item =  2, iron_ingot
+Item =  2, gunpowder

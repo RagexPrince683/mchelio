@@ -1,0 +1,51 @@
+DisplayName = ARVO VULCAN XH558 B.2
+AddDisplayName = ja_JP, ARVO VULCAN XH558 B.2
+ItemID = 28738
+MaxHp  = 652
+EnableNightVision  = true
+EnableEntityRadar  = true
+EnableEjectionSeat = true
+Speed = 1.1
+FlareType = 2
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 4800
+FuelConsumption = 2.0
+CameraPosition  = 0.0, 2.66, 3.78
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+AutoPilotRot = 0
+ThirdPersonDist = 24
+
+ThrottleUpDown = 0.5
+MobilityYaw = 0.5
+MobilityPitch = 0.5
+MobilityRoll = 0.3
+MinRotationPitch = -60
+MaxRotationPitch =  60
+MinRotationRoll  = -60
+MaxRotationRoll  =  60
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+HUD = plane, plane_gnr
+
+AddSeat =  0.5127,  4.339,  8.12
+AddSeat = -0.5127,  4.339,  8.12
+
+AddPartLG         =   0.00,  3.511,  2.499,  1,0,0,  90
+AddPartLG         =   0.00,  3.721, -8.3,  1,0,0,   -100
+AddPartSlideRotLG =   0.00,  3.1947,  4.56,  0.00, 0.00, 0.00, 1,0,0, 0
+
+
+AddWeapon = 1000lbxh558,   0.00,  1.80, -6.13,  0, 0 , true,  2
+AddWeapon = 1000lbxh558,   0.00,  1.80, -6.13,  0, 0 , true,  2
+
+BoundingBox =  0.0, 3.5, -1.8,  7.0, 4.0
+BoundingBox =  0.0, 3.5, -8.2,  7.0, 4.0
+BoundingBox =  0.0, 3.0,-14.8,  7.0, 2.0
+BoundingBox =  8.5, 3.2, -9.3, 10.0, 2.3
+BoundingBox = -8.5, 3.2, -9.3, 10.0, 2.3
+
+AddRecipe = "DDG",  "DGT",  "GTI",  I,iron_block, G,gold_block, D,diamond_block, T,tnt

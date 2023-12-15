@@ -1,0 +1,80 @@
+DisplayName = 2S3 "Akacia"
+MaxHp = 180
+Speed = 0.6
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = true
+CameraRotationSpeed = 30
+StepHeight = 1.7
+MinRotationPitch = -40
+MaxRotationPitch = 0
+DefaultFreelook = true
+HideEntity = true
+FlareType = 10
+CameraPosition = 0.0, 3.5, -2.4578
+
+MobilityYawOnGround = 3.0
+
+HUD = mbt_hud, mbt_gnr
+
+SubmergedDamageHeight = 3
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+
+HideEntity = true
+
+WeightType = Unknown
+
+SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
+
+AddSeat =  0.00, 1.67, -2.12
+
+AddCrawlerTrack = true, 0.28, -2.0440,  -0.26/2.5051, -0.27/-3.73, 0.22/-4.99, 0.35/-5.1225, 0.53/-5.17, 0.71/-5.1225, 0.84/-4.99, 0.89/-4.81, 0.9867/4.0454, 0.92/4.20, 0.8/4.32, 0.65/4.3856, 0.48/4.386, 0.3238/4.32, 0.2044/4.2028
+AddCrawlerTrack = true, 0.28, 2.0440,  -0.26/2.5051, -0.27/-3.73, 0.22/-4.99, 0.35/-5.1225, 0.53/-5.17, 0.71/-5.1225, 0.84/-4.99, 0.89/-4.81, 0.9867/4.0454, 0.92/4.20, 0.8/4.32, 0.65/4.3856, 0.48/4.386, 0.3238/4.32, 0.2044/4.2028
+
+AddTrackRoller = -1.90, 0.57, 3.9620
+AddTrackRoller = -1.5076, 0.16, 2.5051
+AddTrackRoller = -1.5076, 0.16, 0.9286
+AddTrackRoller = -1.5076, 0.16, -0.5886
+AddTrackRoller = -1.5076, 0.16, -1.6157	
+AddTrackRoller = -1.5076, 0.16, -2.7027
+AddTrackRoller = -1.5076, 0.16, -3.73	
+AddTrackRoller = -1.4076, 0.53, -4.8102
+
+AddTrackRoller = 1.90, 0.57, 3.9620
+AddTrackRoller = 1.5076, 0.16, 2.5051
+AddTrackRoller = 1.5076, 0.16, 0.9286
+AddTrackRoller = 1.5076, 0.16, -0.5886
+AddTrackRoller = 1.5076, 0.16, -1.6157	
+AddTrackRoller = 1.5076, 0.16, -2.7027
+AddTrackRoller = 1.5076, 0.16, -3.73	
+AddTrackRoller = 1.4076, 0.53, -4.8102
+
+	
+
+AddWeapon = pion203mm,  0.00, 2.39, -1.8530,  0.0, 0.0, true,1, 0,-360,360, -40, 0
+AddPartWeapon = pion203mm, false, true, false,  0.00, 1.67, -1.8530
+AddPartWeaponChild = false, true, 0.00, 2.3669, -0.8024
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+ArmorMinDamage = 9
+ArmorMaxDamage = 250
+ArmorDamageFactor = 0.98
+
+MaxFuel         = 1000
+FuelConsumption = 2.0
+
+
+AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot
+
+BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
+BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
+BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25

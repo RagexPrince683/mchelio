@@ -1,0 +1,59 @@
+DisplayName = UAZ-469 with KPVT
+AddDisplayName = ru_RU, УАЗ-469 с КПВТ
+MaxHp = 100
+ThrottleUpDown = 10.0
+Speed = 0.575
+MobilityYawOnGround = 6.0
+StepHeight = 1.5
+Sound = prop
+MinRotationPitch = -90
+MaxRotationPitch = 45
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.85
+EnableNightVision = false
+MaxFuel           = 600
+FuelConsumption   = 1.0
+ThirdPersonDist = 4
+
+OnGroundPitchFactor = 15.0
+OnGroundRollFactor  = 5.2
+
+EnableBack = true
+Category = C
+
+WeightType = Unknown
+
+SetWheelPos =  0.78,  -0.24,  1.5797, -1.1969
+
+HUD = bnr32_hud, none, gunner
+
+AddSeat =  0.5379, 0.5714, 0.1562
+AddSeat =  -0.5379, 0.6714, 0.1562
+AddGunnerSeat =  0,  0.7714,  -1.40,    0.00,  2.43,  -1.7,  false, -90, 45, true
+
+PivotTurnThrottle = 0.1
+
+PartWheelRot = 40
+AddPartSteeringWheel =  0.5330,  1.2188,  0.6722,  0, 0.3196, -1,   100
+AddPartWeaponBay = kpvt,0,1.3149,0.9011, 1,0,0,80
+InventorySize = 27
+AddWeapon = kpvt,      0.00, 2.0642, -0.435,  0.0, 0, false,3, 0, -360,360, -35, 7
+AddPartWeapon = kpvt, false, true, false, 0.00, 1.8706, -0.435, 0
+AddPartWeaponChild = false, true, 0.00, 1.8706, -0.435, 0.0
+EntityWeidth = 0.875
+EntityHeight = 0.875
+
+AddRecipe = "IGI",  "III",  "III",   G, glass, I, iron_ingot, R, redstone
+
+AddFixedSearchLight =  0.6153, 0.9336, 2.209,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
+AddFixedSearchLight = -0.6153, 0.9336, 2.209,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25, -6.0,  0
+AddPartWheel     = 0.9475,  0.2383,  1.6023, 30
+AddPartWheel     =  -0.9498,  0.2383,  1.6023, 30
+AddPartWheel     = 0.9475,  0.2383,  -1.136
+AddPartWheel     =  -0.9498,  0.2383,  -1.136
+
+BoundingBox =  0.0, 0.5,  1,   2, 1,  1.1
+BoundingBox =  0.0, 0.5,  -1,   2, 1,  1.0
+

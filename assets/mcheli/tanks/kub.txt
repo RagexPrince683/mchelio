@@ -1,0 +1,82 @@
+DisplayName = 2K12 "Kub"
+MaxHp = 120
+Speed = 0.4
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = false
+CameraRotationSpeed = 30
+StepHeight = 1.5
+DefaultFreelook = true
+HideEntity = true
+CameraPosition = 0.0, 3, -3.73, false
+MinRotationPitch = -50
+MaxRotationPitch = 0
+
+MobilityYawOnGround = 3.0
+
+HUD = mbt_hud
+
+SubmergedDamageHeight = 3
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+
+HideEntity = true
+
+WeightType = Unknown
+
+SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
+
+AddSeat =  0.34, 0.6, 1.8843
+AddPartCanopy = 0.33, 1.39, 1.93, -1,0,0,  55
+
+AddCrawlerTrack = true, 0.17, -1.85,  -0.275/1.55, 0.15/2.38, 0.22/2.495, 0.33/2.56000, 0.58/2.495, 0.642/2.38, 0.61/-3.47, 0.54/-3.61000, 0.4/-3.68, 0.11/-3.61,  -0.275/-2.78, -0.275/1.35
+AddCrawlerTrack = true, 0.17, 1.85,  -0.275/1.55, 0.15/2.38, 0.22/2.495, 0.33/2.56000, 0.58/2.495, 0.642/2.38, 0.61/-3.47, 0.54/-3.61000, 0.4/-3.68, 0.11/-3.61, -0.275/-2.78, -0.275/1.35
+
+
+AddTrackRoller = -1.72, 0.3958, 2.3127
+AddTrackRoller = -1.73, 0.0976, 1.4486
+AddTrackRoller = -1.73, 0.0976, 0.5416
+AddTrackRoller = -1.73, 0.0976, -0.3367
+AddTrackRoller = -1.73, 0.0976, -1.108
+AddTrackRoller = -1.73, 0.0976, -1.8939
+AddTrackRoller = -1.73, 0.0976, -2.6811
+AddTrackRoller = -1.71, 0.3227, -3.3939
+
+AddTrackRoller = 1.72, 0.3958, 2.3127
+AddTrackRoller = 1.73, 0.0976, 1.4486
+AddTrackRoller = 1.73, 0.0976, 0.5416
+AddTrackRoller = 1.73, 0.0976, -0.3367
+AddTrackRoller = 1.73, 0.0976, -1.108
+AddTrackRoller = 1.73, 0.0976, -1.8939
+AddTrackRoller = 1.73, 0.0976, -2.6811
+AddTrackRoller = 1.71, 0.3227, -3.3939
+
+
+AddWeapon = 3m9,  1.1361, 3, -1.1342,  0.0, 0.0, true,1, 0,-360,360, -50, 0
+AddWeapon = 3m9,  0.00, 3, -1.1342,  0.0, 0.0, true,1, 0,-360,360, -50, 0
+AddWeapon = 3m9,  -1.1382, 3, -1.1342,  0.0, 0.0, true,1, 0,-360,360, -50, 0
+AddPartWeapon = 3m9, false, true, false,  0.00, 1.46, 0.16
+AddPartWeaponChild = false, true, 0.00, 1.9315, -1.2878
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+ArmorMinDamage = 9
+ArmorMaxDamage = 250
+ArmorDamageFactor = 0.98
+
+MaxFuel         = 1000
+FuelConsumption = 2.0
+
+
+AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot
+
+BoundingBox =  0.0, 1.0,  1.0,   4.0, 2.0,   0.75
+BoundingBox =  0.0, 2.5, -1,   3.0, 1.0,   1.00
+BoundingBox =  0.0, 1.0, -2,   4.0, 2.0,   1.25

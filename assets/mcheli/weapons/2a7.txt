@@ -1,0 +1,27 @@
+DisplayName = 2A7 23mm
+Type = MachineGun2
+ModelBullet = bullet
+Power = 12
+Acceleration = 8.0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+SoundDelay = 3
+SoundPitch = 1
+Accuracy = 3.0
+HeatCount = 1
+MaxHeatCount = 200
+Sound = gun_l1_snd
+ProximityFuseDist = 2.0
+SoundVolume = 10
+
+;AddMuzzleFlash      =  0,      0.62,        0,  150,254,159,84
+;AddMuzzleFlash      =  0,      0.61,        0,  150,254,230,160
+;AddMuzzleFlash      =  0,      0.60,        0,  150,254,219,184
+;AddMuzzleFlashSmoke =  0,  2,   7.0,  2.5, 15,  130,250,245,240
+AddMuzzleFlashSmoke =  0,  1,   6.0,  2.5, 25,  130,220,217,214
+
+MaxAmmo = 2000
+SuppliedNum = 400
+Item =  5, iron_ingot
+Item =  5, gunpowder

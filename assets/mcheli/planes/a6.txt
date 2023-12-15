@@ -1,0 +1,60 @@
+DisplayName = A-6 Intruder
+AddDisplayName = ja_JP, A-6 Intruder
+ItemID = 28740
+MaxHp = 235
+onGroundPitch = 5
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 0.95
+FlareType = 3
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 1500
+FuelConsumption = 1.0
+ThirdPersonDist = 20
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+AddTexture = a62
+AddTexture = a63
+AddTexture = a64
+
+HUD = plane
+
+AddSeat       = -0.528,  2.794,  -0.9981
+AddSeat       = 0.528,  2.794,  -0.9981
+
+AddPartWing  = -4.504, 3.23, -5.878,  0, 0, 1,  -170
+
+AddPartWing  = 4.504, 3.23, -5.878,  0, 0, 1,  160
+
+;Front
+AddPartLG    =  0.00, 1.74, 0.3636,  1,0,0, 105
+;Right
+AddPartLG    = -1.692, 2.494, -5.77,      1,0,0, -90,   0,1,0,  100
+;Left
+AddPartLG    =  1.692, 2.494, -5.77,      1,0,0, -90,   0,1,0, -100
+
+
+; 使用直後は非表示
+AddPartWeaponMissile = agm84a7,    false,  false,  false,   -4.192, 2.135, -4.988
+AddPartWeaponMissile = agm84a7,    false,  false,  false,    4.192, 2.135, -4.988
+AddPartWeaponMissile = agm84a7,    false,  false,  false,   -2.814, 1.966, -4.623
+AddPartWeaponMissile = agm84a7,    false,  false,  false,    2.814, 1.966, -4.623
+
+AddWeapon = agm84a7,    -4.192, 2.135, -4.988,   0.0, 0.0
+AddWeapon = agm84a7,     4.192, 2.135, -4.988,   0.0, 0.0
+AddWeapon = agm84a7,    -2.814, 1.966, -4.623,   0.0, 0.0
+AddWeapon = agm84a7,     2.814, 1.966, -4.623,   0.0, 0.0
+
+AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  1
+
+AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt
+
+BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
+BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0
+BoundingBox = -2.92, 2.20, -9.60,  4.0, 1.0
+BoundingBox =  2.92, 2.20, -9.60,  4.0, 1.0
+BoundingBox =  0.00, 1.80, -11.8,  3.0, 1.5

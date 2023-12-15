@@ -1,0 +1,37 @@
+DisplayName = DR-01
+MaxHp = 15
+Speed = 0.5
+CameraPosition = 0.00, 1, 0.18
+SmallUAV = true
+Sound = vehicle_drive
+ParticlesScale = 0.2
+MaxFuel         = 120
+FuelConsumption = 0.1
+Stealth = 0.4
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityYawOnGround = 5.5
+ThrottleUpDown = 10.0
+StepHeight = 1.2
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = 0.1
+MotionFactor = 0.93
+EnableNightVision = true
+
+HUD = mbt_gnr
+WeightType = Unknown
+Category = C
+
+AddSeat =  0.0, 2.0, 0.0
+SetWheelPos =  0.30,  -0.32,  0.1262, -0.1262
+AddPartWheel = 0.30, -0.0245, 0.2525
+AddPartWheel = -0.30, -0.0245, 0.2525
+AddPartWheel = 0.30, -0.0245, -0.2525
+AddPartWheel = -0.30, -0.0245, -0.2525
+PartWheelRot = 40
+
+AddWeapon = c4, 0,0,0,  0,0, 
+AddWeapon = targeting_pod_pv30s, 0.00, 2, 0.00, 0.0, 0.0, true, 1, 0, -360, 360, -90, 90
+
+AddRecipe = "III",  "PRI",  "BGG",  I, iron_ingot,  R, redstone,  S, stick,  P, glass_pane,  B, Iron_Bars,  G, gunpowder

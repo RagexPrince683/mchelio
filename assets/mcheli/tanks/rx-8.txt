@@ -1,0 +1,59 @@
+DisplayName = Mazda RX-8
+MaxHp = 12000
+ThrottleUpDown = 10.0
+Speed = 5
+MobilityYawOnGround = 10.0
+StepHeight = 1.2
+Sound = m
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.85
+HUD = bnr32_hud, none
+EnableNightVision = true
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+CameraZoom = 8
+CameraPosition = -0.645, 1.4,  0.075, false
+CameraPosition = -0.645, 1.4,  0.075, true
+DefaultFreelook = true
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+EnableBack = true
+Category = C
+WeightType = Plane
+
+SetWheelPos =  0.76,  -0.29,  1.9563, -1.5413
+
+AddSeat =  -0.645, 0.2521 , 0.1
+AddSeat =  0.645, 0.2521 , 0.1
+
+PivotTurnThrottle = 1.0
+
+PartWheelRot = 60
+AddPartWheel = 1.36, 0.2249, 1.9563, 30
+AddPartWheel = -1.36, 0.2249, 1.9563, 30
+AddPartWheel = 1.36, 0.2249, -1.5413
+AddPartWheel = -1.36, 0.2249, -1.5413
+
+InventorySize = 9
+
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, gold_ingot, R, redstone
+AddPartSteeringWheel =  -0.6616,  0.8,  0.5426,  0, 0.3196, -1,   90
+AddPartSteeringWheel =  1.36, 0.2249, 1.9563,  0, 1, 0,   30
+AddPartSteeringWheel =  -1.36, 0.2249, 1.9563,  0, 1, 0,   30
+AddFixedSearchLight =  1.05, 0.7203, 2.6644,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
+AddFixedSearchLight =  0.855, 0.6903, 2.7544,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
+AddFixedSearchLight =  -1.05, 0.7203, 2.6644,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
+AddFixedSearchLight =  -0.855, 0.6903, 2.7544,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
+
+AddWeapon = drift, 1.2642, 0.0, -1.7811,  0.0,0.0
+AddWeapon = drift,   -1.2642, 0.0, -1.7811,  0.0,0.0
+

@@ -1,0 +1,80 @@
+DisplayName = Q-5D Fantan
+AddDisplayName = en_US, Q-5D Fantan
+AddDisplayName = ko_KR, Q-5D 판탄
+ItemID = 40016
+MaxHp = 170
+Speed = 1.05
+Sound = fighter_jet
+ThrottleUpDown = 0.7
+MaxFuel = 1000
+FuelConsumption = 1.0
+FlareType = 4
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+EnableSeaSurfaceParticle = true
+EnableGunnerMode = true
+CameraPosition = 0.0, 0.45, 2.0
+AutoPilotRot = 0.0
+ParticlesScale = 0.7
+ThirdPersonDist = 18
+
+Category = M.F
+
+AddSeat = 0.00, 1.43, 2.0
+AddPartCanopy = 0.0, 2.777, 1.315,  -1,0,0, 60
+HUD = plane
+AddTexture = q-5g
+
+EntityHeight = 0.8
+EntityWidth = 0.8
+
+MobilityYaw = 1.5
+MobilityPitch = 2.0
+MobilityRoll = 2.0
+OnGroundPitch = 2.5
+
+AddPartLG =  0.0, 0.90, 2.45,  -1,0,0, 123
+AddPartLG =  2.75, 1.40, -2.3,  0,0,-1, 93
+AddPartLG = -2.75, 1.40, -2.3,  0,0,1, 93
+
+;WEAPON_COUNT
+;AddPartWeaponMissile = droptank2,  false, false, false,  3.26, 0.748, -3.667
+;AddPartWeaponMissile = droptank2,  false, false, false, -3.26, 0.748, -3.667
+
+AddPartWeaponMissile = 150kg,  false, false, false,  0.31, 0.458, -0.18
+AddPartWeaponMissile = 150kg,  false, false, false, -0.31, 0.458, -0.18
+AddPartWeaponMissile = 150kg,  false, false, false,  0.31, 0.458, -3.22
+AddPartWeaponMissile = 150kg,  false, false, false, -0.31, 0.458, -3.22
+
+AddPartWeaponMissile = pl-2,  false, false, false,   4.515, 0.925, -4.13
+AddPartWeaponMissile = pl-2,  false, false, false,  -4.515, 0.925, -4.13
+
+;WEAPON
+AddWeapon = type23, 1.181, 1.580, 0.661, 0.5, -2.0
+AddWeapon = type23, -1.107, 1.580, 0.661, -0.5, -2.0
+
+AddWeapon = oro-57k,  2.274, 1.022, 0.0,   1.0, -1.0
+AddWeapon = oro-57k, -2.274, 1.022, 0.0,  -1.0, -1.0
+
+;AddWeapon = droptank2,  3.26, 0.748, -3.667,  0.0, 0.0
+;AddWeapon = droptank2, -3.26, 0.748, -3.667,  0.0, 0.0
+
+AddWeapon = 150kg,   0.31, 0.458, -0.18,  0.0, 0.0
+AddWeapon = 150kg,  -0.31, 0.458, -0.18,  0.0, 0.0
+AddWeapon = 150kg,   0.31, 0.458, -3.22,  0.0, 0.0
+AddWeapon = 150kg,  -0.31, 0.458, -3.22,  0.0, 0.0
+
+AddWeapon = pl-2,   4.515, 0.925, -4.13,   1.0, 0.0
+AddWeapon = pl-2,  -4.515, 0.925, -4.13,  -1.0, 0.0
+
+BoundingBox =  0.00, 1.8, 2.4,  2.0, 2.2
+BoundingBox =  0.00, 1.7, -0.0,  2.0, 2.0
+BoundingBox =  0.00, 1.6, -2.5,  2.0, 2.0
+BoundingBox =  0.00, 1.6, -5.0,  1.8, 1.8
+BoundingBox =  0.00, 1.6, -7.5,  1.8, 1.8
+
+BoundingBox = 2.4, 1.5, -3.0, 2.0, 0.7
+BoundingBox = -2.4, 1.5, -3.0, 2.0, 0.7
+
+;AddRecipe = " YX",  "XXP",  "X X",  X, iron_block, Y, glass, P, iron_ingot

@@ -1,0 +1,19 @@
+DisplayName = R.550 Magic AAM
+Type = AAMissile
+Power = 58
+Acceleration = 4
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 90
+LockTime = 12
+ProximityFuseDist = 1
+ModelBullet = aim9h
+Sound = missile_1_snd
+Round = 2
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

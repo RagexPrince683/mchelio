@@ -1,0 +1,18 @@
+DisplayName = RGM-109 Tomahawk
+Type = ASMissile
+Power = 600
+Acceleration = 1.5
+Explosion = 15
+Flaming = true
+Sight = MoveSight
+Delay = 150
+ModelBullet = rgm109
+Sound = missile_2_snd
+RigidityTime = 20
+DisableSmoke = true
+
+MaxAmmo = 16
+SuppliedNum = 8
+Item =  6, iron_ingot
+Item =  6, gunpowder
+Item =  6, redstone

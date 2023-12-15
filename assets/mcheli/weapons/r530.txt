@@ -1,0 +1,21 @@
+DisplayName = R.530 AAM
+Type = AAMissile
+Power = 55
+Acceleration = 5
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 9
+ReloadTime = 110
+Round = 1
+LockTime = 14
+ProximityFuseDist = 1
+ModelBullet = aim9lm
+Sound = missile_1_snd
+
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

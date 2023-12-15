@@ -1,0 +1,19 @@
+DisplayName = 100mm gun HEAT 
+Type = MachineGun2
+Power = 100
+ModelBullet = bullet105mm
+Acceleration = 8.0
+Explosion = 2
+ExplosionBlock = 2
+Flaming = false
+Sight = MoveSight
+Delay = 150
+ModeNum = 1
+SoundPitch = 0.5
+SoundVolume = 20
+Sound = cannon_1_snd
+
+MaxAmmo = 85
+SuppliedNum = 20
+Item =  3, iron_ingot
+Item =  2, gunpowder

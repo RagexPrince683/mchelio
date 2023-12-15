@@ -1,0 +1,64 @@
+DisplayName = 9K57 "Uragan"
+MaxHp = 100
+Speed = 0.3
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 2.0
+MobilityRoll = 0
+Gravity = -0.16
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 6
+EnableNightVision = true
+CameraRotationSpeed = 20
+EnableEntityRadar = true
+MaxFuel  = 1200
+FuelConsumption = 6.0
+CameraPosition = 0.00,  4.2, -7.92,true
+HideEntity = true
+EnableBack = true
+
+Category = M.A
+
+WeightType = Tank
+
+AddGunnerSeat =  0.00,  3, -7.92,   0.00, 3, -7.92,  false, -22, 3, true
+HUD = mbt_hud
+
+AddWeapon = uragan220mm,  0.97, 3, -3.33, 0.0, 0.0, true,  1 , 0, -360, 360, -22, 3
+AddWeapon = uragan220mm,  0.6, 3, -3.33, 0.0, 0.0, true,  1 , 0, -360, 360, -22, 3
+AddWeapon = uragan220mm,  0.21, 3, -3.33, 0.0, 0.0, true,  1 , 0, -360, 360, -22, 3
+AddWeapon = uragan220mm,  -0.1767, 3, -3.33, 0.0, 0.0, true,  1 , 0, -360, 360, -22, 3
+AddWeapon = uragan220mm,  -0.5632, 3, -3.33, 0.0, 0.0, true,  1 , 0, -360, 360, -22, 3
+AddWeapon = uragan220mm,  -0.94, 3, -3.33, 0.0, 0.0, true,  1 , 0, -360, 360, -22, 3
+AddPartWeapon 		= uragan220mm, false, true, false, 0.00, 1.73, -2.5459
+AddPartWeaponChild = false, true, 0.00, 2.5587, -3.339
+
+AddPartWheel =   1.83, 0.5, 3.8615, 20
+AddPartWheel =   -1.83, 0.5, 3.8615, 20
+AddPartWheel =   1.83, 0.5, 0.7531
+AddPartWheel =   -1.83, 0.5, 0.7531
+AddPartWheel =   1.83, 0.5, -1.2087
+AddPartWheel =   -1.83, 0.5, -1.2087 
+AddPartWheel =   1.83, 0.5, -4.3026
+AddPartWheel =   -1.83, 0.5, -4.3026
+PartWheelRot = 25
+
+ArmorMinDamage = 4
+ArmorMaxDamage = 500
+ArmorDamageFactor = 1.00
+EnableBack = true
+
+PivotTurnThrottle = 0.2
+
+DamageFactor = 0.0
+
+HideEntity = true
+
+BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25

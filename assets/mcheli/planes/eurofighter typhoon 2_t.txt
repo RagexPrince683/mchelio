@@ -36,6 +36,7 @@ AddPartLG =  2.5126, 1.5929, -7.3302,  0,0,-1, 46.5, 0,0,-1, 46.5
 AddPartLG = -2.5126, 1.5929, -7.3302,  0,0,1, 46.5, 0,0,1, 46.5
 
 AddTexture = eurofighter typhoon 2_t_span.
+;AddTexture = eft_italy
 
 AddRecipe = " X ",  "XDX",  "ZXZ",  X, iron_block, D, diamond, Z, iron_ingot
 

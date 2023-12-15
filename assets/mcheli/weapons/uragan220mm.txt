@@ -1,0 +1,30 @@
+DisplayName = 220mm "Uragan" Rocket
+Type = Rocket
+Power = 85
+Explosion = 16
+ExplosionBlock = 13
+Acceleration = 4.0
+SoundVolume = 8.0
+Sound = gradshoot
+Accuracy = 5.0
+ModelBullet = bullet76mm
+Flaming = false
+Sight = None
+Delay = 6
+Gravity = -0.085
+ReloadTime = 6000
+
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.2
+
+AddMuzzleFlash      =           2.1,   1.05,        2,  220,254,219,104
+AddMuzzleFlash      =           2.0,   1.00,        1,  220,254,219,184
+
+AddMuzzleFlashSmoke   =             3.2,     10,    6.0,  3.0,       25,  220,160,140,120
+AddMuzzleFlashSmoke   =             2.2,      5,    6.0,  4.0,       35,  200,190,170,150
+
+MaxAmmo = 16
+SuppliedNum = 2
+Item =  4, iron_ingot
+Item =  4, gunpowder

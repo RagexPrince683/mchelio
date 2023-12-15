@@ -1,0 +1,23 @@
+DisplayName = GBU-10 Paveway II
+Type = ASMissile
+Power = 35
+Acceleration = 1.7
+Explosion = 5
+ExplosionBlock = 4
+Sight = MoveSight
+Delay = 10
+ReloadTime = 300
+SoundVolume = 3
+SoundPitch = 0.1
+Sound = bomb_snd
+ModelBullet = GBU-16
+Gravity = -0.01
+DisableSmoke = true
+
+Round = 2
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  5, iron_ingot
+Item =  5, gunpowder
+Item =  5, redstone

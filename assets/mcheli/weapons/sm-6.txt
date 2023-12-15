@@ -1,0 +1,21 @@
+DisplayName = RIM-174 Standard ERAM
+Type = AAMissile
+Power = 150
+Acceleration = 5.0
+Explosion = 5
+Sight = MissileSight
+Delay = 0
+LockTime = 5
+ModelBullet = RIM-156
+Sound = missile_1_snd
+RigidityTime = 10
+ProximityFuseDist = 1
+
+DamageFactor = helicopter, 2.0
+DamageFactor = plane, 2.0
+
+MaxAmmo = 48
+SuppliedNum = 8
+Item =  6, iron_ingot
+Item =  3, gunpowder
+Item =  6, redstone

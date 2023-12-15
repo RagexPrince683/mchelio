@@ -1,0 +1,71 @@
+DisplayName = 9K58 "Smerch"
+AddDisplayName = ja_JP, sositehuistupidjapanes
+ItemID = 30103
+MaxHp = 100
+Speed = 0.3
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 2.0
+MinRotationPitch = -17
+MaxRotationPitch = 6
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 3
+EnableNightVision = true
+CameraRotationSpeed = 25
+EnableEntityRadar = true
+MaxFuel  = 1200
+FuelConsumption = 6.0
+CameraPosition = 0.00,  4.0, -6.95,false
+HideEntity = true
+EnableBack = true
+
+Category = M.A
+
+
+WeightType = Tank
+
+AddGunnerSeat =  0.00,  3.0, -6.95,   0.00, 4.5, -6.95,  false, -17, 6, true
+HUD = mbt_hud,vehicle
+
+AddWeapon = smerch300mm,  0.92, 2.08, -7, 0.0, 0.0, true,  1 , 0, -360, 360, -17, 6
+AddWeapon = smerch300mm,  0.32, 2.08, -7, 0.0, 0.0, true,  1 , 0, -360, 360, -17, 6
+AddWeapon = smerch300mm,  -0.29, 2.08, -7, 0.0, 0.0, true,  1 , 0, -360, 360, -17, 6
+AddWeapon = smerch300mm,  -0.87, 2.08, -7, 0.0, 0.0, true,  1 , 0, -360, 360, -17, 6
+AddPartWeapon 		= smecrh300mm, false, true, false, 0.07, 1.83, -4.03
+AddPartWeaponChild = false, true, 0.00, 2.74, -3.64
+
+
+AddPartWheel =   1.83, 0.50, 3.97, 25
+AddPartWheel =   -1.88, 0.50, 3.97, 25
+AddPartWheel =   1.83, 0.50, 1.49, 25
+AddPartWheel =   -1.88, 0.50, 1.49, 25
+AddPartWheel =   1.83, 0.50, -2.68, 
+AddPartWheel =   -1.88, 0.50, -2.68, 
+AddPartWheel =   1.83, 0.50, -5.15, 
+AddPartWheel =   -1.88, 0.50, -5.15, 
+PartWheelRot = 30
+
+ArmorMinDamage = 9
+ArmorMaxDamage = 500
+ArmorDamageFactor = 1.00
+EnableBack = true
+
+PivotTurnThrottle = 0.2
+
+TrackRollerRot = 30
+
+
+DamageFactor = 0.0
+
+HideEntity = true
+
+BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25

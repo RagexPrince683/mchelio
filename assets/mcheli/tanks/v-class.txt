@@ -1,0 +1,49 @@
+DisplayName = Mersedes Benz V-Class
+MaxHp = 12000
+ThrottleUpDown = 10.0
+Speed = 3
+MobilityYawOnGround = 10.0
+StepHeight = 1.2
+Sound = Inline-four
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.85
+HUD = bnr32_hud, none, none
+EnableNightVision = true
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+
+CameraZoom = 8
+CameraPosition = -0.000, 1.85, 0.8, false
+CameraPosition = -0.000, 1.85, 0.8, true
+DefaultFreelook = true
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
+Category = C
+
+SetWheelPos =  0.76,  -0.29,  1.8144, -1.6966
+
+AddSeat =  0, 0.23, 0.3
+AddGunnerSeat =  0, 0.4,  -1.1097,  -0.29, 1.95,   -1.2,  false, 90, -90, false
+AddGunnerSeat =  0, 0.4,  -1.1097,  0.29, 1.95,   -1.2,  false, 90, -90, false
+
+PartWheelRot = 45
+AddPartWheel = 0.9822, 0.1462, 1.8144, 25
+AddPartWheel = -0.9822, 0.1462, 1.8144, 25
+AddPartWheel = 0.9822, 0.1462, -1.6966
+AddPartWheel = -0.9822, 0.1462, -1.6966
+
+InventorySize = 9
+
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, gold_ingot, R, redstone
+
+AddFixedSearchLight =  0.8361, 0.6858, 2.5,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5,  -5,  0
+AddFixedSearchLight = -0.8361, 0.6858, 2.5,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5,   5,  0
+
+AddFixedSearchLight =  0.9190, 0.8548,-2.6889,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  0
+AddFixedSearchLight = -0.9190, 0.8548,-2.6889,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  0

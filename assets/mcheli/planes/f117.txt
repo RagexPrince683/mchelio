@@ -1,0 +1,46 @@
+DisplayName = F-117
+AddDisplayName = ja_JP, F-117
+ItemID = 28740
+MaxHp = 250
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 1.5
+FlareType = 3
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 1300
+FuelConsumption = 1.0
+ThirdPersonDist = 20
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+AddTexture = f117
+AddTexture = f1172
+AddTexture = f1173
+AddTexture = f1174
+
+HUD = plane
+
+AddSeat       = 0.00,  1.52,  4.011
+
+
+;Front
+AddPartLG    =  0.00, 1.297, 3.693,  1,0,0,  -105
+
+AddPartLG    =  0.00, 1.403, -0.6740,  1,0,0, -101
+
+
+AddWeapon = gbu12,   0.629, 1.919, -5.267,   0.0, 0.0
+AddWeapon = gbu12,  -0.629, 1.919, -5.267,   0.0, 0.0
+
+AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  1
+
+AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt
+
+BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
+BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0
+BoundingBox = -2.92, 2.20, -9.60,  4.0, 1.0
+BoundingBox =  2.92, 2.20, -9.60,  4.0, 1.0
+BoundingBox =  0.00, 1.80, -11.8,  3.0, 1.5

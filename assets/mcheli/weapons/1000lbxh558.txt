@@ -1,0 +1,16 @@
+DisplayName = 1000lb Bomb
+Type = Bomb
+Power = 20
+Acceleration = 1.5
+Explosion = 5
+Sight = None
+Delay = 6
+ReloadTime = 380
+Round = 21
+MaxAmmo = 21
+SuppliedNum = 21
+Item =  3, iron_ingot
+Item =  4, gunpowder
+ModelBullet = us_500lb
+
+Sound = 540pound_snd

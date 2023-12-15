@@ -1,0 +1,53 @@
+DisplayName = BRDM-2 with "9K39 Igla"
+MaxHp = 180
+Speed = 0.6
+Sound = mbt_run
+InventorySize = 0
+StepHeight = 1.5 
+DefaultFreelook = false
+EnableBack = true
+HUD = mbt_hud
+HideEntity = true
+
+EnableEntityRadar = true
+MaxFuel         = 1200
+FuelConsumption = 1.0
+
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 6.0 
+OnGroundPitchFactor = 15.0 
+OnGroundRollFactor = 5.2 
+
+AddGunnerSeat =  0.0, 1.51, 2.6343, 0.0, 3.12, -0.5656,  true, -40,3, true
+
+EnableBack = true
+EnableNightVision = false
+CameraRotationSpeed = 30
+
+;Все о колесах
+AddPartWheel =   0.9, 0.3184, 1.6785, 30
+AddPartWheel =   -0.9, 0.3184, 1.6785, 30
+AddPartWheel =   0.9, 0.3184, -1.9
+AddPartWheel =   -0.9, 0.3184, -1.9
+PartWheelRot = 30
+SetWheelPos =  0.95,  0.32,  1.6785, -1.9
+
+;подвижные части
+AddPartCanopy =  0, 1.94, 2.19, -1, 0, 0, 60
+AddFixedSearchLight =  0.7577, 1.575, 2.9346,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
+AddFixedSearchLight = -0.7516, 1.5725, 2.939,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25, -6.0,  0
+
+AddWeapon = 9m39,    0.4655,  3.1327, -0.53, 0, 0,  false, 1, 0, -360, 360, -45, 3
+AddWeapon = 9m39,    0.2308,  3.1327, -0.53, 0, 0,  false, 1, 0, -360, 360, -45, 3
+AddWeapon = 9m39,    0.00,  3.1327, -0.53, 0, 0,  false, 1, 0, -360, 360, -45, 3
+AddWeapon = 9m39,    -0.2386,  3.1327, -0.53, 0, 0,  false, 1, 0, -360, 360, -45, 3
+AddWeapon = 9m39,    -0.4733,  3.1327, -0.53, 0, 0,  false, 1, 0, -360, 360, -45, 3
+AddPartWeapon = 9m39, false, true, false, 0.0,  2.21, 0.22
+AddPartWeaponChild = false, true,   0.0, 2.34, 0.04
+
+BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
+BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1

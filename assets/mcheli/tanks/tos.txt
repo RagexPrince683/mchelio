@@ -1,0 +1,84 @@
+DisplayName = TOS-1 "Buratino"
+MaxHp = 228
+Speed = 0.5
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = true
+CameraRotationSpeed = 30
+StepHeight = 1.7
+MinRotationPitch = -19
+MaxRotationPitch = 2
+DefaultFreelook = true
+HideEntity = true
+CameraPosition = 0.00,  3.5, -5
+
+MobilityYawOnGround = 3.0
+
+HUD = mbt_hud, mbt_hud
+
+SubmergedDamageHeight = 3
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+
+HideEntity = true
+
+WeightType = Unknown
+
+SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
+
+AddGunnerSeat =  0.00,  2.15, -6,   0.00, 15, 0,  true, -22, 3, true
+
+AddCrawlerTrack = true, 0.23, -2.40,  -0.30/3.13, -0.17/3.46, 0.34/4.31, 0.61/4.42, 0.87/4.31, 0.98/4.04, 0.98/-3.32, 0.87/-3.59, 0.61/-3.70, 0.34/-3.59, -0.31/-2.12
+AddCrawlerTrack = true, 0.23,  2.40,  -0.30/3.13, -0.17/3.46, 0.34/4.31, 0.61/4.42, 0.87/4.31, 0.98/4.04, 0.98/-3.32, 0.87/-3.59, 0.61/-3.70, 0.34/-3.59, -0.31/-2.12
+
+
+AddTrackRoller = -2.32,  0.60,  4.04
+AddTrackRoller = -2.32,  0.16,  3.13
+AddTrackRoller = -2.32,  0.16,  2.08
+AddTrackRoller = -2.32,  0.16,  1.03
+AddTrackRoller = -2.32,  0.16, -0.02
+AddTrackRoller = -2.32,  0.16, -1.07
+AddTrackRoller = -2.32,  0.16, -2.12
+AddTrackRoller = -2.32,  0.60, -3.32
+
+AddTrackRoller = 2.32,  0.60,  4.04
+AddTrackRoller = 2.32,  0.16,  3.13
+AddTrackRoller = 2.32,  0.16,  2.08
+AddTrackRoller = 2.32,  0.16,  1.03
+AddTrackRoller = 2.32,  0.16, -0.02
+AddTrackRoller = 2.32,  0.16, -1.07
+AddTrackRoller = 2.32,  0.16, -2.12
+AddTrackRoller = 2.32,  0.60, -3.32
+
+AddWeapon = tos220mm,  1.2052, 2.7851, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
+AddWeapon = tos220mm,  0.4657, 2.7851, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
+AddWeapon = tos220mm,  -0.2739, 2.7851, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
+AddWeapon = tos220mm,  -1.385, 2.7851, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
+AddWeapon = tos220mm,  1.2052, 2.2179, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
+AddWeapon = tos220mm,  0.4657, 2.2179, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
+AddWeapon = tos220mm,  -0.2739, 2.2179, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
+AddWeapon = tos220mm,  -1.385, 2.2179, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
+AddPartWeapon = tos220mm, false, true, false,  0.00, 1.43, 0.3764, 0
+AddPartWeaponChild = false, true, 0.00, 1.5739, -3.2144
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+ArmorMinDamage = 8
+ArmorMaxDamage = 250
+ArmorDamageFactor = 0.98
+
+MaxFuel         = 1200
+FuelConsumption = 2.0
+
+AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot
+
+BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
+BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
+BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25
