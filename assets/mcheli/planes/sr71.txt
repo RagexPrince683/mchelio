@@ -1,6 +1,6 @@
 DisplayName = Lockheed SR-71 Blackbird
 ItemID = 2
-MaxHp = 180
+MaxHp = 100
 OnGroundPitch = 3
 EnableNightVision = true
 EnableEntityRadar = true
@@ -15,6 +15,19 @@ Stealth = 0.8
 HideEntity = true
 Category = M.F
 WeightedCenterZ = -7.6
+
+MotionFactor = 1.000001
+
+;sorry! that shit sucks!
+
+SweepWingSpeed = 103.8
+VariableSweepWing = true
+
+AddPartHatch =   0.0,  3.20,  -4.86,  1,0, 0, 45
+AddPartHatch =   0.0,  3.00,  -7.05, -1,0, 0, 45
+
+ThrottleUpDown = 0.3
+
 
 MobilityYaw = 32.0
 MobilityRoll = 1.2
