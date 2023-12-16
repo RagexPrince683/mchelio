@@ -1,4 +1,4 @@
-DisplayName = A-7 corsair
+DisplayName = A-7 Corsair
 AddDisplayName = ja_JP, A-7 corsair
 ItemID = 28740
 MaxHp = 220
@@ -38,20 +38,20 @@ AddPartLG    =  0.5755, 1.932, -6.923,      1,0,0, -90,   0,1,0, -100
 
 
 ; 使用直後は非表示
-AddPartWeaponMissile = agm84a7,    false,  false,  false,    1.974, 2.152, -5.07
-AddPartWeaponMissile = agm84a7,    false,  false,  false,   -1.974, 2.152, -5.07
-AddPartWeaponMissile = agm84a7,    false,  false,  false,    3.381, 2.152, -5.591
-AddPartWeaponMissile = agm84a7,    false,  false,  false,   -3.381, 2.152, -5.591
-AddPartWeaponMissile = agm84a7,    false,  false,  false,    4.788, 2.152, -6.216
-AddPartWeaponMissile = agm84a7,    false,  false,  false,   -4.788, 2.152, -6.216
+AddPartWeaponMissile = agm84a7real,    false,  false,  false,    1.974, 2.152, -5.07
+AddPartWeaponMissile = agm84a7real,    false,  false,  false,   -1.974, 2.152, -5.07
+AddPartWeaponMissile = agm84a7real,    false,  false,  false,    3.381, 2.152, -5.591
+AddPartWeaponMissile = agm84a7real,    false,  false,  false,   -3.381, 2.152, -5.591
+AddPartWeaponMissile = agm84a7real,    false,  false,  false,    4.788, 2.152, -6.216
+AddPartWeaponMissile = agm84a7real,    false,  false,  false,   -4.788, 2.152, -6.216
 
 AddWeapon = m61a1_l, 1.016, 2.653, 0.3788,   0.0, 0.0
-AddWeapon = agm84a7,     1.974, 2.152, -5.07,   0.0, 0.0
-AddWeapon = agm84a7,    -1.974, 2.152, -5.07,   0.0, 0.0
-AddWeapon = agm84a7,     3.381, 2.152, -5.591,   0.0, 0.0
-AddWeapon = agm84a7,    -3.381, 2.152, -5.591,   0.0, 0.0
-AddWeapon = agm84a7,     4.788, 2.152, -6.216,   0.0, 0.0
-AddWeapon = agm84a7,    -4.788, 2.152, -6.216,   0.0, 0.0
+AddWeapon = agm84a7real,     1.974, 2.152, -5.07,   0.0, 0.0
+AddWeapon = agm84a7real,    -1.974, 2.152, -5.07,   0.0, 0.0
+AddWeapon = agm84a7real,     3.381, 2.152, -5.591,   0.0, 0.0
+AddWeapon = agm84a7real,    -3.381, 2.152, -5.591,   0.0, 0.0
+AddWeapon = agm84a7real,     4.788, 2.152, -6.216,   0.0, 0.0
+AddWeapon = agm84a7real,    -4.788, 2.152, -6.216,   0.0, 0.0
 
 AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  1
 
