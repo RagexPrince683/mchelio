@@ -1,14 +1,17 @@
 DisplayName = Mi-35N
-MaxHp = 210
+MaxHp = 100
 EnableGunnerMode = true
 EnableNightVision = true
 EnableEntityRadar = true
-Speed = 0.7 
+Speed = 1.7
 FlareType = 3
 onGroundPitch = 4.5
 MaxFuel         = 1200
 FuelConsumption = 1.0
-AddTexture = mi35anime
+
+sound = hind
+soundvolume = 15
+
 CameraPosition = -0.22, -0.24, 10.3042
 
 HUD = heli, heli_gnr, none, none, none, none

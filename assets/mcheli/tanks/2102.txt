@@ -1,7 +1,7 @@
-DisplayName = VAZ 2102
+DisplayName = VAZ-2102
 AddDisplayName = ru_RU, ВАЗ 2102
-MaxHp = 360
-Speed = 3
+MaxHp = 100
+Speed = 0.85
 Sound = 4a-ge
 MobilityYawOnGround = 10.0
 ThrottleUpDown = 10.0
@@ -10,7 +10,7 @@ MaxRotationPitch = 45
 MobilityRoll = 0
 Gravity = -0.15
 GravityInWater = 0.1
-DamageFactor = 0.8
+DamageFactor = 1.0
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 

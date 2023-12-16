@@ -1,14 +1,17 @@
 DisplayName = Mi-35P
-MaxHp = 210
+MaxHp = 100
 EnableGunnerMode = true
 EnableNightVision = true
 EnableEntityRadar = true
-Speed = 0.7 
+Speed = 1.7
 FlareType = 3
 onGroundPitch = 4.5
 MaxFuel         = 1200
 FuelConsumption = 1.0
-AddTexture = mi35anime
+
+sound = hind
+soundvolume = 15
+
 CameraPosition = -0.22, -0.24, 10.3042
 
 HUD = heli, heli_gnr, none, none, none, none
@@ -113,8 +116,22 @@ AddWeapon = s-8_h, -2.74,  1.08, -0.02, -1, 0
 
 
 AddRecipe = "XXX",  " I ",  "XXX",  X, iron_block, I, iron_ingot
-BoundingBox =  0.0,  1.12,  4.49,  2.2, 2.2
+BoundingBox =  0.0,  0.80,  5.80,  1.2, 1.2
+BoundingBox =  0.0,  1.12,  4.59,  2.2, 2.2
 BoundingBox =  0.0,  1.72,  2.49,  2.2, 3.0
+BoundingBox =  0.0,  1.72,  2.00,  2.2, 3.0
 BoundingBox =  0.0,  1.96,  0.01,  2.2, 3.5
 BoundingBox =  0.0,  2.02, -5.06,  2.2, 2.2
-BoundingBox =  0.0,  3.26,-11.42,  2.2, 2.2
+BoundingBox =  0.0,  4.26,-12.42,  2.2, 2.2
+
+BoundingBox = 0.0, 3.7, 0.0, 1.0, 1.5, 1.5
+
+BoundingBox = 0.0, 2.02, -1.06,  2.2, 2.2
+BoundingBox = 0.0, 2.02, -3.06,  2.2, 2.2
+BoundingBox = 0.0, 2.02, -7.06,  2.2, 2.2
+BoundingBox = 0.0, 2.02, -9.06,  2.2, 2.2
+
+unmountposition = 0.00,  1.50,  3.73
+
+
+DamageFactor = 0.8
