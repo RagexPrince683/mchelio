@@ -16,7 +16,7 @@ HideEntity = true
 Category = M.F
 WeightedCenterZ = -7.6
 
-MotionFactor = 1.000001
+MotionFactor = 1.00000
 
 ;sorry! that shit sucks!
 
