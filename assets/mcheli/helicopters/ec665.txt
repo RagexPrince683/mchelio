@@ -12,6 +12,7 @@ CameraPosition = 0.0, 0.6, 4.8
 CameraZoom = 6
 MaxFuel         = 1100
 FuelConsumption = 1.0
+Stealth = 0.5
 
 sound = eurocoptertiger
 soundvolume = 15

@@ -13,6 +13,8 @@ CameraPosition = 0.6, 0.3, 2.87
 Regeneration = true
 MaxFuel         = 1500
 FuelConsumption = 1.0
+;Stealth = 0.2
+
 
 sound = apache
 soundpitch = 1.3

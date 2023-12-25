@@ -1,0 +1,52 @@
+DisplayName = FH-77B
+AddDisplayName = ru_RU, FH-77B
+AddDisplayName = en_US, FH-77B
+MaxHp = 40
+Speed = 0.05
+ThrottleUpDown = 3.0
+Gravity = -0.1
+GravityInWater = -0.5
+DamageFactor = 1.0
+Sound = artillery_run
+MinRotationPitch = -70
+MaxRotationPitch =  3
+WeightType = Tank
+DefaultFreelook = true
+ThirdPersonDist = 10
+CameraRotationSpeed = 45
+
+EnableBack = true
+
+SubmergedDamageHeight = 2
+WeightedCenterZ = 0.0
+
+OnGroundPitchFactor = 3.5
+OnGroundRollFactor  = 3.5
+
+MobilityYawOnGround = 0.5
+PivotTurnThrottle = 0.0
+
+MaxFuel         = 1500
+FuelConsumption = 2.0
+
+TrackRollerRot = 2.5
+
+AddTrackRoller =   1.0449, 0.1342, 1.3227
+AddTrackRoller =   1.0449, 0.1341, 0.0593
+AddTrackRoller =  -1.0449, 0.1340, 1.3236
+AddTrackRoller =  -1.0449, 0.1341, 0.0593
+
+HUD = gunner
+
+AddSeat =  2.20, 0.00, -2.20
+CameraPosition = 0.00, 3.7472, -1.2630, true
+
+AddWeapon = m77, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -70, 3
+AddWeapon = m549a1_fh77, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -70, 3
+AddWeapon = m864_fh77, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -70, 3
+
+AddPartWeapon = m77 / m549a1_fh77 / m864_fh77, false, true, false,  0.0041, 1.1448, -0.5882
+AddPartWeaponChild  =  false, true,  0.0041, 1.1448, -0.5882
+AddPartWeaponChild  =  false, true,  0.0041, 1.1448, -0.5882, 0.8
+
+BoundingBox =  0.0, 1.3, 0.0,  2.5, 2.6

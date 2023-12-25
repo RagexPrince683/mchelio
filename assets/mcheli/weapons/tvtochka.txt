@@ -1,0 +1,23 @@
+DisplayName = 9M79FR [TV Missle]
+Type = TVMissile
+Power = 1000
+Acceleration = 3.5
+Explosion = 30
+ExplosionBlock = 14
+Flaming = false
+Sight = MoveSight
+Delay = 140
+Round = 1
+ReloadTime = 500
+SoundVolume = 15
+SoundPitch = 1.0
+Sound = missile_12_snd
+ModeNum = 2
+ModelBullet = ballistic
+Gravity = -0.01
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  16, gunpowder
+Item =  5, redstone
+Item =  10, iron_ingot

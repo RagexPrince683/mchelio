@@ -1,0 +1,64 @@
+DisplayName = Mercedes w123
+MaxHp = 150
+ThrottleUpDown = 10.0
+Speed = 0.5
+MobilityYawOnGround = 6.0
+StepHeight = 1.5
+Sound = simpe_engine
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.85
+EnableNightVision = fase
+MaxFuel           = 1500
+FuelConsumption   = 1.0
+ThirdPersonDist = 5
+DefaultFreelook = true
+
+AddTexture = w123_2
+AddTexture = w123_3
+AddTexture = w123_4
+AddTexture = w123_5
+
+OnGroundPitchFactor = 10.0
+OnGroundRollFactor  = 4.8
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+EnableBack = true
+
+Category = C
+
+WeightType = Car
+
+HUD =  none, none, none, none
+
+EntityWidth  = 0.8
+EntityHeight = 0.8
+
+AddSeat =   0.5264,  0.10,  0.3544
+AddSeat =  -0.5264,  0.20,  0.3544
+
+AddSeat =  0.5264,  0.20, -0.5922
+AddSeat = -0.5264,  0.20, -0.5922
+
+AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
+
+PivotTurnThrottle = 0.1
+
+PartWheelRot = 25
+
+AddPartWheel     =  0.8457,   0.0657,  2.1410, 35
+AddPartWheel     = -0.8446,   0.0657,  2.1410, 35
+AddPartWheel     =  0.8457,   0.0657, -1.4301
+AddPartWheel     = -0.8446,   0.0657, -1.4301
+
+InventorySize = 1
+
+AddPartCanopy =  1.0917, 0.3419,  1.3074,  0,1,0, -60
+
+
+AddPartSteeringWheel =  0.4856,  0.8552,  0.7596,  0, 0.488, -1,  130

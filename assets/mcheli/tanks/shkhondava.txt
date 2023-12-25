@@ -1,0 +1,69 @@
+DisplayName = ShKH Ondava
+MaxHp = 110
+Speed = 0.7
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 2.0
+MinRotationPitch = -55
+MaxRotationPitch = 6
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = false
+CameraRotationSpeed = 20
+MaxFuel         = 1400
+FuelConsumption = 2.1
+StepHeight = 1.5
+CameraPosition = 0.00,  4.3, -0.21, true
+OnGroundPitchFactor = 2.5
+OnGroundRollFactor  = 1.0
+EnableGunnerMode = true
+SubmergedDamageHeight = 4
+HideEntity = true
+
+
+WeightType = Tank
+
+WeightedCenterZ = 0.0 
+
+
+SetWheelPos =  2.30,  -0.32, 5.1975, 3.2358, 1.6567, 0.4618,-0.7317,-1.9654
+
+HUD = mbt_hud
+
+AddSeat = 0.00, 1.50, -1.3733
+
+MotionFactor = 0.9
+
+ArmorMinDamage = 12
+ArmorMaxDamage = 300
+ArmorDamageFactor = 0.95
+
+EnableBack = true
+
+PivotTurnThrottle = 0.0
+
+AddPartWheel = 1.5,  0.43,  3.99, 30
+AddPartWheel = 1.5,  0.43,  1.85, 30
+AddPartWheel = -1.4,  0.43,  3.99, 30
+AddPartWheel = -1.4,  0.43,  1.85, 30
+AddPartWheel = 1.5,  0.43,  -4.08, 
+AddPartWheel = 1.5,  0.43,  -1.94, 
+AddPartWheel = -1.4,  0.43,  -1.94, 
+AddPartWheel = -1.4,  0.43,  -4.08,
+
+AddPartWeapon = 152EOF / 152EOFd / 152EPrSv, false, true, false, 0.00, 0.0, 0.0, 0
+AddPartWeaponChild = false, true, 0.0,  2.1, 0.40, 0
+AddPartWeaponChild = false, true, 0.0,  2.1, 0.40, 0.5
+AddWeapon = 152EOF,   0.00, 2.8, 0.5,  0.0, 0.0, true,1, 0,-360,360, -40, 1
+AddWeapon = 152EOFd,   0.00, 2.8, 0.5,  0.0, 0.0, true,1, 0,-360,360, -40, 1
+AddWeapon = 152EPrSv,   0.00, 2.8, 0.5,  0.0, 0.0, true,1, 0,-360,360, -40, 1
+
+BoundingBox =  0.0, 0.65,  5.0, 4.0, 1.5,   0.75
+BoundingBox =  0.0, 1.9,  -0.5, 3.0, 1.0,   1.25
+BoundingBox =  0.0, 0.65, -2.0, 4.0, 1.5,   0.75
+BoundingBox =  0.0, 0.65, -6.0, 4.0, 1.5,   0.75
+
+EntityWidth  = 0.8
+EntityHeight = 0.8

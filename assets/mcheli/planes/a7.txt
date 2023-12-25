@@ -1,7 +1,7 @@
 DisplayName = A-7 Corsair
 AddDisplayName = ja_JP, A-7 corsair
 ItemID = 28740
-MaxHp = 220
+MaxHp = 100
 onGroundPitch = 4
 EnableNightVision = true
 EnableEntityRadar = true
@@ -13,6 +13,10 @@ EnableSeaSurfaceParticle = true
 MaxFuel         = 1300
 FuelConsumption = 1.0
 ThirdPersonDist = 20
+ThrottleUpDown = 0.3
+DamageFactor = 0.8
+
+enableback = true
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
@@ -20,7 +24,8 @@ Category = M.A
 AddTexture = a72
 AddTexture = a73
 AddTexture = a74
-AddTexture = a75
+;AddTexture = a75
+;vanished or something
 AddTexture = a76
 
 HUD = plane
@@ -57,8 +62,34 @@ AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  1
 
 AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt
 
-BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
-BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0
-BoundingBox = -2.92, 2.20, -9.60,  4.0, 1.0
-BoundingBox =  2.92, 2.20, -9.60,  4.0, 1.0
-BoundingBox =  0.00, 1.80, -11.8,  3.0, 1.5
+BoundingBox =  0.00, 2.80, -1.00,  2.1, 2.8
+BoundingBox =  0.00, 2.80, -3.10,  2.1, 2.8
+BoundingBox =  0.00, 2.80, -5.20,  2.1, 2.3
+BoundingBox =  0.00, 2.80, -6.20,  2.1, 2.3
+BoundingBox =  0.00, 2.80, -8.30,  2.1, 2.0
+
+BoundingBox = -2.92, 3.20, -5.80,  4.0, 0.6
+BoundingBox =  2.92, 3.20, -5.80,  4.0, 0.6
+
+BoundingBox = -6.15, 3.10, -7.86,  2.5, 0.2
+BoundingBox =  6.15, 3.10, -7.86,  2.5, 0.2
+
+BoundingBox =  0.00, 2.80, -9.3,  1.0, 2.8
+BoundingBox =  0.00, 3.10, -10,  1.0, 3.3
+BoundingBox =  0.00, 3.4, -11,  1.0, 3.5
+BoundingBox =  0.00, 3.8, -12,  1.0, 4.3
+BoundingBox =  0.00, 4.2, -13,  1.0, 4.6
+BoundingBox =  0.00, 4.5, -13.5,  0.5, 4.9
+BoundingBox =  0.00, 5.5, -13.8,  0.5, 4.0
+BoundingBox =  0.00, 6.3, -14.2,  0.5, 3.2
+
+BoundingBox = 0.0, 2.80, -13.60, 1.0, 1.0, 1.5
+BoundingBox = 0.0, 2.80, -13.90, 1.0, 1.0, 1.5
+
+
+
+BoundingBox = 1.47, 2.5, -13.0, 2.0, 0.2
+BoundingBox = -1.47, 2.5, -13.0, 2.0, 0.2
+
+
+unmountposition = 0.00,  1.5,  1.252

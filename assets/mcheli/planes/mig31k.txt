@@ -1,0 +1,47 @@
+DisplayName = Mig-31K
+AddDisplayName = ja_JP, Mig-31K
+ItemID = 28705
+MaxHp = 280
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 1.0
+FlareType = 5
+ThrottleUpDown = 0.8
+MaxFuel         = 1800
+FuelConsumption = 1.0
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+HideEntity = true
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+
+HUD = plane
+
+MobilityYaw = 0.7
+MobilityPitch = 0.7
+MobilityRoll = 0.6
+
+AddSeat = 0.00,  1.88,  0.02
+
+AddPartCanopy = 0, 3.12, -0.94, -1,0,0,  70
+
+;Front
+AddPartLG =  0.02, 1.09, -2.58,  -1,0,0
+;RightLeft
+AddPartLG =  0.00, 0.95, -9.44,  -1,0,0
+
+AddPartWeaponMissile = X-47M2,  false, false, false, 0.0, 0.82, -5.43,
+
+AddWeapon = gs-6-23, 0.0, 2.26, 1.88,   1.0, 0.0
+AddWeapon = X-47M2, 0.0, 0.82, -5.43,   1.0, 0.0
+
+AddRecipe = " Y ",  "XDX",  "ZXZ",  X, iron_block, Y, glass, Z, iron_ingot, D, diamond_block
+
+BoundingBox =  0.00, 2.80, -2.60,  2.0, 2.0
+BoundingBox =  0.00, 2.60, -5.60,  2.0, 2.5
+BoundingBox =  0.00, 3.20, -9.20,  4.0, 2.0
+BoundingBox = -2.92, 2.20, -5.60,  3.0, 1.0
+BoundingBox =  2.92, 2.20, -5.60,  3.0, 1.0

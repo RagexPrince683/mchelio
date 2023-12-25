@@ -1,0 +1,20 @@
+DisplayName = GS-6-23
+Type = MachineGun1
+ModelBullet = bullet
+Power = 18
+Acceleration = 10.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+SoundDelay = 3
+SoundPitch = 0.7
+Accuracy = 2.5
+HeatCount = 2
+MaxHeatCount = 100
+Sound = gun_l2_snd
+
+MaxAmmo = 260
+SuppliedNum = 65
+Item =  3, iron_ingot
+Item =  3, gunpowder

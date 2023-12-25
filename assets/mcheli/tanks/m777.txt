@@ -1,0 +1,45 @@
+DisplayName = M777A1
+AddDisplayName = ru_RU, M777A1
+AddDisplayName = en_US, M777A1
+MaxHp = 80
+Speed = 0.00
+ThrottleUpDown = 3.0
+Gravity = -0.1
+GravityInWater = -0.5
+DamageFactor = 1.0
+MinRotationPitch = -70
+MaxRotationPitch =  3
+WeightType = Tank
+DefaultFreelook = true
+ThirdPersonDist = 10
+CameraRotationSpeed = 45
+Sound = none
+
+EnableBack = true
+
+SubmergedDamageHeight = 2
+WeightedCenterZ = 0.0
+
+OnGroundPitchFactor = 3.5
+OnGroundRollFactor  = 3.5
+
+MobilityYawOnGround = 0.5
+PivotTurnThrottle = 0.0
+
+MaxFuel         = 1500
+FuelConsumption = 2.0
+
+HUD = gunner
+
+AddSeat =  2.20, 0.00, -2.20
+CameraPosition = 0.00, 3.7472, -1.2630, true
+
+AddWeapon = m795, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -70, 3
+AddWeapon = m549a1, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -70, 3
+AddWeapon = m864, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -70, 3
+
+AddPartWeapon = m795 / m549a1 / m864, false, true, false,  0.00, 0.00, 0.00
+AddPartWeaponChild  =  false, true,  0.00, 0.00, 0.00
+AddPartWeaponChild  =  false, true,  0.00, 0.00, 0.00, 0.8
+
+BoundingBox =  0.0, 1.3, 0.0,  2.5, 2.6

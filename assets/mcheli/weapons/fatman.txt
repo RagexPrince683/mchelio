@@ -21,7 +21,8 @@ Explosion = 1
 
 
 ;457m above
-ProximityFuseDist = 457.0
+;ProximityFuseDist = 457.0
+ExplosionAltitude = 457
 
 ;Power = 329
 Acceleration = 0.1

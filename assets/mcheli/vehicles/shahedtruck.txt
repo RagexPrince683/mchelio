@@ -1,0 +1,25 @@
+﻿DisplayName = ShahedTruck
+MaxHp = 10
+Gravity = -9.81
+GravityInWater = -1.0
+AddSeat = 1.2716 ,2.0906, 4.7137
+CameraPosition = 0,  1.7,  0
+HideEntity = false
+
+DamageFactor = 1.0
+
+; M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+HUD = vehicle
+
+AddWeapon =  shahed136,  0, 2, 3
+AddPartWeaponMissile = shahed136, false, false, false,  -0.1730, 3.6852, 1.5855
+AddWeapon =  shahed136,  0, 2, 3
+AddPartWeaponMissile = shahed136, false, false, false,  -0.1730, 3.6852,  1.7654
+AddWeapon =  shahed136,  0, 2, 3
+AddPartWeaponMissile = shahed136, false, false, false,  -0.1730, 3.6852, -1.9772
+AddWeapon =  shahed136,  0, 2, 3
+AddPartWeaponMissile = shahed136, false, false, false,  -0.1730, 3.6852, -3.7821
+AddWeapon =  shahed136,  0, 2, 3
+AddPartWeaponMissile = shahed136, false, false, false,  -0.1730, 3.6852, -5.6069

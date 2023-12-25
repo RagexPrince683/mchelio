@@ -1,0 +1,51 @@
+DisplayName = HEMTT
+AddDisplayName = ja_JP, HEMTT
+MaxHp = 250
+Speed = 1
+Sound = vehicle_run
+ThrottleUpDown = 8
+MobilityYawOnGround = 6.5
+StepHeight = 1.5
+Sound = prop
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.85
+EnableNightVision = true
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+ThirdPersonDist = 8
+DefaultFreelook = true
+MotionFactor = 0.9
+FlareType = 10
+
+AddTexture = HEMTTd
+
+EnableBack = true
+;  M = Military
+Category = M
+
+WeightType = Car
+
+HUD = mbt_hud, 
+
+AddSeat =  0.80, 0.7,  3.40
+AddSeat = -0.80, 0.7,  3.40
+
+; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range, ParaAlt
+AddRack = patriot_t,      0.0, 0.0, -2.70,  0.0, 0.0, -0.3, 5.0,   3
+AddRack = patriot_radar_t,      0.0, 0.0, -2.70,  0.0, 0.0, -0.3, 5.0,   3
+
+AddPartWheel =    0.5838,  0.3523, 2.628, 20
+AddPartWheel =    -0.5838,  0.3523, 2.628, 20
+AddPartWheel =    0.5838,  0.3523, 1.093, 10
+AddPartWheel =    -0.5838,  0.3523, 1.093, 10
+AddPartWheel =   0.5838,  0.3523, -1.97
+AddPartWheel =   -0.5838,  0.3523, -1.97
+AddPartWheel =   0.5838,  0.3523, -3.506
+AddPartWheel =   -0.5838,  0.3523, -3.506
+
+AddRecipe = "III",  " I ",  "III",   I, iron_ingot
+

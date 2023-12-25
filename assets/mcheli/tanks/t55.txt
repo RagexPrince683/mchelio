@@ -1,72 +1,118 @@
-DisplayName = T-55
-;ru_RU сделано специально для группы мастерская W&K - ,подписывайтесь!
-;en_EN made specifically for the W&K workshop group - ,subscribe!
-MaxHp = 228
-Speed = 0.58
-Sound = tank_gte
-ThrottleUpDown = 20.0
-MobilityYawOnGround = 4.0
-MinRotationPitch = -30
+﻿DisplayName = T55
+AddDisplayName = ja_JP, T-55
+ItemID = 30100
+MaxHp = 150
+Speed = 0.7
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 2.0
+MinRotationPitch = -50
 MaxRotationPitch = 5
 MobilityRoll = 0
 Gravity = -0.1
 GravityInWater = -0.1
 DamageFactor = 0.0
-CameraZoom = 2
-CameraPosition = 0.00,  3.10, 0, true
-CameraRotationSpeed = 35
-MaxFuel         = 900
-FuelConsumption = 2
+CameraZoom = 1
+CameraPosition = 0.00,  3.50, 1.55, true
+EnableNightVision = false
+CameraRotationSpeed = 25
+;EnableEntityRadar = true
+MaxFuel         = 1200
+FuelConsumption = 3.0
 StepHeight = 1.5
 DefaultFreelook = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
-SubmergedDamageHeight = 3
-HideEntity = true
-WeightType = Unknown
-SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
-HUD = mbt_hud, mbt_gnr
 FlareType = 10
-ThirdPersonDist = 10
-AddGunnerSeat =  0.00,  1.9,  0,    0.00,  1.9,  0,  false, -30, 5, true
 
-MotionFactor = 0.925
-ArmorMinDamage = 8
-ArmorMaxDamage = 250
-ArmorDamageFactor = 0.975
+; 指定した高さまでの水に触れてもダメージを受けない
+; 2であれば2ブロックまでダメージ無し
+SubmergedDamageHeight = 3
+
+HideEntity = true
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+; 重心Z座標設定
+WeightedCenterZ = 0.0
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+
+HUD = mbt_hud, gunner
+
+
+
+
+AddGunnerSeat =  0.00,  3.50, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
+AddGunnerSeat =  1.00,  2.20, 0.12,  1.00,  3.50,  0.12,  false, -90, 90, true
+
+; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
+MotionFactor = 0.9
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+ArmorMinDamage = 12
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+ArmorMaxDamage = 500
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+ArmorDamageFactor = 0.95
+;後退可能にする
 EnableBack = true
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.0
+;AddCrawlerTrack = 履帯の表裏逆転,  1つの履帯の間隔, 履帯のXの位置, 履帯の回転ポイントZ/Y, 履帯の回転ポイントZ/Y, 履帯の回転ポイントZ/Y, ...
+;転輪がなくても動作する
+AddCrawlerTrack = true, 0.2, 1.86,  -0.16/-2.6, 0.42/-3.71, 0.64/-3.78, 0.86/-3.71,0.99/-3.52,0.99/3.52,0.86/3.7, 0.64/3.78,0.42/3.7, -0.16/2.55
+AddCrawlerTrack = true, 0.2,  -1.92,   -0.16/-2.6, 0.42/-3.71, 0.64/-3.78, 0.86/-3.71,0.99/-3.52,0.99/3.52,0.86/3.7, 0.64/3.78,0.42/3.7, -0.16/2.55
+;AddCrawlerTrack = false, 0.1, -2.14,  -0.28/ -1.16,  -0.07/ -2.03,  0.08/ -2.24,  0.32/ -2.32,  0.57/ -2.24,  0.72/ -2.03,  0.73/ 5.03,  0.73/ 5.26,  0.59/5.45,  0.37/5.52,  0.15/ 5.45,  0.01/ 5.26,-0.28/4.27,
+;AddCrawlerTrack = false, 0.1, 2.14,  -0.28/ -1.16,  -0.07/ -2.03,  0.08/ -2.24,  0.32/ -2.32,  0.57/ -2.24,  0.72/ -2.03,  0.73/ 5.03,  0.73/ 5.26,  0.59/5.45,  0.37/5.52,  0.15/ 5.45,  0.01/ 5.26,-0.28/4.27,
 
-AddCrawlerTrack = true, 0.18, -2.09,  -0.31/2.35, -0.2866/2.5234, -0.2103/2.6706, 0.354/3.6068, 0.4036/3.6953, 0.476/3.7717, 0.5714/3.819, 0.6743/3.8365, 0.7773/3.819, 0.8726/3.7717, 0.9489/3.6953, 0.9946/3.6068, 1.0137/3.5010, 1.0938/-3.5359, 1.048/-3.742, 0.9145/-3.9069, 0.7239/-4.0011, 0.5103/-4.011, 0.3197/-3.9069, 0.1862/-3.742, -0.1837/-2.9117, -0.2599/-2.7586, -0.2866/-2.5938
-AddCrawlerTrack = true, 0.18, 2.09,  -0.31/2.35, -0.2866/2.5234, -0.2103/2.6706, 0.354/3.6068, 0.4036/3.6953, 0.476/3.7717, 0.5714/3.819, 0.6743/3.8365, 0.7773/3.819, 0.8726/3.7717, 0.9489/3.6953, 0.9946/3.6068, 1.0137/3.5010, 1.0938/-3.5359, 1.048/-3.742, 0.9145/-3.9069, 0.7239/-4.0011, 0.5103/-4.011, 0.3197/-3.9069, 0.1862/-3.742, -0.1837/-2.9117, -0.2599/-2.7586, -0.2866/-2.5938
+; 転輪の回転速度：0より小さい値を設定すると逆回転する
+;TrackRollerRot = 30
 
-AddTrackRoller = -2.06,  0.6743,  3.5009
-AddTrackRoller = -2.06,  0.232,  2.3524
-AddTrackRoller = -2.06,  0.232,  0.839
-AddTrackRoller = -2.06,  0.232,  -0.3033
-AddTrackRoller = -2.06,  0.232,  -1.4398
-AddTrackRoller = -2.06,  0.2587,  -2.594
-AddTrackRoller = -2.06,  0.6171,  -3.5363
+;転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
+;履帯と同じ動きをするが、履帯がなくても設定可能
+AddTrackRoller =  1.81 ,0.64 ,3.4
+AddTrackRoller =  1.79,  0.31,  2.4
+AddTrackRoller = 1.79,  0.31,  1.2
+AddTrackRoller =1.79,  0.31,  0
+AddTrackRoller = 1.79,  0.31,  -1.19
+AddTrackRoller =  1.79,  0.31,  -2.45
+AddTrackRoller = 1.81,  0.64,  -3.4
 
-AddTrackRoller = 2.06,  0.6743,  3.5009
-AddTrackRoller = 2.06,  0.232,  2.3524
-AddTrackRoller = 2.06,  0.232,  0.839
-AddTrackRoller = 2.06,  0.232,  -0.3033
-AddTrackRoller = 2.06,  0.232,  -1.4398
-AddTrackRoller = 2.06,  0.2587,  -2.594
-AddTrackRoller = 2.06,  0.6171,  -3.5363
+AddTrackRoller =  -1.87 ,0.64 ,3.4
+AddTrackRoller =  -1.85,  0.31,  2.4
+AddTrackRoller =-1.85,  0.31,  1.2
+AddTrackRoller =-1.85,  0.31,  0
+AddTrackRoller = -1.85,  0.31,  -1.19
+AddTrackRoller =  -1.85,  0.31,  -2.45
+AddTrackRoller = -1.87,  0.64,  -3.4
 
+;主砲
+AddPartWeapon =3bm25/3bk17m, false, true, false,  0.00, 0, 0, 0
+AddPartWeaponChild = false, true, 0.34, 1.69, 1.76, 0.0
+AddPartWeaponChild = false, true, 0.34, 1.69, 1.76, 0.5
+AddTurretWeapon =3bm25, 0.00, 1.71, 6.82,  0.0, 0.0, true,1, 0,-360,180, -30, 7
+AddTurretWeapon = 3bk17m, 0.00, 1.71, 6.82,  0.0, 0.0, true,1, 0,-360,180, -30, 7
+AddTurretWeapon =mg_coaxial,  -0.41, 1.74, 1.97,  0.0, 0.0, true,1, 0,-360,180, -30, 7
 
-AddPartWeapon = D10_APFSDS / D10_HE / D10_HEATMP, false, true, false,  0.00, 1.52, 0.00, 0
-AddPartWeaponChild = false, true, 0.00, 1.8221, 1.7149, 0.0
-AddPartWeaponChild = false, true, 0.00, 1.8221, 1.7149, 0.45
-AddTurretWeapon = D10_APFSDS, 0.00, 1.9241, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 5
-AddTurretWeapon = D10_HE,     0.00, 1.9241, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 5
-AddTurretWeapon = D10_HEATMP,     0.00, 1.9241, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 5
-AddTurretWeapon = mg7_62mm_mbt,   -0.3, 1.9241, 0,   0.0, 0.0, true, 1, 0, -360,360, -14,5
-AddRecipe = "III",  "IXI",  "XXX",  X, iron_block,  I, iron_ingot
+;AddPartTurretWeapon    =  m240_r,   true, true, true,  0.2, 3.13, 0.41
+;AddPartTurretWeapon    = m240_r, false, true, false,  0.21, 2.73, 0.43
+;AddTurretWeapon = m240_r,    0.21, 2.73, 0.43,   0.0, 0.0, false, 2, 0, -360,180, -50,10
 
-BoundingBox =  0.0, 0.6,  2.4,   3.7, 1.8,  0.70
-BoundingBox = -0.9, 1.2,  0.0,  2.4, 2.7,  0.70
-BoundingBox =  0.9, 1.2,  0.0,  2.4, 2.7,  0.70
-BoundingBox =  0.0, 1.2, -2.5,   3.5, 2.0,  1.25
+AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
+
+;RideRack = 乗る機体名, ラック番号 (1～) 
+RideRack = c5, 1
+RideRack = c5, 2
+
+BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+Sound =t55run

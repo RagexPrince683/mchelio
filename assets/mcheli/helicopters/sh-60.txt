@@ -12,6 +12,7 @@ FlareType = 3
 CameraPosition = 0.0, 0.7, 3.5
 MaxFuel         = 1800
 FuelConsumption = 1.0
+Stealth = 0.2
 
 sound = apache
 soundpitch = 1.3

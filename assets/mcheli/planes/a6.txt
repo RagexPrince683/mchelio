@@ -1,7 +1,7 @@
 DisplayName = A-6 Intruder
 AddDisplayName = ja_JP, A-6 Intruder
 ItemID = 28740
-MaxHp = 200
+MaxHp = 100
 onGroundPitch = 5
 EnableNightVision = true
 EnableEntityRadar = true
@@ -14,6 +14,8 @@ MaxFuel         = 1500
 FuelConsumption = 1.0
 ThirdPersonDist = 20
 ThrottleUpDown = 0.3
+
+DamageFactor = 0.8
 
 enableback = true
 
@@ -89,3 +91,5 @@ BoundingBox = 0.0, 5.3, -16.5, 0.5, 2.5
 
 BoundingBox = 1.47, 3.5, -15.25, 2.0, 0.2
 BoundingBox = -1.47, 3.5, -15.25, 2.0, 0.2
+
+Unmountposition = -0.528,  1.594,  -0.9981

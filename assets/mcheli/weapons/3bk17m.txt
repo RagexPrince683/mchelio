@@ -1,0 +1,21 @@
+DisplayName = 3bk47m[APFSDS]
+Type = MachineGun1
+Power = 90
+ModelBullet =3bm42
+Explosion = 1
+ExplosionBlock = 1
+Acceleration = 16.0
+Sight = None
+ReloadTime = 80
+Round = 1
+SoundVolume = 10.0
+Sound = cannon_6_snd
+Accuracy = 1.5
+BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+Gravity = -0.01
+
+MaxAmmo = 40
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder

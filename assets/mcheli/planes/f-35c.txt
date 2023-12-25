@@ -14,7 +14,7 @@ EnableSeaSurfaceParticle = true
 MaxFuel         = 1200
 FuelConsumption = 1.1
 ThrottleUpDown = 0.3
-Stealth = 0.1
+Stealth = 0.35
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F

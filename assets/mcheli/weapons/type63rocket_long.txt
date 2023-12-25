@@ -1,0 +1,20 @@
+DisplayName = Type-63 107mm Rocket Long
+Type = Rocket
+Power = 42
+ModelBullet = hydra70
+Acceleration = 10.0
+Explosion = 4
+ExplosionBlock = 6
+Flaming = false
+Sight = MoveSight
+Delay = 8
+ReloadTime = 110
+Round = 12
+Sound = missile_4_snd
+Gravity = -0.04
+Accuracy = 6.0
+
+MaxAmmo = 12
+SuppliedNum = 12
+Item =  8, iron_ingot
+Item =  7, gunpowder

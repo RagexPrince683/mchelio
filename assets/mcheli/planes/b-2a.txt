@@ -21,7 +21,7 @@ CameraPosition  = 0.0, 2.66, 3.78
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
 AutoPilotRot = 0
-Stealth = 0.2
+Stealth = 0.35
 
 ThrottleUpDown = 0.1
 
