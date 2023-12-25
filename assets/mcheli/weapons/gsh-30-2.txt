@@ -11,7 +11,7 @@ Accuracy = 1
 HeatCount = 1
 MaxHeatCount = 300
 ReloadTime =100
-Round = 3000
+Round = 250
 Sound = gshtwentythree
 SoundPitch = 0.8
 
