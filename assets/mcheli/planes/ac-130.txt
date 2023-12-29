@@ -20,6 +20,7 @@ MaxFuel         = 4800
 FuelConsumption = 2.0
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
+ThirdPersonDist = 28
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
@@ -93,8 +94,8 @@ BoundingBox =  7.92, 4.00,  -6.60,  4.0, 1.0
 BoundingBox = -10.92, 4.00,  -6.60,  4.0, 1.0
 BoundingBox =  10.92, 4.00,  -6.60,  4.0, 1.0
 
-BoundingBox = -15.92, 4.00,  -6.60,  4.0, 1.0
-BoundingBox =  15.92, 4.00,  -6.60,  4.0, 1.0
+BoundingBox = -13.92, 4.00,  -6.60,  4.0, 1.0
+BoundingBox =  13.92, 4.00,  -6.60,  4.0, 1.0
 
 BoundingBox =  0.00, 2.60, -9.60,  4.0, 4.0
 BoundingBox =  0.00, 2.60,  -4.60,  4.0, 4.0
@@ -111,10 +112,10 @@ BoundingBox = -4.0, 4.80, -22.75, 3.0, 1.0
 BoundingBox = 6.0, 4.80, -22.75, 3.0, 1.0
 BoundingBox = -6.0, 4.80, -22.75, 3.0, 1.0
 
-BoundingBox = -4.62, 3.24, -3.26, 1.5, 1.5
-BoundingBox = -9.47, 3.24, -3.26, 1.5, 1.5
-BoundingBox = 4.62, 3.24, -3.26, 1.5, 1.5
-BoundingBox = 9.47, 3.24, -3.26, 1.5, 1.5
+BoundingBox = -4.62, 3.24, -3.26, 1.5, 1.5  , 1.5
+BoundingBox = -9.47, 3.24, -3.26, 1.5, 1.5  , 1.5
+BoundingBox = 4.62, 3.24, -3.26, 1.5, 1.5   , 1.5
+BoundingBox = 9.47, 3.24, -3.26, 1.5, 1.5   , 1.5
 
 
 

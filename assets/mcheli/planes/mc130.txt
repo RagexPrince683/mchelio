@@ -3,7 +3,7 @@ AddDisplayName = ja_JP, MC-130 Combatalon
 ItemID = 28713
 MaxHp = 250
 Speed = 0.63858
-Sound = turboprop
+Sound = conethirty
 ThrottleUpDown = 0.3
 ;AutoPilotRot = -0.60
 AutoPilotRot = -0.00
@@ -30,36 +30,35 @@ MobilityPitch = 0.4
 MobilityRoll = 0.2
 MinRotationPitch = -60
 MaxRotationPitch =  60
-MinRotationRoll  = -60
-MaxRotationRoll  =  60
+;MinRotationRoll  = -60
+;MaxRotationRoll  =  60
 
-AddSeat =  0.5355,  2.188,  3.446
-AddSeat = -0.5355,  2.188,  3.446
-AddGunnerSeat =  0.00,  1.00,-7.50
-AddGunnerSeat =  0.00,  1.00,-2.50
+AddSeat =  0.65,  2.43,  2.00
+AddSeat = -0.65,  2.43,  2.00
+AddSeat =  0.65,  2.43,  0.75
+AddSeat = -0.65,  2.43,  0.75
 
 
-AddPartLG =  0.00, 1.19,  0.37,  -1,0,0, 30
-AddPartLG =  0.00, 0.5167, -7.980,  1,0,0, -50
-AddPartLG =  0.00, 0.5167, -7.980,  1,0,0, -50
+AddPartLG =  0.00, 1.19,  0.37,  1,0,0
+AddPartLG =  0.00, 1.20, -7.16,  1,0,0, 60
+AddPartLG =  0.00, 1.20, -8.78,  1,0,0, 60
 
-AddPartRotor =   -9.002,  3.818,  -2.24,   0, 0, 1
-AddBlade = 1,0, -9.002,  3.818,  -2.24,   0, 0, 1
-AddPartRotor =  -4.481,  3.61,  -2.24,   0, 0, 1
-AddBlade = 1,0,-4.481,  3.61,  -2.24,   0, 0, 1
+AddPartRotor =   9.55,  3.40,  -1.94,   0, 0, 1
+AddBlade = 4,90, 9.55,  3.40,  -1.94,   0, 0, 1
+AddPartRotor =  -9.55,  3.40,  -1.94,   0, 0, 1
+AddBlade = 4,90,-9.55,  3.40,  -1.94,   0, 0, 1
 
-AddPartRotor =   4.54,  3.61,  -2.33,   0, 0, -1
-AddBlade = 1,0, 4.54,  3.61,  -2.33,   0, 0, -1
+AddPartRotor =   4.67,  3.40,  -1.94,   0, 0, 1
+AddBlade = 4,90, 4.67,  3.40,  -1.94,   0, 0, 1
+AddPartRotor =  -4.67,  3.40,  -1.94,   0, 0, 1
+AddBlade = 4,90,-4.67,  3.40,  -1.94,   0, 0, 1
 
-AddPartRotor =  9.07,  3.81,  -2.43,   0, 0, -1
-AddBlade = 1,0,9.07,  3.81,  -2.43,   0, 0, -1
-
-AddPartHatch =   0.00, 0.8398, -10.27, -1, 0,0, 30
-AddPartHatch =   0.00, 3.204, -16.04, -1, 0,0, 48
+AddPartHatch =   0.00, 3.62, -18.65, -1, 0,0, 27
+AddPartHatch =   0.00, 0.81, -13.46, -1, 0,0, 48
 
 AddPartWeaponMissile = MOAB,    false,  false,  false,  0.00, 2.31, -5.345
 
-AddWeapon = MOAB,  0.00, 0.8398, -10.27,  0.0, -3.0
+AddWeapon = MOAB,  0.00, 0.8398, -12.27,  0.0, -3.0
 
 AddRecipe = "ISI",  "GDC",  "IRI",  I,iron_block, S,stone, G,gunpowder, D,diamond_block, C,chest, R,glass
 
@@ -67,8 +66,48 @@ AddRecipe = "ISI",  "GDC",  "IRI",  I,iron_block, S,stone, G,gunpowder, D,diamon
 BoundingBox =  0.00, 2.60,  -1.60,  4.0, 4.0
 BoundingBox =  0.00, 2.60,  -6.60,  4.0, 4.0
 BoundingBox =  0.00, 2.60, -11.60,  4.0, 4.0
+
+BoundingBox = -2.92, 4.00,  -6.60,  4.0, 1.0
+BoundingBox =  2.92, 4.00,  -6.60,  4.0, 1.0
+
+
 BoundingBox = -4.92, 4.00,  -6.60,  4.0, 1.0
 BoundingBox =  4.92, 4.00,  -6.60,  4.0, 1.0
+
+BoundingBox = -7.92, 4.00,  -6.60,  4.0, 1.0
+BoundingBox =  7.92, 4.00,  -6.60,  4.0, 1.0
+
+BoundingBox = -10.92, 4.00,  -6.60,  4.0, 1.0
+BoundingBox =  10.92, 4.00,  -6.60,  4.0, 1.0
+
+BoundingBox = -13.92, 4.00,  -6.60,  4.0, 1.0
+BoundingBox =  13.92, 4.00,  -6.60,  4.0, 1.0
+
+BoundingBox =  0.00, 2.60, -9.60,  4.0, 4.0
+BoundingBox =  0.00, 2.60,  -4.60,  4.0, 4.0
+BoundingBox =  0.00, 2.90, -14.60,  3.5, 3.5
+BoundingBox =  0.00, 3.20, -17.60,  3.5, 3.0
+BoundingBox =  0.00, 3.80, -19.60,  3.0, 2.0
+BoundingBox =  0.00, 6.96, -22.75,  3.0, 7.0
+
+BoundingBox =  2.00, 4.96, -22.75,  3.0, 2.0
+BoundingBox =  -2.00, 4.96, -22.75,  3.0, 2.0
+
+BoundingBox = 4.0, 4.80, -22.75, 3.0, 1.0
+BoundingBox = -4.0, 4.80, -22.75, 3.0, 1.0
+BoundingBox = 6.0, 4.80, -22.75, 3.0, 1.0
+BoundingBox = -6.0, 4.80, -22.75, 3.0, 1.0
+
+BoundingBox = -4.62, 3.24, -3.26, 1.5, 1.5  , 1.5
+BoundingBox = -9.47, 3.24, -3.26, 1.5, 1.5  , 1.5
+BoundingBox = 4.62, 3.24, -3.26, 1.5, 1.5   , 1.5
+BoundingBox = 9.47, 3.24, -3.26, 1.5, 1.5   , 1.5
+
+DamageFactor = 0.8
+
+unmountposition = 0.65,  2.43,  2.00
+
+enableback = true
 
 ; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute alt
 AddRack = container,   0.0, 1.4, -4.7,  0.0, 0.0, -16.1,  8.0,    20.0

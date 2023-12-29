@@ -1,7 +1,7 @@
 DisplayName = GBU-53/B SDB II
 Type = ATMissile
 Power = 1000
-Acceleration = 1.7
+Acceleration = 2.1
 Explosion = 4
 Flaming = false
 Sight = MissileSight 
@@ -21,8 +21,8 @@ DamageFactor = heli, 3.0
 
 ;bomb rewrite
 Acceleration = 0.5
-Explosion = 25
-;Explosive mass	125 kg
+Explosion = 20
+;Explosive mass	105 kg
 Power = 500
 ExplosionBlock = 2
 ExplosionInWater = 0

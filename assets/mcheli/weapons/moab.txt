@@ -18,7 +18,7 @@ DisableSmoke = false
 Sound = bomb_snd
 
 ;ProximityFuseDist = 5
-ExplosionAltitude = 25
+ExplosionAltitude = 15
 BombletSTime = 50
 SmokeColor = 219, 155, 17
 ParticlesScale = 40
