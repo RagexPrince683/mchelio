@@ -48,7 +48,7 @@ AddPartWeaponMissile = aim7_spa,   false, false, false,  -2.00,  1.01,  0.00
 AddPartWeaponMissile = agm84,      false, false, false,   2.75,  1.01,  0.00 
 AddPartWeaponMissile = agm84,      false, false, false,  -2.75,  1.01,  0.00
 
-AddWeapon = m61a1_l,     0.00,  2.40,  5.71,  0.0,  0.0
+AddWeapon = m61fa18,     0.00,  2.40,  5.71,  0.0,  0.0
 AddWeapon = aim120,      7.23,  2.03, -3.00,  1.0,  0.0
 AddWeapon = aim120,     -7.23,  2.03, -3.00, -1.0,  0.0
 AddWeapon = aim7_spa,    3.77,  1.37,  0.23,  1.0,  3.0
