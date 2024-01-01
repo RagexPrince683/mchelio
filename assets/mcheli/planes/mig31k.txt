@@ -1,11 +1,11 @@
 DisplayName = Mig-31K
 AddDisplayName = ja_JP, Mig-31K
 ItemID = 28705
-MaxHp = 280
+MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.0
+Speed = 1.5
 FlareType = 5
 ThrottleUpDown = 0.8
 MaxFuel         = 1800
