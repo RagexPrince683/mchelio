@@ -1,5 +1,5 @@
 DisplayName = Mikoyan-Gurevich MiG-25
-AddDisplayName = en_us, Mikoyan-Gurevich MiG-25
+AddDisplayName = en_US, Mikoyan-Gurevich MiG-25
 AddDisplayName = ja_JP, Mikoyan-Gurevich MiG-25
 ItemID = 28720
 MaxHp = 100
