@@ -14,6 +14,7 @@ ReloadTime = 110
 Round = 2
 LockTime = 15
 ProximityFuseDist = 1
+ModelBullet = r60
 Sound = missile_1_snd
 
 MaxAmmo = 8
