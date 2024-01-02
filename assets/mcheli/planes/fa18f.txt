@@ -47,7 +47,7 @@ AddPartWeaponMissile = agm-65,  false, false, false,  -5.52,  1.22, -6.70
 AddPartWeaponMissile = agm-65,  false, false, false,   5.00,  1.22, -6.70
 AddPartWeaponMissile = agm-65,  false, false, false,  -5.00,  1.22, -6.70
 
-AddWeapon = m61a1_l, 0.00,  2.24,  5.71,  0.0,  0.0
+AddWeapon = m61fa18, 0.00,  2.24,  5.71,  0.0,  0.0
 AddWeapon = lau-68,  2.61,  0.77, -3.68,  1.0, -3.0
 AddWeapon = lau-68, -2.61,  0.77, -3.68, -1.0, -3.0
 AddWeapon = mk82,    3.56,  1.23, -6.20,  1.0, -3.0
