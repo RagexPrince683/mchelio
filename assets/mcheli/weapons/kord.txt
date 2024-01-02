@@ -1,7 +1,7 @@
 DisplayName = 6P60 "Kord" 
 AddDisplayName = ru_RU, 12.7 мм Зенитный пулемет "Корд"
 Type = MachineGun1
-Power = 12
+Power = 23
 Acceleration = 8.0
 Explosion = 0
 Flaming = false
