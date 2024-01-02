@@ -19,6 +19,8 @@ ThirdPersonDist = 16
 
 ThrottleUpDown = 0.3
 
+enableback = true
+
 Category = M.A
 
 HUD = plane, plane_gnr
