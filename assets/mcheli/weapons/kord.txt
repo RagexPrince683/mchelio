@@ -18,6 +18,8 @@ DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 
+Gravity = -0.001
+
 MaxAmmo = 600
 SuppliedNum = 200
 Item =  2, iron_ingot
