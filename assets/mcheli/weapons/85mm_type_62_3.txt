@@ -1,12 +1,12 @@
 DisplayName =62-85TC [HE]
 Type = MachineGun2
-Power = 200
+Power = 170
 ModelBullet = bullet105mm
 Acceleration = 6.0
 Explosion = 4
 ExplosionBlock = 0
 Sight = None
-ReloadTime = 80
+ReloadTime = 120
 Round = 1
 Delay = 80
 SoundPitch = 1.2
