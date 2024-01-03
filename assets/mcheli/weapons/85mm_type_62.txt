@@ -1,8 +1,8 @@
 DisplayName =62-85TC [AP]
 Type = MachineGun2
-Power = 75
+Power = 164
 ModelBullet = bullet105mm
-Acceleration = 6.0
+Acceleration = 7.0
 Explosion = 1
 ExplosionBlock = 0
 Sight = None
@@ -15,11 +15,12 @@ Accuracy = 1.5
 Gravity = -0.02
 Sound = cannon_4_snd
 Recoil = 1.5
-
-DamageFactor = helicopter, 0.5
-DamageFactor = plane,      0.5
-DamageFactor = vehicle,    0.5
-DamageFactor = tank,       1.0
+Piercing = 5
+DamageFactor = tank, 10.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
 
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
