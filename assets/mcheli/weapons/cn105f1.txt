@@ -1,19 +1,35 @@
 DisplayName = CN-105-F1 Riffled Gun [APFSDS]
 Type = MachineGun1
-Power = 150
+Power = 361
 ModelBullet = bullet105mm
 Explosion = 1
 ExplosionBlock = 1
-Acceleration = 16.0
+Acceleration = 4.5
 Sight = None
 ReloadTime = 80
 Round = 1
 SoundVolume = 10.0
 Sound = cannon_4_snd
-Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.01
+Recoil = 2.5
+
+
+
+
+Delay = 150
+ReloadTime = 170
+Group = MainGun
+ModelBullet = bullet105mm
+Piercing = 5
+Accuracy = 0.0
+DamageFactor = tank, 10.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
+
 
 MaxAmmo = 16
 SuppliedNum = 1
