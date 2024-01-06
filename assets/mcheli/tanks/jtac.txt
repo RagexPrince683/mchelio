@@ -1,0 +1,35 @@
+DisplayName = JTAC
+AddDisplayName = en_US, JTAC
+
+MaxHP = 50
+Speed = 0
+Gravity = -0.61
+GravityInWater = -1.0
+CameraPosition = 0.0, 1.0, 0.0
+CameraZoom = 16
+MinRotationPitch = -50
+MaxRotationPitch = 0
+EnableNightVision = true
+DefaultFreelook = true
+HUD = vehicle
+
+RotationPitchMin = -70
+RotationPitchMax =  60
+CanMoveOnGround = false
+
+;
+;AddPart = false, true, true, 0, 0.00, 0.4851, 0.1174
+;AddChildPart	= false, true, false, 0, 0.00, 0.615, 0.00
+
+
+AddPartWeapon = false, true, true, 0, 0.00, 0.4851, 0.0
+;AddChildPart	= false, true, false, 0, 0.00, 0.615, 0.00
+
+
+AddWeapon = a10gau8,  0.00, 2.39, 0.00, 0.0, 0.0, true,  1 , 0, -360, 360, -16,6
+AddWeapon = targeting_pod_block,  0.00, 2.39, 0.00, 0.0, 0.0, true,  1 , 0, -360, 360, -16,6
+AddWeapon = targeting_pod_all100s,  0.00, 2.39, 0.00, 0.0, 0.0, true,  1 , 0, -360, 360, -16,6
+
+Speed = 0
+
+SmallUAV = true

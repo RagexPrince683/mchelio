@@ -1,11 +1,11 @@
-DisplayName = Su-25 Frogfoot
-AddDisplayName = en_US, Su-25 Frogfoot
+DisplayName = SU-25T Frogfoot
+AddDisplayName = en_US, SU-25T Frogfoot
 AddDisplayName = ko_KR, 수호이 Su-25
 ItemID = 40008
-MaxHp = 260
-Speed = 1.0
-Sound = fighter_jet
-ThrottleUpDown = 0.8
+MaxHp = 250
+Speed = 1.05444
+Sound = frogfoot
+ThrottleUpDown = 0.3
 MaxFuel = 1000
 FuelConsumption = 1.0
 FlareType = 4

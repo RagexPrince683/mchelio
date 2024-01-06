@@ -1,19 +1,25 @@
-DisplayName = 9M120 Ataka HEAT
+DisplayName = 9M120  Ataka [ATGM] [HEAT]
 Type = TVMissile
-Power = 300
+Power = 950
+Piercing = 0
 Acceleration = 2.0
-Piercing = 2
-Explosion = 3
-Flaming = false
+Explosion = 4
+Flaming = true
 Sight = MoveSight
-ReloadTime = 200
-Delay = 40
-Round = 4
-ModelBullet = 9M113
-Sound = 9M120_snd
+Delay = 100
 ModeNum = 2
+ModelBullet = 9m113
+Sound = missile_atgm2_snd
 
-MaxAmmo = 8
+;DamageFactor = tank, 2.0
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+; DEBUG
+;RigidityTime = 30
+
+MaxAmmo = 4
 SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder
