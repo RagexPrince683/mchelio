@@ -57,7 +57,7 @@ AddPartWeaponMissile = fb250, false,  false,  false, -5.09,  1.91, -6.73
 AddPartWeaponMissile = fb250, false,  false,  false, -5.09,  1.91, -6.73
 AddPartWeaponMissile = fb250, false,  false,  false, -5.09,  1.91, -6.73
 
-AddWeapon = gsh-30-1,  0.08,  3.68,  10.08,   2.0, -3.0
+AddWeapon = gsh-6-23,  0.08,  3.68,  10.08,   2.0, -3.0
 AddWeapon = kh-25,     7.64,  3.68, -1.75,   0.0,  0.0 , true,  2
 AddWeapon = kh-25,    -7.64,  3.68, -1.75,   0.0,  0.0 , true,  2
 AddWeapon = r60,     2.43,  2.93, -1.32,   0.0,  0.0 , true,  2
