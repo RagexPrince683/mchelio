@@ -1,0 +1,31 @@
+DisplayName = CN-105-F1 Riffled Gun [  HE  ]
+Type = MachineGun1
+Power = 65
+ModelBullet = bullet105mm
+Explosion = 5
+ExplosionBlock = 4
+Acceleration = 5.0
+Sight = None
+ReloadTime = 170
+Round = 1
+SoundVolume = 10.0
+Sound = cannon_4_snd
+Accuracy = 1.5
+BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+Gravity = -0.01
+
+Acceleration = 7.0
+Piercing = 0
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+
+MaxAmmo = 16
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  2, gunpowder
