@@ -1,12 +1,12 @@
 DisplayName =62-85TC [HEAT]
 Type = MachineGun2
-Power = 150
+Power = 300
 ModelBullet = bullet105mm
 Acceleration = 6.0
 Explosion = 2
 ExplosionBlock = 0
 Sight = None
-ReloadTime = 80
+ReloadTime = 120
 Round = 1
 Delay = 80
 SoundPitch = 1.2
@@ -14,12 +14,13 @@ SoundVolume = 16.0
 Accuracy = 1.5
 Gravity = -0.02
 Sound = cannon_4_snd
-Recoil = 1.5
-
-DamageFactor = helicopter, 0.5
-DamageFactor = plane,      0.5
-DamageFactor = vehicle,    0.5
-DamageFactor = tank,       2.5
+Recoil = 2.0
+Piercing = 4
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
