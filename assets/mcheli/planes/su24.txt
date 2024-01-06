@@ -1,13 +1,13 @@
 DisplayName = Su-24
-AddDisplayName = en_US, Su-24
+AddDisplayName = Su-24
 AddDisplayName = ua_UA, Su-24
 AddDisplayName = en_EN, Su-24
 ItemID = 28731
-MaxHp = 250
+MaxHp = 220
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.42158
+Speed = 1.43
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -16,10 +16,6 @@ SweepWingSpeed = 1.2
 MaxFuel         = 1600
 FuelConsumption = 1.1
 ThirdPersonDist = 16
-
-ThrottleUpDown = 0.3
-
-enableback = true
 
 Category = M.A
 
@@ -30,7 +26,6 @@ MobilityRoll = 0.5
 MobilityPitch = 8.5
 
 AddSeat = 0.31, 3.0, 7.37
-unmountposition = 0.31, 2.0, 7.37
 AddGunnerSeat = -0.35, 3.0, 7.37, -0.70, 1.99, 10.56, true
 
 AddPartCanopy = 0.03, 3.87, 9.10, 1,0,0,  40
@@ -57,7 +52,7 @@ AddPartWeaponMissile = fb250, false,  false,  false, -5.09,  1.91, -6.73
 AddPartWeaponMissile = fb250, false,  false,  false, -5.09,  1.91, -6.73
 AddPartWeaponMissile = fb250, false,  false,  false, -5.09,  1.91, -6.73
 
-AddWeapon = gsh-30-1,  0.08,  3.68,  10.08,   2.0, -3.0
+AddWeapon = gsh-6-23.,  0.08,  3.68,  10.08,   2.0, -3.0
 AddWeapon = kh-25,     7.64,  3.68, -1.75,   0.0,  0.0 , true,  2
 AddWeapon = kh-25,    -7.64,  3.68, -1.75,   0.0,  0.0 , true,  2
 AddWeapon = r60,     2.43,  2.93, -1.32,   0.0,  0.0 , true,  2
@@ -79,34 +74,8 @@ AddWeapon = targeting_pod_mob, -5.09,  1.91, -6.73,   0.0,  0.0
 
 AddRecipe = "HGL",  "BCB",  "IPI",  H, dye,3,  G, glass,  L, dye,14,  B, diamond_block,  C, iron_block,  I, diamond,  P, gunpowder
 
-
-BoundingBox = 0.0, 3.4, 6.0, 2.0, 2.0
-BoundingBox = 0.0, 3.4, 5.0, 2.0, 2.0
-
-BoundingBox =  0.00, 3.00, 2.60,  3.0, 2.0
-BoundingBox =  0.00, 3.00, 0.40,  3.0, 2.0
-BoundingBox =  0.00, 3.00, -2.60,  3.0, 2.0
-BoundingBox =  0.00, 3.00, -5.60,  3.0, 2.0
-BoundingBox =  0.00, 3.00, -5.80,  3.0, 2.0
-BoundingBox =  0.00, 3.10, -8.90,  3.2, 2.0
-
-BoundingBox = -2.92, 3.50, -3.10,  3.0, 0.4
-BoundingBox =  2.92, 3.50, -3.10,  3.0, 0.4 
-
-BoundingBox = -5.92, 3.50, -3.90,  3.0, 0.4
-BoundingBox =  5.92, 3.50, -3.90,  3.0, 0.4 
-
-BoundingBox = -7.92, 3.50, -4.60,  2.0, 0.4
-BoundingBox =  7.92, 3.50, -4.60,  2.0, 0.4 
-
-
-BoundingBox = 2.82, 3.75, -10.56, 2.3, 0.3
-BoundingBox = -2.82, 3.75, -10.56, 2.3, 0.3
-
-BoundingBox = 0.0, 5.20, -10.06, 0.5, 2.5
-BoundingBox = 0.0, 5.50, -10.56, 0.5, 2.5
-BoundingBox = 0.0, 5.80, -11.06, 0.5, 2.5
-BoundingBox = 0.0, 5.85, -11.56, 0.5, 2.5
-BoundingBox = 0.0, 6.45, -12.06, 0.5, 2.5
-BoundingBox = 0.0, 6.75, -12.56, 0.5, 2.5
-BoundingBox = 0.0, 6.90, -13.06, 0.5, 2.0
+BoundingBox =  0.00, 2.80, -2.60,  2.0, 2.0
+BoundingBox =  0.00, 2.60, -5.60,  2.0, 2.5
+BoundingBox =  0.00, 3.20, -9.20,  4.0, 2.0
+BoundingBox = -2.92, 3.20, -2.60,  3.0, 1.0
+BoundingBox =  2.92, 3.20, -2.60,  3.0, 1.0 

@@ -1,9 +1,9 @@
 DisplayName = K-5 AA-1 Alkali
 Type = AAMissile
-Power = 54
+Power = 150
 ModelBullet = hydra70
 Acceleration = 3.5
-Explosion = 4
+Explosion = 5
 Sound = aimnine
 SoundPitch = 0.8
 SoundVolume = 15

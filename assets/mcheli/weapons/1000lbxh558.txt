@@ -1,10 +1,8 @@
 DisplayName = 1000lb Bomb
 Type = Bomb
-Power = 1000
-Acceleration = 0.1
-Explosion = 10
-ExplosionBlock = 3
-ExplosionInWater = 3
+Power = 20
+Acceleration = 1.5
+Explosion = 5
 Sight = None
 Delay = 6
 ReloadTime = 380

@@ -1,12 +1,11 @@
 DisplayName = TUPOLEV TU22M3
-AddDisplayName = en_US, Tu-22M3
 AddDisplayName = ja_JP, TUPOLEV TU22M3
 ItemID = 28738
-MaxHp  = 250
+MaxHp  = 652
 EnableNightVision  = true
 EnableEntityRadar  = true
 EnableEjectionSeat = true
-Speed = 1.42158
+Speed = 1.5
 FlareType = 2
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -19,14 +18,14 @@ AutoPilotRot = 0
 ThirdPersonDist = 24
 SweepWingSpeed = 1.5
 
-ThrottleUpDown = 0.3
+ThrottleUpDown = 0.5
 MobilityYaw = 0.5
 MobilityPitch = 0.5
 MobilityRoll = 0.3
 MinRotationPitch = -60
 MaxRotationPitch =  60
-;MinRotationRoll  = -60
-;MaxRotationRoll  =  60
+MinRotationRoll  = -60
+MaxRotationRoll  =  60
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
@@ -34,7 +33,6 @@ Category = M.A
 HUD = plane, plane_gnr
 
 AddSeat =  0.4733, 2.7, 1.119 
-unmountposition = 0.4733, 1.5, 1.119
 AddGunnerSeat = -0.4733, 2.7, 1.119, 0.00,  4.638, -28.07, true
 
 AddPartWing  = -6.944, 2.864, -14.81,  0, -1,0, 50
@@ -56,6 +54,10 @@ AddWeapon = gsh-23-2,  0.00,  4.638, -28.07,  0, 0 , false,  2, -180,  -120,  12
 AddWeapon = kh22,  -6.265,  1.994, -14.23,  0, 0 , true,  1
 AddWeapon = kh22,   6.265,  1.994, -14.23,  0, 0 , true,  1
 
-Boundingbox = 0.0, 3.3, -0.5, 2.0, 2.0
+BoundingBox =  0.0, 3.5, -1.8,  7.0, 4.0
+BoundingBox =  0.0, 3.5, -8.2,  7.0, 4.0
+BoundingBox =  0.0, 3.0,-14.8,  7.0, 2.0
+BoundingBox =  8.5, 3.2, -9.3, 10.0, 2.3
+BoundingBox = -8.5, 3.2, -9.3, 10.0, 2.3
 
 AddRecipe = "DDG",  "DGT",  "GTI",  I,iron_block, G,gold_block, D,diamond_block, T,tnt

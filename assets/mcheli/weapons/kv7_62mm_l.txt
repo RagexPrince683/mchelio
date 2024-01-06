@@ -1,24 +1,17 @@
-DisplayName = 7.62mm KV-2 lear
+DisplayName = 7.62mm KV-2 Lear
 Type = MachineGun1
-Power = 7
-Acceleration = 7.5
+Power = 5
+Acceleration = 8.0
 Explosion = 0
 Flaming = false
 Sight = MoveSight
-Delay = 1
+Delay = 0
 ;SoundDelay = 3
 ;Accuracy = 2.0
-HeatCount = 4
+HeatCount = 1
 MaxHeatCount = 150
 SoundPitch = 1.0
 Sound = gun_l1_snd
-
-DamageFactor = tank, 1.0
-DamageFactor = plane, 0.5
-DamageFactor = vehicle, 1.0
-DamageFactor = heli, 0.5
-
-Gravity = -0.001
 
 MaxAmmo = 1200
 SuppliedNum = 200

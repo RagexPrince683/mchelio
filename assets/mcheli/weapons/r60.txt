@@ -1,10 +1,6 @@
-DisplayName = R-60 Air To Air Missile
+DisplayName = R-60
 Type = AAMissile
 Power = 42
-DamageFactor = tank, 1.5
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
 Acceleration = 3
 Explosion = 4
 Flaming = false
@@ -14,8 +10,8 @@ ReloadTime = 110
 Round = 2
 LockTime = 15
 ProximityFuseDist = 1
-ModelBullet = r60
 Sound = missile_1_snd
+ModelBullet = r60
 
 MaxAmmo = 8
 SuppliedNum = 4
