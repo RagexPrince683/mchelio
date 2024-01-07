@@ -1,18 +1,34 @@
 DisplayName = S-8 80mmRocket (Повышенного могущества)
 Type = Rocket
-Power = 50
-ModelBullet = hydra70
-Acceleration = 7.0
-Explosion = 5
+Power = 400
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+Acceleration = 3.5
+Explosion = 4
 Flaming = false
 Sight = MoveSight
-Delay = 6
-ReloadTime = 110
-Round = 18
-ModeNum = 2
-Sound = rocket_snd
+Delay = 1
+ReloadTime = 220
+Round = 40
+Sound = hydraseventy
+SoundPitch = 0.8
 
-MaxAmmo = 18
-SuppliedNum = 9
-Item =  4, iron_ingot
+
+Gravity = -0.001
+
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+Piercing = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
+SoundVolume = 15
+MaxAmmo = 40
+SuppliedNum = 10
+Item =  3, iron_ingot
 Item =  4, gunpowder
