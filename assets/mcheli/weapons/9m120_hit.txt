@@ -13,6 +13,15 @@ Sound = 9M120_snd
 ModeNum = 2
 FAE = true
 
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 9M120 Ataka HIT
+SoundVolume = 15
+
+
 MaxAmmo = 8
 SuppliedNum = 2
 Item =  1, iron_ingot
