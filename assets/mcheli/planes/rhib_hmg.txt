@@ -1,7 +1,8 @@
-﻿DisplayName =RHIB Boat HMG
+﻿DisplayName = Rigid inflatable boat
+AddDisplayName = en_US, Rigid Inflatable Boat (short)
 AddDisplayName = ja_JP, 複合艇(マシンガン搭載)
 ItemID = 49998
-MaxHp = 160
+MaxHp = 100
 Speed = 0.8
 Float = true
 FloatOffset = -0.7
