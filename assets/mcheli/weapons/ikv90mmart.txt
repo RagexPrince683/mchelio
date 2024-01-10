@@ -1,6 +1,6 @@
 DisplayName = 90 mm Gun (Ikv 91 - Artillery mode)
 Type = Rocket
-Power = 80
+Power = 45
 Explosion = 6
 ExplosionBlock = 5
 Acceleration = 4.0
@@ -10,12 +10,20 @@ Accuracy = 5.0
 ModelBullet = bullet105mm
 Flaming = false
 Sight = None
-Delay = 240
+Delay = 150
 Gravity = -0.08
-ReloadTime = 240
+ReloadTime = 150
 Recoil = 5
 ModeNum = 1
 Round = 1
+
+DamageFactor = helicopter, 2.5
+DamageFactor = plane,      2.5
+DamageFactor = vehicle,    2.5
+DamageFactor = tank,       0.1
+DamageFactor = player, 20.0
+
+
 
 DisplayMortarDistance = true
 FixCameraPitch = true

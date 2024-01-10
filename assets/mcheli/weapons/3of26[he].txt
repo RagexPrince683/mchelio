@@ -14,11 +14,6 @@ SoundVolume = 15
 Sound = cannon_4_snd
 group = maingun
 
-MaxAmmo = 30
-SuppliedNum = 15
-Item =  3, iron_ingot
-Item =  2, gunpowder
-
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0
@@ -27,3 +22,10 @@ DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 AddDisplayName = en_US, 3OF26[HE]
+
+
+MaxAmmo = 30
+SuppliedNum = 15
+Item =  3, iron_ingot
+Item =  2, gunpowder
+

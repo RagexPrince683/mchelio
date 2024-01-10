@@ -1,34 +1,37 @@
 DisplayName = 152mm "Msta-C" Gun
 Type = Rocket
-Power = 70
-Explosion = 12
-ExplosionBlock = 8
-Acceleration = 4.0
-SoundVolume = 1.0
-Sound = cannon_4_snd
-Accuracy = 5.0
-ModelBullet = bullet105mm
+Power = 500
+ModelBullet = mstabhe
+Acceleration = 8.0
+Explosion = 10
+ExplosionBlock = 5
 Flaming = false
 Sight = None
-Delay = 240
-Gravity = -0.08
-ReloadTime = 100
-Recoil = 5
-ModeNum = 1
+Delay = 160
+ReloadTime = 200
 Round = 1
-
-
+SoundVolume = 10.0
+Sound = msta
+Accuracy = 1.8
+Gravity = -0.10
+Group = MainGun
+Recoil = 2.5
 DisplayMortarDistance = true
-FixCameraPitch = true
-CameraRotationSpeedPitch = 0.2
 
-AddMuzzleFlash      =  8.2,     2.10,        9,  220,254,159,74
-AddMuzzleFlash      =  8.1,     2.05,        8,  220,254,219,104
-AddMuzzleFlash      =  8.0,     2.00,        7,  220,254,219,184
-AddMuzzleFlashSmoke =  8.2, 30, 12.0,  4.0, 65,  220,160,140,120
-AddMuzzleFlashSmoke = 10.2, 20, 13.0,  7.0, 55,  200,190,170,150
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
-MaxAmmo = 12
-SuppliedNum = 2
-Item =  8, iron_ingot
-Item =  8, gunpowder
+SoundVolume = 15
+Group = MainGun
+
+
+
+RecoilBufCount = 40, 5
+
+MaxAmmo = 20
+SuppliedNum = 5
+Item =  5, iron_ingot
+Item =  3, gunpowder

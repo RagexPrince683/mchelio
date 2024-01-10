@@ -1,18 +1,27 @@
 DisplayName = 3M9 Rocket
 Type = AAMissile
-Power = 84
+Power = 105
 Acceleration = 8
 Explosion = 6
 Flaming = false
 Sight = MissileSight
-Delay = 24
-ReloadTime = 110
+Delay = 200
+ReloadTime = 200
 Round = 3
 LockTime = 12
-ProximityFuseDist = 1
+ProximityFuseDist = 3
 Sound = missile_1_snd
 
+Piercing = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 9M113M
+
 MaxAmmo = 6
+
 SuppliedNum = 2
 Item =  2, iron_ingot
 Item =  2, gunpowder
