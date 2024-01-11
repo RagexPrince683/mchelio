@@ -25,6 +25,11 @@ MinRotationRoll =-30
 MaxRotationRoll =30
 
 AddSeat = 0.7544, 5.7919, 3.9352
+
+unmountposition = 0.7544, 2.5919, 3.9352
+
+enableback = true
+
 AddSeat = -0.7544, 5.8919, 3.9352
 
 AddPartRotor = 8.5576, 4.9526, -7.2549,   0,0,-1
