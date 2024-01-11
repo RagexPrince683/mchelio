@@ -1,7 +1,7 @@
 DisplayName = AAM-4 99Ž®‹ó‘Î‹ó—U“±’e
 Type = AAMissile
-Power = 85
-Acceleration = 4.0
+Power = 96
+Acceleration = 6
 Explosion = 6
 Flaming = false
 Sight = MissileSight
@@ -9,12 +9,14 @@ Delay = 15
 ReloadTime = 100
 Round = 4
 LockTime = 12
-ProximityFuseDist = 1
+ProximityFuseDist = 2
 ModelBullet = aam-4
 Sound = missile_1_snd
 
+DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
-DamageFactor = helicopter, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 4
 SuppliedNum = 4

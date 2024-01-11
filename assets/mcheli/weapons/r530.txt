@@ -1,17 +1,22 @@
 DisplayName = R.530 AAM
 Type = AAMissile
-Power = 55
+Power = 68
 Acceleration = 5
-Explosion = 5
+Explosion = 6
 Flaming = false
 Sight = MissileSight
-Delay = 9
+Delay = 20
 ReloadTime = 110
 Round = 1
 LockTime = 14
 ProximityFuseDist = 1
 ModelBullet = aim9lm
 Sound = missile_1_snd
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 
 MaxAmmo = 2

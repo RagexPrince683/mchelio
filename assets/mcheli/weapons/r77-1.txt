@@ -1,6 +1,6 @@
 DisplayName = R-77-1 AAM
 Type = AAMissile
-Power = 58
+Power = 77
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
@@ -13,7 +13,7 @@ Delay = 9
 ReloadTime = 110
 Round = 2
 LockTime = 10
-ProximityFuseDist = 1
+ProximityFuseDist = 2
 Sound = missile_1_snd
 
 
