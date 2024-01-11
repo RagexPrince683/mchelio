@@ -19,6 +19,7 @@ AutoPilotRot = 0
 ThirdPersonDist = 24
 
 ThrottleUpDown = 0.3
+enableback = true
 DamageFactor = 0.8
 MobilityYaw = 0.5
 MobilityPitch = 0.5

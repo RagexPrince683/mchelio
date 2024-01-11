@@ -11,15 +11,18 @@ Delay = 0
 HeatCount = 1
 MaxHeatCount = 160
 SoundPitch = 0.8
-Sound = gun_h4_snd
-SoundVolume = 0.7
+Sound = m2_snd
+SoundVolume = 15
+ModelBullet = 12.7mm
+
+ReloadTime = 150
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
 
-DamageFactor = player, 20.0
+Gravity = -0.001
 
 SetCartridge = cartridge, 0.0, 0, 0, 2.0, -0.04, 0.4
 

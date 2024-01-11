@@ -7,7 +7,7 @@ Flaming = false
 Sight = MoveSight
 Delay = 1
 Sound = m2_snd
-SoundVolume = 5
+SoundVolume = 15
 SoundPitch = 1 
 SoundPitchRandom = 0.1
 SoundDelay = 2
@@ -20,7 +20,7 @@ DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
-DamageFactor = player, 20.0
+;DamageFactor = player, 20.0
 
 SetCartridge = cal50,      0.0,  0,0,  1.0, -0.04, 0.40
 ;SetCartridge = unif_cal50, 0.0,  0,0,  1.0, -0.04, 0.40

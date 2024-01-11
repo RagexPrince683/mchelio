@@ -21,6 +21,7 @@ ThirdPersonDist = 24
 DamageFactor = 0.8
 
 ThrottleUpDown = 0.3
+enableback = true
 MobilityYaw = 0.5
 MobilityPitch = 0.5
 MobilityRoll = 0.3
