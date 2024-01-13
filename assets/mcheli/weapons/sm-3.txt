@@ -1,20 +1,26 @@
 DisplayName = RIM-161E SM-3 Block‡UA
 Type = AAMissile
-Power = 500
-Acceleration = 4.0
-Explosion = 5
+Power = 174
+Acceleration = 6
+Explosion = 8
+Flaming = false
 Sight = MissileSight
-Delay = 5
-LockTime = 10
-ModelBullet = RIM-156
-Sound = missile_2_snd
-RigidityTime = 15
-ExplosionAltitude = 30
+Delay = 20
+ReloadTime = 110
+LockTime = 12
+ProximityFuseDist = 1
+ModelBullet = aim7
+Sound = missile_cruise_snd
 
-DamageFactor = plane, 2.0
+Round = 2
 
-MaxAmmo = 8
-SuppliedNum = 8
-Item =  6, iron_ingot
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
 Item =  1, gunpowder
-Item =  6, redstone
+Item =  1, redstone

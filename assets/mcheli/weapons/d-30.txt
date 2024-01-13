@@ -1,11 +1,11 @@
 DisplayName = D-30 gun
 Type = MachineGun2
-Power = 300
+Power = 85
 Acceleration = 10.0
 Flaming = false
 Sight = None
 Gravity = -0.03
-Delay = 100
+Delay = 150
 SoundVolume = 0.6
 SoundPitch = 1.0
 Sound = 152mm_ML-20_fire_snd
@@ -19,6 +19,13 @@ AddMuzzleFlash      = 8.1,      0.85,        1,  150,254,219,154
 AddMuzzleFlash      = 8.0,      0.80,        1,  150,254,219,184
 AddMuzzleFlashSmoke = 9.2,  6,  10.0,  3.0, 25,  160,160,140,120
 AddMuzzleFlashSmoke = 8.2,  5,  11.0,  5.0, 15,  160,190,170,150
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 Sound = cannon_1_snd
 DisplayMortarDistance = true

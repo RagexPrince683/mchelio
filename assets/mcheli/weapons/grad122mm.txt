@@ -1,32 +1,55 @@
-DisplayName = 122mm Grad Rocket
+DisplayName = 122mm Rocket 
 Type = Rocket
-Power = 50
+Power = 400
+ModelBullet = agm130
+Acceleration = 3.0
 Explosion = 10
-ExplosionBlock = 8
-Acceleration = 4.0
-SoundVolume = 8.0
-Sound = gradshoot
-Accuracy = 5.0
-ModelBullet = bullet76mm
-Flaming = true
-Sight = None
-Delay = 7
-Gravity = -0.10
-DamageFactor = plane, 3.0
-DamageFactor = helicopter, 3.0
+Sound = missile_1_snd
+Flaming = false
+Sight = MoveSight
+Delay = 8
+ReloadTime = 260
+Round = 40
+Gravity = -0.03
 
 DisplayMortarDistance = true
-FixCameraPitch = true
-CameraRotationSpeedPitch = 0.4
+
+Delay = 8
+ReloadTime = 280
+Group = MainGun
+;Acceleration = 3.0
+BulletColor        = 255, 255, 100, 100
+;ModelBullet = bullet105mm
+Piercing = 0
+Accuracy = 5.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+AddDisplayName = en_US, 122mm Rocket
+SoundVolume = 15
 
 
-AddMuzzleFlash      =           2.1,   1.05,        2,  220,254,219,104
-AddMuzzleFlash      =           2.0,   1.00,        1,  220,254,219,184
 
-AddMuzzleFlashSmoke   =             3.2,     10,    6.0,  3.0,       25,  220,160,140,120
-AddMuzzleFlashSmoke   =             2.2,      5,    6.0,  4.0,       35,  200,190,170,150
+AddMuzzleFlash      =  2.2,      1.80,        8,  200,254,129,44
+AddMuzzleFlash      =  2.1,      1.75,        7,  200,254,219,104
+AddMuzzleFlash      =  2.0,      1.70,        6,  200,254,219,184
+AddMuzzleFlashSmoke =  3.2, 20,  11.0,  3.0, 45,  220,160,140,120
+AddMuzzleFlashSmoke =  4.2, 10,  12.0,  6.0, 35,  200,190,170,150
 
-MaxAmmo = 40
-SuppliedNum = 19
-Item =  4, iron_ingot
-Item =  4, gunpowder
+
+
+AddMuzzleFlash      =  -4.2,      1.80,        8,  200,254,129,44
+AddMuzzleFlash      =  -4.1,      1.75,        7,  200,254,219,104
+AddMuzzleFlash      =  -4.0,      1.70,        6,  200,254,219,184
+AddMuzzleFlashSmoke =  -5.2, 25,  12.0,  3.0, 45,  220,160,140,120
+AddMuzzleFlashSmoke =  -6.2, 13,  13.0,  6.0, 35,  200,190,170,150
+
+
+
+
+MaxAmmo = 80
+SuppliedNum = 40
+Item =  8, iron_ingot
+Item =  8, gunpowder
