@@ -1,5 +1,5 @@
 ﻿DisplayName = Rigid inflatable boat
-AddDisplayName = en_US, Rigid Inflatable Boat (short)
+AddDisplayName = en_US, Rigid Inflatable Boat M240 Mount
 AddDisplayName = ja_JP, 複合艇(マシンガン搭載)
 ItemID = 49998
 MaxHp = 100
@@ -18,7 +18,18 @@ StepHeight = 5.0
 CanMoveOnGround = false
 CanRotOnGround  = false
 
-MobilityYawOnGround = 12.0
+MobilityPitch = 0.01
+MinRotationPitch = 3.00
+MaxRotationPitch = -3.00
+
+onGroundPitch = 4
+
+enableback = true
+
+MobilityYaw = 2.70
+MobilityYawOnGround = 2.7
+
+enableback = true
 
 ; M = Military(軍用機).  C = Transport(輸送機)
 Category = M.C
@@ -26,6 +37,9 @@ Category = M.C
 HUD = vehicle, vehicle
 
 AddSeat = 0.0,  1.0, -1.25
+
+unmountposition = 0.0,  2.5, -1.25
+
 AddSeat = 0.0,  1.25, 1.50
 AddSeat = 0.6,  0.63, 2.0
 AddSeat = -0.6,  0.63, 2.0

@@ -1,4 +1,4 @@
-DisplayName = M240 7.62mm
+DisplayName = M240B 7.62mm
 Type = MachineGun2
 Power = 8
 Acceleration = 7.0

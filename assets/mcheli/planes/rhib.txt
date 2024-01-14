@@ -1,13 +1,19 @@
 DisplayName = RHIB
+AddDisplayName = en_US, Rigid Inflatable Boat 12.7mm Mount
 AddDisplayName = ja_JP, RHIB
 ItemID = 31500
-MaxHp = 400
+MaxHp = 100
 Speed = 0.2
 Float = true
 FloatOffset = 0.00
-Sound = prop
+Sound = boat
+DamageFactor = 1.0
 MobilityPitch = 0.01
-MobilityYaw = 0.60
+MobilityYaw = 2.60
+MobilityYawOnGround = 2.5
+
+enableback = true
+
 MinRotationPitch = 3.00
 MaxRotationPitch = -3.00
 Gravity = -0.3
@@ -22,6 +28,11 @@ AddSeat = 0.00,  0.50,  -1.80
 AddSeat = -0.50,  0.50,  -1.80
 AddSeat = 0.00,  0.80,  3.24
 
+CanMoveOnGround = false
+CanRotOnGround  = false
+
+onGroundPitch = 4
+
 
 AddPartRotor =    0.44,  -0.58, -3.69,   1,0, 0
 AddBlade = 1, 0,  0.44,  -0.57, -3.69,   0,0,-1
@@ -30,4 +41,4 @@ AddPartRotor =    -0.44,  -0.58, -3.69,   1,0, 0
 AddBlade = 1, 0,  -0.44,  -0.57, -3.69,   0,0,-1
 
 AddPartWeapon    = mg12_7mm,       false, true, true,  0.00,  1.38,  4.27
-AddWeapon = mg12_7mm,  0.00, 1.38, 4.27,   0.0, 0.0, true, 9, 0,-120,120, -15,10
+AddWeapon = mg12_7mm,  0.00, 1.38, 4.27,   0.0, 0.0, false, 9, 0,-120,120, -15,10

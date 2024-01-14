@@ -2,7 +2,7 @@ DisplayName = KF-21 Boramae
 AddDisplayName = en_US, KF-21 Boramae
 AddDisplayName = ko_KR, KF-21 보라매
 ItemID = 40009
-MaxHp = 210
+MaxHp = 100
 Speed = 1.1
 Sound = fighter_jet
 ThrottleUpDown = 0.8
@@ -15,9 +15,13 @@ EnableEjectionSeat = true
 EnableSeaSurfaceParticle = true
 ParticlesScale = 0.7
 ThirdPersonDist = 20
+Stealth = 0.55
 Category = M.F
 
 AddSeat = 0.00,  1.83,  1.378
+
+unmountposition = 0.00,  2.13,  1.378
+
 AddPartCanopy = 0.0, 3.30, 0.245,  -1,0,0,  50
 HUD = plane
 
@@ -91,12 +95,32 @@ AddWeapon = iris-t, -5.17, 1.43, -6.56, 0.0, 0.0
 AddWeapon = targeting_pod_ph50s,   0.0, 2.1, 1.4,    0.0, 0.0
 
 ;HITBOX
-BoundingBox =  0.00, 2.27, 1.65,  2.0, 2.0
-BoundingBox =  0.00, 2.10, -1.50,  3.0, 2.0
-BoundingBox =  0.00, 2.0, -5.90,  4.0, 1.6
-BoundingBox =  0.00, 2.0, -10.1,  3.0, 1.5
 
-BoundingBox = 4.0, 2.0,  -7.0,  2.5, 0.6, 1.0
-BoundingBox = -4.0, 2.0,  -7.0,  2.5, 0.6, 1.0
+BoundingBox =  0.00, 1.90, -1.10,  2.0, 2.0
+BoundingBox =  0.00, 1.90, -3.10,  3.0, 2.0
+BoundingBox =  0.00, 1.90, -6.60,  4.0, 2.0
+BoundingBox = -2.92, 2.20, -6.90,  3.0, 1.0
+BoundingBox =  2.92, 2.20, -6.90,  3.0, 1.0
+BoundingBox =  0.00, 2.20, -9.80,  3.0, 1.0
+
+BoundingBox = -4.82, 2.15, -7.00,  2.0, 0.3
+BoundingBox =  4.82, 2.15, -7.00,  2.0, 0.3
+
+BoundingBox = -2.52, 2.25, -11.60,  2.0, 0.3
+BoundingBox =  2.52, 2.25, -11.60,  2.0, 0.3
+
+BoundingBox = 1.93, 3.55, -10.96, 0.5, 2.5
+BoundingBox = -1.93, 3.55, -10.96, 0.5, 2.5
+;;BoundingBox = 2.03, 3.55, -11.96, 0.5, 2.5
+;;BoundingBox = -2.03, 3.55, -11.96, 0.5, 2.5
+
+BoundingBox = 1.83, 3.05, -10.46, 0.5, 2.5
+BoundingBox = -1.83, 3.05, -10.46, 0.5, 2.5
+
+;;BoundingBox = 2.03, 3.55, -11.46, 0.5, 2.5
+;;BoundingBox = -2.03, 3.55, -11.46, 0.5, 2.5
+
+BoundingBox = 1.83, 3.05, -9.96, 0.5, 2.5
+BoundingBox = -1.83, 3.05, -9.96, 0.5, 2.5
 
 AddRecipe = " YX",  "XXP",  "X X",  X, iron_block, Y, glass, P, furnace

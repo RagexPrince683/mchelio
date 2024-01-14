@@ -17,6 +17,7 @@ EnableSeaSurfaceParticle = true
 MaxFuel         = 1200
 FuelConsumption = 1.0
 Stealth = 0.5
+ThirdPersonDist = 20
 ThrottleUpDown = 0.3
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
@@ -91,18 +92,25 @@ BoundingBox = -2.92, 2.20, -7.60,  3.0, 1.0
 BoundingBox =  2.92, 2.20, -7.60,  3.0, 1.0
 BoundingBox =  0.00, 2.20, -9.80,  3.0, 1.0
 
-BoundingBox = -4.82, 2.20, -8.00,  2.5, 1.0
-BoundingBox =  4.82, 2.20, -8.00,  2.5, 1.0
+BoundingBox = -4.82, 2.10, -7.90,  2.0, 0.3
+BoundingBox =  4.82, 2.10, -7.90,  2.0, 0.3
 
-BoundingBox = -2.52, 2.20, -11.60,  2.0, 1.0
-BoundingBox =  2.52, 2.20, -11.60,  2.0, 1.0
+BoundingBox = -2.52, 2.25, -11.60,  2.0, 0.3
+BoundingBox =  2.52, 2.25, -11.60,  2.0, 0.3
 
-BoundingBox = 2.03, 3.55, -10.96, 1.0, 2.5
-BoundingBox = -2.03, 3.55, -10.96, 1.0, 2.5
-BoundingBox = 2.03, 3.55, -11.96, 1.0, 2.5
-BoundingBox = -2.03, 3.55, -11.96, 1.0, 2.5
-BoundingBox = 2.03, 3.05, -9.96, 1.0, 2.5
-BoundingBox = -2.03, 3.05, -9.96, 1.0, 2.5
+BoundingBox = 2.03, 3.55, -10.96, 0.5, 2.5
+BoundingBox = -2.03, 3.55, -10.96, 0.5, 2.5
+BoundingBox = 2.03, 3.55, -11.96, 0.5, 2.5
+BoundingBox = -2.03, 3.55, -11.96, 0.5, 2.5
+
+BoundingBox = 2.03, 3.05, -10.46, 0.5, 2.5
+BoundingBox = -2.03, 3.05, -10.46, 0.5, 2.5
+
+BoundingBox = 2.03, 3.55, -11.46, 0.5, 2.5
+BoundingBox = -2.03, 3.55, -11.46, 0.5, 2.5
+
+BoundingBox = 2.03, 3.05, -9.96, 0.5, 2.5
+BoundingBox = -2.03, 3.05, -9.96, 0.5, 2.5
 
 
 
