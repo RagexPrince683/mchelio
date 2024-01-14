@@ -1,18 +1,18 @@
 DisplayName = 220mm "Buratino" Rocket
 Type = Rocket
-Power = 600
-Explosion = 10
+Power = 100
+Explosion = 12
 ExplosionBlock = 4
 Acceleration = 4.0
 SoundVolume = 10.0
 Sound = gradshoot
-Accuracy = 5.0
+Accuracy = 4.0
 ModelBullet = bullet76mm
 Flaming = false
 Sight = None
-Delay = 200
+Delay = 1
 Gravity = -0.065
-ReloadTime = 6000
+ReloadTime = 600
 
 DisplayMortarDistance = true
 FixCameraPitch = true
@@ -35,3 +35,4 @@ MaxAmmo = 24
 SuppliedNum = 3
 Item =  4, iron_ingot
 Item =  4, gunpowder
+
