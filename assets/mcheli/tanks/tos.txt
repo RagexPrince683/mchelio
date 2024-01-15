@@ -1,5 +1,5 @@
 DisplayName = TOS-1 "Buratino"
-MaxHp = 350
+MaxHp = 450
 Speed = 0.5
 Sound = tninety
 ThrottleUpDown = 10.0
@@ -14,7 +14,7 @@ MinRotationPitch = -19
 MaxRotationPitch = 2
 DefaultFreelook = true
 HideEntity = true
-CameraPosition = 0.00,  3.5, -0
+CameraPosition = 0.00,  4.5, -0, true
 
 MobilityYawOnGround = 3.0
 
@@ -31,9 +31,11 @@ WeightType = Tank
 
 SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
 
-;copy and pasted from t-90a
+;wheel pos copy and pasted from t-90a
 
-AddGunnerSeat =  0.00,  1.15, -0,   0.00, 15, 0,  true, -22, 3, true
+AddGunnerSeat =  0.00, 1.58, 0.44,   0.00, 15, 0,  true, -22, 3, true
+
+unmountposition = 0.00, 1.58, 0.44
 
 ;break and place vehicle after changing camera pos/gunner seat pos to update position
 
@@ -74,9 +76,9 @@ EnableBack = true
 
 MotionFactor = 0.9
 
-ArmorMinDamage = 5
+ArmorMinDamage = 30
 ;ArmorMaxDamage = 250
-ArmorDamageFactor = 0.98
+;ArmorDamageFactor = 0.98
 
 MaxFuel         = 1200
 FuelConsumption = 2.0
@@ -112,6 +114,6 @@ BoundingBox = 0.0, 0.70, -2.15, 3.0, 1.0, 0.62
 
 ;new rockets followed by turret
 
-BoundingBox = 0.0, 2.465, 0.5, 2.6, 0.7, 1.8
+BoundingBox = 0.0, 2.465, 0.5, 2.6, 0.9, 1.8
 
 BoundingBox = 0.0, 1.565, 0.5, 2.6, 0.7, 0.37
