@@ -3,7 +3,7 @@ AddDisplayName = en_US, KF-21 Boramae
 AddDisplayName = ko_KR, KF-21 보라매
 ItemID = 40009
 MaxHp = 100
-Speed = 1.1
+Speed = 1.367
 Sound = fighter_jet
 ThrottleUpDown = 0.8
 MaxFuel = 1200
@@ -17,6 +17,8 @@ ParticlesScale = 0.7
 ThirdPersonDist = 20
 Stealth = 0.55
 Category = M.F
+
+DamageFactor = 0.8
 
 AddSeat = 0.00,  1.83,  1.378
 

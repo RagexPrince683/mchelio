@@ -7,12 +7,14 @@ EnableEntityRadar = true
 EnableEjectionSeat = true
 Speed = 1.5
 FlareType = 5
-ThrottleUpDown = 0.8
+ThrottleUpDown = 0.3
 MaxFuel         = 1800
 FuelConsumption = 1.0
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 HideEntity = false
+
+enableback = true
 
 DamageFactor = 0.8
 

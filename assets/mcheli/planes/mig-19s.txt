@@ -3,9 +3,14 @@ AddDisplayName = en_US, MiG-19S Farmer
 AddDisplayName = ko_KR, 미그-19S 파머
 ItemID = 40014
 MaxHp = 100
-Speed = 1.57296
+Speed = 0.904
+
+;904mph
+
+DamageFactor = 0.8
+
 Sound = fighter_jet
-ThrottleUpDown = 0.7
+ThrottleUpDown = 0.3
 MaxFuel = 1000
 FuelConsumption = 1.0
 ;FlareType = 4
@@ -16,6 +21,8 @@ EnableSeaSurfaceParticle = true
 ParticlesScale = 0.7
 ThirdPersonDist = 17
 Category = M.F
+
+enableback = true
 
 AddSeat = 0.00, 1.495, 1.25
 

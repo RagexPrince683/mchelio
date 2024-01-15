@@ -2,10 +2,10 @@ DisplayName = Mirage IIIE
 AddDisplayName = en_US, Mirage IIIE
 AddDisplayName = ko_KR, 미라주 3E
 ItemID = 40012
-MaxHp = 180
+MaxHp = 100
 Speed = 1.1
 Sound = fighter_jet
-ThrottleUpDown = 0.7
+ThrottleUpDown = 0.3
 MaxFuel = 1000
 FuelConsumption = 1.0
 FlareType = 4
@@ -17,7 +17,16 @@ ParticlesScale = 0.7
 ThirdPersonDist = 19
 Category = M.F
 
+DamageFactor = 0.8
+
+
+enableback = true
+
 AddSeat = 0.00, 1.72, 1.50
+
+unmountposition = 0.00, 2.12, 1.50
+
+
 AddPartCanopy = -0.46, 2.336, 1.608,  0,0,1, 70
 HUD = plane
 

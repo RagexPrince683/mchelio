@@ -6,6 +6,8 @@ ItemID = 40004
 MaxHp = 100
 Speed = 1.16406
 
+DamageFactor = 0.8
+
 ;669 mph
 
 Sound = migfifteen

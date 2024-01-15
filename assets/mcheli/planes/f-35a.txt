@@ -9,7 +9,7 @@ EnableEjectionSeat = true
 sound = fthirtyfive
 Speed = 1.199
 
-
+DamageFactor = 0.8
 
 FlareType = 4
 ParticlesScale = 0.7
