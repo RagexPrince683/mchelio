@@ -1,8 +1,8 @@
 DisplayName = T-26 45mm gun [BP240SP]
 Type = MachineGun2
-Power = 50
+Power = 73
 ModelBullet = bullet76mm
-Acceleration = 7.0
+Acceleration = 4.0
 Explosion = 0
 ExplosionBlock = 0
 Flaming = false
@@ -13,6 +13,12 @@ SoundVolume = 0.6
 Sound = cannon_1_snd
 Round = 1
 ReloadTime = 70
+
+DamageFactor = tank, 3.5
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
 
 AddMuzzleFlash      = 6.1,      0.85,        1,  150,254,219,154
 AddMuzzleFlash      = 6.0,      0.80,        1,  150,254,219,184

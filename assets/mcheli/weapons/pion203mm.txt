@@ -1,8 +1,8 @@
 DisplayName = 203mm "Pion" Gun
 Type = Rocket
-Power = 80
-Explosion = 17
-ExplosionBlock = 14
+Power = 700
+Explosion = 16
+ExplosionBlock = 6
 Acceleration = 4.0
 SoundVolume = 1.0
 Sound = cannon_4_snd
@@ -12,10 +12,18 @@ Flaming = false
 Sight = None
 Delay = 240
 Gravity = -0.08
-ReloadTime = 4000
+ReloadTime = 800
 Recoil = 5
 ModeNum = 1
 Round = 1
+
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+
 
 
 DisplayMortarDistance = true

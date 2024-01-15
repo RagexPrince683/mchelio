@@ -1,6 +1,6 @@
-DisplayName = 122mm Rocket
+DisplayName = 122mm Rocket [HE]
 Type = Rocket
-Power = 400
+Power = 70
 ModelBullet = agm130
 Acceleration = 3.0
 Explosion = 10

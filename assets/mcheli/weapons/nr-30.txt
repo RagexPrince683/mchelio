@@ -1,4 +1,4 @@
-DisplayName = NR-30 30mm
+DisplayName = NR-30 30mm [MIG-19]
 Type = MachineGun2
 ModelBullet = bullet
 Explosion = 2
@@ -13,7 +13,7 @@ SoundDelay = 0
 Accuracy = 1.5
 HeatCount = 1
 MaxHeatCount = 150
-Round = 60
+Round = 210
 ReloadTime = 80
 
 Gravity = -0.001

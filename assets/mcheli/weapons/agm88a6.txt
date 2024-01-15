@@ -1,16 +1,29 @@
 DisplayName = AGM-88 HARM
 Type = ASMissile
-Power = 50
+;radius = 
+Power = 1000
 Acceleration = 4.0
-Explosion = 9
 Flaming = true
 Sight = MoveSight
-Delay = 300
+Delay = 10
+ReloadTime = 1000
+Round = 2
 ModelBullet = agm84
 Sound = missile_2_snd
 
-MaxAmmo = 4
-SuppliedNum = 4
+Explosion = 11
+;Explosive mass	68 kg kg
+;Power = 1080
+ExplosionBlock = 5
+ExplosionInWater = 0
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 1.0
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+MaxAmmo = 2
+SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  2, gunpowder
-Item =  1, redstone
