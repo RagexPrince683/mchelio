@@ -1,11 +1,11 @@
 DisplayName = TOS-1 "Buratino"
-MaxHp = 228
+MaxHp = 350
 Speed = 0.5
-Sound = mbt_run
+Sound = tninety
 ThrottleUpDown = 10.0
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = true
 CameraRotationSpeed = 30
@@ -14,24 +14,28 @@ MinRotationPitch = -19
 MaxRotationPitch = 2
 DefaultFreelook = true
 HideEntity = true
-CameraPosition = 0.00,  3.5, -5
+CameraPosition = 0.00,  3.5, -0
 
 MobilityYawOnGround = 3.0
 
 HUD = mbt_hud, mbt_hud
 
-SubmergedDamageHeight = 3
+SubmergedDamageHeight = 2
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.9
 
 HideEntity = true
 
-WeightType = Unknown
+WeightType = Tank
 
 SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
 
-AddGunnerSeat =  0.00,  2.15, -6,   0.00, 15, 0,  true, -22, 3, true
+;copy and pasted from t-90a
+
+AddGunnerSeat =  0.00,  1.15, -0,   0.00, 15, 0,  true, -22, 3, true
+
+;break and place vehicle after changing camera pos/gunner seat pos to update position
 
 AddCrawlerTrack = true, 0.23, -2.40,  -0.30/3.13, -0.17/3.46, 0.34/4.31, 0.61/4.42, 0.87/4.31, 0.98/4.04, 0.98/-3.32, 0.87/-3.59, 0.61/-3.70, 0.34/-3.59, -0.31/-2.12
 AddCrawlerTrack = true, 0.23,  2.40,  -0.30/3.13, -0.17/3.46, 0.34/4.31, 0.61/4.42, 0.87/4.31, 0.98/4.04, 0.98/-3.32, 0.87/-3.59, 0.61/-3.70, 0.34/-3.59, -0.31/-2.12
@@ -70,8 +74,8 @@ EnableBack = true
 
 MotionFactor = 0.9
 
-ArmorMinDamage = 8
-ArmorMaxDamage = 250
+ArmorMinDamage = 5
+;ArmorMaxDamage = 250
 ArmorDamageFactor = 0.98
 
 MaxFuel         = 1200
@@ -79,6 +83,35 @@ FuelConsumption = 2.0
 
 AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot
 
-BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
-BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
-BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25
+
+;copy and pasted from t-90a
+
+;side armor 
+BoundingBox = 0.0, 0.65, 1.0, 3.1, 1.15, 0.37
+;front plate
+
+BoundingBox = 0.0, 0.60, 2.7, 3.0, 0.1, 0.05
+BoundingBox = 0.0, 0.65, 2.50, 3.0, 0.1, 0.05
+BoundingBox = 0.0, 0.80, 2.30, 3.0, 0.1, 0.05
+BoundingBox = 0.0, 0.85, 2.10, 3.0, 0.1, 0.05
+BoundingBox = 0.0, 0.90, 1.90, 3.0, 0.1, 0.06
+BoundingBox = 0.0, 0.95, 1.70, 3.0, 0.1, 0.08
+BoundingBox = 0.0, 1.05, 1.50, 3.0, 0.1, 0.08
+BoundingBox = 0.0, 1.10, 1.30, 3.0, 0.1, 0.11
+BoundingBox = 0.0, 1.175, 1.10, 3.0, 0.1, 0.29
+
+;lower plate 
+
+BoundingBox = 0.0, 0.30, 2.65, 3.0, 0.5, 0.16
+
+;back side armor 
+BoundingBox = 0.0, 0.65, -1.9, 3.1, 1.15, 0.37
+
+BoundingBox = 0.0, 0.70, -2.15, 3.0, 1.0, 0.62
+
+
+;new rockets followed by turret
+
+BoundingBox = 0.0, 2.465, 0.5, 2.6, 0.7, 1.8
+
+BoundingBox = 0.0, 1.565, 0.5, 2.6, 0.7, 0.37
