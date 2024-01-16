@@ -43,8 +43,8 @@ HUD = mbt_hud,mbt_hud
 
 FixCameraPitch = true
 
-AddWeapon = scud, 0.10, 1.64, -6.19, 0.0, 0.0, false, 2, 0, -10, 10, -90, 0, 0
-AddWeapon = scudnuclear, 0.10, 1.64, -6.19, 0.0, 0.0, false, 2, 0, -10, 10, -90, 0, 0
+AddWeapon = scud, 0.10, 1.64, -6.19, 0.0, 0.0, false, 2, 0, -0, 0, -90, 0, 0
+AddWeapon = scudnuclear, 0.10, 1.64, -6.19, 0.0, 0.0, false, 2, 0, -0, 0, -90, 0, 0
 
 AddPartWeaponMissile = scud, false, false, true, 0.10, 1.64, -6.19, 5, 0
 

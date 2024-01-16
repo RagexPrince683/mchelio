@@ -39,7 +39,7 @@ FixCameraPitch = true
 
 Group = maingun
 
-Accuracy = 0.5
+Accuracy = 0.0
 
 EnableGunnerMode = True
 
