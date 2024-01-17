@@ -13,6 +13,9 @@ ModeNum = 1
 SoundVolume = 20
 Sound = leotwoafourmain
 
+DisplayMortarDistance = true
+
+
 Delay = 170
 ReloadTime = 170
 Group = MainGun

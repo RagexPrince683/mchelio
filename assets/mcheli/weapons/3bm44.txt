@@ -16,6 +16,9 @@ Gravity = -0.001
 DisplayMortarDistance = true
 group = maingun
 
+DisplayMortarDistance = true
+
+
 MaxAmmo = 10
 SuppliedNum = 10
 Item =  3, iron_ingot

@@ -18,6 +18,9 @@ Gravity = -0.01
 Group = MainGun
 Recoil = 2.5
 
+DisplayMortarDistance = true
+
+
 
 
 Piercing = 5

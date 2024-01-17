@@ -16,6 +16,9 @@ group = maingun
 
 Gravity = -0.001
 
+DisplayMortarDistance = true
+
+
 Round = 9
 
 MaxAmmo = 9

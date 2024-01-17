@@ -18,6 +18,8 @@ BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 
 
+
+
 Delay = 150
 ReloadTime = 150
 Group = MainGun

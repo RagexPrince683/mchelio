@@ -14,6 +14,9 @@ Sound = cannon_1_snd
 Group = MainGun
 Recoil = 2.5
 
+DisplayMortarDistance = true
+
+
 
 Delay = 90
 ReloadTime = 120

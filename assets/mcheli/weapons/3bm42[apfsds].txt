@@ -16,6 +16,9 @@ Particle = largeexplode
 Gravity = -0.01
 group = maingun
 
+DisplayMortarDistance = true
+
+
 MaxAmmo = 40
 SuppliedNum = 1
 Item =  1, iron_ingot

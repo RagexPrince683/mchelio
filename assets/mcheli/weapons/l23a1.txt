@@ -15,6 +15,9 @@ BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.001
 
+DisplayMortarDistance = true
+
+
 
 Delay = 100
 ReloadTime = 100

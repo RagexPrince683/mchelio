@@ -14,6 +14,9 @@ SoundVolume = 20
 Sound = tseventytwomain
 group = maingun
 
+DisplayMortarDistance = true
+
+
 Gravity = -0.005
 
 MaxAmmo = 12

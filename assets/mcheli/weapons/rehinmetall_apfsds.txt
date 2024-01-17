@@ -21,6 +21,9 @@ DamageFactor = heli, 3.0
 ;chemYield = 1
 ;Explosion = 1
 
+DisplayMortarDistance = true
+
+
 
 MaxAmmo = 40
 SuppliedNum = 1

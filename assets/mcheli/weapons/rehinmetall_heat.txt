@@ -17,6 +17,9 @@ Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 
+
+DisplayMortarDistance = true
+
 Delay = 140
 ReloadTime = 140
 Group = MainGun

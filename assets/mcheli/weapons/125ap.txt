@@ -17,6 +17,9 @@ BulletColor        = 255, 255, 100, 100
 Group = MainGun
 Recoil = 2.5
 
+DisplayMortarDistance = true
+
+
 
 Acceleration = 7.0
 ;ModelBullet = bullet105mm

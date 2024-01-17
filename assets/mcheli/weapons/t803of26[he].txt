@@ -15,6 +15,9 @@ SoundVolume = 15
 Sound = teightymain
 group = maingun
 
+DisplayMortarDistance = true
+
+
 Gravity = -0.005
 
 Round = 9

@@ -14,6 +14,9 @@ SoundVolume = 15
 Sound = cannon_3_snd
 group = maingun
 
+DisplayMortarDistance = true
+
+
 MaxAmmo = 30
 SuppliedNum = 15
 Item =  3, iron_ingot
