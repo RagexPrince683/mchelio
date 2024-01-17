@@ -1,6 +1,6 @@
 DisplayName = 203mm "Pion" Gun
 Type = Rocket
-Power = 700
+Power = 600
 Explosion = 16
 ExplosionBlock = 6
 Acceleration = 4.0

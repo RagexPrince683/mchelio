@@ -9,7 +9,7 @@ Sight = MoveSight
 Sound = rocket_snd
 Delay = 1
 ReloadTime = 80
-Round = 8
+Round = 32
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
