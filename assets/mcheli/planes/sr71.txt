@@ -1,7 +1,7 @@
 DisplayName = Lockheed SR-71 Blackbird
 ItemID = 2
 MaxHp = 100
-OnGroundPitch = 3
+;OnGroundPitch = 3
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
@@ -10,13 +10,15 @@ FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel         = 2000
-FuelConsumption = 1.0
+FuelConsumption = 2.0
 Stealth = 0.8
-HideEntity = true
+HideEntity = false
 Category = M.F
 WeightedCenterZ = -7.6
 
-MotionFactor = 1.00000
+enableback = true
+
+;MotionFactor = 1.00000
 
 ;sorry! that shit sucks!
 
@@ -33,6 +35,9 @@ MobilityYaw = 32.0
 MobilityRoll = 1.2
 MobilityPitch = 9.6
 AddSeat = 0.00,  1.4449,  3.18
+
+unmountposition = 0.00,  2.1449,  3.18
+
 AddGunnerSeat = 0.00,  1.4449,  1.6, 0, -0.5, 2.6, true
 
 AddPartCanopy = 0, 2.95, 2.26, -1,0,0,  45
@@ -48,12 +53,12 @@ AddPartLG =  -1.6571,  2.0672, -15.5268, -1,0,0,  95, 0,0,1,  20
 AddWeapon = targeting_pod_all100s,   0.0, 0, 2.62,    0.0, 0.0, false,2
 
 AddRecipe = "GCG",  "CCC",  "CDC",    G, glass,  D,diamond_block,  B, iron_block,  C, coal_block,  I, iron_ingot,  P, gunpowder
-BoundingBox =  0.0, 1.6, 2.5,  2.0, 1.7
-BoundingBox =  0.0, 1.6, -0.5,  4.0, 1.7
-BoundingBox =  0.0, 1.6, -4.5,  4.0, 1.7
-BoundingBox =  0.0, 1.6, -8.5,  4.0, 1.7
-BoundingBox =  0.0, 1.6, -12.5,  4.0, 1.7
-BoundingBox =  0.0, 1.6, -16.5,  4.0, 1.7
+;BoundingBox =  0.0, 1.6, 2.5,  2.0, 1.7
+BoundingBox =  0.0, 2.0, -0.5,  3.0, 1.7
+BoundingBox =  0.0, 2.0, -4.5,  3.0, 1.7
+BoundingBox =  0.0, 2.0, -8.5,  3.0, 1.7
+BoundingBox =  0.0, 2.0, -12.5,  3.0, 1.7
+BoundingBox =  0.0, 2.0, -16.5,  3.0, 1.7
 BoundingBox = -3.3, 1.7, -13.0,  3.0, 0.8
 BoundingBox =  3.3, 1.7, -13.0,  3.0, 0.8
 BoundingBox = -3.3, 1.7, -16.0,  3.0, 0.8
