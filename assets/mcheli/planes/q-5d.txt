@@ -106,5 +106,7 @@ BoundingBox = 0.0, 3.5, -9.5, 0.5, 2.0
 BoundingBox = 0.0, 3.8, -10, 0.5, 1.5
 BoundingBox = 0.0, 4.0, -10.5, 0.5, 1.2
 
+enableback = true
+
 
 ;AddRecipe = " YX",  "XXP",  "X X",  X, iron_block, Y, glass, P, iron_ingot

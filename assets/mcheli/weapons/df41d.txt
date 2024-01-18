@@ -13,7 +13,7 @@ BombletDiff = 6.5
 Bomblet = 10
 ModelBomblet = scud
 
-Gravity = -0.032
+Gravity = -0.012
 
 ;ExplosionBlock = 50
 ;ExplosionInWater = 45
