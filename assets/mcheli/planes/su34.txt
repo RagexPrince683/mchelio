@@ -1,6 +1,6 @@
 DisplayName = Su-34
 AddDisplayName = ja_JP, Su-34
-MaxHp = 220
+MaxHp = 250
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
@@ -17,6 +17,8 @@ MotionFactor = 0.97
 AutoPilotRot = 1.0
 ThrottleUpDown = 0.6
 
+DamageFactor = 0.8
+
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
@@ -27,6 +29,11 @@ AddTexture = su34_2
 
 AddSeat = 0.394,  2.528,  7.67
 AddGunnerSeat = -0.394,  2.528,  7.67
+
+
+unmountposition = 0.394,  2.128,  7.67
+
+enableback = true
 
 MobilityYaw = 10.0
 MobilityRoll = 2.5
@@ -63,14 +70,24 @@ AddWeapon = targeting_pod_ph50s,   0.0, 3.1, 7.2,    0.0, 0.0
 AddRecipe = "HGL",  "BCB",  "IPI",  H, dye,15,  G, glass,  L, dye,12,  B, iron_block,  C, comparator,  I, iron_ingot,  P, gunpowder
 
 
-BoundingBox =  0.00, 2.30,  8.20,  1.8, 1.8
-BoundingBox =  0.00, 2.67,  6.20,  2.0, 2.0
-BoundingBox =  0.00, 2.05, 10.20,  1.5, 1.5
-BoundingBox =  0.00, 2.36,  4.21,  2.0, 1.8
-BoundingBox =  0.00, 1.50,  1.65,  3.0, 2.5
-BoundingBox =  0.00, 1.64, -1.49,  3.0, 1.5
+BoundingBox =  0.00, 2.40, 9.80,  1.5, 1.5
+
+
+BoundingBox =  0.00, 3.10,  8.10,  1.8, 1.8
+
+BoundingBox =  0.00, 2.85,  6.20,  2.0, 2.0
+
+BoundingBox =  0.00, 2.80,  4.21,  2.0, 1.8
+
+BoundingBox =  0.00, 2.40,  1.70,  3.0, 2.5
+
+BoundingBox =  0.00, 2.10, -1.49,  3.2, 1.5
+
 BoundingBox =  0.00, 1.71, -4.70,  3.0, 1.0
-BoundingBox =  3.51, 1.91, -1.23,  4.0, 0.5,  0.8
-BoundingBox = -3.51, 1.91, -1.23,  4.0, 0.5,  0.8
+
+
+
+BoundingBox =  3.00, 2.35, -1.35,  3.0, 0.3,  0.8
+BoundingBox = -3.00, 2.35, -1.35,  3.0, 0.3,  0.8
 BoundingBox =  2.77, 1.78, -5.33,  2.5, 0.3,  0.7
 BoundingBox = -2.77, 1.78, -5.33,  2.5, 0.3,  0.7
