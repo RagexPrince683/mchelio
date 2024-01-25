@@ -1,20 +1,20 @@
 ﻿DisplayName = T55
 AddDisplayName = ja_JP, T-55
 ItemID = 30100
-MaxHp = 150
-Speed = 0.7
+MaxHp = 255
+Speed = 0.6
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 2.0
 MinRotationPitch = -50
 MaxRotationPitch = 5
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
-CameraZoom = 1
-CameraPosition = 0.00,  3.50, 1.55, true
+CameraZoom = 3
+CameraPosition = 0.00,  2.95, 1.40, true
 EnableNightVision = false
-CameraRotationSpeed = 25
+CameraRotationSpeed = 20
 ;EnableEntityRadar = true
 MaxFuel         = 1200
 FuelConsumption = 3.0
@@ -23,6 +23,7 @@ DefaultFreelook = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 FlareType = 10
+Sound = leoone
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
@@ -109,14 +110,16 @@ RideRack = c5, 1
 RideRack = c5, 2
 
 
-BoundingBox =  0.0, 0.45,  1.25,   2.75, 1.8,  1.25
-BoundingBox =  0, 1.8,  0,   2.35, 1.2,  0.70
-BoundingBox =  0.0, 0.45,  0.0,   2.75, 1.8,  1.25
-BoundingBox =  0, 0.45,  1.80,   2.75, 0.8,  1.25
-BoundingBox =  0, 0.95,  2.20,   2.65, 0.8,  0.75
+BoundingBox =  0.0, 0.45,  1.25,   2.75, 1.8,  0.80
+BoundingBox =  0, 1.8,  0,   2.35, 1.2,  0.45
+BoundingBox =  0.0, 0.45,  0.0,   2.75, 1.8,  0.80
+BoundingBox =  0, 0.45,  1.80,   2.75, 0.8,  0.80
+BoundingBox =  0, 0.95,  2.10,   2.65, 0.8,  0.60
+BoundingBox =  0, 0.90,  2.40,   2.65, 0.3,  0.60
+BoundingBox =  0, 0.45,  2.35,   2.65, 0.3,  0.75
 
 
 
-BoundingBox =  0.0, 0.45, -2.0,   2.75, 1.0,  1.25
+
+BoundingBox =  0.0, 0.45, -2.0,   2.75, 1.0,  1.20
 BoundingBox =  0.0, 1.2, -4.2,   0.6, 0.4,  0.2
-Sound =t55run

@@ -10,7 +10,8 @@ Accuracy = 1.0
 HeatCount = 2
 MaxHeatCount = 150
 SoundPitch = 1.0
-Sound = gun_l1_snd
+Sound = pkt
+Gravity = -0.001
 
 Acceleration = 7.5
 Piercing = 0
