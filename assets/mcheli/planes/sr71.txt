@@ -22,7 +22,7 @@ enableback = true
 
 ;-23.04
 
-;MotionFactor = 1.00000
+MotionFactor = 1.80000
 
 ;sorry! that shit sucks!
 
