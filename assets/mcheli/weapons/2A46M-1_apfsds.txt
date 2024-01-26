@@ -12,7 +12,7 @@ Sound = tseventytwomain
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.01
+
 group = maingun
 
 Gravity = -0.001

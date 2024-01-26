@@ -13,6 +13,7 @@ Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 group = maingun
+Gravity = -0.005
 
 DisplayMortarDistance = true
 

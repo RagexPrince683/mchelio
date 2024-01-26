@@ -13,7 +13,7 @@ Sound = leotwoafourmain
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.01
+Gravity = -0.001
 
 DisplayMortarDistance = true
 

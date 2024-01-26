@@ -13,7 +13,7 @@ SoundPitch = 0.5
 SoundVolume = 15
 Sound = cannon_3_snd
 group = maingun
-
+Gravity = -0.005
 DisplayMortarDistance = true
 
 

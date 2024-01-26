@@ -17,7 +17,7 @@ group = maingun
 DisplayMortarDistance = true
 
 
-Gravity = -0.001
+Gravity = -0.005
 
 MaxAmmo = 12
 SuppliedNum = 12

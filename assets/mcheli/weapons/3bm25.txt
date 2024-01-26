@@ -1,4 +1,4 @@
-DisplayName =3BM25 100mm Cannon [APFSDS]
+DisplayName = D-10T2S 100MM Cannon [3BM25-APFSDS]
 Type = MachineGun1
 Power = 335
 ModelBullet = bullet105mm
@@ -16,7 +16,7 @@ Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Group = MainGun
 Recoil = 2.5
-Gravity = -0.01
+Gravity = -0.001
 
 Group = MainGun
 Acceleration = 7.0
@@ -27,7 +27,7 @@ DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
-AddDisplayName = en_US, 100mm Cannon [APFSDS]
+AddDisplayName = D-10T2S 100MM Cannon [3BM25-APFSDS]
 
 
 

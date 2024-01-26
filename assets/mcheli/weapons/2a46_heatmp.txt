@@ -15,7 +15,7 @@ SoundVolume = 10
 Sound = cannon_3_snd
 Group = MainGun
 Recoil = 2.5
-Gravity = -0.01
+Gravity = -0.005
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
@@ -26,6 +26,7 @@ AddMuzzleFlash      =  8.1,     2.05,        6,  220,254,219,104
 AddMuzzleFlash      =  8.0,     2.00,        5,  220,254,219,184
 AddMuzzleFlashSmoke =  8.2, 30, 12.0,  4.0, 65,  220,160,140,120
 AddMuzzleFlashSmoke = 10.2, 20, 13.0,  7.0, 55,  200,190,170,150
+
 
 DisplayMortarDistance = true
 

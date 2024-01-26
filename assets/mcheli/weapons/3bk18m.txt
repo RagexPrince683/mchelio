@@ -12,7 +12,7 @@ Delay = 150
 SoundPitch = 1
 SoundVolume = 15
 Sound = tsixtyfourmain
-Gravity = -0.001
+Gravity = -0.005
 DisplayMortarDistance = true
 group = maingun
 

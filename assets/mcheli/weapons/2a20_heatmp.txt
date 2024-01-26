@@ -15,6 +15,7 @@ SoundVolume = 10
 Sound = cannon_3_snd
 Group = MainGun
 Recoil = 2.5
+Gravity = -0.005
 
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5

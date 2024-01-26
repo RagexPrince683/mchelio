@@ -14,9 +14,9 @@ SoundVolume = 10.0
 Sound = cannon_4_snd
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
-Gravity = -0.01
 Group = MainGun
 Recoil = 2.5
+Gravity = -0.001
 
 DamageFactor = tank, 10.0
 DamageFactor = plane, 1.5

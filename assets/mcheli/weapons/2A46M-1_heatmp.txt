@@ -14,7 +14,7 @@ SoundVolume = 20
 Sound = tseventytwomain
 group = maingun
 
-Gravity = -0.001
+Gravity = -0.005
 
 DisplayMortarDistance = true
 
