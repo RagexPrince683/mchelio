@@ -10,7 +10,7 @@ Delay = 2
 Accuracy = 6.5
 Gravity = -0.03
 Particle = largeexplode
-Round = 10
+Round = 60
 ReloadTime = 50
 
 

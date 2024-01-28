@@ -1,0 +1,27 @@
+DisplayName = 105mm [APFSDS]
+Type = MachineGun2
+Power = 530
+ModelBullet = bullet105mm
+Acceleration = 4.8
+Explosion = 5
+ExplosionBlock = 1
+Flaming = false
+Sight = MoveSight
+ReloadTime = 184
+Delay = 184
+ModeNum = 1
+Piercing  = 2
+SoundPitch = 0.5
+SoundVolume = 20
+Sound = cannon_1_snd
+Group = MainGun
+DamageFactor = tank, 2.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 1.5
+
+
+MaxAmmo = 40
+SuppliedNum = 20
+Item =  3, iron_ingot
+Item =  5, gunpowder

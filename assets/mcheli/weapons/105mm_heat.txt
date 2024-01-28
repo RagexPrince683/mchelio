@@ -1,0 +1,25 @@
+DisplayName = 105mm [HEATFS]
+Type = MachineGun2
+Power = 400
+ModelBullet = bullet105mm
+Acceleration = 4.5
+Explosion = 5
+ExplosionBlock = 4
+Flaming = false
+Sight = MoveSight
+ReloadTime = 84
+Delay = 84
+ModeNum = 1
+SoundPitch = 0.5
+SoundVolume = 20
+Sound = cannon_1_snd
+Group = MainGun
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.0
+DamageFactor = vehicle 1.5
+DamageFactor = heli, 1.0
+
+MaxAmmo = 100
+SuppliedNum = 20
+Item =  4, iron_ingot
+Item =  4, gunpowder

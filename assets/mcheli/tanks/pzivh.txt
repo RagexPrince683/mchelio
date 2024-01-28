@@ -1,0 +1,115 @@
+﻿DisplayName = Pzkpfw. IV Ausf. H
+AddDisplayName = en_US, Pzkpfw. IV Ausf. H
+MaxHp = 96
+Speed = 0.3
+Sound = tank
+ThrottleUpDown = 3.5
+MobilityYawOnGround = 1.5
+MinRotationPitch = -60
+MaxRotationPitch = 5
+MobilityRoll = 0
+Gravity = -0.15
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 4
+CameraPosition = 0.00, 2.5, 0.00
+HideEntity = true
+EnableNightVision = false
+CameraRotationSpeed = 16
+MaxFuel         = 1000
+FuelConsumption = 1.5
+StepHeight = 1.0
+DefaultFreelook = true
+OnGroundPitchFactor = 3.0
+OnGroundRollFactor  = 3.0
+FlareType = 2
+ThirdPersonDist = 12
+
+;AddTexture = pzivddesert
+;AddTexture = pzivdwinter
+
+SubmergedDamageHeight = 3
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+AddSeat = 0.0, 2.5, 0.0
+
+;ArmorMinDamage = 12
+
+MotionFactor = 0.9
+
+EnableBack = true
+EnableBack = true
+
+Category = M.A
+
+HUD = ww2tank_hud
+
+TrackRollerRot = 15
+SetWheelPos =  1.15,  -0.29,   1.5, 1, 0, -1, -2,
+
+AddTrackRoller =  1.25, 0.0641, 1.6247
+AddTrackRoller =  1.25, 0.0641, 1.0984
+AddTrackRoller =  1.25, 0.0641, 0.5747
+AddTrackRoller =  1.25, 0.0641, 0.0484
+AddTrackRoller =  1.25, 0.0575, -0.4972
+AddTrackRoller =  1.25, 0.0575, -1.0236
+AddTrackRoller =  1.25, 0.0554, -1.5670
+AddTrackRoller =  1.25, 0.0554, -2.0933
+
+AddTrackRoller =  1.25, 0.7699, 1.1747
+AddTrackRoller =  1.25, 0.7699, 0.2209
+AddTrackRoller =  1.25, 0.7631, -0.8516
+AddTrackRoller =  1.25, 0.6891, -1.9325
+
+AddTrackRoller =  1.25, 0.3266, -2.8521
+AddTrackRoller =  1.25, 0.5475, 2.1891
+
+
+AddTrackRoller =  -1.25, 0.0641, 1.6247
+AddTrackRoller =  -1.25, 0.0641, 1.0984
+AddTrackRoller =  -1.25, 0.0641, 0.5747
+AddTrackRoller =  -1.25, 0.0641, 0.0484
+AddTrackRoller =  -1.25, 0.0575, -0.4972
+AddTrackRoller =  -1.25, 0.0575, -1.0236
+AddTrackRoller =  -1.25, 0.0554, -1.5670
+AddTrackRoller =  -1.25, 0.0554, -2.0933
+
+AddTrackRoller =  -1.25, 0.7699, 1.1747
+AddTrackRoller =  -1.25, 0.7699, 0.2209
+AddTrackRoller =  -1.25, 0.7631, -0.8516
+AddTrackRoller =  -1.25, 0.6891, -1.9325
+
+AddTrackRoller =  -1.25, 0.3266, -2.8521
+AddTrackRoller =  -1.25, 0.5475, 2.1891
+
+
+WeightedCenterZ = 0.0
+
+
+AddCrawlerTrack = false, 0.1275,  1.217, -0.194/-2.09, -0.194/1.62, -0.128/1.90, 0.361/2.51, 0.537/2.56, 0.813/2.46, 0.918/2.19, 0.91/1.17, 0.91/0.221, 0.903/-0.852, 0.829/-1.93, 0.669/-2.85, 0.62/-3.02, 0.498/-3.15, 0.326/-3.20, 0.03/-3.03
+
+
+AddCrawlerTrack = false, 0.1275,  -1.217, -0.194/-2.09, -0.194/1.62, -0.128/1.90, 0.361/2.51, 0.537/2.56, 0.813/2.46, 0.918/2.19, 0.91/1.17, 0.91/0.221, 0.903/-0.852, 0.829/-1.93, 0.669/-2.85, 0.62/-3.02, 0.498/-3.15, 0.326/-3.20, 0.03/-3.03
+
+AddPartWeapon = pz4h75_he / pz4h75_ap, false, true, false, 0.00, 1.57, -0.4196, 0
+AddPartWeaponChild = false, true, 0.00, 1.8143, 0.3945, 0
+AddPartWeaponChild = false, true, 0.00, 1.8143, 0.3945, 0.5
+AddTurretWeapon = pz4h75_he, 0.00, 1.8143, 0.3945, 0.0, 0.0, true, 1, 0,-360,360, -15, 5, 0.5
+AddTurretWeapon = pz4h75_ap, 0.00, 1.8143, 0.3945, 0.0, 0.0, true, 1, 0,-360,360, -15, 5, 0.5
+TurretPosition = 0.00, 1.57, -0.4196
+
+AddPartWeapon = mg34, false, true, false, -0.7063, 1.29, 1.3783, 0
+AddPartWeaponChild = false, true, -0.7063, 1.29, 1.3783, 0.1
+AddWeapon = mg34, -0.7063, 1.29, 1.3783, 0.0, 0.0, true, 1, 0,-20,20, -10, 10, 0.1
+
+AddPartWeapon = mg34, false, true, false, 0.00, 1.57, -0.4196, 0
+AddPartWeaponChild = false, true, -0.3607, 1.8143, 0.3945, 0.1
+AddTurretWeapon = mg34, -0.3607, 1.8143, 0.3945, 0.0, 0.0, true, 1, 0,-20,20, -10, 10, 0.1
+TurretPosition = 0.00, 1.57, -0.4196
+
+BoundingBox =  0.0, 0.635, 1.53,   2.0, 0.9,   0.75
+BoundingBox =  0.0, 0.83, -0.09,   2.6, 1.3,   0.80
+BoundingBox =  0.0, 0.83, -1.69,   2.6, 1.3,   0.80
+BoundingBox =  0.0, 1.85, -0.50,   1.9, 0.75,   0.80
