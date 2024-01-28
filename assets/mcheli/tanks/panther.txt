@@ -14,7 +14,7 @@ HUD = ww2tank_hud, ww2tank_hud
 WeightType = Tank
 DefaultFreelook = true
 
-AddTexture = Panther1
+AddTexture = panther1
 
 EnableBack = true
 SetWheelPos =  1.6,  -0.24,  4.0, 2.0, 0.0, -2.0, -4.0
