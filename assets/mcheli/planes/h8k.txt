@@ -1,20 +1,24 @@
-DisplayName = Kawanishi H8K
+DisplayName = Kawanishi H8K "Emily"
+AddDisplayName = en_US, Kawanishi H8K "Emily"
 AddDisplayName = ja_JP, 二式飛行艇
 ItemID = 28719
-MaxHp = 280
+MaxHp = 250
 Speed = 0.50286
 
 ;289 
 
 Sound = prop_bomber
 Float = true
-ThrottleUpDown = 0.5
+ThrottleUpDown = 0.1
 MaxFuel         = 3000
 FuelConsumption = 1.5
 ThirdPersonDist = 28
 
 ; W = WWII.  F = Fighter(戦闘機)
 Category = W.F
+
+DamageFactor = 0.8
+enableback = true
 
 HUD = plane_wwii, none, gunner, gunner, gunner, gunner, gunner
 
@@ -23,11 +27,14 @@ MobilityPitch = 0.6
 MobilityRoll  = 0.3
 MinRotationPitch = -60
 MaxRotationPitch =  60
-MinRotationRoll  = -60
-MaxRotationRoll  =  60
+;MinRotationRoll  = -60
+;MaxRotationRoll  =  60
 
 ;AddSeat =  X, Y, Z
 AddSeat =  0.70,  1.80,  0.10
+
+unmountposition = 0.70,  2.10,  0.10
+
 AddSeat = -0.70,  1.80,  0.10
 ;AddGunnerSeat =  X,Y,Z, CamX,CamY,CamZ
 AddGunnerSeat =  0.00, 1.11,   3.00,    0.00, 1.62,   4.46
