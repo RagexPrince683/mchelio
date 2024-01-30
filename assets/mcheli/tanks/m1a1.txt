@@ -9,13 +9,13 @@ MobilityYawOnGround = 2.0
 MinRotationPitch = -20
 MaxRotationPitch = 10
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
-DamageFactor = 0.0
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor = 0.8
 CameraZoom = 3
 CameraPosition = 0.00,  3.50, 0.90, true
 EnableNightVision = true
-CameraRotationSpeed = 90
+CameraRotationSpeed = 22
 ;EnableEntityRadar = true
 MaxFuel         = 1200
 FuelConsumption = 3.0
@@ -118,13 +118,25 @@ AddTurretWeapon = m240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,3
 RideRack = c5, 1
 RideRack = c5, 2
 
-BoundingBox =  0.00,  1.20,  2.25,   1.0, 1.8,  2.70
-BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.80
-BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.80
-BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.80
-BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  0.80
-BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
-BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
-BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+BoundingBox = 0.0, 0.5, 2.5, 3.0, 0.2, 0.02
+
+BoundingBox = 0.0, 0.9, 3.0, 3.0, 0.5, 0.04
+BoundingBox = 0.0, 1.1, 2.5, 3.0, 0.5, 0.09
+BoundingBox = 0.0, 1.2, 1.8, 3.0, 0.5, 0.12
+BoundingBox = 0.0, 1.3, 1.4, 3.0, 0.5, 0.10
+
+;turret
+BoundingBox = 0.0, 2.0, 0.1, 3.0, 1.0, 0.02
+
+
+
+;mid
+BoundingBox = 0.0, 0.9, 0.0, 3.01, 1.3, 0.41
+;back side
+BoundingBox = 0.0, 0.9, -3.0, 3.0, 1.3, 0.9
+BoundingBox = 0.0, 0.9, -3.8, 3.0, 1.3, 0.9
+;back back
+BoundingBox = 0.0, 1.1, -4.1, 2.99, 1.1, 3.0
+
 
 AddRecipe = "III",  "IKI",  "XIX",  X,iron_block, K, mcheli:m1a1NT,  I,iron_ingot

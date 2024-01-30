@@ -1,4 +1,4 @@
-DisplayName = 7.91mm MG34
+DisplayName = 7.92mm MG34
 Type = MachineGun1
 ModelBullet = 7.91mm
 Power = 7
