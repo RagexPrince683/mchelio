@@ -11,6 +11,8 @@ MaxFuel         = 1200
 FuelConsumption = 1.0
 ThirdPersonDist = 12
 
+RotorSpeed = 2000.0
+
 ; W = WWII.  R = Reconnaissance(偵察機)
 Category = W.R
 
@@ -69,6 +71,20 @@ BoundingBox =  -1.20, 1.90, -4.35,  0.8, 0.2
 BoundingBox = -1.5, 1.20,  0.40,  2.0, 0.3
 BoundingBox =  1.5, 1.20,  0.40,  2.0, 0.3
 
+BoundingBox = -3.5, 1.40,  0.40,  2.0, 0.3
+BoundingBox =  3.5, 1.40,  0.40,  2.0, 0.3
+
 
 BoundingBox = -1.0, 3.20,  1.10,  2.0, 0.3
 BoundingBox =  1.0, 3.20,  1.10,  2.0, 0.3
+
+BoundingBox = -3.0, 3.30,  1.10,  2.0, 0.3
+BoundingBox =  3.0, 3.30,  1.10,  2.0, 0.3
+
+
+BoundingBox = 0.0, 2.75, -3.85, 0.2, 1.5
+BoundingBox = 0.0, 2.85, -4.05, 0.2, 1.5
+BoundingBox = 0.0, 3.15, -4.25, 0.2, 1.5
+BoundingBox = 0.0, 3.15, -4.45, 0.2, 1.7
+BoundingBox = 0.0, 3.15, -4.65, 0.2, 1.5
+BoundingBox = 0.0, 3.15, -4.85, 0.2, 1.5

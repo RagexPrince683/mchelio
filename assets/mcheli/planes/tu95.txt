@@ -5,6 +5,8 @@ ItemID = 28729
 MaxHp = 250
 Speed = 0.696
 
+RotorSpeed = 2000.0
+
 ;400mph
 
 Sound = twinprop

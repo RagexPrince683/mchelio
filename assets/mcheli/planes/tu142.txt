@@ -1,11 +1,12 @@
 ﻿DisplayName = Tu-142 Bear
+AddDisplayName = en_US, Tu-142 Bear
 AddDisplayName = ja_JP, TU-142 Bear
 ItemID = 28729
-MaxHp = 500
-Speed = 1.2
+MaxHp = 250
+Speed = 0.696
 Sound = twinprop
-ThrottleUpDown = 0.5
-AutoPilotRot = 0.20
+ThrottleUpDown = 0.1
+AutoPilotRot = 0.00
 CameraPosition = 2.0, 1.40, -4.0
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
@@ -14,22 +15,29 @@ MaxFuel         = 80000
 FuelConsumption = 3.0
 ThirdPersonDist = 40
 
-UnmountPosition = 3.0, 2.0, -4.0
+RotorSpeed = 2000.0
+
+;UnmountPosition = 3.0, 2.0, -4.0
 
 ; W = WWII.  A = Attacker(攻撃機)
 Category = W.A
 
 HUD = plane_wwii, none
 
-MobilityYaw = 0.4
-MobilityPitch = 0.4
-MobilityRoll = 0.1
-MinRotationPitch = -40
-MaxRotationPitch =  40
-MinRotationRoll  = -40
-MaxRotationRoll  =  40
+MobilityYaw = 0.8
+MobilityPitch = 0.8
+MobilityRoll = 0.4
+;MinRotationPitch = -40
+;MaxRotationPitch =  40
+;MinRotationRoll  = -40
+;MaxRotationRoll  =  40
 
 AddSeat = 0.36,  2.90, 0.00
+
+UnmountPosition = 0.36,  2.90, 0.00
+
+enableback = true
+
 AddSeat = -0.36,  2.90, 0.00
 
 
@@ -63,7 +71,9 @@ AddBlade = 1,0,  -5.40,  2.842,  -5.10,   0, 0,-3
 AddPartRotor =  -10.61,  2.89,  -5.00,   0, 0,-3
 AddBlade = 1,0, -10.61,  2.89,  -5.00,   0, 0,-3
 
-AddRecipe = "I I",  "TTT",  "I I",  I,iron_block, T,tnt
+AddRecipe = "I I",  "TTT",  "I I",  I,iron_block, T,iron_ingot
+
+EnableBack = True
 
 AddWeapon = targeting_pod_mob,   0.0, 4.0, 5.0,  0.0, 0.0
 AddWeapon = targeting_pod_pv50s, 0.0, 4.0, 5.0,  0.0, 0.0
@@ -75,17 +85,65 @@ AddWeapon = targeting_pod_block, 0.0, 4.0, 5.0,  0.0, 0.0, false, 2
 AddWeapon = targeting_pod_ph100s,0.0, 4.0, 5.0,  0.0, 0.0, false, 2
 
 
-BoundingBox =  0.0, 2.6,  -1.6,  4.0, 4.0
-BoundingBox =  0.0, 2.6,  -6.6,  4.0, 4.0, 0.75
-BoundingBox =  0.0, 2.6, -11.6,  4.0, 4.0, 0.75
-BoundingBox =  0.0, 2.6, -16.6,  4.0, 4.0, 0.75
-BoundingBox =  0.0, 3.0, -20.6,  3.0, 3.0
-BoundingBox =  0.0, 3.0, -23.6,  2.0, 2.0
-BoundingBox =  0.0, 3.0, -26.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -1.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -3.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -5.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -7.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2, -10.6,  4.0, 2.0, 0.75
+BoundingBox =  0.0, 3.2,  -12.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -14.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -16.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -18.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -20.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -22.6,  2.0, 2.0
+BoundingBox =  0.0, 3.2,  -24.6,  2.0, 2.0
+BoundingBox =  0.0, 3.7,  -26.6,  2.0, 2.5
+BoundingBox =  0.0, 4.5,  -28.6,  2.0, 3.8
+BoundingBox =  0.0, 6.5,  -30.6,  2.0, 5.7
+BoundingBox =  0.0, 6.8,  -32,  1.0, 7.7
 
-BoundingBox =  -5.0, 2.2, -11.6,  5.0, 1.0, 1.25
-BoundingBox = -10.0, 3.0, -11.6,  5.0, 1.0, 1.25
-BoundingBox = -15.0, 3.0, -12.0,  4.4, 1.0, 0.75
-BoundingBox =   5.0, 2.2, -11.6,  5.0, 1.0, 1.25
-BoundingBox =  10.0, 3.0, -11.6,  5.0, 1.0, 0.75
-BoundingBox =  15.0, 3.0, -12.0,  4.4, 1.0, 1.25
+BoundingBox =  2.0, 4.5,  -31,  3.0, 0.3
+BoundingBox =  -2.0, 4.5,  -31,  3.0, 0.3
+
+BoundingBox =  3.5, 4.3,  -32.5,  3.0, 0.3
+BoundingBox =  -3.5, 4.3,  -32.5,  3.0, 0.3
+
+
+BoundingBox =  -4.4, 3.2, -12.6,  5.0, 1.0, 1.25
+BoundingBox =   4.4, 3.2, -12.6,  5.0, 1.0, 1.25
+
+
+
+BoundingBox = -9.0, 3.0, -14.6,  5.0, 1.0, 1.25
+BoundingBox =  9.0, 3.0, -14.6,  5.0, 1.0, 1.25
+
+
+BoundingBox = -13.5, 3.0, -16.0,  4.4, 1.0, 0.75
+BoundingBox =  13.5, 3.0, -16.0,  4.4, 1.0, 0.75
+
+
+BoundingBox = 5.5, 2.70, -9.5, 1.0, 1.0, 1.5
+BoundingBox = -5.5, 2.70, -9.5, 1.0, 1.0, 1.5
+
+BoundingBox = 5.5, 2.70, -8.5, 1.0, 1.0, 1.5
+BoundingBox = -5.5, 2.70, -8.5, 1.0, 1.0, 1.5
+
+BoundingBox = 5.5, 2.70, -7.5, 1.0, 1.0, 1.5
+BoundingBox = -5.5, 2.70, -7.5, 1.0, 1.0, 1.5
+
+BoundingBox = 5.5, 2.70, -6.5, 1.0, 1.0, 1.5
+BoundingBox = -5.5, 2.70, -6.5, 1.0, 1.0, 1.5
+
+
+
+BoundingBox = 10.50, 2.70, -12.50, 1.0, 1.0, 1.5
+BoundingBox = -10.50, 2.70, -12.50, 1.0, 1.0, 1.5
+
+BoundingBox = 10.50, 2.70, -11.50, 1.0, 1.0, 1.5
+BoundingBox = -10.50, 2.70, -11.50, 1.0, 1.0, 1.5
+
+BoundingBox = 10.50, 2.70, -10.50, 1.0, 1.0, 1.5
+BoundingBox = -10.50, 2.70, -10.50, 1.0, 1.0, 1.5
+
+BoundingBox = 10.50, 2.70, -9.50, 1.0, 1.0, 1.5
+BoundingBox = -10.50, 2.70, -9.50, 1.0, 1.0, 1.5

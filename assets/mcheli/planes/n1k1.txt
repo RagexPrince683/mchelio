@@ -12,6 +12,8 @@ MaxFuel         = 1200
 FuelConsumption = 1.0
 ThirdPersonDist = 12
 
+RotorSpeed = 2000.0
+
 enableback = true
 
 DamageFactor = 0.8

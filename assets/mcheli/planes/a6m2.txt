@@ -5,6 +5,8 @@ ItemID = 28708
 MaxHp = 100
 Speed = 0.61074
 
+RotorSpeed = 2000.0
+
 ;351 
 
 Sound = zero

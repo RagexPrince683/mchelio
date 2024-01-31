@@ -11,6 +11,8 @@ ThrottleUpDown = 0.3
 MaxFuel         = 1000
 FuelConsumption = 1.0
 
+RotorSpeed = 2000.0
+
 DamageFactor = 0.8
 
 EntityWidth  = 0.8

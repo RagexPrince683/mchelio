@@ -12,11 +12,13 @@ EnableNightVision = true
 EnableEntityRadar = true
 EnableGunnerMode = true
 UAV = true
-AutoPilotRot = -0.95
+AutoPilotRot = -1.60
 CameraPosition = 0.0, 0.9, 0.0
-ThrottleUpDown = 0.5
+ThrottleUpDown = 1.5
 MaxFuel         = 1000
 FuelConsumption = 1.0
+
+RotorSpeed = 200.0
 
 ; M = Military(軍用機).  Q = Drone(無人航空機)
 Category = M.Q

@@ -28,6 +28,8 @@ HUD = plane
 
 AddSeat = 0.00,  1.09,  -0.06
 
+enableback = true
+
 unmountposition = 0.00,  1.59,  -0.06
 
 DamageFactor = 0.8
@@ -93,3 +95,4 @@ BoundingBox = 0.0, 4.2, -14.61, 0.5, 1.3
 
 ;BoundingBox =  0.00, 2.20, -9.80,  2.0, 1.5
 
+RotorSpeed = 2000.0

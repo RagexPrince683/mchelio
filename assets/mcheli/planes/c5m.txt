@@ -218,3 +218,5 @@ DamageFactor = 0.8
 unmountposition = 0.62, 1.5, 2.4
 
 enableback = true
+
+RotorSpeed = 2000.0

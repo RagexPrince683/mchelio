@@ -50,8 +50,8 @@ AddWeapon = mg12_7mm, -2.82, 1.59,  0.01, -0.5, -0.5
 
 AddRecipe = " G ",  "IDI",  "I I",  I,iron_block, D,iron_ingot, P,paper, G,glass
 
-BoundingBox =  0.00, 2.24,  2.63,   1.1, 1.1,  1.2
-BoundingBox =  0.00, 2.15,  1.10,   1.5, 1.5,  1.2
+BoundingBox =  0.00, 2.24,  2.63,   1.1, 1.1,  1.5
+BoundingBox =  0.00, 2.15,  1.10,   1.5, 1.5,  1.5
 BoundingBox =  0.00, 2.13, -0.50,   1.5, 1.8
 BoundingBox =  0.00, 1.25, -2.17,   1.5, 1.0
 BoundingBox =  0.00, 2.08, -3.67,   1.2, 2.0
@@ -72,14 +72,14 @@ BoundingBox =  0.00, 3.77, -8.30,   0.2, 2.0,  1.0
 BoundingBox =  0.00, 3.77, -8.20,   0.2, 2.0,  1.0
 
 
-BoundingBox =  1.50, 2.85, -7.95,   1.3, 0.1,  0.9
-BoundingBox = -1.50, 2.85, -7.95,   1.3, 0.1,  0.9
-BoundingBox =  2.20, 1.55, -1.50,   2.8, 0.4,  0.9
-BoundingBox = -2.20, 1.55, -1.50,   2.8, 0.4,  0.9
-BoundingBox =  5.15, 1.75, -1.35,   2.2, 0.3,  0.8
-BoundingBox = -5.15, 1.75, -1.35,   2.2, 0.3,  0.8
+BoundingBox =  1.50, 2.85, -7.95,   1.3, 0.1,  1.0
+BoundingBox = -1.50, 2.85, -7.95,   1.3, 0.1,  1.0
+BoundingBox =  2.20, 1.55, -1.50,   2.8, 0.4,  1.0
+BoundingBox = -2.20, 1.55, -1.50,   2.8, 0.4,  1.0
+BoundingBox =  5.15, 1.75, -1.35,   2.2, 0.3,  1.0
+BoundingBox = -5.15, 1.75, -1.35,   2.2, 0.3,  1.0
 
 
-
+RotorSpeed = 2000.0
 
 enableback = true

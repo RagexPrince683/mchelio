@@ -12,6 +12,9 @@ Speed = 0.74124
 Sound = prop_fighter
 onGroundPitch = 16
 ThrottleUpDown = 0.3
+
+RotorSpeed = 2000.0
+
 MaxFuel         = 1200
 FuelConsumption = 1.0
 ThrottleUpDownOnEntity = 2.0

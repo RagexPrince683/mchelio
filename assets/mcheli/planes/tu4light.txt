@@ -17,6 +17,8 @@ MaxFuel         = 4200
 FuelConsumption = 1.7
 ThirdPersonDist = 40
 
+RotorSpeed = 2000.0
+
 UnmountPosition = 3.0, 2.0, -4.0
 
 ; W = WWII.  A = Attacker(攻撃機)

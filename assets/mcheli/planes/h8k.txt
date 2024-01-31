@@ -25,8 +25,8 @@ HUD = plane_wwii, none, gunner, gunner, gunner, gunner, gunner
 MobilityYaw   = 0.6
 MobilityPitch = 0.6
 MobilityRoll  = 0.3
-MinRotationPitch = -60
-MaxRotationPitch =  60
+;MinRotationPitch = -60
+;MaxRotationPitch =  60
 ;MinRotationRoll  = -60
 ;MaxRotationRoll  =  60
 
@@ -51,13 +51,19 @@ AddPartWeapon = mg20mm_sr, false, true, true, -1.06, 2.94, -11.68
 AddPartWeaponMissile = type91torpedo, false, false, false, -4.93, 3.31, -9.57
 AddPartWeaponMissile = type91torpedo, false, false, false,  4.93, 3.31, -9.57
 
-AddPartRotor =    7.33,  3.56, -2.07,   1,0, 0
+AddPartRotor =    7.3342,  3.9014, -2.07,   1,0, 0
 AddBlade = 1, 0,  7.33,  3.56, -2.07,   0,0, 1
-AddPartRotor =    3.35,  3.28, -1.86,   1,0, 0
-AddBlade = 1, 0,  3.35,  3.28, -1.86,   0,0, 1
-AddPartRotor =   -3.35,  3.28, -1.86,   1,0, 0
-AddBlade = 1, 0, -3.35,  3.28, -1.86,   0,0,-1
-AddPartRotor =   -7.33,  3.56, -2.07,   1,0, 0
+
+
+AddPartRotor =    3.3671,  3.6234, -2.6033,   1,0, 0
+AddBlade = 1, 0,  3.3671,  3.28, -1.86,   0,0, 1
+
+
+AddPartRotor =   -3.3671,  3.6234, -2.6033,   1,0, 0
+AddBlade = 1, 0, -3.3671,  3.28, -1.86,   0,0,-1
+
+
+AddPartRotor =   -7.33,  3.9014, -2.07,   1,0, 0
 AddBlade = 1, 0, -7.33,  3.56, -2.07,   0,0,-1
 
 
@@ -139,3 +145,5 @@ BoundingBox = 0.0, 5.75, -20.60, 0.5, 4.0
 BoundingBox = 0.0, 5.75, -21.10, 0.5, 4.0
 BoundingBox = 0.0, 5.75, -21.60, 0.5, 4.0
 BoundingBox = 0.0, 5.25, -22.10, 0.5, 3.5
+
+RotorSpeed = 500.0

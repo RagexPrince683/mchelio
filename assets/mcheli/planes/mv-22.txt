@@ -172,3 +172,5 @@ AddRack = growler, 0.0, 0.85, -7.0, 0.0, 0.00, -9.0, 7.0, 500000, 180
 ;unmountposition = -0.60, 1.50,  0.00
 
 UnmountPosition = 0.0, 2.7, -2.00
+
+RotorSpeed = 2000.0

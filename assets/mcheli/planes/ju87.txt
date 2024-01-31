@@ -14,6 +14,10 @@ FuelConsumption = 1.0
 onGroundPitch = 6.8
 ThirdPersonDist = 12
 
+DamageFactor = 0.8
+
+RotorSpeed = 2000.0
+
 
 ; W = WWII.  F = Fighter(???)
 Category = W.F
