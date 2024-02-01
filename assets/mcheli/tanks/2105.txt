@@ -1,18 +1,19 @@
 ﻿DisplayName = 2105 Lada
+AddDisplayName = en_US, 2105 Lada
 AddDisplayName = ja_JP, スカイラインLada 2105
 ItemID = 300341
-MaxHp = 120
-ThrottleUpDown = 10.0
-Speed = 0.3
-MobilityYawOnGround = 5.0
+MaxHp = 200
+ThrottleUpDown = 0.81
+Speed = 0.92
+MobilityYawOnGround = 10.0
 StepHeight = 1.2
 Sound = prop
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
-Gravity        = -0.15
-GravityInWater = -0.1
-DamageFactor   = 0.85
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor   = 1
 EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 1.0
@@ -20,8 +21,8 @@ FuelConsumption   = 1.0
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 
-CameraPosition = 0.60,  1.22, -0.02, true
-CameraPosition  = 0.00,  2.50, -6.00, true
+;CameraPosition = 0.60,  1.22, -0.02, true
+;CameraPosition  = 0.00,  2.50, -6.00, true
 
 VariableSweepWing  = true
 SweepWingSpeed  = 0.0

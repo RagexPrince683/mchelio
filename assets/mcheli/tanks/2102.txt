@@ -1,15 +1,15 @@
 DisplayName = VAZ-2102
 AddDisplayName = ru_RU, ВАЗ 2102
-MaxHp = 100
+MaxHp = 200
 Speed = 0.85
-Sound = 4a-ge
+Sound = lada
 MobilityYawOnGround = 10.0
-ThrottleUpDown = 10.0
+ThrottleUpDown = 0.81
 MinRotationPitch = 45
 MaxRotationPitch = 45
-MobilityRoll = 0
-Gravity = -0.15
-GravityInWater = 0.1
+MobilityRoll     = 4
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 1.0
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
@@ -17,6 +17,9 @@ OnGroundRollFactor  = 4.8
 HUD = bnr32_hud, none
 
 AddSeat =  0.6040,  0.22, 0.1
+
+unmountposition = 0.6040,  2.12, 0.1
+
 AddSeat =  -0.4621,  0.32, 0.1
 
 EnableBack = true

@@ -98,13 +98,13 @@ AddTrackRoller = -1.19, 0.657, -1.43
 
 
 
-AddPartWeapon = 2A75-1_APFSDS / 2A75-3_HE / 2A75-2_HEATMP / 2A75-4_9M119M_Refleks, false, true, false,  0.0, 0.343, 0.80, 0
+AddPartWeapon = sp2a75-1_APFSDS / sp2a75-3_HE / sp2a75-2_HEATMP / sp2a75-4_9M119M_Refleks, false, true, false,  0.0, 0.343, 0.80, 0
 AddPartWeaponChild = false, true, 0.0, 1.6, 1.594, 0.5
 AddPartWeaponChild = false, true, 0.0, 1.6, 1.594, 0.0
-AddTurretWeapon = 2A75-1_APFSDS, 0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -15, 6
-AddTurretWeapon = 2A75-3_HE,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -15, 6
-AddTurretWeapon = 2A75-2_HEATMP,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -15, 6
-AddTurretWeapon = 2A75-4_9M119M_Refleks,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -15, 6
+AddTurretWeapon = sp2a75-1_APFSDS, 0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -15, 6
+AddTurretWeapon = sp2a75-3_HE,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -15, 6
+AddTurretWeapon = sp2a75-2_HEATMP,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -15, 6
+AddTurretWeapon = sp2a75-4_9M119M_Refleks,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -15, 6
 AddTurretWeapon = 2spkt_7.62mm, -0.3, 1.657, 0.80, 0, 0, true,1, 0, -360,360, -15, 6
 AddRecipe = "XXX",  " X ",  "III",  X, iron_block,  I, iron_ingot
 RideRack = c5, 1
