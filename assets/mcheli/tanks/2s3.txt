@@ -15,7 +15,7 @@ MaxRotationPitch = 0
 DefaultFreelook = true
 HideEntity = true
 FlareType = 10
-CameraPosition = 0.0, 3.5, -2.4578
+CameraPosition = 0.0, 4.5, -2.4578
 
 MobilityYawOnGround = 3.0
 

@@ -1,4 +1,4 @@
-DisplayName = 105mmgun [APFSDS] [Placeholder ammunition type]
+DisplayName = 105mmgun [APFSDS] 
 Type = MachineGun2
 Power = 353
 ModelBullet = bullet105mm
@@ -22,7 +22,7 @@ Acceleration = 7.0
 ;ModelBullet = bullet105mm
 Piercing = 2
 Accuracy = 0.0
-DamageFactor = tank, 3.5
+DamageFactor = tank, 10.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0

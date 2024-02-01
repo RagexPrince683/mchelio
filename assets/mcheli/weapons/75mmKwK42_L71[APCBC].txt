@@ -1,12 +1,12 @@
 DisplayName = 75mm KwK42 L71 [APCBC]
 Type = MachineGun2
-Power = 109
+Power = 192
 Acceleration = 5.0
 ModelBullet = bullet76mm
-Explosion = 1
+Explosion = 2
 ExplosionBlock = 0
 Sight = MoveSight
-ReloadTime = 150
+ReloadTime = 160
 Round = 1
 Sound = cannon_1_snd
 SoundVolume = 1.0
@@ -14,14 +14,16 @@ Accuracy = 1.0
 Piercing = 1
 HeatCount = 275
 MaxHeatCount = 250
-Gravity = -0.01
+Gravity = -0.002
 GravityInWater = 0.0
 Particle = flame
 RecoilBufCount = 40, 5
-DamageFactor = tank, 0.5
+
+DamageFactor = tank, 3.5
 DamageFactor = plane, 1.5
-DamageFactor = vehicle 1.5
-DamageFactor = heli, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
 Recoil = 2.5
 Group = MainGun
 

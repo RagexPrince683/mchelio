@@ -7,17 +7,20 @@ Explosion = 5
 ExplosionBlock = 4
 Flaming = false
 Sight = MoveSight
-ReloadTime = 84
-Delay = 84
+ReloadTime = 160
+Delay = 160
 ModeNum = 1
 SoundPitch = 0.5
 SoundVolume = 20
 Sound = cannon_1_snd
 Group = MainGun
-DamageFactor = tank, 1.0
-DamageFactor = plane, 1.0
-DamageFactor = vehicle 1.5
-DamageFactor = heli, 1.0
+DamageFactor = tank, 2.5
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
+Gravity = -0.001
+
 
 MaxAmmo = 100
 SuppliedNum = 20
