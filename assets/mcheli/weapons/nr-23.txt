@@ -11,6 +11,8 @@ MaxHeatCount = 150
 ReloadTime = 25
 Sound = shilka
 
+Gravity = -0.001
+
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0

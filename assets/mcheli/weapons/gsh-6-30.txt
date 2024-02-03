@@ -13,6 +13,8 @@ Sound = gun_h5_snd
 Accuracy = 2.0
 HeatCount = 1
 
+Gravity = -0.001
+
 ModeNum = 2
 
 AddMuzzleFlash      =  0.2,      0.62,        1,  150,254,159,84

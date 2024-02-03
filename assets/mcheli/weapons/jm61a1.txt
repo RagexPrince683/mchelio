@@ -14,6 +14,7 @@ SoundVolume = 2.5
 HeatCount = 1
 MaxHeatCount = 150
 Sound = gun_m61a1_snd
+Piercing = 0
 Gravity = -0.001
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5

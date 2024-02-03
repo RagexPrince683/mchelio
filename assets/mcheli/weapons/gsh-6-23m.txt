@@ -18,7 +18,7 @@ DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 SoundVolume = 15
-Piercing = 1
+Piercing = 0
 Gravity = -0.001
 
 AddMuzzleFlash      =  1.6,      0.22,        2,  170,254,159,84
