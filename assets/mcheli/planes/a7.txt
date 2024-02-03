@@ -2,6 +2,8 @@ DisplayName = A-7 Corsair
 AddDisplayName = ja_JP, A-7 corsair
 ItemID = 28740
 MaxHp = 100
+Sound = asev
+
 onGroundPitch = 4
 EnableNightVision = true
 EnableEntityRadar = true

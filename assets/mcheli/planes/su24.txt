@@ -17,6 +17,8 @@ MaxFuel         = 1600
 FuelConsumption = 1.1
 ThirdPersonDist = 16
 
+Sound = migtwentythree
+
 ThrottleUpDown = 0.3
 
 enableback = true

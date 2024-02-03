@@ -22,7 +22,7 @@ ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 ThirdPersonDist = 28
 
-RotorSpeed = 2000.0
+RotorSpeed = 500.0
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A

@@ -105,6 +105,9 @@ BoundingBox = 9.47, 3.24, -3.26, 1.5, 1.5   , 1.5
 
 DamageFactor = 0.8
 
+RotorSpeed = 500.0
+
+
 unmountposition = 0.65,  2.43,  2.00
 
 enableback = true

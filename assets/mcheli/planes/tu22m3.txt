@@ -19,6 +19,8 @@ AutoPilotRot = 0
 ThirdPersonDist = 24
 SweepWingSpeed = 1.5
 
+sound = tutwentytwo
+
 ThrottleUpDown = 0.3
 enableback = true
 MobilityYaw = 0.5

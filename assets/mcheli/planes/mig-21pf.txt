@@ -7,7 +7,7 @@ Speed = 1.385
 
 ;1385mph
 
-Sound = fighter_jet
+Sound = migtwentyone
 ThrottleUpDown = 0.3
 MaxFuel = 1000
 FuelConsumption = 1.0

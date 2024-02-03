@@ -3,6 +3,8 @@ AddDisplayName = ja_JP, A-6 Intruder
 ItemID = 28740
 MaxHp = 150
 onGroundPitch = 5
+Sound = asix
+
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true

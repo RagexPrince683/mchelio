@@ -6,6 +6,9 @@ MaxHp = 150
 Speed = 0.30798
 ;177mph
 
+Sound = junkersjumo
+
+
 ThrottleUpDown = 0.1
 Float = true
 FloatOffset = -0.4
@@ -14,7 +17,7 @@ Regeneration = false
 MaxFuel         = 4000
 FuelConsumption = 2.0
 InventorySize = 36
-RotorSpeed = 100.0
+RotorSpeed = 500.0
 StepHeight = 1.0
 
 MobilityYawOnGround = 1.5
@@ -38,8 +41,8 @@ AddTexture = bv138_2
 AddSeat = -0.54, 0.60, 2.45
 AddSeat =  0.54, 0.70, 2.45
 
-AddGunnerSeat= -0.00, 0.44, 4.32, -0.00, 1.46, 4.32,  true,  -90, 20, true
-AddGunnerSeat=  0.00, 1.15,-6.10,  0.00, 2.26,-6.10,  true,  -90, 20, true
+AddGunnerSeat= -0.00, 0.44, 4.32, -0.00, 1.46, 4.32,  true,  -90, 20, false
+AddGunnerSeat=  0.00, 1.15,-6.10,  0.00, 2.26,-6.10,  true,  -90, 20, false
 AddGunnerSeat=  0.00, 2.56,-3.59,  0.00, 3.60,-3.59,  true,  -90, 20, false
 
 ;AddBlade = ブレード描画数, ブレード間の角度, 位置X, 位置Y, 位置Z, 回転軸X, 回転軸Y, 回転軸Z

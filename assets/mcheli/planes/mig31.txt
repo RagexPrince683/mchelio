@@ -1,5 +1,5 @@
 DisplayName = MiG-31 Foxhound
-MaxHp = 160
+MaxHp = 100
 Speed = 1.5
 EnableNightVision = true
 EnableEntityRadar = true
@@ -12,6 +12,8 @@ MaxFuel         = 1000
 FuelConsumption = 1.0
 Category = M.F
 HideEntity = false
+
+sound = migthirtyone
 
 DamageFactor = 0.8
 
