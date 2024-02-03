@@ -13,7 +13,9 @@ SoundVolume = 1
 SoundPitch = 1.0
 Sound = gun_h7_snd
 Accuracy = 1.0
+Piercing = 1
 
+Gravity = -0.001
 AddMuzzleFlash      =  1.6,      0.22,        2,  170,254,159,84
 AddMuzzleFlash      =  1.5,      0.20,        1,  150,254,219,184
 AddMuzzleFlashSmoke =  2.2,  1,   5.0,  2.0, 15,  180,250,245,240
@@ -23,7 +25,6 @@ HeatCount = 2
 MaxHeatCount = 50
 
 Acceleration = 7.5
-Piercing = 0
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5
