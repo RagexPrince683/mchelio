@@ -1,6 +1,6 @@
 DisplayName = QF-6 95mm [HE]
 Type = MachineGun2
-Power = 90
+Power = 30
 ModelBullet = bullet76mm
 Acceleration = 3.0
 Explosion = 6
@@ -10,8 +10,13 @@ Delay = 150
 SoundPitch = 0.5
 SoundVolume = 20
 Sound = tank_gun_snd
-Gravity = -0.02
+Gravity = -0.005
 Recoil = 1.5
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  7.1,      1.75,        6,  200,254,219,104

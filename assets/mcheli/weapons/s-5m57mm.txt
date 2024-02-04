@@ -10,6 +10,7 @@ Sound = rocket_snd
 Delay = 1
 ReloadTime = 80
 Round = 32
+Gravity = -0.005
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0

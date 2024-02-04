@@ -10,7 +10,7 @@ Delay = 150
 SoundPitch = 0.5
 SoundVolume = 20
 Sound = tank_gun_snd
-Gravity = -0.02
+Gravity = -0.005
 Piercing = 2
 Recoil = 1.5
 

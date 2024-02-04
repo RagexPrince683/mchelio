@@ -27,6 +27,7 @@ SetCartridge = cartridge, 0.2, 0.1, -0.1, 2.00, -0.04, 0.40
 ; Gravity      : 重力の強さ
 ; Bound        : ブロックにぶつかった時の跳ね返りの強さ
 AddTexture = red
+Gravity = -0.001
 
 Group = maingun
 

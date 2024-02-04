@@ -28,7 +28,7 @@ AddMuzzleFlash      =  0,      0.60,        0,  150,254,219,184
 AddMuzzleFlashSmoke =  0,  2,   7.0,  2.5, 15,  130,250,245,240
 AddMuzzleFlashSmoke =  0,  1,   6.0,  2.5, 25,  130,220,217,214
 
-Gravity = -0.005
+Gravity = -0.001
 
 Acceleration = 7.5
 Piercing = 0

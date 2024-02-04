@@ -11,6 +11,7 @@ ReloadTime = 110
 Round = 17
 ModeNum = 2
 Sound = rocket_snd
+Gravity = -0.001
 
 MaxAmmo = 20
 SuppliedNum = 20

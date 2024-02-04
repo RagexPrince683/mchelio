@@ -30,9 +30,6 @@ DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 
-DisplayMortarDistance = true
-
-
 
 RecoilBufCount = 40, 5
 
