@@ -20,7 +20,7 @@ AddPartNozzle =0,2.31,-11.97,-1,0,0
 HUD = mig21
 ParticlesScale = 0.7
 AddSeat = 0.00,2.60,  0.50
-Sound = mig21_s
+Sound = migtwentyone
 ThrottleUpDown = 0.3
 
 DamageFactor = 0.8

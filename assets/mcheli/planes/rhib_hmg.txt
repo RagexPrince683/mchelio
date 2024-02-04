@@ -24,6 +24,8 @@ MaxRotationPitch = -3.00
 
 onGroundPitch = 4
 
+sound = rhib
+
 enableback = true
 
 MobilityYaw = 2.70

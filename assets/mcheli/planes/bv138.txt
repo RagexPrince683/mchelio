@@ -9,7 +9,7 @@ Speed = 0.30798
 Sound = junkersjumo
 
 
-ThrottleUpDown = 0.1
+ThrottleUpDown = 0.2
 Float = true
 FloatOffset = -0.4
 Sound = prop

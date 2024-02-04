@@ -5,7 +5,9 @@ ItemID = 40016
 MaxHp = 100
 Speed = 1.30848
 ;752mph
-Sound = fighter_jet
+Sound = mignineteen
+SoundPitch = 0.8
+
 ThrottleUpDown = 0.3
 MaxFuel = 1000
 FuelConsumption = 1.0

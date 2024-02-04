@@ -9,7 +9,7 @@ Speed = 0.904
 
 DamageFactor = 0.8
 
-Sound = fighter_jet
+Sound = mignineteen
 ThrottleUpDown = 0.3
 MaxFuel = 1000
 FuelConsumption = 1.0
