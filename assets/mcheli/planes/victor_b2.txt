@@ -20,7 +20,12 @@ ThirdPersonDist = 24
 
 DamageFactor = 0.8
 
-ThrottleUpDown = 0.3
+RotorSpeed = 500.0
+
+sound = mig21_s
+soundpitch = 0.8
+
+ThrottleUpDown = 0.1
 enableback = true
 MobilityYaw = 0.5
 MobilityPitch = 0.5

@@ -12,7 +12,7 @@ ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel         = 4800
 FuelConsumption = 2.0
-CameraPosition  = 0.0, 2.66, 3.78
+CameraPosition  = 0.0, 1.46, 3.78
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
 AutoPilotRot = 0
@@ -40,7 +40,7 @@ AddSeat =  0.4733, 2.7, 1.119
 
 DamageFactor = 0.8
 unmountposition = 0.4733, 1.5, 1.119
-AddGunnerSeat = -0.4733, 2.7, 1.119, 0.00,  4.638, -28.07, true
+AddGunnerSeat = -0.4733, 2.7, 1.119, 0.00,  3.638, -28.07, true
 
 AddPartWing  = -6.944, 2.864, -14.81,  0, -1,0, 50
 

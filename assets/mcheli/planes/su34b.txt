@@ -16,6 +16,7 @@ ThirdPersonDist = 20
 ;MotionFactor = 0.97
 AutoPilotRot = 0.0
 ThrottleUpDown = 0.3
+Sound = sutwentyseven
 
 DamageFactor = 0.8
 

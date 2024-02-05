@@ -33,6 +33,8 @@ CanRotOnGround  = false
 
 onGroundPitch = 4
 
+sound = rhib
+
 
 AddPartRotor =    0.44,  -0.58, -3.69,   1,0, 0
 AddBlade = 1, 0,  0.44,  -0.57, -3.69,   0,0,-1

@@ -6,7 +6,7 @@ MaxHp  = 250
 EnableNightVision  = true
 EnableEntityRadar  = true
 EnableEjectionSeat = true
-Speed = 1.1
+Speed = 1.1223
 FlareType = 2
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -18,7 +18,9 @@ ConcurrentGunnerMode = true
 AutoPilotRot = 0
 ThirdPersonDist = 24
 
-ThrottleUpDown = 0.3
+sound = xh
+
+ThrottleUpDown = 0.1
 enableback = true
 DamageFactor = 0.8
 MobilityYaw = 0.5

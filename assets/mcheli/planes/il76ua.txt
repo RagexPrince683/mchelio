@@ -4,7 +4,7 @@ AddDisplayName = ru_RU, Ил-76
 MaxHp = 250
 Speed = 1.15
 Sound = plane
-ThrottleUpDown = 0.3
+ThrottleUpDown = 0.1
 MaxFuel         = 30000
 FuelConsumption = 2
 InventorySize = 64
@@ -23,6 +23,9 @@ MobilityYaw = 0.1
 MobilityPitch = 0.1
 MinRotationRoll =-30
 MaxRotationRoll =30
+
+
+sound = ilsevensix
 
 AddSeat = 0.7544, 5.7919, 3.9352
 

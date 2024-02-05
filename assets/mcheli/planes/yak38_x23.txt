@@ -28,6 +28,8 @@ HUD = plane
 
 AddSeat = 0.00,  1.09,  -0.06
 
+sound = yakthirtyeight
+
 enableback = true
 
 unmountposition = 0.00,  1.59,  -0.06
