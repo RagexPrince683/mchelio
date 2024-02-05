@@ -5,7 +5,7 @@ ItemID = 40009
 MaxHp = 100
 Speed = 1.367
 Sound = faeighteen
-ThrottleUpDown = 0.8
+ThrottleUpDown = 0.3
 MaxFuel = 1200
 FuelConsumption = 1.0
 FlareType = 4
@@ -19,6 +19,8 @@ Stealth = 0.55
 Category = M.F
 
 DamageFactor = 0.8
+
+enableback = true
 
 AddSeat = 0.00,  1.83,  1.378
 
