@@ -3,27 +3,27 @@ AddDisplayName = ja_JP, タイガー H1
 AddDisplayName = en_US, Tiger H1
 ItemID = 90129
 ;;estimated max armor thickness is 102mm thus divided by two equals 51
-MaxHp = 51
+MaxHp = 150
 ;;speed is calculated by taking the original vehicle speed eg for this vehicle it is 27.9mph*0.1 then the product is further divided by 10 and rounded up
-Speed = 0.3
+Speed = 0.4
 ThrottleUpDown = 3.0
-Gravity = -0.1
-GravityInWater = -0.5
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = false
 EnableEntityRadar = false
 Sound = V12TIGER
 HUD = ww2tank_hud, ww2tank_hud
 WeightType = Tank
-CameraZoom = 4
+CameraZoom = 3
 CameraRotationSpeed = 10
 DefaultFreelook = true
 SubmergedDamageHeight = 3
 
  
 
-AddTexture = Tiger12
-AddTexture = Tiger13
+AddTexture = tiger
+AddTexture = tiger1
 
 ;TurretPosition = 0.0, -0.0, 0.0
 

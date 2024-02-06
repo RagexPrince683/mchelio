@@ -3,9 +3,9 @@ AddDisplayName = ja_JP, IS-2 (1944)
 AddDisplayName = en_US, IS-2 (1944)
 ItemID = 30180
 ;92/2
-MaxHp = 46
+MaxHp = 180
 ;180
-Speed = 0.56
+Speed = 0.40
 ;sherman goes 23.6mph
 ;1.0 = 46mph
 ;0.3 = 13.8mph
@@ -13,14 +13,14 @@ Speed = 0.56
 ;23.6mph/46mph=x
 ;x = 23.6mph
 ;
-Sound = IS2Engine
+Sound = mtwentysixeng
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 3.0
 MinRotationPitch = -20
 MaxRotationPitch = 3
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
 CameraZoom = 3
 CameraPosition = 0.00,  3.50, 0.90, true

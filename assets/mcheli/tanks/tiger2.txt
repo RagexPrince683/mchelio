@@ -4,8 +4,8 @@ AddDisplayName = Tiger II(H)
 AddDisplayName = en_US, Tiger II(H)
 ItemID = 32357
 ;215mm sloped/2
-MaxHp = 105
-Speed = 0.18
+MaxHp = 190
+Speed = 0.30
 ;12.4mph cross country fuck max road speed it's gay
 ;x = 12.4mph
 ;46/12.4=3.7
@@ -56,12 +56,12 @@ CameraZoom = 3
 CameraPosition = 0.0, 3.50, 0.0, false
 
 ;;just make a b+ tier mcheli don't fucking redo everything constantly at least be better than labj*c do something get something done
-AddPartWeapon = Tiger2H_APCBC/Tiger2H_HE, false, true, false,  0.0, 2.2915, 0.0, 0
+AddPartWeapon = tiger288_ap/tiger288_he, false, true, false,  0.0, 2.2915, 0.0, 0
 AddPartWeaponChild= false, true, 0.00,  2.3293, 1.8217
 AddPartWeaponChild= false, true, 0.00,  2.3293, 1.8217, 0.5
 
-AddTurretWeapon = Tiger2H_APCBC, 0.0, 2.3293, 0.0,   0, -1, true, 1,0,-360,360, -8,15
-AddTurretWeapon = Tiger2H_HE, 0.0, 2.3293, 0.0,   0, -1, true, 1,0,-360,360, -8,15
+AddTurretWeapon = tiger288_ap, 0.0, 2.3293, 0.0,   0, -1, true, 1,0,-360,360, -8,15
+AddTurretWeapon = tiger288_he, 0.0, 2.3293, 0.0,   0, -1, true, 1,0,-360,360, -8,15
 AddTurretWeapon = TigerH1MG34Coax, -0.3338, 2.3293, 0.0,   0, -1, true, 1,0,-360,360, -8,15
 
 
@@ -98,8 +98,8 @@ BoundingBox = 0.0, 2.5, 0.0, 2.0, 1.0, 0.43
 Float  = false
 SubmergedDamageHeight = 3
 
-Gravity = -0.2
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 
 MaxFuel         = 2400
 FuelConsumption = 2.0
@@ -114,7 +114,7 @@ DamageFactor = 0.0
 ;ArmorDamageFactor = 1.0
 
 
-CameraRotationSpeed = 15
+CameraRotationSpeed = 18
 PivotTurnThrottle = 0.0
 WeightedCenterZ = 0.0
 SetWheelPos =  1.14, -0.24, 2.81, 1.35, 0.0, -1.74
