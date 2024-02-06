@@ -6,7 +6,10 @@ MaxHp = 100
 Speed = 0.6177
 Float = true
 FloatOffset = -0.77
-Sound = prop
+Sound = zero
+
+SoundPitch = 0.8
+
 ThrottleUpDown = 0.3
 MaxFuel         = 1200
 FuelConsumption = 1.0
