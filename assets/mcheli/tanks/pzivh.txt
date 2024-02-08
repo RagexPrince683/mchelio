@@ -1,18 +1,18 @@
 ﻿DisplayName = Pzkpfw. IV Ausf. H
 AddDisplayName = en_US, Pzkpfw. IV Ausf. H
 MaxHp = 96
-Speed = 0.3
+Speed = 0.4
 Sound = tank
 ThrottleUpDown = 3.5
 MobilityYawOnGround = 1.5
 MinRotationPitch = -60
 MaxRotationPitch = 5
 MobilityRoll = 0
-Gravity = -0.15
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
 CameraZoom = 4
-CameraPosition = 0.00, 2.5, 0.00
+CameraPosition = 0.00, 2.25, 0.00, true
 HideEntity = true
 EnableNightVision = false
 CameraRotationSpeed = 16
@@ -44,7 +44,7 @@ EnableBack = true
 
 Category = M.A
 
-HUD = ww2tank_hud
+HUD = ww2tank_hud, 
 
 TrackRollerRot = 15
 SetWheelPos =  1.15,  -0.29,   1.5, 1, 0, -1, -2,
@@ -93,6 +93,8 @@ AddCrawlerTrack = false, 0.1275,  1.217, -0.194/-2.09, -0.194/1.62, -0.128/1.90,
 
 AddCrawlerTrack = false, 0.1275,  -1.217, -0.194/-2.09, -0.194/1.62, -0.128/1.90, 0.361/2.51, 0.537/2.56, 0.813/2.46, 0.918/2.19, 0.91/1.17, 0.91/0.221, 0.903/-0.852, 0.829/-1.93, 0.669/-2.85, 0.62/-3.02, 0.498/-3.15, 0.326/-3.20, 0.03/-3.03
 
+AddGunnerSeat = 0.00,  1.55,  0.00,  0.00,  1.55,  0.00, false, -8, 16, true
+AddGunnerSeat = 0.00,  0.96,  0.80, false
 AddPartWeapon = pz4h75_he / pz4h75_ap, false, true, false, 0.00, 1.57, -0.4196, 0
 AddPartWeaponChild = false, true, 0.00, 1.8143, 0.3945, 0
 AddPartWeaponChild = false, true, 0.00, 1.8143, 0.3945, 0.5

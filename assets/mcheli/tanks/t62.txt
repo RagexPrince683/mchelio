@@ -79,11 +79,13 @@ FuelConsumption = 2.0
 AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot
 
 BoundingBox =  0.0, 0.45, 1.00,   2.75, 1.8,  0.80
-BoundingBox =  0, 1.8,  0,   2.00, 1.2,  0.40
+BoundingBox =  0, 1.8,  0,   2.00, 1.1,  0.40
 BoundingBox =  0.0, 0.45,  0.0,   2.75, 1.8,  0.80
 BoundingBox =  0, 0.45,  0.80,   2.75, 0.8,  0.80
-BoundingBox =  0, 0.95,  1.75,   2.65, 0.8,  0.60
-BoundingBox =  0, 0.90,  2.05,   2.65, 0.3,  0.60
+BoundingBox =  0, 0.95,  1.45,   2.65, 0.8,  0.60
+BoundingBox =  0, 0.90,  1.75,   2.65, 0.3,  0.60
+BoundingBox =  0, 0.75,  2.00,   2.65, 0.1,  0.60
+BoundingBox =  0, 0.60,  2.15,   2.65, 0.1,  0.60
 BoundingBox =  0, 0.45,  2.00,   2.65, 0.3,  0.75
 
 

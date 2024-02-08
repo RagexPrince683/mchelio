@@ -36,7 +36,7 @@ SetWheelPos =  1.31, -0.24, 2.41, 1.37, -0.13, -1.80, -2.96, -3.93
 SubmergedDamageHeight = 2
 
 AddGunnerSeat =  0.00,   1.3947, 0.00, 0.3840, 1.3947, 1.2673, false, -20, 5, true
-CameraPosition = 0.3840, 1.3947, 1.2673, true, -20, 5
+CameraPosition = 0.3840, 1.3947, 1.4, true, -20, 5
 CameraRotationSpeed = 20
 
 MotionFactor = 0.9

@@ -1,5 +1,5 @@
 DisplayName = T-72A
-MaxHp = 280
+MaxHp = 600
 Speed = 0.6
 Sound = tseventytwopass
 ThrottleUpDown = 10.0
