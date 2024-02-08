@@ -1,5 +1,5 @@
-﻿DisplayName = Yakovlev Yak-38
-AddDisplayName = en_US, Yakovlev Yak-38
+﻿DisplayName = Yakovlev Yak-38 with Kh-23M
+AddDisplayName = en_US, Yakovlev Yak-38 with Kh-23M
 AddDisplayName = ru_RU, ЯК-38 (2 Ракеты Х-23)
 MaxHp = 100
 EnableNightVision = true
@@ -57,8 +57,8 @@ AddPartLG    = -0.8369, 1.2777, -7.3264,    -1,0, -0.05, 90,  0, 1,0, 90
 AddPartLG    = 0.8369, 1.2777, -7.3264,    -1,0, -0.05, 90,  0, -1,0, 90
 AddWeapon = x-23,    1.4657,  1.306, -4.2985,   0.0,  0.0
 AddWeapon = x-23,    -1.4657,  1.306, -4.2985,   0.0,  0.0
-AddPartWeapon = x-23, false,false,false, 1.4657,  1.306, -4.2985
-AddPartWeapon = x-23, false,false,false, -1.4657,  1.306, -4.2985
+AddPartWeaponMissile = x-23, false,false,false, 1.4657,  1.306, -4.2985
+AddPartWeaponMissile = x-23, false,false,false, -1.4657,  1.306, -4.2985
 
 AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
 

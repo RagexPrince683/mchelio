@@ -20,6 +20,8 @@ MotionFactor = 0.93
 AddTexture = bearcat_2
 StepHeight = 1.2
 
+WeightedCenterZ = -1.5
+
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 

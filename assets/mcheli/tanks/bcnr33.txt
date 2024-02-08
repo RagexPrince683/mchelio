@@ -12,7 +12,7 @@ StepHeight = 1.2
 Sound = rthirtythree
 MinRotationPitch = -90
 MaxRotationPitch = 90
-MobilityRoll     = 0
+MobilityRoll     = 4
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1.0
@@ -22,6 +22,8 @@ FuelConsumption   = 1.0
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
+
+WeightedCenterZ = 1.5
 
 CameraPosition = -0.54,  1.22, -0.02, true
 CameraPosition  = 0.00,  2.50, -6.00, true

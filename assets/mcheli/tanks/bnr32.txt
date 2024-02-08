@@ -20,6 +20,8 @@ MaxFuel           = 1200
 FuelConsumption   = 1.0
 ThirdPersonDist = 8
 
+WeightedCenterZ = 0.8
+
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 

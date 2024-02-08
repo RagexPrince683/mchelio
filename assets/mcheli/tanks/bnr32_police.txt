@@ -20,6 +20,8 @@ EnableNightVision = true
 MaxFuel           = 1200
 FuelConsumption   = 1.0
 
+WeightedCenterZ = 0.8
+
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 

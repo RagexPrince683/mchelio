@@ -7,7 +7,7 @@ ThrottleUpDown = 0.81
 Speed = 0.92
 MobilityYawOnGround = 10.0
 StepHeight = 1.2
-Sound = prop
+Sound = lada
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
@@ -27,6 +27,8 @@ OnGroundRollFactor  = 4.8
 VariableSweepWing  = true
 SweepWingSpeed  = 0.0
 
+WeightedCenterZ = 0.8
+
 ;後退可能にする
 EnableBack = true
 ; C = Civilian(民間機)
@@ -42,6 +44,10 @@ SetWheelPos =  1.05,  -0.24,  1.965, -1.789
 HUD = bnr34_hud, none
 
 AddSeat = 0.58,  -0.02, 0.22
+
+
+unmountposition = 0.58,  2.22, 0.22
+
 AddSeat = -0.58,  -0.02, 0.22
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
@@ -63,6 +69,7 @@ AddPartSteeringWheel =  -1.16,  0.204,  2.065,  0.0, 1.0, 0.0,   45
 AddPartSteeringWheel =   1.16,  0.204,  2.065,  0.0, 1.0, 0.0,   45
 
 ;音声ギミック
+AddWeapon = none, 0.0, 0.0, 0.0, 0, 0
 AddWeapon =  1_horn , 0.00,  0.42,  3.05, 0.0, 90
 
 InventorySize = 9

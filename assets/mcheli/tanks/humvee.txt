@@ -107,4 +107,5 @@ ArmorDamageFactor = 2.32
 
 AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
+WeightedCenterZ = 0.6
 

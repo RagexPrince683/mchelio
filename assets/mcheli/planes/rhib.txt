@@ -19,6 +19,9 @@ MaxRotationPitch = -3.00
 Gravity = -0.3
 
 AddSeat = 0.38,  0.50,  0.00
+
+UnmountPosition = 0.38,  2.50,  0.00
+
 AddSeat = -0.38,  0.50,  0.00
 AddSeat = 0.50,  0.50,  -0.80
 AddSeat = 0.00,  0.50,  -0.80

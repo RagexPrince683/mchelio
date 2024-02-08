@@ -5,9 +5,9 @@ Speed = 0.85
 Sound = lada
 MobilityYawOnGround = 10.0
 ThrottleUpDown = 0.81
-MinRotationPitch = 45
-MaxRotationPitch = 45
-MobilityRoll     = 4
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 1.0
@@ -28,9 +28,11 @@ WeightType = Car
 
 PivotTurnThrottle = 0.1
 
+WeightedCenterZ = 0.8
+
 PartWheelRot = 50
-SetWheelPos =  1.1024,  -0.2,  2.0891, -1.3754
-AddPartSteeringWheel =  0.5989,  0.8846, 0.9470,  0, 0.3196, -1,   90
+SetWheelPos =  0.8024,  -0.2,  2.0891, -1.3754
+AddPartSteeringWheel =  0.5989,  0.8763, 0.9007,  0.0, 1.0, -3.5,   90
 AddPartWheel     =  1.1024,  0.1766, 2.0891, 35
 AddPartWheel     =  -1.1024,  0.1766, 2.0891, 35
 AddPartWheel     =  1.1024,  0.1766, -1.3754
@@ -46,6 +48,22 @@ AddFixedSearchLight =  -1.056, 0.7413,-2.8504,   0x80FF0000,   0x00FF0000,    0.
 
 MaxFuel         = 1000
 FuelConsumption = 2
+
+
+;engine?
+BoundingBox =  0.0, 0.80,  2.2,   1.0, 0.6
+;mid
+BoundingBox = 0.0, 0.20, 0.0, 2.5, 0.2
+;front
+BoundingBox = 0.0, 0.20, 1.8, 2.5, 0.2
+;rear
+BoundingBox = 0.0, 0.20, -1.6, 2.5, 0.2
+Regeneration = true
+ArmorDamageFactor = 2.32
+
+AddWeapon = none, 0.0, 0.0, 0.0, 0, 0
+
+AddWeapon = l_Claxon, 0, -0.5, 0, 1.0, 0.0
 
 AddWeapon = drift,    0.9283, 0.0, -1.44,  0.0,0.0
 AddWeapon = drift,   -0.9283, 0.0, -1.44,  0.0,0.0

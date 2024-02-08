@@ -111,3 +111,5 @@ ArmorMinDamage = 35
 ArmorDamageFactor = 2.32
 Regeneration = false
 ;ArmorMaxDamage = 50
+
+WeightedCenterZ = 0.6

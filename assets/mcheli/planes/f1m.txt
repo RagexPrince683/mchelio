@@ -5,7 +5,10 @@ ItemID = 28709
 MaxHp = 100
 Speed = 0.39846
 Float = true
-Sound = prop
+Sound = prop_fighter
+
+SoundPitch = 1.3
+
 ThrottleUpDown = 0.3
 MaxFuel         = 1200
 FuelConsumption = 1.0

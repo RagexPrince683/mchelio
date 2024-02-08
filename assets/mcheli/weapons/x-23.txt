@@ -1,18 +1,24 @@
-DisplayName = X-23
-Type = ATMissile
-Power = 105
+DisplayName = Kh-23M
+Type = TVMissile
+Power = 500
 Acceleration = 4.0
 Explosion = 4
 Flaming = true
 Sight = MissileSight 
-Delay = 100
-LockTime = 20
+Delay = 5
+ReloadTime = 500
+;LockTime = 20
 ModeNum = 2
 ProximityFuseDist = 1
 Sound = missile_1_snd
 RidableOnly = true
 
-DamageFactor = tank, 3
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 MaxAmmo = 2
 SuppliedNum = 2

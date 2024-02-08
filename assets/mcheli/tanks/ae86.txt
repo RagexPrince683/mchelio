@@ -22,6 +22,8 @@ ThirdPersonDist = 8
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 
+WeightedCenterZ = 1.0
+
 
 ;MotionFactor = 1.00
 

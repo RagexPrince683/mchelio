@@ -4,7 +4,7 @@ AddDisplayName = ko_KR, F8F 베어캣
 ItemID = 40006
 MaxHp = 100
 Speed = 0.73254
-Sound = prop
+Sound = thunderbolteng
 onGroundPitch = 11.5
 ThrottleUpDown = 0.3
 MaxFuel         = 1000
@@ -64,7 +64,7 @@ AddWeapon = an-m3_20,  -3.15, 1.95, -0.59, -2.0, -2.5
 AddWeapon = an-m3_20,  2.905, 1.925, -0.64, 1.5, -3.0
 AddWeapon = an-m3_20,  -2.905, 1.925, -0.64, -1.5, -3.0
 
-BoundingBox =  0.00, 2.20, 1.7, 1.7, 1.7
+BoundingBox =  0.00, 2.20, 1.7, 1.7, 1.7, 1.5
 BoundingBox =  0.00, 2.20, 0.0, 1.7, 1.7
 BoundingBox =  0.00, 2.20, -1.7, 1.7, 1.7
 BoundingBox =  0.00, 2.20, -3.4, 1.7, 1.7

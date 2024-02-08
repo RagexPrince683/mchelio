@@ -25,6 +25,9 @@ AddTexture = challenger4
 EntityWidth  = 0.9
 EntityHeight = 0.9
 
+
+WeightedCenterZ = -0.4
+
 CameraPosition  = 0.383,  0.97, 0.00
 ;CameraPosition  = 0.00,  2.50, -6.00
 

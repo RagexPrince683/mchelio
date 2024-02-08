@@ -1,5 +1,5 @@
-﻿DisplayName = Yakovlev Yak-38
-AddDisplayName = en_US, Yakovlev Yak-38
+﻿DisplayName = Yakovlev Yak-38 with UB-32
+AddDisplayName = en_US, Yakovlev Yak-38 with UB-32
 AddDisplayName = ru_RU, ЯК-38 (4 Блока УБ-32)
 MaxHp = 100
 EnableNightVision = true
