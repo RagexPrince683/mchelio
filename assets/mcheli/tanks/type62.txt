@@ -1,6 +1,6 @@
 ﻿DisplayName = Type 62
-MaxHp = 300
-Speed = 0.6
+MaxHp = 150
+Speed = 0.7
 Sound = tank
 ThrottleUpDown = 6.0
 MobilityYawOnGround = 3.0
@@ -13,6 +13,7 @@ MinRotationPitch = -20
 MaxRotationPitch = 5
 DefaultFreelook = true
 ThirdPersonDist = 12
+Sound = leoone
 
 AddTexture = type62_2
 AddTexture = type62_3
@@ -80,13 +81,16 @@ AddPartWeaponChild =                                               false, true, 
 AddPartWeaponChild =                                               false, true, -0.3721, 2.1328, -0.2327, 0.0
 AddPartWeaponChild =                                               false, true, -0.3230, 1.4798,  1.0741,0.0
 
-BoundingBox =  0.0, 1.0,   1.3,   2.8, 1.5,  1.0
-BoundingBox =  0.0, 1.0,  -1.5,   2.8, 1.5,  1.0
-BoundingBox =  0.0, 1.0,  -3.5,   1.0, 1.5,  1.0
-BoundingBox = -1.0, 1.0,  -3.5,   1.0, 1.5,  1.0
-BoundingBox =  1.0, 1.0,  -3.5,   1.0, 1.5,  1.0
-BoundingBox =  0.0, 2.1,   0.0,   1.9, 0.9,  1.0
-BoundingBox =  0.0, 1.8,  -2.3,   2.0, 0.1,  1.5
+BoundingBox =  0.0, 0.4,   1.3,   2.2, 1.1,  1.0
+BoundingBox =  0.0, 0.4,   -1.6,   2.2, 1.1,  1.0
+BoundingBox =  0.0, 0.4,   -0.7,   2.2, 1.1,  1.0
+BoundingBox =  0.0, 0.2,   3.5,   2.1, 0.3,  1.0
+BoundingBox =  0.0, 0.5,   3.5,   2.1, 0.3,  1.0
+BoundingBox =  0.0, 0.8,   3.5,   2.1, 0.3,  1.0
+BoundingBox =  0.0, 1.1,   3.5,   2.1, 0.3,  1.0
+
+BoundingBox =  0.0, 1.4,   0.0,   1.9, 0.7,  1.0
+
 
 MaxFuel         = 600
 FuelConsumption = 2.0

@@ -1,5 +1,6 @@
 ﻿DisplayName = T-55
 AddDisplayName = ja_JP, T-55
+AddDisplayName = en_US, T-55
 ItemID = 30100
 MaxHp = 255
 Speed = 0.6
