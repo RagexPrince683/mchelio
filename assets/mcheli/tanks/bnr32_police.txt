@@ -29,9 +29,9 @@ OnGroundRollFactor  = 4.8
 VariableSweepWing  = true
 SweepWingSpeed  = 0.0
 
-AddTexture = bnr32_1
-AddTexture = bnr32_2
-AddTexture = bnr32_3
+AddTexture = bnr32_1p
+AddTexture = bnr32_2p
+AddTexture = bnr32_3p
 
 ;後退可能にする
 EnableBack = true
@@ -100,6 +100,8 @@ AddWeapon =  1_siren_police , 0.00,  0.42,  3.05,   0.0, 90,  true,  2
 
 AddWeapon = targeting_pod_mob,     0.0, 1.1, 4.5,   0.0, 0.0,  false, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 1.1, 4.5,   0.0, 0.0,  false, 2
+AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
+AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  false,2
 
 ;後退可能にする(暫定処置で今後削除される可能性有り)
 EnableBack = true

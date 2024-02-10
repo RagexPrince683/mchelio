@@ -2,7 +2,7 @@
 AddDisplayName = ja_JP, Humvee
 AddDisplayName = en_US, Humvee Different Variant
 ItemID = 30032
-MaxHp = 200
+MaxHp = 230
 ThrottleUpDown = 0.81
 Speed = 0.87
 MobilityYawOnGround = 7.0
@@ -19,7 +19,7 @@ MaxFuel           = 1200
 FuelConsumption   = 1.0
 ThirdPersonDist = 5
 
-
+InventorySize = 9
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8

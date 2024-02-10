@@ -36,6 +36,8 @@ SweepWingSpeed  = 0.0
 AddTexture = bnr32_1
 AddTexture = bnr32_2
 AddTexture = bnr32_3
+AddTexture = bnr32_4
+AddTexture = bnr32_5
 
 ;後退可能にする
 EnableBack = true

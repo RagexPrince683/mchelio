@@ -1,31 +1,35 @@
 DisplayName = Ford Mondeo (NYPD)
 ;(ru_RU)Слив от Мастерской W&K (Лучшая военная техника и не только) - https://vk.com/wk_workshop 
 ;(en_EN)made in the Workshop of W&K (the Best military equipment and not only) - https://vk.com/wk_workshop
-MaxHp = 100
-;(ru_RU)Слив от Мастерской W&K (Лучшая военная техника и не только) - https://vk.com/wk_workshop 
-;(en_EN)made in the Workshop of W&K (the Best military equipment and not only) - https://vk.com/wk_workshop
-Speed = 2
-;(ru_RU)Слив от Мастерской W&K (Лучшая военная техника и не только) - https://vk.com/wk_workshop 
-;(en_EN)made in the Workshop of W&K (the Best military equipment and not only) - https://vk.com/wk_workshop
+;cool, nice 4,500kb model, now let's fix some problems I found with it
+
+MaxHp = 200
+
+Speed = 1.55
+
 Sound = Inline-four
-;(ru_RU)Слив от Мастерской W&K (Лучшая военная техника и не только) - https://vk.com/wk_workshop 
-;(en_EN)made in the Workshop of W&K (the Best military equipment and not only) - https://vk.com/wk_workshop
+
 MobilityYawOnGround = 8.0
-;(ru_RU)Слив от Мастерской W&K (Лучшая военная техника и не только) - https://vk.com/wk_workshop 
-;(en_EN)made in the Workshop of W&K (the Best military equipment and not only) - https://vk.com/wk_workshop
-ThrottleUpDown = 10.0
-;(ru_RU)Слив от Мастерской W&K (Лучшая военная техника и не только) - https://vk.com/wk_workshop 
-;(en_EN)made in the Workshop of W&K (the Best military equipment and not only) - https://vk.com/wk_workshop
-MinRotationPitch = 0
-MaxRotationPitch = 0
+
+ThrottleUpDown = 0.81
+;8.8s
+
+;MinRotationPitch = 0
+;MaxRotationPitch = 0
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = 0.1
+Gravity = -0.61
+GravityInWater = -1.0
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
+WeightedCenterZ = 0.2
+
 DamageFactor = 0.8
-MinRotationPitch = -90
-MaxRotationPitch = 60
-EnableEntityRadar = true
-HUD = s15_hud, none, none,none
+;MinRotationPitch = -90
+;MaxRotationPitch = 60
+EnableEntityRadar = false
+HUD = s15_hud, none, none,none, none
 AddSeat =  0.65,  0.30, 0.23
 AddSeat =  -0.65,  0.40, 0.23
 AddSeat =  0.6969,  0.40, -1.24
@@ -33,7 +37,7 @@ AddSeat =  0.0,  0.40, -1.24
 AddSeat =  -0.7028,  0.40, -1.24
 EnableBack = true
 Category = C
-WeightType = Unknown
+WeightType = Car
 PivotTurnThrottle = 0.1
 AddPartWheel     = 1.2495,  0.2242, 2.1113, 30
 AddPartWheel     = -1.2495,  0.2242, 2.1113, 30
@@ -47,8 +51,10 @@ AddFixedSearchLight =  -0.8935, 0.7745, 2.8554,   0xFFFFFFFF,   0x00FFFFC0,    0
 AddWeapon =  1_siren_police, 0.00,  1.93,  -0.41,   0.0, 90,  true,  1
 MaxFuel         = 700
 FuelConsumption = 1
-BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
-BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1
 EntityWidth = 0.9
 EntityHeight = 0.9
 StepHeight = 1.5
+
+
+
+BoundingBox = 0.0, 0.2, 0.0, 1.0, 0.2

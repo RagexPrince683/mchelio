@@ -16,6 +16,7 @@ DamageFactor = 1.0
 ;-9.00
 ;should be -0.09
 
+WeightedCenterZ = -0.2
 
 AddTexture = bc2
 AddTexture = bc3
@@ -143,7 +144,7 @@ BoundingBox = 0.0, -0.09, 0.0, 2.5, 0.1
 BoundingBox = 0.0, -0.09, 1.5, 2.5, 0.1
 BoundingBox = 0.0, -0.09, -1.6, 2.5, 0.1
 
-BoundingBox = 0.0, 0.3, 2.0, 1.3, 0.8
+BoundingBox = 0.0, 0.3, -2.0, 1.3, 0.8
 
 
 AddRecipe = " G ",  "IDI",  "RIR",   G, glass, I, gold_block, D, diamond_block, R, redstone

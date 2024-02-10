@@ -1,6 +1,6 @@
 ﻿DisplayName = TOYOTA COROLLA 2014 
 AddDisplayName = ja_JP, TOYOTA COROLLA 2014 
-AddDisplayName = en_US, Toyota Corolla 2014 
+AddDisplayName = en_US, Toyota Corolla (Altis) 2014 
 ItemID = 28745
 MaxHp = 200
 ThrottleUpDown = 0.81
@@ -72,7 +72,7 @@ AddPartHatch    =     -1.0565, 0.0239, -0.2801,   0,1,0,   70
 AddPartHatch    =     1.0511, 0.0239, -0.2787,   0,1,0,   -70
 AddPartHatch    =     0.00,   0.9917, -2.3310, 1,0,0,   70
 
-InventorySize = 35
+InventorySize = 18
 
 AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 

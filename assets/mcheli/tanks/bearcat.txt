@@ -2,7 +2,7 @@
 AddDisplayName = en_US, Lenco Bearcat
 AddDisplayName = ja_JP, レンコ ベアキャット
 ItemID = 33410
-MaxHp = 200
+MaxHp = 230
 Speed = 0.9
 Sound = diesel
 MobilityYawOnGround = 6.5
@@ -20,7 +20,7 @@ MotionFactor = 0.93
 AddTexture = bearcat_2
 StepHeight = 1.2
 
-WeightedCenterZ = -1.5
+WeightedCenterZ = -0.2
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
@@ -78,7 +78,7 @@ AddWeapon = targeting_pod_mob, 0.0, 0.0, 0.0, 0.0, 0.0, true, 2
 MaxFuel         = 1500
 FuelConsumption = 1.0
 
-
+InventorySize = 35
 
 
 

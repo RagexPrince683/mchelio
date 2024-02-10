@@ -12,13 +12,17 @@ ThrottleUpDown = 0.815
 MaxFuel         = 1000
 FuelConsumption = 1.0
 
+WeightedCenterZ = -0.6
+
+;OnGroundPitch = 45
+
 Category = C
 
 PivotTurnThrottle = 0.1
 MobilityYawOnGround = 7.2
 ;ThrottleUpDown = 0.91
 DamageFactor = 1.0
-MobilityRoll = 0
+MobilityRoll = 4
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
@@ -61,7 +65,7 @@ AddPartCanopy = 0.245, 1.60, -0.621, 0,0,1, 85
 AddFixedSearchLight = 1.10, 0.683, 3.69,   0x50FFFFFF,   0x00FFFFC0,    0.20, 0.40,  -5,  0
 AddFixedSearchLight = -1.10, 0.683, 3.69,   0x50FFFFFF,   0x00FFFFC0,    0.20, 0.40,  5,  0
 
-
+InventorySize = 9
 
 
 ;0.57

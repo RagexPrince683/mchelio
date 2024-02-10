@@ -2,7 +2,7 @@
 AddDisplayName = ja_JP, Humvee 50cal Variant
 AddDisplayName = en_US, Humvee 50cal Variant
 ItemID = 30032
-MaxHp = 200
+MaxHp = 230
 ThrottleUpDown = 0.81
 Speed = 0.87
 MobilityYawOnGround = 7.0
@@ -93,7 +93,7 @@ AddRack = container, 0.0, 1.05, -1.25,   0.0, 0.00, -3.17
 EntityWidth  = 0.85
 EntityHeight = 0.85
 
-
+InventorySize = 9
 
 
 ;RIP AddRecipe = "BC ",  "   ", "   ",  B, mcheli:Humvee, C, mcheli:basicm2hb

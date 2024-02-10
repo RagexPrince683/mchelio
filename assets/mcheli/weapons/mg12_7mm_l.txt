@@ -11,7 +11,7 @@ Delay = 1
 HeatCount = 4
 MaxHeatCount = 100
 SoundPitch = 1.0
-Sound = gun_h1_snd
+Sound = dshk
 
 
 ;12.7

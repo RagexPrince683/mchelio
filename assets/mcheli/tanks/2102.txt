@@ -49,6 +49,7 @@ AddFixedSearchLight =  -1.056, 0.7413,-2.8504,   0x80FF0000,   0x00FF0000,    0.
 MaxFuel         = 1000
 FuelConsumption = 2
 
+InventorySize = 18
 
 ;engine?
 BoundingBox =  0.0, 0.80,  2.2,   1.0, 0.6

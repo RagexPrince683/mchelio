@@ -6,14 +6,19 @@ Sound = porsche_meighty
 MobilityYawOnGround = 11.0
 ThrottleUpDown = 0.98
 ;3.5s
-MinRotationPitch = 45
-MaxRotationPitch = 45
-MobilityRoll = 0
+;MinRotationPitch = 45
+;MaxRotationPitch = 45
+MobilityRoll = 4
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 1.0
 
+OnGroundPitchFactor = 10.0
+OnGroundRollFactor  = 1.8
+
 HUD = bnr32_hud, none
+
+WeightedCenterZ = -0.8
 
 AddSeat =  0.5838,  0.1579, 0.2252
 AddSeat =  -0.5838,  0.2579, 0.2252
@@ -48,7 +53,7 @@ AddRecipe = " G ",  "I I",  "IIR",   G, glass, I, gold_ingot, R, diamond
 ;BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1
 
 ;engine?
-BoundingBox =  0.0, 0.50,  2.0,   2.3, 0.6
+BoundingBox =  0.0, 0.70,  -2.0,   2.3, 0.8
 ;mid
 BoundingBox = 0.0, 0.20, 0.0, 2.9, 0.2
 ;front
@@ -67,7 +72,7 @@ AddFixedSearchLight = -1.0196, 0.6148, 3.1051,   0x50FFFFFF,   0x00FFFFC0,    0.
 AddFixedSearchLight = 1.2284, 0.7013, 2.9555,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.15,  -5,  0
 AddFixedSearchLight = 1.0196, 0.6148, 3.1051,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.15,  -5,  0
 
-
+InventorySize = 9
 
 
 ;taillight

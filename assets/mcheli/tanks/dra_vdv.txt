@@ -1,5 +1,7 @@
-DisplayName = Buggy (22nd SPGSPB)
+DisplayName = VDV Buggy/Fast Attack Vehicle/Ukrainian Attack Buggy
+;(22nd SPGSPB)
 ;https://en.wikipedia.org/wiki/22nd_Separate_Guards_Special_Purpose_Brigade 
+;https://www.youtube.com/watch?v=o4OYCrBAy_s
 MaxHp = 100
 ThrottleUpDown = 10.0 
 Speed = 0.7
@@ -8,10 +10,10 @@ StepHeight = 1.5
 Sound = prop 
 MinRotationPitch = -90 
 MaxRotationPitch = 90 
-MobilityRoll = 0 
-Gravity = -0.15 
-GravityInWater = -0.1 
-DamageFactor = 1.1
+MobilityRoll = 4 
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor = 1.0
 EnableNightVision = false 
 MaxFuel = 600
 FuelConsumption = 1.0 
@@ -34,11 +36,14 @@ Category = C
 
 WeightType = Car 
 
-SetWheelPos = 0.68, -0.24, 1.6848, -1.5286 
+SetWheelPos = 0.60, -0.24, 1.6848, -1.5286 
 
 HUD = bnr32_hud, none, gunner 
 
 AddSeat = 0.58, 0.44, -0.1465
+
+UnmountPosition = 0.58, 2.24, -0.1465
+
 AddSeat = -0.58, 0.44, -0.1465
 AddGunnerSeat = 0, 1.25, -1.19, 0, 2.45, -1.19
 
@@ -49,6 +54,9 @@ AddPartWheel = 0.84, 0.2684, 1.6848, 35
 AddPartWheel = -0.84, 0.2684, 1.6848, 35
 AddPartWheel = 0.84, 0.2684, -1.5286
 AddPartWheel = -0.84, 0.2684, -1.5286
+
+BoundingBox = 0.0, 0.6, 1.4, 0.8, 0.8
+
 
 InventorySize = 0
 
