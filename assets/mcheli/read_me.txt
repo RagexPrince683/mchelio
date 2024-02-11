@@ -1,31 +1,4 @@
-・パック内容
-　
-　おやしお型潜水艦
-　おやしお型潜水艦X舵型　を追加
+https://docs.google.com/presentation/d/1jLpR8MelCTfHcYHGcYxj_BWLqh3ql6PV/edit
 
-・注意事項
-　当パックに内蔵されているモデルは自分が作ったものではないものも含まれているため、
-　改造問わず再配布はお控えください。
-
-・使用させていただいたモデル
-
-  おやしお型潜水艦 - touhu様
-　DL先 https://bowlroll.net/file/83557
-　
-　何らかの不具合が生じる可能性がございます。
-　お手数ですがその際は静画のコメント欄にてお知らせ下さい。
-　可能な限り対応させていただきます。
-
-　このパックを使用したことで生じた問題は自己責任とし、制作者は責任を一切負いません。
-
-・導入方法
-　ダウンロードしたzipファイルを解凍
-　↓
-　解凍したフォルダの中のassetsフォルダを上書き
-　↓
-　Minecraft本体を起動して、アイテムの追加を確認できれば導入成功です
-
-　MCヘリコプターMOD 1.0.3b以降のバージョンで使用できます。
-　それ以前のバージョンでの使用は検証していませんが、可能かもしれません。
-　
-作者：baku594
+https://docs.google.com/document/d/1wP-D80ekNj4ffkPDH3FNNgTSrpMfKVsLFk5IBiFDyyw/edit
+https://docs.google.com/document/d/1XlXJPr_JaoLYHpnVuARyrdZMSOJpktMe0udxC9xYjZc/edit

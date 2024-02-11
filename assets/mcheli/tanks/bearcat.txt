@@ -76,7 +76,7 @@ AddWeapon = targeting_pod_ph50s, 0.0, 0.0, 0.0, 0.0, 0.0, true, 2
 AddWeapon = targeting_pod_mob, 0.0, 0.0, 0.0, 0.0, 0.0, true, 2
 
 MaxFuel         = 1500
-FuelConsumption = 1.0
+FuelConsumption = 2.0
 
 InventorySize = 35
 

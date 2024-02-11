@@ -5,12 +5,12 @@ ItemID = 28766
 MaxHp = 200
 ThrottleUpDown = 0.81
 Speed = 0.85
-MobilityYawOnGround = 7.0
+MobilityYawOnGround = 7.5
 StepHeight = 1.5
 Sound = rattletrap
-MinRotationPitch = -90
-MaxRotationPitch = 90
-MobilityRoll     = 0
+;MinRotationPitch = -90
+;MaxRotationPitch = 90
+MobilityRoll     = 4
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1.0
@@ -19,9 +19,9 @@ MaxFuel           = 1200
 FuelConsumption   = 1.0
 
 OnGroundPitchFactor = 18.0
-OnGroundRollFactor  = 0.0
+OnGroundRollFactor  = 4.8
 
-WeightedCenterZ = -0.5
+WeightedCenterZ = 0.5
 
 MotionFactor = 0.90
 
@@ -97,6 +97,6 @@ BoundingBox = 0.0, 0.20, -0.75, 1.65, 0.2
 Regeneration = true
 ArmorDamageFactor = 1.0
 
-unmountposition = 0.41, 0.55, -0.27
+unmountposition = 0.41, 2.25, -0.27
 
 ArmorMinDamage = 2

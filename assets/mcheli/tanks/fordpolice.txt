@@ -25,12 +25,16 @@ OnGroundRollFactor  = 4.8
 
 WeightedCenterZ = 0.2
 
-DamageFactor = 0.8
+DamageFactor = 1.0
 ;MinRotationPitch = -90
 ;MaxRotationPitch = 60
 EnableEntityRadar = false
 HUD = s15_hud, none, none,none, none
+SetWheelPos =  0.85,  -0.2,  2.11, -2.06
+
 AddSeat =  0.65,  0.30, 0.23
+unmountposition = 0.65,  2.20, 0.23
+
 AddSeat =  -0.65,  0.40, 0.23
 AddSeat =  0.6969,  0.40, -1.24
 AddSeat =  0.0,  0.40, -1.24
@@ -49,12 +53,19 @@ AddPartSteeringWheel =  0.6808,  1.0136,  0.7553,  0, 0.3196, -1,   100
 AddFixedSearchLight =  0.8935, 0.7745, 2.8554,   0xFFFFFFFF,   0x00FFFFC0,    0.4, 0.5,  6.0,  0
 AddFixedSearchLight =  -0.8935, 0.7745, 2.8554,   0xFFFFFFFF,   0x00FFFFC0,    0.4, 0.5,  -6.0,  0
 AddWeapon =  1_siren_police, 0.00,  1.93,  -0.41,   0.0, 90,  true,  1
-MaxFuel         = 700
+MaxFuel         = 1200
 FuelConsumption = 1
 EntityWidth = 0.9
 EntityHeight = 0.9
 StepHeight = 1.5
 
+BoundingBox = 0.0, 0.8, 2.0, 1.0, 0.8
+BoundingBox = 0.0, 0.1, 0.0, 2.5, 0.2
+BoundingBox = 0.0, 0.1, 1.0, 2.5, 0.2
+BoundingBox = 0.0, 0.1, 1.8, 2.0, 0.2
+BoundingBox = 0.0, 0.1, -1.0, 2.5, 0.2
+BoundingBox = 0.0, 0.1, -2.0, 2.0, 0.2
 
+InventorySize = 18
 
 BoundingBox = 0.0, 0.2, 0.0, 1.0, 0.2

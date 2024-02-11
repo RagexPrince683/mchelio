@@ -16,7 +16,7 @@ GravityInWater = -1.0
 DamageFactor = 1.0
 EnableNightVision = false 
 MaxFuel = 600
-FuelConsumption = 1.0 
+FuelConsumption = 1.2
 ThirdPersonDist = 5
 
 OnGroundPitchFactor = 17.0 
@@ -56,6 +56,8 @@ AddPartWheel = 0.84, 0.2684, -1.5286
 AddPartWheel = -0.84, 0.2684, -1.5286
 
 BoundingBox = 0.0, 0.6, 1.4, 0.8, 0.8
+
+BoundingBox = 0.0, 0.2, 0.0, 2.1, 0.2
 
 
 InventorySize = 0
