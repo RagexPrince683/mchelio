@@ -1,0 +1,86 @@
+DisplayName = Pz.Kpfw. 38(t)
+AddDisplayName = ja_JP, Pz.Kpfw. 38(t)
+ItemID = 30191
+MaxHp = 25
+Speed = 0.4
+ThrottleUpDown = 4.0
+Gravity = -0.1
+GravityInWater = -0.5
+DamageFactor = 0.0
+EnableNightVision = false
+EnableEntityRadar = false
+Sound = Tank
+HUD = ww2tank_hud, ww2tank_hud
+WeightType = Tank
+DefaultFreelook = true
+
+AddTexture = 38t1
+AddTexture = 38t2
+AddTexture = 38t3
+
+EnableBack = true
+SetWheelPos =  0.9,  -0.24,  2.5, 1.0, -1.0, -2.5
+
+SubmergedDamageHeight = 1
+WeightedCenterZ = 0.0
+
+OnGroundPitchFactor = 4.5
+OnGroundRollFactor  = 4.0
+
+MobilityYawOnGround = 2.0
+PivotTurnThrottle = 0.0
+
+AddGunnerSeat =  0.298, 1.7, 0.115,   0.298, 1.7, 0.115, true,  -20, 10, true
+AddGunnerSeat =  0.0,   0.5, 0.0,     0.7, 1.138, 1.7,   false, -20, 10, false
+CameraPosition = 0.298, 2.7, 0.115, false
+CameraRotationSpeed = 20
+
+StepHeight = 1.5
+InventorySize = 18
+ParticlesScale = 0.1
+SmoothShading = true
+HideEntity = true
+
+;ArmorMinDamage = 60
+
+MotionFactor = 0.94
+
+MaxFuel         = 1000
+FuelConsumption = 1.5
+
+TrackRollerRot = 40
+
+AddTrackRoller = -1.25,  0.4589,  2.3825
+AddTrackRoller = -1.25,  0.1312,  1.4928
+AddTrackRoller = -1.25,  0.1312,  0.4447
+AddTrackRoller = -1.25,  0.1312, -0.6839
+AddTrackRoller = -1.25,  0.1312, -1.7228
+AddTrackRoller = -1.25,  0.255,  -2.5798
+
+AddTrackRoller =  1.25,  0.4589,  2.3825
+AddTrackRoller =  1.25,  0.1312,  1.4928
+AddTrackRoller =  1.25,  0.1312,  0.4447
+AddTrackRoller =  1.25,  0.1312, -0.6839
+AddTrackRoller =  1.25,  0.1312, -1.7228
+AddTrackRoller =  1.25,  0.255,  -2.5798
+
+AddCrawlerTrack = false, 0.13, -2.15,   0.84/ 2.38,  0.76/ 2.69, 0.46/ 2.82, 0.15/ 2.69, -0.21/ 1.83, -0.28/ 1.49, -0.28/ -1.72, 0.0/ -2.84, 0.255/ -2.95, 0.52/ -2.84, 0.62/ -2.58, 0.73/ -0.26, 0.77/ 0.8,
+AddCrawlerTrack = false, 0.13,  2.15,   0.84/ 2.38,  0.76/ 2.69, 0.46/ 2.82, 0.15/ 2.69, -0.21/ 1.83, -0.28/ 1.49, -0.28/ -1.72, 0.0/ -2.84, 0.255/ -2.95, 0.52/ -2.84, 0.62/ -2.58, 0.73/ -0.26, 0.77/ 0.8,
+
+MinRotationPitch = -60
+MaxRotationPitch =  20
+
+AddTurretWeapon = 38tapcbc, 38tapcr, 38the,  0.0,  2.2407, 1.742,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddPartWeapon = 38tapcbc, 38tapcr, 38the false, true, false,  0.0, 1.75, 0.0, 0
+AddPartWeaponChild = false, true, 0.0, 1.8198, 0.8913
+AddPartWeaponChild = false, true, 0.0, 1.8198, 0.8913, 0.3
+
+AddTurretWeapon = vz37, -0.388, 1.819, 0.9665,  0.0, 0.0, true,1, 0,-360,360, -10, 10
+
+AddWeapon = vz37,  0.3494, 1.138, 1.5463,  0.0, 0.0, false,2, 0,-20,20, -10, 20
+AddPartWeapon = vz37, false, true, true,  0.3494, 1.138, 1.5463, 0
+
+BoundingBox =  0.0, 0.7,   1.0,   2.5, 1.5,  0.8
+BoundingBox =  0.0, 0.7,  -1.7,   2.0, 1.5,  1.2
+BoundingBox =  0.0, 2.0,   0.0,   1.5, 0.8,  1.0
+

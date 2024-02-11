@@ -1,13 +1,13 @@
 DisplayName = T-55AGM
-MaxHp = 550
-Speed = 0.50
-ThrottleUpDown = 3.0
-Gravity = -0.1
-GravityInWater = -0.5
-DamageFactor = 0.25
+MaxHp = 260
+Speed = 0.65
+ThrottleUpDown = 10.0
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor = 0.0
 EnableNightVision = false
 EnableEntityRadar = false
-Sound = t55agm_engine
+Sound = leoone
 HUD = mbt_hud
 WeightType = Tank
 DefaultFreelook = true
@@ -80,16 +80,19 @@ AddTurretWeapon = 7.62_PKT,   -0.33,   1.5425,  1.0404, 0.0, 0.0, true,1, 0,-360
 AddTurretWeapon = mg12_7mm_l, -0.6464, 2.5403, -0.3878, 0.0, 0.0, true,1, 0,-360,360, -18, 5
 
 
-BoundingBox =  0.0, 0.45,  1.25,   2.75, 1.8,  0.80
-BoundingBox =  0, 1.8,  0,   2.35, 1.2,  0.45
-BoundingBox =  0.0, 0.45,  0.0,   2.75, 1.8,  0.80
-BoundingBox =  0, 0.45,  1.80,   2.75, 0.8,  0.80
-BoundingBox =  0, 0.95,  2.10,   2.65, 0.8,  0.60
-BoundingBox =  0, 0.90,  2.40,   2.65, 0.3,  0.60
-BoundingBox =  0, 0.45,  2.35,   2.65, 0.3,  0.75
+
+BoundingBox =  0, 1.4,  0,   2.35, 0.8,  0.45
+
+BoundingBox =  0, 0.8,  1.4,   2.40, 0.2,  0.60
+BoundingBox =  0, 1.0,  1.2,   2.40, 0.3,  0.60
+
+BoundingBox =  0, 0.75,  1.6,   2.40, 0.2,  0.60
+BoundingBox =  0, 0.45,  1.6,   2.40, 0.3,  0.75
 
 
 
 
-BoundingBox =  0.0, 0.65, -2.0,   2.75, 1.4,  1.20
-BoundingBox =  0.0, 1.2, -4.2,   0.6, 0.4,  0.2
+
+BoundingBox =  0.0, 0.70,  0.0,   2.45, 1.10,  0.80
+BoundingBox =  0, 0.70,  0.40,   2.45, 1.10,  0.80
+BoundingBox =  0.0, 0.70, -1.7,   2.45, 1.10,  1.20

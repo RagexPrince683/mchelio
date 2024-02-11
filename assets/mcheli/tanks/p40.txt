@@ -68,11 +68,12 @@ OnGroundRollFactor  = 0.8
 
 MotionFactor = 0.9
 
-AddPartWeapon = ww2tank_mc_ht, false, true, false,  0.00, 1.98, 0.47, 0
+AddPartWeapon = p40mg, false, true, false,  0.00, 1.98, 0.47, 0
 AddPartWeaponChild = false, true, 0.00, 2.40, 1.66
 
-AddWeapon = ww2tank_mc_ht,  0.00, 2.40, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
-AddWeapon = ww2tank_mg,  -0.31, 2.40, 0.00,  0.0, 0.0, true,1, 0,-360,360, -17, 6
+AddWeapon = p40ap,  0.00, 2.40, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
+AddWeapon = p40he,  0.00, 2.40, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
+AddWeapon = p40mg,  -0.31, 2.40, 0.00,  0.0, 0.0, true,1, 0,-360,360, -17, 6
 
 AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  false,2
