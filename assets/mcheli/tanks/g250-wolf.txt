@@ -19,6 +19,8 @@ DefaultFreelook = false
 
 SetWheelPos =  0.45,  -0.24,  1.47, -1.19
 
+WeightedCenterZ = 0.8
+
 AddTexture = G250-wolf_2
 AddTexture = G250-wolf_3
 
