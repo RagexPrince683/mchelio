@@ -45,7 +45,7 @@ AddPartHatch = 0, 1.0261, 1.8087, 1, 0, 0.0, -60
 AddPartHatch = 0, 1.2335, -1.026, -1, 0, 0, -60
 
 MaxFuel         = 500
-FuelConsumption = 0.6
+FuelConsumption = 0.8
 
 AddRecipe = " G ",  "I I",  "IIR",   G, glass, I, gold_ingot, R, diamond
 

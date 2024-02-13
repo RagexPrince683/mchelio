@@ -3,7 +3,7 @@ DisplayName = VDV Buggy/Fast Attack Vehicle/Ukrainian Attack Buggy
 ;https://en.wikipedia.org/wiki/22nd_Separate_Guards_Special_Purpose_Brigade 
 ;https://www.youtube.com/watch?v=o4OYCrBAy_s
 MaxHp = 100
-ThrottleUpDown = 10.0 
+ThrottleUpDown = 0.95 
 Speed = 0.7
 MobilityYawOnGround = 8
 StepHeight = 1.5 

@@ -45,6 +45,11 @@ HUD = bnr34_hud, none
 
 AddSeat = 0.58,  -0.02, 0.22
 
+Regeneration = true
+ArmorDamageFactor = 2.32
+ArmorMinDamage = 2
+
+
 
 unmountposition = 0.58,  2.22, 0.22
 

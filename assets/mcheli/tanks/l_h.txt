@@ -6,7 +6,7 @@ MaxHp = 200
 Speed = 1.99
 Sound = l_h
 MobilityYawOnGround = 10.0
-ThrottleUpDown = 1.15
+ThrottleUpDown = 1.0
 ;2.9s 0-60
 MinRotationPitch = -90
 MaxRotationPitch =  90
@@ -15,7 +15,10 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 1.0
 ThirdPersonDist = 5
-StepHeight = 1.0
+StepHeight = 1.2
+
+WeightedCenterZ = -0.2
+
 
 AddTexture = l_h 1
 AddTexture = l_h 2
@@ -44,7 +47,7 @@ AddSeat =   0.493,  -0.28,  0.36
 AddSeat =  -0.493,  -0.16,  0.41
 EntityPitch = -3
 
-SetWheelPos =  0.77,  -0.24,  2.00,-1.40
+SetWheelPos =  0.77,  -0.24,  2.01,-1.38
 
 PartWheelRot = 75
 
@@ -76,8 +79,8 @@ AddPartCanopy   =  1.222, 0.500, 1.441,  0, 1, 0, -60
 
 AddPartThrottle =  0.4931, 0.6348, 1.2320,  0, 0.0185 , -0.0417, -230
 
-MaxFuel         = 600
-FuelConsumption = 0.5
+MaxFuel         = 1200
+FuelConsumption = 2.5
 
 AddWeapon = smoke_none, 1.2,  -0.3,-1.7592,   1.0, 0.0
 
@@ -121,7 +124,7 @@ AddFixedSearchLight = -1.0399, 0.5704, -2.1097, 0xFFFF0000, 0x10FF0000, 0.05, 0.
 EntityWidth  = 0.86
 EntityHeight = 0.86
 
-StepHeight = 1.5
+StepHeight = 1.2
 
 ;BoundingBox =  0.85, 0.25, 2.05,   0.8, 0.80,   1.0
 ;BoundingBox = -0.85, 0.25, 2.05,   0.8, 0.80,   1.0
@@ -153,7 +156,7 @@ StepHeight = 1.5
 ;BoundingBox =  0.00, 0.40,-1.25,   1.2, 0.70,   2.0
 ;ideally this will be a way to implement anti HE stuff ig idfk
 
-BoundingBox =  0.0, 0.30,  1.95,   1.3, 0.6
+BoundingBox =  0.0, 0.40,  -1.55,   1.3, 0.8
 BoundingBox = 0.0, 0.00, 0.0, 2.3, 0.2
 BoundingBox = 0.0, 0.00, 1.60, 2.3, 0.2
 
@@ -168,8 +171,9 @@ BoundingBox = 0.0, 0.00, 1.90, 2.0, 0.2
 BoundingBox = 0.0, 0.00, -1.0, 2.3, 0.2
 BoundingBox = 0.0, 0.00, -1.33, 2.0, 0.2
 
-OnGroundPitchFactor = 18.0
-OnGroundRollFactor  = 4.8
+OnGroundPitchFactor = 0.1
+;ok fuck this vehicle
+OnGroundRollFactor  = 1.8
 
 AddRecipe = " G ",  "IDI",  "RIR",   G, glass, I, iron_ingot, D, diamond_block, R, redstone
 

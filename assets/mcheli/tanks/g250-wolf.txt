@@ -79,7 +79,10 @@ AddFixedSearchLight = 0.697, 0.669, 2.22,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0
 AddFixedSearchLight =  0.7789, 0.5242,-2.0940,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
 AddFixedSearchLight =  -0.7609, 0.5242,-2.0940,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
 
+ArmorMinDamage = 2
 
+Regeneration = true
+ArmorDamageFactor = 1.0
 
 
 AddPartThrottle = 0.5346, 1.1099, 0.5593,  0,0.200, -1.73, -270

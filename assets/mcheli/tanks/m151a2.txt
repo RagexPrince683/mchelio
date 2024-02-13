@@ -4,7 +4,7 @@ AddDisplayName = en_US, M151A2 Kennedy Jeep FAV
 ItemID = 28766
 MaxHp = 200
 ThrottleUpDown = 0.81
-Speed = 0.7
+Speed = 0.63
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
 Sound = willyjeep
@@ -76,10 +76,13 @@ EntityWidth  = 0.9
 EntityHeight = 0.9
 
 
-BoundingBox = 0.0, 0.78, 1.35, 1.00, 0.7
+BoundingBox = 0.0, 0.78, 1.65, 1.00, 0.7
 BoundingBox = 0.0, 0.40, 1.50, 1.85, 0.2
 BoundingBox = 0.0, 0.40, 0.0, 1.85, 0.2
 BoundingBox = 0.0, 0.40, -0.95, 1.85, 0.2
+
+WeightedCenterZ = 1.0
+
 
 Regeneration = true
 ArmorDamageFactor = 2.32

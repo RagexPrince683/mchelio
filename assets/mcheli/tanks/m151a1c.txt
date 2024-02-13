@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, M151A1C 106mm 無反動砲搭載型
 ItemID = 28766
 MaxHp = 200
 ThrottleUpDown = 0.81
-Speed = 0.7
+Speed = 0.63
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
 Sound = willyjeep
@@ -74,10 +74,12 @@ AddPartSteeringWheel =  0.452,  1.07,  0.750,  0.0, 1.0, -1.73,   130
 EntityWidth  = 0.9
 EntityHeight = 0.9
 
-BoundingBox = 0.0, 0.78, 1.35, 1.00, 0.7
+BoundingBox = 0.0, 0.78, 1.65, 1.00, 0.7
 BoundingBox = 0.0, 0.40, 1.50, 1.85, 0.2
 BoundingBox = 0.0, 0.40, 0.0, 1.85, 0.2
 BoundingBox = 0.0, 0.40, -0.95, 1.85, 0.2
+
+WeightedCenterZ = 1.0
 
 Regeneration = true
 ArmorDamageFactor = 2.32

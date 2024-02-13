@@ -23,6 +23,11 @@ AddSeat =  -0.4621,  0.13, 0.3429
 
 UnmountPosition = 0.4621,  2.23, 0.3429
 
+Regeneration = true
+ArmorDamageFactor = 2.32
+
+ArmorMinDamage = 2
+
 EnableBack = true
 Category = C
 WeightType = Car
@@ -61,4 +66,4 @@ BoundingBox = 0.0, 0.1, -1.6, 1.9, 0.2
 AddWeapon = drift,    0.9283, 0.0, -1.44,  0.0,0.0
 AddWeapon = drift,   -0.9283, 0.0, -1.44,  0.0,0.0
 
-StepHeight = 1.5
+StepHeight = 1.2
