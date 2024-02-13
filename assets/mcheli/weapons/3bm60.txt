@@ -26,8 +26,8 @@ Item =  3, iron_ingot
 Item =  2, gunpowder
 
 
-Delay = 80
-ReloadTime = 80
+Delay = 120
+ReloadTime = 120
 Group = MainGun
 Acceleration = 8.5
 ModelBullet = bullet105mm

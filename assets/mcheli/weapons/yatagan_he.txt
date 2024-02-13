@@ -3,18 +3,24 @@ Type = MachineGun2
 Power = 40
 Explosion = 5
 ExplosionBlock = 4
-Acceleration = 10.0
+Acceleration = 6.0
 Sight = None
 Delay = 125
 SoundVolume = 10.0
-Sound = cannon_4_snd
+Sound = leotwoafourmain
 Accuracy = 0.5
 ModelBullet = bullet105mm
 BulletColor        = 255, 255, 100, 100
-DamageFactor = plane, 3.0
-DamageFactor = helicopter, 3.0
 
-Gravity = -0.01
+
+DisplayMortarDistance = true
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+
+Gravity = -0.002
 Group = MainGun
 Recoil = 2.5
 
