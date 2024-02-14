@@ -7,6 +7,8 @@ ExplosionBlock = 3
 Sight = None
 Delay = 1200
 ModelBullet = 0_none
+Destruct = true
+Gravity = -9
 
 MaxAmmo = 1
 SuppliedNum = 1

@@ -1,7 +1,10 @@
-DisplayName = DR-01
+DisplayName = Ground Drone UGV
+
+;wtf is this
+
 MaxHp = 15
-Speed = 0.5
-CameraPosition = 0.00, 1, 0.18
+Speed = 0.3
+CameraPosition = 0.00, 0.1, 0.18
 SmallUAV = true
 Sound = vehicle_drive
 ParticlesScale = 0.2
@@ -11,24 +14,32 @@ Stealth = 0.4
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityYawOnGround = 5.5
-ThrottleUpDown = 10.0
-StepHeight = 1.2
+ThrottleUpDown = 1.0
+StepHeight = 1.5
 MobilityRoll = 0
 Gravity = -0.1
 GravityInWater = 0.1
 MotionFactor = 0.93
-EnableNightVision = true
+EnableNightVision = false
+
+OnGroundPitchFactor = 0.01
+OnGroundRollFactor  = 1.0
+
+EnableBack = true
+
+;WeightedCenterZ = 0.0
 
 HUD = mbt_gnr
-WeightType = Unknown
+;WeightType = Unknown
+WeightType = Plane
 Category = C
 
-AddSeat =  0.0, 2.0, 0.0
+;AddSeat =  0.0, 2.0, 0.0
 SetWheelPos =  0.30,  -0.32,  0.1262, -0.1262
-AddPartWheel = 0.30, -0.0245, 0.2525
-AddPartWheel = -0.30, -0.0245, 0.2525
-AddPartWheel = 0.30, -0.0245, -0.2525
-AddPartWheel = -0.30, -0.0245, -0.2525
+AddTrackRoller = 0.30, -0.2787, 0.2525
+AddTrackRoller = -0.30, -0.2787, 0.2525
+AddTrackRoller = 0.30, -0.2787, -0.2525
+AddTrackRoller = -0.30, -0.2787, -0.2525
 PartWheelRot = 40
 
 AddWeapon = c4, 0,0,0,  0,0, 

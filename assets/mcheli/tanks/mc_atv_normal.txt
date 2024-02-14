@@ -7,7 +7,7 @@ AddDisplayName = ja_JP, 民間ATV
 MaxHp = 200
 Speed = 0.9
 ;between 50 and 90mph
-Sound = bikeus_snd
+Sound = opelblitz
 ThrottleUpDown = 0.9
 Gravity = -0.61
 GravityInWater = -1.0

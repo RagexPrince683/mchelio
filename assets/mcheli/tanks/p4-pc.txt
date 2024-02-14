@@ -49,6 +49,8 @@ AddSeat =  0.5863,  0.40, -1.5010
 AddSeat = -0.5863,  0.40, -0.9815
 AddSeat = -0.5863,  0.40, -1.5010
 
+AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
+
 AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
 
 PivotTurnThrottle = 0.1
