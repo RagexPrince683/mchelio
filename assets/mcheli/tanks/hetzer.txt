@@ -1,11 +1,11 @@
 DisplayName = Hetzer
 AddDisplayName = ja_JP, Hetzer
 ItemID = 30191
-MaxHp = 70
+MaxHp = 80
 Speed = 0.4
 ThrottleUpDown = 5.0
-Gravity = -0.1
-GravityInWater = -0.5
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = false
 EnableEntityRadar = false

@@ -1,13 +1,13 @@
 DisplayName = P40 "Heavy" Tank
 AddDisplayName = ja_JP, P40型 重戦車 
 ItemID = 191991
-MaxHp = 74
+MaxHp = 100
 Speed = 0.45
 Sound = MT_Run_snd
 ThrottleUpDown = 10.0
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = false
 CameraRotationSpeed = 26
@@ -73,6 +73,7 @@ AddPartWeaponChild = false, true, 0.00, 2.40, 1.66
 
 AddWeapon = p40ap,  0.00, 2.40, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
 AddWeapon = p40he,  0.00, 2.40, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
+AddWeapon = p40heat,  0.00, 2.40, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
 AddWeapon = p40mg,  -0.31, 2.40, 0.00,  0.0, 0.0, true,1, 0,-360,360, -17, 6
 
 AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2

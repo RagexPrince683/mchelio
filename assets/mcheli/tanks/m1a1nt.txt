@@ -1,9 +1,9 @@
 DisplayName = M1A1 Abrams
 AddDisplayName = ja_JP, M1A1 エイブラムス
 ItemID = 30109
-MaxHp = 150
+MaxHp = 700
 Speed = 0.7
-Sound = tank_gte
+Sound = abrams
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 2.0
 MinRotationPitch = -20
@@ -96,13 +96,13 @@ AddTrackRoller =  1.82,  0.18, -3.50
 AddTrackRoller =  1.82,  0.81, -4.59
 
 ;主砲
-AddPartWeapon = rehinmetall_apfsds / rehinmetall_he / XM1111-mid-range-ammo / canistershell, false, true, false,   0.00, 2.10, 0.00, 0
+AddPartWeapon = rehinmetall_apfsds / rehinmetall_he / canistershell, false, true, false,   0.00, 2.10, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.5
 AddTurretWeapon = rehinmetall_apfsds, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = rehinmetall_he,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = canistershell,        0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = XM1111-mid-range-ammo,        0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+
 AddTurretWeapon = mg7_62mm_mbt,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = mbt_cas,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = targeting_pod_block,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -50, 10

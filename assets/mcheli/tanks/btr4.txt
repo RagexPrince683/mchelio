@@ -2,25 +2,29 @@ DisplayName = BTR-4-E Bucefal
 AddDisplayName = ua_UA BTR-4 E Bucefal
 AddDisplayName = en_EN BTR-4 E Bucefal
 ItemID = 191919
-MaxHp = 400
-Speed = 0.8
-Sound = vehicle_run
+MaxHp = 205
+Speed = 1.2
+Sound = apc_run
 ThrottleUpDown = 10.0
 MinRotationPitch = -50
 MaxRotationPitch =  20
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = 0.0
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.8
 EnableNightVision = true
 DefaultFreelook = true
-CameraRotationSpeed = 40
+CameraRotationSpeed = 25
 FlareType = 10
 SubmergedDamageHeight = 4
 OnGroundPitchFactor = 3.0
 OnGroundRollFactor  = 3.0
 CameraPosition = 0.50, 4.0, -1.43, true
 HideEntity = false
+ThirdPersonDist = 8
+CameraZoom = 4
+EnableNightVision = true
+EnableEntityRadar = false
 
 ; Tank or Car or Unknown    
 WeightType = Tank
@@ -28,6 +32,8 @@ WeightType = Tank
 MobilityYawOnGround = 3.0
 
 HUD = mbt_hud
+
+
 
 AddSeat =  1.08,  0.80, 3.68
 AddSeat =  -0.11,  0.80, 3.68

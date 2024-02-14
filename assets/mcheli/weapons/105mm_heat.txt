@@ -12,7 +12,7 @@ Delay = 160
 ModeNum = 1
 SoundPitch = 0.5
 SoundVolume = 20
-Sound = cannon_1_snd
+Sound = typesixteenmain
 Group = MainGun
 DamageFactor = tank, 2.5
 DamageFactor = plane, 1.5
@@ -20,6 +20,9 @@ DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 Gravity = -0.001
+
+DisplayMortarDistance = true
+
 
 
 MaxAmmo = 100

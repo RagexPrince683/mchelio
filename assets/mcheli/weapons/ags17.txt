@@ -13,7 +13,7 @@ Accuracy = 2.0
 Sound = cannon_grenade_snd
 HeatCount = 20
 MaxHeatCount = 180
-Delay = 6
+Delay = 4
 Round = 30
 ReloadTime = 180
 
