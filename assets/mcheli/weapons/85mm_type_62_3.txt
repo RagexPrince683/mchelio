@@ -16,11 +16,12 @@ Gravity = -0.001
 Sound = cannon_4_snd
 Recoil = 1.5
 
-DamageFactor = helicopter, 2.5
-DamageFactor = plane,      2.5
-DamageFactor = vehicle,    2.5
-DamageFactor = tank,       0.1
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
+
 
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44

@@ -1,4 +1,4 @@
-DisplayName = 7.92mm MG34 Machine Gun
+DisplayName = 7.92mm VZ37 Machine Gun
 Type = MachineGun1
 ModelBullet = 7.91mm
 Power = 7
@@ -9,7 +9,7 @@ Sight = MoveSight
 Delay = 1
 ReloadTime = 100
 SoundDelay = 0
-Sound = ww2tankcoax_snd
+Sound = mg_gun_snd
 group = maingun
 SoundPitch = 1.0
 ;SetCartridge = model name, velocity (in x-axis), ?, ?, size, gravity, "bounce-height" 
@@ -38,6 +38,3 @@ MaxAmmo = 1000
 SuppliedNum = 200
 Item =   10, iron_ingot
 Item =  5, gunpowder
-
-AddDisplayName = en_US, 7.91mm MG34
-Acceleration = 7.0
