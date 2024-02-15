@@ -1,23 +1,29 @@
 ﻿DisplayName = Silvia S14
-MaxHp = 120000
-ThrottleUpDown = 10.0
-Speed = 4.5
-MobilityYawOnGround = 10.0
+MaxHp = 200
+ThrottleUpDown = 0.84
+;6.4s
+Speed = 1.76
+MobilityYawOnGround = 9.0
 StepHeight = 1.2
 Sound = Inline-four
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
-Gravity        = -0.15
-GravityInWater = -0.1
-DamageFactor   = 0.85
-EnableNightVision = true
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor   = 1.0
+EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 1.0
 
-CameraZoom = 3
-CameraPosition = -0.3178,  1.36, -0.1, false
-DefaultFreelook = true
+WeightedCenterZ = 1.0
+
+;-17.24
+;-0.1724
+
+;CameraZoom = 3
+;CameraPosition = -0.3178,  1.36, -0.1, false
+DefaultFreelook = false
 EntityWidth = 0.9
 EntityHeight = 0.9
 OnGroundPitchFactor = 18.0
@@ -27,24 +33,27 @@ EnableBack = true
 Category = C
 WeightType = Car
 
-SetWheelPos =  0.76,  -0.29,  1.7609, -1.8032
+SetWheelPos =  0.46,  -0.29,  1.7609, -1.8032
 
 HUD = bnr32_hud, none
 
-AddSeat =  -0.3178,   0.144, -0.22
-AddSeat =  0.6074,   0.234, -0.22
+AddSeat =  -0.3178,   -0.0284, -0.22
+
+UnmountPosition = -0.3178,   2.244, -0.22
+
+AddSeat =  0.6074,   0.0616, -0.22
 
 PivotTurnThrottle = 1.0
 
 PartWheelRot = 60
-AddPartWheel     = -1.2369,  0.2296,  1.7604, 30
-AddPartWheel     =  1.2455,  0.2296,  1.7609, 30
-AddPartWheel     = -1.1623,  0.2394,  -1.8048, 0
-AddPartWheel     =  1.3317,  0.2394,  -1.8032, 0
+AddPartWheel     = -1.2369,  0.0572,  1.7604, 30
+AddPartWheel     =  1.2455,  0.0572,  1.7609, 30
+AddPartWheel     = -1.1623,  0.0602,  -1.8048, 0
+AddPartWheel     =  1.3317,  0.0602,  -1.8032, 0
 
-AddPartSteeringWheel =  -0.3178,  0.8441,  0.4543,  0.0, 0.3156, -1.00,  100
-AddFixedSearchLight =  -0.6098, 0.8012,-3.055,   0x80FF0000,   0x00FF0000,    0.02, 0.5,  -180.0,  0
-AddFixedSearchLight =  0.9298, 0.8012,-3.055,   0x80FF0000,   0x00FF0000,    0.02, 0.5,  -180.0,  0
+AddPartSteeringWheel =  -0.3178,  0.6717,  0.4543,  0.0, 0.3156, -1.00,  100
+AddFixedSearchLight =  -0.6098, 0.6288,-3.055,   0x80FF0000,   0x00FF0000,    0.02, 0.5,  -180.0,  0
+AddFixedSearchLight =  0.9298, 0.6288,-3.055,   0x80FF0000,   0x00FF0000,    0.02, 0.5,  -180.0,  0
 
 InventorySize = 9
 

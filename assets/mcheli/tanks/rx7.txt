@@ -15,9 +15,11 @@ MobilityRoll     = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1.0
-EnableNightVision = true
+EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 1.0
+
+WeightedCenterZ = 1.0
 
 AddTexture = rx7
 AddTexture = rx7_bk
@@ -101,13 +103,13 @@ AddFixedSearchLight = -0.67, 0.55,-2.88,   0xFFFF0000,   0x10FF0000,    0.05, 0.
 
 
 ;engine?
-BoundingBox =  0.0, 0.50,  1.9,   2.0, 0.6
+BoundingBox =  0.0, 0.50,  1.9,   1.0, 0.6
 ;mid
-BoundingBox = 0.0, 0.20, 0.0, 2.5, 0.2
+BoundingBox = 0.0, 0.0, 0.0, 2.4, 0.2
 ;front
-BoundingBox = 0.0, 0.20, 1.8, 2.5, 0.2
+BoundingBox = 0.0, 0.0, 1.8, 2.4, 0.2
 ;rear
-BoundingBox = 0.0, 0.20, -1.6, 2.5, 0.2
+BoundingBox = 0.0, 0.0, -1.6, 2.4, 0.2
 Regeneration = true
 ArmorDamageFactor = 2.32
 
