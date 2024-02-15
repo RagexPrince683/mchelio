@@ -15,6 +15,11 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 1.0
 
+WeightedCenterZ = 1.0
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
 CameraPosition  = 0.00,  2.51, -6.00
 CameraPosition  = 0.00,  2.51, -6.00
 
@@ -90,16 +95,16 @@ FuelConsumption = 0.5
 
 AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
-StepHeight = 1.5
+StepHeight = 1.2
 
 ;engine?
-BoundingBox =  0.0, 0.50,  1.9,   2.0, 0.6
+BoundingBox =  0.0, 0.50,  1.9,   1.0, 0.6
 ;mid
-BoundingBox = 0.0, 0.20, 0.0, 2.5, 0.2
+BoundingBox = 0.0, 0.10, 0.0, 2.4, 0.2
 ;front
-BoundingBox = 0.0, 0.20, 1.7, 2.5, 0.2
+BoundingBox = 0.0, 0.10, 1.7, 2.4, 0.2
 ;rear
-BoundingBox = 0.0, 0.20, -1.6, 2.5, 0.2
+BoundingBox = 0.0, 0.10, -1.6, 2.4, 0.2
 Regeneration = true
 ArmorDamageFactor = 2.32
 

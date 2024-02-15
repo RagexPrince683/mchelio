@@ -5,7 +5,7 @@ ThrottleUpDown = 0.86
 Speed = 1.47
 MobilityYawOnGround = 9.0
 StepHeight = 1.2
-Sound = m
+Sound = wankel
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
@@ -16,10 +16,15 @@ HUD = bnr32_hud, none
 EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 1.0
-CameraZoom = 8
+;CameraZoom = 8
 CameraPosition = -0.645, 1.4,  0.075, false
-CameraPosition = -0.645, 1.4,  0.075, true
+;CameraPosition = -0.645, 1.4,  0.075, true
 DefaultFreelook = false
+
+WeightedCenterZ = 1.0
+
+;-9.06
+;-0.0906
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
@@ -31,34 +36,40 @@ EnableBack = true
 Category = C
 WeightType = Car
 
-SetWheelPos =  0.76,  -0.29,  1.9563, -1.5413
+SetWheelPos =  0.96,  -0.29,  1.9563, -1.5413
 
-AddSeat =  -0.645, 0.2521 , 0.1
+AddSeat =  -0.645, 0.1615 , 0.1
 
 unmountposition = -0.645, 2.2521 , 0.1
 
-AddSeat =  0.645, 0.3521 , 0.1
+AddSeat =  0.645, 0.1615 , 0.1
 
 PivotTurnThrottle = 1.0
 
 PartWheelRot = 60
-AddPartWheel = 1.36, 0.2249, 1.9563, 30
-AddPartWheel = -1.36, 0.2249, 1.9563, 30
-AddPartWheel = 1.36, 0.2249, -1.5413
-AddPartWheel = -1.36, 0.2249, -1.5413
+AddPartWheel = 1.36, 0.1343, 1.9563, 30
+AddPartWheel = -1.36, 0.1343, 1.9563, 30
+AddPartWheel = 1.36, 0.1343, -1.5413
+AddPartWheel = -1.36, 0.1343, -1.5413
 
 InventorySize = 9
 
 AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, gold_ingot, R, redstone
-AddPartSteeringWheel =  -0.6616,  0.8,  0.5426,  0, 0.3196, -1,   90
-AddPartSteeringWheel =  1.36, 0.2249, 1.9563,  0, 1, 0,   30
-AddPartSteeringWheel =  -1.36, 0.2249, 1.9563,  0, 1, 0,   30
-AddFixedSearchLight =  1.05, 0.7203, 2.6644,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
-AddFixedSearchLight =  0.855, 0.6903, 2.7544,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
-AddFixedSearchLight =  -1.05, 0.7203, 2.6644,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
-AddFixedSearchLight =  -0.855, 0.6903, 2.7544,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
+AddPartSteeringWheel =  -0.6616,  0.7094,  0.5426,  0, 0.3196, -1,   90
+AddPartSteeringWheel =  1.36, 0.1343, 1.9563,  0, 1, 0,   30
+AddPartSteeringWheel =  -1.36, 0.1343, 1.9563,  0, 1, 0,   30
+AddFixedSearchLight =  1.05, 0.6297, 2.6644,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
+AddFixedSearchLight =  0.855, 0.5997, 2.7544,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
+AddFixedSearchLight =  -1.05, 0.6297, 2.6644,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
+AddFixedSearchLight =  -0.855, 0.5997, 2.7544,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
 
-;BoundingBox = 0.0, 1.0, 1.8, 
+BoundingBox = 0.0, 0.6, 1.8, 1.0, 0.8
+
+
+BoundingBox = 0.0, 0, -1.4, 2.5, 0.2
+BoundingBox = 0.0, -0.0, 0.0, 2.9, 0.2
+BoundingBox = 0.0, 0, 1.8, 2.5, 0.2
+
 
 
 
