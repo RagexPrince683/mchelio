@@ -83,13 +83,13 @@ AddPartWeaponChild =                                               false, true, 
 AddPartWeaponChild =                                               false, true, -0.3721, 2.1328, -0.2327, 0.0
 AddPartWeaponChild =                                               false, true, -0.3230, 1.4798,  1.0741,0.0
 
-BoundingBox =  0.0, 0.4,   0.6,   2.1, 1.35,  1.0
-BoundingBox =  0.0, 1.4,   0.0,   1.6, 0.7,  1.0
-BoundingBox =  0.0, 0.4,   -1.7,   2.1, 1.35,  1.0
-BoundingBox =  0.0, 0.4,   -0.7,   2.1, 1.35,  1.0
-BoundingBox =  0.0, 0.3,   1.35,   2.0, 0.4,  1.0
-BoundingBox =  0.0, 0.7,   1.50,   2.0, 0.2,  1.0
-BoundingBox =  0.0, 0.9,   1.20,   2.0, 0.3,  1.0
+BoundingBox =  0.0, 0.4,   0.6,   2.1, 1.35,  0.9
+BoundingBox =  0.0, 1.4,   0.0,   1.6, 0.7,  0.40
+BoundingBox =  0.0, 0.4,   -1.7,   2.1, 1.35,  0.9
+BoundingBox =  0.0, 0.4,   -0.7,   2.1, 1.35,  0.9
+BoundingBox =  0.0, 0.3,   1.35,   2.0, 0.4,  0.30
+BoundingBox =  0.0, 0.7,   1.50,   2.0, 0.2,  0.25
+BoundingBox =  0.0, 0.9,   1.20,   2.0, 0.3,  0.25
 
 
 
