@@ -25,7 +25,6 @@ ThirdPersonDist = 8
 CameraZoom = 4
 EnableNightVision = true
 EnableEntityRadar = false
-
 ; Tank or Car or Unknown    
 WeightType = Tank
 
@@ -88,10 +87,12 @@ ArmorDamageFactor = 1.00
 MaxFuel         = 1200
 FuelConsumption = 2.0
 
-BoundingBox =  0.40, 2.64, 0.0,  3.10, 2.01
-BoundingBox =  0.40, 0.79, -1.75, 3.10, 2.01
-BoundingBox =  0.40, 0.79, 2.26, 3.10, 2.01
+BoundingBox =  0.35, 3.2, -1.55,  1.8, 1.4, 0.25
+BoundingBox =  0.40, 1.25, -2.40, 2.70, 2.10, 0.25
+BoundingBox =  0.40, 1.25, -1.75, 2.70, 2.10, 0.25
+BoundingBox =  0.40, 1.25, 0.00, 2.70, 2.10, 0.25
 
+BoundingBox =  0.40, 1.25, 2.05, 2.70, 2.19, 0.25
 StepHeight = 1.5
 
 AddRecipe = "TBT",  "TXT",  "IDI",  T, tnt_minecart, B, bow, X, dispenser, I, iron_ingot, D, diamond
