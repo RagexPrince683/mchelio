@@ -1,6 +1,6 @@
-﻿DisplayName = Humvee
-AddDisplayName = ja_JP, Humvee
-AddDisplayName = en_US, Humvee Different Variant
+﻿DisplayName = Humvee with Wagon Back
+AddDisplayName = ja_JP, Humvee with Wagon Back
+AddDisplayName = en_US, Humvee with Wagon Back
 ItemID = 30032
 MaxHp = 230
 ThrottleUpDown = 0.81
@@ -24,9 +24,9 @@ InventorySize = 9
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 
-AddTexture = humveev22
+;AddTexture = humveev22
 AddTexture = humveev2v
-AddTexture = humveev22v
+;AddTexture = humveev22v
 
 ;後退可能にする
 EnableBack = true
@@ -46,8 +46,8 @@ AddSeat =  0.70,  0.18,  0.31
 AddSeat = -0.70,  0.30,  0.31
 AddSeat = -0.67,  0.30, -0.41
 AddSeat =  0.67,  0.30, -0.41
-AddSeat =  0.95,  0.95, -1.74
-AddSeat = -0.95,  0.95, -1.74
+;AddSeat =  0.95,  0.95, -1.74
+;AddSeat = -0.95,  0.95, -1.74
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.1

@@ -1,21 +1,21 @@
 DisplayName = Volvo C304 "Terrängbil 11" 6x6
-MaxHp = 120
-ThrottleUpDown = 10.0
-Speed = 0.6
-MobilityYawOnGround = 6.0
+MaxHp = 230
+ThrottleUpDown = 0.81
+Speed = 0.62
+MobilityYawOnGround = 6.4
 StepHeight = 1.5
 Sound = prop
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
-Gravity        = -0.15
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor   = 0.85
 EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 1.0
 ThirdPersonDist = 4
-DefaultFreelook = true
+DefaultFreelook = false
 
 OnGroundPitchFactor = 10.0
 OnGroundRollFactor  = 4.8
@@ -35,7 +35,12 @@ EntityWidth  = 0.8
 EntityHeight = 0.8
 
 AddSeat =  0.5088,  0.30, 1.6870
+
+unmountposition = 0.5088,  2.20, 1.6870
+
 AddSeat = -0.5088,  0.40, 1.6870
+
+AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
 
 AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
 
@@ -50,6 +55,8 @@ AddPartWheel     = -0.6672,   0.1016, -0.6501
 AddPartWheel     =  0.7048,   0.1016, -1.7477
 AddPartWheel     = -0.6672,   0.1016, -1.7477
 
-InventorySize = 1
+InventorySize = 18
 
 AddPartSteeringWheel =  0.5088,  1.1431,  2.1677,  0, 0.590, -1,  130
+
+SetWheelPos =  0.70,  -0.24,  1.865, -1.489

@@ -1,6 +1,6 @@
-﻿DisplayName = Humvee 50cal Variant
-AddDisplayName = ja_JP, Humvee 50cal Variant
-AddDisplayName = en_US, Humvee 50cal Variant
+﻿DisplayName = Humvee with M2 Browning
+AddDisplayName = ja_JP, Humvee with M2 Browning
+AddDisplayName = en_US, Humvee with M2 Browning
 ItemID = 30032
 MaxHp = 230
 ThrottleUpDown = 0.81
@@ -25,8 +25,8 @@ OnGroundRollFactor  = 4.8
 ;後退可能にする
 EnableBack = true
 
-AddTexture = humveewithweapon2
-AddTexture = humveewithweaponv
+;AddTexture = humveewithweapon2
+;AddTexture = humveewithweaponv
 AddTexture = humveewithweapon2v
 
 ; Tank or Car or Unknown
