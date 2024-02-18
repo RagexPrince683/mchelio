@@ -13,7 +13,7 @@ SoundPitch = 1.2
 SoundVolume = 16.0
 Accuracy = 1.5
 Gravity = -0.001
-Sound = cannon_4_snd
+Sound = big
 Recoil = 1.5
 
 DamageFactor = tank, 2.0

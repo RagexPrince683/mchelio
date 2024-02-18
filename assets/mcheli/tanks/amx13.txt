@@ -1,11 +1,11 @@
 DisplayName = AMX-13-75
-MaxHp = 180
+MaxHp = 140
 Speed = 0.8
-Sound = mbt_run
+Sound = MT_Run_snd
 ThrottleUpDown = 10.0
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
 CameraRotationSpeed = 35
 StepHeight = 1.7
@@ -15,7 +15,7 @@ DefaultFreelook = true
 HideEntity = true
 ThirdPersonDist = 8
 MobilityYawOnGround = 3.0
-HUD = mbt_hud
+HUD = ww2tank_hud, ww2tank_hud
 SubmergedDamageHeight = 3
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.9
@@ -57,6 +57,25 @@ FuelConsumption = 2.0
 
 AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot
 
-BoundingBox =  0.0, 1.0,  2.5,   4.0, 2.0,   0.75
-BoundingBox =  0.0, 2,  0,   3.0, 1.0,   1.00
-BoundingBox =  0.0, 1.0, 0,   4.0, 2.0,   1.25
+;turret
+BoundingBox =  0.0, 2,  0,   2.55, 1.0,   0.20
+;hull
+BoundingBox =  0.0, 0.65, 0,   2.5, 1.45,   0.50
+BoundingBox =  0.0, 0.65, 1.0,   2.5, 1.45,   0.50
+BoundingBox =  0.0, 0.65, -0.25,   2.5, 1.45,   0.60
+
+;lfp
+
+BoundingBox =  0.0, 0.20, 2.8,   2.4, 0.2,   0.30
+BoundingBox =  0.0, 0.25, 2.8,   2.4, 0.2,   0.30
+BoundingBox =  0.0, 0.45, 2.9,   2.4, 0.2,   0.30
+BoundingBox =  0.0, 0.65, 2.8,   2.4, 0.2,   0.30
+BoundingBox =  0.0, 0.85, 2.8,   2.4, 0.2,   0.30
+;ulp
+
+BoundingBox =  0.0, 1.05, 2.6,   2.4, 0.2,   0.20
+
+BoundingBox =  0.0, 1.25, 2.0,   2.4, 0.2,   0.20
+
+BoundingBox =  0.0, 1.45, 1.65,   2.4, 0.2,   0.20
+

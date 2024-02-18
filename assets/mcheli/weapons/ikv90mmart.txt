@@ -1,11 +1,11 @@
 DisplayName = 90 mm Gun (Ikv 91 - Artillery mode)
 Type = Rocket
-Power = 45
+Power = 30
 Explosion = 6
 ExplosionBlock = 5
 Acceleration = 4.0
 SoundVolume = 1.0
-Sound = cannon_4_snd
+Sound = big
 Accuracy = 5.0
 ModelBullet = bullet105mm
 Flaming = false
@@ -17,10 +17,10 @@ Recoil = 5
 ModeNum = 1
 Round = 1
 
-DamageFactor = helicopter, 2.5
-DamageFactor = plane,      2.5
-DamageFactor = vehicle,    2.5
-DamageFactor = tank,       0.1
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
 
