@@ -17,6 +17,9 @@ FuelConsumption   = 1.0
 ThirdPersonDist = 4
 DefaultFreelook = false
 
+WeightedCenterZ = 0.1
+
+
 OnGroundPitchFactor = 10.0
 OnGroundRollFactor  = 4.8
 
@@ -29,16 +32,18 @@ Category = C
 
 WeightType = Car
 
-HUD =  none, none
+HUD =  none, none, none
 
-EntityWidth  = 0.8
-EntityHeight = 0.8
+EntityWidth  = 0.75
+EntityHeight = 0.75
 
-AddSeat =  0.5088,  0.30, 1.6870
+AddSeat =  0.5088,  0.40, 1.8270
 
-unmountposition = 0.5088,  2.20, 1.6870
+AddSeat =  0.0,  0.50, 1.8270
 
-AddSeat = -0.5088,  0.40, 1.6870
+unmountposition = 0.5088,  2.20, 1.8270
+
+AddSeat = -0.5088,  0.50, 1.8270
 
 AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
 
@@ -55,8 +60,26 @@ AddPartWheel     = -0.6672,   0.1016, -0.6501
 AddPartWheel     =  0.7048,   0.1016, -1.7477
 AddPartWheel     = -0.6672,   0.1016, -1.7477
 
+AddFixedSearchLight =  0.8420, 0.6895, 2.6795,   0x50FFFFFF,   0x00FFFFC0,    0.13, 0.5,  -5,  0
+AddFixedSearchLight = -0.8420, 0.6895, 2.6795,   0x50FFFFFF,   0x00FFFFC0,    0.13, 0.5,   5,  0
+
+AddFixedSearchLight =  0.7538, 0.5719,-2.5912,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
+AddFixedSearchLight =  -0.7163, 0.5719,-2.5912,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
+
 InventorySize = 18
 
 AddPartSteeringWheel =  0.5088,  1.1431,  2.1677,  0, 0.590, -1,  130
 
-SetWheelPos =  0.70,  -0.24,  1.865, -1.489
+SetWheelPos =  0.50,  -0.24,  1.76, -0.65, -1.74
+
+BoundingBox = 0.0, 0.4, -1.5, 2.0, 0.2
+BoundingBox = 0.0, 0.4, 0.0, 2.0, 0.2
+BoundingBox = 0.0, 0.4, 1.5, 2.0, 0.2
+
+BoundingBox = 0.0, 0.75, 2.40, 0.6, 0.6
+
+Regeneration = true
+ArmorDamageFactor = 2.32
+
+
+ArmorMinDamage = 2

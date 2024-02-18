@@ -1,6 +1,6 @@
-﻿DisplayName = Humvee
-AddDisplayName = ja_JP, Humvee
-AddDisplayName = en_US, Humvee
+﻿DisplayName = Humvee with Fast Back
+AddDisplayName = ja_JP, Humvee with Fast Back
+AddDisplayName = en_US, Humvee with Fast Back
 ItemID = 30032
 MaxHp = 230
 ThrottleUpDown = 0.81
@@ -69,6 +69,8 @@ AddPartCanopy   =  0,0,0,  0,1,0,  0
 
 InventorySize = 27
 
+AddRack = container, 0.0, 1.05, -1.25,   0.0, 0.00, -3.17
+
 ;AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
 ;ヘッドライト
@@ -90,7 +92,7 @@ EntityHeight = 0.85
 BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
 ;rest
 BoundingBox = 0.0, 0.70, -0.20, 2.8, 2.0
-BoundingBox = 0.0, 0.90, -1.25, 2.0, 1.0, 0.01
+BoundingBox = 0.0, 0.90, -1.25, 2.0, 1.0
 BoundingBox = 0.0, 0.90, -1.33, 1.9, 1.0, 1.0
 
 ;RIP AddRecipe = "BBB",  "CDC", "CEC",  B, glass, C, hfr:item.part_wheel, D, hfr:item.part_engine_1, E, hfr:item.part_plating_1

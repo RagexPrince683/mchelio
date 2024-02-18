@@ -1,22 +1,25 @@
-DisplayName = Uaz-469k-m [RUSSIA]
-AddDisplayName = ru_RU, УАЗ-469к-м [Россия]
-MaxHp = 150
-ThrottleUpDown = 10.0
-Speed = 0.5
+DisplayName = UAZ-469
+AddDisplayName = ru_RU, УАЗ-469
+AddDisplayName = en_US, UAZ-469
+MaxHp = 230
+ThrottleUpDown = 0.81
+Speed = 0.546
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
 Sound = uaz_loop
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
-Gravity        = -0.15
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor   = 0.85
-EnableNightVision = fase
+EnableNightVision = false
 MaxFuel           = 1500
 FuelConsumption   = 1.0
 ThirdPersonDist = 5
-DefaultFreelook = true
+DefaultFreelook = false
+
+WeightedCenterZ = 0.8
 
 AddTexture = uaz-469_9
 AddTexture = uaz-469_10
@@ -44,11 +47,16 @@ EntityWidth  = 0.8
 EntityHeight = 0.8
 
 AddSeat =  0.4331,  0.25,  0.2001
+
+UnmountPosition = 0.4331,  2.25,  0.2001
+
 AddSeat = -0.4331,  0.35,  0.2001
 
 AddSeat =  0.4331,  0.37, -0.6315
 AddSeat =  0.0000,  0.37, -0.6315
 AddSeat = -0.4331,  0.37, -0.6315
+
+AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
 
 AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
 AddWeapon =  cb-radio,    0.00,  0.42,  3.05, 0.0, 90, false, 2
@@ -57,13 +65,15 @@ PivotTurnThrottle = 0.1
 
 PartWheelRot = 25
 
+SetWheelPos =  0.35,  -0.24,  1.44, -0.98
+
 AddPartWheel     =  0.6203,   0.0749,  1.4455, 35
 AddPartWheel     = -0.6203,   0.0749,  1.4455, 35
 AddPartWheel     =  0.6203,   0.0749, -0.9875
 AddPartWheel     = -0.6203,   0.0749, -0.9875
 
-InventorySize = 1
+InventorySize = 9
 
 AddPartCanopy   =  0.8115, 0.8417, 0.7622,  0, 1, 0, -75
 
-AddPartSteeringWheel =  0.4325,  1.0572,  0.5498,  0, 0.488, -1,  130
+AddPartSteeringWheel =  0.431,  1.05,  0.565,  0, 0.488, -1,  130

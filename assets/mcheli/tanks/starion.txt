@@ -33,7 +33,7 @@ Addtexture = starion2
 ;OnGroundPitchFactor = 0.5
 ;OnGroundRollFactor  = 0.8
 
-WeightedCenterZ = 0.0
+WeightedCenterZ = 1.0
 
 
 

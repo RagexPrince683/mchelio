@@ -13,11 +13,13 @@ Sound = humvee
 MobilityRoll     = 0
 Gravity        = -0.61
 GravityInWater = -1
-DamageFactor   = 1.00
+DamageFactor   = 0.85
 EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 3.0
 ThirdPersonDist = 5
+
+;CameraRotationSpeed = 12
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
@@ -102,8 +104,82 @@ InventorySize = 9
 BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
 ;rest
 BoundingBox = 0.0, 0.70, -0.20, 2.8, 2.0
-BoundingBox = 0.0, 0.90, -1.25, 2.0, 1.0, 0.01
+BoundingBox = 0.0, 0.90, -1.25, 2.0, 1.0
 BoundingBox = 0.0, 0.90, -1.33, 1.9, 1.0, 1.0
+
+;BoundingBox = 0.5, 2.0, 1.0,  0.1,   0.8
+;BoundingBox = -0.5, 2.0, 1.0, 0.1,  0.8
+
+BoundingBox = -0.1, 1.8, 0.8,   0.1,   0.8
+BoundingBox = -0.2, 1.8, 0.8,   0.1,   0.8
+BoundingBox = -0.3, 1.8, 0.8,   0.1,   0.8
+BoundingBox = -0.4, 1.8, 0.8,   0.1,   0.8
+BoundingBox = -0.5, 1.8, 0.8,   0.1,   0.8
+BoundingBox = -0.6, 1.8, 0.8,   0.1,   0.8
+BoundingBox = -0.7, 1.8, 0.8,   0.1,   0.8
+
+BoundingBox = 0.0, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.1, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.2, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.3, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.4, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.5, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.6, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.8,   0.1,   0.8
+
+
+BoundingBox = 0.7, 1.8, 0.7,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.6,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.5,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.4,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.3,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.2,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.1,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.0,   0.1,   0.8
+
+BoundingBox = 0.7, 1.8, -0.1,   0.1,   0.8
+BoundingBox = 0.7, 1.8, -0.2,   0.1,   0.8
+BoundingBox = 0.7, 1.8, -0.3,   0.1,   0.8
+BoundingBox = 0.7, 1.8, -0.4,   0.1,   0.8
+BoundingBox = 0.7, 1.8, -0.5,   0.1,   0.8
+BoundingBox = 0.7, 1.8, -0.6,   0.1,   0.8
+BoundingBox = 0.7,  1.8, -0.7,  0.1,  0.8
+
+BoundingBox = -0.7, 1.8, 0.7,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.6,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.5,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.4,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.3,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.2,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.1,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.0,  0.1,  0.8
+
+BoundingBox = -0.7, 1.8, -0.1,  0.1,  0.8
+BoundingBox = -0.7, 1.8, -0.2,  0.1,  0.8
+BoundingBox = -0.7, 1.8, -0.3,  0.1,  0.8
+BoundingBox = -0.7, 1.8, -0.4,  0.1,  0.8
+BoundingBox = -0.7, 1.8, -0.5,  0.1,  0.8
+BoundingBox = -0.7, 1.8, -0.6,  0.1,  0.8
+BoundingBox = -0.7, 1.8, -0.7, 0.1, 0.8
+
+
+BoundingBox = 0.1, 1.8, -0.7, 0.1, 0.8
+BoundingBox = 0.2, 1.8, -0.7, 0.1, 0.8
+BoundingBox = 0.3, 1.8, -0.7, 0.1, 0.8
+BoundingBox = 0.4, 1.8, -0.7, 0.1, 0.8
+BoundingBox = 0.5, 1.8, -0.7, 0.1, 0.8
+BoundingBox = 0.6, 1.8, -0.7, 0.1, 0.8
+
+
+BoundingBox = -0.0, 1.8, -0.7, 0.1, 0.8
+BoundingBox = -0.1, 1.8, -0.7, 0.1, 0.8
+BoundingBox = -0.2, 1.8, -0.7, 0.1, 0.8
+BoundingBox = -0.3, 1.8, -0.7, 0.1, 0.8
+BoundingBox = -0.4, 1.8, -0.7, 0.1, 0.8
+BoundingBox = -0.5, 1.8, -0.7, 0.1, 0.8
+BoundingBox = -0.6, 1.8, -0.7, 0.1, 0.8
+
+
 UnmountPosition = 0.70,  1.50,  0.31
 
 BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
