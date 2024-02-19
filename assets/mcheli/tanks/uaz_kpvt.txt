@@ -1,19 +1,19 @@
 DisplayName = UAZ-469 with KPVT
 AddDisplayName = ru_RU, УАЗ-469 с КПВТ
-MaxHp = 100
-ThrottleUpDown = 10.0
+MaxHp = 230
+ThrottleUpDown = 0.81
 Speed = 0.575
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
-Sound = prop
+Sound = uaz_loop
 MinRotationPitch = -90
 MaxRotationPitch = 45
 MobilityRoll     = 0
-Gravity        = -0.15
-GravityInWater = -0.1
-DamageFactor   = 0.85
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor   = 1.0
 EnableNightVision = false
-MaxFuel           = 600
+MaxFuel           = 1500
 FuelConsumption   = 1.0
 ThirdPersonDist = 4
 
@@ -23,15 +23,18 @@ OnGroundRollFactor  = 5.2
 EnableBack = true
 Category = C
 
-WeightType = Unknown
+WeightType = Car
 
-SetWheelPos =  0.78,  -0.24,  1.5797, -1.1969
+SetWheelPos =  0.55,  -0.24,  1.60, -1.13
 
 HUD = bnr32_hud, none, gunner
 
 AddSeat =  0.5379, 0.5714, 0.1562
+
+unmountposition = 0.5379, 2.2714, 0.1562
+
 AddSeat =  -0.5379, 0.6714, 0.1562
-AddGunnerSeat =  0,  0.7714,  -1.40,    0.00,  2.43,  -1.7,  false, -90, 45, true
+AddGunnerSeat =  0,  0.7714,  -1.40,    0.00,  2.43,  -1.7,  false, -90, 45, false
 
 PivotTurnThrottle = 0.1
 
