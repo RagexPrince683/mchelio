@@ -26,7 +26,11 @@ Acceleration = 7.5
 Piercing = 0
 AddDisplayName = en_US, 25mm Gun
 SoundVolume = 15
-
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
 
 
 SetCartridge = cartridge, 0.5,  0.00, -25, 3.80, -0.04, 0.60

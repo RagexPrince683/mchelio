@@ -13,7 +13,9 @@ ModeNum = 1
 SoundVolume = 20
 Sound = leoonemain
 
-Gravity = -0.001
+Gravity = -0.005
+
+DisplayMortarDistance = true
 
 Delay = 170
 ReloadTime = 170
