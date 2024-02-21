@@ -1,7 +1,7 @@
 DisplayName = M3 Bradley
 AddDisplayName = en_US, M3 Bradley
 AddDisplayName = ru_RU, M3 Брэдли
-MaxHp = 220
+MaxHp = 200
 Speed = 0.75
 Sound = bradeng
 ThrottleUpDown = 20.0

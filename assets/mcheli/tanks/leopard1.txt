@@ -70,11 +70,12 @@ AddTrackRoller =  0.00,  0.56, -3.64
 SetWheelPos =  1.30,  -0.29,  1.98,  -3.02, 0.0, 1.0, -1.0, -2.0
 
 
-AddPartWeapon = dm23 / m156, false, true, false,  0.00, 1.83, 0.00, 0
+AddPartWeapon = leo1apfsds / 105mm_heat / 105mm_he, false, true, false,  0.00, 1.83, 0.00, 0
 AddPartWeaponChild = flase, true,  0.00, 2.25, 1.44
 AddPartWeaponChild = false, true,  0.00, 2.25, 1.44
-AddTurretWeapon = dm23,  0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
-AddTurretWeapon = m156,  0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = leo1apfsds, 0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = 105mm_heat,  0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = 105mm_he,  0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
 AddTurretWeapon = mg3,  -0.37, 2.24, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
 
 AddPartTurretWeapon = mg3_l, false, true, true, 0.74, 3.32, 0.01

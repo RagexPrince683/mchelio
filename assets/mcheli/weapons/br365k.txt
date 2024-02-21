@@ -9,7 +9,7 @@ ReloadTime = 150
 Round = 1
 Delay = 150
 SoundVolume = 15
-Gravity = -0.03
+Gravity = -0.005
 Particle = largeexplode
 Sound = tank_gun_snd
 

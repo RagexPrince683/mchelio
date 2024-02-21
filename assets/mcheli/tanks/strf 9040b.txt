@@ -1,5 +1,5 @@
 DisplayName = Strf 9040B
-MaxHp = 230
+MaxHp = 200
 Speed = 0.6
 Sound = ifv_run
 ThrottleUpDown = 10.0

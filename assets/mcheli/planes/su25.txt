@@ -61,7 +61,7 @@ AddPartSteeringWheel =   0.1, 1.35, 3.99,   0.0,0,1, -10
 ; ハンドルを追加        X座標, Y座標, Z座標,  回転軸X, 軸Y, 軸Z,   最大回転角度
 
 ; パラメータは前から順に 武器設定ファイル名、位置(X,Y,Z)、回転角度(横,縦), パイロット使用可否, 座席, DefaultYaw, MinYaw, MaxYaw, MinPitch, MaxPitch
-AddWeapon = Gsh-30-2, 0.18, 0.83,  6.15
+AddWeapon = gsh-30-2, 0.18, 0.83,  6.15
 AddWeapon = R-60BM,  -6.01, 1.93, -4.8, 0.0, 0.0 , true, 2
 AddWeapon = R-60BM,  -5.19, 1.98, -4.02, 0.0, 0.0 , true, 2
 AddWeapon = fab250,  -1.92, 1.34, -2, 0.0, 0.0 , true, 2
