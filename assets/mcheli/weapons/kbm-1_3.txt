@@ -11,7 +11,7 @@ Delay = 170
 ModeNum = 1
 SoundPitch = 0.5
 SoundVolume = 15
-Sound = cannon_4_snd
+Sound = tsixtyfourmain
 group = maingun
 Gravity = -0.005
 
