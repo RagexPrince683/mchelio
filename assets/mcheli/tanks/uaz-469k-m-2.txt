@@ -21,13 +21,13 @@ DefaultFreelook = false
 
 WeightedCenterZ = 0.8
 
-AddTexture = uaz-469_9
-AddTexture = uaz-469_10
-AddTexture = uaz-469_11
-AddTexture = uaz-469_12
-AddTexture = uaz-469_13
-AddTexture = uaz-469_14
-AddTexture = uaz-469_15
+;AddTexture = uaz-469_9
+;AddTexture = uaz-469_10
+;AddTexture = uaz-469_11
+;AddTexture = uaz-469_12
+;AddTexture = uaz-469_13
+;AddTexture = uaz-469_14
+;AddTexture = uaz-469_15
 
 OnGroundPitchFactor = 10.0
 OnGroundRollFactor  = 4.8

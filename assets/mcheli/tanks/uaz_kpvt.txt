@@ -43,7 +43,7 @@ PivotTurnThrottle = 0.1
 PartWheelRot = 40
 AddPartSteeringWheel =  0.5330,  1.2188,  0.6722,  0, 0.3196, -1,   100
 AddPartWeaponBay = kpvt,0,1.3149,0.9011, 1,0,0,80
-InventorySize = 27
+InventorySize = 9
 AddWeapon = kpvt,      0.00, 2.0642, -0.435,  0.0, 0, false,3, 0, -360,360, -35, 7
 AddPartWeapon = kpvt, false, true, false, 0.00, 1.8706, -0.435, 0
 AddPartWeaponChild = false, true, 0.00, 1.8706, -0.435, 0.0
@@ -54,6 +54,10 @@ AddRecipe = "IGI",  "III",  "III",   G, glass, I, iron_ingot, R, redstone
 
 AddFixedSearchLight =  0.6153, 0.9336, 2.209,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
 AddFixedSearchLight = -0.6153, 0.9336, 2.209,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25, -6.0,  0
+
+AddFixedSearchLight =  0.856, 0.575,-2.02,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
+AddFixedSearchLight =  -0.856, 0.575,-2.02,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
+
 AddPartWheel     = 0.9475,  0.2383,  1.6023, 30
 AddPartWheel     =  -0.9498,  0.2383,  1.6023, 30
 AddPartWheel     = 0.9475,  0.2383,  -1.136
