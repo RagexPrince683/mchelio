@@ -1,11 +1,11 @@
 DisplayName = 2S3 "Nona"
 MaxHp = 190
 Speed = 0.7
-Sound = mbt_run
+Sound = tseventytwopass
 ThrottleUpDown = 10.0
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = true
 CameraRotationSpeed = 30

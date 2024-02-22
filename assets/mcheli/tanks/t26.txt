@@ -1,17 +1,17 @@
 DisplayName = T-26 (mod. 1939)
 AddDisplayName = Т-26 (образец 1939 г.)
-MaxHp = 180
+MaxHp = 45
 Speed = 0.5
-Sound = tank_gte
+Sound = prop_tank
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 4
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
-CameraZoom = 4
+CameraZoom = 2
 CameraPosition = 0.00,  3,  0, true
 EnableNightVision = false
 CameraRotationSpeed = 40
@@ -79,7 +79,10 @@ AddTurretWeapon = 45mmcannon_aphe, 0.22, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,3
 AddTurretWeapon = 45mmcannon_apa, 0.22, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,360, -17, 7
 AddTurretWeapon = 45mmcannon_he, 0.22, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,360, -17, 7
 AddTurretWeapon = mg7_62mm_dt, 0.01, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,360, -17, 7
+
 BoundingBox =  0.0, 1.6,  0.0,   2.4, 2,  0.80
 BoundingBox =  0.0, 0.5, 1.3,   2.4, 1.9,  1.00
 BoundingBox =  0.0, 0.5, -1.3,   2.4, 1.9,  1.00
+
+
 AddFixedSearchLight =  0.072, 1.2216, 1.42,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0

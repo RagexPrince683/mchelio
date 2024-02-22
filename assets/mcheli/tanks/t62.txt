@@ -1,7 +1,7 @@
 DisplayName = T-62М
 MaxHp = 265
 Speed = 0.62
-Sound = mbt_run
+Sound = leoone
 ThrottleUpDown = 10.0
 MobilityRoll = 0
 Gravity = -0.61

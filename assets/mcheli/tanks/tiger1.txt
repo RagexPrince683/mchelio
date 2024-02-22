@@ -23,7 +23,7 @@ SubmergedDamageHeight = 3
  
 
 AddTexture = tiger
-AddTexture = tiger1
+
 
 ;TurretPosition = 0.0, -0.0, 0.0
 

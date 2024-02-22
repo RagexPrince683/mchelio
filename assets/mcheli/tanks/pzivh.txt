@@ -1,7 +1,7 @@
 ﻿DisplayName = Pzkpfw. IV Ausf. H
 AddDisplayName = en_US, Pzkpfw. IV Ausf. H
-MaxHp = 96
-Speed = 0.4
+MaxHp = 100
+Speed = 0.5
 Sound = tank
 ThrottleUpDown = 3.5
 MobilityYawOnGround = 1.5
@@ -11,7 +11,7 @@ MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
-CameraZoom = 4
+CameraZoom = 2
 CameraPosition = 0.00, 2.25, 0.00, true
 HideEntity = true
 EnableNightVision = false
@@ -33,7 +33,7 @@ SubmergedDamageHeight = 3
 ; Tank or Car or Unknown
 WeightType = Tank
 
-AddSeat = 0.0, 2.5, 0.0
+AddGunnerSeat = 0.00,  2.5, 0.00
 
 ;ArmorMinDamage = 12
 
@@ -111,7 +111,21 @@ AddPartWeaponChild = false, true, -0.3607, 1.8143, 0.3945, 0.1
 AddTurretWeapon = mg34, -0.3607, 1.8143, 0.3945, 0.0, 0.0, true, 1, 0,-20,20, -10, 10, 0.1
 TurretPosition = 0.00, 1.57, -0.4196
 
-BoundingBox =  0.0, 0.635, 1.53,   2.0, 0.9,   0.75
-BoundingBox =  0.0, 0.83, -0.09,   2.6, 1.3,   0.80
-BoundingBox =  0.0, 0.83, -1.69,   2.6, 1.3,   0.80
-BoundingBox =  0.0, 1.85, -0.50,   1.9, 0.75,   0.80
+BoundingBox =  0.0, 0.635, 0.60,   2.0, 0.9,   0.50
+BoundingBox =  0.0, 0.83, -0.39,   2.6, 1.3,   0.50
+BoundingBox =  0.0, 0.83, -1.69,   2.6, 1.3,   0.55
+BoundingBox =  0.0, 1.85, -0.50,   1.9, 0.75,   0.25
+
+
+BoundingBox =  0.0, 0.315, 1.45,   1.9, 0.2,   0.38
+BoundingBox =  0.0, 0.435, 1.55,   1.9, 0.2,   0.38
+
+BoundingBox =  0.0, 0.635, 1.65,   1.9, 0.2,   0.38
+
+
+BoundingBox =  0.0, 0.735, 1.45,   1.9, 0.2,   0.38
+
+BoundingBox =  0.0, 0.935, 1.45,   1.9, 0.1,   0.38
+BoundingBox =  0.0, 1.035, 1.3,   1.9, 0.1,   0.38
+
+BoundingBox =  0.0, 1.35, 0.58,   1.95, 0.4,   0.38
