@@ -110,17 +110,25 @@ AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
 RideRack = c5, 1
 RideRack = c5, 2
 
+;hull
+BoundingBox =  0.0, 0.75,  0.85,   2.65, 1.4,  0.60
 
-BoundingBox =  0.0, 0.45,  1.25,   2.75, 1.8,  0.60
-BoundingBox =  0, 1.8,  0,   2.35, 1.2,  0.20
-BoundingBox =  0.0, 0.45,  0.0,   2.75, 1.8,  0.60
-BoundingBox =  0, 0.45,  1.80,   2.75, 0.8,  0.60
-BoundingBox =  0, 0.95,  2.10,   2.65, 0.8,  0.18
-BoundingBox =  0, 0.90,  2.40,   2.65, 0.3,  0.18
-BoundingBox =  0, 0.45,  2.35,   2.65, 0.3,  0.26
+BoundingBox =  0.0, 0.75,  0.0,   2.65, 1.4,  0.60
+;lfp
+BoundingBox =  0, 0.20,  2.15,   2.50, 0.2,  0.26
+BoundingBox =  0, 0.40,  2.35,   2.50, 0.2,  0.26
+
+BoundingBox =  0, 0.60,  2.50,   2.50, 0.2,  0.26
+;ufp
+BoundingBox =  0, 0.80,  2.45,   2.50, 0.2,   0.18
+
+BoundingBox =  0, 1.0,  2.15,   2.50, 0.2,   0.18
+BoundingBox =  0, 1.2,  1.75,   2.50, 0.2,   0.18
+BoundingBox =  0, 1.35,  1.45,   2.50, 0.2,   0.18
 
 
+;rearhull
 
-
-BoundingBox =  0.0, 0.65, -2.0,   2.75, 1.4,  0.70
-
+BoundingBox =  0.0, 0.75, -2.0,   2.65, 1.4,  0.70
+;turret
+BoundingBox =  0, 1.8,  0,   2.30, 1.2,  0.20

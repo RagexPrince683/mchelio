@@ -10,7 +10,6 @@ Round = 1
 SoundVolume = 10
 Accuracy = 1
 ModeNum = 2
-Gravity = -0.01
 Particle = largeexplode
 Sound = meighteenhellcat
 BulletColor        = 255, 255, 100, 100
