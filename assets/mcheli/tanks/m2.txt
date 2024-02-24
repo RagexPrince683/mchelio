@@ -30,8 +30,8 @@ OnGroundRollFactor  = 0
 
 EnableBack = true
 
-AddTexture = m2_atom_1
-AddTexture = m2_atom_2
+AddTexture = m2_1
+AddTexture = m2_2
 
 Category = M.A
 
