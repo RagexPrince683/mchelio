@@ -1,4 +1,5 @@
 ﻿DisplayName = Nissan Silvia S14
+AddDisplayName = en_US, Nissan Silvia S14
 MaxHp = 200
 ThrottleUpDown = 0.84
 ;6.4s
@@ -38,7 +39,7 @@ WeightType = Car
 
 SetWheelPos =  0.46,  -0.29,  1.7609, -1.8032
 
-HUD = bnr32_hud, none
+HUD = bnr32_hud, none, none, none, none
 
 AddSeat =  -0.4902,   -0.0284, -0.22
 
@@ -59,8 +60,27 @@ AddPartWheel     = -1.3347,  0.0602,  -1.8048, 0
 AddPartWheel     =  1.3347,  0.0602,  -1.8032, 0
 
 AddPartSteeringWheel =  -0.4902,  0.6717,  0.4543,  0.0, 0.3156, -1.00,  100
+
+AddFixedSearchLight =  0.75, 0.44, 2.86,   0x50FFFFFF,   0x00FFFFC0,    0.13, 0.6,  -5,  0
+AddFixedSearchLight = -0.75, 0.44, 2.86,   0x50FFFFFF,   0x00FFFFC0,    0.13, 0.6,   5,  0
+AddFixedSearchLight =  0.65, 0.44, 2.90,   0x50FFFFFF,   0x00FFFFC0,    0.13, 0.6,  -5,  0
+AddFixedSearchLight = -0.65, 0.44, 2.90,   0x50FFFFFF,   0x00FFFFC0,    0.13, 0.6,   5,  0
+
+
 AddFixedSearchLight =  -0.7822, 0.6288,-3.055,   0x80FF0000,   0x00FF0000,    0.02, 0.5,  -180.0,  0
 AddFixedSearchLight =  0.7822, 0.6288,-3.055,   0x80FF0000,   0x00FF0000,    0.02, 0.5,  -180.0,  0
+
+
+BoundingBox = 0.0, 0.4, 1.9, 1.0, 0.6
+
+BoundingBox = 0.0, 0.0, 1.9, 2.0, 0.2
+
+BoundingBox = 0.0, 0.0, 1.6, 2.2, 0.2
+
+BoundingBox = 0.0, 0.0, 0.0, 2.2, 0.2
+
+BoundingBox = 0.0, 0.15, -2.0, 2.2, 0.2
+
 
 InventorySize = 9
 
