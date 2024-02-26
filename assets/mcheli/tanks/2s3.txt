@@ -1,7 +1,7 @@
 DisplayName = 2S3 "Akacia"
 MaxHp = 180
 Speed = 0.6
-Sound = mbt_run
+Sound = tseventytwopass
 ThrottleUpDown = 10.0
 MobilityRoll = 0
 Gravity = -0.1
