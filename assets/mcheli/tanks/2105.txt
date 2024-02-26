@@ -81,10 +81,10 @@ AddFixedSearchLight =  0.832, 0.376, 3.03,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0
 AddFixedSearchLight =  -0.832, 0.376, 3.03,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5,0,0
 
 
-AddFixedSearchLight =  0.722, 0.5524,-2.4452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
-AddFixedSearchLight = -0.722, 0.5524,-2.4452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
-AddFixedSearchLight =  0.53, 0.5524,-2.4452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
-AddFixedSearchLight = -0.53, 0.5524,-2.4452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
+AddFixedSearchLight =  0.862, 0.5524,-2.8452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
+AddFixedSearchLight = -0.862, 0.5524,-2.8452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
+AddFixedSearchLight =  0.93, 0.5524,-2.8452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
+AddFixedSearchLight = -0.93, 0.5524,-2.8452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
 
 
 BoundingBox = 0.0, 0.4, 2.3, 0.8, 0.7
