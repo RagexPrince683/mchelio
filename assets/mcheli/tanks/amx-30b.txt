@@ -1,7 +1,7 @@
 DisplayName = AMX-30B
 MaxHp = 250
 Speed = 0.70
-Sound = tank_gte
+Sound = MT_run_snd
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 4.0
 MinRotationPitch = -30

@@ -1,7 +1,7 @@
 DisplayName = T-90MS
 MaxHp = 800
-Speed = 0.8
-Sound = tank_gte
+Speed = 0.84
+Sound = tninety
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 4.0
 MinRotationPitch = -30

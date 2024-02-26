@@ -1,4 +1,4 @@
-DisplayName = T-62М
+DisplayName = T-62A
 MaxHp = 265
 Speed = 0.62
 Sound = leoone
@@ -78,15 +78,28 @@ FuelConsumption = 2.0
 
 AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot
 
-BoundingBox =  0.0, 0.45, 0.80,   2.75, 1.8,  0.60
-BoundingBox =  0, 1.8,  0,   2.00, 0.95,  0.08
-BoundingBox =  0.0, 0.45,  0.0,   2.75, 1.8,  0.60
-BoundingBox =  0, 0.45,  0.60,   2.75, 0.8,  0.60
-BoundingBox =  0, 0.95,  1.35,   2.65, 0.8,  0.18
-BoundingBox =  0, 0.90,  1.65,   2.65, 0.3,  0.18
-BoundingBox =  0, 0.75,  2.00,   2.65, 0.1,  0.18
-BoundingBox =  0, 0.60,  2.15,   2.65, 0.1,  0.18
-BoundingBox =  0, 0.45,  2.00,   2.65, 0.3,  0.26
+BoundingBox =  0.0, 0.60, 0.80,   2.75, 1.3,  0.60
+BoundingBox =  0.0, 1.6,  0.10,   1.90, 0.80,  0.08
+BoundingBox =  0.0, 1.8,  -0.10,   1.90, 0.95,  0.08
+BoundingBox =  0.0, 0.65,  0.0,   2.75, 1.3,  0.60
+BoundingBox =  0, 0.60,  0.60,   2.75, 1.3,  0.60
+
+
+;ulp
+
+BoundingBox =  0, 1.25,  1.05,   2.65, 0.1,  0.18
+BoundingBox =  0, 1.15,  1.23,   2.65, 0.1,  0.18
+BoundingBox =  0, 1.05,  1.33,   2.65, 0.1,  0.18
+BoundingBox =  0, 0.95,  1.50,   2.65, 0.1,  0.18
+BoundingBox =  0, 0.85,  1.61,   2.65, 0.1,  0.18
+BoundingBox =  0, 0.75,  1.90,   2.65, 0.1,  0.18
+BoundingBox =  0, 0.60,  2.09,   2.65, 0.1,  0.18
+;lfp
+BoundingBox =  0, 0.18,  1.78,   2.65, 0.1,  0.26
+BoundingBox =  0, 0.25,  1.85,   2.65, 0.1,  0.26
+BoundingBox =  0, 0.35,  1.95,   2.65, 0.1,  0.26
+BoundingBox =  0, 0.45,  2.00,   2.65, 0.1,  0.26
+BoundingBox =  0, 0.55,  2.08,   2.65, 0.1,  0.26
 
 
 

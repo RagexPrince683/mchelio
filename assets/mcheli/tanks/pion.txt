@@ -1,7 +1,7 @@
 DisplayName = 2S7 "Pion"
 MaxHp = 180
 Speed = 0.35
-Sound = mbt_run
+Sound = zilonethreefive
 ThrottleUpDown = 10.0
 MobilityRoll = 0
 Gravity = -0.1
