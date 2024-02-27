@@ -3,7 +3,7 @@ AddDisplayName = en_US, M2 Browning
 MaxHp = 100
 ThrottleUpDown = 9.9
 Speed = 0.005
-MobilityYawOnGround = 1.0
+MobilityYawOnGround = 2.0
 Sound = none
 MinRotationPitch = -90
 MaxRotationPitch =  90
@@ -17,6 +17,8 @@ MaxFuel           = 0
 FuelConsumption   = 0
 DefaultFreelook = false
 ThirdPersonDist = 3
+
+CameraZoom = 1
 
 StepHeight = 0.0
 
