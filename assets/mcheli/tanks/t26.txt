@@ -80,9 +80,25 @@ AddTurretWeapon = 45mmcannon_apa, 0.22, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,36
 AddTurretWeapon = 45mmcannon_he, 0.22, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,360, -17, 7
 AddTurretWeapon = mg7_62mm_dt, 0.01, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,360, -17, 7
 
-BoundingBox =  0.0, 1.6,  0.0,   2.4, 2,  0.80
-BoundingBox =  0.0, 0.5, 1.3,   2.4, 1.9,  1.00
-BoundingBox =  0.0, 0.5, -1.3,   2.4, 1.9,  1.00
+BoundingBox =  0.15, 1.9,  0.0,   1.5, 0.7,  0.20
+BoundingBox =  0.0, 0.9, -0.45,   2.4, 1.3,  0.50
+BoundingBox =  0.0, 0.55, -1.40,   1.95, 0.4,  0.50
+BoundingBox =  0.0, 0.65, -1.35,   1.95, 0.1,  0.50
+BoundingBox =  0.0, 0.75, -1.20,   1.95, 0.1,  0.50
+
+BoundingBox =  0.0, 0.55, 1.30,   1.90, 0.4,  0.50
+BoundingBox =  0.0, 0.65, 1.40,   1.90, 0.1,  0.50
+BoundingBox =  0.0, 0.75, 1.45,   1.90, 0.1,  0.50
+BoundingBox =  0.0, 0.85, 1.45,   1.90, 0.1,  0.50
+
+BoundingBox =  0.0, 0.95, 1.35,   1.90, 0.1,  0.20
+BoundingBox =  0.0, 1.05, 1.05,   1.90, 0.1,  0.20
+BoundingBox =  0.0, 1.15, 0.55,   1.90, 0.1,  0.20
+BoundingBox =  0.0, 1.25, 0.15,   1.90, 0.1,  0.30
+BoundingBox =  0.0, 1.35, 0.15,   1.90, 0.1,  0.30
+BoundingBox =  0.0, 1.45, 0.10,   1.90, 0.1,  0.30
+BoundingBox =  0.0, 1.50, 0.10,   1.90, 0.1,  0.30
+
 
 
 AddFixedSearchLight =  0.072, 1.2216, 1.42,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0

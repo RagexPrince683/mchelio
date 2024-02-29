@@ -1,6 +1,6 @@
-DisplayName = 	30mm Mk44 [MK238]
+DisplayName = 	30mm Mk44 Bushmaster II [MK238]
 Type = MachineGun1
-Power = 44
+Power = 10
 Acceleration = 8.0
 Explosion = 3
 ExplosionBlock = 0
@@ -11,13 +11,13 @@ ReloadTime = 10
 Round = 100
 SoundVolume = 1
 SoundPitch = 1.0
-Sound = lav
+Sound = bradmain
 Accuracy = 1.0
 ModeNum = 2
 Recoil = 0.9
-HeatCount = 22
+HeatCount = 10
 MaxHeatCount = 150
-
+Gravity = -0.005
 AddMuzzleFlash      =   2.1,      0.32,        3,  150,254,159,84
 AddMuzzleFlash      =   2.0,      0.30,        2,  150,254,219,184
 AddMuzzleFlashSmoke   = 2.2,  2,   5.0,  2.0, 15,  180,250,245,240

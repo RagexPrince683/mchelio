@@ -1,4 +1,4 @@
-DisplayName = 	30mm Mk44 [MK266]
+DisplayName = 	30mm Mk44 Bushmaster II [MK266]
 Type = MachineGun2
 Power = 25
 Acceleration = 8.0
@@ -10,7 +10,7 @@ ReloadTime = 10
 Round = 100
 SoundVolume = 1
 SoundPitch = 1.0
-Sound = lav
+Sound = bradmain
 Accuracy = 1.0
 ModeNum = 2
 Recoil = 0.9

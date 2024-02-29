@@ -1,15 +1,15 @@
 DisplayName = LAV-3
-MaxHp = 240
+MaxHp = 180
 Speed = 0.73
-Sound = vehicle_drive
+Sound = dieselman
 ThrottleUpDown = 20.0
 HideEntity = true
 MobilityYawOnGround = 4.0
 MinRotationPitch = -30
 MaxRotationPitch = 5
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
 CameraZoom = 4
 CameraPosition = 0.00,  3.4, 0.5, true
@@ -42,7 +42,7 @@ WeightType = Tank
 
 SetWheelPos =  1.37,  -0.32,  3.60, 1.43, -0.75
 
-AddSeat = 0.0, 1.0, 0.0
+AddGunnerSeat =  0.00,  3.50, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
 
 AddSeat = 0.82, 2.0, -2.5, true
 AddSeat = -0.82, 2.0, -2.5, true

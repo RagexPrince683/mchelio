@@ -1,4 +1,4 @@
-DisplayName = T-90MS
+DisplayName = T-90M obr 2017
 MaxHp = 800
 Speed = 0.84
 Sound = tninety
