@@ -15,7 +15,7 @@ MobilityRoll     = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1.0
-EnableNightVision = true
+EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 1.0
 
