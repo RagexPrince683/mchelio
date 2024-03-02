@@ -1,21 +1,21 @@
 DisplayName = ZIL-130
-MaxHp = 120
-ThrottleUpDown = 10.0
-Speed = 0.5
+MaxHp = 230
+ThrottleUpDown = 0.81
+Speed = 0.4
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
 Sound = opelblitz
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
-Gravity        = -0.15
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor   = 0.85
 EnableNightVision = false
 MaxFuel           = 1200
-FuelConsumption   = 1.0
+FuelConsumption   = 1.8
 ThirdPersonDist = 4
-DefaultFreelook = true
+DefaultFreelook = false
 
 Category = C
 WeightType = Car
@@ -30,9 +30,18 @@ EntityWidth  = 0.8
 EntityHeight = 0.8
 
 AddSeat =   0.4049,  0.55,  0.9418
+
+unmountposition = 0.4049,  2.25,  0.9418
+
 AddSeat =  -0.4367,  0.65,  0.9418
 
-AddWeapon =  millitary_horn, 0.00,  0.42,  3.05, 0.0, 90
+AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
+
+AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
+
+AddSeat = 0.40, 0.75, 0.0
+
+AddSeat = -0.40, 0.75, 0.0
 
 PivotTurnThrottle = 0.1
 PartWheelRot = 25
@@ -41,6 +50,8 @@ AddPartWheel     =  0.7982,   0.1682,  2.2626, 35
 AddPartWheel     = -0.7982,   0.1682,  2.2626, 35
 AddPartWheel     =  0.6586,   0.1681, -1.5429
 AddPartWheel     = -0.6586,   0.1681, -1.5429
+
+SetWheelPos =  0.60,  -0.29,  2.26, -1.54
 
 InventorySize = 108
 
