@@ -1,10 +1,7 @@
 DisplayName = S-13 122mm Rocket
 Type = Rocket
 Power = 500
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+
 ModelBullet = hydra70
 Acceleration = 5.0
 Explosion = 4

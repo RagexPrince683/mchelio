@@ -24,7 +24,7 @@ DefaultFreelook = true
 MotionFactor = 0.9
 FlareType = 10
 ThirdPersonDist = 8
-CameraPosition = 0.1136, 3.4065, 0.1832, true
+CameraPosition = 0.1136, 2.8065, 0.1832, true
 PivotTurnThrottle = 0.1
 Float = true
 

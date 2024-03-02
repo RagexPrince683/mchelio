@@ -2,7 +2,7 @@
 AddDisplayName = en_US, Pzkpfw. IV Ausf. H
 MaxHp = 100
 Speed = 0.5
-Sound = tank
+Sound = tankmove
 ThrottleUpDown = 3.5
 MobilityYawOnGround = 1.5
 MinRotationPitch = -60

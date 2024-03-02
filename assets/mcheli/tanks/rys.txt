@@ -1,26 +1,26 @@
 DisplayName = BMRK "Lynx"
-MaxHp = 220
-Speed = 0.65
-Sound = mbt_run
+MaxHp = 200
+Speed = 0.8
+Sound = mardereng
 ThrottleUpDown = 10.0
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
-EnableNightVision = false
+EnableNightVision = true
 CameraRotationSpeed = 30
 StepHeight = 1
 MinRotationPitch = -20
 MaxRotationPitch = 5
 DefaultFreelook = false
 HideEntity = true
-CameraPosition = 0.0, 2.1335, 0, false
+CameraPosition = 0.0, 2.1335, 0, true
 FlareType = 10
 AddTexture = rys_1
 
 MobilityYawOnGround = 3.0
 
-HUD = mbt_hud
+HUD = mbt_hud, gunner
 
 SubmergedDamageHeight = 3
 
@@ -53,13 +53,14 @@ AddTrackRoller = 1.13,  0.1396,  -1.64
 AddTrackRoller = 1.13,  0.1396,  -2.4626
 AddTrackRoller = 1.00,  0.4840,  -3.2931
 
-AddWeapon = mg30mm,      0.00, 1.7555, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
+AddWeapon = lynxap,      0.00, 1.7555, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
+AddWeapon = lynxhe,      0.00, 1.7555, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
 AddWeapon = mg7_62mm,      0.14, 1.7440, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
 AddWeapon = 9k118tv, -1.04, 1.77, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
 AddWeapon = 9k118tv, -1.04, 1.94, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
 AddWeapon = 9k118tv, 1.13, 1.77, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
 AddWeapon = 9k118tv, 1.13, 1.94, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
-AddPartWeapon = mg30mm / mg7_62mm / 9k118tv, false, true, false, 0.00, 1.5964, 0, 0
+AddPartWeapon = lynxap lynxhe / mg7_62mm / 9k118tv, false, true, false, 0.00, 1.5964, 0, 0
 AddPartWeaponChild = false, true, 0.00, 1.7589, 0.7205
 
 EnableBack = true

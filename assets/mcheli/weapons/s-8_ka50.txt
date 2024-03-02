@@ -1,22 +1,20 @@
 DisplayName = S-8 80mm Rocket
 Type = Rocket
 Power = 400
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+
 ModelBullet = hydra70
 Acceleration = 4.0
 Explosion = 3
 Flaming = false
-Sight = MoveSight
-Delay = 2
+Sight = None
+Delay = 1
 ReloadTime = 150
-Round = 20
-ModeNum = 2
-Sound = missile_4_snd
+Round = 40
+Sound = hydraseventy
+SoundPitch = 0.8
+DisplayMortarDistance = true
 
-Gravity = -0.001
+Gravity = -0.005
 
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
@@ -29,7 +27,7 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 20
-SuppliedNum = 20
+MaxAmmo = 80
+SuppliedNum = 40
 Item =  4, iron_ingot
 Item =  3, gunpowder

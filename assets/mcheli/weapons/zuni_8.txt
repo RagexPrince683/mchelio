@@ -8,7 +8,7 @@ Sight = MoveSight
 Round = 8
 Delay = 2
 ReloadTime = 110
-Gravity = -0.001
+Gravity = -0.005
 Sound = hydraseventy
 
 DamageFactor = tank, 1.0

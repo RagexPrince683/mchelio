@@ -1,25 +1,20 @@
-DisplayName = S-8KOM 80mm Rocket [HEAT]
+DisplayName = S-8 80mm Rocket
 Type = Rocket
 Power = 400
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+
 ModelBullet = hydra70
 Acceleration = 4.0
-Accuracy = 1
-Explosion = 4
-Sound = rocket_snd
-TrajectoryParticle = fireworksSpark 
-Sight = MoveSight
-Delay = 2
-ReloadTime = 110
-Round = 76
-Accuracy = 2
-Piercing = 1
-Group = s-8
+Explosion = 3
+Flaming = false
+Sight = None
+Delay = 1
+ReloadTime = 150
+Round = 40
+Sound = hydraseventy
+SoundPitch = 0.8
+DisplayMortarDistance = true
 
-Gravity = -0.001
+Gravity = -0.005
 
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
@@ -33,6 +28,6 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 MaxAmmo = 80
-SuppliedNum = 20
-Item =  3, iron_ingot
+SuppliedNum = 40
+Item =  4, iron_ingot
 Item =  3, gunpowder
