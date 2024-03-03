@@ -59,7 +59,7 @@ BoundingBox = 0.0, 0.20, 0.0, 2.5, 0.2
 BoundingBox = 0.0, 0.20, 1.8, 2.5, 0.2
 ;rear
 BoundingBox = 0.0, 0.20, -1.6, 2.5, 0.2
-Regeneration = true
+Regeneration = false
 ArmorDamageFactor = 2.32
 
 AddWeapon = none, 0.0, 0.0, 0.0, 0, 0

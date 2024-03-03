@@ -93,3 +93,7 @@ InventorySize = 9
 AddPartCanopy   =  0.8115, 0.8417, 0.7622,  0, 1, 0, -75
 
 AddPartSteeringWheel =  0.431,  1.05,  0.565,  0, 0.488, -1,  130
+
+ArmorDamageFactor = 1
+
+ArmorMinDamage = 2

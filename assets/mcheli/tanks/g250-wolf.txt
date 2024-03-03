@@ -81,7 +81,7 @@ AddFixedSearchLight =  -0.7609, 0.5242,-2.0940,   0xFFFF0000,   0x10FF0000,    0
 
 ArmorMinDamage = 2
 
-Regeneration = true
+Regeneration = false
 ArmorDamageFactor = 1.0
 
 

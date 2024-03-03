@@ -70,3 +70,6 @@ BoundingBox = 0.0, 0.50, 1.25, 2.0, 0.2
 ;BoundingBox = 0.0, 0.50, -0.6, 2.1, 0.2
 BoundingBox = 0.0, 0.50, -1.0, 2.0, 0.2
 
+ArmorDamageFactor = 1
+
+ArmorMinDamage = 2

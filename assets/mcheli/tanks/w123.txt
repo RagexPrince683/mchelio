@@ -24,6 +24,8 @@ AddTexture = w123_3
 AddTexture = w123_4
 AddTexture = w123_5
 
+ArmorMinDamage = 2
+
 OnGroundPitchFactor = 10.0
 OnGroundRollFactor  = 4.8
 

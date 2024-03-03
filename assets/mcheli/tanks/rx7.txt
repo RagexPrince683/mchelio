@@ -110,7 +110,7 @@ BoundingBox = 0.0, 0.0, 0.0, 2.4, 0.2
 BoundingBox = 0.0, 0.0, 1.8, 2.4, 0.2
 ;rear
 BoundingBox = 0.0, 0.0, -1.6, 2.4, 0.2
-Regeneration = true
+Regeneration = false
 ArmorDamageFactor = 2.32
 
 unmountposition = -0.54,   1.55, -0.25

@@ -59,7 +59,7 @@ EntityWidth = 0.9
 EntityHeight = 0.9
 StepHeight = 1.2
 
-Regeneration = true
+Regeneration = false
 ArmorDamageFactor = 1.0
 
 ArmorMinDamage = 2

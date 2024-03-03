@@ -81,6 +81,11 @@ BoundingBox = 0.0, 0.0, 0.0, 2.2, 0.2
 
 BoundingBox = 0.0, 0.15, -2.0, 2.2, 0.2
 
+Regeneration = false
+ArmorDamageFactor = 2.32
+
+ArmorMinDamage = 2
+
 
 InventorySize = 9
 

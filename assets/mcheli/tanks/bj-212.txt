@@ -73,7 +73,7 @@ AddFixedSearchLight =  -0.8079, 0.6357,-1.80,   0xFFFF0000,   0x10FF0000,    0.0
 
 AddPartSteeringWheel =  0.4302,  0.9667,  0.6416,  0, 0.800, -1,  130
 
-Regeneration = true
+Regeneration = false
 ArmorDamageFactor = 1.0
 
 ArmorMinDamage = 2

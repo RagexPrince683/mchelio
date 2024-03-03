@@ -67,7 +67,7 @@ AddFixedSearchLight = 0.601, 0.680, 2.07,   0x50FFFFFF,   0x00FFFFC0,    0.45, 0
 AddFixedSearchLight =  0.816, 0.456,-2.31,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
 AddFixedSearchLight =  -0.808, 0.456,-2.31,   0xFFFF0000,   0x10FF0000,    0.05, 0.20,  0.0,  0
 
-Regeneration = true
+Regeneration = false
 ArmorDamageFactor = 1.0
 ArmorMinDamage = 2
 

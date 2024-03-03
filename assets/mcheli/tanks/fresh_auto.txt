@@ -23,7 +23,7 @@ AddSeat =  -0.4621,  0.13, 0.3429
 
 UnmountPosition = 0.4621,  2.23, 0.3429
 
-Regeneration = true
+Regeneration = false
 ArmorDamageFactor = 2.32
 
 ArmorMinDamage = 2

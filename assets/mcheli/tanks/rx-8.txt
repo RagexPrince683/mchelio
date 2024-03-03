@@ -70,7 +70,9 @@ BoundingBox = 0.0, 0, -1.4, 2.5, 0.2
 BoundingBox = 0.0, -0.0, 0.0, 2.9, 0.2
 BoundingBox = 0.0, 0, 1.8, 2.5, 0.2
 
+ArmorMinDamage = 2
 
+ArmorDamageFactor = 2.32
 
 
 AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
