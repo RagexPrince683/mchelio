@@ -29,11 +29,11 @@ HUD = none, vehicle
 
 ;AddGunnerSeat =  0.00,  -0.3, -1.30, 0.0, 2.27, 0.0, false, -25, 4
 
-addseat = 0.00,  -0.3, -1.30
+addseat = 1.00,  -0.3, -1.30
 
-AddGunnerSeat = 0.00,  -0.3, -1.30, 0.0, 2.27, 0.0, false, -25, 4, true
+AddGunnerSeat = 0.00,  -0.3, -1.30, 0.0, 2.27, 0.0, false, -25, 4, false
 
-unmountposition = 0.00,  1.0, -1.30
+unmountposition = 1.00,  2.0, -1.30
 
 StepHeight = 0.0
 

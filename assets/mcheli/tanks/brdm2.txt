@@ -66,6 +66,7 @@ TrackRollerRot = 30
 
 AddPartWeapon    = kpvt_heit / kpvt_apit,   false, true, false,  0.1136, 2.4065, 0.1832
 AddPartWeaponChild = false, true, 0.1136, 2.4065, 0.1832, 0.05
+AddPartWeaponChild = false, true, 0.1136, 2.4065, 0.1832, 0.00
 AddTurretWeapon = kpvt_heit, 0.1136, 2.4065, 0.1832,   0.0, 0.0, false, 1, 0, -360,360, -60,10
 AddTurretWeapon = kpvt_apit, 0.1136, 2.4065, 0.1832,   0.0, 0.0, false, 1, 0, -360,360, -60,10
 AddTurretWeapon = pkt, 0.1136, 2.4065, 0.1832,   0.0, 0.0, false, 1, 0, -360,360, -60,10
