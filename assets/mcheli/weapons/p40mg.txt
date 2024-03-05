@@ -36,6 +36,6 @@ HeatCount = 5
 MaxHeatCount = 150
 MaxAmmo = 288
 SuppliedNum = 24
-Item =   10, iron_ingot
-Item =  5, gunpowder
+Item =   5, iron_ingot
+Item =  2, gunpowder
 

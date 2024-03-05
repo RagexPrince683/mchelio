@@ -22,6 +22,7 @@ MaxFuel         = 1200
 FuelConsumption = 2.0
 HideEntity = true
 FlareType = 10
+CameraZoom = 4
 
 MobilityYawOnGround = 2.6
 

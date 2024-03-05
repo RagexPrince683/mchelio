@@ -16,7 +16,7 @@ MinRotationPitch = -90
 MaxRotationPitch = 45
 HideEntity = true
 DefaultFreeLook = true
-CameraPosition = -0.24,  3.60, 0.47, true
+CameraPosition = -0.24,  3.05, 0.47, true
 
 MobilityYawOnGround = 3.0
 

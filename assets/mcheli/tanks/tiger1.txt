@@ -22,7 +22,6 @@ SubmergedDamageHeight = 3
 
  
 
-AddTexture = tiger
 
 
 ;TurretPosition = 0.0, -0.0, 0.0
@@ -39,7 +38,7 @@ OnGroundRollFactor  = 1.5
 MobilityYawOnGround = 2.0
 PivotTurnThrottle = 0.0
 
-AddGunnerSeat =  0.85, 2.7, -0.534,   0.85,   2.9,  -0.534,   false, -8, 16, true
+AddGunnerSeat =  0.85, 2.55, -0.534,   0.85,   2.9,  -0.534,   false, -8, 16, true
 ;AddGunnerSeat = -0.5,  1.0,  0.5,    -0.7878, 1.8, 3.2,     false, -8, 16, false
 AddGunnerSeat = -0.6849,  0.5,  2.0650,    -0.7878, 1.8, 3.2,     false, -8, 16, false
 CameraPosition = 0.85, 3.6, -0.534, false

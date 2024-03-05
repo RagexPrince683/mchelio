@@ -14,7 +14,7 @@ GravityInWater = -1.0
 ;DamageFactor = 0.8
 ;this is a comment, stop reading comments as actual things EDWARD
 CameraZoom = 2
-CameraPosition = 0.00,  3.50, 0.90, true
+CameraPosition = 0.00,  3.25, 0.90, true
 EnableNightVision = true
 CameraRotationSpeed = 90
 ;EnableEntityRadar = true
