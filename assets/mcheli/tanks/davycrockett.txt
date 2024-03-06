@@ -3,7 +3,7 @@ AddDisplayName = en_US, M-29 Davy Crockett
 AddDisplayName = ja_JP, M-29 Davy Crockett
 ItemID = 28602
 MaxHp = 100
-Gravity = -9.81
+Gravity = -0.61
 GravityInWater = -1.0
 HideEntity = false
 MinRotationPitch = -8
@@ -28,7 +28,7 @@ CameraRotationSpeed = 20
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
 
-HUD = none, sight
+HUD = none, gunner
 
 ;AddSeat = 0.00,  -0.3, -1.30
 

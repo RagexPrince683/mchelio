@@ -99,7 +99,7 @@ AddFixedSearchLight = -0.90, 0.90,-3.25,   0xFFFF0000,   0x10FF0000,    0.05, 0.
 
 
 ;engine?
-BoundingBox =  0.0, 0.50,  1.9,   2.0, 0.6
+BoundingBox =  0.0, 0.70,  2.1,   0.8, 0.6
 ;mid
 BoundingBox = 0.0, 0.10, 0.0, 2.5, 0.2
 ;front

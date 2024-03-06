@@ -85,7 +85,7 @@ BoundingBox = 0.0, 0.40, 1.50, 1.85, 0.2
 BoundingBox = 0.0, 0.40, 0.0, 1.85, 0.2
 BoundingBox = 0.0, 0.40, -0.95, 1.85, 0.2
 
-WeightedCenterZ = 1.0
+WeightedCenterZ = 0.5
 
 Regeneration = false
 ArmorDamageFactor = 1

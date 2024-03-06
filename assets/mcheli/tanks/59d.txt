@@ -13,8 +13,8 @@ MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
-CameraPosition = 0.00,  3.60, 0.00, false
-CameraZoom = 4
+CameraPosition = 0.00,  3.25, 0.90, true
+CameraZoom = 3
 EnableNightVision = true
 CameraRotationSpeed = 27
 FlareType = 10
@@ -26,9 +26,12 @@ OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 1.0
 FlareType = 10
 EnableGunnerMode = true
-SubmergedDamageHeight = 4
+SubmergedDamageHeight = 3
 EnableEntityRadar = false
 HideEntity = true
+
+
+
 
 
 
@@ -36,15 +39,39 @@ HideEntity = true
 WeightType = Tank
 
 
+TurretPosition = 0.0, 1.0, 0.0
+
+
 WeightedCenterZ = 0.0
 
 SetWheelPos =  1.60,  -0.32,  2.6154, 1.1941, 0.0834,-1.0811,-2.2515
 
-HUD = mbt_hud,mbt_gnr, mbt_gnr
+HUD = mbt_hud,mbt_gnr
 
 
-AddGunnerSeat =  0.00,  2.50, 0.00, true
-AddGunnerSeat = -0.4993, 2.5936, -0.6339,   -0.4993, 3.9936, -0.6339, false, -90, 90, true
+
+AddGunnerSeat =  0.00,  1.25,  2.25,    0.00,  2.50,  0.0,  false, -90, 90, true
+
+AddGunnerSeat = -0.55,  1.00, -0.96,   -0.846, 3.60,  0.373, false, -90, 90, true
+
+
+;only works for passenger:
+
+;AddGunnerSeat =  0.00,  1.25,  2.25,    0.00,  2.50,  0.0,  false, -90, 90, true
+
+;AddGunnerSeat = -0.4993, 2.5936, -0.6339,   -0.4993, 3.9936, -0.6339, false, -90, 90, true
+
+
+;AddGunnerSeat = -0.4993, 2.5936, -0.6339,   -0.4993, 3.9936, -0.6339, false, -90, 90, true
+
+
+
+;AddSeat = 0.00,  2.50,  0.0
+
+
+;AddGunnerSeat =  0.00,  1.25,  2.25,    0.00,  2.50,  0.0,  false, -90, 90, true
+
+
 
 
 
@@ -109,7 +136,7 @@ AddTurretWeapon =  mg_coaxial59d, 0.35, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,
 
 
 AddPartTurretWeapon    = 12_7mmgun59d,   false, true, true,  -0.4993, 3.5321, 0.0339
-AddPartTurretWeapon    = 12_7mmgun59d,  false, true, false, -0.4993, 3.2936, 0.0339
+AddPartTurretWeapon    = 12_7mmgun59d,  false, true, true, -0.4993, 3.2936, 0.0339
 AddTurretWeapon = 12_7mmgun59d,   -0.4993, 3.5321,  0.5321,   0.0, 0.0, false, 2, 0, -80,80, -82,4
 
 
@@ -147,5 +174,5 @@ AddRecipe = "DGX",  "IXI",  "CRX",   X, iron_block,  G, glass, I, iron_ingot,  D
 
 
 
-EntityWidth  = 0.8
-EntityHeight = 0.8
+;EntityWidth  = 0.8
+;EntityHeight = 0.8

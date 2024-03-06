@@ -106,7 +106,7 @@ EntityWidth  = 1.0
 EntityHeight = 1.0
 
 ;engine?
-BoundingBox =  0.0, 0.65,  2.05,   1.5, 0.8
+BoundingBox =  0.0, 0.6,  2.05,   0.8, 0.8
 ;mid
 BoundingBox = 0.0, 0.20, 0.0, 2.4, 0.2
 ;front

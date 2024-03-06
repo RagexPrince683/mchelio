@@ -31,7 +31,7 @@ Category = C
 
 WeightType = Car
 
-HUD =  none, none, none, none, none, none
+HUD =  bnr32_hud, none, none, none, none, none
 
 EntityWidth  = 0.8
 EntityHeight = 0.8
@@ -45,6 +45,8 @@ UnmountPosition = 0.4172,  2.15,  0.2236
 
 AddSeat =  0.4172,  0.40, -0.4584
 AddSeat = -0.4172,  0.40, -0.4584
+
+AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
 
 AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
 
