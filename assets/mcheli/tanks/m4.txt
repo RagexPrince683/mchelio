@@ -23,7 +23,7 @@ CameraPosition = 0.00,  3.50,  0.90, false
 
 MobilityYawOnGround = 3.0
 
-HUD = bmct_hud, mbt_gnr
+HUD = ww2tank_hud, 
 
 AddTexture = m4-g
 AddTexture = m4-s
