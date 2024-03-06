@@ -18,6 +18,8 @@ DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 Gravity = -0.001
 
+DisplayMortarDistance = true
+
 ;chemYield = 1
 
 ; AddMuzzleFlash = 発射元からの距離, サイズ, 表示時間,  A,  R,  G,  B

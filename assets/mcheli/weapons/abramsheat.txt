@@ -42,6 +42,8 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
+DisplayMortarDistance = true
+
 
 MaxAmmo = 40
 SuppliedNum = 20
