@@ -23,6 +23,10 @@ DamageFactor = 1.0
 ;*0.8
 
 
+
+;-17.73 in Y only so -0.1773
+
+
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 
@@ -30,9 +34,9 @@ HUD = bnr32_hud, none
 
 WeightedCenterZ = -0.4
 
-AddSeat =  0.46704,  0.05048, 0.18016
+AddSeat =  0.46704,  -0.22682, -0.18016
 ;got this far *0.8
-AddSeat =  -0.46704,  0.13048, 0.18016
+AddSeat =  -0.46704,  -0.14682, -0.18016
 
 EnableBack = true
 Category = C
@@ -43,14 +47,14 @@ PivotTurnThrottle = 0.1
 
 PartWheelRot = 45
 SetWheelPos =  0.70,  -0.2,  1.7732, -1.81648
-AddPartSteeringWheel =  0.441,  0.711,  0.652,  0, 0.3196, -1,   95
-AddPartWheel     =  1.24,  0.211, 1.77, 35
-AddPartWheel     =  -1.24,  0.211, 1.77, 35
-AddPartWheel     = 1.24,  0.261, -1.82
-AddPartWheel     = -1.24,  0.261, -1.82
+AddPartSteeringWheel =  0.441,  0.5337,  0.652,  0, 0.3196, -1,   95
+AddPartWheel     =  1.24,  0.0337, 1.77, 35
+AddPartWheel     =  -1.24,  0.0337, 1.77, 35
+AddPartWheel     = 1.24,  0.0837, -1.82
+AddPartWheel     = -1.24,  0.0837, -1.82
 ;AddWeapon = otstrel, 0.6593,  0, -3,   0.0, 1.0
 
-AddPartCanopy = 1.17432, 0.3828, 1.0912, 0.0, 1.0, 0.0, -60
+AddPartCanopy = 1.17432, 0.2055, 1.0912, 0.0, 1.0, 0.0, -60
 AddPartCanopy = -1.17432, 0.3828, 1.0912, 0.0, 1.0, 0.0, 60
 AddPartHatch = 0, 0.74504, 1.44696, 1, 0, 0.0, -60
 AddPartHatch = 0, 0.91096, -0.8208, -1, 0, 0, -60
@@ -64,7 +68,7 @@ AddRecipe = " G ",  "I I",  "IIR",   G, glass, I, gold_ingot, R, diamond
 ;BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1
 
 ;engine?
-BoundingBox =  0.0, 0.50,  -1.8,   1.8, 0.8
+BoundingBox =  0.0, 0.3227,  -1.8,   1.8, 0.8
 ;mid
 BoundingBox = 0.0, -0.05, 0.0, 2.3, 0.2
 ;front
@@ -84,35 +88,45 @@ AddWeapon = L_Claxon,    0.00, 0.00, 0.00,  0.0,0.0
 ;*0.8 idk why headlight and tail light do not work
 
 ;headlight
-AddFixedSearchLight = -0.98272, 0.6065, 2.3644, 0x50FFFFFF, 0x00FFFFC0, 0.15, 0.15, -5, 0
+AddFixedSearchLight = -0.98272, 0.4292, 2.3644, 0x50FFFFFF, 0x00FFFFC0, 0.15, 0.15, -5, 0
 
-AddFixedSearchLight = 0.98272, 0.6065, 2.3644, 0x50FFFFFF, 0x00FFFFC0, 0.15, 0.15, -5, 0
+AddFixedSearchLight = 0.98272, 0.4292, 2.3644, 0x50FFFFFF, 0x00FFFFC0, 0.15, 0.15, -5, 0
 
 
 InventorySize = 9
 
+EntityPitch = -20
+
+EntityWidth  = 0.9
+EntityHeight = 0.9
+
 
 ;taillight
-AddFixedSearchLight = 0.73568, 0.78, -2.7192, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
-AddFixedSearchLight = -0.73568, 0.78, -2.7192, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
-AddFixedSearchLight = 0.81568, 0.78, -2.6952, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
-AddFixedSearchLight = -0.81568, 0.78, -2.6952, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
-AddFixedSearchLight = 0.89568, 0.77, -2.6632, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
-AddFixedSearchLight = -0.89568, 0.77, -2.6632, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
-AddFixedSearchLight = 0.97568, 0.78, -2.6392, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
-AddFixedSearchLight = -0.97568, 0.78, -2.6392, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
+AddFixedSearchLight = 0.73568,  0.6027, -2.7192, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
+AddFixedSearchLight = -0.73568, 0.6027, -2.7192, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
+AddFixedSearchLight = 0.81568,  0.6027, -2.6952, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
+AddFixedSearchLight = -0.81568, 0.6027, -2.6952, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
+AddFixedSearchLight = 0.97568,  0.6027, -2.6392, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
+AddFixedSearchLight = -0.97568, 0.6027, -2.6392, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
 
-AddFixedSearchLight = 0.73568, 0.87, -2.7192, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
-AddFixedSearchLight = -0.73568, 0.87, -2.7192, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
-AddFixedSearchLight = 0.81568, 0.87, -2.6952, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
-AddFixedSearchLight = -0.81568, 0.87, -2.6952, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
-AddFixedSearchLight = 0.89568, 0.86, -2.6632, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
-AddFixedSearchLight = -0.89568, 0.86, -2.6632, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
-AddFixedSearchLight = 0.97568, 0.87, -2.6392, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
-AddFixedSearchLight = -0.97568, 0.87, -2.6392, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
+AddFixedSearchLight = 0.89568,  0.5927, -2.6632, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
+AddFixedSearchLight = -0.89568, 0.5927, -2.6632, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
 
-AddFixedSearchLight = -1.1, 0.83, -2.58808, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -80.0, 30
-AddFixedSearchLight = 1.1, 0.83, -2.58808, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 80.0, 30
+
+AddFixedSearchLight = 0.73568,  0.6927, -2.7192, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
+AddFixedSearchLight = -0.73568, 0.6927, -2.7192, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
+AddFixedSearchLight = 0.81568,  0.6927, -2.6952, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
+AddFixedSearchLight = -0.81568, 0.6927, -2.6952, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
+AddFixedSearchLight = 0.97568,  0.6927, -2.6392, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
+AddFixedSearchLight = -0.97568, 0.6927, -2.6392, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
+
+
+AddFixedSearchLight = 0.89568,  0.6827, -2.6632, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 10.0, 40
+AddFixedSearchLight = -0.89568, 0.6827, -2.6632, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -10.0, 40
+
+
+AddFixedSearchLight = -1.1, 0.6527, -2.58808, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, -80.0, 30
+AddFixedSearchLight = 1.1,  0.6527, -2.58808, 0xFFFF0000, 0x10FF0000, 0.05, 0.35, 80.0, 30
 
 StepHeight = 1.2
 UnmountPosition = 0.5838,  1.50, 0.2252
