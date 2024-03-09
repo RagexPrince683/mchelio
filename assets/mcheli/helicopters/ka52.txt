@@ -110,3 +110,6 @@ AddRecipe = "DX ",  "XRX",  "HX ",  X, iron_block, R,redstone_block,  D,dispense
 
 
 DamageFactor = 0.6
+
+
+ThrottleUpDown = 0.5

@@ -31,3 +31,7 @@ AddRecipe = "SSS",  "PRI",  "BGG",  I, iron_ingot,  R, redstone,  S, stick,  P, 
 
 
 ;BoundingBox =  0.0, 0.0, 0.0,  1.5, 1.5
+
+
+ThrottleUpDown = 0.8
+

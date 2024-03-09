@@ -41,7 +41,7 @@ Category = C
 
 WeightType = Car
 
-HUD =  none, none, none, none, none
+HUD =  bnr32_hud, none, none, none, none
 
 EntityWidth  = 0.8
 EntityHeight = 0.8

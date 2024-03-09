@@ -104,3 +104,6 @@ BoundingBox = 0.0, 2.6, -12.5, 0.55, 2.6
 
 ;BoundingBox =  -0.16, 1.91, -2.05,  4.0, 4.0
 ;BoundingBox =  -0.16, 1.91, -6.11,  3.0, 3.0
+
+
+ThrottleUpDown = 0.5

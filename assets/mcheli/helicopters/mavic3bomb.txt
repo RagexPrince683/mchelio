@@ -1,5 +1,5 @@
 DisplayName = DJI Mavic 3 with bomb
-MaxHp = 5
+MaxHp = 20
 Speed = 0.5
 CameraPosition = 0.00, -0.2, 0.4
 SmallUAV = true
@@ -30,4 +30,6 @@ AddPartWeaponMissile = rgd5mavic,  false, false, false,  0, -0.124 , 0.095
 AddWeapon = rgd5mavic, 0, -0.124 , 0.095,  0,0
 
 AddRecipe = "SSS",  "PRI",  "B  ",  I, iron_ingot,  R, redstone,  S, stick,  P, glass_pane,  B, Iron_Bars
+
+ThrottleUpDown = 0.8
 

@@ -37,7 +37,7 @@ AddTexture = land-rover_series-3_2
 AddTexture = land-rover_series-3_3
 AddTexture = land-rover_series-3_4
 
-HUD =  none, none
+HUD =  bnr32_hud, none
 
 EntityWidth  = 0.8
 EntityHeight = 0.8
@@ -60,6 +60,15 @@ AddPartWheel     =  0.7316,   0.0744,  1.8119, 35
 AddPartWheel     = -0.7316,   0.0744,  1.8119, 35
 AddPartWheel     =  0.7316,   0.0744, -1.3130
 AddPartWheel     = -0.7316,   0.0744, -1.3130
+
+
+AddFixedSearchLight =  -0.6075, 0.5733, 2.3148,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = 0.6075, 0.5733, 2.3148,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
+
+AddFixedSearchLight =  -0.923, 0.732,-2.47,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
+AddFixedSearchLight =  0.923, 0.732,-2.47,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
+
+
 
 
 BoundingBox = 0.0, 0.6, 1.5, 1.0, 0.6

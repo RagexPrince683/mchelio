@@ -40,6 +40,10 @@ AddSeat =  0.45, 0.54,  0.38
 AddSeat = -0.45, 0.74,  0.38
 AddSeat =  0.58, 0.96, -1.25
 
+AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
+
+AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
+
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.1
 
@@ -62,11 +66,11 @@ InventorySize = 9
 AddRecipe = " G ",  "I I",  "RIR",   G, mcheli:m151, I, iron_ingot, R, redstone
 
 ;ヘッドライト
-AddFixedSearchLight =  0.37, 1.01, 2.26,   0x50FFFFFF,   0x00FFFFC0,    0.5, 1.0,  -5,  0
-AddFixedSearchLight = -0.37, 1.01, 2.26,   0x50FFFFFF,   0x00FFFFC0,    0.5, 1.0,   5,  0
+AddFixedSearchLight =  0.3724, 1.0090, 2.3010,   0x50FFFFFF,   0x00FFFFC0,    0.3, 0.6,  -5,  0
+AddFixedSearchLight = -0.3724, 1.0090, 2.3010,   0x50FFFFFF,   0x00FFFFC0,    0.3, 0.6,   5,  0
 
-AddFixedSearchLight =  0.7478, 0.6109,-1.9160,   0xFFFF0000,   0x10FF0000,    0.05, 0.20,  6.0,  0
-AddFixedSearchLight = -0.7478, 0.6109,-1.9160,   0xFFFF0000,   0x10FF0000,    0.05, 0.20, -6.0,  0
+AddFixedSearchLight =  0.7478, 0.6109,-1.9160,   0xFFFF0000,   0x10FF0000,    0.05, 0.20,  0.0,  0
+AddFixedSearchLight = -0.7478, 0.6109,-1.9160,   0xFFFF0000,   0x10FF0000,    0.05, 0.20, -0.0,  0
 
 AddPartSteeringWheel =  0.452,  1.07,  0.750,  0.0, 1.0, -1.73,   130
 

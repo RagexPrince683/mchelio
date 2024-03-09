@@ -1,12 +1,12 @@
-﻿DisplayName = ACH47A Guns-A-Go-Go Chinook
-AddDisplayName = en_US, ACH47a Guns-A-Go-Go Chinook
+﻿DisplayName = Boeing CH-47 Chinook
+AddDisplayName = en_US, Boeing CH-47 Chinook
 AddDisplayName = ja_JP, ACH47a アームド チヌーク
 ItemID = 28811
 MaxHp = 100
 EnableNightVision = true
 Float = true
 Speed = 1.7
-ThrottleUpDown = 0.3
+
 FlareType = 1
 MaxFuel         = 2400
 FuelConsumption = 1.0
@@ -47,19 +47,19 @@ AddRotor = 3, 120, 0.0, 4.4943,   6.1578,  0.0,  1.0, 0.11, false
 AddRotor = 3, 120, 0.0, 5.7352,  -6.1578,  0.0, -1.0, -0.093, false
 
 AddSeat 	  =  0.79,  1.3433,   5.9559
-AddGunnerSeat = -0.79,  1.3433,   5.9559, -0.79,  1.3433,   5.9559, false
-AddGunnerSeat = -0.8278,1.1933,  -3.6641, -0.8278,1.1933,  -3.6641, false
-AddGunnerSeat = -0.68,  1.2933,   4.9336, -0.68,  1.2933,   4.9336, false
-AddGunnerSeat =  0.68,  1.2933,   4.9336,  0.68,  1.2933,   4.9336, false
-AddGunnerSeat =  0.68,  1.2933,  -1.6054,  0.68,  1.2933,  -1.6054, false
-AddGunnerSeat = -0.68,  1.2933,  -1.6054, -0.68,  1.2933,  -1.6054, false
+AddGunnerSeat = -0.79,  1.3433,   5.9559, -0.79,  2.3433,   5.9559, false
+AddGunnerSeat = -0.8278,1.1933,  -3.6641, -0.8278,2.1433,  -3.6641, false
+AddGunnerSeat = -0.68,  1.2933,   4.9336, -0.68,  2.3433,   4.9336, false
+AddGunnerSeat =  0.68,  1.2933,   4.9336,  0.68,  2.3433,   4.9336, false
+AddGunnerSeat =  0.68,  1.2933,  -1.6054,  0.68,  2.3433,  -1.6054, false
+AddGunnerSeat = -0.68,  1.2933,  -1.6054, -0.68,  2.3433,  -1.6054, false
 
 AddPartLG =  0.00, 0.4029,   1.9249,  1,0,0, 10
 AddPartLG =  0.00, 0.7219,  -5.2282,  1,0,0, 10
 
 AddWeapon = m3m_l,     -0.7,    1.4433,    -4.695,   0.0, 0.0,  false, 3, -180,-70, 70, -5,   30
-AddWeapon = m134_l50,  -1.2859, 1.8143,  -4.9367,  0.0, 0.0,  false, 4,  90, -70, 70, -80,  80
-AddWeapon = m134_r50,   1.2859, 1.8143,  -4.9367,  0.0, 0.0,  false, 5, -90, -70, 70, -80,  80
+AddWeapon = m134_l50,  -1.2859, 1.8143,  4.9367,  0.0, 0.0,  false, 4,  90, -70, 70, -80,  80
+AddWeapon = m134_r50,   1.2859, 1.8143,  4.9367,  0.0, 0.0,  false, 5, -90, -70, 70, -80,  80
 AddWeapon = m3m_r,      2.9497, 0.8333,    3.1985,  0.0, 0.0,  true,  1,  0,   0,  0,   0,   10
 AddWeapon = m3m_r,     -2.9497, 0.8333,    3.1985,  0.0, 0.0,  true,  1,  0,   0,  0,   0,   10
 AddWeapon = hydra70_l,  2.3,    0.4913,   2.4526,  1.0, 0.0,  true,  1,  0,   0,  0,   0,   10
@@ -86,3 +86,6 @@ BoundingBox = 0.0, 5.40, -6.15, 0.5, 1.0, 1.5
 Unmountposition = 0.79,  1.50,   5.9559
 
 DamageFactor = 0.8
+
+
+ThrottleUpDown = 0.3

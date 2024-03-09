@@ -38,3 +38,6 @@ InventorySize = 27
 BoundingBox =  0.00, -0.15, -0.41,  0.3, 0.2
 BoundingBox =  0.00,  0.05, -0.83,  0.3, 0.3
 BoundingBox =  0.00,  0.05,  0.00,  0.3, 0.3
+
+
+ThrottleUpDown = 0.8

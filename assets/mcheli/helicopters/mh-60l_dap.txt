@@ -76,3 +76,6 @@ BoundingBox = 0.0, 2.92, -2.60, 3.0, 1.0
 BoundingBox =  0.0, 3.5,-14.5,  2.0, 2.0
 
 DamageFactor = 0.8
+
+
+ThrottleUpDown = 0.5

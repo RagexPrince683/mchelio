@@ -93,3 +93,6 @@ unmountposition = 0.00,  1.50,  2.40
 AddRecipe = "DX ",  "XRX",  " X ",  X, iron_block, R,redstone_block,  D,dispenser
 
 DamageFactor = 0.6
+
+
+ThrottleUpDown = 0.5

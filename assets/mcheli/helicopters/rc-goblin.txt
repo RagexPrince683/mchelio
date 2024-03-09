@@ -29,3 +29,5 @@ AddRotor = 1, 0, 0.00, -0.00, -0.65,  1, 0, 0
 
 AddRecipe = "SSS",  "PRI",  "B  ",  I, iron_ingot,  R, redstone,  S, stick,  P, glass_pane,  B, Iron_Bars
 
+ThrottleUpDown = 0.8
+

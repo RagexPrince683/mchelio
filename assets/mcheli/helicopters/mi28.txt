@@ -12,6 +12,7 @@ onGroundPitch = 4.5
 MaxFuel         = 1200
 FuelConsumption = 1.0
 
+
 HUD = heli, heli_gnr
 
 Sound = heli_k
@@ -82,3 +83,6 @@ BoundingBox = 0.0, 4.0, -1.0, 1.0, 1.5, 1.5
 unmountposition = 0.00,  1.50,  0.77
 
 DamageFactor = 0.8
+
+
+ThrottleUpDown = 0.5

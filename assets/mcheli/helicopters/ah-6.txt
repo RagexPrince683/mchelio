@@ -60,3 +60,6 @@ BoundingBox = 0.0, 2.36, -6.83, 1.0, 1.8
 unmountposition = -0.45,  1.50,  1.20
 
 DamageFactor = 0.8
+
+
+ThrottleUpDown = 0.5

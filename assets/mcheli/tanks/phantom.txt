@@ -1,4 +1,4 @@
-﻿DisplayName = phantom
+﻿DisplayName = Rolls-Royce Phantom
 AddDisplayName = en_US, Rolls-Royce Phantom
 AddDisplayName = ja_JP, ロールスロイス ファントム
 ItemID = 30111
@@ -73,8 +73,14 @@ AddPartWheel     = -1.2574,  0.0339, -2.1720
 AddFixedSearchLight =   0.7315, 0.6148, 3.0755,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
 AddFixedSearchLight = -0.7315, 0.6148, 3.0755,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
 
-AddFixedSearchLight =  0.8426, 0.588,-3.7125,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
-AddFixedSearchLight =  -0.8426, 0.588,-3.7125,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  0.8426, 0.588,-3.6925,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  -0.8426, 0.588,-3.6925,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+
+AddFixedSearchLight =  0.8426, 0.488,-3.6925,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  -0.8426, 0.488,-3.6925,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+
+AddFixedSearchLight =  0.8426, 0.628,-3.6825,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  -0.8426, 0.628,-3.6825,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
 
 
 ;-0.607
@@ -92,15 +98,17 @@ InventorySize = 9
 ;engine?
 BoundingBox =  0.0, 0.50,  1.8,   1.8, 0.6
 ;mid
-BoundingBox = 0.0, 0.10, -0.0, 2.32, 0.2
+BoundingBox = 0.0, 0.0, -0.0, 2.32, 0.2
 ;front
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;BoundingBox = 0.0, 0.20, 9.4, 2.85, 0.2
-BoundingBox = 0.0, 0.10, 1.8, 2.32, 0.2
+BoundingBox = 0.0, 0.0, 1.8, 2.32, 0.2
 ;rear
-BoundingBox = 0.0, 0.10, -2.20, 2.32, 0.2
+BoundingBox = 0.0, 0.0, -2.20, 2.32, 0.2
 Regeneration = true
 ArmorDamageFactor = 2.32
 
 UnmountPosition = -0.6105, 1.5, -0.007953
 
 ArmorMinDamage = 2
+
+WeightedCenterZ = 1.0

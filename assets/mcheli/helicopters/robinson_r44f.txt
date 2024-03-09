@@ -54,3 +54,6 @@ BoundingBox = 0.0, 2.56, -8.50, 1.0, 1.5
 unmountposition = -0.43,  1.50,  1.76
 
 InventorySize = 27
+
+
+ThrottleUpDown = 0.5

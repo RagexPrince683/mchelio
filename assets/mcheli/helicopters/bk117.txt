@@ -76,3 +76,5 @@ AddRecipe = " G ",  "IXI",  "III",  X, iron_block, G, glass, I, iron_ingot
 UnmountPosition = -0.40,  1.50,  1.99
 
 DamageFactor = 0.8
+
+ThrottleUpDown = 0.5

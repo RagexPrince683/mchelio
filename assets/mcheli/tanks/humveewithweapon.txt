@@ -76,8 +76,8 @@ AddRecipe = " G ",  "I I",  " I ",   G, mcheli:humveev2, I, iron_ingot
 ;AddRecipe = "",  "",  "",  
 
 ;ヘッドライト
-AddFixedSearchLight =  0.515, 0.72, 2.50,      0x20FFFFFF,   0x00FFFFC0,    0.5, 1.5,  -5,  0
-AddFixedSearchLight = -0.515, 0.72, 2.50,      0x20FFFFFF,   0x00FFFFC0,    0.5, 1.5,   5,  0
+AddFixedSearchLight =  0.5414, 0.7223, 2.5763,      0x20FFFFFF,   0x00FFFFC0,    0.5, 1.0,  -5,  0
+AddFixedSearchLight = -0.5414, 0.7223, 2.5763,      0x20FFFFFF,   0x00FFFFC0,    0.5, 1.0,   5,  0
 
 ;テールランプ
 AddFixedSearchLight =  0.965, 0.794,-2.462,   0xFFFF0000,   0x10FF0000,    0.0, 0.16 
