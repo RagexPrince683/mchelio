@@ -27,6 +27,7 @@ ThirdPersonDist = 12
 
 ;AddTexture = pzivddesert
 ;AddTexture = pzivdwinter
+AddTexture = pzivdparade
 
 SubmergedDamageHeight = 3
 

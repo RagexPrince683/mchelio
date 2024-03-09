@@ -15,7 +15,7 @@ Sound = fourtymm
 HeatCount = 35
 MaxHeatCount = 180
 Delay = 6
-Round = 30
+Round = 25
 ReloadTime = 180
 
 Group = MainGun

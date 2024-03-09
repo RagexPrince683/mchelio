@@ -28,7 +28,7 @@ DisplayName = M2 12.7mm Heavy Machine Gun
 ;Power = 13
 Acceleration = 7.0
 
-MaxAmmo = 100
-SuppliedNum = 50
+MaxAmmo = 1000
+SuppliedNum = 250
 Item =  4, iron_ingot
 Item =  5, gunpowder

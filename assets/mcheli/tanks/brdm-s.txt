@@ -1,7 +1,7 @@
 DisplayName = BRDM-2 with "9K39 Igla"
-MaxHp = 180
-Speed = 0.6
-Sound = mbt_run
+MaxHp = 200
+Speed = 1.0
+Sound = apc_run
 InventorySize = 0
 StepHeight = 1.5 
 DefaultFreelook = false
@@ -14,15 +14,16 @@ MaxFuel         = 1200
 FuelConsumption = 1.0
 
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -0.2
+CameraZoom = 4
 DamageFactor = 0.0
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 6.0 
-OnGroundPitchFactor = 15.0 
-OnGroundRollFactor = 5.2 
-
-AddGunnerSeat =  0.0, 1.51, 2.6343, 0.0, 3.12, -0.5656,  true, -40,3, true
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+CameraPosition = 0.1136, 2.8065, 0.1832, true
+AddGunnerSeat =  0.0, 1.51, 2.6343, 0.0, 3.12, -0.5656,  false, -40, 3, true
 
 EnableBack = true
 EnableNightVision = false
@@ -49,5 +50,11 @@ AddWeapon = 9m39,    -0.4733,  3.1327, -0.53, 0, 0,  false, 1, 0, -360, 360, -45
 AddPartWeapon = 9m39, false, true, false, 0.0,  2.21, 0.22
 AddPartWeaponChild = false, true,   0.0, 2.34, 0.04
 
-BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
-BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1
+BoundingBox = 0.1136, 2.2, 0.1832, 1.0, 1.0, 1.0
+
+BoundingBox = 0.0, 1.2, 0.0, 3.0, 2.0, 1.0
+BoundingBox = 0.0, 1.2, 1.0, 2.7, 1.8, 1.0
+BoundingBox = 0.0, 1.2, 1.5, 2.5, 1.6, 1.0
+BoundingBox = 0.0, 1.2, 2.4, 2.3, 0.4, 1.0
+BoundingBox = 0.0, 1.2, -2.1, 3.0, 2.0, 1.0
+

@@ -80,6 +80,7 @@ AddPartWeaponChild = false, true, 0.00, 2.1874, 0.672, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.1874, 0.672, 0.15
 AddTurretWeapon = bradm242,  -0.0588, 2.1874, 0.672,  0.0, 0.0, true,1, 0,-360,360, -59, 9
 AddTurretWeapon = bradhem242,  -0.0588, 2.1874, 0.672,  0.0, 0.0, true,1, 0,-360,360, -59, 9
+
 AddPartWeapon=bradm240_r, true, true, false,-0.0, 4.2079, 0.00
 ;AddPartWeaponChild = false,true, 0.00, 2.335, 0.672
 ;AddPartWeaponChild = false,true, -1.2286, 3.1561, -0.8627, 0
@@ -87,6 +88,7 @@ AddTurretWeapon = bradm240_r, -0.4928, 2.3652, 0.672, 0,0,true,1,0,-360,360,-59,
 AddTurretWeapon = bradbgm71a,     1.3285, 3.0382, -0.7165,  0.0, 0.0, true,1, 0,-360,360, -90, 90
 AddTurretWeapon = bradbgm71a,     1.0565, 3.0382, -0.7165,  0.0, 0.0, true,1, 0,-360,360, -90, 90
 AddWeapon = targeting_pod_tank, 0.00, 3.50, 0.00, 0.0, 0.0, false, 1, 0, -360, 360, -90, 90
+AddWeapon = hatch_open, 0.00, 3.50, 0.00, 0.0, 0.0, false, 1, 0, -360, 360, -90, 90
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
