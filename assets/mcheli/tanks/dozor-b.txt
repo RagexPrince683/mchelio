@@ -15,7 +15,7 @@ EnableNightVision = true
 MaxFuel           = 1500
 FuelConsumption   = 2.0
 ThirdPersonDist = 5
-DefaultFreelook = true
+DefaultFreelook = false
 
 ArmorMinDamage = 9
 
@@ -25,6 +25,8 @@ OnGroundPitchFactor = 10.0
 OnGroundRollFactor  = 4.8
 
 SetWheelPos =  0.85,  -0.24,  1.79, -1.38
+
+WeightedCenterZ = 0.7
 
 EnableBack = true
 
