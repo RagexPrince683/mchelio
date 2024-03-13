@@ -1,6 +1,6 @@
 DisplayName = M197 M53 [API] 20mm gun
 Type = MachineGun2
-Power = 16
+Power = 40
 Acceleration = 7.0
 Explosion = 0
 Flaming = false
