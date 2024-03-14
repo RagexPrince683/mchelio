@@ -18,6 +18,8 @@ BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.001
 
+ProximityFuseDist = 2
+
 ; AddMuzzleFlash = 発射元からの距離, サイズ, 表示時間,  A,  R,  G,  B
 AddMuzzleFlash      =           10.2,   2.10,        7,  220,254,159,74
 AddMuzzleFlash      =           10.1,   2.05,        6,  220,254,219,104

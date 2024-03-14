@@ -127,7 +127,7 @@ AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 StepHeight = 1.2
 
 ;engine?
-BoundingBox =  -0.0, 0.55,  1.9,   1.4, 0.6
+BoundingBox =  -0.0, 0.55,  1.9,   1.0, 0.6
 ;mid
 BoundingBox = -0.0, 0.10, 0.0, 2.2, 0.2
 ;front
