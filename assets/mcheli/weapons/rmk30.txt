@@ -1,13 +1,13 @@
 DisplayName = RMK30 Revolver Cannon
 Type = MachineGun2
-Power = 27
+Power = 16
 Acceleration = 10.0
 Explosion = 1
 Flaming = false
 Sight = MoveSight
 Delay = 1
 ReloadTime = 30
-Round = 450
+Round = 25
 SoundVolume = 3
 SoundPitch = 0.6
 Accuracy = 0.0
@@ -34,6 +34,6 @@ SoundVolume = 15
 
 
 MaxAmmo = 1200
-SuppliedNum = 450
+SuppliedNum = 200
 Item =  2, iron_ingot
 Item =  2, gunpowder

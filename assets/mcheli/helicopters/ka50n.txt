@@ -36,7 +36,6 @@ CameraPosition = 0.00, 0.24, 5.50
 CameraZoom = 16
 
 AddPartWeapon        = 2a42_ka50,    true,  true,  true,    0.00, 0.70,  0.00
-AddPartWeapon        = 2a42_ka50he,    true,  true,  true,    0.00, 0.70,  0.00
 AddPartWeapon        = s-8_ka50,     false, false, true,    0.00, 0.70, -0.50
 AddPartWeaponMissile = 9K121_ka50,   false, false, false,   3.12, 0.35,  2.00
 AddPartWeaponMissile = 9K121_ka50,   false, false, false,   3.12, 0.35,  2.00
@@ -46,7 +45,6 @@ AddPartWeaponMissile = 9K121tv_ka50, false, false, false,   3.12, 0.35,  2.00
 AddPartWeaponMissile = 9K121tv_ka50, false, false, false,   3.12, 0.35,  2.00
 
 AddWeapon = 2a42_ka50,    -1.04, 0.65, 2.00,  0,-1,  true,2,  0,-3,6, 0, 30
-AddWeapon = 2a42_ka50he,    -1.04, 0.65, 2.00,  0,-1,  true,2,  0,-3,6, 0, 30
 AddWeapon = s-8_ka50,      2.12, 0.55, 2.00,  1, 0,  true,1,  0, 0,0, 0, 20
 AddWeapon = s-8_ka50,     -2.12, 0.55, 2.00, -1, 0,  true,1,  0, 0,0, 0, 20
 AddWeapon = 9K121_ka50,    3.12, 0.35, 2.00,  1, 0,  true,2
