@@ -1,4 +1,4 @@
-﻿DisplayName = Type 62
+﻿DisplayName = Type-62
 AddDisplayName = ja_JP, Type-62
 AddDisplayName = en_US, Type-62 
 MaxHp = 150
@@ -87,9 +87,12 @@ BoundingBox =  0.0, 0.4,   0.6,   2.1, 1.35,  0.9
 BoundingBox =  0.0, 1.4,   0.0,   1.6, 0.7,  0.40
 BoundingBox =  0.0, 0.4,   -1.7,   2.1, 1.35,  0.9
 BoundingBox =  0.0, 0.4,   -0.7,   2.1, 1.35,  0.9
-BoundingBox =  0.0, 0.3,   1.35,   2.0, 0.4,  0.30
-BoundingBox =  0.0, 0.7,   1.50,   2.0, 0.2,  0.25
-BoundingBox =  0.0, 0.9,   1.20,   2.0, 0.3,  0.25
+BoundingBox =  0.0, 0.3,   1.35,   2.0, 0.2,  0.30
+BoundingBox =  0.0, 0.5,   1.50,   2.0, 0.2,  0.30
+BoundingBox =  0.0, 0.7,   1.45,   2.0, 0.2,  0.25
+BoundingBox =  0.0, 0.9,   1.00,   2.0, 0.1,  0.25
+BoundingBox =  0.0, 1.0,   0.75,   2.0, 0.18,  0.25
+
 
 
 
