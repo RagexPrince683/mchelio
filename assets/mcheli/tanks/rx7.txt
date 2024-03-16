@@ -79,10 +79,10 @@ AddPartSteeringWheel =  -0.54,  0.72,  0.57,  0.0, 1.0, -5.1476,   130
 AddPartThrottle = -0.53, 0.84, 0.70,  0,0,1, 220
 AddPartThrottle = -0.40, 0.80, 0.70,  0,0,1, 175
 
-AddPartCanopy    =    1.23,   0.62,   0.90,   0,1,0,   -60
-AddPartCanopy   =   -1.23,   0.62,   0.90,   0,1,0,   60
-AddPartCanopy   =    1.23,   0.62,   0.90,   0,1,0,   -60
-AddPartCanopy   =   -1.23,   0.62,   0.90,   0,1,0,   60
+AddPartCanopy    =    1.10,   0.62,   0.90,   0,1,0,   -60
+AddPartCanopy   =   -1.10,   0.62,   0.90,   0,1,0,   60
+AddPartCanopy   =    1.10,   0.62,   0.90,   0,1,0,   -60
+AddPartCanopy   =   -1.10,   0.62,   0.90,   0,1,0,   60
 AddPartCanopy = 0,0,0, 0,0,0, 0
 
 InventorySize = 9
