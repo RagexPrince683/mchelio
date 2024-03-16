@@ -45,7 +45,7 @@ AddPartCamera = 0.0, 1.4311, 5.8707, true, true
 
 
 
-AddPartWeapon = m230_1,    true,  true, false,   0.00, 0.5809, 4.8309
+AddPartWeapon = type23,    true,  true, false,   0.00, 0.5809, 4.8309
 AddPartWeaponChild  =           false, true,   0.00, 0.5809, 4.8309
 
 AddPartWeapon = 70, false, false, true,   0.00,  1.2932, -1.8411
@@ -72,7 +72,7 @@ AddRotor= 1, 0,   0.00,  5.0426, -13.5825,     1.0, 0.0, 0.0
 AddWeapon = targeting_pod1,  0.00, 0.38, 0.90,  0,-1, true,2, 0,-360,360, -25,80
 
 
-AddWeapon = m230_1,  0.00, 0.5809, 4.8309,  0,-1, true,2, 0,-360,360, -25,80
+AddWeapon = type23,  0.00, 0.5809, 4.8309,  0,-1, true,2, 0,-360,360, -25,80
 
 
 AddWeapon = 70,        2.1397,  1.2932, -1.8411,  1, 0,  true,1,  0,0,0, 0, 35
