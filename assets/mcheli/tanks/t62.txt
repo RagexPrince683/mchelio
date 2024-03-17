@@ -1,7 +1,7 @@
 DisplayName = T-62A
 MaxHp = 265
 Speed = 0.62
-Sound = leoone
+Sound = mbt_run
 ThrottleUpDown = 10.0
 MobilityRoll = 0
 Gravity = -0.61

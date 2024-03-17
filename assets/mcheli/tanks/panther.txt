@@ -7,7 +7,7 @@ MaxHp = 155
 Speed = 0.5
 ;1.0 = 46mph
 ;0.5 = 23mph
-Sound = V12TIGER
+Sound = mbt_run
 StepHeight = 1.5
 DefaultFreeLook = True
 

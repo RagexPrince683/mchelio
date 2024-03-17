@@ -1,7 +1,7 @@
 DisplayName = 2S1 Gvozdika 
 MaxHp = 200
 Speed = 0.675
-Sound = bmpone
+Sound = mbt_run
 ThrottleUpDown = 1.8
 MobilityYawOnGround = 2.5
 MinRotationPitch = -70

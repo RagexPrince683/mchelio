@@ -13,7 +13,7 @@ Speed = 0.40
 ;23.6mph/46mph=x
 ;x = 23.6mph
 ;
-Sound = mtwentysixeng
+Sound = mbt_run
 ThrottleUpDown = 20.0
 MobilityYawOnGround = 3.0
 MinRotationPitch = -20
