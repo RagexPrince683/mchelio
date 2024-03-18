@@ -20,7 +20,12 @@ AddSeat =  0.6040,  0.22, 0.1
 
 unmountposition = 0.6040,  2.12, 0.1
 
-AddSeat =  -0.4621,  0.32, 0.1
+AddSeat =  -0.6040,  0.32, 0.1
+
+AddSeat =  -0.6040,  0.32, -0.9
+AddSeat =  -0.0,  0.32, -0.9
+AddSeat =  0.6040,  0.32, -0.9
+
 
 EnableBack = true
 Category = C
@@ -41,10 +46,10 @@ AddPartWheel     = -1.1024,  0.1766, -1.3754
 AddFixedSearchLight =  0.9865, 0.6135, 2.9087,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5, 0, 0
 AddFixedSearchLight =  -0.9865, 0.6135, 2.9087,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5,0,0
 
-AddFixedSearchLight =  1.056, 0.6601,-2.8904,   0x80FF0000,   0x00FF0000,    0.02, 0.35,  180.0,  -8
-AddFixedSearchLight =  -1.056, 0.6601,-2.8904,   0x80FF0000,   0x00FF0000,    0.02, 0.35,  180.0,  -8
-AddFixedSearchLight =  1.056, 0.7413,-2.8504,   0x80FF0000,   0x00FF0000,    0.02, 0.35,  180.0,  -8
-AddFixedSearchLight =  -1.056, 0.7413,-2.8504,   0x80FF0000,   0x00FF0000,    0.02, 0.35,  180.0,  -8
+AddFixedSearchLight =  1.056, 0.6601,-2.8904,   0x80FF0000,   0x00FF0000,    0.02, 0.35,  180.0,  -20
+AddFixedSearchLight =  -1.056, 0.6601,-2.8904,   0x80FF0000,   0x00FF0000,    0.02, 0.35,  180.0,  -20
+AddFixedSearchLight =  1.056, 0.7413,-2.8604,   0x80FF0000,   0x00FF0000,    0.02, 0.35,  180.0,  -20
+AddFixedSearchLight =  -1.056, 0.7413,-2.8604,   0x80FF0000,   0x00FF0000,    0.02, 0.35,  180.0,  -20
 
 MaxFuel         = 1000
 FuelConsumption = 2

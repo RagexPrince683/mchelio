@@ -11,7 +11,7 @@ Delay = 700
 ;SoundPitch = 0.5
 SoundVolume = 20
 Sound = spgnine
-Gravity = -0.016
+Gravity = -0.020
 
 nukeYield = 167
 
