@@ -1,11 +1,11 @@
 DisplayName = Browning AN/M3 20mm
 Type = MachineGun1
-Power = 14
+Power = 36
 Acceleration = 7.0
 Explosion = 0
 Flaming = false
 Sight = MoveSight
-Delay = 0
+Delay = 1
 ;SoundDelay = 3
 ;Accuracy = 2.0
 HeatCount = 5
@@ -14,7 +14,12 @@ ReloadTime = 10
 SoundPitch = 0.8
 Sound = gun_l1_snd
 
-MaxAmmo = 600
+MaxAmmo = 800
 SuppliedNum = 200
 Item =  2, iron_ingot
 Item =  2, gunpowder
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5

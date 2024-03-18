@@ -52,7 +52,7 @@ AddPartWeaponMissile = agm84a7real,    false,  false,  false,   -3.381, 2.152, -
 AddPartWeaponMissile = agm84a7real,    false,  false,  false,    4.788, 2.152, -6.216
 AddPartWeaponMissile = agm84a7real,    false,  false,  false,   -4.788, 2.152, -6.216
 
-AddWeapon = m61a1_l, 1.016, 2.653, 0.3788,   0.0, 0.0
+AddWeapon = m61a1_a7, 1.016, 2.653, 0.3788,   0.0, 0.0
 AddWeapon = agm84a7real,     1.974, 2.152, -5.07,   0.0, 0.0
 AddWeapon = agm84a7real,    -1.974, 2.152, -5.07,   0.0, 0.0
 AddWeapon = agm84a7real,     3.381, 2.152, -5.591,   0.0, 0.0

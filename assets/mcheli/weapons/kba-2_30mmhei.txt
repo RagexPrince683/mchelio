@@ -7,7 +7,7 @@ Flaming = false
 Sight = MoveSight
 Delay = 2
 ReloadTime = 120
-Round = 50
+Round = 250
 SoundVolume = 3
 SoundPitch = 1.0
 Sound = kba2_snd
@@ -22,7 +22,7 @@ DamageFactor = player, 20.0
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
-MaxAmmo = 800
-SuppliedNum = 200
+MaxAmmo = 750
+SuppliedNum = 250
 Item =  2, iron_ingot
 Item =  2, gunpowder

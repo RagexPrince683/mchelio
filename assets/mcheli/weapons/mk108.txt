@@ -8,7 +8,6 @@ Flaming = true
 Sight = MoveSight
 Delay = 2
 Accuracy = 6.5
-Gravity = -0.03
 Particle = largeexplode
 Round = 60
 ReloadTime = 50
@@ -28,7 +27,7 @@ SoundVolume = 15
 Gravity = -0.005
 
 
-MaxAmmo = 50
-SuppliedNum = 10
+MaxAmmo = 60
+SuppliedNum = 60
 Item =  3, iron_ingot
 Item =  3, gunpowder
