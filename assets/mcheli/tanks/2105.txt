@@ -53,7 +53,13 @@ ArmorMinDamage = 2
 
 unmountposition = 0.58,  2.22, 0.22
 
-AddSeat = -0.58,  -0.02, 0.22
+AddSeat = -0.58,  0.08, 0.22
+
+AddSeat = -0.58,  0.08, -0.9
+AddSeat = -0.0,   0.08, -0.9
+AddSeat = 0.58,   0.08, -0.9
+
+
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.1
@@ -77,8 +83,8 @@ AddPartSteeringWheel =   1.16,  0.204,  2.065,  0.0, 1.0, 0.0,   45
 AddWeapon = none, 0.0, 0.0, 0.0, 0, 0
 AddWeapon =  1_horn , 0.00,  0.42,  3.05, 0.0, 90
 
-AddFixedSearchLight =  0.832, 0.376, 3.03,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5, 0, 0
-AddFixedSearchLight =  -0.832, 0.376, 3.03,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5,0,0
+AddFixedSearchLight =  0.832, 0.376, 2.915,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5, 0, 0
+AddFixedSearchLight =  -0.832, 0.376, 2.915,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5,0,0
 
 
 AddFixedSearchLight =  0.862, 0.5524,-2.8452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
