@@ -13,10 +13,10 @@ Gravity = -0.61
 GravityInWater = -1.0
 ;DamageFactor = 0.8
 ;this is a comment, stop reading comments as actual things EDWARD
-CameraZoom = 2
+CameraZoom = 3
 CameraPosition = 0.00,  3.25, 0.90, true
 EnableNightVision = true
-CameraRotationSpeed = 90
+CameraRotationSpeed = 40
 ;EnableEntityRadar = true
 MaxFuel         = 1200
 FuelConsumption = 3.0

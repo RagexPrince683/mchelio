@@ -38,8 +38,8 @@ AddBlade = 1, 0,  0.00,  2.65, 4.00,   0,0,-1
 AddWeapon = mg7_7mm,  0.47, 3.03, 2.75,   0.1, 0.0
 AddWeapon = mg7_7mm, -0.47, 3.03, 2.75,  -0.1, 0.0
 
-AddWeapon = mg20mm,  1.98, 2.46, 1.48,   2.0, -0.5
-AddWeapon = mg20mm, -1.98, 2.46, 1.48,  -2.0, -0.5
+AddWeapon = mg20mmn1,  1.98, 2.46, 1.48,   2.0, -0.5
+AddWeapon = mg20mmn1, -1.98, 2.46, 1.48,  -2.0, -0.5
 
 AddRecipe = "GPG",  "IIP",  "GPG",  I,iron_block, G,dye,2, P,paper
 

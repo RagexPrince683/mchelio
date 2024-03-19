@@ -1,4 +1,4 @@
-DisplayName = Type 99 Mark 3 20mm Autocannon
+DisplayName = 20mm Machine Gun
 Type = MachineGun1
 Power = 16
 Acceleration = 8.0
@@ -6,10 +6,10 @@ Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
+SoundVolume = 10
 HeatCount = 3
 MaxHeatCount = 60
 Sound = twentymil
-
 Acceleration = 7.5
 Gravity = -0.005
 
@@ -24,8 +24,8 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 
-MaxAmmo = 240
-SuppliedNum = 120
+MaxAmmo = 200
+SuppliedNum = 100
 Item =  2, iron_ingot
 Item =  2, gunpowder
 

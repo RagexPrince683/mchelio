@@ -31,7 +31,7 @@ DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 
 
-MaxAmmo = 16
-SuppliedNum = 1
+MaxAmmo = 50
+SuppliedNum = 5
 Item =  2, iron_ingot
 Item =  2, gunpowder
