@@ -25,6 +25,10 @@ AddTexture = challenger4
 EntityWidth  = 0.9
 EntityHeight = 0.9
 
+EntityPitch = -8
+
+
+
 
 WeightedCenterZ = 0.4
 
@@ -34,17 +38,17 @@ CameraPosition  = 0.383,  0.97, 0.00
 
 HUD = s15_hud, none, none, none, none
 
-AddSeat =  0.5412,  0.03, 0.00
-AddSeat =  -0.5412,  0.13, 0.0 
+AddSeat =  0.5412,  0.03, -0.20
+AddSeat =  -0.5412,  0.13, -0.2 
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 
 
 
-AddSeat = 0.5644, 0.26, -0.9312
-AddSeat = 0.0215, 0.26, -0.9312
-AddSeat = -0.5341, 0.26, -0.9312
+AddSeat = 0.5644, 0.26, -1.2312
+AddSeat = 0.0215, 0.26, -1.2312
+AddSeat = -0.5341, 0.26, -1.2312
 
 ;後退可能にする
 EnableBack = true

@@ -38,11 +38,11 @@ HUD =  bnr32_hud, none, none, none, none, none
 EntityWidth  = 0.8
 EntityHeight = 0.8
 
-AddSeat =  0.5285,  0.20, -0.0210
+AddSeat =  0.5285,  0.20, -0.2210
 
 unmountposition = 0.5285,  2.20, -0.0210
 
-AddSeat = -0.5285,  0.30, -0.0210
+AddSeat = -0.5285,  0.30, -0.2210
 
 AddSeat =  0.5863,  0.40, -0.9815
 AddSeat =  0.5863,  0.40, -1.5010

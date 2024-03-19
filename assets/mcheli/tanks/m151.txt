@@ -37,8 +37,8 @@ SetWheelPos =  0.48,  -0.24,  1.65, -1.00
 
 HUD = bnr32_hud, none,
 
-AddSeat =  0.45, 0.54,  0.38
-AddSeat = -0.45, 0.74,  0.38
+AddSeat =  0.45, 0.54,  0.18
+AddSeat = -0.45, 0.74,  0.18
 
 AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
 

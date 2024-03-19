@@ -20,6 +20,16 @@ EnableNightVision = true
 MaxFuel           = 1200
 FuelConsumption   = 1.2
 
+EntityPitch = -20
+
+EntityWidth  = 0.95
+EntityHeight = 0.95
+
+CameraPosition =  0.54,  1.23, -0.02, true
+CameraPosition = -0.88,  0.50,  0.72, true, -130, 0
+CameraPosition = -0.70,  1.40, -0.44, true, -40, 20
+CameraPosition =  1.80,  0.20,  1.50, true,  15, 0
+
 WeightedCenterZ = 0.8
 
 OnGroundPitchFactor = 18.0
@@ -47,10 +57,10 @@ SetWheelPos =  0.80,  -0.24,  1.965, -1.789
 
 HUD = bnr32_hud, car_police_navi, none, none
 
-AddSeat =  0.54,  0.12, -0.02
-AddSeat = -0.54,  0.22, -0.02
-AddSeat = -0.54,  0.22, -1.10
-AddSeat =  0.54,  0.22, -1.10
+AddSeat =  0.54,  0.02, -0.30
+AddSeat = -0.54,  0.12, -0.30
+AddSeat = -0.54,  0.22, -1.30
+AddSeat =  0.54,  0.22, -1.30
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.1
@@ -125,6 +135,6 @@ BoundingBox = 0.0, 0.10, -1.8, 2.3, 0.2
 Regeneration = false
 ArmorDamageFactor = 2.32
 
-UnmountPosition = 0.54,  1.50, -0.02
+UnmountPosition = 0.54,  2.20, -0.30
 
 ArmorMinDamage = 2

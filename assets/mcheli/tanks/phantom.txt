@@ -21,6 +21,8 @@ MaxFuel           = 1200
 FuelConsumption   = 1.0
 FlareType = 10
 
+;8.67
+
 EntityWidth  = 0.85
 EntityHeight = 0.85
 
@@ -42,13 +44,13 @@ WeightType = Car
 ; X座標のマイナス側は必要なし
 SetWheelPos =  0.785,  -0.11,  2.30505, -2.19681
 
-HUD = bnr32_hud, none
+HUD = bnr32_hud, none, none, none, none
 
-AddSeat = -0.6105, 0.0759, -0.007953
-AddSeat =  0.555, 0.138, -0.00723
-AddSeat = -0.555, 0.138, -1.03
-AddSeat = 0.555, 0.138, -1.03
-AddSeat = 0.0, 0.138, -1.03
+AddSeat = -0.6105, 0.1626, -0.007953
+AddSeat =  0.555, 0.2247, -0.00723
+AddSeat = -0.555, 0.2247, -1.03
+AddSeat = 0.555, 0.2247, -1.03
+AddSeat = 0.0, 0.2247, -1.03
 
 
 AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
@@ -64,23 +66,23 @@ PivotTurnThrottle = 0.1
 ; タイヤの回転スピード
 PartWheelRot = 40
 ; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
-AddPartWheel     =  1.2574,  0.0339, 2.3298, 30
-AddPartWheel     = -1.2574,  0.0339, 2.3298, 30
-AddPartWheel     =  1.2574,  0.0339, -2.1720
-AddPartWheel     = -1.2574,  0.0339, -2.1720
+AddPartWheel     =  1.2574,  0.1206, 2.3298, 30
+AddPartWheel     = -1.2574,  0.1206, 2.3298, 30
+AddPartWheel     =  1.2574,  0.1206, -2.1720
+AddPartWheel     = -1.2574,  0.1206, -2.1720
 
 
-AddFixedSearchLight =   0.7315, 0.6148, 3.0755,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
-AddFixedSearchLight = -0.7315, 0.6148, 3.0755,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
+AddFixedSearchLight =   0.7315, 0.7015, 3.0755,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = -0.7315, 0.7015, 3.0755,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
 
-AddFixedSearchLight =  0.8426, 0.588,-3.6925,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
-AddFixedSearchLight =  -0.8426, 0.588,-3.6925,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  0.8426, 0.6747,-3.6925,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  -0.8426, 0.6747,-3.6925,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
 
-AddFixedSearchLight =  0.8426, 0.488,-3.6925,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
-AddFixedSearchLight =  -0.8426, 0.488,-3.6925,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  0.8426, 0.5747,-3.6925,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  -0.8426, 0.5747,-3.6925,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
 
-AddFixedSearchLight =  0.8426, 0.628,-3.6825,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
-AddFixedSearchLight =  -0.8426, 0.628,-3.6825,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  0.8426, 0.7147,-3.6825,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  -0.8426, 0.7147,-3.6825,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
 
 
 ;-0.607
@@ -91,7 +93,7 @@ AddFixedSearchLight =  -0.8426, 0.628,-3.6825,   0xFFFF0000,   0x10FF0000,    -0
 
 AddRecipe = "GGG",  "III",  "RIR",   G, glass, I, gold_ingot, R, diamond
 
-AddPartSteeringWheel =  -0.61061,  0.6807,  0.40854,  0.0, 1.0, -5.1476,   130
+AddPartSteeringWheel =  -0.61061,  0.7674,  0.40854,  0.0, 1.0, -5.1476,   130
 
 InventorySize = 9
 

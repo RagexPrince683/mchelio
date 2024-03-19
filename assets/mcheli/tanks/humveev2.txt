@@ -40,7 +40,7 @@ WeightType = Car
 ; X座標のマイナス側は必要なし
 SetWheelPos =  0.70,  -0.24,  2.00, -1.55
 
-HUD = Humvee_hud, none
+HUD = Humvee_hud, none, none, none
 
 AddSeat =  0.70,  0.18,  0.31
 AddSeat = -0.70,  0.30,  0.31

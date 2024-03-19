@@ -20,6 +20,11 @@ MaxFuel           = 1200
 FuelConsumption   = 1.2
 ThirdPersonDist = 8
 
+EntityPitch = -20
+
+EntityWidth  = 0.95
+EntityHeight = 0.95
+
 WeightedCenterZ = 0.8
 
 OnGroundPitchFactor = 18.0
@@ -53,10 +58,10 @@ SetWheelPos =  0.80,  -0.24,  1.965, -1.789
 
 HUD = bnr32_hud, none, none,none
 
-AddSeat =  0.54,  0.12, -0.02
-AddSeat = -0.54,  0.22, -0.02
-AddSeat = -0.54,  0.22, -1.10
-AddSeat =  0.54,  0.22, -1.10
+AddSeat =  0.54,  0.02, -0.30
+AddSeat = -0.54,  0.12, -0.30
+AddSeat = -0.54,  0.22, -1.30
+AddSeat =  0.54,  0.22, -1.30
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.1
@@ -117,6 +122,6 @@ BoundingBox = 0.0, 0.10, -1.8, 2.3, 0.2
 Regeneration = false
 ArmorDamageFactor = 2.32
 
-UnmountPosition = 0.54,  1.50, -0.02
+UnmountPosition = 0.54,  2.20, -0.30
 
 ArmorMinDamage = 2

@@ -17,7 +17,7 @@ GravityInWater = -1.0
 MobilityRoll = 0
 InventorySize = 10
 StepHeight = 1.5
-DefaultFreelook = true
+DefaultFreelook = false
 MotionFactor = 0.9
 ThirdPersonDist = 12
 EnableNightVision = true
@@ -33,7 +33,7 @@ WeightType = Tank
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = bnr32_hud, none
+HUD = bnr32_hud, none, none, none, none, none, none, none
 
 AddTexture = vn4_0
 
@@ -57,7 +57,7 @@ AddPartWheel =    1.5603,  0.4039, -3.1711
 AddPartWheel =   -1.5603,  0.4039, -3.1711
 
 
-AddPartSteeringWheel =   0.5386,  0.8820,  0.4793,  0.0, 1.0, -1.73,   130
+AddPartSteeringWheel =   0.7307,  1.4622,  0.4085,  0.0, 1.0, -1.73,   130
 
 
 AddPartHatch    =    -0.5946,   1.4809,  -5.1295,   0,1,0,   110
