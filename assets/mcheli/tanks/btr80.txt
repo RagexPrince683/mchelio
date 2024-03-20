@@ -3,9 +3,9 @@ AddDisplayName = ja_JP, BTR-80 装輪装甲車
 AddDisplayName = en_US, BTR-80 APC
 ItemID = 30102
 MaxHp = 200
-Speed = 1.148
+Speed = 0.55
 Sound = turbobtr
-ThrottleUpDown = 3.2
+ThrottleUpDown = 1
 MobilityYawOnGround = 7.5
 MaxFuel         = 1000
 FuelConsumption = 0.8
@@ -20,7 +20,7 @@ MinRotationPitch = -70
 MaxRotationPitch = 5
 MobilityRoll = 0
 InventorySize = 25
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = true
 MotionFactor = 0.9
 FlareType = 10
@@ -44,17 +44,16 @@ AddTexture = btr80_2
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = mbt_hud, 
+HUD = mbt_hud, none, none, none, none, none, none
 
 AddGunnerSeat =  0.00, 1.68,  0.00, 0.00, 1.68,  0.00, false, -60, 10
 AddSeat = -0.31, 0.75, -1.62 
 AddSeat =  0.31, 0.75, -1.62 
-AddSeat = -0.31, 0.75, -1.98
-AddSeat =  0.31, 0.75, -1.98
-AddSeat = -0.31, 0.75, -2.32
-AddSeat =  0.31, 0.75, -2.32
-AddSeat = -0.31, 0.75, -2.64
-AddSeat =  0.31, 0.75, -2.64
+AddSeat = -0.31, 0.75, -2.48
+AddSeat =  0.31, 0.75, -2.48
+
+AddSeat = -0.31, 0.75, -3.14
+AddSeat =  0.31, 0.75, -3.14
 
 SetWheelPos =  1.30,  -0.24,  1.04, -1.02, -3.42, -5.36
 

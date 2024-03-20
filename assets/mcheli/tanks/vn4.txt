@@ -16,7 +16,7 @@ CameraRotationSpeed = 37
 GravityInWater = -1.0
 MobilityRoll = 0
 InventorySize = 10
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = false
 MotionFactor = 0.9
 ThirdPersonDist = 12
@@ -38,6 +38,11 @@ HUD = bnr32_hud, none, none, none, none, none, none, none
 AddTexture = vn4_0
 
 AddSeat =  0.6701, 1.11,  -0.3
+
+AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
+
+AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
+
 AddSeat = -0.6701, 1.11,  -0.3
 
 AddSeat =  0.6601, 1.20,  -1.50
@@ -75,7 +80,7 @@ AddPartCanopy = -1.5434, 1.9848, 0.2335,  0, 1,0,  70
 ;AddFixedSearchLight =  1.0461, 1.3968, 2.5918,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
 ;AddFixedSearchLight = -1.0461, 1.3968, 2.5918,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
 
-
+;fix this
 
 AddPartWeaponBay	= targeting_pod_pv10s,  1.1792, 2.6453, 0.1941, 0.0, 0.7,  1.00,   90
 

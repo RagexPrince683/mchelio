@@ -5,7 +5,7 @@ ItemID = 30070
 MaxHp = 200
 Speed = 0.6
 Sound = mcv
-ThrottleUpDown = 2.8
+ThrottleUpDown = 2
 MaxFuel         = 1000
 FuelConsumption = 0.8
 AddTexture = jgsdf-mcv-1
@@ -18,17 +18,25 @@ HUD = mbt_hud
 EnableGunnerMode = true
 EnableNightVision = true
 EnableEntityRadar = false
-Gravity = -0.61
-GravityInWater = -1.0
+
 MobilityYawOnGround = 6.0
 MinRotationPitch = -60
 MaxRotationPitch = 8
 MobilityRoll = 0
 InventorySize = 9
-StepHeight = 1.2
+StepHeight = 1.8
 EnableBack = true
 WeightType = Tank
 DefaultFreelook = true
+
+
+Float = true
+FloatOffset = -0.5
+;perhaps this will fix previous projects?
+Gravity = -0.61
+;earth gravity is -9.81m/s^2 however minecraft and mcheli base off of different metric or something 
+GravityInWater = 0.1
+
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8

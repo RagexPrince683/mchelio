@@ -3,7 +3,7 @@ MaxHp = 200
 ThrottleUpDown = 0.81
 Speed = 0.89
 MobilityYawOnGround = 8.0
-StepHeight = 1.5
+StepHeight = 1.2
 Sound = simpe_engine
 MinRotationPitch = -90
 MaxRotationPitch = 90
@@ -40,7 +40,7 @@ SetWheelPos =  0.58,  -0.29,  2.14, -1.43
 
 WeightType = Car
 
-HUD =  none, none, none, none
+HUD =  bnr32_hud, none, none, none
 
 EntityWidth  = 0.8
 EntityHeight = 0.8
@@ -84,8 +84,8 @@ AddPartCanopy =  1.0917, 0.3419,  1.3074,  0,1,0, -60
 AddFixedSearchLight =  0.817, 0.537, 2.93,   0x50FFFFFF,   0x00FFFFC0,    0.13, 0.6,  -5,  0
 AddFixedSearchLight = -0.817, 0.537, 2.93,   0x50FFFFFF,   0x00FFFFC0,    0.13, 0.6,   5,  0
 
-AddFixedSearchLight =  0.599, 0.513,-2.81,   0x80FF0000,   0x00FF0000,    0.02, 0.5,  -180.0,  0
-AddFixedSearchLight =  -0.599, 0.513,-2.81,   0x80FF0000,   0x00FF0000,    0.02, 0.5,  -180.0,  0
+AddFixedSearchLight =  0.599, 0.513,-2.805,   0x80FF0000,   0x00FF0000,    0.02, 0.5,  -180.0,  0
+AddFixedSearchLight =  -0.599, 0.513,-2.805,   0x80FF0000,   0x00FF0000,    0.02, 0.5,  -180.0,  0
 
 
 AddPartSteeringWheel =  0.4856,  0.8552,  0.7596,  0, 0.488, -1,  130

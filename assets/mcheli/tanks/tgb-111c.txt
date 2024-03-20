@@ -32,7 +32,11 @@ Category = C
 
 WeightType = Car
 
-HUD =  none, none, none
+HUD =  bnr32_hud, none, none
+
+AddRack = container, 0.0, 1.05, -1.765,   0.0, 0.00, -3.17
+
+AddRack = container, 0.0, 1.05, -0.465,   0.0, 0.00, -3.17
 
 EntityWidth  = 0.75
 EntityHeight = 0.75

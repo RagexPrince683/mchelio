@@ -52,11 +52,12 @@ WeightType = Car
 ; X座標のマイナス側は必要なし
 SetWheelPos =  0.70,  -0.24,  1.865, -1.489
 
-HUD = bnr32_hud, none, none
+HUD = bnr32_hud, none, none, none
 
 AddSeat = -0.46,   0.00, 0.0
 AddSeat =  0.46,   0.10, 0.0
 AddSeat =  0.46,   0.18, -1.0
+AddSeat =  -0.46,   0.18, -1.0
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.6
@@ -122,6 +123,6 @@ BoundingBox = 0.0, 0.20, -1.6, 2.1, 0.2
 Regeneration = false
 ArmorDamageFactor = 2.32
 
-unmountposition = -0.46,   0.55, -0.37
+unmountposition = -0.46,   2.55, -0.37
 
 ArmorMinDamage = 2

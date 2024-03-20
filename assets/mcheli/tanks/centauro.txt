@@ -1,11 +1,11 @@
-DisplayName = B1 centauro
+DisplayName = B1 Centauro
 AddDisplayName = en_US, B1 Centauro (105mm)
 AddDisplayName = ja_JP, チェンタウロ偵察戦闘車
 ItemID = 30102
 MaxHp = 200
-Speed = 0.8
+Speed = 0.67
 Sound = vsixbone
-ThrottleUpDown = 5
+ThrottleUpDown = 2
 MobilityYawOnGround = 6.5
 MaxFuel         = 1000
 FuelConsumption = 0.8
@@ -21,10 +21,12 @@ MinRotationPitch = -50
 MaxRotationPitch = 6
 MobilityRoll = 0
 InventorySize = 10
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = true
 MotionFactor = 0.9
 FlareType = 10
+
+AddTexture = centaurodes
 
 SubmergedDamageHeight = 3
 

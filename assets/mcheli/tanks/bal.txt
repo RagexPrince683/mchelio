@@ -18,7 +18,7 @@ MinRotationPitch = -45
 MaxRotationPitch = 45
 MobilityRoll = 0
 InventorySize = 10
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = false
 MotionFactor = 0.9
 ThirdPersonDist = 12
@@ -33,7 +33,7 @@ WeightType = Car
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = mbt_hud, mbt_gnr, gunner, gunner
+HUD = mbt_hud, mbt_gnr, none, none
 
 AddSeat = -0.9612, 1.325, 4.7212
 

@@ -120,6 +120,9 @@ BoundingBox = 0.0, 1.47, -9.11, 1.0, 1.0
 BoundingBox = 0.0, 1.47, -10.11, 1.0, 1.0
 BoundingBox = 0.0, 1.47, -11.11, 1.0, 1.0
 
+;todo reconsider how helicopter damage is calculated/research helicopters
+
+
 unmountposition = 0.00,  1.50, -0.28
 
 
