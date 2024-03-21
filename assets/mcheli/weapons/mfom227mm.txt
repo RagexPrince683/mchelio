@@ -1,24 +1,23 @@
 DisplayName = 227mm M26 Rocket
 Type = Rocket
-Power = 500
+Power = 1000
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Explosion = 10
+Explosion = 20
 ExplosionBlock = 7
 Acceleration = 4.0
 SoundVolume = 8.0
 Sound = mlrs
-Accuracy = 2.0
+Accuracy = 0.0
 ModelBullet = bullet105mm
 Flaming = false
 Sight = None
-Delay = 5
 Gravity = -0.073
 
 Delay = 5
-ReloadTime = 150
+ReloadTime = 4800
 Group = MainGun
 ;Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
@@ -35,7 +34,7 @@ SoundVolume = 15
 
 
 DisplayMortarDistance = true
-FixCameraPitch = false
+FixCameraPitch = true
 CameraRotationSpeedPitch = 0.8
 
 AddMuzzleFlash      =           5.1,   1.05,        2,  220,254,219,104

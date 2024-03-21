@@ -3,13 +3,13 @@ AddDisplayName = en_US, M270 MLRS
 AddDisplayName = ru_RU, M270 МЛРС
 MaxHp = 250
 ThrottleUpDown = 10.0
-Speed = 0.65
+Speed = 0.4
 MobilityYawOnGround = 2.7
 StepHeight = 1.5
 Sound = mlrseng
 MinRotationPitch = -90
 MaxRotationPitch = 45
-CameraPosition = 0.0, 3.3, 2.9333, false
+CameraPosition = 0.0, 5.8, -2.20, true
 MobilityRoll     = 0
 
 ;;OnGroundPitchFactor = 3.0
@@ -21,7 +21,7 @@ EnableNightVision = true
 MaxFuel           = 1000
 FuelConsumption   = 5
 ThirdPersonDist = 10
-DefaultFreelook =true
+DefaultFreelook = true
 HideEntity = true
 
 EnableBack = true
@@ -33,11 +33,13 @@ SetWheelPos =  1.2,  -0.24,  2.8535, -1.4583, -3.2653
 
 HUD = mbt_hud, mbt_hud
 
-AddSeat =  -1.0, 1.2009, 2.6841
+AddGunnerSeat =  1.0, 1.01, 2.97,  0, 5.5, -2.20, false, -90,45
+
+;AddSeat =  -1.0, 1.2009, 2.6841
 
 ;how would deleting a false value affect this? I don't know, the 82ccv did it so let's try it!!!!!
 
-AddGunnerSeat =  1.0, 1.01, 2.97,  0, 5.5, -0, false, -90,45
+
 ;, false
 
 ;;PivotTurnThrottle = 0.1
@@ -64,38 +66,43 @@ AddTrackRoller = 1.5, 0.1281,-1.7099
 AddTrackRoller = 1.5, 0.1281,-2.5599
 AddTrackRoller = 1.5, 0.4728,-3.3221
 
-;TurretPosition = 1.7500, 1.0628, -2.205
+
 
 
 ;;calibrated!
 ;now, lets see about making all the rockets salvo personally
 ;AddWeapon			= mfom227mm,    0,  2.5, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-;cries
-;why are you like this
-;ok let's go over this, fucking retarded weapon says ok I am going to sit in my position despite the turret moving because I am special ed
-;turretweapon just fucking???? and weapon just ??? false to true makes shit go driver mode brrr and I'm lost fuck you m270 you win
-AddTurretWeapon			= mfom227mm,    -1.31,  2.25, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-AddTurretWeapon			= mfom227mm,    -0.873,  2.25, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-AddTurretWeapon			= mfom227mm,    -0.435,  2.25, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-AddTurretWeapon			= mfom227mm,    1.31,  2.25, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-AddTurretWeapon			= mfom227mm,    0.873,  2.25, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-AddTurretWeapon			= mfom227mm,    0.435,  2.25, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-AddTurretWeapon			= mfom227mm,    -1.31,  1.79, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-AddTurretWeapon			= mfom227mm,    -0.873,  1.79, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-AddTurretWeapon			= mfom227mm,    -0.435,  1.79, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-AddTurretWeapon			= mfom227mm,    1.31,  1.79, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-AddTurretWeapon			= mfom227mm,    0.873,  1.79, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-AddTurretWeapon			= mfom227mm,    0.435,  1.79, -2.205,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
 
-;I think that's about as good as it gets for now, fuck this
 
-;hooray!
+TurretPosition = 0, 1.0628, -2.20
+
+
+AddPartTurretWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.20
+AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
+
+CameraRotationSpeed = 20
+
+AddTurretWeapon			= mfom227mm,    -1.31,  2.25, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm,    -0.873,  2.25, -2.205,  0.0, 0.0, false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm,    -0.435,  2.25, -2.205,  0.0, 0.0, false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm,    1.31,  2.25, -2.205,  0.0, 0.0,   false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm,    0.873,  2.25, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm,    0.435,  2.25, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm,    -1.31,  1.79, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm,    -0.873,  1.79, -2.205,  0.0, 0.0, false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm,    -0.435,  1.79, -2.205,  0.0, 0.0, false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm,    1.31,  1.79, -2.205,  0.0, 0.0,   false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm,    0.873,  1.79, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm,    0.435,  1.79, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+
+
+;AddPartTurretWeapon    = m2_fifty,   false, true, true,  -.9630, 2.7930, .8643
+;AddTurretWeapon = m2_fifty,    -.9626, 2.8641, 1.0597,   0.0, 0.0, false, 2, 0, -0,180, -65,9
 
 
 ;;AddWeapon = m2_1,    -0.4940, 3.0028, -1.8746,   0.0, 0.0, false, 3, 0, -90,90, -50,10
 
-AddPartWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.205
-AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
+
 
 
 AddRecipe = "GIG",  "III",  "RIR",   G, glass, I, iron_ingot, R, redstone
@@ -110,4 +117,4 @@ BoundingBox = 0.0, 1.5, 2.2, 3.0, 2.5, 1.0
 BoundingBox = 0.0, 1.5, -0.7, 3.0, 2.5, 1.0
 BoundingBox = 0.0, 1.5, -2.35, 3.0, 2.5, 1.0
 
-unmountposition = 0.0, 1.50, 2.6841
+unmountposition = 1.0, 2.25, 2.97

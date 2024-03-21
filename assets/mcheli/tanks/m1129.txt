@@ -20,8 +20,10 @@ MaxRotationPitch = 6
 MobilityRoll = 0
 InventorySize = 10
 StepHeight = 1.5
-DefaultFreelook = true
+DefaultFreelook = false
 MotionFactor = 0.9
+
+AddTexture = m1129des
 
 SubmergedDamageHeight = 3
 

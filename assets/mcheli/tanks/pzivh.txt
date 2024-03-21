@@ -91,6 +91,15 @@ WeightedCenterZ = 0.0
 
 AddCrawlerTrack = false, 0.1275,  1.217, -0.194/-2.09, -0.194/1.62, -0.128/1.90, 0.361/2.51, 0.537/2.56, 0.813/2.46, 0.918/2.19, 0.91/1.17, 0.91/0.221, 0.903/-0.852, 0.829/-1.93, 0.669/-2.85, 0.62/-3.02, 0.498/-3.15, 0.326/-3.20, 0.03/-3.03
 
+;so first of all let's learn crawler tracks together because I have no idea what I'm doing
+;(0.1275) so our first coordinate (I'm assuming) is the line on which most of the track will reside (0.1275)
+;(1.217) second coordinate so this is another line(? same line) (1.217 (and -1.217 inverse)) on which the track is residing and or the direction of the line? (z coordinate)
+;(-0.194) our third coordinate is how far down the track is? (except only for the segment?)
+;after changing the 3rd coordinate I can conclusively say this is true
+;(-2.09 so our backslash right) our fourth coordinate is like just saying where our track should be again like as far as the z axis(?)
+;then we have our 5th coordinate (2nd backslash set) so these are probably defining where the track will bend but like forwards
+;3rd backslash set is gonna be inching along the track forwards and etc etc etc
+
 
 AddCrawlerTrack = false, 0.1275,  -1.217, -0.194/-2.09, -0.194/1.62, -0.128/1.90, 0.361/2.51, 0.537/2.56, 0.813/2.46, 0.918/2.19, 0.91/1.17, 0.91/0.221, 0.903/-0.852, 0.829/-1.93, 0.669/-2.85, 0.62/-3.02, 0.498/-3.15, 0.326/-3.20, 0.03/-3.03
 
