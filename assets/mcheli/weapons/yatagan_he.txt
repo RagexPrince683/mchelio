@@ -7,7 +7,7 @@ Acceleration = 6.0
 Sight = None
 Delay = 125
 SoundVolume = 10.0
-Sound = leotwoafourmain
+Sound = mbtshot
 Accuracy = 0.5
 ModelBullet = bullet105mm
 BulletColor        = 255, 255, 100, 100
@@ -20,7 +20,7 @@ DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 
-Gravity = -0.002
+Gravity = -0.005
 Group = MainGun
 Recoil = 2.5
 

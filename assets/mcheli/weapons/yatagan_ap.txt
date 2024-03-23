@@ -11,7 +11,7 @@ Delay = 150
 ModeNum = 1
 SoundPitch = 1
 SoundVolume = 20
-Sound = leotwoafourmain
+Sound = mbtshot
 Gravity = -0.001
 DisplayMortarDistance = true
 

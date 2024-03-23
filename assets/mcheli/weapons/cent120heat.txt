@@ -1,6 +1,6 @@
-DisplayName = DM12A1 HAEAT
+DisplayName = DM12A1 120mm HEAT
 Type = MachineGun2
-Power = 600
+Power = 480
 ModelBullet = bullet105mm
 Acceleration = 8.0
 Explosion = 2
@@ -12,10 +12,9 @@ ModeNum = 1
 ;SoundPitch = 0.5
 SoundVolume = 20
 Sound = mbtshot
-Gravity = -0.005
+Gravity = -0.002
 
 DisplayMortarDistance = true
-
 
 
 Delay = 170
