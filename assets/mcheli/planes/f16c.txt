@@ -53,7 +53,7 @@ AddPartWeaponMissile = aim7f16,  false,  false,  false,   -5.629, 1.919, -5.267
 AddPartWeaponMissile = aim7f16,  false,  false,  false,    6.831, 2.446, -5.983
 AddPartWeaponMissile = aim7f16,  false,  false,  false,   -6.831, 2.446, -5.983
 
-AddWeapon = m61a1_l, 1.016, 2.653, 0.3788,   0.0, 0.0
+AddWeapon = m61f16, 1.016, 2.653, 0.3788,   0.0, 0.0
 AddWeapon = agm84,     2.545, 1.837, -4.551,   0.0, 0.0
 AddWeapon = agm84,    -2.545, 1.837, -4.551,   0.0, 0.0
 AddWeapon = agm88,     4.316, 1.837, -4.909,   0.0, 0.0
