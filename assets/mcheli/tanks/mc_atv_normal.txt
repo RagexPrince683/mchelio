@@ -31,6 +31,9 @@ WeightedCenterZ = 0.1
 MaxFuel         = 300
 FuelConsumption = 0.8
 
+
+AddTexture = mc_atv
+AddTexture = mc_atv_bk
 AddTexture = mc_atv_normal_gr
 AddTexture = mc_atv_normal_wh
 

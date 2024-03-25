@@ -3,7 +3,7 @@ MaxHp = 230
 ThrottleUpDown = 0.81
 Speed = 0.62
 MobilityYawOnGround = 6.4
-StepHeight = 1.5
+StepHeight = 1.8
 Sound = prop
 MinRotationPitch = -90
 MaxRotationPitch = 90
@@ -17,7 +17,10 @@ FuelConsumption   = 1.0
 ThirdPersonDist = 4
 DefaultFreelook = false
 
-WeightedCenterZ = 0.1
+;WeightedCenterZ = 0.1
+
+;7 seats 
+;https://www.6-wheel-drive.org/vehicles/volvo-c304-c306.html
 
 
 OnGroundPitchFactor = 10.0
@@ -34,9 +37,9 @@ WeightType = Car
 
 HUD =  bnr32_hud, none, none
 
-AddRack = container, 0.0, 1.05, -1.765,   0.0, 0.00, -3.17
+AddRack = container, -0.3, 1.05, -0.965,   0.0, 0.00, -3.17
 
-AddRack = container, 0.0, 1.05, -0.465,   0.0, 0.00, -3.17
+AddRack = container, -0.3, 1.05, 0.265,   0.0, 0.00, -3.17
 
 EntityWidth  = 0.75
 EntityHeight = 0.75
@@ -48,6 +51,15 @@ AddSeat =  0.0,  0.50, 1.8270
 unmountposition = 0.5088,  2.20, 1.8270
 
 AddSeat = -0.5088,  0.50, 1.8270
+
+AddSeat = -0.5088,  0.50, -1.8270
+AddSeat = 0,  0.50, -1.8270
+AddSeat = 0.5088,  0.50, -1.8270
+
+AddSeat = 0.5088,  0.50, -0.7270
+
+
+
 
 AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
 

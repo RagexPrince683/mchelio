@@ -65,10 +65,10 @@ PivotTurnThrottle = 0.6
 ; タイヤの回転スピード
 PartWheelRot = 40
 ; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
-AddPartWheel     =  1.02,  0.14,  1.85, 30
-AddPartWheel     = -1.02,  0.14,  1.85, 30
-AddPartWheel     =  1.02,  0.14,  -1.49, 0
-AddPartWheel     = -1.02,  0.14,  -1.49, 0
+AddPartWheel     =  1.1532,  0.1429,  1.8596, 30
+AddPartWheel     = -1.1532,  0.1429,  1.8596, 30
+AddPartWheel     =  1.1532,  0.1429,  -1.4939, 0
+AddPartWheel     = -1.1532,  0.1429,  -1.4939, 0
 
 ;AddPartCanopy = 位置X, 位置Y, 位置Z, 回転軸X, 回転軸Y, 回転軸Z, 回転角度 0～180
 AddPartCanopy =  -1.02, 0.92, 1.02, 0,1,0,  60
