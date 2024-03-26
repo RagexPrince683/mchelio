@@ -10,7 +10,7 @@ SoundDelay = 1
 Accuracy = 1
 HeatCount = 2
 MaxHeatCount = 30
-Sound = gshtwentythree
+Sound = cannon_2_snd
 SoundPitch = 0.8
 
 Gravity = -0.001

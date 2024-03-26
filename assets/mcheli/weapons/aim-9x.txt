@@ -1,6 +1,6 @@
 DisplayName = AIM-9X sidewinder
 Type = AAMissile
-Power = 42
+Power = 56
 Acceleration = 3
 Explosion = 4
 Flaming = false
@@ -9,7 +9,7 @@ Delay = 9
 ReloadTime = 110
 Round = 2
 LockTime = 15
-ProximityFuseDist = 1
+ProximityFuseDist = 2
 ModelBullet = aim9x
 Sound = aimnine
 

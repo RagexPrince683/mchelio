@@ -10,7 +10,7 @@ SoundDelay = 1
 Accuracy = 1
 HeatCount = 2
 MaxHeatCount = 30
-Sound = gshtwentythree
+Sound = cannon_2_snd
 SoundPitch = 0.8
 
 Gravity = -0.001
@@ -26,6 +26,6 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 
-MaxAmmo = 150
-SuppliedNum = 150
+MaxAmmo = 180
+SuppliedNum = 180
 Item =  2, iron_ingot

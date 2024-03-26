@@ -1,4 +1,4 @@
-DisplayName = NR-30 30mm [MIG-19]
+DisplayName = 30mm NR-30 Autocannon
 Type = MachineGun2
 ModelBullet = bullet
 Explosion = 2
@@ -19,7 +19,7 @@ ReloadTime = 80
 Gravity = -0.001
 
 ;no
-Sound = gshtwentythree
+Sound = cannon_2_snd
 ;SoundPitch = 0.6
 
 

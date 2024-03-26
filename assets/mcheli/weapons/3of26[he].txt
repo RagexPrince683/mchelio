@@ -20,11 +20,12 @@ DisplayMortarDistance = true
 
 Acceleration = 7.5
 Piercing = 0
-DamageFactor = tank, 1.0
-DamageFactor = plane, 1.5
-DamageFactor = vehicle, 1.5
-DamageFactor = heli, 1.5
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
+
 AddDisplayName = en_US, 3OF26[HE]
 
 
