@@ -7,7 +7,11 @@ ThrottleUpDown = 1
 MobilityYawOnGround = 7.5
 MaxFuel         = 1000
 FuelConsumption = 0.8
-CameraZoom = 4
+CameraZoom = 6
+
+;BPK-3-42 
+
+
 EnableNightVision = true
 EnableEntityRadar = false
 CameraRotationSpeed = 25

@@ -9,7 +9,7 @@ ThrottleUpDown = 1
 MobilityYawOnGround = 7.5
 MaxFuel         = 1000
 FuelConsumption = 0.8
-CameraZoom = 4
+CameraZoom = 6
 EnableNightVision = true
 EnableEntityRadar = false
 Gravity = -0.61
@@ -84,7 +84,11 @@ AddPartWeapon    = b32 / mdz,   false, true, false,  0.00, 2.68, 0.00
 AddPartWeaponChild = false, true, 0.00, 2.48, 0.40
 AddTurretWeapon = b32,   0.00, 2.48, 0.40,   0.0, 0.0, true, 1, 0, -360,360, -70,5
 AddTurretWeapon = mdz,   0.00, 2.48, 0.40,   0.0, 0.0, true, 1, 0, -360,360, -70,5
-AddTurretWeapon = pkt,  -0.11, 2.48, 0.77,   0.0, 0.0, true, 1, 0, -360,360, -70,5
+AddTurretWeapon = pkt,  -0.11, 2.48, 0.77,   0.0, 0.0, false, 1, 0, -360,360, -70,5
+
+;AddTurretWeapon = pkt,  0.3649, 2.7940, 0.5840,   0.0, 0.0, false, 1, 0, -360,360, -70,5
+
+
 
 AddPartHatch =  -1.30,  1.90,  -1.61, 0,1, 0, 60
 AddPartHatch =   1.30,  1.90,  -1.61, 0,1, 0, -60

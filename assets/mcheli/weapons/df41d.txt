@@ -13,6 +13,9 @@ BombletDiff = 6.5
 Bomblet = 10
 ModelBomblet = scud
 
+
+DelayFuze = 5
+
 Gravity = -0.012
 
 ;ExplosionBlock = 50
