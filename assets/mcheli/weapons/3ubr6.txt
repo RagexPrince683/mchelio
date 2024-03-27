@@ -1,13 +1,13 @@
 DisplayName = 2A42 30mm Cannon 3UBR6 [APBC-T]
 Type = MachineGun2
-Power = 25
+Power = 40
 Acceleration = 5.0
 Explosion = 1
 Flaming = false
 Sight = MoveSight
-Delay = 4
+Delay = 2
 ReloadTime = 120
-Round = 100
+Round = 250
 SoundVolume = 15
 SoundPitch = 1.0
 Sound = bmptwomain
@@ -22,8 +22,8 @@ MaxHeatCount = 150
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
-MaxAmmo = 100
-SuppliedNum = 50
+MaxAmmo = 250
+SuppliedNum = 125
 Item =  2, iron_ingot
 Item =  2, gunpowder
 

@@ -7,7 +7,7 @@ Flaming = false
 Sight = MoveSight
 Delay = 0
 ReloadTime = 70
-Round = 50
+Round = 1470
 SoundVolume = 3
 SoundPitch = 1.0
 Sound = gun_l3_snd
@@ -35,7 +35,7 @@ DamageFactor = player, 1.0
 SoundVolume = 15
 
 
-MaxAmmo = 1200
-SuppliedNum = 200
-Item =  2, iron_ingot
-Item =  2, gunpowder
+MaxAmmo = 1470
+SuppliedNum = 147
+Item =  1, iron_ingot
+Item =  1, gunpowder
