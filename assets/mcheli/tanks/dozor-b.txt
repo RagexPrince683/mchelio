@@ -83,6 +83,8 @@ AddPartWeaponChild = 		    false, true,  0.0,  2.2308, -0.0522, 0.1
 
 InventorySize = 9
 
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_block, R, redstone
+
 AddPartSteeringWheel =  0.6141, 1.2881,  0.5803,  0, 0.235, -1,  130
 
 AddPartSteeringWheel =  0,  0,  0,  0, 0, 0,  0

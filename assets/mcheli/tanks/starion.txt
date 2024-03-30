@@ -26,7 +26,7 @@ OnGroundRollFactor  = 4.8
 EntityWidth  = 0.85
 EntityHeight = 0.85
 
-Addtexture = starion
+Addtexture = starionb
 Addtexture = starion1
 Addtexture = starion2
 

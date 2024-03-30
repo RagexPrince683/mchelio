@@ -1,4 +1,4 @@
-DisplayName = VAZ 2105 TSAR'ZHIGA (Fresh Auto Team)
+DisplayName = VAZ 2105 "Tsar Zhiga" (Fresh Auto Team, Drift Car)
 AddDisplayName = ru_RU, ВАЗ 2105 "Царь Жига" (Fresh Auto Team)
 MaxHp = 200
 Speed = 0.95
@@ -54,6 +54,8 @@ AddFixedSearchLight =  0.722, 0.5524,-2.4452,   0x80FF0000,   0x00FF0000,    0.0
 AddFixedSearchLight = -0.722, 0.5524,-2.4452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
 AddFixedSearchLight =  0.53, 0.5524,-2.4452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
 AddFixedSearchLight = -0.53, 0.5524,-2.4452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
+
+AddRecipe = " G ",  "I I",  "RIR",   G, mcheli:2105, I, iron_ingot, R, redstone
 
 MaxFuel         = 1000
 FuelConsumption = 2

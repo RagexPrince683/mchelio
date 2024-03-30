@@ -38,6 +38,8 @@ WeightType = Car
 
 HUD =  bnr32_hud, none, none, none, none, none
 
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+
 EntityWidth  = 0.8
 EntityHeight = 0.8
 
@@ -50,6 +52,7 @@ AddSeat = -0.4493,  0.35, -0.0483
 AddSeat =  0.3949,  0.55, -1.0305
 AddSeat = -0.3949,  0.55, -1.0305
 
+AddWeapon = none, 0.00,  0.42,  3.05, 0.0, 90
 
 AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
 

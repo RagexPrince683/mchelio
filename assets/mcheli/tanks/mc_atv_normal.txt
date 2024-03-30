@@ -76,7 +76,7 @@ AddFixedSearchLight =  0.484, 0.859,-1.51,   0xFFFF0000,   0x10FF0000,    0.05, 
 AddFixedSearchLight = -0.484, 0.859,-1.51,   0xFFFF0000,   0x10FF0000,    0.05, 0.20, -0.0,  0
 
 
-
+;AddRecipe = "  ",  "I I",  "RIR",   I, iron_ingot, R, wool
 
 
 BoundingBox = 0.0, 0.6, 1.0, 1.0, 0.8

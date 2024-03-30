@@ -37,6 +37,8 @@ AddTexture = ILTIS-Kdow_2
 
 HUD =  bnr32_hud, none, none, none, none, none
 
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+
 EntityWidth  = 0.8
 EntityHeight = 0.8
 

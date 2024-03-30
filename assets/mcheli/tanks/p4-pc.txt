@@ -40,6 +40,8 @@ EntityHeight = 0.8
 
 AddSeat =  0.5285,  0.20, -0.2210
 
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+
 unmountposition = 0.5285,  2.20, -0.0210
 
 AddSeat = -0.5285,  0.30, -0.2210

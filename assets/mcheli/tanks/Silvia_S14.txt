@@ -6,7 +6,7 @@ ThrottleUpDown = 0.84
 Speed = 1.76
 MobilityYawOnGround = 9.0
 StepHeight = 1.2
-Sound = Inline-four
+sound = srtwenty
 MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll     = 0
@@ -16,6 +16,11 @@ DamageFactor   = 1.0
 EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 1.0
+
+AddTexture = silvia_s14b
+AddTexture = silvia_s14r
+AddTexture = silvia_s14dbl
+AddTexture = silvia_s14y
 
 ;-16.21
 ;-0.1621

@@ -21,6 +21,8 @@ CameraPosition = -0.645, 1.4,  0.075, false
 ;CameraPosition = -0.645, 1.4,  0.075, true
 DefaultFreelook = false
 
+AddTexture = rx-8b
+
 WeightedCenterZ = 1.0
 
 ;-9.06
@@ -70,8 +72,11 @@ AddFixedSearchLight =  -1.05, 0.6297, 2.6644,   0x50FFFFFF,   0x00FFFFC0,    0.1
 AddFixedSearchLight =  -0.855, 0.5997, 2.7544,   0x50FFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
 
 
-AddFixedSearchLight =  1.0200, 0.9148,-2.5202,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  0.0,  12.8
+AddFixedSearchLight =  1.0200, 0.9148,-2.5602,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  0.0,  12.8
 AddFixedSearchLight =  0.8100, 0.9148,-2.6202,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  0.0,  12.8
+
+AddFixedSearchLight =  -1.0200, 0.9148,-2.5602,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  0.0,  12.8
+AddFixedSearchLight =  -0.8100, 0.9148,-2.6202,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  0.0,  12.8
 
 
 

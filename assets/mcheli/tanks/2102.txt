@@ -56,6 +56,9 @@ FuelConsumption = 2
 
 InventorySize = 18
 
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+
+
 ;engine?
 BoundingBox =  0.0, 0.80,  2.2,   1.0, 0.6
 ;mid
