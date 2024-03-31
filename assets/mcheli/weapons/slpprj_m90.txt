@@ -10,7 +10,7 @@ ReloadTime = 10
 Round = 24
 SoundVolume = 2
 SoundPitch = 1.0
-Sound = cannon_57mm_snd
+Sound = ifv_gun_snd
 Accuracy = 1.0
 ModeNum = 2
 Recoil = 0.9
@@ -19,6 +19,7 @@ DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
+
 Gravity = -0.001
 
 AddMuzzleFlash      =   2.1,      0.32,        3,  150,254,159,84

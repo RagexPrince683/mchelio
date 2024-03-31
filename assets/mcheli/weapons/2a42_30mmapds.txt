@@ -17,9 +17,8 @@ group = maingun
 
 Gravity = -0.005
 
-HeatCount = 4
+HeatCount = 7
 MaxHeatCount = 150
-
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
 MaxAmmo = 100

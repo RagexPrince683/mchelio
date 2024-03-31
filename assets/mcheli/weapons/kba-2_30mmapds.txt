@@ -15,7 +15,7 @@ Sound = kba2_snd
 Accuracy = 2.0
 ModeNum = 1
 Gravity = -0.005
-HeatCount = 8
+HeatCount = 7
 MaxHeatCount = 150
 
 DamageFactor = tank, 1.0

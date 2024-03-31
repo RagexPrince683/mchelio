@@ -35,8 +35,8 @@ unmountposition = 0.0,  2.14, 0.00
 AddPartRotor =    0.00,  2.65, 4.00,   1,0, 0
 AddBlade = 1, 0,  0.00,  2.65, 4.00,   0,0,-1
 
-AddWeapon = mg7_7mm,  0.47, 3.03, 2.75,   0.1, 0.0
-AddWeapon = mg7_7mm, -0.47, 3.03, 2.75,  -0.1, 0.0
+AddWeapon = mg7_7mmn1,  0.47, 3.03, 2.75,   0.1, 0.0
+AddWeapon = mg7_7mmn1, -0.47, 3.03, 2.75,  -0.1, 0.0
 
 AddWeapon = mg20mmn1,  1.98, 2.46, 1.48,   2.0, -0.5
 AddWeapon = mg20mmn1, -1.98, 2.46, 1.48,  -2.0, -0.5
