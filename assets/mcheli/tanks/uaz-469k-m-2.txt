@@ -3,7 +3,7 @@ AddDisplayName = ru_RU, УАЗ-469
 AddDisplayName = en_US, UAZ-469
 MaxHp = 230
 ThrottleUpDown = 0.81
-Speed = 0.546
+Speed = 0.575
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
 Sound = uaz_loop
@@ -93,6 +93,8 @@ InventorySize = 9
 AddPartCanopy   =  0.8115, 0.8417, 0.7622,  0, 1, 0, -75
 
 AddPartSteeringWheel =  0.431,  1.05,  0.565,  0, 0.488, -1,  130
+
+AddRecipe = "IGI",  "III",  "III",   G, glass, I, iron_ingot, R, redstone
 
 ArmorDamageFactor = 1
 

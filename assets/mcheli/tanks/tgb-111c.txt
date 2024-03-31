@@ -59,6 +59,8 @@ AddSeat = 0.5088,  0.50, -1.8270
 
 AddSeat = 0.5088,  0.50, -0.7270
 
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+
 
 
 

@@ -1,6 +1,6 @@
-DisplayName = KPVT [12.7mm MG]
+DisplayName = KPV 14.5×114mm Machine Gun
 Type = MachineGun1
-Power = 31
+Power = 39
 Acceleration = 7.5
 Explosion = 0
 Flaming = false
@@ -11,7 +11,7 @@ Delay = 0
 HeatCount = 1
 MaxHeatCount = 100
 SoundPitch = 0.8
-Sound = gun_l1_snd
+Sound = kpv
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5

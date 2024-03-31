@@ -35,10 +35,18 @@ AddTexture = m151_2
 ; X座標のマイナス側は必要なし
 SetWheelPos =  0.48,  -0.24,  1.65, -1.00
 
-HUD = bnr32_hud, none,
+HUD = bnr32_hud, none, none, none
 
 AddSeat =  0.45, 0.54,  0.18
 AddSeat = -0.45, 0.74,  0.18
+
+AddSeat = -0.45, 0.84,  -0.80
+AddSeat = 0.45, 0.84,  -0.80
+
+;AddSeat = -0.45, 0.84,  -1.60
+;AddSeat = 0.45, 0.84,  -1.60
+
+
 
 AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
 
@@ -79,7 +87,7 @@ BoundingBox = 0.0, 0.40, 0.0, 1.85, 0.2
 BoundingBox = 0.0, 0.40, -0.95, 1.85, 0.2
 
 
-AddRack = davycrockett, 0.0, 1.05, -1.0,   0.0, 1.05, -1.25
+AddRack = davycrockett/container, 0.0, 1.05, -1.0,   0.0, 1.05, -1.25
 
 WeightedCenterZ = 0.5
 

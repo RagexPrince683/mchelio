@@ -54,7 +54,7 @@ InventorySize = 27
 
 ;Creative only
 ;nyet
-AddRecipe = "XXX",  "XCX",  "XXX",  X, iron_block, C, coal
+AddRecipe = "XXX",  "XCX",  "XXX",  X, iron_ingot, C, coal
 
 AddPartWheel     =  1.4079, 0.3216, 2.8474, 30
 AddPartWheel     = -1.4079, 0.3216, 2.8474, 30
