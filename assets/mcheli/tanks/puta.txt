@@ -31,21 +31,21 @@ AddTexture = puta8
 AddTexture = puta9
 AddTexture = puta10
 
-HUD = l_h_hud, none
+HUD = bnr32_hud, none
 
-CameraPosition =  0.493,  0.86,  0.43, true
+CameraPosition =  0.493,  0.86,  0.25, true
+;
+;CameraPosition =  1.50,  0.65, -3.95, true,    7,-2
+;CameraPosition = -0.75,  0.65,  0.95, true, -135, 0
+;CameraPosition = -0.11,  0.80,  0.05, true,  -15, 15
+;CameraPosition = -0.60,  0.91,  0.15, true,  -32, 18
+;CameraPosition =  1.65,  0.30,  4.25, true, -207, 0
+;CameraPosition = -1.60, -0.15, -2.35, true,  -15, 0
+;CameraPosition =  1.60,  0.10,  1.35, true,   15, 0
 
-CameraPosition =  1.50,  0.65, -3.95, true,    7,-2
-CameraPosition = -0.75,  0.65,  0.95, true, -135, 0
-CameraPosition = -0.11,  0.80,  0.05, true,  -15, 15
-CameraPosition = -0.60,  0.91,  0.15, true,  -32, 18
-CameraPosition =  1.65,  0.30,  4.25, true, -207, 0
-CameraPosition = -1.60, -0.15, -2.35, true,  -15, 0
-CameraPosition =  1.60,  0.10,  1.35, true,   15, 0
-
-AddSeat =   0.493,  -0.28,  0.36
-AddSeat =  -0.493,  -0.16,  0.41
-EntityPitch = -3
+AddSeat =   0.493,  -0.28,  0.25
+AddSeat =  -0.493,  -0.16,  0.25
+EntityPitch = -9
 
 SetWheelPos =  0.77,  -0.24,  2.01,-1.38
 
