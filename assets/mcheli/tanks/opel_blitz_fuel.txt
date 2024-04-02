@@ -49,6 +49,8 @@ unmountposition = 0.3576,  2.25,  1.1360
 
 AddSeat =  -0.3576,  0.75,  1.1360
 
+AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
+
 AddWeapon =  old_horn, 0.00,  0.42,  3.05, 0.0, 90
 
 
@@ -66,6 +68,9 @@ AddPartWheel     = -0.8764,   0.1495, -1.6653
 
 AddFixedSearchLight =  -0.8039, 0.9269, 2.6542,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.40,  -5,  0
 AddFixedSearchLight =  0.8039, 0.9269, 2.6542,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.40,   5,  0
+
+;AddFixedSearchLight =  0.8426, 0.7147,-2.6825,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
+AddFixedSearchLight =  -0.8, 0.5347,-2.375,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  0.0,  0
 
 
 

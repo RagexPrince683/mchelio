@@ -39,7 +39,7 @@ GravityInWater = -1.0
 
 EnableBack = true
 
-HUD = plane, none
+HUD = s15_hud, none
 
 ;AddSeat =  X, Y, Z
 AddSeat = 0.8, 0.14, -0.06

@@ -99,6 +99,8 @@ AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 AddFixedSearchLight =  0.77, 0.62, 3.09,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
 AddFixedSearchLight = -0.77, 0.62, 3.09,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
 
+;0xFF12edff xenon
+
 ;テールランプ
 AddFixedSearchLight =  0.97, 0.78,-3.05,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
 AddFixedSearchLight =  0.62, 0.78,-3.09,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
