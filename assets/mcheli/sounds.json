@@ -40,6 +40,7 @@
 "asix": {"category": "master","sounds": ["asix"]},
 "aten": {"category": "master","sounds": ["aten"]},
 "atgm_shot": {"category": "master","sounds": ["atgm_shot"]},
+"barg": {"category": "master","sounds": ["barg"]},
 "battle_station": {"category": "master","sounds": ["battle_station"]},
 "bellfourtyseven": {"category": "master","sounds": ["bellfourtyseven"]},
 "besa": {"category": "master","sounds": ["besa"]},
