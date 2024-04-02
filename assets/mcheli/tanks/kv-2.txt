@@ -5,7 +5,7 @@ MaxHp = 100
 Speed = 0.45
 Sound = kvtwo
 MobilityYawOnGround = 2.0
-ThrottleUpDown = 10.0
+ThrottleUpDown = 2.5
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -85,8 +85,10 @@ AddTrackRoller = -1.70,  0.6740, -4.3796
 
 ----------------------------------------------------
 
-AddWeapon      = 152mm_howitzer,  0.00, 3.017, 0.00,  0.0, 0.0, true,1, 0,-360,360, -12, 5
-AddPartWeapon  = 152mm_howitzer, false, true,  false,  0.00, 0.00, 0.00
+AddWeapon      = kv2apcbc,  0.00, 3.017, 0.00,  0.0, 0.0, true,1, 0,-360,360, -12, 5
+AddWeapon      = kv2he,  0.00, 3.017, 0.00,  0.0, 0.0, true,1, 0,-360,360, -12, 5
+AddPartWeapon  = kv2apcbc, false, true,  false,  0.00, 0.00, 0.00
+AddPartWeapon  = kv2apcbc, false, true,  false,  0.00, 0.00, 0.00
 AddPartWeaponChild = false, true,   0.00, 3.017, 1.245
 AddPartWeaponChild = false, true,   0.00, 3.017, 1.245, 0.5
 

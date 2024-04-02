@@ -73,8 +73,8 @@ AddTrackRoller =  1.5259,  0.3533, -2.5848
 AddTurretWeapon = 85mm_type_62,   0.0,    1.3947,  1.2376, 0.0, 0.0, true, 1,0,-360,360, -20, 5
 AddTurretWeapon = 85mm_type_62_2, 0.0,    1.3947,  1.2376, 0.0, 0.0, true, 1,0,-360,360, -20, 5
 AddTurretWeapon = 85mm_type_62_3, 0.0,    1.3947,  1.2376, 0.0, 0.0, true, 1,0,-360,360, -20, 5
-AddTurretWeapon = 7.62_PKT,      -0.3230, 1.4798,  1.2376, 0.0, 0.0, true, 1,0,-360,360, -20, 5
-AddTurretWeapon = mg12_7mm_l,    -0.3721, 2.1328, -0.2327, 0.0, 0.0, true, 1,0,-360,360, -20, 5
+AddTurretWeapon = 62lmg,      -0.3230, 1.4798,  1.2376, 0.0, 0.0, true, 1,0,-360,360, -20, 5
+AddTurretWeapon = 62hmg,    -0.3721, 2.1328, -0.2327, 0.0, 0.0, true, 1,0,-360,360, -20, 5
 
 
 AddPartWeapon = 85mm_type_62/85mm_type_62_2/85mm_type_62_3, false, true, false,  0.0,    1.1276,  0.0
