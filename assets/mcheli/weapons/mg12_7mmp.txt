@@ -1,11 +1,11 @@
-DisplayName = 12.7mm Machine Gun
+DisplayName = 12.7mm M2 Machine Gun
 Type = MachineGun1
 Power = 31
 Acceleration = 8.0
 Explosion = 0
 Flaming = false
 Sight = MoveSight
-Delay = 0
+Delay = 1
 ;SoundDelay = 3
 Accuracy = 1.2
 HeatCount = 1

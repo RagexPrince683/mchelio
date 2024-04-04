@@ -2,21 +2,21 @@ DisplayName = 2S7 "Pion"
 MaxHp = 180
 Speed = 0.35
 Sound = zilonethreefive
-ThrottleUpDown = 10.0
+ThrottleUpDown = 50.0
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = false
 CameraRotationSpeed = 30
 StepHeight = 1
 MinRotationPitch = -50
 MaxRotationPitch = 0
-DefaultFreelook = false
+DefaultFreelook = true
 HideEntity = false
 CameraPosition = 0.90, 2.61, -3.2266, false
 
-MobilityYawOnGround = 3.0
+MobilityYawOnGround = 1.0
 
 HUD = mbt_hud
 

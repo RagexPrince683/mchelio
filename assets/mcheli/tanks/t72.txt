@@ -66,7 +66,7 @@ AddTrackRoller = 1.98,  0.584,  -2.927
 AddWeapon = 2A46_APFSDS,  0.00, 1.7254, 0.2135,  0.0, 0.0, true,1, 0,-360,360, -14, 5
 AddWeapon = 2A46_HEATMP,  0.00, 1.7254, 0.2135,  0.0, 0.0, true,1, 0,-360,360, -14, 5
 AddWeapon = 2A46_HE,      0.00, 1.7254, 0.2135,  0.0, 0.0, true,1, 0,-360,360, -14, 5
-AddWeapon = mg_coaxial,      0.00, 1.7254, 0.2135,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddWeapon = t72mg_coaxial,      0.00, 1.7254, 0.2135,  0.0, 0.0, true,1, 0,-360,360, -14, 5
 AddPartWeapon = 2A46_APFSDS / 2A46_HEATMP / 2A46M_HE, false, true, false,  0.00, 1.4375, 0.2135, 0
 AddPartWeaponChild = false, true, 0.00, 1.70, 1.1937
 
