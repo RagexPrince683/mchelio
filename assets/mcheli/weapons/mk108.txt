@@ -6,12 +6,13 @@ Explosion = 1
 ExplosionBlock = 0
 Flaming = true
 Sight = MoveSight
-Delay = 2
+Delay = 1
 Accuracy = 6.5
 Particle = largeexplode
 Round = 60
 ReloadTime = 50
-
+HeatCount = 5
+MaxHeatCount = 140
 
 
 Acceleration = 7.5

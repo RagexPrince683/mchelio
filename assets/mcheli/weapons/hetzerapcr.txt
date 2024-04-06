@@ -21,6 +21,8 @@ DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 Recoil = 0.45
 Group = MainGun
+Piercing = 3
+
 
 
 ; AddMuzzleFlash = distance, size, life time,   A,  R,  G,  B

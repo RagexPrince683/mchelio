@@ -18,7 +18,7 @@ Accuracy = 1
 Piercing = 1
 group = maingun
 
-HeatCount = 4
+HeatCount = 7
 MaxHeatCount = 150
 
 Gravity = -0.005

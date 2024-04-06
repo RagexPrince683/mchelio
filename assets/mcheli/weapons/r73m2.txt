@@ -1,19 +1,19 @@
 DisplayName = R-73M2 AAM
 Type = AAMissile
-Power = 42
+Power = 56
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 4
+Acceleration = 3
 Explosion = 4
 Flaming = false
 Sight = MissileSight
 Delay = 9
 ReloadTime = 80
 Round = 2
-LockTime = 10
-ProximityFuseDist = 1
+LockTime = 20
+ProximityFuseDist = 2
 Sound = missile_1_snd
 
 
