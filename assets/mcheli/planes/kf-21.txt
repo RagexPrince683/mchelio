@@ -80,7 +80,7 @@ AddPartWeaponMissile = iris-t, false, false, false, 5.17, 1.43, -6.56
 AddPartWeaponMissile = iris-t, false, false, false, -5.17, 1.43, -6.56
 
 ;WEAPON
-AddWeapon = m61a1_l,  1.46, 2.36, -1.15,  0.0, 0.0
+AddWeapon = m61kf21,  1.46, 2.36, -1.15,  0.0, 0.0
 
 AddWeapon = meteor_k,  0.75, 0.99, -4.3,   1.0, 0.0
 AddWeapon = meteor_k, -0.75, 0.99, -4.3,  -1.0, 0.0

@@ -1,4 +1,4 @@
-DisplayName = AIM-9L Sidewinder
+DisplayName = AIM-9E Sidewinder
 Type = AAMissile
 Power = 54
 Acceleration = 4
@@ -6,7 +6,7 @@ Explosion = 5
 Flaming = false
 Sight = MissileSight
 Delay = 90
-LockTime = 14
+LockTime = 16
 ProximityFuseDist = 1
 ModelBullet = aim9h
 Sound = aimnine

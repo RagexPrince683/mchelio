@@ -70,8 +70,9 @@ MinRotationPitch = -8
 MaxRotationPitch = 15
 
 AddWeapon = hetzerap,      -0.4127, 1.51, 2.294,  0.0, 0.0, true,1, 0,-5,15, -5, 8
+AddWeapon = hetzerapcr,      -0.4127, 1.51, 2.294,  0.0, 0.0, true,1, 0,-5,15, -5, 8
 AddWeapon = hetzerhe,      -0.4127, 1.51, 2.294,  0.0, 0.0, true,1, 0,-5,15, -5, 8
-AddPartWeapon = hetzerap/hetzerhe, false, true, true,  -0.4127, 1.51, 2.294, 0
+AddPartWeapon = hetzerap/hetzerapcr/hetzerhe, false, true, true,  -0.4127, 1.51, 2.294, 0
 AddPartWeaponChild = false, true, -0.4127, 1.51, 2.294
 AddPartWeaponChild = false, true, -0.4127, 1.51, 2.294, 0.3
 

@@ -2,8 +2,8 @@ DisplayName = T-90M obr 2017
 MaxHp = 800
 Speed = 0.84
 Sound = tninety
-ThrottleUpDown = 20.0
-MobilityYawOnGround = 4.0
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 3.0
 MinRotationPitch = -30
 MaxRotationPitch = 5
 MobilityRoll = 0
@@ -70,10 +70,10 @@ AddTurretWeapon = 2A82_APFSDS, 0.00, 2.10, 0,  0.0, 0.0, false,1, 0,-360,360, -1
 AddTurretWeapon = 2A82_HE,     0.00, 2.10, 0,  0.0, 0.0, false,1, 0,-360,360, -15, 7
 AddTurretWeapon = 2A82_HEATMP,     0.00, 2.10, 0,  0.0, 0.0, false,1, 0,-360,360, -15, 7
 AddTurretWeapon = 9k119,     0.00, 2.10, 0,  0.0, 0.0, false,1, 0,-360,360, -90, 90
-AddTurretWeapon = mg7_62mm_mbt,   -0.4673, 2.3535, 0,   0.0, 0.0, false, 1, 0, -360,360, -15,7
-AddPartTurretWeapon    = mg7_62mm,   true, true, false,  -0.8524, 3.2434, -1.9009
-AddPartTurretWeapon    = mg7_62mm,  true, true, true, -0.8524, 3.2434, -1.9009
-AddTurretWeapon = mg7_62mm,   -0.8522, 4.1713, -2.517,   0.0, 0.0, false, 2, 0, -360,360, -15,5
+AddTurretWeapon = t90mg_coaxial,   -0.4673, 2.3535, 0,   0.0, 0.0, false, 1, 0, -360,360, -15,7
+AddPartTurretWeapon    = t90mg_coaxial,   true, true, false,  -0.8524, 3.2434, -1.9009
+AddPartTurretWeapon    = t90mg_coaxial,  true, true, true, -0.8524, 3.2434, -1.9009
+AddTurretWeapon = kord,   -0.8522, 4.1713, -2.517,   0.0, 0.0, false, 2, 0, -360,360, -15,5
 AddRecipe = "XXX",  " X ",  "III",  X, iron_block,  I, iron_ingot
 
 
