@@ -6,7 +6,7 @@ MaxHp = 230
 Speed = 0.51
 DamageFactor = 0.85
 ThrottleUpDown = 0.81
-Sound = mbt_run
+Sound = ural
 CanRide = true
 
 ;-9.41

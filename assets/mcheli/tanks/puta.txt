@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, ֏L֏a֏m֏֏b֏o֏r֏g֏h֏i֏n֏i ֏H֏u֏r֏a֏c֏a֏
 ItemID = 31400
 MaxHp = 200
 Speed = 1.99
-Sound = imreallygay
+Sound = barg
 MobilityYawOnGround = 10.0
 ThrottleUpDown = 1.0
 ;2.9s 0-60
@@ -93,8 +93,8 @@ AddWeapon = l_claxon,         0.00, -1.00, 0.00,  0.0,0.0
 AddFixedSearchLight =  0.93, 0.4291, 2.8275,   0x20FFFFFF,   0xFF4c00b0,    0.15, 0.25,  5,  0
 AddFixedSearchLight = -0.93, 0.4291, 2.8275,   0x20FFFFFF,   0xFF4c00b0,    0.15, 0.25,  5,  0
 
-AddFixedSearchLight =  0.7818, 0.3857, 2.9331,   0x20FFFFFF,   0xFF4c00b0,    0.15, 0.25,  5,  0
-AddFixedSearchLight = -0.7818, 0.3857, 2.9331,   0x20FFFFFF,   0xFF4c00b0,    0.15, 0.25,  5,  0
+AddFixedSearchLight =  0.7618, 0.4057, 2.9331,   0x20FFFFFF,   0xFF4c00b0,    0.15, 0.25,  5,  0
+AddFixedSearchLight = -0.7618, 0.4057, 2.9331,   0x20FFFFFF,   0xFF4c00b0,    0.15, 0.25,  5,  0
 
 
 

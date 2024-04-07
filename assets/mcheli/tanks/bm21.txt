@@ -2,7 +2,7 @@
 AddDisplayName = ja_JP, BM21
 AddDisplayName = en_US, BM-21 Grad "Ural" Truck
 ItemID = 30100
-MaxHp = 200
+MaxHp = 230
 Speed = 0.53
 Sound = ural
 ThrottleUpDown = 0.81

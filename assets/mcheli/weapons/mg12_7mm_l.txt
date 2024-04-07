@@ -13,6 +13,8 @@ MaxHeatCount = 100
 SoundPitch = 1.0
 Sound = dshk
 
+Gravity = -0.005
+
 
 ;12.7
 Power = 31
