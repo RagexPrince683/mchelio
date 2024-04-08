@@ -19,6 +19,8 @@ StepHeight = 1.2
 
 WeightedCenterZ = -0.2
 
+SoundPitch = 0.8
+
 
 AddTexture = puta1
 AddTexture = puta2

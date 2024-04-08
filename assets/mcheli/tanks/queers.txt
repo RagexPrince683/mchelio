@@ -2,7 +2,7 @@ DisplayName = ֏L֏a֏m֏b֏o֏r֏g֏h֏i֏n֏i ֏H֏u֏r֏a֏c֏a֏n ֏P֏e֏r�
 ;֏F֏U֏C֏K ֏Y֏O֏U֏ A֏T֏O֏Mㅤ
 MaxHp = 200
 Speed = 2.01
-Sound = fart
+Sound = greenfn
 MobilityYawOnGround = 11.5
 ThrottleUpDown = 1.2
 ;3.1s stock
