@@ -1,4 +1,4 @@
-DisplayName = tochka
+DisplayName = 9M79 Tochka-u
 AddDisplayName = en_EN 9M79 Tochka-u
 AddDisplayName = ua_UA 9M79 Tochka-u
 ItemID = 197714

@@ -1,10 +1,10 @@
 DisplayName = 75mm SA50 L/57 [AP]
 Type = MachineGun2
-Power = 202
+Power = 15
 ModelBullet = bullet76mm
-Acceleration = 6.0
-Explosion = 0
-ExplosionBlock = 0
+Acceleration = 5.0
+Explosion = 4
+ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
 Delay = 120

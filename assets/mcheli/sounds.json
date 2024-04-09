@@ -136,6 +136,7 @@
 "gepardmain": {"category": "master","sounds": ["gepardmain"]},
 "gltd": {"category": "master","sounds": ["gltd"]},
 "grad": {"category": "master","sounds": ["grad"]},
+"greenfn": {"category": "master","sounds": ["greenfn"]},
 "gsh-30-1_2snd": {"category": "master","sounds": ["gsh-30-1_2snd"]},
 "gshtwentythree": {"category": "master","sounds": ["gshtwentythree"]},
 "gtr_horn_snd": {"category": "master","sounds": ["gtr_horn_snd"]},
