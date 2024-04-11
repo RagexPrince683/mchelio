@@ -36,7 +36,7 @@ Category = C
 
 WeightType = Car
 
-HUD =  bnr32_hud, none, none
+HUD =  bnr32_hud, none, none, none, none, none, none
 
 AddRack = container, -0.3, 1.05, -0.965,   0.0, 0.00, -3.17
 
