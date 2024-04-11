@@ -96,10 +96,11 @@ AddTrackRoller =  1.82,  0.18, -3.50
 AddTrackRoller =  1.82,  0.81, -4.59
 
 ;主砲
-AddPartWeapon = rehinmetall_apfsds / rehinmetall_he / canistershell, false, true, false,   0.00, 2.10, 0.00, 0
+AddPartWeapon = rehinmetall_apfsds /abramsheat / rehinmetall_he / canistershell, false, true, false,   0.00, 2.10, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.5
 AddTurretWeapon = rehinmetall_apfsds, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = abramsheat, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = rehinmetall_he,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = canistershell,        0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 
