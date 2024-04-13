@@ -94,5 +94,5 @@ ArmorMinDamage = 2
 
 InventorySize = 9
 
-AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, gold_ingot, R, redstone
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 

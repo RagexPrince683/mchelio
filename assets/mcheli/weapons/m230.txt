@@ -12,9 +12,11 @@ Round = 300
 SoundVolume = 3
 SoundPitch = 1.0
 Sound = gun_h3_snd
-Recoil = 5.0
+;Recoil = 5.0
 Accuracy = 1.5
 ModeNum = 2
+
+;RecoilBufCount = 40, 5
 
 HeatCount = 1
 MaxHeatCount = 17

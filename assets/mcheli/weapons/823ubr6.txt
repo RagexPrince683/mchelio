@@ -1,8 +1,9 @@
-DisplayName = 2A42 30mm Cannon [3UBR8 - APDS]
+DisplayName = 30mm 2A72 Automatic Cannon [3UBR6 - APBC-T]
 Type = MachineGun2
-Power = 82
+Power = 40
 Acceleration = 5.0
-Explosion = 0
+Explosion = 1
+ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 2
@@ -22,13 +23,13 @@ MaxHeatCount = 150
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
-MaxAmmo = 250
-SuppliedNum = 125
+MaxAmmo = 100
+SuppliedNum = 100
 Item =  2, iron_ingot
 Item =  2, gunpowder
 
 Acceleration = 7.5
-Piercing = 1
+Piercing = 2
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5

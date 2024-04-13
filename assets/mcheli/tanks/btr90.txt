@@ -1,9 +1,9 @@
-﻿DisplayName = BTR-90
-AddDisplayName = en_US, BTR-90
+﻿DisplayName = BTR-90 APC
+AddDisplayName = en_US, BTR-90 APC
 MaxHp = 250
 Speed = 0.62
 Sound = bmpone
-ThrottleUpDown = 1
+ThrottleUpDown = 2
 MobilityYawOnGround = 7.5
 MaxFuel         = 1000
 FuelConsumption = 0.8
@@ -32,6 +32,8 @@ FloatOffset = -0.5
 Gravity = -0.61
 ;earth gravity is -9.81m/s^2 however minecraft and mcheli base off of different metric or something 
 GravityInWater = 0.1
+
+;GravityInWater = -0.2???
 
 SubmergedDamageHeight = 3
 
@@ -85,6 +87,9 @@ TrackRollerRot = 30
 
 AddPartWeapon    = b32, false, true, false,  -0.00, 2.68, -0.00
 AddPartWeaponChild = false, true, 0.00, 2.48, 0.40
+
+;no NO NO NO NO NO NO!!!
+
 AddTurretWeapon = b32,   0.00, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -70,5
 AddTurretWeapon = mdz,   0.00, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -70,5
 AddTurretWeapon = pkt,  0.2064, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -70,5

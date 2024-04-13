@@ -1,4 +1,4 @@
-DisplayName = CL3143 120mm APFSDS
+DisplayName = 120mm OTO Melara 120/45 [CL3143 - APFSDS]
 Type = MachineGun1
 Power = 589
 ModelBullet = bullet105mm
@@ -7,7 +7,7 @@ ExplosionBlock = 1
 Acceleration = 16.0
 Sight = None
 ReloadTime = 80
-Round = 1
+Round = 9
 SoundVolume = 10.0
 Sound = mbtshot
 Accuracy = 1.5
@@ -40,7 +40,7 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 2.5
 
-MaxAmmo = 40
-SuppliedNum = 1
+MaxAmmo = 17
+SuppliedNum = 17
 Item =  1, iron_ingot
 Item =  1, gunpowder

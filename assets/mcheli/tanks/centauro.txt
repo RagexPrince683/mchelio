@@ -75,7 +75,8 @@ TrackRollerRot = 30
 
 AddWeapon        = 105mmb1,  0.00, 2.39, 0.00, 0.0, 0.0, true,  1 , 0, -360, 360, -16,6
 AddWeapon        = 105mmb1heat,  0.00, 2.39, 0.00, 0.0, 0.0, true,  1 , 0, -360, 360, -16,6
-AddPartWeapon    = 105mmb1/105mmb1heat,  false, true, false,  0.00, 2.01, 0.00
+AddWeapon        = 105mmb1he,  0.00, 2.39, 0.00, 0.0, 0.0, true,  1 , 0, -360, 360, -16,6
+AddPartWeapon    = 105mmb1/105mmb1heat/105mmb1he,  false, true, false,  0.00, 2.01, 0.00
 AddTurretWeapon     = centmg3,  0.422, 2.33, 1.79, 0.0, 0.0, true,   1 , 0, -360, 360, -16,6
 AddPartWeaponChild= false, true, 0.00, 2.36, 1.32
 AddPartWeaponChild= false, true, 0.00, 2.36, 1.32,  0.5

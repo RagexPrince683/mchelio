@@ -1,9 +1,9 @@
-DisplayName = 105mm OTO Melara 105/52 Cannon [APFSDS - M735]
+DisplayName = 105mm OTO Melara 105/52 Cannon [M393A2 - HESH]
 Type = MachineGun2
-Power = 353
+Power = 127
 ModelBullet = bullet105mm
 Acceleration = 4.8
-Explosion = 1
+Explosion = 3
 ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight
@@ -20,34 +20,31 @@ ReloadTime = 100
 Group = MainGun
 Acceleration = 7.0
 ;ModelBullet = bullet105mm
+Piercing = 0
 Accuracy = 0.0
-DamageFactor = tank, 3.5
-DamageFactor = plane, 1.5
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.0
-DamageFactor = player, 10.0
-AddDisplayName = en_US, 105mm [APDS]
 SoundVolume = 15
 Gravity = -0.001
 
-DisplayMortarDistance = true
+
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+ModelBullet = bullet105mm
+Piercing = 5
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
+SoundVolume = 15
 
 Round = 16
 
+DisplayMortarDistance = true
 
 
-Group = MainGun
-Acceleration = 7.0
-ModelBullet = 3bm42
-Piercing = 5
-Accuracy = 0.0
-DamageFactor = tank, 10.0
-DamageFactor = plane, 1.5
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.0
-DamageFactor = player, 10.0
-;AddDisplayName = en_US,
-SoundVolume = 15
+
 
 
 

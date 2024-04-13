@@ -1,4 +1,4 @@
-DisplayName = DM12A1 120mm HEAT
+DisplayName = 120mm OTO Melara 120/45 [DM12A1 - HEAT-FS]
 Type = MachineGun2
 Power = 480
 ModelBullet = bullet105mm
@@ -13,6 +13,7 @@ ModeNum = 1
 SoundVolume = 20
 Sound = mbtshot
 Gravity = -0.002
+Round = 9
 
 DisplayMortarDistance = true
 
@@ -22,7 +23,7 @@ ReloadTime = 170
 Group = MainGun
 Acceleration = 7.0
 ModelBullet = bullet105mm
-Piercing = 5
+Piercing = 0
 Accuracy = 0.0
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
@@ -40,7 +41,7 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 2.5
 
-MaxAmmo = 30
-SuppliedNum = 15
+MaxAmmo = 17
+SuppliedNum = 17
 Item =  3, iron_ingot
 Item =  2, gunpowder

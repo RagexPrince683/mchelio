@@ -1,4 +1,4 @@
-DisplayName = 2A42 30mm Cannon 3UBR6 [APBC-T]
+DisplayName = 2A42 30mm Cannon [3UBR6 - APBC-T]
 Type = MachineGun2
 Power = 40
 Acceleration = 5.0
@@ -28,7 +28,7 @@ Item =  2, iron_ingot
 Item =  2, gunpowder
 
 Acceleration = 7.5
-Piercing = 0
+Piercing = 2
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5

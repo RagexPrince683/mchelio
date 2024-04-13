@@ -28,6 +28,8 @@ FloatOffset = -2.0
 StepHeight = 2.0
 FlareType = 10
 
+CameraPosition = 0.0, 3.68, 0.0, true
+
 SubmergedDamageHeight = 2
 
 ;  M = Military,  A = AAGun(対空砲)
@@ -42,7 +44,7 @@ OnGroundRollFactor  = 0.8
 
 HUD = mbt_hud, 
 
-AddSeat =  0.00, 2.68,  0.00
+AddGunnerSeat =  0.00, 2.68,  0.00, 0.0, 3.68, 0.0, false, -45, 10, true
 
 
 ;SetWheelPos =  1.50,  -0.24,  3.75, 1.71, -0.15, -2.01

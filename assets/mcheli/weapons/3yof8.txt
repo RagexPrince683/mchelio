@@ -1,9 +1,9 @@
-DisplayName = 2A42 30mm Cannon [HEF-T]
+DisplayName = 2A42 30mm Cannon [3UOR6 - HE-T]
 Type = MachineGun1
 Power = 9
 Acceleration = 5.0
 Explosion = 3
-ExplosionBlock = 2
+ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight
 Delay = 2
@@ -15,6 +15,10 @@ Sound = bmptwomain
 Accuracy = 1.5
 ModeNum = 1
 group = maingun
+
+TimeFuse = 14
+
+ProximityFuseDist = 2
 
 Gravity = -0.005
 
