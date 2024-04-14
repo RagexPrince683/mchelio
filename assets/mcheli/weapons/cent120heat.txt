@@ -3,7 +3,7 @@ Type = MachineGun2
 Power = 480
 ModelBullet = bullet105mm
 Acceleration = 8.0
-Explosion = 2
+Explosion = 4
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
@@ -11,7 +11,7 @@ Delay = 170
 ModeNum = 1
 ;SoundPitch = 0.5
 SoundVolume = 20
-Sound = mbtshot
+Sound = centaurobig
 Gravity = -0.005
 Round = 9
 

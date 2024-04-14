@@ -4,7 +4,7 @@ Power = 127
 ModelBullet = bullet105mm
 Acceleration = 4.8
 Explosion = 3
-ExplosionBlock = 1
+ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
 Delay = 84
@@ -14,6 +14,8 @@ SoundPitch = 1.6
 SoundVolume = 20
 Sound = centauro
 Recoil = 2
+
+ProximityFuseDist = 2
 
 Delay = 90
 ReloadTime = 100
@@ -39,7 +41,7 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-Round = 16
+Round = 13
 
 DisplayMortarDistance = true
 

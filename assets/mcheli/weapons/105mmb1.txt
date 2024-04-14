@@ -3,8 +3,8 @@ Type = MachineGun2
 Power = 353
 ModelBullet = bullet105mm
 Acceleration = 4.8
-Explosion = 1
-ExplosionBlock = 1
+Explosion = 0
+ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 84
@@ -32,7 +32,7 @@ Gravity = -0.001
 
 DisplayMortarDistance = true
 
-Round = 16
+Round = 13
 
 
 

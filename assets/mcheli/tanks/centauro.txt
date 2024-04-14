@@ -1,4 +1,4 @@
-DisplayName = B1 Centauro
+DisplayName = B1 Centauro (105mm)
 AddDisplayName = en_US, B1 Centauro (105mm)
 AddDisplayName = ja_JP, チェンタウロ偵察戦闘車 (105mm)
 ItemID = 30102
@@ -45,8 +45,11 @@ HUD = mbt_hud, mbt_gnr, gunner, gunner
 
 AddGunnerSeat =  0.00, 1.00,  0.00
 AddGunnerSeat =  0.00, 1.01,  0.00,   0.60, 3.40,  0.60, false, -90, 90, true
-AddGunnerSeat =  0.78, 2.33, -0.16,   0.78, 3.63, -0.16, false, -90, 90, true
-AddGunnerSeat = -0.80, 2.41, -0.97,  -0.80, 3.71, -0.97, false, -90, 90, true
+;AddGunnerSeat =  0.78, 2.53, -0.16
+;AddGunnerSeat = -0.80, 2.61, -0.97
+
+AddGunnerSeat =  0.78, 2.53, -0.16,   0.78, 3.63, -0.16, false, -90, 90, true
+AddGunnerSeat = -0.80, 2.61, -0.97,  -0.80, 3.71, -0.97, false, -90, 90, true
 
 SetWheelPos =  1.25,  -0.24,  3.75, 1.71, -0.15, -2.01
 
@@ -88,11 +91,11 @@ AddTurretWeapon = targeting_pod_block,   0.60, 3.40, 0.60,   0.0, 0.0,  true, 2
 
 
 
-AddTurretWeapon     = mg3_l,  1.1824, 3.3164, -0.1427, 0.0, 0.0, true,   3 , 0, -360, 360, -35,35
-AddPartTurretWeapon = mg3_l, false, true, true,  1.1824, 3.1640, -0.1427
+AddTurretWeapon     = centmg3_l,  1.1824, 3.3164, -0.1427, 0.0, 0.0, true,   3 , 0, -360, 360, -35,35
+AddPartTurretWeapon = centmg3_l, false, true, true,  1.1824, 3.1640, -0.1427
 
-AddTurretWeapon     = mg3_r, -1.2037, 3.3164, -0.9673, 0.0, 0.0, false,  4 , 0, -360, 360, -35,35
-AddPartTurretWeapon = mg3_r, false, true, true, -1.2037, 3.1640, -0.9673
+AddTurretWeapon     = centmg3_r, -1.2037, 3.3164, -0.9673, 0.0, 0.0, false,  4 , 0, -360, 360, -35,35
+AddPartTurretWeapon = centmg3_r, false, true, true, -1.2037, 3.1640, -0.9673
 
 DamageFactor = 0.1
 

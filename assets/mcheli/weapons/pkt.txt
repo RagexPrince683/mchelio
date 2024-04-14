@@ -5,13 +5,17 @@ Acceleration = 7.5
 Flaming = false
 Sight = MoveSight
 Delay = 1
-SoundVolume = 0.6
+SoundVolume = 15
 SoundPitch = 1.0
 Sound = pkt
 Accuracy = 0.7
 HeatCount = 4
 MaxHeatCount = 150
 Gravity = -0.001
+
+Round = 250
+
+ReloadTime = 80
 
 AddMuzzleFlash      =  0.5,      0.22,        1,  150,254,159,84
 AddMuzzleFlashSmoke =  0.7,  1,   2.0,  0.5, 15,  180,250,245,240

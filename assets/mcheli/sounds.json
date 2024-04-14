@@ -86,6 +86,7 @@
 "cardrive": {"category": "master","sounds": ["cardrive"]},
 "cbninety": {"category": "master","sounds": ["cbninety"]},
 "centauro": {"category": "master","sounds": ["centauro"]},
+"centaurobig": {"category": "master","sounds": ["centaurobig"]},
 "chain": {"category": "master","sounds": ["chain"]},
 "chain_ct": {"category": "master","sounds": ["chain_ct"]},
 "chal": {"category": "master","sounds": ["chal"]},

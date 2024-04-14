@@ -27,8 +27,6 @@ DamageFactor = heli, 0.5
 
 
 
-
-
 MaxAmmo = 2000
 SuppliedNum = 250
 Item =  2, iron_ingot

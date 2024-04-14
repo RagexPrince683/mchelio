@@ -1,5 +1,5 @@
-﻿DisplayName = JGSDF Maneuver Combat Vehicle
-AddDisplayName = en_US, Type 16 JGSDF Maneuver Combat Vehicle
+﻿DisplayName = JGSDF Type 16 Maneuver Combat Vehicle
+AddDisplayName = en_US, Type 16 Maneuver Combat Vehicle
 AddDisplayName = ja_JP, 陸上自衛隊 機動戦闘車
 ItemID = 30070
 MaxHp = 200
@@ -11,13 +11,18 @@ FuelConsumption = 0.8
 AddTexture = jgsdf-mcv-1
 AddTexture = jgsdf-mcv-2
 AddTexture = jgsdf-mcv-3
-CameraPosition = 0.00, 2.50, -0, true
-CameraZoom = 3
-HUD = mbt_hud
+
+
+CameraPosition = 0.00, 3.40, 0.00, true
+CameraZoom = 10
+CameraRotationSpeed = 35
+
 ;, gunner, gunner
-EnableGunnerMode = true
+;EnableGunnerMode = true
 EnableNightVision = true
 EnableEntityRadar = false
+
+
 
 MobilityYawOnGround = 6.0
 MinRotationPitch = -60
@@ -30,65 +35,55 @@ WeightType = Tank
 DefaultFreelook = true
 
 
-Float = true
-FloatOffset = -0.5
+;Float = true
+;FloatOffset = -0.5
 ;perhaps this will fix previous projects?
 Gravity = -0.61
+GravityInWater = -1.0
+
 ;earth gravity is -9.81m/s^2 however minecraft and mcheli base off of different metric or something 
-GravityInWater = 0.1
+;GravityInWater = 0.1
 
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-CameraRotationSpeed = 35
+
 
 ArmorMinDamage = 5
 ;ArmorMaxDamage = 400
 
+HUD = mbt_hud
 
+;AddGunnerSeat =  0.00, 1.00,  0.00
 
 AddGunnerSeat =  0.0,  1.20,  -0.674, 0.00, 2.50, -0, true, -90, 90, true
 
+AddGunnerSeat =  0.0,  1.20,  -0.674
 
-StepHeight = 1.5
+;AddSeat = 0.0, 1.0, 0.0
+
+TurretPosition = 0.0, 1.0, 0.0
+
+
+
+
+StepHeight = 1.8
 
 ;  M = Military,  A = AAGun(対空砲)
-Category = M.A
+;;Category = M.A
 
-HUD = mbt_hud
+
 ;, gunner
 
 AddPartWeapon = 105mm_apfsdsmcv / 105mm_heatmcv,       false, true, false,  0.00,1.401, 0
 AddPartWeaponChild   = false, true, 0.00, 1.802, 1.2667
-AddPartTurretWeapon = h2hb, false, true, true,  -0.511,2.65, 0.130
+AddPartTurretWeapon = mcvh2hb, false, true, true,  -0.511,2.65, 0.130
 
-AddTurretWeapon = 105mm_apfsdsmcv,   0.00,1.73, 0.1147, 0.0, 0.0, true,  1 , 0, -360, 360, -15,6
-AddTurretWeapon = 105mm_heatmcv,   0.00,1.73, 0.1147, 0.0, 0.0, true,  1 , 0, -360, 360, -15,6
-AddTurretWeapon     = m240_r,  0.2621,1.73, 0.1147, 0.0, 0.0, true,   1 , 0, -360, 360, -15,6
-AddTurretWeapon = h2hb,   -0.5304, 2.7845, 0.9357,   0.0, 0.0, true,  1, 0, -360, 360, -60,8
-
-
-
-
-
-
-
-
-
-
-
-
-;AddGunnerSeat = 0.00,1.301, -0.674,    0.00,1.601, -0.674,  true
-;AddGunnerSeat =  0.00,  2.50,  0.25,    0.00,  2.50,  0.25,  false, -90, 90, true
-;AddTurretWeapon = m240_r,   .2621,1.73, -0.674, 0.0, 0.0, true,  1 , 0, -360, 360, -15,6
-;AddPartTurretWeapon = mg3_l, false, true, true,  1.1824, 3.1640, -0.1427
-;;AddTurretWeapon = abramscoax,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 9
-
-
-
-
-
+AddTurretWeapon = 105mm_apfsdsmcv,   0.00,1.73, 0.1147,           0.0, 0.0,    true,  1, 0, -360, 360, -15,6
+AddTurretWeapon = 105mm_heatmcv,     0.00,1.73, 0.1147,           0.0, 0.0,    true,  1, 0, -360, 360, -15,6
+AddTurretWeapon     = mcvm240_r,     0.2621,1.73, 0.1147,         0.0, 0.0,    true,  1, 0, -360, 360, -15,6
+AddTurretWeapon = mcvh2hb,             -0.5304, 2.7845, 0.9357,      0.0, 0.0, true,  1, 0, -360, 360, -60,8
 
 AddRecipe = "AAX",  "XRX",  "LXL",  A,tnt,X, iron_block, R, redstone, L, leather
 AddRecipe = "AAX",  "XRX",  "SXS",  A,tnt,X, iron_block, R, redstone, S, slime_ball
@@ -115,7 +110,7 @@ SetWheelPos =  1.02,  0.00,  3.14,  1.47, -0.05, -1.48
 
 ;Category = M.A
 ;Left
-AddPartWheel = 1.4292, 0.3000, 3.1473, 10
+AddPartWheel = 1.4292, 0.3000, 3.1473, 20
 AddPartWheel = 1.4293, 0.3000, 1.4789, 10
 AddPartWheel = 1.4292, 0.3000, -0.0533
 AddPartWheel = 1.4293, 0.3000, -1.4832

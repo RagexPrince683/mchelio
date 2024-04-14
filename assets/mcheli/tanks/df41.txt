@@ -38,12 +38,14 @@ AddPartWing = 0.0, 0.0, 0.0,  1,0, 0, -90
 Category = M.A
 
 WeightType = Tank
-WeightedCenterZ = 0.0
+WeightedCenterZ = -1
 
 ;OnGroundPitchFactor = 2.0
 ;OnGroundRollFactor  = 0.8
 
 HUD = mbt_hud, mbt_gnr, gunner, gunner
+
+AddPartSteeringWheel =  2.1426,  2.3472,  0.4799,  0.0, 1.0, -1.1476,   130
 
 
 
@@ -118,8 +120,8 @@ BoundingBox = 0.0, 3.0, -19, 4.5, 4.5
 
 unmountposition = 2.224,  1.8, -0.39
 
-OnGroundPitchFactor = 15.0
-OnGroundRollFactor  = 5.2
+;OnGroundPitchFactor = 15.0
+;OnGroundRollFactor  = 5.2
 
 AddRecipe = " I ",  "XXX",  "XXX",  X, iron_block,  I, iron_ingot
 

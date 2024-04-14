@@ -1,4 +1,4 @@
-DisplayName = 7.62mm Beretta MG42/59 Machine Gun (Coaxial)
+DisplayName = 7.62mm Beretta MG42/59 Machine Gun
 Type = MachineGun1
 Power = 8
 Acceleration = 8.0
@@ -15,7 +15,6 @@ Sound = mgthree
 Gravity = -0.001
 
 SetCartridge = cal50,      0.0,  0,0,  1.0, -0.04, 0.40
-
 
 Round = 200
 
@@ -37,7 +36,7 @@ DamageFactor = heli, 0.5
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 4600
-SuppliedNum = 575
+MaxAmmo = 4000
+SuppliedNum = 200
 Item =  2, iron_ingot
 Item =  2, gunpowder
