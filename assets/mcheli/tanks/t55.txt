@@ -24,7 +24,7 @@ DefaultFreelook = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 FlareType = 10
-Sound = typefiftynine
+Sound = mbt_run
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
@@ -93,14 +93,12 @@ AddTrackRoller =  -1.85,  0.31,  -2.45
 AddTrackRoller = -1.87,  0.64,  -3.4
 
 ;主砲
-AddPartWeapon =3bm25, false, true, false,  0.00, 0, 0, 0
-AddPartWeapon =3bk17m, false, true, false,  0.00, 0, 0, 0
-AddPartWeapon =of412, false, true, false,  0.00, 0, 0, 0
+AddPartWeapon =3bm25/3bk17m/of412, false, true, false,  0.00, 0, 0, 0
 AddPartWeaponChild = false, true, 0.34, 1.69, 1.76, 0.0
 AddPartWeaponChild = false, true, 0.34, 1.69, 1.76, 0.5
 AddTurretWeapon =3bm25, 0.00, 1.71, 6.82,  0.0, 0.0, true,1, 0,-360,180, -30, 7
-AddTurretWeapon =3bk17m, 0.00, 1.71, 6.82,  0.0, 0.0, true,1, 0,-360,180, -30, 7
-AddTurretWeapon =of412, 0.00, 1.71, 6.82,  0.0, 0.0, true,1, 0,-360,180, -30, 7
+AddTurretWeapon = 3bk17m, 0.00, 1.71, 6.82,  0.0, 0.0, true,1, 0,-360,180, -30, 7
+AddTurretWeapon = of412, 0.00, 1.71, 6.82,  0.0, 0.0, true,1, 0,-360,180, -30, 7
 AddTurretWeapon =t55mg,  -0.41, 1.74, 1.97,  0.0, 0.0, true,1, 0,-360,180, -30, 7
 
 ;AddPartTurretWeapon    =  m240_r,   true, true, true,  0.2, 3.13, 0.41

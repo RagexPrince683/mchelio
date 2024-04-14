@@ -1,4 +1,4 @@
-DisplayName = 2A20 115MM Smoothbore Gun[HE] [3OF11
+DisplayName = 2A20 115MM Smoothbore Gun [3OF11 - HE]
 Type = MachineGun2
 Power = 60
 ModelBullet = bullet105mm

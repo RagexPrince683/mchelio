@@ -1,4 +1,4 @@
-DisplayName = 2A20 115MM Smoothbore Gun[HEAT-MP] [3BK4]
+DisplayName = 2A20 115MM Smoothbore Gun [3BK4 - HEAT-MP]
 Type = MachineGun2
 Power = 440
 ModelBullet = bullet105mm

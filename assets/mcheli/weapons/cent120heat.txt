@@ -12,7 +12,7 @@ ModeNum = 1
 ;SoundPitch = 0.5
 SoundVolume = 20
 Sound = mbtshot
-Gravity = -0.002
+Gravity = -0.005
 Round = 9
 
 DisplayMortarDistance = true

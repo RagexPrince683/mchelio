@@ -12,7 +12,7 @@ ModeNum = 1
 ;SoundPitch = 0.5
 SoundVolume = 20
 Sound = leotwoafourmain
-Gravity = -0.002
+Gravity = -0.005
 
 DisplayMortarDistance = true
 

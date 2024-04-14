@@ -1,4 +1,4 @@
-DisplayName = 2A20 115mm Smoothbore Gun[APFSDS] [3BM3]
+DisplayName = 2A20 115mm Smoothbore Gun[3BM-3 - APFSDS]
 Type = MachineGun1
 Power = 350
 ModelBullet = bullet105mm

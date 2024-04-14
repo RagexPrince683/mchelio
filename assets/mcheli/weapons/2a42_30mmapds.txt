@@ -7,7 +7,7 @@ Flaming = false
 Sight = MoveSight
 Delay = 2
 ReloadTime = 120
-Round = 100
+Round = 250
 SoundVolume = 3
 SoundPitch = 1.0
 Sound = 2A42_30mm_snd
@@ -21,8 +21,8 @@ HeatCount = 7
 MaxHeatCount = 150
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
-MaxAmmo = 100
-SuppliedNum = 50
+MaxAmmo = 250
+SuppliedNum = 250
 Item =  2, iron_ingot
 Item =  2, gunpowder
 

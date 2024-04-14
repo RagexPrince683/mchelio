@@ -1,4 +1,4 @@
-DisplayName = CN-105-F1 Riffled Gun [  HE  ]
+DisplayName = CN-105-F1 Rifled Gun [  HE  ]
 Type = MachineGun1
 Power = 65
 ModelBullet = bullet105mm

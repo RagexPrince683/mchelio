@@ -1,4 +1,4 @@
-DisplayName = CN-105-F1 Riffled Gun [APFSDS]
+DisplayName = CN-105-F1 Rifled Gun [APFSDS]
 Type = MachineGun1
 Power = 361
 ModelBullet = bullet105mm

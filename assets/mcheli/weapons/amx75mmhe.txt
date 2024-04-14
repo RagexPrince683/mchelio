@@ -1,4 +1,4 @@
-DisplayName = 75mm SA50 L/57 [AP]
+DisplayName = 75mm SA50 L/57 [HE]
 Type = MachineGun2
 Power = 15
 ModelBullet = bullet76mm
