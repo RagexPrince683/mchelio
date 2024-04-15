@@ -68,9 +68,10 @@ AddTrackRoller = 0.00,  0.11, -1.06
 AddTrackRoller = 0.00,  0.11, -2.05
 AddTrackRoller = 0.00,  0.62, -2.79
 
-AddPartWeapon = pg9 / pkt , false, true, false, 0.00, 1.65, 0.00, 0
+AddPartWeapon = pg9 / /og9 / pkt , false, true, false, 0.00, 1.65, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.01, 1.05
 AddTurretWeapon = pg9,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
+AddTurretWeapon = og9,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
 AddTurretWeapon = pkt,  -0.30, 2.01,0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
 AddTurretWeapon = 9m14, 0.00, 2.35, 2.29,  0.0, 0.0, true,1, 0,-360,360, -25, 5
 ;todo make missile weapon

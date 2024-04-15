@@ -1,8 +1,8 @@
-DisplayName = 90 mm Gun (Ikv 91 - Artillery mode)
+DisplayName = 90 mm Gun Ikv 91 (slsgr m/72 - HE)
 Type = Rocket
 Power = 30
-Explosion = 6
-ExplosionBlock = 5
+Explosion = 5
+ExplosionBlock = 4
 Acceleration = 4.0
 SoundVolume = 1.0
 Sound = big

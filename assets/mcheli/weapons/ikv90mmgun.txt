@@ -1,10 +1,10 @@
-DisplayName = 90 mm Gun (Ikv 91)
+DisplayName = 90 mm Gun Ikv 91 (slpsgr m/72 - HEAT-FS)
 Type = MachineGun2
 Power = 400
 ModelBullet = bullet105mm
 Acceleration = 6.0
 Explosion = 3
-ExplosionBlock = 0
+ExplosionBlock = 1
 Sight = None
 ReloadTime = 150
 Round = 1

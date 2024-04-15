@@ -11,7 +11,7 @@ ModelBullet = bullet76mm
 Flaming = false
 Sight = None
 Delay = 1
-Gravity = -0.065
+Gravity = -0.04
 ReloadTime = 600
 
 DisplayMortarDistance = true

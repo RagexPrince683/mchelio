@@ -1,9 +1,9 @@
-DisplayName = PG-9 73mm Cannon [HEAT]
+DisplayName = PG-9 73mm Cannon [HE]
 Type = MachineGun2
-Power = 400
+Power = 11
 ModelBullet = bullet105mm
 Acceleration = 5.0
-Explosion = 2
+Explosion = 4
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight

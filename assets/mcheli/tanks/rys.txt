@@ -1,6 +1,6 @@
 DisplayName = BMMP
 MaxHp = 200
-Speed = 0.8
+Speed = 0.85
 Sound = bmptwoeng
 ThrottleUpDown = 10.0
 MobilityRoll = 0
@@ -15,11 +15,11 @@ MaxRotationPitch = 5
 
 DefaultFreelook = true
 HideEntity = true
-CameraPosition = 0.0, 2.1335, 0, true
+CameraPosition = 0.0, 2.1335, 0, true	
 FlareType = 10
 AddTexture = rys_1
 
-MobilityYawOnGround = 3.0
+MobilityYawOnGround = 2.6
 
 HUD = mbt_hud, gunner
 
