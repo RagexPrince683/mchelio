@@ -56,12 +56,12 @@ AddTrackRoller = 1.00,  0.4840,  -3.2931
 
 AddWeapon = lynxap,      0.00, 1.7555, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
 AddWeapon = lynxhe,      0.00, 1.7555, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
-AddWeapon = mg7_62mm,      0.14, 1.7440, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
+AddWeapon = bmp3pkt,      0.14, 1.7440, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
 AddWeapon = 9k118tv, -1.04, 1.77, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
 AddWeapon = 9k118tv, -1.04, 1.94, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
 AddWeapon = 9k118tv, 1.13, 1.77, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
 AddWeapon = 9k118tv, 1.13, 1.94, 0,  0.0, 0.0, true,1, 0, -360,360, -20, 5
-AddPartWeapon = lynxap lynxhe / mg7_62mm / 9k118tv, false, true, false, 0.00, 1.5964, 0, 0
+AddPartWeapon = lynxap lynxhe / bmp3pkt / 9k118tv, false, true, false, 0.00, 1.5964, 0, 0
 AddPartWeaponChild = false, true, 0.00, 1.7589, 0.7205
 
 EnableBack = true

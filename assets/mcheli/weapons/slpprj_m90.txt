@@ -20,6 +20,7 @@ DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 
+DisplayMortarDistance = true
 Gravity = -0.001
 
 AddMuzzleFlash      =   2.1,      0.32,        3,  150,254,159,84
