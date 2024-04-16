@@ -1,23 +1,23 @@
-DisplayName = SA-22 Greyhound Air Defense System
+DisplayName = Pantsir SA-22 Greyhound Air Defense System
 AddDisplayName = en_US, KAMAZ-6560 with Pantsir SA-22 Greyhound Air Defense System
-AddDisplayName = ja_JP, P-S1 自走式近距離防空システム
+AddDisplayName = ja_JP, Pantsir 自走式近距離防空システム
 MaxHp = 150
 Speed = 0.8
 Sound = kamaz
-ThrottleUpDown = 5
+ThrottleUpDown = 2
 MobilityYawOnGround = 4.5
 MaxFuel         = 1000
 FuelConsumption = 0.8
 CameraZoom = 6
 EnableNightVision = true
 EnableEntityRadar = true
-EnableGunnerMode = true
+;EnableGunnerMode = true
 Gravity = -0.61
 GravityInWater = -1.0
 MinRotationPitch = -85
 MaxRotationPitch = 5
 MobilityRoll = 0
-StepHeight = 1.0
+StepHeight = 1.8
 MotionFactor = 0.9
 ;ArmorMinDamage = 20
 ;ArmorMaxDamage = 500
@@ -118,10 +118,10 @@ TrackRollerRot = 30
 
 TurretPosition = 0.0, 2.0, 0.0
 
-AddTurretWeapon			= 2a38_ap,   0.7338, 3.3009, 0,  0.0, 0.0,   false,2, 0,-360,360, -85, 5
-AddTurretWeapon			= 2a38_ap,   -0.7338, 3.3009, 0,  0.0, 0.0,  false,2, 0,-360,360, -85, 5
-AddTurretWeapon			= 2a38_hei,   0.7338, 3.3009, 0,  0.0, 0.0,  false,2, 0,-360,360, -85, 5
-AddTurretWeapon			= 2a38_hei,   -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+AddWeapon			= 2a38_ap,   0.7338, 3.3009, 0,  0.0, 0.0,   false,2, 0,-360,360, -85, 5
+AddWeapon			= 2a38_ap,   -0.7338, 3.3009, 0,  0.0, 0.0,  false,2, 0,-360,360, -85, 5
+AddWeapon			= 2a38_hei,   0.7338, 3.3009, 0,  0.0, 0.0,  false,2, 0,-360,360, -85, 5
+AddWeapon			= 2a38_hei,   -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
 
 AddTurretWeapon			= 57e6,   1.16, 3.13, -2.8,  0.0, 0.0, false,2, 0,-360,360, -85, 5
 AddTurretWeapon			= 57e6,  -1.16, 3.13, -2.8,  0.0, 0.0, false,2, 0,-360,360, -85, 5

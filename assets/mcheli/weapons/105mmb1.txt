@@ -34,6 +34,8 @@ DisplayMortarDistance = true
 
 Round = 13
 
+SoundPitchRandom = 0.1
+
 
 
 Group = MainGun

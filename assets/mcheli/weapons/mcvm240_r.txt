@@ -1,4 +1,4 @@
-DisplayName = M240 7.62mm
+DisplayName = 7.62mm Type 74 Machine Gun
 Type = MachineGun2
 Power = 8
 Acceleration = 7.0
@@ -12,6 +12,12 @@ Accuracy = 0.7
 HeatCount = 5
 MaxHeatCount = 150
 SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
+
+Round = 250
+
+ReloadTime = 80
+SoundPitchRandom = 0.1
+
 
 ;-0.001
 Gravity = -0.005
@@ -35,7 +41,7 @@ AddMuzzleFlash      =  1.5,      0.20,        1,  150,254,219,184
 AddMuzzleFlashSmoke =  2.2,  1,   5.0,  2.0, 15,  180,250,245,240
 AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
 
-MaxAmmo = 1200
-SuppliedNum = 300
+MaxAmmo = 3000
+SuppliedNum = 200
 Item =  2, iron_ingot
 Item =  2, gunpowder

@@ -6,6 +6,7 @@ Flaming = false
 Sight = MoveSight
 Delay = 1
 SoundVolume = 15
+SoundPitchRandom = 0.1
 SoundPitch = 1.0
 Sound = pkt
 Accuracy = 0.7

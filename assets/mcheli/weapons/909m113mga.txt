@@ -8,6 +8,8 @@ Sight =MissileSight
 Delay = 20
 ModelBullet = 9M113M
 Sound = aimnine
+
+SoundPitchRandom = 0.1
 ReloadTime = 1000
 
 

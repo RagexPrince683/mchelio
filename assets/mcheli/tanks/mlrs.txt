@@ -4,8 +4,10 @@ AddDisplayName = ru_RU, M270 МЛРС
 MaxHp = 250
 ThrottleUpDown = 10.0
 Speed = 0.4
-MobilityYawOnGround = 2.7
-StepHeight = 1.5
+MobilityYawOnGround = 2.3
+StepHeight = 1.8
+ThrottleUpDown = 2
+
 Sound = mlrseng
 MinRotationPitch = -90
 MaxRotationPitch = 45
@@ -29,7 +31,7 @@ Category = M.A
 
 WeightType = Tank
 
-SetWheelPos =  1.2,  -0.24,  2.8535, -1.4583, -3.2653
+SetWheelPos =  1.0,  -0.24,  2.3901, 1.5276, 0.3651, -0.5849, -1.7099, -2.5599
 
 HUD = mbt_hud, mbt_hud
 

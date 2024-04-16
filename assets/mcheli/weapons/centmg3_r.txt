@@ -15,6 +15,7 @@ Sound = mgthree
 Gravity = -0.001
 
 SetCartridge = cal50,      0.0,  0,0,  1.0, -0.04, 0.40
+SoundPitchRandom = 0.1
 
 Round = 200
 

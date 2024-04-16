@@ -17,6 +17,8 @@ Recoil = 2
 
 ProximityFuseDist = 2
 
+SoundPitchRandom = 0.1
+
 Delay = 90
 ReloadTime = 100
 Group = MainGun

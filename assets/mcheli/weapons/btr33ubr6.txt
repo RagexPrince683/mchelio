@@ -9,6 +9,7 @@ Delay = 1
 ReloadTime = 120
 Round = 175
 SoundVolume = 15
+SoundPitchRandom = 0.1
 SoundPitch = 1.0
 Sound = bmptwomain
 Accuracy = 1.5

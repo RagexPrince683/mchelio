@@ -16,6 +16,7 @@ Gravity = -0.005
 Round = 9
 
 DisplayMortarDistance = true
+SoundPitchRandom = 0.1
 
 
 Delay = 170

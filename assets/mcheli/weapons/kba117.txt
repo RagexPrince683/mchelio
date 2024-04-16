@@ -11,6 +11,7 @@ SoundVolume = 2
 Gravity = -0.03
 Accuracy = 2.0
 Sound = cannon_grenade_snd
+SoundPitchRandom = 0.1
 HeatCount = 20
 MaxHeatCount = 180
 Delay = 6

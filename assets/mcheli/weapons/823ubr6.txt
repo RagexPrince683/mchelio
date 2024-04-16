@@ -12,6 +12,7 @@ Round = 250
 SoundVolume = 15
 SoundPitch = 1.0
 Sound = bmptwomain
+SoundPitchRandom = 0.1
 Accuracy = 1.5
 ModeNum = 1
 group = maingun

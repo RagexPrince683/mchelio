@@ -39,6 +39,8 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
+SoundPitchRandom = 0.1
+
 DisplayMortarDistance = true
 
 Round = 13

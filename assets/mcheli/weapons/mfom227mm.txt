@@ -5,10 +5,12 @@ DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
+DamageFactor = player, 20.0
+
 Explosion = 20
-ExplosionBlock = 7
+ExplosionBlock = 4
 Acceleration = 4.0
-SoundVolume = 8.0
+
 Sound = mlrs
 Accuracy = 0.0
 ModelBullet = bullet105mm

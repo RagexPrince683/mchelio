@@ -15,6 +15,7 @@ Sound = btreightymain
 Accuracy = 1.5
 ModeNum = 1
 Gravity = -0.001
+SoundPitchRandom = 0.1
 
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5

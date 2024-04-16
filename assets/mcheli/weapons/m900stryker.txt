@@ -1,21 +1,21 @@
-DisplayName = M900 [APFSDS]
+DisplayName = 105mm M68A1E8 Cannon [M900 - APFSDS]
 Type = MachineGun1
 Power = 522
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+;DamageFactor = tank, 1.0
+;DamageFactor = plane, 3.0
+;DamageFactor = vehicle 2.0
+;DamageFactor = heli, 3.0
 ModelBullet = bullet105mm
-Explosion = 1
-ExplosionBlock = 1
-Acceleration = 16.0
+Explosion = 0
+ExplosionBlock = 0
+;Acceleration = 16.0
 Sight = None
-ReloadTime = 40
-Delay = 150
-Round = 10
-SoundVolume = 10
+;ReloadTime = 40
+;Delay = 150
+Round = 8
+;SoundVolume = 10
 Sound = strykermain
-Accuracy = 1.5
+;Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.001
@@ -29,8 +29,7 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 2.5
 
-Delay = 100
-ReloadTime = 150
+
 Group = MainGun
 Acceleration = 7.0
 ModelBullet = bullet105mm
@@ -43,6 +42,13 @@ DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
+
+DisplayMortarDistance = true
+SoundPitchRandom = 0.1
+
+
+Delay = 150
+ReloadTime = 150
 
 
 MaxAmmo = 30

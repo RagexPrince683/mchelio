@@ -16,6 +16,7 @@ Particle = largeexplode
 Gravity = -0.001
 
 DisplayMortarDistance = true
+SoundPitchRandom = 0.1
 
 
 Delay = 80
