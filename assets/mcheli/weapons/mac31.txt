@@ -16,6 +16,8 @@ Sound = pkt
 Gravity = -0.005
 BulletColor        = 255, 189, 255, 116
 Round = 150
+ModelBullet = bullet
+TrajectoryParticle = crit
 
 Acceleration = 7.5
 Piercing = 0

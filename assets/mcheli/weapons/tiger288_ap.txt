@@ -21,6 +21,7 @@ DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 Recoil = 0.32
 Group = MainGun
+Piercing = 2
 
 SetCartridge = 800mmcartridge, 0.8,  90, 15, 0.11, -0.05, 0.5
 
@@ -42,8 +43,8 @@ DisplayMortarDistance = true
 
 RecoilBufCount = 25, 5
 
-MaxAmmo = 20
-SuppliedNum = 1
+MaxAmmo = 35
+SuppliedNum = 5
 Item =   1, iron_ingot
 Item =  2, gunpowder
-Item =   1, redstone
+

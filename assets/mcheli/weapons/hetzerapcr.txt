@@ -21,7 +21,7 @@ DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 Recoil = 0.45
 Group = MainGun
-Piercing = 3
+Piercing = 2
 
 
 
@@ -43,8 +43,8 @@ DisplayMortarDistance = true
 
 RecoilBufCount = 50, 2
 
-MaxAmmo = 20
-SuppliedNum = 3
+MaxAmmo = 14
+SuppliedNum = 7
 Item =   2, iron_ingot
 Item =  2, gunpowder
-Item =   1, redstone
+

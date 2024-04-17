@@ -18,13 +18,14 @@ Gravity = -0.005
 DisplayMortarDistance = true
 
 
-Acceleration = 7.5
+Acceleration = 5.0
 Piercing = 0
-DamageFactor = tank, 1.0
-DamageFactor = plane, 1.5
-DamageFactor = vehicle, 1.5
-DamageFactor = heli, 1.5
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
+
 AddDisplayName = en_US, 3OF26[HE]
 AddMuzzleFlash      =  8.2,     2.10,        7,  220,254,159,74
 AddMuzzleFlash      =  8.1,     2.05,        6,  220,254,219,104
@@ -34,7 +35,7 @@ AddMuzzleFlashSmoke = 10.2, 20, 13.0,  7.0, 55,  200,190,170,150
 
 RecoilBufCount = 40, 5
 
-MaxAmmo = 30
-SuppliedNum = 15
+MaxAmmo = 10
+SuppliedNum = 5
 Item =  2, iron_ingot
 Item =  2, gunpowder

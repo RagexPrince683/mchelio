@@ -42,8 +42,8 @@ DisplayMortarDistance = true
 
 RecoilBufCount = 25, 5
 
-MaxAmmo = 20
-SuppliedNum = 1
+MaxAmmo = 35
+SuppliedNum = 5
 Item =   1, iron_ingot
 Item =  2, gunpowder
-Item =   1, redstone
+

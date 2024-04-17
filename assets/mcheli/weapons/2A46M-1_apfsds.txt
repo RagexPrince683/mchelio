@@ -26,8 +26,8 @@ AddMuzzleFlash      =  10.0,      1.70,        5,  200,254,219,184
 AddMuzzleFlashSmoke =  12.2, 20,  10.0,  3.0, 45,  220,160,140,120
 AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
-MaxAmmo = 11
-SuppliedNum = 11
+MaxAmmo = 12
+SuppliedNum = 6
 Item =  1, iron_ingot
 Item =  1, gunpowder
 

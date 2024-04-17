@@ -33,8 +33,8 @@ SoundVolume = 15
 
 
 
-MaxAmmo = 40
-SuppliedNum = 1
+MaxAmmo = 14
+SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder
 

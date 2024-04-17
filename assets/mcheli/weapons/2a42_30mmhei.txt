@@ -24,7 +24,7 @@ MaxHeatCount = 150
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
 MaxAmmo = 250
-SuppliedNum = 50
+SuppliedNum = 125
 Item =  2, iron_ingot
 Item =  2, gunpowder
 

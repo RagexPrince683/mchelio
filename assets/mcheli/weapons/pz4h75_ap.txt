@@ -3,7 +3,7 @@ Type = MachineGun1
 ModelBullet = 75mm
 Power = 145
 Acceleration = 4.0
-Explosion = 0
+Explosion = 1
 ExplosionBlock = 0
 ExplosionInWater = 0
 Flaming = false
@@ -22,7 +22,7 @@ DamageFactor = player, 10.0
 Recoil = 0.45
 Group = MainGun
 
-
+Piercing = 2
 ; AddMuzzleFlash = distance, size, life time,   A,  R,  G,  B
 AddMuzzleFlash   =     3.2, 1.00,        27, 220,254,159, 74
 AddMuzzleFlash   =     3.1, 1.25,        20, 220,254,219,104
@@ -41,8 +41,8 @@ DisplayMortarDistance = true
 
 RecoilBufCount = 50, 2
 
-MaxAmmo = 20
-SuppliedNum = 3
+MaxAmmo = 44
+SuppliedNum = 8
 Item =   2, iron_ingot
 Item =  2, gunpowder
-Item =   1, redstone
+

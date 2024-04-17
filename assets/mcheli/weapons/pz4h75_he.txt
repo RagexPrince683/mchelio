@@ -20,7 +20,7 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 Recoil = 0.45
 Group = MainGun
-
+Piercing = 0
 
 ; AddMuzzleFlash = distance, size, life time,   A,  R,  G,  B
 AddMuzzleFlash   =     3.2, 1.00,        27, 220,254,159, 74
@@ -40,8 +40,8 @@ DisplayMortarDistance = true
 
 RecoilBufCount = 50, 2
 
-MaxAmmo = 20
-SuppliedNum = 3
+MaxAmmo = 44
+SuppliedNum = 8
 Item =   2, iron_ingot
 Item =  2, gunpowder
-Item =   1, redstone
+

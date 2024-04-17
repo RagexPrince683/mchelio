@@ -15,7 +15,7 @@ Gravity = -0.005
 DisplayMortarDistance = true
 group = maingun
 
-DisplayMortarDistance = true
+
 
 
 Group = MainGun
@@ -30,7 +30,7 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
-MaxAmmo = 12
-SuppliedNum = 12
+MaxAmmo = 10
+SuppliedNum = 5
 Item =  3, iron_ingot
 Item =  2, gunpowder

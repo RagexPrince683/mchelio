@@ -22,7 +22,7 @@ RecoilBufCount = 20, 5
 Recoil = 0.5
 
 Acceleration = 7.5
-Piercing = 0
+Piercing = 2
 DamageFactor = tank, 3.5
 DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
@@ -38,7 +38,7 @@ AddMuzzleFlash      =           3.2,   0.85,        4,  220,254,219,104
 AddMuzzleFlashSmoke   =              3.0,     10,   7.0,  2.0,       50,  220,160,140,120
 AddMuzzleFlashSmoke   =             3.4,     5,   8.0,  4.0,       70,  200,190,170,150
 
-MaxAmmo = 100
+MaxAmmo = 30
 SuppliedNum = 10
 Item =  1, iron_ingot
 Item =  1, gunpowder

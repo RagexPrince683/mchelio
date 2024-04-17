@@ -2,8 +2,8 @@ DisplayName = CN-105-F1 Rifled Gun [APFSDS]
 Type = MachineGun1
 Power = 361
 ModelBullet = bullet105mm
-Explosion = 1
-ExplosionBlock = 1
+Explosion = 0
+ExplosionBlock = 0
 Acceleration = 4.5
 Sight = None
 ReloadTime = 170
@@ -31,7 +31,7 @@ DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 
 
-MaxAmmo = 50
-SuppliedNum = 5
+MaxAmmo = 16
+SuppliedNum = 8
 Item =  2, iron_ingot
 Item =  2, gunpowder

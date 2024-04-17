@@ -9,7 +9,7 @@ Flaming = false
 Sight = None
 Delay = 90
 ReloadTime = 120
-Round = 30
+Round = 1
 SoundVolume = 10.0
 Sound = tfiftyfive
 ;Accuracy = 0.5
@@ -41,7 +41,7 @@ AddMuzzleFlashSmoke = 11.3, 20,  13.0,  7.0, 55,  200,190,170,150
 
 RecoilBufCount = 40, 5
 
-MaxAmmo = 30
-SuppliedNum = 10
+MaxAmmo = 12
+SuppliedNum = 3
 Item =  2, iron_ingot
 Item =  1, gunpowder

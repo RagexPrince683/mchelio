@@ -9,6 +9,7 @@ ReloadTime = 400
 Delay = 140
 Round = 1
 SoundVolume = 10.0
+Piercing = 0
 Sound = mbtshot
 Accuracy = 0.5
 ModelBullet = bullet105mm
@@ -32,6 +33,6 @@ AddMuzzleFlashSmoke   =             10.2,     20,   13.0,  7.0,       55,  200,1
 RecoilBufCount = 40, 5
 
 MaxAmmo = 14
-SuppliedNum = 1
+SuppliedNum = 3
 Item =  2, iron_ingot
 Item =  1, gunpowder

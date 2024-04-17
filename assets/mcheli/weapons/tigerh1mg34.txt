@@ -24,7 +24,8 @@ AddMuzzleFlashSmoke   =              0.6,     7,  1.0,  1.0,       5,  220,160,1
 AddMuzzleFlashSmoke   =             0.8,     5,   0.5,  0.2,       6,  200,190,170,150
 Gravity = -0.001
 
-
+ModelBullet = bullet
+TrajectoryParticle = crit
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0

@@ -1,6 +1,6 @@
-DisplayName = 105mm L7A3 Gun  [DM33 APFSDS]
+DisplayName = 105mm M68 Cannon [APFSDS]
 Type = MachineGun2
-Power = 408
+Power = 292
 ModelBullet = bullet105mm
 Acceleration = 5.0
 Explosion = 0
@@ -10,10 +10,10 @@ Sight = MoveSight
 ReloadTime = 160
 Delay = 120
 ModeNum = 1
-Piercing  = 2
+Piercing  = 5
 SoundPitch = 0.5
 SoundVolume = 20
-Sound = typesixteenmain
+Sound = mbtshot
 Group = MainGun
 DamageFactor = tank, 10.0
 DamageFactor = plane, 1.5
@@ -26,7 +26,7 @@ DisplayMortarDistance = true
 
 
 
-MaxAmmo = 20
-SuppliedNum = 10
+MaxAmmo = 21
+SuppliedNum = 7
 Item =  2, iron_ingot
-Item =  1, gunpowder
+Item =  2, gunpowder
