@@ -15,7 +15,7 @@ Round = 2
 Piercing  = 2
 RigidityTime = 10
 RidableOnly = false
-
+ExplosionInWater = 36
 
 TrajectoryParticle = largeexplode
 

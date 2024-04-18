@@ -1,14 +1,14 @@
-DisplayName = Rehinmetall Smoothbore Cannon [APFSDS]
+DisplayName = 120mm M256 Smoothbore Cannon [M829A1 - APFSDS]
 Type = MachineGun1
-Power = 680
+Power = 598
 Explosion = 0
 ExplosionBlock = 0
-Acceleration = 8.0
+Acceleration = 7.0
 Sight = None
 ReloadTime = 140
 Round = 1
 SoundVolume = 10.0
-Sound = leotwoafourmain
+Sound = mbt_shot
 Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
@@ -26,8 +26,8 @@ DisplayMortarDistance = true
 
 
 
-MaxAmmo = 40
-SuppliedNum = 1
+MaxAmmo = 10
+SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder
 

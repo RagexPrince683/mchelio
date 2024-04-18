@@ -17,11 +17,11 @@ group = maingun
 
 DisplayMortarDistance = true
 
-
+Round = 1
 Gravity = -0.005
 
-MaxAmmo = 12
-SuppliedNum = 12
+MaxAmmo = 11
+SuppliedNum = 11
 Item =  3, iron_ingot
 Item =  2, gunpowder
 

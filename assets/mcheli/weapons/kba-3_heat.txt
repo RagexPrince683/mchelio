@@ -1,25 +1,23 @@
-DisplayName = 125mm 2A46 KBA-3 [3OF26 HE]
+DisplayName = 125mm 2A46 KBA-3 [3BK18M HEAT-FS]
 Type = MachineGun2
-Power = 42
+Power = 550
 Explosion = 4
 ExplosionBlock = 3
 Acceleration = 10.0
 Sight = None
-Delay = 120
+Delay = 125
 SoundVolume = 10.0
 Sound = teightymain
 Round = 1
 Accuracy = 0.5
 ModelBullet = bullet105mm
 BulletColor        = 255, 255, 100, 100
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+
 
 Gravity = -0.005
 Group = MainGun
 Recoil = 2.5
+
 DisplayMortarDistance = true
 
 

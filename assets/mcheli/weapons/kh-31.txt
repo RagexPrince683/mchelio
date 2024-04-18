@@ -9,7 +9,7 @@ Sight = MoveSight
 Delay = 5
 ReloadTime = 260
 Sound = missile_2_snd
-
+ExplosionInWater = 14
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0

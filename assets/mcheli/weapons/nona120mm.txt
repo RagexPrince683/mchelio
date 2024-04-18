@@ -2,7 +2,7 @@ DisplayName = 120mm "Nona" Gun
 Type = Rocket
 Power = 75
 Explosion = 6
-ExplosionBlock = 1
+ExplosionBlock = 4
 Acceleration = 4.0
 SoundVolume = 1.0
 Sound = artillery_gun_snd
@@ -36,5 +36,5 @@ DamageFactor = player, 20.0
 
 MaxAmmo = 25
 SuppliedNum = 5
-Item =  8, iron_ingot
-Item =  8, gunpowder
+Item =  2, iron_ingot
+Item =  2, gunpowder

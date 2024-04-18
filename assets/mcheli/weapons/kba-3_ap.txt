@@ -11,7 +11,7 @@ Sound = teightymain
 Accuracy = 0.5
 ModelBullet = bullet105mm
 BulletColor        = 255, 255, 100, 100
-Round = 15
+Round = 1
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
@@ -25,8 +25,8 @@ Group = MainGun
 Recoil = 2.5
 
 
-Delay = 80
-ReloadTime = 80
+Delay = 120
+ReloadTime = 120
 Group = MainGun
 Acceleration = 7.0
 ModelBullet = bullet105mm
@@ -49,7 +49,7 @@ AddMuzzleFlashSmoke = 10.2, 20,  13.0,  7.0, 55,  200,190,170,150
 
 RecoilBufCount = 40, 5
 
-MaxAmmo = 15
-SuppliedNum = 15
+MaxAmmo = 11
+SuppliedNum = 5
 Item =  2, iron_ingot
 Item =  1, gunpowder

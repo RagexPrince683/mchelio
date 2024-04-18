@@ -7,6 +7,7 @@ DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 Acceleration = 4.0
 Explosion = 8
+ExplosionInWater = 16
 Flaming = true
 ;Sight = MoveSight
 Sight = none

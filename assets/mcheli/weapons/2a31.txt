@@ -3,8 +3,8 @@ Type = Rocket
 Power = 50
 ModelBullet = bullet105mm
 Acceleration = 5.6
-Explosion = 3
-ExplosionBlock = 2
+Explosion = 4
+ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
 Piercing  = 0
@@ -12,7 +12,7 @@ SoundPitch = 0.7
 SoundVolume = 20
 Sound = msta
 Recoil = 1.5
-Delay = 150
+Delay = 260
 Gravity = -0.050
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
@@ -37,7 +37,7 @@ FixCameraPitch = true
 CameraRotationSpeedPitch = 0.6
 
 SoundVolume = 15
-
+ReloadTime = 260
 
 AddMuzzleFlash      =  12,      2.10,        16,  200,254,129,44
 AddMuzzleFlash      =  12,      2.05,        10,  200,254,219,104
@@ -47,7 +47,7 @@ AddMuzzleFlashSmoke =  12.2, 16,  17.0,  7.0, 90,  200,190,170,150
 
 RecoilBufCount = 40, 5
 
-MaxAmmo = 25
-SuppliedNum = 20
+MaxAmmo = 14
+SuppliedNum = 7
 Item =  3, iron_ingot
 Item =  2, gunpowder

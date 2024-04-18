@@ -25,11 +25,11 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 1.5
 
-MaxAmmo = 40
-SuppliedNum = 1
+MaxAmmo = 10
+SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  2, gunpowder
-Item =  2, blazepowder
+
 
 Delay = 165
 ReloadTime = 165

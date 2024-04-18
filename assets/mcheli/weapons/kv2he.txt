@@ -37,7 +37,7 @@ AddMuzzleFlashSmoke = 10.2, 10,  11.0,  6.0, 35,  200,190,170,150
 ; RecoilBufCount = 駐退カウント, 後退中のカウント倍率
 RecoilBufCount = 40, 5
 
-MaxAmmo = 50
-SuppliedNum = 10
+MaxAmmo = 18
+SuppliedNum = 9
 Item =  2, iron_ingot
 Item =  3, gunpowder
