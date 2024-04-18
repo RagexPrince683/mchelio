@@ -12,6 +12,7 @@ ExplosionBlock = 4
 Acceleration = 4.0
 
 Sound = mlrs
+SoundPitchRandom = 0.1
 Accuracy = 0.0
 ModelBullet = bullet105mm
 Flaming = false

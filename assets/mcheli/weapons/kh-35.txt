@@ -1,20 +1,27 @@
 DisplayName = Kh-35
 Type = ASMissile
 Power = 1000
-Acceleration = 4.0
-Explosion = 7
+Acceleration = 6.5
+Explosion = 8
+ExplosionBlock = 2
+ExplosionInWater = 16
 Flaming = true
 Sight = MoveSight
-Delay = 300
-Sound = missile_2_snd
+Delay = 10
+Sound = hydraseventy
+
+SoundPitchRandom = 0.1
+
+ReloadTime = 1000
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
+
 MaxAmmo = 8
-SuppliedNum = 4
-Item =  3, iron_ingot
+SuppliedNum = 1
+Item =  1, iron_ingot
 Item =  3, gunpowder
-Item =  3, redstone
+Item =  2, redstone

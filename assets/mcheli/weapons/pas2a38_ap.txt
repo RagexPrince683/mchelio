@@ -1,9 +1,9 @@
-DisplayName = 30mm 2A38M Cannon AP-T
-Type = Rocket
+DisplayName = 30mm 2A38M Cannon [AP-T]
+Type = MachineGun2
 Power = 65
 ModelBullet = bullet
 Acceleration = 46.8
-Explosion = 1
+Explosion = 0
 ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
@@ -19,6 +19,14 @@ HeatCount = 1
 MaxHeatCount = 150
 Gravity = -0.001
 
+Round = 351
+
+Group = MainGun
+
+ReloadTime = 180
+
+
+
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
 AddMuzzleFlash      =  3.1,      0.62,        1,  150,254,159,84
@@ -27,13 +35,13 @@ AddMuzzleFlash      =  2.9,      0.60,        1,  150,254,219,184
 AddMuzzleFlashSmoke =  4.1,  2,   7.0,  2.5, 15,  130,250,245,240
 AddMuzzleFlashSmoke =  3.1,  1,   6.0,  2.5, 25,  130,220,217,214
 
-MaxAmmo = 800
-SuppliedNum = 200
+MaxAmmo = 702
+SuppliedNum = 176
 Item =  2, iron_ingot
 Item =  2, gunpowder
 
 Acceleration = 7.5
-Piercing = 0
+Piercing = 1
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5

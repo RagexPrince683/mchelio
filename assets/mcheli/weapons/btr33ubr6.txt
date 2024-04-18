@@ -16,6 +16,13 @@ Accuracy = 1.5
 ModeNum = 1
 group = maingun
 
+TrajectoryParticle = crit
+ModelBullet = bullet
+
+
+;AddMuzzleFlashSmoke =  4.1,  2,   7.0,  2.5, 15,  130,250,245,240
+;AddMuzzleFlashSmoke =  3.1,  1,   6.0,  2.5, 25,  130,220,217,214
+
 Gravity = -0.005
 
 AddMuzzleFlash      =  3.0,      0.50,        3,  200,254,129,44

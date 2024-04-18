@@ -2,7 +2,7 @@ DisplayName = Pantsir SA-22 Greyhound Air Defense System
 AddDisplayName = en_US, KAMAZ-6560 with Pantsir SA-22 Greyhound Air Defense System
 AddDisplayName = ja_JP, Pantsir 自走式近距離防空システム
 MaxHp = 150
-Speed = 0.8
+Speed = 0.43
 Sound = kamaz
 ThrottleUpDown = 2
 MobilityYawOnGround = 4.5
@@ -14,8 +14,8 @@ EnableEntityRadar = true
 ;EnableGunnerMode = true
 Gravity = -0.61
 GravityInWater = -1.0
-MinRotationPitch = -85
-MaxRotationPitch = 5
+MinRotationPitch = -90
+MaxRotationPitch = 90
 MobilityRoll = 0
 StepHeight = 1.8
 MotionFactor = 0.9
@@ -24,7 +24,11 @@ MotionFactor = 0.9
 DamageFactor = 1.0
 EnableBack = true
 
-;CameraPosition = 0.0, 4.4, 0.0, true
+
+
+
+
+
 ;CameraPosition = 0.0, 4.4, 0.0
 
 AddTexture = p-s1_1
@@ -48,7 +52,13 @@ EntityHeight = 0.7
 ;AddGunnerSeat =  0.75, 1.42, 3.42,  0.0, 5.65,-1.56, false, -85, 5
 
 AddSeat =  0.71, 1.42, 6.08
-AddGunnerSeat =  0.16, 1.52, 3.42,  0.0, 4.4, 0.0, false, -85, 5, false
+
+
+CameraPosition = 0.0, 4.4, 0.0
+
+AddGunnerSeat =  0.16, 1.52, 3.42,  0.0, 4.4, 0.0, false, -85, 1, false
+
+
 AddSeat = -0.05, 1.42, 6.08
 AddSeat = -0.71, 1.42, 6.08
 AddSeat =  0.75, 1.42, 3.42
@@ -95,42 +105,62 @@ TrackRollerRot = 30
 
 
 
-;AddWeapon = 2a38_ap,   0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
-;AddWeapon = 2a38_ap,  -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
-;AddWeapon = 2a38_hei,  0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
-;AddWeapon = 2a38_hei, -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
-;AddWeapon = 57e6,  1.16, 3.13, -2.8,  0.0,-3.0, false,2, 0,-360,360, -85, 5
-;AddWeapon = 57e6, -1.16, 3.13, -2.8,  0.0,-3.0, false,2, 0,-360,360, -85, 5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddWeapon = 2a38_ap,   0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddWeapon = 2a38_ap,  -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddWeapon = 2a38_hei,  0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddWeapon = 2a38_hei, -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddWeapon = 57e6,  1.16, 3.13, -2.8,  0.0,-3.0, false,2, 0,-360,360, -85, 5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddWeapon = 57e6, -1.16, 3.13, -2.8,  0.0,-3.0, false,2, 0,-360,360, -85, 5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddPartWeapon 		= 2a38m_ap / 2a38_hei / 57e6,    false, true,  false,  0.0, 2.5, 0.0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddPartWeapon 		= 2a38m_ap,    false, true,  false, 0.00,  2.5, 0.0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddPartWeaponChild 		= false, true, 0.0, 3.3, -0.805
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddPartWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.3196
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddWeapon			= mfom227mm,    0,  2.5, -2.8,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddPartWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.3196
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
 
-;AddPartWeapon 		= 2a38m_ap / 2a38_hei / 57e6,    false, true,  false,  0.0, 2.5, 0.0
+;TurretPosition = 0.0, 2.0, 0.0
 
-;AddPartWeapon 		= 2a38m_ap,    false, true,  false, 0.00,  2.5, 0.0
+;AddPartWeapon = KDA_APDS / KDA_HEI, false, true, false,  0.00, 1.63, -0.0, 0
+;AddPartWeaponChild = false, true,  0.00, 2.59, -1.13
 
-;AddPartWeaponChild 		= false, true, 0.0, 3.3, -0.805
+AddPartWeapon 		= pas2a38_ap/pas2a38_hei,    false, true,  false, 0.00,  2.5, 0.0, 0
+AddPartWeaponChild 		= false, true, 0.0, 3.3, -0.805
 
-;AddPartWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.3196
-;AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
+AddTurretWeapon			= pas2a38_ap,    0.7338, 3.3009, -0.805,    0.0, 0.0,    false,  2,  0,-360,360, -85, 1
+AddTurretWeapon			= pas2a38_ap,   -0.7338, 3.3009, -0.805,   -0.0, 0.0,    false,  2,  0,-360,360, -85, 1
+AddTurretWeapon			= pas2a38_hei,   0.7338, 3.3009, -0.805,    0.0, 0.0,    false,  2,  0,-360,360, -85, 1
+AddTurretWeapon			= pas2a38_hei,  -0.7338, 3.3009, -0.805,   -0.0, 0.0,    false,  2,  0,-360,360, -85, 1
 
 
-;AddWeapon			= mfom227mm,    0,  2.5, -2.8,  0.0, 0.0, false,  2, 0, -360, 360, -45, 2
-;AddPartWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.3196
-;AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
+;AddTurretWeapon = KDA_APDS,  1.11, 2.71, -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
+;AddTurretWeapon = KDA_APDS, -1.11, 2.71, -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
+;AddTurretWeapon = KDA_HEI,  1.11, 2.71,  -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
+;AddTurretWeapon = KDA_HEI, -1.11, 2.71,  -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
 
-TurretPosition = 0.0, 2.0, 0.0
 
-AddWeapon			= 2a38_ap,   0.7338, 3.3009, 0,  0.0, 0.0,   false,2, 0,-360,360, -85, 5
-AddWeapon			= 2a38_ap,   -0.7338, 3.3009, 0,  0.0, 0.0,  false,2, 0,-360,360, -85, 5
-AddWeapon			= 2a38_hei,   0.7338, 3.3009, 0,  0.0, 0.0,  false,2, 0,-360,360, -85, 5
-AddWeapon			= 2a38_hei,   -0.7338, 3.3009, 0,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddPartWeapon = KDA_APDS / KDA_HEI, false, true, false,  0.00, 1.63, -0.0, 0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddPartWeaponChild = false, true,  0.00, 2.59, -1.13
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddTurretWeapon = KDA_APDS,  1.11, 2.71, -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddTurretWeapon = KDA_APDS, -1.11, 2.71, -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddTurretWeapon = KDA_HEI,  1.11, 2.71, -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddTurretWeapon = KDA_HEI, -1.11, 2.71, -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
 
-AddTurretWeapon			= 57e6,   1.16, 3.13, -2.8,  0.0, 0.0, false,2, 0,-360,360, -85, 5
-AddTurretWeapon			= 57e6,  -1.16, 3.13, -2.8,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+
+AddTurretWeapon			= pas57e6,   1.16, 3.13, -2.8,  0.0, 0.0, false,2, 0,-360,360, -85, 5
+AddTurretWeapon			= pas57e6,  -1.16, 3.13, -2.8,  0.0, 0.0, false,2, 0,-360,360, -85, 5
 
 AddWeapon			= UHF_radar, 0.0, 4.6, -1.558, 0.0, 0.0, false, 2, 0, -360, 360, -90,  90
 
 
-AddPartWeapon 		= 2a38_ap,    false, true,  false, 0.00,  2.5, 0.0
-AddPartWeaponChild 		= false, true, 0.0, 3.3, -0.805
+
 
 
 
@@ -163,7 +193,7 @@ BoundingBox = 0.0, 0.95, -0.0, 2.5, 0.2
 
 BoundingBox = 0.0, 2.5, 0.0, 2.5, 3.0, 1.5
 
-DefaultFreeLook = true
+DefaultFreeLook = false
 
 unmountposition = 0.71, 1.52, 6.08
 

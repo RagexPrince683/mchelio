@@ -62,27 +62,20 @@ PivotTurnThrottle = 0.2
 
 TrackRollerRot = 30
 
-AddPartWeaponBay	= Kh35, 0.66, 1.4930, -7.0575, 1.0, 0.0, 0.0, -45
+AddPartWeaponBay	= balkh35, 0.66, 1.4930, -7.0575, 1.0, 0.0, 0.0, -45
 
 AddWeapon = none, 0,0,0,0,0         , true,  1
 
-AddTurretWeapon = kh35,    1.1037, 4.0304, -5.6102,   0.0, 0.0, false, 2, 0, -0,0, -20,20
+AddTurretWeapon = balkh35,    1.1037, 4.0304, -5.6102,   0.0, 0.0, false, 2, 0, -0,0, -20,20
+AddTurretWeapon = balkh35,    0.3686, 4.0304, -5.6102,   0.0, 0.0, false, 2, 0, -0,0, -20,20
+AddTurretWeapon = balkh35,   -0.3663, 4.0304, -5.6102,   0.0, 0.0, false, 2, 0, -0,0, -20,20
+AddTurretWeapon = balkh35,   -1.1013, 4.0304, -5.6102,   0.0, 0.0, false, 2, 0, -0,0, -20,20
+AddTurretWeapon = balkh35,    1.1037, 4.6216, -6.2015,   0.0, 0.0, false, 2, 0, -0,0, -20,20
+AddTurretWeapon = balkh35,    0.3686, 4.6216, -6.2015,   0.0, 0.0, false, 2, 0, -0,0, -20,20
+AddTurretWeapon = balkh35,   -0.3663, 4.6216, -6.2015,   0.0, 0.0, false, 2, 0, -0,0, -20,20
+AddTurretWeapon = balkh35,   -1.1013, 4.6216, -6.2015,   0.0, 0.0, false, 2, 0, -0,0, -20,20
 
-AddTurretWeapon = kh35,    0.3686, 4.0304, -5.6102,   0.0, 0.0, false, 2, 0, -0,0, -20,20
 
-AddTurretWeapon = kh35,    -0.3663, 4.0304, -5.6102,   0.0, 0.0, false, 2, 0, -0,0, -20,20
-
-AddTurretWeapon = kh35,    -1.1013, 4.0304, -5.6102,   0.0, 0.0, false, 2, 0, -0,0, -20,20
-
-
-
-AddTurretWeapon = kh35,    1.1037, 4.6216, -6.2015,   0.0, 0.0, false, 2, 0, -0,0, -20,20
-
-AddTurretWeapon = kh35,    0.3686, 4.6216, -6.2015,   0.0, 0.0, false, 2, 0, -0,0, -20,20
-
-AddTurretWeapon = kh35,    -0.3663, 4.6216, -6.2015,   0.0, 0.0, false, 2, 0, -0,0, -20,20
-
-AddTurretWeapon = kh35,    -1.1013, 4.6216, -6.2015,   0.0, 0.0, false, 2, 0, -0,0, -20,20
 
 AddTurretWeapon = dummy_bay_closed,    -1.1013, 4.6216, -6.2015,   0.0, 0.0, false, 2, 0, -0,0, -20,20
 

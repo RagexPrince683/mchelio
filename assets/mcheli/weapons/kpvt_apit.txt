@@ -16,6 +16,8 @@ Sound = btreightymain
 Accuracy = 1.5
 ModeNum = 1
 
+TrajectoryParticle = crit
+
 Gravity = -0.001
 
 HeatCount = 5

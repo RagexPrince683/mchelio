@@ -17,6 +17,8 @@ Accuracy = 1.5
 ModeNum = 1
 Gravity = -0.001
 
+TrajectoryParticle = crit
+
 AddMuzzleFlashSmoke =  1.6,  1,   3.0,  0.8, 35,  180,250,245,240
 AddMuzzleFlashSmoke =  2.6,  1,   3.0,  0.5, 25,  180,220,217,214
 AddMuzzleFlashSmoke =  3.6,  1,   2.5,  0.2, 25,  180,220,217,214
