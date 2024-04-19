@@ -1,4 +1,4 @@
-﻿DisplayName = Rh120-L55 [APFSDS]
+﻿DisplayName = 120mm Rh120-L55 Smoothbore Gun [APFSDS]
 Type = MachineGun1
 Power = 800
 Explosion = 0
@@ -54,7 +54,7 @@ DisplayName = Rh120-L55 [APFSDS]
 AddDisplayName = en_US, Rh120-L55 [APFSDS]
 
 
-MaxAmmo = 40
-SuppliedNum = 10
+MaxAmmo = 21
+SuppliedNum = 7
 Item =  1, iron_ingot
 Item =  1, gunpowder

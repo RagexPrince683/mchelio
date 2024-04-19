@@ -1,4 +1,4 @@
-DisplayName = 2A42 30mm APDS
+DisplayName = 2A42 30mm Autocannon [APDS]
 Type = MachineGun2
 Power = 82
 Acceleration = 7.0
@@ -20,8 +20,8 @@ MaxHeatCount = 150
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
-MaxAmmo = 800
-SuppliedNum = 200
+MaxAmmo = 250
+SuppliedNum = 125
 Item =  2, iron_ingot
 Item =  2, gunpowder
 
