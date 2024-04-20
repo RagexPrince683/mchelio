@@ -33,7 +33,7 @@ DisplayMortarDistance = true
 
 RecoilBufCount = 40, 5
 
-MaxAmmo = 10
-SuppliedNum = 2
+MaxAmmo = 15
+SuppliedNum = 5
 Item =  2, iron_ingot
 Item =  2, gunpowder

@@ -96,13 +96,13 @@ AddTrackRoller =  1.82,  0.18, -3.50
 AddTrackRoller =  1.82,  0.81, -4.59
 
 ;主砲
-AddPartWeapon = 105mm_apfsdsabrams / 105mm_abramsheat / 105mm_he / canistershell, false, true, false,   0.00, 2.10, 0.00, 0
+AddPartWeapon = 105mm_apfsdsabrams / 105mm_abramsheat / 105mm_heabrams / canistershell, false, true, false,   0.00, 2.10, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.5
 AddTurretWeapon =  0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = 105mm_apfsdsabrams, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = 105mm_abramsheat, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = 105mm_he, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = 105mm_heabrams, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 
 AddTurretWeapon = canistershell,        0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = mg7_62mm_mbt,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10

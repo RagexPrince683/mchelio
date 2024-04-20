@@ -66,12 +66,13 @@ OnGroundRollFactor  = 0.8
 
 MotionFactor = 0.85
 
-AddPartWeapon = type1_mbt, false, true, false,  -0.24, 1.79, 0.47, 0
+AddPartWeapon = type1_47mmtankgunaphe / type1_47mmtankgunhe, false, true, false,  -0.24, 1.79, 0.47, 0
 AddPartWeaponChild = false, true, -0.17, 2.17, 1.58
 AddPartWeapon = type97_mbtother, false, true, false, 0.40, 1.54, 1.70, 0
 AddPartWeaponChild = false, true, 0.40, 1.54, 1.70
 
-AddWeapon = type1_mbt,  -0.24, 2.16, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
+AddWeapon = type1_47mmtankgunaphe,  -0.24, 2.16, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
+AddWeapon = type1_47mmtankgunhe,  -0.24, 2.16, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
 
 AddWeapon = type97_mbtother,  0.40, 1.54, 1.70,  0.0, 0.0, true,1, 0,-10,10, -10, 10
 
