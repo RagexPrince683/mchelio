@@ -1,4 +1,4 @@
-DisplayName = 7.92mm MG34
+DisplayName = MG34 7.92x57mm Machine Gun
 Type = MachineGun1
 ModelBullet = 7.91mm
 Power = 7
@@ -11,6 +11,7 @@ ReloadTime = 100
 SoundDelay = 0
 Sound = ww2tankcoax_snd
 group = maingun
+Round = 150
 SoundPitch = 1.0
 ;SetCartridge = model name, velocity (in x-axis), ?, ?, size, gravity, "bounce-height" 
 SetCartridge = cartridge, 0.5,  1, 0, 2.0, -0.1, 0.2
@@ -34,10 +35,10 @@ RecoilBufCount = 5, 1
 
 HeatCount = 5
 MaxHeatCount = 150
-MaxAmmo = 1000
-SuppliedNum = 200
-Item =   2, iron_ingot
-Item =  2, gunpowder
+MaxAmmo = 2700
+SuppliedNum = 270
+Item =   1, iron_ingot
+Item =  1, gunpowder
 
-AddDisplayName = en_US, 7.91mm MG34
+AddDisplayName = en_US, 7.92x57mm MG34
 Acceleration = 7.0

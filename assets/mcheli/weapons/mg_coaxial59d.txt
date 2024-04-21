@@ -1,4 +1,4 @@
-DisplayName = 7.62mm SGMT
+DisplayName = Type 59T 7.62 Machine Gun
 Type = MachineGun1
 Power = 8
 Acceleration = 8.0
@@ -12,7 +12,7 @@ MaxHeatCount = 150
 SoundPitch = 1.0
 Sound = sgmt
 Gravity = -0.005
-
+Round = 250
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0

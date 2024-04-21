@@ -37,7 +37,7 @@ RecoilBufCount = 5, 1
 HeatCount = 5
 MaxHeatCount = 150
 MaxAmmo = 288
-SuppliedNum = 24
-Item =   5, iron_ingot
-Item =  2, gunpowder
+SuppliedNum = 144
+Item =   3, iron_ingot
+Item =  3, gunpowder
 

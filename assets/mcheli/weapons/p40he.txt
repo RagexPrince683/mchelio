@@ -9,6 +9,7 @@ ExplosionInWater = 0
 Flaming = false
 Sight = None
 Delay = 75
+Round = 1
 ReloadTime = 150
 SoundPitch = 0.8
 SoundVolume = 10
@@ -45,4 +46,4 @@ MaxAmmo = 21
 SuppliedNum = 7
 Item =   2, iron_ingot
 Item =  2, gunpowder
-Item =   1, redstone
+

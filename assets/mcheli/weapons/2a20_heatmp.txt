@@ -16,13 +16,13 @@ Sound = cannon_3_snd
 Group = MainGun
 Recoil = 2.5
 Gravity = -0.005
-
+Round = 1
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-
+Piercing = 0
 
 AddMuzzleFlash      =  8.2,     2.10,        7,  220,254,159,74
 AddMuzzleFlash      =  8.1,     2.05,        6,  220,254,219,104

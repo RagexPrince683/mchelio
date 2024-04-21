@@ -10,6 +10,7 @@ Flaming = false
 Sight = None
 Delay = 75
 ReloadTime = 150
+Round = 1
 SoundPitch = 0.8
 SoundVolume = 10
 Sound = cannon_4_snd
@@ -45,4 +46,4 @@ MaxAmmo = 21
 SuppliedNum = 7
 Item =   2, iron_ingot
 Item =  2, gunpowder
-Item =   1, redstone
+

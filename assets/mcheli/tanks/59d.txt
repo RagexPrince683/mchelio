@@ -124,11 +124,12 @@ AddTrackRoller = -1.51, 0.8006,-3.3547
 
 
 
-AddPartWeapon = 100AP59d / 100HE59d, false, true, false,  0.00, 2.2927, 0.00, 0
+AddPartWeapon = 100AP59d / 100HE59d / 100he-59d, false, true, false,  0.00, 2.2927, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.2927, 1.23, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.2927, 1.23, 0.4
 AddTurretWeapon = 100AP59d, 0.00, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -18, 4
 AddTurretWeapon = 100HE59d, 0.00, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -18, 4
+AddTurretWeapon = 100he-59d, 0.00, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -18, 4
 AddTurretWeapon =  mg_coaxial59d, 0.35, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -18, 4
 
 

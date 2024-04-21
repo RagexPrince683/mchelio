@@ -30,7 +30,6 @@ ThirdPersonDist = 12
 
 ;AddTexture = pzivddesert
 ;AddTexture = pzivdwinter
-AddTexture = pzivdparade
 
 SubmergedDamageHeight = 2
 
@@ -113,7 +112,7 @@ AddCrawlerTrack = false, 0.1275,  -1.7628, -0.194/-1.5442, -0.194/2.1658, -0.128
 
 AddGunnerSeat = 0.00,  1.55,  0.00,  0.00,  1.55,  0.00, false, -8, 16, true
 AddGunnerSeat = 0.00,  0.96,  0.80, false
-AddPartWeapon = pz4h75_he / pz4h75_ap, false, true, false, 0.00, 1.57, 0.1262, 0
+AddPartWeapon = pz4h75_ap / pz4h75_he, false, true, false, 0.00, 1.57, 0.1262, 0
 AddPartWeaponChild = false, true, 0.00, 1.8143, 0.9403, 0
 AddPartWeaponChild = false, true, 0.00, 1.8143, 0.9403, 0.5
 AddTurretWeapon = pz4h75_he, 0.00, 1.8143, 0.9403, 0.0, 0.0, true, 1, 0,-360,360, -15, 5, 0.5
