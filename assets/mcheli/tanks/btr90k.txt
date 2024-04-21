@@ -98,7 +98,7 @@ AddPartWeaponChild = false, true, 0.00, 2.71, -4.81
 
 AddTurretWeapon = 90b32,   0.00, 2.98, 0,   0.0, 0.0, true, 1, 0, -360,360, -60,5
 AddTurretWeapon = 90mdz,   0.00, 2.98, 0,   0.0, 0.0, true, 1, 0, -360,360, -60,5
-AddTurretWeapon = 90pkt,  0.2064, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -60,5
+AddTurretWeapon = 90pkt,  0.2064, 2.98, 0.4644,   0.0, 0.0, true, 1, 0, -360,360, -60,5
 AddTurretWeapon = 909m113mga,  0, 3.0480, 0.6598,   0.0, 0.0, false, 1, 0, -360,360, -75,5
 
 

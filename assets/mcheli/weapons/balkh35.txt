@@ -1,4 +1,4 @@
-DisplayName = Kh-35
+DisplayName = Kh-35 Anti Ship Missile
 Type = TVMissile
 Power = 1000
 Acceleration = 6.5
@@ -9,10 +9,12 @@ Flaming = true
 Sight = MoveSight
 Delay = 10
 
+
+
 ReloadTime = 1000
 
 ModeNum = 2
-ModelBullet = Kh35
+ModelBullet = kh35
 SoundVolume = 3
 ;;Sound = HOT-1_snd
 SoundPitchRandom = 0.1

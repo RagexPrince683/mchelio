@@ -1,20 +1,21 @@
-DisplayName = 40mm Type 96 Grenade Launcher
+DisplayName = 40mm Type 96 Automatic Grenade Launcher
 Type = Rocket
 ModelBullet = mk19bullet
 Power = 15
 Acceleration = 7.5
-Explosion = 2
+Explosion = 4
+ExplosionBlock = 1
 ExplosionInWater = 0
 Flaming = false
 Sight = None
-SoundVolume = 2
+SoundVolume = 15
 Gravity = -0.03
 Accuracy = 2.0
 Sound = fourtymm
-HeatCount = 10
-MaxHeatCount = 180
+HeatCount = 50
+MaxHeatCount = 1800
 Delay = 6
-Round = 30
+Round = 50
 ReloadTime = 180
 
 Group = MainGun
@@ -35,7 +36,7 @@ AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
 ; カメラの回転速度の倍率(小さくするとより細かく着弾地点が調整ができる)
 CameraRotationSpeedPitch = 0.3
 
-MaxAmmo = 120
-SuppliedNum = 60
+MaxAmmo = 650
+SuppliedNum = 50
 Item =  3, iron_ingot
 Item =  3, gunpowder

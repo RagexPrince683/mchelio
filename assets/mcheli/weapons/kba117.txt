@@ -1,4 +1,4 @@
-DisplayName = KBA-117 Grenade Launcher
+DisplayName = 30mm KBA-117 Grenade Launcher [VOG-17]
 Type = Rocket
 ModelBullet = mk19bullet
 Power = 25
@@ -7,7 +7,7 @@ Explosion = 3
 ExplosionInWater = 0
 Flaming = false
 Sight = None
-SoundVolume = 2
+SoundVolume = 15
 Gravity = -0.03
 Accuracy = 2.0
 Sound = cannon_grenade_snd
