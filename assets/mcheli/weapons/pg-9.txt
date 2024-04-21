@@ -1,4 +1,4 @@
-DisplayName = PG-9 73mm Cannon [HEAT]
+DisplayName = 73mm Smoothbore Cannon [PG-9VS - HEAT]
 Type = MachineGun2
 Power = 400
 ModelBullet = PG-9
@@ -11,6 +11,9 @@ Delay = 180
 ModeNum = 1
 Sound = spgnine
 Gravity = -0.005
+
+HeatCount = 250
+MaxHeatCount = 380
 
 AddMuzzleFlash      =  6.2,      1.80,        7,  220,254,159,74
 AddMuzzleFlash      =  7.1,      1.75,        6,  220,254,219,104
@@ -37,6 +40,10 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
+
+Recoil = 1.0
+RecoilBufCount = 40, 5
+
 
 MaxAmmo = 10
 SuppliedNum = 5

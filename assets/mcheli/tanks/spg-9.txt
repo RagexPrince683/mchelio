@@ -16,6 +16,11 @@ speed = 0.01
 SetWheelPos =  0.20,  -0.20,  0.20, -0.20
 enableback = true
 
+MobilityRoll = 0
+WeightedCenterZ = 0.0
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.3
+
 ThrottleUpDown = 9.9
 
 CameraRotationSpeed = 20
@@ -23,7 +28,7 @@ CameraRotationSpeed = 20
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
 
-HUD = none, vehicle
+HUD = none, vehiclescoped
 
 ;AddSeat = 0.00,  -0.3, -1.30
 

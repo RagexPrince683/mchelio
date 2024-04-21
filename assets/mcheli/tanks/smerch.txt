@@ -1,5 +1,5 @@
-DisplayName = 9K58 "Smerch"
-AddDisplayName = ja_JP, sositehuistupidjapanes
+DisplayName = MAZ-543M BM-30 Smerch
+AddDisplayName = ja_JP, MAZ-543M BM-30 Smerch
 ItemID = 30103
 MaxHp = 100
 Speed = 0.3

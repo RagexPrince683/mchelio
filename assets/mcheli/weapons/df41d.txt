@@ -1,4 +1,4 @@
-DisplayName = DF-41 Thermonuclear Warhead [10x150KT SURFACE]
+DisplayName = DF-41 ICBM Rocket - MIRV Thermonuclear Warhead [10x150KT SURFACE]
 Type = Rocket
 ;Power = 41000
 Acceleration = 3.5
