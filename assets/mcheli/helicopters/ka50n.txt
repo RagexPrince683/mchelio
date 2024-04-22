@@ -5,6 +5,8 @@ MaxHp = 100
 Speed = 1.7
 soundpitch = 1.4
 
+EnableEjectionSeat = true
+
 ThrottleUpDown = 1.0
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)

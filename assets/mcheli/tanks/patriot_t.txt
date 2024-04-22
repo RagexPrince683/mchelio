@@ -31,4 +31,4 @@ AddWeapon = aim7_spa,  0.0, 7.1, -7.1,   0.0, 0.0, false, 1, 0, -360,360, 0,0
 
 AddRecipe = "T T",  " X ",  "XAX",  X,iron_block, T,tnt, A,iron_ingot
 
-BoundingBox =  0.0, 1.0, -3.0,  3.0, 2.5
+BoundingBox =  0.0, 1.0, -4.0,  2.8, 2.2
