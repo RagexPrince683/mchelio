@@ -44,8 +44,8 @@ AddPartWeaponMissile = k5,    false,  false,  false, -2.27,  0.8047, -1.081
 AddPartWeaponMissile = k5,    false,  false,  false,  1.544,  0.7756, -1.081
 AddPartWeaponMissile = k5,    false,  false,  false, -1.544,  0.7756, -1.081
 
-AddWeapon = nr-23, 0.588, 0.948, 5.057,   0.0, -2.5
-AddWeapon = nr-23,  0.3981, 0.851, 5.23,   0.0, -2.5
+AddWeapon = nr-23mig, 0.588, 0.948, 5.057,   0.0, -2.5
+AddWeapon = nr-23mig,  0.3981, 0.851, 5.23,   0.0, -2.5
 AddWeapon = n-37,  -0.395, 0.849, 5.446, 0.0, -2.5
 AddWeapon = fueltank,     2.987, 0.776, -2.984
 AddWeapon = fueltank,    -2.987, 0.776, -2.984

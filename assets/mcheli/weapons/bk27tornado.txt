@@ -1,4 +1,4 @@
-DisplayName = BK-27 RevolverCanon
+DisplayName = BK-27 Revolver Cannon
 Type = MachineGun1
 Power = 23
 Acceleration = 9.9
@@ -12,7 +12,7 @@ HeatCount = 2
 MaxHeatCount = 30
 Sound = cannon_2_snd
 SoundPitch = 0.8
-Round = 120
+Round = 360
 Gravity = -0.001
 
 Acceleration = 7.5
@@ -26,7 +26,7 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 
-MaxAmmo = 120
-SuppliedNum = 120
+MaxAmmo = 360
+SuppliedNum = 180
 Item =  2, iron_ingot
 Item =  2, gunpowder

@@ -40,7 +40,7 @@ AddPartWeaponMissile =  aim120,  false,  false, false,    3.55, 1.27, -6.00
 AddPartWeaponMissile =  aim-9x,  false,  false, false,   -4.76, 1.67, -8.00
 AddPartWeaponMissile =  aim-9x,  false,  false, false,    4.76, 1.67, -8.00
 
-AddWeapon =  bk27, -0.59, 1.23,  1.78, 0.0, 0.0
+AddWeapon =  bk27_1, -0.59, 1.23,  1.78, 0.0, 0.0
 AddWeapon =  aim120, -3.24, 0.85, -6.00,  0.0, 0.0
 AddWeapon =  aim120,  3.24, 0.85, -6.00,  0.0, 0.0
 AddWeapon =  aim120, -3.55, 1.27, -6.00,  0.0, 0.0

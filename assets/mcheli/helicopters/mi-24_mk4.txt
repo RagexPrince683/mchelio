@@ -55,16 +55,14 @@ AddPartHatch =  0.94,  0.75,  1.83,  0, 0,-1, 130
 AddPartHatch = -1.02,  2.07,  1.83,  0, 0,-1, 85
 AddPartHatch = -0.94,  0.75,  1.83,  0, 0, 1, 130
 
-AddPartWeapon = gsh-23-2,    true,  true, false,   0.00, 0.39, 6.54
+AddPartWeapon = safmi24gun,    true,  true, false,   0.00, 0.39, 6.54
 AddPartWeaponChild  =           false, true,   0.00, 0.39, 6.54
 
-AddWeapon = gsh-23-2,  0.00, 0.21, 6.59,  0,-1, true,2, 0,-105,105, -15,80
+AddWeapon = safmi24gun,  0.00, 0.21, 6.59,  0,-1, true,2, 0,-105,105, -15,80
 
-AddWeapon = 9K121_mk4,  4.25, 1,  -0.9,  1, 0,  true, 2
-AddWeapon = 9K121_mk4,  3.97, 1,  -0.9,  1, 0,  true, 2
+AddWeapon = safmi24atgm,  4.25, 1,  -0.9,  1, 0,  true, 2
+AddWeapon = safmi24atgm,  3.97, 1,  -0.9,  1, 0,  true, 2
 
-AddWeapon = 9K121tv_mk4, -4.25, 1,  -0.9, -1, 0,  true, 2
-AddWeapon = 9K121tv_mk4, -3.97, 1,  -0.9, -1, 0,  true, 2
 
 AddWeapon = s-8_hm,  2.92,  1.14, -2.32,  1, 0
 AddWeapon = s-8_hm, -2.92,  1.14, -2.32, -1, 0

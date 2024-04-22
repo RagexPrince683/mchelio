@@ -7,7 +7,7 @@ Flaming = false
 Sight = MoveSight
 Delay = 1
 ReloadTime = 80
-Round = 1000
+Round = 500
 SoundDelay = 1
 SoundPitch = 0.8
 Accuracy = 1.7
@@ -26,6 +26,10 @@ DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 
+MaxAmmo = 1000
+SuppliedNum = 250
+Item =  2, iron_ingot
+Item =  2, gunpowder
 
 
 
