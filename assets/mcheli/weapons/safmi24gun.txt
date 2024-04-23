@@ -13,7 +13,9 @@ SoundPitch = 0.8
 Accuracy = 1.7
 SoundVolume = 2
 Sound = gun_h4_snd
-
+HeatCount = 6
+MaxHeatCount = 250
+SoundVolume = 2
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0

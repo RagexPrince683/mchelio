@@ -53,14 +53,14 @@ AddPartWeaponMissile = agm114tv, false, false, false,  2.36, 0.41,-1.03
 AddPartWeaponMissile = agm114tv, false, false, false,  2.36, 0.41,-1.03
 AddPartWeaponMissile = agm114tv, false, false, false,  2.36, 0.41,-1.03
 AddPartWeaponMissile = agm114tv, false, false, false,  2.36, 0.41,-1.03
-AddPartWeaponMissile = mk46,     false, false, false, -1.53, 0.75,-3.40
+AddPartWeaponMissile = mk46_4,     false, false, false, -1.53, 0.75,-3.40
 
 AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
 AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
 AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
 AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
 AddWeapon = agm119,    2.36, 0.41,-3.03,   0.0, 0.0
-AddWeapon = mk46,     -1.53, 0.75,-3.40,   0.0, 0.0, true,  2
+AddWeapon = mk46_4,     -1.53, 0.75,-3.40,   0.0, 0.0, true,  2
 AddWeapon = m3m_r,    -1.88, 1.28,-2.18,   0.0, 0.0, false, 3, 90,-80,80, -50,80
 
 AddWeapon = targeting_pod_mob,     0.0, 0.7, 3.5,   0.0, 0.0,  true, 2
