@@ -1,8 +1,8 @@
-DisplayName = M270 MLRS
-AddDisplayName = en_US, M270 MLRS
+DisplayName = M270 Multiple Launch Rocket System (MLRS)
+AddDisplayName = en_US, M270 Multiple Launch Rocket System (MLRS)
 AddDisplayName = ru_RU, M270 МЛРС
 MaxHp = 250
-ThrottleUpDown = 10.0
+ThrottleUpDown = 2.0
 Speed = 0.4
 MobilityYawOnGround = 2.3
 StepHeight = 1.8

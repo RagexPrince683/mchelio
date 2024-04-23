@@ -1,11 +1,11 @@
-DisplayName = 2A65 Msta-B
-AddDisplayName = ru_RU, 2A65 Msta-B
-AddDisplayName = en_US, 2A65 Msta-B
+DisplayName = 152mm Howitzer 2A65 Msta-B
+AddDisplayName = ru_RU, 152mm Howitzer 2A65 Msta-B
+AddDisplayName = en_US, 152mm Howitzer 2A65 Msta-B
 MaxHp = 30
 Speed = 0.05
 ThrottleUpDown = 3.0
-Gravity = -0.1
-GravityInWater = -0.5
+Gravity = -0.61
+GravityInWater = -1.0
 DamageFactor = 1.0
 Sound = artillery_run
 MinRotationPitch = -70
@@ -14,6 +14,8 @@ WeightType = Tank
 DefaultFreelook = true
 ThirdPersonDist = 15
 CameraRotationSpeed = 45
+
+StepHeight = 1.0
 
 EnableBack = true
 
@@ -36,7 +38,11 @@ AddTrackRoller =  -0.9676,  0.1359, -0.1205
 
 HUD = gunner
 
-AddSeat =  1.50, 0.00, -1.80
+AddSeat =  0.50, 0.00, -1.80
+
+unmountposition = 0.50, 2.00, -1.80
+
+
 CameraPosition = 0.5104, 1.5472, -1.3274, true
 
 AddWeapon = 3of45, -0.0009, 0.8513, -1.0973, 0.00, 0.00, true,1, 0, -27, 27, -70, 3
@@ -45,4 +51,35 @@ AddWeapon = 3o13, -0.0009, 0.8513, -1.0973, 0.00, 0.00, true,1, 0, -27, 27, -70,
 AddPartWeapon = 3of45 / 3o13, false, true, false,  0.00, 0.6910, -0.4418
 AddPartWeaponChild  =  false, true,  0.00, 0.6910, -0.4418, 0.5
 
-BoundingBox =  0.0, 1.3, 0.0,  2.5, 2.6
+BoundingBox =  0.0, 1.0, 0.0,  1.0, 1.0
+
+
+BoundingBox =  0.2, 1.0, 0.0,  0.1, 1.0
+BoundingBox =  -0.2, 1.0, 0.0,  0.1, 1.0
+
+BoundingBox =  0.3, 1.0, 0.0,  0.1, 1.0
+BoundingBox =  -0.3, 1.0, 0.0,  0.1, 1.0
+
+
+BoundingBox =  0.4, 1.0, 0.0,  0.1, 1.0
+BoundingBox =  -0.4, 1.0, 0.0,  0.1, 1.0
+
+BoundingBox =  0.5, 1.0, 0.0,  0.1, 1.0
+BoundingBox =  -0.5, 1.0, 0.0,  0.1, 1.0
+
+BoundingBox =  0.6, 1.0, 0.0,  0.1, 1.0
+BoundingBox =  -0.6, 1.0, 0.0,  0.1, 1.0
+
+BoundingBox =  0.7, 1.0, 0.0,  0.1, 1.0
+BoundingBox =  -0.7, 1.0, 0.0,  0.1, 1.0
+
+BoundingBox =  0.8, 1.0, 0.0,  0.1, 1.0
+BoundingBox =  -0.8, 1.0, 0.0,  0.1, 1.0
+
+BoundingBox =  0.9, 1.0, 0.0,  0.1, 1.0
+BoundingBox =  -0.9, 1.0, 0.0,  0.1, 1.0
+
+BoundingBox =  1.0, 1.0, 0.0,  0.1, 1.0
+BoundingBox =  -1.0, 1.0, 0.0,  0.1, 1.0
+
+SetWheelPos =  0.20,  -0.20,  0.20, -0.20

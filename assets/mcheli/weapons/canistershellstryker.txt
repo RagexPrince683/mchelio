@@ -37,6 +37,8 @@ ModelBomblet = bullet
 DisableSmoke = true
 DamageFactor = player, 2.0
 
+SetCartridge = cartridge_2, 0.6, 180, 0, 0.3, -0.02, 0.65
+
 MaxAmmo = 15
 SuppliedNum = 5
 Item =  1, iron_ingot

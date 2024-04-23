@@ -1,8 +1,8 @@
-DisplayName = 220mm 9M27F HE-Frag Rocket
+DisplayName = 220mm 9M27K1 9M27K2 [Anti Tank Mines] Rocket
 Type = Rocket
 Power = 500
-Explosion = 15
-ExplosionBlock = 5
+Explosion = 5
+ExplosionBlock = 3
 Acceleration = 4.0
 
 DamageFactor = tank, 1.5
@@ -12,6 +12,23 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
 
+
+ModelBomblet = pom2
+;DelayFuse = 9
+TimeFuse = 9999999
+
+ProximityFuseDist = 2.0
+
+
+BombletSTime = 90
+BombletDiff = 4.5
+Bomblet = 24
+
+Group = MainGun
+
+
+
+
 Accuracy = 1.5
 ModelBullet = bullet76mm
 Flaming = false
@@ -19,9 +36,6 @@ Sight = None
 Delay = 6
 Gravity = -0.045
 ReloadTime = 12000
-
-Group = MainGun
-
 
 SoundVolume = 15
 Sound = s-13-rocket

@@ -1,5 +1,5 @@
-DisplayName = M1128 Mobile Gun System
-AddDisplayName = en_US, M1128 Mobile Gun System
+DisplayName = M1128 Stryker Mobile Gun System
+AddDisplayName = en_US, M1128 Stryker Mobile Gun System
 AddDisplayName = ja_JP, M1128ストライカー
 MaxHp = 200
 Speed = 0.6

@@ -1,8 +1,8 @@
-DisplayName = 220mm 9M27F HE-Frag Rocket
+DisplayName = 220mm 9M27K1 Cluster Munition Rocket
 Type = Rocket
-Power = 500
-Explosion = 15
-ExplosionBlock = 5
+Power = 100
+Explosion = 5
+ExplosionBlock = 3
 Acceleration = 4.0
 
 DamageFactor = tank, 1.5
@@ -12,6 +12,17 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
 
+
+
+BombletSTime = 90
+BombletDiff = 2.5
+Bomblet = 30
+
+Group = MainGun
+
+
+
+
 Accuracy = 1.5
 ModelBullet = bullet76mm
 Flaming = false
@@ -19,9 +30,6 @@ Sight = None
 Delay = 6
 Gravity = -0.045
 ReloadTime = 12000
-
-Group = MainGun
-
 
 SoundVolume = 15
 Sound = s-13-rocket

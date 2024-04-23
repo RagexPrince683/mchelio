@@ -39,6 +39,8 @@ SoundVolume = 15
 DisplayMortarDistance = true
 SoundPitchRandom = 0.1
 
+SetCartridge = cartridge_2, 0.6, 180, 0, 0.3, -0.02, 0.65
+
 
 Delay = 150
 ReloadTime = 150
