@@ -41,8 +41,8 @@ AddGunnerSeat = 0.00,  1.32,  0.17,  0.0, 0.6, 4.8,  true
 
 AddWeapon = rmk30,  0.0, 0.43, 3.37,   0.0,-1.0, true,2, 0, -360,360, -20,80
 
-AddWeapon = 20mmgunpod,  2.31, 1.25, 0.32,   1.0, 0.0
-AddWeapon = 20mmgunpod, -2.31, 1.25, 0.32,  -1.0, 0.0
+AddWeapon = 12_7mmgunpod,  2.31, 1.25, 0.32,   1.0, 0.0
+AddWeapon = 12_7mmgunpod, -2.31, 1.25, 0.32,  -1.0, 0.0
 
 AddWeapon = pars_3_lr,   1.25, 1.22,-0.01,   1.0, 0.0, true,2
 AddWeapon = pars_3_lr,  -1.25, 1.22,-0.01,   1.0, 0.0, true,2

@@ -21,7 +21,7 @@ DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
-
+Round = 1
 DisplayMortarDistance = true
 Piercing  = 0
 

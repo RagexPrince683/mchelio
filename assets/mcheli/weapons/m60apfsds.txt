@@ -21,7 +21,7 @@ DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 Gravity = -0.001
-
+Round = 1
 DisplayMortarDistance = true
 
 
