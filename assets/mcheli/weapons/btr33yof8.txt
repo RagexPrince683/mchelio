@@ -19,7 +19,7 @@ group = maingun
 
 TrajectoryParticle = crit
 
-TimeFuse = 14
+TimeFuse = 560
 
 ProximityFuseDist = 2
 

@@ -13,7 +13,7 @@ SoundVolume = 20
 Sound = spgnine
 Gravity = -0.020
 
-nukeYield = 167
+nukeYield = 20
 
 
 

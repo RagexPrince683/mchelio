@@ -1,10 +1,10 @@
-DisplayName = 125mm 2A75 [3OF26 HE]
+DisplayName = 125mm 2A75 Cannon [3OF26 - HE]
 Type = MachineGun2
-Power = 100
+Power = 42
 ModelBullet = bullet105mm
 Acceleration = 7.0
 Explosion = 5
-ExplosionBlock = 4
+ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
 Delay = 120
@@ -22,6 +22,9 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
+
+HeatCount = 1100
+MaxHeatCount = 2050
 
 DisplayMortarDistance = true
 

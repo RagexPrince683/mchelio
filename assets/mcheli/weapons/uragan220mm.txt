@@ -1,4 +1,4 @@
-DisplayName = 220mm 9M27F HE-Frag Rocket
+DisplayName = 220mm HE-Frag [9M27F] Rocket
 Type = Rocket
 Power = 500
 Explosion = 15

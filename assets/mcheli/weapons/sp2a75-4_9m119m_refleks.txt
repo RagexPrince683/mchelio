@@ -1,8 +1,8 @@
-DisplayName = 9M119 Refleks [ATGM]
+DisplayName = 125mm 2A75 Cannon [9M119 - ATGM]
 Type = TVMissile
 Power = 700
 Acceleration = 2.0
-Explosion = 6
+Explosion = 5
 ExplosionBlock = 4
 Flaming = true
 Sight = MoveSight
@@ -18,6 +18,9 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
+
+HeatCount = 1100
+MaxHeatCount = 2050
 
 
 MaxAmmo = 10

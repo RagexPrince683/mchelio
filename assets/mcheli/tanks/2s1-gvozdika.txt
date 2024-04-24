@@ -1,29 +1,34 @@
-DisplayName = 2S1 Gvozdika 
+DisplayName = 2S1 SAU-122 Gvozdika 
 MaxHp = 200
-Speed = 0.675
-Sound = mbt_run
+Speed = 0.37
+Sound = twosone
 ThrottleUpDown = 1.8
 MobilityYawOnGround = 2.5
 MinRotationPitch = -70
 MaxRotationPitch = 3
 MobilityRoll = 0
 Gravity = -0.61
-GravityInWater = -1.0
-DamageFactor = 0.0
-EnableNightVision = false
-CameraRotationSpeed = 8
-;CameraZoom = 3.0
+DamageFactor = 0.8
+EnableNightVision = true
+CameraRotationSpeed = 12
+
 MaxFuel         = 1400
 FuelConsumption = 2.1
-StepHeight = 1.5
-CameraPosition = 0.00, 3, -1.3733, true
+StepHeight = 1.8
+
 DefaultFreelook = true
 OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 1.0
-EnableGunnerMode = true
+;EnableGunnerMode = true
 SubmergedDamageHeight = 3
 EnableEntityRadar = false
 HideEntity = true
+
+GravityInWater = -0.2
+Float = true
+FloatOffset = 0.0
+
+
 
 ; Tank or Car or Unknown
 WeightType = Tank
@@ -32,13 +37,23 @@ WeightedCenterZ = 0.0
 
 SetWheelPos =  1.00,  -0.32, 0, -0.27, 0.54, 1.3, 2, 2.5, -1,-2,-2.9
 
-HUD = mbt_hud
+HUD = ww2tank_hudtwo
 
-AddSeat = 0.00, 1.0, -1.3733
+;HUD = mbt_hud
+
+AddGunnerSeat = 0.00, 1.0, -1.3733
+
+;AddSeat = 0.0, 1.0, 0.0
+
+CameraPosition = 0.00, 3, -1.3733
+CameraZoom = 2
+
+
+
 
 MotionFactor = 0.9
 
-ArmorMinDamage = 7
+ArmorMinDamage = 15
 ;ArmorMaxDamage = 300
 ArmorDamageFactor = 1.0
 
@@ -72,13 +87,19 @@ AddTrackRoller =   1.4358,  0.0275,  -1.8888
 AddTrackRoller =   1.4358,  0.0275,  -2.6871
 AddTrackRoller =   1.4358,  0.2154,  -3.4066
 
-AddPartWeapon = 2A31 /2A31_1 / 2A31_2, false, true, false, 0.00, 1.6796, -1.3733, 0
+AddPartWeapon = 2s2A31 / 2s2A31_1 / 2s2A31_2, false, true, false, 0.00, 1.6796, -1.3733, 0
 AddPartWeaponChild =                          false, true, 0.00, 1.6796, -0.6716, 0.0
 AddPartWeaponChild =                          false, true, 0.00, 1.6796, -0.6716, 0.5
-AddWeapon = 2A31,   0.00, 1.6796, -1.3733,  0.0, 0.0, true,1, 0,-360,360, -70, 3
-AddWeapon = 2A31_1, 0.00, 1.6796, -1.3733,  0.0, 0.0, true,1, 0,-360,360, -70, 3
-AddWeapon = 2A31_2, 0.00, 1.6796, -1.3733,  0.0, 0.0, true,1, 0,-360,360, -70, 3
+AddTurretWeapon = 2s2A31,   0.00, 1.6796, -1.63,  0.0, 0.0, true,1, 0,-360,360, -70, 3
+AddTurretWeapon = 2s2A31_1, 0.00, 1.6796, -1.63,  0.0, 0.0, true,1, 0,-360,360, -70, 3
+AddTurretWeapon = 2s2A31_2, 0.00, 1.6796, -1.63,  0.0, 0.0, true,1, 0,-360,360, -70, 3
 
+;AddTurretWeapon = m900stryker, 0.00, 2.99, 7.14,  0.0, 0.0, true,1, 0,-360,180, -15, 5
+
+;AddPartWeapon =m900stryker/m456a2stryker/canistershellstryker, false, true, false,  0.00, 0, 0, 0
+
+
+TurretPosition = 0.0, 1.0, -1.63
 
 BoundingBox = 0.0, 0.5, 2.5, 2.5, 1.0
 BoundingBox = 0.0, 0.7, 1.0, 2.5, 1.4

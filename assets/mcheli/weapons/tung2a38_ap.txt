@@ -1,10 +1,10 @@
-DisplayName = 30mm 2A38M Cannon [HEF-T]
+DisplayName = 30mm 2A38M Cannon [AP-T]
 Type = MachineGun2
-Power = 9
+Power = 65
 ModelBullet = bullet
 Acceleration = 46.8
-Explosion = 4
-ExplosionBlock = 1
+Explosion = 0
+ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 0
@@ -12,23 +12,11 @@ SoundVolume = 3
 SoundPitch = 0.6
 Sound = pantsirbrt
 Accuracy = 2.0
+BulletColor = 230, 200, 20, 80
+TrajectoryParticle = crit
 HeatCount = 1
 MaxHeatCount = 150
 Gravity = -0.001
-
-Round = 351
-
-
-ProximityFuseDist = 2
-
-TimeFuse = 560
-
-
-
-
-Group = MainGun
-
-ReloadTime = 180
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
@@ -38,8 +26,15 @@ AddMuzzleFlash      =  2.9,      0.60,        1,  150,254,219,184
 AddMuzzleFlashSmoke =  4.1,  2,   7.0,  2.5, 15,  130,250,245,240
 AddMuzzleFlashSmoke =  3.1,  1,   6.0,  2.5, 25,  130,220,217,214
 
-MaxAmmo = 702
-SuppliedNum = 176
+ReloadTime = 280
+
+Group = MainGun
+
+
+Round = 484
+
+MaxAmmo = 968
+SuppliedNum = 242
 Item =  2, iron_ingot
 Item =  2, gunpowder
 
@@ -51,4 +46,3 @@ DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 SoundVolume = 15
-AddDisplayName = en_US, 2A38M 30mm CannonÅ HEIÅ

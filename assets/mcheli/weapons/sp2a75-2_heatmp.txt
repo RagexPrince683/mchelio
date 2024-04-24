@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A75 [3BK18M HEAT-FS]
+DisplayName = 125mm 2A75 Cannon [3BK18M - HEAT-FS]
 Type = MachineGun2
 Power = 550	
 ModelBullet = bullet105mm
@@ -22,6 +22,9 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
+
+HeatCount = 1100
+MaxHeatCount = 2050
 
 DisplayMortarDistance = true
 

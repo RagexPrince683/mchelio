@@ -81,6 +81,8 @@ PartWheelRot = 25
 
 SetWheelPos =  1.38,  -0.24,  3.8,  0.75, -1.2, -4.3
 
+AddRecipe = "GIG",  "III",  "RIR",   G, glass, I, iron_ingot, R, redstone
+
 ;ArmorMinDamage = 4
 ;ArmorMaxDamage = 500
 ArmorDamageFactor = 1.00
