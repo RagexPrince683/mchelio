@@ -64,8 +64,8 @@ AddTrackRoller =   1.0854,  0.0753, -1.1363
 AddTrackRoller =   1.0854,  0.0753, -2.0071
 AddTrackRoller =   0.3405,  0.3405, -2.7950
 
-MinRotationPitch = -30
-MaxRotationPitch =  5
+MinRotationPitch = -15
+MaxRotationPitch =  3
 
 AddPartWeapon  = KBM-1 / KBM-1_2 / KBM-1_3, false, true,  false, 0.0,   1.1023, 0.00
 AddPartWeaponChild = 				   false, true,  0.0,    1.5425,  1.0404
