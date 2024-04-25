@@ -1,39 +1,39 @@
-DisplayName = 2S3 "Akacia"
-MaxHp = 180
-Speed = 0.6
+DisplayName = 2S3 SO-152 Akatsiya
+MaxHp = 200
+Speed = 0.39
 Sound = tseventytwopass
-ThrottleUpDown = 10.0
+ThrottleUpDown = 2.0
 MobilityRoll = 0
-Gravity = -0.1
-GravityInWater = -0.1
-DamageFactor = 0.0
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor = 0.8
 EnableNightVision = true
 CameraZoom = 5
 CameraRotationSpeed = 30
-StepHeight = 1.7
-MinRotationPitch = -40
-MaxRotationPitch = 0
+StepHeight = 1.8
+MinRotationPitch = -60
+MaxRotationPitch = 4
 DefaultFreelook = true
 HideEntity = true
 FlareType = 10
-CameraPosition = 0.0, 3.85, -1.5578, true 
+CameraPosition = 0.0, 3.85, -1.8578, true 
 
 MobilityYawOnGround = 3.0
 
-HUD = mbt_hud, mbt_gnr
+HUD = mbt_hudtwo, mbt_gnr
 
-SubmergedDamageHeight = 3
+SubmergedDamageHeight = 1
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.9
 
 HideEntity = true
 
-WeightType = Unknown
+WeightType = Tank
 
 SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
 
-AddGunnerSeat =  0.00,  1.67, -2.12,  0.00,  1.67, -2.12,  false, -90, 90, true
+AddGunnerSeat =  0.00,  1.67, -2.12,  0.00,  1.67, -2.12,  false, -90, 90, false
 AddCrawlerTrack = true, 0.28, -2.0440,  -0.26/2.5051, -0.27/-3.73, 0.22/-4.99, 0.35/-5.1225, 0.53/-5.17, 0.71/-5.1225, 0.84/-4.99, 0.89/-4.81, 0.9867/4.0454, 0.92/4.20, 0.8/4.32, 0.65/4.3856, 0.48/4.386, 0.3238/4.32, 0.2044/4.2028
 AddCrawlerTrack = true, 0.28, 2.0440,  -0.26/2.5051, -0.27/-3.73, 0.22/-4.99, 0.35/-5.1225, 0.53/-5.17, 0.71/-5.1225, 0.84/-4.99, 0.89/-4.81, 0.9867/4.0454, 0.92/4.20, 0.8/4.32, 0.65/4.3856, 0.48/4.386, 0.3238/4.32, 0.2044/4.2028
 
@@ -57,17 +57,21 @@ AddTrackRoller = 1.4076, 0.53, -4.8102
 
 	
 
-AddWeapon = akacia,  0.00, 2.39, -1.8530,  0.0, 0.0, true,1, 0,-360,360, -40, 0
-AddPartWeapon = akacia, false, true, false,  0.00, 1.67, -1.8530
+AddWeapon = akacia,  0.00, 2.39, -1.8530,  0.0, 0.0, true,1, 0,-360,360, -60, 4
+AddWeapon = akacia2,  0.00, 2.39, -1.8530,  0.0, 0.0, true,1, 0,-360,360, -60, 4
+AddWeapon = akacia3,  0.00, 2.39, -1.8530,  0.0, 0.0, true,1, 0,-360,360, -60, 4
+AddWeapon = akacia4,  0.00, 2.39, -1.8530,  0.0, 0.0, true,1, 0,-360,360, -60, 4
+
+AddPartWeapon = akacia / akacia2 / akacia3 / akacia4, false, true, false,  0.00, 1.67, -1.8530
 AddPartWeaponChild = false, true, 0.00, 2.3669, -0.8024
 
 EnableBack = true
 
 MotionFactor = 0.9
 
-ArmorMinDamage = 9
-ArmorMaxDamage = 250
-ArmorDamageFactor = 0.98
+ArmorMinDamage = 10
+;ArmorMaxDamage = 250
+ArmorDamageFactor = 3.8
 
 MaxFuel         = 1000
 FuelConsumption = 2.0
@@ -76,27 +80,32 @@ FuelConsumption = 2.0
 AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot
 
 
-BoundingBox =  0.0, 2.45, -2.2,   3.0, 1.05,   1.0
+BoundingBox =  0.0, 2.45, -2.2,   3.0, 1.05,   0.28
 
-BoundingBox =  0.0, 0.94, -3.25,   2.9, 1.3,   0.95
-BoundingBox =  0.0, 0.94, -0.0,   2.9, 1.3,   0.95
+BoundingBox =  0.0, 0.94, -3.25,   2.9, 1.3,   0.66
+BoundingBox =  0.0, 0.94, -0.0,   2.9, 1.3,    0.66
+BoundingBox =  0.0, 1.20, -1.3,   2.9, 1.3,    0.66
 
-BoundingBox =  0.0, 1.20, -1.3,   2.9, 1.3,   0.95
 
-BoundingBox =  0.0, 0.34, 2.5,   2.7, 0.2,   0.70
 
-BoundingBox =  0.0, 0.54, 2.7,   2.7, 0.2,   0.70
-BoundingBox =  0.0, 0.74, 2.8,   2.7, 0.1,   0.70
-BoundingBox =  0.0, 0.84, 2.9,   2.7, 0.1,   0.70
-BoundingBox =  0.0, 0.94, 2.9,   2.7, 0.1,   0.70
-BoundingBox =  0.0, 1.04, 2.9,   2.7, 0.1,   0.60
-BoundingBox =  0.0, 1.14, 2.55,   2.7, 0.1,   0.60
-BoundingBox =  0.0, 1.24, 2.35,   2.7, 0.1,   0.60
+;23
 
-BoundingBox =  0.0, 1.34, 2.05,   2.7, 0.1,   0.60
-BoundingBox =  0.0, 1.44, 1.65,   2.7, 0.1,   0.60
-BoundingBox =  0.0, 1.54, 1.35,   2.7, 0.1,   0.60
-BoundingBox =  0.0, 1.64, 1.05,   2.7, 0.1,   0.60
-BoundingBox =  0.0, 1.74, 0.65,   2.7, 0.1,   0.60
-BoundingBox =  0.0, 1.80, 0.2,   2.7, 0.1,   0.60
+BoundingBox =  0.0, 0.54, 2.7,   2.7, 0.2,    0.43
+BoundingBox =  0.0, 0.74, 2.8,   2.7, 0.1,    0.43
+BoundingBox =  0.0, 0.84, 2.9,   2.7, 0.1,    0.43
+BoundingBox =  0.0, 0.94, 2.9,   2.7, 0.1,    0.43
+BoundingBox =  0.0, 0.34, 2.5,   2.7, 0.2,    0.43
+
+
+;44mm
+
+BoundingBox =  0.0, 1.04, 2.9,   2.7, 0.1,    0.23
+BoundingBox =  0.0, 1.14, 2.55,   2.7, 0.1,   0.23
+BoundingBox =  0.0, 1.24, 2.35,   2.7, 0.1,   0.23
+BoundingBox =  0.0, 1.34, 2.05,   2.7, 0.1,   0.23
+BoundingBox =  0.0, 1.44, 1.65,   2.7, 0.1,   0.23
+BoundingBox =  0.0, 1.54, 1.35,   2.7, 0.1,   0.23
+BoundingBox =  0.0, 1.64, 1.05,   2.7, 0.1,   0.23
+BoundingBox =  0.0, 1.74, 0.65,   2.7, 0.1,   0.23
+BoundingBox =  0.0, 1.80, 0.2,   2.7, 0.1,    0.23
 

@@ -4,7 +4,7 @@ Speed = 0.43
 Sound = bmpthreeeng
 ThrottleUpDown = 2.0
 MobilityYawOnGround = 2.5
-MinRotationPitch = -15
+MinRotationPitch = -17
 MaxRotationPitch = 5
 MobilityRoll = 0
 Gravity = -0.61
@@ -30,7 +30,7 @@ HideEntity = true
 WeightType = Tank
 WeightedCenterZ = 0.0
 SetWheelPos =  0.98,  -0.24,  2.33,  1.58, 0.90, 0.22, -0.43, -1.09, -1.73
-HUD = mbt_hud, mbt_gnr
+HUD = mbt_hudtwo, mbt_gnr
 
 AddTexture = 2s25 sprut_sd1
 AddTexture = 2s25 sprut_sd2
@@ -38,7 +38,7 @@ AddTexture = 2s25 sprut_sd3
 AddTexture = 2s25 sprut_sd4
 
 
-AddGunnerSeat =  0.00,  0.343,  0.80,    0.00,  0.343,  -0.80,  false, -30, 6, true
+AddGunnerSeat =  0.00,  0.343,  0.80,    0.00,  0.343,  -0.80,  false, -17, 6, true
 
 unmountposition = 0.00,  1.543,  0.80
 
@@ -101,11 +101,11 @@ AddTrackRoller = -1.19, 0.657, -1.43
 AddPartWeapon = sp2a75-1_APFSDS / sp2a75-3_HE / sp2a75-2_HEATMP / sp2a75-4_9M119M_Refleks, false, true, false,  0.0, 0.343, 0.80, 0
 AddPartWeaponChild = false, true, 0.0, 1.6, 1.594, 0.5
 AddPartWeaponChild = false, true, 0.0, 1.6, 1.594, 0.0
-AddTurretWeapon = sp2a75-1_APFSDS, 0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -15, 5
-AddTurretWeapon = sp2a75-3_HE,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -15, 5
-AddTurretWeapon = sp2a75-2_HEATMP,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -15, 5
-AddTurretWeapon = sp2a75-4_9M119M_Refleks,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -15, 5
-AddTurretWeapon = 2spkt_7.62mm, -0.3, 1.657, 0.80, 0, 0, true,1, 0, -360,360, -15, 6
+AddTurretWeapon = sp2a75-1_APFSDS, 0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360,             -17, 5
+AddTurretWeapon = sp2a75-3_HE,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360,             -17, 5
+AddTurretWeapon = sp2a75-2_HEATMP,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360,         -17, 5
+AddTurretWeapon = sp2a75-4_9M119M_Refleks,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -17, 5
+AddTurretWeapon = 2spkt_7.62mm, -0.3, 1.657, 0.80, 0, 0, true,1, 0, -360,360, -17, 5
 AddRecipe = "XXX",  " X ",  "III",  X, iron_block,  I, iron_ingot
 RideRack = c5, 1
 RideRack = c5, 2

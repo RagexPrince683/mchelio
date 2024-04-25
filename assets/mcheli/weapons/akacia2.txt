@@ -1,8 +1,8 @@
-DisplayName = 152mm 2A33 Cannon [3OF25 - HE]
+DisplayName = 152mm 2A33 Cannon [BR-540B - APHEBC]
 Type = Rocket
-Power = 62
-Explosion = 15
-ExplosionBlock = 5
+Power = 171
+Explosion = 5
+ExplosionBlock = 3
 Acceleration = 4.0
 SoundVolume = 1.0
 Sound = msta
@@ -23,11 +23,12 @@ MaxHeatCount = 2050
 DisableSmoke = true
 
 
-DamageFactor = tank, 2.0
+DamageFactor = tank, 3.5
 DamageFactor = plane, 1.5
-DamageFactor = vehicle, 1.5
-DamageFactor = heli, 1.5
-DamageFactor = player, 20.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
+Piercing = 2
 
 
 
