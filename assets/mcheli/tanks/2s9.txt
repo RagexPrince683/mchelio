@@ -1,26 +1,32 @@
-DisplayName = 2S3 "Nona"
-MaxHp = 190
-Speed = 0.7
+DisplayName = 2S9 Nona 120mm Self-Propelled Mortar
+MaxHp = 200
+Speed = 0.37
 Sound = tseventytwopass
-ThrottleUpDown = 10.0
+ThrottleUpDown = 2.0
 MobilityRoll = 0
 Gravity = -0.61
-GravityInWater = -1.0
-DamageFactor = 0.0
+
+DamageFactor = 0.8
 EnableNightVision = true
 CameraRotationSpeed = 30
-StepHeight = 1.7
-MinRotationPitch = -40
-MaxRotationPitch = 0
+StepHeight = 1.8
+MinRotationPitch = -80
+MaxRotationPitch = 4
 DefaultFreelook = true
 HideEntity = true
 FlareType = 10
-CameraPosition =  0.00,  3.65, -0.19 
+CameraPosition =  0.00,  3.65, -0.0
 CameraZoom = 5
+
+Float = true
+FloatOffset = 0.0
+
+GravityInWater = -0.2
+
 
 MobilityYawOnGround = 3.0
 
-HUD = mbt_hud, mbt_gnr
+HUD = mbt_hudtwo, mbt_gnr
 
 SubmergedDamageHeight = 3
 
@@ -29,12 +35,12 @@ OnGroundRollFactor  = 1.9
 
 HideEntity = true
 
-WeightType = Unknown
+WeightType = Tank
 
 SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
 
 
-AddGunnerSeat =  0.00,  2.2, -0.19,  0.00,  2.2, -0.19,  false, -90, 90, true
+AddGunnerSeat =  0.00,  2.2, -0.19,  0.00,  2.2, -0.0,  false, -90, 90, false
 AddCrawlerTrack = true, 0.2, -2.1365, -0.26/1.9, -0.26/-3.455, -0.23/-3.62, 0.40/-4.5660, 0.5636/-4.686, 0.76/-4.70, 0.94/-4.61, 1.03/-4.4373, 1.01/3.0464, 0.9861/3.1749, 0.9131/3.2844, 0.805/3.358, 0.6752/3.384, 0.5464/3.36, 0.435/3.2844, 0.3642/3.1749, -0.23/2.06 
 AddCrawlerTrack = true, 0.2, 2.1365, -0.26/1.9, -0.26/-3.455, -0.23/-3.62, 0.40/-4.5660, 0.5636/-4.686, 0.76/-4.70, 0.94/-4.61, 1.03/-4.4373, 1.01/3.0464, 0.9861/3.1749, 0.9131/3.2844, 0.805/3.358, 0.6752/3.384, 0.5464/3.36, 0.435/3.2844, 0.3642/3.1749, -0.23/2.06 
 
@@ -57,7 +63,7 @@ AddTrackRoller = 1.90, 0.1664, -3.4544
 AddTrackRoller = 1.90, 0.6915, -4.3573
 
 
-AddWeapon = nona120mm,  0.00, 2.48, -0.1878,  0.0, 0.0, true,1, 0,-360,360, -40, 0
+AddWeapon = nona120mm,  0.00, 2.48, -0.0,  0.0, 0.0, true,1, 0,-35,35, -80, 4
 AddPartWeapon = nona120mm, false, true, false,  0.00, 2.1033, -0.1878
 AddPartWeaponChild = false, true, 0.00, 2.4810, 1.2965
 
@@ -65,9 +71,9 @@ EnableBack = true
 
 MotionFactor = 0.9
 
-ArmorMinDamage = 9
-ArmorMaxDamage = 250
-ArmorDamageFactor = 0.98
+ArmorMinDamage = 5
+;ArmorMaxDamage = 250
+ArmorDamageFactor = 1.0
 
 MaxFuel         = 1000
 FuelConsumption = 2.0

@@ -12,10 +12,12 @@ Flaming = false
 Sight = None
 Delay = 240
 Gravity = -0.05
-ReloadTime = 360
-Recoil = 5
+ReloadTime = 240
+Recoil = 3
 ModeNum = 1
 Round = 1
+
+group = maingun
 
 
 NukeYield = 95
@@ -46,8 +48,8 @@ AddMuzzleFlash      =  8.0,     2.00,        7,  220,254,219,184
 AddMuzzleFlashSmoke =  8.2, 30, 12.0,  4.0, 65,  220,160,140,120
 AddMuzzleFlashSmoke = 10.2, 20, 13.0,  7.0, 55,  200,190,170,150
 
-MaxAmmo = 46
-SuppliedNum = 4
+MaxAmmo = 12
+SuppliedNum = 1
 Item = 4, hbm:tile.det_nuke
 Item = 3, iron_ingot
 Item =  5, gunpowder
