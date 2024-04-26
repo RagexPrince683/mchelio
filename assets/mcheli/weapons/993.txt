@@ -1,10 +1,10 @@
-DisplayName = 125mm ZPT98 Cannon [DTC10-125 - APFSDS]
-Type = MachineGun1
-Power = 577
-ModelBullet = bullet105mm
+DisplayName = 125mm ZPT98 Cannon [GP125 - ATGM]
+Type = TVMissile
+Power = 850
+ModelBullet = 9M113
 
-Explosion = 0
-ExplosionBlock = 0
+Explosion = 5
+ExplosionBlock = 3
 Flaming = false
 Sight = None
 Delay = 170
@@ -17,18 +17,19 @@ BulletColor        = 255, 255, 100, 100
 Group = MainGun
 Recoil = 0.5
 
-Gravity = -0.001
+;Gravity = -0.001
 
 
-Acceleration = 7.0
+Acceleration = 3.0
 ;ModelBullet = bullet105mm
-Piercing = 5
+Piercing = 0
 Accuracy = 0.0
-DamageFactor = tank, 10.0
-DamageFactor = plane, 1.5
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.0
-DamageFactor = player, 10.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 AddDisplayName = en_US, 125mm Cannon [APFSDS]
 SoundVolume = 35
 
@@ -43,5 +44,5 @@ RecoilBufCount = 40, 5
 
 MaxAmmo = 10
 SuppliedNum = 2
-Item =  4, iron_ingot
-Item =  2, gunpowder
+Item =  2, iron_ingot
+Item =  6, gunpowder

@@ -3,9 +3,9 @@ AddDisplayName = en_US, Type 90 MBT
 AddDisplayName = ja_JP, 90式戦車
 ItemID = 30100
 MaxHp = 585
-Speed = 0.7
+Speed = 0.43
 Sound = typeninety
-ThrottleUpDown = 10.0
+ThrottleUpDown = 2.0
 MobilityYawOnGround = 2.8
 MinRotationPitch = -60
 MaxRotationPitch = 7
@@ -13,14 +13,14 @@ MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
-CameraZoom = 3
+CameraZoom = 10
 CameraPosition = 0.00,  3.25, 1.55, true
 EnableNightVision = true
 CameraRotationSpeed = 25
 ;EnableEntityRadar = true
 MaxFuel         = 1200
 FuelConsumption = 3.0
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
@@ -49,6 +49,9 @@ AddTexture = 90tk
 AddTexture = 90tk_1
 
 AddGunnerSeat =  0.00,  1.50, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
+
+AddGunnerSeat =  0.00,  1.20, 0.12,  1.00,  3.00,  1.12,  false, -90, 90, true
+
 AddGunnerSeat =  1.00,  2.20, 0.12,  1.00,  3.50,  0.12,  false, -90, 90, true
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
@@ -87,17 +90,19 @@ AddTrackRoller =  0.00,  0.83, -4.06
 AddTrackRoller =  0.00,  0.36,  6.34
 
 ;主砲
-AddPartWeapon = 120_apf / 120_heatm, false, true, false,  0.00, 1.72, -0.01, 0
+AddPartWeapon = 90120_apf / 90120_heatm, false, true, false,  0.00, 1.72, -0.01, 0
 AddPartWeaponChild = false, true, 0.00, 2.12, 1.88, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.12, 1.88, 0.5
-AddTurretWeapon = 120_apf, 0.00, 2.12, 7.57,  0.0, 0.0, true,1, 0,-360,360, -10, 7
-AddTurretWeapon = 120_heatm, 0.00, 2.12, 7.57,  0.0, 0.0, true,1, 0,-360,360, -10, 7
+AddTurretWeapon = 90120_apf, 0.00, 2.12, 7.57,  0.0, 0.0, true,1, 0,-360,360, -10, 7
+AddTurretWeapon = 90120_heatm, 0.00, 2.12, 7.57,  0.0, 0.0, true,1, 0,-360,360, -10, 7
 AddTurretWeapon = ty7490,      0.38, 1.91, 2.24,  0.0, 0.0, true,1, 0,-360,360, -10, 7
 
+AddTurretWeapon = targeting_pod_block,      -0.43, 2.28, 2.02,  0.0, 0.0, false,2, 0,-360,360, -50, 10
 
-AddPartTurretWeapon    = m2_1,   false, true, true,   0.30, 3.07, 0.60
-AddPartTurretWeapon    = m2_1,   false, true, false,  0.30, 3.07, 0.60
-AddTurretWeapon = m2_1,    0.31, 3.07,  0.59,   0.0, 0.0, false, 2, 0, -90,90, -60,8
+
+AddPartTurretWeapon    = 90m2_1,   false, true, true,   0.30, 3.07, 0.60
+AddPartTurretWeapon    = 90m2_1,   false, true, false,  0.30, 3.07, 0.60
+AddTurretWeapon = 90m2_1,    0.31, 3.07,  0.59,   0.0, 0.0, false, 3, 0, -60,60, -60,8
 
 AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
 

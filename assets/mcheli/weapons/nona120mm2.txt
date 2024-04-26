@@ -1,9 +1,9 @@
-DisplayName = 120mm 2A60 Mortar [OF-49 - HE-FRAG]
+DisplayName = 120mm 2A60 Mortar [OF-50 - HEAT]
 Type = Rocket
-Power = 75
-Explosion = 25
+Power = 650
+Explosion = 15
 ExplosionBlock = 4
-Acceleration = 4.0
+Acceleration = 7.0
 SoundVolume = 1.0
 Sound = artillery_gun_snd
 Accuracy = 1.0
@@ -15,7 +15,7 @@ ReloadTime = 180
 
 Group = MainGun
 
-DisableSmoke = true
+DisableSmoke = false
 
 HeatCount = 1300
 MaxHeatCount = 2050

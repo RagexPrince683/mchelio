@@ -1,22 +1,27 @@
-DisplayName = 105mm Type 83 Cannon [Type-83 HEAT - HEAT-FS]
+DisplayName = 125mm ZPT98 Cannon [DTP-125 - HEAT-FS]
 Type = MachineGun2
-Power = 400
+Power = 480
 ModelBullet = bullet105mm
-Acceleration = 5.0
-Explosion = 3
-ExplosionBlock = 2
+
+Explosion = 4
+ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
-;ModeNum = 1
+
 ;SoundPitch = 0.5
-Sound = tfiftyfive
+
+Sound = ninetyninemain
 Group = MainGun
-Round = 1
-Recoil = 2.5
+Recoil = 0.5
+
 Gravity = -0.005
 
-Delay = 200
-ReloadTime = 200
+
+Delay = 170
+ReloadTime = 170
+
+Round = 1
+
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
 Piercing = 0
@@ -26,10 +31,8 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 100mm Cannon [HE]
-SoundVolume = 15
-
-DisplayMortarDistance = true
+AddDisplayName = en_US, 125mm Cannon [HE]
+SoundVolume = 35
 
 
 AddMuzzleFlash      =  9.3,     2.10,        7,  220,254,159,74
@@ -40,7 +43,7 @@ AddMuzzleFlashSmoke = 11.3, 20, 13.0,  7.0, 55,  200,190,170,150
 
 RecoilBufCount = 40, 5
 
-MaxAmmo = 12
-SuppliedNum = 3
-Item =  2, iron_ingot
-Item =  2, gunpowder
+MaxAmmo = 10
+SuppliedNum = 2
+Item =  4, iron_ingot
+Item =  3, gunpowder

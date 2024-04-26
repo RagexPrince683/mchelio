@@ -2,19 +2,21 @@
 AddDisplayName = en_US, A-27M Cromwell V
 AddDisplayName = ru_RU, A-27M Cromwell V
 MaxHp = 64
-Speed = 0.5
+Speed = 0.38
 Sound = prop_tank
-ThrottleUpDown = 1.0
+ThrottleUpDown = 2.0
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
-DamageFactor = 0.0
+DamageFactor = 0.8
 EnableNightVision = false
 CameraRotationSpeed = 45
 DefaultFreeLook = true
 ThirdPersonDist = 12
 CameraZoom = 3
-CameraPosition = 0.00, 3.45, 0.1262, true
+CameraPosition = 0.00, 3.45, -0.0600
+
+
 
 
 HideEntity = true
@@ -28,7 +30,8 @@ SubmergedDamageHeight = 2
 OnGroundPitchFactor = 4.0
 OnGroundRollFactor  = 4.8
 
-HideEntity = true
+MinRotationPitch = -13
+MaxRotationPitch = 5
 
 ; Tank or Car or Unknown
 WeightType = Tank
@@ -39,8 +42,8 @@ SetWheelPos =  1.45,  -0.24, 2.08, 0.79, -0.68, -2.16, -3.48
 
 HUD = ww2tank_hud, ww2tank_hud
 
-AddGunnerSeat = 0.00,  2.5, 0.00
-AddSeat =  0.5, 0.5, 1.65
+AddGunnerSeat = 0.00,  2.5, 0.00, 0.00, 3.45, -0.0600
+AddGunnerSeat =  0.5, 0.5, 1.65
 
 AddCrawlerTrack = false, 0.25, 0.00,  1.1582/-4.3796,  1.0164/-4.722,  0.6740/-4.8638,  0.3316/-4.722, -0.1742/-3.628, -0.2826/-3.3664, -0.2800/-2.3524, -0.2800/2.4975, -0.1918/2.7590,  0.4125/3.3574,  0.7351/3.5210,  1.0576/3.6074,  1.1912/3.2849,  1.2030/1.5385,  1.2030/-3.1331
 AddCrawlerTrack = false, 0.25, -0.00,  1.1582/-4.3796,  1.0164/-4.722,  0.6740/-4.8638,  0.3316/-4.722, -0.1742/-3.8041, -0.2826/-3.5425, -0.2900/-2.3524, -0.2900/2.4975, -0.1918/2.7590,  0.4125/3.3574,  0.7351/3.5210,  1.0576/3.6074,  1.1912/3.2849,  1.2030/1.5385,  1.2030/-3.1331
@@ -61,12 +64,14 @@ AddTrackRoller = -1.6209,  0.3045,  -2.1627
 AddTrackRoller = -1.6209,  0.3045,  -3.4877
 AddTrackRoller = -1.6209,  0.9055,  -4.5262
 
-AddTurretWeapon = qf6_he_crom,  0.00, 2.2057, 2.5475,  0.0, 0.0, true,1, 0,-360,360, -5, 8
+AddTurretWeapon = qf6_he_crom,  0.00, 2.2057, 2.5475,  0.0, 0.0, true,1, 0,-360,360,   -5, 8
 AddTurretWeapon = qf6_heat_crom,  0.00, 2.2057, 2.5475,  0.0, 0.0, true,1, 0,-360,360, -5, 8
-AddTurretWeapon = brencromcox,  0.20, 2.2057, 2.5475,  0.0, 0.0, true,1, 0,-360,360, -5, 8
+AddTurretWeapon = brencromcox,  0.20, 2.2057, 2.5475,  0.0, 0.0, true,1, 0,-360,360,   -5, 8
 AddWeapon = brencrom,  0.4889, 1.6150, 1.8192,  0.0, 0.0, true,2, 0,-5,5, -5, 5
-AddPartWeapon = qf6_he_crom / qf6_heat_crom, false, true, false,  0.00, 2.2463, -0.2821, 0
+AddPartWeapon = qf6_he_crom / qf6_heat_crom, false, true, false,  0.00, 2.2463, -0.0600, 0
 AddPartWeaponChild = false, true, 0.00, 2.2463, -0.2821
+
+TurretPosition = 0.0, 1.0, -0.0600
 
 EnableBack = true
 
@@ -152,4 +157,4 @@ AddRecipe = "DGX",  "IXI",  "CRX",   X, iron_block,  G, glass, I, iron_ingot,  D
 
 unmountposition = 0.00, 1.5957, -0.2821
 
-StepHeight = 1.5
+StepHeight = 1.8

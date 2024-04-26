@@ -1,34 +1,34 @@
-﻿DisplayName = Type 59D
-AddDisplayName = en_US, Type 59D
+﻿DisplayName = ZTZ59D
+AddDisplayName = en_US, ZTZ59D
 AddDisplayName = zh_CN,  59D型坦克
 ItemID = 8894
 MaxHp = 203
-Speed = 0.60
+Speed = 0.31
 Sound = typefiftynine
-ThrottleUpDown = 20.0
-MobilityYawOnGround = 4.0
-MinRotationPitch = -60
-MaxRotationPitch = 5
+ThrottleUpDown = 5.0
+MobilityYawOnGround = 2.8
+MinRotationPitch = -18
+MaxRotationPitch = 4
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
 CameraPosition = 0.00,  3.25, 0.90, true
-CameraZoom = 3
+CameraZoom = 4
 EnableNightVision = true
-CameraRotationSpeed = 27
+CameraRotationSpeed = 15
 FlareType = 10
 MaxFuel         = 1000
 FuelConsumption = 2.3
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = true
 OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 1.0
 FlareType = 10
-EnableGunnerMode = true
+;EnableGunnerMode = true
 SubmergedDamageHeight = 3
 EnableEntityRadar = false
-HideEntity = true
+HideEntity = false
 
 
 
@@ -52,7 +52,7 @@ HUD = mbt_hud,mbt_gnr
 
 AddGunnerSeat =  0.00,  1.25,  2.25,    0.00,  2.50,  0.0,  false, -90, 90, true
 
-AddGunnerSeat = -0.55,  1.00, -0.96,   -0.846, 3.60,  0.373, false, -90, 90, true
+AddGunnerSeat = -0.5352, 2.80,  -0.494,   -0.5352, 3.80,  -0.494, false, -90, 90, true
 
 
 ;only works for passenger:
@@ -138,7 +138,7 @@ AddTurretWeapon =  mg_coaxial59d, 0.35, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,
 
 AddPartTurretWeapon    = 12_7mmgun59d,   false, true, true,  -0.4993, 3.5321, 0.0339
 AddPartTurretWeapon    = 12_7mmgun59d,  false, true, true, -0.4993, 3.2936, 0.0339
-AddTurretWeapon = 12_7mmgun59d,   -0.4993, 3.5321,  0.5321,   0.0, 0.0, false, 2, 0, -80,80, -82,4
+AddTurretWeapon = 12_7mmgun59d,   -0.4993, 3.5321, 0.0339,   0.0, 0.0, false, 2, 0, -80,80, -82,4
 
 
 
