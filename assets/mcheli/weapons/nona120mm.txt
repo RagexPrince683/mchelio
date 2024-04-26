@@ -1,17 +1,24 @@
-DisplayName = 120mm "Nona" Gun
+DisplayName = 120mm 2A60 Mortar [OF-49 - HE-FRAG]
 Type = Rocket
 Power = 75
-Explosion = 6
+Explosion = 25
 ExplosionBlock = 4
 Acceleration = 4.0
 SoundVolume = 1.0
 Sound = artillery_gun_snd
-Accuracy = 5.0
+Accuracy = 1.0
 ModelBullet = bullet105mm
 Flaming = false
 Sight = None
 Delay = 180
-Gravity = -0.005
+ReloadTime = 180
+
+Group = MainGun
+
+DisableSmoke = true
+
+
+Gravity = -0.05
 Recoil = 3
 ModeNum = 1
 Round = 1
