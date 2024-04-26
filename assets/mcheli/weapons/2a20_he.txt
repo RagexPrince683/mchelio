@@ -7,9 +7,9 @@ Explosion = 4
 ExplosionBlock = 4
 Flaming = false
 Sight = MoveSight
-ReloadTime = 180
-Delay = 120
-Reloadtime
+ReloadTime = 150
+Delay = 150
+
 ModeNum = 1
 Round = 1
 SoundPitch = 0.5

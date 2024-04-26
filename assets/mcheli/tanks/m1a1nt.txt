@@ -104,7 +104,7 @@ AddTurretWeapon = m1a1heat, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20
 AddTurretWeapon = rehinmetall_he,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = canistershell,        0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 
-AddTurretWeapon = mg7_62mm_mbt,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = m240,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = mbt_cas,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = targeting_pod_block,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -50, 10
 

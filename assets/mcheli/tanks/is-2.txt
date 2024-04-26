@@ -120,7 +120,7 @@ AddPartWeaponChild = false, true, 0.00, 2.41, 1.68, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.41, 1.68, 0.5
 AddTurretWeapon = is2d25tap, 0.00, 2.41, 1.68,  0.0, 0.0, true,1, 0,-360,360, -20, 3
 AddTurretWeapon = is2d25the,     0.00, 2.41, 1.68,  0.0, 0.0, true,1, 0,-360,360, -20, 3
-AddTurretWeapon = dtmgis2,        0.43, 2.28, 1.66,  0.0, 0.0, true,1, 0,-360,360, -20, 3
+AddTurretWeapon = dt29coax,        0.43, 2.28, 1.66,  0.0, 0.0, true,1, 0,-360,360, -20, 3
 ;車体
 ;AddWeapon = dtmgis2,      -1.36, 1.68, 1.51,  0.0, 0.0, true,3, 0,-20,20, -20, 20
 

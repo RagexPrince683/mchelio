@@ -8,7 +8,7 @@ ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
 ReloadTime = 160
-Delay = 184
+Delay = 160
 ModeNum = 1
 Piercing  = 0
 SoundPitch = 0.7
@@ -16,11 +16,13 @@ SoundVolume = 20
 Sound = mbtshot
 Recoil = 2
 Group = MainGun
+Piercing = 5
+Accuracy = 0.0
 DamageFactor = tank, 2.0
-DamageFactor = plane, 1.5
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.0
-DamageFactor = player, 10.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 DisplayMortarDistance = true
 

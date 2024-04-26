@@ -14,12 +14,16 @@ SoundPitch = 0.5
 SoundVolume = 20
 Sound = mbtshot
 Group = MainGun
-DamageFactor = tank, 2.5
-DamageFactor = plane, 1.5
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.0
-DamageFactor = player, 10.0
+
 Gravity = -0.001
+Piercing = 0
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+;AddDisplayName = en_US,
 
 DisplayMortarDistance = true
 

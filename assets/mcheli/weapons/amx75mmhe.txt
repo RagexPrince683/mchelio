@@ -7,7 +7,8 @@ Explosion = 4
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
-Delay = 120
+Delay = 100
+ReloadTime = 100
 ModeNum = 1
 SoundPitch = 0.5
 SoundVolume = 10
@@ -17,11 +18,12 @@ Recoil = 2.5
 Round = 1 
 Gravity = -0.001
 
-DamageFactor = tank, 3.5
-DamageFactor = plane, 1.5
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.0
-DamageFactor = player, 10.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 
 AddMuzzleFlash      =  8.2,     2.10,        7,  220,254,159,74

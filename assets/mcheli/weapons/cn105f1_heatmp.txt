@@ -6,7 +6,7 @@ Explosion = 3
 ExplosionBlock = 1
 Acceleration = 4.2
 Sight = None
-ReloadTime = 170
+ReloadTime = 134
 Round = 1
 SoundVolume = 10.0
 Sound = mbtshot
@@ -15,7 +15,7 @@ BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.005
 Recoil = 2
-
+Delay = 134
 Piercing = 0
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5

@@ -7,7 +7,8 @@ Explosion = 3
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
-Delay = 85
+Delay = 200
+ReloadTime = 200
 ModeNum = 1
 ;SoundPitch = 0.5
 SoundVolume = 10
@@ -17,8 +18,7 @@ Round = 1
 Recoil = 2.5
 Gravity = -0.005
 
-Delay = 90
-ReloadTime = 120
+
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
 Piercing = 0

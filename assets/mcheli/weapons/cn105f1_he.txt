@@ -1,12 +1,12 @@
 DisplayName = CN-105-F1 Rifled Gun [  HE  ]
 Type = MachineGun1
-Power = 65
+Power = 25
 ModelBullet = bullet105mm
 Explosion = 5
 ExplosionBlock = 4
 Acceleration = 5.0
 Sight = None
-ReloadTime = 170
+ReloadTime = 134
 Round = 1
 SoundVolume = 10.0
 Sound = mbtshot
@@ -14,7 +14,7 @@ Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.005
-
+Delay = 134
 Acceleration = 7.0
 Piercing = 0
 Accuracy = 0.0

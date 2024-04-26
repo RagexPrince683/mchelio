@@ -6,7 +6,7 @@ Explosion = 0
 ExplosionBlock = 0
 Acceleration = 4.5
 Sight = None
-ReloadTime = 170
+ReloadTime = 134
 Round = 1
 SoundVolume = 10.0
 Sound = mbtshot
@@ -18,8 +18,8 @@ Recoil = 2.5
 
 
 
-Delay = 150
-ReloadTime = 170
+Delay = 134
+ReloadTime = 134
 Group = MainGun
 ModelBullet = bullet105mm
 Piercing = 5
