@@ -15,7 +15,7 @@ Particle = largeexplode
 Gravity = -0.001
 Recoil = 2.5
 
-
+DisplayMortarDistance = true
 
 
 Delay = 134

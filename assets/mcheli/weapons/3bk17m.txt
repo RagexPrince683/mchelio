@@ -3,7 +3,7 @@ Type = MachineGun1
 Power = 390
 ModelBullet = 3bm42
 Explosion = 2
-ExplosionBlock = 1
+ExplosionBlock = 2
 Acceleration = 7.0
 Sight = None
 Delay = 200
@@ -15,7 +15,7 @@ Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.005
-
+DisplayMortarDistance = true
 Recoil = 2.5
 
 Group = MainGun

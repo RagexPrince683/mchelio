@@ -23,7 +23,7 @@ DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
-
+DisplayMortarDistance = true
 AddMuzzleFlash      =  8.2,      2.10,        7,  220,254,159,74
 AddMuzzleFlash      =  8.1,      2.05,        6,  220,254,219,104
 AddMuzzleFlash      =  8.0,      2.00,        5,  220,254,219,184

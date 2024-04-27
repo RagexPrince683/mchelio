@@ -35,8 +35,8 @@ EntityRoll = 0
 AddRotor= 1, 0, 0,  3.29, -12.90,  1.0, 0.0, 0.0
 AddRotor= 1, 0, 0,  4.26, -2.57,  0.0, 1.0, 0.0,false
 
-AddPartWeapon        = m197_1/m197_2,     true,  true,  false, -0.02,  0.61, 1.39
-AddPartRotWeapon     = m197_1/m197_2,     false, true,  true,  -0.02,  0.48, 1.39
+AddPartWeapon        = m61ah1w,     true,  true,  false, -0.02,  0.61, 1.39
+AddPartRotWeapon     = m61ah1w,     false, true,  true,  -0.02,  0.48, 1.39
 
 AddPartWeaponMissile = agm114,   false, false, false,   2.09,  1.09, -1.76
 AddPartWeaponMissile = agm114,   false, false, false,  -2.09,  1.09, -1.76

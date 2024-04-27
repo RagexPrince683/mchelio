@@ -24,7 +24,7 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
-
+DisplayMortarDistance = true
 
 
 
