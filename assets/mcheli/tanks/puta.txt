@@ -1,6 +1,8 @@
 DisplayName = ֏L֏a֏m֏b֏o֏r֏g֏h֏i֏n֏i֏ ֏H֏u֏r֏a֏c֏a֏n֏
 AddDisplayName = en_US, ֏L֏a֏m֏b֏o֏r֏g֏h֏i֏n֏i֏ ֏H֏u֏r֏a֏c֏a֏n֏
 AddDisplayName = ja_JP, ֏L֏a֏m֏֏b֏o֏r֏g֏h֏i֏n֏i ֏H֏u֏r֏a֏c֏a֏n֏
+;this is to any low life piece of shit that dares enter this file, get a fucking job, do a sport, or find a fucking hobby.
+
 ItemID = 31400
 MaxHp = 200
 Speed = 1.99

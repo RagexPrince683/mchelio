@@ -1,12 +1,12 @@
-DisplayName = 75mm OQF Mk5 Cannon [M48 HE]
+DisplayName = 75mm OQF Mk.V Cannon [M48 - HE]
 Type = MachineGun2
 Power = 10
 ModelBullet = bullet76mm
 ;Acceleration = 3.0
-Explosion = 6
-ExplosionBlock = 3
+Explosion = 3
+ExplosionBlock = 2
 Sight = MoveSight
-Delay = 150
+
 SoundPitch = 0.5
 SoundVolume = 20
 Sound = tank_gun_snd
@@ -28,6 +28,10 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
+
+RecoilBufCount = 40, 5
+
+Round = 1
 
 
 

@@ -1,5 +1,12 @@
 DisplayName = ֏L֏a֏m֏b֏o֏r֏g֏h֏i֏n֏i ֏H֏u֏r֏a֏c֏a֏n ֏P֏e֏r֏f֏o֏r֏m֏a֏n֏t֏e ֏S֏p֏y֏d֏e֏r֏
 ;֏F֏U֏C֏K ֏Y֏O֏U֏ A֏T֏O֏Mㅤ
+
+;so you found it, congratulations. Wanna know what you win? Nothing. That's why you wasted your fucking time finding it. Fuck you.
+;this is why you will never be successful. You can't stand the thought of success. I tried to work with you. I tried to work with everyone involved in this community. There was no reason to cry over this because it is fair use.
+;No one gives a shit about 'your' assets for a mod you don't own for a game you don't own. Get a real fucking hobby.
+;thousands of jobs on turbosquid, 3d creator etc and you choose to be anal the moment someone improves upon 'your' creation.
+;quite possibly the saddest existence ever.
+
 MaxHp = 200
 Speed = 2.01
 Sound = greenfn

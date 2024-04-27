@@ -18,6 +18,10 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
+RecoilBufCount = 40, 5
+
+Round = 1
+
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  7.1,      1.75,        6,  200,254,219,104
 AddMuzzleFlash      =  7.0,      1.70,        5,  200,254,219,184

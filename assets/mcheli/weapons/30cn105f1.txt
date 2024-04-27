@@ -1,0 +1,41 @@
+DisplayName = 105mm CN-105-F1 Cannon [OFL 105 F1 - APFSDS]
+Type = MachineGun1
+Power = 361
+ModelBullet = bullet105mm
+Explosion = 0
+ExplosionBlock = 0
+Acceleration = 4.5
+Sight = None
+ReloadTime = 134
+Round = 1
+SoundVolume = 10.0
+Sound = centaurobig
+SoundPitch = 0.8
+
+BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+Gravity = -0.001
+Recoil = 2.5
+
+
+
+
+Delay = 134
+ReloadTime = 134
+Group = MainGun
+ModelBullet = bullet105mm
+Piercing = 5
+Accuracy = 1.5
+DamageFactor = tank, 10.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
+
+Group = MainGun
+
+
+MaxAmmo = 16
+SuppliedNum = 8
+Item =  2, iron_ingot
+Item =  2, gunpowder

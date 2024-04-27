@@ -1,10 +1,10 @@
-DisplayName = Mk.19 mod1 [M383 HE]
+DisplayName = Mk19 40mm Automatic Grenade Launcher [M383 - HE]
 Type = Rocket
 ModelBullet = mk19bullet
-Power = 15
+Power = 25
 Acceleration = 2.5
-Explosion = 4
-ExplosionBlock = 0
+Explosion = 10
+ExplosionBlock = 1
 ExplosionInWater = 0
 Flaming = false
 Sight = None
@@ -13,9 +13,9 @@ Gravity = -0.03
 Accuracy = 2.0
 Sound = fourtymm
 HeatCount = 35
-MaxHeatCount = 180
+MaxHeatCount = 1080
 Delay = 6
-Round = 25
+
 ReloadTime = 180
 
 Group = MainGun
@@ -42,8 +42,14 @@ DamageFactor = vehicle, 1.0
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 
+Round = 48
 
-MaxAmmo = 120
-SuppliedNum = 60
+;96
+
+ReloadTime = 120
+
+
+MaxAmmo = 768
+SuppliedNum = 128
 Item =  3, iron_ingot
 Item =  3, gunpowder

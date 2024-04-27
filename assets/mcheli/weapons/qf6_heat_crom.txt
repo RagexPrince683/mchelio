@@ -1,14 +1,14 @@
-DisplayName = 75mm OQF Mk5 Cannon [M61 APCBC]
+DisplayName = 75mm OQF Mk.V Cannon [M61 - APCBC]
 Type = MachineGun2
 Power = 120
 ModelBullet = bullet76mm
 Acceleration = 6.0
-Explosion = 4
-ExplosionBlock = 3
+Explosion = 2
+ExplosionBlock = 1
 Sight = MoveSight
-Delay = 150
+
 SoundPitch = 0.5
-SoundVolume = 20
+
 Sound = tank_gun_snd
 Gravity = -0.005
 Piercing = 2
@@ -22,6 +22,8 @@ DamageFactor = player, 10.0
 Piercing = 2
 ;ModelBullet = bullet
 
+Round = 1
+
 
 Delay = 150
 ReloadTime = 150
@@ -29,6 +31,8 @@ Group = MainGun
 Acceleration = 7.0
 Accuracy = 1.5
 SoundVolume = 15
+
+RecoilBufCount = 40, 5
 
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
