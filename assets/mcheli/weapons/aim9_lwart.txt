@@ -12,10 +12,11 @@ ModelBullet = aim9h
 Sound = aimnine
 SoundVolume = 15
 
-DamageFactor = tank, 1.0
+DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
+
 
 MaxAmmo = 2
 SuppliedNum = 2

@@ -46,12 +46,10 @@ AddSeat =-0.60,  1.70, -5.00
 AddPartWeaponMissile = plab-250-120, false, false, false, -1.25, 1.35,-4.00
 AddPartWeaponMissile = plab-250-120, false, false, false,  1.25, 1.35,-4.00
 
-AddWeapon = s-5m57mm,     -1.25, 1.35,-2.00,   0.0, 0.0
-AddWeapon = s-5m57mm,      1.25, 1.35,-2.00,   0.0, 0.0
+AddWeapon = torped45,     -1.25, 1.35,-2.00,   0.0, 0.0
+AddWeapon = torped45,      1.25, 1.35,-2.00,   0.0, 0.0
 AddWeapon = plab-250-120, -1.25, 1.35,-4.00,   0.0, 0.0
 AddWeapon = plab-250-120,  1.25, 1.35,-4.00,   0.0, 0.0
-AddWeapon = kh-35,        -1.25, 1.35,-2.00,   0.0, 0.0
-AddWeapon = kh-35,         1.25, 1.35,-2.00,   0.0, 0.0
 
 AddWeapon = targeting_pod_mob,     0.0, 0.0, 3.1,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.0, 3.1,   0.0, 0.0,  false,2
