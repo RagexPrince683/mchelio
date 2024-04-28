@@ -12,6 +12,8 @@ SoundVolume = 2
 Gravity = -0.03
 Accuracy = 2.0
 Sound = fourtymm
+SoundPitchRandom = 0.1
+
 HeatCount = 35
 MaxHeatCount = 1080
 Delay = 6

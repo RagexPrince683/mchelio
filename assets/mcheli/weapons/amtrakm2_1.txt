@@ -7,7 +7,9 @@ Sight = MoveSight
 Delay = 1
 SoundVolume = 1.2
 SoundPitch = 1.0
-Sound = m2_snd
+Sound = fiftyredux
+SoundPitchRandom = 0.1
+
 Accuracy = 2.0
 HeatCount = 5
 MaxHeatCount = 150

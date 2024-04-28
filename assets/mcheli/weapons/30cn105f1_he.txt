@@ -4,13 +4,15 @@ Power = 25
 ModelBullet = bullet105mm
 Explosion = 5
 ExplosionBlock = 4
-Acceleration = 5.0
+Acceleration = 7.0
 Sight = None
 ReloadTime = 134
 Round = 1
 SoundVolume = 10.0
 Sound = centaurobig
 SoundPitch = 0.8
+
+Recoil = 1.5
 
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode

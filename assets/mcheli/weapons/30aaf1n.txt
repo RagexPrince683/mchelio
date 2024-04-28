@@ -1,4 +1,4 @@
-DisplayName = 7.62mm NF1 Machine Gun
+DisplayName = 7.62mm A-A-F1N Machine Gun
 Type = MachineGun1
 Power = 7
 Acceleration = 10.0
@@ -12,10 +12,15 @@ HeatCount = 3
 MaxHeatCount = 150
 SoundPitch = 1.0
 SoundVolume = 15
-Sound = pkt
+Sound = aaf1nofade
+SoundPitchRandom = 0.1
+
 Gravity = -0.005
 BulletColor        = 255, 189, 255, 116
 Round = 100
+
+ReloadTime = 80
+
 
 Acceleration = 7.5
 Piercing = 0

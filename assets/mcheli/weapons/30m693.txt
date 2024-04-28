@@ -1,4 +1,4 @@
-DisplayName = 20mm F2 Automatic Cannon
+DisplayName = 20mm 20F2 GIAT M693 Automatic Cannon
 Type = MachineGun1
 Power = 57
 Acceleration = 8.0
@@ -17,7 +17,7 @@ Accuracy = 1.7
 HeatCount = 6
 MaxHeatCount = 250
 SoundVolume = 2
-Sound = gun_h4_snd
+Sound = twentymil
 Gravity = -0.005
 SoundVolume = 15
 
@@ -28,6 +28,9 @@ DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
+
+Round = 500
+
 
 MaxAmmo = 1000
 SuppliedNum = 250

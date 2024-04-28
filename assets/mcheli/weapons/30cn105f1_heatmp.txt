@@ -4,13 +4,15 @@ Power = 400
 ModelBullet = bullet105mm
 Explosion = 3
 ExplosionBlock = 2
-Acceleration = 4.2
+Acceleration = 7.0
 Sight = None
 ReloadTime = 134
 Round = 1
 SoundVolume = 10.0
 Sound = centaurobig
 SoundPitch = 0.8
+
+Recoil = 1.5
 
 
 Accuracy = 1.5

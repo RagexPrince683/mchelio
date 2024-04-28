@@ -18,6 +18,8 @@ DefaultFreelook = true
 MaxFuel         = 1200
 FuelConsumption = 2.0
 
+AddTexture = aav7des
+
 FlareType = 10
 Float = true
 FloatOffset = -2.0
