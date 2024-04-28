@@ -35,8 +35,8 @@ EntityRoll = 0
 AddRotor= 1, 0, 0,  3.29, -12.90,  1.0, 0.0, 0.0
 AddRotor= 1, 0, 0,  4.26, -2.57,  0.0, 1.0, 0.0,false
 
-AddPartWeapon        = m61ah1w,     true,  true,  false, -0.02,  0.61, 1.39
-AddPartRotWeapon     = m61ah1w,     false, true,  true,  -0.02,  0.48, 1.39
+AddPartWeapon        = m197_1/m197_2,     true,  true,  false, -0.02,  0.61, 1.39
+AddPartRotWeapon     = m197_1/m197_2,     false, true,  true,  -0.02,  0.48, 1.39
 
 AddPartWeaponMissile = agm114,   false, false, false,   2.09,  1.09, -1.76
 AddPartWeaponMissile = agm114,   false, false, false,  -2.09,  1.09, -1.76
@@ -53,8 +53,8 @@ AddGunnerSeat = 0.00, 1.10,  0.88,  0.0, 1.1, 3.5, true
 
 AddRecipe = " Y ",  "XXX",  "YXY", X, iron_block, Y, iron_ingot
 
-AddPartWeapon        = m197_1/m197_2,     true,  true,  false, -0.02,  0.61, 1.39
-AddPartRotWeapon     = m197_1/m197_2,     false, true,  true,  -0.02,  0.48, 1.39
+AddWeapon = m197_1,  -0.02,  0.48, 1.39,  0,-1, true,2, 0,-110,110, -10,50
+AddWeapon = m197_2,  -0.02,  0.48, 1.39,  0,-1, true,2, 0,-110,110, -10,50
 
 
 AddWeapon = hydra70,        1.42,  0.96, -1.59,  1, 0,  true,1,  0,0,0, 0, 25
