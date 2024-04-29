@@ -24,6 +24,8 @@ MotionFactor = 0.9
 DamageFactor = 1.0
 EnableBack = true
 
+;CameraRotationSpeed
+
 
 
 
@@ -197,6 +199,6 @@ DefaultFreeLook = false
 
 unmountposition = 0.71, 1.52, 6.08
 
-CameraRotationSpeed = 75
+CameraRotationSpeed = 40
 
 ArmorMinDamage = 2

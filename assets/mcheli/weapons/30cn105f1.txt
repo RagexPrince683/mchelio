@@ -35,7 +35,7 @@ DamageFactor = player, 10.0
 Group = MainGun
 
 
-MaxAmmo = 16
+MaxAmmo = 17
 SuppliedNum = 8
 Item =  2, iron_ingot
 Item =  2, gunpowder

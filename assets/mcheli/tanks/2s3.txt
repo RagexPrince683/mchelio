@@ -9,7 +9,7 @@ GravityInWater = -1.0
 DamageFactor = 0.8
 EnableNightVision = true
 CameraZoom = 5
-CameraRotationSpeed = 30
+CameraRotationSpeed = 12
 StepHeight = 1.8
 MinRotationPitch = -60
 MaxRotationPitch = 4
@@ -72,7 +72,7 @@ EnableBack = true
 
 MotionFactor = 0.9
 
-ArmorMinDamage = 10
+ArmorMinDamage = 5
 ;ArmorMaxDamage = 250
 ArmorDamageFactor = 3.8
 

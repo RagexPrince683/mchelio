@@ -35,7 +35,7 @@ DamageFactor = player, 20.0
 
 DisplayMortarDistance = true
 FixCameraPitch = true
-CameraRotationSpeedPitch = 0.2
+;CameraRotationSpeedPitch = 1.2
 
 AddMuzzleFlash      =  8.2,     2.10,        9,  220,254,159,74
 AddMuzzleFlash      =  8.1,     2.05,        8,  220,254,219,104

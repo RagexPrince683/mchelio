@@ -13,7 +13,7 @@ DamageFactor = 0.0
 CameraZoom = 10
 CameraPosition = 0.00,  3.2, 0.5, true
 EnableNightVision = true
-CameraRotationSpeed = 35
+CameraRotationSpeed = 10
 EnableEntityRadar = false
 MaxFuel         = 960
 FuelConsumption = 2
@@ -26,16 +26,16 @@ SubmergedDamageHeight = 2
 HideEntity = true
 WeightType = Tank
 WeightedCenterZ = 0.0
-SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
-HUD = mbt_hudtwo, gunner
+
+HUD = mbt_hudtwo, gunnernvg
 
 AddTexture = amx-30bdes
 AddTexture = amx-30bdes2
 
-AddGunnerSeat =  0.00,  1.70,  0.5,    0.00,  2.70,  -0.5,  false, -20, 8, true
+AddGunnerSeat =  -0.734,  1.00,  2.38,    0.00,  2.70,  -0.5,  false, -20, 8, true
 AddGunnerSeat =  -0.76,  2.3,  -0.6226,    -0.764,  3.5,  -0.657,  false, -30, 5, true
 
-unmountposition = 0.00,  2.70,  0.5
+unmountposition = -0.734,  2.70,  2.38
 
 MotionFactor = 0.925
 ArmorMinDamage = 15
@@ -43,6 +43,8 @@ ArmorMinDamage = 15
 ArmorDamageFactor = 1.0
 EnableBack = true
 PivotTurnThrottle = 0.0
+
+SetWheelPos =  1.72,  -0.24,  2.52,  1.07, -0.34, -1.80, -3.23
 
 AddCrawlerTrack = true, 0.2, -2.1,  -0.28/2.5233, -0.24/2.7126, -0.1353/2.8733, 0.2281/3.7283, 0.2611/3.8939, 0.3547/4.0341, 0.495/4.128, 0.6606/4.1608, 0.826/4.128, 0.9663/4.0341, 1.06/3.8939, 1.0929/3.7283, 1.186/-4.5014, 1.1068/-4.7281, 0.9316/-4.892, 0.7001/-4.9556, 0.4657/-4.9043, 0.2819/-4.7498, 0.1909/-4.5281, -0.2426/-3.423, -0.2803/-3.2336, -0.2803/-3.2136, -0.28/2.5033 
 AddCrawlerTrack = true, 0.2, 2.1,  -0.28/2.5233, -0.24/2.7126, -0.1353/2.8733, 0.2281/3.7283, 0.2611/3.8939, 0.3547/4.0341, 0.495/4.128, 0.6606/4.1608, 0.826/4.128, 0.9663/4.0341, 1.06/3.8939, 1.0929/3.7283, 1.186/-4.5014, 1.1068/-4.7281, 0.9316/-4.892, 0.7001/-4.9556, 0.4657/-4.9043, 0.2819/-4.7498, 0.1909/-4.5281, -0.2426/-3.423, -0.2803/-3.2336, -0.2803/-3.2136, -0.28/2.5033 

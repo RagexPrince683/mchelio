@@ -16,6 +16,8 @@ Accuracy = 1.5
 ModeNum = 1
 group = maingun
 
+;ModelBullet = 
+
 Gravity = -0.005
 
 HeatCount = 7
