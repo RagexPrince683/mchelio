@@ -1,4 +1,4 @@
-DisplayName = Kord-12.7mm Machine Gun
+DisplayName = 12.7mm Kord 6P49 Machine Gun
 Type = MachineGun2
 Power = 31
 Acceleration = 8.0
@@ -11,6 +11,10 @@ Sound = kord
 Accuracy = 0.7
 HeatCount = 4
 MaxHeatCount = 150
+
+Round = 50
+
+ReloadTime = 80
 
 Gravity = -0.001
 

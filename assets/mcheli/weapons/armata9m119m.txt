@@ -1,5 +1,5 @@
-DisplayName = 9M119M ATM
-Type = TVMissile
+DisplayName = 125mm 2A82-1M Smoothbore Cannon [9M119M Refleks - ATGM]
+Type = ATMissile
 Power = 900
 Acceleration = 2.0
 LockTime = 20
@@ -11,8 +11,8 @@ Delay = 100
 ModelBullet = 9M113
 Sound = t14main
 
-Delay = 100
-ReloadTime = 100
+Delay = 110
+ReloadTime = 110
 Group = MainGun
 ;Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
@@ -27,8 +27,8 @@ DamageFactor = player, 20.0
 AddDisplayName = en_US, 9M119M ATGM
 SoundVolume = 15
 
-MaxAmmo = 10
-SuppliedNum = 1
+MaxAmmo = 11
+SuppliedNum = 5
 Item =  3, iron_ingot
 Item =  2, gunpowder
 Item =  1, redstone

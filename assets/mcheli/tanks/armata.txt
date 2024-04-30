@@ -1,9 +1,9 @@
 DisplayName = T-14 Armata
 AddDisplayName = en_US, T-14 Armata
 MaxHp = 950
-Speed = 0.75
+Speed = 0.50
 Sound = armataeng
-ThrottleUpDown = 20.0
+ThrottleUpDown = 5.0
 MobilityYawOnGround = 3.30
 MinRotationPitch = -60
 MaxRotationPitch = 7
@@ -15,18 +15,18 @@ CameraZoom = 10
 ;1.63 x
 ;2.26 x
 
-CameraPosition = 0.00,  3.7, -0.5, true
+CameraPosition = 0.00,  3.7, -0.0, true
 EnableNightVision = true
 CameraRotationSpeed = 33
 EnableEntityRadar = true
 MaxFuel         = 1300
 FuelConsumption = 4.0
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 FlareType = 10
-SubmergedDamageHeight = 3
+SubmergedDamageHeight = 1
 HideEntity = true
 WeightType = tank
 WeightedCenterZ = 0.0
@@ -34,8 +34,8 @@ SetWheelPos =  1.82,  -0.24,  3.20,  1.20, -0.00, -1.20, -2.8
 HUD = mbt_hud, mbt_gnr
 
 ;canride = true
-AddGunnerSeat =  0.00,  0.85,  2.0,    0.00,  2.70,  -0.5,  false, -60, 7, true
-AddGunnerSeat =  0.000   ,  2.85 ,  1.0,   -0.486, 4.1548, -1.4652, false, -60, 7, true
+AddGunnerSeat =  0.00,  0.40,  2.0,    0.00,  2.70,  -0.5,  false, -60, 7, false
+AddGunnerSeat =  0.500   ,  0.50 ,  2.0,   -0.486, 4.1548, -1.4652, false, -60, 7, false
 
 ;AddFixRotSeat = 0.0, 3.0, 2.0, 0
 
@@ -80,21 +80,25 @@ AddTrackRoller = 1.82,  0.1681, -2.535
 AddTrackRoller = 1.82,  0.7808, -3.8282
 
 
-AddPartWeapon = armata2A82_APFSDS / armata2A82_HE / armata2A82_HEATMP / 9m119m, false, true, false,  0.00, 1.8784, 0.00, 0
+AddPartWeapon = armata2A82_APFSDS / armata2A82_HE / armata2A82_HEATMP / armata9m119m, false, true, false,  0.00, 1.8784, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.332, 1.3754, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.332, 1.3754, 0.5
 AddTurretWeapon = armata2A82_APFSDS, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -14, 7
 AddTurretWeapon = armata2A82_HE,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -14, 7
 AddTurretWeapon = armata2A82_HEATMP,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -14, 7
-AddTurretWeapon = armatamg7_62mm,   -0.50, 2.30, 0.02,   0.0, 0.0, true, 1, 0, -360,360, -14,7
-AddTurretWeapon = armata9m119m,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -90, 90
+AddTurretWeapon = armata9m119m,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -14, 7
+;AddTurretWeapon = armatamg7_62mm,   -0.50, 2.30, 0.02,   0.0, 0.0, true, 1, 0, -360,360, -14,7
+
+AddTurretWeapon = armatamg7_62mm_mbt,    0.186, 3.5548, -1.4652,   0.0, 0.0, true, 2, 0, -360,360, -45,7
+AddPartTurretWeapon = armatamg7_62mm_mbt,   true, true, true,  -0.486, 3.5548, -1.4652
+AddPartTurretWeapon = armatamg7_62mm_mbt,  false, true, false, -0.486, 3.5548, -1.4652
+
+
 
 ;AddPartTurretWeapon    = mg7_62mm_mbt,   false, true, true,  -0.486, 3.5548, -1.4652
 ;AddPartTurretWeapon    = mg7_62mm_mbt,  false, true, false, -0.486, 3.5548, -1.4652
 
-AddTurretWeapon = mg7_62mm_mbt,    0.186, 3.5548, -1.4652,   0.0, 0.0, false, 2, 0, -360,360, -45,7
-AddPartTurretWeapon = mg7_62mm_mbt,   true, true, true,  -0.486, 3.5548, -1.4652
-AddPartTurretWeapon = mg7_62mm_mbt,  false, true, false, -0.486, 3.5548, -1.4652
+
 
 ;-0.3237, 3.0520, -1.7110
 

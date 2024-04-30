@@ -12,12 +12,16 @@ HeatCount = 3
 MaxHeatCount = 150
 SoundPitch = 1.0
 SoundVolume = 15
-Sound = pkt
+Sound = mle
 Gravity = -0.005
 BulletColor        = 255, 189, 255, 116
 Round = 150
 ModelBullet = bullet
 TrajectoryParticle = crit
+
+
+
+ReloadTime = 80
 
 Acceleration = 7.5
 Piercing = 0

@@ -1,28 +1,33 @@
-DisplayName = 75mm SA50 L/57 [AP]
+DisplayName = 75mm SA50 L/57 Cannon [PCOT-51P - APCBC]
 Type = MachineGun2
 Power = 202
 ModelBullet = bullet76mm
 Acceleration = 6.0
-Explosion = 0
-ExplosionBlock = 0
+Explosion = 2
+ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight
 Delay = 100
-ReloadTime = 100
-ModeNum = 1
+ReloadTime = 250
+;ModeNum = 1
 SoundPitch = 0.5
-SoundVolume = 10
-Sound = mbtshot
+SoundVolume = 15
+Sound = centauro
 Group = MainGun
 Recoil = 2.5
-Round = 1 
-Gravity = -0.001
+Round = 12
+Gravity = -0.005
+
+Accuracy = 1.5
+
 
 DamageFactor = tank, 3.5
 DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
+
+Piercing = 2
 
 
 AddMuzzleFlash      =  8.2,     2.10,        7,  220,254,159,74
