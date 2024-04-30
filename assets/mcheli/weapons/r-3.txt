@@ -12,7 +12,7 @@ Sight = MissileSight
 Delay = 9
 ReloadTime = 300
 Round = 2
-LockTime = 40
+LockTime = 30
 ProximityFuseDist = 0
 ModelBullet = R-60BM
 Sound = aimnine
@@ -21,8 +21,8 @@ SoundVolume = 15
 TrajectoryParticleStartTick = 10
 
 
-MaxAmmo = 8
-SuppliedNum = 4
+MaxAmmo = 4
+SuppliedNum = 2
 Item =  2, iron_ingot
 Item =  2, gunpowder
 Item =  2, redstone

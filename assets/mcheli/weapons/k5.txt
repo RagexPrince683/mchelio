@@ -1,19 +1,18 @@
 DisplayName = K-5 AA-1 Alkali
 Type = AAMissile
 Power = 54
-ModelBullet = hydra70
 Acceleration = 3.5
 Explosion = 4
 Sound = aimnine
 SoundPitch = 0.8
 SoundVolume = 15
-LockTime = 70
+LockTime = 30
 Flaming = true
 Sight = MoveSight
 Delay = 70
 ReloadTime = 50
 Round = 2
-
+ModelBullet = aim9h
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
