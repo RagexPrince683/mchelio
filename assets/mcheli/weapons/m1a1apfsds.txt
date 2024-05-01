@@ -12,10 +12,7 @@ Sound = mbt_shot
 Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+
 Gravity = -0.001
 
 ;nukeYield = 1

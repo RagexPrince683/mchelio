@@ -1,4 +1,4 @@
-DisplayName = 105mm M68 Cannon [HEATFS]
+DisplayName = 105mm M68 Cannon [M456 - HEATFS]
 Type = MachineGun2
 Power = 400
 ModelBullet = bullet105mm

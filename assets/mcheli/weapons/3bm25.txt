@@ -1,4 +1,4 @@
-DisplayName = D-10T2S 100MM Cannon [3BM25-APFSDS]
+DisplayName = D-10T2S 100MM Cannon [3BM25 - APFSDS]
 Type = MachineGun1
 Power = 335
 ModelBullet = bullet105mm

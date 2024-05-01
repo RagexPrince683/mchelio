@@ -1,4 +1,4 @@
-DisplayName = 105mm M68 Cannon [APFSDS]
+DisplayName = 105mm M68 Cannon [M735 - APFSDS]
 Type = MachineGun2
 Power = 292
 ModelBullet = bullet105mm

@@ -1,4 +1,4 @@
-DisplayName = 105mm [HESH]
+DisplayName = 105mm M68A1 Cannon [M393A2 - HESH]
 Type = MachineGun2
 Power = 127
 ModelBullet = bullet105mm
