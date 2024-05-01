@@ -5,9 +5,9 @@ Acceleration = 7.0
 Flaming = false
 Sight = MoveSight
 Delay = 1
-SoundVolume = 1.2
-SoundPitch = 1.0
-Sound = fiftyredux
+SoundVolume = 15
+SoundPitch = 1.1
+Sound = m2_snd
 SoundPitchRandom = 0.1
 
 Accuracy = 2.0

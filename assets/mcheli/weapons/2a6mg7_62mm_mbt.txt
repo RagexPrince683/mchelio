@@ -1,4 +1,4 @@
-DisplayName = 7.62mm MG3 Machine Gun
+DisplayName = 7.62 mm MG3A1 Machine Gun
 Type = MachineGun1
 Power = 7
 Acceleration = 8.0
@@ -6,14 +6,14 @@ Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 0
-ReloadTime = 180
+
 ;SoundDelay = 3
 Accuracy = 1.0
 HeatCount = 1
 MaxHeatCount = 150
 SoundPitch = 1.0
 Sound = mgthree
-Round = 1000
+
 Gravity = -0.001
 
 AddMuzzleFlash      =  1.4,      0.15,        2,  170,254,159,84
@@ -31,7 +31,12 @@ DamageFactor = heli, 0.5
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 4500
-SuppliedNum = 1000
+Round = 200
+
+ReloadTime = 80
+
+
+MaxAmmo = 4400
+SuppliedNum = 550
 Item =  2, iron_ingot
 Item =  2, gunpowder

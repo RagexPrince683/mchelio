@@ -1,11 +1,11 @@
-﻿DisplayName = 2 A6
+﻿DisplayName = Leopard 2A6
 AddDisplayName = en_US, Leopard 2A6
-AddDisplayName = zh_CN, 豹2 A6 
+AddDisplayName = zh_CN, 豹 2A6 
 ItemID = 37775
 MaxHp = 650
 Speed = 0.6
 Sound = leotwo
-ThrottleUpDown = 20.0
+ThrottleUpDown = 4.0
 MobilityYawOnGround = 2.5
 MinRotationPitch = -50
 MaxRotationPitch = 9

@@ -1,18 +1,17 @@
-﻿DisplayName = 120mm Rh120-L55 Smoothbore Gun [APFSDS]
+﻿DisplayName = 120mm Rh120 L/55 Cannon [DM53 - APFSDS]
 Type = MachineGun1
-Power = 800
+Power = 652
 Explosion = 0
 ExplosionBlock = 0
-Acceleration = 8.0
+
 Sight = None
-Delay = 100
-ReloadTime = 100
-Round = 1
-SoundVolume = 10.0
+
+
+
 Sound = leotwoasixmain
 
 Gravity = -0.001
-Accuracy = 0.5
+
 ModelBullet = bullet105mm
 BulletColor        = 255, 255, 100, 100
 Recoil = 1.8
@@ -35,8 +34,8 @@ RecoilBufCount = 40, 5
 
 Group = MainGun
 
-Delay = 100
-ReloadTime = 100
+Delay = 130
+ReloadTime = 230
 Group = MainGun
 Acceleration = 7.0
 ModelBullet = bullet105mm
@@ -50,8 +49,10 @@ DamageFactor = player, 10.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-DisplayName = Rh120-L55 [APFSDS]
-AddDisplayName = en_US, Rh120-L55 [APFSDS]
+DisplayName = 120mm Rh120 L/55 Cannon [DM53 - APFSDS]
+;AddDisplayName = en_US, Rh120-L55 [APFSDS]
+
+Round = 15
 
 
 MaxAmmo = 21
