@@ -1,4 +1,4 @@
-DisplayName = ASLAV Type II
+DisplayName = ASLAV-C Type II
 MaxHp = 200
 Speed = 0.62
 Sound = vehicle_run
@@ -6,7 +6,7 @@ InventorySize = 36
 StepHeight = 1.8
 DefaultFreelook = false
 EnableBack = true
-HUD = mbt_hud, mbt_gnr
+HUD = mbt_hudtwo, mbt_gnrtwo
 EnableEntityRadar = false
 MaxFuel         = 1200
 FuelConsumption = 1.0
@@ -17,6 +17,10 @@ GravityInWater = -1.0
 DamageFactor = 0.8
 ThrottleUpDown = 2.0
 MobilityYawOnGround = 3.5
+
+FlareType = 10
+
+CameraZoom = 0
 
 ;MinRotationPitch = -90
 ;MaxRotationPitch = 90
