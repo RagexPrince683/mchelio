@@ -19,7 +19,7 @@ EnableEntityRadar = false
 Gravity = -0.61
 GravityInWater = -1.0
 CameraRotationSpeed = 14
-GravityInWater = -1.0
+
 MinRotationPitch = -50
 MaxRotationPitch = 6
 MobilityRoll = 0
