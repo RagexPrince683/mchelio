@@ -1,4 +1,4 @@
-DisplayName = 2A82-1M Smoothbore Gun[HE]
+DisplayName = 125mm 2A82-1M Smoothbore Gun[3OF26 - HE]
 AddDisplayName = en_US, 2A82-1M Smoothbore Gun[HE]
 AddDisplayName = ru_RU, 2A82-1M Гладкоствольная 125 мм пушка [Фугасный]
 Type = MachineGun2

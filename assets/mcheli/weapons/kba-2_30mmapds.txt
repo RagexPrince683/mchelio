@@ -1,4 +1,4 @@
-DisplayName = KBA-2 30mm Cannon [APDS]
+DisplayName = KBA-2 30mm Cannon [3UBR8 - APDS]
 Type = MachineGun2
 Power = 82
 Acceleration = 6.0

@@ -1,4 +1,4 @@
-DisplayName = 75mm PaK39 L48 [APCBC]
+DisplayName = 75mm PaK39 L48 Cannon [PzGr 39 - APCBC]
 Type = MachineGun1
 ModelBullet = 75mm
 Power = 145

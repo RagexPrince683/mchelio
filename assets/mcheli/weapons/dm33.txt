@@ -1,4 +1,4 @@
-DisplayName = DM33 120mm APFSDS
+DisplayName = 120mm Smoothbore Cannon [DM33 - APFSDS]
 Type = MachineGun1
 Power = 420
 ModelBullet = bullet105mm

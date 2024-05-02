@@ -1,8 +1,9 @@
-DisplayName = KBA-2 30mm Cannon [HE]
+DisplayName = KBA-2 30mm Cannon [3UOR6 - HE-T]
 Type = MachineGun2
-Power = 20
+Power = 9
 Acceleration = 6.0
-Explosion = 2
+Explosion = 3
+ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
 Delay = 2

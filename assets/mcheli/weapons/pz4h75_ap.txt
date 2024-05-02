@@ -1,10 +1,10 @@
-DisplayName = 75mm KwK40 L48 [APCBC]
+DisplayName = 75mm KwK40 L48 [PzGr 39 - APCBC]
 Type = MachineGun1
 ModelBullet = 75mm
 Power = 145
 Acceleration = 4.0
-Explosion = 1
-ExplosionBlock = 0
+Explosion = 2
+ExplosionBlock = 1
 ExplosionInWater = 0
 Flaming = false
 Sight = None

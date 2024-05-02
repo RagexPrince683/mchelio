@@ -1,4 +1,4 @@
-DisplayName = 37mm KwK(t) Cannon [APC]
+DisplayName = 37mm KwK38(t) Cannon [Pzgr. 34(t) - APC]
 Type = MachineGun2
 Power = 62
 Acceleration = 4.0

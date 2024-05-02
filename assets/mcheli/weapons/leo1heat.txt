@@ -1,4 +1,4 @@
-DisplayName = 105mm [HEATFS]
+DisplayName = 105mm L7A3 Gun  [DM12 - HEATFS]
 Type = MachineGun2
 Power = 400
 ModelBullet = bullet105mm
@@ -12,7 +12,7 @@ Delay = 160
 ModeNum = 1
 SoundPitch = 0.5
 SoundVolume = 20
-Sound = typesixteenmain
+Sound = mbtshot
 Group = MainGun
 DamageFactor = tank, 2.0
 DamageFactor = plane, 1.5

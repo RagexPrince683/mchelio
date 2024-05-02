@@ -1,10 +1,10 @@
-DisplayName = 37mm KwK(t) Cannon [HE]
+DisplayName = 37mm KwK38(t) Cannon [HE]
 Type = MachineGun2
-Power = 10
+Power = 9
 Acceleration = 4.0
 ModelBullet = bullet76mm
 Explosion = 2
-ExplosionBlock = 0
+ExplosionBlock = 1
 Sight = MoveSight
 ReloadTime = 60
 Round = 1
