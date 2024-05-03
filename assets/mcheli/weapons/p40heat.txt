@@ -1,10 +1,10 @@
-DisplayName =  75mm Ansaldo 75 L/34 [HEAT]
+DisplayName =  75mm Ansaldo 75 L/34 [EPS M42 - HEAT]
 Type = MachineGun1
 ModelBullet = 75mm
 Power = 100
 Acceleration = 4.0
-Explosion = 0
-ExplosionBlock = 0
+Explosion = 3
+ExplosionBlock = 2
 ExplosionInWater = 0
 Flaming = false
 Sight = None

@@ -1,10 +1,10 @@
-DisplayName =  75mm Ansaldo 75 L/34 [HE]
+DisplayName =  75mm Ansaldo 75 L/34 [Granata 75/32 - HE]
 Type = MachineGun1
 ModelBullet = 75mm
 Power = 10
 Acceleration = 4.0
-Explosion = 0
-ExplosionBlock = 0
+Explosion = 4
+ExplosionBlock = 3
 ExplosionInWater = 0
 Flaming = false
 Sight = None

@@ -1,9 +1,9 @@
 DisplayName = 88mm KwK36 Cannon [HE]
 Type = MachineGun1
-Power = 100
-Acceleration = 4
+Power = 20
+Acceleration = 4.0
 ModelBullet = bullet76mm
-Explosion = 2
+Explosion = 4
 ExplosionBlock = 2
 Sight = None
 ReloadTime = 120
