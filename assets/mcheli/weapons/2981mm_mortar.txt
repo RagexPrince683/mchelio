@@ -1,4 +1,4 @@
-DisplayName = M252 81mm Mortar
+DisplayName = 81mm M252 Mortar
 Type = Rocket
 Power = 35
 Explosion = 20

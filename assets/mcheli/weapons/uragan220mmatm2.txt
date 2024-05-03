@@ -1,8 +1,8 @@
-DisplayName = 220mm Rocket [9M27K1 - Cluster Munition] 
-Type = Rocket
-Power = 100
-Explosion = 5
-ExplosionBlock = 3
+DisplayName = 220mm Rocket [9M27K2 - Anti-Personnel Mines]
+Type = Dispenser
+Power = 80
+;Explosion = 0
+;ExplosionBlock = 3
 Acceleration = 4.0
 
 DamageFactor = tank, 1.5
@@ -13,22 +13,30 @@ DamageFactor = player, 20.0
 
 
 
+ModelBomblet = pom2
+;DelayFuse = 9
+;TimeFuse = 9999999
 
-BombletSTime = 90
-BombletDiff = 2.5
-Bomblet = 30
+;ProximityFuseDist = 2.0
+
+
+BombletSTime = 190
+BombletDiff = 3.0
+Bomblet = 312
 
 Group = MainGun
 
+DispenseItem = hbm:tile.mine_ap
 
+;DisableSmoke = true
 
 
 Accuracy = 1.5
 ModelBullet = bullet76mm
 Flaming = false
 Sight = None
-Delay = 6
-Gravity = -0.045
+Delay = 90
+Gravity = -0.01
 ReloadTime = 12000
 
 SoundVolume = 15
@@ -39,7 +47,7 @@ DisplayMortarDistance = true
 FixCameraPitch = true
 CameraRotationSpeedPitch = 0.2
 
-TrajectoryParticle = largeexplode
+TrajectoryParticle = crit
 
 AddMuzzleFlash      =           5.1,   1.05,        2,  220,254,219,104
 AddMuzzleFlash      =           5.0,   1.00,        1,  220,254,219,184
@@ -48,6 +56,7 @@ AddMuzzleFlashSmoke   =             6.2,     10,    60.0,  10.0,       80,  220,
 AddMuzzleFlashSmoke   =             5.2,      5,    60.0,  20.0,       90,  200,190,170,150
 
 MaxAmmo = 16
-SuppliedNum = 2
+SuppliedNum = 1
 Item =  4, iron_ingot
 Item =  4, gunpowder
+Item = 312, hbm:tile.mine_ap

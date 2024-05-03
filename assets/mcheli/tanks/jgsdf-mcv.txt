@@ -1,4 +1,4 @@
-﻿DisplayName = JGSDF Type 16 Maneuver Combat Vehicle
+﻿DisplayName = Type 16 JGSDF Maneuver Combat Vehicle
 AddDisplayName = en_US, Type 16 Maneuver Combat Vehicle
 AddDisplayName = ja_JP, 陸上自衛隊 機動戦闘車
 ItemID = 30070

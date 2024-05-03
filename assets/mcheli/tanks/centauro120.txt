@@ -31,7 +31,7 @@ FlareType = 10
 
 AddTexture = centaurodes
 
-SubmergedDamageHeight = 3
+SubmergedDamageHeight = 2
 
 ;  M = Military,  A = AAGun(対空砲)
 Category = M.A

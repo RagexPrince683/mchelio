@@ -36,7 +36,7 @@ WeightType = Tank
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = mbt_hud, mbt_gnr, gunner, gunner
+HUD = mbt_hudstryker, mbt_gnr, gunner, gunner
 
 
 AddGunnerSeat =  0.56, 1.30,  2.12, 0.86, 1.54,  2.12, false, -90, 90, true
@@ -75,16 +75,16 @@ TrackRollerRot = 30
 AddPartWeapon =m900stryker/m456a2stryker/canistershellstryker, false, true, false,  0.00, 0, 0, 0
 AddPartWeaponChild = false, true, -0.61, 2.78, -1.05, 0.0
 AddPartWeaponChild = false, true, -0.61, 2.78, -1.05, 0.5
-AddTurretWeapon = m900stryker, 0.00, 2.99, 7.14,  0.0, 0.0, true,1, 0,-360,180, -15, 5
-AddTurretWeapon = m456a2stryker, 0.00, 2.99, 7.14,  0.0, 0.0, true,1, 0,-360,180, -15, 5
-AddTurretWeapon = canistershellstryker, 0.00, 2.99, 7.14,  0.0, 0.0, true,1, 0,-360,180, -15, 5
+AddTurretWeapon = m900stryker, 0.00, 2.99, 7.14,  -0.5, 0.0, true,1, 0,-360,180, -15, 5
+AddTurretWeapon = m456a2stryker, 0.00, 2.99, 7.14,  -0.5, 0.0, true,1, 0,-360,180, -15, 5
+AddTurretWeapon = canistershellstryker, 0.00, 2.99, 7.14,  -0.5, 0.0, true,1, 0,-360,180, -15, 5
 
 
 ;;;;AddTurretWeapon = QJC88,    2.1514, 5.2887, -0.7037,   0.0, 0.0, false, 2, 0, -80,80, -55,20
 
 
 AddPartTurretWeapon    = strykerm2_fifty,   false, true, true,  -.9630, 2.7930, .8643
-AddTurretWeapon = strykerm2_fifty,    -.9626, 2.8641, 1.0597,   0.0, 0.0, true, 2, 0, -0,180, -65,9
+AddTurretWeapon = strykerm2_fifty,    -.9626, 2.8641, 1.0597,   0.0, 0.0, true, 2, 0, -5,70, -65,9
 
 ;AddTurretWeapon = m2_rws,   -0.846, 3.68,  0.373,   0.0, 0.0, false, 2, 0, -360,360, -60,20
 

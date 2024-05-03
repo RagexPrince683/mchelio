@@ -43,7 +43,7 @@ SetCartridge = cartridge_2, 0.6, 180, 0, 0.3, -0.02, 0.65
 
 
 Delay = 150
-ReloadTime = 150
+ReloadTime = 180
 
 MaxAmmo = 30
 SuppliedNum = 10

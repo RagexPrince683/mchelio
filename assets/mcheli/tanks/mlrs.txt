@@ -79,7 +79,7 @@ AddTrackRoller = 1.5, 0.4728,-3.3221
 TurretPosition = 0, 1.0628, -2.20
 
 
-AddPartTurretWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.20
+AddPartTurretWeapon 		= mfom227mm/mfom227mm2,    false, true,  false, 0.00,  1.0628, -2.20
 AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
 
 CameraRotationSpeed = 20
@@ -96,6 +96,21 @@ AddTurretWeapon			= mfom227mm,    -0.435,  1.79, -2.205,  0.0, 0.0, false,  1, 0
 AddTurretWeapon			= mfom227mm,    1.31,  1.79, -2.205,  0.0, 0.0,   false,  1, 0, -360, 360, -45, 2
 AddTurretWeapon			= mfom227mm,    0.873,  1.79, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
 AddTurretWeapon			= mfom227mm,    0.435,  1.79, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+
+
+AddTurretWeapon			= mfom227mm2,    -1.31,  2.25, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm2,    -0.873,  2.25, -2.205,  0.0, 0.0, false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm2,    -0.435,  2.25, -2.205,  0.0, 0.0, false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm2,    1.31,  2.25, -2.205,  0.0, 0.0,   false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm2,    0.873,  2.25, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm2,    0.435,  2.25, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm2,    -1.31,  1.79, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm2,    -0.873,  1.79, -2.205,  0.0, 0.0, false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm2,    -0.435,  1.79, -2.205,  0.0, 0.0, false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm2,    1.31,  1.79, -2.205,  0.0, 0.0,   false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm2,    0.873,  1.79, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+AddTurretWeapon			= mfom227mm2,    0.435,  1.79, -2.205,  0.0, 0.0,  false,  1, 0, -360, 360, -45, 2
+
 
 
 ;AddPartTurretWeapon    = m2_fifty,   false, true, true,  -.9630, 2.7930, .8643

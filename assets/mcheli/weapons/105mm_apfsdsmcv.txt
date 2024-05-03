@@ -28,6 +28,9 @@ DisplayMortarDistance = true
 
 Round = 15
 
+HeatCount = 800
+MaxHeatCount = 2000
+
 
 Delay = 150
 ReloadTime = 150

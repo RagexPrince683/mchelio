@@ -7,8 +7,8 @@ Explosion = 0
 ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
-Delay = 84
-ModeNum = 1
+
+
 Piercing  = 0
 SoundPitch = 1.6
 
@@ -29,6 +29,9 @@ DamageFactor = player, 10.0
 AddDisplayName = en_US, 105mm [APDS]
 SoundVolume = 15
 Gravity = -0.001
+
+HeatCount = 800
+MaxHeatCount = 2000
 
 DisplayMortarDistance = true
 

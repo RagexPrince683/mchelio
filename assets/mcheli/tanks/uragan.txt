@@ -58,15 +58,22 @@ AddWeapon = uragan220mmfrag,  -0.1767, 3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 3
 AddWeapon = uragan220mmfrag,  -0.5632, 3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
 AddWeapon = uragan220mmfrag,  -0.94,   3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
 
-;;AddWeapon = uragan220mmatm,   0.97,   3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
-;;AddWeapon = uragan220mmatm,   0.6,    3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
-;;AddWeapon = uragan220mmatm,   0.21,   3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
-;;AddWeapon = uragan220mmatm,  -0.1767, 3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
-;;AddWeapon = uragan220mmatm,  -0.5632, 3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
-;;AddWeapon = uragan220mmatm,  -0.94,   3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
+AddWeapon = uragan220mmatm,   0.97,   3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
+AddWeapon = uragan220mmatm,   0.6,    3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
+AddWeapon = uragan220mmatm,   0.21,   3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
+AddWeapon = uragan220mmatm,  -0.1767, 3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
+AddWeapon = uragan220mmatm,  -0.5632, 3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
+AddWeapon = uragan220mmatm,  -0.94,   3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
+
+AddWeapon = uragan220mmatm2,   0.97,   3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
+AddWeapon = uragan220mmatm2,   0.6,    3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
+AddWeapon = uragan220mmatm2,   0.21,   3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
+AddWeapon = uragan220mmatm2,  -0.1767, 3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
+AddWeapon = uragan220mmatm2,  -0.5632, 3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
+AddWeapon = uragan220mmatm2,  -0.94,   3, -3.33, 0.0, 0.0, false,  3 , 0, -30, 30, -55, 5
 
 
-AddPartWeapon 		= uragan220mm, false, true, false, 0.00, 1.73, -2.5459
+AddPartWeapon 		= uragan220mm / uragan220mmfrag / uragan220mmatm / uragan220mmatm2, false, true, false, 0.00, 1.73, -2.5459
 AddPartWeaponChild = false, true, 0.00, 2.5587, -3.339
 
 AddPartWheel =   1.83, 0.5, 3.8615, 20

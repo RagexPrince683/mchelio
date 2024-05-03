@@ -1,14 +1,14 @@
-DisplayName = 227mm Rocket [M26 - DPICM M77 Cluster Munition]
-Type = Rocket
-Power = 500
+DisplayName = 227mm Rocket [M26 - AT2 Mine]
+Type = Dispenser
+Power = 80
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 DamageFactor = player, 20.0
 
-Explosion = 20
-ExplosionBlock = 2
+;Explosion = 20
+;ExplosionBlock = 2
 Acceleration = 4.0
 
 Sound = mlrs
@@ -17,16 +17,20 @@ Accuracy = 0.0
 ;ModelBullet = bullet105mm
 Flaming = false
 Sight = None
-Gravity = -0.04
+Gravity = -0.02
 
-DelayFuze = 5
+;DelayFuze = 5
 
 
-BombletSTime = 50
+BombletSTime = 80
 BombletDiff = 2.5
-Bomblet = 60
+Bomblet = 28
 
-TrajectoryParticle = largeexplode
+;ExplosionAltitude = 25
+
+
+
+TrajectoryParticle = crit
 
 Delay = 5
 ReloadTime = 4800
@@ -44,6 +48,8 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
+DispenseItem = hbm:tile.mine_he
+
 
 DisplayMortarDistance = true
 FixCameraPitch = true
@@ -56,7 +62,7 @@ AddMuzzleFlashSmoke   =             6.2,     10,    60.0,  10.0,       80,  220,
 AddMuzzleFlashSmoke   =             5.2,      5,    60.0,  20.0,       90,  200,190,170,150
 
 MaxAmmo = 12
-SuppliedNum = 3
+SuppliedNum = 1
 Item =  6, iron_ingot
 Item =  6, gunpowder
-Item = 1, tnt
+Item = 28, hbm:tile.mine_he

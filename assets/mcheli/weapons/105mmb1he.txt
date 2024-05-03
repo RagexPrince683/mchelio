@@ -8,7 +8,7 @@ ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
 
-ModeNum = 1
+
 Piercing  = 0
 SoundPitch = 1.6
 
@@ -28,6 +28,9 @@ Piercing = 0
 Accuracy = 0.0
 SoundVolume = 15
 Gravity = -0.001
+
+HeatCount = 800
+MaxHeatCount = 2000
 
 
 Acceleration = 7.0
