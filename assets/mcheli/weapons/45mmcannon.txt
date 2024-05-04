@@ -1,4 +1,4 @@
-DisplayName = T-26 45mm gun [BP240SP]
+DisplayName = 45mm 20-K Cannon  [BR-240SP - APBC]
 Type = MachineGun2
 Power = 73
 ModelBullet = bullet76mm

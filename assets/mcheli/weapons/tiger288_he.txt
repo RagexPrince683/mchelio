@@ -1,4 +1,4 @@
-DisplayName = 88mm Shell [HE]
+DisplayName = 88mm KwK43 Cannon [Sprgr.43 - HE]
 Type = MachineGun1
 ModelBullet = 88mm
 Power = 19
@@ -13,14 +13,14 @@ ReloadTime = 160
 SoundPitch = 1.0
 SoundVolume = 10
 Sound = HT_Fire_snd
-Gravity = -0.003
+Gravity = -0.005
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 Recoil = 0.32
 Group = MainGun
-
+Piercing = 0
 SetCartridge = 800mmcartridge, 0.8,  90, 15, 0.11, -0.05, 0.5
 
 ; AddMuzzleFlash = distance, size, life time,   A,  R,  G,  B

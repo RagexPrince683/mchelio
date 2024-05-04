@@ -1,6 +1,6 @@
-DisplayName = T-26 45mm gun [ O-243 ]
+DisplayName = 45mm 20-K Cannon [O-243 - HE]
 Type = MachineGun2
-Power = 14
+Power = 10
 ModelBullet = bullet76mm
 Acceleration = 4.0
 Explosion = 3
@@ -15,10 +15,10 @@ Round = 1
 ReloadTime = 70
 Gravity = -0.005
 
-DamageFactor = tank, 1.0
-DamageFactor = plane, 1.5
-DamageFactor = vehicle, 1.5
-DamageFactor = heli, 1.5
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 Piercing = 0
 

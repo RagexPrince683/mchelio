@@ -1,4 +1,4 @@
-DisplayName = 75mm KwK42 L71 [APCBC]
+DisplayName = 75mm KwK42 L71 [PzGr 39/42 - APCBC]
 Type = MachineGun2
 Power = 192
 Acceleration = 5.0

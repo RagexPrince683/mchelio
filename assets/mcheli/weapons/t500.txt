@@ -1,24 +1,24 @@
-DisplayName = R-77M Air To Air Missile
+DisplayName = R-77-1 AAM
 Type = AAMissile
-Power = 75
+Power = 77
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 6
-Explosion = 9
+Acceleration = 4
+Explosion = 5
 Flaming = false
 Sight = MissileSight
-Delay = 15
+Delay = 9
 ReloadTime = 110
-Round = 3
-LockTime = 15
-ProximityFuseDist = 1
-ModelBullet = aim120
+Round = 2
+LockTime = 16
+ProximityFuseDist = 3
 Sound = missile_1_snd
+
 
 MaxAmmo = 3
 SuppliedNum = 3
-Item =  2, iron_ingot
-Item =  2, gunpowder
+Item =  1, iron_ingot
+Item =  1, gunpowder
 Item =  2, redstone

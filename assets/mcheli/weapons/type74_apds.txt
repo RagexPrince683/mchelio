@@ -1,6 +1,6 @@
-DisplayName = 105mm L7A1 [APDS]
+DisplayName = 105mm L7A1 Cannon [M392A2 - APDS]
 Type = MachineGun1
-Power = 270
+Power = 350
 Acceleration = 7.7
 ModelBullet = bullet105mm
 Explosion = 0
@@ -18,10 +18,6 @@ Gravity = -0.001
 GravityInWater = -1.0
 Particle = flame
 RecoilBufCount = 40, 5
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
 Group = MainGun
 Recoil = 2.5
 

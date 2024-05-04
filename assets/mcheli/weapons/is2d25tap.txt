@@ -1,9 +1,9 @@
-DisplayName = 122mm D-25T Cannon[APHE]
+DisplayName = 122mm D-25T Cannon [BR-471 - APHE]
 Type = MachineGun1
 Power = 205
 Acceleration = 4.0
 Explosion = 4
-ExplosionBlock = 1
+ExplosionBlock = 2
 Sight = None
 ReloadTime = 400
 Delay = 140

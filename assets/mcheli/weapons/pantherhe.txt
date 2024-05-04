@@ -1,7 +1,7 @@
-DisplayName = 75mm KwK42 L71 [HE]
+DisplayName = 75mm KwK42 L71 [Sprgr. 42 - HE]
 Type = MachineGun2
 Power = 10
-Acceleration = 5.0
+Acceleration = 4.0
 ModelBullet = bullet76mm
 Explosion = 4
 ExplosionBlock = 2
