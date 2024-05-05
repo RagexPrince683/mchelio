@@ -1,5 +1,5 @@
 
-DisplayName = 120mm L11A5 [Shell L31A7 HESH]
+DisplayName = 120mm L11A5 Rifled Cannon [Shell L31A7 - HESH]
 ModelBullet = bullet105mm
 Type = MachineGun1
 Power = 152

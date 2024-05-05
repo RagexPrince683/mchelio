@@ -33,7 +33,7 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 3000
-SuppliedNum = 0
+MaxAmmo = 250
+SuppliedNum = 125
 Item =  4, iron_ingot
 Item =  3, gunpowder

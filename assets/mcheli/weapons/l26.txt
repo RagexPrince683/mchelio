@@ -1,4 +1,4 @@
-DisplayName = 120mm L30A1 [L27A1 APFSDS]
+DisplayName = 120mm L30A1 Rifled Cannon [L27A1 - APFSDS]
 Type = MachineGun1
 Power = 564
 ModelBullet = bullet105mm

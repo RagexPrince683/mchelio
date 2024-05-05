@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A46M-5 Cannon [3OF26 EDKV HE-TF]
+DisplayName = 125mm 2A46M-5 Cannon [3OF26 - EDKV HE-TF]
 Type = MachineGun2
 Power = 42
 ModelBullet = bullet105mm

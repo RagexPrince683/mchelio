@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A46M-5 Cannon [3BM60 APFSDS]
+DisplayName = 125mm 2A46M-5 Cannon [3BM60 - APFSDS]
 Type = MachineGun1
 Power = 580
 ModelBullet = bullet105mm

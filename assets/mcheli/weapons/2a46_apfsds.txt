@@ -1,4 +1,4 @@
-DisplayName = 2A46 Smoothbore Gun[APFSDS]
+DisplayName = 125mm 2A46 Smoothbore Cannon [3BM46 - APFSDS]
 Type = MachineGun1
 Power = 532
 Explosion = 1

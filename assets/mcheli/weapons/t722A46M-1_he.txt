@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A46M-1 [HE]
+DisplayName = 125mm 2A46M-1 Smoothbore Cannon [3OF25 - HE]
 Type = MachineGun2
 Power = 42
 ModelBullet = bullet105mm

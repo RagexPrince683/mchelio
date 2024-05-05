@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A46M-1 [3BM60 APFSDS]
+DisplayName = 125mm 2A46M-1 Smoothbore Cannon [3BM60 - APFSDS]
 AddDisplayName = en_US, 3BM60
 Type = MachineGun2
 Power = 580
@@ -31,7 +31,7 @@ ReloadTime = 120
 Group = MainGun
 Acceleration = 8.5
 ModelBullet = bullet105mm
-Piercing = 6
+Piercing = 5
 Accuracy = 0.0
 DamageFactor = tank, 10.0
 DamageFactor = plane, 1.5

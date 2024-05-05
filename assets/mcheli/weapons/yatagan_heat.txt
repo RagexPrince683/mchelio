@@ -1,4 +1,4 @@
-DisplayName = 120MM Smoothbore Gun [DM12A1 - HEAT]
+DisplayName = 120mm Smoothbore Cannon [DM12A1 - HEAT]
 Type = MachineGun2
 Power = 600
 ModelBullet = bullet105mm

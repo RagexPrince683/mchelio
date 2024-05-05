@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A75 [3BM42 APFSDS]
+DisplayName = 125mm 2A75 Smoothbore Cannon [3BM42 - APFSDS]
 Type = MachineGun1
 Power = 457
 ModelBullet = 3bm42

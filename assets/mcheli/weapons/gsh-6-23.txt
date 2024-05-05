@@ -25,6 +25,6 @@ Piercing = 0
 Gravity = -0.001
 
 MaxAmmo = 200
-SuppliedNum = 0
-Item =  4, iron_ingot
-Item =  3, gunpowder
+SuppliedNum = 200
+Item =  2, iron_ingot
+Item =  2, gunpowder

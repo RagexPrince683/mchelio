@@ -1,4 +1,4 @@
-DisplayName = 105mm L74 [slpprj m/66 APDS]
+DisplayName = 105mm L74 Cannon [slpprj m/66 - APDS]
 Type = MachineGun1
 Power = 272
 Explosion = 0

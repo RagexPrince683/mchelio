@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A46M-1 [3BM22 APFSDS]
+DisplayName = 125mm 2A46M-1 Smoothbore Cannon [3BM22 - APFSDS]
 Type = MachineGun2
 Power = 425
 ModelBullet = 3bm42

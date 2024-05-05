@@ -1,4 +1,4 @@
-DisplayName = 120MM Smoothbore Gun [DM11 - HE]
+DisplayName = 120mm Smoothbore Cannon [DM11 - HE]
 Type = MachineGun2
 Power = 40
 Explosion = 5

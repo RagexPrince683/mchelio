@@ -1,4 +1,4 @@
-DisplayName = 120MM Smoothbore Gun [DM43 - APFSDS]
+DisplayName = 120mm Smoothbore Cannon [DM43 - APFSDS]
 Type = MachineGun2
 Power = 536
 ModelBullet = bullet105mm

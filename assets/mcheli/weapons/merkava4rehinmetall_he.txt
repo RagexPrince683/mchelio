@@ -1,8 +1,8 @@
-DisplayName = 120mm IMI MG253 Smoothbore Cannon[HE]
+DisplayName = 120mm IMI MG253 Smoothbore Cannon[M339 - HE]
 Type = MachineGun1
 Power = 65
-Explosion = 3
-ExplosionBlock = 2
+Explosion = 5
+ExplosionBlock = 4
 Acceleration = 7.0
 Sight = None
 ReloadTime = 165

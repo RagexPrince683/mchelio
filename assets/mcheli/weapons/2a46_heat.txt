@@ -1,4 +1,4 @@
-DisplayName = 2A46 Smoothbore Gun[HEAT]
+DisplayName = 125mm 2A46 Smoothbore Cannon [3BK18M - HEAT]
 Type = MachineGun1
 Power = 550
 Explosion = 4

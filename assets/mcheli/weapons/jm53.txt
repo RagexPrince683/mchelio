@@ -1,4 +1,4 @@
-DisplayName = 120mm TKG Cannon [JM33 APFSDS]
+DisplayName = 120mm TKG Cannon [JM33 - APFSDS]
 Type = MachineGun1
 Power = 481
 ModelBullet = bullet105mm

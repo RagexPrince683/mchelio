@@ -1,4 +1,4 @@
-DisplayName = 88mm Shell [APCBC]
+DisplayName = 88mm KwK43 Cannon [PzGr 39/43 - APCBC]
 Type = MachineGun1
 ModelBullet = 88mm
 Power = 237

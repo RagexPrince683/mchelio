@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A46M-5 Cannon [3BK18M HEAT-MP]
+DisplayName = 125mm 2A46M-5 Cannon [3BK18M - HEAT-MP]
 Type = MachineGun2
 Power = 550
 ModelBullet = bullet105mm

@@ -1,4 +1,4 @@
-DisplayName = 2A46 Smoothbore Gun[HE]
+DisplayName = 125mm 2A46 Smoothbore Cannon [3OF26 - HE]
 Type = MachineGun1
 Power = 10
 Explosion = 4

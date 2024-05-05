@@ -1,4 +1,4 @@
-DisplayName = 120mm TKG Cannon [JM12A1 HEAT-FS]
+DisplayName = 120mm TKG Cannon [JM12A1 - HEAT-FS]
 Type = MachineGun1
 Power = 480
 Explosion = 3

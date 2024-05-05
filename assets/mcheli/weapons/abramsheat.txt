@@ -1,4 +1,4 @@
-DisplayName = Rehinmetall Smoothbore Gun [M830-HEAT]
+DisplayName = 120mm Rehinmetall Smoothbore Gun [M830 - HEAT]
 Type = MachineGun1
 Power = 480
 Explosion = 4

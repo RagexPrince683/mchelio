@@ -1,4 +1,4 @@
-DisplayName = 2A46M-1 3BK12M [HEAT-MP]
+DisplayName = 125mm 2A46M-1 Smoothbore Cannon [3BK12M - HEAT-MP]
 Type = MachineGun2
 Power = 440
 ModelBullet =3bk18m

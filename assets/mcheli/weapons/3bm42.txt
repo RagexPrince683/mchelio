@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A46M-1 [3BM42 APFSDS]
+DisplayName = 125mm 2A46M-1 Smoothbore Cannon [3BM42 - APFSDS]
 AddDisplayName = en_US, 3BM42
 Type = MachineGun2
 Power = 457

@@ -29,7 +29,7 @@ AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
 HeatCount = 1
 MaxHeatCount = 65
 
-MaxAmmo = 400
+MaxAmmo = 200
 SuppliedNum = 200
-Item =  3, iron_ingot
+Item =  2, iron_ingot
 Item =  2, gunpowder

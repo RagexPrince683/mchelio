@@ -1,4 +1,4 @@
-DisplayName = 105mm L74 [slsgr m/61A HE]
+DisplayName = 105mm L74 Cannon [slsgr m/61A - HE]
 Type = MachineGun1
 Power = 23
 DamageFactor = tank, 1.0
