@@ -22,8 +22,8 @@ DisplayMortarDistance = true
 
 
 MaxAmmo = 12
-SuppliedNum = 12
-Item =  3, iron_ingot
+SuppliedNum = 6
+Item =  2, iron_ingot
 Item =  2, gunpowder
 
 

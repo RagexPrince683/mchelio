@@ -1,4 +1,4 @@
-DisplayName = PG-9 73mm Cannon [HE]
+DisplayName = 73mm 2A28 Smoothbore Cannon [OG-9 - HE]
 Type = MachineGun2
 Power = 11
 ModelBullet = bullet105mm

@@ -7,17 +7,16 @@ Explosion = 3
 ExplosionBlock = 4
 Flaming = false
 Sight = MoveSight
-Delay = 170
+Delay = 150
 ModeNum = 1
 SoundPitch = 0.5
 SoundVolume = 15
 Sound = cannon_4_snd
 group = maingun
 Gravity = -0.005
-
+Round = 1
 DisplayMortarDistance = true
-
-
+ReloadTime = 150
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 2.0
@@ -29,7 +28,7 @@ DamageFactor = player, 20.0
 AddDisplayName = en_US, 3OF26[HE]
 
 
-MaxAmmo = 30
+MaxAmmo = 35
 SuppliedNum = 15
 Item =  3, iron_ingot
 Item =  2, gunpowder

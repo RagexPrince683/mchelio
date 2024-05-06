@@ -4,7 +4,7 @@ Power = 457
 ModelBullet = bullet105mm
 Explosion = 1
 ExplosionBlock = 1
-Acceleration = 16.0
+Acceleration = 8.0
 Sight = None
 Round = 1
 SoundVolume = 10.0
@@ -14,6 +14,7 @@ BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.001
 group = maingun
+ReloadTime = 150
 
 DisplayMortarDistance = true
 

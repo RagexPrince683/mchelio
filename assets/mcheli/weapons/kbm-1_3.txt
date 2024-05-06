@@ -1,4 +1,4 @@
-DisplayName = KBM-1 3OF26 [HE]
+DisplayName = KBM-1 125mm Smoothbore Cannon [3OF26 - HE]
 Type = MachineGun2
 Power = 42
 ModelBullet = 3of26

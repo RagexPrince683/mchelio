@@ -1,10 +1,10 @@
-DisplayName = Type 1 47mm Tank Gun [APHE]
+DisplayName = Type 1 47mm Tank Gun [Type 1 - APHE]
 Type = MachineGun2
 Power = 77
-Acceleration = 6.0
+Acceleration = 4.5
 ModelBullet = bullet76mm
 Explosion = 1
-ExplosionBlock = 0
+ExplosionBlock = 1
 Sight = MoveSight
 ReloadTime = 80
 Round = 1
@@ -22,13 +22,13 @@ DamageFactor = plane, 3.0
 DamageFactor = helicopter, 3.0
 Recoil = 1.5
 
-Acceleration = 7.5
-Piercing = 0
-DamageFactor = tank, 1.0
+Piercing = 2
+DamageFactor = tank, 3.5
 DamageFactor = plane, 1.5
-DamageFactor = vehicle, 1.5
-DamageFactor = heli, 1.5
-DamageFactor = player, 20.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
+
 ;AddDisplayName = en_US,
 SoundVolume = 15
 

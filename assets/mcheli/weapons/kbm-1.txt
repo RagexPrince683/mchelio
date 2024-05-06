@@ -1,4 +1,4 @@
-DisplayName = KBM-1 3BM-15 [APFSDS]
+DisplayName = KBM-1 125mm Smoothbore Cannon [3BM-15 - APFSDS]
 Type = MachineGun1
 Power = 440
 ModelBullet = bullet105mm

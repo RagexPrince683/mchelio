@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A46M-1 Smoothbore Cannon [3BK18M - HEAT-FS]
+DisplayName = 125mm 2A46M-1 [3BK18M HEAT-FS]
 AddDisplayName = en_US, 3BK18M [HEAT-FS]
 Type = MachineGun2
 Power = 550
@@ -15,7 +15,7 @@ Sound = tsixtyfourmain
 Gravity = -0.005
 DisplayMortarDistance = true
 group = maingun
-
+Round = 1
 DisplayMortarDistance = true
 
 
@@ -24,8 +24,8 @@ SuppliedNum = 12
 Item =  3, iron_ingot
 Item =  2, gunpowder
 
-Delay = 80
-ReloadTime = 80
+Delay = 150
+ReloadTime = 150
 Group = MainGun
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100

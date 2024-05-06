@@ -1,8 +1,8 @@
-DisplayName = KBM-1 3BK12M [HEAT-MP]
+DisplayName = KBM-1 125mm Smoothbore Cannon [3BK12M - HEAT-MP]
 Type = MachineGun2
 Power = 440
 ModelBullet =3bk18m
-Acceleration = 7.0
+Acceleration = 6.0
 Explosion = 2
 ExplosionBlock = 1
 Flaming = false

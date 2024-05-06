@@ -1,7 +1,7 @@
 DisplayName = Type 1 47mm Tank Gun [HE]
 Type = MachineGun2
 Power = 10
-Acceleration = 6.0
+Acceleration = 4.2
 ModelBullet = bullet76mm
 Explosion = 3
 ExplosionBlock = 1

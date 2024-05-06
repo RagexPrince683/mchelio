@@ -1,4 +1,4 @@
-DisplayName = PG-9 73mm Cannon [HEAT]
+DisplayName = 73mm 2A28 Smoothbore Cannon [PG-9 - HEAT]
 Type = MachineGun2
 Power = 400
 ModelBullet = bullet105mm

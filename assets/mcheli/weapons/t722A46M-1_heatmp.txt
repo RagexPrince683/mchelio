@@ -15,7 +15,7 @@ Sound = tseventytwomain
 group = maingun
 Round = 1
 DisplayMortarDistance = true
-
+ReloadTime = 150
 
 Gravity = -0.005
 
