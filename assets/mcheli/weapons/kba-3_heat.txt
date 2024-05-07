@@ -1,7 +1,7 @@
 DisplayName = 125mm 2A46 KBA-3 [3BK18M HEAT-FS]
 Type = MachineGun2
 Power = 550
-Explosion = 4
+Explosion = 3
 ExplosionBlock = 3
 Acceleration = 10.0
 Sight = None

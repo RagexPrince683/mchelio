@@ -1,8 +1,8 @@
 DisplayName = 125mm 2A46 KBA-3 [3OF26 HE]
 Type = MachineGun2
 Power = 42
-Explosion = 4
-ExplosionBlock = 3
+Explosion = 5
+ExplosionBlock = 5
 Acceleration = 10.0
 Sight = None
 Delay = 120

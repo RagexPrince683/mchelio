@@ -1,8 +1,8 @@
 DisplayName = 125mm Type 88C Smoothbore Gun [DTP-125 HEAT-FS]
 Type = MachineGun1
 Power = 480
-Explosion = 4
-ExplosionBlock = 2
+Explosion = 3
+ExplosionBlock = 3
 Acceleration = 6.5
 Sight = None
 ReloadTime = 165

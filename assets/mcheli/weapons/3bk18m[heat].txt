@@ -1,10 +1,10 @@
-DisplayName = 125mm 2A46M-1 Smoothbore Cannon [3BK18M - HEAT-FS]
+DisplayName = 3BK18M[HEAT]
 Type = MachineGun2
 Power = 550
 ModelBullet = 3bk18m
 Acceleration = 8.0
-Explosion = 2
-ExplosionBlock = 1
+Explosion = 3
+ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
 Delay = 170

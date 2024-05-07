@@ -1,10 +1,10 @@
-DisplayName = 125mm 2A75 Smoothbore Cannon [3OF26 - HE]
+DisplayName = 125mm 2A75 [3OF26 HE]
 Type = MachineGun2
 Power = 100
 ModelBullet = bullet105mm
 Acceleration = 7.0
 Explosion = 5
-ExplosionBlock = 4
+ExplosionBlock = 5
 Flaming = false
 Sight = MoveSight
 Delay = 120

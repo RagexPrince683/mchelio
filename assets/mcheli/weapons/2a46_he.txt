@@ -1,8 +1,8 @@
-DisplayName = 2A46 125mm Smoothbore Cannon [3OF26 - HE]
+DisplayName = 125mm 2A46 Smoothbore Cannon [3OF26 - HE]
 Type = MachineGun1
-Power = 10
-Explosion = 4
-ExplosionBlock = 4
+Power = 42
+Explosion = 5
+ExplosionBlock = 5
 Acceleration = 6.5
 Sight = None
 ReloadTime = 165

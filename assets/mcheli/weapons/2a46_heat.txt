@@ -1,8 +1,8 @@
-DisplayName = 2A46 125mm Smoothbore Cannon [3BK18M - HEAT-MP]
+DisplayName = 125mm 2A46 Smoothbore Cannon [3BK18M - HEAT-MP]
 Type = MachineGun1
 Power = 550
-Explosion = 4
-ExplosionBlock = 4
+Explosion = 3
+ExplosionBlock = 3
 Acceleration = 6.5
 Sight = None
 ReloadTime = 165

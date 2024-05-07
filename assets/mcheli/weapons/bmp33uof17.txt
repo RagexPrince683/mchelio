@@ -1,4 +1,4 @@
-DisplayName = 2A70 3OF70 100mm [HE-frag]
+DisplayName = 100mm 2A70 Rifled Cannon [3OF70 - HE-frag]
 Type = MachineGun2
 Power = 36
 ModelBullet = bullet105mm
