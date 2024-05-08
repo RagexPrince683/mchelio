@@ -1,4 +1,4 @@
-DisplayName = 2S3 SO-152 Akatsiya
+DisplayName = 2S3M SO-152 Akatsiya
 MaxHp = 200
 Speed = 0.39
 Sound = tseventytwopass

@@ -69,6 +69,8 @@ AddPartWeaponBay	= 2981mm_mortar, -1.03, 2.61, -2.70, 0.0, 0.0, 1.0, 110
 AddPartWeaponBay	= 2981mm_mortar,  1.03, 2.61, -2.70, 0.0, 0.0, 1.0,-110
 
 AddWeapon			= 2981mm_mortar,    0.00,  1.80, -2.67,  0.0,0.0, false, 3, 0, -360,360, -90, -45
+;AddWeapon			= 2981mm_mortar2,    0.00,  1.80, -2.67,  0.0,0.0, false, 3, 0, -360,360, -90, -45
+
 AddPartWeapon 		= 2981mm_mortar,    false, true,  false, 0.00, 1.80, -2.67
 AddPartWeaponChild 	= false, true, 0.00,  1.80, -2.67
 

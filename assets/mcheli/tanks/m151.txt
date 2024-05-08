@@ -33,7 +33,7 @@ AddTexture = m151_2
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  0.48,  -0.24,  1.65, -1.00
+SetWheelPos =  0.4,  -0.24,  1.65, -1.00
 
 HUD = bnr32_hud, none, none, none
 

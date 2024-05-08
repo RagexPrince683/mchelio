@@ -7,12 +7,15 @@ ExplosionBlock = 4
 Acceleration = 7.0
 Sight = None
 ReloadTime = 134
-Round = 1
+Round = 17
 SoundVolume = 10.0
 Sound = centaurobig
 SoundPitch = 0.8
 
 Recoil = 1.5
+
+HeatCount = 900
+MaxHeatCount = 2050
 
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode

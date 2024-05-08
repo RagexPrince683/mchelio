@@ -143,7 +143,7 @@ AddTrackRoller = 1.71,  0.16,  -1.6
 AddTrackRoller = 1.71,  0.16,  -2.65
 AddTrackRoller = 1.71,  0.60,  -3.85
 
-SetWheelPos =  1.2,  -0.24,  2.5,  1.54, 0.5, -0.55, -1.6, -2.65
+SetWheelPos =  1.3,  -0.24,  2.5,  1.54, 0.5, -0.55, -1.6, -2.65
 
 
 

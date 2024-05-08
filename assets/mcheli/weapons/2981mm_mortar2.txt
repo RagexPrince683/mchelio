@@ -1,9 +1,9 @@
-DisplayName = 81mm M252 Mortar [M374A2 - HE]
-Type = Rocket
+DisplayName = 81mm M252 Mortar [VIS ILLUM]
+Type = Dispenser
 Power = 35
-Explosion = 20
-ExplosionBlock = 1
-Acceleration = 4.0
+;Explosion = 20
+;ExplosionBlock = 3
+Acceleration = 16.0
 SoundVolume = 15.0
 SoundPitchRandom = 0.1
 Sound = mortareighty
@@ -25,7 +25,14 @@ FixCameraPitch = true
 ; カメラの回転速度の倍率(小さくするとより細かく着弾地点が調整ができる)
 CameraRotationSpeedPitch = 0.3
 
-DisableSmoke = true
+DispenseItem = hbm:item.grenade_flare
+;BombletSTime = 190
+;BombletDiff = 3.0
+;Bomblet = 3
+
+;DelayFuse = 1
+
+TimeFuse = 40
 
 
 Round = 5

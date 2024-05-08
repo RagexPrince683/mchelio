@@ -29,7 +29,7 @@ AddTexture = bmp1_2
 
 MobilityYawOnGround = 2.3
 
-HUD = mbt_hud
+HUD = mbt_hudtwo, nohudbmp, none, none, none, none,none, none,none
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
@@ -49,10 +49,18 @@ SetWheelPos =  1.10,  -0.24,  2.80, 1.82, 0.86,  -0.09, -1.06, -2.05
 
 AddGunnerSeat = 0.00, 1.10, 0.24, 0.00, 2.10, 0.24, true, -90, 90, true
 CameraPosition = 0.00, 3.10, 0.24, true
-AddSeat = 0.48, 0.59, -1.79
-AddSeat =-0.48, 0.59, -1.79
-AddSeat = 0.48, 0.59, -2.29
-AddSeat =-0.48, 0.59, -2.29
+AddSeat = 0.48, 0.59, -1.65
+AddSeat =-0.48, 0.59, -1.65
+
+AddSeat = 0.48, 0.59, -2.10
+AddSeat =-0.48, 0.59, -2.10
+
+AddSeat = 0.48, 0.59, -2.5
+AddSeat =-0.48, 0.59, -2.5
+
+AddSeat = 0.48, 0.59, -2.90
+AddSeat = -0.48, 0.59, -2.90
+
 
 
 AddCrawlerTrack = true, 0.23, -2.40,  0.86/-3.04, 0.62/-3.14, 0.37/-3.04, -0.18/-2.36, -0.31/-2.05, -0.31/2.80, -0.18/3.10, 0.37/3.87, 0.62/3.98, 0.86/3.87, 0.97/3.63, 0.97/-2.79
@@ -68,18 +76,26 @@ AddTrackRoller = 0.00,  0.11, -1.06
 AddTrackRoller = 0.00,  0.11, -2.05
 AddTrackRoller = 0.00,  0.62, -2.79
 
-AddPartWeapon = pg9 / /og9 / pkt , false, true, false, 0.00, 1.65, 0.00, 0
+AddPartWeapon = bmp1pg9 / bmp1og9 / bmp1pkt , false, true, false, 0.00, 1.65, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.01, 1.05
-AddTurretWeapon = pg9,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
-AddTurretWeapon = og9,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
-AddTurretWeapon = pkt,  -0.30, 2.01,0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
-AddTurretWeapon = 9m14, 0.00, 2.35, 2.29,  0.0, 0.0, true,1, 0,-360,360, -25, 5
+AddTurretWeapon = bmp1pg9,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
+AddTurretWeapon = bmp1og9,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
+AddTurretWeapon = bmp1pkt,  -0.30, 2.01,0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 5
+AddTurretWeapon = bmp19m14, 0.00, 2.35, 2.29,  0.0, 0.0, true,1, 0,-360,360, -25, 5
+
+AddWeapon = op, 0.0, 0.0, 0.0
+
 ;todo make missile weapon
 ;todo make hatch a weapon so the zoom feature isn't overlapped
 
 
-AddPartHatch =   1.19,  0.46,  -3.42, 0,1, 0, -90
-AddPartHatch =   -1.19,  0.46,  -3.42, 0,1, 0, 90
+AddPartWeaponBay = op,   1.19,  0.46,  -3.42, 0,1, 0, -90
+AddPartWeaponBay = op,  -1.19,  0.46,  -3.42, 0,1, 0, 90
+
+;AddPartWeaponBay = op,  -1.30,  1.90,  -1.61, 0,1, 0, 60
+;AddPartWeaponBay = op,  1.30,  1.90,  -1.61, 0,1, 0, -60
+;AddPartWeaponBay = op, -1.31,  0.53,  -1.92, 0,0, 1, 140
+;AddPartWeaponBay = op,  1.31,  0.53,  -1.92, 0,0, 1, -140
 
 EnableBack = true
 

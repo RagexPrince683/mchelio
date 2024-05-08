@@ -1,11 +1,14 @@
-DisplayName = 30mm 2A42 Cannon [3UOR6 - HE-T]
+DisplayName = 30mm 2A42 Twin Cannon [3UOR6 - HE-T]
 Type = MachineGun2
 Power = 20
 Acceleration = 5.0
-Explosion = 1
+Explosion = 2
+
+ExplosionBlock = 1
+
 Flaming = false
 Sight = MoveSight
-Delay = 2
+Delay = 1
 ReloadTime = 120
 Round = 250
 SoundVolume = 3
@@ -17,10 +20,14 @@ Gravity = -0.005
 HeatCount = 7
 MaxHeatCount = 150
 
+Group = second
+
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
-MaxAmmo = 800
-SuppliedNum = 200
+DisplayMortarDistance = true
+
+MaxAmmo = 425
+SuppliedNum = 212
 Item =  2, iron_ingot
 Item =  2, gunpowder
 
@@ -32,4 +39,4 @@ DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 SoundVolume = 15
-AddDisplayName = en_US, 2A42 30mm HEI
+

@@ -10,21 +10,21 @@ Accuracy = 1.0
 ModelBullet = bullet105mm
 Flaming = true
 Sight = None
-Delay = 180
-ReloadTime = 180
+Delay = 120
+ReloadTime = 120
 
 Group = MainGun
 
 DisableSmoke = true
 
-HeatCount = 1300
+HeatCount = 900
 MaxHeatCount = 2050
 
 
 Gravity = -0.05
 Recoil = 3
 ;ModeNum = 1
-Round = 5
+Round = 1
 
 DisplayMortarDistance = true
 FixCameraPitch = true
@@ -45,7 +45,7 @@ DamageFactor = player, 20.0
 
 
 
-MaxAmmo = 13
-SuppliedNum = 3
+MaxAmmo = 20
+SuppliedNum = 5
 Item =  2, iron_ingot
 Item =  2, gunpowder

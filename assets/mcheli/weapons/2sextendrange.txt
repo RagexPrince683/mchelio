@@ -6,14 +6,13 @@ Explosion = 20
 ExplosionBlock = 5
 Acceleration = 4.0
 Sight = None
-ReloadTime = 150
-Delay = 150
+
 Round = 13
 Sound = msta
 ;Accuracy = 1.5
 
-HeatCount = 1100
-MaxHeatCount = 2050
+;HeatCount = 1100
+;MaxHeatCount = 2050
 
 
 Accuracy = 0.5
@@ -51,7 +50,7 @@ SuppliedNum = 1
 Item =  2, iron_ingot
 Item =  5, gunpowder
 
-Delay = 150
+Delay = 120
 ReloadTime = 1500
 Group = MainGun
 Acceleration = 4.0

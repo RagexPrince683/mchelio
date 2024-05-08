@@ -2,7 +2,7 @@ DisplayName = AMX-30B
 MaxHp = 250
 Speed = 0.40
 Sound = amxthirty
-ThrottleUpDown = 2.0
+ThrottleUpDown = 3.0
 MobilityYawOnGround = 2.0
 MinRotationPitch = -20
 MaxRotationPitch = 8
@@ -33,7 +33,7 @@ AddTexture = amx-30bdes
 AddTexture = amx-30bdes2
 
 AddGunnerSeat =  -0.734,  1.00,  2.38,    0.00,  2.70,  -0.5,  false, -20, 8, true
-AddGunnerSeat =  -0.76,  2.3,  -0.6226,    -0.764,  3.5,  -0.657,  false, -30, 5, true
+AddGunnerSeat =  -0.76,  2.3,  -0.6226,    -0.764,  3.8,  -0.657,  false, -30, 5, true
 
 unmountposition = -0.734,  2.70,  2.38
 
@@ -76,7 +76,7 @@ AddTurretWeapon = 30m693,   -0.6258, 2.2275, 2.3978,   0.0, 0.0, false, 1, 0, -3
 
 AddPartTurretWeapon    = 30aaf1n,   false, true, true,  -0.7657, 3.5138, -0.657
 AddPartTurretWeapon    = 30aaf1n,  false, true, false, -0.7657, 3.5138, -0.657
-AddTurretWeapon = 30aaf1n,   -0.7657, 3.56, -0.657,   10.0, 0.0, false, 2, 0, -360,360, -30,5
+AddTurretWeapon = 30aaf1n,   -0.7657, 3.56, -0.657,   0.0, 0.0, false, 2, 0, -360,360, -30,5
 
 AddPartWeapon = 30m693, false, true, false,  0.00, 1.9196, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.2286, 1.7871, 0.0

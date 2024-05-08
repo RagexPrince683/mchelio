@@ -42,7 +42,7 @@ EnableBack = true
 Category = C
 WeightType = Car
 
-SetWheelPos =  0.46,  -0.29,  1.7609, -1.8032
+SetWheelPos =  0.62,  -0.29,  1.7609, -1.8032
 
 HUD = bnr32_hud, none, none, none, none
 

@@ -19,8 +19,8 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
-HeatCount = 1100
-MaxHeatCount = 2050
+;HeatCount = 1100
+;MaxHeatCount = 2050
 
 
 MaxAmmo = 10

@@ -34,6 +34,9 @@ RecoilBufCount = 40, 5
 
 Group = MainGun
 
+HeatCount = 900
+MaxHeatCount = 2050
+
 Delay = 130
 ReloadTime = 230
 Group = MainGun

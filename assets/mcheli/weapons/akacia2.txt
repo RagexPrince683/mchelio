@@ -3,7 +3,7 @@ Type = Rocket
 Power = 171
 Explosion = 5
 ExplosionBlock = 3
-Acceleration = 4.0
+Acceleration = 6.0
 SoundVolume = 1.0
 Sound = msta
 Accuracy = 5.0
@@ -11,7 +11,7 @@ ModelBullet = bullet105mm
 Flaming = false
 Sight = None
 Delay = 240
-Gravity = -0.05
+Gravity = -0.005
 ReloadTime = 240
 Recoil = 3
 ModeNum = 1
@@ -35,7 +35,7 @@ Piercing = 2
 
 
 DisplayMortarDistance = true
-FixCameraPitch = true
+FixCameraPitch = false
 ;CameraRotationSpeedPitch = 1.2
 
 AddMuzzleFlash      =  8.2,     2.10,        9,  220,254,159,74

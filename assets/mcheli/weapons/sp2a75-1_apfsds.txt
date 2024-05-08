@@ -11,8 +11,8 @@ Delay = 120
 ReloadTime = 190
 Round = 5
 
-HeatCount = 1100
-MaxHeatCount = 2050
+;HeatCount = 1100
+;MaxHeatCount = 2050
 
 
 

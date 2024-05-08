@@ -1,23 +1,18 @@
-DisplayName = 9M120F Ataka [Thermoberic - ATGM]
+DisplayName = 9M14 [ATGM]
 Type = TVMissile
-Power = 150
-Acceleration = 7.0
-Explosion = 6
-Flaming = true
+Power = 400
+Acceleration = 2.0
+Piercing = 2
+Explosion = 3
+Flaming = false
 Sight = MoveSight
-ReloadTime = 200
-
 Round = 4
 ModelBullet = 9M113
 Sound = bmptmissile
 ModeNum = 2
-FAE = true
 
-Piercing = 2
-
-
-Delay = 2
-ReloadTime = 20000
+Delay = 40
+ReloadTime = 200
 Group = MainGun
 ;Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
@@ -29,11 +24,11 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-
+AddDisplayName = en_US, 9M14 [ATGM TV]
 SoundVolume = 15
 
-MaxAmmo = 2
+MaxAmmo = 1
 SuppliedNum = 1
 Item =  1, iron_ingot
-Item =  3, gunpowder
-Item =  1, redstone_block
+Item =  1, gunpowder
+Item =  1, redstone

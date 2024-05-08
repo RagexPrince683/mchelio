@@ -22,11 +22,14 @@ DamageFactor = player, 10.0
 Piercing = 2
 ;ModelBullet = bullet
 
+HeatCount = 900
+MaxHeatCount = 2050
+
 Round = 1
 
 
-Delay = 150
-ReloadTime = 150
+Delay = 120
+ReloadTime = 120
 Group = MainGun
 Acceleration = 7.0
 Accuracy = 1.5

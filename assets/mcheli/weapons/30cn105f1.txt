@@ -7,7 +7,7 @@ ExplosionBlock = 0
 Acceleration = 7.0
 Sight = None
 ReloadTime = 134
-Round = 1
+Round = 17
 SoundVolume = 10.0
 Sound = centaurobig
 SoundPitch = 0.8
@@ -18,7 +18,8 @@ Gravity = -0.001
 Recoil = 1.5
 
 
-
+HeatCount = 900
+MaxHeatCount = 2050
 
 Delay = 134
 ReloadTime = 134

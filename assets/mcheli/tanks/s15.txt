@@ -42,7 +42,7 @@ AddSeat =  -0.57,  0.138, -1.10
 AddSeat =  -0.0,  0.138, -1.10
 AddSeat =  0.57,  0.138, -1.10  
 
-SetWheelPos =  0.80,  -0.24,  1.85, -1.80
+SetWheelPos =  0.73,  -0.24,  1.85, -1.80
 
 EntityWidth  = 0.85
 EntityHeight = 0.85

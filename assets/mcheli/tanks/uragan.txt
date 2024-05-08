@@ -86,7 +86,7 @@ AddPartWheel =   1.83, 0.5, -4.3026
 AddPartWheel =   -1.83, 0.5, -4.3026
 PartWheelRot = 25
 
-SetWheelPos =  1.38,  -0.24,  3.8,  0.75, -1.2, -4.3
+SetWheelPos =  1.33,  -0.24,  3.86,  0.75, -1.2, -4.3
 
 AddRecipe = "GIG",  "III",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
@@ -108,6 +108,12 @@ BoundingBox = 0.0, 0.8, 0.50, 2.5, 0.8
 BoundingBox = 0.0, 0.8, -2.00, 2.5, 0.8
 BoundingBox = 0.0, 0.8, -4.10, 2.5, 0.8
 
-BoundingBox = 0.0, 3.0, -2.5, 1.0, 1.0, 1.5
+BoundingBox = 0.0, 1.2, 3.00, 2.5, 0.8
+BoundingBox = 0.0, 1.2, 0.50, 2.5, 0.8
+BoundingBox = 0.0, 1.2, -2.00, 2.5, 0.8
+BoundingBox = 0.0, 1.2, -4.10, 2.5, 0.8
 
-BoundingBox = 0.0, 2.05, 2.20, 2.8, 0.8, 1.5
+
+BoundingBox = 0.0, 2.6, -2.5, 1.5, 1.8, 1.5
+
+BoundingBox = 0.0, 1.95, 2.40, 2.8, 1.0, 1.5

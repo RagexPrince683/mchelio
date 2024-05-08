@@ -1,15 +1,15 @@
-DisplayName = 125mm ZPT98 Cannon [DTC10-125 - APFSDS]
+DisplayName = 125mm ZPT-98 Cannon [DTC10-125 - APFSDS]
 Type = MachineGun1
-Power = 577
+Power = 700
 ModelBullet = bullet105mm
 
 Explosion = 0
 ExplosionBlock = 0
 Flaming = false
 Sight = None
-Delay = 170
-ReloadTime = 170
-Round = 1
+Delay = 155
+ReloadTime = 155
+Round = 10
 
 Sound = ninetyninemain
 

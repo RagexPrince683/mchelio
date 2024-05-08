@@ -38,7 +38,7 @@ WeightType = Tank
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  1.45,  -0.24, 2.08, 0.79, -0.68, -2.16, -3.48
+SetWheelPos =  1.40,  -0.24, 2.08, 0.79, -0.68, -2.16, -3.48
 
 HUD = ww2tank_hud, ww2tank_hud
 

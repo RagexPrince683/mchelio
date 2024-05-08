@@ -1,7 +1,7 @@
 DisplayName = ASLAV-C Type II
 MaxHp = 200
 Speed = 0.62
-Sound = vehicle_run
+Sound = moneonethreeapc
 InventorySize = 36
 StepHeight = 1.8
 DefaultFreelook = false
@@ -45,6 +45,10 @@ HideEntity = false
 EnableBack = true
 EnableNightVision = true
 CameraRotationSpeed = 30
+
+AddWeapon = none, -0.4753,  2.8, 2.0133, 0, 0, false, 1, 0, -360, 360, -90,90
+AddWeapon = targeting_pod_block, -0.4753,  2.8, 2.0133, 0, 0, false, 1, 0, -360, 360, -90,90
+AddWeapon = targeting_pod_ground, -0.4753,  2.8, 2.0133, 0, 0, false, 1, 0, -360, 360, -90,90
 
 
 AddWeapon = slavmg12_7mm, -0.653,  3.3331, 0.9494, 0, 0, false, 2, 0, -360, 360, -14,3

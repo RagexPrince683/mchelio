@@ -44,7 +44,7 @@ TurretPosition = 0.0, 1.0, 0.0
 
 WeightedCenterZ = 0.0
 
-SetWheelPos =  1.60,  -0.32,  2.6154, 1.1941, 0.0834,-1.0811,-2.2515
+SetWheelPos =  1.50,  -0.32,  2.6154, 1.1941, 0.0834,-1.0811,-2.2515
 
 HUD = mbt_hud,mbt_gnr
 

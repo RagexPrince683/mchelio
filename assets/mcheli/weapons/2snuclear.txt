@@ -7,13 +7,12 @@ ExplosionBlock = 1
 
 NukeYield = 80
 
-HeatCount = 1100
-MaxHeatCount = 2050
+;HeatCount = 1100
+;MaxHeatCount = 2050
 
 Acceleration = 4.0
 Sight = None
-ReloadTime = 150
-Delay = 150
+
 Round = 13
 Sound = msta
 
@@ -54,7 +53,7 @@ Item = 2, hbm:tile.det_nuke
 Item = 3, iron_ingot
 Item =  5, gunpowder
 
-Delay = 150
+Delay = 120
 ReloadTime = 1500
 Group = MainGun
 Acceleration = 4.0

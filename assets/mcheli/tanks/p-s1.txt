@@ -80,7 +80,7 @@ AddPartCanopy =  0.36, 3.0, 6.0, 0,0,-1, 100
 AddPartCanopy =  1.31, 2.55, 3.834, 0,-1,0, 90
 AddPartCanopy = -1.31, 2.55, 3.834, 0, 1,0, 90
 
-SetWheelPos =  0.98,  -0.37,  5.66, 1.52, -1.91
+SetWheelPos =  0.81, -0.37,  5.66,  3.52, -0.41, -1.91
 
 AddPartWheel =  0.98, 0.33, 5.66, 40
 AddPartWheel = -0.98, 0.33, 5.66, 40

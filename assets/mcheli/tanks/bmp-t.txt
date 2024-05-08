@@ -1,23 +1,30 @@
-DisplayName = BMP-T
-AddDisplayName = en_US, BMP-T
+DisplayName = BMPT Terminator
+AddDisplayName = en_US, BMPT Terminator
 AddDisplayName = ja_JP, BMP-T
 ItemID = 191919
 MaxHp = 200
-Speed = 0.8
-Sound = bmpt
-ThrottleUpDown = 10.0
-MinRotationPitch = -50
-MaxRotationPitch =  20
+Speed = 0.37
+;Sound = bmpt
+
+Sound = tseventytwopass
+
+FlareType = 10
+
+ThrottleUpDown = 2.0
+MinRotationPitch = -45
+MaxRotationPitch =  5
 MobilityRoll = 0
 Gravity = -0.61
-GravityInWater = -0.1
+GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = true
 DefaultFreelook = true
 CameraRotationSpeed = 26
-SubmergedDamageHeight = 5
+SubmergedDamageHeight = 2
 OnGroundPitchFactor = 3.0
 OnGroundRollFactor  = 3.0
+
+CameraZoom = 3
 
 HideEntity = true
 
@@ -26,15 +33,25 @@ WeightType = Tank
 
 MobilityYawOnGround = 3.0
 
-HUD = mbt_hud
+HUD = mbt_hud, mbt_gnr, mbt_gnr, mbt_gnr
 
-AddGunnerSeat =  0.00,  1.25, 0.00, 0.0, 2.0, 0.0, true, -90, 90, true
-CameraPosition = 0.00, 3.75, 0, true
+
+;, 0.00, 3.75, 0, true, -90, 90, true
+
+AddGunnerSeat =  0.00,  1.25, 0.00
+
+CameraPosition = 0.00, 3.75, 0
+
+AddGunnerSeat = 0.0, 2.8, 0.0, -0.7, 3.45, -1.45, false, -90, 90, true
+
+AddGunnerSeat = -0.5, 0.5, 1.0, -1.29, 1.69, 2.32
+
+AddGunnerSeat = 0.5, 0.5, 1.0, 1.29, 1.69, 2.32
 
 
 MotionFactor = 0.9
 
-SetWheelPos =  1.55,  -0.24,  3.02, 1.44, -1.54, -2.91, 0.0
+SetWheelPos =  1.5,  -0.24,  -2.16, -1.13, -0.10, 0.92, 1.86, 2.8
 
 AddCrawlerTrack = false, 0.30, 1.00,  -0.22/2.98, 0.33/3.85, 0.54/4.06, 0.81/4.06, 1.02/3.87, 1.02/3.59, 1.02/-2.92, 1.02/-3.19, 0.81/-3.39, 0.54/-3.39, 0.35/-3.21, -0.22/-2.34
 AddCrawlerTrack = false, 0.30, -1.00,  -0.22/2.98, 0.33/3.85, 0.54/4.06, 0.81/4.06, 1.02/3.87, 1.02/3.59, 1.02/-2.92, 1.02/-3.19, 0.81/-3.39, 0.54/-3.39, 0.35/-3.21, -0.22/-2.34
@@ -57,21 +74,37 @@ AddTrackRoller = -1.30,   0.22,   1.86
 AddTrackRoller = -1.30,   0.22,   2.80
 AddTrackRoller = -1.30,   0.68,   3.72
 
-AddTurretWeapon = bmpt2A42_30mmHEI,  0.13, 2.63, 0.0,  0.0, 0.0, true,1, 0,-360,360, -35, 8
-AddTurretWeapon = bmpt2A42_30mmHEI,  -0.13, 2.63, 0.0,  0.0, 0.0, true,1, 0,-360,360, -35, 8
-AddTurretWeapon = bmpt2A42_30mmAPDS,  0.13, 2.63, 0.0,  0.0, 0.0, true,1, 0,-360,360, -35, 8
-AddTurretWeapon = bmpt2A42_30mmAPDS,  -0.13, 2.63, 0.0,  0.0, 0.0, true,1, 0,-360,360, -35, 8
-AddTurretWeapon = bmptPKT_7.62mm,  0.00, 2.82, 0.0,  0.0, 0.0, true,1, 0,-360,360, -35, 8
-AddTurretWeapon = bmpt9M120_HEAT,  1.15, 2.80,  0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
-AddTurretWeapon = bmpt9M120_HEAT,  1.15, 2.50,  0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
-AddTurretWeapon = bmpt9M120_HEAT,  -1.15, 2.80, -0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
-AddTurretWeapon = bmpt9M120_HEAT,  -1.15, 2.50, -0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
-AddTurretWeapon = bmpt9M120_HIT,  1.15, 2.80,  0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
-AddTurretWeapon = bmpt9M120_HIT,  1.15, 2.50,  0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
-AddTurretWeapon = bmpt9M120_HIT,  -1.15, 2.80, -0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
-AddTurretWeapon = bmpt9M120_HIT,  -1.15, 2.50, -0.70,  0.0, 0.0, true,1, 0,-360,360, -0, 0
-AddPartWeapon = bmpt2A42_30mmHEI, false, true, false,  0.00, 2.63, 0.0, 0
+AddTurretWeapon = bmpt2A42_30mmAPDS,  0.13, 2.63, 0.0,  0.0, 0.0, true,1, 0,-360,360,  -45, 5
+AddTurretWeapon = bmpt2A42_30mmAPDS,  -0.13, 2.63, 0.0,  0.0, 0.0, true,1, 0,-360,360, -45, 5
+AddTurretWeapon = bmpt2A42_30mmHEI,  0.13, 2.63, 0.0,  0.0, 0.0, true,1, 0,-360,360,   -45, 5
+AddTurretWeapon = bmpt2A42_30mmHEI,  -0.13, 2.63, 0.0,  0.0, 0.0, true,1, 0,-360,360,  -45, 5
+AddTurretWeapon = bmptPKT_7.62mm,  0.00, 2.82, 0.0,  0.0, 0.0, true,1, 0,-360,360,     -45, 5
+AddTurretWeapon = bmpt9M120_HEAT,  1.15, 2.80,  0.70,  0.0, 0.0, true,1, 0,-360,360,  -25,  5
+AddTurretWeapon = bmpt9M120_HEAT,  1.15, 2.50,  0.70,  0.0, 0.0, true,1, 0,-360,360,  -25,  5
+
+AddTurretWeapon = bmpt9M120_HIT,  -1.15, 2.80, -0.70,  0.0, 0.0, true,1, 0,-360,360,  -25,  5
+AddTurretWeapon = bmpt9M120_HIT,  -1.15, 2.50, -0.70,  0.0, 0.0, true,1, 0,-360,360,  -25,  5
+
+;AddTurretWeapon = bmpt9M120_HEAT,  -1.15, 2.80, -0.70,  0.0, 0.0, true,1, 0,-360,360, -25,  5
+;AddTurretWeapon = bmpt9M120_HEAT,  -1.15, 2.50, -0.70,  0.0, 0.0, true,1, 0,-360,360, -25,  5
+
+
+;AddTurretWeapon = bmpt9M120_HIT,  1.15, 2.80,  0.70,  0.0, 0.0, true,1, 0,-360,360,   -25,  5
+;AddTurretWeapon = bmpt9M120_HIT,  1.15, 2.50,  0.70,  0.0, 0.0, true,1, 0,-360,360,   -25,  5
+
+AddPartWeapon = bmpt2A42_30mmAPDS/bmpt2A42_30mmHEI, false, true, false,  0.00, 2.63, 0.0, 0
 AddPartWeaponChild = false, true, 0.00, 2.63, 0.0
+
+AddWeapon = targeting_pod_block,  -0.7, 3.45, -1.45,  0.0, 0.0, false,2, 0,-360,360,  -90, 90
+AddWeapon = targeting_pod_ground,  -0.7, 3.45, -1.45,  0.0, 0.0, false,2, 0,-360,360,  -90, 90
+
+
+AddPartWeapon = bmptags-171, false, true, false,  -1.6298, 1.7566, 2.1511, 0
+AddWeapon = bmptags-171,  -1.6298, 1.7566, 2.1511,  0.0, 0.0, false,3, 0,-5,5,  -5, 5
+
+AddPartWeapon = bmptags-172, false, true, false,  1.6298, 1.7566, 2.1511, 0
+AddWeapon = bmptags-172,  1.6298, 1.7566, 2.1511,  0.0, 0.0, false,4, 0,-5,5,  -5, 5
+
 
 TurretPosition = 0.00, 2.63, 0.0
 
@@ -112,9 +145,9 @@ BoundingBox = 0.0, 1.1, -2.0, 3.1, 1.4, 0.28
 ;engine back 40mm
 BoundingBox = 0.0, 1.1, -2.1, 3.0, 1.4, 0.5
 
-StepHeight = 1.5
+StepHeight = 1.8
 
 
 UnmountPosition = 0.00,  1.50, 0.00
 
-AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot
+AddRecipe = "XIX",  " I ",  "IDI",  X, iron_block,  I, iron_ingot, D, diamond_block

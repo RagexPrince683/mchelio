@@ -1,24 +1,26 @@
-DisplayName = 122mm 9P132 [9M28F - FRAG-HE Rocket]
-Type = Rocket
-Power = 250
-Acceleration = 4.0
+DisplayName = 122mm 9P132 [9M28K - Anti Tank Mines]
+Type = Dispenser
+Power = 20
+Acceleration = 8.0
 Flaming = false
 Sight = None
-Gravity = -0.05
+Gravity = -0.0135
 
 
 SoundPitch = 1.0
 
-ProximityFuseDist = 3
+;ProximityFuseDist = 3
 
-;BombletSTime = 100
-;BombletDiff = 2.8
-;Bomblet = 3
+BombletSTime = 80
+BombletDiff = 1.2
+Bomblet = 3
+
+DispenseItem = hbm:tile.mine_he
 
 
 Accuracy = 1.5
-Explosion = 25
-ExplosionBlock = 3
+;Explosion = 15
+;ExplosionBlock = 3
 Round = 40
 
 ModelBullet = m30
