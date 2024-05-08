@@ -24,7 +24,7 @@ SubmergedDamageHeight = 2
 OnGroundPitchFactor = 3.0
 OnGroundRollFactor  = 3.0
 
-CameraZoom = 3
+CameraZoom = 7
 
 HideEntity = true
 

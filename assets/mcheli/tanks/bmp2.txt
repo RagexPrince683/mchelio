@@ -2,10 +2,10 @@
 AddDisplayName = en_US, BMP-2 IFV
 AddDisplayName = ja_JP, BMP-2 歩兵戦闘車
 MaxHp = 200
-Speed = 0.878
+Speed = 0.4
 Sound = bmptwoeng
 ;SoundPitch = 0.3
-ThrottleUpDown = 2.2
+ThrottleUpDown = 2.0
 MobilityRoll = 0
 Gravity = -0.61
 Float = true
@@ -15,9 +15,9 @@ GravityInWater = -0.2
 DamageFactor = 0.0
 EnableNightVision = true
 CameraRotationSpeed = 25
-StepHeight = 1.7
-MinRotationPitch = -74
-MaxRotationPitch = 4
+StepHeight = 1.8
+MinRotationPitch = -75
+MaxRotationPitch = 5
 DefaultFreelook = true
 MaxFuel         = 1200
 FuelConsumption = 2.0
@@ -28,7 +28,7 @@ TurretPosition = 0.0, 2.5619, -0.2461
 
 MobilityYawOnGround = 3.2
 
-HUD = mbt_hud
+HUD = mbt_hud, nohudbmp, none, none, none, none, none, none, none
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
@@ -50,10 +50,21 @@ SetWheelPos =  1.10,  -0.24,  2.80, 1.82, 0.86,  -0.09, -1.06, -2.05
 AddGunnerSeat = 0.00, 2.10, 0.24, 0.00, 2.10, 0.0, true, -90, 90, true
 CameraPosition = 0.00, 3.10, 0.0, true
 
-AddSeat = 0.48, 0.59, -1.79
-AddSeat =-0.48, 0.59, -1.79
-AddSeat = 0.48, 0.59, -2.29
-AddSeat =-0.48, 0.59, -2.29
+;;AddSeat = 0.48, 0.59, -1.79
+;;AddSeat =-0.48, 0.59, -1.79
+;;AddSeat = 0.48, 0.59, -2.29
+;;AddSeat =-0.48, 0.59, -2.29
+
+AddSeat = 0.48, 0.59, -1.65
+AddSeat =-0.48, 0.59, -1.65
+
+AddSeat = 0.48, 0.59, -2.10
+AddSeat =-0.48, 0.59, -2.10
+
+AddSeat = 0.48, 0.59, -2.5
+AddSeat =-0.48, 0.59, -2.5
+
+AddSeat = 0.48, 0.59, -2.90
 
 
 AddCrawlerTrack = true, 0.23, -2.40,  0.86/-3.04, 0.62/-3.14, 0.37/-3.04, -0.18/-2.36, -0.31/-2.05, -0.31/2.80, -0.18/3.10, 0.37/3.87, 0.62/3.98, 0.86/3.87, 0.97/3.63, 0.97/-2.79
@@ -72,14 +83,19 @@ AddTrackRoller = 0.00,  0.62, -2.79
 AddPartWeapon = bmp23ubr6 / bmp23yof8 , false, true, false, 0.00, 1.65, -0.2461, 0
 AddPartWeaponChild = false, true, 0.00, 2.09, 0.60
 AddPartWeaponChild = false, true, 0.00, 2.09, 0.60
-AddTurretWeapon = bmp23ubr6,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 5
-AddTurretWeapon = bmp23yof8,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 5
-AddTurretWeapon = bmp2pkt,    0.16, 2.08, 0.00,  0.0, 0.0, true,1, 0,-360,360, -60, 5
+AddTurretWeapon = bmp23ubr6,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -75, 5
+AddTurretWeapon = bmp23yof8,  0.00, 2.00, 0.00,  0.0, 0.0, true,1, 0,-360,360, -75, 5
+AddTurretWeapon = bmp2pkt,    0.16, 2.08, 0.00,  0.0, 0.0, true,1, 0,-360,360, -75, 5
 AddTurretWeapon = bmp29M113_1, 0.00, 2.35, 2.29,  0.0, 0.0, true,1, 0,-360,360, -90, 90
 
+AddWeapon = op, 0.0, 0.0, 0.0
 
-AddPartHatch =   1.19,  0.46,  -3.42, 0,1, 0, -90
-AddPartHatch =   -1.19,  0.46,  -3.42, 0,1, 0, 90
+
+;AddPartHatch =   1.19,  0.46,  -3.42, 0,1, 0, -90
+;AddPartHatch =   -1.19,  0.46,  -3.42, 0,1, 0, 90
+
+AddPartWeaponBay = op,   1.19,  0.46,  -3.42, 0,1, 0, -90
+AddPartWeaponBay = op,  -1.19,  0.46,  -3.42, 0,1, 0, 90
 
 EnableBack = true
 
@@ -90,7 +106,7 @@ ArmorMinDamage = 5
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 1000
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
-ArmorDamageFactor = 1.00
+ArmorDamageFactor = 0.90
 
 AddRecipe = " I ",  "IXI",  " I ", I,iron_ingot, X, mcheli:bmp1
 

@@ -1,20 +1,22 @@
-DisplayName = 30mm 2A42 Autocannon [3UOR6 - HEF-T]
+DisplayName = 30mm Dual Feed 2A42 Automatic Cannon [HEF-T]
 Type = MachineGun1
 Power = 9
-Acceleration = 5.0
-Explosion = 3
-ExplosionBlock = 2
+
+Explosion = 2
+ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight
 Delay = 1
 ReloadTime = 120
 Round = 250
-SoundVolume = 3
+
 SoundPitch = 1.0
 Sound = bmptwomain
-Accuracy = 1.5
+Accuracy = 0.5
 ModeNum = 1
 group = maingun
+
+DisplayMortarDistance = true
 
 Gravity = -0.005
 

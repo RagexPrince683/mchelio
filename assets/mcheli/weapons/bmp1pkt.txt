@@ -14,7 +14,7 @@ HeatCount = 4
 MaxHeatCount = 150
 Gravity = -0.001
 
-Round = 250
+Round = 1000
 
 ReloadTime = 80
 
@@ -28,7 +28,7 @@ DamageFactor = heli, 0.5
 
 
 
-MaxAmmo = 1000
-SuppliedNum = 250
+MaxAmmo = 2000
+SuppliedNum = 1000
 Item =  2, iron_ingot
 Item =  2, gunpowder

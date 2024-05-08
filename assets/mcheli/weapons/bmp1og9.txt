@@ -1,26 +1,37 @@
-DisplayName = 73mm 2A28 Grom Smoothbore Cannon [OG-9 - HE]
+DisplayName = 73mm 2A28 Grom Smoothbore Cannon [OG-15V/OG-9 - HE-Frag]
 Type = MachineGun2
 Power = 11
 ModelBullet = bullet105mm
 
 Explosion = 4
-ExplosionBlock = 2
+ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
-Delay = 70
+
 ModeNum = 1
 ;SoundPitch = 0.5
-SoundVolume = 20
+
 Sound = spgnine
 Gravity = -0.005
 
-Delay = 70
-ReloadTime = 100
+HeatCount = 1300
+MaxHeatCount = 15000
+
+BombletSTime = 20
+BombletDiff = 1.8
+Bomblet = 5
+
+ProximityFuseDist = 3
+
+Round = 1
+
+Delay = 125
+ReloadTime = 125
 Group = MainGun
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
 Piercing = 0
-Accuracy = 0.5
+Accuracy = 1.5
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
