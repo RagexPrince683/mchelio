@@ -1,4 +1,4 @@
-DisplayName = 62-85TC 85mm Cannon [Type 56 - APCBC]
+DisplayName = 85mm 62-85TC Rifled Cannon [Type 56 - APCBC]
 Type = MachineGun2
 Power = 164
 ModelBullet = bullet105mm

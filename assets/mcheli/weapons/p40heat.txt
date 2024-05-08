@@ -1,4 +1,4 @@
-DisplayName =  75mm Ansaldo 75 L/34 [EPS M42 - HEAT]
+DisplayName =  75mm Ansaldo 75 L/34 Cannon [EPS M42 - HEAT]
 Type = MachineGun1
 ModelBullet = 75mm
 Power = 100

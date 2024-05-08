@@ -1,4 +1,4 @@
-DisplayName = 125mm Type 88C Smoothbore Gun [DTP-125 HEAT-FS]
+DisplayName = 125mm Type 88C Smoothbore Gun [DTP-125 - HEAT-FS]
 Type = MachineGun1
 Power = 480
 Explosion = 3

@@ -1,4 +1,4 @@
-DisplayName = 125mm Type 88C Smoothbore Gun [125-I APFSDS]
+DisplayName = 125mm Type 88C Smoothbore Gun [125-I - APFSDS]
 Type = MachineGun1
 Power = 466
 Explosion = 1

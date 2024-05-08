@@ -1,4 +1,4 @@
-DisplayName = 50mm KwK.39/1 Sprgr. 38 [HE]
+DisplayName = 50mm KwK.39/1 Cannon [Sprgr. 38 - HE]
 Type = MachineGun2
 Power = 15
 Acceleration = 7

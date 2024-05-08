@@ -1,4 +1,4 @@
-DisplayName = 90mm Gun M3 [HE]
+DisplayName = 90mm M3 Cannon [M71 - HE]
 Type = MachineGun2
 Power = 20
 ModelBullet = bullet

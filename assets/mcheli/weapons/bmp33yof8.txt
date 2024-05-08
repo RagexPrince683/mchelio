@@ -1,4 +1,4 @@
-DisplayName = 2A42 30mm Cannon [HEF-T]
+DisplayName = 30mm 2A42 Autoannon [3UOF8 - HEF-T]
 Type = MachineGun1
 Power = 9
 Acceleration = 5.0

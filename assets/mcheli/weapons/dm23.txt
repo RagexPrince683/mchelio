@@ -1,4 +1,4 @@
-DisplayName = 120mm Rh-120 L/44 DM23 [APFSDS]
+DisplayName = 120mm Rh-120 L/44 Cannon [DM23 - APFSDS]
 Type = MachineGun1
 Power = 408
 ModelBullet = bullet105mm

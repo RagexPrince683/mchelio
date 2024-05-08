@@ -1,4 +1,4 @@
-DisplayName =  75mm Ansaldo 75 L/34 [Granata 75/32 - HE]
+DisplayName =  75mm Ansaldo 75 L/34 Cannon [Granata 75/32 - HE]
 Type = MachineGun1
 ModelBullet = 75mm
 Power = 10

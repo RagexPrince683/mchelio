@@ -1,4 +1,4 @@
-DisplayName =  75mm Ansaldo 75 L/34 [Granata Perforante 75/32 - APCBC]
+DisplayName =  75mm Ansaldo 75 L/34 Cannon [Granata Perforante 75/32 - APCBC]
 Type = MachineGun1
 ModelBullet = 75mm
 Power = 79

@@ -1,4 +1,4 @@
-DisplayName = 62-85TC 85mm Cannon [Type 56 - HEAT-FS]
+DisplayName = 85mm 62-85TC Rifled Cannon [Type 56 - HEAT-FS]
 Type = MachineGun2
 Power = 300
 ModelBullet = bullet105mm

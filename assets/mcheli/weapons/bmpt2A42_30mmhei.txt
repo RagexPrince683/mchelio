@@ -1,4 +1,4 @@
-DisplayName = 30mm 2A42 Twin Cannon [3UOR6 - HE-T]
+DisplayName = 30mm 2A42 Twin Autocannon [3UOR6 - HE-T]
 Type = MachineGun2
 Power = 20
 Acceleration = 5.0

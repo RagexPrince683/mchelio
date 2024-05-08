@@ -1,4 +1,4 @@
-DisplayName = 62-85TC 85mm Cannon [Type 56 - HE]
+DisplayName = 85mm62-85TC Rifled Cannon [Type 56 - HE]
 Type = MachineGun2
 Power = 19
 ModelBullet = bullet105mm

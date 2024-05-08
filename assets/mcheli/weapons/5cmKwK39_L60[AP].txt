@@ -1,4 +1,4 @@
-DisplayName = 50mm KwK.39/1 PzGr 39 [APC]
+DisplayName = 50mm KwK.39/1 Cannon [PzGr 39 - APC]
 Type = MachineGun2
 Power = 106
 Acceleration = 7

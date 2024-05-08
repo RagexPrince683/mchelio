@@ -1,4 +1,4 @@
-DisplayName = 2A42 30mm Cannon [APDS]
+DisplayName = 30mm 2A42 Autocannon [3UBR8 - APDS]
 Type = MachineGun2
 Power = 82
 Acceleration = 5.0
