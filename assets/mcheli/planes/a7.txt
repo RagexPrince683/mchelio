@@ -60,6 +60,9 @@ AddWeapon = agm84a7real,    -3.381, 2.152, -5.591,   0.0, 0.0
 AddWeapon = agm84a7real,     4.788, 2.152, -6.216,   0.0, 0.0
 AddWeapon = agm84a7real,    -4.788, 2.152, -6.216,   0.0, 0.0
 
+AddWeapon = aim9_l2,     3.381, 2.152, -5.591,   0.0, 0.0
+AddWeapon = aim9_l2,    -3.381, 2.152, -5.591,   0.0, 0.0
+
 AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  1
 
 AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt

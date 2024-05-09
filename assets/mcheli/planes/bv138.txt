@@ -56,23 +56,23 @@ AddPartRotor =    3.88,  3.06,   2.20,   0, 0, 1
 AddBlade = 1, 0,  3.88,  3.06,   2.20,   0, 0, 1
 
 ; パラメータは前から順に 武器設定ファイル名、位置(X,Y,Z)、回転角度(横,縦), パイロット使用可否, 座席, DefaultYaw, MinYaw, MaxYaw, MinPitch, MaxPitch
-AddTurretWeapon = mg151_f, 0.00, 1.30, 5.71, 0.0, 0.0, false, 3, 0, -120, 120, -55, 20
-AddTurretWeapon = mg151_r,-0.00, 2.03,-7.49, 0.0, 0.0, false, 4,180, -140, 140, -55, 20
-AddTurretWeapon = mg15,    0.00, 3.47,-5.07, 0.0, 0.0, false, 5,180, -120, 120, -80, 10
+AddTurretWeapon = mg151_bv138, 0.00, 1.30, 5.71, 0.0, 0.0, false, 3, 0, -120, 120, -55, 20
+AddTurretWeapon = mg151_bv138,-0.00, 2.03,-7.49, 0.0, 0.0, false, 4,180, -140, 140, -55, 20
+AddTurretWeapon = mg15_bv138,    0.00, 3.47,-5.07, 0.0, 0.0, false, 5,180, -120, 120, -80, 10
 
 AddWeapon = dummy_bay_closed, 0.00, 0.00, 0.00, 0.0, 0.0
 AddWeapon = sd50_6, -0.41, 0.22, -2.74, 0.0, 0.0
 AddWeapon = sd50_6,  0.41, 0.22, -2.74, 0.0, 0.0
 
-AddPartWeapon      = mg151_f, false, true, false, 0.00, 0.44, 4.32
+AddPartWeapon      = mg151_bv138, false, true, false, 0.00, 0.44, 4.32
 AddPartWeaponChild = false, true, 0.08, 1.25, 4.42
 AddPartWeaponChild = false, false, 0.00, 0.44, 4.32
 
-AddPartWeapon      = mg151_r, false, true, false, 0.00, 1.15,-6.10
+AddPartWeapon      = mg151_bv138, false, true, false, 0.00, 1.15,-6.10
 AddPartWeaponChild = false, true, -0.08, 1.99, -6.20
 AddPartWeaponChild = false, false, 0.00, 1.15,-6.10
 
-AddPartWeapon      = mg15, false, true, false, 0.00, 3.17, -3.59
+AddPartWeapon      = mg15_bv138, false, true, false, 0.00, 3.17, -3.59
 AddPartWeaponChild = false, true, 0.00, 3.44, -4.20
 
 AddPartWeaponBay = sd50_6, -1.20, -0.13, -2.74,  0, 0,-1, 120

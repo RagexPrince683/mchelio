@@ -71,10 +71,10 @@ AddPartWeaponMissile = agm158, false,  false,  false,    3.17, 1.57, -5.02
 AddPartWeaponMissile = agm158, false,  false,  false,   -3.17, 1.57, -5.02
 
 AddWeapon = m61f15, 0.00, 1.12, -6.54,   0.0,-3.0
-AddWeapon = aim9,    2.86, 2.16, -4.95,   0.0, 0.0
-AddWeapon = aim9,   -2.86, 2.16, -4.95,   0.0, 0.0
-AddWeapon = aim9,    3.49, 2.16, -4.95,   0.0, 0.0
-AddWeapon = aim9,   -3.49, 2.16, -4.95,   0.0, 0.0
+AddWeapon = aim9_m,    2.86, 2.16, -4.95,   0.0, 0.0
+AddWeapon = aim9_m,   -2.86, 2.16, -4.95,   0.0, 0.0
+AddWeapon = aim9_m,    3.49, 2.16, -4.95,   0.0, 0.0
+AddWeapon = aim9_m,   -3.49, 2.16, -4.95,   0.0, 0.0
 AddWeapon = aim120,  1.77, 1.24, -3.11,   0.0, 0.0, false, 2
 AddWeapon = aim120, -1.77, 1.24, -3.11,   0.0, 0.0, false, 2
 AddWeapon = aim120,  1.77, 1.24, -7.64,   0.0, 0.0, false, 2
