@@ -1,4 +1,4 @@
-DisplayName = 30mm Dual Feed 2A42 Automatic Cannon [HEF-T]
+DisplayName = 30mm 2A42 Automatic Cannon [3UOR6 - HEF-T]
 Type = MachineGun1
 Power = 9
 
@@ -8,13 +8,17 @@ Flaming = false
 Sight = MoveSight
 Delay = 1
 ReloadTime = 120
-Round = 250
+Round = 83
+
+AddMuzzleFlashSmoke =  4.2, 10,  2.0,  1.0, 45,  220,160,140,120
 
 SoundPitch = 1.0
 Sound = bmptwomain
 Accuracy = 0.5
 ModeNum = 1
 group = maingun
+
+TimeFuse = 560
 
 DisplayMortarDistance = true
 
@@ -25,8 +29,8 @@ MaxHeatCount = 150
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
-MaxAmmo = 250
-SuppliedNum = 250
+MaxAmmo = 83
+SuppliedNum = 83
 Item =  2, iron_ingot
 Item =  2, gunpowder
 

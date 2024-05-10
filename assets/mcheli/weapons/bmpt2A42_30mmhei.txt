@@ -1,4 +1,4 @@
-DisplayName = 30mm 2A42 Twin Autocannon [3UOR6 - HE-T]
+DisplayName = 30mm 2A42 Twin Automatic Cannon [3UOR6 - HE-T]
 Type = MachineGun2
 Power = 20
 Acceleration = 5.0
@@ -15,7 +15,7 @@ SoundVolume = 3
 SoundPitch = 1.0
 Sound = 2A42_30mm_snd
 Accuracy = 1.5
-ModeNum = 1
+;ModeNum = 1
 Gravity = -0.005
 HeatCount = 7
 MaxHeatCount = 150

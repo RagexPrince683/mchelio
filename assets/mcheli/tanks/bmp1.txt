@@ -24,7 +24,7 @@ HideEntity = true
 FlareType = 10
 ThirdPersonDist = 8
 
-CameraZoom = 5
+CameraZoom = 6
 
 AddTexture = bmp1_1
 AddTexture = bmp1_2
@@ -49,8 +49,9 @@ WeightType = Tank
 ; X座標のマイナス側は必要なし
 SetWheelPos =  1.10,  -0.24,  2.80, 1.82, 0.86,  -0.09, -1.06, -2.05
 
-AddGunnerSeat = 0.00, 1.10, 0.24, 0.00, 2.10, 0.24, true, -90, 90, true
-CameraPosition = 0.00, 3.10, 0.24, true
+AddGunnerSeat = 0.00, 1.10, 0.24
+;, 0.00, 2.10, 0.24, true, -90, 90, true
+CameraPosition = 0.00, 3.10, 0.0
 AddSeat = 0.48, 0.59, -1.65
 AddSeat =-0.48, 0.59, -1.65
 
@@ -134,4 +135,4 @@ BoundingBox = 0.0, 0.8, -2.0, 3.0, 1.5, 0.31
 
 BoundingBox = 0.0, 1.7, 0.0, 1.0, 1.0, 0.06
 
-UnmountPosition = 0.00, 1.50, 0.24
+UnmountPosition = -0.0, 1.50, -2.90

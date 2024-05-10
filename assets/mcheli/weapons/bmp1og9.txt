@@ -8,7 +8,7 @@ ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
 
-ModeNum = 1
+;ModeNum = 1
 ;SoundPitch = 0.5
 
 Sound = spgnine

@@ -1,10 +1,10 @@
-DisplayName = 100mm 2A70 Rifled Cannon [3OF70 - HE-frag]
+DisplayName = 100mm 2A70 Rifled Cannon [3OF32 - HE-frag]
 Type = MachineGun2
-Power = 31
+Power = 36
 ModelBullet = bullet105mm
 
-Explosion = 4
-ExplosionBlock = 2
+Explosion = 6
+ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
 Delay = 110
@@ -33,8 +33,8 @@ Round = 22
 
 MaxAmmo = 16
 SuppliedNum = 4
-Item =  2, iron_ingot
-Item =  1, gunpowder
+Item =  3, iron_ingot
+Item =  2, gunpowder
 
 Acceleration = 7.5
 Piercing = 0
