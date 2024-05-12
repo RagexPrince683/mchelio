@@ -59,10 +59,10 @@ AddPartWeaponMissile = mk82,   false,  false,  false,   -2.5457, 0.7549, -3.9708
 AddWeapon = m61a1_gpod, 0.00, 0.5352, -3.9862,   0.0,-3.0
 AddWeapon = m61a1_gpod, 3.7296, 0.5352, -4.736,   2.0,-3.0
 AddWeapon = m61a1_gpod, -3.7296, 0.5352, -4.736,   -2.0,-3.0
-AddWeapon = aim7_f,    0.5343, 0.9202, 0.7853,   0.0, 0.0 , true, 2
-AddWeapon = aim7_f,   -0.5343, 0.9202, 0.7853,   0.0, 0.0 , true, 2
-AddWeapon = aim7_f,    1.1668, 0.9202, -5.3736,   0.0, 0.0,true, 2
-AddWeapon = aim7_f,   -1.1668, 0.9202, -5.3736,  0.0, 0.0,true, 2
+AddWeapon = aim7b,    0.5343, 0.9202, 0.7853,   0.0, 0.0 , true, 2
+AddWeapon = aim7b,   -0.5343, 0.9202, 0.7853,   0.0, 0.0 , true, 2
+AddWeapon = aim7b,    1.1668, 0.9202, -5.3736,   0.0, 0.0,true, 2
+AddWeapon = aim7b,   -1.1668, 0.9202, -5.3736,  0.0, 0.0,true, 2
 AddWeapon = mk82,  2.5457, 0.7549, -3.9708,   0.0, 0.0, true, 2
 AddWeapon = mk82, -2.5457, 0.7549, -3.9708,   0.0, 0.0, true, 2
 

@@ -1,6 +1,6 @@
 DisplayName = R-3S [AAM]
 Type = AAMissile
-Power = 35
+Power = 50
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
