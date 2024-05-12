@@ -14,7 +14,7 @@ SoundPitch = 1.0
 SoundPitchRandom = 0.1
 Sound = btreightymain
 Accuracy = 1.5
-ModeNum = 1
+;ModeNum = 1
 
 TrajectoryParticle = crit
 

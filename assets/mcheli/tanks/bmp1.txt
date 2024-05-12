@@ -11,7 +11,7 @@ Float = true
 FloatOffset = 0.0
 
 GravityInWater = -0.2
-DamageFactor = 0.5
+DamageFactor = 0.8
 EnableNightVision = true
 CameraRotationSpeed = 14
 StepHeight = 1.8

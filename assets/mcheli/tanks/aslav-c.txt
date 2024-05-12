@@ -18,6 +18,8 @@ DamageFactor = 0.8
 ThrottleUpDown = 2.0
 MobilityYawOnGround = 3.5
 
+AddRecipe = " I ",  "IXI",  "III",  X, iron_block,  I, iron_ingot
+
 FlareType = 10
 
 CameraZoom = 0

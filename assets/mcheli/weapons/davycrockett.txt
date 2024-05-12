@@ -1,4 +1,4 @@
-DisplayName = M-388 W54-1 Nuclear Projectile [20KT SURFACE]
+DisplayName = M-388 W54-1 Nuclear Projectile [20T SURFACE]
 Type = MachineGun2
 Power = 40
 ModelBullet = davycrockett

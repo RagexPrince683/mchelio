@@ -21,6 +21,8 @@ group = maingun
 
 Gravity = -0.005
 
+DisplayMortarDistance = true
+
 HeatCount = 7
 MaxHeatCount = 150
 

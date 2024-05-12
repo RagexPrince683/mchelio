@@ -8,7 +8,7 @@ Delay = 1
 SoundVolume = 15
 SoundPitch = 1.0
 Sound = fnmag
-Round = 200
+Round = 100
 ReloadTime = 80
 Accuracy = 0.7
 HeatCount = 5
@@ -16,6 +16,11 @@ MaxHeatCount = 250
 SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
 
 Gravity = -0.005
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
 
 MaxAmmo = 3600
 SuppliedNum = 100

@@ -13,7 +13,7 @@ SoundVolume = 15
 SoundPitch = 1.0
 Sound = btreightymain
 Accuracy = 1.5
-ModeNum = 1
+;ModeNum = 1
 Gravity = -0.001
 SoundPitchRandom = 0.1
 

@@ -1,4 +1,3 @@
-
 DisplayName = 120mm L11A5 Rifled Cannon [Shell L31A7 - HESH]
 ModelBullet = bullet105mm
 Type = MachineGun1
@@ -7,17 +6,23 @@ Explosion = 8
 ExplosionBlock = 4
 Acceleration = 7.0
 Sight = None
-Round = 26
-SoundVolume = 10.0
+Round = 3
+;SoundVolume = 10.0
 Sound = chalmain
-Accuracy = 0.5
+;Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 
 Gravity = -0.005
 
-Delay = 100
-ReloadTime = 100
+DisplayMortarDistance = true
+
+
+HeatCount = 900
+MaxHeatCount = 2050
+
+Delay = 140
+ReloadTime = 160
 Group = MainGun
 ;Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
@@ -38,6 +43,7 @@ AddMuzzleFlash      =  10.0,      1.70,        5,  220,254,219,184
 AddMuzzleFlashSmoke =  12.2, 20,  10.0,  3.0, 45,  220,160,140,120
 AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
+Recoil = 0.5
 
 MaxAmmo = 26
 SuppliedNum = 15
