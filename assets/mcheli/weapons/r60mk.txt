@@ -1,6 +1,6 @@
-DisplayName = R-60M Air To Air Missile
+DisplayName = R-60MK Air To Air Missile
 Type = AAMissile
-Power = 42
+Power = 52
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
@@ -12,7 +12,7 @@ Sight = MissileSight
 Delay = 9
 ReloadTime = 110
 Round = 4
-LockTime = 15
+LockTime = 14
 ProximityFuseDist = 1
 ModelBullet = r60
 Sound = missile_1_snd

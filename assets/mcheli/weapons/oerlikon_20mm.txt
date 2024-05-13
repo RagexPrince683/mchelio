@@ -9,7 +9,8 @@ Delay = 2
 ReloadTime = 30
 SoundPitch = 1.0
 Sound = twentymil
-
+HeatCount = 2
+MaxHeatCount = 120
 Gravity = -0.005
 SoundVolume = 15
 

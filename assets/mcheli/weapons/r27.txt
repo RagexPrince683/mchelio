@@ -11,14 +11,14 @@ Flaming = false
 Sight = MissileSight
 Delay = 9
 ReloadTime = 140
-Round = 2
+Round = 4
 LockTime = 22
 ProximityFuseDist = 3
 Sound = missile_1_snd
 
 
 MaxAmmo = 4
-SuppliedNum = 1
+SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder
 Item =  2, redstone

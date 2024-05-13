@@ -1,6 +1,6 @@
 DisplayName = N-37 37mm Auto Cannon
 Type = MachineGun1
-Power = 26
+Power = 49
 Acceleration = 5.0
 Explosion = 1
 ExplosionBlock = 0
@@ -10,7 +10,7 @@ Delay = 2
 Heatcount = 10
 MaxHeatCount = 120
 Accuracy = 2.0
-Gravity = -0.01
+Gravity = -0.005
 Particle = largeexplode
 ReloadTime = 30
 Sound = bofors

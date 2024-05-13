@@ -1,4 +1,4 @@
-DisplayName = DEFA 552 30mm
+DisplayName = 30mm DEFA 552 Autocannon
 Type = MachineGun2
 Power = 30
 Acceleration = 6.0

@@ -1,6 +1,6 @@
 DisplayName = R-60 Air To Air Missile
 Type = AAMissile
-Power = 42
+Power = 50
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0

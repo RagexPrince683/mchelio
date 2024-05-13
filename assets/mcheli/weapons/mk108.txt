@@ -30,5 +30,5 @@ Gravity = -0.005
 
 MaxAmmo = 60
 SuppliedNum = 60
-Item =  3, iron_ingot
-Item =  3, gunpowder
+Item =  2, iron_ingot
+Item =  2, gunpowder
