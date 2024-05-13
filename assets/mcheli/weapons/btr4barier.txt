@@ -3,9 +3,11 @@ Type = TVMissile
 Power = 800
 Acceleration = 4.0
 Explosion = 5
+ExplosionBlock = 3
+
 Flaming = true
 Sight = MissileSight
-Delay = 100
+Delay = 20
 
 ReloadTime = 210
 ModelBullet = atmissle

@@ -91,7 +91,9 @@ AddPartWeaponBay = op,   1.57, 1.57, -4.36, 0.0, 1.0, 0.0, -85
 
 AddTurretWeapon = btr4kba-2_30mmAPDS,  0.50, 3.29, -1.24,  0.0, 0.0, true,1, 0,-360,360, -45, 5
 AddTurretWeapon = btr4kba-2_30mmHEI,   0.50, 3.29, -1.24,  0.0, 0.0, true,1, 0,-360,360,    -45, 5
-AddTurretWeapon = btr4barier,          0.37, 3.18, -1.24,  0.0, 0.0, true,1, 0,-360,360,    -45, 5
+AddTurretWeapon = btr4barier,          -0.848, 3.26, -1.24,  0.0, 0.0, true,1, 0,-360,360,    -0, 5
+AddTurretWeapon = btr4barier,          -0.848, 3.55, -1.24,  0.0, 0.0, true,1, 0,-360,360,    -0, 5
+
 AddTurretWeapon = btr47.62mm,          0.83, 3.37, -1.24,  0.0, 0.0, true,1, 0,-360,360,    -45, 5
 ;AddWeapon = btr4ags-17,          0.37, 3.18, -1.24,  0.0, 0.0, true,1, 0,-360,360,    -45, 5
 
@@ -113,15 +115,15 @@ MotionFactor = 0.9
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
 ArmorMinDamage = 10
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
-ArmorMaxDamage = 350
+;ArmorMaxDamage = 350
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
 ArmorDamageFactor = 0.90
 
 MaxFuel         = 1200
 FuelConsumption = 2.0
 
-BoundingBox =  0.35, 3.2, -1.55,  1.8, 1.4, 0.25
-BoundingBox =  0.40, 1.25, -2.40, 2.70, 2.10, 0.70
+BoundingBox =  0.35, 3.0, -1.55,  1.8, 1.4, 0.25
+BoundingBox =  0.40, 1.25, -2.80, 3.00, 2.10, 0.70
 BoundingBox =  0.40, 1.25, -1.75, 2.70, 2.10, 0.70
 BoundingBox =  0.40, 1.25, 0.00, 2.70, 2.10, 0.70
 
