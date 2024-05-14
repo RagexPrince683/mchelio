@@ -1,4 +1,4 @@
-DisplayName = AIM-7E Sparrow
+DisplayName = AIM-120 AMRAAM
 Type = AAMissile
 Power = 70
 Acceleration = 5
@@ -8,10 +8,10 @@ Sight = MissileSight
 Delay = 9
 ReloadTime = 110
 Round = 2
-LockTime = 24
-ProximityFuseDist = 2
-ModelBullet = aim7
-Sound = aimnine
+LockTime = 16
+ProximityFuseDist = 3
+ModelBullet = aim120
+Sound = missile_1_snd
 
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0

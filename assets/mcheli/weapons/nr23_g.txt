@@ -1,4 +1,4 @@
-DisplayName = NR-23 23mm Auto Cannon Gunner
+DisplayName = 23mm NR-23 Autocannon Gunner
 Type = MachineGun2
 Power = 18
 Acceleration = 8.0

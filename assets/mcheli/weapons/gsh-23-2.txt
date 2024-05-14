@@ -1,4 +1,4 @@
-DisplayName = GSh-23-2 Chain gun
+DisplayName = 23mm GSh-23-2 Autocannon
 Type = MachineGun2
 Power = 16
 Acceleration = 8.0

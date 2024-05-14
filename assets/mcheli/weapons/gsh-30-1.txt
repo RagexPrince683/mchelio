@@ -1,4 +1,4 @@
-DisplayName = GSh-30-1 30mm Machine Gun
+DisplayName = GSh-30-1 30mm Autocannon
 Type = MachineGun1
 ModelBullet = bullet
 Power = 30
