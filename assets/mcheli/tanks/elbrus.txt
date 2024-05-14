@@ -3,7 +3,7 @@ AddDisplayName = ru_RU, MAZ-543 with 9K72 Elbrus SS-1C Scud B Missile
 AddDisplayName = en_US, MAZ-543 with 9K72 Elbrus SS-1C Scud B Missile
 ItemID = 33121
 MaxHp = 200
-Speed = 0.4
+Speed = 0.37
 Sound = teightyeng
 ThrottleUpDown = 2.0
 MobilityYawOnGround = 4.0
@@ -13,12 +13,12 @@ MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.8
-CameraZoom = 3
+;CameraZoom = 3
 EnableNightVision = false
 CameraRotationSpeed = 35
 MaxFuel = 2500
 FuelConsumption = 3.0
-StepHeight = 1.5
+StepHeight = 1.8
 CameraPosition = 0.10,2.01,-2.90, false
 HideEntity = false
 EnableBack = true
@@ -26,6 +26,7 @@ OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 DefaultFreelook = false
 ThirdPersonDist = 60
+
 
 ;moved back 4.52 so subtract 4.52 from skewed coords
 
@@ -46,11 +47,17 @@ FixCameraPitch = true
 AddWeapon = scud, 0.10, 1.64, -6.19, 0.0, 0.0, false, 2, 0, -0, 0, -90, 0, 0
 AddWeapon = scudnuclear, 0.10, 1.64, -6.19, 0.0, 0.0, false, 2, 0, -0, 0, -90, 0, 0
 
-AddPartWeaponMissile = scud, false, false, true, 0.10, 1.64, -6.19, 5, 0
+;AddPartWeaponMissile = scud, false, false, true, 0.10, 1.64, -6.19, 5, 0
 
-AddPartWeapon = scud / scudnuclear, false, false, true, 0.10, 1.64, -6.19, 1, 0, 0, -90, 0
+;AddPartWeapon = scud / scudnuclear, false, false, true, 0.10, 1.64, -6.19, 1, 0, 0, -80, 0
 
-AddPartWeaponMissile = scudnuclear, false, false, true, 0.10, 1.64, -6.19, 5, 0
+AddPartWeapon = scud / scudnuclear, false, false, true, 0.10, 1.64, -6.19
+
+AddPartWeapon = scud / scudnuclear, false, false, true, 0.10, 1.64, -6.19
+
+;AddPartWeapon = scud / scudnuclear, false, false, true, 0.10, 1.64, -6.19, 1, 0, 0, -80, 0
+
+AddPartWeaponMissile = scud/ scudnuclear, false, false, true, 0.10, 1.64, -6.19, 5, 0
 
 AddFixedSearchLight =  2.15, 1.86, 8.7, 0x20FFFFFF,   0x00FFFFC0,    0.5, 0.5,  -5,  0
 AddFixedSearchLight = -1.99, 1.86, 8.7, 0x20FFFFFF,   0x00FFFFC0,    0.5, 0.5,   5,  0

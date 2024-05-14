@@ -29,7 +29,7 @@ CameraPosition = 0.521, 4.0, -1.30, true
 HideEntity = false
 ThirdPersonDist = 8
 
-TurretPosition = 0.521, 3.31, -1.30
+TurretPosition = 0.5155, 3.31, -1.30
 
 EnableNightVision = true
 EnableEntityRadar = false
@@ -48,7 +48,7 @@ HUD = mbt_hud, mbt_gnrtwo, none, none, none, none, none, none, none, none
 
 
 
-AddGunnerSeat =  1.08,  0.80, 3.68, 0.521, 4.0, -1.30,  false, -45, 5, false
+AddGunnerSeat =  1.08,  0.80, 3.68, 0.5155, 4.0, -1.30,  false, -45, 5, false
 
 
 
@@ -105,7 +105,7 @@ AddWeapon = targeting_pod_ground,  -0.11,  2.00, 3.68,  0.0, 0.0, false,2, 0,-36
 
 AddWeapon = targeting_pod_block, -0.11,  2.00, 3.68, 0, 0, false, 2, 0, -360, 360, -90,90
 
-AddPartWeapon = btr4kba-2_30mmAPDS/ btr4kba-2_30mmHEI, false, true, false,  0.51, 2.49, -1.32, 0
+AddPartWeapon = btr4kba-2_30mmAPDS/ btr4kba-2_30mmHEI, false, true, false,  0.5155, 2.49, -1.30, 0
 AddPartWeaponChild = false, true, 0.521, 3.30, -0.886, 0
 
 EnableBack = true
