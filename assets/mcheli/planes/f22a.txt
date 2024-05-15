@@ -85,7 +85,7 @@ AddPartWeaponMissile = gbu-53_sdb,  false,  false,  false,   -0.37, 1.18, -7.41
 AddPartWeaponMissile = gbu-53_sdb,  false,  false,  false,    0.37, 1.18, -7.41
 AddPartWeaponMissile = gbu-53_sdb,  false,  false,  false,   -0.37, 1.18, -7.41
 
-AddWeapon = m61a1_l,    -1.74, 2.45, -5.56,   0.0, 0.0
+AddWeapon = m61f22,    -1.74, 2.45, -5.56,   0.0, 0.0
 AddWeapon = aim-9x,        1.72, 1.53, -6.72,   0.0, 0.0
 AddWeapon = aim-9x,       -1.72, 1.53, -6.72,   0.0, 0.0
 AddWeapon = aim120,      0.84, 1.27, -7.28,   0.0, 0.0
