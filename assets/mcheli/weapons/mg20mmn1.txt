@@ -1,4 +1,4 @@
-DisplayName = 20mm Machine Gun
+DisplayName = 20mm Type 99 Autocannon
 Type = MachineGun1
 Power = 16
 Acceleration = 8.0

@@ -1,4 +1,4 @@
-DisplayName = Type 99 Mark 3 20mm Autocannon
+DisplayName = 20mm Type 99 Mark 3 Autocannon
 Type = MachineGun1
 Power = 16
 Acceleration = 8.0
