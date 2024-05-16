@@ -52,8 +52,8 @@ AddPartWeaponMissile = droptank, false, false, false, 0.0, 0.246, -1.74
 AddWeapon = m39a2, 0.238, 1.65, 5.23, 0.0, -0.5
 AddWeapon = m39a2, -0.238, 1.65, 5.23, 0.0, -0.5
 
-AddWeapon = aim9e,   5.199, 1.292, -3.407,   0.0, 0.0
-AddWeapon = aim9e,  -5.199, 1.292, -3.407,   0.0, 0.0
+AddWeapon = aim9e_2,   5.199, 1.292, -3.407,   0.0, 0.0
+AddWeapon = aim9e_2,  -5.199, 1.292, -3.407,   0.0, 0.0
 
 AddWeapon = hydra70,   3.918, 0.549, -2.024,   1.0, 0.0
 AddWeapon = hydra70,  -3.918, 0.549, -2.024,   -1.0, 0.0

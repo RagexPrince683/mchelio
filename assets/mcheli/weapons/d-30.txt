@@ -1,4 +1,4 @@
-DisplayName = 122mm D-30 Howitzer [3OF56 FRAG-HE]
+DisplayName = 122mm D-30 Howitzer [3OF56 - FRAG-HE]
 Type = MachineGun2
 Power = 100
 ModelBullet = bullet105mm

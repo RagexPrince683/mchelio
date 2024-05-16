@@ -1,4 +1,4 @@
-DisplayName = AIM-120 AMSSD
+DisplayName = AIM-120 AMSSD [AAM]
 Type = AAMissile
 Power = 70
 Acceleration = 5

@@ -1,4 +1,4 @@
-DisplayName = AIM-54C+ Phoenix
+DisplayName = AIM-54C+ Phoenix [AAM]
 Type = AAMissile
 Power = 70
 Acceleration = 5

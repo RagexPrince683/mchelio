@@ -1,26 +1,24 @@
-DisplayName = AIM-7E Sparrow [AAM]
+DisplayName = AIM-9E Sidewinder [AAM]
 Type = AAMissile
-Power = 70
-Acceleration = 5
+Power = 54
+Acceleration = 3.5
 Explosion = 5
 Flaming = false
 Sight = MissileSight
-Delay = 9
-ReloadTime = 110
-Round = 2
-LockTime = 24
-ProximityFuseDist = 2
-ModelBullet = aim7
+Delay = 90
+LockTime = 16
+ProximityFuseDist = 1
+ModelBullet = aim9h
 Sound = aimnine
+SoundVolume = 15
 
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
-
 MaxAmmo = 2
 SuppliedNum = 2
-Item =  2, iron_ingot
-Item =  2, gunpowder
+Item =  1, iron_ingot
+Item =  1, gunpowder
 Item =  2, redstone

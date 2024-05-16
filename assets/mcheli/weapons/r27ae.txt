@@ -1,4 +1,4 @@
-DisplayName = R-27AE AAM
+DisplayName = R-27AE [AAM]
 Type = AAMissile
 Power = 68
 DamageFactor = tank, 1.5

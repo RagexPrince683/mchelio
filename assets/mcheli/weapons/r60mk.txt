@@ -1,4 +1,4 @@
-DisplayName = R-60MK Air To Air Missile
+DisplayName = R-60MK [AAM]
 Type = AAMissile
 Power = 52
 DamageFactor = tank, 1.5

@@ -1,4 +1,4 @@
-DisplayName = 122mm D-30 Howitzer [3BK13M HEAT-FS-T]
+DisplayName = 122mm D-30 Howitzer [3BK13M - HEAT-FS-T]
 Type = MachineGun2
 Power = 50
 Power = 460

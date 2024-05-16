@@ -1,4 +1,4 @@
-DisplayName = R-24R AAM
+DisplayName = R-24R [AAM]
 Type = AAMissile
 Power = 65
 DamageFactor = tank, 1.5
@@ -18,7 +18,7 @@ Sound = missile_1_snd
 
 
 MaxAmmo = 4
-SuppliedNum = 1
+SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder
 Item =  2, redstone

@@ -1,4 +1,4 @@
-DisplayName = K-13 AAM
+DisplayName = K-13 [AAM]
 Type = AAMissile
 Power = 54
 Acceleration = 3.8

@@ -1,4 +1,4 @@
-DisplayName = AIM-7E Sparrow 
+DisplayName = AIM-7E Sparrow [AAM]
 Type = AAMissile
 Power = 70
 Acceleration = 5

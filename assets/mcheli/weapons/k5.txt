@@ -1,4 +1,4 @@
-DisplayName = K-5 AA-1 Alkali
+DisplayName = K-5 AA-1 Alkali [AAM]
 Type = AAMissile
 Power = 54
 Acceleration = 3.5

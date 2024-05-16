@@ -1,4 +1,4 @@
-DisplayName = AIM-120 AMRAAM
+DisplayName = AIM-120 AMRAAM [AAM]
 Type = AAMissile
 Power = 70
 Acceleration = 5
