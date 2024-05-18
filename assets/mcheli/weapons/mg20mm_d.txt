@@ -1,4 +1,4 @@
-DisplayName = 20mm Machine Gun Downward Firing
+DisplayName = 20mm Autocannon Downward Firing
 Type = MachineGun1
 Power = 16
 Acceleration = 8.0

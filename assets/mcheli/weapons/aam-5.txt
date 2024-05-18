@@ -8,8 +8,8 @@ Sight = MissileSight
 Delay = 80
 Round = 4
 ReloadTime = 90
-LockTime = 6
-ProximityFuseDist = 1
+LockTime = 13
+ProximityFuseDist = 2
 ModelBullet = aam-5
 Sound = missile_1_snd
 

@@ -1,6 +1,6 @@
 DisplayName = PL-8 Anti-Air Missile
 Type = AAMissile
-Power = 40
+Power = 52
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
@@ -12,8 +12,8 @@ Sight = MissileSight
 Delay = 30
 ReloadTime = 150
 Round = 2
-LockTime = 22
-ProximityFuseDist = 1
+LockTime = 14
+ProximityFuseDist = 2
 Sound = missile_1_snd
 
 MaxAmmo = 6

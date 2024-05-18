@@ -1,4 +1,4 @@
-DisplayName = BK-27 Revolver Cannon
+DisplayName = 27mm BK-27 Revolver Cannon
 Type = MachineGun1
 Power = 23
 Acceleration = 9.9
