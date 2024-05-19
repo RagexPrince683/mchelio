@@ -1,10 +1,10 @@
-DisplayName = 155mm Haubits BW L/52 FH-77 [HEER]
+DisplayName = 155mm Haubits BW L/52 FH-77 [HE]
 Type = MachineGun1
-Power = 106
+Power = 150
 ModelBullet = 155mm
-Explosion = 7
-ExplosionBlock = 5
-Acceleration = 7.0
+Explosion = 9
+ExplosionBlock = 7
+Acceleration = 6.0
 Sight = None
 ReloadTime = 80
 Delay = 80
@@ -12,8 +12,7 @@ Round = 1
 SoundVolume = 15.0
 Sound = artillery_gun_snd
 Accuracy = 1.5
-Gravity = -0.045
-
+Gravity = -0.05
 
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5

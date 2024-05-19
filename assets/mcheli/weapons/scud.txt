@@ -13,6 +13,8 @@ Sound = missile_scud_snd
 ModelBullet = scud
 Gravity = -0.045
 
+CameraRotationSpeedPitch = 0.3
+
 Group = MainGun
 
 TrajectoryParticle = largeexplode

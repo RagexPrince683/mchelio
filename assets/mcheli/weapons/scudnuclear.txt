@@ -13,6 +13,8 @@ Gravity = -0.045
 nukeYield = 185
 ;70kt
 
+CameraRotationSpeedPitch = 0.3
+
 Group = MainGun
 
 TrajectoryParticle = largeexplode
@@ -43,7 +45,7 @@ Accuracy = 0.0
 
 EnableGunnerMode = True
 
-ReloadTime = 2500
+ReloadTime = 2000
 Round = 1
 MaxAmmo = 1
 SuppliedNum = 1

@@ -49,19 +49,26 @@ Category = M.A
 
 HUD = plane, plane_gnr
 
-AddSeat       =  0.4279,  2.5,  2.411
+AddSeat       =  0.4279,  2.3,  2.411
 
 unmountposition = 0.4279,  2.5,  2.411
 
-AddGunnerSeat = -0.4279,  2.5,  2.411, 0.0, 2.66, 3.78, true
+AddGunnerSeat = -0.4279,  2.5,  2.411, 0.0, 0.66, 3.78, true
 
 AddPartLG         =   0.00,  1.456,  -1.67,  1,0,0,  -90
 AddPartLG         =   0.00,  2.255, -8.032,  1,0,0,  -90
 AddPartSlideRotLG =   0.00,  2.1,  1.6223,  0.00, 0.00, 0.00, 1,0,0, 0
 
+AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
+
 
 AddWeapon = 250kg,   0.00,  1.80, -4.13,  0, 0 , true,  2
 AddWeapon = 250kg,   0.00,  1.80, -6.13,  0, 0 , true,  2
+
+AddWeapon = smallboy,   0.00,  1.80, -6.13,  0, 0 , true,  2
+
+AddWeapon = grandslam,   0.00,  1.80, -6.13,  0, 0 , true,  2
+
 
 BoundingBox = 0.0, 2.6, 0.0, 2.8, 2.8
 BoundingBox = 0.0, 2.6, -2.8, 2.8, 2.8

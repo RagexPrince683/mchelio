@@ -19,6 +19,6 @@ nukeyield = 198
 
 MaxAmmo = 8
 SuppliedNum = 1
-;Item =  1, hbm:item.missile_generic
+Item =  1, hbm:item.missile_micro
 Item =  32, tnt
 Item =  40, redstone
