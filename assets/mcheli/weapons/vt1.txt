@@ -1,20 +1,23 @@
-DisplayName = VT-1
+DisplayName = Roland 3 [VT-1 - Surface To Air Missile]
 Type = AAMissile
-Power = 560
-Acceleration = 3
-Explosion = 4
+Power = 59
+Acceleration = 1.6
+Explosion = 8
 Flaming = false
 Sight = MissileSight
-Delay = 100
+Delay = 10
+
+ReloadTime = 100
+
 Round = 2
 LockTime = 4
-ProximityFuseDist = 1
-SoundVolume = 20
+ProximityFuseDist = 3
+SoundVolume = 15
 Sound = roland
 ModelBullet = rocket
 
 
-Piercing  = 2
+Piercing  = 0
 RigidityTime = 10
 RidableOnly = false
 
@@ -37,8 +40,8 @@ AddMuzzleFlashSmoke =  3, 27,  25.0,  5.0, 110,  220,190,180,180
 AddMuzzleFlashSmoke =  3, 16,  27.0,  7.0, 90,  200,190,170,150
 
 
-MaxAmmo = 16
-SuppliedNum = 16
+MaxAmmo = 10
+SuppliedNum = 5
 Item =  1, iron_ingot
 Item =  1, gunpowder
 Item =  2, redstone

@@ -2,8 +2,12 @@ DisplayName = 23mm AZP-23 [API-T]
 Type = MachineGun2
 ModelBullet = bullet
 Power = 51
-Acceleration = 8.0
-Flaming = false
+
+Explosion = 0
+ExplosionBlock = 0
+FAE = true
+
+Flaming = true
 Sight = MoveSight
 Delay = 0
 SoundDelay = 0
@@ -13,7 +17,7 @@ HeatCount = 1
 MaxHeatCount = 450
 Sound = shilka
 ;ProximityFuseDist = 2.0
-SoundVolume = 10
+
 ;ロックオンするタイプのミサイルの近接信管の動作距離
 ; 1 を指定すると 1m 以内に入ったら爆発
 SetCartridge = cartridge, 0.2, 0.1, -0.1, 2.00, -0.04, 0.40
@@ -34,13 +38,12 @@ Group = maingun
 ReloadTime = 80
 
 Acceleration = 7.5
-Piercing = 0
+Piercing = 2
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 23mm Auto Cannon
 SoundVolume = 15
 
 Round = 500

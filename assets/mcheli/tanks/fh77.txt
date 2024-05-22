@@ -15,6 +15,7 @@ WeightType = Unknown
 DefaultFreelook = true
 ThirdPersonDist = 10
 CameraRotationSpeed = 45
+CameraZoom = 3
 
 SetWheelPos =  0.80,  -0.40,  1.32, 0.05
 
@@ -41,11 +42,12 @@ AddTrackRoller =  -1.0449, 0.1341, 0.0593
 
 HUD = gunner
 
-AddSeat =  2.20, 0.00, -2.20
+AddGunnerSeat =  2.20, 0.00, -2.20, 0.00, 3.7472, -1.2630
 
 unmountposition = 2.20, 1.50, -2.20
 
-CameraPosition = 0.00, 3.7472, -1.2630, true
+CameraPosition = 0.00, 3.7472, -1.2630
+;, true
 
 AddWeapon = fhm77, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -70, 5
 AddWeapon = m549a1_fh77, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -70, 5
@@ -54,6 +56,8 @@ AddWeapon = m864_fh77, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -7
 AddPartWeapon = fhm77 / m549a1_fh77 / m864_fh77, false, true, false,  0.0041, 1.1448, -0.5882
 AddPartWeaponChild  =  false, true,  0.0041, 1.1448, -0.5882
 AddPartWeaponChild  =  false, true,  0.0041, 1.1448, -0.5882, 0.8
+
+AddRecipe = "TBT",  "TXT",  "IDI",  T, iron_ingot, B, diamond_block, X, dispenser, I, iron_ingot, D, stone_button
 
 BoundingBox =  0.0, 1.4, -0.58,  1.4, 1.6
 

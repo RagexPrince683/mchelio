@@ -37,6 +37,8 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
+Recoil = 2.5
+
 
 MaxAmmo = 25
 SuppliedNum = 5
