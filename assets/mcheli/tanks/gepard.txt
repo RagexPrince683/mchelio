@@ -31,7 +31,7 @@ HideEntity = true
 WeightType = Tank
 WeightedCenterZ = 0.0
 DefaultFreelook = true
-SubmergedDamageHeight = 3
+SubmergedDamageHeight = 2
 
 HUD = mbt_hudtherm
 
