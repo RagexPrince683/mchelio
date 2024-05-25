@@ -1,10 +1,10 @@
-DisplayName = 7.5cm Pak 39 L/48 Cannon [PzGr 40 - APCR]
+DisplayName = 7.5cm Pak 39 L/48 Cannon [Hl.Gr 38B - HEAT]
 Type = MachineGun1
 ModelBullet = 75mm
-Power = 182
+Power = 80
 Acceleration = 7.0
-Explosion = 0
-ExplosionBlock = 0
+Explosion = 3
+ExplosionBlock = 2
 ExplosionInWater = 0
 Flaming = false
 Sight = None
@@ -13,23 +13,22 @@ ReloadTime = 150
 SoundPitch = 0.8
 SoundVolume = 15
 Sound = pakfourty
-Gravity = -0.001
-DamageFactor = tank, 3.0
-DamageFactor = plane, 1.5
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.0
-DamageFactor = player, 10.0
+Gravity = -0.007
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+Recoil = 0.45
+Group = MainGun
+Piercing = 0
+Round = 1
 
 HeatCount = 900
 MaxHeatCount = 2050
 
-Recoil = 0.45
-Group = MainGun
-Piercing = 2
-Round = 1
-
 Accuracy = 1.5
-
 
 ; AddMuzzleFlash = distance, size, life time,   A,  R,  G,  B
 AddMuzzleFlash   =     3.2, 1.00,        4, 220,254,159, 74

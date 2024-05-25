@@ -76,16 +76,18 @@ AddShapelessRecipe = iron_block,iron_block
 
 AddPartWeapon = 38tapcbc / 38tapcr, false, true, false,  0.0, 1.5582, 0.00, 0
 ;/ 38the
-AddPartWeaponChild = false, true, 0.2253, 2.0239, 0.8464, 0.15
-AddPartWeaponChild = false, true, 0.01, 2.0239, 0.8464, 0
-AddTurretWeapon = 38tapcbc, 0.22, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,360, -17, 7
-AddTurretWeapon = 38tapcr, 0.22, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,360, -17, 7
-;AddTurretWeapon = 38the, 0.22, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,360, -17, 7
-AddTurretWeapon = 38tvz37, -0.3883, 1.8187, 0,  0.0, 0.0, false,1, 0,-360,360, -17, 7
+AddPartWeaponChild = false, true, 0.2253, 1.5582, 0.8464, 0.15
+AddPartWeaponChild = false, true, 0.01, 1.5582, 0.8464, 0
+AddPartWeaponChild = false, true, -0.3881, 1.8011, 0.9458, 0
+AddTurretWeapon = 38tapcbc, 0.22, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,360,   -25, 10
+AddTurretWeapon = 38tapcr, 0.22, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,360,    -25, 10
+;AddTurretWeapon = 38the, 0.22, 2.0239, 0,  0.0, 0.0, false,1, 0,-360,360,     -25, 10
+AddTurretWeapon = 38tvz37, -0.3883, 1.8187, 0,  0.0, 0.0, false,1, 0,-360,360, -25, 10
+
 
 
 AddPartWeapon = 38taltvz37, false, true, false,  0.3487, 1.1229, 1.5919, 0
-AddTurretWeapon = 38taltvz37, 0.3487, 1.1229, 1.5919,  0.0, 0.0, false,2, 0,-10,5, -8, 0
+AddWeapon = 38taltvz37, 0.3487, 1.1229, 1.5919,  0.0, 0.0, false,2, 0,-10,5, -8, 0
 
 ;turret
 BoundingBox =  0.0, 1.8,  0.0,   1.5, 0.8,  0.35
