@@ -1,7 +1,7 @@
 DisplayName = PL-2 AAM
 Type = AAMissile
 Power = 54
-Acceleration = 3.8
+Acceleration = 3.0
 Explosion = 5
 Flaming = false
 Sight = MissileSight
