@@ -1,7 +1,7 @@
 DisplayName = K-5 AA-1 Alkali [AAM]
 Type = AAMissile
 Power = 54
-Acceleration = 3.5
+Acceleration = 3.3
 Explosion = 4
 Sound = aimnine
 SoundPitch = 0.8

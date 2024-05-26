@@ -1,7 +1,7 @@
 DisplayName = AIM-9B Sidewinder [AAM]
 Type = AAMissile
 Power = 54
-Acceleration = 3.5
+Acceleration = 3.4
 Explosion = 5
 Flaming = false
 Sight = MissileSight
