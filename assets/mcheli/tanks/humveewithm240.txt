@@ -1,6 +1,6 @@
-﻿DisplayName = Fast Back Humvee with Mark 19 Grenade Launcher
-AddDisplayName = ja_JP, Fast Back Humvee with Mark 19 Grenade Launcher
-AddDisplayName = en_US, Fast Back Humvee with Mark 19 Grenade Launcher
+﻿DisplayName = Humvee with M240B
+AddDisplayName = ja_JP, Humvee with M240B
+AddDisplayName = en_US, Humvee with M240B
 ItemID = 30032
 MaxHp = 230
 ThrottleUpDown = 0.81
@@ -13,14 +13,13 @@ Sound = humvee
 MobilityRoll     = 0
 Gravity        = -0.61
 GravityInWater = -1
-DamageFactor   = 0.95
+DamageFactor   = 0.85
 EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 3.0
 ThirdPersonDist = 5
 
-CameraZoom = 2
-
+CameraZoom = 0
 
 SubmergedDamageHeight = 1
 
@@ -34,7 +33,7 @@ EnableBack = true
 
 ;AddTexture = humveewithweapon2
 ;AddTexture = humveewithweaponv
-AddTexture = humvee_mk192
+AddTexture = humveewithm2402
 
 ; Tank or Car or Unknown
 WeightType = Car
@@ -49,7 +48,7 @@ AddSeat =  0.70,  0.18,  0.31
 AddSeat = -0.70,  0.30,  0.31
 AddSeat = -0.67,  0.30, -0.41
 AddSeat =  0.67,  0.30, -0.41
-AddGunnerSeat =  0.00, 1.60,-0.018,   0.00, 2.6, -0.018,  false, -60,  60
+AddGunnerSeat =  0.00, 1.50,-0.018,   0.00, 2.60, -0.018,  false, -60,  60
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.1
@@ -124,19 +123,21 @@ AddFixedSearchLight = -0.5414, 0.7223, 2.5763,      0x20FFFFFF,   0x00FFFFC0,   
 AddFixedSearchLight =  0.965, 0.794,-2.462,   0xFFFF0000,   0x10FF0000,    0.0, 0.16 
 AddFixedSearchLight = -0.965, 0.794,-2.463,   0xFFFF0000,   0x10FF0000,    0.0, 0.16
 
+;EnableNightVision = true
+
 AddWeapon = none, 0.00, 0.00, 0.00,  0.0,0.0
 AddWeapon = horn, 0.00, 0.00, 0.00,  0.0,0.0
 
-AddTurretWeapon = humveemk19,   0.00, 2.30, -0.018,  0.0, 0.0, false, 5, 0, -360, 360, -40,  23
-AddPartWeapon = humveemk19, false, true, false,  0.00, 1.01, -0.018, 0
-AddPartWeaponChild = false, true, 0.00, 2.273, 0.869
+AddTurretWeapon = humveem240,   0.00, 2.12, -0.018,  0.0, 0.0, false, 5, 0, -360, 360, -25,  6
+AddPartWeapon = humveem240, false, true, false,  0.00, 1.01, -0.018, 0
+AddPartWeaponChild = false, true, 0.00, 1.87, 0.742
 
 AddRack = container, 0.0, 1.05, -1.25,   0.0, 0.00, -3.17
 
 EntityWidth  = 0.85
 EntityHeight = 0.85
 
-InventorySize = 18
+InventorySize = 9
 
 
 ;RIP AddRecipe = "BC ",  "   ", "   ",  B, mcheli:Humvee, C, mcheli:basicm2hb
@@ -151,7 +152,74 @@ BoundingBox = 0.0, 0.90, -1.33, 1.9, 1.0, 1.0
 ;BoundingBox = 0.5, 2.0, 1.0,  0.1,   0.8
 ;BoundingBox = -0.5, 2.0, 1.0, 0.1,  0.8
 
+BoundingBox = -0.1, 1.8, 0.8,   0.1,   0.8
+BoundingBox = -0.2, 1.8, 0.8,   0.1,   0.8
+BoundingBox = -0.3, 1.8, 0.8,   0.1,   0.8
+BoundingBox = -0.4, 1.8, 0.8,   0.1,   0.8
+BoundingBox = -0.5, 1.8, 0.8,   0.1,   0.8
+BoundingBox = -0.6, 1.8, 0.8,   0.1,   0.8
+BoundingBox = -0.7, 1.8, 0.8,   0.1,   0.8
 
+BoundingBox = 0.0, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.1, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.2, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.3, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.4, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.5, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.6, 1.8, 0.8,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.8,   0.1,   0.8
+
+
+BoundingBox = 0.7, 1.8, 0.7,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.6,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.5,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.4,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.3,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.2,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.1,   0.1,   0.8
+BoundingBox = 0.7, 1.8, 0.0,   0.1,   0.8
+
+BoundingBox = 0.7, 1.8, -0.1,   0.1,   0.8
+BoundingBox = 0.7, 1.8, -0.2,   0.1,   0.8
+BoundingBox = 0.7, 1.8, -0.3,   0.1,   0.8
+BoundingBox = 0.7, 1.8, -0.4,   0.1,   0.8
+BoundingBox = 0.7, 1.8, -0.5,   0.1,   0.8
+BoundingBox = 0.7, 1.8, -0.6,   0.1,   0.8
+BoundingBox = 0.7,  1.8, -0.7,  0.1,  0.8
+
+BoundingBox = -0.7, 1.8, 0.7,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.6,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.5,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.4,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.3,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.2,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.1,  0.1,  0.8
+BoundingBox = -0.7, 1.8, 0.0,  0.1,  0.8
+
+BoundingBox = -0.7, 1.8, -0.1,  0.1,  0.8
+BoundingBox = -0.7, 1.8, -0.2,  0.1,  0.8
+BoundingBox = -0.7, 1.8, -0.3,  0.1,  0.8
+BoundingBox = -0.7, 1.8, -0.4,  0.1,  0.8
+BoundingBox = -0.7, 1.8, -0.5,  0.1,  0.8
+BoundingBox = -0.7, 1.8, -0.6,  0.1,  0.8
+BoundingBox = -0.7, 1.8, -0.7, 0.1, 0.8
+
+
+BoundingBox = 0.1, 1.8, -0.7, 0.1, 0.8
+BoundingBox = 0.2, 1.8, -0.7, 0.1, 0.8
+BoundingBox = 0.3, 1.8, -0.7, 0.1, 0.8
+BoundingBox = 0.4, 1.8, -0.7, 0.1, 0.8
+BoundingBox = 0.5, 1.8, -0.7, 0.1, 0.8
+BoundingBox = 0.6, 1.8, -0.7, 0.1, 0.8
+
+
+BoundingBox = -0.0, 1.8, -0.7, 0.1, 0.8
+BoundingBox = -0.1, 1.8, -0.7, 0.1, 0.8
+BoundingBox = -0.2, 1.8, -0.7, 0.1, 0.8
+BoundingBox = -0.3, 1.8, -0.7, 0.1, 0.8
+BoundingBox = -0.4, 1.8, -0.7, 0.1, 0.8
+BoundingBox = -0.5, 1.8, -0.7, 0.1, 0.8
+BoundingBox = -0.6, 1.8, -0.7, 0.1, 0.8
 
 
 UnmountPosition = 0.00, 1.50,-0.018
