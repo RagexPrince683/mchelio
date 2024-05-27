@@ -53,11 +53,7 @@ AddSeat       = 0.00,  0.49,  1.75
 AddGunnerSeat = 0.00,  0.99,  0.10,  0.0, 3.20, 0.42,  true
 
 ;AddWeapon = 武器名, 位置X,Y,Z, Yaw, Pitch, パイロットが使用できる？, 座席番号, DefaultYaw,RangeYaw, MinPitch, MaxPitch
-
-AddWeapon = hydra70_l,        1.12,  1.08, -0.33,  1, 0
-AddWeapon = hydra70_l,       -1.12,  1.08, -0.33, -1, 0
-AddWeapon = hydra70_m264rp,   1.12,  1.08, -0.33,  1, 0
-AddWeapon = hydra70_m264rp,  -1.12,  1.08, -0.33, -1, 0
+0
 
 AddWeapon = sam2,  1.82,  1.00, -0.40,  1, 0
 AddWeapon = sam2, -1.82,  1.00, -0.40, -1, 0

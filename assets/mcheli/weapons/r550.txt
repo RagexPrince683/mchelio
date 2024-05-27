@@ -1,8 +1,8 @@
 DisplayName = R.550 Magic AAM
 Type = AAMissile
-Power = 60
-Acceleration = 4
-Explosion = 5
+Power = 56
+Acceleration = 3.7
+Explosion = 4
 Flaming = false
 Sight = MissileSight
 Delay = 90
