@@ -2,7 +2,7 @@ DisplayName = 30mm 2A38M Cannon [HEF-T]
 Type = MachineGun2
 Power = 9
 ModelBullet = bullet
-Acceleration = 46.8
+
 Explosion = 4
 ExplosionBlock = 1
 Flaming = false
@@ -15,6 +15,8 @@ Accuracy = 0.0
 HeatCount = 1
 MaxHeatCount = 150
 Gravity = -0.001
+
+BulletColor = 230, 200, 20, 80
 
 Round = 351
 

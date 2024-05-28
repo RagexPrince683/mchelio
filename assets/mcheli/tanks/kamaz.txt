@@ -63,6 +63,7 @@ BoundingBox =  0.0, 1.9,  -4.8,    3.8, 0.3
 
 BoundingBox =  0.0, 1.25,  5.8,    1.2, 1.2
 BoundingBox =  0.0, 2.45,  5.8,    1.2, 1.2
+BoundingBox =  0.0, 2.45,  6.8,    1.2, 1.2
 
 AddRack = container,   1.02, 2.12, 1.61,  0.0, 0.0, -9.18,  8.0,   20
 AddRack = container,   1.02, 3.02, 1.61,  0.0, 0.0, -9.18,  8.0,   20

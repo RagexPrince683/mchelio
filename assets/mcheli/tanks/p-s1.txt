@@ -138,10 +138,10 @@ TurretPosition = 0.0, 2.0, 0.0
 AddPartWeapon 		= pas2a38_ap/pas2a38_hei,    false, true,  false, 0.00,  2.5, 0.0, 0
 AddPartWeaponChild 		= false, true, 0.0, 3.3, -0.805
 
-AddTurretWeapon			= pas2a38_ap,    0.7338, 3.3009, -0.0,    0.0, 0.0,    false,  2,  0,-360,360, -85, 1
-AddTurretWeapon			= pas2a38_ap,   -0.7338, 3.3009, -0.0,   -0.0, 0.0,    false,  2,  0,-360,360, -85, 1
-AddTurretWeapon			= pas2a38_hei,   0.7338, 3.3009, -0.0,    0.0, 0.0,    false,  2,  0,-360,360, -85, 1
-AddTurretWeapon			= pas2a38_hei,  -0.7338, 3.3009, -0.0,   -0.0, 0.0,    false,  2,  0,-360,360, -85, 1
+AddTurretWeapon			= pas2a38_ap,    0, 3.3009, -0.0,    1.0, 0.0,    false,  2,  0,-360,360, -85, 1
+AddTurretWeapon			= pas2a38_ap,   -0, 3.3009, -0.0,   -1.0, 0.0,    false,  2,  0,-360,360, -85, 1
+AddTurretWeapon			= pas2a38_hei,   0, 3.3009, -0.0,    1.0, 0.0,    false,  2,  0,-360,360, -85, 1
+AddTurretWeapon			= pas2a38_hei,  -0, 3.3009, -0.0,   -1.0, 0.0,    false,  2,  0,-360,360, -85, 1
 
 
 ;AddTurretWeapon = KDA_APDS,  1.11, 2.71, -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
