@@ -2,16 +2,16 @@ DisplayName = 105mm JSW Cannon [Type 93 APFSDS]
 Type = MachineGun2
 Power = 405
 ModelBullet = bullet105mm
-Acceleration = 4.8
+
 Explosion = 0
 ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
-Delay = 84
-ModeNum = 1
-Piercing  = 2
+
+
+
 SoundPitch = 0.5
-SoundVolume = 20
+
 SoundPitchRandom = 0.1
 Sound = typesixteenmain
 Gravity = -0.001

@@ -1,9 +1,9 @@
-﻿DisplayName = Type 16 JGSDF Maneuver Combat Vehicle
+﻿DisplayName = Type 16 Maneuver Combat Vehicle
 AddDisplayName = en_US, Type 16 Maneuver Combat Vehicle
 AddDisplayName = ja_JP, 陸上自衛隊 機動戦闘車
 ItemID = 30070
 MaxHp = 200
-Speed = 0.6
+Speed = 0.62
 Sound = mcv
 ThrottleUpDown = 2
 MaxFuel         = 1000
@@ -22,7 +22,7 @@ CameraZoom = 10
 
 ;CameraPosition = 0.00, 3.40, 0.00, true
 ;CameraZoom = 10
-CameraRotationSpeed = 35
+CameraRotationSpeed = 18
 
 ;, gunner, gunner
 ;EnableGunnerMode = true

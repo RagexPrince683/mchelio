@@ -1,11 +1,11 @@
-DisplayName = JTAC
-AddDisplayName = en_US, JTAC
+DisplayName = Lightweight Laser Designator Rangefinder AN/PED-1 [Advanced 'JTAC' System]
+AddDisplayName = en_US, Lightweight Laser Designator Rangefinder AN/PED-1 [Advanced 'JTAC' System]
 
 MaxHP = 50
 Speed = 0
 Gravity = -0.61
 GravityInWater = -1.0
-CameraPosition = 0.0, 1.0, 0.0
+CameraPosition = 0.0, 1.4, 0.0
 CameraZoom = 16
 MinRotationPitch = -50
 MaxRotationPitch = 0
@@ -27,9 +27,12 @@ AddPartWeapon = false, true, true, 0, 0.00, 0.4851, 0.0
 
 
 AddWeapon = a10gau8,  0.00, 2.39, 0.00, 0.0, 0.0, true,  1 , 0, -360, 360, -16,6
+AddWeapon = rangefinder,  0.00, 2.39, 0.00, 0.0, 0.0, true,  1 , 0, -360, 360, -16,6
 AddWeapon = targeting_pod_block,  0.00, 2.39, 0.00, 0.0, 0.0, true,  1 , 0, -360, 360, -16,6
 AddWeapon = targeting_pod_all100s,  0.00, 2.39, 0.00, 0.0, 0.0, true,  1 , 0, -360, 360, -16,6
 
 Speed = 0
+
+Sound = none
 
 SmallUAV = true

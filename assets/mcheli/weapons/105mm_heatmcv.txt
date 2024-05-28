@@ -2,13 +2,13 @@ DisplayName = 105mm JSW Cannon [Type 91 HEAT]
 Type = MachineGun2
 Power = 400
 ModelBullet = bullet105mm
-Acceleration = 4.5
+
 Explosion = 5
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
-Delay = 84
-ModeNum = 1
+
+
 SoundPitch = 0.5
 SoundVolume = 20
 Sound = typesixteenmain
