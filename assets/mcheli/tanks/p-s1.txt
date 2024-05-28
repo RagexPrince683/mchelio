@@ -4,8 +4,8 @@ AddDisplayName = ja_JP, Pantsir 自走式近距離防空システム
 MaxHp = 150
 Speed = 0.43
 Sound = kamaz
-ThrottleUpDown = 2
-MobilityYawOnGround = 4.5
+ThrottleUpDown = 0.81
+MobilityYawOnGround = 2.5
 MaxFuel         = 1000
 FuelConsumption = 0.8
 CameraZoom = 6
@@ -35,7 +35,7 @@ EnableBack = true
 
 AddTexture = p-s1_1
 
-SubmergedDamageHeight = 3
+SubmergedDamageHeight = 2
 
 ;  M = Military,  A = AAGun(対空砲)
 Category = M.A
@@ -45,7 +45,7 @@ WeightType = Car
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = bnr32_hud, mbt_hud, gunner, none, none
+HUD = bnr32_hud, mbt_gnr, gunner, none, none
 
 EntityWidth  = 0.7
 EntityHeight = 0.7
@@ -59,6 +59,8 @@ AddSeat =  0.71, 1.42, 6.08
 CameraPosition = 0.0, 4.4, 0.0
 
 AddGunnerSeat =  0.16, 1.52, 3.42,  0.0, 4.4, 0.0, false, -85, 1, false
+
+
 
 
 AddSeat = -0.05, 1.42, 6.08
@@ -128,7 +130,7 @@ TrackRollerRot = 30
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddPartWeapon 		= mfom227mm,    false, true,  false, 0.00,  1.0628, -2.3196
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddPartWeaponChild 		= false, true, 0.00,  1.4128, -3.8959
 
-;TurretPosition = 0.0, 2.0, 0.0
+TurretPosition = 0.0, 2.0, 0.0
 
 ;AddPartWeapon = KDA_APDS / KDA_HEI, false, true, false,  0.00, 1.63, -0.0, 0
 ;AddPartWeaponChild = false, true,  0.00, 2.59, -1.13
@@ -136,10 +138,10 @@ TrackRollerRot = 30
 AddPartWeapon 		= pas2a38_ap/pas2a38_hei,    false, true,  false, 0.00,  2.5, 0.0, 0
 AddPartWeaponChild 		= false, true, 0.0, 3.3, -0.805
 
-AddTurretWeapon			= pas2a38_ap,    0.7338, 3.3009, -0.805,    0.0, 0.0,    false,  2,  0,-360,360, -85, 1
-AddTurretWeapon			= pas2a38_ap,   -0.7338, 3.3009, -0.805,   -0.0, 0.0,    false,  2,  0,-360,360, -85, 1
-AddTurretWeapon			= pas2a38_hei,   0.7338, 3.3009, -0.805,    0.0, 0.0,    false,  2,  0,-360,360, -85, 1
-AddTurretWeapon			= pas2a38_hei,  -0.7338, 3.3009, -0.805,   -0.0, 0.0,    false,  2,  0,-360,360, -85, 1
+AddTurretWeapon			= pas2a38_ap,    0.7338, 3.3009, -0.0,    0.0, 0.0,    false,  2,  0,-360,360, -85, 1
+AddTurretWeapon			= pas2a38_ap,   -0.7338, 3.3009, -0.0,   -0.0, 0.0,    false,  2,  0,-360,360, -85, 1
+AddTurretWeapon			= pas2a38_hei,   0.7338, 3.3009, -0.0,    0.0, 0.0,    false,  2,  0,-360,360, -85, 1
+AddTurretWeapon			= pas2a38_hei,  -0.7338, 3.3009, -0.0,   -0.0, 0.0,    false,  2,  0,-360,360, -85, 1
 
 
 ;AddTurretWeapon = KDA_APDS,  1.11, 2.71, -0.64,  0.0, 0.0, true,1, 0,-360,360, -85, 10
