@@ -28,10 +28,12 @@ AddChildPart =  true, false, true,  2,   0.00, 1.55, 2.30,1
 AddChildPart =  true, false, true,  2,   0.00, 1.55, 2.30,1
 AddChildPart =  true, false, true,  2,   0.00, 1.55, 2.30,1
 
+AddWeapon = 46cmap,         2.77, 1.55, 2.00,  0.0, 0.0
+AddWeapon = 46cmap,        -2.77, 1.55, 2.00,  0.0, 0.0
+AddWeapon = 46cmap,         0.00, 1.55, 2.00,  0.0, 0.0
 AddWeapon = 46cm,         2.77, 1.55, 2.00,  0.0, 0.0
 AddWeapon = 46cm,        -2.77, 1.55, 2.00,  0.0, 0.0
 AddWeapon = 46cm,         0.00, 1.55, 2.00,  0.0, 0.0
-
 AddWeapon = type3bullet_46,  2.77, 1.55, 2.00,  0.0, 0.0
 AddWeapon = type3bullet_46, -2.77, 1.55, 2.00,  0.0, 0.0
 AddWeapon = type3bullet_46,  0.00, 1.55, 2.00,  0.0, 0.0

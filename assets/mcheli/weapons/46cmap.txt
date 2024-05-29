@@ -1,12 +1,12 @@
-DisplayName = 46cm Type91 Naval Cannon [HE] 
+DisplayName = 46cm Type91 Naval Cannon [AP] 
 Type = MachineGun1
 ModelBullet = 91ap_46
-Power = 100
+Power = 570
 Acceleration = 6
 AccelerationInWater = 4.0
-Explosion = 15
-ExplosionBlock = 10
-ExplosionInWater = 10
+Explosion = 6
+ExplosionBlock = 4
+ExplosionInWater = 8
 Flaming = false
 Sight = MoveSight
 Delay = 10
