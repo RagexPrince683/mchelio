@@ -12,7 +12,7 @@ SoundVolume = 1
 SoundPitch = 1.0
 Sound = bradmain
 Accuracy = 1.0
-ModeNum = 2
+
 Recoil = 0.9
 Gravity = -0.005
 HeatCount = 10

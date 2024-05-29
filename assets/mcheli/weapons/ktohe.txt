@@ -13,7 +13,7 @@ SoundVolume = 1
 SoundPitch = 1.0
 Sound = bradmain
 Accuracy = 1.0
-ModeNum = 2
+
 Recoil = 0.9
 HeatCount = 10
 MaxHeatCount = 150
