@@ -1,15 +1,18 @@
 DisplayName = KTO Rosomak
 MaxHp = 200
-Speed = 0.73
+Speed = 0.62
 Sound = mcv
-ThrottleUpDown = 20.0
+ThrottleUpDown = 2.0
 HideEntity = true
-MobilityYawOnGround = 4.0
-MinRotationPitch = -30
-MaxRotationPitch = 5
+MobilityYawOnGround = 3.0
+MinRotationPitch = -42
+MaxRotationPitch = 10
 MobilityRoll = 0
 Gravity = -0.61
-GravityInWater = -1.0
+Float = true
+FloatOffset = 0.0
+
+GravityInWater = -0.2
 DamageFactor = 0.0
 CameraZoom = 4
 CameraPosition = -0.01,  3.5, -0.01, true
@@ -18,32 +21,49 @@ CameraRotationSpeed = 50
 FlareType = 10
 MaxFuel = 1200
 FuelConsumption = 2.7
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = true
 OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 1.0
 FlareType = 10
 ThirdPersonDist = 8
 
+PivotTurnThrottle = 0.1
+
 
 SubmergedDamageHeight = 4
 
 
-HUD = mbt_hud, 
+HUD = mbt_hud, none, none, none, none, none,none, none, none
 
 MotionFactor = 0.925
-ArmorMinDamage = 14
-ArmorMaxDamage = 600
-ArmorDamageFactor = 0.90
+ArmorMinDamage = 31
+;ArmorMaxDamage = 600
+;ArmorDamageFactor = 0.90
 EnableBack = true
-PivotTurnThrottle = 0.0
+
 
 WeightType = Tank
 
-SetWheelPos =  1.37,  -0.32,  3.60, 1.43, -0.75
+SetWheelPos =  1.07,  -0.32,  3.40, 1.83, -0.14, -1.75
 
-AddGunnerSeat =  0.00, 1.68,  3.00, 0.00, 2.56, 1.4644, false, -15, 6, false
- 
+AddGunnerSeat =  0.00, 1.68,  3.00, 0.00, 2.56, 1.4644, false, -42, 10, false
+
+
+unmountposition = 0.00, 1.68,  3.00
+
+AddSeat = 0.5, 0.78, -0.741
+AddSeat = -0.5, 0.78, -0.741
+
+AddSeat = 0.5, 0.78, -1.6
+AddSeat = -0.5, 0.78, -1.6
+
+AddSeat = 0.5, 0.78, -2.3
+AddSeat = -0.5, 0.78, -2.3
+
+AddSeat = 0.5, 0.78, -2.6
+AddSeat = -0.5, 0.78, -2.6
+
 
 AddPartWheel = 1.35,  0.34,  3.40, 30
 AddPartWheel = 1.35,  0.34,  1.83, 30 
@@ -58,8 +78,8 @@ AddPartWheel = -1.34,  0.34,  3.40, 30
 AddPartWeapon = ktoap / ktohe, false, true, false,  0.0, 0.0, 0.0, 0
 AddPartWeaponChild = false, true, -0.0617, 2.7060, 0.95, 0.0,
 AddPartWeaponChild = false, true, -0.0617, 2.7060, 0.95, 0.2,
-AddTurretWeapon = ktoap, 0.02, 2.7, 1.1,  0.0, 0.0, false, 1, 0,-360,360, -22, 13
-AddTurretWeapon = ktohe,  0.02, 2.7, 1.1,  0.0, 0.0, false, 1, 0,-360,360, -22, 13
+AddTurretWeapon = ktoap, 0.02, 2.7, 1.1,  0.0, 0.0, false, 1, 0,-360,360, -42, 10
+AddTurretWeapon = ktohe,  0.02, 2.7, 1.1,  0.0, 0.0, false, 1, 0,-360,360, -42, 10
 
 
 
