@@ -1,8 +1,8 @@
-DisplayName = Mk45 Mk80 [HE-PD] 127mm gun
+DisplayName = 127mm Mk45 Mk80 Cannon [HE-PD] 
 Type = Rocket
 Power = 127
 ModelBullet = bullet76mm
-Acceleration = 20.0
+Acceleration = 7.0
 Explosion = 6
 ExplosionInWater = 5
 ExplosionBlock = 6
@@ -19,12 +19,15 @@ Sound = mk45_snd
 ; RecoilBufCount = 駐退カウント, 後退中のカウント倍率
 RecoilBufCount = 18, 6
 
-DamageFactor = tank, 2.0
-DamageFactor = vehicle, 2.0
+
 DisplayMortarDistance = true
 FixCameraPitch = true
 CameraRotationSpeedPitch = 0.3
-
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 AddMuzzleFlash      = 8.0,      0.85,        1,  150,254,219,154
 AddMuzzleFlash      = 8.1,      0.80,        1,  150,254,219,184
 AddMuzzleFlashSmoke = 9.2,  12, 14.0,  3.0, 25,  160,160,140,120

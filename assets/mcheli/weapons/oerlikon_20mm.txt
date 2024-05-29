@@ -13,7 +13,7 @@ HeatCount = 2
 MaxHeatCount = 120
 Gravity = -0.005
 SoundVolume = 15
-
+ModelBullet = bullet
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0

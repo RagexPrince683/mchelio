@@ -16,8 +16,7 @@ DisableSmoke = true
 Sound = ww2tankshot_snd
 Gravity = -0.001
 SoundVolume = 15
-DamageFactor = helicopter, 1.0
-DamageFactor = plane,      1.0
+
 RecoilBufCount = 40, 5
 
 

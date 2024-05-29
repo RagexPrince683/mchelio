@@ -1,4 +1,4 @@
-﻿DisplayName = D-30
+﻿DisplayName = D-30 122mm Howitzer 
 AddDisplayName = ja_JP, D-30
 ItemID = 28602
 MaxHp = 200

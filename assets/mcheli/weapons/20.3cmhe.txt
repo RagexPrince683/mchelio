@@ -1,8 +1,8 @@
-DisplayName = 20.3cm SK C/34 Cannon [L/4.4 m.Hb - APBC]
+DisplayName = 20.3cm SK C/34 Cannon [L/4.7 Kz - HE]
 Type = Rocket
-Power = 421
-Explosion = 6
-ExplosionBlock = 3
+Power = 61
+Explosion = 15
+ExplosionBlock = 8
 Acceleration = 4.0
 SoundVolume = 1.0
 Sound = cannon_4_snd
@@ -15,12 +15,12 @@ Gravity = -0.005
 ReloadTime = 800
 Recoil = 5
 Round = 1
-Piercing = 2
+Piercing = 0
 Accuracy = 0.0
-DamageFactor = tank, 3.0
+DamageFactor = tank, 2.0
 DamageFactor = plane, 1.5
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.0
+DamageFactor = vehicle 1.5
+DamageFactor = heli, 1.5
 DamageFactor = player, 10.0
 
 

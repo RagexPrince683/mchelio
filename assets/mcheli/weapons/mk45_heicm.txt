@@ -1,10 +1,6 @@
-DisplayName = Mk45 Mk127 [HE-ICM] 127mm gun
+DisplayName = 127mm Mk45 Mk127 [HE-ICM]
 Type = Rocket
 Power = 100
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
 ModelBullet = bullet76mm
 Acceleration = 7.0
 Explosion = 3

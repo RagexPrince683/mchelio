@@ -1,6 +1,6 @@
-DisplayName = 15cm Gun [VT]
+DisplayName = 128mm Flak 40 Cannon [VT]
 Type = MachineGun2
-Power = 42
+Power = 37
 ModelBullet = bullet76mm
 Acceleration = 7.0
 Explosion = 8

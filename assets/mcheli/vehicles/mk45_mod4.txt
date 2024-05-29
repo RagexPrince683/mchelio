@@ -1,7 +1,7 @@
-﻿DisplayName = Mk45mod4  127mm gun
+﻿DisplayName = Mark 45 mod4 127mm gun
 AddDisplayName = ja_JP, Mk45 Mod4 5インチ砲
 ItemID = 28601
-MaxHp = 200
+MaxHp = 100
 HideEntity = true
 MinRotationPitch = -65
 MaxRotationPitch =  15
@@ -29,7 +29,6 @@ AddWeapon = mk45, 0.00, 1.915, 0.0,   0.0, -1.0,   true,1, 0,-360,360, -65, 15
 AddWeapon = mk45_hecvt, 0.00, 1.915, 0.0,   0.0, -1.0,   true,1, 0,-360,360, -65, 15
 AddWeapon = mk45_hepd, 0.00, 1.915, 0.0,   0.0, -1.0,   true,1, 0,-360,360, -65,15
 AddWeapon = mk45_heicm, 0.00, 1.915, 0.0,   0.0, -1.0,   true,1, 0,-360,360, -65, 15
-AddWeapon = mk45_ms_sgp, 0.00, 1.915, 0.0,   0.0, -1.0,   true,1, 0,-360,360, -65, 15
 AddTurretWeapon = mk45_illummt, 0.00, 180.0, 70.0,   0.0, -1.0,   true,1, 0,-360,360, -65, 15
 
 AddRecipe = "ZXZ",  "XDR",  "ZXR",  X, iron_block, R, redstone_block, Z, iron_ingot, D, dispenser

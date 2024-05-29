@@ -1,4 +1,4 @@
-DisplayName = 25mm Machine Gun
+DisplayName = 25mm Type 96 Autocannon
 Type = MachineGun2
 Power = 18
 Acceleration = 8.0

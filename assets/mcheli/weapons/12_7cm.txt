@@ -1,10 +1,10 @@
-DisplayName = 12.7cm Gun
+DisplayName = 12.7cm 5 inch/40 Type 89 Gun [127 mm HE - HE]
 Type = MachineGun2
-Power = 80
+Power = 25
 ModelBullet = bullet76mm
 Acceleration = 6.0
-Explosion = 3
-ExplosionBlock = 1
+Explosion = 5
+ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
 Delay = 10

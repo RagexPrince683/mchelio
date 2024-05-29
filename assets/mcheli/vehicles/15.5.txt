@@ -32,7 +32,9 @@ AddPart		 = false, true, true,  2,   0.00, 0.00, 0.00, 1
 AddWeapon = 15_5cm,   1.56, 1.07, 2.91,   0.0, -1.0
 AddWeapon = 15_5cm,   0.00, 1.07, 2.91,   0.0, -1.0
 AddWeapon = 15_5cm,  -1.56, 1.07, 2.91,   0.0, -1.0
-
+AddWeapon = 15_5cmhe,   1.56, 1.07, 2.91,   0.0, -1.0
+AddWeapon = 15_5cmhe,   0.00, 1.07, 2.91,   0.0, -1.0
+AddWeapon = 15_5cmhe,  -1.56, 1.07, 2.91,   0.0, -1.0
 
 AddWeapon = type3bullet_15_5,   1.56, 1.07, 2.91,   0.0, -1.0
 AddWeapon = type3bullet_15_5,   0.00, 1.07, 2.91,   0.0, -1.0

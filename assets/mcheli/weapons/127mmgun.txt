@@ -1,10 +1,10 @@
-DisplayName = Otobreda 127/64 Naval Gun
+DisplayName = 127mm Otobreda 127/64 Naval Gun [HE]
 Type = MachineGun2
-Power = 60
+Power = 40
 ModelBullet = bullet76mm
-Acceleration = 8.0
-Explosion = 3
-ExplosionBlock = 2
+Acceleration = 5.0
+Explosion = 4
+ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
 Delay = 15
