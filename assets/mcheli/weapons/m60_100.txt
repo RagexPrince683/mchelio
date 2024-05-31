@@ -1,4 +1,4 @@
-DisplayName = M60 7.62x51mm M80 [Ball]
+DisplayName = 7.62x51mm M60 Machine Gun [M80 - Ball]
 Type = MachineGun2
 Power = 8
 Acceleration = 8.0
