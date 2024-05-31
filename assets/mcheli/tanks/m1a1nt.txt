@@ -48,7 +48,6 @@ AddGunnerSeat =  0.00,  1.25,  2.25,    0.00,  2.50,  0.25,  false, -90, 90, tru
 AddGunnerSeat = -0.55,  1.00, -0.96,   -0.846, 3.60,  0.373, false, -90, 90, true
 AddGunnerSeat =  0.55,  2.50, -0.96,    0.55,  3.60, -0.96,  false, -90, 90, true
 
-AddTexture = m1a1nt_1
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.9
