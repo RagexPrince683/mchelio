@@ -1,7 +1,7 @@
 DisplayName = 57E6 Surface-to-Air Missiles
 Type = AAMissile
 Power = 200
-Acceleration = 5
+Acceleration = 3.8
 Explosion = 4
 ModelBullet = 57e6
 Sight = MissileSight

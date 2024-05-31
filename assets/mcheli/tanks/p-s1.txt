@@ -24,6 +24,8 @@ MotionFactor = 0.9
 DamageFactor = 1.0
 EnableBack = true
 
+ThirdPersonDist = 8
+
 ;CameraRotationSpeed
 
 
