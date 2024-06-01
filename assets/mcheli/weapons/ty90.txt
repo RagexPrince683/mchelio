@@ -1,11 +1,11 @@
 DisplayName = TY-90 Air To Air Missile
 Type = AAMissile
-Power = 85
+Power = 3
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 5
+Acceleration = 2.0
 Explosion = 7
 Flaming = false
 Sight = MissileSight

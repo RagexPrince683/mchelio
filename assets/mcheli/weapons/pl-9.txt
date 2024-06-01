@@ -1,11 +1,11 @@
 DisplayName = PL-9 Anti-Air Missile
 Type = AAMissile
-Power = 54
+Power = 12
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 3.1
+Acceleration = 2.4
 Explosion = 4
 Flaming = false
 Sight = MissileSight

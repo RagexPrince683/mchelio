@@ -1,11 +1,11 @@
 DisplayName = R-73 Air To Air Missile
 Type = AAMissile
-Power = 50
+Power = 7
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 3.3
+Acceleration = 2.5
 Explosion = 4
 Flaming = false
 Sight = MissileSight

@@ -1,7 +1,7 @@
 DisplayName = HY-6 [SAM]
 Type = AAMissile
-Power = 52
-Acceleration = 3
+Power = 10
+Acceleration = 2.5
 Explosion = 4
 Flaming = false
 Sight = MissileSight

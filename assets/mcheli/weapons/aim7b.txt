@@ -1,7 +1,7 @@
 DisplayName = AIM-7B Sparrow [AAM]
 Type = AAMissile
-Power = 68
-Acceleration = 2.8
+Power = 40
+Acceleration = 2.5
 Explosion = 5
 Flaming = false
 Sight = MissileSight

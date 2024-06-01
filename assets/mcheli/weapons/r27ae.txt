@@ -1,11 +1,11 @@
 DisplayName = R-27AE [AAM]
 Type = AAMissile
-Power = 68
+Power = 39
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 5.5
+Acceleration = 4.5
 Explosion = 6
 Flaming = false
 Sight = MissileSight

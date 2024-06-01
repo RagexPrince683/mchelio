@@ -1,7 +1,7 @@
 DisplayName = RIM-174 Standard ERAM
 Type = AAMissile
-Power = 150
-Acceleration = 5.0
+Power = 64
+Acceleration = 3.5
 Explosion = 5
 Sight = MissileSight
 Delay = 0

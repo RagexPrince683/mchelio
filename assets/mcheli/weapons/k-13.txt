@@ -1,7 +1,7 @@
 DisplayName = K-13 [AAM]
 Type = AAMissile
-Power = 54
-Acceleration = 3.8
+Power = 7
+Acceleration = 2.5
 Explosion = 4
 Flaming = false
 Sight = MissileSight

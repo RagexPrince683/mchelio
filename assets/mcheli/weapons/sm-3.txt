@@ -1,14 +1,14 @@
 DisplayName = RIM-161E SM-3 Block‡UA
 Type = AAMissile
-Power = 174
-Acceleration = 6
+Power = 100
+Acceleration = 8.8
 Explosion = 8
 Flaming = false
 Sight = MissileSight
 Delay = 20
 ReloadTime = 110
 LockTime = 12
-ProximityFuseDist = 1
+ProximityFuseDist = 3
 ModelBullet = aim7
 Sound = missile_cruise_snd
 

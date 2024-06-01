@@ -1,11 +1,11 @@
 DisplayName = PL-12 Anti-Air Missile 
 Type = AAMissile
-Power = 65
+Power = 20
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 5
+Acceleration = 4
 Explosion = 7
 Flaming = false
 Sight = MissileSight

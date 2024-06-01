@@ -1,11 +1,11 @@
 DisplayName = PL-8 Anti-Air Missile
 Type = AAMissile
-Power = 52
+Power = 11
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 4.6
+Acceleration = 3.5
 Explosion = 7
 Flaming = false
 Sight = MissileSight

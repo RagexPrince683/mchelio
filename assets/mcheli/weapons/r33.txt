@@ -1,7 +1,7 @@
 DisplayName = R33
 Type = AAMissile
-Power = 400
-Acceleration = 5
+Power = 47
+Acceleration = 4.5
 Explosion = 2
 Flaming = true
 Delay = 30

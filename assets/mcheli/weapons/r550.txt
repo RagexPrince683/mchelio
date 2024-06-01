@@ -1,7 +1,7 @@
-DisplayName = R.550 Magic AAM
+DisplayName = R.550 Magic [AAM]
 Type = AAMissile
-Power = 56
-Acceleration = 3.7
+Power = 12
+Acceleration = 3.0
 Explosion = 4
 Flaming = false
 Sight = MissileSight

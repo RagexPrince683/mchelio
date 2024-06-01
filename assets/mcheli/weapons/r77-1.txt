@@ -1,11 +1,11 @@
 DisplayName = R-77-1 AAM
 Type = AAMissile
-Power = 77
+Power = 22
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 5
+Acceleration = 4
 Explosion = 5
 Flaming = false
 Sight = MissileSight

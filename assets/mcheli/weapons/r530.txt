@@ -1,7 +1,7 @@
-DisplayName = R.530 AAM
+DisplayName = R.530 [AAM]
 Type = AAMissile
-Power = 68
-Acceleration = 5
+Power = 27
+Acceleration = 2.7
 Explosion = 5
 Flaming = false
 Sight = MissileSight

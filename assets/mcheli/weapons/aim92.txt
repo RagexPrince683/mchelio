@@ -1,7 +1,7 @@
 DisplayName = AIM-92 Stinger
 Type = AAMissile
-Power = 42
-Acceleration = 3
+Power = 10
+Acceleration = 2.2
 Explosion = 4
 Flaming = false
 Sight = MissileSight

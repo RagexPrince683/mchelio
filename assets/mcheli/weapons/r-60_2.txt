@@ -1,11 +1,11 @@
 DisplayName = R-60 [AAM]
 Type = AAMissile
-Power = 50
+Power = 9
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 3.4
+Acceleration = 2.5
 Explosion = 4
 Flaming = false
 Sight = MissileSight

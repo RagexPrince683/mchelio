@@ -1,7 +1,7 @@
 DisplayName = RIM-66 [SAM]
 Type = AAMissile
-Power = 80
-Acceleration = 4.5
+Power = 70
+Acceleration = 3.5
 Explosion = 6
 Flaming = true
 Sight = MissileSight
