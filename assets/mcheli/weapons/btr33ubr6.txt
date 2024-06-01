@@ -28,8 +28,13 @@ Gravity = -0.005
 AddMuzzleFlash      =  3.0,      0.50,        3,  200,254,129,44
 AddMuzzleFlash      =  3.0,      0.50,        3,  200,254,219,104
 
+;2a42
+Delay = 1
 HeatCount = 7
 MaxHeatCount = 150
+
+;tracer
+BulletColor = 230, 200, 20, 80 
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
@@ -45,6 +50,6 @@ DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 2A42 30mm Cannon 3UBR6 [APBC-T]
+
 SoundVolume = 15
 

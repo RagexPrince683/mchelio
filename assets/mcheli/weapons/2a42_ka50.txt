@@ -8,14 +8,20 @@ Sight = MoveSight
 Delay = 2
 ReloadTime = 120
 Round = 250
-SoundVolume = 3
+SoundVolume = 15
 SoundPitch = 1.0
 Sound = 2A42_30mm_snd
 Accuracy = 0.5
 ModeNum = 2
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
+;2a42
+Delay = 1
 HeatCount = 7
 MaxHeatCount = 150
+
+
+;tracer
+;BulletColor = 230, 200, 20, 80 
 
 AddMuzzleFlash      =   2.1,      0.32,        3,  150,254,159,84
 AddMuzzleFlash      =   2.0,      0.30,        2,  150,254,219,184
@@ -35,4 +41,3 @@ DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 SoundVolume = 15
-AddDisplayName = en_US, 2A42 30mm Cannon

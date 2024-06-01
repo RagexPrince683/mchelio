@@ -6,17 +6,26 @@ Piercing = 2
 Explosion = 0
 Flaming = false
 Sight = MoveSight
-Delay = 2
+
 ReloadTime = 120
 Round = 250
 SoundVolume = 15
 SoundPitch = 1.0
 Sound = kba2_snd
-Accuracy = 0.5
+Accuracy = 1.5
 ;ModeNum = 1
 Gravity = -0.005
-HeatCount = 7
+
+;2a72
+Delay = 2
+HeatCount = 5
 MaxHeatCount = 150
+
+;tracer
+;BulletColor = 230, 200, 20, 80 
+
+
+
 
 Group = maingun
 

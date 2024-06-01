@@ -1,6 +1,6 @@
-DisplayName = 12.7mm WKM-B Heavy Machine Gun
+DisplayName = 7.62mm UKM-2000 Machine Gun
 Type = MachineGun2
-Power = 31
+Power = 7
 Acceleration = 8.0
 Explosion = 0
 Sight = MoveSight
@@ -10,7 +10,7 @@ Delay = 1
 SoundPitch = 1.0
 Round = 150
 ReloadTime = 80
-Sound = dshk
+Sound = pkt
 Accuracy = 1.5
 HeatCount = 5
 MaxHeatCount = 150

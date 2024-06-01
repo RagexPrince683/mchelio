@@ -6,7 +6,7 @@ Explosion = 2
 ExplosionBlock = 1
 Flaming = true
 Sight = MoveSight
-Delay = 2
+
 ReloadTime = 120
 Round = 250
 
@@ -15,8 +15,14 @@ Sound = bmptwomain
 Accuracy = 0.5
 ;ModeNum = 1
 group = maingun
-HeatCount = 7
+;2a72
+Delay = 2
+HeatCount = 5
 MaxHeatCount = 150
+
+;tracer
+;BulletColor = 230, 200, 20, 80 
+
 
 Gravity = -0.005
 

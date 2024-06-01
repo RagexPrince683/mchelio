@@ -11,7 +11,7 @@ Sight = MoveSight
 Delay = 3
 ReloadTime = 120
 Round = 100
-SoundVolume = 3
+
 SoundPitch = 1.0
 Sound = rcvtwentyfive
 Accuracy = 1.5

@@ -12,11 +12,16 @@ Round = 250
 SoundVolume = 3
 SoundPitch = 1.0
 Sound = 2A42_30mm_snd
-Accuracy = 1.5
+Accuracy = 0
 ModeNum = 1
 Gravity = -0.005
+;2a42
+Delay = 1
 HeatCount = 7
 MaxHeatCount = 150
+
+;tracer
+;BulletColor = 230, 200, 20, 80 
 
 Group = second
 

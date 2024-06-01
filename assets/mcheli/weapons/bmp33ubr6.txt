@@ -7,7 +7,7 @@ Explosion = 0
 
 Flaming = false
 Sight = MoveSight
-Delay = 2
+
 ReloadTime = 120
 Round = 250
 
@@ -23,8 +23,14 @@ Gravity = -0.005
 
 DisplayMortarDistance = true
 
-HeatCount = 7
+;2a72
+Delay = 2
+HeatCount = 5
 MaxHeatCount = 150
+
+;tracer
+;BulletColor = 230, 200, 20, 80 
+
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 

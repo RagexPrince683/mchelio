@@ -20,12 +20,20 @@ group = maingun
 
 TimeFuse = 560
 
+ProximityFuseDist = 2
+
+;2a42
+Delay = 1
+HeatCount = 7
+MaxHeatCount = 150
+
+
+;tracer
+BulletColor = 230, 200, 20, 80 
+
 DisplayMortarDistance = true
 
 Gravity = -0.005
-
-HeatCount = 7
-MaxHeatCount = 150
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 

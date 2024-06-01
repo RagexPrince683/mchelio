@@ -1,7 +1,7 @@
 DisplayName = 30mm 2A42 Twin Automatic Cannon [3UOR6 - HE-T]
 Type = MachineGun2
-Power = 20
-Acceleration = 5.0
+Power = 9
+
 Explosion = 2
 
 ExplosionBlock = 1
@@ -14,11 +14,22 @@ Round = 250
 SoundVolume = 3
 SoundPitch = 1.0
 Sound = 2A42_30mm_snd
-Accuracy = 1.5
+Accuracy = 0
 ;ModeNum = 1
 Gravity = -0.005
+;2a42
+Delay = 1
 HeatCount = 7
 MaxHeatCount = 150
+
+
+
+;tracer
+BulletColor = 230, 200, 20, 80 
+
+TimeFuse = 560
+
+ProximityFuseDist = 2
 
 Group = second
 

@@ -1,30 +1,30 @@
-DisplayName = 152mm M-10  Howitzer [HE]
+DisplayName = 152mm M-10T Howitzer [HE]
 Type = MachineGun2
-Power = 350
-Explosion = 6
-ExplosionBlock = 4
+Power = 48
+Explosion = 10
+ExplosionBlock = 5
 Sight = None
 Round = 1
-SoundVolume = 16.0
+
 Accuracy = 2.0
-Gravity = -0.005
-Sound = big
+Gravity = -0.008
+Sound = artillery_gun_snd
 Recoil = 2.5
 
-Delay = 400
+Delay = 800
 ReloadTime = 800
 Group = MainGun
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
 ModelBullet = bullet105mm
 Piercing = 0
-Accuracy = 0.0
-DamageFactor = tank, 2.0
+
+DamageFactor = tank, 8.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 152mm Howitzer
+
 SoundVolume = 15
 
 
@@ -37,7 +37,7 @@ AddMuzzleFlashSmoke = 10.2, 10,  11.0,  6.0, 35,  200,190,170,150
 ; RecoilBufCount = 駐退カウント, 後退中のカウント倍率
 RecoilBufCount = 40, 5
 
-MaxAmmo = 18
-SuppliedNum = 9
+MaxAmmo = 10
+SuppliedNum = 2
 Item =  2, iron_ingot
-Item =  3, gunpowder
+Item =  9, gunpowder

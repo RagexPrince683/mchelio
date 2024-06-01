@@ -6,7 +6,7 @@ Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
-Accuracy = 2.0
+Accuracy = 1.0
 Round = 200
 
 SoundPitch = 1.0

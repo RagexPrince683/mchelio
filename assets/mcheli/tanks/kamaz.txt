@@ -42,13 +42,15 @@ CameraRotationSpeed = 35
 MinRotationPitch = -90
 MaxRotationPitch = 45
 AddPartWheel =   1.98, 0.5543, 5.55, 30
-AddPartWheel =   -1.98, 0.5543, 5.5365, 30
-AddPartWheel =   1.98, 0.5589, 2.60
-AddPartWheel =   -1.98, 0.5664, 2.5869
+AddPartWheel =   -1.98, 0.5543, 5.55, 30
+AddPartWheel =   1.98, 0.5543, 2.59
+AddPartWheel =   -1.98, 0.5543, 2.59
 AddPartWheel =   1.98, 0.56, -2.4095
 AddPartWheel =   -1.98, 0.556, -2.4244
 AddPartWheel =   1.98, 0.56, -4.5186
 AddPartWheel =   -1.98, 0.56, -4.5184
+
+
 PartWheelRot = 30
 SetWheelPos =  1.55,  -0.24,  5.55, 2.6, -2.4, -4.51
 BoundingBox =  0.0, 1.25,  5.8,    4.25, 0.3

@@ -33,8 +33,13 @@ AddMuzzleFlash      =  3.0,      0.50,        3,  200,254,219,104
 
 Gravity = -0.005
 
+;2a42
+Delay = 1
 HeatCount = 7
 MaxHeatCount = 150
+
+;tracer
+BulletColor = 230, 200, 20, 80 
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 

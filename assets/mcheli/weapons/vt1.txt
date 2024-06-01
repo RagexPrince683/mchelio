@@ -13,7 +13,7 @@ Round = 2
 LockTime = 4
 ProximityFuseDist = 3
 SoundVolume = 15
-Sound = roland
+Sound = aimnine
 ModelBullet = rocket
 
 

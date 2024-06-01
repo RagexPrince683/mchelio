@@ -1,8 +1,8 @@
-DisplayName = LAV-3
-MaxHp = 180
-Speed = 0.73
-Sound = dieselman
-ThrottleUpDown = 20.0
+DisplayName = LAV III
+MaxHp = 200
+Speed = 0.62
+Sound = stryker
+ThrottleUpDown = 3.0
 HideEntity = true
 MobilityYawOnGround = 4.0
 MinRotationPitch = -30
@@ -18,47 +18,50 @@ CameraRotationSpeed = 50
 FlareType = 10
 MaxFuel = 1200
 FuelConsumption = 2.7
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = true
 OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 1.0
 FlareType = 10
 ThirdPersonDist = 8
 
+;stryker -122.65
 
-SubmergedDamageHeight = 4
+
+SubmergedDamageHeight = 3
 
 
 HUD = mbt_hud
 
 MotionFactor = 0.925
 ArmorMinDamage = 14
-ArmorMaxDamage = 600
-ArmorDamageFactor = 0.90
+;ArmorMaxDamage = 600
+;ArmorDamageFactor = 0.90
 EnableBack = true
-PivotTurnThrottle = 0.0
+PivotTurnThrottle = 0.1
 
 WeightType = Tank
 
-SetWheelPos =  1.37,  -0.32,  3.60, 1.43, -0.75
 
-AddGunnerSeat =  0.00,  3.50, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
 
-AddSeat = 0.82, 2.0, -2.5, true
-AddSeat = -0.82, 2.0, -2.5, true
-AddSeat = 0.82, 2.0, -1.9, true
-AddSeat = -0.82, 2.0, -1.9, true
+AddGunnerSeat =  0.00,  1.50, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
+unmountposition = 0.00,  1.50, 1.55
 
- 
+AddSeat = 0.82, 2.0, -2.5
+AddSeat = -0.82, 2.0, -2.5
+AddSeat = 0.82, 2.0, -1.9
+AddSeat = -0.82, 2.0, -1.9
 
-AddPartWheel = -1.29,  0.25,  2.77, 30
-AddPartWheel = -1.29,  0.25,  1.37, 30 
-AddPartWheel = -1.29,  0.25,  -0.23,
-AddPartWheel = -1.29,  0.25,  -1.64, 
-AddPartWheel = 1.29,  0.25,  -1.64, 
-AddPartWheel = 1.29,  0.25,  -0.23,
-AddPartWheel = 1.29,  0.25,  1.37, 30
-AddPartWheel = 1.29,  0.25,  2.77, 30
+SetWheelPos =  1.37,  -0.32,  3.3451, 1.7177, -0.1335, -1.7905
+
+AddPartWheel = -1.7598,  0.3927,  3.3451, 30
+AddPartWheel =  1.7598,  0.3927,  3.3451, 30
+AddPartWheel = -1.7598,  0.3927,  1.7177,
+AddPartWheel = -1.7598,  0.3927,  1.7177, 
+AddPartWheel =  1.7598,    0.3927,  -0.1335, 
+AddPartWheel =  -1.7598,    0.3927,  -0.1335,
+AddPartWheel =  1.7598,    0.3927,  -1.7905, 
+AddPartWheel =  -1.7598,    0.3927,  -1.7905,
 
 
 AddPartWeapon = M791 / M919, false, true, false,  0.0, 0.0, 0.0, 0
