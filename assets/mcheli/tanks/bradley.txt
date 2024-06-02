@@ -83,11 +83,12 @@ AddTrackRoller = 1.4634,  0.0837, -0.5194
 AddTrackRoller = 1.4634,  0.0731, -1.2981
 AddTrackRoller = 1.4634,  0.3864, -2.3195
 
-AddPartWeapon = bradm242 / bradhem242 / bradbgm71a, false, true, false,  -0.0, 1.7572, 0.00, 0
+AddPartWeapon = bradm242 / bradhem242 / bradm242apfsds / bradbgm71a, false, true, false,  -0.0, 1.7572, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.1874, 0.672, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.1874, 0.672, 0.15
 AddTurretWeapon = bradm242,  -0.0588, 2.1874, 0.672,  0.0, 0.0, true,1, 0,-360,360, -59, 9
 AddTurretWeapon = bradhem242,  -0.0588, 2.1874, 0.672,  0.0, 0.0, true,1, 0,-360,360, -59, 9
+AddTurretWeapon = bradm242apfsds,  -0.0588, 2.1874, 0.672,  0.0, 0.0, true,1, 0,-360,360, -59, 9
 
 AddPartWeapon=bradm240_r, true, true, false,-0.0, 4.2079, 0.00
 ;AddPartWeaponChild = false,true, 0.00, 2.335, 0.672

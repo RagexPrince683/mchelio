@@ -1,4 +1,4 @@
-DisplayName = M242 Bushmaster 25mm Chain Cannon [M792 - HEI-T]
+DisplayName = 25mm M242 Bushmaster Chain Cannon [M792 - HEI-T]
 Type = MachineGun2
 Power = 7
 Acceleration = 7.0
@@ -13,7 +13,7 @@ SoundVolume = 3
 SoundPitch = 1.0
 SoundDelay = 2
 Sound = bradmain
-Accuracy = 0.5
+Accuracy = 0.0
 ;ModeNum = 2
 Piercing = 1
 group = maingun
@@ -43,7 +43,7 @@ AddMuzzleFlashSmoke   = 3.7,  1,   3.0,  3.0,  5,  180,220,217,214
 
 BulletColor        = 200, 255, 100, 100
 
-MaxAmmo = 750
-SuppliedNum = 150
+MaxAmmo = 500
+SuppliedNum = 100
 Item =  2, iron_ingot
 Item =  2, gunpowder

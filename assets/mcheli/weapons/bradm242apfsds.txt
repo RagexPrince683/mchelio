@@ -1,6 +1,6 @@
-DisplayName = 25mm M242 Bushmaster Chain Cannon [M791 - APDS-T]
+DisplayName = M242 Bushmaster 25mm Chain Cannon [M791 - APFSDS-T]
 Type = MachineGun2
-Power = 81
+Power = 101
 Acceleration = 7.0
 Explosion = 0
 
@@ -28,13 +28,13 @@ Gravity = -0.005
 
 Acceleration = 7.5
 group = maingun
-Piercing = 2
+Piercing = 5
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US,
+
 SoundVolume = 15
 
 
@@ -47,5 +47,5 @@ BulletColor        = 200, 255, 100, 100
 
 MaxAmmo = 500
 SuppliedNum = 100
-Item =  2, iron_ingot
-Item =  2, gunpowder
+Item =  3, iron_ingot
+Item =  5, gunpowder

@@ -26,7 +26,7 @@ ThirdPersonDist = 12
 
 AddTexture = m1128des
 
-SubmergedDamageHeight = 3
+SubmergedDamageHeight = 2
 
 ;  M = Military,  A = AAGun(対空砲)
 Category = M.A
@@ -52,14 +52,14 @@ SetWheelPos =  1.28,  -0.35,  4.56, 2.92, 1.05, -0.596
 
 ;SetWheelPos =  1.28,  -0.35,  2.72, 1.09, -0.76, -2.42
 
-AddPartWheel =   1.75,  0.39, 4.57
-AddPartWheel =   -1.75,  0.39, 4.57
-AddPartWheel =   1.75,  0.39, 2.94
-AddPartWheel =    -1.75,  0.39, 2.94
-AddPartWheel =   -1.75,  0.39,1.09
-AddPartWheel =    1.75,  0.39,1.09
-AddPartWheel =   1.75,  0.39,-0.56
-AddPartWheel =   -1.75,  0.39,-0.56
+AddPartWheel =   -1.53,  0.3927, 4.5716, 40
+AddPartWheel =    1.53,  0.3927, 4.5716, 40
+AddPartWheel =   -1.53,  0.3927, 2.94, 20
+AddPartWheel =  1.53,  0.3927, 2.94, 20
+AddPartWheel =  -1.53,  0.3927, 1.09
+AddPartWheel =   1.53,  0.3927, 1.09
+AddPartWheel =   1.53,  0.3927,-0.56
+AddPartWheel =  -1.53,  0.3927,-0.56
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
 ArmorMinDamage = 31
@@ -90,7 +90,7 @@ AddTurretWeapon = strykerm2_fifty,    -.9626, 2.8641, 1.0597,   0.0, 0.0, true, 
 
 ;AddTurretWeapon = m2_rws,   -0.846, 3.68,  0.373,   0.0, 0.0, false, 2, 0, -360,360, -60,20
 
-DamageFactor = 0.0
+DamageFactor = 0.8
 
 HideEntity = true
 
