@@ -87,4 +87,4 @@ BoundingBox =  0.0, 1.9, 1.35,   2.8, 0.1,  0.35
 BoundingBox =  0.0, 2.0, 1.1,   2.8, 0.1,  0.35
 
 
-AddRecipe = " R ",  "I I",  "XXX",  X, iron_block,  I, iron_ingot, R, redstone
+;to be removed

@@ -1,6 +1,6 @@
-DisplayName = M1129 Self-Propelled Mortar
-AddDisplayName = en_US, M1129 Self-Propelled Mortar
-AddDisplayName = ja_JP, M1129 自走迫撃砲
+DisplayName = M1126 Stryker Infantry Carrier Vehicle
+AddDisplayName = en_US, M1126 Stryker Infantry Carrier Vehicle
+AddDisplayName = ja_JP, M1126
 MaxHp = 200
 Speed = 0.62
 Sound = stryker
@@ -65,14 +65,14 @@ PivotTurnThrottle = 0.2
 
 TrackRollerRot = 30
 
-AddPartWeaponBay	= 2981mm_mortar, -1.03, 2.61, -2.70, 0.0, 0.0, 1.0, 110
-AddPartWeaponBay	= 2981mm_mortar,  1.03, 2.61, -2.70, 0.0, 0.0, 1.0,-110
+;AddPartWeaponBay	= 2981mm_mortar, -1.03, 2.61, -2.70, 0.0, 0.0, 1.0, 110
+;AddPartWeaponBay	= 2981mm_mortar,  1.03, 2.61, -2.70, 0.0, 0.0, 1.0,-110
 
-AddWeapon			= 2981mm_mortar,    0.00,  1.80, -2.67,  0.0,0.0, false, 3, 0, -360,360, -90, -45
+;AddWeapon			= 2981mm_mortar,    0.00,  1.80, -2.67,  0.0,0.0, false, 3, 0, -360,360, -90, -45
 ;AddWeapon			= 2981mm_mortar2,    0.00,  1.80, -2.67,  0.0,0.0, false, 3, 0, -360,360, -90, -45
 
-AddPartWeapon 		= 2981mm_mortar,    false, true,  false, 0.00, 1.80, -2.67
-AddPartWeaponChild 	= false, true, 0.00,  1.80, -2.67
+;AddPartWeapon 		= 2981mm_mortar,    false, true,  false, 0.00, 1.80, -2.67
+;AddPartWeaponChild 	= false, true, 0.00,  1.80, -2.67
 
 AddWeapon 			= 29m240_r,  -0.755, 3.167, 0.324,  0.0,   0.0,   false, 2, 0, -90,90, -30,20
 AddPartWeapon 		= 29m240_r,   false, true,  false, -0.755, 3.167, 0.324
@@ -121,7 +121,7 @@ BoundingBox = 0.0, 1.4, 1.8, 3.2, 1.4, 1.0
 BoundingBox = 0.0, 1.3, 2.0, 3.2, 1.3, 1.0
 BoundingBox = 0.0, 1.3, 2.5, 2.8, 1.2, 1.0
 BoundingBox = 0.0, 1.4, 3.0, 2.8, 0.8, 1.0
-BoundingBox = 0.0, 1.5, 3.45, 2.8, 0.4, 1.0
+BoundingBox = 0.0, 1.5, 3.3, 2.8, 0.4, 1.0
 
 UnmountPosition = 0.86, 1.54,  2.12
 
