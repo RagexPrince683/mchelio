@@ -1,15 +1,15 @@
 DisplayName = MIM-104C [PAC-2] Surface-to-Air Missile System
 Type = AAMissile
-Power = 70
-Acceleration = 5
+Power = 84
+Acceleration = 3.5
 Explosion = 5
 Flaming = false
 Sight = MissileSight
 Delay = 9
 ReloadTime = 12000
 Round = 4
-LockTime = 12
-ProximityFuseDist = 1
+LockTime = 16
+ProximityFuseDist = 2
 ModelBullet = aim7
 Sound = missile_1_snd
 

@@ -1,11 +1,11 @@
 DisplayName = SA-2 Guideline
 Type = AAMissile
-Power = 150
+Power = 195
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 3
+Acceleration = 3.5
 Explosion = 9
 Flaming = true
 Sight = MissileSight

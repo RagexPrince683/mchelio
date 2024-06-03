@@ -1,7 +1,7 @@
-DisplayName = MIM-23 HAWK
+DisplayName = MIM-23 HAWK [SAM]
 Type = AAMissile
-Power = 58
-Acceleration = 4.0
+Power = 54
+Acceleration = 2.4
 Explosion = 5
 Sight = MissileSight
 Delay = 6
@@ -10,7 +10,7 @@ Round = 3
 SoundVolume = 15
 SoundPitch = 0.8
 Sound = aimnine
-LockTime = 14
+LockTime = 20
 ProximityFuseDist = 1
 ModelBullet = mim23missile
 

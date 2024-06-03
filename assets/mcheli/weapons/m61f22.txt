@@ -1,7 +1,7 @@
 DisplayName = 20mm M61A2 Vulcan Rotary Cannon
 Type = MachineGun2
 ModelBullet = bullet
-Power = 40
+Power = 25
 Acceleration = 7.0
 Explosion = 0
 Flaming = false
