@@ -1,4 +1,4 @@
-DisplayName = 40mm Bofors Autocannon [Mk.II - HE]
+DisplayName = 40mm Bofors L/60 Autocannon [Mk.II - HE]
 Type = MachineGun2
 Power = 9
 ModelBullet = bullet76mm
@@ -19,7 +19,7 @@ Gravity = -0.001
 SoundVolume = 15
 Sound = bofors
 
-MaxAmmo = 480
+MaxAmmo = 240
 SuppliedNum = 120
 Item =  2, iron_ingot
 Item =  2, gunpowder

@@ -1,7 +1,7 @@
-DisplayName = Wurfgranate 34
+DisplayName = 8 cm Wurfgranate 34 Mortar 
 Type = MachineGun1
-Power = 100
-Explosion = 10
+Power = 34
+Explosion = 12
 ExplosionBlock = 3
 Acceleration = 4.0
 Gravity = -0.04
@@ -14,7 +14,10 @@ Sound = mortar_gun_snd
 Accuracy = 2.5
 ModelBullet = m69
 BulletColor = 255, 255, 100, 100
-
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 DisplayMortarDistance = true
 
 AddMuzzleFlash      =           0.1,   0.55,        1,  220,254,219,104

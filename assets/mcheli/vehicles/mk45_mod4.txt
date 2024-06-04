@@ -1,4 +1,4 @@
-﻿DisplayName = Mark 45 mod4 127mm gun
+﻿DisplayName = 127mm Mark 45 Mod4 Naval Cannon
 AddDisplayName = ja_JP, Mk45 Mod4 5インチ砲
 ItemID = 28601
 MaxHp = 100

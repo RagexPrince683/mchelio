@@ -1,4 +1,4 @@
-DisplayName = 20.3cm double gun
+DisplayName = 20.3cm Twin Naval Cannon
 AddDisplayName = ja_JP, 20.3cm連装砲
 ItemID = 28601
 MaxHp = 200
