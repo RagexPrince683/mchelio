@@ -2,7 +2,7 @@
 AddDisplayName = en_US, 5"/54 caliber Mark 45 Gun
 AddDisplayName = ja_JP, Mk45 5インチ砲
 ItemID = 28601
-MaxHp = 100
+MaxHp = 125
 Gravity = -9.81
 GravityInWater = -1.0
 HideEntity = true

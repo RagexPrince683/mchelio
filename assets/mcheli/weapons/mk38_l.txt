@@ -1,4 +1,4 @@
-DisplayName = Mk.38 [20mm Gun]
+DisplayName = 20mm Mk.38 Cannon
 Type = MachineGun2
 Power = 32
 Acceleration = 7.0

@@ -2,7 +2,7 @@
 AddDisplayName = en_US, BGM-71 TOW
 AddDisplayName = ja_JP, BGM-71 TOW
 ItemID = 30035
-MaxHp = 100
+MaxHp = 50
 Gravity = -9.81
 GravityInWater = -1.0
 CameraZoom = 3

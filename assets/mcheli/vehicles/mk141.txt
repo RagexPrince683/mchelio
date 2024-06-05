@@ -1,7 +1,7 @@
 ﻿DisplayName = Mk141 Harpoon launcher
 AddDisplayName = ja_JP, Mk141 ハープーン発射機
 ItemID = 30035
-MaxHp = 100
+MaxHp = 50
 CameraZoom = 3
 AddSeat = 0,0,0
 CameraPosition = 0.00, 3.85, 2.43

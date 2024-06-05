@@ -1,7 +1,7 @@
 DisplayName = Mk.32 Torpedo Tube
 AddDisplayName = ja_JP, Mk 32 短魚雷発射管
 ItemID = 28605
-MaxHp = 100
+MaxHp = 80
 Gravity = -9.81
 GravityInWater = -1.0
 HideEntity = false

@@ -1,7 +1,7 @@
 ﻿DisplayName = 3M87 CIWS
 AddDisplayName = ja_JP, コールチク CIWS
 ItemID = 28700
-MaxHp = 150
+MaxHp = 115
 EnableNightVision = true
 EnableEntityRadar = true
 HideEntity = true

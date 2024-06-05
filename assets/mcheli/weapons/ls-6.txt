@@ -1,4 +1,4 @@
-DisplayName = LS-6 Laser Guide Bomb
+DisplayName = LS-6 Laser Guided Bomb
 Type = ASMissile
 Power = 1500
 Acceleration = 1.50

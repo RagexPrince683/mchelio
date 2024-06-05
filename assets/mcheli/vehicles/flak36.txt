@@ -1,7 +1,7 @@
 ﻿DisplayName = 88mm AA-Gun Flak 18
 AddDisplayName = en_US, 88mm AA-Gun Flak 18
 AddDisplayName = de_DE, 88mm Flak 18
-MaxHp = 100
+MaxHp = 70
 HideEntity = false
 MinRotationPitch = -85
 MaxRotationPitch =  5

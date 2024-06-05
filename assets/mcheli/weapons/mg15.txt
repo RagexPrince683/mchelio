@@ -1,4 +1,4 @@
-DisplayName = MG15 7.92mm Machine Gun
+DisplayName = 7.92mm MG15 Machine Gun
 Type = MachineGun1
 Power = 8
 Acceleration = 8.0

@@ -1,7 +1,7 @@
 DisplayName = Otobreda 127/64 Naval Gun
 AddDisplayName = ja_JP, オート・メラーラ127mm砲
 ItemID = 30110
-MaxHp = 100
+MaxHp = 110
 HideEntity = true
 Gravity = -9.81
 GravityInWater = -1.0

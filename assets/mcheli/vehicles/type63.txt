@@ -1,7 +1,7 @@
 DisplayName = Type-63 MLRS
 AddDisplayName = ja_JP, ボフォース Type-63 MLRS
 ItemID = 28611
-MaxHp = 200
+MaxHp = 80
 HideEntity = true
 MinRotationPitch = -89
 MaxRotationPitch =  5

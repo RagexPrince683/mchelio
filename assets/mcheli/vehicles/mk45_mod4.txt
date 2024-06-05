@@ -1,7 +1,7 @@
 ﻿DisplayName = 127mm Mark 45 Mod4 Naval Cannon
 AddDisplayName = ja_JP, Mk45 Mod4 5インチ砲
 ItemID = 28601
-MaxHp = 100
+MaxHp = 125
 HideEntity = true
 MinRotationPitch = -65
 MaxRotationPitch =  15

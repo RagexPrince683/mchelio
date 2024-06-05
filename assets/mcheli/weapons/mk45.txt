@@ -1,4 +1,4 @@
-DisplayName = Mk45 Mk116 [HE-VT] 127mm Gun
+DisplayName = 127mm Mk45 Naval Cannon [HE-VT] 
 Type = MachineGun2
 Power = 40
 ModelBullet = bullet76mm
@@ -14,7 +14,7 @@ MaxHeatCount = 120
 ;SoundVolume = 1.6
 SetCartridge = cartridge, 0.4,  0, 0, 7.60, -0.02, 0.70
 Sound = markfourtyfive
-ProximityFuseDist = 5
+ProximityFuseDist = 3
 ; RecoilBufCount = 駐退カウント, 後退中のカウント倍率
 RecoilBufCount = 18, 6
 

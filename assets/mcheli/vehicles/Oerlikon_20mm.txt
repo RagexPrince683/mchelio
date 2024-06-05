@@ -2,7 +2,7 @@
 AddDisplayName = en_US, Oerlikon 20mm Cannon
 AddDisplayName = ja_JP, エリコン 20mm機関砲
 ItemID = 28601
-MaxHp = 100
+MaxHp = 40
 Gravity = -9.81
 GravityInWater = -1.0
 HideEntity = true

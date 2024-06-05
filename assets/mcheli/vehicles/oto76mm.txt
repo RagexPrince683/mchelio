@@ -1,7 +1,7 @@
 DisplayName = Oto Melara 76mm Naval Autocannon
 AddDisplayName = ja_JP, オート・メラーラ76mm砲
 ItemID = 28601
-MaxHp = 100
+MaxHp = 90
 Gravity = -9.81
 GravityInWater = -1.0
 HideEntity = true

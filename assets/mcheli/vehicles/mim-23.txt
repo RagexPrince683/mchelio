@@ -1,7 +1,7 @@
 DisplayName =  MIM-23 HAWK
 AddDisplayName = ja_JP, MIM-23 ホーク
 ItemID = 28613
-MaxHP = 100
+MaxHP = 80
 CameraPosition = 0.0, 4.50, 0.0
 CameraZoom = 1
 MinRotationPitch = -50
