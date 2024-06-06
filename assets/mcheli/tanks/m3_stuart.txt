@@ -75,18 +75,18 @@ AddCrawlerTrack = false, 0.19,  1.5,   1.01/ 2.157, 0.93/ 2.5, 0.599/ 2.7, 0.27/
 MinRotationPitch = -60
 MaxRotationPitch =  20
 
-AddTurretWeapon = M5_37mm[AP],  0.0,  2.2407, 1.742,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = M5_37mm[APC],     0.0,  2.2407, 1.742,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddPartWeapon = M5_37mm[AP]/M5_37mm[APC], false, true, false,  0.0, 1.75, 0.0, 0
+AddTurretWeapon = stuartap,  0.0,  2.2407, 1.742,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = stuartapc,     0.0,  2.2407, 1.742,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddPartWeapon = stuartap/stuartapc, false, true, false,  0.0, 1.75, 0.0, 0
 AddPartWeaponChild = false, true, 0.0, 2.2407, 0.9862
 AddPartWeaponChild = false, true, 0.0, 2.2407, 0.9862, 0.3
 
-AddTurretWeapon = M1919_7_62mm1,   0.6037, 3.4, -0.5534,   0.0, 0.0, true, 1, 0, -360,360, -60,20
-AddPartWeapon    = M1919_7_62mm1,  false, true, false, 0.0, 0.0, 0.0
+AddTurretWeapon = m1919_1,   0.6037, 3.4, -0.5534,   0.0, 0.0, true, 1, 0, -360,360, -60,20
+AddPartWeapon    = m1919_1,  false, true, false, 0.0, 0.0, 0.0
 AddPartWeaponChild = false, true, 0.6037, 3.3493, -0.6985
 
-AddWeapon = M1919_7_62mm2,  -0.5882, 1.17, 1.63,  0.0, 0.0, false,2, 0,-20,20, -15, 15
-AddPartWeapon = M1919_7_62mm2, false, true, true,  -0.5882, 1.17, 1.63, 0
+AddWeapon = m1919_2,  -0.5882, 1.17, 1.63,  0.0, 0.0, false,2, 0,-20,20, -15, 15
+AddPartWeapon = m1919_2, false, true, true,  -0.5882, 1.17, 1.63, 0
 
 BoundingBox =  0.0, 1.0,   1.2,   2.7, 1.5,  0.7
 BoundingBox =  0.0, 1.0,  -1.5,   2.7, 1.5,  1.0
