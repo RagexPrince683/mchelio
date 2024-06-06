@@ -22,8 +22,8 @@ DisplayMortarDistance = true
 
 
 ;APFSDS
-Delay = 100
-ReloadTime = 100
+Delay = 140
+ReloadTime = 160
 Group = MainGun
 Acceleration = 7.0
 ModelBullet = bullet105mm
