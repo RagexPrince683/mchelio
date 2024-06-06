@@ -91,7 +91,8 @@ AddTrackRoller = -1.70,  0.6740, -4.3796
 
 AddTurretWeapon      = kv2apcbc,  0.00, 3.017, 0.00,  0.0, 0.0, true,1, 0,-360,360, -12, 5
 AddTurretWeapon      = kv2he,  0.00, 3.017, 0.00,  0.0, 0.0, true,1, 0,-360,360, -12, 5
-AddPartWeapon = kv2apcbc/ kv2he, false, true, false, 0.00, 0.00, 0.00
+AddTurretWeapon      = kv2apcbc2,  0.00, 3.017, 0.00,  0.0, 0.0, true,1, 0,-360,360, -12, 5
+AddPartWeapon = kv2apcbc/ kv2he / kv2apcbc2, false, true, false, 0.00, 0.00, 0.00
 ;AddPartWeapon  = kv2apcbc, false, true,  false,  0.00, 0.00, 0.00 ????????
 AddPartWeaponChild = false, true,   0.00, 3.017, 1.245
 AddPartWeaponChild = false, true,   0.00, 3.017, 1.245, 0.5

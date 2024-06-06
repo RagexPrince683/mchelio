@@ -1,4 +1,4 @@
-DisplayName = KamAZ-6350
+DisplayName = KamAZ-6350 8x8 Truck
 MaxHp = 200
 Speed = 0.6
 Sound = kamaz
@@ -93,3 +93,5 @@ AddFixedSearchLight = -0.773, 1.13, -6.61,   0xFFFF0000,   0x10FF0000, 0.05, 0.2
 AddFixedSearchLight = -0.973, 1.13, -6.61,   0xFFFF0000,   0x10FF0000, 0.05, 0.25, 0, 0
 
 AddPartSteeringWheel =  1.3475, 2.9296, 6.6145, 0, 1.2, -1, 110
+
+AddRecipe = " I ",  "XXX",  "XXX",  X, iron_block,  I, iron_ingot

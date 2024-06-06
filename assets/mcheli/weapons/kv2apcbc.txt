@@ -6,7 +6,7 @@ ExplosionBlock = 3
 Sight = None
 Round = 1
 
-Accuracy = 2.0
+Accuracy = 1.5
 Gravity = -0.008
 Sound = artillery_gun_snd
 Recoil = 2.5
@@ -38,7 +38,7 @@ AddMuzzleFlashSmoke = 10.2, 10,  11.0,  6.0, 35,  200,190,170,150
 ; RecoilBufCount = 駐退カウント, 後退中のカウント倍率
 RecoilBufCount = 40, 5
 
-MaxAmmo = 10
-SuppliedNum = 2
+MaxAmmo = 7
+SuppliedNum = 1
 Item =  2, iron_ingot
 Item =  5, gunpowder
