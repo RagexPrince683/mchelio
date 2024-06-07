@@ -1,26 +1,28 @@
-DisplayName = 105mm Howitzer M444 [Cluster]
+DisplayName = 105mm Howitzer [M916 DPICM - Cluster]
 Type = Rocket
 Power = 50
-Acceleration = 6.9
+Acceleration = 4.7
 Sight = MissileSight
-Gravity = -0.04
+Gravity = -0.06
 ;Delay = 100
 Sound = artillery_gun_snd
 SoundVolume = 15
 SoundPitch = 1.0
-Accuracy = 0.5
-Explosion = 6
-ExplosionBlock = 3
-Round = 45
+Accuracy = 1.2
+Explosion = 12
+ExplosionBlock = 4
 ModelBullet = bullet105mm
 ;Group = Rocket
 
-Bomblet = 18
-BombletDiff = 0.2
-BombletSTime = 0
+HeatCount = 500
+MaxHeatCount = 2000
+
+Bomblet = 42
+BombletDiff = 0.8
+BombletSTime = 5
 ModelBomblet = cbc
 
-DelayFuse = 10
+DelayFuse = 0
 
 DisableSmoke = true
 
@@ -38,13 +40,13 @@ AddParticle - largeexplode
 FixCameraPitch = true
 
 ReloadTime = 80
-Round = 45
+Round = 1
 Delay = 80
 
 Recoil = 2.0
 
-MaxAmmo = 45
-SuppliedNum = 15
+MaxAmmo = 10
+SuppliedNum = 5
 
 Item =  4, iron_ingot
 Item =  2, gunpowder

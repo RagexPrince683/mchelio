@@ -1,19 +1,22 @@
-DisplayName = 105mm Howitzer M327 [HEP-T]
+DisplayName = 105mm Howitzer [M327 Shell - HEP-T (HESH)]
 Type = MachineGun1
 Power = 152
 ModelBullet = bullet105mm
-Explosion = 6
+Explosion = 10
 ExplosionBlock = 4
-Acceleration = 6.0
-Sight = MoveSight
-ReloadTime = 1000
-Round = 35
+Acceleration = 4.7
+Sight = MissileSight
+
+
 SoundVolume = 15
 Sound = artillery_gun_snd
-Accuracy = 0.5
+Accuracy = 1.2
 BulletColor        = 255, 255, 100, 100
 Gravity = -0.06
 Piercing = 5
+
+HeatCount = 500
+MaxHeatCount = 2000
 
 DisplayMortarDistance = true
 FixCameraPitch = true
@@ -36,12 +39,12 @@ AddParticle - largeexplode
 FixCameraPitch = true
 
 ReloadTime = 80
-Round = 45
+Round = 1
 Delay = 80
 
 Recoil = 2.0
 
-MaxAmmo = 45
-SuppliedNum = 15
+MaxAmmo = 10
+SuppliedNum = 5
 Item =  1, iron_ingot
 Item =  1, gunpowder

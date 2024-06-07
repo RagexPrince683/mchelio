@@ -1,25 +1,30 @@
-DisplayName = 105mm Howitzer M548 [HERA]
-Type = MachineGun1
-Power = 152
-ModelBullet = bullet105mm
-Explosion = 6
-ExplosionBlock = 4
-Acceleration = 8.0
-Sight = MoveSight
-ReloadTime = 1000
-Round = 35
-SoundVolume = 15
+DisplayName = 105mm Howitzer [M444 APICM - Cluster]
+Type = Rocket
+Power = 25
+Acceleration = 4.7
+Sight = MissileSight
+Gravity = -0.06
+;Delay = 100
 Sound = artillery_gun_snd
-Accuracy = 0.5
-BulletColor        = 255, 255, 100, 100
-Gravity = -0.05
-
-DamageFactor = tank, 2.0
-DamageFactor = plane, 4.5
-DamageFactor = vehicle 4.5
-DamageFactor = heli, 4.5
-DamageFactor = player, 20.0
 SoundVolume = 15
+SoundPitch = 1.0
+Accuracy = 1.2
+Explosion = 12
+ExplosionBlock = 2
+ModelBullet = bullet105mm
+;Group = Rocket
+
+HeatCount = 500
+MaxHeatCount = 2000
+
+Bomblet = 18
+BombletDiff = 0.5
+BombletSTime = 5
+ModelBomblet = cbc
+
+DelayFuse = 0
+
+DisableSmoke = true
 
 DisplayMortarDistance = true
 FixCameraPitch = true
@@ -35,12 +40,13 @@ AddParticle - largeexplode
 FixCameraPitch = true
 
 ReloadTime = 80
-Round = 45
+Round = 1
 Delay = 80
 
 Recoil = 2.0
 
-MaxAmmo = 45
-SuppliedNum = 15
-Item =  1, iron_ingot
-Item =  1, gunpowder
+MaxAmmo = 10
+SuppliedNum = 5
+
+Item =  4, iron_ingot
+Item =  2, gunpowder

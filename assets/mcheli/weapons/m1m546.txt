@@ -1,27 +1,30 @@
-DisplayName = 105mm Howitzer M413 [Cluster]
+DisplayName = 105mm Howitzer [M546 - APERS-T]
 Type = Rocket
-Power = 50
+Power = 15
 Acceleration = 6.9
 Sight = MissileSight
-Gravity = -0.06
+Gravity = -0.08
 Sound = artillery_gun_snd
 SoundVolume = 15
 SoundPitch = 1.0
-Accuracy = 0.5
-Explosion = 6
-ExplosionBlock = 2
-Round = 45
+Accuracy = 1.2
+Explosion = 0
+ExplosionBlock = 0
+
 ModelBullet = bullet105mm
-;Group = Rocket
+Group = Rocket
+Piercing = 1
 
-Bomblet = 18
-BombletDiff = 0.2
-BombletSTime = 0
-ModelBomblet = cbc
+HeatCount = 500
+MaxHeatCount = 2000
 
-DelayFuse = 5
+Bomblet = 800
+BombletDiff = 1.0
+BombletSTime = 10
+ModelBomblet = flechette
 
 DisableSmoke = true
+
 
 DisplayMortarDistance = true
 FixCameraPitch = true
@@ -37,13 +40,13 @@ AddParticle - largeexplode
 FixCameraPitch = true
 
 ReloadTime = 80
-Round = 45
+Round = 1
 Delay = 80
 
 Recoil = 2.0
 
-MaxAmmo = 45
-SuppliedNum = 15
+MaxAmmo = 10
+SuppliedNum = 5
 
 Item =  4, iron_ingot
-Item =  2, gunpowder
+Item =  6, gunpowder
