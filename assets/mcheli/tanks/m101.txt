@@ -4,9 +4,9 @@ ItemID = 30151
 MaxHp = 100
 Sound = none
 SoundVolume = 0
-Speed = 0.001
+Speed = 0.01
 ThrottleUpDown = 0.81
-MobilityYawOnGround = 1.8
+MobilityYawOnGround = 1.2
 MinRotationPitch = -65
 MaxRotationPitch = 5
 ;MobilityRoll = 0
@@ -15,13 +15,14 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 1.0
 CameraZoom = 2
-CameraRotationSpeed = 20
+CameraRotationSpeed = 10
 MaxFuel = 0
 FuelConsumption = 0
 ;StepHeight = 1.5
 OnGroundPitchFactor = 1
 OnGroundRollFactor  = 1
-CameraPosition = 1.06, 1.04, -0.41
+CameraPosition = 0.85, 1.00, 0.41
+;head pos 1.16, 0.90, -0.41
 HideEntity = false
 EnableBack = true
 ;OnGroundPitchFactor = 2.0
@@ -36,15 +37,17 @@ WeightType = Unknown
 AddTrackRoller =  1.4905,  0.3209,  1.1365
 AddTrackRoller =  -1.4905,  0.3209,  1.1365
 
-TrackRollerRot = 10
+TrackRollerRot = 1
+PartWheelRot = 1
+MotionFactor = 0.03
 
 ;WeightType = Tank
 ;WeightedCenterZ = 0
 ;MotionFactor = 0.9
-AddGunnerSeat = 1.16,  -0.24, -0.41, 0.00,  1.6, -0.2, false, -65, 5, false
+AddGunnerSeat = 1.16,  -0.24, -0.41, 0.00,  1.4, -0.2, false, -65, 5, false
 ;m107 bb
 
-HUD = vehicle
+HUD = vehicle_wwii
 
 AddPartWeapon = m102, false, false, true, 0.00, 0.87, -0.29, 1, 0, 0, -90, 0
 

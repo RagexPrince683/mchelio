@@ -1,21 +1,21 @@
-DisplayName = 152mm howitzer 2A65 Msta-B
-AddDisplayName = uk_UA, Мста-б
-AddDisplayName = en_EN, Msta-b
-AddDisplayName = en_US, 152 mm howitzer 2A65 Msta-B
+DisplayName = 152mm Howitzer 2A65 Msta-B
+AddDisplayName = uk_UA, 152mm Мста-б
+AddDisplayName = en_EN, 152mm Msta-b
+AddDisplayName = en_US, 152mm Howitzer 2A65 Msta-B
 ItemID = 196619
 MaxHp = 100
 Speed = 0.01
 Sound = none
 ThrottleUpDown = 0.81
 MinRotationPitch = -70
-MaxRotationPitch =  4
+MaxRotationPitch =  70
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 1.0
 EnableNightVision = false
-DefaultFreelook = true
-CameraRotationSpeed = 40
+DefaultFreelook = false
+
 SubmergedDamageHeight = 4
 OnGroundPitchFactor = 3.5
 OnGroundRollFactor  = 3.5
@@ -31,13 +31,13 @@ PartWheelRot = 1
 
 WeightType = Unknown
 
-MobilityYawOnGround = 0.5
+MobilityYawOnGround = 1.0
 PivotTurnThrottle = 0.0
 
-HUD = gunner
-AddGunnerSeat =  0.07,  -0.27, -2.13, 0.07,  -0.27, -2.13, false, -20, 7, true
-CameraPosition = 0.07, 2.27,  -2.13, true
-CameraRotationSpeed = 5
+HUD = vehicle_wwii
+AddGunnerSeat =  0.75,  0.27, -1.5, 0.07,  -0.27, -2.13, false, -70, 70, false
+CameraPosition = 0.75, 2.0,  -0.0, true
+CameraRotationSpeed = 10
 
 unmountposition = 0.07,  1.57, -2.13
 
