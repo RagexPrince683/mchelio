@@ -53,5 +53,5 @@ AddChildPart = true, false,false, 1,  0.00, 0.97, 0.00
 AddRecipe = "ZXZ",  "XDR",  "ZXR",  X, iron_ingot, R, redstone, Z, gold_ingot, D, dispenser
 
 
-BoundingBox =  0.00, 0.60,  0.00,  0.5, 1.5
+BoundingBox =  0.00, 0.60,  0.00,  0.65, 1.5
 

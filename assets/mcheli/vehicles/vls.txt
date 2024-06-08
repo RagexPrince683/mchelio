@@ -78,4 +78,11 @@ AddWeapon = rgm-84_vl,  0.53, 2.0, -0.59, 0.0,-90.0, true,1, 0, -1, 1, -1, 0
 AddWeapon = none, 0,0,0
 AddWeapon = hatch_open, 0,0,0
 
+
 AddRecipe = " Y ",  " X ",  "XRX",  X,iron_block, Y,glass, R,redstone_block
+
+BoundingBox =  0.00, -0.15, 0.0,  3.75, 0.1
+
+BoundingBox =  -1.45, -0.15, 0.00,  3.75, 0.1
+
+BoundingBox =  1.45, -0.15, 0.00,  3.75, 0.1

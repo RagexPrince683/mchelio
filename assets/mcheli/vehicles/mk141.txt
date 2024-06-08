@@ -19,3 +19,4 @@ AddWeapon =  rgm-84block2,  0.55, 3.59, 2.68
 AddWeapon =  rgm-84block2, -0.55, 3.59, 2.68
 
 AddRecipe = "III",  "IXI",  "LXL",  X,Gunpowder,  I, Iron_Ingot,  L,Iron_Block
+BoundingBox =  0.0, -0.2, 0.0,  2.4, 0.3

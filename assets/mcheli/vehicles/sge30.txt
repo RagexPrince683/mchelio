@@ -41,6 +41,8 @@ AddTurretWeapon = gau-8s,  0.00, 0.6765, 0.0,   0.0, -3.0,   true,1, 0,-360,360,
 
 AddRecipe = "ABZ",  "ZX ",  "ZXZ", A, mcheli:uav_station, B, mcheli:mk15, X, diamond_block, Y, glass, Z, iron_ingot
 
-unmountposition = 0.0, 0.0, 0.0
+unmountposition = 0.0, 0.5, -0.3
 
 BoundingBox =  0.0, 0.5, 0.0,  1.2, 1.2
+BoundingBox =  0.0, -0.25, 0.0,  1.2, 0.4
+

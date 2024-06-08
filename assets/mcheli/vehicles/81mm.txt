@@ -29,4 +29,4 @@ AddTurretWeapon = 81mm_mortar,        0, 2.3, 1.29,   0.0, -1.0,   true,1, 0,-36
 AddRecipe = "I I",  "D D",  "XXX",  X, iron_block, I, iron_ingot, D, dispenser
 
 
-BoundingBox =  0.0, 1.5, 0.0,  4.0, 3.0
+Boundingbox = 0.00,  0.20,  0.00,  0.7, 1.0
