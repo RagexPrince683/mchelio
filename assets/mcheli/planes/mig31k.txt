@@ -52,6 +52,7 @@ AddPartWeaponMissile = X-47M2,  false, false, false, 0.0, 0.82, -5.43,
 
 AddWeapon = gs-6-23, 0.0, 2.26, 1.88,   1.0, 0.0
 AddWeapon = X-47M2, 0.0, 0.82, -5.43,   1.0, 0.0
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 AddRecipe = " Y ",  "XDX",  "ZXZ",  X, iron_block, Y, glass, Z, iron_ingot, D, diamond_block
 

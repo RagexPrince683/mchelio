@@ -67,6 +67,7 @@ AddWeapon = x-23, -3.48, 1.79, -2.867,   2.0, -3.0, true, 2
 AddWeapon = x-58, 0.0, 1.496, -2.17,   2.0, -3.0, true, 2
 
 AddWeapon = targeting_pod_ph50s,   0.0, 3.1, 7.2,    0.0, 0.0
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 AddRecipe = "HGL",  "BCB",  "IPI",  H, dye,15,  G, glass,  L, dye,12,  B, iron_block,  C, comparator,  I, iron_ingot,  P, gunpowder
 

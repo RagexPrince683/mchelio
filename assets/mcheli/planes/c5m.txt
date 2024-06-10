@@ -15,7 +15,7 @@ EnableGunnerMode = true
 AutoPilotRot = 0
 FlareType = 2
 EnableNightVision = true
-EnableEntityRadar = true
+EnableEntityRadar = false
 ThirdPersonDist = 68
 RotorSpeed = 200.0
 

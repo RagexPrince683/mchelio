@@ -64,6 +64,7 @@ AddWeapon = fab500sh,  5.09,  1.91, -6.73,   0.0,  0.0
 AddWeapon = fab500sh, -5.09,  1.91, -6.73,   0.0,  0.0
 
 AddWeapon = targeting_pod_ph50s,   0.0, 3.1, 4.2,    0.0, 0.0
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 AddRecipe = "HGL",  "BCB",  "IPI",  H, dye,3,  G, glass,  L, dye,14,  B, iron_block,  C, comparator,  I, iron_ingot,  P, gunpowder
 

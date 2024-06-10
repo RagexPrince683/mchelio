@@ -15,7 +15,7 @@ FuelConsumption = 1.6
 InventorySize = 64
 FlareType = 2
 EnableNightVision = true
-EnableEntityRadar = true
+EnableEntityRadar = false
 
 StepHeight = -1.0
 

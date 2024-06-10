@@ -35,7 +35,7 @@ DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
 
-MaxAmmo = 2400
-SuppliedNum = 600
+MaxAmmo = 3600
+SuppliedNum = 1800
 Item =  5, iron_ingot
 Item =  5, gunpowder

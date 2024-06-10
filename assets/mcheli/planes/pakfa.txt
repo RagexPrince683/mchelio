@@ -75,6 +75,8 @@ AddWeapon = pakfa_r-77,  0.3501,2.1729,-2.7827,0,0
 AddWeapon = pakfa_r-77, -0.3501,2.1729,-2.7827,0,0
 AddWeapon = pakfa_r-77,  0.3501,2.4224,-9.7052,0,0
 AddWeapon = pakfa_r-77, -0.3501,2.4224,-9.7052,0,0
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
+
 
 BoundingBox =  0.00, 2.70, 0.00,  2.0, 2.0
 ;BoundingBox =  0.00, 3.13, 2.00,  2.0, 2.0

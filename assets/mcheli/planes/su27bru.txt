@@ -69,6 +69,7 @@ AddWeapon = x-25_2,      0.00,   1.6277, -3.2562,  0.0, -1.0
 AddWeapon = x-25_2,      0.00,   1.6522, -9.1284,  0.0, -1.0
 
 AddWeapon = targeting_pod_ph50s_ru,   0.0, 3.1,-0.6,    0.0, 0.0
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 AddPartSteeringWheel =  1.9192,  1.8065, -10.4225,  1,  0,  0,   10
 AddPartSteeringWheel = -1.9192,  1.8065, -10.4225, -1,  0,  0,   10

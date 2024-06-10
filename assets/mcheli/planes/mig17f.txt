@@ -1,10 +1,10 @@
 ﻿DisplayName = mig17f
-AddDisplayName = en_US, MIG 17 (F)
+AddDisplayName = en_US, MIG-17 F
 AddDisplayName = ja_JP, mig17 f
 ItemID = 28731
 MaxHp = 100
 EnableNightVision = true
-EnableEntityRadar = true
+EnableEntityRadar = false
 EnableEjectionSeat = true
 Sound = migfifteen
 Speed = 1.23714
