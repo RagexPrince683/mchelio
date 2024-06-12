@@ -14,7 +14,7 @@ Sound = artillery_gun_snd
 Accuracy = 1.5
 Gravity = -0.048
 
-HeatCount = 1200
+HeatCount = 1000
 MaxHeatCount = 2100
 
 DamageFactor = tank, 2.0
@@ -32,7 +32,7 @@ ProximityFuseDist = 4
 
 Bomblet = 2
 BombletDiff = 0.4
-BombletSTime = 60
+BombletSTime = 30
 ModelBomblet = cbc
 
 DisableSmoke = true
