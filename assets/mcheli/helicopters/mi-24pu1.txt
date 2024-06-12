@@ -1,5 +1,5 @@
-DisplayName = Mi-24
-AddDisplayName = en_US, Mi-24
+DisplayName = Mi-24P Hind
+AddDisplayName = en_US, Mi-24P Hind
 AddDisplayName = ja_JP, Mi-24VP ハインド
 ItemID = 28809
 MaxHp = 100
@@ -71,6 +71,8 @@ AddWeapon = gsh-30-2, -1.00, 0.80,  4.87
 
 AddWeapon = targeting_pod_mob,     0.00,  0.30, 5.94,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.00,  0.30, 5.94,   0.0, 0.0,  false,2
+EnableEntityRadar = true
+
 
 AddRecipe = "XYX", "XGX", "DID", X, iron_block, Y, glass, G, feather, I, iron_ingot, D, dispenser
 

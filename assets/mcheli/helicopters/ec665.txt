@@ -59,6 +59,8 @@ AddWeapon = aim92, -0.79,0.55,-0.01,  1.0,0.0
 AddWeapon = targeting_pod_mob,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.6, 4.8,   0.0, 0.0,  false,2
 
+
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0
 AddRecipe = " X ",  "X X",  " X ",  X, iron_block
 
 BoundingBox = 0.0, 4.5, -1.2, 1.0, 1.5, 1.5

@@ -93,6 +93,8 @@ AddWeapon = HJ10TV, -3.1974,  1.0231, -1.5, -1, 0,  true,2
 AddWeapon = ty90,  3.8479,  2.6975, -2.76,  1, 0
 AddWeapon = ty90, -3.7193,  2.6975, -2.76, -1, 0
 
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0
+
 
 BoundingBox =  0.0, 2.9, -1.7,  2.6, 3.8
 BoundingBox =  0.0, 2.4, -4.5,  2.4, 2.4

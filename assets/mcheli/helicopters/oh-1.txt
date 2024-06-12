@@ -4,7 +4,7 @@ ItemID = 28827
 MaxHp = 100
 EnableGunnerMode = true
 EnableNightVision = true
-EnableEntityRadar = true
+
 Speed = 1.7
 FlareType = 3
 CameraPosition = 0.0, 3.20, 0.42

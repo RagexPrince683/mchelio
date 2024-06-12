@@ -64,6 +64,8 @@ AddWeapon = 9k118,    2.13,  0.92, -0.44,  1, 0,  true,2
 AddWeapon = 9k118,    2.13,  0.57, -0.44, -1, 0,  true,2
 AddWeapon = 9k118tv,  2.78,  0.92, -0.44, -1, 0,  true,2
 AddWeapon = 9k118tv,  2.78,  0.57, -0.44, -1, 0,  true,2
+EnableEntityRadar = true
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0
 
 AddWeapon = targeting_pod_mob,     0.0, 0.8, 4.0,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.8, 4.0,   0.0, 0.0,  false,2
