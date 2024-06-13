@@ -35,6 +35,6 @@ AddWeapon = 15cm_vtstable,  0.00, 2.70, 5.67,   0.0, 0.0
 AddRecipe = " I ",  "IFI",  " I ",  I, iron_ingot, F, mcheli:150_flak
 
 
-BoundingBox =  0.0, 1.5, 0.0,  2.0, 2.5 
-BoundingBox =  0.0, 0.0, 0.0,  1.9, 1.0, 0.25
-
+BoundingBox =  0.0, 2.05, 0.0,  2.0, 1.80
+BoundingBox =  0.0, 0.0, 0.15,  1.2, 1.0
+BoundingBox =  0.0, 1.0, 0.15,  1.2, 1.0

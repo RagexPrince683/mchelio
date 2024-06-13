@@ -29,6 +29,7 @@ AddChildPart = true,false,true,  3,  0.00, 1.55, 0.00
 ;right
 AddChildPart = true,false,true,  3,  0.00, 1.55, 0.00
 
-BoundingBox =  0.0, 1.5, 0.0,  2.0, 2.6
+BoundingBox =  0.0, 2.05, 0.0,  2.0, 1.25
+BoundingBox =  0.0, 0.5, -0.35,  0.75, 1.8
 
 AddRecipe = " G ",  "GIG",  "XRX",  X, iron_block, R, redstone_block, I,iron_ingot, G, gunpowder
