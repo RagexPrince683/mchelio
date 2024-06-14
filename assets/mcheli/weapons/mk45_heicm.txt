@@ -1,6 +1,6 @@
-DisplayName = 127mm Mk45 Mk127 [HE-ICM]
+DisplayName = 127mm Mark 45 Mod 4 Naval Cannon [HE-ICM]
 Type = Rocket
-Power = 100
+Power = 20
 ModelBullet = bullet76mm
 Acceleration = 7.0
 Explosion = 3

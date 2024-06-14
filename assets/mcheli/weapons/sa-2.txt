@@ -1,4 +1,4 @@
-DisplayName = SA-2 Guideline
+DisplayName = SA-2 Guideline [SAM]
 Type = AAMissile
 Power = 195
 DamageFactor = tank, 1.5

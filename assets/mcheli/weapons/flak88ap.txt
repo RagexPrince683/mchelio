@@ -1,4 +1,4 @@
-DisplayName = 88mm Flak 18 Cannon [Unknown AP shell]
+DisplayName = 88mm Flak 18 Cannon [Pzgr - APCBC]
 Type = MachineGun1
 ModelBullet = 88mm
 Power = 120

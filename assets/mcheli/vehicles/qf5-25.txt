@@ -10,7 +10,7 @@ MinRotationPitch = -70
 MaxRotationPitch =  5
 DamageFactor = 1.0
 CameraZoom = 4
-CameraPosition = 0.0, 2.86, 0.00
+CameraPosition = 0.0, 4.36, 0.00
 
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A

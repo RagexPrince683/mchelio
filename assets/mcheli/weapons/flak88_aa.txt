@@ -1,8 +1,8 @@
-DisplayName = 88mm Flak 36 AA Shell
+DisplayName = 88mm Flak 36 Cannon [AA Shell]
 Type = Rocket
 Power = 15
 ModelBullet = 88mm
-Acceleration = 4.5
+Acceleration = 5.0
 Explosion = 2
 ExplosionBlock = 1
 Flaming = false

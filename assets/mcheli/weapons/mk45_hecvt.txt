@@ -1,14 +1,15 @@
-DisplayName = 127mm Mk45 Mk116 Cannon [HE-CVT]
+DisplayName = 127mm Mark 45 Mod 4 Naval Cannon [HE-CVT]
 Type = Rocket
 Power = 100
 ModelBullet = bullet76mm
 Acceleration = 7.0
-Explosion = 4
-ExplosionBlock = 2
+Explosion = 5
+ExplosionInWater = 4
+ExplosionBlock = 4
 Flaming = false
 Sight = MoveSight
 Delay = 13
-ModeNum = 2
+
 SoundVolume = 0.6
 SetCartridge = cartridge, 0.4,  0, 0, 5.00, -0.04, 0.40
 Sound = markfourtyfive

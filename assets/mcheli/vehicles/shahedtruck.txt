@@ -3,7 +3,7 @@ MaxHp = 10
 Gravity = -9.81
 GravityInWater = -1.0
 AddSeat = 1.2716 ,2.0906, 4.7137
-CameraPosition = 0,  1.7,  0
+CameraPosition = 0,  3.7,  3.0
 HideEntity = false
 
 DamageFactor = 1.0
