@@ -1,28 +1,20 @@
-DisplayName = 155mm M284 Cannon [M718 RAAMS - Anti-Tank Mines]
-Type = Dispenser
-;Power = 10
+DisplayName = 155mm M284 Cannon [M795 - HE]
+Type = MachineGun1
+Power = 700
 ModelBullet = bullet105mm
-;Explosion = 20
-;ExplosionBlock = 5
+Explosion = 30
+ExplosionBlock = 8
 Sight = None
 
 Round = 1
 Sound = moneonine
 
-ModelBomblet = pom2
-
-BombletSTime = 90
-BombletDiff = 1.5
-Bomblet = 9
-
-DisableSmoke = true
-
-TrajectoryParticle = crit
-
+ProximityDist = 6
+ProximityFuseDist = 6
 
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.015
+Gravity = -0.05
 
 HeatCount = 4100
 MaxHeatCount = 8000
@@ -59,12 +51,7 @@ AddMuzzleFlashSmoke =  12.0, 10,  31.0,  6.0, 35,  200,190,170,150
 Recoil = 4.5
 RecoilBufCount = 40, 1400
 
-DispenseItem = hbm:tile.mine_he
-
-
-
 MaxAmmo = 35
 SuppliedNum = 1
-Item =  2, iron_ingot
-Item =  2, gunpowder
-Item = 9, hbm:tile.mine_he
+Item =  4, iron_ingot
+Item =  5, gunpowder

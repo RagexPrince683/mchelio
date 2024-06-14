@@ -1,31 +1,25 @@
-DisplayName = 155mm M284 Cannon [M718 RAAMS - Anti-Tank Mines]
-Type = Dispenser
-;Power = 10
+DisplayName = 155mm M284 Cannon [M982 Excalibur - Guided Shell]
+Type = TVMissile
+Power = 600
 ModelBullet = bullet105mm
-;Explosion = 20
-;ExplosionBlock = 5
-Sight = None
+Explosion = 10
+ExplosionBlock = 3
+Sight = MoveSight
 
 Round = 1
 Sound = moneonine
 
-ModelBomblet = pom2
-
-BombletSTime = 90
-BombletDiff = 1.5
-Bomblet = 9
-
-DisableSmoke = true
-
-TrajectoryParticle = crit
-
+ProximityDist = 2
+ProximityFuseDist = 2
 
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.015
+Gravity = -0.05
 
 HeatCount = 4100
 MaxHeatCount = 8000
+
+ModeNum = 2
 
 Delay = 305
 ReloadTime = 305
@@ -46,7 +40,7 @@ SoundPitch = 1.1
 ; 着弾距離の表示
 DisplayMortarDistance = true
 ; カメラの垂直方向を0に固定する
-FixCameraPitch = true
+FixCameraPitch = false
 ; カメラの回転速度の倍率(小さくするとより細かく着弾地点が調整ができる)
 CameraRotationSpeedPitch = 0.4
 
@@ -59,12 +53,8 @@ AddMuzzleFlashSmoke =  12.0, 10,  31.0,  6.0, 35,  200,190,170,150
 Recoil = 4.5
 RecoilBufCount = 40, 1400
 
-DispenseItem = hbm:tile.mine_he
-
-
-
 MaxAmmo = 35
 SuppliedNum = 1
 Item =  2, iron_ingot
-Item =  2, gunpowder
-Item = 9, hbm:tile.mine_he
+Item =  3, gunpowder
+Item = 1, redstone

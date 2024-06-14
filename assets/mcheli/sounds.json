@@ -275,6 +275,7 @@
 "mlrs": {"category": "master","sounds": ["mlrs"]},
 "mlrseng": {"category": "master","sounds": ["mlrseng"]},
 "moneonethreeapc": {"category": "master","sounds": ["moneonethreeapc"]},
+"moneonine": {"category": "master","sounds": ["moneonine"]},
 "mortareighty": {"category": "master","sounds": ["mortareighty"]},
 "mortar_gun_snd": {"category": "master","sounds": ["mortar_gun_snd"]},
 "msixty": {"category": "master","sounds": ["msixty"]},

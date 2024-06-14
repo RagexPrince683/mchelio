@@ -1,4 +1,4 @@
-DisplayName = 155mm M284 Cannon [M712 - Copperhead]
+DisplayName = 155mm M284 Cannon [M712 Copperhead - Guided Shell]
 Type = TVMissile
 Power = 800
 ModelBullet = bullet105mm
