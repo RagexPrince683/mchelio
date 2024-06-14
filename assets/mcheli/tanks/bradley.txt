@@ -49,11 +49,11 @@ CameraPosition = -0.161,  3.1, -0.0414
 
 TurretPosition = -0.0, 2.14, 0.0
 AddGunnerSeat =  0.00,  1.70,  -0.0, -0.161,  3.1, -0.0414, false, -90, 90, true
-AddSeat = -0.87, 0.5, -1.0
-AddSeat = -0.87, 0.5, -1.4
+;AddSeat = -0.87, 0.5, -1.0
+;AddSeat = -0.87, 0.5, -1.4
 AddSeat = -0.87, 0.5, -2.0
-AddSeat = 0.87, 0.5, -1
-AddSeat = 0.87, 0.5, -1.4
+;AddSeat = 0.87, 0.5, -1
+;AddSeat = 0.87, 0.5, -1.4
 AddSeat = 0.87, 0.5, -2.0
 
 
@@ -117,7 +117,7 @@ InventorySize = 9
 
 ArmorMinDamage = 5
 
-AddRecipe = "XXX",  " X ",  "III",  X, iron_block,  I, iron_ingot
+AddRecipe = "XIX",  " B ",  "III",  X, iron_block,  I, iron_ingot, B, mcheli:bradleym2
 ;BoundingBox =  0.0, 0.6,  2,   4, 1.9,  1
 ;BoundingBox = -0.35, 1.6,  0.0,   2.4, 3.2,  1
 ;BoundingBox =  0.0, 1, -1,   3.8, 1.9,  1.00

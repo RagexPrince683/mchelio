@@ -23,6 +23,8 @@ MaxHeatCount = 150
 
 Gravity = -0.005
 
+DisplayMortarDistance = true
+
 
 Acceleration = 7.5
 group = maingun

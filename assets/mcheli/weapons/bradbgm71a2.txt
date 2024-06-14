@@ -1,6 +1,6 @@
-DisplayName = BGM-71E TOW-2 [ATGM]
+DisplayName = BGM-71B TOW-2 [ATGM]
 Type = TVMissile
-Power = 900
+Power = 430
 
 Delay = 80
 ReloadTime = 330
@@ -29,11 +29,15 @@ Delay = 20
 ModelBullet = 9M113
 Sound = tow
 
-CameraRotationSpeedPitch = 0.3
+HeatCount = 5000
+MaxHeatCount = 15000
+
 
 Round = 2
 
-MaxAmmo = 12
+CameraRotationSpeedPitch = 0.3
+
+MaxAmmo = 7
 SuppliedNum = 1
 Item =  3, iron_ingot
 Item =  2, gunpowder
