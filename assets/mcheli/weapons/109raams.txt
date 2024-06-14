@@ -11,18 +11,18 @@ Sound = moneonine
 
 ModelBomblet = pom2
 
-BombletSTime = 90
-BombletDiff = 1.5
+BombletSTime = 25
+BombletDiff = 0.5
 Bomblet = 9
 
-DisableSmoke = true
+DisableSmoke = false
 
 TrajectoryParticle = crit
 
 
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.015
+Gravity = -0.0055
 
 HeatCount = 4100
 MaxHeatCount = 8000

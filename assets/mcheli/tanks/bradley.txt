@@ -10,10 +10,14 @@ MinRotationPitch = -59
 MaxRotationPitch = 20
 MobilityRoll = 0
 Gravity = -0.61
-Float = true
-FloatOffset = 0.0
+;Float = true
+;FloatOffset = 0.0
 
-GravityInWater = -0.2
+;GravityInWater = -0.2
+
+;too fat
+
+GravityInWater = -1.0
 DamageFactor = 0.0
 
 
@@ -107,6 +111,8 @@ AddPartWeaponChild = false, true, 1.21, 2.29, 0.385
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
 RideRack = c5, 2
+
+InventorySize = 9
 
 
 ArmorMinDamage = 5

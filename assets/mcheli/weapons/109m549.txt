@@ -1,4 +1,4 @@
-DisplayName = 155mm M284 Cannon [M107 - HE]
+DisplayName = 155mm M284 Cannon [M549 - HE-RA]
 Type = MachineGun1
 Power = 500
 ModelBullet = bullet105mm
@@ -9,13 +9,15 @@ Sight = None
 Round = 1
 Sound = moneonine
 
-ProximityDist = 4
-ProximityFuseDist = 4
+;ProximityDist = 6
+;ProximityFuseDist = 6
 
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-;14mi
-Gravity = -0.05
+
+;18.7mi
+
+Gravity = -0.025
 
 HeatCount = 4100
 MaxHeatCount = 8000
@@ -54,5 +56,5 @@ RecoilBufCount = 40, 1400
 
 MaxAmmo = 35
 SuppliedNum = 1
-Item =  2, iron_ingot
-Item =  3, gunpowder
+Item =  4, iron_ingot
+Item =  5, gunpowder

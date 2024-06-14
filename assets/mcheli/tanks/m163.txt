@@ -3,11 +3,11 @@ AddDisplayName = en_US, M163 VADS
 AddDisplayName = ja_JP, M163 対空自走砲
 ItemID = 30191
 MaxHp = 200
-Speed = 0.7
+Speed = 0.40
 ThrottleUpDown = 5.0
 Gravity = -0.61
 GravityInWater = -1.0
-DamageFactor = 0.6
+DamageFactor = 0.8
 CameraZoom = 5
 EnableNightVision = true
 EnableEntityRadar = true
@@ -42,12 +42,12 @@ TurretPosition = 0.0, 1.0, 0.0
 AddGunnerSeat =  0.00,  2.1, 0.00, 0.0, 3.50, 0.00, false, -85, 10, false
 
 
-AddSeat       =   0.56, 0.85, -0.56
-AddSeat       =  -0.56, 0.85, -0.56
-AddSeat       =   0.56, 0.85, -1.60
-AddSeat       =  -0.56, 0.85, -1.60
-AddSeat       =   0.56, 0.85, -2.46
-AddSeat       =  -0.56, 0.85, -2.46
+;;AddSeat       =   0.56, 0.85, -0.56
+;;AddSeat       =  -0.56, 0.85, -0.56
+;;AddSeat       =   0.56, 0.85, -1.60
+;;AddSeat       =  -0.56, 0.85, -1.60
+;;AddSeat       =   0.56, 0.85, -2.46
+;;AddSeat       =  -0.56, 0.85, -2.46
 
 CameraPosition =  0.00, 3.9,  -0.00, false
 

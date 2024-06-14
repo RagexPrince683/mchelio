@@ -3,7 +3,7 @@ AddDisplayName = en_US, M113 APC
 AddDisplayName = ja_JP, M113 装甲兵員輸送車
 ItemID = 30191
 MaxHp = 200
-Speed = 0.7
+Speed = 0.42
 ThrottleUpDown = 5.0
 Gravity = -0.61
 GravityInWater = -0.2
@@ -41,7 +41,7 @@ AddSeat       =  -0.56, 0.85, -2.46
 CameraPosition =  0.85, 3.30,  1.81, true
 
 
-StepHeight = 1.5
+StepHeight = 1.8
 InventorySize = 25
 ParticlesScale = 0.1
 SmoothShading = true
@@ -57,11 +57,16 @@ FuelConsumption = 1.5
 TrackRollerRot = 35
 
 AddTrackRoller = 0.00, 0.51, -2.68
-AddTrackRoller = 0.00, 0.21, -1.76
-AddTrackRoller = 0.00, 0.21, -0.87
-AddTrackRoller = 0.00, 0.21, -0.01
-AddTrackRoller = 0.00, 0.21,  0.87
-AddTrackRoller = 0.00, 0.21,  1.76
+
+AddTrackRoller = 0.00, 0.2102, -1.8508
+
+;-16.06
+AddTrackRoller = 0.00, 0.0497, -0.9137
+AddTrackRoller = 0.00, 0.0497, 0.0018
+AddTrackRoller = 0.00, 0.0497,  0.9168
+
+AddTrackRoller = 0.00, 0.2102,  1.8519
+
 AddTrackRoller = 0.00, 0.64,  2.69
 
 AddCrawlerTrack = false, 0.14, -2.15,   1.07/ 2.64, 0.91/ 3.05, 0.59/ 3.11, 0.25/ 2.98, -0.14/ 2.03, -0.28/ 1.65, -0.28/ -1.77, -0.14/ -2.14, 0.22/ -2.96, 0.51/ -3.08, 0.80/ -2.96, 0.91/ -2.67,
