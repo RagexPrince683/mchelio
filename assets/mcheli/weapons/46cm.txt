@@ -1,4 +1,4 @@
-DisplayName = 46cm Type91 Naval Cannon [HE] 
+DisplayName = 46cm Type 91 Naval Cannon [HE] 
 Type = MachineGun1
 ModelBullet = 91ap_46
 Power = 100

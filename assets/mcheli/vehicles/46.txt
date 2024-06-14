@@ -40,4 +40,11 @@ AddWeapon = type3bullet_46,  0.00, 1.55, 2.00,  0.0, 0.0
 
 AddRecipe = "XXX",  "DDD",  "GGG",  X, iron_block, G, gold_block, D, dispenser
 
-BoundingBox =  0.0, 1.5, 0.0,  6.0, 3.0
+BoundingBox =  0.0, 1.5, 0.0,  6.0, 3.1
+
+BoundingBox =  0.0, 1.5, 2.0,  6.0, 3.0
+
+BoundingBox =  0.0, 1.5, -2.0, 6.0, 3.0
+
+BoundingBox =  2.0, 1.5, 0.0,  6.0, 3.0
+BoundingBox =  -2.0, 1.5, 0.0,  6.0, 3.0
