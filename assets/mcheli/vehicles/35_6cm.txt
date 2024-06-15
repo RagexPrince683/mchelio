@@ -22,7 +22,7 @@ AddSeat = 0.00,  1.50, 0.00
 unmountposition = 0.0, 1.5, 0.0
 
 BoundingBox = 0.0, 2.4, 0.0, 6.9, 3.0
-BoundingBox = 0.0, 0.1, 0.0, 6.5, 1.5
+BoundingBox = 0.0, 0.1, 0.0, 6.5, 1.5, 0.5
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;本体-砲身
