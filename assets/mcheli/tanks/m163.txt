@@ -13,16 +13,18 @@ EnableNightVision = true
 EnableEntityRadar = true
 Sound = moneonethreeapc
 ;HUD = mbt_hud, 
-HUD = mbt_hud, none, none, none, none, none, none
+HUD = mbt_hudtherm
 WeightType = Tank
 DefaultFreelook = true
 CameraZoom = 3
+
+ThirdPersonDist = 8
 
 
 AddTexture = m163_1
 
 EnableBack = true
-SetWheelPos =  1.00,  -0.24,  2.30, 0.80, -0.80, -2.30
+SetWheelPos =  1.00,  -0.24, -1.85, -0.9137, 0.0018, 0.9168, 1.8519
 
 SubmergedDamageHeight = 1
 WeightedCenterZ = 0.0
@@ -30,7 +32,7 @@ WeightedCenterZ = 0.0
 OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 2.0
 
-MobilityYawOnGround = 2.0
+MobilityYawOnGround = 2.4
 PivotTurnThrottle = 0.0
 
 ;AddGunnerSeat       =   0.00, 1.91,  -0.46, 0.00, 1.91,  -0.46, true, 90, -90, true
@@ -68,15 +70,20 @@ FuelConsumption = 1.5
 TrackRollerRot = 35
 
 AddTrackRoller = 0.00, 0.51, -2.68
-AddTrackRoller = 0.00, 0.21, -1.76
-AddTrackRoller = 0.00, 0.21, -0.87
-AddTrackRoller = 0.00, 0.21, -0.01
-AddTrackRoller = 0.00, 0.21,  0.87
-AddTrackRoller = 0.00, 0.21,  1.76
+
+AddTrackRoller = 0.00, 0.2102, -1.8508
+
+;-16.06
+AddTrackRoller = 0.00, 0.0497, -0.9137
+AddTrackRoller = 0.00, 0.0497, 0.0018
+AddTrackRoller = 0.00, 0.0497,  0.9168
+
+AddTrackRoller = 0.00, 0.2102,  1.8519
+
 AddTrackRoller = 0.00, 0.64,  2.69
 
-AddCrawlerTrack = false, 0.14, -2.15,   1.07/ 2.64, 0.91/ 3.05, 0.59/ 3.11, 0.25/ 2.98, -0.14/ 2.03, -0.28/ 1.65, -0.28/ -1.77, -0.14/ -2.14, 0.22/ -2.96, 0.51/ -3.08, 0.80/ -2.96, 0.91/ -2.67,
-AddCrawlerTrack = false, 0.14,  2.15,   1.07/ 2.64, 0.91/ 3.05, 0.59/ 3.11, 0.25/ 2.98, -0.14/ 2.03, -0.28/ 1.65, -0.28/ -1.77, -0.14/ -2.14, 0.22/ -2.96, 0.51/ -3.08, 0.80/ -2.96, 0.91/ -2.67,
+AddCrawlerTrack = false, 0.14, -1.15,   1.07/ 2.64, 0.91/ 3.05, 0.59/ 3.11, 0.25/ 2.98, -0.14/ 2.03, -0.28/ 1.65, -0.28/ -1.77, -0.14/ -2.14, 0.22/ -2.96, 0.51/ -3.08, 0.80/ -2.96, 0.91/ -2.67,
+AddCrawlerTrack = false, 0.14,  1.15,   1.07/ 2.64, 0.91/ 3.05, 0.59/ 3.11, 0.25/ 2.98, -0.14/ 2.03, -0.28/ 1.65, -0.28/ -1.77, -0.14/ -2.14, 0.22/ -2.96, 0.51/ -3.08, 0.80/ -2.96, 0.91/ -2.67,
 
 MinRotationPitch = -80
 MaxRotationPitch = 7
