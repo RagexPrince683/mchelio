@@ -77,9 +77,14 @@ MaxRotationPitch = 15
 
 AddPartHatch =   0.0,  0.42,  -2.93, 1,0, 0, -100
 
-AddPartWeapon    = m2_1,   false, true, true,  -0.01, 3.13,  0.96
-AddPartWeapon    = m2_1,   false, true, false, -0.01, 2.81,  0.96
-AddTurretWeapon = m2_1, -0.01, 3.13,  0.96,   0.0, 0.0, false, 2, 0, -60, 60, -20,20
+;AddPartWeapon = humveem240, false, true, false,  0.00, 1.01, -0.018, 0
+;AddPartWeaponChild = false, true, 0.00, 1.87, 0.742
+
+;AddPartWeapon = m2_1, false, true, false, 0.0309, 2.81, -0.0241
+
+AddPartWeapon    = m113m2_1,   false, true, false,  0.0309, 3.10, -0.0241
+AddPartWeaponChild    = false, true, 0.0309, 2.81, 0.980
+AddWeapon = m113m2_1, 0.0077, 3.1436,  -0.0241,   0.0, 0.0, false, 2, 0, -360, 360, -20,20
 
 ;BoundingBox =  0.0, 0.8,  1.3,   3.0, 2.0,  0.8
 ;BoundingBox =  0.0, 0.8,  -1.7,   3.0, 2.0,  1.5

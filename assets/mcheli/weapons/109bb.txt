@@ -61,7 +61,7 @@ AddMuzzleFlashSmoke =  12.0, 10,  31.0,  6.0, 35,  200,190,170,150
 Recoil = 4.5
 RecoilBufCount = 40, 1400
 
-MaxAmmo = 25
+MaxAmmo = 5
 SuppliedNum = 1
 Item =  3, iron_ingot
 Item =  5, gunpowder

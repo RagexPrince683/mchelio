@@ -63,7 +63,7 @@ DispenseItem = hbm:tile.mine_he
 
 
 
-MaxAmmo = 35
+MaxAmmo = 5
 SuppliedNum = 1
 Item =  2, iron_ingot
 Item =  2, gunpowder
