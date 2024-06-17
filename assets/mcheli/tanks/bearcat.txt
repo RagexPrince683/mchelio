@@ -18,7 +18,7 @@ InventorySize = 18
 EnableBack = true
 MotionFactor = 0.93
 AddTexture = bearcat_2
-StepHeight = 1.8
+StepHeight = 1.5
 
 WeightedCenterZ = -0.2
 
@@ -56,7 +56,7 @@ AddFixedSearchLight =  1.09,  1.02,  3.50,   0x50FFFFFF,   0x10FFFFC0,    0.5, 0
 AddFixedSearchLight =  1.0179, 0.7841,-2.6610,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  0.0,  0
 AddFixedSearchLight =  -1.0179, 0.7841,-2.6610,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  0.0,  0
 
-AddSearchLight = 0.96, 2.89,  0.80,   0x50FFFFFF,   0x10FFFFC0,    1.0, 0.9
+AddSearchLight = 0.960, 2.89,  0.846,   0x50FFFFFF,   0x10FFFFC0,    1.8461, 0.9596
 AddPartCamera = -0.96, 2.78, 0.84, true, false
 AddPartCamera = 0.96, 2.89,  0.85, true, false
 
@@ -95,11 +95,13 @@ AddPartCanopy = -1.33, 1.44, 2.12, 0,  1, 0, 80
 AddPartHatch = -0.52, 1.52, -2.56, 0.0, 1.0, 0.00, 120
 
 AddWeapon = none, 0.0, 3.00, 4.00, 0.0, 0.0, true, 2
+AddWeapon = thorn2,    0.00, 0.00, 0.00,  0.0,0.0
 
-AddWeapon = speaker, 0.0, 3.00, 4.00, 0.0, 0.0, true, 2
-AddWeapon = targeting_pod_block, 0.0, 2.0, 0.0, 0.0, 0.0, true, 2
-AddWeapon = targeting_pod_ph50s, 0.0, 0.0, 0.0, 0.0, 0.0, true, 2
-AddWeapon = targeting_pod_mob, 0.0, 0.0, 0.0, 0.0, 0.0, true, 2
+
+AddWeapon = speaker, 0.0, 3.00, 4.00, 0.0, 0.0, false, 2
+AddWeapon = targeting_pod_block, 0.0, 2.0, 0.0, 0.0, 0.0, false, 2
+AddWeapon = targeting_pod_ground, 0.0, 0.0, 0.0, 0.0, 0.0, false, 2
+;AddWeapon = targeting_pod_mob, 0.0, 0.0, 0.0, 0.0, 0.0, false, 2
 
 MaxFuel         = 1500
 FuelConsumption = 2.0
@@ -128,6 +130,6 @@ ArmorMinDamage = 31
 ArmorDamageFactor = 2.32
 Regeneration = false
 ;ArmorMaxDamage = 50
-UnmountPosition = 0.65, 1.50, 1.16
+UnmountPosition = 0.0, 1.50, -2.0
 
 AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_block, R, redstone

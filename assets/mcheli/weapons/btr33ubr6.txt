@@ -13,7 +13,7 @@ SoundPitchRandom = 0.1
 SoundPitch = 1.0
 Sound = bmptwomain
 Accuracy = 1.5
-ModeNum = 1
+
 group = maingun
 
 TrajectoryParticle = crit

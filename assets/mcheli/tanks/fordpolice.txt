@@ -75,7 +75,7 @@ AddFixedSearchLight =  -0.8935, 0.6618, 2.9554,   0xFFFFFFFF,   0x00FFFFC0,    0
 
 AddWeapon =  none, 0.00,  1.93,  -0.41,   0.0, 90,  true,  1
 
-AddWeapon =  1_siren_police, 0.00,  1.93,  -0.41,   0.0, 90,  true,  1
+AddWeapon =  uspolice, 0.00,  1.93,  -0.41,   0.0, 90,  true,  1
 MaxFuel         = 1200
 FuelConsumption = 1
 EntityWidth = 0.9

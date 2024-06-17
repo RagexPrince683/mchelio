@@ -85,7 +85,7 @@ AddPartWeaponChild= false, true, 0.00, 2.36, 1.32
 AddPartWeaponChild= false, true, 0.00, 2.36, 1.32,  0.5
 
 AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 2
-AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,2
+AddTurretWeapon = targeting_pod_ground,   0.60, 3.40, 0.60,   0.0, 0.0,  false,2
 AddTurretWeapon = targeting_pod_block,   0.60, 3.40, 0.60,   0.0, 0.0,  true, 2
 
 AddTurretWeapon     = centmg3_l,  1.1824, 3.3164, -0.1427, 0.0, 0.0, true,   3 , 0, -360, 360, -35,35

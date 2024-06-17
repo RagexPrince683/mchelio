@@ -1,13 +1,13 @@
-DisplayName = ֏L֏a֏m֏b֏o֏r֏g֏h֏i֏n֏i֏ ֏H֏u֏r֏a֏c֏a֏n֏
-AddDisplayName = en_US, ֏L֏a֏m֏b֏o֏r֏g֏h֏i֏n֏i֏ ֏H֏u֏r֏a֏c֏a֏n֏
-AddDisplayName = ja_JP, ֏L֏a֏m֏֏b֏o֏r֏g֏h֏i֏n֏i ֏H֏u֏r֏a֏c֏a֏n֏
+DisplayName = ֏L֏a֏m֏b֏o֏r֏g֏h֏i֏n֏i֏ ֏H֏u֏r֏a֏c֏a֏n֏ L֏P 6֏1֏0֏-֏4 C֏o֏u֏p֏é
+AddDisplayName = en_US, ֏L֏a֏m֏b֏o֏r֏g֏h֏i֏n֏i֏ ֏H֏u֏r֏a֏c֏a֏n֏ L֏P 6֏1֏0֏-֏4 C֏o֏u֏p֏é
+AddDisplayName = ja_JP, ֏L֏a֏m֏֏b֏o֏r֏g֏h֏i֏n֏i ֏H֏u֏r֏a֏c֏a֏n֏ L֏P 6֏1֏0֏-֏4 C֏o֏u֏p֏é
 ;this is to any low life piece of shit that dares enter this file, get a fucking job, do a sport, or find a fucking hobby.
 
 ItemID = 31400
 MaxHp = 200
 Speed = 1.99
 Sound = barg
-MobilityYawOnGround = 10.0
+MobilityYawOnGround = 8.0
 ThrottleUpDown = 1.0
 ;2.9s 0-60
 MinRotationPitch = -90

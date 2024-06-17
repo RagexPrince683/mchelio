@@ -65,6 +65,9 @@ BoundingBox = 0.0, 0.1, 0.1, 2.0, 0.2
 BoundingBox = 0.0, 0.1, 1.5, 2.0, 0.2
 BoundingBox = 0.0, 0.1, -1.6, 1.9, 0.2
 
+AddWeapon = smoke_none, 1.2,  -0.3,-1.7592,   1.0, 0.0
+
+
 AddWeapon = drift,    0.9283, 0.0, -1.44,  0.0,0.0
 AddWeapon = drift,   -0.9283, 0.0, -1.44,  0.0,0.0
 

@@ -15,7 +15,7 @@ Round = 100
 SoundPitch = 1.0
 Sound = rcvtwentyfive
 Accuracy = 1.5
-ModeNum = 1
+
 Recoil = 0.5
 HeatCount = 6
 MaxHeatCount = 150
@@ -40,7 +40,7 @@ SoundVolume = 15
 
 
 MaxAmmo = 133
-SuppliedNum = 50
+SuppliedNum = 19
 Item =  2, iron_ingot
 Item =  2, gunpowder
 

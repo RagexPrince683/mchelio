@@ -15,6 +15,7 @@ SoundPitchRandom = 0.1
 Sound = btreightymain
 Accuracy = 1.5
 ;ModeNum = 1
+;FAE = true
 
 TrajectoryParticle = crit
 
@@ -30,7 +31,7 @@ DamageFactor = plane, 1.2
 DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.2
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 14.5mm KPVT machine gun [API-T]
+
 SoundVolume = 15
 
 

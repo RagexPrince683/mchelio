@@ -42,5 +42,5 @@ AddMuzzleFlashSmoke =  -6.2, 13,  13.0,  6.0, 35,  200,190,170,150
 MaxAmmo = 8
 SuppliedNum = 1
 Item =  1, iron_ingot
-Item =  3, gunpowder
+Item =  12, gunpowder
 Item =  2, redstone

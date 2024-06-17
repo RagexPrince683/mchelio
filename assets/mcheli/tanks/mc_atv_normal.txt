@@ -58,7 +58,7 @@ AddSeat =  -0.40,  0.95,  -1.10
 
 AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
 
-AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
+;AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
 
 
 AddFixedSearchLight =  0.49, 0.71, 1.88,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.80,  -5,  0

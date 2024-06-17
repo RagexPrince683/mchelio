@@ -16,7 +16,7 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1.0
 MaxFuel           = 1200
-FuelConsumption   = 1.0
+FuelConsumption   = 0.8
 ThirdPersonDist = 8
 
 OnGroundPitchFactor = 18.0
@@ -41,7 +41,7 @@ SetWheelPos =  0.60,  -0.24,  1.68, -1.72
 
 WeightedCenterZ = 1.0
 
-HUD = bnr32_hud, none
+HUD = bnr32_hud, none, none, none, none
 
 EntityWidth  = 0.95
 EntityHeight = 0.95

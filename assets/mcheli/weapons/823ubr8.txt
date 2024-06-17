@@ -13,7 +13,7 @@ SoundPitch = 1.0
 SoundPitchRandom = 0.1
 Sound = bmptwomain
 Accuracy = 1.5
-ModeNum = 1
+
 group = maingun
 
 ;ModelBullet = 

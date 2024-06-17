@@ -20,7 +20,7 @@ GravityInWater = -1.0
 MinRotationPitch = -45
 MaxRotationPitch = 10
 MobilityRoll = 0
-InventorySize = 25
+InventorySize = 18
 DefaultFreelook = true
 MotionFactor = 0.9
 Float = false
@@ -42,7 +42,7 @@ AddTexture = 87rcv_1
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = mbt_hud, 
+HUD = mbt_hudtwo, 
 
 AddGunnerSeat =  0.00, 2.68,  0.00, 0.0, 3.68, 0.0, false, -45, 10, true
 
@@ -80,11 +80,10 @@ AddTurretWeapon = 87m792,   0.00, 2.63, 0.00,   0.0, 0.0, true, 1, 0, -360,360, 
 AddTurretWeapon = 87m79apfsds,   0.00, 2.63, 0.00,   0.0, 0.0, true, 1, 0, -360,360, -45,10
 AddTurretWeapon = 87ty74,  -0.37, 2.70, 0.00,   0.0, 0.0, true, 1, 0, -360,360, -45,10
 
-AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 2
-AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,2
-AddTurretWeapon = targeting_pod_block,   0.60, 3.40, 0.60,   0.0, 0.0,  true, 2
+;AddTurretWeapon = targeting_pod_block, 0.0, 2.0, 0.0, 0.0, 0.0, false,  1
+;AddTurretWeapon = targeting_pod_ground, 0.0, 0.0, 0.0, 0.0, 0.0, false, 1
 
-DamageFactor = 0.0
+DamageFactor = 0.8
 
 HideEntity = true
 

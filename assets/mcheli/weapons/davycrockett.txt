@@ -6,7 +6,7 @@ Explosion = 3
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
-Delay = 700
+Delay = 400
 ;ModeNum = 1
 ;SoundPitch = 0.5
 SoundVolume = 20
@@ -43,8 +43,10 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 2.5
 
+CameraRotationSpeedPitch = 0.1
+
 MaxAmmo = 1
 SuppliedNum = 1
 Item =  1, hbm:item.ammo_nuke
 Item = 1, iron_ingot
-Item =  2, gunpowder
+Item =  4, gunpowder
