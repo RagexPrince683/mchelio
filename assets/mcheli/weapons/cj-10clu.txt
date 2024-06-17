@@ -1,0 +1,27 @@
+DisplayName = CJ-10 Cluster
+AddDisplayName = zh_CN, 长剑10集束弹头
+Type = Rocket
+Power = 100
+Acceleration = 4.2
+Explosion = 1
+Explosionblock = 0
+ExplosionInWater = 1
+Flaming = true
+Sight = MoveSight
+Delay = 40
+ModelBullet = CJ-10
+Sound = missile_2_snd
+ModeNum = 2
+Piercing  = 2
+SoundVolume = 10.0
+disablesmoke = true
+
+DamageFactor = tank, 5
+
+Bomblet = 125
+BombletSTime = 20
+BombletDiff = 2.2
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, hbm:item.missile_cluster_strong

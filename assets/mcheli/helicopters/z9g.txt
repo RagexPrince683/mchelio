@@ -104,9 +104,9 @@ InventorySize = 27
 
 
 
-BoundingBox =  0.0, 3.0,-17.5,  1.0, 3.0
-BoundingBox =  0.0, 3.0,-16.5,  1.0, 3.0
-BoundingBox =  0.0, 3.0,-15.5,  1.0, 3.0
+BoundingBox =  0.0, 3.0,-17.5,  1.0, 3.0, 1.25
+BoundingBox =  0.0, 3.0,-16.5,  1.0, 3.0, 1.25
+BoundingBox =  0.0, 3.0,-15.5,  1.0, 3.0, 1.25
 BoundingBox = 0.0, 2.5, -14.50, 1.0, 1.0
 BoundingBox = 0.0, 2.5, -13.50, 1.0, 1.0
 BoundingBox = 0.0, 2.5, -12.50, 1.0, 1.0

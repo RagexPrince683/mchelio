@@ -1,0 +1,23 @@
+DisplayName = AGM-158 JASSM
+Type = TVMissile
+Power = 200
+Acceleration = 4.0
+Explosion = 16
+Sight = MoveSight
+Delay = 15
+round=4
+ModeNum = 2
+ModelBullet = agm158
+Sound = missile_1_snd
+DisableSmoke = true
+
+DamageFactor = tank, 50.0
+DamageFactor = plane, 50.5
+DamageFactor = vehicle 50.5
+DamageFactor = heli, 50.5
+DamageFactor = player, 50.0
+
+
+MaxAmmo = 12
+SuppliedNum = 4
+Item =  4, hbm:item.missile_stealth

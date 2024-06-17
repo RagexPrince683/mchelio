@@ -1,0 +1,29 @@
+DisplayName = CJ-10 Nuclear Warhead 150KT
+AddDisplayName = zh_CN, 长剑10核弹头（150万吨当量）
+Type = rocket
+;Power = 100000
+Acceleration = 4.0
+Explosion = 10
+ExplosionBlock = 3
+ExplosionInWater = 3
+Sight = MoveSight
+Delay = 220
+Round = 1
+ModeNum = 2
+ModelBullet = CJ-10
+Sound = missile_2_snd
+SoundVolume = 10.0
+DisableSmoke = true
+nukeyield = 195
+;I hate hbm proportions
+;150kt
+
+;DamageFactor = tank, 2.0
+;DamageFactor = plane, 1.0
+;DamageFactor = vehicle 4.5
+;DamageFactor = heli, 4.5
+;DamageFactor = player, 20.0
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, hbm:item.missile_nuclear

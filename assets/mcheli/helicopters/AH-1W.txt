@@ -86,7 +86,7 @@ EnableEntityRadar = true
 ;BoundingBox =  0.0, 2.5, -2.0,  2.0, 3.8
 BoundingBox =  0.0, 2.0, -2.5,  2.0, 2.4
 BoundingBox =  0.0, 2.0, -4.5,  2.0, 2.4
-BoundingBox =  0.0, 2.5,-13.0,  2.0, 3.0
+BoundingBox =  0.0, 2.5,-13.0,  2.0, 3.0, 1.25
 
 BoundingBox = 0.0, 1.17, -5.82, 1.0, 1.0
 BoundingBox = 0.0, 1.17, -6.82, 1.0, 1.0

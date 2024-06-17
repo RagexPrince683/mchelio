@@ -1,0 +1,26 @@
+DisplayName = Mk 84 Bomb
+Type = Bomb
+Power = 80000
+Acceleration = 0.01
+Explosion = 30
+ExplosionInWater = 20
+Flaming = true
+Sight = None
+Delay = 5
+Sound = bomb_snd
+SoundVolume = 15
+ModelBullet = mk84
+ExplosionAltitude = 8
+DamageFactor = tank, 200.0
+DamageFactor = plane, 20.5
+DamageFactor = vehicle 40.5
+DamageFactor = heli, 40.5
+DamageFactor = player, 20000.0
+DamageFactor = entity,100.0
+
+
+ReloadTime = 150
+
+MaxAmmo = 24
+SuppliedNum = 8
+Item =  32, hbm:item.ammo_nuke,5

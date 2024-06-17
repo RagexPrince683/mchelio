@@ -1,0 +1,24 @@
+DisplayName = CBU-72 FAE1
+Type = Bomb
+Power = 3000
+Acceleration = 0.1
+Explosion = 12
+ExplosionBlock = 2
+ExplosionInWater = 0
+Sound = bomb_snd
+SoundVolume = 15
+FAE = true
+Flaming = true
+Bomblet = 3
+BombletSTime = 40
+BombletDiff = 0.6
+Sight = None
+Delay = 25
+ModelBullet = cbu87
+ModelBomblet = cbc
+Sound = bomb_snd
+
+MaxAmmo = 16
+SuppliedNum = 4
+Item =  4, hbm:item.assembly_nuke
+Item =  12, hbm:item.ammo_fuel, 1

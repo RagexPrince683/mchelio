@@ -1,0 +1,98 @@
+﻿DisplayName = B-1B Lancer
+AddDisplayName = zh_CN, B-1B枪骑兵战略轰炸机
+ItemID = 28747
+MaxHp = 1800
+Speed = 2.2
+ThrottleUpDown = 0.15
+CameraPosition = -2.42, 2.18, -4.97
+EnableNightVision = true
+EnableEntityRadar = true
+EnableGunnerMode = true
+EnableEjectionSeat = true
+ConcurrentGunnerMode = true
+VariableSweepWing = true
+SweepWingSpeed = 2.4
+FlareType = 2
+AutoPilotRot = 0
+MaxFuel         = 80000
+FuelConsumption = 2.7
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+Stealth = 0.4
+ThirdPersonDist = 156
+
+ArmorMinDamage = 25
+
+AddTexture = b1b1
+AddTexture = b1b2
+
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+HUD = plane, plane_gnr, 
+
+MobilityYaw = 0.5
+MobilityPitch = 0.5
+MobilityRoll = 0.3
+MinRotationPitch = -60
+MaxRotationPitch =  60
+MinRotationRoll  = -60
+MaxRotationRoll  =  60
+
+AddSeat       =  0.55, 7.16, 2.70
+AddGunnerSeat = -0.55, 7.16, 2.70
+
+AddPartWing =  -7.02, 4.99, -21.06,  0,-1,0, 45
+AddPartWing =   7.02, 4.99, -21.06,  0, 1,0, 45
+
+AddPartWeaponBay = mk82_b1/mk84_b1/cbu-87b/cbu-72b/b28/gbu-31b1/gbu28/gbu38/gbu-53_sdbb1/b61B, -1.71, 4.51,-8.49,  0, -0.04, 1.0, -90
+AddPartWeaponBay = mk82_b1/mk84_b1/cbu-87b/cbu-72b/b28/gbu-31b1/gbu28/gbu38/gbu-53_sdbb1/b61B,  1.71, 4.51,-8.49,  0, -0.04, 1.0,  90
+
+
+AddPartWeaponBay = agm158b1/agm154b1/alcm/agm86b/b28/b61/b83, -1.71, 4.51,-26.16,  0, -0.04, 1.0, -90
+AddPartWeaponBay = agm158b1/agm154b1/alcm/agm86b/b28/b61/b83,  1.71, 4.51,-26.16,  0, -0.04, 1.0,  90
+
+
+
+
+AddWeapon = targeting_pod_block, 0.0, 4.0, 5.0,  0.0, 0.0, 2
+AddWeapon = RDI,   0.0, 0, 2.62,    0.0, 0.0, true,2
+AddWeapon = mk82_b1,  0.00,  6.01, -9.87,  0, 0, true,  2
+AddWeapon = mk84_b1,  0.00,  6.01, -9.87,  0, 0, true,  2
+AddWeapon = cbu-87b,  0.00,  6.01, -9.87,  0, 0, true,  2
+AddWeapon = cbu-72b,  0.00,  6.01, -9.87,  0, 0, true,  2
+AddWeapon = gbu28,  0.00,  6.01, -17.49,  0, 0, true,  2, 0,-360,360, -180,180
+AddWeapon = gbu-53_sdbb1,  0.00,  6.01, -9.87,  0, 0, true,  2
+AddWeapon = gbu38, 0.00,  6.01, -17.49,  0, 0, true,  2, 0,-360,360, -5,180
+AddWeapon = gbu-31b1, 0.00,  6.01, -17.49,  0, 0, true,  2, 0,-360,360, -5,180
+AddWeapon = agm158b1,   0.00,  6.01, -31.90,  0, 0, true,  2
+AddWeapon = agm154b1,   0.00,  6.01, -31.90,  0, 0, true,  2, 0,-360,360, -5,180
+AddWeapon = alcm,   0.00,  6.01, -31.90,  0, 0, true,  2, 0,-360,360, -5,180
+AddWeapon = agm86b,   0.00,  6.01, -31.90,  0, 0, true,  2
+AddWeapon = b61B,  0.00,  6.01, -9.87,  0, 0, true, 2, 0,-360,360, -5,180
+AddWeapon = b28,  0.00,  6.01, -9.87,  0, 0, true,  2
+AddWeapon = b61,  0.00,  6.01, -9.87,  0, 0, true,  2
+AddWeapon = b83,  0.00,  6.01, -9.87,  0, 0, true,  2,  2
+
+
+
+
+AddPartLG =  0.00, 4.52,  -0.10,  1,0,0, -100
+AddPartLG = -0.90, 4.49,   3.98, 0,0,1,  85
+AddPartLG = 0.90, 4.49,   3.98, 0,0,1,  -78
+AddPartLG =  -0.11, 4.23,  -27.18,  0,0,1,  -85
+AddPartLG =  0.11, 4.23,  -27.18,  0,0,1,  85
+AddPartLG =  3.8, 4.11,  -25.89,  0,0,1, -110
+AddPartLG =  -3.8, 4.11,  -25.89,  0,0,1, 110
+
+
+BoundingBox =  0.0, 6.5,  5.7,  7, 4
+BoundingBox =  0.0, 6.5,  -4.7,  8, 6
+BoundingBox =  0.0, 6.5, -15.7,  10, 6
+BoundingBox =  0.0, 6.5, -25.7,  12, 6
+BoundingBox =  0.0, 6.5, -35.7,  8, 6
+BoundingBox =  0.0, 6.5, -47.7,  8, 6
+BoundingBox =  0.0, 12.0, -52.0,  6, 4
+BoundingBox = -9.5, 4.0, -28.1,  11, 3
+BoundingBox =  9.5, 4.0, -28.1,  11, 3

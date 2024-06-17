@@ -1,0 +1,27 @@
+DisplayName = CJ-10
+AddDisplayName = zh_CN, 长剑10
+Type = Rocket
+Power = 8000
+Acceleration = 4.2
+Explosion = 20
+Flaming = true
+Sight = MoveSight
+Delay = 40
+ModelBullet = CJ-10
+Sound = missile_2_snd
+ModeNum = 2
+Piercing  = 2
+SoundVolume = 10.0
+
+DamageFactor = tank, 550.0
+DamageFactor = plane, 40.5
+DamageFactor = vehicle 40.5
+DamageFactor = heli, 40.5
+DamageFactor = living, 100.0
+DamageFactor = entity,100.0
+
+
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, hbm:item.missile_strong

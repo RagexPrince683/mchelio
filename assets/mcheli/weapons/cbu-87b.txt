@@ -1,0 +1,24 @@
+DisplayName = CBU-87
+Type = Bomb
+Power = 600
+Acceleration = 0.1
+Explosion = 3
+ExplosionBlock = 0
+ExplosionInWater = 1
+Sound = bomb_snd
+SoundVolume = 15
+Flaming = false
+Sight = None
+Delay = 40
+Bomblet = 202
+BombletSTime = 40
+BombletDiff = 1.8
+Sound = bomb_snd
+
+ModelBullet = cbu87
+ModelBomblet = cbc
+
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  8, hbm:item.assembly_nuke
+Item =  2, hbm:item.pellet_cluster

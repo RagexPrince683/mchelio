@@ -1,0 +1,29 @@
+DisplayName = GBU-53/B SDB II
+Type = ATMissile
+Power = 6000
+Acceleration = 2.7
+Explosion = 10
+Flaming = false
+Sight = MissileSight 
+Delay = 15
+Round = 8
+LockTime = 10
+ModeNum = 1
+Sound = bomb_snd
+SoundVolume = 10
+ProximityFuseDist = 1
+DisableSmoke = true
+ModelBullet = sdb2
+RidableOnly = true
+
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+
+
+MaxAmmo = 32
+SuppliedNum = 8
+Item =  4, hbm:item.ammo_nuke,5
+Item =  8, hbm:item.circuit,5
+Item =  8, hbm:item.mp_stability_10_flat

@@ -1,0 +1,20 @@
+DisplayName = Browning AN/M3 20mm
+Type = MachineGun1
+Power = 65
+Acceleration = 8.0
+Explosion = 1
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+;SoundDelay = 3
+Accuracy = 2.0
+HeatCount = 1
+MaxHeatCount = 1000
+ReloadTime = 10
+SoundPitch = 0.8
+Sound = gun_h1_snd
+
+MaxAmmo = 16000
+SuppliedNum = 800
+Item =  4, hbm:item.ammo_dgk

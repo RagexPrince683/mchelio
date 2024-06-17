@@ -89,7 +89,7 @@ AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0
 BoundingBox =  0.0, 2.0, -2.5,  2.0, 2.4
 BoundingBox =  0.0, 2.0, -4.5,  2.0, 2.4
 BoundingBox =  0.0, 2.0, -6.0,  2.0, 2.4
-BoundingBox =  0.0, 2.5,-13.5,  2.0, 3.0
+BoundingBox =  0.0, 2.5,-13.5,  2.0, 3.0, 1.25
 
 BoundingBox = 0.0, 3.5, -2.95, 1.0, 1.5, 1.5
 
