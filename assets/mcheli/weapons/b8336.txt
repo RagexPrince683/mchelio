@@ -1,40 +1,38 @@
-DisplayName = 1.2MT B83
-Type = bomb
-;Power = 100000
-;DamageFactor = tank, 10000.0
-;DamageFactor = plane, 30000.0
-;DamageFactor = vehicle 20000.0
-;DamageFactor = heli, 30000.0
-Acceleration = 0.02
-;Explosion = 4000
-;ExplosionBlock = 3000
+DisplayName = B83 Nuclear Bomb [1.2MT SURFACE]
+Type = Bomb
+;Power = 1000
+;DamageFactor = tank, 1.0
+;DamageFactor = plane, 3.0
+;DamageFactor = vehicle 2.0
+;DamageFactor = heli, 3.0
+Acceleration = 0.1
+;Explosion = 4
+;ExplosionBlock = 3
 ExplosionInWater = 0
 Flaming = false
 Sight = None
-Delay = 40
-gravity = -0.1
-ModeNum = 2
-ModelBullet = mk84
+Delay = 4
 Sound = bomb_snd
-DisableSmoke = true
+ModelBullet = agm65e
 ;400kt
 nukeyield = 200
 
 ;bomb rewrite
-Acceleration = 1.5
-Explosion = 15000
+Acceleration = 0.5
+Explosion = 15
 ;Explosive mass	? kg
-;Power = 500000
+;Power = 500
 ;ExplosionBlock = 2
 ;ExplosionInWater = 0
-;DamageFactor = tank, 10000.0
-;DamageFactor = plane, 30000.0
-;DamageFactor = vehicle 20000.0
-;DamageFactor = heli, 30000.0
+;DamageFactor = tank, 2.0
+;DamageFactor = plane, 4.5
+;DamageFactor = vehicle 4.5
+;DamageFactor = heli, 4.5
+;DamageFactor = player, 20.0
 
 ReloadTime = 300
-Round = 12
-MaxAmmo = 12
+Round = 8
+MaxAmmo = 24
 SuppliedNum = 1
 Item = 12, hbm:tile.det_nuke
 Item = 1, hbm:tile.bomb_multi
