@@ -1,27 +1,27 @@
-DisplayName = CJ-10
+DisplayName = CJ-10 Cruise Missile
 AddDisplayName = zh_CN, 长剑10
 Type = Rocket
-Power = 8000
-Acceleration = 4.2
+Power = 1000
+Acceleration = 3.5
 Explosion = 20
+ExplosionBlock = 10
+ExplosionInWater = 5
 Flaming = true
 Sight = MoveSight
-Delay = 40
+Delay = 200
 ModelBullet = CJ-10
 Sound = missile_2_snd
-ModeNum = 2
-Piercing  = 2
+Piercing  = 0
 SoundVolume = 10.0
-
-DamageFactor = tank, 550.0
-DamageFactor = plane, 40.5
-DamageFactor = vehicle 40.5
-DamageFactor = heli, 40.5
-DamageFactor = living, 100.0
-DamageFactor = entity,100.0
-
+ReloadTime = 200
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 
 MaxAmmo = 2
 SuppliedNum = 1
-Item =  1, hbm:item.missile_strong
+Item =  3, iron_ingot
+Item =  4, gunpowder

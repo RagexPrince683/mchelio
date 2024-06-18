@@ -2,12 +2,12 @@ DisplayName = CJ-10 Nuclear Warhead 150KT
 AddDisplayName = zh_CN, 长剑10核弹头（150万吨当量）
 Type = rocket
 ;Power = 100000
-Acceleration = 4.0
+Acceleration = 3.5
 Explosion = 10
 ExplosionBlock = 3
 ExplosionInWater = 3
 Sight = MoveSight
-Delay = 220
+Delay = 200
 Round = 1
 ModeNum = 2
 ModelBullet = CJ-10
@@ -17,7 +17,7 @@ DisableSmoke = true
 nukeyield = 195
 ;I hate hbm proportions
 ;150kt
-
+ReloadTime = 200
 ;DamageFactor = tank, 2.0
 ;DamageFactor = plane, 1.0
 ;DamageFactor = vehicle 4.5

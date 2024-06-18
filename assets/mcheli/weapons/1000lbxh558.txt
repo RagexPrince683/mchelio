@@ -9,10 +9,24 @@ Sight = None
 Delay = 6
 ReloadTime = 380
 Round = 21
+
+ModelBullet = us_500lb
+;bomb rewrite
+Acceleration = 0.5
+Explosion = 50
+;Explosive mass	269.9 kg kg
+Power = 1080
+ExplosionBlock = 5
+ExplosionInWater = 0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+Sound = 540pound_snd
+
+
 MaxAmmo = 21
 SuppliedNum = 21
-Item =  3, iron_ingot
-Item =  4, gunpowder
-ModelBullet = us_500lb
-
-Sound = 540pound_snd
+Item =  10, iron_ingot
+Item =  10, gunpowder
