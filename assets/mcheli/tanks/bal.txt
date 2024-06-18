@@ -33,7 +33,7 @@ WeightType = Car
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = mbt_hud, mbt_gnr, none, none
+HUD = mbt_hudtwo, mbt_gnrtwo, none, none
 
 AddSeat = -0.9612, 1.325, 4.7212
 

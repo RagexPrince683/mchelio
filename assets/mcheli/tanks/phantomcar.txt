@@ -1,4 +1,4 @@
-DisplayName = ֏L֏a֏m֏b֏o֏r֏g֏h֏i֏n֏i ֏H֏u֏r֏a֏c֏a֏n ֏P֏e֏r֏f֏o֏r֏m֏a֏n֏t֏e ֏S֏p֏y֏d֏e֏r֏
+DisplayName = ֏L֏a֏m֏b֏o֏r֏g֏h֏i֏n֏i ֏H֏u֏r֏a֏c֏a֏n ֏P֏e֏r֏f֏o֏r֏m֏a֏n֏t֏e ֏S֏p֏y֏d֏e֏r֏ L֏P 6֏4֏0֏-֏4
 ;֏F֏U֏C֏K ֏Y֏O֏U֏ A֏T֏O֏Mㅤ
 
 ;so you found it, congratulations. Wanna know what you win? Nothing. That's why you wasted your fucking time finding it. Fuck you.
@@ -10,7 +10,7 @@ DisplayName = ֏L֏a֏m֏b֏o֏r֏g֏h֏i֏n֏i ֏H֏u֏r֏a֏c֏a֏n ֏P֏e֏r�
 MaxHp = 200
 Speed = 2.01
 Sound = greenfn
-MobilityYawOnGround = 11.5
+MobilityYawOnGround = 10.5
 ThrottleUpDown = 1.2
 ;3.1s stock
 ;performante is 2.5s

@@ -14,7 +14,7 @@ CameraZoom = 6
 
 EnableNightVision = true
 EnableEntityRadar = false
-CameraRotationSpeed = 25
+CameraRotationSpeed = 20
 ;should be same as bmp-2
 GravityInWater = -1.0
 MinRotationPitch = -60

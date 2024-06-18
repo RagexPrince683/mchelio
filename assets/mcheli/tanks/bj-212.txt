@@ -44,11 +44,12 @@ SetWheelPos =  0.45,  -0.24,  1.66, -0.94
 UnmountPosition = 0.4172,  2.15,  0.2236
 
 AddSeat =  0.4172,  0.40, -0.4584
+AddSeat = -0.0,  0.40, -0.4584
 AddSeat = -0.4172,  0.40, -0.4584
 
 AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
 
-AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
+AddWeapon =  1_horn , 0.00,  0.42,  3.05, 0.0, 90
 
 PivotTurnThrottle = 0.1
 

@@ -109,7 +109,6 @@ BoundingBox = 0.0, 0.0, -0.0, 2.32, 0.2
 BoundingBox = 0.0, 0.0, 1.8, 2.32, 0.2
 ;rear
 BoundingBox = 0.0, 0.0, -2.20, 2.32, 0.2
-;Regeneration = true
 ;ArmorDamageFactor = 2.32
 
 Regeneration = false
