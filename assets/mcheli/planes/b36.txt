@@ -112,13 +112,75 @@ AddPartRotor =    -23.0745,  5.45,  -28.6431,   0, 0, 1
 AddBlade = 1,0,   -23.0745,  5.45,  -28.6431,   0, 0, 1
 
 
-BoundingBox =  0.0, 3.2,  -3.7,  5, 4
+BoundingBox =  0.0, 3.2,  -5.7,  5, 4
 BoundingBox =  0.0, 3.2,  -10.7,  5, 4
-BoundingBox =  0.0, 4.2, -20.7,  12, 6
-BoundingBox =  0.0, 4.2, -28.7,  8, 6
-BoundingBox =  0.0, 5.2, -35.7,  9, 6
-BoundingBox =  0.0, 8.2, -45.7,  12, 7
-BoundingBox = -10.5, 6.0, -22.1,  12, 3
-BoundingBox =  10.5, 6.0, -22.1,  12, 3
-BoundingBox = -25.5, 5.0, -25.1,  10, 2
-BoundingBox =  25.5, 5.0, -25.1,  10, 2
+
+BoundingBox =  0.0, 3.2,  -15.7,  5, 4
+
+BoundingBox =  0.0, 3.2,  -20.7,  5, 4
+
+BoundingBox =  0.0, 3.2,  -25.7,  5, 4
+
+BoundingBox =  0.0, 3.2,  -30.7,  5, 4
+
+BoundingBox =  0.0, 3.2,  -35.7,  5, 4
+
+BoundingBox =  0.0, 3.2,  -38.7,  5, 4
+
+
+
+BoundingBox =  4.0, 8.2, -55.7,  4, 1
+BoundingBox =  -4.0, 8.2, -55.7,  4, 1
+
+BoundingBox =  -0.0, 10.2, -55.7,  2, 4
+BoundingBox =  -0.0, 6.2, -55.7,  2, 4
+
+BoundingBox =  0.0, 3.2,  -25.7,  5, 4
+
+BoundingBox = -10.5, 6.0, -22.1,  8, 1.4
+BoundingBox =  10.5, 6.0, -22.1,  8, 1.4
+BoundingBox = -25.5, 5.0, -25.1,  5, 1.4
+BoundingBox =  25.5, 5.0, -25.1,  5, 1.4
+
+
+;engines (COPY PASTED AND INCOMPLETE)
+;row 1
+BoundingBox = 5.5, 2.70, -9.5, 1.0, 1.0, 1.5
+BoundingBox = -5.5, 2.70, -9.5, 1.0, 1.0, 1.5
+
+BoundingBox = 5.5, 2.70, -8.5, 1.0, 1.0, 1.5
+BoundingBox = -5.5, 2.70, -8.5, 1.0, 1.0, 1.5
+
+BoundingBox = 5.5, 2.70, -7.5, 1.0, 1.0, 1.5
+BoundingBox = -5.5, 2.70, -7.5, 1.0, 1.0, 1.5
+
+BoundingBox = 5.5, 2.70, -6.5, 1.0, 1.0, 1.5
+BoundingBox = -5.5, 2.70, -6.5, 1.0, 1.0, 1.5
+
+;row 2 
+
+BoundingBox = 10.50, 2.70, -12.50, 1.0, 1.0, 1.5
+BoundingBox = -10.50, 2.70, -12.50, 1.0, 1.0, 1.5
+
+BoundingBox = 10.50, 2.70, -11.50, 1.0, 1.0, 1.5
+BoundingBox = -10.50, 2.70, -11.50, 1.0, 1.0, 1.5
+
+BoundingBox = 10.50, 2.70, -10.50, 1.0, 1.0, 1.5
+BoundingBox = -10.50, 2.70, -10.50, 1.0, 1.0, 1.5
+
+
+BoundingBox = 10.50, 2.70, -9.50, 1.0, 1.0, 1.5
+BoundingBox = -10.50, 2.70, -9.50, 1.0, 1.0, 1.5
+;row 3
+
+BoundingBox = 15.50, 2.70, -13.50, 1.0, 1.0, 1.5
+BoundingBox = -15.50, 2.70, -13.50, 1.0, 1.0, 1.5
+
+BoundingBox = 15.50, 2.70, -12.50, 1.0, 1.0, 1.5
+BoundingBox = -15.50, 2.70, -12.50, 1.0, 1.0, 1.5
+
+BoundingBox = 15.50, 2.70, -11.50, 1.0, 1.0, 1.5
+BoundingBox = -15.50, 2.70, -11.50, 1.0, 1.0, 1.5
+
+BoundingBox = 15.50, 2.70, -12.50, 1.0, 1.0, 1.5
+BoundingBox = -15.50, 2.70, -12.50, 1.0, 1.0, 1.5
