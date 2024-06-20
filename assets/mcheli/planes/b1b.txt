@@ -1,9 +1,9 @@
 ﻿DisplayName = B-1B Lancer
 AddDisplayName = zh_CN, B-1B枪骑兵战略轰炸机
 ItemID = 28747
-MaxHp = 1800
-Speed = 2.2
-ThrottleUpDown = 0.15
+MaxHp = 250
+Speed = 1.35
+ThrottleUpDown = 0.1
 CameraPosition = -2.42, 2.18, -4.97
 EnableNightVision = true
 EnableEntityRadar = true
@@ -11,14 +11,14 @@ EnableGunnerMode = true
 EnableEjectionSeat = true
 ConcurrentGunnerMode = true
 VariableSweepWing = true
-SweepWingSpeed = 2.4
+SweepWingSpeed = 2.0
 FlareType = 2
 AutoPilotRot = 0
-MaxFuel         = 80000
-FuelConsumption = 2.7
+MaxFuel         = 7000
+FuelConsumption = 1.7
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-Stealth = 0.4
+Stealth = 0.2
 ThirdPersonDist = 156
 
 ArmorMinDamage = 25
@@ -32,13 +32,13 @@ Category = M.A
 
 HUD = plane, plane_gnr, 
 
-MobilityYaw = 0.5
-MobilityPitch = 0.5
-MobilityRoll = 0.3
+MobilityYaw = 0.3
+MobilityPitch = 0.3
+MobilityRoll = 0.2
 MinRotationPitch = -60
 MaxRotationPitch =  60
-MinRotationRoll  = -60
-MaxRotationRoll  =  60
+;MinRotationRoll  = -60
+;MaxRotationRoll  =  60
 
 AddSeat       =  0.55, 7.16, 2.70
 AddGunnerSeat = -0.55, 7.16, 2.70
@@ -78,26 +78,26 @@ AddWeapon = b83,  0.00,  6.01, -9.87,  0, 0, true,  2,  2
 
 
 
-AddPartLG =  0.00, 4.52,  -0.10,  1,0,0, -100
-AddPartLG = -0.90, 4.49,   3.98, 0,0,1,  85
-AddPartLG = 0.90, 4.49,   3.98, 0,0,1,  -78
-AddPartLG =  -0.11, 4.23,  -27.18,  0,0,1,  -85
-AddPartLG =  0.11, 4.23,  -27.18,  0,0,1,  85
-AddPartLG =  3.8, 4.11,  -25.89,  0,0,1, -110
-AddPartLG =  -3.8, 4.11,  -25.89,  0,0,1, 110
-
-
-BoundingBox =  0.0, 6.5,  -4.7,  5, 4.5
-
+;BoundingBox =  0.0, 6.5,  5.7,  7, 4
+BoundingBox =  0.0, 6.5,  -4.7,  8, 6
+BoundingBox =  0.0, 6.5, -12.7,  8, 6
+BoundingBox =  0.0, 6.5, -20.7,  8, 6
+BoundingBox =  0.0, 6.5, -30.7,  8, 6
 BoundingBox =  0.0, 6.5, -47.7,  8, 6
-BoundingBox =  4.0, 6.5, -47.7,  3, 0.8
-BoundingBox =  -4.0, 6.5, -47.7, 3, 0.8
+BoundingBox =  0.0, 12.0, -52.0,  6, 4
+BoundingBox =  7.0, 12.0, -52.0,  6, 4
+BoundingBox =  -7.0, 12.0, -52.0,  6, 4
+BoundingBox = -9.5, 4.0, -28.1,  9, 3
+BoundingBox =  9.5, 4.0, -28.1,  9, 3
+BoundingBox = -18.5, 4.0, -28.1,  9, 3
+BoundingBox =  18.5, 4.0, -28.1,  9, 3
+BoundingBox = -28.5, 4.0, -30.1,  9, 3
+BoundingBox =  28.5, 4.0, -30.1,  9, 3
 
-BoundingBox =  0.0, 12.0, -52.0,  3, 4
-BoundingBox =  0.0, 9.0, -52.0,  3, 2
+unmountposition = 0.95, 1.86, 3.70
 
 
-BoundingBox = -9.5, 4.0, -28.1,  6, 0.8
-BoundingBox =  9.5, 4.0, -28.1,  6, 0.8
-BoundingBox = -15.5, 4.0, -28.1,  4, 0.8
-BoundingBox =  15.5, 4.0, -28.1,   4, 0.8
+
+DamageFactor = 0.8
+
+enableback = true

@@ -1,28 +1,29 @@
-﻿DisplayName = B36H
+﻿DisplayName = B-36H
 AddDisplayName = zh_CN, B36H"和平缔造者”
 ItemID = 19112
 MaxHp = 1830
 EnableEntityRadar = true
 EnableGunnerMode = true
-Speed = 1.5
-FlareType = 3
+Speed = 0.55
+FlareType = 0
 Sound = prop
 CameraPosition = -0.3021, 0.3021, 0.3021
-MaxFuel = 70000
-FuelConsumption = 1.5
+MaxFuel = 7000
+FuelConsumption = 1.2
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-ThirdPersonDist = 20
+ThirdPersonDist = 25
 ThrottleUpDown = 0.05
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
+DamageFactor = 0.8
 
 HUD = plane_wwii, plane_gnr
 
-MobilityYaw = 0.05
-MobilityPitch = 0.05
-MobilityRoll = 0.05
+MobilityYaw = 0.2
+MobilityPitch = 0.2
+MobilityRoll = 0.1
 
 AddSeat = 0.9949,  4.1094,  1.7259
 AddGunnerSeat = -1.0, 4.1094, 1.7259, -0.3021, 0.3021, 0.3021, true
@@ -112,35 +113,64 @@ AddPartRotor =    -23.0745,  5.45,  -28.6431,   0, 0, 1
 AddBlade = 1,0,   -23.0745,  5.45,  -28.6431,   0, 0, 1
 
 
-BoundingBox =  0.0, 3.2,  -5.7,  5, 4
-BoundingBox =  0.0, 3.2,  -10.7,  5, 4
+BoundingBox =  0.0, 3.3,  -5.7,  5, 4
+BoundingBox =  0.0, 3.35,  -10.7,  5, 4
 
-BoundingBox =  0.0, 3.2,  -15.7,  5, 4
+BoundingBox =  0.0, 3.5,  -15.7,  5, 4
 
-BoundingBox =  0.0, 3.2,  -20.7,  5, 4
+BoundingBox =  0.0, 3.6,  -20.7,  5, 4
 
-BoundingBox =  0.0, 3.2,  -25.7,  5, 4
+BoundingBox =  0.0, 3.6,  -25.7,  5, 4
 
-BoundingBox =  0.0, 3.2,  -30.7,  5, 4
+BoundingBox =  0.0, 3.95,  -30.7,  5, 4
 
-BoundingBox =  0.0, 3.2,  -35.7,  5, 4
+BoundingBox =  0.0, 4.2,  -35.7,  5, 4
 
-BoundingBox =  0.0, 3.2,  -38.7,  5, 4
+BoundingBox =  0.0, 4.3,  -38.7,  5, 4
 
 
 
-BoundingBox =  4.0, 8.2, -55.7,  4, 1
-BoundingBox =  -4.0, 8.2, -55.7,  4, 1
+BoundingBox =  3.3, 6.55, -49.9,  4, 1
+BoundingBox =  -3.3, 6.55, -49.9,  4, 1
 
-BoundingBox =  -0.0, 10.2, -55.7,  2, 4
-BoundingBox =  -0.0, 6.2, -55.7,  2, 4
+BoundingBox =  7.3, 6.55, -49.4,  4, 1
+BoundingBox =  -7.3, 6.55, -49.4,  4, 1
+BoundingBox =  11.3, 6.55, -49.1,  4, 1
+BoundingBox =  -11.3, 6.55, -49.1,  4, 1
+BoundingBox =  3.3, 6.55, -46.9,  4, 1
+BoundingBox =  -3.3, 6.55, -46.9,  4, 1
+BoundingBox =  7.3, 6.55, -48,  4, 1
+BoundingBox =  -7.3, 6.55, -48,  4, 1
 
-BoundingBox =  0.0, 3.2,  -25.7,  5, 4
 
-BoundingBox = -10.5, 6.0, -22.1,  8, 1.4
-BoundingBox =  10.5, 6.0, -22.1,  8, 1.4
-BoundingBox = -25.5, 5.0, -25.1,  5, 1.4
-BoundingBox =  25.5, 5.0, -25.1,  5, 1.4
+
+
+BoundingBox =  0.0, 13.2, -50,  2, 4
+BoundingBox =  0.0, 9.2, -50,  2, 4
+BoundingBox =  0.0, 17.2, -48.5,  2, 4
+BoundingBox =  0.0, 9.2, -48,  2, 4
+BoundingBox =  0.0, 13.2, -48,  2, 4
+BoundingBox =  0.0, 9.2, -46,  2, 4
+BoundingBox =  0.0, 13.2, -46,  2, 4
+BoundingBox =  0.0, 9.2, -46,  2, 4
+
+BoundingBox =  0.0, 13.2, -44,  2, 4
+BoundingBox =  0.0, 9.2, -44,  2, 4
+
+
+BoundingBox =  0.0, 17.2, -48,  2, 4
+BoundingBox =  0.0, 16.8, -46,  2, 4
+
+BoundingBox =  0.0, 9.8, -42,  2, 4
+BoundingBox =  0.0, 7.9, -40,  2, 4
+
+
+
+BoundingBox = -10.5, 5.3, -22.1,  8, 1.4
+BoundingBox =  10.5, 5.3, -22.1,  8, 1.4
+
+BoundingBox = -25.5, 5.2, -25.1,  5, 1.4
+BoundingBox =  25.5, 5.2, -25.1,  5, 1.4
 
 
 ;engines (COPY PASTED AND INCOMPLETE)
