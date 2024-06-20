@@ -23,7 +23,7 @@ DefaultFreelook = false
 MotionFactor = 0.9
 SubmergedDamageHeight = 2
 
-ThirdPersonDist = 8
+ThirdPersonDist = 16
 
 
 

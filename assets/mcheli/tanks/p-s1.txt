@@ -52,6 +52,11 @@ HUD = bnr32_hud, mbt_gnr, gunner, none, none
 EntityWidth  = 0.7
 EntityHeight = 0.7
 
+
+AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
+
+AddWeapon =  thorn2, 0.00,  0.42,  3.05, 0.0, 90
+
 ;AddSeat =  0.16, 1.52, 3.42
 ;AddGunnerSeat =  0.75, 1.42, 3.42,  0.0, 5.65,-1.56, false, -85, 5
 
