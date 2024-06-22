@@ -9,7 +9,7 @@ Speed = 1.6
 FlareType = 3
 ThrottleUpDown = 0.08
 CameraPosition = -0.3021, 0.3021, 0.3021
-MaxFuel = 50000
+MaxFuel = 5000
 FuelConsumption = 1.0
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -126,3 +126,5 @@ BoundingBox =  5.0, 4.5, -46.6,  6.0, 4.0
 BoundingBox =  -5.0, 4.5, -46.6,  6.0, 4.0
 
 DamageFactor = 0.8
+
+unmountposition = 0.72,  1.52,  0.21

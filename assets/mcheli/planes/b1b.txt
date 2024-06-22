@@ -46,8 +46,8 @@ AddGunnerSeat = -0.55, 7.16, 2.70
 AddPartWing =  -7.02, 4.99, -21.06,  0,-1,0, 45
 AddPartWing =   7.02, 4.99, -21.06,  0, 1,0, 45
 
-AddPartWeaponBay = mk82_b1/mk84_b1/cbu-87b/cbu-72b/b28/gbu-31b1/gbu28/gbu38/gbu-53_sdbb1/b61B, -1.71, 4.51,-8.49,  0, -0.04, 1.0, -90
-AddPartWeaponBay = mk82_b1/mk84_b1/cbu-87b/cbu-72b/b28/gbu-31b1/gbu28/gbu38/gbu-53_sdbb1/b61B,  1.71, 4.51,-8.49,  0, -0.04, 1.0,  90
+AddPartWeaponBay = mk82_b1/mk84_b1/ljdam_b1/cbu-87b/cbu-72b/b28/gbu-31b1/gbu28/gbu38/gbu-53_sdbb1/b61B, -1.71, 4.51,-8.49,  0, -0.04, 1.0, -90
+AddPartWeaponBay = mk82_b1/mk84_b1/ljdam_b1/cbu-87b/cbu-72b/b28/gbu-31b1/gbu28/gbu38/gbu-53_sdbb1/b61B,  1.71, 4.51,-8.49,  0, -0.04, 1.0,  90
 
 
 AddPartWeaponBay = agm158b1/agm154b1/alcm/agm86b/b28/b61/b83, -1.71, 4.51,-26.16,  0, -0.04, 1.0, -90
@@ -60,6 +60,7 @@ AddWeapon = targeting_pod_block, 0.0, 4.0, 5.0,  0.0, 0.0, 2
 AddWeapon = RDI,   0.0, 0, 2.62,    0.0, 0.0, true,2
 AddWeapon = mk82_b1,  0.00,  6.01, -9.87,  0, 0, true,  2
 AddWeapon = mk84_b1,  0.00,  6.01, -9.87,  0, 0, true,  2
+AddWeapon = ljdam_b1,  0.00,  6.01, -9.87,  0, 0, true,  2
 AddWeapon = cbu-87b,  0.00,  6.01, -9.87,  0, 0, true,  2
 AddWeapon = cbu-72b,  0.00,  6.01, -9.87,  0, 0, true,  2
 AddWeapon = gbu28,  0.00,  6.01, -17.49,  0, 0, true,  2, 0,-360,360, -180,180
@@ -79,7 +80,7 @@ AddWeapon = b83,  0.00,  6.01, -9.87,  0, 0, true,  2,  2
 
 
 ;BoundingBox =  0.0, 6.5,  5.7,  7, 4
-BoundingBox =  0.0, 6.5,  -4.7,  8, 6
+BoundingBox =  0.0, 6.5,  -4.7,  5, 4.8
 BoundingBox =  0.0, 6.5, -12.7,  8, 6
 BoundingBox =  0.0, 6.5, -20.7,  8, 6
 BoundingBox =  0.0, 6.5, -30.7,  8, 6

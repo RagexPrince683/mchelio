@@ -36,8 +36,8 @@ AddPartLG =   -1.605, 1.654, -1.00,  0,0,1, 60
 AddPartLG =   8.063, 4.504, -22.37,  0,0,1, -90
 AddPartLG =   -8.063, 4.504, -22.37,  0,0,1, 90
 
-AddPartWeaponBay = mk82_b1/mk84_b1/moab/mk82_n/anm17allc/cbu-87b/cbu-72b /gas1/ littleboy / fatman/b8336/b61/b2836, -1.031, 2.25,-12.35,  0, -0.04, 1.0, -90
-AddPartWeaponBay = mk82_b1/mk84_b1/moab/mk82_n/anm17allc/cbu-87b/cbu-72b /gas1/ littleboy / fatman/b8336/b61/b2836, 1.031, 2.25,-12.35,   0, -0.04, 1.0,  90
+AddPartWeaponBay = mk82_b1/mk84_b1/mk82_n/anm17allc/gas1/ littleboy/fatman/b8336/b61/b2836, -1.031, 2.25,-12.35,  0, -0.04, 1.0, -90
+AddPartWeaponBay = mk82_b1/mk84_b1/mk82_n/anm17allc/gas1/ littleboy/fatman/b8336/b61/b2836, 1.031, 2.25,-12.35,   0, -0.04, 1.0,  90
 
 AddPartWeapon = b3620mm, false, true, true,  0.00, 4.0, 4.8
 AddPartWeaponChild = false, true,0.00, 4.2, 5.0
@@ -81,16 +81,14 @@ AddWeapon = mk84_b1,  0.10,  3.32, -9.54,  0, 0
 
 
 
-AddWeapon = moab,  0.00,  3.32, -10.41,  0, 0, true,  2, 0,-360,360, -180,180, true, 2, 0,-360,360, -5,180
-AddWeapon = moab,  0.10,  3.32, -10.54,  0, 0, true,  2, 0,-360,360, -180,180, true, 2, 0,-360,360, -5,180
+
 AddWeapon = mk82_n,  0.00,  3.32, -12.41,  0, 0, true,  2
 AddWeapon = mk82_n,  0.10,  3.32, -12.54,  0, 0, true,  2
+
 AddWeapon = anm17allc,  0.00,  3.32, -10.41,  0, 0, true,  2, 0,-360,360, -180,180, true, 2, 0,-360,360, -5,180
 AddWeapon = anm17allc,  0.10,  3.32, -10.54,  0, 0, true,  2, 0,-360,360, -180,180, true, 2, 0,-360,360, -5,180
-AddWeapon = cbu-87b,  0.00,  3.32, -10.41,  0, 0, true,  2, 0,-360,360, -180,180, true, 2, 0,-360,360, -5,180
-AddWeapon = cbu-87b,  0.10,  3.32, -10.54,  0, 0, true,  2, 0,-360,360, -180,180, true, 2, 0,-360,360, -5,180
-AddWeapon = cbu-72b,  0.00,  3.32, -10.41,  0, 0, true,  2, 0,-360,360, -180,180, true, 2, 0,-360,360, -5,180
-AddWeapon = cbu-72b,  0.10,  3.32, -10.54,  0, 0, true,  2, 0,-360,360, -180,180, true, 2, 0,-360,360, -5,180
+
+
 AddWeapon = littleboy,  0.00,  3.32, -10.41,  0, 0
 AddWeapon = fatman,  0.00,  3.32, -10.41,  0, 0
 AddWeapon = b61,  0.00,  3.32, -10.41,  0, 0
@@ -128,6 +126,11 @@ BoundingBox =  0.0, 4.2,  -35.7,  5, 4
 
 BoundingBox =  0.0, 4.3,  -38.7,  5, 4
 
+BoundingBox =  0.0, 6.3,  -43.7,  5, 4
+
+
+BoundingBox =  0.0, 6.8,  -45.7,  5, 4
+
 
 
 BoundingBox =  3.3, 6.55, -49.9,  4, 1
@@ -164,13 +167,19 @@ BoundingBox =  0.0, 16.8, -46,  2, 4
 BoundingBox =  0.0, 9.8, -42,  2, 4
 BoundingBox =  0.0, 7.9, -40,  2, 4
 
-
+BoundingBox = -2.5, 5.3, -21,  8, 1.4
+BoundingBox =  2.5, 5.3, -21,  8, 1.4
+BoundingBox =  0.0, 5.3, -19.9,  8, 1.4
 
 BoundingBox = -10.5, 5.3, -22.1,  8, 1.4
 BoundingBox =  10.5, 5.3, -22.1,  8, 1.4
 
 BoundingBox = -17.5, 5.3, -23.2,  6.5, 1.4
 BoundingBox =  17.5, 5.3, -23.2,  6.5, 1.4
+
+BoundingBox = -23.5, 5.3, -24.2,  5, 1.4
+BoundingBox =  23.5, 5.3, -24.2,  5, 1.4
+
 
 BoundingBox = -25.5, 5.3, -25.1,  5, 1.4
 BoundingBox =  25.5, 5.3, -25.1,  5, 1.4
@@ -179,47 +188,43 @@ BoundingBox =  30.5, 5.2, -25.1,  5, 1.4
 
 BoundingBox = -34.5, 5.3, -25.3,  4, 1.4
 BoundingBox =  34.5, 5.3, -25.3,  4, 1.4
-BoundingBox = -37.5, 5.3, -25.5,  3, 1.4
-BoundingBox =  37.5, 5.3, -25.5,  3, 1.4
+BoundingBox = -37.5, 5.3, -26.5,  3, 1.4
+BoundingBox =  37.5, 5.3, -26.5,  3, 1.4
 
-;engines (COPY PASTED AND INCOMPLETE)
+;engines
 ;row 1
-BoundingBox = 8.8, 5, -26, 1.1, 1.1, 1.5
-BoundingBox = -8.8, 5, -26, 1.1, 1.1, 1.5
+BoundingBox = 9.1, 5, -26, 1.1, 1.1, 1.5
+BoundingBox = -9.1, 5, -26, 1.1, 1.1, 1.5
 
-BoundingBox = 8.8, 5, -27, 1.1, 1.1, 1.5
-BoundingBox = -8.8, 5, -27, 1.1, 1.1, 1.5
+BoundingBox = 9.1, 5, -27, 1.1, 1.1, 1.5
+BoundingBox = -9.1, 5, -27, 1.1, 1.1, 1.5
 
-BoundingBox = 8.8, 5, -28, 1.1, 1.1, 1.5
-BoundingBox = -8.8, 5, -28, 1.11, 1.1, 1.5
+BoundingBox = 9.1, 5, -28, 1.11, 1.1, 1.5
+BoundingBox = -9.1, 5, -28, 1.11, 1.1, 1.5
 
-BoundingBox = 8.8, 5, -28, 1.1, 1.1, 1.5
-BoundingBox = -8.8, 5, -28, 1.1, 1.1, 1.5
 
 ;row 2 
 
-BoundingBox = 10.50, 2.70, -12.50, 1.0, 1.0, 1.5
-BoundingBox = -10.50, 2.70, -12.50, 1.0, 1.0, 1.5
+BoundingBox = 16.05, 5, -26, 1.0, 1.0, 1.5
+BoundingBox = -16.05, 5, -26, 1.0, 1.0, 1.5
 
-BoundingBox = 10.50, 2.70, -11.50, 1.0, 1.0, 1.5
-BoundingBox = -10.50, 2.70, -11.50, 1.0, 1.0, 1.5
+BoundingBox = 16.05, 5, -27, 1.0, 1.0, 1.5
+BoundingBox = -16.05, 5, -27, 1.0, 1.0, 1.5
 
-BoundingBox = 10.50, 2.70, -10.50, 1.0, 1.0, 1.5
-BoundingBox = -10.50, 2.70, -10.50, 1.0, 1.0, 1.5
+BoundingBox = 16.05, 5, -28, 1.0, 1.0, 1.5
+BoundingBox = -16.05, 5, -28, 1.0, 1.0, 1.5
 
 
-BoundingBox = 10.50, 2.70, -9.50, 1.0, 1.0, 1.5
-BoundingBox = -10.50, 2.70, -9.50, 1.0, 1.0, 1.5
 ;row 3
 
-BoundingBox = 15.50, 2.70, -13.50, 1.0, 1.0, 1.5
-BoundingBox = -15.50, 2.70, -13.50, 1.0, 1.0, 1.5
+BoundingBox = 23, 5.3, -26, 1.0, 1.0, 1.5
+BoundingBox = -23, 5.3, -26, 1.0, 1.0, 1.5
 
-BoundingBox = 15.50, 2.70, -12.50, 1.0, 1.0, 1.5
-BoundingBox = -15.50, 2.70, -12.50, 1.0, 1.0, 1.5
+BoundingBox = 23, 5.3, -27, 1.0, 1.0, 1.5
+BoundingBox = -23, 5.3, -27, 1.0, 1.0, 1.5
 
-BoundingBox = 15.50, 2.70, -11.50, 1.0, 1.0, 1.5
-BoundingBox = -15.50, 2.70, -11.50, 1.0, 1.0, 1.5
+BoundingBox = 23, 5.3, -28, 1.0, 1.0, 1.5
+BoundingBox = -23, 5.3, -28, 1.0, 1.0, 1.5
 
-BoundingBox = 15.50, 2.70, -12.50, 1.0, 1.0, 1.5
-BoundingBox = -15.50, 2.70, -12.50, 1.0, 1.0, 1.5
+
+unmountposition = 2.40, 1.86, -0.50
