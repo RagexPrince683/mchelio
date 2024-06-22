@@ -16,6 +16,8 @@ WeightedCenterZ = -0.6
 
 ;OnGroundPitch = 45
 
+
+
 Category = C
 
 PivotTurnThrottle = 0.1
@@ -42,8 +44,11 @@ EnableBack = true
 HUD = s15_hud, none
 
 ;AddSeat =  X, Y, Z
-AddSeat = 0.8, 0.14, -0.06
-AddSeat = -0.8, 0.24, -0.06
+
+EntityPitch = -30
+
+AddSeat =  0.8, 0.0, -0.68
+AddSeat = -0.8, 0.1, -0.68
 
 UnmountPosition = 0.8, 1.24, -0.06
 
@@ -66,7 +71,7 @@ AddPartCanopy = 0.245, 1.60, -0.621, 0,0,1, 85
 AddFixedSearchLight = 1.10, 0.683, 3.69,   0x50FFFFFF,   0x00FFFFC0,    0.20, 0.40,  -5,  0
 AddFixedSearchLight = -1.10, 0.683, 3.69,   0x50FFFFFF,   0x00FFFFC0,    0.20, 0.40,  5,  0
 
-InventorySize = 9
+InventorySize = 18
 
 
 ;0.57

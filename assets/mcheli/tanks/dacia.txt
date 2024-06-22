@@ -107,11 +107,11 @@ InventorySize = 18
 AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
 ;ヘッドライト
-AddFixedSearchLight =  0.826, 0.647, 2.21,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
-AddFixedSearchLight = -0.826, 0.647, 2.21,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
+AddFixedSearchLight =  0.826, 0.947, 2.88,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = -0.826, 0.947, 2.88,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
 
-AddFixedSearchLight =  0.826, 0.567, 2.33,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
-AddFixedSearchLight = -0.826, 0.567, 2.33,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
+AddFixedSearchLight =  0.826, 0.867, 2.93,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = -0.826, 0.867, 2.93,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
 
 
 
@@ -120,11 +120,14 @@ AddFixedSearchLight = -0.826, 0.567, 2.33,   0x50FFFFFF,   0x00FFFFC0,    0.25, 
 ;テールランプ
 
 
-AddFixedSearchLight = -0.85, 0.788, -2.32,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -63.0,  40
-AddFixedSearchLight = 0.85, 0.788, -2.32,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  63.0,  40
+AddFixedSearchLight = -1.2,  1.288,  -2.70,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -60.0,   26
+AddFixedSearchLight =  1.2,  1.288,  -2.70,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,   60.0,   26
 
-AddFixedSearchLight = 0.752, 0.683, -2.58,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  30.0,  38
-AddFixedSearchLight = -0.752, 0.683, -2.58,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -30.0,  38
+AddFixedSearchLight =  1.1, 1.283,  -2.84,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,   40.0,  28
+AddFixedSearchLight = -1.1, 1.283,  -2.84,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -40.0,  28
+
+AddFixedSearchLight =  0.9, 1.283,  -2.96,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,   10.0,  22
+AddFixedSearchLight = -0.9, 1.283,  -2.96,   0xFFFF0000,   0x10FF0000,    0.05, 0.35,  -10.0,  22
 
 
 
