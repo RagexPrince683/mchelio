@@ -1,0 +1,98 @@
+DisplayName = chi-nu
+AddDisplayName = ja_JP, 三式中戦車 チヌ
+ItemID = 91012
+MaxHp = 150
+Speed = 0.4
+ThrottleUpDown = 3.0
+Gravity = -0.1
+GravityInWater = -0.5
+DamageFactor = 0.75
+EnableNightVision = false
+EnableEntityRadar = false
+Sound = Tank
+HUD = ww2tank_hud, ww2tank_hud, ww2tank_hud
+WeightType = Tank
+DefaultFreelook = true
+
+EnableBack = true
+SetWheelPos =  1.1,  -0.24,  3.5, 1.75, 0.0, -1.75, -3.5
+
+SubmergedDamageHeight = 1
+WeightedCenterZ = 0.0
+
+OnGroundPitchFactor = 4.5
+OnGroundRollFactor  = 4.0
+
+MobilityYawOnGround = 2.0
+PivotTurnThrottle = 0.0
+
+AddGunnerSeat = -0.528, 2.5, -0.2,   -0.528,  2.5,  -0.2,     true,  -20, 10, true
+AddGunnerSeat =  0.0,   1.0,  1.0,    0.4172, 1.6,   2.1,     false, -20, 10, false
+AddGunnerSeat =  0.0,   1.0,  1.0,    0.4756, 3.9, 0.6288,    false, -60, 20, false
+CameraPosition = -0.528, 3.5, -0.2, false
+CameraRotationSpeed = 10
+
+StepHeight = 1.5
+InventorySize = 18
+ParticlesScale = 0.1
+SmoothShading = true
+HideEntity = true
+
+ArmorMinDamage = 70
+
+MotionFactor = 0.92
+
+MaxFuel         = 1000
+FuelConsumption = 1.5
+
+TrackRollerRot = 40
+
+AddTrackRoller = -1.6,  0.8364,  3.2919
+AddTrackRoller = -1.6,  0.0505,  2.456
+AddTrackRoller = -1.6,  0.0505,  1.4684
+AddTrackRoller = -1.6,  0.0505,  0.4437
+AddTrackRoller = -1.6,  0.0505, -0.4437
+AddTrackRoller = -1.6,  0.0505, -1.4684
+AddTrackRoller = -1.6,  0.0505, -2.456
+AddTrackRoller = -1.6,  0.5780, -3.4111
+AddTrackRoller = -1.6,  0.8892, -1.7745
+AddTrackRoller = -1.6,  0.8892,  0.0
+AddTrackRoller = -1.6,  0.8892,  1.7745
+
+AddTrackRoller =  1.6,  0.8364,  3.2919
+AddTrackRoller =  1.6,  0.0505,  2.456
+AddTrackRoller =  1.6,  0.0505,  1.4684
+AddTrackRoller =  1.6,  0.0505,  0.4437
+AddTrackRoller =  1.6,  0.0505, -0.4437
+AddTrackRoller =  1.6,  0.0505, -1.4684
+AddTrackRoller =  1.6,  0.0505, -2.456
+AddTrackRoller =  1.6,  0.5780, -3.4111
+AddTrackRoller =  1.6,  0.8892, -1.7745
+AddTrackRoller =  1.6,  0.8892,  0.0
+AddTrackRoller =  1.6,  0.8892,  1.7745
+
+AddCrawlerTrack = false, 0.16, -1.5,   1.19/ 3.30, 1.15/ 3.56, 0.78/ 3.67, 0.51/ 3.60, -0.28/ 2.73, -0.3/ -2.45, -0.28/ -2.74, 0.19/ -3.59, 0.46/ -3.8, 0.78/ -3.7, 0.97/ -3.5, 1.05/ -1.77, 1.05/ 2.0, 1.19/ 3.0
+AddCrawlerTrack = false, 0.16,  1.5,   1.19/ 3.30, 1.15/ 3.56, 0.78/ 3.67, 0.51/ 3.60, -0.28/ 2.73, -0.3/ -2.45, -0.28/ -2.74, 0.19/ -3.59, 0.46/ -3.8, 0.78/ -3.7, 0.97/ -3.5, 1.05/ -1.77, 1.05/ 2.0, 1.19/ 3.0
+
+MinRotationPitch = -60
+MaxRotationPitch =  20
+
+AddTurretWeapon = Type90_75mmTankGun[APHE],  0.0,  2.2552, 1.2644,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = Type90_75mmTankGun[HE],    0.0,  2.2552, 1.2644,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddPartWeapon = Type90_75mmTankGun[APHE]/Type90_75mmTankGun[HE], false, true, false,  0.0, 2.0, 0.0, 0
+AddPartWeaponChild = false, true, 0.0, 2.2552, 1.2644
+AddPartWeaponChild = false, true, 0.0, 2.2552, 1.2644, 0.3
+
+AddPartTurretWeapon    = Type97_7_7mmGun1,  false, true, false,  0.4756, 3.542, 0.6288
+AddPartTurretWeapon    = Type97_7_7mmGun1,  false, true, true,   0.4756, 3.542, 0.6288
+AddTurretWeapon = Type97_7_7mmGun1,   0.4756, 3.542, 0.6288,   0.0, 0.0, true, 3, 0, -360,360, -60,20
+
+AddWeapon = Type97_7_7mmGun2,  0.4172, 1.428, 1.9793,  0.0, 0.0, false,2, 0,-20,40, -30, 15
+AddPartWeapon = Type97_7_7mmGun2, false, true, true,  0.4172, 1.428, 1.9793, 0
+
+BoundingBox =  0.0, 1.0,   1.5,   3.2, 1.5,  0.7
+BoundingBox =  0.0, 1.0,  -1.8,   3.2, 1.5,  1.0
+BoundingBox =  0.0, 2.2,   0.0,   2.4, 1.1,  0.7
+BoundingBox =  0.0, 1.8,  -2.0,   2.0, 0.1,  1.5
+
+AddRecipe = "   ",  "IX ",  " K ",   I, iron_ingot, X, iron_block, K, mcheli:chi-he
