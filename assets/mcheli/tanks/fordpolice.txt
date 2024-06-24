@@ -75,6 +75,9 @@ AddFixedSearchLight =  -0.8935, 0.6618, 2.9554,   0xFFFFFFFF,   0x00FFFFC0,    0
 
 AddWeapon =  none, 0.00,  1.93,  -0.41,   0.0, 90,  true,  1
 
+
+AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
+
 AddWeapon =  uspolice, 0.00,  1.93,  -0.41,   0.0, 90,  true,  1
 MaxFuel         = 1200
 FuelConsumption = 1
