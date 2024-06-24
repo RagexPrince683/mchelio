@@ -1,4 +1,4 @@
-﻿DisplayName = IMPREZA
+﻿DisplayName = Subaru Impreza
 AddDisplayName = en_US, Subaru Impreza
 AddDisplayName = ja_JP, インプレッサ
 ItemID = 30555

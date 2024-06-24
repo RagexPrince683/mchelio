@@ -43,6 +43,11 @@ SetWheelPos =  0.70,  -0.24,  2.0657, -1.6257
 HUD = Humvee_hud, none, none, none, vehiclescoped
 
 AddSeat =  0.70,  0.18,  0.31
+
+AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
+
+AddWeapon =  1_horngtr, 0.00,  0.42,  3.05, 0.0, 90
+
 AddSeat = -0.70,  0.30,  0.31
 AddSeat = -0.67,  0.30, -0.41
 AddSeat =  0.67,  0.30, -0.41
