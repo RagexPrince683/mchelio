@@ -30,6 +30,7 @@ MotionFactor = 0.9
 FlareType = 10
 
 AddTexture = centaurodes
+AddTexture = centaurow
 
 SubmergedDamageHeight = 2
 

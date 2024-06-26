@@ -16,6 +16,9 @@ speed = 0.01
 SetWheelPos =  0.20,  -0.20,  0.20, -0.20
 enableback = true
 
+AddTexture = davycrockettw
+AddTexture = davycrockettd
+
 
 
 OnGroundPitchFactor = 2.0

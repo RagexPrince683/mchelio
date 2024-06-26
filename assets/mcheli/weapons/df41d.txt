@@ -9,12 +9,12 @@ nukeyield = 195
 ;radius = 5000
 
 BombletSTime = 120
-BombletDiff = 6.5
+BombletDiff = 3.5
 Bomblet = 10
 ModelBomblet = scud
 
 
-DelayFuze = 5
+DelayFuze = 0
 
 Gravity = -0.012
 
