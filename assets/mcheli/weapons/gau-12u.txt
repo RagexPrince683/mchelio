@@ -1,4 +1,4 @@
-DisplayName = GAU-12 Equalizer
+DisplayName = 25mm GAU-12 Equalizer
 Type = MachineGun1
 Power = 20
 Acceleration = 8.0

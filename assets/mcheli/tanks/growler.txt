@@ -2,15 +2,15 @@ DisplayName = Growler ITV
 AddDisplayName = en_US, Growler ITV
 AddDisplayName = ja_JP, グラウラーITV
 ItemID = 28766
-MaxHp = 200
+MaxHp = 230
 ThrottleUpDown = 0.81
 Speed = 0.85
-MobilityYawOnGround = 7.0
+MobilityYawOnGround = 7.5
 StepHeight = 1.5
 Sound = rattletrap
-MinRotationPitch = -90
-MaxRotationPitch = 90
-MobilityRoll     = 0
+;MinRotationPitch = -90
+;MaxRotationPitch = 90
+MobilityRoll     = 4
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1.0
@@ -19,9 +19,9 @@ MaxFuel           = 1200
 FuelConsumption   = 1.0
 
 OnGroundPitchFactor = 18.0
-OnGroundRollFactor  = 0.0
+OnGroundRollFactor  = 4.8
 
-WeightedCenterZ = -0.5
+WeightedCenterZ = 0.5
 
 MotionFactor = 0.90
 
@@ -62,11 +62,12 @@ InventorySize = 9
 AddRecipe = " G ",  "I I",  " I ",   G, glass, I, iron_ingot
 
 ;ヘッドライト
-AddFixedSearchLight =  0.58, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,  -5,  0
-AddFixedSearchLight = -0.58, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,   5,  0
+AddFixedSearchLight =  -0.605, 0.894, 1.77,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,  -5,  0
+AddFixedSearchLight = 0.605, 0.894, 1.77,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,   5,  0
 
-AddFixedSearchLight =  0.36, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,  -5,  0
-AddFixedSearchLight = -0.36, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,   5,  0
+AddFixedSearchLight =  -0.385, 0.894, 1.77,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,  -5,  0
+AddFixedSearchLight = 0.385, 0.894, 1.77,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,   5,  0
+
 
 ;テールランプ
 AddFixedSearchLight =  0.373, 0.37,-1.62,   0xFFFF0000,   0x10FF0000,    0.05, 0.20,  6.0,  0
@@ -94,9 +95,9 @@ BoundingBox = 0.0, 0.26, 1.05, 1.65, 0.2
 BoundingBox = 0.0, 0.20, 0.0, 1.65, 0.2
 BoundingBox = 0.0, 0.20, -0.75, 1.65, 0.2
 
-Regeneration = true
+Regeneration = false
 ArmorDamageFactor = 1.0
 
-unmountposition = 0.41, 0.55, -0.27
+unmountposition = 0.41, 2.25, -0.27
 
 ArmorMinDamage = 2

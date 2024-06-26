@@ -37,7 +37,12 @@ AddTurretWeapon = flak88aa,  0.00, 1.335, -0.517,   0.0, 1.0
 AddTurretWeapon = flak88he,  0.00, 1.335, -0.517,   0.0, 1.0
 AddTurretWeapon = flak88ap,  0.00, 1.335, -0.517,   0.0, 1.0
 
-BoundingBox =  0.0, 0.0, 0.0,  1.0, 1.6, 1.0
+BoundingBox =  0.0, 0.6, 0.0,  1.0, 1.6, 1.25
+BoundingBox =  0.0, 0.032, 0.0,  1.296, 0.2976, 0.75
+BoundingBox =  0.966, 0.032, 0.0,  0.64, 0.225, 0.75
+BoundingBox =  -0.966, 0.032, 0.0,  0.64, 0.225, 0.75
+BoundingBox =  0.0, 0.032, 0.966,  0.64, 0.225, 0.75
+BoundingBox =  0.0, 0.032, -0.966,  0.64, 0.225, 0.75
 
 AddRecipe = "  I",  " I ",  " T ",  T, mcheli:flak36,  I, iron_ingot
 

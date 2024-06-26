@@ -52,9 +52,11 @@ AddWeapon = r-77, -2.58, 1.66, -0.57,   2.0, -3.0
 AddWeapon = r-73,  5.87, 1.39, -3.17,   2.0, -3.0
 AddWeapon = r-73, -5.87, 1.39, -3.17,   2.0, -3.0
 
+
 AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
 
 AddWeapon = targeting_pod_ph50s,   0.0, 3.1, 7.2,    0.0, 0.0
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 AddRecipe = "HGL",  "BCB",  "IPI",  H, dye,15,  G, glass,  L, dye,12,  B, iron_block,  C, repeater,  I, iron_ingot,  P, gunpowder
 

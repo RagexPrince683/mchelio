@@ -1,6 +1,6 @@
-DisplayName = 2A38M 30mm Cannon HEI
+DisplayName = 30mm 2A38M Cannon HEI
 Type = MachineGun2
-Power = 65
+Power = 9
 ModelBullet = bullet
 Acceleration = 46.8
 Explosion = 1

@@ -2,13 +2,18 @@ DisplayName = H2HB 12.7mm Machine Gun
 Type = MachineGun1
 ModelBullet = 12.7mm
 Power = 31
-Acceleration = 4.0
+Acceleration = 7.0
 Explosion = 1
 Flaming = false
 Sight = MoveSight
 Delay = 2
 SoundDelay = 0
-Sound = mg_coaxial_snd
+Sound = m2_snd
+
+ReloadTime = 150
+
+SoundVolume = 15
+
 SoundPitch = 1.0
 ;SetCartridge = model name, velocity (in x-axis), ?, ?, size, gravity, "bounce-height" 
 SetCartridge = cartridge, 0.5,  1, 0, 2.0, -0.1, 0.2
@@ -26,7 +31,7 @@ DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
 
-DamageFactor = player, 20.0
+Gravity = -0.001
 
 
 HeatCount = 5

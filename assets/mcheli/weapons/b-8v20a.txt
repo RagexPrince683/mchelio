@@ -6,12 +6,12 @@ Acceleration = 4.0
 Explosion = 3
 Flaming = false
 Sight = MoveSight
-Delay = 7
+Delay = 1
 ReloadTime = 110
 Round = 20
 ModeNum = 2
 Sound = rocket_snd
-Gravity = -0.075
+Gravity = -0.001
 
 ;Delay = 150
 ;ReloadTime = 150

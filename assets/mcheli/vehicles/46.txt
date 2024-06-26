@@ -2,7 +2,7 @@ DisplayName = 46 cm/45 Type 94 Naval Gun
 AddDisplayName = en_US, 46 cm/45 Type 94 Naval Gun
 AddDisplayName = ja_JP, 46cm3連装砲
 ItemID = 28603
-MaxHp = 100
+MaxHp = 310
 HideEntity = true
 MinRotationPitch = -30
 MaxRotationPitch =  5
@@ -17,7 +17,7 @@ Category = W
 
 HUD = vehicle_wwii
 
-AddSeat = 0.00,  4.00, 0.00
+AddSeat = 0.00,  2.00, 0.00
 
 unmountposition = 0.00,  2.00, 0.00
 
@@ -28,14 +28,23 @@ AddChildPart =  true, false, true,  2,   0.00, 1.55, 2.30,1
 AddChildPart =  true, false, true,  2,   0.00, 1.55, 2.30,1
 AddChildPart =  true, false, true,  2,   0.00, 1.55, 2.30,1
 
+AddWeapon = 46cmap,         2.77, 1.55, 2.00,  0.0, 0.0
+AddWeapon = 46cmap,        -2.77, 1.55, 2.00,  0.0, 0.0
+AddWeapon = 46cmap,         0.00, 1.55, 2.00,  0.0, 0.0
 AddWeapon = 46cm,         2.77, 1.55, 2.00,  0.0, 0.0
 AddWeapon = 46cm,        -2.77, 1.55, 2.00,  0.0, 0.0
 AddWeapon = 46cm,         0.00, 1.55, 2.00,  0.0, 0.0
-
 AddWeapon = type3bullet_46,  2.77, 1.55, 2.00,  0.0, 0.0
 AddWeapon = type3bullet_46, -2.77, 1.55, 2.00,  0.0, 0.0
 AddWeapon = type3bullet_46,  0.00, 1.55, 2.00,  0.0, 0.0
 
 AddRecipe = "XXX",  "DDD",  "GGG",  X, iron_block, G, gold_block, D, dispenser
 
-BoundingBox =  0.0, 2.0, 0.0,  6.0, 5.0
+BoundingBox =  0.0, 1.5, 0.0,  6.0, 3.1
+
+BoundingBox =  0.0, 1.5, 2.0,  6.0, 3.0
+
+BoundingBox =  0.0, 1.5, -2.0, 6.0, 3.0
+
+BoundingBox =  2.0, 1.5, 0.0,  6.0, 3.0
+BoundingBox =  -2.0, 1.5, 0.0,  6.0, 3.0

@@ -1,22 +1,22 @@
-DisplayName = 105mm [M456 - HEAT-FS]
+DisplayName = 105mm OTO Melara 105/52 Cannon [M456 - HEAT-FS]
 Type = MachineGun2
 Power = 400
 ModelBullet = bullet105mm
-Acceleration = 4.8
+
 Explosion = 3
 ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight
-Delay = 84
-ModeNum = 1
+
+
 Piercing  = 0
 SoundPitch = 1.6
-SoundVolume = 20
+
 Sound = centauro
 Recoil = 2
 
-Delay = 90
-ReloadTime = 100
+Delay = 135
+ReloadTime = 200
 Group = MainGun
 Acceleration = 7.0
 ;ModelBullet = bullet105mm
@@ -39,7 +39,15 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
+HeatCount = 800
+MaxHeatCount = 2000
 
+
+SoundPitchRandom = 0.1
+
+DisplayMortarDistance = true
+
+Round = 13
 
 
 
@@ -53,7 +61,7 @@ AddMuzzleFlashSmoke = 10.2, 10,  11.0,  6.0, 35,  200,190,170,150
 ; RecoilBufCount = 駐退カウント, 後退中のカウント倍率
 RecoilBufCount = 40, 5
 
-MaxAmmo = 50
-SuppliedNum = 20
+MaxAmmo = 13
+SuppliedNum = 13
 Item =  3, iron_ingot
 Item =  2, gunpowder

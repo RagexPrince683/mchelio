@@ -1,4 +1,4 @@
-DisplayName = GSh-23-2 Chain gun
+DisplayName = 23mm GSh-23-2 Autocannon
 Type = MachineGun2
 Power = 16
 Acceleration = 8.0
@@ -13,7 +13,8 @@ SoundVolume = 1
 SoundPitch = 1.0
 Sound = gun_h7_snd
 Accuracy = 1.0
-
+Piercing = 0
+Gravity = -0.005
 AddMuzzleFlash      =  1.6,      0.22,        2,  170,254,159,84
 AddMuzzleFlash      =  1.5,      0.20,        1,  150,254,219,184
 AddMuzzleFlashSmoke =  2.2,  1,   5.0,  2.0, 15,  180,250,245,240
@@ -23,7 +24,7 @@ HeatCount = 2
 MaxHeatCount = 50
 
 Acceleration = 7.5
-Piercing = 0
+
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5
@@ -32,7 +33,7 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 640
-SuppliedNum = 160
+MaxAmmo = 200
+SuppliedNum = 200
 Item =  3, iron_ingot
 Item =  2, gunpowder

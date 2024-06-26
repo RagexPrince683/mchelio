@@ -1,0 +1,109 @@
+DisplayName = T-62A
+MaxHp = 265
+Speed = 0.62
+Sound = mbt_run
+ThrottleUpDown = 9.5
+MobilityRoll = 0
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor = 0.0
+EnableNightVision = true
+CameraZoom = 4
+CameraPosition = 0.00,  2.70, 0.75, true
+CameraRotationSpeed = 30
+StepHeight = 1.7
+MinRotationPitch = -16
+MaxRotationPitch = 6
+DefaultFreelook = true
+HideEntity = true
+MobilityYawOnGround = 3.0
+Sound = leoone
+HUD = mbt_hud, gunner
+
+
+SubmergedDamageHeight = 3
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+
+HideEntity = true
+WeightType = Unknown
+
+
+SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
+
+AddGunnerSeat =  0.00,  3.50, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
+AddGunnerSeat =  1.00,  2.20, 0.12,  1.00,  3.50,  0.12,  false, -90, 90, true
+
+AddCrawlerTrack = true, 0.2, -2.18,  -0.341/2.17, 0.27/3.1555, 0.5083/3.22, 0.72/3.125, 0.83/2.9, 0.83/-3.76, 0.71/-4.063, 0.4054/-4.19, 0.1/-4.0625, -0.02/-3.7607, -0.3418/-2.8371, -0.3147/-2.508, -0.341/1.8388
+AddCrawlerTrack = true, 0.2, 2.18,  -0.341/2.17, 0.27/3.1555, 0.5083/3.22, 0.72/3.125, 0.83/2.9, 0.83/-3.76, 0.71/-4.063, 0.4054/-4.19, 0.1/-4.0625, -0.02/-3.7607, -0.3418/-2.8371, -0.3147/-2.508, -0.341/1.8388
+AddTrackRoller = -1.98,  0.5083,  2.9168
+AddTrackRoller = -1.98,  0.1657,  2.0026
+AddTrackRoller = -1.98,  0.1657,  0.886
+AddTrackRoller = -1.98,  0.1657,  -0.224
+AddTrackRoller = -1.98,  0.1657,  -1.45525
+AddTrackRoller = -1.98,  0.1657,  -2.67285
+AddTrackRoller = -1.98,  0.4055,  -3.7607
+
+
+AddTrackRoller = 1.98,  0.5083,  2.9168
+AddTrackRoller = 1.98,  0.1657,  2.0026
+AddTrackRoller = 1.98,  0.1657,  0.886
+AddTrackRoller = 1.98,  0.1657,  -0.224
+AddTrackRoller = 1.98,  0.1657,  -1.45525
+AddTrackRoller = 1.98,  0.1657,  -2.67285
+AddTrackRoller = 1.98,  0.4055,  -3.7607
+
+AddWeapon = 2A20_APFSDS,  0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddWeapon = 2A20_HEATMP,  0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddWeapon = 2A20_HE,      0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddWeapon = pkt7_62,      0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddWeapon = 9k118,      0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -90, 90
+AddPartWeapon = 2A20_APFSDS / 2A20_HEATMP / 2A20_HE, false, true, false,  0.00, 1.3175, -0.0555, 0
+AddPartWeaponChild = false, true, 0.00, 1.58, 1.4190
+
+
+
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+ArmorMinDamage = 9
+ArmorMaxDamage = 250
+ArmorDamageFactor = 0.98
+
+MaxFuel         = 1200
+FuelConsumption = 2.0
+
+AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot
+
+BoundingBox =  0.0, 0.60, 0.80,   2.75, 1.3,  0.60
+BoundingBox =  0.0, 1.6,  0.10,   1.90, 0.80,  0.08
+BoundingBox =  0.0, 1.8,  -0.10,   1.90, 0.95,  0.08
+BoundingBox =  0.0, 0.65,  0.0,   2.75, 1.3,  0.60
+BoundingBox =  0, 0.60,  0.60,   2.75, 1.3,  0.60
+
+
+;ulp
+
+BoundingBox =  0, 1.25,  1.05,   2.65, 0.1,  0.18
+BoundingBox =  0, 1.15,  1.23,   2.65, 0.1,  0.18
+BoundingBox =  0, 1.05,  1.33,   2.65, 0.1,  0.18
+BoundingBox =  0, 0.95,  1.50,   2.65, 0.1,  0.18
+BoundingBox =  0, 0.85,  1.61,   2.65, 0.1,  0.18
+BoundingBox =  0, 0.75,  1.90,   2.65, 0.1,  0.18
+BoundingBox =  0, 0.60,  2.09,   2.65, 0.1,  0.18
+;lfp
+BoundingBox =  0, 0.18,  1.78,   2.65, 0.1,  0.26
+BoundingBox =  0, 0.25,  1.85,   2.65, 0.1,  0.26
+BoundingBox =  0, 0.35,  1.95,   2.65, 0.1,  0.26
+BoundingBox =  0, 0.45,  2.00,   2.65, 0.1,  0.26
+BoundingBox =  0, 0.55,  2.08,   2.65, 0.1,  0.26
+
+
+
+
+BoundingBox =  0.0, 0.60, -2.3,   2.75, 1.3,  0.70
+
+

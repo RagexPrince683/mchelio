@@ -45,7 +45,7 @@ AddPartCamera = 0.0, 1.4311, 5.8707, true, true
 
 
 
-AddPartWeapon = m230_1,    true,  true, false,   0.00, 0.5809, 4.8309
+AddPartWeapon = type23,    true,  true, false,   0.00, 0.5809, 4.8309
 AddPartWeaponChild  =           false, true,   0.00, 0.5809, 4.8309
 
 AddPartWeapon = 70, false, false, true,   0.00,  1.2932, -1.8411
@@ -72,7 +72,7 @@ AddRotor= 1, 0,   0.00,  5.0426, -13.5825,     1.0, 0.0, 0.0
 AddWeapon = targeting_pod1,  0.00, 0.38, 0.90,  0,-1, true,2, 0,-360,360, -25,80
 
 
-AddWeapon = m230_1,  0.00, 0.5809, 4.8309,  0,-1, true,2, 0,-360,360, -25,80
+AddWeapon = type23,  0.00, 0.5809, 4.8309,  0,-1, true,2, 0,-360,360, -25,80
 
 
 AddWeapon = 70,        2.1397,  1.2932, -1.8411,  1, 0,  true,1,  0,0,0, 0, 35
@@ -93,10 +93,12 @@ AddWeapon = HJ10TV, -3.1974,  1.0231, -1.5, -1, 0,  true,2
 AddWeapon = ty90,  3.8479,  2.6975, -2.76,  1, 0
 AddWeapon = ty90, -3.7193,  2.6975, -2.76, -1, 0
 
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0
+
 
 BoundingBox =  0.0, 2.9, -1.7,  2.6, 3.8
 BoundingBox =  0.0, 2.4, -4.5,  2.4, 2.4
-BoundingBox =  0.0, 2.7,-13.0,  1.7, 5.0
+BoundingBox =  0.0, 2.7,-13.0,  1.7, 5.0, 1.25
 BoundingBox =  0.0, 3.0,  0.8,  2.3, 3.3
 BoundingBox =  0.0, 2.3,  3.0,  2.2, 2.6
 BoundingBox =  0.0, 1.7,  5.1,  1.8, 2.0
@@ -115,3 +117,5 @@ AddRecipe = "DX ",  "XRX",  " X ",  X, iron_block, R,redstone_block,  D,dispense
 DamageFactor = 0.8
 
 unmountposition = 0.00,  1.50,  2.5010
+
+ThrottleUpDown = 0.8

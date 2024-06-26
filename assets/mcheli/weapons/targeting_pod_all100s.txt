@@ -1,4 +1,4 @@
-DisplayName = SR-71 reconnaissance system (Mark all entities)
+DisplayName = Scouting
 Type = TargetingPod
 Sight = None
 Delay = 40

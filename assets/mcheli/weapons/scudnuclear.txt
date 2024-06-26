@@ -1,17 +1,19 @@
 DisplayName = R-17 Elbrus Scud B Nuclear Missile [70KT SURFACE]
 Type = Rocket
-Acceleration = 4
+Acceleration = 6
 Explosion = 1
 Flaming = false
 Sight = MissileSight
 Delay = 2000
-SoundVolume = 10.5
+SoundVolume = 15
 SoundPitch = 10.0
 Sound = missile_scud_snd
 ModelBullet = scud
-Gravity = -0.03
+Gravity = -0.01
 nukeYield = 185
 ;70kt
+
+CameraRotationSpeedPitch = 0.3
 
 Group = MainGun
 
@@ -39,11 +41,11 @@ FixCameraPitch = true
 
 Group = maingun
 
-Accuracy = 0.5
+Accuracy = 0.0
 
 EnableGunnerMode = True
 
-ReloadTime = 2500
+ReloadTime = 2000
 Round = 1
 MaxAmmo = 1
 SuppliedNum = 1

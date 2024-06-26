@@ -1,10 +1,7 @@
-DisplayName = S-8 Rocket B-8M1
+	DisplayName = S-8 Rocket B-8M1
 Type = Rocket
 Power = 400
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+
 Acceleration = 3.5
 Explosion = 4
 Flaming = false
@@ -16,7 +13,7 @@ Sound = hydraseventy
 SoundPitch = 0.8
 
 
-Gravity = -0.001
+Gravity = -0.005
 
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100

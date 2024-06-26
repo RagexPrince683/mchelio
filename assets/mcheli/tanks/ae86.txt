@@ -22,6 +22,8 @@ ThirdPersonDist = 8
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 
+WeightedCenterZ = 1.0
+
 
 ;MotionFactor = 1.00
 
@@ -75,6 +77,9 @@ AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 AddWeapon = smoke_none, 1.2,  -0.3,-1.7592,   1.0, 0.0
 AddWeapon = L_Claxon,    0.00, 0.00, 0.00,  0.0,0.0
 
+AddWeapon = drift,    1.1576, 0.0, -1.7047,  0.0,0.0
+AddWeapon = drift,   -1.1576, 0.0, -1.7047,  0.0,0.0
+
 ;AddPartLightHatch =  0.6231, 0.5053, 2.8163,   -1,0,0, -90
 
 AddPartLightHatch =  0.00, 0.6469, 2.95,   1,0, 0, -90
@@ -87,11 +92,11 @@ AddFixedSearchLight = 0.782, 0.686, 3.09,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0
 
 
 
-AddFixedSearchLight =  0.5362, 0.7500,-3.0822,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  6.0,  0
-AddFixedSearchLight =  -0.5362, 0.7500,-3.0822,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  -6.0,  0
+AddFixedSearchLight =  0.5362, 0.7500,-3.05,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  6.0,  10
+AddFixedSearchLight =  -0.5362, 0.7500,-3.05,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  -6.0,  10
 
-AddFixedSearchLight =  0.8562, 0.7500,-3.0522,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  6.0,  0
-AddFixedSearchLight =  -0.8562, 0.7500,-3.0522,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  -6.0,  0
+AddFixedSearchLight =  0.8562, 0.7500,-3.02,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  6.0,  18
+AddFixedSearchLight =  -0.8562, 0.7500,-3.02,   0xFFFF0000,   0x10FF0000,    -0.00, -0.25,  -6.0,  18
 
 
 
@@ -104,14 +109,14 @@ EntityWidth  = 1.0
 EntityHeight = 1.0
 
 ;engine?
-BoundingBox =  0.0, 0.65,  2.05,   1.5, 0.8
+BoundingBox =  0.0, 0.6,  2.05,   0.8, 0.8
 ;mid
 BoundingBox = 0.0, 0.20, 0.0, 2.4, 0.2
 ;front
 BoundingBox = 0.0, 0.20, 2.0, 2.4, 0.2
 ;rear
 BoundingBox = 0.0, 0.20, -2.0, 2.4, 0.2
-Regeneration = true
+Regeneration = false
 ArmorDamageFactor = 2.32
 
 unmountposition = -0.590,  1.500, -0.0912

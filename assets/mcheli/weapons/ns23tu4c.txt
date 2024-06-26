@@ -1,4 +1,4 @@
-DisplayName = NS-23 23mm Auto Cannon
+DisplayName = NS-23 23mm Autocannon
 Type = MachineGun1
 Power = 20
 Acceleration = 5.5

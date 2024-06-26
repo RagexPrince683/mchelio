@@ -1,0 +1,106 @@
+DisplayName = Volvo C304 "Terrängbil 11" 6x6
+MaxHp = 230
+ThrottleUpDown = 0.81
+Speed = 0.62
+MobilityYawOnGround = 6.4
+StepHeight = 1.8
+Sound = uaz_loop
+SoundPitch = 0.8
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor   = 0.85
+EnableNightVision = false
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+ThirdPersonDist = 4
+DefaultFreelook = false
+
+;WeightedCenterZ = 0.1
+
+;7 seats 
+;https://www.6-wheel-drive.org/vehicles/volvo-c304-c306.html
+
+
+OnGroundPitchFactor = 10.0
+OnGroundRollFactor  = 4.8
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+EnableBack = true
+
+Category = C
+
+WeightType = Car
+
+HUD =  bnr32_hud, none, none, none, none, none, none
+
+AddRack = container, -0.3, 1.05, -0.965,   0.0, 0.00, -3.17
+
+AddRack = container, -0.3, 1.05, 0.265,   0.0, 0.00, -3.17
+
+EntityWidth  = 0.75
+EntityHeight = 0.75
+
+AddSeat =  0.5088,  0.40, 1.8270
+
+AddSeat =  0.0,  0.50, 1.8270
+
+unmountposition = 0.5088,  2.20, 1.8270
+
+AddSeat = -0.5088,  0.50, 1.8270
+
+AddSeat = -0.5088,  0.50, -1.8270
+AddSeat = 0,  0.50, -1.8270
+AddSeat = 0.5088,  0.50, -1.8270
+
+AddSeat = 0.5088,  0.50, -0.7270
+
+AddRecipe = "IGI",  "III",  "III",   G, glass, I, iron_ingot, R, redstone
+
+
+
+
+
+
+AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
+
+AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
+
+PivotTurnThrottle = 0.1
+
+PartWheelRot = 25
+
+AddPartWheel     =  0.7048,   0.1016,  1.7608, 35
+AddPartWheel     = -0.6672,   0.1016,  1.7608, 35
+AddPartWheel     =  0.7048,   0.1016, -0.6501
+AddPartWheel     = -0.6672,   0.1016, -0.6501
+AddPartWheel     =  0.7048,   0.1016, -1.7477
+AddPartWheel     = -0.6672,   0.1016, -1.7477
+
+AddFixedSearchLight =  0.8420, 0.6895, 2.6795,   0x50FFFFFF,   0x00FFFFC0,    0.13, 0.5,  -5,  0
+AddFixedSearchLight = -0.8420, 0.6895, 2.6795,   0x50FFFFFF,   0x00FFFFC0,    0.13, 0.5,   5,  0
+
+AddFixedSearchLight =  0.7538, 0.5719,-2.5912,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
+AddFixedSearchLight =  -0.7163, 0.5719,-2.5912,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
+
+InventorySize = 18
+
+AddPartSteeringWheel =  0.5088,  1.1431,  2.1677,  0, 0.590, -1,  130
+
+SetWheelPos =  0.50,  -0.24,  1.76, -0.65, -1.74
+
+BoundingBox = 0.0, 0.4, -1.5, 2.0, 0.2
+BoundingBox = 0.0, 0.4, 0.0, 2.0, 0.2
+BoundingBox = 0.0, 0.4, 1.5, 2.0, 0.2
+
+BoundingBox = 0.0, 0.75, 2.40, 0.6, 0.6
+
+Regeneration = false
+ArmorDamageFactor = 1.0
+
+
+ArmorMinDamage = 2

@@ -1,4 +1,4 @@
-DisplayName = QF 5.25in Gun [AA Shell]
+DisplayName =  5.25 Inch QF Mark I Cannon [AA Shell]
 DisableSmoke = True
 Type = Rocket
 Power = 25

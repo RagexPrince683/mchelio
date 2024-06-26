@@ -1,0 +1,21 @@
+﻿DisplayName = Shahed136
+Type = TVMissile
+Power = 450
+Acceleration = 1
+Explosion = 5
+Flaming = false
+Sound = shahed136
+Sight = MoveSight
+ModelBullet = Shahed136
+Delay = 1
+
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+ModeNum = 2
+
+MaxAmmo = 5
+SuppliedNum = 5
+Item =  8, iron_ingot
+Item =  8, gunpowder

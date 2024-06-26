@@ -1,4 +1,4 @@
-DisplayName = 7.62 mm Type 74 machine gun
+DisplayName = 7.62mm Type 74 Machine Gun
 Type = MachineGun2
 Power = 8
 Acceleration = 7.5
@@ -12,6 +12,9 @@ Sound = typesevenfourmachinegun
 Accuracy = 0.4
 Gravity = -0.001
 Round = 250
+
+ReloadTime = 80
+
 HeatCount = 5
 MaxHeatCount = 350
 

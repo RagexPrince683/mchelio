@@ -1,24 +1,24 @@
-DisplayName = R-24R AAM
+DisplayName = R-24R [AAM]
 Type = AAMissile
-Power = 55
+Power = 25
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 4
-Explosion = 6
+Acceleration = 3
+Explosion = 5
 Flaming = false
 Sight = MissileSight
 Delay = 9
 ReloadTime = 140
 Round = 2
-LockTime = 20
-ProximityFuseDist = 1
+LockTime = 24
+ProximityFuseDist = 2
 Sound = missile_1_snd
 
 
 MaxAmmo = 4
-SuppliedNum = 1
+SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder
 Item =  2, redstone

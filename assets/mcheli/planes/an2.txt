@@ -15,6 +15,8 @@ FuelConsumption = 1.0
 onGroundPitch = 12.31
 InventorySize = 18
 
+RotorSpeed = 2000.0
+
 
 
 Regeneration = false

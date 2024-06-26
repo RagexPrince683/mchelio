@@ -5,6 +5,8 @@ ItemID = 28750
 MaxHp = 150
 Speed = 0.2958
 
+
+
 ;170mph
 
 Sound = peacemaker
@@ -20,7 +22,7 @@ FuelConsumption = 2.0
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 OnGroundPitch = 7.5
-RotorSpeed = 200.0
+RotorSpeed = 2000.0
 ZoomLevel = 1
 
 EntityWidth  = 0.83

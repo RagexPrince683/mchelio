@@ -4,7 +4,7 @@ ItemID = 28821
 MaxHp = 100
 EnableGunnerMode = true
 EnableNightVision = true
-EnableEntityRadar = true
+
 Speed = 1.48
 ThrottleUpDown = 0.8
 FlareType = 3
@@ -37,7 +37,7 @@ AddPartWeapon       = m60_l,     false, true,  true,  1.6646, 1.1747, -1.4552
 AddPartWeapon       = m60_r,     false, true,  true, -1.6646, 1.1747, -1.4552
 AddPartWeapon       = m75_40mm,  false, true, false,  0.0000, 0.55,  2.07
 AddPartWeaponChild  =                   false, true,  0.0000, 0.55,  2.07
-AddPartWeapon       = hydra70_l, false, false, true,  0.0000, 0.27, -2.54
+AddPartWeapon       = ffar, false, false, true,  0.0000, 0.27, -2.54
 
 AddRotor= 1, 0,  0.00,  3.715,  -2.536,  0.0, 1.0, 0.0, false
 AddRotor= 1, 0,  0.00,  3.715, -12.005,  1.0, 0.0, 0.0, false
@@ -54,15 +54,15 @@ AddWeapon = m60_r,      -1.66, 1.17, -1.45,   0.0, 0.0,  false, 4,  90,-80, 80, 
 AddWeapon = m75_40mm,    0.00, 0.55,  2.07,   0.0, 0.0,  true,  2,   0,-30, 30, -10,70
 AddWeapon = targeting_pod_mob,  0.0, 0.7, 3.0,0.0, 0.0,  true,  2
 AddWeapon = targeting_pod_pv10s,0.0, 0.7, 3.0,0.0, 0.0,  false, 2
-AddWeapon = hydra70_l,   1.91, 0.27, -2.54,   1.0, 0.0,  true,  1,  0,0,0, 0, 30
-AddWeapon = hydra70_l,  -1.91, 0.27, -2.54,  -1.0, 0.0,  true,  1,  0,0,0, 0, 30
+AddWeapon = ffar,   1.91, 0.27, -2.54,   1.0, 0.0,  true,  1,  0,0,0, 0, 30
+AddWeapon = ffar,  -1.91, 0.27, -2.54,  -1.0, 0.0,  true,  1,  0,0,0, 0, 30
 
 AddRecipe = " X ",  "XGX",  "I I",  X, iron_block, G, gunpowder, I, iron_ingot
 
 
 BoundingBox = 0.0, 3.3, -2.5, 0.5, 1.5, 1.5
 BoundingBox =  0.0, 2.0, -3.5,  2.8, 1.4
-BoundingBox =  0.0, 3.2,-12.0,  1.0, 1.5
+BoundingBox =  0.0, 3.2,-12.0,  1.0, 1.5, 1.25
 
 BoundingBox = 0.0, 1.46, -5.50, 1.0, 1.0
 BoundingBox = 0.0, 1.46, -6.50, 1.0, 1.0
@@ -75,3 +75,6 @@ BoundingBox = 0.0, 1.86, -11.50, 1.0, 1.0
 unmountposition = -0.50,  1.50,  0.10
 
 DamageFactor = 0.8
+
+
+ThrottleUpDown = 0.5

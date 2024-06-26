@@ -14,7 +14,7 @@ EnableEjectionSeat = true
 EnableSeaSurfaceParticle = true
 ParticlesScale = 0.7
 ThirdPersonDist = 20
-
+EnableEntityRadar = true
 enableback = true
 
 DamageFactor = 0.8
@@ -25,7 +25,7 @@ Category = M.F
 HUD = plane
 
 MobilityYaw = 0.5
-MobilityPitch = 0.5
+MobilityPitch = 0.6
 MobilityRoll = 1.5
 
 AddTexture = f-104-2
@@ -46,9 +46,9 @@ AddPartLG    =  0.00, 0.728, 0.02,  -1,0,0, 110
 AddPartLG =  0.708, 1.164, -5.477,  1,0,0, 100,  0,-1,-1, 70
 AddPartLG =  -0.708, 1.164, -5.477, 1,0,0, 100,  0,1,1, 70
 
-AddWeapon = m61a1_l, 0.343, 1.852, 4.178,   0.0, 0.0
-AddWeapon = aim9, 4.298, 1.118, -6.511,  -1.0, 0.0
-AddWeapon = aim9, -4.298, 1.118, -6.511,  -1.0, 0.0
+AddWeapon = m61f104, 0.343, 1.852, 4.178,   0.0, 0.0
+AddWeapon = aim9b, 4.298, 1.118, -6.511,  -1.0, 0.0
+AddWeapon = aim9b, -4.298, 1.118, -6.511,  -1.0, 0.0
 
 AddPartWeaponMissile = aim9,  false, false, false, 4.298, 1.118, -6.511
 AddPartWeaponMissile = aim9,  false, false, false, -4.298, 1.118, -6.511

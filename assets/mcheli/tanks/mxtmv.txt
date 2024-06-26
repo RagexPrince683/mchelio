@@ -1,8 +1,8 @@
 DisplayName = MXT-MV Husky TSV
 AddDisplayName = en_US, MXT-MV Husky TSV
 AddDisplayName = ja_JP, MXT-MV ハスキーTSV
-MaxHp = 150
-ThrottleUpDown = 10.0
+MaxHp = 280
+ThrottleUpDown = 0.81
 Speed = 0.7
 MobilityYawOnGround = 9.0
 StepHeight = 1.5
@@ -68,7 +68,10 @@ AddPartHatch =   1.12, 1.86,-1.46, 0.0, 1.0, 0.0, 100
 
 AddTurretWeapon = gmw,    0.00, 2.95, -0.59, 0.0, 0.0, false, 5, 0, -360, 360, -25,  4
 AddTurretWeapon = gmw_fl, 0.00, 2.95, -0.59, 0.0, 0.0, false, 5, 0, -360, 360, -25,  4
-AddPartWeapon = gmw / gmw_fl, false, true, false,  0.00, 2.30, -0.59, 0
+
+TurretPosition = 0.0, 2.95, -0.5881
+
+AddPartWeapon = huskygmw / huskygmw_fl, false, true, false,  0.00, 2.30, -0.59, 0
 AddPartWeaponChild = false, true, 0.00, 2.74, 0.48
 
 AddRack = container, 0.0, 1.20, -2.35,  0.0, 2.00, -3.85
@@ -76,7 +79,7 @@ AddRack = container, 0.0, 1.20, -2.35,  0.0, 2.00, -3.85
 InventorySize = 27
 
 BoundingBox = 0.0, 1.0, 1.8, 1.9, 1.0, 1.0, 1.0
-BoundingBox = 0.0, 1.3, -0.3, 2.8, 2.0, 1.0, 1.0
+BoundingBox = 0.0, 1.0, -0.3, 2.8, 2.6, 1.0, 1.0
 ;BoundingBox =  0.0, 1.0,  1.5,   2.6, 1.0,   1.00
 ;BoundingBox =  0.0, 1.5, -0.5,   2.6, 2.0,   1.00
 ;BoundingBox =  0.0, 1.5, -1.5,   2.6, 2.0,   1.00
@@ -89,11 +92,13 @@ BoundingBox = 0.0, 1.3, -0.3, 2.8, 2.0, 1.0, 1.0
 ;BoundingBox = 0.0, 0.90, -1.33, 1.9, 1.0, 1.0
 
 
+
+
 UnmountPosition = -0.70, 1.79,  0.27
 
 ;BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
 ArmorMinDamage = 50
 ArmorDamageFactor = 2.0
-Regeneration = true
+Regeneration = false
 
 AddRecipe = " G ",  "IXI",  "RIR",   G, glass, I, iron_ingot, X, iron_block, R, redstone

@@ -1,4 +1,4 @@
-DisplayName =ZSU-23-4
+DisplayName = ZSU-23-4
 AddDisplayName = en_US, ZSU-23-4 Shilka
 AddDisplayName = ja_JP, ZSU-23-4
 ItemID = 30100

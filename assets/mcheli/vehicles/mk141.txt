@@ -1,0 +1,22 @@
+﻿DisplayName = Mk141 Harpoon launcher
+AddDisplayName = ja_JP, Mk141 ハープーン発射機
+ItemID = 30035
+MaxHp = 50
+CameraZoom = 3
+AddSeat = 0,0,0
+CameraPosition = 0.00, 3.85, 2.43
+HideEntity = true
+
+; M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+HUD = vehicle
+
+RotationPitchMin = -80
+RotationPitchMax =  30
+
+AddWeapon =  rgm-84block2,  0.55, 3.59, 2.68
+AddWeapon =  rgm-84block2, -0.55, 3.59, 2.68
+unmountposition = 0.00, 0.6, -1.3733
+AddRecipe = "III",  "IXI",  "LXL",  X,Gunpowder,  I, Iron_Ingot,  L,Iron_Block
+BoundingBox =  0.0, -0.2, 0.0,  2.4, 0.3

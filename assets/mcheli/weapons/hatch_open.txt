@@ -1,0 +1,2 @@
+DisplayName = ハッチ開放
+Type = Dummy

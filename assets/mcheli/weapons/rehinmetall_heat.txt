@@ -12,10 +12,14 @@ Sight = None
 ReloadTime = 140
 Round = 1
 SoundVolume = 10.0
-Sound = mbtshot
+Sound = leotwoafourmain
 Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
+
+Gravity = -0.005
+
+DisplayMortarDistance = true
 
 Delay = 140
 ReloadTime = 140
@@ -25,7 +29,7 @@ BulletColor        = 255, 255, 100, 100
 ModelBullet = bullet105mm
 Piercing = 0
 Accuracy = 0.0
-DamageFactor = tank, 2.5
+DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5

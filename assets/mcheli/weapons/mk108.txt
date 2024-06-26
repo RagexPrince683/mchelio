@@ -1,18 +1,18 @@
-DisplayName = 30mm MK108 cannon
+DisplayName = 30mm MK108 Autocannon
 Type = MachineGun1
 Power = 25
 Acceleration = 4.5
-Explosion = 1
-ExplosionBlock = 0
+Explosion = 2
+ExplosionBlock = 1
 Flaming = true
 Sight = MoveSight
-Delay = 2
+Delay = 1
 Accuracy = 6.5
-Gravity = -0.03
 Particle = largeexplode
-Round = 10
+Round = 60
 ReloadTime = 50
-
+HeatCount = 5
+MaxHeatCount = 140
 
 
 Acceleration = 7.5
@@ -28,7 +28,7 @@ SoundVolume = 15
 Gravity = -0.005
 
 
-MaxAmmo = 50
-SuppliedNum = 10
-Item =  3, iron_ingot
-Item =  3, gunpowder
+MaxAmmo = 60
+SuppliedNum = 60
+Item =  2, iron_ingot
+Item =  2, gunpowder

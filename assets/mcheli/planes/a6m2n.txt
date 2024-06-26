@@ -10,6 +10,8 @@ ThrottleUpDown = 0.3
 MaxFuel         = 1200
 FuelConsumption = 1.0
 
+RotorSpeed = 2000.0
+
 EnableBack = true
 
 UnmountPosition = 0.0,  2.4, 0.0

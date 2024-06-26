@@ -1,4 +1,4 @@
-DisplayName = NR-23 23mm Auto Cannon Nose
+DisplayName = 23mm NR-23 Autocannon Nose
 Type = MachineGun1
 Power = 18
 Acceleration = 8.0

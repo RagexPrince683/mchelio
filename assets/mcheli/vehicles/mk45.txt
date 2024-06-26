@@ -2,7 +2,7 @@
 AddDisplayName = en_US, 5"/54 caliber Mark 45 Gun
 AddDisplayName = ja_JP, Mk45 5インチ砲
 ItemID = 28601
-MaxHp = 100
+MaxHp = 125
 Gravity = -9.81
 GravityInWater = -1.0
 HideEntity = true
@@ -30,3 +30,5 @@ AddPartWeaponChild = false, true, 0.00, 2.68, 0.38, 0.00
 AddRecipe = "ZXZ",  "XDR",  "ZXR",  X, iron_block, R, redstone_block, Z, iron_ingot, D, dispenser
 
 BoundingBox =  0.0, 2.0, 0.0,  3.0, 3.0
+
+BoundingBox =  0.0, 0.0, 0.0,  2.4, 0.8

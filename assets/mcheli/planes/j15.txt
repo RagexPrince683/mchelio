@@ -82,6 +82,7 @@ AddWeapon = PL-8, -9.39, 1.20, -12.44,   2.0, -3.0
 AddWeapon = PL-8, 9.39, 1.20, -12.44,   2.0, -3.0
 AddWeapon = targeting_pod_ph50s,   0.0, 3.1, 7.2,    0.0, 0.0
 AddWeapon = none,   0.0, 3.1, 7.2,    0.0, 0.0
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 
 AddPartWeaponBay = targeting_pod_ph50s/ none,   0.00, 3.5784, -6.8482,  1,0,0, -43

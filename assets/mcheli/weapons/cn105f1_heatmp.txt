@@ -1,4 +1,4 @@
-DisplayName = CN-105-F1 Riffled Gun [HEATMP]
+DisplayName = CN-105-F1 Rifled Gun [OCC 105 F1 - HEAT]
 Type = MachineGun1
 Power = 400
 ModelBullet = bullet105mm
@@ -6,16 +6,16 @@ Explosion = 3
 ExplosionBlock = 1
 Acceleration = 4.2
 Sight = None
-ReloadTime = 170
+ReloadTime = 134
 Round = 1
 SoundVolume = 10.0
-Sound = cannon_4_snd
+Sound = mbtshot
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.01
+Gravity = -0.005
 Recoil = 2
-
+Delay = 134
 Piercing = 0
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
@@ -24,12 +24,12 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
+DisplayMortarDistance = true
 
 
 
 
-
-MaxAmmo = 15
-SuppliedNum = 1
+MaxAmmo = 16
+SuppliedNum = 8
 Item =  2, iron_ingot
 Item =  2, gunpowder

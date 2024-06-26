@@ -1,0 +1,79 @@
+DisplayName = M50 Ontos
+AddDisplayName = ja_JP, M50
+AddDisplayName = en_US, M50 Ontos
+ItemID = 30100
+MaxHp = 25
+Speed = 0.7
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 2.0
+MinRotationPitch = -20
+MaxRotationPitch = 10
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+;CameraZoom = 3
+EnableNightVision = false
+CameraRotationSpeed = 25
+EnableEntityRadar = false
+MaxFuel         = 1200
+FuelConsumption = 3.0
+StepHeight = 1.5
+;FlareType = 10
+CameraPosition =  0.00,  2.85, -1.14,true
+HideEntity = true
+EnableBack = true
+DefaultFreeLook = True
+
+
+AddGunnerSeat =  .0070,  2.2713, -1.4493,   0.00,  1.0, 0.00,true
+
+
+HUD = mbt_hud
+AddTurretWeapon = m50heat, 0.00, 2.27, -1.44,  0.0, 0.0, true,1, 0,-360,180, -20, 10
+AddPartWeapon = m50heat, false, true, false, 0.00, 2.27, -1.44, 0
+AddPartWeaponChild = false, true, 0.00, 2.27, -1.44, 0.0
+
+
+
+
+AddWeapon = m50heat,  -1.86, 2.6, 3.35,  1.0, 0.0, true,1, 0,-40,40, -10, 20
+AddWeapon = m50heat,  -1.86,2.1, 3.55,  -1.0, 0.0, true,1, 0,-40,40, -10, 20
+AddWeapon = m50heat,  -1.3, 2.6, 3.35,  1.0, 0.0, true,1, 0,-40,40, -10, 20
+
+AddWeapon = m50heat,  1.86, 2.6, 3.35,  1.0, 0.0, true,1, 0,-40,40, -10, 20
+AddWeapon = m50heat,  1.86,2.1, 3.55,  -1.0, 0.0, true,1, 0,-40,40, -10, 20
+AddWeapon = m50heat,  1.3, 2.6, 3.35,  1.0, 0.0, true,1, 0,-40,40, -10, 20
+; パラメータは前から順に 武器設定ファイル名、位置(X,Y,Z)、回転角度(横,縦), パイロット使用可否, 座席, DefaultYaw, MinYaw, MaxYaw, MinPitch, MaxPitch
+
+
+
+
+;AddCrawlerTrack = true, 0.15, -1.28,  -2.71/-0.25, -2.98/-0.14, -3.1/0.13, -2.98/0.4, -2.71/0.52,  2.44/0.93,  2.64/0.85,  2.72/0.66,  2.64/0.47,  2.03/-0.14, 1.76/-0.25,
+AddCrawlerTrack = true, 0.15, -1.28,  -0.25/-2.71, -0.14/-2.98, 0.13/-3.1, 0.4/-2.98, 0.52/-2.71,  0.93/2.44,  0.85/2.64,  0.66/2.72,  0.47/2.64,  -0.14/2.03,-0.25/1.76,
+;AddCrawlerTrack = 履帯の表裏逆転,  1つの履帯の間隔, 履帯のXの位置, 履帯の回転ポイントY/Z, 履帯の回転ポイントY/Z, 履帯の回転ポイントY/Z, ...
+
+
+AddTrackRoller = 1.93,  0.13,  1.76
+AddTrackRoller = 1.93,  0.13,  0.25
+AddTrackRoller = 1.93,  0.13,  -1.27
+AddTrackRoller = 1.93,  0.13,  -2.71
+AddTrackRoller = 1.92,  0.66,  2.44
+
+AddTrackRoller = -1.93,  0.13,  1.76
+AddTrackRoller = -1.93,  0.13,  0.25
+AddTrackRoller = -1.93,  0.13,  -1.27
+AddTrackRoller = -1.93,  0.13,  -2.71
+AddTrackRoller = -1.92,  0.66,  2.44
+
+MaxFuel = 600
+FuelConsumption = 2.0
+
+BoundingBox =  0.0, 0.8,  1.5,   3.4, 1.8,  0.70
+;BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+;BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.0, 1.4, -1.5,   3.1, 3.0,  1.00
+;BoundingBox =  0.0, 3.0, -1.0,   1.5, 1.0,  1.25
+;BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+;BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25

@@ -22,7 +22,8 @@ Explosion = 1
 
 ;457m above for fat man, let's say the soviets managed to get it down because it came after
 ;official reports for RDS-3 were 380meters above ground sorry kid you're staying in orbit
-ProximityFuseDist = 380.0
+;ProximityFuseDist = 380.0
+ExplosionAltitude = 380
 
 ;Power = 329
 Acceleration = 0.1

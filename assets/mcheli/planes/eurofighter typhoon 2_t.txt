@@ -36,6 +36,7 @@ AddPartLG =  2.5126, 1.5929, -7.3302,  0,0,-1, 46.5, 0,0,-1, 46.5
 AddPartLG = -2.5126, 1.5929, -7.3302,  0,0,1, 46.5, 0,0,1, 46.5
 
 AddTexture = eurofighter typhoon 2_t_span.
+;AddTexture = eft_italy
 
 AddRecipe = " X ",  "XDX",  "ZXZ",  X, iron_block, D, diamond, Z, iron_ingot
 
@@ -62,6 +63,7 @@ AddWeapon = aim120EF, -5.8100, 1.2042, -6.7430, 0.0, 0.0
 ;AddWeapon = fuel_tankEF,  4.3910, 0.5981, -5.9367, 0.0, 0.0, true,  2
 ;AddWeapon = fuel_tankEF, -4.4231, 0.5981, -5.9367, 0.0, 0.0, true,  2
 ;AddWeapon = fuel_tankEF, -0.0142, 0.3352, -4.8845, 0.0, 0.0, true,  2
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 BoundingBox =  0.00, 2.25, -2.50,  3.0, 1.8
 

@@ -1,16 +1,13 @@
-DisplayName = 100mm Cannon [Type-83 APFSDS]
+DisplayName = 105mm Type 83 Cannon [Type-83 APDS - APFSDS]
 Type = MachineGun1
 Power = 337
 ModelBullet = bullet105mm
 Acceleration = 8.2
-Explosion = 2
-ExplosionBlock = 1
+Explosion = 0
+ExplosionBlock = 0
 Flaming = false
 Sight = None
-Delay = 90
-ReloadTime = 120
-Round = 30
-SoundVolume = 10.0
+Round = 1
 Sound = tfiftyfive
 ;Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
@@ -18,8 +15,11 @@ Group = MainGun
 Recoil = 2.5
 Gravity = -0.001
 
-Delay = 90
-ReloadTime = 120
+HeatCount = 1100
+MaxHeatCount = 2050
+
+Delay = 160
+ReloadTime = 160
 Group = MainGun
 Acceleration = 7.0
 Piercing = 5
@@ -32,6 +32,8 @@ DamageFactor = player, 10.0
 AddDisplayName = en_US, 100mm Cannon [APFSDS]
 SoundVolume = 15
 
+DisplayMortarDistance = true
+
 
 AddMuzzleFlash      =  9.3,      2.10,        7,  220,254,159,74
 AddMuzzleFlash      =  9.2,      2.05,        6,  220,254,219,104
@@ -41,7 +43,7 @@ AddMuzzleFlashSmoke = 11.3, 20,  13.0,  7.0, 55,  200,190,170,150
 
 RecoilBufCount = 40, 5
 
-MaxAmmo = 30
-SuppliedNum = 10
+MaxAmmo = 12
+SuppliedNum = 3
 Item =  2, iron_ingot
 Item =  1, gunpowder

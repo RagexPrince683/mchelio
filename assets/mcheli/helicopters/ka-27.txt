@@ -46,12 +46,10 @@ AddSeat =-0.60,  1.70, -5.00
 AddPartWeaponMissile = plab-250-120, false, false, false, -1.25, 1.35,-4.00
 AddPartWeaponMissile = plab-250-120, false, false, false,  1.25, 1.35,-4.00
 
-AddWeapon = s-5m57mm,     -1.25, 1.35,-2.00,   0.0, 0.0
-AddWeapon = s-5m57mm,      1.25, 1.35,-2.00,   0.0, 0.0
+AddWeapon = torped45,     -1.25, 1.35,-2.00,   0.0, 0.0
+AddWeapon = torped45,      1.25, 1.35,-2.00,   0.0, 0.0
 AddWeapon = plab-250-120, -1.25, 1.35,-4.00,   0.0, 0.0
 AddWeapon = plab-250-120,  1.25, 1.35,-4.00,   0.0, 0.0
-AddWeapon = kh-35,        -1.25, 1.35,-2.00,   0.0, 0.0
-AddWeapon = kh-35,         1.25, 1.35,-2.00,   0.0, 0.0
 
 AddWeapon = targeting_pod_mob,     0.0, 0.0, 3.1,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.0, 3.1,   0.0, 0.0,  false,2
@@ -65,7 +63,7 @@ BoundingBox = 0.0, 3.81, -5.0, 2.5, 1.5
 
 BoundingBox = 0.0, 2.00, -8.00, 2.0, 2.0
 BoundingBox = 0.0, 2.6, -9.6, 1.5, 1.0
-BoundingBox = 0.0, 2.8, -11.5, 2.5, 1.5
+BoundingBox = 0.0, 2.8, -11.5, 2.5, 1.5, 1.25
 
 BoundingBox = 0.0, 5.8, -3.8, 1.0, 2.5, 1.5
 
@@ -74,3 +72,6 @@ AddRepellingHook = 1.97, 3.51, -6.12, 30
 unmountposition = 0.50,  1.50,  0.09
 
 DamageFactor = 0.8
+
+
+ThrottleUpDown = 0.5

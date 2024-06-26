@@ -1,6 +1,6 @@
 DisplayName = 132mm M-13 Rocket
 Type = Rocket
-Power = 40
+Power = 400
 Explosion = 16
 ExplosionBlock = 5
 Acceleration = 4.0

@@ -9,13 +9,16 @@ Delay = 100
 ReloadTime = 100
 Round = 1
 SoundVolume = 10.0
-Sound = cannon_1_snd
+Sound = leotwoafourmain
 Accuracy = 0.5
 ModelBullet = bullet105mm
 BulletColor        = 255, 255, 100, 100
 Recoil = 1.8
-DamageFactor = plane, 3.0
-DamageFactor = helicopter, 3.0
+
+Gravity = -0.005
+
+DisplayMortarDistance = true
+
 
 ; AddMuzzleFlash = 発射元からの距離, サイズ, 表示時間,  A,  R,  G,  B
 AddMuzzleFlash      =           10.2,   2.10,        7,  220,254,159,74
@@ -36,7 +39,7 @@ Acceleration = 7.0
 ModelBullet = bullet105mm
 Piercing = 0
 Accuracy = 0.0
-DamageFactor = tank, 2.5
+DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5

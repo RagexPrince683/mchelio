@@ -1,11 +1,11 @@
 DisplayName = R-77 Air To Air Missile
 Type = AAMissile
-Power = 44
+Power = 22
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 3
+Acceleration = 4
 Explosion = 4
 Flaming = false
 Sight = MissileSight
@@ -13,7 +13,7 @@ Delay = 20
 ReloadTime = 110
 Round = 2
 LockTime = 20
-ProximityFuseDist = 1
+ProximityFuseDist = 3
 Sound = missile_1_snd
 
 MaxAmmo = 8

@@ -2,7 +2,7 @@ DisplayName = 12.7 cm/40 Type 89 Naval Gun
 AddDisplayName = en_US, 12.7 cm/40 Type 89 Naval Gun
 AddDisplayName = ja_JP, 12.7cm連装高角砲
 ItemID = 28607
-MaxHp = 100
+MaxHp = 125
 HideEntity = false
 MinRotationPitch = -80
 MaxRotationPitch =  8
@@ -38,4 +38,4 @@ AddTurretWeapon = 12_7cm,       -0.56, 2.02, 6.20,   0.0, -1.0,   true,1, 0,-360
 AddRecipe = "I I",  "D D",  "XXX",  X, iron_block, I, iron_ingot, D, dispenser
 
 
-BoundingBox =  0.0, 1.5, 0.0,  4.0, 3.0
+BoundingBox =  0.0, 1.35, 0.0,  3.75, 3.2

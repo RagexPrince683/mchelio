@@ -1,4 +1,4 @@
-DisplayName = 2A82-1М Smoothbore Gun[HEAT-MP]
+DisplayName = 125mm 2A82-1М Smoothbore Gun[3BK18 - HEAT-MP]
 AddDisplayName = en_US, 2A82-1М Smoothbore Gun[HEAT-MP]
 AddDisplayName = ru_RU, 2A82-1M Гладкоствольная 125 мм пушка [Кумулятивный]
 Type = MachineGun2
@@ -16,6 +16,7 @@ SoundVolume = 15
 Sound = cannon_3_snd
 Group = MainGun
 Recoil = 3
+Gravity = -0.005
 
 AddMuzzleFlash      =  8.2,     2.10,        7,  220,254,159,74
 AddMuzzleFlash      =  8.1,     2.05,        6,  220,254,219,104
@@ -23,9 +24,11 @@ AddMuzzleFlash      =  8.0,     2.00,        5,  220,254,219,184
 AddMuzzleFlashSmoke =  8.2, 30, 12.0,  4.0, 65,  220,160,140,120
 AddMuzzleFlashSmoke = 10.2, 20, 13.0,  7.0, 55,  200,190,170,150
 
+DisplayMortarDistance = true
+
 RecoilBufCount = 40, 5
 
-MaxAmmo = 15
+MaxAmmo = 10
 SuppliedNum = 5
 Item =  2, iron_ingot
 Item =  2, gunpowder

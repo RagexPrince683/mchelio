@@ -17,8 +17,15 @@ GravityInWater = -1.0
 DamageFactor   = 1.00
 EnableNightVision = true
 MaxFuel           = 1200
-FuelConsumption   = 1.0
+FuelConsumption   = 1.2
 ThirdPersonDist = 8
+
+EntityPitch = -20
+
+EntityWidth  = 0.95
+EntityHeight = 0.95
+
+WeightedCenterZ = 0.8
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
@@ -34,6 +41,8 @@ SweepWingSpeed  = 0.0
 AddTexture = bnr32_1
 AddTexture = bnr32_2
 AddTexture = bnr32_3
+AddTexture = bnr32_4
+AddTexture = bnr32_5
 
 ;後退可能にする
 EnableBack = true
@@ -47,12 +56,12 @@ WeightType = Car
 ; X座標のマイナス側は必要なし
 SetWheelPos =  0.80,  -0.24,  1.965, -1.789
 
-HUD = bnr32_hud, none
+HUD = bnr32_hud, none, none,none
 
-AddSeat =  0.54,  0.12, -0.02
-AddSeat = -0.54,  0.22, -0.02
-AddSeat = -0.54,  0.22, -1.10
-AddSeat =  0.54,  0.22, -1.10
+AddSeat =  0.54,  0.02, -0.30
+AddSeat = -0.54,  0.12, -0.30
+AddSeat = -0.54,  0.22, -1.30
+AddSeat =  0.54,  0.22, -1.30
 
 ;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
 PivotTurnThrottle = 0.1
@@ -90,6 +99,8 @@ AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
 AddFixedSearchLight =  0.77, 0.62, 3.09,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
 AddFixedSearchLight = -0.77, 0.62, 3.09,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
 
+;0xFF12edff xenon
+
 ;テールランプ
 AddFixedSearchLight =  0.97, 0.78,-3.05,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
 AddFixedSearchLight =  0.62, 0.78,-3.09,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
@@ -100,16 +111,19 @@ AddWeapon = smoke_none, 1.2,  -0.3,-1.7592,   1.0, 0.0
 AddWeapon = L_Claxon,    0.00, 0.00, 0.00,  0.0,0.0
 
 ;engine?
-BoundingBox =  0.0, 0.50,  1.9,   2.0, 0.6
+BoundingBox =  0.0, 0.60,  2.1,   0.8, 0.6
 ;mid
-BoundingBox = 0.0, 0.20, 0.0, 2.5, 0.2
+BoundingBox = 0.0, 0.10, 0.0, 2.5, 0.2
 ;front
-BoundingBox = 0.0, 0.20, 1.8, 2.5, 0.2
+BoundingBox = 0.0, 0.05, 1.65, 2.5, 0.2
+
+BoundingBox = 0.0, 0.00, 2.15, 2.1, 0.2
+
 ;rear
-BoundingBox = 0.0, 0.20, -1.6, 2.5, 0.2
-Regeneration = true
+BoundingBox = 0.0, 0.10, -1.8, 2.3, 0.2
+Regeneration = false
 ArmorDamageFactor = 2.32
 
-UnmountPosition = 0.54,  1.50, -0.02
+UnmountPosition = 0.54,  2.20, -0.30
 
 ArmorMinDamage = 2

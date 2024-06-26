@@ -12,6 +12,7 @@ FlareType = 3
 CameraPosition = 0.0, 0.7, 3.5
 MaxFuel         = 1800
 FuelConsumption = 1.0
+Stealth = 0.2
 
 sound = apache
 soundpitch = 1.3
@@ -52,14 +53,14 @@ AddPartWeaponMissile = agm114tv, false, false, false,  2.36, 0.41,-1.03
 AddPartWeaponMissile = agm114tv, false, false, false,  2.36, 0.41,-1.03
 AddPartWeaponMissile = agm114tv, false, false, false,  2.36, 0.41,-1.03
 AddPartWeaponMissile = agm114tv, false, false, false,  2.36, 0.41,-1.03
-AddPartWeaponMissile = mk46,     false, false, false, -1.53, 0.75,-3.40
+AddPartWeaponMissile = mk46_4,     false, false, false, -1.53, 0.75,-3.40
 
 AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
 AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
 AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
 AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
 AddWeapon = agm119,    2.36, 0.41,-3.03,   0.0, 0.0
-AddWeapon = mk46,     -1.53, 0.75,-3.40,   0.0, 0.0, true,  2
+AddWeapon = mk46_4,     -1.53, 0.75,-3.40,   0.0, 0.0, true,  2
 AddWeapon = m3m_r,    -1.88, 1.28,-2.18,   0.0, 0.0, false, 3, 90,-80,80, -50,80
 
 AddWeapon = targeting_pod_mob,     0.0, 0.7, 3.5,   0.0, 0.0,  true, 2
@@ -86,8 +87,12 @@ BoundingBox = 0.0, 1.5, -13.40, 1.0, 2.0
 BoundingBox = 0.0, 2.92, -1.00, 3.0, 1.0
 BoundingBox = 0.0, 2.92, -2.60, 3.0, 1.0
 
-BoundingBox =  0.0, 3.5,-14.5,  2.0, 2.0
+BoundingBox =  0.0, 3.5,-14.5,  2.0, 2.0, 1.25
 unmountposition = -0.85,  1.50,  1.45
 
 
 DamageFactor = 0.8
+
+
+ThrottleUpDown = 0.5
+

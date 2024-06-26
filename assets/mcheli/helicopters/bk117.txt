@@ -51,7 +51,7 @@ AddWeapon = targeting_pod_pv50s, 0.0, 0.0, 0.0, 0.0, 0.0, true, 2
 ;BoundingBox =  0.0,  1.76, -1.81,  1.5, 1.8
 
 
-BoundingBox =  0.0,  2.35, -7.21,  2.3, 1.5
+BoundingBox =  0.0,  2.35, -7.21,  2.3, 1.5, 1.25
 
 BoundingBox =  0.0, 1.65, -1.5,  2.0, 2.5
 
@@ -76,3 +76,5 @@ AddRecipe = " G ",  "IXI",  "III",  X, iron_block, G, glass, I, iron_ingot
 UnmountPosition = -0.40,  1.50,  1.99
 
 DamageFactor = 0.8
+
+ThrottleUpDown = 0.5

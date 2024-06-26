@@ -8,7 +8,7 @@ Sight = None
 ReloadTime = 140
 Round = 1
 SoundVolume = 10.0
-Sound = mbtshot
+Sound = leotwoafourmain
 Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
@@ -16,10 +16,14 @@ DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
+Gravity = -0.001
 
 ;nukeYield = 1
 ;chemYield = 1
 ;Explosion = 1
+
+DisplayMortarDistance = true
+
 
 
 MaxAmmo = 40

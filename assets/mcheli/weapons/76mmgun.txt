@@ -1,8 +1,8 @@
-DisplayName = Oto Melara 76mm Autocannon
+DisplayName = 76mm/62 Oto Melara Cannon [76/62 SAPOM - SAP]
 Type = MachineGun2
-Power = 40
+Power = 60
 ModelBullet = bullet76mm
-Acceleration = 7.0
+Acceleration = 5.0
 Explosion = 2
 ExplosionBlock = 1
 Flaming = false

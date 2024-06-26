@@ -1,0 +1,92 @@
+DisplayName = Land Rover Series 3
+MaxHp = 230
+ThrottleUpDown = 0.81
+Speed = 0.66
+MobilityYawOnGround = 6.0
+StepHeight = 1.5
+Sound = simpe_engine
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor   = 0.85
+EnableNightVision = false
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+ThirdPersonDist = 4
+DefaultFreelook = false
+
+SetWheelPos =  0.43,  -0.24,  1.81, -1.31
+
+WeightedCenterZ = 0.8
+
+OnGroundPitchFactor = 10.0
+OnGroundRollFactor  = 4.8
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+EnableBack = true
+
+Category = C
+
+WeightType = Car
+
+AddTexture = land-rover_series-3_2
+AddTexture = land-rover_series-3_3
+AddTexture = land-rover_series-3_4
+
+HUD =  bnr32_hud, none
+
+EntityWidth  = 0.8
+EntityHeight = 0.8
+
+AddSeat =  0.5547,  0.20, 0.2386
+
+unmountposition = 0.5547,  2.20, 0.2386
+
+AddSeat = -0.5547,  0.30, 0.2386
+
+AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
+
+
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+
+AddWeapon =  simple_horn, 0.00,  0.42,  3.05, 0.0, 90
+
+PivotTurnThrottle = 0.1
+
+PartWheelRot = 25
+
+AddPartWheel     =  0.7316,   0.0744,  1.8119, 35
+AddPartWheel     = -0.7316,   0.0744,  1.8119, 35
+AddPartWheel     =  0.7316,   0.0744, -1.3130
+AddPartWheel     = -0.7316,   0.0744, -1.3130
+
+
+AddFixedSearchLight =  -0.6075, 0.5733, 2.3148,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0
+AddFixedSearchLight = 0.6075, 0.5733, 2.3148,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,   5,  0
+
+AddFixedSearchLight =  -0.923, 0.732,-2.47,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
+AddFixedSearchLight =  0.923, 0.732,-2.47,   0xFFFF0000,   0x10FF0000,    0.05, 0.15,  0.0,  0
+
+
+
+
+BoundingBox = 0.0, 0.6, 1.5, 1.0, 0.6
+
+BoundingBox = 0.0, 0.30, 0.0, 1.7, 0.2
+BoundingBox = 0.0, 0.30, 1.35, 1.7, 0.2
+BoundingBox = 0.0, 0.30, -0.6, 1.7, 0.2
+BoundingBox = 0.0, 0.30, -1.6, 1.7, 0.2
+
+ArmorDamageFactor = 1
+
+ArmorMinDamage = 2
+
+
+InventorySize = 9
+
+
+AddPartSteeringWheel =  0.521,  1.07,  0.540,  0, 0.600, -1,  130

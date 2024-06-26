@@ -1,0 +1,78 @@
+DisplayName = 9M79 Tochka-u
+AddDisplayName = en_EN 9M79 Tochka-u
+AddDisplayName = ua_UA 9M79 Tochka-u
+ItemID = 197714
+MaxHp = 270
+Speed = 0.8
+Sound = vehicle_run
+ThrottleUpDown = 10.0
+MinRotationPitch = -50
+MaxRotationPitch =  20
+MobilityRoll = -0.1
+Gravity = -0.1
+GravityInWater = 0.0
+DamageFactor = 0.8
+EnableNightVision = true
+DefaultFreelook = true
+CameraRotationSpeed = 40
+SubmergedDamageHeight = 4
+OnGroundPitchFactor = 3.0
+OnGroundRollFactor  = 3.0
+HideEntity = false
+
+;Made by TehNIck from McHeli Ukranie workshop  
+WeightType = Tank
+
+MobilityYawOnGround = 3.0
+
+HUD = mbt_hud, mbt_hud, none
+
+AddSeat =  1.32,  1.30, 5.0
+AddGunnerSeat =  0.06, 1.50,  4.82,   0.09, 4.04,  4.29, true, -120, 120, false
+AddSeat = -1.24, 1.50,  4.82  
+
+MotionFactor = 0.8
+
+SetWheelPos =  1.75,  -0.24,  3.02, 1.44, -1.54, -2.91
+
+AddPartWheel     =   1.70,  0.58, 3.57, 30
+AddPartWheel     =   1.70,  0.58, -0.25
+AddPartWheel     =   1.70,  0.58, -3.94
+AddPartWheel     =   -1.55, 0.58, 3.57, 30
+AddPartWheel     =   -1.55, 0.58, -0.24
+AddPartWheel     =   -1.55, 0.58, -3.94
+
+AddPartCanopy   =  0.72, 2.78, 5.20,  1, 0, 0, 60
+
+AddPartSteeringWheel =  1.31,  2.11,  5.66,  0.0, 1.0, -1.73,   90
+
+AddPartWeaponBay	= hetochka / nutochka / tvtochka,    0.98, 2.95, -1.28, 0.0, 0.0, 1.0, -160
+AddPartWeaponBay	= hetochka / nutochka / tvtochka,  -0.87, 2.95, -1.28, 0.0, 0.0, 1.0, 160
+
+
+AddTurretWeapon = hetochka, 0.06, 2.14, -5.86,  0.0,  0.0, false, 2, 0,0,0, -60, 0
+AddTurretWeapon = nutochka, 0.06, 2.14, -5.86,  0.0,  0.0, false, 2, 0,0,0, -60, 0
+AddTurretWeapon = tvtochka, 0.06, 2.14, -5.86,  0.0,  0.0, false, 2, 0,0,0, -60, 0
+
+
+AddPartWeaponMissile = hetochka / nutochka / tvtochka,   false, false, true,   0.07, 1.77, -5.65, 
+AddPartWeapon =        hetochka / nutochka / tvtochka,   false, false, true,   0.07, 1.77, -5.65, 0
+
+
+EnableBack = true
+
+ArmorMinDamage = 10
+ArmorMaxDamage = 350
+ArmorDamageFactor = 1.00
+
+MaxFuel         = 1200
+FuelConsumption = 2.0
+
+BoundingBox =  0.40, 2.64, 0.0,  3.10, 2.01
+BoundingBox =  0.40, 0.79, -1.75, 3.10, 2.01
+BoundingBox =  0.40, 0.79, 2.26, 3.10, 2.01
+
+StepHeight = 1.5
+
+;Price=5 USD, or 2-4USD in packs
+AddRecipe = "TBT",  "TXT",  "IDI",  T, diamond_block, B, bow, X, dispenser, I, iron_ingot, D, diamond

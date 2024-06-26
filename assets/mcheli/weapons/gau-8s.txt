@@ -15,8 +15,8 @@ Accuracy = 3.0
 
 Sound = gaueight
 Accuracy = 2.0
-HeatCount = 1
-MaxHeatCount = 150
+HeatCount = 2
+MaxHeatCount = 160
 
 
 Gravity = -0.001

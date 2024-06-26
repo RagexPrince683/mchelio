@@ -1,0 +1,36 @@
+DisplayName = KBM-1 125mm Smoothbore Cannon [3BK12M - HEAT-MP]
+Type = MachineGun2
+Power = 440
+ModelBullet =3bk18m
+Acceleration = 6.0
+Explosion = 3
+ExplosionBlock = 3
+Flaming = false
+Sight = None
+Delay = 150
+SoundPitch = 1
+SoundVolume = 15
+Sound = mbtshot
+Gravity = -0.005
+DisplayMortarDistance = true
+group = maingun
+
+
+
+
+Group = MainGun
+Acceleration = 7.0
+BulletColor        = 255, 255, 100, 100
+ModelBullet = bullet105mm
+Piercing = 0
+Accuracy = 0.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+MaxAmmo = 10
+SuppliedNum = 5
+Item =  3, iron_ingot
+Item =  2, gunpowder

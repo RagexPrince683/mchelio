@@ -1,0 +1,38 @@
+DisplayName = 220mm "Buratino" Rocket
+Type = Rocket
+Power = 100
+Explosion = 12
+ExplosionBlock = 4
+Acceleration = 4.0
+SoundVolume = 20
+Sound = grad
+Accuracy = 4.0
+ModelBullet = bullet76mm
+Flaming = false
+Sight = None
+Delay = 1
+Gravity = -0.04
+ReloadTime = 600
+
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.2
+
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+AddMuzzleFlash      =           2.1,   1.05,        2,  220,254,219,104
+AddMuzzleFlash      =           2.0,   1.00,        1,  220,254,219,184
+
+AddMuzzleFlashSmoke   =             3.2,     10,    6.0,  3.0,       25,  220,160,140,120
+AddMuzzleFlashSmoke   =             2.2,      5,    6.0,  4.0,       35,  200,190,170,150
+
+MaxAmmo = 24
+SuppliedNum = 3
+Item =  4, iron_ingot
+Item =  4, gunpowder
+

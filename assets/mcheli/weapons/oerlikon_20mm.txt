@@ -9,10 +9,11 @@ Delay = 2
 ReloadTime = 30
 SoundPitch = 1.0
 Sound = twentymil
-
+HeatCount = 2
+MaxHeatCount = 120
 Gravity = -0.005
 SoundVolume = 15
-
+ModelBullet = bullet
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0
@@ -22,8 +23,6 @@ DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 
 
-
-ModeNum = 2
 MaxAmmo = 60
 SuppliedNum = 60
 Item =  2, iron_ingot

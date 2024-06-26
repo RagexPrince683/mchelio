@@ -99,6 +99,8 @@ AddWeapon = targeting_pod_mob,     0.0, 1.1, 4.5,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 1.1, 4.5,   0.0, 0.0,  false,2
 ;AddWeapon = targeting_pod_block,   0.0, 1.1, 4.5,   0.0, 0.0,  false,2
 
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0
+
 AddRecipe = "X X",  " X ",  "X X",  X, iron_block
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
@@ -110,8 +112,8 @@ BoundingBox =  0.0, 2.5, -2.0,  2.0, 3.8
 BoundingBox =  0.0, 4.0, -2.0,  1.0, 2.5, 1.5
 
 BoundingBox =  0.0, 2.0, -4.0,  2.0, 2.4
-BoundingBox =  0.0, 3.0,-12.0,  2.0, 3.0
-
+BoundingBox =  0.0, 4.5,-12.0,  2.0, 1.5, 1.25
+BoundingBox =  0.0, 3.0,-12.0,  2.0, 1.5, 1.25
 BoundingBox = 0.0, 1.47, -5.11, 1.0, 1.0
 BoundingBox = 0.0, 1.47, -6.11, 1.0, 1.0
 BoundingBox = 0.0, 1.47, -7.11, 1.0, 1.0
@@ -120,7 +122,12 @@ BoundingBox = 0.0, 1.47, -9.11, 1.0, 1.0
 BoundingBox = 0.0, 1.47, -10.11, 1.0, 1.0
 BoundingBox = 0.0, 1.47, -11.11, 1.0, 1.0
 
+;todo reconsider how helicopter damage is calculated/research helicopters
+
+
 unmountposition = 0.00,  1.50, -0.28
 
 
 DamageFactor = 0.8
+
+ThrottleUpDown = 0.5

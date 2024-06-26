@@ -61,7 +61,7 @@ AddPartCamera = -1.05, 0.21, 2.21, true, false
 
 AddRepellingHook =  1.47,  1.82, 0.79, 25
 
-BoundingBox =  0.0,  2.35, -7.21,  2.3, 1.5
+BoundingBox =  0.0,  2.35, -7.21,  2.3, 1.5, 1.25
 
 BoundingBox =  0.0, 1.65, -1.5,  2.0, 2.5
 
@@ -86,3 +86,5 @@ MaxFuel         = 1000
 FuelConsumption = 1.0
 
 DamageFactor = 0.8
+
+ThrottleUpDown = 0.5

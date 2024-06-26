@@ -1,4 +1,4 @@
-DisplayName = Rehinmetall Smoothbore Gun [M830-HEAT]
+DisplayName = 120mm Rehinmetall Smoothbore Gun [M830 - HEAT]
 Type = MachineGun1
 Power = 480
 Explosion = 4
@@ -16,6 +16,9 @@ Sound = abramsmain
 Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
+Gravity = -0.001
+
+ProximityFuseDist = 2
 
 ; AddMuzzleFlash = 発射元からの距離, サイズ, 表示時間,  A,  R,  G,  B
 AddMuzzleFlash      =           10.2,   2.10,        7,  220,254,159,74
@@ -33,13 +36,15 @@ BulletColor        = 255, 255, 100, 100
 ModelBullet = bullet105mm
 Piercing = 0
 Accuracy = 0.0
-DamageFactor = tank, 2.5
+DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
+
+DisplayMortarDistance = true
 
 
 MaxAmmo = 40

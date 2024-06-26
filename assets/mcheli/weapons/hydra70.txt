@@ -7,13 +7,13 @@ Explosion = 3
 Sound = hydraseventy
 Flaming = false
 Sight = MoveSight
-Delay = 2
+Delay = 1
 ReloadTime = 110
 Round = 38
 
 SoundVolume = 15
 
-Gravity = -0.001
+Gravity = -0.005
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
@@ -24,7 +24,7 @@ DamageFactor = heli, 3.0
 ;TrajectoryParticle = heart
 ;TrajectoryParticle = fireworksSpark
 
-MaxAmmo = 19
-SuppliedNum = 19
+MaxAmmo = 38
+SuppliedNum = 38
 Item =  3, iron_ingot
 Item =  3, gunpowder

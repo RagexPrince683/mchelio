@@ -11,9 +11,10 @@ Delay = 85
 ModeNum = 1
 SoundPitch = 0.5
 SoundVolume = 10
-Sound = cannon_1_snd
+Sound = cannon_100mm_snd
 Group = MainGun
 Recoil = 2.5
+Gravity = -0.005
 
 Delay = 90
 ReloadTime = 120

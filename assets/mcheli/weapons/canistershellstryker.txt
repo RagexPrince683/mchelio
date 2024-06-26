@@ -1,20 +1,23 @@
-DisplayName = Canister Shell
+DisplayName = 105mm M68A1E8 Cannon [M1040 - Canister Shot]
 Type = Rocket
 Power = 10
-Explosion = 1
+Explosion = 0
 ExplosionBlock = 0
 Acceleration = 8.0
 Sight = None
-ReloadTime = 150
-Round = 10
-SoundVolume = 10.0
+ReloadTime = 180
+Round = 8
+SoundVolume = 15.0
 Sound = strykermain
+SoundPitchRandom = 0.1
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 group = maingun
 Delay = 150
-Gravity = -0.001
+Gravity = -0.01
+
+DisplayMortarDistance = true
 
 
 AddMuzzleFlash      =  10.2,      1.80,        7,  220,254,159,74
@@ -25,13 +28,16 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 2.5
 
-BombletSTime = 3
-BombletDiff = 0.7
-Bomblet = 80
+BombletSTime = 5
+BombletDiff = 0.35
+Bomblet = 520
+;2080/4
 ModelBullet = bullet76mm
 ModelBomblet = bullet
 DisableSmoke = true
 DamageFactor = player, 2.0
+
+SetCartridge = cartridge_2, 0.6, 180, 0, 0.3, -0.02, 0.65
 
 MaxAmmo = 15
 SuppliedNum = 5

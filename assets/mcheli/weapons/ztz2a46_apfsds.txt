@@ -1,4 +1,4 @@
-DisplayName = 125mm Type 88C Smoothbore Gun [125-I APFSDS]
+DisplayName = 125mm Type 88C Smoothbore Gun [125-I - APFSDS]
 Type = MachineGun1
 Power = 466
 Explosion = 1
@@ -15,6 +15,9 @@ Particle = largeexplode
 group = maingun
 
 Gravity = -0.001
+
+DisplayMortarDistance = true
+
 
 AddMuzzleFlash      =  10.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  10.1,      1.75,        6,  200,254,219,104

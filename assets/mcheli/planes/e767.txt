@@ -54,6 +54,7 @@ AddWeapon = targeting_pod_mob,   0.0, 4.0, 5.0,  0.0, 0.0, false, 2
 AddWeapon = targeting_pod_pv50s, 0.0, 4.0, 5.0,  0.0, 0.0, false, 2
 AddWeapon = targeting_pod_block, 0.0, 4.0, 5.0,  0.0, 0.0, false, 2
 AddWeapon = targeting_pod_ph100s,0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 
 AddPartLG =  0.00, 1.54,  -1.57,  1,0,0, -110

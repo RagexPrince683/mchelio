@@ -1,0 +1,22 @@
+DisplayName = KORSHUN Cruise missle
+Type = TVMissile
+Power = 1000
+Acceleration = 1.7
+Explosion = 12
+ExplosionBlock = 10
+Flaming = false
+Sight = MoveSight
+Delay = 30
+Round = 1
+ReloadTime = 100
+SoundVolume = 15
+Sound = korshun
+ModeNum = 2
+ModelBullet = korshun
+Gravity = -0.01
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  10, gunpowder
+Item =  2, redstone
+Item =  5, iron_ingot

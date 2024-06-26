@@ -28,6 +28,9 @@ Group = MainGun
 
 Gravity = -0.001
 
+DisplayMortarDistance = true
+
+
 AddMuzzleFlash      =  10.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  10.1,      1.75,        6,  200,254,219,104
 AddMuzzleFlash      =  10.0,      1.70,        5,  200,254,219,184

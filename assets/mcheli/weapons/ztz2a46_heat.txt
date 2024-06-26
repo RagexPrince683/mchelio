@@ -1,8 +1,8 @@
-DisplayName = 125mm Type 88C Smoothbore Gun [DTP-125 HEAT-FS]
+DisplayName = 125mm Type 88C Smoothbore Gun [DTP-125 - HEAT-FS]
 Type = MachineGun1
 Power = 480
-Explosion = 4
-ExplosionBlock = 2
+Explosion = 3
+ExplosionBlock = 3
 Acceleration = 6.5
 Sight = None
 ReloadTime = 165
@@ -15,6 +15,9 @@ Particle = largeexplode
 group = maingun
 
 Gravity = -0.001
+
+DisplayMortarDistance = true
+
 
 AddMuzzleFlash      =  10.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  10.1,      1.75,        6,  200,254,219,104

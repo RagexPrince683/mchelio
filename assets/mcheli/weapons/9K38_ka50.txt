@@ -1,7 +1,7 @@
 DisplayName = 9K38 Igla
 Type = AAMissile
-Power = 52
-Acceleration = 3
+Power = 11
+Acceleration = 1.9
 Explosion = 4
 Flaming = false
 Sight = MissileSight

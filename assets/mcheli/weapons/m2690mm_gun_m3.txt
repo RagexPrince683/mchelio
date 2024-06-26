@@ -1,4 +1,4 @@
-DisplayName = 90mm Gun M3 [APCR]
+DisplayName = 90mm M3 Cannon [M304 - APCR]
 Type = MachineGun2
 Power = 287
 ModelBullet = bullet

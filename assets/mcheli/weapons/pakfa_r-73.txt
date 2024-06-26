@@ -1,19 +1,19 @@
 DisplayName = R-73 Air To Air Missile
 Type = AAMissile
-Power = 50
+Power = 7
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 3
+Acceleration = 2.5
 Explosion = 4
 Flaming = false
 Sight = MissileSight
 Delay = 30
 ReloadTime = 150
 Round = 2
-LockTime = 30
-ProximityFuseDist = 1
+LockTime = 16
+ProximityFuseDist = 2
 Sound = missile_1_snd
 
 MaxAmmo = 2

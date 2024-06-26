@@ -1,4 +1,4 @@
-DisplayName = 75mm M3 [APCBC]
+DisplayName = 75mm M3 Cannon [M61 Shot - APCBC]
 Type = MachineGun1
 Power = 104
 Acceleration = 6.5

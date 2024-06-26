@@ -1,11 +1,11 @@
-DisplayName = challenger1 MBT
-AddDisplayName = en_US, Challenger Mk2 MBT
-AddDisplayName = ja_JP, チャレンジャー1
+DisplayName = Challenger Mk.2 MBT
+AddDisplayName = en_US, Challenger Mk.2 MBT
+AddDisplayName = ja_JP, チャレンジャーMk.2
 ItemID = 30100
 MaxHp = 500
-Speed = 0.5
+Speed = 0.35
 Sound = challenger
-ThrottleUpDown = 10.0
+ThrottleUpDown = 5.0
 MobilityYawOnGround = 2.0
 MinRotationPitch = -20
 MaxRotationPitch = 10
@@ -13,14 +13,14 @@ MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
-CameraZoom = 3
+CameraZoom = 10
 CameraPosition = 0.00,  3.50, 1.55, true
 EnableNightVision = true
-CameraRotationSpeed = 25
+CameraRotationSpeed = 18
 ;EnableEntityRadar = true
 MaxFuel         = 1200
 FuelConsumption = 3.0
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
@@ -28,7 +28,7 @@ FlareType = 10
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
-SubmergedDamageHeight = 3
+SubmergedDamageHeight = 2
 
 HideEntity = true
 
@@ -40,7 +40,7 @@ WeightedCenterZ = 0.0
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+
 
 HUD = mbt_hud, gunner
 
@@ -48,7 +48,7 @@ HUD = mbt_hud, gunner
 
 
 AddGunnerSeat =  0.00,  1.00, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
-AddGunnerSeat =  -0.78,  1.14, -0.74,   -0.78,  3.5, -0.74,  false, -90, 90, true
+AddGunnerSeat =  -0.78,  1.84, -0.74,   -0.78,  3.5, -0.74,  false, -90, 90, true
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.9
@@ -75,7 +75,10 @@ AddCrawlerTrack = true, 0.25,  2.31,   -0.33/-4.66,   0.43/-5.66, 0.6/-5.89, 0.8
 
 ;転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
 ;履帯と同じ動きをするが、履帯がなくても設定可能
-AddTrackRoller =  1.99 ,0.64 ,4.34
+
+SetWheelPos =  1.8,  -0.24,  2.96,  1.55, 0.08, -1.61, -3.04, -4.49
+
+AddTrackRoller =  1.99 ,0.64, 4.34
 AddTrackRoller =  2.14,  0.2,  2.96
 AddTrackRoller =  2.14,  0.2,  1.55
 AddTrackRoller = 2.14,  0.2,  0.08
@@ -95,10 +98,10 @@ AddTrackRoller = -2.26,  0.87,  -5.52
 
 ;主砲
 ;m240_r
-AddPartWeapon = l23a1, false, true, false,  0.00, 1.72, -0.01, 0
+AddPartWeapon = c1l23a1/c1l37a7, false, true, false,  0.00, 1.72, -0.01, 0
 AddPartWeaponChild = false, true, -0.05, 2.20, 2.07, 0.0
 AddPartWeaponChild = false, true, -0.05, 2.20, 2.07, 0.5
-AddTurretWeapon = l23a1, 0.00, 2.20, 9.91,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = c1l23a1, 0.00, 2.20, 9.91,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = c1l37a7, 0.00, 2.20, 9.91,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon =  c1l8a2, 0.19, 2.36, 2.64,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 

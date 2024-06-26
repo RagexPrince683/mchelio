@@ -1,4 +1,4 @@
-DisplayName = M3M 12.7mm Machine Gun
+DisplayName = 12.7mm M3M Machine Gun
 Type = MachineGun2
 Power = 31
 Acceleration = 7.0

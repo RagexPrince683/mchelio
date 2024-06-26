@@ -1,18 +1,23 @@
-﻿DisplayName = BTR-90
-AddDisplayName = en_US, BTR-90
-MaxHp = 250
-Speed = 1.351
+﻿DisplayName = BTR-90 APC
+AddDisplayName = en_US, BTR-90 APC
+MaxHp = 200
+Speed = 0.62
 Sound = bmpone
-ThrottleUpDown = 3.2
+ThrottleUpDown = 2
 MobilityYawOnGround = 7.5
 MaxFuel         = 1000
 FuelConsumption = 0.8
-CameraZoom = 4
+CameraZoom = 6
+
+;BPK-3-42 
+
+
 EnableNightVision = true
 EnableEntityRadar = false
-CameraRotationSpeed = 25
+CameraRotationSpeed = 20
+;should be same as bmp-2
 GravityInWater = -1.0
-MinRotationPitch = -70
+MinRotationPitch = -60
 MaxRotationPitch = 5
 MobilityRoll = 0
 HideEntity = true
@@ -29,6 +34,8 @@ Gravity = -0.61
 ;earth gravity is -9.81m/s^2 however minecraft and mcheli base off of different metric or something 
 GravityInWater = 0.1
 
+;GravityInWater = -0.2???
+
 SubmergedDamageHeight = 3
 
 ;  M = Military,  A = AAGun(対空砲)
@@ -39,20 +46,20 @@ WeightType = Tank
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = mbt_hud, heli_gnr
+HUD = mbt_hud, none, none, none, none, none, none
+;, none, none
 
-CameraPosition = 0.00, 3.28,  0.00, false
+CameraPosition = 0.00, 3.78,  0.00, false
 
-AddGunnerSeat =  0.00, 1.68,  3.00, 0.00, 2.56, 1.4644, false, -15, 6, false
+AddGunnerSeat =  0.00, 1.08,  0.00, 0.00, 2.56, 1.4644, false, -60, 5, false
 ;AddSeat = -0.31, 0.75, -1.62 
 AddSeat = -0.31, 0.75, -1.62 
 AddSeat =  0.31, 0.75, -1.62 
-AddSeat = -0.31, 0.75, -1.98
-AddSeat =  0.31, 0.75, -1.98
-AddSeat = -0.31, 0.75, -2.32
-AddSeat =  0.31, 0.75, -2.32
-AddSeat = -0.31, 0.75, -2.64
-AddSeat =  0.31, 0.75, -2.64
+AddSeat = -0.31, 0.75, -2.58
+AddSeat =  0.31, 0.75, -2.58
+
+AddSeat = -0.31, 0.75, -3.44
+AddSeat =  0.31, 0.75, -3.44
 
 SetWheelPos =  1.30,  -0.24,  1.04, -1.02, -3.42, -5.36
 
@@ -79,20 +86,26 @@ PivotTurnThrottle = 0.2
 
 TrackRollerRot = 30
 
-AddPartWeapon    = b32, false, true, false,  -0.00, 2.68, -0.00
-AddPartWeaponChild = false, true, 0.00, 2.48, 0.40
-AddTurretWeapon = b32,   0.00, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -70,5
-AddTurretWeapon = mdz,   0.00, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -70,5
-AddTurretWeapon = pkt,  0.2064, 2.98, 1.4644,   0.0, 0.0, true, 1, 0, -360,360, -70,5
-AddTurretWeapon = 9M120_HEAT,  1.5436, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -75,5
-AddTurretWeapon = 9M120_HEAT,  1.3206, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -75,5
-AddTurretWeapon = 9M120_HEAT,  -1.5436, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -75,5
-AddTurretWeapon = 9M120_HEAT,  -1.3206, 3.0587, 1.9955,   0.0, 0.0, false, 1, 0, -360,360, -75,5
+;AddPartWeapon = bmp23ubr6 / bmp23yof8 , false, true, false, 0.00, 1.65, -0.2461, 0
+;AddPartWeaponChild = false, true, 0.00, 2.09, 0.60
+;AddPartWeaponChild = false, true, 0.00, 2.09, 0.60
+
+AddPartWeapon    = 90b32/90mdz, false, true, false,  -0.00, 1.65, -0.00
+AddPartWeaponChild = false, true, 0.00, 2.48, 0.60
+AddPartWeaponChild = false, true, 0.00, 2.48, 0.60
+
+;no NO NO NO NO NO NO!!!
+
+AddTurretWeapon = 90b32,   0.00, 2.98, 0,   0.0, 0.0, true, 1, 0, -360,360, -60,5
+AddTurretWeapon = 90mdz,   0.00, 2.98, 0,   0.0, 0.0, true, 1, 0, -360,360, -60,5
+AddTurretWeapon = 90pkt,  0.2064, 2.98, 0.4644,   0.0, 0.0, true, 1, 0, -360,360, -60,5
+AddTurretWeapon = 909m113mga,  0, 3.0480, 0.6598,   0.0, 0.0, false, 1, 0, -360,360, -75,5
+
 
 
 DamageFactor = 0.1
 
-HideEntity = true
+HideEntity = false
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1

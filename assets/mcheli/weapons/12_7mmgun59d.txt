@@ -1,4 +1,4 @@
-DisplayName = 12.7mm Type 54
+DisplayName = 12.7mm Type 54 Machine Gun
 Type = MachineGun1
 Power = 31
 Acceleration = 9.0
@@ -9,12 +9,16 @@ Sight = MoveSight
 Delay = 2
 SoundDelay = 3
 Accuracy = 1.0
-HeatCount = 3
-MaxHeatCount = 350
+HeatCount = 10
+MaxHeatCount = 250
 SoundPitch = 1.0
 Sound = dshk
 Gravity = -0.005
 ModeNum = 2
+
+Round = 50
+
+ReloadTime = 80
 
 Acceleration = 7.5
 Piercing = 0

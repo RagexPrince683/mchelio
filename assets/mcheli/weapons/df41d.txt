@@ -1,4 +1,4 @@
-DisplayName = DF-41 Thermonuclear Warhead [10x150KT SURFACE]
+DisplayName = DF-41 ICBM Rocket - MIRV Thermonuclear Warhead [10x150KT SURFACE]
 Type = Rocket
 ;Power = 41000
 Acceleration = 3.5
@@ -9,11 +9,14 @@ nukeyield = 195
 ;radius = 5000
 
 BombletSTime = 120
-BombletDiff = 6.5
+BombletDiff = 3.5
 Bomblet = 10
 ModelBomblet = scud
 
-Gravity = -0.032
+
+DelayFuze = 0
+
+Gravity = -0.012
 
 ;ExplosionBlock = 50
 ;ExplosionInWater = 45

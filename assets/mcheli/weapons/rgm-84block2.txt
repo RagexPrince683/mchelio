@@ -1,0 +1,19 @@
+DisplayName = RGM-84 Harpoon Block‡U
+Type = TVMissile
+Power = 533
+Acceleration = 2.5
+Explosion = 11
+ExplosionInWater = 22
+Flaming = true
+Sight = MoveSight
+Delay = 20
+ModelBullet = RGM-84A
+SoundVolume = 3
+Sound = missile_1_snd
+DisableSmoke = true
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  3, gunpowder
+Item =  2, redstone

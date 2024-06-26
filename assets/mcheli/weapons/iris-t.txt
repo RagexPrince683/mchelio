@@ -1,7 +1,7 @@
-DisplayName = IRIS-T
+DisplayName = IRIS-T [AAM]
 Type = AAMissile
-Power = 56
-Acceleration = 4
+Power = 11
+Acceleration = 3.0
 Explosion = 5
 Flaming = false
 Sight = MissileSight

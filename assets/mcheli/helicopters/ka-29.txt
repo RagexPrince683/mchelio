@@ -46,6 +46,7 @@ AddPartHatch = 1.10, 1.46, -6.25, 0,0,1, -151
 AddPartHatch = 0.99, 3.11, -6.25, 0,0,1, 90
 
 AddWeapon = 2a42_ka50,      1.450, 1.800,-0.167, 0,0
+AddWeapon = 2a42_ka50he,      1.450, 1.800,-0.167, 0,0
 AddWeapon = s-8,            2.587, 0.943,-0.910, 0,0
 AddWeapon = s-8,           -2.587, 0.943,-0.910, 0,0
 AddWeapon = 9k114,          3.6,   1.1,  -1.2,   0,0
@@ -70,10 +71,13 @@ BoundingBox = 0.0, 3.81, -4.0, 2.5, 1.5
 
 BoundingBox = 0.0, 2.00, -7.50, 2.0, 2.0
 BoundingBox = 0.0, 2.6, -9.1, 1.5, 1.0
-BoundingBox = 0.0, 2.8, -11.0, 2.5, 1.5
+BoundingBox = 0.0, 2.8, -11.0, 2.5, 1.5, 1.25
 
 BoundingBox = 0.0, 5.8, -3.0, 1.0, 2.5, 1.5
 
 unmountposition = 0.70,  1.50,  0.76
 
 DamageFactor = 0.8
+
+
+ThrottleUpDown = 0.5

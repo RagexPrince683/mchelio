@@ -1,8 +1,8 @@
-DisplayName = AIM-9 Sidewinder
+DisplayName = AIM-9 Sidewinder [AAM]
 Type = AAMissile
-Power = 58
-Acceleration = 4
-Explosion = 5
+Power = 9
+Acceleration = 2.5
+Explosion = 4
 Flaming = false
 Sight = MissileSight
 Delay = 9
@@ -13,9 +13,7 @@ ProximityFuseDist = 1
 ModelBullet = aim9lm
 Sound = aimnine
 
-
-
-DamageFactor = tank, 1.0
+DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0

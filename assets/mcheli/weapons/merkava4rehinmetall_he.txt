@@ -1,8 +1,8 @@
-DisplayName = 120mm IMI MG253 Smoothbore Cannon[HE]
+DisplayName = 120mm IMI MG253 Smoothbore Cannon[M339 - HE]
 Type = MachineGun1
 Power = 65
-Explosion = 3
-ExplosionBlock = 2
+Explosion = 5
+ExplosionBlock = 4
 Acceleration = 7.0
 Sight = None
 ReloadTime = 165
@@ -21,6 +21,9 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 SoundVolume = 15
+
+DisplayMortarDistance = true
+
 
 AddMuzzleFlash      =  10.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  10.1,      1.75,        6,  200,254,219,104

@@ -1,10 +1,10 @@
 DisplayName = 36cm 41st Year Type Naval Gun [HE]
 Type = MachineGun1
 ModelBullet = 91ap
-Power = 60
+Power = 400
 Acceleration = 3.5
 Explosion = 14
-ExplosionBlock = 7
+ExplosionBlock = 8
 ExplosionInWater = 10
 Flaming = false
 Sight = MoveSight

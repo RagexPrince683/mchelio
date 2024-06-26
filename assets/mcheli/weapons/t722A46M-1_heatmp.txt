@@ -1,10 +1,10 @@
-DisplayName = 125mm 2A46M-1 [HEAT-MP]
+DisplayName = 125mm 2A46M-1 Smoothbore Cannon [3BK18M - HEAT-MP]
 Type = MachineGun2
 Power = 550
 ModelBullet = bullet105mm
 Acceleration = 8.0
-Explosion = 2
-ExplosionBlock = 2
+Explosion = 3
+ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
 Delay = 170
@@ -13,11 +13,14 @@ ModeNum = 1
 SoundVolume = 20
 Sound = tseventytwomain
 group = maingun
+Round = 1
+DisplayMortarDistance = true
+ReloadTime = 150
 
-Gravity = -0.001
+Gravity = -0.005
 
-MaxAmmo = 12
-SuppliedNum = 12
+MaxAmmo = 11
+SuppliedNum = 11
 Item =  3, iron_ingot
 Item =  2, gunpowder
 
@@ -27,8 +30,7 @@ AddMuzzleFlash      =  10.0,      1.70,        5,  200,254,219,184
 AddMuzzleFlashSmoke =  12.2, 20,  10.0,  3.0, 45,  220,160,140,120
 AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
-Delay = 80
-ReloadTime = 80
+
 Group = MainGun
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100

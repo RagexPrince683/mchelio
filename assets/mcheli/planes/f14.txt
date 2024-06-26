@@ -61,8 +61,8 @@ AddPartWeaponMissile = gbu12,   false,  false,  false,  -0.59, 0.97, -1.65
 AddPartWeaponMissile = gbu12,   false,  false,  false,   0.59, 0.97, -1.65
 
 AddWeapon = m61f14,  0.63, 1.33,  2.01, 0.0, 0.0
-AddWeapon = aim9,    -3.24, 1.54, -3.92, 0.0, 0.0
-AddWeapon = aim9,     3.24, 1.54, -3.92, 0.0, 0.0
+AddWeapon = aim9_l,    -3.24, 1.54, -3.92, 0.0, 0.0
+AddWeapon = aim9_l,     3.24, 1.54, -3.92, 0.0, 0.0
 AddWeapon = aim54,   -0.55, 0.91, -6.50, 0.0, 0.0, true, 2
 AddWeapon = aim54,    0.55, 0.91, -6.50, 0.0, 0.0, true, 2
 AddWeapon = gbu12,   -0.59, 0.97, -1.65, 0.0, 0.0, true, 2

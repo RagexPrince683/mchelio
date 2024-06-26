@@ -1,0 +1,33 @@
+﻿DisplayName = D-30 122mm Howitzer 
+AddDisplayName = ja_JP, D-30
+ItemID = 28602
+MaxHp = 100
+HideEntity = false
+MinRotationPitch = -70
+MaxRotationPitch =  7
+DamageFactor = 0.1
+CameraZoom = 4
+CameraPosition = 0.0, 2.80, 0.0
+
+; M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+HUD = gunner
+
+AddSeat = -0.0,  0.10, -1.5
+
+; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
+;脚
+AddPart		 = false, true, false, 0,   0.00, 0.00, 0.00
+;本体
+AddChildPart = true,false,true,  0,   0.00, 0.95, -0.65
+;砲身
+AddChildPart = true,false,true,  2,   0.00, 0.95, -0.65, 0.4
+
+AddWeapon =  d-30,  0.34, 0.95, -0.65, 0.00, 0.00 , true,1, 0, -360, 360, -65, 2
+AddWeapon =  d-30he2,  0.34, 0.95, -0.65, 0.00, 0.00 , true,1, 0, -360, 360, -65, 2
+
+AddRecipe = "XZX",  "XDR",  "XXR",  X, iron_block, R, redstone_block, D, dispenser
+
+BoundingBox =  0.0, 0.6, 0.0,  2.4, 1.45
+unmountposition = 0.00, 1.2, -1.4733

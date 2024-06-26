@@ -1,4 +1,4 @@
-DisplayName = GAU-19 12.7mm(L)
+DisplayName = 12.7mm GAU-19 HMG (L)
 Type = MachineGun2
 ModelBullet = bullet
 Power = 31

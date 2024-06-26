@@ -12,13 +12,19 @@ ThrottleUpDown = 0.815
 MaxFuel         = 1000
 FuelConsumption = 1.0
 
+WeightedCenterZ = -0.6
+
+;OnGroundPitch = 45
+
+
+
 Category = C
 
 PivotTurnThrottle = 0.1
 MobilityYawOnGround = 7.2
 ;ThrottleUpDown = 0.91
 DamageFactor = 1.0
-MobilityRoll = 0
+MobilityRoll = 4
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
@@ -35,11 +41,14 @@ GravityInWater = -1.0
 
 EnableBack = true
 
-HUD = plane, none
+HUD = s15_hud, none
 
 ;AddSeat =  X, Y, Z
-AddSeat = 0.8, 0.14, -0.06
-AddSeat = -0.8, 0.24, -0.06
+
+EntityPitch = -30
+
+AddSeat =  0.8, 0.0, -0.68
+AddSeat = -0.8, 0.1, -0.68
 
 UnmountPosition = 0.8, 1.24, -0.06
 
@@ -50,9 +59,10 @@ AddPartSteeringWheel =  0.739,  0.812,  0.349,  0, 0.3196, -1,   160
 AddPartSteeringWheel = 0.0, 0.210, 2.24, 0.0, 0.210, 2.24, 15
 
 AddWeapon = smoke_none, 1.2,  -0.3,-1.7592,   1.0, 0.0
-;;AddWeapon = smoke_white, 1.2,  -0.3,-1.7592,   1.0, 0.0
-;;AddWeapon = smoke_white, -1.2, -0.3, -1.7592,   1.0, 0.0
-AddWeapon = l_Claxon, 0, -0.5, 0, 1.0, 0.0
+AddWeapon = L_Claxon,    0.00, 0.00, 0.00,  0.0,0.0
+
+AddWeapon = drift,    1.0884, 0.0, -1.8604,  0.0,0.0
+AddWeapon = drift,   -1.0884, 0.0, -1.8604,  0.0,0.0
 
 AddPartHatch = -0.245, 1.60, -0.621, 0,0,-1, 85
 
@@ -61,7 +71,7 @@ AddPartCanopy = 0.245, 1.60, -0.621, 0,0,1, 85
 AddFixedSearchLight = 1.10, 0.683, 3.69,   0x50FFFFFF,   0x00FFFFC0,    0.20, 0.40,  -5,  0
 AddFixedSearchLight = -1.10, 0.683, 3.69,   0x50FFFFFF,   0x00FFFFC0,    0.20, 0.40,  5,  0
 
-
+InventorySize = 18
 
 
 ;0.57
@@ -87,7 +97,7 @@ AddPartWheel = 1.3337, 00.1620,  -2.0025
 AddPartWheel = -1.3337, 00.1620,  2.2385, 15
 AddPartWheel = -1.3337, 00.1620,  -2.0025
 
-AddRecipe = " G ",  "IXI",  "RIR",   G, glass, I, iron_ingot, X, gold_block, R, redstone
+AddRecipe = " G ",  "IXI",  "RIR",   G, glass, I, iron_ingot, X, lapis_block, R, redstone
 
 ;;BoundingBox =  0.00,  0.52,  2.48,  2.2, 1.0
 ;;BoundingBox =  0.00,  0.79, -0.02,  2.2, 1.5

@@ -1,30 +1,42 @@
-DisplayName = 2A42 30mm Cannon [HEF-T]
+DisplayName = 30mm 2A42 Cannon [3UOR6 - HE-T]
 Type = MachineGun1
 Power = 9
-Acceleration = 5.0
+
 Explosion = 3
-ExplosionBlock = 2
+ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight
-Delay = 4
+Delay = 2
 ReloadTime = 120
-Round = 100
+Round = 250
 SoundVolume = 15
 SoundPitch = 1.0
+SoundPitchRandom = 0.1
 Sound = bmptwomain
 Accuracy = 1.5
 ModeNum = 1
 group = maingun
 
+TrajectoryParticle = crit
+
+TimeFuse = 560
+
+ProximityFuseDist = 2
+
 Gravity = -0.005
 
-HeatCount = 4
+;2a42
+Delay = 1
+HeatCount = 7
 MaxHeatCount = 150
+
+;tracer
+BulletColor = 230, 200, 20, 80 
 
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
-MaxAmmo = 100
-SuppliedNum = 50
+MaxAmmo = 250
+SuppliedNum = 125
 Item =  2, iron_ingot
 Item =  2, gunpowder
 

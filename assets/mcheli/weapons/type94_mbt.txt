@@ -1,4 +1,4 @@
-DisplayName = 37mm Type 94 Cannon [APHE]
+DisplayName = 37mm Type 94 Cannon [Type 94 - APHE]
 Type = MachineGun2
 Power = 34
 Acceleration = 9.0

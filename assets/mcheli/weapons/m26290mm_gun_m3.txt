@@ -1,4 +1,4 @@
-DisplayName = 90mm Gun M3 [APBC]
+DisplayName = 90mm M3 Cannon [T33 - APBC]
 Type = MachineGun2
 Power = 175
 ModelBullet = bullet

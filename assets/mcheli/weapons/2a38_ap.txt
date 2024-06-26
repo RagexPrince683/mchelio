@@ -1,4 +1,4 @@
-DisplayName = 2A38M 30mm Cannon AP-T
+DisplayName = 30mm 2A38M Cannon AP-T
 Type = Rocket
 Power = 65
 ModelBullet = bullet

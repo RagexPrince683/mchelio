@@ -73,7 +73,7 @@ AddRecipe = "CXC",  "XIX",  "I I",  X, iron_block, I, iron_ingot, C,coal_block
 ;BoundingBox =  0.0, 1.8,  3.0,  2.0, 2.5
 ;BoundingBox =  0.0, 1.8,  1.0,  2.0, 2.5
 ;BoundingBox =  0.0, 1.8, -1.0,  2.0, 2.5
-BoundingBox =  0.0, 2.5,-8.0,  2.0, 3.0
+BoundingBox =  0.0, 2.5,-8.0,  2.0, 3.0, 1.25
 
 BoundingBox = 0.0, 3.1, 1.6, 1.0, 1.5, 1.5
 BoundingBox = 0.0, 2.72, 3.51, 1.6, 0.5
@@ -92,3 +92,6 @@ BoundingBox = 0.0, 2.55, -0.18, 1.0, 0.5
 unmountposition = -0.40, 1.50, 5.11
 
 DamageFactor = 0.8
+
+
+ThrottleUpDown = 0.5

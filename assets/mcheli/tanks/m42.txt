@@ -1,0 +1,62 @@
+DisplayName = M42 SPAAG
+AddDisplayName = zh_CN, M42“除尘者”自行防空炮
+MaxHp = 600
+Speed = 0.55
+Sound = tank
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 4.0
+MinRotationPitch = -75
+MaxRotationPitch = 10
+MobilityRoll = 0
+Gravity  = -0.15
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 4
+CameraRotationSpeed = 20
+MaxFuel         = 800
+FuelConsumption = 2
+StepHeight = 1.5
+DefaultFreelook = true
+OnGroundPitchFactor = 2.2
+OnGroundRollFactor  = 1.5
+SubmergedDamageHeight = 3
+HideEntity = false
+WeightType = tank
+HUD = ww2tank_hud
+SetWheelPos =  1.31, -0.24, 2.41, 1.37, -0.13, -1.80, -2.96, -3.93
+AddgunnerSeat =  1.00,  1.9,  -0.5,    0.00,  1.9,  -1.8,  true, -75, 5, true
+AddSeat =  -1.00,  1.9,  -0.5,    0.00
+CameraPosition = 0.00,  3.6, 0.0,true
+
+addtexture = m421
+
+MotionFactor = 0.91
+ArmorMinDamage = 15
+ArmorMaxDamage = 2000
+EnableBack = true
+PivotTurnThrottle = 0.0
+
+AddCrawlerTrack = true, 0.2, -1.9184,  -0.2538/1.7282, -0.0/2.21, 0.448/2.902, 0.7366/3.022, 1.025/2.902, 1.115/2.6135, 1.178/0.0, 1.178/-2.307, 1.229/-3.8513, 1.015/-4.2223, 0.794/-4.2865, 0.554/-4.2223, 0.2834/-4.0325, 0.124/-3.655,  -0.2538/-2.681, -0.2538/-0.0
+
+
+AddTrackRoller = -2.0,  0.7366,  2.6135
+AddTrackRoller = -1.82,  0.2026,  1.7282
+ AddTrackRoller = -1.82,  0.2026,  0.6282
+ AddTrackRoller = -1.82,  0.2026,  -0.4748
+ AddTrackRoller = -1.82,  0.2026,  -1.578
+ AddTrackRoller = -1.82,  0.2026,  -2.681
+ AddTrackRoller = -1.82,  0.7845,  -3.841
+
+
+AddTurretWeapon   = m42AP,  0.0, 2.96, 1.75,  0.0, 0.0, true,1, 0,-360,360, -75, 10
+AddTurretWeapon   = m42HE,     0.0, 2.96, 1.75,  0.0, 0.0, true,1, 0,-360,360, -75, 10
+AddTurretWeapon   = m42VT,     0.0, 2.96, 1.75,  0.0, 0.0, true,1, 0,-360,360, -75, 10
+AddPartWeapon  = m42AP/m42HE/m42vt, false, true,  false,  0.0, 2.925, 0, 0
+AddPartWeaponChild = false, true,   0.0, 2.96, 0.0, 0.0
+AddPartWeaponChild = false, true,   0.0, 2.96, 0.0, 0.4
+
+
+BoundingBox =  0.0, 1.0,  1.2,   3.4, 2.0,  1.00
+
+BoundingBox =  0.0, 1.0, -2.2,   3.4, 2.0,  1.00
+BoundingBox =  0.0, 2.5, 0.0,   3.0, 1.0,  1.25

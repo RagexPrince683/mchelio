@@ -56,8 +56,8 @@ AddWeapon = crv7_mpsm,  2.33, 1.10, -3.20,   1.0, 0.0
 AddWeapon = crv7_mpsm, -2.33, 1.10, -3.20,  -1.0, 0.0
 AddWeapon = crv7_mpsm,  3.93, 1.06, -3.98,   1.0, 0.0
 AddWeapon = crv7_mpsm, -3.93, 1.06, -3.98,  -1.0, 0.0
-AddWeapon = aim9,       2.51, 0.80, -3.93,   1.0, 0.0
-AddWeapon = aim9,      -2.51, 0.80, -3.93,  -1.0, 0.0
+AddWeapon = aim9_l,       2.51, 0.80, -3.93,   1.0, 0.0
+AddWeapon = aim9_l,      -2.51, 0.80, -3.93,  -1.0, 0.0
 AddWeapon = agm-65,     4.85, 1.09, -4.35,   1.0, 0.0
 AddWeapon = agm-65,    -4.85, 1.09, -4.35,  -1.0, 0.0
 

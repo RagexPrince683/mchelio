@@ -15,6 +15,14 @@ MaxHeatCount = 150
 SetCartridge = cartridge, 0.3,  90, -20, 3.00, -0.04, 0.40
 Gravity = -0.001
 
+Group = MainGun
+
+RecoilBufCount = 40, 5
+
+Recoil = 6.0
+
+
+
 AddMuzzleFlashSmoke =  2.2, 5,  1.0,  1.0, 45,  220,160,140,120
 ;AddMuzzleFlashSmoke = -15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
@@ -33,3 +41,6 @@ MaxAmmo = 1
 SuppliedNum = 1
 Item =  4, iron_ingot
 Item =  5, gunpowder
+
+Delay = 110
+ReloadTime = 110

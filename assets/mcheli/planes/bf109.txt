@@ -12,6 +12,9 @@ Speed = 0.74124
 Sound = prop_fighter
 onGroundPitch = 16
 ThrottleUpDown = 0.3
+
+RotorSpeed = 2000.0
+
 MaxFuel         = 1200
 FuelConsumption = 1.0
 ThrottleUpDownOnEntity = 2.0
@@ -47,7 +50,7 @@ AddWeapon = mg151_20,-2.54, 1.55, 0.56,   3.0, 0.0
 
 AddWeapon = mk108, 0.00,  2.14, 3.03
 
-BoundingBox =  0.00, 2.10, 1.63,  1.0, 1.0
+BoundingBox =  0.00, 2.10, 1.63,  1.0, 1.0, 1.5
 BoundingBox =  0.00, 2.15, 0.63,  1.0, 1.2
 BoundingBox =  0.00, 2.15, -0.30,  1.0, 1.2
 BoundingBox =  0.00, 2.25, -0.70,  1.0, 1.2

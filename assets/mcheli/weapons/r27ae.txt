@@ -1,24 +1,24 @@
-DisplayName = R-27AE AAM
+DisplayName = R-27AE [AAM]
 Type = AAMissile
-Power = 68
+Power = 39
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 4
+Acceleration = 4.5
 Explosion = 6
 Flaming = false
 Sight = MissileSight
 Delay = 9
 ReloadTime = 140
 Round = 2
-LockTime = 13
-ProximityFuseDist = 1
+LockTime = 22
+ProximityFuseDist = 3
 Sound = missile_1_snd
 
 
 MaxAmmo = 4
-SuppliedNum = 1
+SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder
 Item =  2, redstone

@@ -1,0 +1,39 @@
+DisplayName = 105mm CN-105-F1 Cannon [OE 105 F1 Mle.60 - HE]
+Type = MachineGun1
+Power = 25
+ModelBullet = bullet105mm
+Explosion = 5
+ExplosionBlock = 4
+Acceleration = 7.0
+Sight = None
+ReloadTime = 134
+Round = 17
+SoundVolume = 10.0
+Sound = centaurobig
+SoundPitch = 0.8
+
+Recoil = 1.5
+
+HeatCount = 900
+MaxHeatCount = 2050
+
+BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+Gravity = -0.005
+Delay = 134
+Acceleration = 7.0
+Piercing = 0
+Accuracy = 1.5
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+Group = MainGun
+
+
+MaxAmmo = 17
+SuppliedNum = 8
+Item =  2, iron_ingot
+Item =  2, gunpowder

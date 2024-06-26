@@ -1,0 +1,42 @@
+DisplayName = b61 0.3kt
+Type = Rocket
+Power = 90000
+Acceleration = 8.0
+Explosion = 250
+Flaming = true
+Sight = MissileSight 
+Delay = 60
+LockTime = 0
+ModeNum = 2
+Sound = bomb_snd
+ProximityFuseDist = 1
+DisableSmoke = true
+ModelBullet = mgm140
+RidableOnly = true
+
+;15Tick後に15個の子弾をばらまく
+Bomblet = 285
+BombletSTime = 15
+BombletDiff = 3.1
+ModelBomblet = cbc
+;目標から30m以内に入ると爆発
+ProximityFuseDist = 30
+
+;bomb rewrite
+;Acceleration = 2
+Explosion = 1060
+;Explosive mass	269.9*35 kg kg
+Power = 150000
+ExplosionBlock = 500
+ExplosionInWater = 150
+DamageFactor = tank, 200.0
+DamageFactor = plane, 40.5
+DamageFactor = vehicle 40.5
+DamageFactor = heli, 40.5
+DamageFactor = living, 200.0
+DamageFactor = entity,100.0
+
+MaxAmmo = 8
+SuppliedNum = 1
+Item = 4, hbm:tile.det_nuke
+Item = 1, hbm:tile.bomb_multi

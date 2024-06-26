@@ -1,4 +1,4 @@
-﻿DisplayName = IMPREZA
+﻿DisplayName = Subaru Impreza
 AddDisplayName = en_US, Subaru Impreza
 AddDisplayName = ja_JP, インプレッサ
 ItemID = 30555
@@ -10,8 +10,8 @@ MobilityYawOnGround = 9.0
 ;7.5
 StepHeight = 1.8
 Sound = ejtwentyfive
-MinRotationPitch = -90
-MaxRotationPitch = 90
+;MinRotationPitch = -90
+;MaxRotationPitch = 90
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -20,7 +20,9 @@ DamageFactor = 1.0
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 
-SetWheelPos =  0.69,  -0.24,  1.74,  -1.67
+SetWheelPos =  0.69,  -0.24,  1.79,  -1.74
+
+WeightedCenterZ = 1.0
 
 WeightType = Car
 
@@ -92,10 +94,10 @@ BoundingBox =  0.0, 0.00,  1.70,  2.4, 0.1
 BoundingBox =  0.0, 0.00, -1.8,  2.4, 0.1
 BoundingBox =  0.0, 0.00, -0.4,  2.4, 0.1
 
-BoundingBox = 0.0, 0.5, 1.59, 2.0, 0.5
+BoundingBox = 0.0, 0.5, 1.59, 1.5, 0.5
 
 unmountposition = 0.56,  1.50,  -0.06
-Regeneration = true
+Regeneration = false
 ArmorDamageFactor = 2.32
 
 InventorySize = 9

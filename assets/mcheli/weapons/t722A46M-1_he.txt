@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A46M-1 [HE]
+DisplayName = 125mm 2A46M-1 Smoothbore Cannon [3OF26 - HE]
 Type = MachineGun2
 Power = 42
 ModelBullet = bullet105mm
@@ -13,11 +13,16 @@ ModeNum = 1
 SoundVolume = 20
 Sound = tseventytwomain
 group = maingun
+ReloadTime = 150
 
+
+DisplayMortarDistance = true
+
+Round = 1
 Gravity = -0.005
 
-MaxAmmo = 12
-SuppliedNum = 12
+MaxAmmo = 11
+SuppliedNum = 11
 Item =  3, iron_ingot
 Item =  2, gunpowder
 

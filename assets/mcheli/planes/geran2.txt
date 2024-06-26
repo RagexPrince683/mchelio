@@ -25,7 +25,7 @@ Category = M.Q
 AddWeapon = geran_bomb, 0,0,0,  0,0
 ;AddWeapon = plastic_bomb, 0,0,0,  0,0
 
-AddRecipe = " I ",  " I ",  " F ",  I,iron_ingot, F,furnace
+AddRecipe = "III",  " I ",  " F ",  I,iron_ingot, F,furnace
 
 AddPartRotor= 1, 0, 0,  0,     0,  0.0, 0.0, 1.0
 ;,false

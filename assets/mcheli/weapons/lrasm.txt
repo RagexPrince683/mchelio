@@ -1,0 +1,17 @@
+DisplayName = AGM-158C LRASM
+Type = ASMissile
+Power = 533
+Acceleration = 2.0
+Explosion = 15
+Sight = MoveSight
+Delay = 5
+ModelBullet = agm158
+Sound = missile_1_snd
+DisableSmoke = true
+TimeFuse = 55
+
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  6, iron_ingot
+Item =  6, gunpowder
+Item =  6, redstone

@@ -1,0 +1,20 @@
+DisplayName = AGM-84-1D-EX SSM
+Type = ATMissile
+Power = 533
+Acceleration = 2.0
+Explosion = 10
+Flaming = false
+Sight = MissileSight
+Delay = 0
+LockTime = 5
+ModeNum = 2
+Piercing = 1
+ProximityFuseDist = 1
+ModelBullet = RGM-84A
+Sound = missile_1_snd
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

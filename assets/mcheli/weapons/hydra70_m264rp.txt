@@ -12,7 +12,7 @@ Round = 19
 
 SoundVolume = 15
 
-Gravity = -0.001
+Gravity = -0.005
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0

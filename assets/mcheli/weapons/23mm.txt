@@ -1,4 +1,4 @@
-DisplayName = 23mm GSH-23 Auto Cannon
+DisplayName = 23mm GSH-23 Autocannon
 Type = MachineGun2
 ModelBullet = bullet
 Explosion = 2

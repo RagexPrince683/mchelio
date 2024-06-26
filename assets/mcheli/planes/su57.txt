@@ -13,7 +13,7 @@ ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel         = 1400
 FuelConsumption = 1.0
-Stealth = 0.3
+Stealth = 0.5
 CameraPosition = 0.0, 1.25, 0.00
 EnableGunnerMode = true
 AutoPilotRot = 0
@@ -105,6 +105,7 @@ AddWeapon = t500,      0.4784, 2.035, -7,   0.0, 0.0
 AddWeapon = t500,     -0.4784, 2.035, -7,   0.0, 0.0
 AddWeapon = t503,     0.2821, 1.96, -14,   0.0, 0.0
 AddWeapon = t503,    -0.2821, 1.96, -14,   0.0, 0.0
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 
 

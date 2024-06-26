@@ -1,0 +1,34 @@
+DisplayName = GBU-43/B MOAB
+Type = Bomb
+Power = 34012
+ModelBullet = moab
+Acceleration = 0.0
+;AccelerationInWater = 2.5
+Explosion = 150
+ExplosionInWater = 80
+Flaming = true
+Sight = None
+Delay = 40
+;GuidedTorpedo = false
+Gravity = -0.04
+GravityInWater = -1
+ReloadTime = 1200
+Round = 1
+DisableSmoke = false
+Sound = bomb_snd
+
+;ProximityFuseDist = 5
+ExplosionAltitude = 15
+BombletSTime = 50
+SmokeColor = 219, 155, 17
+ParticlesScale = 40
+
+Bomblet = 15
+BombletDiff = 0.1
+ModelBomblet = none
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  4, iron_ingot
+Item =  16, gunpowder
+Item =  2, redstone

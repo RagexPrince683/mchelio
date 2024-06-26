@@ -1,0 +1,28 @@
+DisplayName = SPEAR 3
+Type = TVMissile
+Power =120
+Acceleration = 1.5
+Explosion = 5
+ExplosionBlock = 3
+Flaming = false
+Sight = MoveSight
+Delay = 10
+ReloadTime = 300
+ModeNum = 2
+ModelBullet = SPEAR
+Sound = missile_1_snd
+DisableSmoke = true
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+; DEBUG
+;RigidityTime = 30
+
+Round = 4
+
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  2, redstone

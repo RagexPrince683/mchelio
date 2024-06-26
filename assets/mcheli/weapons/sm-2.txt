@@ -1,0 +1,23 @@
+DisplayName = RIM-156 SM-2ER
+Type = AAMissile
+Power = 70
+Acceleration = 3.5
+Explosion = 5
+Sight = MissileSight
+Delay = 0
+LockTime = 10
+ModelBullet = RIM-156
+Sound = missile_1_snd
+RigidityTime = 10
+ProximityFuseDist = 1
+HeatCount = 20
+MaxHeatCount = 60
+
+DamageFactor = helicopter, 2.0
+DamageFactor = plane, 2.0
+
+MaxAmmo = 48
+SuppliedNum = 8
+Item =  6, iron_ingot
+Item =  3, gunpowder
+Item =  4, redstone

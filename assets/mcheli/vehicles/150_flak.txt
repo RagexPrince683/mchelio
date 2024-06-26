@@ -37,4 +37,6 @@ AddWeapon = 15cm_vt,  0.00, 2.10, 5.67,   0.0, 0.0
 AddRecipe = " I ",  " D ",  "XXX",  X, iron_block, I, iron_ingot, D, dispenser
 
 
-BoundingBox =  0.0, 1.5, 0.0,  2.0, 2.5
+BoundingBox =  0.0, 1.72, 0.0,  2.0, 2.10, 1.5
+BoundingBox =  0.0, 0.0, 0.15,  1.2, 1.0, 0.75
+BoundingBox =  0.0, 1.0, 0.15,  1.2, 1.0, 0.75

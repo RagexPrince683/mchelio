@@ -1,7 +1,7 @@
 DisplayName = Type 93 Torpedo Launcher
 AddDisplayName = ja_JP, 九三式魚雷
 ItemID = 28609
-MaxHp = 100
+MaxHp = 80
 Gravity = -9.81
 GravityInWater = -1.0
 HideEntity = true

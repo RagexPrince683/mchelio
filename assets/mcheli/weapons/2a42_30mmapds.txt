@@ -1,0 +1,44 @@
+DisplayName = 2A42 30mm Autocannon [3UBR8 - APDS]
+Type = MachineGun2
+Power = 82
+Acceleration = 5.0
+Explosion = 1
+Flaming = false
+Sight = MoveSight
+Delay = 2
+ReloadTime = 120
+Round = 250
+SoundVolume = 3
+SoundPitch = 1.0
+Sound = 2A42_30mm_snd
+Accuracy = 1.5
+ModeNum = 1
+group = maingun
+
+Gravity = -0.005
+
+;2a42
+Delay = 1
+HeatCount = 7
+MaxHeatCount = 150
+
+
+
+;tracer
+;BulletColor = 230, 200, 20, 80 
+SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
+
+MaxAmmo = 250
+SuppliedNum = 250
+Item =  2, iron_ingot
+Item =  2, gunpowder
+
+Acceleration = 7.5
+Piercing = 0
+DamageFactor = tank, 1.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
+DamageFactor = player, 20.0
+
+SoundVolume = 15

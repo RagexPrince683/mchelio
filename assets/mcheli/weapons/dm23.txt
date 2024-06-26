@@ -1,4 +1,4 @@
-DisplayName = 120mm Rh-120 L/44 DM23 [APFSDS]
+DisplayName = 120mm Rh-120 L/44 Cannon [DM23 - APFSDS]
 Type = MachineGun1
 Power = 408
 ModelBullet = bullet105mm
@@ -14,6 +14,9 @@ Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.001
+
+DisplayMortarDistance = true
+
 
 Delay = 170
 ReloadTime = 170

@@ -1,25 +1,32 @@
-DisplayName = 122mm Rocket [9M218 HEAT]
+DisplayName = 122mm 9P132 [9M28F - FRAG-HE Rocket]
 Type = Rocket
-Power = 700
+Power = 250
 Acceleration = 4.0
-Flaming = true
+Flaming = false
 Sight = None
-Gravity = -0.03
-Delay = 2
-SoundVolume = 0.6
+Gravity = -0.05
+
+
 SoundPitch = 1.0
 
-Accuracy = 0.3
-Explosion = 8
-ExplosionBlock = 5
+ProximityFuseDist = 3
+
+;BombletSTime = 100
+;BombletDiff = 2.8
+;Bomblet = 3
+
+
+Accuracy = 1.5
+Explosion = 25
+ExplosionBlock = 3
 Round = 40
-ReloadTime = 1000
+
 ModelBullet = m30
-Group = Rocket
+;Group = Rocket
 recoil = 0.5
 
 Delay = 2
-ReloadTime = 1400
+ReloadTime = 14000
 Group = MainGun
 ;Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
@@ -31,8 +38,10 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 9M218
+
 SoundVolume = 15
+
+TrajectoryParticle = largeexplode
 
 
 ;Bomblet = 10
@@ -42,10 +51,10 @@ ModelBomblet = cbc
 
 Sound = grad
 DisplayMortarDistance = true
-FixCameraPitch = false
-;CameraRotationSpeedPitch = 0.5
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.2
 
-MaxAmmo = 120
+MaxAmmo = 40
 SuppliedNum = 10
 Item =  5, iron_ingot
 Item =  5, gunpowder

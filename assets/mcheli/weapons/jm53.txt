@@ -1,4 +1,4 @@
-DisplayName = 120mm TKG Cannon [JM33 APFSDS]
+DisplayName = 120mm TKG Cannon [JM33 - APFSDS]
 Type = MachineGun1
 Power = 481
 ModelBullet = bullet105mm
@@ -15,6 +15,9 @@ Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.001
+
+DisplayMortarDistance = true
+
 
 AddMuzzleFlash      =  10.2,      1.80,        7,  220,254,159,74
 AddMuzzleFlash      =  10.1,      1.75,        6,  220,254,219,104

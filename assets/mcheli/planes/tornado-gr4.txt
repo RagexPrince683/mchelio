@@ -56,8 +56,8 @@ AddPartWeaponMissile = mk82_12, false,  false,  false,  0.20, 0.87, -5.81
 AddPartWeaponMissile = mk82_12, false,  false,  false, -0.20, 0.87, -5.81
 AddPartWeaponMissile = mk82_12, false,  false,  false, -0.59, 0.87, -5.81
 
-AddWeapon = bk27, -0.59, 1.23,  1.78, 0.0, 0.0
-AddWeapon = bk27,  0.59, 1.23,  1.78, 0.0, 0.0
+AddWeapon = bk27tornado, -0.59, 1.23,  1.78, 0.0, 0.0
+AddWeapon = bk27tornado,  0.59, 1.23,  1.78, 0.0, 0.0
 AddWeapon = crv7,  6.70, 1.51, -5.52, 0.0, 0.0
 AddWeapon = crv7, -6.70, 1.51, -5.52, 0.0, 0.0
 AddWeapon = asraam,  3.53, 1.95, -4.11, 0.0, 0.0

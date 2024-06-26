@@ -92,10 +92,11 @@ AddTrackRoller =  1.79, 0.21, -1.11
 AddTrackRoller =  1.79, 0.21, -2.13
 AddTrackRoller =  1.79, 0.81, -3.26
 
-AddPartWeapon = kba-3_ap / kba-3_he, false, true, false,  0.00, 1.52, 0.25, 0
+AddPartWeapon = kba-3_ap / kba-3_heat / kba-3_he, false, true, false,  0.00, 1.52, 0.25, 0
 AddPartWeaponChild = false, true, 0.00, 2.01, 1.62
 
 AddTurretWeapon = kba-3_ap,   0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -13, 6
+AddTurretWeapon = kba-3_heat,   0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -13, 6
 AddTurretWeapon = kba-3_he,   0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -13, 6
 AddTurretWeapon = kba9M119M,     0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -13, 6
 AddTurretWeapon = kbamg7_62mm,  -0.17, 2.25, 2.10,  0.0, 0.0, true,1, 0,-360,360, -13, 6

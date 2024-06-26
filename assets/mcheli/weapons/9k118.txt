@@ -10,7 +10,7 @@ LockTime = 20
 ModeNum = 2
 ProximityFuseDist = 1
 Sound = missile_1_snd
-RidableOnly = true
+RidableOnly = false
 
 Delay = 100
 ReloadTime = 100
@@ -28,7 +28,7 @@ DamageFactor = player, 20.0
 AddDisplayName = en_US, 9K118 Sheksna
 SoundVolume = 15
 
-MaxAmmo = 4
+MaxAmmo = 10
 SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder

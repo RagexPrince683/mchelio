@@ -13,6 +13,10 @@ SoundVolume = 10
 Sound = cannon_1_snd
 Group = MainGun
 Recoil = 2.5
+Gravity = -0.005
+
+DisplayMortarDistance = true
+
 
 
 Delay = 90

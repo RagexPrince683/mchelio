@@ -34,4 +34,8 @@ AddTurretWeapon = m61a1,  0.00, 1.6764, 2.43,   0.0, -3.0,   true,1, 0,-360,360,
 
 AddRecipe = " Y ",  " X ",  "XZX",  X, iron_block, Y, glass, Z, iron_ingot
 
-BoundingBox =  0.0, 2.5, 0.0,  2.0, 4.6
+BoundingBox =  0.0, 0.85, 0.0,  2.0, 2.8
+
+BoundingBox =  0.0, 0.0, 0.0,  2.8, 0.1
+
+BoundingBox =  0.0, 2.5, 0.0,  1.25, 4.6

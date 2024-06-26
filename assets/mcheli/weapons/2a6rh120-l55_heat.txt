@@ -1,22 +1,21 @@
-DisplayName = Rh120-L55 [HEAT]
+DisplayName = 120mm Rh120 L/55 Cannon [DM12A1 - HEAT-FS]
 Type = MachineGun1
-Power = 600
+Power = 480
 Explosion = 4
 ExplosionBlock = 3
-Acceleration = 7.0
+
 Sight = None
-Delay = 100
-ReloadTime = 100
-Round = 1
-SoundVolume = 10.0
+
+
 Sound = leotwoasixmain
 Gravity = -0.001
-Accuracy = 0.5
+
 ModelBullet = bullet105mm
 BulletColor        = 255, 255, 100, 100
 Recoil = 1.8
-DamageFactor = plane, 3.0
-DamageFactor = helicopter, 3.0
+
+
+DisplayMortarDistance = true
 
 ; AddMuzzleFlash = 発射元からの距離, サイズ, 表示時間,  A,  R,  G,  B
 AddMuzzleFlash      =           10.2,   2.10,        7,  220,254,159,74
@@ -30,14 +29,17 @@ RecoilBufCount = 40, 5
 
 Group = MainGun
 
-Delay = 100
-ReloadTime = 100
+HeatCount = 900
+MaxHeatCount = 2050
+
+Delay = 130
+ReloadTime = 230
 Group = MainGun
 Acceleration = 7.0
 ModelBullet = bullet105mm
 Piercing = 0
 Accuracy = 0.0
-DamageFactor = tank, 2.5
+DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
@@ -45,7 +47,9 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 40
-SuppliedNum = 10
+Round = 15
+
+MaxAmmo = 21
+SuppliedNum = 7
 Item =  2, iron_ingot
 Item =  2, gunpowder

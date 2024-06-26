@@ -1,8 +1,13 @@
 Hello! This file was uploaded by RagexPrince683 to either Modrinth, Nexusmods, or Curseforge. If there is an update available, you can download it from the following sources:
 
 Modrinth: [Download Link](https://modrinth.com/mod/mcheli-o)
+
 Nexusmods: [Download Link](https://www.nexusmods.com/minecraft/mods/375)
+
 Curseforge (work in progress): [Download Link](https://legacy.curseforge.com/minecraft/mc-mods/mcheli-overdrive)
+
+Itch.io: [Download Link](https://ragexprince683.itch.io/mcheli-overdrive)
+
 To successfully install and use this mod, follow these steps:
 
 

@@ -19,8 +19,9 @@ AddWeapon = rgm84,  -0.51, 2.68, -4.60, 0.00, 0.00, false, 1, 0, 0, 0, -30, -30
 RigidityTime = 20
 
 HUD = vehicle
-
-BoundingBox = 0.0, 1.2, 0.0, 1.8, 1.8
+BoundingBox = 0.0, 2.0, 1.5, 1.8, 1.4
+BoundingBox = 0.0, 0.7, 0.0, 1.8, 3.2
+BoundingBox = 0.0, 0.3, -0.6, 1.8, 3.2
 
 AddRecipe = "RXR", " X ", "DXD", X,iron_block , R,redstone_block , D,diamond_block
 

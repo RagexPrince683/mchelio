@@ -95,12 +95,15 @@ AddTrackRoller =  -2.32,  0.16,  -2.52
 AddTrackRoller = -2.32,  0.6,  -3.78
 ;3bm42
 ;主砲
-AddPartWeapon =3bm22/3bk18m/9k119, false, true, false,  0.00, 0, 0, 0
+AddPartWeapon =3bm22/3bk18m/3of26[he]/9k119, false, true, false,  0.00, 0, 0, 0
 AddPartWeaponChild = false, true, -0.43, 1.78, 1.5, 0.0
 AddPartWeaponChild = false, true, -0.43, 1.78, 1.5, 0.5
 AddTurretWeapon = 3bm22, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -14, 6
 AddTurretWeapon = 3bk18m, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -14, 6
+AddTurretWeapon = 3of26[he], 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -14, 6
 AddTurretWeapon = 9k119, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -14, 6
+
+3of26[he]
 AddTurretWeapon = t64mg_coaxial,  -0.46, 1.73, 1.84,  0.0, 0.0, true,1, 0,-360,180, -14, 6
 
 AddPartTurretWeapon    = t64mg12_7mms,   false, true, false,  -0.72, 2.84, -0.61

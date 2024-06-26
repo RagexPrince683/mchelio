@@ -1,17 +1,19 @@
 DisplayName = R-17 Elbrus Scud B Conventional Missile [HE]
 Type = Rocket
 Power = 1400
-Acceleration = 4
+Acceleration = 6
 Explosion = 110
-ExplosionBlock = 11
+ExplosionBlock = 15
 Flaming = true
 Sight = MissileSight
 Delay = 2000
-SoundVolume = 10.5
+SoundVolume = 15
 SoundPitch = 10.0
 Sound = missile_scud_snd
 ModelBullet = scud
-Gravity = -0.03
+Gravity = -0.045
+
+CameraRotationSpeedPitch = 0.3
 
 Group = MainGun
 
@@ -39,7 +41,7 @@ FixCameraPitch = true
 
 Group = maingun
 
-Accuracy = 0.5
+;Accuracy = 0.5
 
 EnableGunnerMode = True
 

@@ -1,0 +1,18 @@
+DisplayName = fpvbomb
+Type = Bomb
+Power = 10
+Acceleration = 0.1
+Explosion = 2
+ExplosionInWater = 0
+Flaming = true
+Sight = None
+Delay = 5000
+Destruct = true
+HeatCount = 50
+MaxHeatCount = 650
+DamageFactor = tank, 1.2
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  3, gunpowder

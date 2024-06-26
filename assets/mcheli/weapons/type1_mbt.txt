@@ -10,7 +10,7 @@ Round = 1
 Delay = 80
 SoundVolume = 15
 Accuracy = 1.5
-Gravity = -0.02
+Gravity = -0.005
 Sound = tank_gun_snd
 Recoil = 1.5
 

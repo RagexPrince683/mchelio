@@ -29,4 +29,6 @@ AddChildPart = true,false,true,  3,  0.00, 1.75, -0.85
 
 AddRecipe = " T ",  " X ",  "XAX",  X,iron_block, A,anvil, T,tnt
 
-BoundingBox =  0.0, 2.0, 0.0,  2.0, 4.0
+BoundingBox =  0.0, 1.0, 0.0,  2.0, 2.5
+BoundingBox =  0.0, 2.4, 0.0,  1.4, 1.4, 2.0
+BoundingBox =  0.0, 1.5, 0.0,  2.4, 0.7

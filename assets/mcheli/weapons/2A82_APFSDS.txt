@@ -1,4 +1,4 @@
-DisplayName = 2A82-1M Smoothbore 125mm Gun[Vacuum-1 APFSDS]
+DisplayName = 125mm 2A82-1M Smoothbore 125mm Gun [Vacuum-1 - APFSDS]
 AddDisplayName = en_US, 2A82-1M Smoothbore 125mm Gun[Vacuum-1 APFSDS]
 AddDisplayName = ru_RU, 2A82-1M Гладкоствольная 125 мм пушка [Бронебойный]
 Type = MachineGun1
@@ -16,7 +16,7 @@ SoundVolume = 15.0
 Sound = cannon_4_snd
 Accuracy = 0.0
 BulletColor        = 255, 255, 100, 100
-;Gravity = -0.01
+;Gravity = -0.001
 Group = MainGun
 Recoil = 3
 Piercing = 5
@@ -28,6 +28,7 @@ DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 
 
+DisplayMortarDistance = true
 
 AddMuzzleFlash      =  8.2,      2.10,        7,  220,254,159,74
 AddMuzzleFlash      =  8.1,      2.05,        6,  220,254,219,104

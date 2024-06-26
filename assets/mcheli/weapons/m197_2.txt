@@ -7,8 +7,9 @@ Flaming = false
 Sight = MoveSight
 Delay = 1
 ReloadTime = 20
-Round = 50
-
+Round = 200
+HeatCount = 4
+MaxHeatCount = 150
 SoundPitch = 1.0
 Sound = ah
 Accuracy = 1.0

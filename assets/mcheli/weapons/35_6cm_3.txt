@@ -1,4 +1,4 @@
-DisplayName = 36cm Cannon Airburst
+DisplayName = 36cm 41st Year Type Naval Gun [AA]
 DisableSmoke = True
 Type = Rocket
 Power = 23

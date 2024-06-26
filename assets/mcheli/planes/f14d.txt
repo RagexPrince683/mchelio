@@ -51,8 +51,8 @@ AddPartWeaponMissile = cbu-100, false,  false,  false,  -0.00, 0.58, -4.35
 AddPartWeaponMissile = cbu-100, false,  false,  false,  -0.00, 0.58, -7.03
 
 AddWeapon = m61f14, -0.23, 1.40,  3.80, 0.0, 0.0
-AddWeapon = aim9,     3.27, 1.71, -4.09, 0.0, 0.0
-AddWeapon = aim9,    -3.27, 1.71, -4.09, 0.0, 0.0
+AddWeapon = aim9_l,     3.27, 1.71, -4.09, 0.0, 0.0
+AddWeapon = aim9_l,    -3.27, 1.71, -4.09, 0.0, 0.0
 AddWeapon = aim7,     2.98, 1.45, -3.58, 0.0, 0.0, false, 2
 AddWeapon = aim7,    -2.98, 1.45, -3.58, 0.0, 0.0, false, 2
 AddWeapon = mk82_2r,  0.35, 0.76, -1.83, 0.0, 0.0
@@ -61,6 +61,7 @@ AddWeapon = cbu-100, -0.00, 0.58, -4.35, 0.0, 0.0, true,  2
 AddWeapon = cbu-100, -0.00, 0.58, -7.03, 0.0, 0.0, true,  2
 
 AddWeapon = targeting_pod_ph50s,   0.0, 2.7, 0.1,    0.0, 0.0, true,  2
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 BoundingBox =  0.00, 1.80, -3.80,  3.0, 1.8
 BoundingBox =  0.00, 1.50, -5.50,  3.0, 2.0

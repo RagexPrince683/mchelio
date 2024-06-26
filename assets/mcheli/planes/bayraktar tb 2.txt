@@ -12,7 +12,7 @@ EnableNightVision = true
 EnableEntityRadar = true
 EnableGunnerMode = true
 UAV = true
-AutoPilotRot = -0.80
+AutoPilotRot = -1.60
 CameraPosition = 0.0, 0.2, -3.3
 enableback = true
 ThrottleUpDown = 1.8
@@ -73,3 +73,5 @@ BoundingBox = -5.85, 0.8, -5.0,  1.4, 0.3
 
 BoundingBox = 7.15, 0.9, -5.0,  1.25, 0.3
 BoundingBox = -7.15, 0.9, -5.0,  1.25, 0.3
+
+RotorSpeed = 200.0

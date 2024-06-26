@@ -9,14 +9,15 @@ EnableEjectionSeat = true
 sound = fthirtyfive
 Speed = 1.199
 
-
+DamageFactor = 0.8
 
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel         = 1200
 FuelConsumption = 1.0
-Stealth = 0.2
+Stealth = 0.5
+ThirdPersonDist = 20
 ThrottleUpDown = 0.3
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
@@ -82,6 +83,7 @@ AddWeapon = b6135, -1.06, 1.71, -6.85, 0.0, 0.0
 AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
 
 AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 AddRecipe = " Y ",  "XXX",  "XDX",  X, iron_block, Y, glass, D, diamond_block
 
@@ -91,18 +93,25 @@ BoundingBox = -2.92, 2.20, -7.60,  3.0, 1.0
 BoundingBox =  2.92, 2.20, -7.60,  3.0, 1.0
 BoundingBox =  0.00, 2.20, -9.80,  3.0, 1.0
 
-BoundingBox = -4.82, 2.20, -8.00,  2.5, 1.0
-BoundingBox =  4.82, 2.20, -8.00,  2.5, 1.0
+BoundingBox = -4.82, 2.10, -7.90,  2.0, 0.3
+BoundingBox =  4.82, 2.10, -7.90,  2.0, 0.3
 
-BoundingBox = -2.52, 2.20, -11.60,  2.0, 1.0
-BoundingBox =  2.52, 2.20, -11.60,  2.0, 1.0
+BoundingBox = -2.52, 2.25, -11.60,  2.0, 0.3
+BoundingBox =  2.52, 2.25, -11.60,  2.0, 0.3
 
-BoundingBox = 2.03, 3.55, -10.96, 1.0, 2.5
-BoundingBox = -2.03, 3.55, -10.96, 1.0, 2.5
-BoundingBox = 2.03, 3.55, -11.96, 1.0, 2.5
-BoundingBox = -2.03, 3.55, -11.96, 1.0, 2.5
-BoundingBox = 2.03, 3.05, -9.96, 1.0, 2.5
-BoundingBox = -2.03, 3.05, -9.96, 1.0, 2.5
+BoundingBox = 2.03, 3.55, -10.96, 0.5, 2.5
+BoundingBox = -2.03, 3.55, -10.96, 0.5, 2.5
+BoundingBox = 2.03, 3.55, -11.96, 0.5, 2.5
+BoundingBox = -2.03, 3.55, -11.96, 0.5, 2.5
+
+BoundingBox = 2.03, 3.05, -10.46, 0.5, 2.5
+BoundingBox = -2.03, 3.05, -10.46, 0.5, 2.5
+
+BoundingBox = 2.03, 3.55, -11.46, 0.5, 2.5
+BoundingBox = -2.03, 3.55, -11.46, 0.5, 2.5
+
+BoundingBox = 2.03, 3.05, -9.96, 0.5, 2.5
+BoundingBox = -2.03, 3.05, -9.96, 0.5, 2.5
 
 
 

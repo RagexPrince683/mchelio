@@ -1,16 +1,21 @@
-DisplayName = 2A70 3OF70 100mm [HE-frag]
+DisplayName = 100mm 2A70 Rifled Cannon [3OF70 - HE-frag]
 Type = MachineGun2
-Power = 36
+Power = 31
 ModelBullet = bullet105mm
-Acceleration = 8.0
-Explosion = 3
+
+Explosion = 4
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
-Delay = 70
-ModeNum = 1
+Delay = 110
+
+ReloadTime = 80
+
+Accuracy = 0.0
+
+;ModeNum = 1
 ;SoundPitch = 0.5
-SoundVolume = 20
+
 Sound = bmpthreecannon
 group = maingun
 
@@ -24,10 +29,14 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 2.5
 
-MaxAmmo = 30
-SuppliedNum = 15
-Item =  3, iron_ingot
-Item =  2, gunpowder
+Round = 22
+
+DisplayMortarDistance = true
+
+MaxAmmo = 16
+SuppliedNum = 4
+Item =  2, iron_ingot
+Item =  1, gunpowder
 
 Acceleration = 7.5
 Piercing = 0
@@ -36,6 +45,6 @@ DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 2A70 3UOF17 100mm [HE-frag]
+
 SoundVolume = 15
 

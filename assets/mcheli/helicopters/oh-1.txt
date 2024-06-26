@@ -4,7 +4,7 @@ ItemID = 28827
 MaxHp = 100
 EnableGunnerMode = true
 EnableNightVision = true
-EnableEntityRadar = true
+
 Speed = 1.7
 FlareType = 3
 CameraPosition = 0.0, 3.20, 0.42
@@ -53,11 +53,7 @@ AddSeat       = 0.00,  0.49,  1.75
 AddGunnerSeat = 0.00,  0.99,  0.10,  0.0, 3.20, 0.42,  true
 
 ;AddWeapon = 武器名, 位置X,Y,Z, Yaw, Pitch, パイロットが使用できる？, 座席番号, DefaultYaw,RangeYaw, MinPitch, MaxPitch
-
-AddWeapon = hydra70_l,        1.12,  1.08, -0.33,  1, 0
-AddWeapon = hydra70_l,       -1.12,  1.08, -0.33, -1, 0
-AddWeapon = hydra70_m264rp,   1.12,  1.08, -0.33,  1, 0
-AddWeapon = hydra70_m264rp,  -1.12,  1.08, -0.33, -1, 0
+0
 
 AddWeapon = sam2,  1.82,  1.00, -0.40,  1, 0
 AddWeapon = sam2, -1.82,  1.00, -0.40, -1, 0
@@ -82,10 +78,13 @@ BoundingBox =  0.0, 1.7, -6.0,  1.0, 1.0
 BoundingBox =  0.0, 1.7, -7.0,  1.0, 1.0
 BoundingBox =  0.0, 1.7, -8.0,  1.0, 1.0
 
-BoundingBox =  0.0, 2.5, -9.25,  1.5, 3.0
+BoundingBox =  0.0, 2.5, -9.25,  1.5, 3.0, 1.25
 
 BoundingBox = 0.0, 3.20, -1.60, 0.5, 1.5, 1.5
 
 unmountposition = 0.00,  1.50,  1.75
 
 DamageFactor = 0.8
+
+ThrottleUpDown = 0.5
+

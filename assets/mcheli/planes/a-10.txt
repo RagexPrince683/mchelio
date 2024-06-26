@@ -56,8 +56,8 @@ AddWeapon = gau-8,  0.00, 2.00,  3.80,   0.0, -1.0
 AddWeapon = hydra70,  5.43, 1.50, -4.40,   1.0, 0.0
 AddWeapon = hydra70, -5.43, 1.50, -4.40,  -1.0, 0.0
 
-AddWeapon = aim9_l, -6.25, 1.40, -3.13,  -1.0, 0.0
-AddWeapon = aim9_l, -6.97, 1.40, -3.13,  -1.0, 0.0
+AddWeapon = aim9_lwart, -6.25, 1.40, -3.13,  -1.0, 0.0
+AddWeapon = aim9_lwart, -6.97, 1.40, -3.13,  -1.0, 0.0
 
 AddWeapon = agm-65,  4.30, 1.70, -4.21,   1.0, 0.0
 AddWeapon = agm-65, -4.30, 1.70, -4.21,  -1.0, 0.0

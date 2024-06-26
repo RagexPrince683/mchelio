@@ -1,10 +1,10 @@
-DisplayName = 125mm 2A75 [3OF26 HE]
+DisplayName = 125mm 2A75 Smoothbore Cannon [3OF26 - HE]
 Type = MachineGun2
 Power = 100
 ModelBullet = bullet105mm
 Acceleration = 7.0
 Explosion = 5
-ExplosionBlock = 4
+ExplosionBlock = 5
 Flaming = false
 Sight = MoveSight
 Delay = 120
@@ -15,13 +15,16 @@ SoundPitch = 1
 SoundVolume = 15
 Sound = cannon_4_snd
 Group = MainGun
-Gravity = -0.001
+Gravity = -0.005
 Recoil = 6.0
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
+
+DisplayMortarDistance = true
+
 
 
 AddMuzzleFlash      =  8.2,     2.10,        7,  220,254,159,74

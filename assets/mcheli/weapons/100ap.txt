@@ -11,11 +11,12 @@ Delay = 90
 ReloadTime = 120
 Round = 30
 SoundVolume = 10.0
-Sound = cannon_1_snd
+Sound = cannon_100mm_snd
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Group = MainGun
 Recoil = 2.5
+Gravity = -0.001
 
 Delay = 90
 ReloadTime = 120

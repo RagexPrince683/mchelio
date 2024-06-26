@@ -15,11 +15,15 @@ ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel         = 1200
 FuelConsumption = 1.0
-Stealth = 0.15
+Stealth = 0.25
 EnableVtol = true
 VtolYaw = 0.3
 VtolPitch = 0.2
 ThrottleUpDown = 0.3
+
+ThirdPersonDist = 20
+
+AddTexture = f-35b_marina
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
@@ -78,6 +82,7 @@ AddWeapon = 35cbu-87,   3.50, 1.16, -7.85, 0.0, 0.0
 AddWeapon = 35cbu-87,  -3.50, 1.16, -7.85, 0.0, 0.0
 
 AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 AddRecipe = "GYG",  "XXX",  "XDX",  X, iron_block, Y, glass, D, diamond_block, G, gunpowder
 

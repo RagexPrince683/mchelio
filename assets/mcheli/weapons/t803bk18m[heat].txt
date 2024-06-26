@@ -1,10 +1,10 @@
-DisplayName = 125mm 2A46M-1 Cannon 3BK18M[HEAT]
+DisplayName = 125mm 2A46M-1 Cannon [3BK18 - HEAT]
 Type = MachineGun2
 Power = 550
 ModelBullet = 3bk18m
 Acceleration = 8.0
-Explosion = 2
-ExplosionBlock = 1
+Explosion = 3
+ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
 Delay = 170
@@ -14,7 +14,10 @@ SoundVolume = 15
 Sound = teightymain
 group = maingun
 
-Gravity = -0.001
+Gravity = -0.005
+
+DisplayMortarDistance = true
+
 
 Round = 9
 

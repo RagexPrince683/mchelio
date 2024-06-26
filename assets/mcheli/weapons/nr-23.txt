@@ -1,4 +1,4 @@
-DisplayName = NR-23 23mm Auto Cannon
+DisplayName = 23mm NR-23 Autocannon
 Type = MachineGun1
 Power = 18
 Acceleration = 6.5
@@ -10,6 +10,8 @@ HeatCount = 10
 MaxHeatCount = 150
 ReloadTime = 25
 Sound = shilka
+
+Gravity = -0.001
 
 Acceleration = 7.5
 Piercing = 0

@@ -1,9 +1,9 @@
-DisplayName = DM12 120mm HEAT
+DisplayName = 120mm Smoothbore Cannon [DM12 - HEAT]
 Type = MachineGun2
 Power = 600
 ModelBullet = bullet105mm
 Acceleration = 8.0
-Explosion = 2
+Explosion = 3
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
@@ -12,19 +12,23 @@ ModeNum = 1
 ;SoundPitch = 0.5
 SoundVolume = 20
 Sound = leotwoafourmain
+Gravity = -0.005
+
+DisplayMortarDistance = true
+
 
 Delay = 170
 ReloadTime = 170
 Group = MainGun
 Acceleration = 7.0
 ModelBullet = bullet105mm
-Piercing = 5
+Piercing = 0
 Accuracy = 0.0
-DamageFactor = tank, 10.0
-DamageFactor = plane, 1.5
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.0
-DamageFactor = player, 10.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 SoundVolume = 15
 
 
@@ -36,7 +40,7 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 2.5
 
-MaxAmmo = 30
-SuppliedNum = 15
+MaxAmmo = 21
+SuppliedNum = 7
 Item =  3, iron_ingot
 Item =  2, gunpowder

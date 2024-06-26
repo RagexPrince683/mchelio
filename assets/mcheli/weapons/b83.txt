@@ -34,5 +34,5 @@ ReloadTime = 300
 Round = 8
 MaxAmmo = 24
 SuppliedNum = 1
-Item = 4, hbm:tile.det_nuke
+Item = 12, hbm:tile.det_nuke
 Item = 1, hbm:tile.bomb_multi
