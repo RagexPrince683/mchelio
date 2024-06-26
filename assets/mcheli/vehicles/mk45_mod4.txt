@@ -9,7 +9,7 @@ DamageFactor = 0.1
 CameraZoom = 4
 EnableEntityRader = true
 CameraPosition = 0.0, 2.17, 0.0
-
+unmountposition = 0.00, 0.6, -2.3733
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
 
