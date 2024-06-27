@@ -31,7 +31,7 @@ WeightType = Tank
 AddGunnerSeat =  0.00,  0, 0.17,   0.00,  3.2, 0.17, false, -85, 4, true
 
 
-HUD = mbt_hud,vehicle
+HUD = mbt_hudtwo,vehicle
 
 ;AddPartWeapon  = Type74_APDS / Type74_HEP, false, true,  false,  0.0, 1.9, 0.0, 0
 ;AddPartWeaponChild = false, true,   0.0,    1.9146, 1.5959

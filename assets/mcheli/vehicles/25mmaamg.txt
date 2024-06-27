@@ -12,6 +12,7 @@ CameraPosition = 0.0, 2.40, 0.0
 Gravity = -9.81
 GravityInWater = -1.0
 
+unmountposition = 0.00, 1.5, -0.0
 ; W = WWII,  A = AAGun(対空砲)
 Category = W.A
 
@@ -21,7 +22,7 @@ HUD = vehicle_wwii
 
 AddGunnerSeat = -1.31,  0.481, 0, 0.0, 2.40, 0.0, false, -80, 25, true
 
-unmountposition = -1.31,  1.581, 0
+
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;本体-砲身

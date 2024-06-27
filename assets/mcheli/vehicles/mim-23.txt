@@ -12,7 +12,8 @@ GravityInWater = -1.0
 
 HideEntity = false
 
-unmountposition = 0.0, 0.4, 2
+
+unmountposition = 0.00, 1.5, -0.0
 
 AddSeat = 0.0, -0.4, 2
 AddTexture = mim-23_tan

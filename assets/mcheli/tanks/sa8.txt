@@ -44,7 +44,7 @@ WeightType = Car
 ; X座標のマイナス側は必要なし
 SetWheelPos =  1.0,  -0.24,  3.02, -0.198, -3.22
 
-HUD = mbt_hud, none, none, none, vehicle, none, none
+HUD = mbt_hudtwo, none, none, none, vehicle, none, none
 
 AddSeat = -0.45, 0.45,  3.23
 ;, -0.50, 1.8,  3.83, false, -90, 90, true

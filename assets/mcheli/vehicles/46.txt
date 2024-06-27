@@ -28,6 +28,7 @@ AddChildPart =  true, false, true,  2,   0.00, 1.55, 2.30,1
 AddChildPart =  true, false, true,  2,   0.00, 1.55, 2.30,1
 AddChildPart =  true, false, true,  2,   0.00, 1.55, 2.30,1
 
+unmountposition = 0.00, 1.5, -0.0
 AddWeapon = 46cmap,         2.77, 1.55, 2.00,  0.0, 0.0
 AddWeapon = 46cmap,        -2.77, 1.55, 2.00,  0.0, 0.0
 AddWeapon = 46cmap,         0.00, 1.55, 2.00,  0.0, 0.0

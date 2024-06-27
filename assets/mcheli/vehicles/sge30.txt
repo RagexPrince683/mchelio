@@ -32,9 +32,7 @@ AddChildPart = true, false,false, 1,   0, 0.67, 0.0
 AddTurretWeapon = gau-8s,  0.00, 0.6765, 0.0,   0.0, -3.0,   true,1, 0,-360,360, -80, 25
 
 
-unmountposition = 0.00, 0.6, -1.3733
-
-
+unmountposition = -0.0, 0.2, -0.0
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddTurretWeapon = m61a1,  0.00, 1.6764, 2.43,   0.0, -3.0,   true,1, 0,-360,360, -85, 25

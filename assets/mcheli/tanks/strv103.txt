@@ -41,7 +41,7 @@ WeightType = Tank
 ; X座標のマイナス側は必要なし
 SetWheelPos =  1.0,  -0.24,  1.06, -1.81, 0.6, -0.6
 
-HUD = ww2tank_hud
+HUD = mbt_hudtwo
 
 AddGunnerSeat =  0.00,  0.70, -1.0
 

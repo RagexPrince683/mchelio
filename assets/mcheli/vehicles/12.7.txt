@@ -19,9 +19,10 @@ Category = W.A
 
 HUD = vehicle_wwii
 
+unmountposition = 0.00, 1.5, -0.0
 AddGunnerSeat = 2.00,  1.12, 0.00, 0.0, 3.02, 0.0, false, -80, 8, true
 
-unmountposition = 2, 1.50, 0
+
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;本体-砲身

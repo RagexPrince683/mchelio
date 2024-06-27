@@ -14,7 +14,7 @@ GravityInWater = -1.0
 DamageFactor = 0.0
 CameraZoom = 3
 CameraPosition = 0.00,  3.15, 1.30, true
-EnableNightVision = false
+EnableNightVision = true
 CameraRotationSpeed = 20
 ;EnableEntityRadar = true
 MaxFuel         = 1200
@@ -42,7 +42,7 @@ WeightedCenterZ = 0.0
 ; X座標のマイナス側は必要なし
 SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
 
-HUD = mbt_hud, gunner
+HUD = mbt_hudtwo, gunnernvg
 
 
 

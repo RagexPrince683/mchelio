@@ -9,7 +9,7 @@ MaxRotationPitch = 3
 MobilityRoll = 0
 Gravity = -0.61
 DamageFactor = 0.8
-EnableNightVision = true
+EnableNightVision = false
 CameraRotationSpeed = 12
 
 

@@ -10,6 +10,7 @@ AddSeat = 0.0,  0.0, 0.0
 HideEntity = true
 ThirdPersonDist = 12
 
+unmountposition = 0.00, 1.5, -0.0
 ; M = Military,  M = Missile(ミサイル)
 Category = M.M
 

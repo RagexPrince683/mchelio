@@ -26,4 +26,5 @@ AddRecipe = "III",  "IDI",  "III",  X, Iron_Block, I, Iron_Ingot, D, Dispenser, 
 BoundingBox =  0.0, 0.49, 0.0,  0.50, 0.30
 BoundingBox =  0.0, 0.51, 0.30,  0.50, 0.30
 BoundingBox =  0.0, 0.51, 0.55,  0.50, 0.22
-unmountposition = 0.00, 0.6, -1.5733
+
+unmountposition = 0.00, 1.5, -0.0

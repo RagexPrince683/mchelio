@@ -10,7 +10,8 @@ AddGunnerSeat = 0,-0.4,-1, 0,  1.7,  0, false, -25, 25, true
 CameraPosition = 0,  1.7,  0
 HideEntity = false
 
-unmountposition = 0, 1.5, -1
+
+unmountposition = 0.00, 1.5, -0.0
 
 
 

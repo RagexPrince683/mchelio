@@ -25,7 +25,8 @@ AddChildPart = true,false, true,  0,   0, 0.099, 0.083
 AddChildPart = true, false,true, 1,   0, 0.167, 0.0
 ;MR-123-02
 AddPart		 = true, true, false, 0,   0, 0.20, 4.16
-unmountposition = 0.00, 0.6, -1.3733
+
+unmountposition = 0.00, 1.5, -0.0
 
 AddTurretWeapon = gsh-6-30,  0.00, 0.167, 1.36,   0.0, -3.0,   true,1, 0,-360,360, -88, 12
 

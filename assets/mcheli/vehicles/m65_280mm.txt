@@ -46,4 +46,4 @@ AddRecipe = "ZXZ",  "XDR",  "ZXR",  X, iron_block, R, redstone_block, Z, iron_in
 BoundingBox =  0.0, 0.9,  0.0,  4.0, 1.8
 ;BoundingBox =  0.0, 0.9, -4.0,  4.0, 1.8
 
-unmountposition = -2.42, 0.85, -2.80
+unmountposition = 0.00, 1.5, -0.0

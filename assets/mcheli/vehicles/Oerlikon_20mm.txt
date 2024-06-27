@@ -17,6 +17,7 @@ DamageFactor = 1.0
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
 
+unmountposition = 0.00, 1.5, -0.0
 HUD = vehicle
 ;, vehicle
 
@@ -32,7 +33,6 @@ AddChildPart = false,false,true,  0,   0.0, 0.7663, -0.3456
 ;砲身
 AddChildPart = false,false,true,  2,   0.0, 0.7663, -0.3456, 0.1
 
-unmountposition = 0.0, 1.5, -1.2
 
 
 

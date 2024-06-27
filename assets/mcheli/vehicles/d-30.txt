@@ -30,4 +30,5 @@ AddWeapon =  d-30he2,  0.34, 0.95, -0.65, 0.00, 0.00 , true,1, 0, -360, 360, -65
 AddRecipe = "XZX",  "XDR",  "XXR",  X, iron_block, R, redstone_block, D, dispenser
 
 BoundingBox =  0.0, 0.6, 0.0,  2.4, 1.45
-unmountposition = 0.00, 1.2, -1.4733
+
+unmountposition = 0.00, 1.5, -0.0

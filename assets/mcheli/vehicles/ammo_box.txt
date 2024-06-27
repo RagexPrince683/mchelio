@@ -13,6 +13,7 @@ GravityInWater = -1.0
 ;RepairOtherVehicles = 30, 25
 CanRide = false
 
+unmountposition = 0.00, 1.5, -0.0
 AddSeat = 0.00,  1.0, 0.00
 
 ;Creative only

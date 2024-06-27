@@ -23,6 +23,5 @@ AddRecipe = "III",  "IXI",  "LXL",  X,Gunpowder,  I, Iron_Ingot,  L,Iron_Block
 
 Boundingbox = 0.00,  0.20,  0.00,  0.7, 1.0
 
-unmountposition = 0.00, 0.2, -1.3733
 
-
+unmountposition = 0.00, 1.5, -0.0

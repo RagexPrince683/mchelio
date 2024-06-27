@@ -20,6 +20,7 @@ Category = M.M
 
 HUD = vehicle
 
+unmountposition = 0.00, 1.5, -0.0
 AddSeat = 0.00, 1.57, 0.0
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
