@@ -14,7 +14,7 @@ onGroundPitch = 4.56
 sound = hind
 soundvolume = 15
 
-HUD = heli, heli_gnr, none, none, none, none, none, none
+HUD = helinvg, heli_gnrnvg, none, none, none, none, none, none
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A

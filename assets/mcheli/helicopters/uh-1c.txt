@@ -20,7 +20,7 @@ soundvolume = 15
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
 Category = M.M
 
-HUD = heli, heli_gnr, gunner, gunner
+HUD = helinvg, heli_gnrnvg, gunner, gunner
 
 AddTexture = uh-1c-usam1
 AddTexture = uh-1c-usam2

@@ -13,7 +13,7 @@ soundvolume = 15
 
 Regeneration = true
 
-HUD = heli, none, none, none, none
+HUD = helinvg, none, none, none, none
 
 Category = C
 

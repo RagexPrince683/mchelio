@@ -22,7 +22,7 @@ soundvolume = 15
 ; M = Military(軍用機).  S = Antisubmarine(対潜機)
 Category = M.S
 
-HUD = heli, none, none, none, none, none, none, none
+HUD = helinvg, none, none, none, none, none, none, none
 
 MobilityYaw = 0.9
 MobilityPitch = 0.9

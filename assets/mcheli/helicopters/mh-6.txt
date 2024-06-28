@@ -16,7 +16,7 @@ Category = M.M
 Sound = littlebird
 Soundvolume = 15
 
-HUD = heli, gunner, none, none, none, none
+HUD = helinvg, gunner, none, none, none, none
 
 MobilityYaw = 1.5
 MobilityPitch = 1.5

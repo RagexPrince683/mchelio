@@ -27,7 +27,7 @@ AddTexture = uh-60j_1
 AddTexture = uh-60j_2
 AddTexture = uh-60j_3
 
-HUD = heli, heli_gnr, none, none, none, none, none, none, none
+HUD = helinvg, heli_gnrnvg, none, none, none, none, none, none, none
 
 MobilityYaw   = 0.9
 MobilityPitch = 0.9

@@ -31,7 +31,7 @@ CameraZoom = 3
 Category = C
 
 
-HUD = heli, none, none, none
+HUD = helinvg, none, none, none
 
 AddTexture = as365n3_dauphin_r
 AddTexture = as365n3_dauphin_wh

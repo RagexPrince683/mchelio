@@ -16,7 +16,7 @@ FloatOffset = -0.9
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
 Category = M.M
 
-HUD = heli, none, gunner, gunner, gunner
+HUD = helinvg, none, gunner, gunner, gunner
 
 sound = apache
 soundpitch = 1.0

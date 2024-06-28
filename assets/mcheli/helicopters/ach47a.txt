@@ -21,7 +21,7 @@ soundvolume = 15
 ; M = Military(軍用機).  S = Multi-Mission(多目的機)
 Category = M.S
 
-HUD = heli, none, gunner, gunner, gunner, gunner,
+HUD = helinvg, none, gunner, gunner, gunner, gunner,
 
 MobilityYaw = 0.7
 MobilityPitch = 0.7

@@ -25,7 +25,7 @@ Category = M.M
 AddTexture = uh-60m_2
 AddTexture = uh-60m_il
 
-HUD = heli, heli_gnr, gunner, gunner, none, none, none, none, none, none
+HUD = helinvg, heli_gnrnvg, gunner, gunner, none, none, none, none, none, none
 
 MobilityYaw = 0.9
 MobilityPitch = 0.9

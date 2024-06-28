@@ -21,7 +21,7 @@ Category = M.M
 sound = chfourtysix
 soundvolume = 15
 
-HUD = heli, none, gunner
+HUD = helinvg, none, gunner
 
 AddTexture = ch-46
 AddTexture = ch-46_1

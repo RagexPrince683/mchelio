@@ -17,7 +17,7 @@ Sound = heli_k
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
 Category = M.M
 
-HUD = heli, heli_gnr, none, none, none, none, none, none
+HUD = helinvg, heli_gnrnvg, none, none, none, none, none, none
 
 sound = hind
 soundvolume = 15
