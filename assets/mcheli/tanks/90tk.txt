@@ -42,7 +42,7 @@ WeightedCenterZ = 0.0
 ; X座標のマイナス側は必要なし
 
 
-HUD = mbt_hud, gunner
+HUD = mbt_hud, gunnernvg
 
 
 AddTexture = 90tk

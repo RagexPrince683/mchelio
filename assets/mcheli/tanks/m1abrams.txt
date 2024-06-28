@@ -44,7 +44,7 @@ WeightedCenterZ = 0.0
 ; X座標のマイナス側は必要なし
 SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
 
-HUD = mbt_hud, mbt_gnr, gunner
+HUD = mbt_hud, mbt_gnrtwo, gunnernvg
 
 AddGunnerSeat =  0.00,  1.25,  2.25,    0.00,  2.50,  0.25,  false, -90, 90, true
 AddGunnerSeat = -0.55,  1.00, -0.96,   -0.980, 2.79,  0.75, false, -90, 90, true

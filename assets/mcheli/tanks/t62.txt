@@ -18,7 +18,7 @@ DefaultFreelook = true
 HideEntity = true
 MobilityYawOnGround = 3.0
 Sound = leoone
-HUD = mbt_hud, gunner
+HUD = mbt_hudtwo, gunnernvg
 
 
 SubmergedDamageHeight = 3

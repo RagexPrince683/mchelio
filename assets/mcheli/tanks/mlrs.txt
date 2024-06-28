@@ -33,7 +33,7 @@ WeightType = Tank
 
 SetWheelPos =  1.0,  -0.24,  2.3901, 1.5276, 0.3651, -0.5849, -1.7099, -2.5599
 
-HUD = mbt_hud, mbt_hud
+HUD = mbt_hudtwo, mbt_hudtwo
 
 AddGunnerSeat =  1.0, 1.01, 2.97,  0, 5.5, -2.20, false, -90,45
 

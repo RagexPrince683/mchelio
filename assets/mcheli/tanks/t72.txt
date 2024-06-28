@@ -18,7 +18,7 @@ FlareType = 10
 
 MobilityYawOnGround = 3.0
 
-HUD = mbt_hud
+HUD = mbt_hudtwo
 
 
 SubmergedDamageHeight = 3

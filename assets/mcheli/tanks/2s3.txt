@@ -20,7 +20,7 @@ CameraPosition = 0.0, 3.85, -1.8578, true
 
 MobilityYawOnGround = 3.0
 
-HUD = mbt_hudtwo, mbt_gnr
+HUD = mbt_hudtwo, gunnernvg
 
 SubmergedDamageHeight = 1
 

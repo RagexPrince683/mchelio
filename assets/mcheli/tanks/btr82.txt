@@ -46,7 +46,7 @@ AddTexture = btr82_2
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = mbt_hud, none, none, none, none, none, none
+HUD = mbt_hudtwo, none, none, none, none, none, none
 
 AddGunnerSeat =  0.00, 1.48,  0.00, 0.2, 3.8, -0, false, -70, 5, true
 AddSeat = -0.31, 0.75, -1.62 
