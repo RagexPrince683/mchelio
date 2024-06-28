@@ -1,4 +1,4 @@
-DisplayName = M8C .50 Spotting rifle
+DisplayName = 12.7mm M8C Spotting rifle
 Type = MachineGun2
 Power = 31
 Acceleration = 7.0
@@ -13,7 +13,9 @@ Accuracy = 1.5
 HeatCount = 150
 MaxHeatCount = 150
 SetCartridge = cartridge, 0.3,  90, -20, 3.00, -0.04, 0.40
-Gravity = -0.001
+Gravity = -0.005
+
+Round = 1
 
 Group = MainGun
 
@@ -37,7 +39,7 @@ AddDisplayName = en_US,
 SoundVolume = 15
 
 
-MaxAmmo = 1
+MaxAmmo = 2
 SuppliedNum = 1
 Item =  4, iron_ingot
 Item =  5, gunpowder

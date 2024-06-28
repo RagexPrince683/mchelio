@@ -1,7 +1,7 @@
 ﻿DisplayName = Jagdpanzer VI Jagdtiger
 AddDisplayName = en_US, Jagdpanzer VI Jagdtiger
 MaxHp = 250
-Speed = 0.16
+Speed = 0.21
 Sound = V12TIGER
 ThrottleUpDown = 1
 MobilityYawOnGround = 1.2
@@ -13,7 +13,7 @@ GravityInWater = -1.0
 DamageFactor = 0.0
 CameraZoom = 10
 CameraPosition = 0.00, 3.5, 1.00
-HideEntity = true
+HideEntity = false
 EnableNightVision = false
 CameraRotationSpeed = 10
 MaxFuel         = 4200
@@ -34,14 +34,14 @@ SubmergedDamageHeight = 1
 ; Tank or Car or Unknown
 WeightType = Tank
 
-AddGunnerSeat = 0.0, 2.1, 0.0, 0.00, 3.5, 1.00, false, -14,7, true
+AddGunnerSeat = 0.0, 1.5, 0.0, 0.00, 3.5, 1.00, false, -14,7, true
 
 unmountposition = 0.0, 1.5, 0.0
 
 AddGunnerSeat = -0.3495,  0.4678,  2.5256, -0.6895,  2.0678,  2.6556, false, -8,15, false
 
 
-;ArmorMinDamage = 35
+
 
 MotionFactor = 0.9
 
@@ -52,7 +52,7 @@ Category = M.A
 HUD = ww2tank_hud, gunner
 
 TrackRollerRot = 15
-SetWheelPos =  1.14, -0.24, 2.81, 1.35, 0.0, -1.74
+SetWheelPos =  1.40, -0.24, 2.81, 2.24, 1.67, 1.10, 0.53, -0.03, -0.60, -1.17, -1.74
 
 AddTrackRoller = 1.1470,  0.6370, 3.4561
 AddTrackRoller = 1.5778,  0.2199, 2.8142
@@ -99,7 +99,35 @@ AddWeapon = j128_he, 0.00, 2.37, 1.09, 0.0, 0.0, true, 1, 0,-10,10, -14, 7
 AddWeapon = jTigerH1MG34,  -0.6495, 1.4678, 3.1860,  0.0, 0.0, false,2, 0,-20,20, -20, 20
 AddPartWeapon  = jTigerH1MG34, false, true,  true,  -0.6495, 1.4678, 3.1860, 0
 
-BoundingBox =  0.0, 0.775, 1.45,   3.52, 1.93,   0.65
-BoundingBox =  0.0, 0.775, -1.45,   3.52, 1.93,   0.80
-BoundingBox =  0.0, 2.20, -0.10,   2.60, 1.10,   0.70
-BoundingBox =  0.0, 2.14, 1.51,   1.30, 0.90,   0.40
+ArmorMinDamage = 30
+
+
+;front higher
+
+BoundingBox = 0.0, 1.35, 1.7, 2.8, 1.0, 0.13
+
+;front lower
+BoundingBox = 0.0, 0.55, 2.5, 2.5, 0.65, 0.17
+
+;side front, middle, back and rear 80mm
+
+BoundingBox = 0.0, 1.345, 1.6, 2.81, 1.0, 0.37
+BoundingBox = 0.0, 0.545, 2.45, 2.51, 0.65, 0.37
+
+BoundingBox = 0.0, 1.345, -1.21, 2.81, 1.0, 0.37
+BoundingBox = 0.0, 0.545, -0.06, 2.51, 0.65, 0.37
+
+BoundingBox = 0.0, 1.345, -2.52, 2.81, 1.0, 0.37
+BoundingBox = 0.0, 0.545, -2.37, 2.51, 0.65, 0.37
+
+;turret
+
+BoundingBox = 0.0, 2.3, 0.2, 2.4, 1.2, 0.12
+;tside
+BoundingBox = 0.0, 2.3, 0.15, 2.41, 1.2, 0.35
+
+BoundingBox = 0.0, 2.3, -0.50, 2.41, 1.2, 0.35
+
+;rear of turret
+BoundingBox = 0.0, 2.29, -0.60, 2.38, 1.2, 0.37
+
