@@ -17,6 +17,8 @@ Accuracy = 1.5
 Gravity = -0.001
 SoundPitchRandom = 0.1
 
+ModelBullet = bullet
+
 TrajectoryParticle = crit
 
 DamageFactor = tank, 2.0

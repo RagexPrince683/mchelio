@@ -17,13 +17,13 @@ Accuracy = 0.0
 ;ModelBullet = bullet105mm
 Flaming = false
 Sight = None
-Gravity = -0.02
+Gravity = -0.009
 
 ;DelayFuze = 5
 
 
-BombletSTime = 80
-BombletDiff = 2.5
+BombletSTime = 120
+BombletDiff = 1.5
 Bomblet = 28
 
 ;ExplosionAltitude = 25

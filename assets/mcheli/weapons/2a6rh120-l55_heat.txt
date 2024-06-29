@@ -1,8 +1,8 @@
 DisplayName = 120mm Rh120 L/55 Cannon [DM12A1 - HEAT-FS]
 Type = MachineGun1
 Power = 480
-Explosion = 4
-ExplosionBlock = 3
+Explosion = 6
+ExplosionBlock = 4
 
 Sight = None
 

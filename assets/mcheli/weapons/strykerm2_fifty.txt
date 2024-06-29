@@ -32,6 +32,8 @@ AddMuzzleFlashSmoke =  2.6,  1,   3.0,  0.5, 25,  180,220,217,214
 
 ReloadTime = 80
 
+ModelBullet = bullet
+
 Round = 200
 MaxAmmo = 400
 SuppliedNum = 20

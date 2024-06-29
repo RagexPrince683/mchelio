@@ -6,17 +6,18 @@ Explosion = 0
 ExplosionBlock = 0
 Acceleration = 16.0
 Sight = None
-ReloadTime = 80
+
 Round = 9
-SoundVolume = 10.0
+
 Sound = centaurobig
-Accuracy = 1.5
+
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.001
 
 DisplayMortarDistance = true
 SoundPitchRandom = 0.1
+
 
 
 Delay = 100

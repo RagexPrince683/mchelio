@@ -20,7 +20,7 @@ ModelBomblet = pom2
 ;ProximityFuseDist = 2.0
 
 
-BombletSTime = 90
+BombletSTime = 140
 BombletDiff = 2.5
 Bomblet = 24
 

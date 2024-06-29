@@ -15,6 +15,8 @@ MaxHeatCount = 150
 SetCartridge = cartridge, 0.3,  90, -20, 3.00, -0.04, 0.40
 Gravity = -0.005
 
+ModelBullet = bullet
+
 Round = 1
 
 Group = MainGun

@@ -14,6 +14,8 @@ Round = 250
 HeatCount = 5
 MaxHeatCount = 350
 
+ModelBullet = bullet
+
 ReloadTime = 80
 
 

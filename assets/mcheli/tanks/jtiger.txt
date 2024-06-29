@@ -25,6 +25,10 @@ OnGroundRollFactor  = 3.0
 FlareType = 10
 ThirdPersonDist = 12
 
+AddTexture = jtiger1
+AddTexture = jtiger2
+;AddTexture = jtiger3
+
 
 ;AddTexture = jtigerdesert
 ;AddTexture = jtigerwinter

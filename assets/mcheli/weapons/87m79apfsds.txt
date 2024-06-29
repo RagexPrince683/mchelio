@@ -15,7 +15,7 @@ Round = 100
 SoundPitch = 1.0
 Sound = rcvtwentyfive
 Accuracy = 1.5
-ModeNum = 1
+
 Recoil = 0.5
 HeatCount = 6
 MaxHeatCount = 150
@@ -23,7 +23,7 @@ Gravity = -0.001
 
 ModelBullet = shortapfsds
 
-;BulletColor        = 255, 255, 100, 100
+BulletColor        = 255, 255, 100, 100
 
 ; AddMuzzleFlashSmoke = Distance from source, number of displays, size, range, display time,   A,  R,  G,  B
 

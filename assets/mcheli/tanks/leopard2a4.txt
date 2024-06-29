@@ -5,15 +5,15 @@ ItemID = 30100
 MaxHp = 585
 Speed = 0.7
 Sound = leotwo
-ThrottleUpDown = 10.0
-MobilityYawOnGround = 2.0
+ThrottleUpDown = 5.0
+MobilityYawOnGround = 2.5
 MinRotationPitch = -75
 MaxRotationPitch = 10
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
-CameraZoom = 3
+CameraZoom = 10
 CameraPosition = 0.00,  3.50, 1.00, true
 EnableNightVision = true
 CameraRotationSpeed = 25
@@ -26,13 +26,17 @@ OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 FlareType = 10
 
+AddTexture = b2a6_1
+
+AddTexture = b2a6_2
+
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
 SubmergedDamageHeight = 3
 
 HideEntity = true
 
-AddTexture = leopard2_2
+;AddTexture = leopard2_2
 
 ; Tank or Car or Unknown
 WeightType = Tank
@@ -42,12 +46,12 @@ WeightedCenterZ = 0.0
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  1.60,  -0.24,  2.46,  0.70, -0.76, -2.22, -3.80
+
 
 HUD = mbt_hud, gunnernvg
 
 AddGunnerSeat =  0.00, 1.50, 1.00, 0.00, 3.50, 1.00, false, -50, 9, true
-AddGunnerSeat =  0.87,  2.50, -0.45,  0.87,  3.15, -0.45, false, -90, 90, true
+AddGunnerSeat =  0.9664,  2.50, -0.8796,  0.9664,  3.45, -0.8796, false, -90, 90, true
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.9
@@ -65,8 +69,11 @@ EnableBack = true
 PivotTurnThrottle = 0.0
 ;AddCrawlerTrack = 履帯の表裏逆転,  1つの履帯の間隔, 履帯のXの位置, 履帯の回転ポイントZ/Y, 履帯の回転ポイントZ/Y, 履帯の回転ポイントZ/Y, ...
 ;転輪がなくても動作する
-AddCrawlerTrack = false, 0.37, -2.15,  1.14/ -4.62,  1.10/ -4.88,  0.80/ -4.90,  0.54/ -4.84,  -0.16/ -4.07,  -0.23/ -3.45,  -0.23/  2.17,  -0.11/ 2.73,  0.50/ 4.04,  0.78/ 4.12,  1.12/ 4.02,  1.22/ 3.73,
-AddCrawlerTrack = false, 0.37,  2.15,  1.14/ -4.62,  1.10/ -4.88,  0.80/ -4.90,  0.54/ -4.84,  -0.16/ -3.74,  -0.23/ -3.78,  -0.23/  2.49,  -0.11/ 2.86,  0.50/ 4.04,  0.78/ 4.12,  1.12/ 4.02,  1.22/ 3.73,
+AddCrawlerTrack = false, 0.15,  1.8854,  1.1780/3.8381, 1.1659/-5.0919, 1.1521/-5.2818, 1.0897/-5.4682, 0.9506/-5.6000, 0.7783/-5.6581, 0.5946/-5.6311, 0.4298/-5.5370, -0.1625/-4.6456, -0.2031/-4.4634, -0.2155/-4.3655, -0.2155/2.8545, -0.1496/3.0464, 0.5809/4.2136, 0.6521/4.2723, 0.7362/4.2965, 1.0179/4.3573, 1.1508/4.2471, 1.1677/4.0917, 1.1795/3.9848
+
+
+AddCrawlerTrack = false, 0.15, -1.8854,  1.1780/3.8381, 1.1659/-5.0919, 1.1521/-5.2818, 1.0897/-5.4682, 0.9506/-5.6000, 0.7783/-5.6581, 0.5946/-5.6311, 0.4298/-5.5370, -0.1625/-4.6456, -0.2031/-4.4634, -0.2155/-4.3655, -0.2155/2.8545, -0.1496/3.0464, 0.5809/4.2136, 0.6521/4.2723, 0.7362/4.2965, 1.0179/4.3573, 1.1508/4.2471, 1.1677/4.0917, 1.1795/3.9848
+
 
 
 ; 転輪の回転速度：0より小さい値を設定すると逆回転する
@@ -74,60 +81,74 @@ AddCrawlerTrack = false, 0.37,  2.15,  1.14/ -4.62,  1.10/ -4.88,  0.80/ -4.90, 
 
 ;転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
 ;履帯と同じ動きをするが、履帯がなくても設定可能
-AddTrackRoller =  0.00,  0.58,  3.58
-AddTrackRoller =  0.00,  0.16,  2.54
-AddTrackRoller =  0.00,  0.16,  1.30
-AddTrackRoller =  0.00,  0.16,  0.03
-AddTrackRoller =  0.00,  0.16, -1.23
-AddTrackRoller =  0.00,  0.16, -2.43
-AddTrackRoller =  0.00,  0.16, -3.66
-AddTrackRoller =  0.00,  0.79, -4.61
+SetWheelPos =  1.7,  -0.24, 2.71, 1.54, 0.37, -0.79, -1.95, -3.12, -4.29
+
+AddTrackRoller =  2.1985,  0.8291,  3.9582
+AddTrackRoller =  2.1624,  0.2249,  2.7155
+AddTrackRoller =  2.1624,  0.2249,  1.5469
+AddTrackRoller =  2.1624,  0.2249,  0.3784
+AddTrackRoller =  2.1624,  0.2249, -0.7902
+AddTrackRoller =  2.1624,  0.2249, -1.9587
+AddTrackRoller =  2.1624,  0.2249, -3.1273
+AddTrackRoller =  2.1624,  0.2249, -4.2958
+AddTrackRoller =  2.1624,  0.8166, -5.1873
+
+AddTrackRoller = -2.1985,  0.8291,  3.9582
+AddTrackRoller = -2.1624,  0.2249,  2.7155
+AddTrackRoller = -2.1624,  0.2249,  1.5469
+AddTrackRoller = -2.1624,  0.2249,  0.3784
+AddTrackRoller = -2.1624,  0.2249, -0.7902
+AddTrackRoller = -2.1624,  0.2249, -1.9587
+AddTrackRoller = -2.1624,  0.2249, -3.1273
+AddTrackRoller = -2.1624,  0.2249, -4.2958
+AddTrackRoller = -2.1624,  0.8166, -5.1873
 
 ;主砲
-AddPartWeapon = dm33 / dm12, false, true, false,  0.00, 1.73, 0.00, 0
-AddPartWeaponChild = false, true, 0.00, 2.06, 1.46, 0.0
-AddPartWeaponChild = false, true, 0.00, 2.06, 1.46, 0.5
-AddTurretWeapon = dm33, 0.00, 2.06, 1.46,  0.0, 0.0, true,1, 0,-360,360, -20, 9
-AddTurretWeapon = dm12, 0.00, 2.06, 1.46,  0.0, 0.0, true,1, 0,-360,360, -20, 9
-AddTurretWeapon = mg3,      0.37, 2.22, 1.46,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddPartWeapon = 2a4dm33 / 2a4dm12, false, true, false,  0.00, 1.73, 0.00, 0
+AddPartWeaponChild = false, true, 0.00, 2.26, 1.51, 0.0
+AddPartWeaponChild = false, true, 0.00, 2.26, 1.51, 0.5
+AddTurretWeapon = 2a4dm33, 0.00, 2.26, 0.46,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = 2a4dm12, 0.00, 2.26, 0.46,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = 2a4mg3,      0.37, 2.22, 1.46,  0.0, 0.0, true,1, 0,-360,360, -20, 9
 
-AddPartTurretWeapon    = mg3_l,   false, true, true,   1.24, 3.01, -0.03
-AddTurretWeapon = mg3_l,    1.24, 3.04, -0.03,   0.0, 0.0, false, 2, 0, -180, 180, -75,10
+AddPartTurretWeapon    = 2a4mg3_l,   false, true, true,   1.3691, 3.3846, -0.4273
+AddTurretWeapon = 2a4mg3_l,    1.3691, 3.4189, -0.4273,   0.0, 0.0, false, 2, 0, -180, 180, -75,10
 
-AddRecipe = "XXX",  " X ",  "III",  X, iron_block,  I, iron_ingot
+AddRecipe = "DGX",  "IXI",  "CRX",   X, iron_block,  G, glass, I, iron_ingot,  D,dispenser,  R,redstone_block,  C,lapis_block
+
+
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
 RideRack = c5, 2
 
 
-;mid
-BoundingBox = 0.0, 0.83, 0.0, 3.0, 1.53, 1.0
-
-;covermid (FRONT) HULL
-;BoundingBox = 0.0, 0.835, 2.6, 2.99, 1.53, 1.0
-;BoundingBox = 0.0, 0.935, 2.5, 2.99, 1.53, 1.0
-
-
 ArmorMinDamage = 20
+;mid section 35mm
+BoundingBox = 0.0, 1.15, 0.0, 3.11, 1.6, 0.57
+;520mm front
+BoundingBox = 0.0, 1.25, 0.3, 3.10, 1.4, 0.1
+BoundingBox = 0.0, 1.10, 0.5, 3.10, 1.359, 0.04
+BoundingBox = 0.0, 1.20, 0.7, 3.10, 1.299, 0.04
+BoundingBox = 0.0, 1.18, 0.9, 3.10, 1.189, 0.04
+BoundingBox = 0.0, 1.17, 1.1, 3.10, 1.079, 0.03
+BoundingBox = 0.0, 1.16, 1.3, 3.10, 0.969, 0.03
+BoundingBox = 0.0, 1.15, 1.5, 3.10, 0.859, 0.03
+BoundingBox = 0.0, 1.14, 1.7, 3.10, 1.049, 0.03
+BoundingBox = 0.0, 1.13, 1.9, 3.10, 0.969, 0.03
+BoundingBox = 0.0, 1.12, 2.1, 3.10, 0.859, 0.03
+BoundingBox = 0.0, 1.11, 2.3, 3.10, 1.079, 0.03
+BoundingBox = 0.0, 1.10, 2.5, 3.10, 0.969, 0.06
+BoundingBox = 0.0, 1.09, 2.9, 2.90, 0.859, 0.06
 
-;turret
-BoundingBox = 0.0, 2.1, 0.0, 2.5, 1.0, 0.025
+;turret 585mm
+BoundingBox = 0.0, 2.45, 0.0, 3.0, 1.0, 0.03
 
-;armor 350
-BoundingBox = 0.0, 0.95, 1.9, 1.0, 1.3, 0.05
-BoundingBox = 1.0, 0.95, 1.9, 1.0, 1.3, 0.05
-BoundingBox = -1.0, 0.95, 1.9, 1.0, 1.3, 0.05
-;bottom armor 640
-BoundingBox = 0.0, 0.75, 2.8, 3.0, 1.0, 0.03
+;engine side 20mm
+BoundingBox = 0.0, 1.15, -3.1, 3.11, 1.6, 1.00
 
-;back 40mm
-BoundingBox = 0.0, 0.83, -3.0, 3.0, 1.53, 0.5
-;side
-BoundingBox = 0.0, 0.83, -3.5, 3.0, 1.53, 0.5
-;side
-BoundingBox = 0.0, 1.00, -4.0, 3.0, 1.0, 0.5
-;full back
-BoundingBox = 0.0, 1.00, -4.2, 2.99, 1.0, 1.0
+;engine back 20mm lol
+BoundingBox = 0.0, 1.15, -4.5, 3.11, 1.6, 1.00
+
 
 unmountposition = 0.00, 1.30, 1.00

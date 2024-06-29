@@ -1,6 +1,6 @@
-DisplayName = 120mm Smoothbore Cannon [DM12 - HEAT]
+DisplayName = 120mm Rh120 L/44 Cannon [DM12 - HEAT]
 Type = MachineGun2
-Power = 600
+Power = 480
 ModelBullet = bullet105mm
 Acceleration = 8.0
 Explosion = 3
@@ -8,9 +8,8 @@ ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
 Delay = 170
-ModeNum = 1
+
 ;SoundPitch = 0.5
-SoundVolume = 20
 Sound = leotwoafourmain
 Gravity = -0.005
 

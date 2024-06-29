@@ -21,6 +21,8 @@ StepHeight = 1.2
 
 WeightedCenterZ = -0.2
 
+;-7.95 rear wheels
+
 SoundPitch = 0.8
 
 

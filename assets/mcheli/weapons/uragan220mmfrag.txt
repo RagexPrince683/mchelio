@@ -1,8 +1,8 @@
 DisplayName = 220mm Rocket [9M27K1 - Cluster Munition] 
 Type = Rocket
 Power = 100
-Explosion = 5
-ExplosionBlock = 3
+Explosion = 8
+ExplosionBlock = 2
 Acceleration = 4.0
 
 DamageFactor = tank, 1.5
