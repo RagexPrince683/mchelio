@@ -14,9 +14,9 @@ HUD = ww2tank_hud
 WeightType = Tank
 DefaultFreelook = true
 
-AddTexture = BT-51
-AddTexture = BT-52
-AddTexture = BT-53
+AddTexture = bT-51
+AddTexture = bT-52
+AddTexture = bT-53
 
 EnableBack = true
 SetWheelPos =  0.9,  -0.24,  3.0, 1.5, 0.0, -1.5, -3.0, -4.5
