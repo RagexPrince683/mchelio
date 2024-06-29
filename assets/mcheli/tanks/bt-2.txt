@@ -1,5 +1,6 @@
 ﻿DisplayName = BT-2
 AddDisplayName = ja_JP, BT-2
+AddDisplayName = en_US, BT-2
 ItemID = 91012
 MaxHp = 23
 Speed = 0.55

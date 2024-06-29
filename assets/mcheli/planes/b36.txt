@@ -1,5 +1,6 @@
 ﻿DisplayName = B-36H
 AddDisplayName = zh_CN, B36H"和平缔造者”
+AddDisplayName = en_US, B-36 Peacemaker
 ItemID = 19112
 MaxHp = 1830
 EnableEntityRadar = true

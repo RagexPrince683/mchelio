@@ -1,5 +1,6 @@
 ﻿DisplayName = BT-5
 AddDisplayName = ja_JP, BT-5
+AddDisplayName = en_US, BT-5
 ItemID = 91012
 MaxHp = 40
 Speed = 0.55

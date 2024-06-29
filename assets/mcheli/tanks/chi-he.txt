@@ -1,5 +1,6 @@
 DisplayName = chi-he
 AddDisplayName = ja_JP, 一式中戦車 チへ
+AddDisplayName = en_US, Type 1 Chi-He
 ItemID = 91011
 MaxHp = 50
 Speed = 0.4

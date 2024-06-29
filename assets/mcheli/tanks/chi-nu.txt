@@ -1,5 +1,6 @@
 DisplayName = chi-nu
 AddDisplayName = ja_JP, 三式中戦車 チヌ
+AddDisplayName = en_US, Type 3 Chi-Nu
 ItemID = 91012
 MaxHp = 150
 Speed = 0.4

@@ -1,5 +1,6 @@
 ﻿DisplayName = B-1B Lancer
 AddDisplayName = zh_CN, B-1B枪骑兵战略轰炸机
+AddDisplayName = en_US, B-1B Lancer
 ItemID = 28747
 MaxHp = 250
 Speed = 1.35

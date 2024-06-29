@@ -1,5 +1,6 @@
 ﻿DisplayName = Pz KpfwII Luchs
 AddDisplayName = ja_JP, Pz KpfwII Luchs
+AddDisplayName = en_US, Panzerkampfwagen II
 ItemID = 30076
 MaxHp = 250
 Speed = 0.8

@@ -1,5 +1,6 @@
 ﻿DisplayName = M3 Stuart
 AddDisplayName = ja_JP, M3 スチュアート
+AddDisplayName = en_US, M3 Stuart
 ItemID = 91021
 MaxHp = 44
 Speed = 0.5

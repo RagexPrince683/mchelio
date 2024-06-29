@@ -1,5 +1,6 @@
 ﻿DisplayName = B-52H Stratofortress
 AddDisplayName = zh_CN, B-52H"同温层堡垒”
+AddDisplayName = en_US, B-52 Stratofortress
 ItemID = 19112
 MaxHp = 250
 EnableNightVision = true
