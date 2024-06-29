@@ -1,4 +1,4 @@
-DisplayName = 105mm L7A3 Cannon [DM12 - HEATFS]
+DisplayName = 105mm L7A3 Cannon [DM12 - HEAT-FS]
 Type = MachineGun2
 Power = 400
 ModelBullet = bullet105mm

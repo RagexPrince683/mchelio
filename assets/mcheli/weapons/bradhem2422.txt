@@ -23,6 +23,9 @@ MaxHeatCount = 150
 
 Gravity = -0.005
 
+ModelBullet = bullet
+
+
 
 Acceleration = 7.5
 group = maingun

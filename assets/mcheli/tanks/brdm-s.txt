@@ -40,7 +40,7 @@ TurretPosition = 0.0, 2.19, 0.215
 
 EnableBack = true
 EnableNightVision = true
-CameraRotationSpeed = 15
+CameraRotationSpeed = 10
 
 ;Все о колесах
 AddPartWheel =    1.1675, 0.4246,  1.7779, 30

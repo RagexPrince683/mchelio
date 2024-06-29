@@ -16,6 +16,9 @@ SoundPitchRandom = 0.1
 
 Gravity = -0.005
 
+ModelBullet = bullet
+
+
 
 Acceleration = 7.5
 Piercing = 0

@@ -30,6 +30,9 @@ DamageFactor = heli, 0.5
 
 CameraRotationSpeedPitch = 0.5
 
+ModelBullet = bullet
+
+
 
 ;Power = 13
 Acceleration = 7.0

@@ -27,6 +27,9 @@ Gravity = -0.005
 
 DisplayMortarDistance = true
 
+ModelBullet = bullet
+
+
 
 Acceleration = 7.5
 group = maingun

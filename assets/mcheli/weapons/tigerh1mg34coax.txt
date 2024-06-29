@@ -42,5 +42,6 @@ MaxAmmo = 2700
 SuppliedNum = 270
 Item =   1, iron_ingot
 Item =  1, gunpowder
+ModelBullet = bullet
 
 Acceleration = 7.0

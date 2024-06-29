@@ -1,6 +1,6 @@
 DisplayName = 7.62mm UKM-2000 Machine Gun
 Type = MachineGun2
-Power = 7
+Power = 8
 Acceleration = 8.0
 Explosion = 0
 Sight = MoveSight
@@ -15,6 +15,9 @@ Accuracy = 1.5
 HeatCount = 5
 MaxHeatCount = 150
 SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
+
+ModelBullet = bullet
+
 
 Acceleration = 7.5
 Piercing = 0

@@ -22,6 +22,8 @@ SoundPitch = 1.0
 Sound = gepardmain
 Accuracy = 1.0
 
+
+
 Gravity = -0.001
 ProximityFuseDist = 3.0
 

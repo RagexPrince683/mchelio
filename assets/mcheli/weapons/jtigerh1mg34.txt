@@ -16,6 +16,9 @@ SoundPitch = 1.0
 ;SetCartridge = model name, velocity (in x-axis), ?, ?, size, gravity, "bounce-height" 
 SetCartridge = cartridge, 0.5,  1, 0, 2.0, -0.1, 0.2
 Accuracy = 1.5
+
+ModelBullet = bullet
+
 ; AddMuzzleFlash = distance, size, life time,  A,  R,  G,  B
 AddMuzzleFlash      =           0.6,   0.10,        3,  220,254,159,74
 AddMuzzleFlash      =           0.7,   0.05,        5,  220,254,219,104

@@ -20,6 +20,9 @@ Delay = 1
 HeatCount = 7
 MaxHeatCount = 150
 
+
+
+
 ;tracer
 ;BulletColor = 230, 200, 20, 80 
 

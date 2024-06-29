@@ -10,6 +10,9 @@ Delay = 3
 ReloadTime = 120
 Round = 83
 
+ModelBullet = bullet
+
+
 SoundPitch = 1.0
 Sound = bradmain
 Accuracy = 1.5

@@ -19,6 +19,8 @@ Accuracy = 1.5
 AddMuzzleFlash      =           0.6,   0.10,        3,  220,254,159,74
 AddMuzzleFlash      =           0.7,   0.05,        5,  220,254,219,104
 
+ModelBullet = bullet
+
 Gravity = -0.005
 
 ; AddMuzzleFlashSmoke = Distance from source, number of displays, size, range, display time,  A,  R,  G,  B

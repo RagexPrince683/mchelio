@@ -15,6 +15,9 @@ SoundVolume = 2.0
 Sound = pkt
 BulletColor        = 255, 189, 255, 116
 
+ModelBullet = bullet
+
+
 Gravity = -0.005
 
 Acceleration = 7.5

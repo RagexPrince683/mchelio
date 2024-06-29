@@ -37,6 +37,9 @@ ReloadTime = 80
 
 
 MaxAmmo = 4400
+
+ModelBullet = bullet
+
 SuppliedNum = 550
 Item =  2, iron_ingot
 Item =  2, gunpowder

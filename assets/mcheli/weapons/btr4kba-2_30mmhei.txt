@@ -12,6 +12,9 @@ ProximityFuseDist = 2
 Flaming = false
 Sight = MoveSight
 
+ModelBullet = bullet
+
+
 ReloadTime = 120
 Round = 250
 SoundVolume = 15

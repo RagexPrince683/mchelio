@@ -7,6 +7,9 @@ Flaming = true
 Sight = MoveSight
 Delay = 3
 ReloadTime = 120
+
+ModelBullet = bullet
+
 Round = 83
 
 SoundPitch = 1.0

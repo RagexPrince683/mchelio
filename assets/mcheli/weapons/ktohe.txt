@@ -17,6 +17,9 @@ Accuracy = 1.5
 Piercing = 0
 Group = MainGun
 
+ModelBullet = bullet
+
+
 
 DisplayMortarDistance = true
 

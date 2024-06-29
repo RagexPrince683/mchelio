@@ -16,6 +16,9 @@ Gravity = -0.001
 
 Round = 1000
 
+ModelBullet = bullet
+
+
 ReloadTime = 80
 
 AddMuzzleFlash      =  0.5,      0.22,        1,  150,254,159,84

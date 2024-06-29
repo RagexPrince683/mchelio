@@ -18,6 +18,10 @@ Sound = bradmain
 Accuracy = 0.0
 ;ModeNum = 2
 Piercing = 1
+
+ModelBullet = bullet
+
+
 group = maingun
 
 HeatCount = 7

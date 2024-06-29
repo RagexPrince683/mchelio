@@ -1,7 +1,7 @@
 DisplayName = 120mm Rh120 L/44 Cannon [DM12 - HEAT]
 Type = MachineGun2
 Power = 480
-ModelBullet = bullet105mm
+
 
 Explosion = 5
 ExplosionBlock = 3

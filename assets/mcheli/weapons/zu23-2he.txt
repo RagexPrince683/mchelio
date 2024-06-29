@@ -17,6 +17,9 @@ Accuracy = 1.0
 
 ProximityFuseDist = 1.0
 
+ModelBullet = bullet
+
+
 
 
 Gravity = -0.001

@@ -36,6 +36,9 @@ AddMuzzleFlashSmoke   = 5.2,  1,   3.0,  3.0,  5,  180,220,217,214
 
 DisplayMortarDistance = true
 
+ModelBullet = bullet
+
+
 
 ;tracer
 BulletColor = 230, 200, 20, 80 

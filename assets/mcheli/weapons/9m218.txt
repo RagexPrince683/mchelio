@@ -4,12 +4,13 @@ Power = 250
 Acceleration = 4.0
 Flaming = false
 Sight = None
-Gravity = -0.05
+Gravity = -0.030
 
 
 SoundPitch = 1.0
 
-ProximityFuseDist = 3
+ProximityFuseDist = 4
+ProximityDist = 4
 
 ;BombletSTime = 100
 ;BombletDiff = 2.8

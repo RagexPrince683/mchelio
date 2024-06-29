@@ -12,6 +12,9 @@ Accuracy = 0.7
 HeatCount = 4
 MaxHeatCount = 150
 
+ModelBullet = bullet
+
+
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0

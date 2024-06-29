@@ -14,6 +14,9 @@ SoundPitch = 1.0
 Sound = gepardmain
 Accuracy = 1.0
 
+ModelBullet = bullet
+
+
 Gravity = -0.001
 ProximityFuseDist = 2.0
 

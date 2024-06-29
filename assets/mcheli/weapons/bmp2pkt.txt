@@ -13,6 +13,9 @@ HeatCount = 4
 MaxHeatCount = 150
 Gravity = -0.001
 
+ModelBullet = bullet
+
+
 AddMuzzleFlash      =  1.5,      0.22,        1,  150,254,159,84
 AddMuzzleFlashSmoke =  1.7,  1,   2.0,  0.5, 15,  180,250,245,240
 

@@ -39,6 +39,8 @@ ReloadTime = 80
 
 
 
+
+
 MaxAmmo = 3300
 SuppliedNum = 660
 Item =  2, iron_ingot

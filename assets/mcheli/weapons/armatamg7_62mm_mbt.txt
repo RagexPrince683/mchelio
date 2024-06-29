@@ -12,6 +12,9 @@ Accuracy = 0.7
 HeatCount = 4
 MaxHeatCount = 150
 
+ModelBullet = bullet
+
+
 Round = 50
 
 ReloadTime = 80
