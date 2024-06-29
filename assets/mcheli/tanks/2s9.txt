@@ -14,7 +14,7 @@ MinRotationPitch = -80
 MaxRotationPitch = 4
 DefaultFreelook = true
 HideEntity = true
-FlareType = 10
+;FlareType = 10
 ;CameraPosition =  0.00,  3.65, -0.315
 CameraZoom = 5
 
