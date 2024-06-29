@@ -1,5 +1,6 @@
 ﻿DisplayName = 127mm Mark 45 Mod4 Naval Cannon
 AddDisplayName = ja_JP, Mk45 Mod4 5インチ砲
+AddDisplayName = en_US, 5-inch/54-caliber Mark 45 Gun
 ItemID = 28601
 MaxHp = 125
 HideEntity = true

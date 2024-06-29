@@ -1,5 +1,6 @@
 ﻿DisplayName = D-30 122mm Howitzer 
 AddDisplayName = ja_JP, D-30
+AddDisplayName = en_US, 122-mm howitzer D-30
 ItemID = 28602
 MaxHp = 100
 HideEntity = false

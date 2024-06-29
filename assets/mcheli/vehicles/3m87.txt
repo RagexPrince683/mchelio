@@ -1,5 +1,6 @@
 ﻿DisplayName = 3M87 CIWS
 AddDisplayName = ja_JP, コールチク CIWS
+AddDisplayName = en_US, Kortik CIWS
 ItemID = 28700
 MaxHp = 115
 EnableNightVision = true

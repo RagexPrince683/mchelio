@@ -1,5 +1,6 @@
 ﻿DisplayName = BM37
 AddDisplayName = ja_JP, BM-37
+AddDisplayName = en_US, 82-BM-37
 ItemID = 30095
 MaxHp = 100
 CameraZoom = 3

@@ -1,4 +1,5 @@
-﻿DisplayName = ShahedTruck
+﻿DisplayName = Shahed Truck
+AddDisplayName = en_US, Shahed Truck
 MaxHp = 10
 Gravity = -9.81
 GravityInWater = -1.0

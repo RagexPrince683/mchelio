@@ -1,5 +1,6 @@
 ﻿DisplayName = Mk.41 mod29 VLS
 AddDisplayName = ja_JP, Mk.41 mod29 垂直発射装置
+AddDisplayName = en_US, Mk 41 VLS
 ItemID = 28602
 MaxHp = 100
 EnableNightVision = true
