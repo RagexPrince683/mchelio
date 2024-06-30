@@ -24,7 +24,7 @@ ThrottleUpDown = 0.3
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
-HUD = plane
+HUD = planenvg
 
 AddSeat = 0.00,  1.57,  0.22
 

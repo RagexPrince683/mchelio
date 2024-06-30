@@ -19,7 +19,7 @@ ThirdPersonDist = 16
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
-HUD = plane
+HUD = planenvg
 
 AddSeat = 0.0, 3.58, 0.00
 

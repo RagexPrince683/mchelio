@@ -5,7 +5,7 @@ MaxHp = 100
 Speed = 1.52
 ;1,520
 
-EnableNightVision = true
+EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
 ThrottleUpDown = 0.6

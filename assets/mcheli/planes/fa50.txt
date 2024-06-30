@@ -19,7 +19,7 @@ Sound = faeighteen
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
-HUD = plane, plane_gnr
+HUD = planenvg, plane_gnrnvg
 
 AddSeat =  0.00,  1.844,  2.57
 AddSeat =  0.00,  1.958,  1.05

@@ -26,7 +26,7 @@ AddTexture = f16c3
 AddTexture = f16c4
 AddTexture = f16c5
 
-HUD = plane
+HUD = planenvg
 
 AddSeat       = 0.00,  2.564,  1.762
 

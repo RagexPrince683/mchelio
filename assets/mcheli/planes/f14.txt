@@ -27,7 +27,7 @@ EnableSeaSurfaceParticle = true
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
-HUD = plane, plane_gnr
+HUD = planenvg, plane_gnrnvg
 
 AddSeat = 0.00, 1.60, 0.49
 AddGunnerSeat = 0.00, 1.65, -1.24

@@ -9,7 +9,7 @@ MaxFuel         = 30000
 FuelConsumption = 2
 InventorySize = 64
 FlareType = 2
-EnableNightVision = true
+EnableNightVision = false
 EnableEntityRadar = true
 ThirdPersonDist = 68
 

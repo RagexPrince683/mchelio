@@ -22,7 +22,7 @@ UnmountPosition = 3.0, 2.0, -5.0
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
-HUD = plane, plane_gnr
+HUD = planenvg, plane_gnrnvg
 
 AddSeat       = 0.0,  1.32, -1.70
 AddGunnerSeat = 0.0,  1.48, -3.57,   0.0, 0.3, 0.7,  true

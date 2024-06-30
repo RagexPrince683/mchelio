@@ -29,7 +29,7 @@ Category = M.F
 MobilityRoll = 2.5
 MobilityPitch = 9.5
 
-HUD = plane
+HUD = planenvg
 
 
 AddSeat = 0.00,  2.00,  0.00

@@ -5,7 +5,7 @@ MaxHp = 100
 Sound = asev
 
 onGroundPitch = 4
-EnableNightVision = true
+EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
 Speed = 0.9

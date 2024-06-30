@@ -17,7 +17,7 @@ Category = M.M
 sound = nhninety
 soundvolume = 15
 
-HUD = helinvg, helinvg
+HUD = helinvg, heli_gnrnone
 
 AddSeat = -0.40, 0.52, 5.11
 AddSeat =  0.40, 0.52, 5.11
