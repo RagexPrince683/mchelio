@@ -23,7 +23,7 @@ DamageFactor = 0.8
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
-HUD = plane
+HUD = planethermal
 
 AddTexture = su34_1
 AddTexture = su34_2

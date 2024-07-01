@@ -39,8 +39,7 @@ MobilityPitch = 9.5
 
 
 
-HUD = plane
-
+HUD = planethermal
 
 AddSeat = 0,  2.8106,  0
 

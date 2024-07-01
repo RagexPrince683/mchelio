@@ -2,8 +2,8 @@
 AddDisplayName = en_US, Yakovlev Yak-38 with R-60
 AddDisplayName = ru_RU, ЯК-38 (4 Ракеты Р-60)
 MaxHp = 100
-EnableNightVision = true
-EnableEntityRadar = true
+EnableNightVision = false
+EnableEntityRadar = false
 EnableEjectionSeat = true
 Speed = 1.392
 FlareType = 4
