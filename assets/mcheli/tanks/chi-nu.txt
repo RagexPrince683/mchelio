@@ -1,4 +1,4 @@
-DisplayName = chi-nu
+DisplayName = Type 3 Chi-Nu
 AddDisplayName = ja_JP, 三式中戦車 チヌ
 AddDisplayName = en_US, Type 3 Chi-Nu
 ItemID = 91012
@@ -78,18 +78,18 @@ AddCrawlerTrack = false, 0.16,  1.5,   1.19/ 3.30, 1.15/ 3.56, 0.78/ 3.67, 0.51/
 MinRotationPitch = -60
 MaxRotationPitch =  20
 
-AddTurretWeapon = Type90_75mmTankGun[APHE],  0.0,  2.2552, 1.2644,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = Type90_75mmTankGun[HE],    0.0,  2.2552, 1.2644,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddPartWeapon = Type90_75mmTankGun[APHE]/Type90_75mmTankGun[HE], false, true, false,  0.0, 2.0, 0.0, 0
+AddTurretWeapon = chinuType90_75mmTankGun[APHE],  0.0,  2.2552, 1.2644,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = chinuType90_75mmTankGun[HE],    0.0,  2.2552, 1.2644,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddPartWeapon = chinuType90_75mmTankGun[APHE]/chinuType90_75mmTankGun[HE], false, true, false,  0.0, 2.0, 0.0, 0
 AddPartWeaponChild = false, true, 0.0, 2.2552, 1.2644
 AddPartWeaponChild = false, true, 0.0, 2.2552, 1.2644, 0.3
 
-AddPartTurretWeapon    = Type97_7_7mmGun1,  false, true, false,  0.4756, 3.542, 0.6288
-AddPartTurretWeapon    = Type97_7_7mmGun1,  false, true, true,   0.4756, 3.542, 0.6288
-AddTurretWeapon = Type97_7_7mmGun1,   0.4756, 3.542, 0.6288,   0.0, 0.0, true, 3, 0, -360,360, -60,20
+AddPartTurretWeapon    = chinuType97_7_7mmGun1,  false, true, false,  0.4756, 3.542, 0.6288
+AddPartTurretWeapon    = chinuType97_7_7mmGun1,  false, true, true,   0.4756, 3.542, 0.6288
+AddTurretWeapon = chinuType97_7_7mmGun1,   0.4756, 3.542, 0.6288,   0.0, 0.0, true, 3, 0, -360,360, -60,20
 
-AddWeapon = Type97_7_7mmGun2,  0.4172, 1.428, 1.9793,  0.0, 0.0, false,2, 0,-20,40, -30, 15
-AddPartWeapon = Type97_7_7mmGun2, false, true, true,  0.4172, 1.428, 1.9793, 0
+AddWeapon = chinuType97_7_7mmGun2,  0.4172, 1.428, 1.9793,  0.0, 0.0, false,2, 0,-20,40, -30, 15
+AddPartWeapon = chinuType97_7_7mmGun2, false, true, true,  0.4172, 1.428, 1.9793, 0
 
 BoundingBox =  0.0, 1.0,   1.5,   3.2, 1.5,  0.7
 BoundingBox =  0.0, 1.0,  -1.8,   3.2, 1.5,  1.0
