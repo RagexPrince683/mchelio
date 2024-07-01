@@ -1,13 +1,12 @@
-DisplayName = 37mm Model 30 B-3 Anti-Tank Gun [M-160 - APHE]
+DisplayName = 45mm 20-K Anti-Tank Gun [BR-240 - APHEBC]
 Type = MachineGun2
-Power = 49
+Power = 70
 Acceleration = 6.5
 ModelBullet = bullet76mm
-Explosion = 2
+Explosion = 3
 ExplosionBlock = 1
 Sight = MoveSight
-ReloadTime = 60
-Delay = 60
+ReloadTime = 80
 Round = 1
 Sound = smallcannon
 SoundVolume = 15
@@ -16,7 +15,7 @@ Piercing = 2
 HeatCount = 300
 MaxHeatCount = 1200
 Gravity = -0.01
-;GravityInWater = -1.0
+GravityInWater = -1.0
 Particle = flame
 RecoilBufCount = 20, 5
 DamageFactor = tank, 3.0
@@ -24,7 +23,6 @@ DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
-
 Recoil = 1.5
 Group = MainGun
 
@@ -34,7 +32,7 @@ AddMuzzleFlash      =           3.0,   1.50,        4,  220,254,219,104
 AddMuzzleFlashSmoke   =         2.75,    18,   7.0,  4.0,       50,  220,160,140,120
 AddMuzzleFlashSmoke   =         3.25,    12,   8.0,  6.0,       70,  200,190,170,150
 
-MaxAmmo = 96
-SuppliedNum = 16
+MaxAmmo = 42
+SuppliedNum = 7
 Item =  2, iron_ingot
-Item =  2, gunpowder
+Item =  3, gunpowder

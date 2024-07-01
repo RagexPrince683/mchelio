@@ -15,6 +15,8 @@ HUD = ww2tank_hud
 WeightType = Tank
 DefaultFreelook = true
 
+CameraZoom = 5
+
 AddTexture = bT-51
 AddTexture = bT-52
 AddTexture = bT-53
@@ -30,17 +32,17 @@ OnGroundRollFactor  = 4.0
 MobilityYawOnGround = 2.6
 PivotTurnThrottle = 0.0
 
-AddGunnerSeat =  0.0, 2.0, -0.0,   -0.0,  2.0,  -0.0,     true,  -25, 8, true
+AddGunnerSeat =  0.0, 1.0, -0.0,   -0.0,  2.0,  -0.0,     false,  -25, 8, true
 unmountposition = 0.0, 1.5, -0.0
 
-CameraPosition = -0.0, 3.5, -0.0, false
+CameraPosition = -0.0, 3.5, -0.0
 CameraRotationSpeed = 10
 
 StepHeight = 1.5
-InventorySize = 18
+InventorySize = 9
 ParticlesScale = 0.1
 SmoothShading = true
-HideEntity = true
+HideEntity = false
 
 ;ArmorMinDamage = 5
 
@@ -74,14 +76,19 @@ AddCrawlerTrack = false, 0.24,  1.0,   0.87/ 2.4, 0.78/ 2.62, 0.57/ 2.71, 0.35/ 
 MinRotationPitch = -25
 MaxRotationPitch =  8
 
-AddTurretWeapon = 45mm20-KTankGun[APHEBC],    0.0,  2.0602, 0.7845,  0.0, 0.0, true,1, 0,-360,360, -25, 8
-AddPartWeapon = 45mm20-KTankGun[APHEBC], false, true, false,  0.0, 2.0, 0.0, 0
+AddTurretWeapon = bt545mm20-KTankGun[APHEBC],    0.0,  2.0602, 0.7845,  0.0, 0.0, true,1, 0,-360,360, -25, 8
+
+AddTurretWeapon = bt545mm20-KTankGun[HE],    0.0,  2.0602, 0.7845,  0.0, 0.0, true,1, 0,-360,360, -25, 8
+
+AddPartWeapon = bt545mm20-KTankGun[APHEBC] / bt545mm20-KTankGun[HE], false, true, false,  0.0, 2.0, 0.0, 0
 AddPartWeaponChild = false, true, 0.0,  2.0602, 0.7845
 AddPartWeaponChild = false, true, 0.0,  2.0602, 0.7845, 0.3
 
-AddPartTurretWeapon    = 7_62mmDTGun1,  false, true, false, -0.3,  2.0602, 0.7845
-AddPartTurretWeapon    = 7_62mmDTGun1,  false, true, true,  -0.3,  2.0602, 0.7845
-AddTurretWeapon = 7_62mmDTGun1,  -0.3,  2.0602, 0.7845,   0.0, 0.0, true, 1, 0, -360,360, -25,8
+AddPartTurretWeapon    = bt57_62mmDTGun1,  false, true, false, -0.3,  2.0602, 0.7845
+AddPartTurretWeapon    = bt57_62mmDTGun1,  false, true, true,  -0.3,  2.0602, 0.7845
+AddTurretWeapon = bt57_62mmDTGun1,  -0.3,  2.0602, 0.7845,   0.0, 0.0, true, 1, 0, -360,360, -25,8
+
+AddRecipe = "   ",  "IXI",  "   ",   X, iron_ingot, I, mcheli:bt-2
 
 ArmorMinDamage = 6
 

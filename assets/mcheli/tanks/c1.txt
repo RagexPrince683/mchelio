@@ -101,9 +101,9 @@ AddTrackRoller = -2.26,  0.87,  -5.52
 AddPartWeapon = c1l23a1/c1l37a7, false, true, false,  0.00, 1.72, -0.01, 0
 AddPartWeaponChild = false, true, -0.05, 2.20, 2.07, 0.0
 AddPartWeaponChild = false, true, -0.05, 2.20, 2.07, 0.5
-AddTurretWeapon = c1l23a1, 0.00, 2.20, 9.91,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = c1l37a7, 0.00, 2.20, 9.91,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon =  c1l8a2, 0.19, 2.36, 2.64,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = c1l23a1, 0.00, 2.20, 0.91,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = c1l37a7, 0.00, 2.20, 0.91,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon =  c1l8a2, 0.19, 2.36, 1.64,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 
 AddPartTurretWeapon    =c1l37a2,   false, true, true,-0.38,3.55,-0.34,0
 AddTurretWeapon = c1l37a2,-0.4, 3.47, 0.3 ,0,0, false, 2, 0, -80,80, -25,10

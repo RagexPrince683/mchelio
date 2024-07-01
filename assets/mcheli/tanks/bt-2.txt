@@ -12,6 +12,8 @@ EnableNightVision = false
 EnableEntityRadar = false
 Sound = bmptwoeng
 
+CameraZoom = 3
+
 SoundPitch = 0.8
 
 HUD = ww2tank_hud
@@ -32,7 +34,7 @@ OnGroundRollFactor  = 4.0
 MobilityYawOnGround = 2.6
 PivotTurnThrottle = 0.0
 
-AddGunnerSeat =  0.0, 2.0, -0.0,   -0.0,  2.0,  -0.0,     true,  -25, 8, true
+AddGunnerSeat =  0.0, 1.0, -0.0,   -0.0,  2.0,  -0.0,     false,  -25, 8, true
 
 unmountposition = 0.0, 1.5, -0.0
 
@@ -40,10 +42,10 @@ CameraPosition = -0.0, 3.5, -0.0, false
 CameraRotationSpeed = 10
 
 StepHeight = 1.5
-InventorySize = 18
+InventorySize = 9
 ParticlesScale = 0.1
 SmoothShading = true
-HideEntity = true
+HideEntity = false
 
 
 

@@ -72,7 +72,7 @@ unmountposition = 0.0,  1.50, -3.88
 
 MotionFactor = 0.9
 
-SetWheelPos =  1.70,  -0.24,  3.10, 1.37, -0.87, -2.66
+SetWheelPos =  1.35,  -0.24,  3.10, 1.37, -0.87, -2.66
 
 AddPartWheel     =   1.6184,  0.40,  -2.66
 AddPartWheel     =   1.6184,  0.38,  -0.87
