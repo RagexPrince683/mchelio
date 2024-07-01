@@ -40,7 +40,7 @@ unmountposition = -0, 1.5, 0
 
 AddGunnerSeat =  0.5,   0.4,  0.964,    0.4172, 1.6,   1.6,     false, -20, 15, false
 
-AddGunnerSeat = -0.4832, 4.5, -0.03, -0.4832, 3.4, -0.03, false, -20, 15, true
+AddGunnerSeat = -0.4832, 4.5, -0.03, -0.4832, 3.4, -0.03, false, -70, 10, true
 
 CameraPosition = -0.0, 3.5, -0.0, false
 CameraRotationSpeed = 10
@@ -101,7 +101,7 @@ TurretPosition = -0.1226, 2.0, 0.0
 
 
 AddPartTurretWeapon  = chiheType97_7_7mmGun1,  false, true, true, 0.232, 2.96, 0.175
-AddTurretWeapon = chiheType97_7_7mmGun1,   0.2326, 2.9657, 0.1723,   0.0, 0.0, false, 3, 0, -360,360, -35,20
+AddTurretWeapon = chiheType97_7_7mmGun1,   0.2326, 2.9657, 0.1723,   0.0, 0.0, false, 3, 0, -60,60, -70,10
 
 
 
@@ -113,7 +113,7 @@ AddTurretWeapon = chiheType97_7_7mmGun1,   0.2326, 2.9657, 0.1723,   0.0, 0.0, f
 ;AddPartTurretWeapon = Type97_7_7mmGun1, false, true, false, -0.1226, 2.0, 0.0
 
 
-AddWeapon = chiheType97_7_7mmGun2,  0.4172, 1.428, 1.4793,  0.0, 0.0, false,2, 0,-20,40, -30, 15
+AddWeapon = chiheType97_7_7mmGun2,  0.4172, 1.428, 1.4793,  0.0, 0.0, false,2, 0,-15,15, -10, 10
 AddPartWeapon = chiheType97_7_7mmGun2, false, true, true,  0.4172, 1.428, 1.4793, 0
 
 ArmorMinDamage = 10
