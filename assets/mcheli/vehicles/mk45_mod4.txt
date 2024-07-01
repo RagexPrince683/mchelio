@@ -8,7 +8,7 @@ MinRotationPitch = -65
 MaxRotationPitch =  15
 DamageFactor = 0.1
 CameraZoom = 4
-EnableEntityRader = true
+
 CameraPosition = 0.0, 2.17, 0.0
 unmountposition = -0.0, 0.2, -0.0
 ; M = Military,  A = AAGun(対空砲)
