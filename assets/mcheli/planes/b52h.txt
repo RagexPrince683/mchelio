@@ -37,8 +37,10 @@ AddPartLG =   1.25, 1.90, -26.41,  0,0,1, -130
 AddPartLG =   -27.10, 2.40, -30.85,  0,0,1, 110
 AddPartLG =   27.10, 2.40, -30.85,  0,0,1, -110
 
-AddPartWeaponBay = mk82_b52/mk84_b1/gbu38/gbu-31b1/alcm/agm158b1/agm154b1/b61b/agm86b52/b61/b28, -1.06, 1.67,-19.64,  0, -0.04, 1.0, -90
-AddPartWeaponBay = mk82_b52/mk84_b1/gbu38/gbu-31b1/alcm/agm158b1/agm154b1/b61b/agm86b52/b61/b28, 1.06, 1.67,-19.64,   0, -0.04, 1.0,  90
+AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
+
+AddPartWeaponBay = mk82_b52/mk84_b1/gbu38/gbu-31b1/alcm/agm158b1/agm154b1/b61b/agm86b52/b61b/b83/b61/b28, -1.06, 1.67,-19.64,  0, -0.04, 1.0, -90
+AddPartWeaponBay = mk82_b52/mk84_b1/gbu38/gbu-31b1/alcm/agm158b1/agm154b1/b61b/agm86b52/b61b/b83/b61/b28, 1.06, 1.67,-19.64,   0, -0.04, 1.0,  90
 
 
 AddPartWeaponMissile =b83, false, false, false, 7.906, 2.633,-14.476
