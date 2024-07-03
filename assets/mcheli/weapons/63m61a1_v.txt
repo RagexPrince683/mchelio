@@ -7,10 +7,10 @@ Sight = MoveSight
 Delay = 0
 SoundDelay = 3
 SoundPitch = 0.7
-Accuracy = 3.0
+Accuracy = 1.5
 HeatCount = 1
 MaxHeatCount = 150
-Sound = gun_l2_snd
+
 
 Gravity = -0.001
 
@@ -18,7 +18,7 @@ Gravity = -0.001
 Delay = 0
 SoundVolume = 5.5
 SoundPitch = 5.5
-Accuracy = 3
+
 HeatCount = 1
 MaxHeatCount = 150
 Sound = gun_m61a1_snd
