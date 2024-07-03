@@ -12,7 +12,7 @@ Round = 7
 SoundVolume = 15.0
 Sound = artillery_gun_snd
 Accuracy = 1.5
-Gravity = -0.025
+Gravity = -0.005
 
 HeatCount = 1000
 MaxHeatCount = 2100

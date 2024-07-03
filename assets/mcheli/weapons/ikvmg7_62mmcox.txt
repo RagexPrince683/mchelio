@@ -1,4 +1,4 @@
-DisplayName = 7.62mm ksp m/39B Machine Gun
+DisplayName = 7.62mm Ksp m/39B Machine Gun
 Type = MachineGun1
 Power = 7
 

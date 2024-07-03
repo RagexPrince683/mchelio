@@ -40,7 +40,7 @@ MotionFactor = 0.9
 AddSeat = 1.78, 1.80, 7.57
 AddGunnerSeat = -1.38, 1.80, 7.57, -0.0, 4.80, 7.2, false, -80, 0, false
 
-HUD = mbt_hud,mbt_hud
+HUD = mbt_hud,mbt_gnrtwo
 
 FixCameraPitch = true
 

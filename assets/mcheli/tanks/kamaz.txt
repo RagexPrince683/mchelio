@@ -69,6 +69,9 @@ BoundingBox =  0.0, 1.25,  5.8,    1.2, 1.2
 BoundingBox =  0.0, 2.45,  5.8,    1.2, 1.2
 BoundingBox =  0.0, 2.45,  6.8,    1.2, 1.2
 
+AddWeapon = smoke_none, 1.2,  -0.3,-1.7592,   1.0, 0.0
+AddWeapon = thorn2,    0.00, 0.00, 0.00,  0.0,0.0
+
 AddRack = container,   1.02, 2.12, 1.61,  0.0, 0.0, -9.18,  8.0,   20
 AddRack = container,   1.02, 3.02, 1.61,  0.0, 0.0, -9.18,  8.0,   20
 AddRack = container,   1.02, 2.12, -0.98,  0.0, 0.0, -9.18,  8.0,   20

@@ -1,10 +1,10 @@
-DisplayName = 88mm PaK43 Cannon [PzGr 39/43 - APCBC]
+DisplayName = 88mm PaK43 Cannon [Hl.Gr 39 - HEAT]
 Type = MachineGun1
-Power = 237
+Power = 110
 Acceleration = 7.5
 ModelBullet = bullet76mm
 Explosion = 3
-ExplosionBlock = 2
+ExplosionBlock = 3
 Sight = MoveSight
 ReloadTime = 120
 Delay = 120
@@ -20,16 +20,17 @@ MaxHeatCount = 2000
 
 
 
-Gravity = -0.005
+Gravity = -0.008
 ;GravityInWater = -1.0
 Particle = flame
 RecoilBufCount = 40, 5
-DamageFactor = tank, 3.5
-DamageFactor = plane, 1.5
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.0
-DamageFactor = player, 10.0
-Piercing = 2
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+Piercing = 0
 
 Group = MainGun
 Recoil = 2.0

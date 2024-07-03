@@ -65,8 +65,8 @@ AddTrackRoller = -1.6209,  0.3045,  -3.4877
 AddTrackRoller = -1.6209,  0.9055,  -4.5262
 
 
-AddTurretWeapon = qf6_heat_crom,  0.00, 2.2057, 2.5475,  0.0, 0.0, true,1, 0,-360,360, -20, 12
-AddTurretWeapon = qf6_he_crom,  0.00, 2.2057, 2.5475,  0.0, 0.0, true,1, 0,-360,360,   -20, 12
+AddTurretWeapon = qf6_heat_crom,  0.00, 2.2057, 0.5475,  0.0, 0.0, true,1, 0,-360,360, -20, 12
+AddTurretWeapon = qf6_he_crom,  0.00, 2.2057, 0.5475,  0.0, 0.0, true,1, 0,-360,360,   -20, 12
 AddTurretWeapon = brencromcox,  0.20, 2.2057, 1.15,  0.0, 0.0, true,1, 0,-360,360,   -5, 8
 
 

@@ -91,8 +91,8 @@ AddCrawlerTrack = false, 0.16,  1.5,   1.19/ 2.8, 1.15/ 3.06, 0.78/ 3.17, 0.51/ 
 MinRotationPitch = -35
 MaxRotationPitch =  20
 
-AddTurretWeapon = chiheType1_47mmTankGun[APHE], -0.2075,  2.1985, 1.0315,  0.0, 0.0, true,1, 0,-360,360, -20, 15
-AddTurretWeapon = chiheType1_47mmTankGun[HE], -0.2075,  2.1985, 1.0315,  0.0, 0.0, true,1, 0,-360,360, -20, 15
+AddTurretWeapon = chiheType1_47mmTankGun[APHE], -0.2075,  2.1985, 0.0315,  0.0, 0.0, true,1, 0,-360,360, -20, 15
+AddTurretWeapon = chiheType1_47mmTankGun[HE], -0.2075,  2.1985, 0.0315,  0.0, 0.0, true,1, 0,-360,360, -20, 15
 AddPartWeapon = chiheType1_47mmTankGun[APHE]/ chihetype1_47mmtankgun[he], false, true, false,  -0.1226, 2.0, 0.0, 0
 AddPartWeaponChild = false, true, -0.1226, 2.112, 1.0315
 AddPartWeaponChild = false, true, -0.1226, 2.112, 1.0315, 0.3

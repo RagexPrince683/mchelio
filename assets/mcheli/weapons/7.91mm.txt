@@ -1,7 +1,7 @@
 DisplayName = 7.91mm MG34
 Type = MachineGun1
 ModelBullet = 7.91mm
-Power = 7
+Power = 8
 Acceleration = 7.0
 Explosion = 0
 Flaming = false
@@ -42,4 +42,3 @@ SuppliedNum = 200
 Item =   10, iron_ingot
 Item =  5, gunpowder
 
-Acceleration = 7.0

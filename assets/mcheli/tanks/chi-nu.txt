@@ -88,8 +88,8 @@ AddCrawlerTrack = false, 0.16,  1.5,   1.19/ 3.30, 1.15/ 3.56, 0.78/ 3.67, 0.51/
 MinRotationPitch = -60
 MaxRotationPitch =  20
 
-AddTurretWeapon = chinuType90_75mmTankGun[APHE],  0.0,  2.2552, 1.2644,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = chinuType90_75mmTankGun[HE],    0.0,  2.2552, 1.2644,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = chinuType90_75mmTankGun[APHE],  0.0,  2.2552, 0.2644,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = chinuType90_75mmTankGun[HE],    0.0,  2.2552, 0.2644,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddPartWeapon = chinuType90_75mmTankGun[APHE]/chinuType90_75mmTankGun[HE], false, true, false,  0.0, 2.0, 0.0, 0
 AddPartWeaponChild = false, true, 0.0, 2.2552, 1.2644
 AddPartWeaponChild = false, true, 0.0, 2.2552, 1.2644, 0.3

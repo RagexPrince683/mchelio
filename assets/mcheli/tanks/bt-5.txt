@@ -10,7 +10,7 @@ GravityInWater = -1.0
 DamageFactor = 0.8
 EnableNightVision = false
 EnableEntityRadar = false
-Sound = Tank
+Sound = bmptwoeng
 HUD = ww2tank_hud
 WeightType = Tank
 DefaultFreelook = true
@@ -88,7 +88,7 @@ AddPartTurretWeapon    = bt57_62mmDTGun1,  false, true, false, -0.3,  2.0602, 0.
 AddPartTurretWeapon    = bt57_62mmDTGun1,  false, true, true,  -0.3,  2.0602, 0.7845
 AddTurretWeapon = bt57_62mmDTGun1,  -0.3,  2.0602, 0.7845,   0.0, 0.0, true, 1, 0, -360,360, -25,8
 
-AddRecipe = "   ",  "IXI",  "   ",   X, iron_ingot, I, mcheli:bt-2
+AddRecipe = "   ",  "IXX",  "   ",   X, iron_ingot, I, mcheli:bt-2
 
 ArmorMinDamage = 6
 

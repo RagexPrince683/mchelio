@@ -4,11 +4,11 @@ AddDisplayName = ja_JP, M163 対空自走砲
 ItemID = 30191
 MaxHp = 200
 Speed = 0.40
-ThrottleUpDown = 5.0
+ThrottleUpDown = 2.0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.8
-CameraZoom = 5
+CameraZoom = 6
 EnableNightVision = true
 EnableEntityRadar = true
 Sound = moneonethreeapc
@@ -16,7 +16,9 @@ Sound = moneonethreeapc
 HUD = mbt_hudtherm
 WeightType = Tank
 DefaultFreelook = true
-CameraZoom = 3
+
+
+CameraRotationSpeed = 45
 
 ThirdPersonDist = 8
 
@@ -41,7 +43,7 @@ PivotTurnThrottle = 0.0
 ;AddSeat       =   0.00, 2.91,  -0.46, true
 
 TurretPosition = 0.0, 1.0, 0.0
-AddGunnerSeat =  0.00,  2.1, 0.00, 0.0, 3.50, 0.00, false, -85, 10, false
+AddGunnerSeat =  0.00,  1.9, 0.00, 0.0, 3.50, 0.00, false, -85, 10, false
 
 
 ;;AddSeat       =   0.56, 0.85, -0.56
@@ -58,7 +60,7 @@ StepHeight = 1.5
 InventorySize = 25
 ParticlesScale = 0.1
 SmoothShading = true
-HideEntity = true
+HideEntity = false
 
 
 
@@ -88,19 +90,17 @@ AddCrawlerTrack = false, 0.14,  1.15,   1.07/ 2.64, 0.91/ 3.05, 0.59/ 3.11, 0.25
 MinRotationPitch = -80
 MaxRotationPitch = 7
 
-AddPartWeapon = m61a1_v, false, true, false, 0.00, 2.46, -0.0
+AddPartWeapon = 63m61a1_v, false, true, false, 0.00, 2.46, -0.0
 AddPartWeaponChild = false, true, 0.00, 3.04, -0.0, 0,0
-AddPartRotWeapon = m61a1_v, false, true, true,  0.00, 3.07,  -0.0, 0,0
+AddPartRotWeapon = 63m61a1_v, false, true, true,  0.00, 3.0707,  -0.0,
 
-;AddTurretWeapon = m61a1_v,   0.03, 3.07, 0.71, 0.0, 0.0, true,1 , 0, -360, 360, -80,7
-
-AddTurretWeapon = m61a1_v, 0.00, 3.07, 0.71,  0.0, 0.0, true,1, 0,-360,360, -80, 5
+AddTurretWeapon = 63m61a1_v, 0.00, 3.07, 0.71,  0.0, 0.0, true,1, 0,-360,360, -80, 5
 
 AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 1
 AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,1
 
 
-ArmorMinDamage = 29
+;ArmorMinDamage = 29
 
 BoundingBox = 0.0, 1.25, -1.8, 3.0, 2.6, 1.0
 

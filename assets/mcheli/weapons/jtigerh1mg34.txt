@@ -1,7 +1,7 @@
 DisplayName = 7.92mm MG34 Machine Gun
 Type = MachineGun1
 ModelBullet = 7.91mm
-Power = 7
+Power = 8
 Acceleration = 7.0
 Explosion = 0
 Flaming = false
@@ -10,7 +10,7 @@ Delay = 1
 ReloadTime = 100
 SoundDelay = 0
 Sound = mgthree
-group = maingun
+
 Round = 150
 SoundPitch = 1.0
 ;SetCartridge = model name, velocity (in x-axis), ?, ?, size, gravity, "bounce-height" 
@@ -45,5 +45,5 @@ SuppliedNum = 270
 Item =   1, iron_ingot
 Item =  1, gunpowder
 
-AddDisplayName = en_US, 7.92x57mm MG34
+
 Acceleration = 7.0

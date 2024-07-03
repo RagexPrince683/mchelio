@@ -19,7 +19,7 @@ Stealth = 0.3
 
 CameraPosition = 0.00,  3.7, -0.0, true
 EnableNightVision = true
-CameraRotationSpeed = 33
+CameraRotationSpeed = 30
 EnableEntityRadar = true
 MaxFuel         = 1300
 FuelConsumption = 4.0
@@ -53,7 +53,7 @@ AddGunnerSeat =  0.000   ,  0.50 ,  0.0,   -0.450, 4.1548, -1.35, false, -60, 7,
 
 MotionFactor = 0.925
 
-ArmorMaxDamage = 900
+ArmorMaxDamage = 500
 ArmorDamageFactor = 0.90
 EnableBack = true
 PivotTurnThrottle = 0.0
@@ -87,10 +87,10 @@ AddTrackRoller = 1.82,  0.7808, -3.8282
 AddPartWeapon = armata2A82_APFSDS / armata2A82_HE / armata2A82_HEATMP / armata9m119m, false, true, false,  0.00, 1.8784, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.332, 1.3754, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.332, 1.3754, 0.5
-AddTurretWeapon = armata2A82_APFSDS, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -14, 7
-AddTurretWeapon = armata2A82_HE,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -14, 7
-AddTurretWeapon = armata2A82_HEATMP,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -14, 7
-AddTurretWeapon = armata9m119m,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -14, 7
+AddTurretWeapon = armata2A82_APFSDS, 0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -14, 7
+AddTurretWeapon = armata2A82_HE,     0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -14, 7
+AddTurretWeapon = armata2A82_HEATMP,     0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -14, 7
+AddTurretWeapon = armata9m119m,     0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -14, 7
 ;AddTurretWeapon = armatamg7_62mm,   -0.50, 2.30, 0.02,   0.0, 0.0, true, 1, 0, -360,360, -14,7
 
 AddTurretWeapon = armatamg7_62mm_mbt,    -0.0875, 3.5548, -1.35,   0.0, 0.0, true, 2, 0, -360,360, -45,7
@@ -161,8 +161,8 @@ BoundingBox = 0.0, 1.825, 0.5, 2.8, 0.1, 0.3
 BoundingBox = 0.0, 0.38, 2.9, 2.9, 0.1, 0.03
 BoundingBox = 0.0, 0.48, 3.0, 2.9, 0.1, 0.03
 BoundingBox = 0.0, 0.58, 3.1, 2.9, 0.1, 0.03
-BoundingBox = 0.0, 0.68, 3.2, 2.9, 0.1, 0.03
-BoundingBox = 0.0, 0.78, 3.3, 2.9, 0.1, 0.03
+BoundingBox = 0.0, 0.68, 3.2, 2.9, 0.1, 0.04
+BoundingBox = 0.0, 0.78, 3.3, 2.9, 0.1, 0.04
 BoundingBox = 0.0, 0.88, 3.4, 2.9, 0.1, 0.04
 BoundingBox = 0.0, 0.98, 3.5, 2.9, 0.1, 0.05
 
@@ -179,6 +179,8 @@ BoundingBox = 0.0, 1.82, 0.5, 2.9, 0.1, 0.03
 
 ;BoundingBox = 0.0, 1.0, 0.0, 500, 80, 0.7
 
+
+BoundingBox = 0.0, 2.5, 0.0, 1.0, 1.0, 0.6
 
 
 unmountposition = 0.00,  1.50,  2.0

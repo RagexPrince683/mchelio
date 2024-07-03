@@ -67,9 +67,9 @@ AddTrackRoller = 2.12,  0.6869,  -4.4543
 AddPartWeapon = 30cn105f1 / 30cn105f1_he / 30cn105f1_heatmp, false, true, false,  0.00, 1.9196, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.2286, 1.7871, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.2286, 1.7871, 0.5
-AddTurretWeapon = 30cn105f1, 0.00, 2.2286, 1.7871,  0.0, 0.0, true,1, 0,-360,360,            -20, 8
-AddTurretWeapon = 30cn105f1_he,     0.00, 2.2286, 1.7871,  0.0, 0.0, true,1, 0,-360,360,     -20, 8
-AddTurretWeapon = 30cn105f1_heatmp,     0.00, 2.2286, 1.7871,  0.0, 0.0, true,1, 0,-360,360, -20, 8
+AddTurretWeapon = 30cn105f1, 0.00, 2.2286, 0.7871,  0.0, 0.0, true,1, 0,-360,360,            -20, 8
+AddTurretWeapon = 30cn105f1_he,     0.00, 2.2286, 0.7871,  0.0, 0.0, true,1, 0,-360,360,     -20, 8
+AddTurretWeapon = 30cn105f1_heatmp,     0.00, 2.2286, 0.7871,  0.0, 0.0, true,1, 0,-360,360, -20, 8
 AddTurretWeapon = 30m693,   -0.6258, 2.2275, 2.3978,   0.0, 0.0, false, 1, 0, -360,360,      -20, 0
 
 ;TODO: make a infrared search light thing, I don't know,  I don't even know how I'm gonna implement that
