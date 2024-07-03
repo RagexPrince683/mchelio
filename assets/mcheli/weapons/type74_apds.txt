@@ -21,6 +21,7 @@ RecoilBufCount = 40, 5
 Group = MainGun
 Recoil = 2.5
 
+DisplayMortarDistance = true
 Delay = 80
 Group = MainGun
 Acceleration = 7.0

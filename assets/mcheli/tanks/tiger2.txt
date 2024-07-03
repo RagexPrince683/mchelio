@@ -109,7 +109,7 @@ DamageFactor = 0.0
 ;ArmorDamageFactor = 1.0
 
 
-CameraRotationSpeed = 15
+CameraRotationSpeed = 12
 PivotTurnThrottle = 0.0
 WeightedCenterZ = 0.0
 SetWheelPos =  1.14, -0.24, 2.81, 1.35, 0.0, -1.74

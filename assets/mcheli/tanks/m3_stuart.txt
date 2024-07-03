@@ -33,7 +33,7 @@ PivotTurnThrottle = 0.0
 AddGunnerSeat =  0.206, 2.1, -0.3,   0.206, 0.5, -0.3,   true, -20, 10, true
 AddGunnerSeat =  0.0, 0.5, 0.0,     -0.5882, 1.5, 1.7,   false, -20, 10, false
 CameraPosition = 0.41, 3.5, -0.73, false
-CameraRotationSpeed = 20
+CameraRotationSpeed = 14
 
 StepHeight = 1.5
 InventorySize = 18

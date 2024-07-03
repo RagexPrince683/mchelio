@@ -1,7 +1,7 @@
 DisplayName = 125mm Type 88C Smoothbore Gun [125-I - APFSDS]
 Type = MachineGun1
 Power = 466
-Explosion = 1
+Explosion = 0
 ExplosionBlock = 0
 Acceleration = 8.0
 Sight = None

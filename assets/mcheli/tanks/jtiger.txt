@@ -1,6 +1,6 @@
 ﻿DisplayName = Jagdpanzer VI Jagdtiger
 AddDisplayName = en_US, Jagdpanzer VI Jagdtiger
-MaxHp = 250
+MaxHp = 210
 Speed = 0.21
 Sound = V12TIGER
 ThrottleUpDown = 1
@@ -15,7 +15,7 @@ CameraZoom = 10
 CameraPosition = 0.00, 3.5, 1.00
 HideEntity = false
 EnableNightVision = false
-CameraRotationSpeed = 10
+CameraRotationSpeed = 3
 MaxFuel         = 4200
 FuelConsumption = 3.0
 StepHeight = 1.5
@@ -100,8 +100,8 @@ AddWeapon = j128_he, 0.00, 2.37, 1.09, 0.0, 0.0, true, 1, 0,-10,10, -14, 7
 
 
 
-AddWeapon = jTigerH1MG34,  -0.6495, 1.4678, 3.1860,  0.0, 0.0, false,2, 0,-20,20, -20, 20
-AddPartWeapon  = jTigerH1MG34, false, true,  true,  -0.6495, 1.4678, 3.1860, 0
+AddWeapon = jtigerh1mg34,  -0.6495, 1.4678, 3.1860,  0.0, 0.0, false,2, 0,-20,20, -20, 20
+AddPartWeapon  = jtigerh1mg34, false, true,  true,  -0.6495, 1.4678, 3.1860, 0
 
 ArmorMinDamage = 30
 

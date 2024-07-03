@@ -39,7 +39,7 @@ EntityHeight = 0.8
 AddGunnerSeat =  0.406,   0.45,  1.52,    0.4172, 1.6,   2.1,     false, -20, 10, false
 AddGunnerSeat =  -0.535,   2.48,  -0.0302,    -0.535,   3.5,  -0.0302,    false, -60, 20, true
 CameraPosition = -0.0, 3.5, -0.0, false
-CameraRotationSpeed = 10
+CameraRotationSpeed = 7
 
 StepHeight = 1.5
 InventorySize = 18

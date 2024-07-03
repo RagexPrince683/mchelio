@@ -20,7 +20,7 @@ AddTexture = Panzerwerfer1
 
 AddSeat = -0.62, 1.5, 1.0
 AddSeat =  0.62, 1.0, 1.0
-CameraRotationSpeed = 25
+CameraRotationSpeed = 11
 
 EntityWidth  = 0.9
 EntityHeight = 0.9

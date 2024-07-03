@@ -40,7 +40,7 @@ SubmergedDamageHeight = 2
 
 AddGunnerSeat =  0.00,   1.3947, 0.00, 0.3840, 1.3947, 1.2673, false, -20, 5, true
 CameraPosition = 0.3840, 1.3947, 1.4, true, -20, 5
-CameraRotationSpeed = 20
+CameraRotationSpeed = 6
 
 MotionFactor = 0.9
 

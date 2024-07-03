@@ -1,7 +1,7 @@
 DisplayName = 125mm 2A46 Smoothbore Cannon [3BM-46 - APFSDS]
 Type = MachineGun1
 Power = 532
-Explosion = 1
+Explosion = 0
 ExplosionBlock = 0
 Acceleration = 8.0
 Sight = None

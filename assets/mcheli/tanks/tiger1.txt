@@ -16,7 +16,7 @@ Sound = V12TIGER
 HUD = ww2tank_hud, ww2tank_hud
 WeightType = Tank
 CameraZoom = 3
-CameraRotationSpeed = 10
+CameraRotationSpeed = 7
 DefaultFreelook = true
 SubmergedDamageHeight = 3
 

@@ -89,7 +89,7 @@ AddTurretWeapon = NSV, -0.75, 2.5, -0.3576, 0.0, 0.0, false, 2, 0, -360,360, -75
 
 
 
-CameraRotationSpeed = 25
+CameraRotationSpeed = 12
 
 StepHeight = 1.5
 HideEntity = true

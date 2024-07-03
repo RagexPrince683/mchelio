@@ -19,7 +19,7 @@ DefaultFreelook = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 DefaultFreelook = true
-CameraRotationSpeed = 26
+CameraRotationSpeed = 18
 
 HUD = mbt_hud
 

@@ -30,7 +30,7 @@ PivotTurnThrottle = 0.0
 
 AddGunnerSeat =   0.0, 1.5425,  0.00, -0.5819, 1.5425, 1.9133,  false, -18, 5, true
 CameraPosition =  0.5819, 1.5425, 1.9133, true, -30, 5
-CameraRotationSpeed = 25
+CameraRotationSpeed = 12
 
 StepHeight = 1.5
 HideEntity = true

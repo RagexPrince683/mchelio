@@ -1,7 +1,7 @@
 DisplayName = Jagdpanther G1
 AddDisplayName = ja_JP, JagdPanther G1
 ItemID = 30191
-MaxHp = 250
+MaxHp = 175
 Speed = 0.29
 ThrottleUpDown = 1.0
 Gravity = -0.61
@@ -35,7 +35,7 @@ unmountposition = 0.0, 1.5, 0.0
 
 AddGunnerSeat =  -0.6, 1.0,1.0,    -0.755, 2.0, 2.7,   false, -20, 10, false
 CameraPosition = 0.0, 3.0, 1.0, false
-CameraRotationSpeed = 10
+CameraRotationSpeed = 5
 
 StepHeight = 1.5
 InventorySize = 18

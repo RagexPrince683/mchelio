@@ -17,7 +17,7 @@ MobilityRoll = 0
 Gravity = -0.1
 GravityInWater = 0.1
 DamageFactor = 0.0
-CameraRotationSpeed = 25
+CameraRotationSpeed = 18
 DefaultFreelook = true
 CameraPosition = 0.00, 1.74, 1.06, true
 
