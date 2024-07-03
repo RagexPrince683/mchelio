@@ -1,0 +1,32 @@
+DisplayName = 120mm M256 Cannon [M1028 - Canister]
+Type = Rocket
+Power = 10
+Explosion = 0
+ExplosionBlock = 0
+Acceleration = 8.0
+Sight = None
+ReloadTime = 160
+Round = 1
+SoundVolume = 15
+Sound = abramsmain
+Accuracy = 0
+;BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+BombletSTime = 2
+BombletDiff = 0.9
+Bomblet = 1100
+ModelBullet = bullet76mm
+ModelBomblet = flechette
+DisableSmoke = true
+;DamageFactor = player, 2.0
+
+DisplayMortarDistance = true
+
+Gravity = -0.01
+
+;1100
+
+MaxAmmo = 5
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder

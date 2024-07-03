@@ -1,4 +1,4 @@
-DisplayName = 120mm Rehinmetall Smoothbore Cannon [M829A4 - APFSDS]
+DisplayName = 120mm M256 Cannon [M829A4 - APFSDS]
 Type = MachineGun1
 Power = 790
 Explosion = 0
@@ -7,9 +7,9 @@ Acceleration = 8.0
 Sight = None
 ReloadTime = 140
 Round = 1
-SoundVolume = 10.0
+SoundVolume = 15
 Sound = abramsmain
-Accuracy = 0.5
+
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 DamageFactor = tank, 1.0

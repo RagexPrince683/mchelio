@@ -1,7 +1,7 @@
-DisplayName = 120mm Rehinmetall Smoothbore Gun [M830 - HEAT]
+DisplayName = 120mm M256 Cannon [M830 - HEAT]
 Type = MachineGun1
 Power = 480
-Explosion = 4
+Explosion = 6
 ExplosionBlock = 4
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
@@ -11,14 +11,14 @@ Acceleration = 7.0
 Sight = None
 ReloadTime = 140
 Round = 1
-SoundVolume = 10.0
+SoundVolume = 15
 Sound = abramsmain
-Accuracy = 0.5
+
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.001
 
-ProximityFuseDist = 2
+;ProximityFuseDist = 2
 
 ; AddMuzzleFlash = 発射元からの距離, サイズ, 表示時間,  A,  R,  G,  B
 AddMuzzleFlash      =           10.2,   2.10,        7,  220,254,159,74
