@@ -9,14 +9,14 @@ DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 Acceleration = 7.0
 Sight = None
-ReloadTime = 140
-Round = 1
-SoundVolume = 10.0
-Sound = abramsmain
-Accuracy = 0.5
+
+Round = 8
+
+Sound = gheat
+
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.001
+Gravity = -0.003
 
 ;ProximityFuseDist = 2
 
@@ -29,7 +29,15 @@ AddMuzzleFlashSmoke   =              10.2,     30,   12.0,  4.0,       65,  220,
 AddMuzzleFlashSmoke   =             11.2,     20,   13.0,  7.0,       55,  200,190,170,150
 
 Delay = 140
-ReloadTime = 140
+ReloadTime = 160
+
+
+
+HeatCount = 900
+MaxHeatCount = 2050
+
+
+
 Group = MainGun
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
@@ -44,11 +52,13 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
+Recoil = 1.8
+
 DisplayMortarDistance = true
 
 
-MaxAmmo = 40
-SuppliedNum = 20
-Item =  1, iron_ingot
-Item =  2, gunpowder
-Item =  2, blazepowder
+MaxAmmo = 8
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  4, gunpowder
+;Item =  1, redstone

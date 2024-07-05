@@ -1,11 +1,13 @@
 DisplayName = M1A1 Abrams
 AddDisplayName = ja_JP, M1A1 エイブラムス
 ItemID = 30109
-MaxHp = 700
-Speed = 0.7
+MaxHp = 800
+Speed = 0.45
 Sound = abrams
-ThrottleUpDown = 20.0
-MobilityYawOnGround = 2.0
+ThrottleUpDown = 5.0
+
+SoundPitch = 0.6
+MobilityYawOnGround = 2.7
 MinRotationPitch = -20
 MaxRotationPitch = 10
 MobilityRoll = 0

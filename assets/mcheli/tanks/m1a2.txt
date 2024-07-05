@@ -2,11 +2,12 @@ DisplayName = M1A2 Abrams
 AddDisplayName = ja_JP, M1A2 エイブラムス
 ItemID = 30100
 MaxHp = 800
-Speed = 0.7
+Speed = 0.42
 Sound = abrams
 ThrottleUpDown = 5.0
+
 SoundPitch = 0.6
-MobilityYawOnGround = 2.5
+MobilityYawOnGround = 2.7
 MinRotationPitch = -20
 MaxRotationPitch = 10
 MobilityRoll = 0
@@ -28,7 +29,7 @@ FlareType = 10
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
-SubmergedDamageHeight = 3
+SubmergedDamageHeight = 2
 
 HideEntity = true
 
