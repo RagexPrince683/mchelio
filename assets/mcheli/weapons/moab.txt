@@ -30,5 +30,5 @@ ModelBomblet = none
 MaxAmmo = 1
 SuppliedNum = 1
 Item =  4, iron_ingot
-Item =  16, gunpowder
-Item =  2, redstone
+Item =  32, gunpowder
+Item =  2, redstone_block

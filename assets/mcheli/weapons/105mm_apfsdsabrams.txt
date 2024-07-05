@@ -7,14 +7,22 @@ Explosion = 0
 ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
+Delay = 140
 ReloadTime = 160
-Delay = 160
-ModeNum = 1
-Piercing  = 2
-SoundPitch = 0.5
-SoundVolume = 20
-Sound = mbtshot
+SoundPitchRandom = 0.1
+
+Round = 7
+
+HeatCount = 900
+MaxHeatCount = 2050
+
+
+
+SoundVolume = 15
+Sound = strykermain
 Group = MainGun
+Piercing = 5
+Accuracy = 0.0
 DamageFactor = tank, 10.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0

@@ -2,18 +2,23 @@ DisplayName = 105mm M68A1 Cannon [M393A2 - HESH]
 Type = MachineGun2
 Power = 127
 ModelBullet = bullet105mm
-Acceleration = 4.8
+SoundPitchRandom = 0.1
 Explosion = 4
 ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
+Delay = 140
 ReloadTime = 160
-Delay = 160
-ModeNum = 1
-Piercing  = 0
-SoundPitch = 0.7
-SoundVolume = 20
-Sound = mbtshot
+
+Round = 7
+
+HeatCount = 900
+MaxHeatCount = 2050
+
+Acceleration = 7
+
+SoundVolume = 15
+Sound = strykermain
 Recoil = 2
 Group = MainGun
 Piercing = 5

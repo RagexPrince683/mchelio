@@ -29,7 +29,7 @@ FlareType = 10
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
-SubmergedDamageHeight = 2
+SubmergedDamageHeight = 4
 
 HideEntity = true
 
@@ -137,7 +137,7 @@ AddWeapon = place, 1.20, 2.10, 5.20,  0.0, 0.0, true,1, 0,-0,0, -20, 20
 AddWeapon = place, 0.00, 2.10, 5.20,  0.0, 0.0, true,1, 0,-0,0, -20, 20
 AddWeapon = place, -1.20, 2.10, 5.20,  0.0, 0.0, true,1, 0,-0,0, -20, 20
 
-AddRecipe = "XXX",  " X ",  "III",  X, iron_block,  I, iron_ingot
+AddRecipe = "IXI",  " A ",  "III",  X, iron_block,  I, iron_ingot,  A, mcheli:m1abrams
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1

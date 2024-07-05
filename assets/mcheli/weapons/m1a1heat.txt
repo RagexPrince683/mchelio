@@ -3,14 +3,13 @@ Type = MachineGun1
 Power = 480
 Explosion = 6
 ExplosionBlock = 4
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+
 Acceleration = 7.0
 Sight = None
 
 Round = 8
+
+SoundPitchRandom = 0.1
 
 Sound = gheat
 

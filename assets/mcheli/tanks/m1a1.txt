@@ -31,7 +31,7 @@ AddTexture = m1a1ntforest
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
-SubmergedDamageHeight = 2
+SubmergedDamageHeight = 4
 
 HideEntity = true
 

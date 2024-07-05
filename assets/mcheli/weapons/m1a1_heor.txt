@@ -8,6 +8,8 @@ Sight = None
 
 Round = 1
 
+SoundPitchRandom = 0.1
+
 Sound = gheat
 
 ProximityFuseDist = 2
