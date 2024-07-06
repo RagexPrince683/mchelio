@@ -37,6 +37,9 @@ Step 7: Launch Minecraft.
 
 
 
+KNOWN INCOMPATIBILITIES: CMDcam, fast render (thermals), skin port (makes McheliDummyEntity have a steve skin), Fisk's Superheroes's Slow-motion vision (unchecked), xradar & mcheli on servers (set the config option for the mcheli issue to false)
+
+
 If you encounter any issues, please contact me at: ragexprince684@gmail.com
 
-For reporting bugs or project-related problems, reach out to me on Discord: [Discord Link](https://discord.gg/uQK6QF2TeA)
+For reporting bugs or project-related problems, reach out to me on Discord: [Discord Link](https://discord.gg/uQK6QF2TeA) or submit a bug report on github for the official source code [here](https://github.com/RagexPrince683/MCH-mocmaster)
