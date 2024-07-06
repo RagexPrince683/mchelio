@@ -52,7 +52,7 @@ AddGunnerSeat =  0.00,  1.1,  2.25,    0.00,  2.50,  0.25,  false, -90, 90, true
 
 unmountposition = 0.00,  1.5,  2.25
 AddGunnerSeat = -0.55,  1.00, -0.96,   -0.980, 2.79,  0.75, false, -90, 90, true
-AddGunnerSeat =  0.55,  2.50, -0.96,    0.55,  3.60, -0.96,  false, -90, 90, true
+AddGunnerSeat =  0.55,  2.50, -0.96,    0.55,  3.50, -0.96,  false, -90, 90, true
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.95
@@ -105,12 +105,12 @@ AddTrackRoller =  1.82,  0.81, -4.59
 AddPartWeapon = 105mm_apfsdsabrams / 105mm_abramsheat / 105mm_heabrams / 105abramscanistershell, false, true, false,   0.00, 2.10, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.5
-AddTurretWeapon =  0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = 105mm_apfsdsabrams, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = 105mm_abramsheat, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = 105mm_heabrams, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon =  0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = 105mm_apfsdsabrams, 0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = 105mm_abramsheat, 0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = 105mm_heabrams, 0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 
-AddTurretWeapon = 105abramscanistershell,        0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = 105abramscanistershell,        0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = m1a1m240,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 
 
