@@ -9,7 +9,7 @@ GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = true
 CameraRotationSpeed = 30
-StepHeight = 1
+StepHeight = 1.8
 MinRotationPitch = -20
 MaxRotationPitch = 5
 
