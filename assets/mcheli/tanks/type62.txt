@@ -102,6 +102,6 @@ BoundingBox =  0.0, 1.0,   0.75,   2.0, 0.18,  0.25
 MaxFuel         = 600
 FuelConsumption = 2.0
 
-StepHeight = 1.2
+StepHeight = 1.5
 
 

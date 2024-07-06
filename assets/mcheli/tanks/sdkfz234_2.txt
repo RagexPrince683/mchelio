@@ -37,7 +37,7 @@ AddSeat =  -0.6,  1.5,  -3.5
 CameraPosition = 0.0, 2.7,  0.0, false
 CameraRotationSpeed = 9
 
-StepHeight = 1.0
+StepHeight = 1.2
 InventorySize = 9
 ParticlesScale = 0.1
 SmoothShading = true

@@ -108,7 +108,7 @@ AddTexture = t-90a_5
 ;BoundingBox =  0.0, 1.6, -1.0,  2.0, 0.8
 ;BoundingBox =  0.0, 0.6, 0.8,  3.0, 1.2
 
-StepHeight = 1.5
+StepHeight = 1.8
 
 
 ArmorMinDamage = 30

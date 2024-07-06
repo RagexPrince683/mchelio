@@ -45,7 +45,7 @@ AddSeat       =  -0.56, 0.85, -2.46
 CameraPosition =  0.85, 2.55,  2.05, true
 
 
-StepHeight = 1.8
+StepHeight = 1.5
 InventorySize = 25
 ParticlesScale = 0.1
 SmoothShading = true

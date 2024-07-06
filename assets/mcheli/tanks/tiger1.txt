@@ -43,7 +43,7 @@ AddGunnerSeat =  0.85, 2.55, -0.534,   0.85,   2.9,  -0.534,   false, -8, 16, tr
 AddGunnerSeat = -0.6849,  0.5,  2.0650,    -0.7878, 1.8, 3.2,     false, -8, 16, false
 CameraPosition = 0.85, 3.6, -0.534, false
 
-StepHeight = 1.0
+StepHeight = 1.5
 ;InventorySize = 18
 ParticlesScale = 50.0
 SmoothShading = true
