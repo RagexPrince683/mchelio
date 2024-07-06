@@ -28,8 +28,8 @@ MobilityYawOnGround = 2.0
 MobilityYaw = 2.0
 MobilityPitch = 5.0
 MobilityRoll = 1.0
-MinRotationPitch = -8
-MaxRotationPitch = 15
+MinRotationPitch = -15
+MaxRotationPitch = 8
 MinRotationRoll  = -90
 MaxRotationRoll  =  90
 

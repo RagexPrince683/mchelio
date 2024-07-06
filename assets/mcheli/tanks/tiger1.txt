@@ -95,8 +95,8 @@ AddTrackRoller =   1.5,  0.316, -3.174
 AddCrawlerTrack = true, 0.21, -2.1,   1.22/ 3.27, 1.06/ 3.67, 0.66/ 3.83, 0.26/ 3.66, -0.15/ 2.66, -0.30/ 2.29, -0.30/ -2.26, -0.08/ -3.17, -0.04/ -3.46, 0.31/ -3.57, 0.60/ -3.46, 0.71/ -3.17, 0.76/ -2.26, 0.76/ 2.29, 1.06/ 2.87
 AddCrawlerTrack = true, 0.21,  2.1,   1.22/ 3.27, 1.06/ 3.67, 0.66/ 3.83, 0.26/ 3.66, -0.15/ 2.66, -0.30/ 2.29, -0.30/ -2.26, -0.08/ -3.17, -0.04/ -3.46, 0.31/ -3.57, 0.60/ -3.46, 0.71/ -3.17, 0.76/ -2.26, 0.76/ 2.29, 1.06/ 2.87
 
-MinRotationPitch = -8
-MaxRotationPitch = 16
+MinRotationPitch = -16
+MaxRotationPitch = 8
 
 AddPartWeapon  = TigerH1_APCBC / TigerH1_HE, false, true,  false,  0.0, 1.5, 0.0, 0
 AddPartWeaponChild = false, true,   0.0, 2.4479, 1.881

@@ -1,16 +1,16 @@
 DisplayName = BMMP
 MaxHp = 200
-Speed = 0.85
+Speed = 0.45
 Sound = bmptwoeng
-ThrottleUpDown = 10.0
+ThrottleUpDown = 5.0
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = true
-CameraRotationSpeed = 30
+CameraRotationSpeed = 21
 StepHeight = 1.8
-MinRotationPitch = -20
+MinRotationPitch = -25
 MaxRotationPitch = 5
 
 DefaultFreelook = true
@@ -87,3 +87,5 @@ BoundingBox = 0.0, 0.8, -2.45, 3.0, 1.3, 0.33
 
 BoundingBox = 0.0, 1.7, 0.0, 1.7, 0.6, 0.15
 
+
+UnmountPosition = 0.00, 1.50, 0.00

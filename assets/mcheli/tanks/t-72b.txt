@@ -47,8 +47,8 @@ CameraPosition = -0.59, 1.78, 1.85, true
 TurretPosition = 0.0, 0.0, -0.0
 
 
-MinRotationPitch = -75
-MaxRotationPitch = 5
+MinRotationPitch = -13
+MaxRotationPitch = 6
 
 
 
