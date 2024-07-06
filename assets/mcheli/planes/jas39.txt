@@ -1,5 +1,5 @@
-﻿DisplayName = SAAB JAS39 gripen
-AddDisplayName = en_US, SAAB JAS39 gripen
+﻿DisplayName = SAAB JAS39 Gripen
+AddDisplayName = en_US, SAAB JAS39 Gripen
 AddDisplayName = ja_JP, SAAB JAS39 グリペン
 ItemID = 28727
 MaxHp = 100
@@ -45,8 +45,8 @@ AddWeapon =  aim120, -3.24, 0.85, -6.00,  0.0, 0.0
 AddWeapon =  aim120,  3.24, 0.85, -6.00,  0.0, 0.0
 AddWeapon =  aim120, -3.55, 1.27, -6.00,  0.0, 0.0
 AddWeapon =  aim120,  3.55, 1.27, -6.00,  0.0, 0.0
-AddWeapon =  aim-9x, -4.76, 1.67, -8.00,  0.0, 0.0
-AddWeapon =  aim-9x,  4.76, 1.67, -8.00,  0.0, 0.0
+AddWeapon =  aim9_m, -4.76, 1.67, -8.00,  0.0, 0.0
+AddWeapon =  aim9_m,  4.76, 1.67, -8.00,  0.0, 0.0
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 BoundingBox =  0.00, 1.45,  2.65,   0.7, 0.7
