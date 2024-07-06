@@ -43,7 +43,7 @@ WeightedCenterZ = 0.0
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  1.82,  -0.24,  2.55,  0.70, -0.76, -2.22, -3.55
+
 
 HUD = mbt_hud, mbt_gnr, gunner
 
@@ -73,6 +73,8 @@ AddCrawlerTrack = false, 0.37,  2.15,  1.14/ -4.62,  1.10/ -4.88,  0.80/ -4.90, 
 
 ; 転輪の回転速度：0より小さい値を設定すると逆回転する
 ;TrackRollerRot = 30
+
+SetWheelPos =  1.72,  -0.24,  2.22,  1.02, 0.06, -0.90, -1.86, -2.82, -3.78
 
 ;転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
 ;履帯と同じ動きをするが、履帯がなくても設定可能
@@ -114,7 +116,7 @@ AddPartTurretWeapon    = m240_r,   false, true, true,   1.243, 3.24, -0.77
 AddPartTurretWeapon    = m240_r,   false, true, false,  1.243, 3.24, -0.77
 AddTurretWeapon = m240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -65,9
 
-AddRecipe = "XXX",  " X ",  "III",  X, iron_block,  I, iron_ingot
+AddRecipe = "XXX",  " X ",  "IAI",  X, iron_block,  I, iron_ingot, A, mcheli:m1a1
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
