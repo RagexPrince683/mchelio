@@ -20,7 +20,7 @@ DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
-Piercing = 5
+Piercing = 2
 
 AddMuzzleFlash      = 6.1,      0.85,        1,  150,254,219,154
 AddMuzzleFlash      = 6.0,      0.80,        1,  150,254,219,184
