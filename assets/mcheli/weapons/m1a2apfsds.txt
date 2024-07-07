@@ -1,12 +1,12 @@
-DisplayName = 120mm M256 Cannon [M829A4 - APFSDS]
+DisplayName = 120mm M256 Cannon [M829A2 - APFSDS]
 Type = MachineGun1
-Power = 950
+Power = 740
 Explosion = 0
 ExplosionBlock = 0
 
 Sight = None
 
-Round = 7
+Round = 1
 
 SoundPitchRandom = 0.1
 SoundVolume = 15
@@ -32,8 +32,8 @@ Recoil = 1.8
 MaxAmmo = 7
 SuppliedNum = 1
 Item =  2, iron_ingot
-Item =  6, gunpowder
-Item =  3, redstone
+Item =  3, gunpowder
+Item =  1, redstone
 
 
 Delay = 140

@@ -1,4 +1,4 @@
-DisplayName = M1 Abrams
+DisplayName = M1 Abrams (105mm)
 AddDisplayName = ja_JP, M1 エイブラムス
 ItemID = 30100
 MaxHp = 600
@@ -109,8 +109,8 @@ AddTurretWeapon =  0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = 105mm_apfsdsabrams, 0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = 105mm_abramsheat, 0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon = 105mm_heabrams, 0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-
 AddTurretWeapon = 105abramscanistershell,        0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+
 AddTurretWeapon = m1a1m240,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 
 

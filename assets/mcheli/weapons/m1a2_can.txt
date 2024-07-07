@@ -1,21 +1,29 @@
-DisplayName = 120mm M256 Cannon [M829A4 - APFSDS]
-Type = MachineGun1
-Power = 950
+DisplayName = 120mm M256 Cannon [M1028 - Canister]
+Type = Rocket
+Power = 10
 Explosion = 0
 ExplosionBlock = 0
-
+Acceleration = 8.0
 Sight = None
 
-Round = 7
-
 SoundPitchRandom = 0.1
+
+Round = 1
 SoundVolume = 15
-Sound = gsabot
-
-BulletColor        = 255, 255, 100, 100
+Sound = gheat
+Accuracy = 0
+;BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
+BombletSTime = 2
+BombletDiff = 0.9
+Bomblet = 1100
+ModelBullet = bullet76mm
+ModelBomblet = flechette
+DisableSmoke = true
+;DamageFactor = player, 2.0
 
-Gravity = -0.001
+Delay = 140
+ReloadTime = 160
 
 AddMuzzleFlash      =           10.2,   2.10,        7,  220,254,159,74
 AddMuzzleFlash      =           10.1,   2.05,        6,  220,254,219,104
@@ -24,35 +32,23 @@ AddMuzzleFlash      =           10.0,   2.00,        5,  220,254,219,184
 AddMuzzleFlashSmoke   =              10.2,     30,   12.0,  4.0,       65,  220,160,140,120
 AddMuzzleFlashSmoke   =             11.2,     20,   13.0,  7.0,       55,  200,190,170,150
 
-DisplayMortarDistance = true
-
-Recoil = 1.8
-
-
-MaxAmmo = 7
-SuppliedNum = 1
-Item =  2, iron_ingot
-Item =  6, gunpowder
-Item =  3, redstone
-
-
-Delay = 140
-ReloadTime = 160
-
 
 
 HeatCount = 900
 MaxHeatCount = 2050
 
 
-
 Group = MainGun
-Acceleration = 7.0
-ModelBullet = bullet105mm
-Piercing = 5
-Accuracy = 0.0
-DamageFactor = tank, 10.0
-DamageFactor = plane, 1.5
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 2.0
-DamageFactor = player, 10.0
+
+Recoil = 1.8
+
+DisplayMortarDistance = true
+
+Gravity = -0.01
+
+;1100
+
+MaxAmmo = 7
+SuppliedNum = 1
+Item =  5, iron_ingot
+Item =  1, gunpowder

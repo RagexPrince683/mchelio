@@ -31,6 +31,8 @@ DamageFactor = player, 20.0
 
 DisplayMortarDistance = true
 
+Recoil = 1.9
+
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  7.1,      1.75,        6,  200,254,219,104

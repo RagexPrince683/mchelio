@@ -16,6 +16,7 @@ Round = 7
 HeatCount = 900
 MaxHeatCount = 2050
 
+Recoil = 1.9
 
 SoundVolume = 15
 Sound = strykermain
