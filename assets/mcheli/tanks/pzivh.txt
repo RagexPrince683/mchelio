@@ -24,7 +24,7 @@ OnGroundPitchFactor = 3.0
 OnGroundRollFactor  = 3.0
 FlareType = 10
 ThirdPersonDist = 12
-
+unmountposition = -0.0,  2.00,  -0.25
 ;moved forward 54.58
 ;so 0.5458
 

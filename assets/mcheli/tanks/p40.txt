@@ -17,7 +17,7 @@ MaxRotationPitch = 10
 DefaultFreelook = true
 CameraPosition = 0.00, 3.5, 0.47, true
 HideEntity = true
-
+unmountposition = -0.0,  1.50,  -0.25
 MobilityYawOnGround = 3.0
 
 ; Tank or Car or Unknown

@@ -20,7 +20,7 @@ DamageFactor = 0.0
 CameraRotationSpeed = 18
 DefaultFreelook = true
 CameraPosition = 0.00, 1.74, 1.06, true
-
+unmountposition = -0.0,  1.50,  -0.25
 HideEntity = true
 
 MobilityYawOnGround = 3.0

@@ -54,3 +54,4 @@ AddFixedSearchLight = -0.9094, 1.0857, 3.3885,   0xFFFFFFFF,   0x00FFFFC0,    0.
 AddPartSteeringWheel =  0.5025, 1.732, 1.7355, 0, 0.6, -1, 110
 EntityWidth=0.8
 EntityHeight=0.8
+unmountposition = -0.0,  1.75,  -0.50

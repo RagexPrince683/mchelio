@@ -27,7 +27,7 @@ SetWheelPos =  1.31, -0.24, 2.41, 1.37, -0.13, -1.80, -2.96, -3.93
 AddgunnerSeat =  1.00,  1.9,  -0.5,    0.00,  1.9,  -1.8,  true, -75, 5, true
 AddSeat =  -1.00,  1.9,  -0.5,    0.00
 CameraPosition = 0.00,  3.6, 0.0,true
-
+unmountposition = -0.0,  2.00,  -0.25
 addtexture = m421
 
 MotionFactor = 0.91

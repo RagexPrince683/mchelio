@@ -14,7 +14,7 @@ Sound = Tank
 HUD = ww2tank_hud, ww2tank_hud
 WeightType = Tank
 DefaultFreelook = true
-
+unmountposition = -0.0,  2.00,  -0.25
 AddTexture = M3_Stuart1
 AddTexture = M3_Stuart2
 

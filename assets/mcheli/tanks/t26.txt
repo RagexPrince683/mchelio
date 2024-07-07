@@ -29,7 +29,7 @@ WeightedCenterZ = 0.0
 SetWheelPos =  1.08,  -0.24,  1.6675,  -0.191, -2.2347
 HUD = ww2tank_hud
 AddTexture = t26_1
-
+unmountposition = -0.0,  2.00,  -0.25
 AddGunnerSeat =  0.00,  1.70,  0,    0.00,  3,  0,  false, -90, 45, true
 MotionFactor = 0.99
 ArmorMinDamage = 7

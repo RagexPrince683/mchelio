@@ -35,7 +35,8 @@ AddTexture = amx-30bdes2
 AddGunnerSeat =  -0.734,  1.00,  2.38,    0.00,  2.70,  -0.5,  false, -20, 8, true
 AddGunnerSeat =  -0.76,  2.3,  -0.6226,    -0.764,  3.8,  -0.657,  false, -30, 5, true
 
-unmountposition = -0.734,  2.70,  2.38
+unmountposition = -0.0,  2.00,  0.6
+
 
 MotionFactor = 0.925
 ArmorMinDamage = 15

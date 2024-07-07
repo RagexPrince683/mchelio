@@ -28,7 +28,7 @@ WeightType = Unknown
 WeightedCenterZ = 0.0
 SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
 HUD = mbt_hud, mbt_gnr
-
+unmountposition = -0.0,  2.00,  0.25
 AddTexture = t72b3_veteran
 AddTexture = t72b3_veteran1
 

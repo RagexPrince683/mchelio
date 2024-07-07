@@ -16,7 +16,7 @@ MaxRotationPitch = 5
 DefaultFreelook = true
 ThirdPersonDist = 12
 Sound = leoone
-
+unmountposition = -0.0,  1.70,  0.25
 AddTexture = type62_2
 AddTexture = type62_3
 AddTexture = type62_4

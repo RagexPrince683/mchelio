@@ -17,7 +17,7 @@ DefaultFreeLook = True
 AddTexture = panther2
 AddTexture = panther3
 AddTexture = panther4
-
+unmountposition = -0.0,  2.00,  -0.25
 CameraPosition = 0.0, 3.00, 0.0, true
 HUD = ww2tank_hud, none, none, none
 

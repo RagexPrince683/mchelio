@@ -11,7 +11,7 @@ Speed = 0.2
 MaxFuel         = 600
 FuelConsumption = 0.6
 ThirdPersonDist = 12
-
+unmountposition = -0.0,  1.50,  -0.75
 ; W = WWII.  R = Reconnaissance(偵察機)
 Category = W.R
 

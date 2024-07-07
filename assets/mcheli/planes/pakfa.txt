@@ -7,6 +7,8 @@ EnableEntityRadar = true
 EnableEjectionSeat = true
 Speed = 1.324
 
+
+unmountposition = 0,  1.5,  0
 OnGroundPitch = -2.0
 FlareType = 3
 ParticlesScale = 0.7

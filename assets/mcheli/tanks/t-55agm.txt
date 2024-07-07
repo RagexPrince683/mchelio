@@ -12,7 +12,7 @@ HUD = mbt_hud
 WeightType = Tank
 DefaultFreelook = true
 FlareType = 10
-
+unmountposition = -0.0,  2.00,  0.25
 AddTexture = t-55agm_2
 AddTexture = t-55agm_3
 

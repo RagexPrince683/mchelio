@@ -6,7 +6,7 @@ Speed = 0.7
 
 ;-22.47
 ;-0.2247
-
+unmountposition = -0.0,  2.50,  0.25
 
 
 Sound = MT_run_snd

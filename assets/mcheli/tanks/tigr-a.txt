@@ -13,7 +13,7 @@ HUD = super_duty_hud,mbt_hud,none,none,none,none
 EnableEntityRadar = true
 MaxFuel         = 1200
 FuelConsumption = 1.0
-
+unmountposition = -0.0,  1.50,  -0.25
 ;Поведение при езде
 MobilityRoll = 0
 Gravity = -0.1

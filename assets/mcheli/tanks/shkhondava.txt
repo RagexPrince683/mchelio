@@ -23,7 +23,7 @@ SubmergedDamageHeight = 4
 HideEntity = true
 DefaultFreelook = true
 
-
+unmountposition = -0.0,  2.50, -0.5
 WeightType = Tank
 
 WeightedCenterZ = 0.0 

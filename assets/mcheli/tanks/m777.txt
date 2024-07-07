@@ -22,7 +22,7 @@ WeightedCenterZ = 0.0
 
 OnGroundPitchFactor = 3.5
 OnGroundRollFactor  = 3.5
-
+unmountposition = -0.0,  2.00,  -0.75
 MobilityYawOnGround = 0.5
 PivotTurnThrottle = 0.0
 

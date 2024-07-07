@@ -15,7 +15,7 @@ MaxRotationPitch = 0
 DefaultFreelook = true
 HideEntity = false
 CameraPosition = 0.90, 2.61, -3.2266, false
-
+unmountposition = -0.0,  2.00,  -0.75
 MobilityYawOnGround = 1.0
 
 HUD = mbt_hud

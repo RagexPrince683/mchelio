@@ -3,7 +3,7 @@ AddDisplayName = en_US, Avro Vulcan XH558 B.2
 AddDisplayName = ja_JP, ARVO VULCAN XH558 B.2
 ItemID = 28738
 MaxHp  = 250
-EnableNightVision  = true
+EnableNightVision  = false
 EnableEntityRadar  = true
 EnableEjectionSeat = true
 Speed = 1.1223
@@ -19,7 +19,7 @@ AutoPilotRot = 0
 ThirdPersonDist = 24
 
 sound = xh
-
+unmountposition = 0.80,  1.70,  0.28
 ThrottleUpDown = 0.1
 enableback = true
 DamageFactor = 0.8

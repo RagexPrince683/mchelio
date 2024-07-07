@@ -18,13 +18,13 @@ WeightType = Tank
 WeightedCenterZ = 0.0
 EnableBack = true
 InventorySize = 54
-
+unmountposition = -0.0,  2.00,  -0.25
 AddSeat = -1.31, 2.30, 2.62
 AddSeat = 1.31, 2.30, 2.62
 AddSeat = 0.0, 4.7, 0.7
 AddSeat = 1.24, 2.67, -4.59
 AddSeat = -1.24, 2.67, -4.59
-
+unmountposition = -0.0,  1.50,  -0.25
 
 SetWheelPos =  1.75,  -0.24,  4.85, 3.02, 1.44, -1.54, -2.91
 

@@ -19,7 +19,7 @@ SubmergedDamageHeight = 4
 OnGroundPitchFactor = 3.0
 OnGroundRollFactor  = 3.0
 HideEntity = false
-
+unmountposition = -0.0,  2.00,  -0.75
 ;Made by TehNIck from McHeli Ukranie workshop  
 WeightType = Tank
 

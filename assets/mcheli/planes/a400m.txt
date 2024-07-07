@@ -9,6 +9,9 @@ Speed = 0.89262
 ;513
 
 
+unmountposition = 0.7, 1.5, -0.25
+
+
 
 FlareType = 2
 MaxHP = 250

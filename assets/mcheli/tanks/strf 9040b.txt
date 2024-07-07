@@ -18,7 +18,7 @@ DefaultFreelook = true
 HideEntity = true
 FlareType = 10
 ThirdPersonDist = 8
-
+unmountposition = -0.0,  2.00,  0.25
 MobilityYawOnGround = 3.0
 
 HUD = mbt_hud

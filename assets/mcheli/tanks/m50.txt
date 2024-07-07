@@ -26,7 +26,7 @@ HideEntity = true
 EnableBack = true
 DefaultFreeLook = True
 
-
+unmountposition = -0.0,  2.00,  -0.25
 AddGunnerSeat =  .0070,  2.2713, -1.4493,   0.00,  1.0, 0.00,true
 
 

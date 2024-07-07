@@ -19,7 +19,7 @@ HideEntity = true
 MobilityYawOnGround = 3.0
 Sound = leoone
 HUD = mbt_hudtwo, gunnernvg
-
+unmountposition = -0.0,  2.00,  0.25
 
 SubmergedDamageHeight = 3
 

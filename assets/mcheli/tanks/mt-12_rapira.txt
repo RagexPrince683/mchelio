@@ -31,7 +31,7 @@ MaxFuel         = 1500
 FuelConsumption = 2.0
 
 TrackRollerRot = 2.5
-
+unmountposition = -0.0,  2.00,  -0.75
 AddTrackRoller =   0.8845,  0.1680,  0.0005
 AddTrackRoller =  -0.8845,  0.1680,  0.0005
 
