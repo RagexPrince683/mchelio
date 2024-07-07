@@ -15,8 +15,8 @@ HUD = ww2tank_hud, ww2tank_hud
 WeightType = Tank
 DefaultFreelook = true
 unmountposition = -0.0,  2.00,  -0.25
-AddTexture = M3_Stuart1
-AddTexture = M3_Stuart2
+AddTexture = m3_stuart1
+AddTexture = m3_stuart2
 
 EnableBack = true
 SetWheelPos =  0.9,  -0.24,  2.5, 0.8, -0.8, -2.5
