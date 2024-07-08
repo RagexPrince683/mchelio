@@ -36,7 +36,7 @@ DamageFactor = heli, 0.5
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 3000
-SuppliedNum = 250
+MaxAmmo = 1350
+SuppliedNum = 270
 Item =  2, iron_ingot
 Item =  2, gunpowder

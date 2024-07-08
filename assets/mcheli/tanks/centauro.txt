@@ -1,6 +1,6 @@
-DisplayName = B1 Centauro (105mm)
-AddDisplayName = en_US, B1 Centauro (105mm)
-AddDisplayName = ja_JP, チェンタウロ偵察戦闘車 (105mm)
+DisplayName = B1 Centauro 105mm
+AddDisplayName = en_US, B1 Centauro 105mm
+AddDisplayName = ja_JP, チェンタウロ偵察戦闘車 105mm
 ItemID = 30102
 MaxHp = 200
 Speed = 0.67

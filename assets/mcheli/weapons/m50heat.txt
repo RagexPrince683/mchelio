@@ -1,4 +1,4 @@
-DisplayName = 104mm Recoilless Rifle M40A1C
+DisplayName = 105mm Recoilless Rifle M40A1C
 Type = MachineGun1
 Power = 433
 ModelBullet =bullet105mm

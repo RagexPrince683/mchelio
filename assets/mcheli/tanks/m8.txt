@@ -3,7 +3,7 @@ AddDisplayName = ru_RU, M8 Greyhound
 ItemID = 30997
 MaxHp = 200
 Speed = 0.55
-Sound = prop_tank
+Sound = stuart
 ThrottleUpDown = 1.1
 MobilityYawOnGround = 7.0
 MobilityRoll = 0
@@ -50,16 +50,16 @@ EnableBack = true
 
 PivotTurnThrottle = 0.1
 
-AddTurretWeapon = m51_mbt,  0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -5,5
-AddTurretWeapon = m63_mbt,  0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -5,5
-AddTurretWeapon = m74_mbt,  0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -5,5
+AddTurretWeapon = m51_mbt,  0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -20,10
+AddTurretWeapon = m63_mbt,  0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -20,10
+AddTurretWeapon = m74_mbt,  0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -20,10
 AddTurretWeapon = m2_canister_mbt, 0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -5,5
 AddTurretWeapon = m2_mbt, -0.2415, 2.4269, 1.0635,   0.0, 0.0, true, 1,0,-360,360, -5,5
 
 AddWeapon = none,  0.0078, 2.4278, 2.5094,   0.0, 0.0, true, 2,0,-360,360, -5,5
 
 AddPartWeapon = m51_mbt / m63_mbt/ m74_mbt/ m2_canister_mbt, false, true, false,  -0.0114, 2.2456, 0.2101
-AddPartWeaponChild = false, true, -0.0114, 2.2456, 0.2101, 0.3
+AddPartWeaponChild = false, true, -0.0114, 2.3682, 1.3976, 0.3
 
 AddPartWheel     =  1.6323, 0.3479,  2.8121, 15
 AddPartWheel     =  1.6323, 0.3479, -0.5581

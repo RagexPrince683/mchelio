@@ -1,11 +1,11 @@
-DisplayName = M50 Ontos
-AddDisplayName = ja_JP, M50
-AddDisplayName = en_US, M50 Ontos
+DisplayName = M50 Ontos 'the thing'
+AddDisplayName = ja_JP, M50 Ontos 'the thing'
+AddDisplayName = en_US, M50 Ontos 'the thing'
 ItemID = 30100
-MaxHp = 25
-Speed = 0.7
+MaxHp = 100
+Speed = 0.30
 Sound = mbt_run
-ThrottleUpDown = 10.0
+ThrottleUpDown = 1.0
 MobilityYawOnGround = 2.0
 MinRotationPitch = -20
 MaxRotationPitch = 10

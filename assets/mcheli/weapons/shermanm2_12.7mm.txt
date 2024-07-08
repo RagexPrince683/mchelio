@@ -37,7 +37,7 @@ Round = 200
 ReloadTime = 80
 
 
-MaxAmmo = 550
-SuppliedNum = 110
+MaxAmmo = 600
+SuppliedNum = 100
 Item =  2, iron_ingot
 Item =  2, gunpowder
