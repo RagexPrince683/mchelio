@@ -18,8 +18,8 @@ DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
-MaxAmmo = 12
-SuppliedNum = 3
+MaxAmmo = 8
+SuppliedNum = 2
 Item =  3, iron_ingot
 Item =  3, gunpowder
 Item =  3, redstone
