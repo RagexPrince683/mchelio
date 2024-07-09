@@ -176,4 +176,4 @@ AddRecipe = "III",  "IXI",  "IXI",  X,iron_block,  I,iron_ingot
 
 ;AddRecipe = "   ",  " X ",  "   ",  X,mcheli:m4_calliope
 
-AddShapelessRecipe = mcheli:m4_calliope
+;AddShapelessRecipe = mcheli:m4_calliope,iron_ingot
