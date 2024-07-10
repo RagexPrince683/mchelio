@@ -10,7 +10,7 @@ MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 1.0
-CameraZoom = 2
+CameraZoom = 4
 CameraPosition = -0.0114, 4.2456, 0.2101, true
 CameraRotationSpeed = 14
 MinRotationPitch = -34
@@ -50,15 +50,16 @@ EnableBack = true
 
 PivotTurnThrottle = 0.1
 
-AddTurretWeapon = m51_mbt,  0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -20,10
-AddTurretWeapon = m63_mbt,  0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -20,10
-AddTurretWeapon = m74_mbt,  0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -20,10
-AddTurretWeapon = m2_canister_mbt, 0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -5,5
-AddTurretWeapon = m2_mbt, -0.2415, 2.4269, 1.0635,   0.0, 0.0, true, 1,0,-360,360, -5,5
+AddTurretWeapon = m8m51_mbt,  0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -20,10
+AddTurretWeapon = m8m63_mbt,  0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -20,10
+AddTurretWeapon = m8m74_mbt,  0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -20,10
+AddTurretWeapon = m8m2_canister_mbt, 0.0078, 2.4278, 1.0094,   0.0, 0.0, true, 1,0,-360,360, -5,5
 
-AddWeapon = none,  0.0078, 2.4278, 2.5094,   0.0, 0.0, true, 2,0,-360,360, -5,5
+AddTurretWeapon = m8m2_mbt, -0.2415, 2.4269, 1.0635,   0.0, 0.0, true, 1,0,-360,360, -5,5
 
-AddPartWeapon = m51_mbt / m63_mbt/ m74_mbt/ m2_canister_mbt, false, true, false,  -0.0114, 2.2456, 0.2101
+;AddWeapon = none,  0.0078, 2.4278, 2.5094,   0.0, 0.0, true, 2,0,-360,360, -5,5
+
+AddPartWeapon = m8m51_mbt / m8m63_mbt/ m8m74_mbt/ m8m2_canister_mbt, false, true, false,  -0.0114, 2.2456, 0.2101
 AddPartWeaponChild = false, true, -0.0114, 2.3682, 1.3976, 0.3
 
 AddPartWheel     =  1.6323, 0.3479,  2.8121, 15
@@ -99,4 +100,4 @@ StepHeight = 1.2
 
 UnmountPosition = -0.0114, 1.5456, 0.2101
 
-AddRecipe = " I ",  "XII",  "III",  X, iron_block,  I, iron_ingot
+AddRecipe = " I ",  "III",  "III",  I, iron_ingot

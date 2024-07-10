@@ -1,10 +1,7 @@
-DisplayName = 105mm M40A2 Recoilless Rifle [M581 - APERS]
+DisplayName = 106mm M40A2 Recoilless Rifle [M581 - APERS]
 Type = Rocket
 Power = 10
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+
 Acceleration = 7.0
 Explosion = 0
 Flaming = false
@@ -13,8 +10,8 @@ Sight = MoveSight
 Delay = 110
 ReloadTime = 110
 Round = 1
-Bomblet = 80
-BombletSTime = 6
+Bomblet = 800
+BombletSTime = 3
 BombletDiff = 0.25
 Piercing  = 2
 Gravity = -0.005
