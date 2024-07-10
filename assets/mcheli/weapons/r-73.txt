@@ -17,8 +17,8 @@ LockTime = 14
 ProximityFuseDist = 2
 Sound = missile_1_snd
 
-MaxAmmo = 6
-SuppliedNum = 3
+MaxAmmo = 2
+SuppliedNum = 2
 Item =  2, iron_ingot
 Item =  2, gunpowder
 Item =  2, redstone

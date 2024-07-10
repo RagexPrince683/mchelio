@@ -46,8 +46,8 @@ AddPartWeaponMissile = kh-25, false, false, false,  -3.66, 1.65, -5.65
 AddWeapon = gsh-30-1,  0.75, 1.94, -0.30,   0.0, -1.0
 AddWeapon = s8,       -2.55, 1.57, -5.14,   0.0, -1.0
 AddWeapon = s8,        2.55, 1.57, -5.14,   0.0, -1.0
-AddWeapon = r27mig29,     3.66, 1.65, -5.65,   0.0, -1.0
-AddWeapon = r27mig29,    -3.66, 1.65, -5.65,   0.0, -1.0
+AddWeapon = kh-25,     3.66, 1.65, -5.65,   0.0, -1.0
+AddWeapon = kh-25,    -3.66, 1.65, -5.65,   0.0, -1.0
 AddWeapon = r73mig29,      5.13, 1.75, -6.70,   0.0, -1.0
 AddWeapon = r73mig29,     -5.13, 1.75, -6.70,   0.0, -1.0
 
