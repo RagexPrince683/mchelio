@@ -17,6 +17,8 @@ Gravity = -0.005
 Sound = shermanmain
 Piercing = 2
 
+ModelBullet = bullet
+
 Group = Maingun
 
 DamageFactor = tank, 3.0

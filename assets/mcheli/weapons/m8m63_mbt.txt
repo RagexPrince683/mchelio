@@ -16,6 +16,8 @@ Accuracy = 1.5
 Gravity = -0.005
 Sound = shermanmain
 
+ModelBullet = bullet
+
 Group = Maingun
 
 DamageFactor = tank, 2.0

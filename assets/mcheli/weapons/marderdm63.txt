@@ -16,6 +16,7 @@ Accuracy = 1.5
 HeatCount = 6
 MaxHeatCount = 150
 
+ModelBullet = shortapfsds
 
 AddMuzzleFlashSmoke =  3.6,  1,   5.0,  0.8, 55,  180,250,245,240
 AddMuzzleFlashSmoke =  4.6,  1,   3.0,  0.5, 75,  180,220,217,214

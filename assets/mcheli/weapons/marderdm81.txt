@@ -16,6 +16,8 @@ Accuracy = 1.5
 HeatCount = 6
 MaxHeatCount = 150
 
+ModelBullet = bullet
+
 Gravity = -0.005
 
 AddMuzzleFlashSmoke =  3.6,  1,   5.0,  0.8, 55,  180,250,245,240

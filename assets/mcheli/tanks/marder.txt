@@ -26,7 +26,7 @@ CameraZoom = 6
 
 MobilityYawOnGround = 3.0
 
-HUD = mbt_hud, nohud, none, none, none, none, none
+HUD = mbt_hud, nohudbmp, none, none, none, none, none
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
@@ -80,8 +80,8 @@ AddPartTurretWeapon = mardermilan, false, true, true, -0.8247, 2.7547, 0.3129, 0
 
 AddTurretWeapon = mardermilan, -0.86, 3.09, 0.29,  0.0, 0.0, true,1, 0,-360,360, -20, 5
 
-
-AddPartHatch =   0.00,  0.24,  -3.92, 1,0, 0, -110
+AddWeapon = op, 0.0, 0.0, 0.0
+AddPartWeaponBay = op,   0.00,  0.24,  -3.92, 1,0, 0, -110
 
 EnableBack = true
 
@@ -125,4 +125,4 @@ BoundingBox = 0.0, 1.1, -2.4, 3.2, 1.8, 0.63
 ;BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
 ;BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25
 
-unmountposition = 0.00, 1.5, 0.0
+unmountposition = 0.00, 1.5, -3.18
