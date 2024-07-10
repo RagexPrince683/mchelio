@@ -57,8 +57,8 @@ AddWeapon = lau-68,   -3.31, 1.05, -3.88,   0.0, -0.0
 AddWeapon = gpu-2,     0.00, 0.50, -1.25,   0.0,  0.0
 
 AddPartRotWeapon     = gpu-2,  false,  false,  false,   0.00, 0.50, -1.54, 0,0,1
-AddPartWeaponMissile = aim9_l,   false,  false,  false,   4.21, 1.24, -3.75
-AddPartWeaponMissile = aim9_l,   false,  false,  false,  -4.21, 1.24, -3.75
+AddPartWeaponMissile = aim9,   false,  false,  false,   4.21, 1.24, -3.75
+AddPartWeaponMissile = aim9,   false,  false,  false,  -4.21, 1.24, -3.75
 
 AddWeapon = lau-68_apkws,  3.31, 1.05, -3.88,   0.0, -0.0,false, 2
 AddWeapon = lau-68_apkws, -3.31, 1.05, -3.88,   0.0, -0.0,false, 2
