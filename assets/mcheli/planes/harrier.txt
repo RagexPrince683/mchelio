@@ -57,8 +57,8 @@ AddPartWeaponMissile =mk62,    false,  false,  false,   2.57, 1.15, -5.48
 AddPartWeaponMissile =mk62,    false,  false,  false,  -2.57, 1.15, -5.48
 
 AddWeapon = gau-12u,  0.60, 0.80, -2.00,   0.0,-3.0
-AddWeapon = aim9_l,     4.85, 1.20, -3.87,   1.0, 0.0
-AddWeapon = aim9_l,    -4.85, 1.20, -3.87,  -1.0, 0.0
+AddWeapon = aim9lharrier,     4.85, 1.20, -3.87,   1.0, 0.0
+AddWeapon = aim9lharrier,    -4.85, 1.20, -3.87,  -1.0, 0.0
 AddWeapon = agm-65_1,   3.94, 1.21, -3.77,   0.0, 0.0
 AddWeapon = agm-65_1,  -3.94, 1.21, -3.77,  -0.0, 0.0
 AddWeapon = mk62,     2.12, 1.15, -5.48,   0.0, 0.0

@@ -51,8 +51,8 @@ AddPartPylon = -3.92, 2.50, -6.34,  0, 1,0, 35
 AddWeapon = bk27tornado, -0.59, 1.23,  1.78, 0.0, 0.0
 AddWeapon = bk27tornado,  0.59, 1.23,  1.78, 0.0, 0.0
 AddWeapon = mw-1,  0.00, 1.00, -5.12, 0.0, 0.0 , true, 2
-AddWeapon = iris-t,  6.69, 1.76, -5.06, 0.0, 0.0
-AddWeapon = iris-t, -6.69, 1.76, -5.06, 0.0, 0.0
+AddWeapon = iris-ttornado,  6.69, 1.76, -5.06, 0.0, 0.0
+AddWeapon = iris-ttornado, -6.69, 1.76, -5.06, 0.0, 0.0
 AddWeapon = egbu24,  3.93, 1.43, -3.48, 0.0, 0.0
 AddWeapon = egbu24, -3.93, 1.43, -3.48, 0.0, 0.0
 

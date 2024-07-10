@@ -22,7 +22,7 @@ DamageFactor = heli, 3.0
 ;TrajectoryParticle = heart
 ;TrajectoryParticle = fireworksSpark
 
-MaxAmmo = 2
+MaxAmmo = 4
 SuppliedNum = 2
 Item =  3, iron_ingot
 Item =  3, gunpowder
