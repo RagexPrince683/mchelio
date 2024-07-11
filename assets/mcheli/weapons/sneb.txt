@@ -10,9 +10,9 @@ Acceleration = 4.0
 Explosion = 2
 Flaming = false
 Sight = MoveSight
-Delay = 3
+Delay = 2
 ReloadTime = 80
-Round = 22
+Round = 38
 Sound = rocket_snd
 
 Gravity = -0.001
@@ -24,7 +24,7 @@ Piercing = 0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 22
-SuppliedNum = 11
+MaxAmmo = 38
+SuppliedNum = 19
 Item =  2, iron_ingot
 Item =  2, gunpowder

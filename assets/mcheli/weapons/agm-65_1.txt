@@ -27,7 +27,7 @@ DamageFactor = player, 20.0
 
 
 ;Round = 2
-MaxAmmo = 4
+MaxAmmo = 2
 SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  2, gunpowder
