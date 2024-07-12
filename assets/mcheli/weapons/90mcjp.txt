@@ -4,7 +4,7 @@ Power = 127
 ModelBullet = bullet
 Acceleration = 5.0
 Explosion = 0
-ExplosionBlock = 1
+ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 6
@@ -21,7 +21,7 @@ Round = 4
 group = maingun
 
 Acceleration = 7.5
-Piercing = 0
+Piercing = 2
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5

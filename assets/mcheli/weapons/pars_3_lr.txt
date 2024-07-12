@@ -18,7 +18,7 @@ ReloadTime = 120
 ;Acceleration = 7.0
 
 
-MaxAmmo = 16
+MaxAmmo = 8
 SuppliedNum = 4
 Item =  2, iron_ingot
 Item =  1, gunpowder

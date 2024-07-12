@@ -76,8 +76,8 @@ AddWeapon = agm114tv, -1.85,  0.7444, -1.91, -1, 0,  true,2
 AddWeapon = agm114tv,  1.54,  0.7444, -1.91,  1, 0,  true,2
 AddWeapon = agm114tv, -1.54,  0.7444, -1.91,  1, 0,  true,2
 
-AddWeapon = aim9,  2.42,  1.6886, -1.56,  1, 0,  true,1
-AddWeapon = aim9, -2.42,  1.6886, -1.56,  1, 0,  true,1
+AddWeapon = aim9lah1,  2.42,  1.6886, -1.56,  1, 0,  true,1
+AddWeapon = aim9lah1, -2.42,  1.6886, -1.56,  1, 0,  true,1
 
 AddWeapon = a10gau8,  0.00,  0.70,  0.95,  0, 0,  false,2
 
