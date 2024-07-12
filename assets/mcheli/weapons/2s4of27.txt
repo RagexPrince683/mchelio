@@ -53,7 +53,7 @@ Item =  2, gunpowder
 Delay = 120
 ReloadTime = 1500
 Group = MainGun
-Acceleration = 4.0
+Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
 ModelBullet = bullet105mm
 Piercing = 0
@@ -62,5 +62,5 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, OF-45 [HE]
+
 SoundVolume = 15

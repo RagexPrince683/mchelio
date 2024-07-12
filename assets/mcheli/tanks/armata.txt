@@ -54,7 +54,7 @@ AddGunnerSeat =  0.000   ,  0.50 ,  0.0,   -0.450, 4.1548, -1.35, false, -60, 7,
 MotionFactor = 0.925
 
 ArmorMaxDamage = 500
-ArmorDamageFactor = 0.90
+ArmorDamageFactor = 0.85
 EnableBack = true
 PivotTurnThrottle = 0.0
 

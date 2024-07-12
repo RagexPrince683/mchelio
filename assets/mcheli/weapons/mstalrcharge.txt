@@ -1,27 +1,25 @@
-DisplayName = 152mm 2A65 Howitzer [3BV3 Nuclear Artillery Shell - 1KT]
+DisplayName = 152mm 2A65 Howitzer [OF-45 with OF72 Long Range Charge - HE]
 Type = MachineGun1
-Power = 700
+Power = 500
 ModelBullet = bullet105mm
-Explosion = 1
-ExplosionBlock = 1
+Explosion = 20
+ExplosionBlock = 5
+Acceleration = 4.0
+Sight = None
 
-NukeYield = 80
+Round = 13
+Sound = msta
+;Accuracy = 1.5
 
 ;HeatCount = 1100
 ;MaxHeatCount = 2050
 
 
-Sight = None
-
-Round = 13
-Sound = msta
-
 Accuracy = 0.5
 
-;Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.030
+Gravity = -0.010
 group = maingun
 
 ; 着弾距離の表示
@@ -49,12 +47,15 @@ Recoil = 2.5
 
 MaxAmmo = 13
 SuppliedNum = 1
-Item = 2, hbm:tile.det_nuke
-Item = 3, iron_ingot
+Item =  2, iron_ingot
 Item =  5, gunpowder
 
-Delay = 120
-ReloadTime = 1500
+ReloadTime = 80
+Round = 1
+Delay = 80
+
+HeatCount = 500
+MaxHeatCount = 2000
 Group = MainGun
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
@@ -65,5 +66,5 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, OF-45 [HE]
+
 SoundVolume = 15

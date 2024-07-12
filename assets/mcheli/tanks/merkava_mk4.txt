@@ -107,10 +107,11 @@ AddTurretWeapon = merkava4rehinmetall_heat, 0.00, 2.22, 0.00,  0.0,  0.0, false,
 AddTurretWeapon = merkava120mmcanistershell,      0.00, 2.22, 0.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 7
 AddTurretWeapon = merkava460mm_mortar,        0.90, 3.00, 0.52,  0.0,-45.0, false, 1, 0,-360,360, -85, 7
 AddTurretWeapon = merkava412_7,         0.00, 2.92, 2.70,  0.0,  0.0, false, 1, 0,-360,360, -20, 7
+AddTurretWeapon = merkava4mgcox,         0.5, 2.22, 1.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 7
 
 
 AddPartTurretWeapon = merkava4mg7_62mm, false, true, true,  -0.83, 3.39,-0.57, 0
-AddTurretWeapon = merkava4mg7_62mm,          -0.83, 3.39,-0.57,  0.0,  0.0, false,2, 0,-360,360, -80, 50
+AddTurretWeapon = merkava4mg7_62mm,          -0.83, 3.39,-0.57,  0.0,  0.0, false,2, 0,-60,120, -50, 5
 
 MaxFuel         = 1200
 FuelConsumption = 2.5
