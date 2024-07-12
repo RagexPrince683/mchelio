@@ -28,7 +28,7 @@ DamageFactor = player, 20.0
 AddDisplayName = en_US, 9K118 Sheksna
 SoundVolume = 15
 
-MaxAmmo = 10
+MaxAmmo = 4
 SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder

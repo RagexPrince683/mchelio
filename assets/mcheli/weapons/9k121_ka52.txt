@@ -30,7 +30,7 @@ DamageFactor = player, 20.0
 AddDisplayName = en_US, 9K121 Vikhr
 SoundVolume = 15
 
-MaxAmmo = 12
+MaxAmmo = 6
 SuppliedNum = 3
 Item =  1, iron_ingot
 Item =  1, gunpowder
