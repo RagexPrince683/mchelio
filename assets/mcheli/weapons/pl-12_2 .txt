@@ -1,24 +1,24 @@
-DisplayName = R-77-1 AAM
+DisplayName = PL-12 Anti-Air Missile 
 Type = AAMissile
-Power = 22
+Power = 20
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 Acceleration = 4
-Explosion = 5
+Explosion = 7
 Flaming = false
 Sight = MissileSight
 Delay = 9
 ReloadTime = 110
 Round = 2
-LockTime = 19
+LockTime = 18
 ProximityFuseDist = 3
+ModelBullet = PL-12
 Sound = missile_1_snd
-
 
 MaxAmmo = 2
 SuppliedNum = 2
-Item =  1, iron_ingot
-Item =  1, gunpowder
+Item =  2, iron_ingot
+Item =  2, gunpowder
 Item =  2, redstone
