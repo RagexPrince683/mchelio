@@ -38,7 +38,7 @@ HUD = plane, plane_gnr
 
 AddSeat       = 0.00,  2.43,  0.00
 
-unmountposition = 0.00,  1.53,  0.00
+unmountposition = 0.00,  2.43,  0.00
 
 AddGunnerSeat = 0.00,  2.51, -1.76, 0.0, 0.70, 1.6, true
 

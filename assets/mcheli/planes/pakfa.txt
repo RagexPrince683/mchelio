@@ -8,7 +8,7 @@ EnableEjectionSeat = true
 Speed = 1.324
 
 
-unmountposition = 0,  1.5,  0
+unmountposition = 0.00,  2.83,  2.3
 OnGroundPitch = -2.0
 FlareType = 3
 ParticlesScale = 0.7

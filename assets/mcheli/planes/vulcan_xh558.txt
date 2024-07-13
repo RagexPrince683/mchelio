@@ -19,7 +19,7 @@ AutoPilotRot = 0
 ThirdPersonDist = 24
 
 sound = xh
-unmountposition = 0.80,  1.70,  0.28
+unmountposition = 0.5127,  4.339,  8.12
 ThrottleUpDown = 0.1
 enableback = true
 DamageFactor = 0.8
