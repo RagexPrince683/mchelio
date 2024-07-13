@@ -16,7 +16,7 @@ DamageFactor = 1.0
 EnableNightVision = false
 DefaultFreelook = false
 
-SubmergedDamageHeight = 4
+SubmergedDamageHeight = 2
 OnGroundPitchFactor = 3.5
 OnGroundRollFactor  = 3.5
 

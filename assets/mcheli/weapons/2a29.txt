@@ -1,26 +1,26 @@
-DisplayName = 2A29 3BM1 [APFSDS]
+DisplayName = 100mm 2A29 Anti-Tank Gun [3BM23 - APFSDS]
 Type = MachineGun1
-Power = 400
+Power = 240
 ModelBullet = bullet105mm
-Acceleration = 8.0
-Explosion = 2
+Acceleration = 7.0
+Explosion = 0
 ExplosionBlock = 0
 Flaming = false
 Sight = None
-ReloadTime = 300
-Round = 1
-SoundVolume = 10.0
+
+SoundVolume = 15.0
 Sound = artillery_power
-Piercing = 1
+Piercing = 5
 BulletColor        = 255, 255, 100, 100
-Gravity = -0.01
+Gravity = -0.001
 Group = MainGun
 Recoil = 2.5
 
-DamageFactor = helicopter, 0.5
-DamageFactor = plane,      0.5
-DamageFactor = vehicle,    0.5
-DamageFactor = tank,       1.0
+DamageFactor = tank, 10.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
 
 AddMuzzleFlash      =  8.2,      2.10,        7,  220,254,159,74
 AddMuzzleFlash      =  8.1,      2.05,        6,  220,254,219,104
@@ -30,7 +30,16 @@ AddMuzzleFlashSmoke = 10.2, 20,  13.0,  7.0, 55,  200,190,170,150
 
 RecoilBufCount = 40, 5
 
-MaxAmmo = 30
-SuppliedNum = 10
+
+ReloadTime = 80
+Round = 1
+Delay = 80
+
+
+HeatCount = 500
+MaxHeatCount = 2000
+
+MaxAmmo = 10
+SuppliedNum = 5
 Item =  2, iron_ingot
 Item =  1, gunpowder

@@ -1,16 +1,15 @@
-DisplayName = 2A29 UBK2M [HEAT]
+DisplayName = 100mm 2A29 Anti-Tank Gun [3BK16M - HEAT]
 Type = MachineGun2
-Power = 450
+Power = 400
 ModelBullet = bullet105mm
-Acceleration = 6.0
-Explosion = 2
-ExplosionBlock = 0
+Acceleration = 7.0
+Explosion = 5
+ExplosionBlock = 4
 Flaming = false
 Sight = None
-ReloadTime = 300
-Round = 1
-ModeNum = 1
-SoundVolume = 10
+
+
+SoundVolume = 15
 Sound = artillery_power
 Group = MainGun
 Recoil = 2.5
@@ -28,7 +27,17 @@ AddMuzzleFlashSmoke = 10.2, 20,  13.0,  7.0, 55,  200,190,170,150
 
 RecoilBufCount = 40, 5
 
-MaxAmmo = 30
-SuppliedNum = 10
+ReloadTime = 80
+Round = 1
+Delay = 80
+
+
+HeatCount = 500
+MaxHeatCount = 2000
+
+Gravity = -0.005
+
+MaxAmmo = 10
+SuppliedNum = 5
 Item =  2, iron_ingot
 Item =  1, gunpowder

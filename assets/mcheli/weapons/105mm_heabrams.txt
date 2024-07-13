@@ -19,7 +19,7 @@ Acceleration = 7
 
 SoundVolume = 15
 Sound = strykermain
-Recoil = 2
+
 Group = MainGun
 Piercing = 5
 Accuracy = 0.0

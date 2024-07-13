@@ -286,6 +286,7 @@
 "mortareighty": {"category": "master","sounds": ["mortareighty"]},
 "mortar_gun_snd": {"category": "master","sounds": ["mortar_gun_snd"]},
 "msixty": {"category": "master","sounds": ["msixty"]},
+"msixtytank": {"category": "master","sounds": ["msixtytank"]},
 "mspg": {"category": "master","sounds": ["mspg"]},
 "msta": {"category": "master","sounds": ["msta"]},
 "mtwentysixeng": {"category": "master","sounds": ["mtwentysixeng"]},
