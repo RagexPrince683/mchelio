@@ -37,6 +37,8 @@ MaxHeatCount = 2000
 
 Gravity = -0.005
 
+CameraRotationSpeedPitch = 0.1
+
 MaxAmmo = 10
 SuppliedNum = 5
 Item =  2, iron_ingot

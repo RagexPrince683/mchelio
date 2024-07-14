@@ -1,30 +1,31 @@
-DisplayName = P40 "Heavy" Tank
+DisplayName = P26/40 Tank
 AddDisplayName = ja_JP, P40型 重戦車 
 ItemID = 191991
 MaxHp = 100
-Speed = 0.45
+Speed = 0.25
 Sound = MT_Run_snd
-ThrottleUpDown = 10.0
+ThrottleUpDown = 1.0
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = false
 CameraZoom = 4
-CameraRotationSpeed = 9
+CameraRotationSpeed = 10
 MinRotationPitch = -23
 MaxRotationPitch = 10
 DefaultFreelook = true
 CameraPosition = 0.00, 3.5, 0.47, true
 HideEntity = true
-unmountposition = -0.0,  1.50,  -0.25
-MobilityYawOnGround = 3.0
+unmountposition = 0.00, 1.5, 0.47
+MobilityYawOnGround = 2.5
 
 ; Tank or Car or Unknown
 WeightType = Tank
 
 HUD = ww2tank_hud
 
+TurretPosition = 0.00, 3.0, 0.47
 
 
 
@@ -33,7 +34,7 @@ AddGunnerSeat =  0.00,  2.20, 0.47,  0.00,  2.20, 0.47, false, -90, 90, true
 AddCrawlerTrack = false, 0.22, 1.31,  -0.20/2.40, 0.19/3.40, 0.35/3.67, 0.61/3.82, 0.92/3.82, 1.18/3.67, 1.33/3.40, 1.33/3.10, 1.29/2.09, 1.18/0.47, 1.16/-0.54, 1.05/-2.28, 0.95/-3.52, 0.69/-3.78, 0.33/-3.78, 0.07/-3.52, -0.20/-2.49
 AddCrawlerTrack = false, 0.22, -1.31,  -0.20/2.40, 0.19/3.40, 0.35/3.67, 0.61/3.82, 0.92/3.82, 1.18/3.67, 1.33/3.40, 1.33/3.10, 1.29/2.09, 1.18/0.47, 1.16/-0.54, 1.05/-2.28, 0.95/-3.52, 0.69/-3.78, 0.33/-3.78, 0.07/-3.52, -0.20/-2.49
 
-SetWheelPos = 1.31, -0.26, 3.25, 2.29, 1.65, 0.94, 0.31, -0.39, -1.03, -1.73, -2.37, -3.34
+SetWheelPos = 1.31, -0.26, 2.29, 1.65, 0.94, 0.31, -0.39, -1.03, -1.73, -2.37
 
 TrackRollerRot = 30
 
@@ -75,13 +76,13 @@ MotionFactor = 0.9
 AddPartWeapon = p40mg, false, true, false,  0.00, 1.98, 0.47, 0
 AddPartWeaponChild = false, true, 0.00, 2.40, 1.66
 
-AddWeapon = p40ap,  0.00, 2.40, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
-AddWeapon = p40he,  0.00, 2.40, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
-AddWeapon = p40heat,  0.00, 2.40, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -17, 6
-AddWeapon = p40mg,  -0.31, 2.40, 0.00,  0.0, 0.0, true,1, 0,-360,360, -17, 6
+AddTurretWeapon = p40ap,   0.00, 2.40, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -23, 10
+AddTurretWeapon = p40he,   0.00, 2.40, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -23, 10
+AddTurretWeapon = p40heat, 0.00, 2.40, 0.47, 0.0, 0.0, true,1, 0, -360, 360, -23, 10
+AddTurretWeapon = p40mg,  -0.31, 2.40, 0.00,  0.0, 0.0, true,1, 0,-360,360,  -23, 10
 
-AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
-AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  false,2
+;AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
+;AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  false,2
 
 
 EnableBack = true

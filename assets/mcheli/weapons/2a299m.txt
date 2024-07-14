@@ -3,7 +3,8 @@ Type = TVMissile
 Power = 600
 Acceleration = 3.0
 Piercing = 0
-Explosion = 3
+Explosion = 6
+ExplosionBlock = 4
 Flaming = false
 Sight = MoveSight
 
@@ -43,6 +44,8 @@ SoundVolume = 15
 
 HeatCount = 800
 MaxHeatCount = 2000
+
+CameraRotationSpeedPitch = 0.1
 
 
 MaxAmmo = 1

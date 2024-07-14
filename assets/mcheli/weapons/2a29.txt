@@ -39,6 +39,8 @@ Delay = 80
 HeatCount = 500
 MaxHeatCount = 2000
 
+CameraRotationSpeedPitch = 0.1
+
 MaxAmmo = 10
 SuppliedNum = 5
 Item =  2, iron_ingot
