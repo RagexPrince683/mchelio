@@ -1,4 +1,4 @@
-DisplayName = 75mm KwK42 L71 [PzGr 39/42 - APCBC]
+DisplayName = 75mm KwK42 L/70 Cannon [PzGr 39/42 - APCBC]
 Type = MachineGun2
 Power = 192
 Acceleration = 5.0
@@ -10,8 +10,8 @@ ReloadTime = 160
 Round = 1
 Sound = cannon_5_snd
 SoundVolume = 1.0
-Accuracy = 1.0
-Piercing = 1
+Accuracy = 1.5
+
 HeatCount = 275
 MaxHeatCount = 250
 Gravity = -0.005

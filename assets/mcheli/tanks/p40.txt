@@ -129,4 +129,4 @@ BoundingBox =  0.00, 1.90, 1.05,  2.6, 0.1, 0.35
 ;turret
 BoundingBox =  0.00, 2.32, 0.52,  1.90, 1.23, 0.30
 
-StepHeight = 1.5
+StepHeight = 1.8

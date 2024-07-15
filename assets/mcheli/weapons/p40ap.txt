@@ -8,12 +8,10 @@ ExplosionBlock = 1
 ExplosionInWater = 0
 Flaming = false
 Sight = None
-Round = 1
-Delay = 75
-ReloadTime = 150
+
 SoundPitch = 0.8
 SoundVolume = 15
-Sound = cannon_4_snd
+Sound = shermanmain
 Gravity = -0.005
 DamageFactor = tank, 3.5
 DamageFactor = plane, 1.5
