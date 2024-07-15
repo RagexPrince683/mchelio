@@ -94,6 +94,8 @@ unmountposition = 0.00, 1.50, 1.067
 
 
 
+BoundingBox = 4.4, 1.2, -3.7, 2.0, 0.5
+BoundingBox = -4.4, 1.2, -3.7, 2.0, 0.5
 
 BoundingBox = 2.2, 1.2, -3.5, 2.4, 0.5
 BoundingBox = -2.2, 1.2, -3.5, 2.4, 0.5

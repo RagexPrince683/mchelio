@@ -62,19 +62,28 @@ AddWeapon = agm-65,     4.85, 1.09, -4.35,   1.0, 0.0
 AddWeapon = agm-65,    -4.85, 1.09, -4.35,  -1.0, 0.0
 
 AddRecipe = " X ",  "XXX",  "ZXZ",  X, iron_block, Z, iron_ingot
-
 BoundingBox =  0.00, 1.60, -1.50,  2.0, 2.5
 BoundingBox =  0.00, 1.60, -3.20,  2.0, 2.5
 BoundingBox =  0.00, 1.60, -5.60,  3.0, 2.5
 BoundingBox = -2.92, 1.90, -5.60,  3.0, 1.0
 BoundingBox =  2.92, 1.90, -5.60,  3.0, 1.0
-BoundingBox =  0.00, 1.60, -8.00,  2.0, 2.5
-BoundingBox =  0.00, 1.60, -10.00,  2.0, 2.5
-BoundingBox =  0.00, 3.30, -12.00,  2.0, 2.5
-BoundingBox =  0.00, 1.60, -12.00,  2.0, 2.5
+BoundingBox =  0.00, 1.90, -8.00,  2.0, 2.0
+BoundingBox =  0.00, 2.05, -9.8,  1.6, 1.7
+BoundingBox =  0.00, 2.05, -11.2,  1.4, 1.7
+
+BoundingBox =  0.00, 3.70, -12.00,  0.5, 2
+BoundingBox =  0.00, 3.60, -11.50,   0.5, 2
+BoundingBox =  0.00, 3.20, -11.00,  0.5, 2
+BoundingBox =  0.00, 2.8, -10.50,  0.5, 2
+
+BoundingBox =  0.00, 2.25, -10.0,  0.5, 2
+
+BoundingBox =  0.00, 2.0, -9.5,  0.5, 2
+
+
+
 BoundingBox =  1.50, 1.90, -12.00,  2.0, 0.5
 BoundingBox =  -1.50, 1.90, -12.00,  2.0, 0.5
-
 unmountposition = 0.00,  1.57,  0.22
 
 enableback = true
