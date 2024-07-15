@@ -1,10 +1,10 @@
-DisplayName = 75mm KwK42 L/70 Cannon [Sprgr. 42 - HE]
+DisplayName = 75mm KwK42 L/70 Cannon [PzGr 40/42 - APCR]
 Type = MachineGun2
-Power = 10
-Acceleration = 5.0
+Power = 228
+Acceleration = 7.0
 ModelBullet = bullet76mm
-Explosion = 8
-ExplosionBlock = 4
+Explosion = 0
+ExplosionBlock = 0
 Sight = MoveSight
 ReloadTime = 110
 Delay = 110
@@ -12,17 +12,20 @@ Round = 1
 Sound = panthermain
 SoundVolume = 15
 Accuracy = 1.5
-Piercing = 0
+
 HeatCount = 900
 MaxHeatCount = 2050
 Gravity = -0.005
 
 Particle = flame
 RecoilBufCount = 40, 5
-DamageFactor = tank, 2.0
-DamageFactor = plane, 4.5
-DamageFactor = vehicle 4.5
-DamageFactor = heli, 4.5
+Piercing = 2
+
+DamageFactor = tank, 3.5
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
 Recoil = 0.5
 Group = MainGun
 
@@ -35,4 +38,4 @@ AddMuzzleFlashSmoke   =             14.6,     15,   20.0,  8.0,       150,  200,
 MaxAmmo = 27
 SuppliedNum = 9
 Item =  2, iron_ingot
-Item =  3, gunpowder
+Item =  1, gunpowder

@@ -24,7 +24,7 @@ FlareType = 10
 ThirdPersonDist = 12
 
 
-ThrottleUpDown = 1.2
+ThrottleUpDown = 1.5
 MobilityYawOnGround = 2.5
 OnGroundPitchFactor = 5
 OnGroundRollFactor  = 5

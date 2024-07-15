@@ -1,6 +1,6 @@
-DisplayName = MXT-MV Husky TSV with Heckler & Koch GMG
-AddDisplayName = en_US, MXT-MV Husky TSV with Heckler & Koch GMG
-AddDisplayName = ja_JP, MXT-MV ハスキーTSV with Heckler & Koch GMG
+DisplayName = MXT-MV Husky TSV with M240 Machine Gun
+AddDisplayName = en_US, MXT-MV Husky TSV with M240 Machine Gun
+AddDisplayName = ja_JP, MXT-MV ハスキーTSV with M240 Machine Gun
 MaxHp = 280
 ThrottleUpDown = 0.81
 Speed = 0.7

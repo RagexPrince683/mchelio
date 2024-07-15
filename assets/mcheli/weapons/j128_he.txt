@@ -12,13 +12,16 @@ Delay = 500
 ReloadTime = 500
 SoundPitch = 1.0
 SoundVolume = 15
-Sound = ww2tankgun_snd
+Sound = artillery_power
 Gravity = -0.005
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
+
+HeatCount = 9000
+MaxHeatCount = 20500
 
 Accuracy = 1.5
 

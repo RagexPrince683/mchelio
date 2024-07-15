@@ -19,7 +19,7 @@ AddTexture = panther3
 AddTexture = panther4
 unmountposition = -0.0,  2.00,  -0.25
 CameraPosition = 0.0, 3.00, 0.0, true
-HUD = ww2tank_hud, none, none, none
+HUD = ww2tank_hud, gunner, none, none
 
 AddRecipe = "YX ",  "XXX",  "   ",  X, iron_block, Y, iron_ingot
 
@@ -40,22 +40,23 @@ OnGroundRollFactor  = 0.8
 
 ThrottleUpDown = 1
 
-AddGunnerSeat = 0.00,  1.55,  0.00,  0.00,  1.55,  0.00, false, -8, 16, true
+AddGunnerSeat = 0.00,  1.55,  0.00,  0.00,  1.55,  0.00, false, -8, 20, true
 ;AddGunnerSeat = 0.00,  0.96,  0.80, false
 ;AddSeat = 0.40,  0.81,  1.85
-AddGunnerSeat = -0.40, 0.65,  1.85, -0.4, 1.6, 2.8
+AddGunnerSeat = -0.40, 0.65,  1.85, -0.6, 1.75, 3
 HideEntity = true
 CameraZoom = 5
 
-AddWeapon = pantherap, 0.0, 2.2094, 0.0,   0, 0, true, 1,0,-360,360, -20,8
-AddWeapon = pantherhe, 0.0, 2.2094, 0.0,   0, 0, true, 1,0,-360,360, -20,8
-AddPartWeapon = pantherap / pantherhe, false, true, false,  0.0, 2.2094, 0.0
+AddTurretWeapon = pantherap,   0.0, 2.2094, 0.0,   0, 0, true, 1,0,-360,360, -20,8
+AddTurretWeapon = pantherhe,   0.0, 2.2094, 0.0,   0, 0, true, 1,0,-360,360, -20,8
+AddTurretWeapon = pantherapcr, 0.0, 2.2094, 0.0,   0, 0, true, 1,0,-360,360, -20,8
+AddPartWeapon = pantherap / pantherhe / pantherapcr, false, true, false,  0.0, 2.2094, 0.0
 AddPartWeaponChild= false, true, 0.00,  2.2094, 1.1423
 AddPartWeaponChild= false, true, 0.00,  2.2094, 1.1423, 0.5
 
 AddTurretWeapon = pantherTigerH1MG34Coax, -0.4788, 2.2094, 0.0,   0, -1, true, 1,0,-360,360, -20,8
 
-AddWeapon = pantherTigerH1MG34hull, -0.5831, 1.3878, 2.9510,   2, -2, false, 2,0,-20,20, -20,20
+AddWeapon = pantherTigerH1MG34hull, -0.5831, 1.3878, 2.9510,   0, 0, false, 2,0,-20,20, -20,20
 AddPartWeapon = pantherTigerH1MG34hull, false, true, true,  -0.5831, 1.3878, 2.9510
 
 ArmorMinDamage = 16
@@ -103,7 +104,7 @@ FuelConsumption = 0.5
 EnableBack = true
 MotionFactor = 0.92
 
-DamageFactor = 0.0
+DamageFactor = 0.2
 
 
 CameraRotationSpeed = 12
