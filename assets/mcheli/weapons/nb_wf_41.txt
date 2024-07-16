@@ -1,10 +1,11 @@
-DisplayName = Nb.Wf.41 rocket launcher
+DisplayName = 15cm (150mm) Nebelwerfer 41 [Wgr.41 Spr - Rocket]
 Type = Rocket
-Power = 150
+Power = 27
 ModelBullet = HVAR_5inch_Rocket
 Acceleration = 2.0
-Accuracy = 5
-Explosion = 3
+Accuracy = 1.5
+Explosion = 15
+ExplosionBlock = 3
 Sound = rocket_snd
 Flaming = false
 Sight = MoveSight
@@ -27,7 +28,7 @@ DamageFactor = player, 20.0
 ;TrajectoryParticle = heart
 ;TrajectoryParticle = fireworksSpark
 
-MaxAmmo = 30
-SuppliedNum = 10
+MaxAmmo = 20
+SuppliedNum = 5
 Item =  10, iron_ingot
 Item =  20, gunpowder

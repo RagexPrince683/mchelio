@@ -2,22 +2,22 @@ DisplayName =  122mm Grad Artillery Rocket
 Type = Rocket
 Power = 400
 ModelBullet = m30
-Acceleration = 4.0
-Explosion = 20
-ExplosionBlock = 3
+Acceleration = 7.0
+Explosion = 15
+ExplosionBlock = 5
 Sound = grad
 Flaming = false
 Sight = MoveSight
 Delay = 1
 ReloadTime = 260
 Round = 40
-Gravity = -0.03
+Gravity = -0.05
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-SoundVolume = 10.0
+SoundVolume = 15.0
 Piercing = 0
 
 DisplayMortarDistance = true
@@ -41,6 +41,6 @@ AddMuzzleFlashSmoke =  -6.2, 13,  13.0,  6.0, 35,  200,190,170,150
 
 
 MaxAmmo = 80
-SuppliedNum = 1
+SuppliedNum = 5
 Item =  5, iron_ingot
 Item =  5, gunpowder

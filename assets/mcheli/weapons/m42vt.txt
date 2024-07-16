@@ -1,4 +1,4 @@
-DisplayName = Bofors 40mm VT
+DisplayName = 40mm M2A1 Twin Anti-Aircraft Gun []
 Type = MachineGun2
 Power = 50
 ModelBullet = bullet76mm
