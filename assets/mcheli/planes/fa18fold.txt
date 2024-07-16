@@ -24,8 +24,14 @@ Category = M.F
 
 HUD = plane, plane_gnr
 
+
 AddSeat =  0.00,  1.95,  2.20
 AddSeat =  0.00,  2.20,  0.00
+
+
+
+unmountposition = 0.00,  2.4,  2.20
+
 
 AddPartCanopy = 0.04, 3.41, -1.26, -1,0,0, 45
 
@@ -94,6 +100,7 @@ BoundingBox =  -2.40, 1.70, -10.95,  3.0, 0.4
 BoundingBox =  1.25, 3.88, -8.80,  1.4, 3.0
 BoundingBox =  -1.25, 3.88, -8.80,  1.4, 3.0
 
-unmountposition = 0.00,  1.55,  2.20
+
+
 
 enableback = true

@@ -26,6 +26,9 @@ MobilityYaw = 0.2
 MobilityPitch = 0.2
 MobilityRoll = 0.1
 
+
+unmountposition = 0.9949, 4.25, 1.7259
+
 AddSeat = 0.9949,  4.1094,  1.7259
 AddGunnerSeat = -1.0, 4.1094, 1.7259, -0.3021, 0.3021, 0.3021, true
 AddGunnerSeat = -1.0, 4.1094, 0.7259, -0.3021, 0.3021, 0.3021, true
@@ -225,4 +228,4 @@ BoundingBox = 23, 5.3, -28, 1.0, 1.0, 1.5
 BoundingBox = -23, 5.3, -28, 1.0, 1.0, 1.5
 
 
-unmountposition = 2.40, 1.86, -0.50
+

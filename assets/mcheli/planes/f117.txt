@@ -35,7 +35,7 @@ HUD = plane
 
 AddSeat       = 0.00,  1.52,  4.011
 
-unmountposition = 0.00,  1.52,  4.011
+unmountposition = 0.00,  1.62,  4.011
 
 
 ;Front

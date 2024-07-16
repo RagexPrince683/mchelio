@@ -37,7 +37,7 @@ EntityHeight = 0.9
 
 AddSeat = 0.0, 1.27, 1.98
 
-unmountposition = 0.0, 1.50, 1.98
+unmountposition = 0.0, 1.57, 1.98
 
 AddPartCanopy = 0.61, 2.08, 2.234, 0,0,-1, 60
 

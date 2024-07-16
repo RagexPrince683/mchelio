@@ -38,7 +38,11 @@ HUD = plane
 
 AddTexture = f22a_isaf
 
-AddSeat = 0.00,  2.01,  0.00
+AddSeat = 0.00,  2.01,  0.00 
+
+
+unmountposition = 0.00,  2.31,  0.00
+
 ;DEBUG Pitch limit
 ;AddGunnerSeat = 0.00, 2.01, 2.0,  0.0, 0.70, 1.6,  true,  -50, 45
 ;DEBUG FIX camera
@@ -125,6 +129,6 @@ BoundingBox =  0.00, 2.20, -9.80,  3.0, 1.0
 BoundingBox = -3.02, 2.20, -14.60,  2.5, 1.0
 BoundingBox =  3.02, 2.20, -14.60,  2.5, 1.0
 
-unmountposition = 0.00,  1.52,  0.32
+
 
 enableback = true

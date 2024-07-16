@@ -28,6 +28,7 @@ MaxRotationPitch =  40
 AddSeat       =  0.5, 3.0,3.55
 AddGunnerSeat = -0.5, 3.0,3.55
 
+unmountposition = 0.5, 2.5, 3.55
 
 AddPartWeaponMissile =cj-10n, false, false, false, 12.09, 2.373,-13.1236
 AddPartWeaponMissile =cj-10n, false, false, false,-12.09, 2.373,-13.1236
@@ -163,4 +164,3 @@ BoundingBox =  17.0, 3.1, -19.5,  4.4, 1.0, 0.4
 
 DamageFactor = 0.8
 
-unmountposition = 0.95, 1.86, 3.70

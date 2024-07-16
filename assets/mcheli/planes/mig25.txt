@@ -26,7 +26,7 @@ DamageFactor = 0.8
 
 ThrottleUpDown = 0.3
 
-unmountposition = 0.02,2.2,5.6
+unmountposition = 0.02,2.5,5.6
 
 enableback = true
 

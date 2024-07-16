@@ -36,7 +36,7 @@ MobilityRoll = 0.6
 
 AddSeat = 0.00,  1.78,  0.02
 
-unmountposition = 0.00,  1.78,  0.02
+unmountposition = 0.00,  1.98,  0.02
 
 AddSeat = 0.00,  1.78,  -1.42
 
