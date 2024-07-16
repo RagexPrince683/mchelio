@@ -111,8 +111,10 @@ BoundingBox =  0.0, 6.0, -34.7, 5, 4.1
 BoundingBox =  0.0, 6.0, -37.5, 4.8, 4.1
 BoundingBox =  0.0, 6.0, -41.7, 4.6, 4.1
 BoundingBox =  0.0, 6.0, -44.7, 3.95, 4.1
-BoundingBox =  0.0, 6.0, -48.7, 3.6, 2.8
+BoundingBox =  0.0, 6.8, -48.7, 3.6, 4.2
 
+BoundingBox =  0.0, 7.2, -51.7, 3.6, 3.4
+BoundingBox =  0.0, 6.8, -54.7, 3.0, 2.0
 
 BoundingBox =  0.0, 13.0, -50.5,  1, 4
 BoundingBox =  0.0, 6.0, -42.5,  1, 4
@@ -149,16 +151,16 @@ BoundingBox =  8.8, 9.3, -52.4,  2.5, 0.2
 BoundingBox =  -8.8, 9.3, -52.4,  2.5, 0.2
 
 
-BoundingBox = -9.5, 4.9, -25.6,  7.5, 0.2
-BoundingBox =  9.5, 4.9, -25.6,  7.5, 0.2
-BoundingBox = -16.7, 4.9, -27.1,  6, 0.2
-BoundingBox =  16.7, 4.9, -27.1,  6, 0.2
-BoundingBox = -25.5, 4.9, -28.1,  3, 0.2
-BoundingBox =  25.5, 4.9, -28.1,  3, 0.2
-BoundingBox = -28.5, 4.9, -28.1,  3, 0.2
-BoundingBox =  28.5, 4.9, -28.1,  3, 0.2
-BoundingBox = -22.5, 4.9, -28.1,  3, 0.2
-BoundingBox =  22.5, 4.9, -28.1,  3, 0.2
+BoundingBox = -9.5, 5.2, -26.6,  7.5, 0.4
+BoundingBox =  9.5, 5.2, -26.6,  7.5, 0.4
+BoundingBox = -16.7, 5.2, -28.1,  6, 0.4
+BoundingBox =  16.7, 5.2, -28.1,  6, 0.4
+BoundingBox = -25.5, 5.2, -29.1,  4, 0.3
+BoundingBox =  25.5, 5.2, -29.1,  4, 0.3
+BoundingBox = -28.5, 5.2, -29.5,  4, 0.3
+BoundingBox =  28.5, 5.2, -29.5,  4, 0.3
+BoundingBox = -22.5, 5.2, -30.5,  3.5, 0.3
+BoundingBox =  22.5, 5.2, -30.5,  3.5, 0.3
 
 BoundingBox = -21.3, 4.9, -26.8,  3, 0.2
 BoundingBox =  21.3, 4.9, -26.8,  3, 0.2
@@ -166,14 +168,14 @@ BoundingBox = -21.3, 4.9, -27.3,  3, 0.2
 BoundingBox =  21.3, 4.9, -27.3,  3, 0.2
 
 
-BoundingBox =  5.8, 3.75, -35.8,  4, 3, 1.25
-BoundingBox =  -5.8, 3.75, -35.8,  4, 3, 1.25
-BoundingBox =  5.8, 3.75, -31.8,  4, 3, 1.25
-BoundingBox =  -5.8, 3.75, -31.8,  4, 3, 1.25
-BoundingBox =  5.8, 3.75, -27.8,  4, 3, 1.25
-BoundingBox =  -5.8, 3.75, -27.8,  4, 3, 1.25
-BoundingBox =  5.8, 3.75, -25.8,  4, 3, 1.25
-BoundingBox =  -5.8, 3.75, -25.8,  4, 3, 1.25
+BoundingBox =  7.8, 3.75, -36.8,  4.6, 3, 1.25
+BoundingBox =  -7.8, 3.75, -36.8,  4.6, 3, 1.25
+BoundingBox =  7.8, 3.75, -32.4,  4.6, 3, 1.25
+BoundingBox =  -7.8, 3.75, -32.4,  4.6, 3, 1.25
+BoundingBox =  7.8, 3.75, -27.8,  4.4, 3, 1.25
+BoundingBox =  -7.8, 3.75, -27.8,  4.4, 3, 1.25
+BoundingBox =  7.8, 3.75, -25.8,  4.4, 3, 1.25
+BoundingBox =  -7.8, 3.75, -25.8,  4.4, 3, 1.25
 
 
 
@@ -191,8 +193,33 @@ BoundingBox =  3.2, 5.25, -27.8,  3, 1.5
 BoundingBox =  -3.2, 5.25, -27.8,  3, 1.5
 BoundingBox =  3.2, 5.25, -30.8,  3, 1.5
 BoundingBox =  -3.2, 5.25, -30.8,  3, 1.5
-BoundingBox =  2.9, 5.25, -33.8,  3, 1.5
-BoundingBox =  -2.9, 5.25, -33.8,  3, 1.5
+BoundingBox =  3.2, 5.25, -33.8,  3, 1.5
+BoundingBox =  -3.2, 5.25, -33.8,  3, 1.5
+
+
+BoundingBox =  2.95, 6.55, -12.8,  3, 1.5
+BoundingBox =  -2.95, 6.55, -12.8,  3, 1.5
+BoundingBox =  3.2, 6.55, -15.8,  3, 1.5
+BoundingBox =  -3.2, 6.55, -15.8,  3, 1.5
+BoundingBox =  3.2, 6.55, -18.8,  3, 1.5
+BoundingBox =  -3.2, 6.55, -18.8,  3, 1.5
+BoundingBox =  3.2, 6.55, -21.8,  3, 1.5
+BoundingBox =  -3.2, 6.55, -21.8,  3, 1.5
+BoundingBox =  3.2, 6.55, -24.8,  3, 1.5
+BoundingBox =  -3.2, 6.55, -24.8,  3, 1.5
+BoundingBox =  3.2, 6.55, -27.8,  3, 1.5
+BoundingBox =  -3.2, 6.55, -27.8,  3, 1.5
+BoundingBox =  3.2, 6.55, -30.8,  3, 1.5
+BoundingBox =  -3.2, 6.55, -30.8,  3, 1.5
+BoundingBox =  3.2, 6.55, -33.8,  3, 1.5
+BoundingBox =  -3.2, 6.55, -33.8,  3, 1.5
+
+
+
+
+
+
+
 
 
 BoundingBox =  2.6, 5.25, -35.8,  3, 1.5
