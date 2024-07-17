@@ -66,7 +66,7 @@ AddWeapon = strvapfsds,  0.00, 0.5, 0,  0.0, -0.0, true,1, 0,0,0, -12,10
 AddWeapon = ordnance_apds _strv,  0.00, 0.5, 0,  0.0, -0.0, true,1, 0,0,0, -12,10
 AddWeapon = ordnance_he_strv, 0.00, 0.5, 0,  0.0, -0.0, true,1, 0,0,0, -12,10
 AddWeapon = smokeshellstrv,  0.00, 0.5, 0,  0.0, -0.0, true,1, 0,0,0, -12,10
-
+AddWeapon = strvordnance_hesh,  0.00, 0.5, 0,  0.0, -0.0, true,1, 0,0,0, -12,10
 
 AddWeapon = strvfnmag,  1.13, 1.00, 1.74,  0.0, -1.0, true,1, 0,0,0, -12,10
 AddWeapon = strvfnmag,  1.41, 1.00, 1.74,  0.0, -1.0, true,1, 0,0,0, -12,10
