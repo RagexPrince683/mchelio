@@ -1,4 +1,4 @@
-DisplayName = 7.62mm Ksp m/39B Machine Gun
+DisplayName = 7.62mm Ksp-39C Machine Gun
 Type = MachineGun1
 Power = 8
 
@@ -35,7 +35,7 @@ DamageFactor = heli, 0.5
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 2250
+MaxAmmo = 4000
 SuppliedNum = 250
 Item =  2, iron_ingot
 Item =  2, gunpowder

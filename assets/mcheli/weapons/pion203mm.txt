@@ -13,7 +13,7 @@ Sight = None
 Delay = 180
 Gravity = -0.005
 ReloadTime = 180
-Recoil = 5
+Recoil = 1.5
 Round = 1
 DisableSmoke = true
 
@@ -38,5 +38,5 @@ AddMuzzleFlashSmoke = 16.2, 20, 13.0,  7.0, 55,  200,190,170,150
 
 MaxAmmo = 4
 SuppliedNum = 1
-Item =  4, iron_ingot
-Item =  4, gunpowder
+Item =  1, iron_ingot
+Item =  2, gunpowder

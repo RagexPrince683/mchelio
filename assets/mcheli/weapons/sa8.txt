@@ -1,14 +1,14 @@
-DisplayName = 9M33M2
+DisplayName = 9A33BM3 [9M33 - Anti-Air Missile]
 Type = AAMissile
 Power = 60
-Acceleration = 3
+Acceleration = 2.9
 Explosion = 4
 Flaming = false
 Sight = MissileSight
 Delay = 100
 LockTime = 35
 ProximityFuseDist = 1
-Sound = mlrs
+Sound = aimnine
 SoundPitch = 0.5
 
 
@@ -19,7 +19,7 @@ DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
 MaxAmmo = 6
-SuppliedNum = 6
+SuppliedNum = 1
 Item =  1, iron_ingot
 Item =  1, gunpowder
 Item =  2, redstone

@@ -18,9 +18,9 @@ CameraPosition = 0.90, 2.61, -3.2266, false
 
 MobilityYawOnGround = 1.5
 
-HUD = mbt_hud
+HUD = ww2tank_hud
 
-SubmergedDamageHeight = 3
+SubmergedDamageHeight = 2
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.9
@@ -77,8 +77,8 @@ FuelConsumption = 3.0
 AddRecipe = "XIX",  "III",  "III",  X, iron_block,  I, iron_ingot
 
 BoundingBox =  0.0, 0.92,  1.7,   3.6, 1.5,   1.00
-BoundingBox =  0.0, 2.5, -2.1,   2.6, 1.0,   1.25
-BoundingBox =  0.0, 2.5, -2.5,   2.6, 1.0,   1.25
+BoundingBox =  0.0, 2.5, -2.1,   1.2, 1.0,   1.25
+BoundingBox =  0.0, 2.5, -2.8,   1.2, 1.0,   1.25
 BoundingBox =  0.0, 0.92, -1.2,   3.6, 1.5,   1.00
 ;frontplate
 BoundingBox =  0.0, 0.52,  2.6,   3.5, 0.2,   1.00

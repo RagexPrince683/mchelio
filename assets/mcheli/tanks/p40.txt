@@ -124,7 +124,7 @@ BoundingBox =  0.00, 1.90, 1.05,  2.6, 0.1, 0.35
 
 
 
-
+AddRecipe = "III",  "IXI",  "III",  X,iron_block,  I,iron_ingot
 
 ;turret
 BoundingBox =  0.00, 2.32, 0.52,  1.90, 1.23, 0.30
