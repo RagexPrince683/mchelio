@@ -1,6 +1,6 @@
 DisplayName = 7.62mm ksp m/39B Machine Gun
 Type = MachineGun1
-Power = 7
+Power = 8
 
 Explosion = 0
 Flaming = false

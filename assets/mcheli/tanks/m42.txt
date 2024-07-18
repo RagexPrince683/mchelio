@@ -28,7 +28,7 @@ EnableNightVision = true
 AddgunnerSeat =  0.80,  1.9,  -0.5,    0.00,  1.9,  -1.8,  true, -85, 3, true
 ;AddSeat =  -1.00,  1.9,  -0.5,    0.00
 CameraPosition = 0.00,  3.6, 0.0,true
-unmountposition = -0.0,  2.00,  -0.25
+unmountposition = 0.80,  1.5,  -0.5
 addtexture = m421
 
 MotionFactor = 0.95
@@ -40,7 +40,7 @@ PivotTurnThrottle = 0.0
 AddCrawlerTrack = true, 0.2, -1.9184,  -0.2538/1.7282, -0.0/2.21, 0.448/2.902, 0.7366/3.022, 1.025/2.902, 1.115/2.6135, 1.178/0.0, 1.178/-2.307, 1.229/-3.8513, 1.015/-4.2223, 0.794/-4.2865, 0.554/-4.2223, 0.2834/-4.0325, 0.124/-3.655,  -0.2538/-2.681, -0.2538/-0.0
 
 
-SetWheelPos =  1.41, -0.24, 1.72, 0.62, -0.47, -1.57, -2.68
+SetWheelPos =  1.55, -0.24, 1.72, 0.62, -0.47, -1.57, -2.68
 
 AddTrackRoller = -2.0,  0.7366,  2.6135
 AddTrackRoller = -1.82,  0.2026,  1.7282
@@ -62,8 +62,17 @@ AddPartWeapon  = m42AP/m42HE, false, true,  false,  0.0, 2.925, 0, 0
 AddPartWeaponChild = false, true,   0.0, 2.96, 0.0, 0.0
 AddPartWeaponChild = false, true,   0.0, 2.96, 0.0, 0.2
 
+BoundingBox = 0.0, 1.2, 0.0, 2.75, 1.4
 
-BoundingBox =  0.0, 1.0,  1.2,   3.4, 2.0,  1.00
+BoundingBox = 0.0, 1.2, -2.75, 2.75, 1.4
 
-BoundingBox =  0.0, 1.0, -2.2,   3.4, 2.0,  1.00
-BoundingBox =  0.0, 2.5, 0.0,   3.0, 1.0,  1.25
+
+BoundingBox = 0.0, 1.8, 1.05, 2.75, 0.2
+BoundingBox = 0.0, 1.6, 1.15, 2.75, 0.2
+BoundingBox = 0.0, 1.4, 1.25, 2.75, 0.2
+BoundingBox = 0.0, 1.2, 1.45, 2.75, 0.2
+BoundingBox = 0.0, 1.0, 1.65, 2.75, 0.2
+BoundingBox = 0.0, 0.8, 1.55, 2.75, 0.2
+BoundingBox = 0.0, 0.6, 1.45, 2.75, 0.2
+
+AddRecipe = "XIX",  "III",  "III",  X, iron_block,  I, iron_ingot

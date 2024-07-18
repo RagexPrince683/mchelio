@@ -3,10 +3,10 @@ AddDisplayName = en_US, Strv.103B
 AddDisplayName = ja_JP, Strv.103B
 ItemID = 30077
 MaxHp = 220
-Speed = 1.0
+Speed = 0.37
 Sound = strv
-MobilityYawOnGround = 9.0
-ThrottleUpDown = 10.0
+MobilityYawOnGround = 6.0
+ThrottleUpDown = 5.0
 MinRotationPitch = -12
 MaxRotationPitch = 10
 
@@ -14,7 +14,7 @@ MobilityRoll = 0
 Gravity = -0.61
 float = true
 GravityInWater = -0.2
-CameraZoom = 3
+CameraZoom = 10
 CameraPosition = 0.00,  2.0, -1.0
 EnableNightVision = true
 HideEntity = true
@@ -45,7 +45,7 @@ HUD = mbt_hudtwo
 
 AddGunnerSeat =  0.00,  0.70, -1.0
 
-MotionFactor = 0.9
+MotionFactor = 0.95
 
 AddTrackRoller = -1.4751,  0.4319,  1.6042
 AddTrackRoller = -1.4159,  0.0301,  0.8191
@@ -62,12 +62,17 @@ AddTrackRoller =  1.4159,  0.0301, -1.7606
 AddTrackRoller =  1.4941,  0.4894, -2.5367
 
 
-AddWeapon = strvapfsds,  0.00, 0.5, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
-AddWeapon = ordnance_apds _strv,  0.00, 0.5, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
-AddWeapon = ordnance_he_strv, 0.00, 0.5, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
-AddWeapon = smokeshell,  0.00, 0.5, 3.9061,  0.0, -1.0, true,1, 0,0,0, -12,10
+AddWeapon = strvapfsds,  0.00, 0.5, 0,  0.0, -0.0, true,1, 0,0,0, -12,10
+AddWeapon = ordnance_apds _strv,  0.00, 0.5, 0,  0.0, -0.0, true,1, 0,0,0, -12,10
+AddWeapon = ordnance_he_strv, 0.00, 0.5, 0,  0.0, -0.0, true,1, 0,0,0, -12,10
+AddWeapon = smokeshellstrv,  0.00, 0.5, 0,  0.0, -0.0, true,1, 0,0,0, -12,10
+AddWeapon = strvordnance_hesh,  0.00, 0.5, 0,  0.0, -0.0, true,1, 0,0,0, -12,10
+
+AddWeapon = strvfnmag,  1.13, 1.00, 1.74,  0.0, -1.0, true,1, 0,0,0, -12,10
+AddWeapon = strvfnmag,  1.41, 1.00, 1.74,  0.0, -1.0, true,1, 0,0,0, -12,10
+
 ;AddWeapon = mbt_cas, 0.00, 1.1444, 3.9061, 0.0 , 0.0
-AddPartWeapon = ordnance_apds _strv, false, true, true, 0.00, 1.1444, 0.00,  0.0, -1.0,
+AddPartWeapon = strvapfsds/ordnance_apds _strv/ordnance_he_strv/smokeshellstrv, false, true, true, 0.00, 1.1444, 0.00,  0.0, -1.0,
 
 MaxFuel         = 600
 FuelConsumption = 2.0
@@ -241,9 +246,9 @@ BoundingBox = 0.0, 0.70, -2.0, 2.5, 1.0, 0.4
 
 ;AddRack = test, 5.0, 1.0, 1.0,  0, 0,  -4.3,   15,    20
 
-StepHeight = 1.5
+StepHeight = 1.8
 
 unmountposition = 0.00,  1.50, -1.0
 
 
-AddRecipe = "IXX",  "IXI",  "IXI",  X,iron_block,  I,iron_ingot
+AddRecipe = "IXX",  "IXI",  "IDI",  X,iron_block,  I,iron_ingot,  D, diamond

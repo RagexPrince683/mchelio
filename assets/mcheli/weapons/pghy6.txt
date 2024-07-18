@@ -1,6 +1,6 @@
-DisplayName = HN-6 SAM
+DisplayName = QW-2 MANPADS
 Type = AAMissile
-Power = 10
+Power = 30
 Acceleration = 5.5
 Explosion = 4
 Flaming = false
