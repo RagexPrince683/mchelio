@@ -1,26 +1,26 @@
-DisplayName = 125mm 2A46M-1 Smoothbore Cannon [3BK18M - HEAT-MP]
+DisplayName = 125mm 2A46 Cannon [3BK12M - HEAT-FS]
 Type = MachineGun2
-Power = 550
-ModelBullet = bullet105mm
-Acceleration = 8.0
-Explosion = 3
+Power = 440
+ModelBullet = 3bk18m
+
+Explosion = 5
 ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
-Delay = 170
-ModeNum = 1
+
+
 ;SoundPitch = 0.5
-SoundVolume = 20
+
 Sound = tseventytwomain
 group = maingun
-Round = 1
+Round = 7
 DisplayMortarDistance = true
-ReloadTime = 150
+
 
 Gravity = -0.005
 
-MaxAmmo = 11
-SuppliedNum = 11
+MaxAmmo = 15
+SuppliedNum = 5
 Item =  3, iron_ingot
 Item =  2, gunpowder
 
@@ -30,11 +30,14 @@ AddMuzzleFlash      =  10.0,      1.70,        5,  200,254,219,184
 AddMuzzleFlashSmoke =  12.2, 20,  10.0,  3.0, 45,  220,160,140,120
 AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
+Delay = 155
+ReloadTime = 210
+
 
 Group = MainGun
-Acceleration = 7.0
+Acceleration = 6
 BulletColor        = 255, 255, 100, 100
-ModelBullet = bullet105mm
+
 Piercing = 0
 Accuracy = 0.0
 DamageFactor = tank, 2.0
@@ -43,5 +46,5 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 SoundVolume = 15
-AddDisplayName = en_US, 2A46M-1 Smoothbore Gun[HEAT-MP]
+
 
