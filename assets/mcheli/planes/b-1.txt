@@ -99,7 +99,7 @@ AddPartLG = -4.94, 4.89,  -26.32,  0,0,1,  110
 AddRecipe = " D ",  "DID",  "RIR",  R,redstone_block, I,iron_block, D,diamond
 
 
-
+BoundingBox =  0.0, 6.75,  -1.7, 5, 4.8
 ;BoundingBox =  0.0, 6.5,  5.7,  7, 4
 BoundingBox =  0.0, 6.5,  -4.7, 5, 4.8
 BoundingBox =  0.0, 6.2,  -9.7, 5, 4.4
@@ -198,6 +198,8 @@ BoundingBox = -25.5, 5.2, -29.1,  4, 0.3
 BoundingBox =  25.5, 5.2, -29.1,  4, 0.3
 BoundingBox = -28.5, 5.2, -29.5,  4, 0.3
 BoundingBox =  28.5, 5.2, -29.5,  4, 0.3
+BoundingBox = -30.5, 5.2, -30.5,  4, 0.3
+BoundingBox =  30.5, 5.2, -30.5,  4, 0.3
 BoundingBox = -22.5, 5.2, -30.5,  3.5, 0.3
 BoundingBox =  22.5, 5.2, -30.5,  3.5, 0.3
 
@@ -205,6 +207,11 @@ BoundingBox = -21.3, 4.9, -26.8,  3, 0.2
 BoundingBox =  21.3, 4.9, -26.8,  3, 0.2
 BoundingBox = -21.3, 4.9, -27.3,  3, 0.2
 BoundingBox =  21.3, 4.9, -27.3,  3, 0.2
+
+
+
+
+
 
 
 BoundingBox =  7.8, 3.75, -36.8,  4.6, 3, 1.25
@@ -271,6 +278,25 @@ BoundingBox =  5.1, 5.25, -21.8,  3, 1.5
 BoundingBox =  -5.1, 5.25, -21.8,  3, 1.5
 BoundingBox =  5.1, 5.25, -24.8,  3, 1.5
 BoundingBox =  -5.1, 5.25, -24.8,  3, 1.5
+
+BoundingBox =  5.1, 5.25, -27.8,  3, 1.5
+BoundingBox =  -5.1, 5.25, -27.8,  3, 1.5
+BoundingBox =  5.1, 5.25, -30.8,  3, 1.5
+BoundingBox =  -5.1, 5.25, -30.8,  3, 1.5
+
+
+BoundingBox =  5.1, 5.25, -33.8,  3, 1.5
+BoundingBox =  -5.1, 5.25, -33.8,  3, 1.5
+
+BoundingBox =  5.1, 5.25, -36.8,  3, 1.5
+BoundingBox =  -5.1, 5.25, -36.8,  3, 1.5
+
+BoundingBox =  5.1, 5.25, -39.8,  3, 1.5
+BoundingBox =  -5.1, 5.25, -39.8,  3, 1.5
+
+
+
+
 
 unmountposition = 0.95, 7.46, 3.70
 
