@@ -113,21 +113,27 @@ AddRecipe = " Y ",  "XXX",  "DXD",  X, iron_block, Y, glass, D, diamond_block
 BoundingBox =  0.00, 1.90, -3.10,  3.0, 2.0
 BoundingBox =  0.00, 1.90, -6.60,  4.0, 2.0
 BoundingBox =  0.00, 1.90, -9.60,  4.0, 2.0
-BoundingBox =  0.00, 1.90, -12.60,  4.0, 2.0
+BoundingBox =  0.00, 2.3, -12.60,  4.0, 1.2
 
-BoundingBox =  1.95, 3.88, -12.00,  1.8, 3.0
-BoundingBox =  -1.95, 3.88, -12.00,  1.8, 3.0
+BoundingBox =  2.20, 3.88, -12.00,  1.8, 3.0
+BoundingBox =  -2.00, 3.88, -12.00,  1.8, 3.0
 
 
-BoundingBox = -4.30, 2.19, -10.02,  4.8, 1.0
-BoundingBox =  4.30, 2.19, -10.02,  4.8, 1.0
+BoundingBox = -4.30, 2.12, -10.02,  4.8, 0.3
+BoundingBox =  4.30, 2.12, -10.02,  4.8, 0.3
+
+BoundingBox = -2.5, 2.12, -7.22,  2.2, 0.3
+BoundingBox =  2.5, 2.12, -7.22,  2.2, 0.3
+
+
+
 BoundingBox =  0.00, 2.20, -9.80,  3.0, 1.0
 
 ;BoundingBox = -4.82, 2.20, -8.00,  2.5, 1.0
 ;BoundingBox =  4.82, 2.20, -8.00,  2.5, 1.0
 
-BoundingBox = -3.02, 2.20, -14.60,  2.5, 1.0
-BoundingBox =  3.02, 2.20, -14.60,  2.5, 1.0
+BoundingBox = -3.02, 2.2, -14.60,  2.5, 0.25
+BoundingBox =  3.02, 2.2, -14.60,  2.5, 0.25
 
 
 

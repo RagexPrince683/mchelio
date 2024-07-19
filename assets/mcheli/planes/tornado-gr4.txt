@@ -85,18 +85,40 @@ AddRecipe = " X ",  "XXX",  "TXT",  X, iron_block, T, tnt
 BoundingBox =  0.0, 2.2, -3.8,  2.5, 1.8
 BoundingBox =  0.0, 1.8, -4.5,  3.0, 2.5
 BoundingBox =  0.0, 1.8, -7.0,  3.0, 2.0
-BoundingBox = -2.9, 2.1, -6.0,  3.0, 1.0
-BoundingBox =  2.9, 2.1, -6.0,  3.0, 1.0
-BoundingBox = -4.9, 2.1, -7.0,  3.0, 1.0
-BoundingBox =  4.9, 2.1, -7.0,  3.0, 1.0
 
-BoundingBox =  0.0, 1.8, -10.0,  3.0, 2.0
 
-BoundingBox =  2.17, 1.76, -11.27,  3.0, 1.0
-BoundingBox =  -2.17, 1.76, -11.27,  3.0, 1.0
 
-BoundingBox =  0.0, 3.9, -12.0,  2.0, 3.2
+BoundingBox = -1.8, 2.35, -4.0,  1.8, 0.3
+BoundingBox =  1.8, 2.35, -4.0,  1.8, 0.3
 
+
+BoundingBox = -2.9, 2.35, -6.0,  2.5, 0.3
+BoundingBox =  2.9, 2.35, -6.0,  2.5, 0.3
+BoundingBox = -4.9, 2.35, -7.0,  2.5, 0.3
+BoundingBox =  4.9, 2.35, -7.0,  2,5, 0.3
+
+BoundingBox = -6.4, 2.35, -7.5,  1.8, 0.3
+BoundingBox =  6.4, 2.35, -7.5,  1.8, 0.3
+
+
+BoundingBox =  0.0, 2.0, -10.0,  3.0, 1.6
+
+BoundingBox =  2.17, 1.75, -11.27,  3.0, 0.3
+BoundingBox =  -2.17, 1.75, -11.27,  3.0, 0.3
+
+
+BoundingBox =  0.0, 5.625, -14,  1.0, 1.25
+
+BoundingBox =  0.0, 4.8, -13,  1.0, 2.4
+
+BoundingBox =  0.0, 4.2, -12,  1.0, 3.0
+
+
+BoundingBox =  0.0, 3.75, -11,  1.0, 3.2
+BoundingBox =  0.0, 3.3, -10,  1.0, 3.2
+BoundingBox =  0.0, 2.9, -9,  1.0, 3.0
+BoundingBox =  0.0, 2.7, -8,  1.0, 2.6
+BoundingBox =  0.0, 2.2, -7,  1.0, 2.0
 
 unmountposition = 0.00, 1.55,  0.34
 
