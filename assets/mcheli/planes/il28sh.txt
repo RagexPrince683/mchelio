@@ -83,12 +83,12 @@ BoundingBox =  0, 2.56, -12,  2.0, 2, 0.8
 BoundingBox =  0, 2.56, -14,  2.0, 2, 1.0
 BoundingBox =  0, 2.56, -16,  2.0, 2, 1.0
 BoundingBox =  0, 2.56, -18,  2.0, 2, 1.0
-BoundingBox =  3.82, 2.06, -4,  2.0, 2, 1.0
+BoundingBox =  3.82, 2.29, -4.65,  1.9, 1.7, 1.0
 BoundingBox =  3.82, 2.06, -6,  2.0, 2, 1.2
 BoundingBox =  3.82, 2.06, -8,  2.0, 2, 1.2
 BoundingBox =  3.82, 2.06, -10,  2.0, 2, 1.2
 BoundingBox =  3.82, 2.06, -12,  2.0, 2, 0.8
-BoundingBox = -3.82, 2.06, -4,  2.0, 2, 1.0
+BoundingBox = -3.82, 2.29, -4.65,  1.9, 1.7, 1.0
 BoundingBox = -3.82, 2.06, -6,  2.0, 2, 1.2
 BoundingBox = -3.82, 2.06, -8,  2.0, 2, 1.2
 BoundingBox = -3.82, 2.06, -10,  2.0, 2, 1.2
@@ -103,8 +103,16 @@ BoundingBox =  -9, 3.2, -9.5,  3, 0.5, 1.0
 BoundingBox = 2.05, 4.33, -18.54, 2.5, 0.5
 BoundingBox = -2.05, 4.33, -18.54, 2.5, 0.5
 
-BoundingBox = 0.0, 5.76, -18.16, 1.0, 2.5
+BoundingBox = 0.0, 5.56, -18.16, 1.0, 2.5
 BoundingBox = 0.0, 5.76, -19.16, 1.0, 2.5
+
+BoundingBox = 0.0, 4.96, -17.16, 1.0, 2.5
+
+BoundingBox = 0.0, 4.06, -16.16, 1.0, 2.5
+
+BoundingBox = 0.0, 3.16, -15.16, 1.0, 2.5
+
+BoundingBox = 0.0, 3, -14.16, 1.0, 1.5
 
 unmountposition = 0,  1.50,  -2.10
 
