@@ -2,9 +2,9 @@
 AddDisplayName = en_US, T-72A
 AddDisplayName = ja_JP, T-72A ウラル 主力戦車
 ItemID = 91129
-MaxHp = 600
+MaxHp = 400
 Speed = 0.37
-ThrottleUpDown = 1.2
+ThrottleUpDown = 1.0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
@@ -31,7 +31,7 @@ WeightedCenterZ = 0.0
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.9
 
-MobilityYawOnGround = 2.0
+MobilityYawOnGround = 2.3
 PivotTurnThrottle = 0.0
 
 
