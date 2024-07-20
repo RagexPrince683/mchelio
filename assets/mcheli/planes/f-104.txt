@@ -24,6 +24,9 @@ Category = M.F
 
 HUD = plane
 
+AddRecipe = "LXL",  "XQX",  "LLL",  X, iron_block, D, dispenser, L, iron_ingot, Q, glass
+
+
 MobilityYaw = 0.5
 MobilityPitch = 0.6
 MobilityRoll = 1.5

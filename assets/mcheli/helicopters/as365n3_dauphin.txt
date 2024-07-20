@@ -99,6 +99,7 @@ BoundingBox = 0.0, 2.2, -12, 0.55, 2.2
 BoundingBox = 0.0, 2.0, -11.5, 0.55, 1.8, 1.25
 BoundingBox = 0.0, 2.1, -11.2, 0.55, 1.2, 1.25
 BoundingBox = 0.0, 2.6, -12.5, 0.55, 2.6, 1.25
+AddRecipe = " GGG ",  "IXI",  "III",  X, iron_block, G, glass, I, iron_ingot
 
 
 
