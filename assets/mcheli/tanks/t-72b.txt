@@ -11,7 +11,7 @@ DamageFactor = 0.0
 EnableNightVision = true
 EnableEntityRadar = false
 Sound = tseventytwopass
-HUD = mbt_hudtwo, mbt_hudtwo
+HUD = mbt_hudtwo, gunnernvg
 WeightType = Tank
 DefaultFreelook = true
 FlareType = 10
@@ -41,7 +41,7 @@ PivotTurnThrottle = 0.0
 
 
 AddGunnerSeat =  0.0, 0.8, 1.5, -0.0, 1.78, 1.85,  false, -90, 90, true
-AddGunnerSeat = -0.75,2.0,-0.5, -0.75, 3.1, -0.5, false, -90, 90, true
+AddGunnerSeat = -0.75,2.1,-0.5, -0.75, 3.1, -0.5, false, -75, 4, true
 CameraPosition = -0.0, 2.5, 1.85, true
 
 TurretPosition = 0.0, 0.0, -0.0
@@ -78,7 +78,7 @@ AddTurretWeapon = t72mg_coaxial, -0.35, 1.706, 1, 0.0, 0.0, false,1, 0,-360,360,
 
 AddPartTurretWeapon = t72NSV, false, true, false, -0.75, 2.5, -0.5
 AddPartWeaponChild   = false, true, -0.75, 2.803, 0.019
-AddTurretWeapon = t72NSV, -0.75, 2.5, -0.5, 0.0, 0.0, false, 2, 0, -360,360, -75,4
+AddTurretWeapon = t72NSV, -0.7497, 2.7906, -0.5, 0.0, 0.0, false, 2, 0, -360,360, -75,4
 
 
 
