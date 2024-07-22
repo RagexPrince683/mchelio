@@ -60,6 +60,8 @@ AddWeapon = s-5m57mm, -2.349, 0.792, 0.689,  -1.0, 0.0
 ;AddWeapon = droptank2,  3.334, 0.516, -2.97,  0.0, 0.0
 ;AddWeapon = droptank2, -3.334, 0.516, -2.97,  0.0, 0.0
 
+AddRecipe = "PDP",  "DID",  " D ",  I,mcheli:mig17f, D,iron_ingot, P, gunpowder
+
 
 BoundingBox = 0.0, 1.6, 4.0, 1.2, 1.2
 BoundingBox = 0.0, 1.6, 2.8, 1.5, 1.5
