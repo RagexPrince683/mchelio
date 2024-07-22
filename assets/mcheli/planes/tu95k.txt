@@ -61,7 +61,7 @@ AddBlade = 1,0,  -5.40,  2.842,  -5.10,   0, 0,-3
 AddPartRotor =  -10.61,  2.89,  -5.00,   0, 0,-3
 AddBlade = 1,0, -10.61,  2.89,  -5.00,   0, 0,-3
 
-AddRecipe = "I I",  "TTT",  "I I",  I,iron_block, T,tnt
+AddRecipe = " T ",  "QIQ",  "QT ",  I,mcheli:tu95, T,tnt, Q,iron_ingot
 
 ;AddWeapon = anthemUSSR,       0.00,  1.00,  -6.0, 0, 90, true,  3
 AddWeapon = 250kg,       0.00,  0.00,  -6.0, 0, 90, true,  3

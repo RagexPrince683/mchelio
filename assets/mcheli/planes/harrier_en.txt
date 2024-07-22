@@ -61,7 +61,7 @@ AddWeapon = aim9lharrier,      -2.51, 0.80, -3.93,  -1.0, 0.0
 AddWeapon = agm-65,     4.85, 1.09, -4.35,   1.0, 0.0
 AddWeapon = agm-65,    -4.85, 1.09, -4.35,  -1.0, 0.0
 
-AddRecipe = " X ",  "XXX",  "ZXZ",  X, iron_block, Z, iron_ingot
+AddRecipe = "   ",  "ZXZ",  "   ",  X, mcheli:harrier, Z, iron_ingot
 BoundingBox =  0.00, 1.60, -1.50,  2.0, 2.5
 BoundingBox =  0.00, 1.60, -3.20,  2.0, 2.5
 BoundingBox =  0.00, 1.60, -5.60,  3.0, 2.5

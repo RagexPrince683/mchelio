@@ -58,8 +58,7 @@ AddWeapon = fab500sh, -3.509, 1.75, 1.08,   2.0, -3.0
 AddWeapon = targeting_pod_ph50s,   0.0, 3.1, 7.2,    0.0, 0.0
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
-AddRecipe = "HGL",  "BCB",  "IPI",  H, dye,15,  G, glass,  L, dye,12,  B, iron_block,  C, comparator,  I, iron_ingot,  P, gunpowder
-
+AddRecipe = "X X",  "YQY",  " X ",  Q, mcheli:su34, X, iron_ingot, Y,tnt
 
 BoundingBox =  0.00, 2.40, 9.80,  1.5, 1.5
 

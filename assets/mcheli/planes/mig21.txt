@@ -119,7 +119,7 @@ AddWeapon = s-5,  2.8259, 1.451, -4.599, 0.0, 0.0
 AddWeapon = s-5, -2.8259, 1.451, -4.599, 0.0, 0.0
 
 
-AddRecipe = " X ",  "XXX",  "DXD",  X, iron_block, D, dispenser
+AddRecipe = "DQD",  "XXD",  "DDD",  X, iron_block, D, iron_ingot, Q, glass
 
 
 

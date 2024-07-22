@@ -48,7 +48,7 @@ AddPartLG = -2.10, 1.38, -5.91, 0,0,1,   110
 AddPartLG =  2.10, 1.38, -5.91, 0,0,1,  -110
 AddPartLG =  0.00, 1.12, -11.31, -1,0,0,-40
 
-AddRecipe = " X ",  "XDX",  "ZXZ",  X, iron_block, D, diamond, Z, iron_ingot
+AddRecipe = " Z ",  "ZDZ",  " Z ",  D,mcheli:f14d, Z, iron_ingot
 
 AddPartWing =  -2.18, 2.13, -5.14,  0,-1,0, 40
 AddPartWing =   2.18, 2.13, -5.14,  0, 1,0, 40

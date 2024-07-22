@@ -102,7 +102,7 @@ AddWeapon = agm86b52,  3.55, 3.99, -15.14,  0, 0
 AddWeapon = b61,  0.00,  3.32, -20.41,  0, 0
 AddWeapon = b83,  0.10,  3.32, -19.54,  0, 0
 
-AddRecipe = "I I",  "TTT",  "I I",  I,iron_block, T,tnt
+AddRecipe = " L ",  " Q ",  " L ",  Q,mcheli:b52, L,iron_ingot
 
 BoundingBox =  0.0, 3.6,  -3.6,  3.8, 4.4
 BoundingBox =  0.0, 3.6,  -7.4,  3.8, 4.4

@@ -78,8 +78,7 @@ AddWeapon = mk82_12, -0.59, 0.87, -5.81, 0.0, 0.0, true, 2
 AddPartWeaponMissile = asraam, false, false, false,  -2.3055, 1.9485, -5.9684
 AddPartWeaponMissile = asraam, false, false, false, 2.3055, 1.9485, -5.9684
 
-AddRecipe = " X ",  "XXX",  "TXT",  X, iron_block, T, tnt
-
+AddRecipe = "D D",  "DXD",  "   ",  X, mcheli:tornado-ids, D, iron_ingot 
 
 
 BoundingBox =  0.0, 2.2, -3.8,  2.5, 1.8

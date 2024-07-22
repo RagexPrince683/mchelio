@@ -63,8 +63,7 @@ AddWeapon = upk-23-250, -1.5056,  1.3217,  -5.3,  1, 0
 AddWeapon = upk-23-250, -2.1261,  1.1649,  -5.3,  1, 0
 AddWeapon = upk-23-250, -2.2066,  1.1649,  -5.3,  1, 0
 AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
-
-AddRecipe = "GYG",  "XXX",  "XDX",  X, iron_block, Y, glass, D, diamond_block, G, gunpowder
+AddRecipe = " X ",  "YQY",  "X X",  X, iron_ingot, Y, gunpowder, Q, mcheli:yak38
 
 BoundingBox =  0.00, 1.37,  1.21,  1.1, 1.1
 

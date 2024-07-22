@@ -34,7 +34,7 @@ AddPartLG = -2.5126, 1.5929, -7.3302,  0,0,1, 46.5, 0,0,1, 46.5
 
 AddTexture = eurofighter typhoon 2_ital.
 
-AddRecipe = " X ",  "XDX",  "ZXZ",  X, iron_block, D, diamond, Z, iron_ingot
+AddRecipe = "ZXZ",  "XDX",  "ZXZ",  X, iron_block, D, diamond, Z, iron_ingot
 
 AddPartNozzle = 0.66, 1.6868, -12.9987, -1,0,0
 AddPartNozzle = -0.66, 1.6868, -12.9987, -1,0,0

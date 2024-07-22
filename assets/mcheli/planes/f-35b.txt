@@ -84,7 +84,7 @@ AddWeapon = 35cbu-87,  -3.50, 1.16, -7.85, 0.0, 0.0
 AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
-AddRecipe = "GYG",  "XXX",  "XDX",  X, iron_block, Y, glass, D, diamond_block, G, gunpowder
+AddRecipe = "   ",  "YXY",  "   ",  X, mcheli:f-35a, Y, iron_ingot
 
 BoundingBox =  0.00, 1.90, -3.10,  3.0, 2.0
 BoundingBox =  0.00, 1.90, -6.60,  4.0, 2.0

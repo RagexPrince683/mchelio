@@ -38,7 +38,7 @@ MobilityYaw = 1.5
 MobilityPitch = 1.5
 MobilityRoll = 2.5
 ;OnGroundPitch = 1
-
+AddRecipe = " D ",  "DQD",  " D ", D,iron_ingot, Q,mcheli:mig21
 AddPartLG =  0.0, 0.95, 2.71,  -1,0,0, 110
 AddPartLG =  1.8, 1.40, -3.0,  0,0,-1, 90
 AddPartLG = -1.8, 1.40, -3.0,  0,0,1, 90
