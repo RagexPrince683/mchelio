@@ -88,7 +88,7 @@ BoundingBox =  4.7, 1.6,  -1.44,  2.4, 0.5, 1.0
 
 enableback = true
 
-AddRecipe = " G ",  "IDI",  "I I",  I,iron_block, D,diamond, P,paper, G,glass
+AddRecipe = " G ",  "DID",  "D D",  I,iron_block, D,iron_ingot, G,glass
 
 
 unmountposition = 0.0, 1.72, 2.65

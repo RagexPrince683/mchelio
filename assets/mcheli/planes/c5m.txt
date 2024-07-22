@@ -140,7 +140,7 @@ BoundingBox = 6.90, 18.03, -64.23, 4.0, 0.5
 BoundingBox = -6.90, 18.03, -64.23, 4.0, 0.5
 
 
-AddRecipe = "   ",  "Y C",  "X X",  X, iron_block, Y, diamond, C,chest
+AddRecipe = "   ",  "YXY",  "   ",  X, mcheli:c5, Y, iron_ingot
 
 ; AddRack=Entity type,                    RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute atl,  Yaw, Pitch
 AddRack = m1a2, 0.0, 2.40, -7,   0, 0, 17.0,   11,   20

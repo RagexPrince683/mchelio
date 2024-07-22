@@ -138,6 +138,6 @@ BoundingBox = -1.3, 1.8, -10.5,  1.3, 1.3, 1.5
 BoundingBox =  1.3, 1.8, -10.5,  1.3, 1.3, 1.5
 
 
-AddRecipe = " Y ",  "XXX",  "XDX",  X, iron_block, Y, glass, D, diamond
+AddRecipe = " Y ",  "XXX",  "XD ",  X, iron_block, Y, glass, D, diamond
 
 DamageFactor = 0.8
