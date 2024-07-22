@@ -9,6 +9,8 @@ Sight = MoveSight
 ModelBullet = 9M119
 Sound = teightymain
 
+Recoil = 1.8
+
 Round = 1
 
 Delay = 140

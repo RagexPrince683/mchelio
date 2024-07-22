@@ -8,6 +8,7 @@ ExplosionBlock = 5
 Flaming = false
 Sight = MoveSight
 
+Recoil = 2.0
 
 ;SoundPitch = 0.5
 

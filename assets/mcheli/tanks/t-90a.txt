@@ -1,7 +1,7 @@
 ﻿DisplayName = T-90A MBT
 AddDisplayName = en_US, T-90A MBT
 AddDisplayName = ja_JP, T-90A　主力戦車
-MaxHp = 450
+MaxHp = 800
 Speed = 0.37
 Sound = tninety
 ThrottleUpDown = 1.2
@@ -46,7 +46,7 @@ WeightType = Tank
 
 AddGunnerSeat =  0.00, 1.58, 0.44, 0.00, 2.58, 0.44, false, -14, 6, false
 
-AddGunnerSeat =  -1.0024, 2.3877, 0.498, -0.8919, 3.2, 0.0226, false, -60, 5, true
+AddGunnerSeat =  0.0, 2.3877, 0.498, -0.8919, 3.2, 0.0226, false, -60, 5, true
 
 CameraPosition =  0.00, 2.58, 0.44, true
 

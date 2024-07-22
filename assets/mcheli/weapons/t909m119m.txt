@@ -25,6 +25,8 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 CameraRotationSpeedPitch = 0.3
 
+Recoil = 1.8
+
 Delay = 155
 ReloadTime = 210
 Group = maingun

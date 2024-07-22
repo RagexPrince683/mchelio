@@ -1,4 +1,4 @@
-DisplayName = 7.62mm PKT Coaxial Machine Gun
+DisplayName = 7.62mm PKT Machine Gun
 Type = MachineGun1
 Power = 8
 

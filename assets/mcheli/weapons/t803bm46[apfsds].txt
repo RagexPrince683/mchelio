@@ -17,6 +17,8 @@ group = maingun
 
 DisplayMortarDistance = true
 
+Recoil = 1.8
+
 
 MaxAmmo = 9
 SuppliedNum = 3

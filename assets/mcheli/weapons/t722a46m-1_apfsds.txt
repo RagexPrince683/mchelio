@@ -9,6 +9,8 @@ Sight = None
 Round = 15
 ;Round = 1
 
+Recoil = 2.0
+
 
 Sound = tseventytwomain
 

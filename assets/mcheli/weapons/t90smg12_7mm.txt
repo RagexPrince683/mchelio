@@ -1,4 +1,4 @@
-DisplayName = 7.62mm PKT Machine Gun
+DisplayName = 7.62mm PKT Machine Gun RWS
 Type = MachineGun1
 Power = 8
 
@@ -56,7 +56,7 @@ SoundVolume = 15
 
 
 
-MaxAmmo = 2000
+MaxAmmo = 1000
 SuppliedNum = 250
 Item =  2, iron_ingot
 Item =  2, gunpowder

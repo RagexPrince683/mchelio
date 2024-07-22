@@ -1,7 +1,7 @@
 DisplayName = T-90 MBT
 AddDisplayName = en_US, T-90 MBT
 AddDisplayName = ja_JP, T-90 主力戦車
-MaxHp = 450
+MaxHp = 800
 Speed = 0.37
 Sound = tninety
 ThrottleUpDown = 1.0

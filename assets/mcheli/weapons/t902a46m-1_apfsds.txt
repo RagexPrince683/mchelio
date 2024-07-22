@@ -17,6 +17,8 @@ group = maingun
 
 Gravity = -0.001
 
+Recoil = 1.8
+
 
 DisplayMortarDistance = true
 
