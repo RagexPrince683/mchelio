@@ -5,14 +5,16 @@ Acceleration = 8.0
 Explosion = 0
 Flaming = false
 Sight = MissileSight
-Delay = 1
+Delay = 2
 ;SoundDelay = 3
 ;Accuracy = 2.0
-HeatCount = 1
-MaxHeatCount = 100
+HeatCount = 5
+MaxHeatCount = 150
 SoundPitch = 0.8
 Sound = dshk
 Accuracy = 1.5
+
+ModelBullet = bullet
 
 Round = 150
 

@@ -1,10 +1,10 @@
-﻿DisplayName = T-64BM
-AddDisplayName = en_US, T-64BM
-AddDisplayName = ja_JP, T-64BM
+﻿DisplayName = T-64BV
+AddDisplayName = en_US, T-64BV
+AddDisplayName = ja_JP, T-64BV
 ItemID = 31300
-MaxHp = 330
-Speed = 1.0
-ThrottleUpDown = 10.0
+MaxHp = 400
+Speed = 0.43
+ThrottleUpDown = 1.0
 MobilityYawOnGround = 2.0
 MinRotationPitch = -70
 MaxRotationPitch = 6

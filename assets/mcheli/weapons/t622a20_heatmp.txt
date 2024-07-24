@@ -1,22 +1,29 @@
 DisplayName = 115mm U-5TS Cannon [3BK4 - HEAT-MP]
 Type = MachineGun2
 Power = 440
-ModelBullet = bullet105mm
-Acceleration = 7.0
-Explosion = 2
+ModelBullet = 3bk18m
+Acceleration = 6.5
+Explosion = 4
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
-Delay = 150
-ReloadTime = 150
+
+
+Delay = 140
+ReloadTime = 200
+Round = 6
+
+
+HeatCount = 2000
+MaxHeatCount = 5500
 
 SoundPitch = 0.5
-SoundVolume = 10
-Sound = cannon_3_snd
+SoundVolume = 15
+Sound = tsixtytwo
 Group = MainGun
 Recoil = 2.5
 Gravity = -0.005
-Round = 1
+
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

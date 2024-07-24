@@ -1,7 +1,7 @@
 DisplayName = T-62
 MaxHp = 265
 Speed = 0.31
-Sound = mbt_run
+Sound = bmpone
 ThrottleUpDown = 1.0
 MobilityRoll = 0
 Gravity = -0.61
@@ -12,19 +12,21 @@ CameraZoom = 7
 CameraPosition = 0.00,  2.70, -0.0555, true
 CameraRotationSpeed = 10
 StepHeight = 1.8
-MinRotationPitch = -16
-MaxRotationPitch = 6
+MinRotationPitch = -17
+MaxRotationPitch = 4
 DefaultFreelook = true
 HideEntity = true
-MobilityYawOnGround = 2.5
+MobilityYawOnGround = 1.8
 
 HUD = mbt_hudtwo, gunnernvg
 
 
 SubmergedDamageHeight = 2
 
-OnGroundPitchFactor = 2.0
-OnGroundRollFactor  = 1.9
+OnGroundPitchFactor = 4.0
+OnGroundRollFactor  = 4.8
+
+MobilityRoll = 0
 
 HideEntity = true
 WeightType = Tank
@@ -32,9 +34,9 @@ WeightType = Tank
 
 
 
-AddGunnerSeat =  0.00,  1.00, 1.55,   0.00,  3.50, -0.0555,  false, -90, 90, true
+AddGunnerSeat =  0.7,  0.80, 1.55,   0.00,  3.50, -0.0555,  false, -17, 4, true
 
-unmountposition = -0.0,  1.50,  1.55
+unmountposition = 0.7,  1.50, 1.55
 
 ;AddGunnerSeat =  1.00,  2.20, 0.12,  1.00,  3.50,  0.12,  false, -90, 90, true
 
@@ -60,11 +62,11 @@ AddTrackRoller = 1.98,  0.1657,  -1.45525
 AddTrackRoller = 1.98,  0.1657,  -2.67285
 AddTrackRoller = 1.98,  0.4055,  -3.7607
 
-AddTurretWeapon = t622A20_APFSDS,  0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -16, 6
-AddTurretWeapon = t622A20_HEATMP,  0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -16, 6
-AddTurretWeapon = t622A20_HE,      0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -16, 6
-AddTurretWeapon = t62pkt7_62,      0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -16, 6
-AddTurretWeapon = t629k118,      0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360,   -16, 6
+AddTurretWeapon = t622A20_APFSDS,  0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -17, 4
+AddTurretWeapon = t622A20_HEATMP,  0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -17, 4
+AddTurretWeapon = t622A20_HE,      0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -17, 4
+AddTurretWeapon = t62pkt7_62,      -0.40, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -17, 4
+AddTurretWeapon = t629k118,        0.00, 1.57, -0.0555,  0.0, 0.0, true,1, 0,-360,360, -17, 4
 AddPartWeapon = t622A20_APFSDS / t622A20_HEATMP / t622A20_HE, false, true, false,  0.00, 1.3175, -0.0555, 0
 AddPartWeaponChild = false, true, 0.00, 1.58, 1.4190
 
@@ -84,34 +86,38 @@ FuelConsumption = 2.0
 
 AddRecipe = "XIX",  " I ",  "IAI",  X, iron_block,  I, iron_ingot, A,  mcheli:t55
 
-ArmorMinDamage = 9
+ArmorMinDamage = 10
 
-BoundingBox =  0.0, 0.60, 0.80,   2.75, 1.3,  0.60
-BoundingBox =  0.0, 1.6,  0.10,   1.90, 0.80,  0.08
-BoundingBox =  0.0, 1.8,  -0.10,   1.90, 0.95,  0.08
-BoundingBox =  0.0, 0.65,  0.0,   2.75, 1.3,  0.60
-BoundingBox =  0, 0.60,  0.60,   2.75, 1.3,  0.60
+
+;siding
+BoundingBox =  0.0, 0.60, 0.80,   2.75, 1.3,    0.12
+BoundingBox =  0.0, 0.6,  -1.95,   2.75, 1.3,    0.12
+
+;turret
+BoundingBox =  0.0, 1.8,  -0.10,   1.90, 0.95,  0.05
+
+
 
 
 ;ulp
 
-BoundingBox =  0, 1.25,  1.05,   2.65, 0.1,  0.18
-BoundingBox =  0, 1.15,  1.23,   2.65, 0.1,  0.18
-BoundingBox =  0, 1.05,  1.33,   2.65, 0.1,  0.18
-BoundingBox =  0, 0.95,  1.50,   2.65, 0.1,  0.18
-BoundingBox =  0, 0.85,  1.61,   2.65, 0.1,  0.18
-BoundingBox =  0, 0.75,  1.90,   2.65, 0.1,  0.18
-BoundingBox =  0, 0.60,  2.09,   2.65, 0.1,  0.18
+BoundingBox =  0, 1.25,  1.05,   2.65, 0.1,  0.05
+BoundingBox =  0, 1.15,  1.23,   2.65, 0.1,  0.05
+BoundingBox =  0, 1.05,  1.33,   2.65, 0.1,  0.05
+BoundingBox =  0, 0.95,  1.50,   2.65, 0.1,  0.05
+BoundingBox =  0, 0.85,  1.61,   2.65, 0.1,  0.05
+BoundingBox =  0, 0.75,  1.90,   2.65, 0.1,  0.05
+BoundingBox =  0, 0.60,  2.09,   2.65, 0.1,  0.05
 ;lfp
-BoundingBox =  0, 0.18,  1.78,   2.65, 0.1,  0.26
-BoundingBox =  0, 0.25,  1.85,   2.65, 0.1,  0.26
-BoundingBox =  0, 0.35,  1.95,   2.65, 0.1,  0.26
-BoundingBox =  0, 0.45,  2.00,   2.65, 0.1,  0.26
-BoundingBox =  0, 0.55,  2.08,   2.65, 0.1,  0.26
+BoundingBox =  0, 0.18,  1.78,   2.65, 0.1,  0.13
+BoundingBox =  0, 0.25,  1.85,   2.65, 0.1,  0.05
+BoundingBox =  0, 0.35,  1.95,   2.65, 0.1,  0.05
+BoundingBox =  0, 0.45,  2.00,   2.65, 0.1,  0.05
+BoundingBox =  0, 0.55,  2.08,   2.65, 0.1,  0.05
 
 
 
-
-BoundingBox =  0.0, 0.60, -2.3,   2.75, 1.3,  0.70
+;rear
+BoundingBox =  0.0, 0.60, -2.6,   2.7, 1.3,  0.22
 
 

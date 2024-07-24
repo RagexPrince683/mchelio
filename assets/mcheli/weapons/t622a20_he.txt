@@ -1,20 +1,24 @@
 DisplayName = 115mm U-5TS Cannon [3OF11 - HE]
 Type = MachineGun2
-Power = 60
-ModelBullet = bullet105mm
+Power = 31
+ModelBullet = bullet
 Acceleration = 5.0
-Explosion = 4
-ExplosionBlock = 4
+Explosion = 10
+ExplosionBlock = 5
 Flaming = false
 Sight = MoveSight
-ReloadTime = 150
-Delay = 150
 
 
+Delay = 140
+ReloadTime = 200
 Round = 1
-SoundPitch = 0.5
-SoundVolume = 10
-Sound = cannon_4_snd
+
+
+HeatCount = 2000
+MaxHeatCount = 5500
+
+SoundVolume = 15
+Sound = tsixtytwo
 Group = MainGun
 Recoil = 2.5
 Gravity = -0.005

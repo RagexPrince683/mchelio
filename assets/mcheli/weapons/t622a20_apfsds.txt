@@ -7,11 +7,19 @@ Explosion = 0
 ExplosionBlock = 0
 Flaming = false
 Sight = None
-Delay = 150
-ReloadTime = 150
-Round = 1
+
+
+Delay = 140
+ReloadTime = 200
+Round = 10
+
+
+HeatCount = 2000
+MaxHeatCount = 5500
+
+
 SoundVolume = 15.0
-Sound = cannon_4_snd
+Sound = tsixtytwo
 Accuracy = 0
 BulletColor        = 255, 255, 100, 100
 Group = MainGun
