@@ -70,15 +70,42 @@ AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt
 
-BoundingBox =  0.00, 2.10, -1.80,  3.0, 2.0
-BoundingBox =  0.00, 2.10, -5.60,  5.0, 2.0
-BoundingBox = -3.92, 2.20, -5.60,  4.0, 1.0
-BoundingBox =  3.92, 2.20, -5.60,  4.0, 1.0
-BoundingBox =  0.00, 2.10, -8.8,  3.0, 1.5
-BoundingBox =  0.00, 2.10, -11.2,  2.0, 1.5, 1.5
+BoundingBox =  0.00, 2.350, -0.80,  2.2, 2.0
 
-BoundingBox = 2.55, 2.41, -11.17, 3.0, 0.5
-BoundingBox = -2.55, 2.41, -11.17, 3.0, 0.5
+BoundingBox =  0.00, 2.35, -3.00,  2.2, 2.0
+
+BoundingBox =  0.00, 2.35, -5.20,  2.2, 2.0
+
+BoundingBox =  0.00, 2.35, -7.40,  2.2, 2.0
+
+BoundingBox =  0.00, 2.350, -9.2,  1.4, 1.4
+
+BoundingBox =  0.00, 2.350, -9.6,  1.4, 1.4
+BoundingBox =  0.00, 2.350, -11,  1.4, 1.4
+;wings
+BoundingBox = -1.92, 2.450, -6.40,  2.5, 0.2
+BoundingBox =  1.92, 2.45, -6.40,  2.5, 0.2
+
+BoundingBox = -1.92, 2.45, -5.20,  2.5, 0.2
+BoundingBox =  1.92, 2.45, -5.20,  2.5, 0.2
+BoundingBox = -4.25, 2.450, -6.40,  2.5, 0.2
+BoundingBox =  4.25, 2.45, -6.40,  2.5, 0.2
+
+BoundingBox = -1.22, 2.45, -3.80,  2.5, 0.2
+BoundingBox =  1.22, 2.45, -3.80,  2.5, 0.2
+
+
+BoundingBox = -3.8, 2.45, -4.85,  1.35, 0.2
+BoundingBox =  3.8, 2.45, -4.85,  1.35, 0.2
+
+BoundingBox = -6.00, 2.45, -7.0,  1.35, 0.2
+BoundingBox =  6.00, 2.45, -7.00,  1.35, 0.2
+
+
+
+;tail/rear
+BoundingBox = -2.15, 2.41, -11.35, 2.4, 0.3
+BoundingBox = 2.15, 2.41, -11.35, 2.4, 0.3
 BoundingBox =  0.0, 6.1, -12.0,  1.0, 1.6
 BoundingBox =  0.0, 5.1, -11.0,  1.0, 3.2
 BoundingBox =  0.0, 4.1, -10.0,  1.0, 3.2

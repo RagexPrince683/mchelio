@@ -57,6 +57,7 @@ BoundingBox =  0.00, 1.65, -1.75,   2.0, 1.2
 BoundingBox =  0.00, 1.65, -3.80,   2.0, 1.2
 BoundingBox =  0.00, 1.70, -6.00,   2.0, 1.1
 BoundingBox =  0.00, 1.75, -8.10,   2.0, 1.0
+BoundingBox =  0.00, 1.85, -9.2,   1.2, 1.2
 BoundingBox =  0.00, 1.85, -10.2,   1.2, 1.2
 
 ;canards (oh waiter more bloat)
