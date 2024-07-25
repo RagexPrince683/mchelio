@@ -116,7 +116,7 @@ AddPartTurretWeapon    = t64mg12_7mms,   false, true, false,  -0.72, 2.84, -0.61
 AddPartTurretWeapon    = t64mg12_7mms, false, true, true, -0.72, 2.96, -0.61
 AddWeapon = t64mg12_7mms,    -0.72, 3.07, -0.61,   0.0, 0.0, false, 2, 0, -95,95, -70,5
 
-AddRecipe = "XIX",  " A ",  "XIX",  X, iron_block,  I, iron_ingot,  A, mcheli:t64b
+AddRecipe = "XIX",  " A ",  "XIX",  X, iron_block,  I, iron_ingot,  A, mcheli:t64bm
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
@@ -134,16 +134,19 @@ RideRack = c5, 2
 ;BoundingBox =  0, 0.7, -1,   3.8, 1.6, 3
 
 ;side armor 
-BoundingBox = 0.0, 0.75, 1.0, 3.1, 1.55, 0.20
+BoundingBox = 0.0, 0.75, 1.0, 3.1, 1.55, 0.22
 ;front plate
 
-BoundingBox = 0.0, 0.70, 2.7, 3.0, 0.1, 0.03
-BoundingBox = 0.0, 0.80, 2.50, 3.0, 0.1, 0.03
-BoundingBox = 0.0, 0.90, 2.30, 3.0, 0.1, 0.04
-BoundingBox = 0.0, 1.00, 2.10, 3.0, 0.1, 0.04
-BoundingBox = 0.0, 1.10, 1.90, 3.0, 0.1, 0.05
-BoundingBox = 0.0, 1.20, 1.70, 3.0, 0.1, 0.05
-BoundingBox = 0.0, 1.30, 1.50, 3.0, 0.1, 0.10
+
+;this is the 2017 model
+
+BoundingBox = 0.0, 0.70, 2.7, 3.0, 0.1, 0.02
+BoundingBox = 0.0, 0.80, 2.50, 3.0, 0.1, 0.02
+BoundingBox = 0.0, 0.90, 2.30, 3.0, 0.1, 0.02
+BoundingBox = 0.0, 1.00, 2.10, 3.0, 0.1, 0.02
+BoundingBox = 0.0, 1.10, 1.90, 3.0, 0.1, 0.03
+BoundingBox = 0.0, 1.20, 1.70, 3.0, 0.1, 0.03
+BoundingBox = 0.0, 1.30, 1.50, 3.0, 0.1, 0.09
 BoundingBox = 0.0, 1.40, 1.30, 3.0, 0.1, 0.10
 BoundingBox = 0.0, 1.475, 1.10, 3.0, 0.1, 0.11
 
@@ -152,8 +155,9 @@ BoundingBox = 0.0, 1.475, 1.10, 3.0, 0.1, 0.11
 BoundingBox = 0.0, 0.40, 2.65, 3.0, 0.5, 0.08
 
 ;back side armor 
-BoundingBox = 0.0, 0.85, -2.0, 3.1, 1.35, 0.20
-BoundingBox = 0.0, 0.85, -2.4, 3.1, 1.35, 0.25
+
+BoundingBox = 0.0, 0.85, -2.0, 3.1, 1.35, 0.16
+BoundingBox = 0.0, 0.85, -2.4, 3.1, 1.35, 0.20
 
 BoundingBox = 0.0, 0.90, -2.55, 3.0, 1.2, 0.4
 

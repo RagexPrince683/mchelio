@@ -3,7 +3,7 @@ Type = Rocket
 Power = 10
 Explosion = 0
 ExplosionBlock = 0
-Acceleration = 8.0
+Acceleration = 6
 Sight = None
 
 SoundPitchRandom = 0.1

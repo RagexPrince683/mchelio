@@ -1,8 +1,8 @@
-DisplayName = 105mm M68A1 Cannon [M456A2 - HEATFS]
+DisplayName = 105mm M68A1 Cannon [M456A2 - HEAT-FS]
 Type = MachineGun2
 Power = 400
-ModelBullet = bullet105mm
-Acceleration = 7
+ModelBullet = 3bk18m
+Acceleration = 6.5
 Explosion = 4
 ExplosionBlock = 3
 Flaming = false

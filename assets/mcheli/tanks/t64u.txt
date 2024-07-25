@@ -78,7 +78,7 @@ AddCrawlerTrack = false, 0.1, 2.32,  -0.3/ -2.52,  -0.16/ -2.85,  0.33/ -4.04,  
 ;転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
 ;履帯と同じ動きをするが、履帯がなくても設定可能
 
-SetWheelPos =  1.92,  -0.24,  2.86,  0.70, -0.76, -2.22
+SetWheelPos =  1.92,  -0.24,  3.12,  2.07, 1.02, -0.31, -1.41, -2.52
 
 AddTrackRoller =  2.32 ,0.6 ,4.03
 AddTrackRoller =  2.32,  0.16,  3.12
@@ -101,13 +101,13 @@ AddTrackRoller = -2.32,  0.6,  -3.78
 ;主砲
 
 
-AddPartWeapon =t64b3bm22/t64b3bk18m/t64b3of26[he]/t64b9k119, false, true, false,  0.00, 0, 0, 0
+AddPartWeapon = ukt64b3bm22/ukt64b3bk18m/ukt64b3of26[he]/ukt64b9k119, false, true, false,  0.00, 0, 0, 0
 AddPartWeaponChild = false, true, -0.43, 1.78, 1.5, 0.0
 AddPartWeaponChild = false, true, -0.43, 1.78, 1.5, 0.5
-AddTurretWeapon = t64b3bm22, 0, 1.79, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 6
-AddTurretWeapon = t64b3bk18m, 0, 1.79, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 6
-AddTurretWeapon = t64b3of26[he], 0, 1.79, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 6
-AddTurretWeapon = t64b9k119, 0, 1.79, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 6
+AddTurretWeapon = ukt64b3bm22, 0, 1.79, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 6
+AddTurretWeapon = ukt64b3bk18m, 0, 1.79, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 6
+AddTurretWeapon = ukt64b3of26[he], 0, 1.79, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 6
+AddTurretWeapon = ukt64b9k119, 0, 1.79, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 6
 
 AddTurretWeapon = t64mg_coaxial,  -0.46, 1.73, 0,  0.0, 0.0, true,1, 0,-360,360, -14, 6
 
@@ -117,7 +117,7 @@ AddPartTurretWeapon    = t64mg12_7mms,   false, true, false,  -0.72, 2.84, -0.61
 AddPartTurretWeapon    = t64mg12_7mms, false, true, true, -0.72, 2.96, -0.61
 AddWeapon = t64mg12_7mms,    -0.72, 3.07, -0.61,   0.0, 0.0, false, 2, 0, -95,95, -70,5
 
-AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
+AddRecipe = "XIX",  " I ",  " A ",  X, iron_block,  I, iron_ingot,  A, mcheli:t64b
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
@@ -153,8 +153,8 @@ BoundingBox = 0.0, 1.475, 1.10, 3.0, 0.1, 0.10
 BoundingBox = 0.0, 0.40, 2.65, 3.0, 0.5, 0.08
 
 ;back side armor 
-BoundingBox = 0.0, 0.85, -2.0, 3.1, 1.35, 0.16
-BoundingBox = 0.0, 0.85, -2.4, 3.1, 1.35, 0.20
+BoundingBox = 0.0, 0.85, -2.0, 3.1, 1.35, 0.18
+BoundingBox = 0.0, 0.85, -2.4, 3.1, 1.35, 0.23
 
 BoundingBox = 0.0, 0.90, -2.55, 3.0, 1.2, 0.4
 

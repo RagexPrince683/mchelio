@@ -38,9 +38,9 @@ MaxHeatCount = 2050
 
 
 Group = MainGun
-Acceleration = 7.0
+Acceleration = 6.0
 BulletColor        = 255, 255, 100, 100
-ModelBullet = bullet105mm
+ModelBullet = 3bk18m
 Piercing = 0
 Accuracy = 0.0
 DamageFactor = tank, 2.0

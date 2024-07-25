@@ -112,17 +112,17 @@ AddTurretWeapon = m1a2apfsds,     0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,36
 AddTurretWeapon = abramscoax,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 
 ;RWS M2
-AddPartTurretWeapon    = m2_rws,   true, true, true,  -0.846, 3.68, 0.373
-AddPartTurretWeapon    = m2_rws,  false, true, false, -0.846, 3.68, 0.373
-AddTurretWeapon = m2_rws,   -0.846, 3.68,  0.373,   0.0, 0.0, false, 2, 0, -360,360, -60,20
+AddPartTurretWeapon    = abramsm2_rws,   true, true, true,  -0.846, 3.68, 0.373
+AddPartTurretWeapon    = abramsm2_rws,  false, true, false, -0.846, 3.68, 0.373
+AddTurretWeapon = abramsm2_rws,   -0.846, 3.68,  0.373,   0.0, 0.0, false, 2, 0, -360,360, -60,20
 AddTurretWeapon = targeting_pod_block,      -0.846, 3.68, 0.373,  0.0, 0.0, true,2, 0,-360,360, -50, 10
 ;AddTurretWeapon = mbt_cas,      -0.846, 3.68, 0.373,  0.0, 0.0, true,2, 0,-360,360, -20, 10
 AddTurretWeapon = targeting_pod_ground,   -0.846, 3.68, 0.373,   0.0, 0.0,  true, 2
 
 ;M240
-AddPartTurretWeapon    = m240_r,   false, true, true,   1.243, 3.24, -0.77
-AddPartTurretWeapon    = m240_r,   false, true, false,  1.243, 3.24, -0.77
-AddTurretWeapon = m240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -65,9
+AddPartTurretWeapon    = abramsm240_r,   false, true, true,   1.243, 3.24, -0.77
+AddPartTurretWeapon    = abramsm240_r,   false, true, false,  1.243, 3.24, -0.77
+AddTurretWeapon = abramsm240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -65,9
 
 AddRecipe = "IXI",  "III",  "IAI",  X, iron_block,  I, iron_ingot, A, mcheli:m1a2
 
