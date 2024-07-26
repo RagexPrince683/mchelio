@@ -95,4 +95,4 @@ BoundingBox = 0.0, 2.0, 3.2, 1.1, 1.1
 BoundingBox = 0.0, 1.9, 4.0, 0.85, 0.85
 
 
-;AddRecipe = " YX",  "XXP",  "X X",  X, iron_block, Y, glass, P, iron_ingot
+AddRecipe = "PYP",  "XPX",  "P P",  X, iron_block, Y, glass, P, iron_ingot

@@ -46,7 +46,7 @@ AddWeapon = rs82,   2.32, 1.22, 2.08,  -0.2, 0.0
 
 AddWeapon = ,   0.00, 1.52, 4.41,  0.0, 0.0
 
-AddRecipe = " G ",  "IBI",  "IRI",  B, Iron_Block,  I, Iron_Ingot, R,  Dye,1,  G, Glass,
+AddRecipe = " G ",  "IBI",  "I  ",  B, Iron_Block,  I, Iron_Ingot,  G, Glass,
 
 BoundingBox =  0.00,  1.99,  0.00,  1.2, 1.2
 BoundingBox =  0.00,  1.99,  1.13,  1.2, 1.2

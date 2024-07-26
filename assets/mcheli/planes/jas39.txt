@@ -92,6 +92,6 @@ BoundingBox =  0.00, 2.0, -7.7,   0.5, 1.9
 UnmountPosition = 0.00, 1.50, -0.60
 
 
-AddRecipe = " X ",  "XTX",  "TXT",  X, iron_block, T, tnt
+AddRecipe = "XGX",  "XTX",  "TQT",  X, iron_block, T, gunpowder, G, glass, Q, redstone
 
 enableback = true

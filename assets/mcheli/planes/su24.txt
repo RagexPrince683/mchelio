@@ -79,7 +79,7 @@ AddWeapon = s8k, -4.36,  2.68, -0.76,   0.0,  0.0 , true,  2
 AddWeapon = targeting_pod_block, -5.09,  1.91, -6.73,   0.0,  0.0
 AddWeapon = targeting_pod_mob, -5.09,  1.91, -6.73,   0.0,  0.0
 
-AddRecipe = "HGL",  "BCB",  "IPI",  H, dye,3,  G, glass,  L, dye,14,  B, diamond_block,  C, iron_block,  I, diamond,  P, gunpowder
+AddRecipe = "CGB",  "III",  "CCC",    G, glass,    B, iron_ingot,  C, iron_block,  I, tnt,  
 
 
 BoundingBox = 0.0, 3.4, 6.0, 2.0, 2.0

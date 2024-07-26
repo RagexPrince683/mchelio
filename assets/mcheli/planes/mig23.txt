@@ -48,7 +48,7 @@ AddWeapon = 23mm, 0.00, 0.5842,  1.78
 AddWeapon = r24,  1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
 AddWeapon = r24,  -1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
 
-AddRecipe = " X ",  "XXX",  "DXD",  X, iron_block, D, dispenser
+AddRecipe = "QGQ",  "XXX",  "DQD",  X, iron_block, D, redstone, G, glass, Q, iron_ingot
 
 EntityWidth  = 0.7
 EntityHeight = 0.7

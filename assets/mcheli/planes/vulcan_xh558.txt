@@ -99,4 +99,4 @@ BoundingBox = 0.0, 3.7, -19.7, 1.5, 1.5
 BoundingBox = 0.0, 3.8, -20.8, 1.3, 1.3
 
 
-AddRecipe = "DDG",  "DGT",  "GTI",  I,iron_block, G,gold_block, D,diamond_block, T,tnt
+AddRecipe = "ITI",  "TIT",  "IQT",  I,iron_block, T,tnt, Q, iron_ingot

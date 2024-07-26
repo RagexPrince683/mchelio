@@ -61,7 +61,7 @@ AddWeapon = ub-32,  -1.4668,  1.1784, -6,  -1, 0
 AddWeapon = ub-32,  -2.1558,  1.0175, -6,  -1, 0
 AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
 
-AddRecipe = "GYG",  "XXX",  "XDX",  X, iron_block, Y, glass, D, diamond_block, G, gunpowder
+AddRecipe = "DYD",  "XGX",  "DGD",  X, iron_block, Y, glass, D, iron_ingot, G, gunpowder
 
 BoundingBox =  0.00, 1.37,  1.21,  1.1, 1.1
 

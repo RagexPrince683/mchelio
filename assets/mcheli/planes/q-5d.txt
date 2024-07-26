@@ -121,4 +121,4 @@ BoundingBox = 0.0, 4.0, -10.5, 0.5, 1.2
 enableback = true
 
 
-;AddRecipe = " YX",  "XXP",  "X X",  X, iron_block, Y, glass, P, iron_ingot
+AddRecipe = "PDP",  "DID",  "PDP",  I,mcheli:mig-19s, D,iron_ingot, P, gunpowder

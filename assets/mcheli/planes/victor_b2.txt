@@ -119,4 +119,4 @@ BoundingBox = 0.0, 6.39, -20.81, 2.0, 0.3
 ;BoundingBox = -0.44, 6.59, -21.81, 2.0, 0.3
 
 
-AddRecipe = "DDG",  "DGT",  "GTI",  I,iron_block, G,gold_block, D,diamond_block, T,tnt
+AddRecipe = "G  ",  "TTT",  "III",  I,iron_block, T,tnt

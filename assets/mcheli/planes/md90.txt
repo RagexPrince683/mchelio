@@ -75,7 +75,7 @@ AddSeat = 1.4, 2.8, -14.2
 
 
 
-AddRecipe =" X ","XXX","WXW",X,iron_block,W,dye,7
+AddRecipe ="YGY","XXY","   ",X,iron_block, Y, iron_ingot, G, glass
 
 ;Right
 AddPartLG = 0, 1.50,  1.39,  1,0,0, -125

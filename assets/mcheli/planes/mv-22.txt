@@ -78,7 +78,7 @@ AddPartLG =  2.33, 0.91, -5.96,  0,0,-1
 ;RightHatch
 AddPartLG = -2.33, 0.91, -5.96,  0,0, 1
 
-AddRecipe = " Y ",  "XXX",  "X X",  X, iron_block, Y, glass
+AddRecipe = " Y ",  "XZX",  " Z ",  X, iron_block, Y, glass, Z, iron_ingot
 
 InventorySize = 54
 
