@@ -1,23 +1,25 @@
-DisplayName = UB-32M [S-5 Rocket]
+DisplayName = UB-32M [S-5K Rocket]
 Type = Rocket
-Power = 150
+Power = 130
 ModelBullet = hydra70
-Acceleration = 5
-Explosion = 3
+Acceleration = 7
+Explosion = 4
+ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
 Sound = rocket_snd
-Delay = 6
-ReloadTime = 110
-Round = 64
+Delay = 1
+ReloadTime = 210
+Round = 32
 Gravity = -0.075
+Accuracy = 1.5
 
 
 
 Group = MainGun
 BulletColor        = 255, 255, 100, 100
 Piercing = 0
-Accuracy = 0.5
+Accuracy = 1.5
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
@@ -27,7 +29,7 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 
-MaxAmmo = 64
-SuppliedNum = 16
+MaxAmmo = 32
+SuppliedNum = 8
 Item =  3, iron_ingot
 Item =  3, gunpowder

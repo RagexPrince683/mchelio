@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A46M-1 Cannon [3OF26 - HE]
+DisplayName = 125mm KBA-3 Cannon [3OF26 - HE]
 Type = MachineGun2
 Power = 42
 ModelBullet = 3of26

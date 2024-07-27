@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A46M-1 Cannon [3BK18M - HEAT-FS]
+DisplayName = 125mm KBA-3 Cannon [3BK18M - HEAT-FS]
 
 Type = MachineGun2
 Power = 550

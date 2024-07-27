@@ -1,17 +1,17 @@
-DisplayName = Type 59T 7.62mm Machine Gun
+DisplayName = 7.62mm Type 59 Machine Gun
 Type = MachineGun1
-Power = 7
-Acceleration = 7.5
+
+
 Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
-Accuracy = 2.0
+Accuracy = 1.5
 Round = 250
 ReloadTime = 150
 SoundPitch = 1.0
 Sound = pkt
-HeatCount = 4
+HeatCount = 5
 MaxHeatCount = 150
 Gravity = -0.001
 AddMuzzleFlash      =  1.5,      0.22,        1,  150,254,159,84
@@ -27,7 +27,7 @@ DamageFactor = heli, 0.5
 Power = 8
 
 ReloadTime = 80
-Acceleration = 7.5
+Acceleration = 7
 Piercing = 0
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5

@@ -27,7 +27,7 @@ AddRecipe = "YX ",  "XXX",  "   ",  X, iron_block, Y, iron_ingot
 EnableNightVision = false
 EnableEntityRadar = false
 
-MobilityYawOnGround = 1.8
+MobilityYawOnGround = 2.5
 MobilityYaw = 1.9
 MobilityPitch = 1.5
 MobilityRoll = 1.0

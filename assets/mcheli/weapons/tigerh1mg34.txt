@@ -10,7 +10,7 @@ Delay = 1
 ReloadTime = 100
 SoundDelay = 0
 Sound = mgthree
-group = maingun
+
 Round = 150
 SoundPitch = 1.0
 ;SetCartridge = model name, velocity (in x-axis), ?, ?, size, gravity, "bounce-height" 
@@ -37,8 +37,8 @@ RecoilBufCount = 5, 1
 
 HeatCount = 5
 MaxHeatCount = 150
-MaxAmmo = 2700
-SuppliedNum = 270
+MaxAmmo = 2250
+SuppliedNum = 375
 Item =   1, iron_ingot
 Item =  1, gunpowder
 ModelBullet = bullet

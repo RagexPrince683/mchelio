@@ -1,15 +1,15 @@
-DisplayName = 12.7mm Type 54 Heavy Machine Gun
+DisplayName = 12.7mm Type 54 Machine Gun
 Type = MachineGun1
 Power = 31
-Acceleration = 8.0
+
 Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
 ;SoundDelay = 3
-;Accuracy = 2.0
-HeatCount = 4
-MaxHeatCount = 100
+Accuracy = 1.5
+HeatCount = 5
+MaxHeatCount = 150
 SoundPitch = 1.0
 Sound = dshk
 Round = 50
@@ -17,7 +17,7 @@ Round = 50
 ;12.7
 Power = 31
 
-Acceleration = 7.5
+Acceleration = 7
 Piercing = 0
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5

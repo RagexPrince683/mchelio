@@ -1,6 +1,6 @@
-DisplayName = 125mm 2A46M-1 Cannon [9M112 - ATGM]
+DisplayName = 125mm KBA-3 Cannon [9M112 - ATGM]
 Type = TVMissile
-Power = 650
+Power = 600
 ModelBullet = 9M119
 
 Explosion = 6

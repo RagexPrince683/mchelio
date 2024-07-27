@@ -1,4 +1,4 @@
-DisplayName = 125mm 2A46M-1 Cannon [3BM42 - APFSDS]
+DisplayName = 125mm KBA-3 Cannon [3BM42 - APFSDS]
 Type = MachineGun2
 Power = 457
 ModelBullet = 3bm42
