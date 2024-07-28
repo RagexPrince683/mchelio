@@ -1,10 +1,10 @@
-﻿DisplayName = Type74
-AddDisplayName = en_US, Type 74
-AddDisplayName = ja_JP, 74式戦車
+﻿DisplayName = Type 74 C
+AddDisplayName = en_US, Type 74 C
+AddDisplayName = ja_JP, 74式戦車 C型
 ItemID = 91129
 MaxHp = 260
-Speed = 0.50
-ThrottleUpDown = 3.0
+Speed = 0.33
+ThrottleUpDown = 1.2
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
@@ -20,9 +20,8 @@ AddTexture = type741
 AddTexture = type742
 AddTexture = type743
 AddTexture = type744
-CameraZoom = 4
+CameraZoom = 8
 EnableBack = true
-SetWheelPos =  1.4,  -0.24,  2.0, 1.0, -1.0, -3.0, -2.0
 
 SubmergedDamageHeight = 2
 WeightedCenterZ = 0.0
@@ -33,24 +32,27 @@ OnGroundRollFactor  = 3.5
 MobilityYawOnGround = 2.5
 PivotTurnThrottle = 0.0
 
-AddGunnerSeat =  -0.5,  1.5, -0.33,   -0.5,  2.0,  -0.33,    false,  -90, 90, true
-AddGunnerSeat =   0.0,  1.0,  0.0,    -0.04, 3.25, -0.0275,  false, -90, 90, false
-CameraPosition = -0.5,  3.0, -0.33, false
+AddGunnerSeat =  -0.5,  1.5, -0.33,   -0.0,  2.0,  1,    false,  -9, 6, true
+AddGunnerSeat =   0.0,  1.0,  0.0,    -0.04, 3.25, -0.0275,  false, -60, 10, false
+CameraPosition = -0.0,  2.65, 1, false
 CameraRotationSpeed = 14
 
-StepHeight = 1.5
+StepHeight = 1.8
 ParticlesScale = 0.1
 SmoothShading = true
 HideEntity = true
 
 
 
-MotionFactor = 0.9
+MotionFactor = 0.95
 
 MaxFuel         = 1500
 FuelConsumption = 2.0
 
 TrackRollerRot = 50
+
+SetWheelPos =  1.4,  -0.24,  1.65, 0.4943, -0.7192, -1.8827, -3.0462
+
 
 AddTrackRoller =  -1.0,  0.6756,  2.9635
 AddTrackRoller =  -1.0,  0.2127,  1.6578
@@ -77,13 +79,14 @@ MaxRotationPitch =  10
 AddPartWeapon  = Type74_APDS / Type74_HEP, false, true,  false,  0.0, 1.9, 0.0, 0
 AddPartWeaponChild = false, true,   0.0,    1.9146, 1.5959
 AddPartWeaponChild = false, true,   0.0,    1.9146, 1.5959, 0.5
-AddTurretWeapon     = Type74_APDS,  0.0,    1.8278, 1.59,  0.0, 0.0, true,1, 0,-360,360, -9, 6
-AddTurretWeapon     = Type74_HEP,   0.0,    1.8278, 1.59,  0.0, 0.0, true,1, 0,-360,360, -9, 6
-AddTurretWeapon     = type74lmg,    0.3958, 1.9914, 0.0,   0.0, 0.0, true,1, 0,-360,360, -9, 6
+AddTurretWeapon     = Type74_APDS,  0.0,    1.8278, 0,  0.0, 0.0, true,1, 0,-360,360, -9, 6
+AddTurretWeapon     = Type74_HEP,   0.0,    1.8278, 0,  0.0, 0.0, true,1, 0,-360,360, -9, 6
+AddTurretWeapon     = Type74_HEat,   0.0,    1.8278, 0,  0.0, 0.0, true,1, 0,-360,360, -9, 6
+AddTurretWeapon     = type74lmg,    0.3958, 1.9914, 1.0,   0.0, 0.0, true,1, 0,-360,360, -9, 6
 
-AddPartTurretWeapon    = M2_12_7mm,  false, true, false,  -0.042, 2.91, -0.03
-AddPartTurretWeapon    = M2_12_7mm,  false, true, true,   -0.042, 2.91, -0.03
-AddTurretWeapon = M2_12_7mm,   -0.042, 2.922, -0.042,   0.0, 0.0, true, 2, 0, -360,360, -60,10
+AddPartTurretWeapon    = type74M2_12_7mm,  false, true, false,  -0.042, 2.91, -0.03
+AddPartTurretWeapon    = type74M2_12_7mm,  false, true, true,   -0.042, 2.91, -0.03
+AddTurretWeapon = type74M2_12_7mm,   -0.042, 2.922, -0.042,   0.0, 0.0, false, 2, 0, -360,360, -60,10
 
 ;BoundingBox = 0.0, 0.7,  1.0, 4.0, 1.5, 0.7
 ;BoundingBox = 0.0, 0.7, -3.0, 4.0, 1.5, 1.0

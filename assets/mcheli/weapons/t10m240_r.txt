@@ -8,8 +8,11 @@ Delay = 1
 
 SoundPitch = 1.0
 Sound = m2_snd
+
+Round = 200
+
 Accuracy = 1.5
-HeatCount = 2
+HeatCount = 5
 MaxHeatCount = 150
 SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
 
@@ -33,7 +36,7 @@ AddDisplayName = en_US,
 SoundVolume = 15
 
 
-MaxAmmo = 1200
-SuppliedNum = 300
+MaxAmmo = 1000
+SuppliedNum = 200
 Item =  2, iron_ingot
 Item =  2, gunpowder

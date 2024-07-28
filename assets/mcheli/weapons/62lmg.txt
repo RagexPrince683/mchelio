@@ -8,7 +8,7 @@ Sight = MoveSight
 Delay = 1
 Accuracy = 1.5
 Round = 250
-ReloadTime = 150
+ReloadTime = 90
 SoundPitch = 1.0
 Sound = pkt
 HeatCount = 5
@@ -16,6 +16,8 @@ MaxHeatCount = 150
 Gravity = -0.001
 AddMuzzleFlash      =  1.5,      0.22,        1,  150,254,159,84
 AddMuzzleFlashSmoke =  1.7,  1,   2.0,  0.5, 15,  180,250,245,240
+
+ModelBullet = bullet
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5

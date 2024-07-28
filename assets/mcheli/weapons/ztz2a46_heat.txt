@@ -1,20 +1,19 @@
-DisplayName = 125mm Type 88C Smoothbore Gun [DTP-125 - HEAT-FS]
+DisplayName = 125mm Type 88C Cannon [DTP-125 - HEAT-FS]
 Type = MachineGun1
 Power = 480
-Explosion = 3
-ExplosionBlock = 3
-Acceleration = 6.5
+Explosion = 8
+ExplosionBlock = 4
+
 Sight = None
-ReloadTime = 165
-Round = 1
-SoundVolume = 10.0
+
+
 Sound = tseventytwomain
-Accuracy = 1.5
+
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 group = maingun
 
-Gravity = -0.001
+Gravity = -0.005
 
 DisplayMortarDistance = true
 
@@ -27,17 +26,18 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 1.5
 
-MaxAmmo = 40
-SuppliedNum = 1
-Item =  1, iron_ingot
+MaxAmmo = 14
+SuppliedNum = 7
+Item =  2, iron_ingot
 Item =  2, gunpowder
 
-Delay = 165
-ReloadTime = 165
+Round = 22
+Delay = 155
+ReloadTime = 210
 Group = MainGun
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
-ModelBullet = bullet105mm
+ModelBullet = 3bk18m
 Piercing = 0
 Accuracy = 0.0
 DamageFactor = tank, 2.0
@@ -46,5 +46,5 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 SoundVolume = 15
-AddDisplayName = en_US, 2A46 Smoothbore Gun[HEAT]
+
 

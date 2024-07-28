@@ -1,18 +1,26 @@
 DisplayName = 37mm Type 94 Cannon [Type 94 - APHE]
 Type = MachineGun2
 Power = 34
-Acceleration = 9.0
+Acceleration = 5
 Explosion = 4
 ExplosionBlock = 2
 Sight = None
-ReloadTime = 80
-Round = 119
-Delay = 80
+
+ModelBullet = bullet
+
 SoundVolume = 15
 Accuracy = 1.5
 Gravity = -0.02
 Sound = tank_gun_snd
 Recoil = 1.5
+
+Round = 1
+
+ReloadTime = 80
+Delay = 80
+HeatCount = 500
+MaxHeatCount = 2500
+
 
 DamageFactor = tank, 3.5
 DamageFactor = plane, 1.5
@@ -30,5 +38,5 @@ AddMuzzleFlashSmoke = 10.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 MaxAmmo = 119
 SuppliedNum = 119
-Item =  2, iron_ingot
+Item =  4, iron_ingot
 Item =  3, gunpowder

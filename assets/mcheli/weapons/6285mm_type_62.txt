@@ -37,5 +37,5 @@ RecoilBufCount = 40, 5
 
 MaxAmmo = 9
 SuppliedNum = 3
-Item =  2, iron_ingot
+Item =  1, iron_ingot
 Item =  2, gunpowder

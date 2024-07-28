@@ -1,8 +1,8 @@
 DisplayName = 23x152mm Anti-Aircraft Twin-Barreled Automatic Cannon [BZT - API]
 Type = MachineGun2
 Power = 51
-Acceleration = 7.5
-Explosion = 0
+Acceleration = 7
+Explosion = 1
 ExplosionBlock = 0
 FAE = true
 Flaming = true

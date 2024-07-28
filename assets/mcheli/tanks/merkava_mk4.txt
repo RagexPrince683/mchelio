@@ -123,7 +123,7 @@ FuelConsumption = 2.5
 RideRack = c5, 1
 RideRack = c5, 2
 
-AddRecipe = "XIX",  " X ",  "III",  X, iron_block,  I, iron_ingot
+AddRecipe = "XIX",  "DXD",  "III",  X, iron_block,  I, iron_ingot,  D, diamond
 
 ArmorMinDamage = 33
 

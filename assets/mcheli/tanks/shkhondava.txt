@@ -78,6 +78,7 @@ BoundingBox = 0.0, 1.0, 2.0, 2.0, 1.0
 BoundingBox = 0.0, 1.0, 4.0, 2.0, 1.0
 BoundingBox = 0.0, 1.0, 5.0, 2.0, 1.0
 
+AddRecipe = "XIX",  " I ",  "III",  X, iron_block,  I, iron_ingot
 
 ;cab
 
