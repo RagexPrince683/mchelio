@@ -27,7 +27,7 @@ AddTurretWeapon = mk45_5inchgun, 0.00, 2.67, 0.00, 0.00, 0.00 , true,1, 0, -360,
 AddPartWeapon = mk45_5inchgun, true, true, false, 0.00, 0.09, 0.00, 0.00
 AddPartWeaponChild = false, true, 0.00, 2.68, 0.38, 0.00
 
-AddRecipe = "ZXZ",  "XDR",  "ZXR",  X, iron_block, R, redstone_block, Z, iron_ingot, D, dispenser
+AddRecipe = "ZXZ",  "XDR",  "ZXR",  X, iron_block, R, redstone_block, Z, iron_ingot, D, TNT
 
 BoundingBox =  0.0, 2.0, 0.0,  3.0, 3.0
 

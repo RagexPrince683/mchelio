@@ -1,0 +1,58 @@
+;blud is utterly broken ik its just a test
+DisplayName = AGS-17 "Plamya"
+AddDisplayName = ru_RU, АГС-17 "Пламя"
+
+MaxHp = 20
+Speed = 0.00
+ThrottleUpDown = 1.0
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor = 1.0
+MinRotationPitch = -90
+MaxRotationPitch =  45
+WeightType = Tank
+DefaultFreelook = true
+ThirdPersonDist = 10
+CameraRotationSpeed = 45
+Sound = none
+SoundVolume = 0
+
+CameraZoom = 1
+CameraPosition = 0.00,  1.1, -1.4, true
+HideEntity = false
+SubmergedDamageHeight = 1
+WeightedCenterZ = 0.0
+
+OnGroundPitchFactor = 3.5
+OnGroundRollFactor  = 3.5
+unmountposition = 2.20, 1.50, -2.20
+MobilityYawOnGround = 0.5
+PivotTurnThrottle = 0.0
+
+MaxFuel         = 1500
+FuelConsumption = 2.0
+
+
+HUD = vehicle
+
+AddGunnerSeat =  0,-0.2,-1, 0,1.1,-1.4,  true, -90, 45, false
+
+AddPart		 = true, true, true, 0,   0.00, 0.00, 0.00
+AddChildPart = true,true,true,  0,   0.00, 1.15, -0.09
+AddChildPart = true,true,true,  2,   0.00, 1.15, -0.09, 0.4
+
+AddWeapon =  ags17,  0.0658, 0.4807, 0.4, 0.00, 1.00 , true,1, 0, -1, 1, -20, 10
+
+AddPartWeapon = ags17, false, true, false,  0.00, 0.455, -0.152 
+
+
+
+AddPartWeaponChild  =  false, true,  0.00, 0.00, 0.00
+AddPartWeaponChild  =  false, true,  0.00, 0.00, 0.00, 0.8
+AddRecipe = "DID",  "III",  "IID",  X, Iron_Block, I, Iron_Ingot, D, gunpowder
+
+BoundingBox =  0.0, 0.49, 0.0,  0.50, 0.30
+BoundingBox =  0.0, 0.51, 0.30,  0.50, 0.30
+BoundingBox =  0.0, 0.51, 0.55,  0.50, 0.22
+
+unmountposition = 0.00, 1.5, -0.0

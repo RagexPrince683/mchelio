@@ -79,7 +79,7 @@ AddWeapon = spike_er_tv, -3.62,  1.18, -0.55, -1, 0,  false,2
 AddWeapon = gau-19_r,  -1.61, 1.26, -2.515,  0.0, 0.0, false, 3,  90, -70, 70, -50,80
 AddWeapon = gau-19_l,   1.61, 1.26, -2.515,  0.0, 0.0, false, 4, -90, -70, 70, -50,80
 
-AddRecipe = "TXT",  "X X",  "X X",  X, iron_block, T, tnt
+AddRecipe = " G ",  "XXX",  "TTX",  X, iron_block, T, tnt, G, glass
 
 ;BoundingBox =  0.0, 2.3, -2.0,  2.8, 3.8
 BoundingBox =  0.0, 1.8, -4.5,  2.8, 2.4

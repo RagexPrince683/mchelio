@@ -43,7 +43,7 @@ AddPartRotWeapon     = m197_1/m197_2,     false, true,  true,  -0.02,  0.48, 1.3
 AddSeat       = 0.00, 1.41, -0.62
 AddGunnerSeat = 0.00, 1.10,  0.88,  0.0, 1.1, 3.5, true
 
-AddRecipe = " X ",  "XYX",  "YXY", X, iron_block, Y, iron_ingot
+AddRecipe = "YGR",  "XYX",  "RYR", X, iron_block, Y, iron_ingot, G, glass, R, redstone_block
 
 AddWeapon = m197_1,  -0.02,  0.48, 1.39,  0,-1, true,2, 0,-110,110, -10,50
 AddWeapon = m197_2,  -0.02,  0.48, 1.39,  0,-1, true,2, 0,-110,110, -10,50

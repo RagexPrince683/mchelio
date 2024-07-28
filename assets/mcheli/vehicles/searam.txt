@@ -43,7 +43,8 @@ AddWeapon = ram116, -0.14, 0.98, 2.5,   0.0, 0.0
 AddWeapon = ram116,  0.14, 0.98, 2.5,   0.0, 0.0
 AddWeapon = ram116,  0.43, 0.98, 2.5,   0.0, 0.0
 
-AddRecipe = " Y ",  " X ",  "XRX",  X,iron_block, Y,glass, R,redstone_block
+
+AddRecipe = " Z ",  "XUY",  "Z Z",  U, mcheli:mk15, X, iron_block, Y, TNT, Z, iron_ingot
 
 BoundingBox =  0.0, 0.85, 0.0,  2.0, 2.8
 

@@ -31,6 +31,6 @@ AddWeapon = type93torpedo,  0.89, 0.71, 0.52,   0.0, 0.0
 AddWeapon = type93torpedo, -0.89, 0.71, 0.52,   0.0, 0.0
 AddWeapon = type93torpedo, -2.40, 0.71, 0.52,   0.0, 0.0
 
-AddRecipe = " XX",  "FXX",  " RG",  X, iron_block, R, redstone_block, F, fish, G, gunpowder
+AddRecipe = " XX",  "FXX",  " RG",  X, iron_block, R, redstone_block, F, tnt, G, tnt
 
 BoundingBox =  0.0, 1.5, 0.0,  6.0, 3.0

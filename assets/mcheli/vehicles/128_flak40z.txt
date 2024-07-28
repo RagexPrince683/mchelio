@@ -35,7 +35,7 @@ AddWeapon = 128flakz_mid,  -0.84, 2.43, 10.27,   0.0, 0.0
 AddWeapon = 128flakz_hig,   0.84, 2.43, 10.27,   0.0, 0.0
 AddWeapon = 128flakz_hig,  -0.84, 2.43, 10.27,   0.0, 0.0
 
-AddRecipe = "ZXZ",  "DRD",  "Z R",  X, iron_block, R, iron_ingot, Z, iron_block, D, dispenser
+AddRecipe = "DZD",  "RZR",  "DRZ",  X, iron_block, R, iron_ingot, Z, iron_block, D, gunpowder
 
 
 unmountposition = 0.00, 1.5, -0.0

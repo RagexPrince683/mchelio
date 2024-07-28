@@ -33,7 +33,7 @@ AddSeat = 0.44,  1.20,  0.05
 AddSeat =-0.44,  1.20, -0.89
 AddSeat = 0.44,  1.20, -0.89
 
-AddRecipe = " R ",  "X X",  "X X",  X, iron_block,  R, redstone_block
+AddRecipe = " G ",  " XR",  " R ",  X, iron_block,  R, iron_ingot, G, glass
 
 InventorySize = 27
 

@@ -22,7 +22,7 @@ AddSeat = 0.00,  0.00, 0.00
 unmountposition = 0.0, 1.5, 0.0
 
 
-AddRecipe = "ZXZ",  "DRD",  "ZXR",  X, iron_block, R, iron_ingot, Z, iron_block, D, dispenser
+AddRecipe = "ZXZ",  "DRD",  "RXR",  X, iron_block, R, iron_ingot, Z, iron_block, D, tnt
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;砲塔

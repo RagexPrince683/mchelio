@@ -51,7 +51,7 @@ AddPartWeaponMissile = agm114tv, false, false, false,  -1.78,  0.81, -1.76
 AddSeat       = 0.00, 1.41, -0.62
 AddGunnerSeat = 0.00, 1.10,  0.88,  0.0, 1.1, 3.5, true
 
-AddRecipe = " Y ",  "XXX",  "YXY", X, iron_block, Y, iron_ingot
+AddRecipe = "YYY",  "RCR",  "YYY",  Y, iron_ingot,  R, redstone_block, C, mcheli:ah-1
 
 AddWeapon = m197_1,  -0.02,  0.48, 1.39,  0,-1, true,2, 0,-110,110, -10,50
 AddWeapon = m197_2,  -0.02,  0.48, 1.39,  0,-1, true,2, 0,-110,110, -10,50

@@ -36,7 +36,7 @@ AddTurretWeapon = 12_7cm,       0.73, 1.35, 5.83,   0.0, -1.0,   true,1, 0,-360,
 ;;AddTurretWeapon = type3bullet, -0.36, 1.35, 5.83,   0.0, -1.0,   true,1, 0,-360,360, -80, 8
 ;;AddTurretWeapon = type3bullet,  0.73, 1.35, 5.83,   0.0, -1.0,   true,1, 0,-360,360, -80, 8
 
-AddRecipe = "I I",  "DXD",  "XXX",  X, iron_block, I, iron_ingot, D, dispenser
+AddRecipe = "I I",  "DXD",  "XXX",  X, iron_block, I, iron_ingot, D, tnt
 
 
 BoundingBox =  0.0, 1.20, 0.0,  4.0, 3.05

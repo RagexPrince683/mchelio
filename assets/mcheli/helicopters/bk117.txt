@@ -71,7 +71,7 @@ MaxFuel         = 1000
 FuelConsumption = 1.0
 
 
-AddRecipe = " G ",  "IXI",  "III",  X, iron_block, G, glass, I, iron_ingot
+AddRecipe = " G ",  "IXI",  " I ",  X, iron_block, G, glass, I, iron_ingot
 
 UnmountPosition = -0.40,  1.50,  1.99
 

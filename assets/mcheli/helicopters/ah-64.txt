@@ -101,7 +101,7 @@ AddWeapon = targeting_pod_pv10s,   0.0, 1.1, 4.5,   0.0, 0.0,  false,2
 
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0
 
-AddRecipe = "X X",  " X ",  "X X",  X, iron_block
+AddRecipe = "X X",  " R ",  "X X",  X, iron_block, R, redstone_block,
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1

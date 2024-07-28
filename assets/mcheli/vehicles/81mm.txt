@@ -26,7 +26,8 @@ AddPartWeaponChild= false, true, 0,-0.2,-0
 
 AddTurretWeapon = 81mm_mortar,        0, 2.3, 1.29,   0.0, -1.0,   true,1, 0,-360,360, -90,90
 
-AddRecipe = "I I",  "D D",  "XXX",  X, iron_block, I, iron_ingot, D, dispenser
+AddRecipe = "IXI",  "IXI",  "LXL",  X,Gunpowder,  I, Iron_Ingot,  L,Iron_Block
+
 
 
 Boundingbox = 0.00,  0.20,  0.00,  0.7, 1.0, 1.5

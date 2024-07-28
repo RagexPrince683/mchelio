@@ -67,7 +67,9 @@ AddWeapon = ffar, -2.3,    0.4913,   2.4526, -1.0, 0.0,  true,  1,  0,   0,  0, 
 AddWeapon = m75_40mm,   0.00,   0.4051,  6.8922,  0.0, 0.0,  true,  1,  0,   0,  0,   0,   30
 AddWeapon = m134_l502,  1.2859, 1.8159, -1.6054,  0.0, 0.0,  false, 6, -90, -70, 70, -80,  80
 AddWeapon = m134_r502, -1.2859, 1.8159, -1.6054,  0.0, 0.0,  false, 7,  90, -70, 70, -80,  80
-AddRecipe = "AXA",  "XCX",  "XAX",  X, iron_block, C, chest, A, gunpowder
+
+
+AddRecipe = "QYQ",  "YXY",  " QZ",  X, mcheli:ch47,  Q, iron_ingot, Y,gunpowder, Z, iron_block
 
 InventorySize = 18
 

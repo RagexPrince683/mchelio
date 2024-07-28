@@ -33,4 +33,4 @@ BoundingBox =  0.0, 2.05, 0.0,  2.0, 1.25
 BoundingBox =  0.0, 0.5, -0.35,  0.75, 1.8
 
 unmountposition = 0.00, 1.5, -0.0
-AddRecipe = " G ",  "GIG",  "XRX",  X, iron_block, R, redstone_block, I,iron_ingot, G, gunpowder
+AddRecipe = " GG",  "GIR",  "XRX",  X, iron_block, R, redstone_block, I,iron_ingot, G, gunpowder

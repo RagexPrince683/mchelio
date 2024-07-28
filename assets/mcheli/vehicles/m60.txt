@@ -22,7 +22,7 @@ AddPart	       = true, true, false,  0,   0.00, 0.12, 0.00
 AddChildPart   = true, false, true,  2,   0.00, 0.12, -0.06, 0.01
 AddWeapon = m60_100,  0.00, 0.168, 0.00,   0.0, 0.0,   true,1, 0,-360,360, -5, 5
 
-AddRecipe = "IIF",  "DII",  "IXI",  X, Iron_Block, I, Iron_Ingot, D, Dispenser, F, Flint_and_Steel
+AddRecipe = "III",  " D ",  "III",   I, Iron_Ingot, D, gunpowder
 
 BoundingBox =  0.00, 0.00,  0.00,  0.75, 0.50
 
