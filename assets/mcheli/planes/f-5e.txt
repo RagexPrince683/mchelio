@@ -12,7 +12,7 @@ enableback = true
 ;Sound = fighter_jet
 
 
-AddRecipe = " YP",  "XXP",  "P X",  X, iron_block, Y, glass, P, iron_ingot
+AddRecipe = " YP",  "XXP",  "P  ",  X, iron_block, Y, glass, P, iron_ingot
 
 sound = ffive
 ThrottleUpDown = 0.3

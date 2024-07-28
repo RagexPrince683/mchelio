@@ -70,7 +70,7 @@ AddWeapon = aim-9x, -7.49,  1.71, -6.77, -1.0, -3.0, true, 2
 AddWeapon = targeting_pod_ph50s,   0.0, 2.7, 1.1,    0.0, 0.0, true,  2
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
-AddRecipe = " XP",  "GXX",  " XP",  X,iron_block, G,redstone_block, P,furnace
+AddRecipe = "RPR",  "XXX",  " XR",  X,iron_block, G,redstone_block, P,glass, R, iron_ingot
 
 AddPartWing =  4.91, 1.89, -5.14,  0,0,1,  90
 AddPartWing = -4.91, 1.89, -5.14,  0,0,1, -90

@@ -96,7 +96,7 @@ AddPartLG = -4.04, 4.86,  -22.74,  1,0,0,  70
 AddPartLG = -4.69, 4.93,  -25.24,  0,0,1,  90
 AddPartLG = -4.94, 4.89,  -26.32,  0,0,1,  110
 
-AddRecipe = " D ",  "DID",  "RIR",  R,redstone_block, I,iron_block, D,diamond
+AddRecipe = "III",  "TTT",  "RID",  R,redstone_block, I,iron_block, D,TNT
 
 
 BoundingBox =  0.0, 6.75,  -1.7, 5, 4.8

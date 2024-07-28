@@ -73,8 +73,7 @@ AddWeapon = m134_r50, -1.62, 1.48,-0.31,   0.0, 0.0, false, 4,  90,-80, 80, -50,
 AddWeapon = targeting_pod_mob,     0.0, 0.7, 3.5,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.7, 3.5,   0.0, 0.0,  false,2
 
-AddRecipe = " X ",  "XTX",  "X X",  X, iron_block, T, tnt
-
+AddRecipe = "   ",  " Z ",  "YZ ",  Y, mcheli:uh-60m, Z, iron_ingot
 InventorySize = 9
 
 BoundingBox = 0.0, 3.5, -2.35, 1.0, 1.5, 1.5

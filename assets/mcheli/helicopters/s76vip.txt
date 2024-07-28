@@ -40,7 +40,7 @@ AddSeat =-0.79,  1.05, -4.24
 AddSeat = 0.00,  1.05, -4.24
 AddSeat = 0.79,  1.05, -4.24
 
-AddRecipe = "IFI",  "GKB",  "BB ",  B, iron_block,  I, iron_ingot,  G, glass,  K, gold_ingot,  F, furnace,
+AddRecipe = "IFI",  "GKB",  " I ",  B, iron_block,  I, iron_ingot,  G, glass,  K, gold_ingot,  F, furnace,
 
 InventorySize = 27
 

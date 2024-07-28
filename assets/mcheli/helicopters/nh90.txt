@@ -67,7 +67,7 @@ InventorySize = 54
 MaxFuel         = 1200
 FuelConsumption = 0.4
 
-AddRecipe = "CXC",  "XIX",  "I I",  X, iron_block, I, iron_ingot, C,coal_block
+AddRecipe = "XCI",  "   ",  "   ",  X, iron_block, I, iron_ingot, C,glass
 
 ;BoundingBox =  0.0, 1.4,  5.0,  1.5, 1.5
 ;BoundingBox =  0.0, 1.8,  3.0,  2.0, 2.5

@@ -64,7 +64,7 @@ AddPartLG  = 0, 1.01, -8.35,  1,0,0, -90
 AddPartHatch  = 0, 2.500, -15.65, 1,0,0, -33
 AddPartHatch  = 0, 0.543, -10.47, 1,0,0, -34
 
-AddRecipe = " X ",  "XCX",  "X X",  X, iron_block, C, chest
+AddRecipe = "IGI",  "XIX",  "I  ",  X, iron_block, I, iron_ingot, G, glass
 
 InventorySize = 54
 

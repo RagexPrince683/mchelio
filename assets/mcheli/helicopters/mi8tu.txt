@@ -44,7 +44,7 @@ AddPartHatch =  -0.9959,  1.234,  -2.61,  0, 1, 0, 95
 AddPartHatch =   0.9959,  1.234,  -2.61,   0, -1, 0, 95
 AddPartSlideHatch =  0.00, 0.00, -1.0
 
-AddRecipe = "XYX", "XGX", "DI ", X, iron_block, Y, glass, G, feather, I, iron_ingot, D, redstone_lamp
+AddRecipe = "XT ", "III", "   ", X, iron_block, Y, glass,  I, iron_ingot
 
 BoundingBox = 0.0, 3.55, 0.0, 1.0, 2.0, 1.5
 BoundingBox = 0.0, 3.10, 0.0, 2.3, 1.0, 1.0

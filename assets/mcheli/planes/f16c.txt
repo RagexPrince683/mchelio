@@ -68,7 +68,7 @@ AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
 AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  1
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
-AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt
+AddRecipe = "XYX",  "XTX",  "Q Q",  X, iron_block, Y, glass, T, tnt, Q, redstone
 
 BoundingBox =  0.00, 2.350, -0.80,  2.2, 2.0
 

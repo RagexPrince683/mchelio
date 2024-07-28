@@ -114,7 +114,7 @@ AddPartHatch =   0.0,  3.00,  -7.05, -1,0, 0, 45
 SweepWingSpeed = 0.8
 VariableSweepWing = true
 
-AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt
+AddRecipe = "AYX",  "TTT",  "XXX",  X, iron_block, Y, glass, A, iron_ingot, T, tnt
 
 BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
 BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0

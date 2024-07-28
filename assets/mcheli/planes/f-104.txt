@@ -24,7 +24,7 @@ Category = M.F
 
 HUD = plane
 
-AddRecipe = "LXL",  "XQL",  "LLL",  X, iron_block, D, dispenser, L, iron_ingot, Q, glass
+AddRecipe = "LX ",  "XQL",  "   ",  X, iron_block,  L, iron_ingot, Q, glass
 
 
 MobilityYaw = 0.5

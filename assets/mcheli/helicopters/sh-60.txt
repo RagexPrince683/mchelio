@@ -66,8 +66,7 @@ AddWeapon = m3m_r,    -1.88, 1.28,-2.18,   0.0, 0.0, false, 3, 90,-80,80, -50,80
 AddWeapon = targeting_pod_mob,     0.0, 0.7, 3.5,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.7, 3.5,   0.0, 0.0,  false,2
 
-AddRecipe = " X ",  "X X",  "X X",  X, iron_block
-AddRecipe = " X ",  "F X",  "X X",  X, iron_block, F, fish
+AddRecipe = " Q ",  "YZY",  "QXQ",  X, iron_block,  Q, iron_ingot, Z, mcheli:uh-60m, Y, redstone_block
 
 InventorySize = 27
 

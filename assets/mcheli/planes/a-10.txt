@@ -68,7 +68,7 @@ AddWeapon = cbu-87, -2.00, 1.10, -3.9,   0.0, 0.0
 AddWeapon = cbu-72,  0.65, 1.35, -3.9,   0.0, 0.0
 AddWeapon = cbu-72, -0.65, 1.35, -3.9,   0.0, 0.0
 
-AddRecipe = " Y ",  "XDX",  "ZXZ",  X, iron_block, Y, glass, Z, iron_ingot, D, diamond_block
+AddRecipe = "ZYZ",  "XXX",  "DQD",  X, iron_block, Y, glass, Z, iron_ingot, D, gunpowder, Q, redstone
 
 BoundingBox =  0.00, 3.04, -0.39,  1.8, 2.4
 BoundingBox =  0.00, 2.55,  1.21,  1.5, 1.5

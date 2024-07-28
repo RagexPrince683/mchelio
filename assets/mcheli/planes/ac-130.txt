@@ -67,7 +67,7 @@ AddBlade = 4,90, 4.67,  3.40,  -1.94,   0, 0, 1
 AddPartRotor =  -4.67,  3.40,  -1.94,   0, 0, 1
 AddBlade = 4,90,-4.67,  3.40,  -1.94,   0, 0, 1
 
-AddRecipe = "ISI",  "GDC",  "IRI",  I,iron_block, S,stone, G,gunpowder, D,diamond_block, C,chest, R,glass
+AddRecipe = "IRI",  "GIG",  "CIC",  I,iron_block,  G,gunpowder,  C,redstone, R,glass
 
 AddPartHatch =   0.00, 3.62, -18.65, -1, 0,0, 27
 AddPartHatch =   0.00, 0.81, -13.46, -1, 0,0, 48

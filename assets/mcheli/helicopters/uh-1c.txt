@@ -57,7 +57,7 @@ AddWeapon = targeting_pod_pv10s,0.0, 0.7, 3.0,0.0, 0.0,  false, 2
 AddWeapon = ffar,   1.91, 0.27, -2.54,   1.0, 0.0,  true,  1,  0,0,0, 0, 30
 AddWeapon = ffar,  -1.91, 0.27, -2.54,  -1.0, 0.0,  true,  1,  0,0,0, 0, 30
 
-AddRecipe = " X ",  "XGX",  "I I",  X, iron_block, G, gunpowder, I, iron_ingot
+AddRecipe = " Q ",  "GXG",  "III",  X, iron_block, G, gunpowder, I, iron_ingot, Q, glass
 
 
 BoundingBox = 0.0, 3.3, -2.5, 0.5, 1.5, 1.5

@@ -66,7 +66,7 @@ AddWeapon = m134_rm, -1.62, 1.48,-0.31,   0.0, 0.0, false, 4,  90,-80, 80, -50,8
 AddPartSlideHatch =   0.083,  0.00, -2.11
 AddPartSlideHatch =  -0.083,  0.00, -2.11
 
-AddRecipe = "X X",  "X X",  " X ",  X, iron_block,
+AddRecipe = " R ",  " X ",  "QQQ",  X, iron_block, R, glass, Q, iron_ingot
 
 InventorySize = 27
 

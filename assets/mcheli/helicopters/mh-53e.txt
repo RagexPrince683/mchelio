@@ -68,7 +68,7 @@ AddPartHatch  = 0, 0.543, -10.47, 1,0,0, -34
 AddWeapon = m3m_l,     1.47, 1.70,-1.62,   0.0, 0.0, false, 3, -90,-70, 70, -50,80
 AddWeapon = m3m_r,    -1.47, 1.70,-1.62,   0.0, 0.0, false, 4,  90,-70, 70, -50,80
 
-AddRecipe = " X ",  "XIX",  "X X",  X, iron_block, I, iron_ingot
+AddRecipe = "  I",  " X ",  "I  ",  X, mcheli:ch-53e, I, iron_ingot
 
 InventorySize = 54
 

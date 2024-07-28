@@ -126,7 +126,7 @@ BoundingBox = 0.0, 5.5, -4.60, 1.0, 1.5, 1.5
 
 unmountposition = 0.8726,  1.50,  -0.20
 
-AddRecipe = " X ",  "X X",  "IXI",  X, iron_block, I, iron_ingot
+AddRecipe = " G ",  "XRX",  "IRI",  X, iron_block, I, iron_ingot, G, glass, R, redstone
 
 DamageFactor = 0.8
 

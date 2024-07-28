@@ -54,7 +54,7 @@ AddWeapon = plab-250-120,  1.25, 1.35,-4.00,   0.0, 0.0
 AddWeapon = targeting_pod_mob,     0.0, 0.0, 3.1,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.0, 3.1,   0.0, 0.0,  false,2
 
-AddRecipe = "X X",  "X X",  " X ",  X, iron_block
+AddRecipe = "QGQ",  "XQX",  "   ",  X, iron_block, G, glass, Q, iron_ingot
 
 InventorySize = 27
 

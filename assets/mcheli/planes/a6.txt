@@ -67,7 +67,7 @@ AddWeapon = gbu-12a6, 0.0, 1.9, -4.0, 0.0, 0.0
 
 AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  1
 
-AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt
+AddRecipe = "AYA",  "XXX",  "TDT",  X, iron_block, Y, glass, A, iron_ingot, D, redstone, T, tnt
 
 BoundingBox =  0.00, 2.90, -3.00,  3.5, 2.8
 BoundingBox =  0.00, 2.80, -5.60,  3.0, 2.0

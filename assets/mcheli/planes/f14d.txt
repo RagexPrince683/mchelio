@@ -36,7 +36,7 @@ AddPartLG =  0.00, 1.40,  0.00,  1,0,0, 100
 AddPartLG = -2.18, 1.90, -6.65, -1,0,0, 110,  0,0,1, 28
 AddPartLG =  2.18, 1.90, -6.65, -1,0,0, 110,  0,0,-1, 28
 
-AddRecipe = " X ",  "XDX",  "ZXZ",  X, iron_block, D, diamond, Z, iron_ingot
+AddRecipe = " X ",  "XDX",  "ZX ",  X, iron_block, D, glass, Z, iron_ingot
 
 AddPartWing =  -3.17, 2.31, -5.69,  0,-1,0, 50
 AddPartWing =   3.17, 2.31, -5.69,  0, 1,0, 50

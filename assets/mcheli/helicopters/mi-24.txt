@@ -126,7 +126,7 @@ AddPartRotWeapon   = gshg-7_62,  false, true,  true, -2.2017,  1.1184,   0.39
 AddPartRotWeapon   = gshg-7_62,  false, true,  true, -1.8865,  1.1184,   0.39
 
 
-AddRecipe = "XYX", "XGX", "DID", X, iron_block, Y, glass, G, feather, I, iron_ingot, D, dispenser
+AddRecipe = "XYX", "IGX", "QQQ", X, iron_block, Y, glass, I, iron_ingot, D, dispenser, Q, gunpowder
 
 
 BoundingBox =  0.0,  0.80,  5.80,  1.2, 1.2

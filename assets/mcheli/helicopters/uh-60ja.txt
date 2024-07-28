@@ -54,7 +54,7 @@ AddRepellingHook = -1.64, 2.05, -2.30, 30
 AddPartSlideHatch =   0.083,  0.00, -2.11
 AddPartSlideHatch =  -0.083,  0.00, -2.11
 
-AddRecipe = " X ",  "X X",  "IXI",  X, iron_block, I, iron_ingot
+AddRecipe = " Q ",  " X ",  " Q ",  X, mcheli:uh-60m, Q, iron_ingot
 
 InventorySize = 27
 

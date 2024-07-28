@@ -54,7 +54,7 @@ AddWeapon = m134_l50,    1.79, 1.48,-0.25,   0.0, 0.0, false, 4,   0,-135,  0, -
 AddWeapon = targeting_pod_mob,     0.0, 0.7, 3.5,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.7, 3.5,   0.0, 0.0,  false,2
 
-AddRecipe = " X ",  "XGX",  "X X",  X, iron_block, G, gunpowder
+AddRecipe = "ZZZ",  "XY ",  "GGG",  Y, mcheli:uh-60m, X, iron_block, G, gunpowder, Z, iron_ingot
 
 unmountposition = -0.85,  1.50,  1.45
 

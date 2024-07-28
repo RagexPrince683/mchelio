@@ -60,7 +60,7 @@ AddWeapon = targeting_pod_pv10s,   0.0, 0.6, 2.0,   0.0, 0.0,  false,2
 AddPartWeaponBay = gshg7_62mm,  0, 1.57, 1.96,  1,0,0,  60
 AddPartRotWeapon = gshg7_62mm, false, true,  true, -0.600, 1.659, 2.133
 
-AddRecipe = "X X",  "X X",  "GXG",  X, iron_block, G, gunpowder
+AddRecipe = "Q Q",  "QXQ",  "ZZZ",  X, mcheli:ka-27,  Q, iron_ingot, Z, gunpowder
 
 ;BoundingBox =  0.0, 3.0, -1.0,  2.0, 4.8
 ;BoundingBox =  0.0, 2.5, -3.5,  2.0, 3.8

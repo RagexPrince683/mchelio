@@ -48,7 +48,7 @@ AddTurretWeapon = m3m_l, 0.91, 2.10, 3.49,   0.0, 0.0, false, 3, -90,-50, 50, -4
 AddRepellingHook =  0.37, 2.94, -8.61, 30
 AddRepellingHook = -0.37, 2.94, -8.61, 30
 
-AddRecipe = " X ",  "XCX",  " X ",  X, iron_block, C, chest
+AddRecipe = " C ",  "X X",  " QQ",  X, iron_block, C, glass, Q, iron_ingot
 
 InventorySize = 54
 

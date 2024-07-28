@@ -91,7 +91,7 @@ AddPartHatch =   0.0,  3.20,  -4.86,  1,0, 0, 45
 AddPartHatch =   0.0,  3.00,  -7.05, -1,0, 0, 45
 SweepWingSpeed = 0.7
 
-AddRecipe = " Y ",  "XXX",  "XDX",  X, iron_block, Y, glass, D, diamond
+AddRecipe = " Y ",  "X X",  "XDX",  X, iron_block, Y, glass, D, redstone
 
 
 BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
