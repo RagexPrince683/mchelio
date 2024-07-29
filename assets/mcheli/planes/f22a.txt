@@ -108,7 +108,7 @@ AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.0,    0.0, 0.0
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 
-AddRecipe = "XYX",  "XXX",  "XXD",  X, iron_block, Y, glass, D, redstone_block
+AddRecipe = "XYX",  "XXX",  "XUD",  X, iron_block, Y, glass, D, redstone_block, U, diamond
 
 BoundingBox =  0.00, 1.90, -3.10,  3.0, 2.0
 BoundingBox =  0.00, 1.90, -6.60,  4.0, 2.0

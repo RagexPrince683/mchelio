@@ -65,7 +65,7 @@ AddWeapon = lau-68_apkws, -3.31, 1.05, -3.88,   0.0, -0.0,false, 2
 AddWeapon = lau-68_logir,  3.31, 1.05, -3.88,   0.0, -0.0,false, 2
 AddWeapon = lau-68_logir, -3.31, 1.05, -3.88,   0.0, -0.0,false, 2
 
-AddRecipe = " G ",  "IXI",  "DID",  X, iron_block, G, glass, I, iron_ingot, D, dispenser
+AddRecipe = " G ",  "IXI",  "DID",  X, iron_block, G, glass, I, iron_ingot, D, redstone
 
 BoundingBox =  0.0, 1.4, -2.7,  3.0, 1.8
 BoundingBox = -2.9, 1.1, -2.7,  2.0, 0.6

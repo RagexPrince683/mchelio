@@ -90,7 +90,7 @@ BoundingBox =  0.0, 2.7, -7.8,  1.0, 1.5
 
 unmountposition = 0.00,  1.50,  2.40
 
-AddRecipe = "DX ",  "XRX",  " X ",  X, iron_block, R,redstone_block,  D,dispenser
+AddRecipe = "DX ",  "XRX",  " X ",  X, iron_block, R,redstone_block,  D, diamond
 
 DamageFactor = 0.6
 

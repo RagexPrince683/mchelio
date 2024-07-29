@@ -62,8 +62,7 @@ AddPartWeaponMissile = mk24,     false, false,false, -5.01, 2.57, -2.32
 
 
 
-AddRecipe = " G ",  "IXD",  "I I",  X, iron_block, G, glass, I, iron_ingot, D, dispenser
-
+AddRecipe = " G ",  "IXD",  "I I",  X, iron_block, G, glass, I, iron_ingot, D, redstone_block
 BoundingBox =  -1.70, 2.22, -9.00,  2.0, 1.8
 BoundingBox =  0.00, 2.22, -9.00,  2.0, 1.8
 BoundingBox =  1.70, 2.22, -9.00,  2.0, 1.8

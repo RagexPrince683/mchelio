@@ -49,7 +49,7 @@ AddPartHatch =  -0.9959,  1.234,  -2.61,  0, 1, 0, 95
 AddPartHatch =   0.9959,  1.234,  -2.61,   0, -1, 0, 95
 AddPartSlideHatch =  0.00, 0.00, -1.0
 
-AddRecipe = "   ", " Z ", "DI ", I, mcheli:mi8tu, D, dispenser, Z, iron_block
+AddRecipe = "   ", " Z ", "DI ", I, mcheli:mi8tu, D, redstone_block, Z, iron_block
 
 BoundingBox = 0.0, 3.55, 0.0, 1.0, 2.0, 1.5
 BoundingBox = 0.0, 3.10, 0.0, 2.3, 1.0, 1.0
