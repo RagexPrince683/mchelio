@@ -1,5 +1,5 @@
 DisplayName = 20.3cm SK C/34 Cannon [L/4.4 m.Hb - APBC]
-Type = Rocket
+Type = MachineGun2
 Power = 421
 Explosion = 6
 ExplosionBlock = 3
@@ -10,12 +10,15 @@ Accuracy = 5.0
 ModelBullet = bullet105mm
 Flaming = false
 Sight = None
-Delay = 240
+Delay = 400
 Gravity = -0.005
 ReloadTime = 800
 Recoil = 5
-Round = 1
+Round = 2
 Piercing = 2
+
+Group = Maingun
+
 Accuracy = 0.0
 DamageFactor = tank, 3.0
 DamageFactor = plane, 1.5
