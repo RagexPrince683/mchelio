@@ -35,7 +35,7 @@ AddChildPart = true, false, true,  0, 0.0, 2.68, -2.03
 ;砲身
 AddChildPart = true, false, true,  2, 0.0, 2.68, -2.03, 0.4
 
-AddTurretWeapon = w9, 0.0, 2.654, 0.9794,  0.0, 0.0,  true,1, 0,-360,360, -55, 0
+AddTurretWeapon = w9, 0.0, 2.654, 0,  0.0, 0.0,  true,1, 0,-360,360, -55, 0
 
 ;AddTurretWeapon = mg25mm,   0.40, 1.43, -0.04,   0.0, -1.0,   true,1, 0,-360,360, -80, 25
 

@@ -3,7 +3,7 @@ AddDisplayName = ja_JP, コールチク CIWS
 AddDisplayName = en_US, Kashtan CIWS
 ItemID = 28700
 MaxHp = 100
-EnableNightVision = false
+EnableNightVision = true
 EnableEntityRadar = true
 HideEntity = true
 MinRotationPitch = -88
@@ -32,10 +32,10 @@ AddPart		 = false,true, true,  0,   0, 1.181, 0.0
 
 AddTurretWeapon = gsh-6-30,  1.184, 0.334, 0,  1.0,-3.0,   true,1, 0,-360,360, -88, 12
 AddTurretWeapon = gsh-6-30, -1.184, 0.334, 0, -1.0,-3.0,   true,1, 0,-360,360, -88, 12
-AddTurretWeapon = 9m311-1e,  1.294, 0.89, 0.0,   0.0, 0.0,   true,2
-AddTurretWeapon = 9m311-1e, -1.294, 0.89, 0.0,   0.0, 0.0,   true,2
+AddTurretWeapon = 9m311-1e,  1.294, 0.89, 0.0,   0.0, 0.0,   true,1
+AddTurretWeapon = 9m311-1e, -1.294, 0.89, 0.0,   0.0, 0.0,   true,1
 
-unmountposition = 0.00, 0, -0.0
+unmountposition = 0.0, 1.5, 0.0
 
 AddRecipe = " YD",  " X ",  "XZX",  X, iron_block, Y, glass, Z, iron_ingot, D, diamond_block
 BoundingBox =  0.0, 1, 0.0,  1.8, 1.8

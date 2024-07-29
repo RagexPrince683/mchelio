@@ -1,28 +1,28 @@
-﻿DisplayName = BM37
-AddDisplayName = ja_JP, BM-37
-AddDisplayName = en_US, 82-BM-37
+﻿DisplayName = M-37/BM37
+AddDisplayName = ja_JP, M-37/BM-37
+AddDisplayName = en_US, M-37/82-BM-37
 ItemID = 30095
 MaxHp = 100
-CameraZoom = 3
+CameraZoom = 2
 CameraPosition = 0.86, 2.80,  2.12, true
-AddSeat = 0,0,0
+AddGunnerSeat = 0.50,  -0.30, -0.80, 0.00,  1.57, 0.00, false, -75, -45, true
 MinRotationPitch = -30
 MaxRotationPitch =  0
 HideEntity = false
-AddGunnerSeat = -1.75, 0.0, -1.62,  -1.75, 0.0, -1.62, false, -90,  90, false
+;AddGunnerSeat =  0.00, 1.16, -1.67,   0.00, 3.19, -1.67, true,  -87, -45, false
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
 
-HUD = mbt_hud
+HUD = gunner
 AddPart = true,true,false,0, 0.07, 0.52 , 0
 AddChildPart = true,false,true,  0,   0.00, 1.13, 0.60
 
-AddWeapon =  81mm_mortar,  0,0.56,0.85
+AddWeapon =  81mm_mortar,  0,0.56,0.85,  0.0,0.0, false, 1, 0, -360,360, -75, -45
 AddPartWeapon = 82mm_mortar,    true, true,  false, 0.00, 1.80, -2.67
 
 AddRecipe = "III",  "IXI",  "LXL",  X,Gunpowder,  I, Iron_Ingot,  L,Iron_Block
 
-Boundingbox = 0.00,  0.20,  0.00,  0.7, 1.0
+Boundingbox = 0.00,  0.20,  0.00,  0.5, 1.0
 
 
-unmountposition = 0.00, 1.5, -0.0
+unmountposition = 0.50,  1.5, -0.80

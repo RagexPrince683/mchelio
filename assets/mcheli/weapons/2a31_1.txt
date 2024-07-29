@@ -1,7 +1,7 @@
 DisplayName = 122mm 2A31 Howitzer [3BK13M HEAT-FS-T]
 Type = MachineGun2
 Power = 460
-ModelBullet = bullet105mm
+ModelBullet = 3bk18m
 Acceleration = 6.5
 Explosion = 4
 ExplosionBlock = 4

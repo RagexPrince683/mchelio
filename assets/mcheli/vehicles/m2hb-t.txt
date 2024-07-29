@@ -30,8 +30,8 @@ AddRecipe = " I ",  "D D",  " X ",  X, iron_block, I, iron_ingot, D, gunpowder
 AddPart		 = true, true, false, 0,   0.00, 0.00, -0.02
 AddPart		 = true, true, true,  0,   0.00, 0.96, -0.02
 
-AddTurretWeapon = h2hb,  0.16, 0.99, 1.95,   0.0, -1.0, true, 1, 0, -360,360, -80,25
-AddTurretWeapon = h2hb,  -0.16, 0.99, 1.95,   0.0, -1.0, true, 1, 0, -360,360, -80,25
+AddTurretWeapon = h2hb,  0.16, 0.99,  0,   0.0, -1.0, true, 1, 0, -360,360, -80,25
+AddTurretWeapon = h2hb,  -0.16, 0.99, 0,   0.0, -1.0, true, 1, 0, -360,360, -80,25
 
 
 BoundingBox =  0.00, 0.60,  0.00,  0.85, 1.5

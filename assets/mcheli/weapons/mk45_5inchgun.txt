@@ -13,8 +13,8 @@ ExplosionBlock = 4
 Flaming = false
 Sight = MoveSight
 Delay = 13
-ModeNum = 2
-SoundVolume = 0.6
+
+
 SetCartridge = cartridge, 0.4,  0, 0, 5.00, -0.04, 0.40
 Sound = markfourtyfive
 Gravity = -0.005

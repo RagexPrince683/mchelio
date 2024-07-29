@@ -4,10 +4,10 @@ ModelBullet = 406mm
 Power = 1000
 Acceleration = 7
 AccelerationInWater = 3.0
-Explosion = 15
-ExplosionBlock = 4
+Explosion = 25
+ExplosionBlock = 5
 ExplosionInWater = 15
-Flaming = true
+Flaming = false
 Sight = None
 Delay = 406
 ReloadTime = 406
@@ -30,7 +30,7 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 406mm Artillery Grenade [AP]
+
 SoundVolume = 15
 
 ; AddMuzzleFlash = distance, size, life time,  A,  R,  G,  B
@@ -44,7 +44,7 @@ AddMuzzleFlashSmoke   =             22,     30,   4.0,  4.0,       55,  200,190,
 AddMuzzleFlashSmoke   =             21,     20,   3.0,  2.0,       75,  200,190,170,150
 
 
-DisplayMortarDistance = true
+DisplayMortarDistance = false
 
 RecoilBufCount = 80, 20
 

@@ -10,7 +10,9 @@ RotationPitchMin = -50
 RotationPitchMax =  10
 DamageFactor = 1.0
 CameraZoom = 3
-CameraPosition = 0.00,  1.57, -0.20
+CameraPosition = 0.00,  1.3851, -0.20
+
+;-18.49
 
 Gravity = -9.81
 GravityInWater = -1.0
@@ -22,19 +24,19 @@ HUD = vehicle
 
 
 
-AddGunnerSeat =  0.00,  0.0, -0.65, 0.00,  0.0, -0.20, false, -25, 4, true
-unmountposition = 0.00,  3.694, -0.65
+AddGunnerSeat =  0.00,  -0.1849, -0.65, 0.00,  -0.1849, -0.20, false, -25, 4, true
+unmountposition = 0.00,  1.5, -0.65
 ;4.694 or 3.694
 
 
-AddTurretWeapon = gau-19,  0.00,  0.57, -0.20,  0.0, 0.0, true,1, 0,-360,360, -50, 10
+AddTurretWeapon = gau-19,  0.00,  0.3851, -0.20,  0.0, 0.0, true,1, 0,-360,360, -50, 10
 AddPartWeapon = gau-19, true, true, true,   0.00, 0.00, 0.00, 0
 
-AddPartWeaponChild = false, false, 0.00, 2.02,  0.00
+AddPartWeaponChild = false, false, 0.00, 1.8351,  0.00
 
 AddPart = true, true, false, 0, 0.00, 0.00, 0.0
 AddPart = true,true, true,  0, 0.00, 0.97, 0.0
-AddChildPart = true, false,false, 1,  0.00, 0.97, 0.00
+AddChildPart = true, false,false, 1,  0.00, 0.7851, 0.00
 
 ;AddPart = gau-19, true, true, false, 0,   0.00, 0.00, 0.00
 ;AddPartWeaponChild = false, false, true,  0,   0.00, 2.02,  0.00

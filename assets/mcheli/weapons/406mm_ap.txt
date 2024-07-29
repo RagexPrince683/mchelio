@@ -5,7 +5,7 @@ Power = 1000
 Acceleration = 7
 AccelerationInWater = 3.0
 Explosion = 8
-ExplosionBlock = 2
+ExplosionBlock = 5
 ExplosionInWater = 2
 Flaming = false
 Sight = None
@@ -31,7 +31,8 @@ DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
-AddDisplayName = en_US, 406mm Artillery Grenade [AP]
+Piercing = 2
+
 SoundVolume = 15
 
 
@@ -46,7 +47,7 @@ AddMuzzleFlashSmoke   =             22,     30,   4.0,  4.0,       55,  200,190,
 AddMuzzleFlashSmoke   =             21,     20,   3.0,  2.0,       75,  200,190,170,150
 
 
-DisplayMortarDistance = true
+DisplayMortarDistance = false
 
 RecoilBufCount = 80, 20
 

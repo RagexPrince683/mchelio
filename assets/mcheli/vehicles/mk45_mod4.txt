@@ -2,7 +2,7 @@
 AddDisplayName = ja_JP, Mk45 Mod4 5インチ砲
 AddDisplayName = en_US, 5-inch/54-caliber Mark 45 Gun
 ItemID = 28601
-MaxHp = 125
+MaxHp = 100
 HideEntity = true
 MinRotationPitch = -65
 MaxRotationPitch =  15
@@ -10,7 +10,7 @@ DamageFactor = 0.1
 CameraZoom = 4
 
 CameraPosition = 0.0, 2.17, 0.0
-unmountposition = -0.0, 0.2, -0.0
+unmountposition = -0.0, 1.5, -0.0
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
 

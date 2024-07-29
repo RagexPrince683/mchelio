@@ -6,16 +6,19 @@ ExplosionBlock = 3
 Acceleration = 4.0
 SoundVolume = 1.0
 Sound = cannon_4_snd
-Accuracy = 5.0
-ModelBullet = bullet105mm
+Accuracy = 1
+ModelBullet = bullet
 Flaming = false
 Sight = None
-Delay = 400
+Delay = 5
 Gravity = -0.005
 ReloadTime = 800
 Recoil = 5
 Round = 2
 Piercing = 2
+
+HeatCount = 300
+MaxHeatCount = 520
 
 Group = Maingun
 
