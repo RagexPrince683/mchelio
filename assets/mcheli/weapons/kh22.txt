@@ -1,4 +1,4 @@
-DisplayName = kh22
+DisplayName = Kh-22
 Type = ATMissile
 Power = 80
 Acceleration = 5.0

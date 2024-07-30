@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, Su-37 ティルミナートル
 ItemID = 28731
 MaxHp = 100
 ThrottleUpDown = 0.3
-EnableNightVision = false
+EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
 Speed = 1.553
@@ -13,6 +13,8 @@ ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel         = 1400
 FuelConsumption = 1.0
+
+HUD = planenvgonly
 
 sound = sutwentyseven
 

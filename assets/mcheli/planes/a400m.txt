@@ -34,7 +34,7 @@ AddTexture = a400m_3
 ; M = Military(軍用機).  C = Transport(輸送機)
 Category = M.C
 
-HUD = plane, none, none, none
+HUD = planenvgonly, none, none, none
 
 AddSeat =  0.58,  4.59,  1.75
 AddSeat = -0.58,  4.59,  1.75

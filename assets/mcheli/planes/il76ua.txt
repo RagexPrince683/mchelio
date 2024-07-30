@@ -3,7 +3,7 @@ AddDisplayName = en_US, IL-76
 AddDisplayName = ru_RU, Ил-76
 MaxHp = 250
 Speed = 1.15
-Sound = plane
+
 ThrottleUpDown = 0.1
 MaxFuel         = 30000
 FuelConsumption = 2

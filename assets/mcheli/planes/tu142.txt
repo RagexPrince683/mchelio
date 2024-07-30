@@ -14,6 +14,7 @@ InventorySize = 20
 MaxFuel         = 80000
 FuelConsumption = 3.0
 ThirdPersonDist = 40
+EnableNightVision = true
 
 RotorSpeed = 2000.0
 
@@ -22,7 +23,7 @@ RotorSpeed = 2000.0
 ; W = WWII.  A = Attacker(攻撃機)
 Category = W.A
 
-HUD = plane_wwii, none
+HUD = plane_wwiinotherm, none
 
 MobilityYaw = 0.8
 MobilityPitch = 0.8

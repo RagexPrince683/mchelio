@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, Su-33 フランカーD
 ItemID = 28716
 MaxHp = 100
 ThrottleUpDown = 0.3
-EnableNightVision = false
+EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
 Speed = 1.429
@@ -19,7 +19,7 @@ Sound = sutwentyseven
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
-HUD = plane
+HUD = planenvgonly
 
 AddSeat = 0.00,  2.11,  7.21
 

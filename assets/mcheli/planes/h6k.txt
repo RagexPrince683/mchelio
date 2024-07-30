@@ -1,9 +1,10 @@
-﻿DisplayName = H-6K God Of War
+﻿DisplayName = Xi'an H-6K "God Of War"
 AddDisplayName = zh_CN, 轰6K“战神”
-AddDisplayName = en_US, H-6K God of War
+AddDisplayName = en_US, Xi'an H-6K "God of War"
 ItemID = 45600
 MaxHp = 250
-Speed = 0.84
+Speed = 1.131
+sound = ilsevensix
 DamageFactor = 0.8
 ThrottleUpDown = 0.1
 MaxFuel = 4000
@@ -18,13 +19,14 @@ HUD = planenvg, plane_gnr, none, none, none, none, none
 CameraPosition  = 0.0, 2.00, 4.78
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
+AutoPilotRot = -0.10
 
-MobilityYaw = 0.3
-MobilityPitch = 0.3
-MobilityRoll = 0.1
+MobilityYaw = 0.5
+MobilityPitch = 0.5
+MobilityRoll = 0.3
 FlareType = 2
-MinRotationPitch = -40
-MaxRotationPitch =  40
+;MinRotationPitch = -40
+;MaxRotationPitch =  40
 AddSeat       =  0.5, 3.0,3.55
 AddGunnerSeat = -0.5, 3.0,3.55
 

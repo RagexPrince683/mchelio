@@ -1,7 +1,7 @@
 DisplayName = Su-27 Flanker-B
 MaxHp = 100
 Speed = 1.553
-EnableNightVision = false
+EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
 ThrottleUpDown = 0.3
@@ -16,7 +16,7 @@ Sound = sutwentyseven
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
-HUD = su25
+HUD = planenvgonly
 
 enableback = true
 

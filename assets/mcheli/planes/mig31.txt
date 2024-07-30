@@ -50,9 +50,10 @@ AddPartWeaponMissile = r-73,  false, false, false,  4.39, 1.36, -8.0864
 
 AddWeapon = gsh-6-23m,  0.0, 1.4, 0,   0.0, -1.0, false, 1
 AddWeapon = r-73,     -4.39, 1.36, -8.0864,   0.0, -1.0, true, 2
+AddWeapon = r-73,     4.39, 1.36, -8.0864,   0.0, -1.0, true, 2
 AddWeapon = r-77,    -2.8183, 1.35, -5.9578,   0.0, -1.0, true, 2
 AddWeapon = r-77,    2.8183, 1.35, -5.9578,   0.0, -1.0, true, 2
-AddWeapon = r-73,     4.39, 1.36, -8.0864,   0.0, -1.0, true, 2
+
 AddWeapon = targeting_pod_ph50s,   0.0, 3.1,-0.6,   0.0, 0.0, true, 2
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
