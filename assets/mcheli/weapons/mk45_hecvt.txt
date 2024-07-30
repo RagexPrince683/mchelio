@@ -1,4 +1,5 @@
 DisplayName = 127mm Mark 45 Mod 4 Naval Cannon [HE-CVT]
+;same as the proxim shell bruh why did you add this
 Type = Rocket
 Power = 100
 ModelBullet = bullet76mm

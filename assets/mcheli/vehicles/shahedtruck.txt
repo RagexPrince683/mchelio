@@ -1,6 +1,6 @@
 ﻿DisplayName = Shahed Truck
 AddDisplayName = en_US, Shahed Truck
-MaxHp = 10
+MaxHp = 50
 Gravity = -9.81
 GravityInWater = -1.0
 AddSeat = 1.2716 ,2.0906, 4.7137

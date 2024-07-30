@@ -8,12 +8,18 @@ ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight
 Delay = 13
-ModeNum = 2
-SoundVolume = 0.6
+
+DisableSmoke = true
+
 SetCartridge = cartridge, 0.4,  0, 0, 5.00, -0.04, 0.40
 Sound = markfourtyfive
 Gravity = -0.005
 ProximityFuseDist = 2
+
+Bomblet = 6
+BombletSTime = 5
+BombletDiff = 0.25
+ModelBomblet = flechette
 
 HeatCount = 20
 MaxHeatCount = 120

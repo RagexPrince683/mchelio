@@ -1,5 +1,5 @@
-DisplayName =  Mk29 Sea Sparrow 
-AddDisplayName = en_US,  Mk29 Sea Sparrow 
+DisplayName = Mk29 Sea Sparrow (RIM-7)
+AddDisplayName = en_US, Mk29 Sea Sparrow (RIM-7)
 AddDisplayName = ja_JP, Mk29 艦対空個艦防衛ミサイル
 ItemID = 28615
 MaxHP = 100

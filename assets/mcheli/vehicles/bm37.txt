@@ -4,7 +4,7 @@ AddDisplayName = en_US, M-37/82-BM-37
 ItemID = 30095
 MaxHp = 100
 CameraZoom = 2
-CameraPosition = 0.86, 2.80,  2.12, true
+CameraPosition = 0.0, 2.80,  0, true
 AddGunnerSeat = 0.50,  -0.30, -0.80, 0.00,  1.57, 0.00, false, -75, -45, true
 MinRotationPitch = -30
 MaxRotationPitch =  0
@@ -13,11 +13,14 @@ HideEntity = false
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
 
+Gravity = -9.81
+GravityInWater = -1.0
+
 HUD = gunner
 AddPart = true,true,false,0, 0.07, 0.52 , 0
 AddChildPart = true,false,true,  0,   0.00, 1.13, 0.60
 
-AddWeapon =  81mm_mortar,  0,0.56,0.85,  0.0,0.0, false, 1, 0, -360,360, -75, -45
+AddTurretWeapon =  81mm_mortar,  0,0.56,0.85,  0.0,0.0, false, 1, 0, -360,360, -75, -45
 AddPartWeapon = 82mm_mortar,    true, true,  false, 0.00, 1.80, -2.67
 
 AddRecipe = "III",  "IXI",  "LXL",  X,Gunpowder,  I, Iron_Ingot,  L,Iron_Block

@@ -12,12 +12,12 @@ SoundPitch = 0.7
 SoundVolume = 20
 Sound = msta
 Recoil = 1.5
-Delay = 260
+Delay = 160
 CameraRotationSpeedPitch = 0.4
 
 Gravity = -0.005
 
-ReloadTime = 260
+ReloadTime = 160
 
 HeatCount = 900
 MaxHeatCount = 2050

@@ -1,7 +1,7 @@
-DisplayName = Oto Melara 76mm Naval Autocannon
+DisplayName = Oto Melara 76mm Naval Automatic Cannon
 AddDisplayName = ja_JP, オート・メラーラ76mm砲
 ItemID = 28601
-MaxHp = 90
+MaxHp = 100
 Gravity = -9.81
 GravityInWater = -1.0
 HideEntity = true
@@ -9,27 +9,27 @@ MinRotationPitch = -85
 MaxRotationPitch =  15
 DamageFactor = 1.0
 CameraZoom = 4
-CameraPosition = 0.0, 2.37, 0.0
+CameraPosition = 0.0, 3.5, -0.5
 
-unmountposition = 0.0, 1.40, 0.0
+unmountposition = 0.0, 1.50, 0.0
 
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
 
 HUD = vehicle
 
-AddSeat = 0.00,  1.37, 0.00
+AddGunnerSeat = 0.00,  1.37, 0.00, 0.0, 4, -0.5, false, -85, 15, true
 
 unmountposition = 0.00, 1.5, -0.0
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;脚
 AddPart		 = true, true, false, 0,   0.00, 0.00, 0.00
 ;本体
-AddChildPart = false,false,true,  0,   0.00, 1.35, 0.00
+AddChildPart = true,false,true,  0,   0.00, 1.35, 0.00
 ;砲身
-AddChildPart = false,false,true,  2,   0.00, 1.35, 0.00, 0.4
+AddChildPart = true,false,true,  2,   0.00, 1.35, 0.00, 0.4
 
-AddWeapon = 76mmgun,  0.00, 1.35, 0.00,   0.0, -1.0,   true,1, 0,-360,360, -85, 15
+AddWeapon = 76mmgun,  0.00, 1.35, 0.00,   0.0, 0,   true,1, 0,-360,360, -85, 15
 
 AddRecipe = "DZD",  "XRX",  "ZZZ",  X, iron_block, R, redstone_block, Z, iron_ingot, D, TNT
 

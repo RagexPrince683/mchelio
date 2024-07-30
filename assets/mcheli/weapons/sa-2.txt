@@ -15,7 +15,7 @@ LockTime = 25
 ModelBullet = sa2missile
 Round = 1
 
-MaxAmmo = 2
+MaxAmmo = 1
 SuppliedNum = 1
 Item =  4, iron_ingot
 Item =  4, gunpowder

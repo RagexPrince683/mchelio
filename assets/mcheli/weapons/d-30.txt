@@ -12,7 +12,7 @@ SoundPitch = 0.7
 SoundVolume = 20
 Sound = msta
 Recoil = 1.5
-Delay = 260
+Delay = 160
 Gravity = -0.050
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
@@ -40,7 +40,7 @@ FixCameraPitch = true
 CameraRotationSpeedPitch = 0.4
 
 SoundVolume = 15
-ReloadTime = 260
+ReloadTime = 160
 
 AddMuzzleFlash      =  12,      2.10,        16,  200,254,129,44
 AddMuzzleFlash      =  12,      2.05,        10,  200,254,219,104

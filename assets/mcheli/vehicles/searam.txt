@@ -29,19 +29,19 @@ AddPart		= true, true, false, 0,   0, 0.20, 0.0
 ;本体-砲身
 AddPart		= false,true, true,  0,   0, 2.00, 0.0
 
-AddWeapon = ram116, -0.43, 1.61, 2.5,   0.0, 0.0
-AddWeapon = ram116, -0.14, 1.61, 2.5,   0.0, 0.0
-AddWeapon = ram116,  0.14, 1.61, 2.5,   0.0, 0.0
-AddWeapon = ram116,  0.43, 1.61, 2.5,   0.0, 0.0
+AddTurretWeapon = ram116, -0.43, 1.61, 2.5,   0.0, 0.0
+AddTurretWeapon = ram116, -0.14, 1.61, 2.5,   0.0, 0.0
+AddTurretWeapon = ram116,  0.14, 1.61, 2.5,   0.0, 0.0
+AddTurretWeapon = ram116,  0.43, 1.61, 2.5,   0.0, 0.0
 
-AddWeapon = ram116, -0.28, 1.30, 2.5,   0.0, 0.0
-AddWeapon = ram116,  0.00, 1.30, 2.5,   0.0, 0.0
-AddWeapon = ram116,  0.28, 1.30, 2.5,   0.0, 0.0
+AddTurretWeapon = ram116, -0.28, 1.30, 2.5,   0.0, 0.0
+AddTurretWeapon = ram116,  0.00, 1.30, 2.5,   0.0, 0.0
+AddTurretWeapon = ram116,  0.28, 1.30, 2.5,   0.0, 0.0
 
-AddWeapon = ram116, -0.43, 0.98, 2.5,   0.0, 0.0
-AddWeapon = ram116, -0.14, 0.98, 2.5,   0.0, 0.0
-AddWeapon = ram116,  0.14, 0.98, 2.5,   0.0, 0.0
-AddWeapon = ram116,  0.43, 0.98, 2.5,   0.0, 0.0
+AddTurretWeapon = ram116, -0.43, 0.98, 2.5,   0.0, 0.0
+AddTurretWeapon = ram116, -0.14, 0.98, 2.5,   0.0, 0.0
+AddTurretWeapon = ram116,  0.14, 0.98, 2.5,   0.0, 0.0
+AddTurretWeapon = ram116,  0.43, 0.98, 2.5,   0.0, 0.0
 
 
 AddRecipe = " Z ",  "XUY",  "Z Z",  U, mcheli:mk15, X, iron_block, Y, TNT, Z, iron_ingot

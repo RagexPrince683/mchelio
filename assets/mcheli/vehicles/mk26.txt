@@ -1,13 +1,16 @@
-DisplayName =  Mk 26 GMLS
+DisplayName = Mark 26 Guided Missile Launching System
 AddDisplayName = ja_JP, Mk 26 (ミサイル発射機)
 ItemID = 28613
-MaxHP = 350
-CameraPosition = 0.0, 4.50, 0.0
+MaxHP = 100
+CameraPosition = 0.0, 4.50, -0.4220
 CameraZoom = 1
 MinRotationPitch = -90
 MaxRotationPitch = 0
 HideEntity = true
 ThirdPersonDist = 8
+
+Gravity = -9.81
+GravityInWater = -1.0
 
 AddSeat = 0.0,  0.0, 0.0
 
@@ -17,20 +20,20 @@ Category = M.M
 HUD = vehicle
 
 ;left
-AddWeapon = RIM-24,  1.10, 1.55, 2.87,   0.0, 0.0
+AddTurretWeapon = RIM-24mk26,  1.10, 1.55, -0.4220,   0.0, 0.0
 ;right
-AddWeapon = RIM-24, -1.10, 1.55, 2.87,   0.0, 0.0
+AddTurretWeapon = RIM-24mk26, -1.10, 1.55, -0.4220,   0.0, 0.0
 
-AddPart	= true, true, false, 0,   0.00, 0.00, 0.00
-AddChildPart = true,false,true,  0, 0.00, 2.12, 0.00
+AddPart	= true, true, false, 0,   0.00, 0.00, -0.4220
+AddChildPart = true,false,true,  0, 0.00, 2.12, -0.4220
 
 ;left
-AddChildPart = true,false,true,  3,  0.00, 1.55, 0.00
+AddChildPart = true,false,true,  3,  0.00, 1.55, -0.4220
 ;right
-AddChildPart = true,false,true,  3,  0.00, 1.55, 0.00
+AddChildPart = true,false,true,  3,  0.00, 1.55, -0.4220
 
-BoundingBox =  0.0, 2.05, 0.0,  2.0, 1.25
-BoundingBox =  0.0, 0.5, -0.35,  0.75, 1.8
+BoundingBox =  0.0, 2.05, -0.4220,  1.2, 1.25
+BoundingBox =  0.0, 0.5, -0.4220,  0.75, 1.8
 
 unmountposition = 0.00, 1.5, -0.0
 AddRecipe = " GG",  "GIR",  "XRX",  X, iron_block, R, redstone_block, I,iron_ingot, G, gunpowder

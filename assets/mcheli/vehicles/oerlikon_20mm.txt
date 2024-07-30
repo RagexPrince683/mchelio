@@ -2,7 +2,7 @@
 AddDisplayName = en_US, Oerlikon 20mm Cannon
 AddDisplayName = ja_JP, エリコン 20mm機関砲
 ItemID = 28601
-MaxHp = 40
+MaxHp = 50
 Gravity = -9.81
 GravityInWater = -1.0
 HideEntity = true
@@ -17,7 +17,7 @@ DamageFactor = 1.0
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
 
-unmountposition = 0.00, 1.5, -0.0
+unmountposition = 0.0, 1.5, -1.2
 HUD = vehicle
 ;, vehicle
 
@@ -36,7 +36,7 @@ AddChildPart = false,false,true,  2,   0.0, 0.7663, -0.3456, 0.1
 
 
 
-AddTurretWeapon = Oerlikon_20mm, 0.0, 0.7663, -0.3456,   0.0, 0.0,   true,2, 0,-360,360, -90, 15
+AddTurretWeapon = Oerlikon_20mm, 0.0, 0.7663, 0,   0.0, 0.0,   true,2, 0,-360,360, -90, 15
 
 AddRecipe = "III",  "III",  "IID",  I, Iron_Ingot, D, gunpowder
 

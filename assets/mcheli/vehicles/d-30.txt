@@ -9,6 +9,8 @@ MaxRotationPitch =  7
 DamageFactor = 0.1
 CameraZoom = 2
 CameraPosition = 0.0, 2.80, -0.5
+Gravity = -9.81
+GravityInWater = -1.0
 
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A

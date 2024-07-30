@@ -1,2 +1,2 @@
-DisplayName = ハッチ開放
+DisplayName = Open Hatch
 Type = Dummy

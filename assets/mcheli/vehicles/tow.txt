@@ -5,9 +5,9 @@ ItemID = 30035
 MaxHp = 50
 Gravity = -9.81
 GravityInWater = -1.0
-CameraZoom = 3
-AddGunnerSeat = 0,-0.4,-1, 0,  1.7,  0, false, -25, 25, true
-CameraPosition = 0,  1.7,  0
+CameraZoom = 6
+AddGunnerSeat = 0.45,0.2,-1, 0.45,  1.65,  0, false, -25, 25, true
+CameraPosition = 0.45,  1.65,  0
 HideEntity = false
 
 
@@ -28,7 +28,7 @@ RotationPitchMax =  25
 AddPart = true,true,true,0, 0, 1 , 0
 AddPart = true,true,false,0, 0, 0, 0
 
-AddTurretWeapon =  bgm-71,  0,1,0
+AddTurretWeapon =  bgm-71mount,  0,1,0
 
 
 AddRecipe = "YZQ",  "ZXZ",  "ZYZ",  X, iron_block, Z, iron_ingot, Q, redstone, Y, gunpowder

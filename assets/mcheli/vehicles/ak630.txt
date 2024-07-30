@@ -13,6 +13,8 @@ CameraZoom = 10
 ;CameraPosition = 0.0, 1.0, 4.16
 CameraPosition = 0.0, 1.8, 0
 CameraRotationSpeed = 70
+Gravity = -9.81
+GravityInWater = -1.0
 
 ; M = Military,  A = AAGun(‘Î‹ó–C)
 Category = M.A

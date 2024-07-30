@@ -15,7 +15,8 @@ ThirdPersonDist = 10
 CameraRotationSpeed = 20
 Sound = none
 SoundVolume = 0
-
+Gravity = -0.61
+GravityInWater = -1.0
 
 UnmountPosition = 1.40,  1.5, -1.00
 
