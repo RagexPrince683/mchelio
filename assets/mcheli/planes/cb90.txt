@@ -156,7 +156,7 @@ BoundingBox =  0.0, -0.4,  -5.4712,  2.8, 1.5
 BoundingBox =  0.0, -0.4,  -3.4712,  2.8, 1.5
 
 
-AddShapelessRecipe = iron_block,iron_block
+AddRecipe = "ZRZ", "XBX", "RGZ", X, iron_block, B, boat, R, redstone, G, gunpowder, Z, iron_ingot
 
 ;AddRack = none,   -0.63, -12.04, 2.42,    0,0,0,  1,  1
 
