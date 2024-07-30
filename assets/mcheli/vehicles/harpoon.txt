@@ -7,7 +7,7 @@ CameraPosition = 0.0, 4.50, 0.0
 CameraZoom = 5
 MinRotationPitch = -50
 MaxRotationPitch = 50
-AddSeat = 0.0,  1.5, 0.0
+AddSeat = 0.0,  1.0, 0.0
 HideEntity = true
 EnableGunnerMode = false
 Gravity = -9.81
@@ -15,7 +15,7 @@ GravityInWater = -1.0
 
 DamageFactor = 1.0
 
-AddWeapon = rgm84,  -0.51, 2.68, -4.60, 0.00, 0.00, false, 1, 0, 0, 0, -30, -30
+AddTurretWeapon = rgm84,  -0.51, 2.68, -0, 0.00, 0.00, false, 1, 0, 0, 0, -30, 0
 RigidityTime = 20
 
 HUD = vehicle

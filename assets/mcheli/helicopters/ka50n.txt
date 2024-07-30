@@ -4,6 +4,7 @@ ItemID = 28818
 MaxHp = 100
 Speed = 1.7
 soundpitch = 1.4
+ThirdPersonDist = 20
 
 EnableEjectionSeat = true
 

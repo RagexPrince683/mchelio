@@ -10,6 +10,7 @@ ThrottleUpDown = 0.8
 FlareType = 3
 MaxFuel         = 1200
 FuelConsumption = 1.0
+ThirdPersonDist = 20
 
 Sound = r44_heli
 soundpitch = 1.45

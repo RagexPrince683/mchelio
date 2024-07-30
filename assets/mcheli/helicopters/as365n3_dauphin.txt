@@ -1,4 +1,4 @@
-﻿DisplayName = as365n3 Dauphin Heli
+﻿DisplayName = Eurocopter AS365 Dauphin
 AddDisplayName = en_US, Eurocopter AS365 Dauphin
 AddDisplayName = ja_JP, AS365N3 ドーファン
 
@@ -17,6 +17,7 @@ InventorySize = 54
 RotorSpeed = 90
 EnableParachuting = true
 MobDropOption  =  -1.75,  0.72,  -2.67,  10
+ThirdPersonDist = 20
 
 sound = chinesedauphin
 soundvolume = 15

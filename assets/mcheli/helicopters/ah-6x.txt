@@ -9,6 +9,7 @@ ThrottleUpDown = 1.0
 FlareType = 3
 MaxFuel         = 600
 FuelConsumption = 1.0
+ThirdPersonDist = 20
 
 Sound = littlebird
 Soundvolume = 15

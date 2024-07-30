@@ -13,6 +13,7 @@ FuelConsumption = 1.0
 Sound = r44_heli
 soundpitch = 1.45
 soundvolume = 15
+ThirdPersonDist = 20
 
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)

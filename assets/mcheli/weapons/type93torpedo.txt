@@ -8,7 +8,10 @@ Explosion = 4
 ExplosionInWater = 9
 Flaming = false
 Sight = None
-Delay = 40
+Delay = 4
+
+ReloadTime = 400
+
 GuidedTorpedo = false
 Gravity = -0.04
 GravityInWater = 0

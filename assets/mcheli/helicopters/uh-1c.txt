@@ -4,6 +4,7 @@ ItemID = 28821
 MaxHp = 100
 EnableGunnerMode = true
 EnableNightVision = true
+ThirdPersonDist = 20
 
 Speed = 1.48
 ThrottleUpDown = 0.8

@@ -13,6 +13,7 @@ FlareType = 3
 CameraPosition = 0.0, 0.7, 3.5
 MaxFuel         = 2400
 FuelConsumption = 1.1
+ThirdPersonDist = 20
 
 sound = stallion
 soundvolume = 15

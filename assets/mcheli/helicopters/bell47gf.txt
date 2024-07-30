@@ -8,7 +8,7 @@ Speed = 1.05
 FlareType = 3
 MaxFuel         = 600
 FuelConsumption = 0.6
-
+ThirdPersonDist = 20
 
 
 Sound = bellfourtyseven

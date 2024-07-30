@@ -13,6 +13,7 @@ FuelConsumption = 1.0
 Sound = r44_heli
 soundpitch = 1.45
 soundvolume = 15
+ThirdPersonDist = 20
 
 AddTexture = AH-1_1
 

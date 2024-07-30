@@ -12,6 +12,8 @@ onGroundPitch = 4.1
 Stealth = 0.1
 ThrottleUpDown = 1.4
 
+ThirdPersonDist = 20
+
 Sound = littlebird 
 Soundvolume = 15
 

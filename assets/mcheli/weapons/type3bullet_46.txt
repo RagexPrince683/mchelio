@@ -11,18 +11,24 @@ Delay = 20
 Round = 3
 Bomblet = 30
 BombletDiff = 2.0
+
+ModelBomblet = bullet
+
 DisableSmoke = true
 SoundDelay = 3
 SoundPitch = 0.3
 Sound = cannon_1_snd
 Delay = 10
-ReloadTime = 130
+ReloadTime = 530
 Round = 3
 SoundVolume = 15
 Gravity = -0.005
 Group = MainGun
-HeatCount = 90
-MaxHeatCount = 170
+HeatCount = 500
+MaxHeatCount = 1450
+
+
+
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0

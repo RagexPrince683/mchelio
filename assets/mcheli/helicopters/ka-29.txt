@@ -13,6 +13,7 @@ EnableEntityRadar = true
 MaxFuel         = 1200
 FuelConsumption = 1.0
 Sound = heli_k
+ThirdPersonDist = 20
 
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
 Category = M.M

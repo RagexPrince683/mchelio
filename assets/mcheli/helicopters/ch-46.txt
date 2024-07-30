@@ -14,6 +14,7 @@ onGroundPitch = 1.8
 Float = true
 FloatOffset = -0.93
 EnableFoldBlade = true
+ThirdPersonDist = 20
 
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
 Category = M.M

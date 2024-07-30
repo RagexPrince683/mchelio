@@ -14,7 +14,7 @@ Regeneration = true
 MaxFuel         = 1500
 FuelConsumption = 1.0
 ;Stealth = 0.2
-
+ThirdPersonDist = 20
 
 sound = apache
 soundpitch = 1.3

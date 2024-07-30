@@ -6,6 +6,7 @@ Speed = 1.60
 MaxFuel         = 1200
 FuelConsumption = 1.0
 onGroundPitch = 2.09
+ThirdPersonDist = 20
 
 sound = eurocopter
 ;soundpitch = 1.3

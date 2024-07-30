@@ -17,6 +17,9 @@ Category = C
 
 AddSeat =  0.0, 1.0, 0.0
 
+AddWeapon = none, 0.0, 0.0, 0.0, 0.0, 0.0, true, 1
+AddWeapon = targeting_pod_block, 0.0, 0.0, 0.0, 0.0, 0.0, true, 1
+
 AddPartCamera = 0.00, 0.0, 0.389, true, true
 AddPartCamera = 0.00, 0.0, 0.389, true, false
 

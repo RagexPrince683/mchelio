@@ -2,7 +2,7 @@ DisplayName = 12.7 cm/40 Type 89 Naval Gun Shield Variant
 AddDisplayName = en_US, 12.7 cm/40 Type 89 Naval Gun Shield Variant
 AddDisplayName = ja_JP, 12.7cm連装高角砲シールド付き
 ItemID = 28606
-MaxHp = 160
+MaxHp = 200
 HideEntity = false
 MinRotationPitch = -80
 MaxRotationPitch =  8
@@ -31,8 +31,8 @@ AddPart	= true, true, true,  0,   0.00, 0.00, 0.00
 AddPart	= true, true, true,  2,   0.00, 0.00, 0.00, 0.5
 AddPart	= true, true, true,  2,   0.00, 0.00, 0.00, 0.5
 
-AddTurretWeapon = 12_7cm,      -0.36, 1.35, 5.83,   0.0, -1.0,   true,1, 0,-360,360, -80, 8
-AddTurretWeapon = 12_7cm,       0.73, 1.35, 5.83,   0.0, -1.0,   true,1, 0,-360,360, -80, 8
+AddTurretWeapon = 12_7cm,      -0.36, 1.35, 0.0,   0.0, 0.0,   true,1, 0,-360,360, -80, 8
+AddTurretWeapon = 12_7cm,       0.73, 1.35, 0.0,   0.0, 0.0,   true,1, 0,-360,360, -80, 8
 ;;AddTurretWeapon = type3bullet, -0.36, 1.35, 5.83,   0.0, -1.0,   true,1, 0,-360,360, -80, 8
 ;;AddTurretWeapon = type3bullet,  0.73, 1.35, 5.83,   0.0, -1.0,   true,1, 0,-360,360, -80, 8
 

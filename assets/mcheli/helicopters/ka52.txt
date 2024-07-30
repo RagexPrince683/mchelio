@@ -4,6 +4,7 @@ ItemID = 28819
 MaxHp = 100
 Speed = 1.7
 ThrottleUpDown = 0.7
+ThirdPersonDist = 20
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A

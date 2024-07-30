@@ -4,8 +4,8 @@ AddDisplayName = ja_JP, CH-47 チヌーク ラジコンヘリ
 ItemID = 30024
 MaxHp = 20
 Speed = 0.3
-EnableNightVision = true
-CameraPosition =  0.00, -0.29,  0.08
+EnableNightVision = false
+CameraPosition =  0.00, -0.35,  0.08
 SmallUAV = true
 Sound = radiconheli
 ThrottleUpDown = 2.0
@@ -18,7 +18,7 @@ Category = C
 
 HUD = civilian_aircraft
 
-AddPartCamera =  0.00, -0.24,  0.00
+AddPartCamera =  0.00, -0.26,  0.00
 
 MobilityYaw = 5
 MobilityPitch = 5
@@ -33,7 +33,7 @@ AddRotor = 1, 0, -0.001,  0.14, -0.87,  0, 1, 0
 
 AddRecipe = "III",  "GCB",  "BRG",  I, iron_ingot,  C, comparator,  R, redstone,  G, dye,2,  B, dye,3
 
-InventorySize = 27
+;InventorySize = 0
 
 BoundingBox =  0.00, -0.15, -0.41,  0.3, 0.2
 BoundingBox =  0.00,  0.05, -0.83,  0.3, 0.3

@@ -5,7 +5,8 @@ ItemID = 30046
 MaxHp = 100
 MaxFuel         = 1200
 FuelConsumption = 1.0
-Regeneration = true
+Regeneration = false
+ThirdPersonDist = 20
 
 AddTexture = s76vip_white
 AddTexture = s76vip_green
