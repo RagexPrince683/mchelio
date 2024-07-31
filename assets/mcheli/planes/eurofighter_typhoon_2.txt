@@ -1,4 +1,4 @@
-	DisplayName = Eurofighter Typhoon II (Storm Shadow)
+DisplayName = Eurofighter Typhoon II (Storm Shadow)
 AddDisplayName = en_US, Eurofighter Typhoon II (Storm Shadow)
 ItemID = 28714
 MaxHp = 100
@@ -65,7 +65,7 @@ AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 BoundingBox =  0.00, 2.25, -2.50,  3.0, 1.8
 
-BoundingBox =  0.00, 2.95, -2.50,  3.0, 1.8
+BoundingBox =  0.00, 2.95, -2.50,  1.0, 1.8
 BoundingBox =  0.00, 2.05, -5.50,  3.0, 1.75
 BoundingBox =  0.00, 1.88, -8.50,  3.0, 1.9
 BoundingBox =  0.00, 1.65,-11.50,  3.0, 1.3
