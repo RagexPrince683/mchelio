@@ -115,8 +115,8 @@ AddPartCanopy   =  0,0,0,  0,1,0,  0
 
 InventorySize = 27
 
-AddRecipe = " G ",  "I I",  " I ",   G, mcheli:humvee, I, iron_ingot
-AddRecipe = " G ",  "I I",  " I ",   G, mcheli:humveev2, I, iron_ingot
+AddRecipe = " G ",  "I I",  " I ",   G, mcheli:hel, I, iron_ingot
+AddRecipe = " G ",  "I I",  " I ",   G, mcheli:hel2, I, iron_ingot
 
 ;AddRecipe = "",  "",  "",  
 
