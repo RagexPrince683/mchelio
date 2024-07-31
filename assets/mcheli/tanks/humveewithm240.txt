@@ -1,6 +1,6 @@
-﻿DisplayName = Humvee with M240B
-AddDisplayName = ja_JP, Humvee with M240B
-AddDisplayName = en_US, Humvee with M240B
+﻿DisplayName = Fast Back Humvee with M240B
+AddDisplayName = ja_JP, Fast Back Humvee with M240B
+AddDisplayName = en_US, Fast Back Humvee with M240B
 ItemID = 30032
 MaxHp = 230
 ThrottleUpDown = 0.81

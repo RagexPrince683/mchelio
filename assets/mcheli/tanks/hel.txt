@@ -22,9 +22,9 @@ ThirdPersonDist = 5
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 
-AddTexture = humveewithweapon
+;AddTexture = humveewithweapon
 AddTexture = humveev
-AddTexture = humveewithweaponv
+;AddTexture = humveewithweaponv
 
 ;後退可能にする
 EnableBack = true
