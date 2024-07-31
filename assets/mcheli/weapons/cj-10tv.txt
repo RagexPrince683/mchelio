@@ -1,4 +1,4 @@
-DisplayName = CJ-10 Cruise Missile [TV]
+DisplayName = CJ-10 Cruise Missile
 AddDisplayName = zh_CN, 长剑10电视制导
 Type = TVMissile
 Power = 1000
@@ -8,12 +8,15 @@ ExplosionBlock = 10
 ExplosionInWater = 5
 Flaming = true
 Sight = MoveSight
-Delay = 200
+Delay = 5
 ModelBullet = CJ-10
 Sound = missile_2_snd
+
+Round = 2
+
 Piercing  = 0
-SoundVolume = 10.0
-ReloadTime = 150
+SoundVolume = 15
+ReloadTime = 200
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
