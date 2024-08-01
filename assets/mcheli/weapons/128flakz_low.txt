@@ -1,4 +1,4 @@
-DisplayName 12.8cm Flakzwilling Cannon [PF - LOW]
+DisplayName = 12.8cm Flakzwilling Cannon [PF - LOW]
 Type = MachineGun1
 Power = 38
 ModelBullet = bullet76mm
