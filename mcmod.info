@@ -1,13 +1,13 @@
 [
 {
   "modid": "mcheli",
-  "name": "MC Helicopter",
-  "version": "1.0.3",
+  "name": "MC Helicopter Overdrive",
+  "version": "1.7",
   "mcversion": "1.7.10",
   "description": "Adds Helicopters Jets Tanks and ships. All with as much realism as possible.
 
 Credits - EMB4, Fureniu aka Fureniku, Zealot, Rainwind, Grzybek, RitPennachio, Grig, woyl aka krftv, Hamzah, Edwardg2, Moc, Heinrich112, TehNIck, TheBobcat and many others. If we missed someone please let us know.",
-  "url": "http://forum.minecraftuser.jp/viewtopic.php?f=13&t=14837",
+  "url": "https://ragexprince.wordpress.com/",
   "credits": "EMB4",
   "authorList": [ "EMB4" ],
   "dependencies": [
