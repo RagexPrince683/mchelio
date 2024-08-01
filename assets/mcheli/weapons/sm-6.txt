@@ -1,4 +1,4 @@
-DisplayName = RIM-174 Standard ERAM
+DisplayName = RIM-174 SERAM [RIM-174 - HE]
 Type = AAMissile
 Power = 64
 Acceleration = 3.5
@@ -9,11 +9,12 @@ LockTime = 5
 ModelBullet = RIM-156
 Sound = missile_1_snd
 RigidityTime = 10
-ProximityFuseDist = 1
+ProximityFuseDist = 2
 
-DamageFactor = helicopter, 2.0
-DamageFactor = plane, 2.0
-
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 MaxAmmo = 48
 SuppliedNum = 8
 Item =  6, iron_ingot
