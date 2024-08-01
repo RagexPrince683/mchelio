@@ -28,12 +28,12 @@ AddChildPart = true, false, true,  2,   0.00, 1.90, -1.27, 0.8
 AddChildPart = true, false, true,  2,   0.00, 1.90, -1.27, 0.8
 AddChildPart = false, false, true,  0,   0.00, 1.90, -1.27
 
-AddWeapon = 128flakz_low,   0.84, 2.43, 10.27,   0.0, 0.0
-AddWeapon = 128flakz_low,  -0.84, 2.43, 10.27,   0.0, 0.0
-AddWeapon = 128flakz_mid,   0.84, 2.43, 10.27,   0.0, 0.0
-AddWeapon = 128flakz_mid,  -0.84, 2.43, 10.27,   0.0, 0.0
-AddWeapon = 128flakz_hig,   0.84, 2.43, 10.27,   0.0, 0.0
-AddWeapon = 128flakz_hig,  -0.84, 2.43, 10.27,   0.0, 0.0
+AddTurretWeapon = 128flakz_low,   0.84, 2.43, 10.27,   0.0, 0.0
+AddTurretWeapon = 128flakz_low,  -0.84, 2.43, 10.27,   0.0, 0.0
+AddTurretWeapon = 128flakz_mid,   0.84, 2.43, 10.27,   0.0, 0.0
+AddTurretWeapon = 128flakz_mid,  -0.84, 2.43, 10.27,   0.0, 0.0
+AddTurretWeapon = 128flakz_hig,   0.84, 2.43, 10.27,   0.0, 0.0
+AddTurretWeapon = 128flakz_hig,  -0.84, 2.43, 10.27,   0.0, 0.0
 
 AddRecipe = "DZD",  "RZR",  "DRZ",  X, iron_block, R, iron_ingot, Z, iron_block, D, gunpowder
 
