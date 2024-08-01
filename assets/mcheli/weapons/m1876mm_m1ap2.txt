@@ -34,6 +34,9 @@ ModelBullet = bullet
 
 SoundVolume = 15
 
+HeatCount = 900
+MaxHeatCount = 2050
+
 
 ; AddMuzzleFlash = 発射元からの距離, サイズ, 表示時間,  A,  R,  G,  B
 AddMuzzleFlash      =           8.2,   2.10,        7,  220,254,159,74
