@@ -8,6 +8,9 @@ DamageFactor = 1
 CameraZoom = 1
 CameraPosition = 0.00,  0.90, -1.00
 
+Gravity = -9.81
+GravityInWater = -1.0
+
 ; M = Military
 Category = M
 

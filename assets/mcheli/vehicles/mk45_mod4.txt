@@ -9,6 +9,8 @@ MaxRotationPitch =  15
 DamageFactor = 0.8
 CameraZoom = 4
 Stealth = 0.2
+Gravity = -9.81
+GravityInWater = -1.0
 
 CameraPosition = 0.0, 4, 0.0
 unmountposition = -0.0, 1.5, -0.0
