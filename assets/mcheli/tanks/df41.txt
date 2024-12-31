@@ -127,5 +127,5 @@ unmountposition = 2.224,  1.8, -0.39
 ;OnGroundPitchFactor = 15.0
 ;OnGroundRollFactor  = 5.2
 
-AddRecipe = " I ",  "XXX",  "XXX",  X, iron_block,  I, iron_ingot
+AddRecipe = " I ",  "XPX",  "XPX",  X, iron_block,  I, iron_ingot,  P, piston
 

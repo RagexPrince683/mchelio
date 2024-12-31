@@ -61,7 +61,10 @@ AddPartHatch = -1.02,  2.07,  1.83,  0, 0,-1, 85
 AddPartHatch = -0.94,  0.75,  1.83,  0, 0, 1, 130
 
 
-AddRecipe = "   ", "XYX", "   ", X, mcheli:mi-24, Y, redstone
+AddRecipe = "   ", "XY ", "   ", X, mcheli:mi-24, Y, redstone
+
+AddRecipe = "XYX", "IGX", "III", X, iron_block, Y, glass, I, iron_ingot, D, diamond, Q, gunpowder
+
 
 BoundingBox =  0.0,  0.80,  5.80,  1.2, 1.2
 BoundingBox =  0.0,  1.12,  4.59,  2.2, 2.2
