@@ -15,7 +15,7 @@ Round = 100
 SoundPitch = 1.0
 Sound = rcvtwentyfive
 Accuracy = 1.5
-ModeNum = 1
+
 Recoil = 0.5
 HeatCount = 6
 MaxHeatCount = 150

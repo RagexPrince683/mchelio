@@ -18,6 +18,7 @@ ThirdPersonDist = 16
 Gravity = -9.81
 GravityInWater = -1.0
 
+
 ; M = Military,  A = AAGun(対空砲)
 Category = M.A
 
@@ -39,6 +40,6 @@ AddChildPart = true,false,true,  2,   0.00, 2.84, -0.06, 0.9
 AddWeapon = 406mm_he, 0.00, 2.84, 0.0, 0.0, -1.0, true, 1, 0,-360,360, -40, 5
 AddWeapon = 406mm_ap, 0.00, 2.84, 0.0, 0.0, -1.0, true, 1, 0,-360,360, -40, 5
 
-AddRecipe = "ZXZ",  "XZX",  "ZXZ",  X, iron_block, Z, iron_ingot
+AddRecipe = "ZXZ",  "XXX",  "GXZ",  X, iron_block, Z, iron_ingot, G, gunpowder
 
 BoundingBox =  0.0, 2.0, 0.0,  5.0, 5.0

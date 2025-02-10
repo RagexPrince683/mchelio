@@ -1,22 +1,24 @@
 DisplayName = Entrenching
 Type = Rocket
-Power = 10
+Power = 5
 Explosion = 1
 ExplosionBlock = 1
 Acceleration = 0.0
 Sight = None
-Round = 1
-SoundVolume = 10.0
+Round = 6
+SoundVolume = 1.0
 ;Sound = abramsmain
 
 Sound = ng
-Accuracy = 0.5
+Accuracy = 0.0
 ;BulletColor        = 255, 255, 100, 100
 ;Particle = largeexplode
 ;DamageFactor = tank, 1.0
 ;DamageFactor = plane, 3.0
 ;DamageFactor = vehicle 2.0
 ;DamageFactor = heli, 3.0
+
+DamageFactor = tank, 0.0
 
 
 ;DisplayMortarDistance = true
@@ -40,13 +42,13 @@ ModelBomblet = 0_none
 
 Gravity = -6
 
-MaxAmmo = 40
-SuppliedNum = 20
+MaxAmmo = 6
+SuppliedNum = 1
 ;Item =  1, iron_ingot
 ;Item =  1, gunpowder
 
-Delay = 30
-ReloadTime = 30
+Delay = 1
+ReloadTime = 10
 ;Group = MainGun
 Acceleration = 0.0
 ;ModelBullet = bullet105mm

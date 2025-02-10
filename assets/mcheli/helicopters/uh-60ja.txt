@@ -13,6 +13,7 @@ CameraPosition = 0.6, 0.3, 2.87
 MaxFuel         = 1500
 FuelConsumption = 1.0
 Stealth = 0.2
+ThirdPersonDist = 20
 
 sound = apache
 soundpitch = 1.3
@@ -23,7 +24,7 @@ Category = M.M
 
 AddTexture = uh-60ja_1
 
-HUD = heli, heli_gnr, none, none, none, none, none, none, none
+HUD = helinvg, heli_gnrnvg, none, none, none, none, none, none, none
 
 MobilityYaw = 0.9
 MobilityPitch = 0.9
@@ -54,7 +55,7 @@ AddRepellingHook = -1.64, 2.05, -2.30, 30
 AddPartSlideHatch =   0.083,  0.00, -2.11
 AddPartSlideHatch =  -0.083,  0.00, -2.11
 
-AddRecipe = " X ",  "X X",  "IXI",  X, iron_block, I, iron_ingot
+AddRecipe = "BPB", "BCB", "BEB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2
 
 InventorySize = 27
 

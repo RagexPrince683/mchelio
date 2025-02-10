@@ -17,7 +17,7 @@ TimeFuse = 300
 SoundPitch = 1.0
 Sound = bmptwomain
 Accuracy = 0.5
-ModeNum = 1
+
 group = maingun
 
 DisplayMortarDistance = true
@@ -26,6 +26,7 @@ DisplayMortarDistance = true
 Delay = 1
 HeatCount = 7
 MaxHeatCount = 150
+ModelBullet = bullet
 
 
 ;tracer

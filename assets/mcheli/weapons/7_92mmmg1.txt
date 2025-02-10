@@ -1,23 +1,24 @@
-DisplayName = 7.92mm MG42 Machine Gun
+DisplayName = 7.92mm MG34 Machine Gun
 Type = MachineGun1
 Accuracy = 1.50
 Explosion = 0
 Flaming = false
 Sight = MoveSight
-Delay = 0
+Delay = 1
 ReloadTime = 160
-Round = 250
+Round = 150
 ;SoundDelay = 3
 ;Accuracy = 4.0
 SoundPitch = 1.0
 AddMuzzleFlash      =           1.0,   0.25,        1,  220,254,219,104
 AddMuzzleFlashSmoke   =              1.5,     2,   3.0,  0.5,       15,  220,160,140,120
 
-MaxAmmo = 2400
-SuppliedNum = 20
+MaxAmmo = 3000
+SuppliedNum = 500
 Item =  2, iron_ingot
 Item =  2, gunpowder
 
+ModelBullet = bullet
 
 
 Type = MachineGun1
@@ -27,7 +28,7 @@ Explosion = 0
 Flaming = false
 Sight = MoveSight
 ;SoundDelay = 3
-HeatCount = 2
+HeatCount = 5
 MaxHeatCount = 150
 SoundPitch = 1.0
 Sound = mgthree

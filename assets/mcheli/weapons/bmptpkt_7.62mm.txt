@@ -16,6 +16,9 @@ ReloadTime = 80
 HeatCount = 4
 MaxHeatCount = 150
 
+ModelBullet = bullet
+
+
 
 DisplayMortarDistance = true
 

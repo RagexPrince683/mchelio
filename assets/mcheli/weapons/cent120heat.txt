@@ -9,6 +9,8 @@ Flaming = false
 Sight = MoveSight
 Delay = 170
 
+
+
 ;SoundPitch = 0.5
 SoundVolume = 20
 Sound = centaurobig

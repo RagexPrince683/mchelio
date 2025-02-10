@@ -16,6 +16,8 @@ HeatCount = 4
 MaxHeatCount = 225
 Gravity = -0.001
 
+ModelBullet = bullet
+
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0

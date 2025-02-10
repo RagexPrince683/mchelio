@@ -38,7 +38,7 @@ HUD = plane, plane_gnr
 
 AddSeat       = 0.00,  2.43,  0.00
 
-unmountposition = 0.00,  1.53,  0.00
+unmountposition = 0.00,  2.73,  0.00
 
 AddGunnerSeat = 0.00,  2.51, -1.76, 0.0, 0.70, 1.6, true
 
@@ -114,23 +114,23 @@ AddPartHatch =   0.0,  3.00,  -7.05, -1,0, 0, 45
 SweepWingSpeed = 0.8
 VariableSweepWing = true
 
-AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt
+AddRecipe = "AYX",  "TTT",  "XXX",  X, iron_block, Y, glass, A, iron_ingot, T, tnt
 
 BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
 BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0
 BoundingBox = -4.52, 2.20, -9.60,  4.0, 1.0
 BoundingBox =  4.52, 2.20, -9.60,  4.0, 1.0
 BoundingBox =  0.00, 1.80, -11.8,  3.0, 1.5
-BoundingBox =  0.00, 1.80, -13.8,  3.0, 1.5
+BoundingBox =  0.00, 1.80, -13.8,  3.0, 1.5, 1.5 
 
-BoundingBox = 3.05, 2.16, -14.59, 3.0, 1.0
-BoundingBox = -3.05, 2.16, -14.59, 3.0, 1.0
+BoundingBox = 3.05, 2.46, -14.59, 3.0, 0.5
+BoundingBox = -3.05, 2.46, -14.59, 3.0, 0.5
 BoundingBox = 1.99, 3.73, -13.91, 1.0, 3.0
 BoundingBox = -1.99, 3.73, -13.91, 1.0, 3.0
-BoundingBox = 1.99, 3.93, -14.91, 1.0, 3.3
-BoundingBox = -1.99, 3.93, -14.91, 1.0, 3.3
-BoundingBox = 1.99, 3.73, -12.91, 1.0, 3.0
-BoundingBox = -1.99, 3.73, -12.91, 1.0, 3.0
+BoundingBox = 1.99, 4.18, -14.91, 1.0, 3.3
+BoundingBox = -1.99, 4.18, -14.91, 1.0, 3.3
+BoundingBox = 1.99, 3.15, -12.91, 1.0, 2.62
+BoundingBox = -1.99, 3.15, -12.91, 1.0, 2.62
 
 
 enableback = true

@@ -67,8 +67,8 @@ AddTrackRoller = 1.73,  0.424,  -3.86
 AddPartWeapon = ikv90mmgun / ikv90mmart, false, true, false,  0.00, 1.6165, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 1.9315, 1.6268, 0.0
 AddPartWeaponChild = false, true, 0.00, 1.9315, 1.6268, 0.5
-AddTurretWeapon = ikv90mmgun, 0.00, 1.9315, 1.6268, 0.0, 0.0, true,1, 0,-360,360, -15, 10
-AddTurretWeapon = ikv90mmart, 0.00, 1.9315, 1.6268, 0.0, 0.0, true,1, 0,-360,360, -15, 10
+AddTurretWeapon = ikv90mmgun, 0.00, 1.9315, 0.6268, 0.0, 0.0, true,1, 0,-360,360, -15, 10
+AddTurretWeapon = ikv90mmart, 0.00, 1.9315, 0.6268, 0.0, 0.0, true,1, 0,-360,360, -15, 10
 AddTurretWeapon = ikvmg7_62mmcox, 0.20, 1.9315, 0, 0.0, 0.0, true,1, 0,-360,360, -15, 10
 
 

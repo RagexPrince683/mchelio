@@ -14,7 +14,7 @@ EnableNightVision = true
 EnableEntityRadar = false
 Gravity = -0.61
 GravityInWater = -1.0
-CameraRotationSpeed = 10
+CameraRotationSpeed = 16
 GravityInWater = -1.0
 MinRotationPitch = -70
 MaxRotationPitch = 5
@@ -44,7 +44,7 @@ AddTexture = btr80_2
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = mbt_hud, none, none, none, none, none, none
+HUD = mbt_hudtwo, none, none, none, none, none, none
 
 AddGunnerSeat =  0.00, 1.68,  0.00, 0.00, 1.68,  0.00, false, -70, 10
 AddSeat = -0.31, 0.75, -1.62 

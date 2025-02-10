@@ -1,6 +1,6 @@
 DisplayName = 7.62mm ksp m/39B Machine Gun
 Type = MachineGun1
-Power = 7
+Power = 8
 
 Explosion = 0
 Flaming = false
@@ -8,6 +8,9 @@ Sight = MoveSight
 Delay = 1
 ;SoundDelay = 3
 Accuracy = 1.5
+ModelBullet = bullet
+
+
 HeatCount = 3
 MaxHeatCount = 150
 SoundPitch = 1.2

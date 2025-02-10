@@ -1,21 +1,28 @@
-DisplayName = 105mm M68A1 Cannon [M456A2 - HEATFS]
+DisplayName = 105mm M68A1 Cannon [M456A2 - HEAT-FS]
 Type = MachineGun2
 Power = 400
-ModelBullet = bullet105mm
-Acceleration = 5.0
-Explosion = 3
-ExplosionBlock = 2
+ModelBullet = 3bk18m
+Acceleration = 6.5
+Explosion = 4
+ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
+Delay = 140
 ReloadTime = 160
-Delay = 160
-ModeNum = 1
-SoundPitch = 0.5
-SoundVolume = 20
-Sound = mbtshot
+SoundPitchRandom = 0.1
+Round = 7
+
+
+HeatCount = 900
+MaxHeatCount = 2050
+
+Recoil = 1.9
+
+SoundVolume = 15
+Sound = strykermain
 Group = MainGun
 
-Gravity = -0.001
+Gravity = -0.005
 Piercing = 0
 Accuracy = 0.0
 DamageFactor = tank, 2.0
@@ -30,6 +37,6 @@ DisplayMortarDistance = true
 
 
 MaxAmmo = 14
-SuppliedNum = 7
+SuppliedNum = 2
 Item =  2, iron_ingot
 Item =  2, gunpowder

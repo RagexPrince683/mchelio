@@ -15,6 +15,7 @@ Delay = 100
 ReloadTime = 240
 ModelBullet = agm114
 Sound = missile_1_snd
+LockTime = 20
 
 Delay = 100
 ReloadTime = 240

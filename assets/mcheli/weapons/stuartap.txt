@@ -1,25 +1,32 @@
-DisplayName = M5 37mm[AP]
+DisplayName = 37mm M5 Cannon [M74 Shot - AP] 
 Type = MachineGun2
-Power = 55
-Acceleration = 5.5
+Power = 77
+Acceleration = 6.5
 ModelBullet = bullet76mm
 Explosion = 0
 ExplosionBlock = 0
 Sight = MoveSight
 ReloadTime = 60
+Delay = 60
 Round = 1
-Sound = cannon_1_snd
-SoundVolume = 0.7
-Accuracy = 1.25
-Piercing = 1
-HeatCount = 25
-MaxHeatCount = 25
+Sound = shermanmain
+SoundVolume = 15
+Accuracy = 1.5
+Piercing = 2
+HeatCount = 200
+MaxHeatCount = 1000
 Gravity = -0.01
-GravityInWater = 0.0
+
+Group = MainGun
+
 Particle = flame
 RecoilBufCount = 20, 5
-DamageFactor = plane, 3.0
-DamageFactor = helicopter, 3.0
+DamageFactor = tank, 3.0
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
+
 Recoil = 0.5
 
 AddMuzzleFlash      =           2.6,   1.10,        2,  220,254,159,74
@@ -31,4 +38,4 @@ AddMuzzleFlashSmoke   =             3.2,     5,   8.0,  4.0,       70,  200,190,
 MaxAmmo = 50
 SuppliedNum = 10
 Item =  2, iron_ingot
-Item =  4, gunpowder
+Item =  2, gunpowder

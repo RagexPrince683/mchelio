@@ -5,30 +5,30 @@ ItemID = 90129
 ;;estimated max armor thickness is 102mm thus divided by two equals 51
 MaxHp = 150
 ;;speed is calculated by taking the original vehicle speed eg for this vehicle it is 27.9mph*0.1 then the product is further divided by 10 and rounded up
-Speed = 0.4
-ThrottleUpDown = 3.0
+;old method above, we just use MPH now
+Speed = 0.28
+ThrottleUpDown = 1.5
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = false
 EnableEntityRadar = false
 Sound = V12TIGER
-HUD = ww2tank_hud, ww2tank_hud
+HUD = ww2tank_hud, gunner
 WeightType = Tank
-CameraZoom = 3
-CameraRotationSpeed = 10
+CameraZoom = 4
+CameraRotationSpeed = 8
 DefaultFreelook = true
-SubmergedDamageHeight = 3
+SubmergedDamageHeight = 2
 
  
-
-
+unmountposition = -0.0,  1.50,  -0.534
 
 ;TurretPosition = 0.0, -0.0, 0.0
 
 EnableBack = true
 ;SetWheelPos =  1.7,  -0.24,  4.0, 2.5, 1.0, -1.0, -2.5, -4.0
-SetWheelPos =  1.85,  -0.24,  1.65,  0.43, -0.89, -2.06, -3.22
+
 
 WeightedCenterZ = 0.0
 
@@ -38,12 +38,11 @@ OnGroundRollFactor  = 1.5
 MobilityYawOnGround = 2.0
 PivotTurnThrottle = 0.0
 
-AddGunnerSeat =  0.85, 2.55, -0.534,   0.85,   2.9,  -0.534,   false, -8, 16, true
-;AddGunnerSeat = -0.5,  1.0,  0.5,    -0.7878, 1.8, 3.2,     false, -8, 16, false
+AddGunnerSeat =  0.0, 1.50, -0.0,   0.0,   2.9,  -0.534,   false,     -16, 8, true
 AddGunnerSeat = -0.6849,  0.5,  2.0650,    -0.7878, 1.8, 3.2,     false, -8, 16, false
-CameraPosition = 0.85, 3.6, -0.534, false
+CameraPosition = 0.0, 3.6, -0.534, false
 
-StepHeight = 1.0
+StepHeight = 1.5
 ;InventorySize = 18
 ParticlesScale = 50.0
 SmoothShading = true
@@ -51,7 +50,7 @@ HideEntity = true
 
 
 
-MotionFactor = 0.86
+MotionFactor = 0.9
 
 
 
@@ -69,6 +68,8 @@ MaxFuel         = 1500
 FuelConsumption = 1.0
 
 TrackRollerRot = 30
+
+SetWheelPos =  1.65,  -0.24, 2.29,  1.64,  0.99, 0.34, -0.31, -0.96, -1.61, -2.26
 
 AddTrackRoller =  -1.5,  0.662,  3.267
 AddTrackRoller =  -1.5,  0.23,   2.29
@@ -95,26 +96,29 @@ AddTrackRoller =   1.5,  0.316, -3.174
 AddCrawlerTrack = true, 0.21, -2.1,   1.22/ 3.27, 1.06/ 3.67, 0.66/ 3.83, 0.26/ 3.66, -0.15/ 2.66, -0.30/ 2.29, -0.30/ -2.26, -0.08/ -3.17, -0.04/ -3.46, 0.31/ -3.57, 0.60/ -3.46, 0.71/ -3.17, 0.76/ -2.26, 0.76/ 2.29, 1.06/ 2.87
 AddCrawlerTrack = true, 0.21,  2.1,   1.22/ 3.27, 1.06/ 3.67, 0.66/ 3.83, 0.26/ 3.66, -0.15/ 2.66, -0.30/ 2.29, -0.30/ -2.26, -0.08/ -3.17, -0.04/ -3.46, 0.31/ -3.57, 0.60/ -3.46, 0.71/ -3.17, 0.76/ -2.26, 0.76/ 2.29, 1.06/ 2.87
 
-MinRotationPitch = -8
-MaxRotationPitch = 16
+MinRotationPitch = -16
+MaxRotationPitch = 8
 
-AddPartWeapon  = TigerH1_APCBC / TigerH1_HE, false, true,  false,  0.0, 1.5, 0.0, 0
+AddPartWeapon  = TigerH1_APCBC / TigerH1_APCBC2 / TigerH1_HE / TigerH1_heat, false, true,  false,  0.0, 1.5, 0.0, 0
 AddPartWeaponChild = false, true,   0.0, 2.4479, 1.881
 AddPartWeaponChild = false, true,   0.0, 2.4479, 1.881, 0.5
 ;AddTurretWeapon      = TigerH1_APCBC,  0.0, 2.3479, 2.8425,  0.0, 0.0, true,1, 0,-360,360, -8, 16
 ;AddTurretWeapon      = TigerH1_HE,     0.0, 2.3479, 2.8425,  0.0, 0.0, true,1, 0,-360,360, -8, 16
 
 
-AddTurretWeapon      = TigerH1_APCBC,  0.0, 2.4461, 6.0417,  0.0, 0.0, true,1, 0,-360,360, -8, 16
-AddTurretWeapon      = TigerH1_HE,  0.0, 2.4461, 6.0417,  0.0, 0.0, true,1, 0,-360,360, -8, 16
+AddTurretWeapon      = TigerH1_APCBC,  0.0, 2.4461, 0.0,  0.0, 0.0, true,1, 0,-360,360,  -16, 8
+AddTurretWeapon      = TigerH1_APCBC2,  0.0, 2.4461, 0.0,  0.0, 0.0, true,1, 0,-360,360, -16, 8
+AddTurretWeapon      = TigerH1_HE,  0.0, 2.4461, 0.0,  0.0, 0.0, true,1, 0,-360,360,     -16, 8
+AddTurretWeapon      = TigerH1_heat,  0.0, 2.4461, 0.0,  0.0, 0.0, true,1, 0,-360,360,   -16, 8
 
-;AddTurretWeapon      = TigerH1MG34Coax,  -0.62, 2.346, 1.0,  0.0, 0.0, true,1, 0,-360,360, -8, 16
+
 
 AddTurretWeapon      = TigerH1MG34Coax,  -0.649, 2.346, 1.97,  0.0, 0.0, true,1, 0,-360,360, -8, 16
 
 AddWeapon = TigerH1MG34,  -0.7878, 1.616, 3.0,  0.0, 0.0, false,2, 0,-40,40, -10, 10
 AddPartWeapon  = TigerH1MG34, false, true,  true,  -0.7878, 1.616, 3.0, 0
 
+AddRecipe = "YX ",  "XXX",  "X X",  X, iron_block, Y, iron_ingot
 
 
 ArmorMinDamage = 25

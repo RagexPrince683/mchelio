@@ -1,7 +1,7 @@
 DisplayName = 7.62mm "Kalashnikov" Machine gun
 AddDisplayName = ru_RU, 7.62 мм пулемет Калашникова танковый модернизированный
 Type = MachineGun2
-Power = 7
+Power = 8
 Acceleration = 7.5
 Flaming = false
 Sight = MoveSight

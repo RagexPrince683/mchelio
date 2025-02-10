@@ -1,13 +1,17 @@
-﻿DisplayName = Shahed136
+﻿DisplayName = Shahed 136/Geran 2 Drone
 Type = TVMissile
 Power = 450
-Acceleration = 1
+Acceleration = 2
 Explosion = 5
 Flaming = false
-Sound = shahed136
+Sound = radicon_heli
 Sight = MoveSight
 ModelBullet = Shahed136
 Delay = 1
+
+Round = 5
+
+ReloadTime = 800
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
@@ -16,6 +20,6 @@ DamageFactor = heli, 3.0
 ModeNum = 2
 
 MaxAmmo = 5
-SuppliedNum = 5
-Item =  8, iron_ingot
-Item =  8, gunpowder
+SuppliedNum = 1
+Item =  5, iron_ingot
+Item =  5, gunpowder

@@ -8,7 +8,7 @@ ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
 Delay = 15
-ModeNum = 2
+
 HeatCount = 40
 MaxHeatCount = 120
 ;SoundVolume = 1.6
@@ -33,7 +33,7 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, Oto Melara 127mm gun
+
 SoundVolume = 15
 
 AddMuzzleFlash      = 8.1,      0.85,        1,  150,254,219,154

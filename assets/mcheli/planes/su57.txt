@@ -41,7 +41,6 @@ MobilityPitch = 9.5
 
 HUD = plane
 
-
 AddSeat = 0,  2.8106,  0
 
 
@@ -157,6 +156,6 @@ AddRecipe = " X ",  "XPX",  " X ",  X, iron_ingot, P, mcheli:pakfa
 
 
 
-unmountposition = 0,  1.5,  0
+unmountposition = 0,  2.1,  0
 
 enableback = true

@@ -10,7 +10,7 @@ NukeYield = 80
 ;HeatCount = 1100
 ;MaxHeatCount = 2050
 
-Acceleration = 4.0
+
 Sight = None
 
 Round = 13
@@ -21,7 +21,7 @@ Accuracy = 0.5
 ;Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.045
+Gravity = -0.030
 group = maingun
 
 ; 着弾距離の表示
@@ -56,7 +56,7 @@ Item =  5, gunpowder
 Delay = 120
 ReloadTime = 1500
 Group = MainGun
-Acceleration = 4.0
+Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
 ModelBullet = bullet105mm
 Piercing = 0

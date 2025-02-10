@@ -16,7 +16,7 @@ DamageFactor = 0.3
 CameraZoom = 10
 CameraPosition = 0.00,  3.50, 0.20, true
 EnableNightVision = true
-CameraRotationSpeed = 24
+CameraRotationSpeed = 15
 ;EnableEntityRadar = true
 MaxFuel         = 1200
 FuelConsumption = 3.0
@@ -111,6 +111,6 @@ BoundingBox = 0.0, 1.7, 0.6, 2.7, 0.1, 0.28
 
 
 
-AddRecipe = "DGX",  "IXI",  "CRX",   X, iron_block,  G, glass, I, iron_ingot,  D,dispenser,  R,redstone_block,  C,cobblestone
+AddRecipe = "III",  "CXC",  "IXI",  X, iron_block,  I, iron_ingot, C, lapis_block
 
 unmountposition = 0.00,  1.93, 0.70

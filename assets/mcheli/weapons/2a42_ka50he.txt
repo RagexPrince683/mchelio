@@ -9,9 +9,9 @@ Sight = MoveSight
 
 ReloadTime = 120
 Round = 250
-SoundVolume = 3
+SoundVolume = 15
 SoundPitch = 1.0
-Sound = 2A42_30mm_snd
+Sound = bmptwomain
 Accuracy = 1.5
 ModeNum = 1
 group = maingun

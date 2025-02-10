@@ -24,6 +24,9 @@ MaxHeatCount = 150
 ;tracer
 ;BulletColor = 230, 200, 20, 80 
 
+ModelBullet = bullet
+
+
 
 
 

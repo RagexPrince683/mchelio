@@ -11,7 +11,7 @@ SoundVolume = 15
 SoundPitch = 10.0
 Sound = missile_scud_snd
 ModelBullet = scud
-Gravity = -0.045
+Gravity = -0.005
 
 CameraRotationSpeedPitch = 0.3
 

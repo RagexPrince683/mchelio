@@ -13,7 +13,7 @@ ThrottleUpDown = 0.3
 MaxFuel         = 1600
 FuelConsumption = 1.0
 EnableEjectionSeat = false
-EnableNightVision = true
+EnableNightVision = false
 onGroundPitch = 16.0
 EntityWidth  = 0.85
 EntityHeight = 0.85
@@ -85,8 +85,7 @@ BoundingBox =  1.50, 1.95, -6.50,  1.8, 1.8
 BoundingBox =  -1.50, 1.95, -6.50,  1.8, 1.8
 BoundingBox =  0.00, 3.55, -6.50,  1.8, 1.8
 
-AddRecipe = "IGI",  "IXI",  "T T",  X, iron_block, G, glass, I, iron_ingot, T, tnt
-
+AddRecipe = "IGQ",  "IXI",  "TIT",  X, mcheli:p-51d, G, glass, I, iron_ingot, T, tnt, Q, iron_block
 Unmountposition = 0.0,  1.90, -0.94
 
 enableback = true

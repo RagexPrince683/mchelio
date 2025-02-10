@@ -16,7 +16,7 @@ DamageFactor = 0.0
 CameraPosition = 0.00,  3.25, 0.90, true
 CameraZoom = 7
 EnableNightVision = true
-CameraRotationSpeed = 15
+CameraRotationSpeed = 6
 FlareType = 10
 MaxFuel         = 1000
 FuelConsumption = 2.3
@@ -46,7 +46,7 @@ WeightedCenterZ = 0.0
 
 SetWheelPos =  1.50,  -0.32,  2.6154, 1.1941, 0.0834,-1.0811,-2.2515
 
-HUD = mbt_hud,mbt_gnr
+HUD = mbt_hudtwo, gunnernvg
 
 
 

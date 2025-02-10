@@ -5,7 +5,7 @@ Acceleration = 4.0
 Explosion = 5
 ExplosionBlock = 3
 
-Flaming = true
+Flaming = false
 Sight = MissileSight
 Delay = 20
 

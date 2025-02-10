@@ -7,6 +7,7 @@ Float = true
 Sound = r44_heli
 MaxFuel         = 1200
 FuelConsumption = 1.0
+ThirdPersonDist = 20
 
 Soundpitch = 1.65
 SoundVolume = 15
@@ -36,7 +37,7 @@ AddPartHatch = -0.87, 1.01, 2.48,  0.046,  1.0, -0.51,  70
 AddPartHatch =  0.87, 1.01, 2.48,  0.046, -1.0,  0.51,  70
 AddPartHatch = -0.87, 1.01, 2.48,  0.046,  1.0, -0.51,  70
 
-AddRecipe = "IRI",  " G ",  "BFB",  R, iron_block,  I, iron_ingot,  G, Glass,  B,  boat,  F, iron_bars,
+AddRecipe = "APA", "ACA", "AEA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, C, hfr:item.components_electronics, E, hfr:item.part_engine_1
 
 BoundingBox = 0.0, 3.5, 0.0, 1.0, 2.0, 1.5
 

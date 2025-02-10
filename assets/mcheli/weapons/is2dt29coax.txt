@@ -20,6 +20,9 @@ Round = 63
 
 ReloadTime = 80
 
+ModelBullet = bullet
+
+
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0

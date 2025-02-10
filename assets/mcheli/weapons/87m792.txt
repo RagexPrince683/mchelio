@@ -5,6 +5,8 @@ Acceleration = 5.0
 Explosion = 2
 ExplosionBlock = 1
 
+ModelBullet = bullet
+
 
 Flaming = true
 Sight = MoveSight

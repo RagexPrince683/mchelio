@@ -14,6 +14,9 @@ ReloadTime = 220
 SoundDelay = 4
 SoundPitch = 0.3
 
+HeatCount = 500
+MaxHeatCount = 1450
+
 Gravity = -0.005
 
 Delay = 80
@@ -21,7 +24,7 @@ ReloadTime = 220
 Group = MainGun
 ;BulletColor        = 255, 255, 100, 100
 ;ModelBullet = bullet105mm
-Piercing = 0
+Piercing = 2
 ;Accuracy = 0.0
 DamageFactor = tank, 20.0
 DamageFactor = plane, 4.5

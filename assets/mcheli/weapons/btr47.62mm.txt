@@ -23,6 +23,10 @@ DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
 
+ModelBullet = bullet
+
+
+
 ;new standard for 7.62
 
 Power = 8

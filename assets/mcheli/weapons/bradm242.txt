@@ -17,7 +17,7 @@ SoundDelay = 2
 Sound = bradmain
 Accuracy = 0.0
 ;ModeNum = 2
-Piercing = 1
+Piercing = 2
 group = maingun
 
 HeatCount = 7
@@ -26,6 +26,9 @@ MaxHeatCount = 150
 Gravity = -0.005
 
 DisplayMortarDistance = true
+
+ModelBullet = bullet
+
 
 
 Acceleration = 7.5

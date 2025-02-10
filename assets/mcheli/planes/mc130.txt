@@ -23,7 +23,7 @@ ThirdPersonDist = 28
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
-HUD = plane, plane_gnr, plane_gnr, none, none, none, none
+HUD = planenvg, plane_gnrnvg, plane_gnrnvg, none, none, none, none
 
 MobilityYaw = 0.4
 MobilityPitch = 0.4
@@ -60,7 +60,7 @@ AddPartWeaponMissile = MOAB,    false,  false,  false,  0.00, 2.31, -5.345
 
 AddWeapon = MOAB,  0.00, 0.8398, -12.27,  0.0, -3.0
 
-AddRecipe = "ISI",  "GDC",  "IRI",  I,iron_block, S,stone, G,gunpowder, D,diamond_block, C,chest, R,glass
+AddRecipe = "DRD",  "GGG",  "III",  I,iron_block, S,stone, G,tnt, D,iron_ingot, R,glass
 
 
 BoundingBox =  0.00, 2.60,  -1.60,  4.0, 4.0

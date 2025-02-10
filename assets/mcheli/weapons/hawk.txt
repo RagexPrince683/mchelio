@@ -1,4 +1,4 @@
-DisplayName = MIM-23 HAWK [SAM]
+DisplayName = MIM-23 HAWK Surface-to-Air Missile
 Type = AAMissile
 Power = 54
 Acceleration = 2.4
@@ -20,7 +20,7 @@ DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
 MaxAmmo = 3
-SuppliedNum = 3
+SuppliedNum = 1
 Item =  4, iron_ingot
 Item =  5, gunpowder
 Item =  3, redstone

@@ -13,6 +13,8 @@ MaxHeatCount = 100
 SoundPitch = 0.8
 Sound = kpv
 
+ModelBullet = bullet
+
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5

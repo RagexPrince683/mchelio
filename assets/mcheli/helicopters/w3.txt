@@ -16,7 +16,7 @@ soundvolume = 15
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
-HUD = heli, heli_gnr
+HUD = helinvg, heli_gnrnvg
 
 ;飛行可能時間[秒] = 燃料搭載可能量 / 1秒間に消費する燃料
 ; 燃料搭載可能量
@@ -80,7 +80,7 @@ BoundingBox =  0.0, 2.8,-9.0,  1.0, 1.0
 BoundingBox =  0.0, 3.0,-10.0,  1.0, 1.0, 1.25
 BoundingBox =  0.0, 3.7,-11.0,  1.0, 1.0,  1.25
 
-AddRecipe = "III",  " X ",  "XTX",  X, iron_block, T, tnt, I, iron_ingot
+AddRecipe = "APA", "ACE", "AHA", A, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2, H, hfr:item.kit_hmg
 
 unmountposition = -0.55,  1.50,  2.40
 

@@ -1,18 +1,17 @@
-DisplayName = 2S19 MSTA-S 152mm 3V0F64 [GUIDED]
+DisplayName = 152mm 2A65 Howitzer [3V0F64 - GUIDED]
 Type = TVMissile
 Power = 500
-Acceleration = 6.9
-Explosion = 9
-ExplosionBlock = 5
+Acceleration = 7
+Explosion = 12
+ExplosionBlock = 3
 Sight = MoveSight
-Delay = 160
+
 ModeNum = 2
 ModelBullet = mstabkr
 Sound = msta
 SoundVolume = 10
-Gravity = -0.20
-Round = 1
-ReloadTime = 200
+Gravity = -0.030
+
 
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
@@ -23,6 +22,12 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 Group = MainGun
 
+ReloadTime = 80
+Round = 1
+Delay = 80
+
+HeatCount = 500
+MaxHeatCount = 2000
 
 DisableSmoke = true
 

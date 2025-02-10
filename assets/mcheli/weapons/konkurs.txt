@@ -29,6 +29,8 @@ DamageFactor = player, 20.0
 AddDisplayName = en_US, 9M113M
 SoundVolume = 15
 
+CameraRotationSpeedPitch = 0.3
+
 
 
 

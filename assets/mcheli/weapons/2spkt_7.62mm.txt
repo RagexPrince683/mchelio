@@ -1,6 +1,6 @@
 DisplayName = 7.62mm PKT Machine Gun
 Type = MachineGun1
-Power = 7
+
 Acceleration = 7.5
 Explosion = 0
 Flaming = false
@@ -24,6 +24,8 @@ DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
 
 ;new standard for 7.62
+
+ModelBullet = bullet
 
 Power = 8
 

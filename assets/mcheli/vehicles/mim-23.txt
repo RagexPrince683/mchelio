@@ -1,9 +1,9 @@
-DisplayName =  MIM-23 HAWK
+DisplayName = MIM-23 HAWK
 AddDisplayName = ja_JP, MIM-23 ホーク
 ItemID = 28613
-MaxHP = 80
+MaxHP = 100
 CameraPosition = 0.0, 4.50, 0.0
-CameraZoom = 1
+CameraZoom = 2
 MinRotationPitch = -50
 MaxRotationPitch = 0
 HideEntity = true
@@ -12,7 +12,8 @@ GravityInWater = -1.0
 
 HideEntity = false
 
-unmountposition = 0.0, 0.4, 2
+
+unmountposition = 0.00, 1.5, 2
 
 AddSeat = 0.0, -0.4, 2
 AddTexture = mim-23_tan
@@ -54,6 +55,8 @@ AddChildPart = true,false,true,  3,  0.00, 1.75, 0.00
 ;center
 AddChildPart = true,false,true,  3,  0.00, 1.75, 0.00
 
-BoundingBox =  0.0, 1.7, 0.0,  2.0, 3.7
+BoundingBox =  0.0, 1.7, 0.0,  0.8, 3.7
+
+BoundingBox =  0.0, 0.3, 0.0,  2.0, 1.5
 
 AddRecipe = " G ",  "GIG",  "XRX",  X, iron_block, R, redstone_block, I,iron_ingot, G, gunpowder

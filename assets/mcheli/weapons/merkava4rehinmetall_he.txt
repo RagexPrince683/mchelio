@@ -1,26 +1,40 @@
-DisplayName = 120mm IMI MG253 Smoothbore Cannon[M339 - HE]
+DisplayName = 120mm IMI MG251 Cannon [M339 - HE-TF]
 Type = MachineGun1
 Power = 65
-Explosion = 5
-ExplosionBlock = 4
+Explosion = 8
+ExplosionBlock = 5
 Acceleration = 7.0
 Sight = None
-ReloadTime = 165
-Round = 1
-SoundVolume = 10.0
+
 Sound = merkavamain
 Accuracy = 0.0
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Group = MainGun
 Piercing = 0
-Delay = 165
+
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 SoundVolume = 15
+
+ProximityFuseDist = 1
+ProximityDist = 1
+
+;DelayFuse = 15
+TimeFuse = 300
+
+Delay = 140
+ReloadTime = 160
+Round = 10
+SoundVolume = 15.0
+
+ModelBullet = bullet
+
+HeatCount = 2050
+MaxHeatCount = 20500
 
 DisplayMortarDistance = true
 
@@ -35,6 +49,6 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 Gravity = -0.005
 
 MaxAmmo = 12
-SuppliedNum = 12
-Item =  1, iron_ingot
-Item =  1, gunpowder
+SuppliedNum = 3
+Item =  2, iron_ingot
+Item =  4, gunpowder

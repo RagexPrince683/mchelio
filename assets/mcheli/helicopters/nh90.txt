@@ -7,17 +7,18 @@ Speed = 1.7
 ThrottleUpDown = 1.0
 FlareType = 1,2,3
 onGroundPitch = 1.0
-Regeneration = true
+
 RotorSpeed = 80.0
-ArmorDamageFactor = 0.7
-DamageFactor = 0.2
+ArmorDamageFactor = 1
+
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
 Category = M.M
+ThirdPersonDist = 20
 
 sound = nhninety
 soundvolume = 15
 
-HUD = heli, heli
+HUD = helinvg, heli_gnrnone
 
 AddSeat = -0.40, 0.52, 5.11
 AddSeat =  0.40, 0.52, 5.11
@@ -67,7 +68,7 @@ InventorySize = 54
 MaxFuel         = 1200
 FuelConsumption = 0.4
 
-AddRecipe = "CXC",  "XIX",  "I I",  X, iron_block, I, iron_ingot, C,coal_block
+AddRecipe = "BPB", "BCB", "BEB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2
 
 ;BoundingBox =  0.0, 1.4,  5.0,  1.5, 1.5
 ;BoundingBox =  0.0, 1.8,  3.0,  2.0, 2.5

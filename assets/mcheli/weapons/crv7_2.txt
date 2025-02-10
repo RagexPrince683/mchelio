@@ -10,7 +10,7 @@ Sound = hydraseventy
 SoundPitch = 0.9
 Delay = 2
 ReloadTime = 80
-Round = 19
+Round = 38
 ModeNum = 2
 Piercing  = 2
 

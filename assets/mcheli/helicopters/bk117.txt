@@ -6,6 +6,7 @@ Speed = 1.60
 MaxFuel         = 1200
 FuelConsumption = 1.0
 onGroundPitch = 2.09
+ThirdPersonDist = 20
 
 sound = eurocopter
 ;soundpitch = 1.3
@@ -13,7 +14,7 @@ soundvolume = 15
 
 Regeneration = true
 
-HUD = heli, none, none, none, none
+HUD = helinvg, none, none, none, none
 
 Category = C
 
@@ -71,7 +72,7 @@ MaxFuel         = 1000
 FuelConsumption = 1.0
 
 
-AddRecipe = " G ",  "IXI",  "III",  X, iron_block, G, glass, I, iron_ingot
+AddRecipe = "APA", "ACA", "AEA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, C, hfr:item.components_electronics, E, hfr:item.part_engine_1
 
 UnmountPosition = -0.40,  1.50,  1.99
 

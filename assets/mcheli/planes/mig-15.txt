@@ -34,7 +34,7 @@ AddTexture = mig-15-cz
 EntityWidth  = 0.9
 EntityHeight = 0.9
 
-AddSeat = 0.0, 1.72, 2.65
+AddSeat = 0.0, 1.92, 2.65
 
 ;AddPartCanopy = -0.511,2.534, 2.896, -1,0,0, 45
 AddPartSlideCanopy = 0.0, 0.05, -0.7
@@ -88,7 +88,7 @@ BoundingBox =  4.7, 1.6,  -1.44,  2.4, 0.5, 1.0
 
 enableback = true
 
-AddRecipe = " G ",  "IDI",  "I I",  I,iron_block, D,diamond, P,paper, G,glass
+AddRecipe = " G ",  "DID",  "D D",  I,iron_block, D,iron_ingot, G,glass
 
 
 unmountposition = 0.0, 1.72, 2.65

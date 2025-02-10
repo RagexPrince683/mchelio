@@ -14,7 +14,7 @@ MaxFuel         = 20000
 FuelConsumption = 1.6
 InventorySize = 64
 FlareType = 2
-EnableNightVision = true
+EnableNightVision = false
 EnableEntityRadar = false
 
 StepHeight = -1.0
@@ -137,7 +137,7 @@ BoundingBox = 6.90, 18.03, -64.23, 4.0, 0.5
 BoundingBox = -6.90, 18.03, -64.23, 4.0, 0.5
 
 
-AddRecipe = "   ",  "Y C",  "X X",  X, iron_block, Y, diamond, C,chest
+AddRecipe = " G ",  "Y C",  "XXX",  X, iron_block, Y, diamond, C,chest, G, glass
 
 ; AddRack=Entity type,                    RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute atl,  Yaw, Pitch
 AddRack = mh-60g/mh-60l_dap/sh-60/sh-3,   0, 2.1,  -4.8,   0, 0, -2.5,      11,    100000

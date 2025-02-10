@@ -14,6 +14,8 @@ SoundPitch = 1.0
 Sound = m2_snd
 Gravity = -0.005
 
+ModelBullet = bullet
+
 Round = 200
 
 ReloadTime = 120

@@ -3,7 +3,7 @@ AddDisplayName = en_US, J-11B
 AddDisplayName = zh_CN, 歼11B
 ItemID = 6855
 MaxHp = 100
-EnableNightVision = true
+EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
 Speed = 1.553
@@ -19,7 +19,7 @@ Sound = sutwentyseven
 VariableSweepWing = true
 SweepWingSpeed = 0.8
 
-AddRecipe = " G ",  "BCB",  "IPI",  G, glass, B, iron_block,  C, repeater,  I, iron_ingot,  P, gunpowder
+AddRecipe = "IGI",  "BBB",  "PBP",  G, glass, B, iron_block, I, iron_ingot, P, gunpowder
 
 
 Category = M.F
@@ -79,8 +79,8 @@ AddWeapon = Kh-59ME,   -5.87, 1.39, -8.17,   2.0, -3.0
 AddWeapon = Kh-59ME,    5.87, 1.39, -8.17,   2.0, -3.0
 AddWeapon = Kh-59ME2,    -7.35, 1.90, -8.64,   2.0, -3.0
 AddWeapon = Kh-59ME2,    7.35, 1.90, -8.64,   2.0, -3.0
-AddWeapon = PL-12,   -8.55, 1.84, -10.31,   2.0, -3.0
-AddWeapon = PL-12,   8.55, 1.84, -10.31,   2.0, -3.0
+AddWeapon = PL-12_2,   -8.55, 1.84, -10.31,   2.0, -3.0
+AddWeapon = PL-12_2,   8.55, 1.84, -10.31,   2.0, -3.0
 AddWeapon = PL-8, -9.39, 1.20, -12.44,   2.0, -3.0
 AddWeapon = PL-8, 9.39, 1.20, -12.44,   2.0, -3.0
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
@@ -94,8 +94,8 @@ BoundingBox =  0.00, 2.8, 3.5,  1.5, 1.5,0.5
 BoundingBox =  0.00, 3.3,  -5.0,  3.5, 2.0,1
 BoundingBox =  0.00, 3.1,  2.20,  1.5, 1.5,1
 BoundingBox =  0.00, 2.3,  -9.0, 4.5, 2.0,1.5
-BoundingBox =  0.00, 2.3,  -13.5, 4.5, 2.0,1.2
-BoundingBox =  0.00, 2.3,  -16.5, 4.5, 2.0,1.0
+BoundingBox =  0.00, 2.1,  -13.5, 4.5, 1.6,1.2
+BoundingBox =  0.00, 2.0,  -16.5, 4.5, 1.4, 1.0
 
 
 BoundingBox =  4.37, 2.0, -10.47,  4.0, 1,1.2
@@ -103,6 +103,17 @@ BoundingBox = -4.37, 2.0, -10.47,  4.0, 1,1.2
 
 BoundingBox =  7.27, 2.0, -12.47,  4.0, 1,1.2
 BoundingBox = -7.27, 2.0, -12.47,  4.0, 1,1.2
+BoundingBox = -2.5, 4.57, -16.64, 1.0, 4.5
+BoundingBox = 2.5, 4.57, -16.64, 1.0, 4.5
+
+
+BoundingBox = -2.5, 4.27, -15.64, 1.0, 4.5
+BoundingBox = 2.5, 4.27, -15.64, 1.0, 4.5
+
+BoundingBox = -2.5, 3.87, -14.64, 1.0, 4.0
+BoundingBox = 2.5, 3.87, -14.64, 1.0, 4.0
+BoundingBox = -2.5, 3.07, -13.64, 1.0, 2.6
+BoundingBox = 2.5, 3.07, -13.64, 1.0, 2.6
 
 BoundingBox =  3.5, 1.87, -16.64,  3, 1,1.0
 BoundingBox = -3.5, 1.87, -16.64,  3, 1,1.0

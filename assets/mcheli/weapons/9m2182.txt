@@ -4,7 +4,7 @@ Power = 700
 Acceleration = 4.0
 Flaming = false
 Sight = None
-Gravity = -0.05
+Gravity = -0.030
 
 
 SoundPitch = 1.0

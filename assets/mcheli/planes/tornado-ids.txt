@@ -23,7 +23,7 @@ FuelConsumption = 1.0
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
-HUD = plane, plane_gnr
+HUD = planenvg, plane_gnrnvg
 
 AddSeat = 0.00, 1.65,  0.34
 AddSeat = 0.00, 1.90, -1.59
@@ -51,8 +51,8 @@ AddPartPylon = -3.92, 2.50, -6.34,  0, 1,0, 35
 AddWeapon = bk27tornado, -0.59, 1.23,  1.78, 0.0, 0.0
 AddWeapon = bk27tornado,  0.59, 1.23,  1.78, 0.0, 0.0
 AddWeapon = mw-1,  0.00, 1.00, -5.12, 0.0, 0.0 , true, 2
-AddWeapon = iris-t,  6.69, 1.76, -5.06, 0.0, 0.0
-AddWeapon = iris-t, -6.69, 1.76, -5.06, 0.0, 0.0
+AddWeapon = iris-ttornado,  6.69, 1.76, -5.06, 0.0, 0.0
+AddWeapon = iris-ttornado, -6.69, 1.76, -5.06, 0.0, 0.0
 AddWeapon = egbu24,  3.93, 1.43, -3.48, 0.0, 0.0
 AddWeapon = egbu24, -3.93, 1.43, -3.48, 0.0, 0.0
 
@@ -69,23 +69,46 @@ AddPartWeaponMissile = iris-t, false, false, false,  -6.69, 1.76, -5.06
 
 AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
 
-AddRecipe = " X ",  "XXX",  "DXD",  X, iron_block, D, dispenser
+AddRecipe = "DDD",  "XXX",  "DXD",  X, iron_block, D, iron_ingot
+
 
 BoundingBox =  0.0, 2.2, -3.8,  2.5, 1.8
 BoundingBox =  0.0, 1.8, -4.5,  3.0, 2.5
 BoundingBox =  0.0, 1.8, -7.0,  3.0, 2.0
-BoundingBox = -2.9, 2.1, -6.0,  3.0, 1.0
-BoundingBox =  2.9, 2.1, -6.0,  3.0, 1.0
-BoundingBox = -4.9, 2.1, -7.0,  3.0, 1.0
-BoundingBox =  4.9, 2.1, -7.0,  3.0, 1.0
 
-BoundingBox =  0.0, 1.8, -10.0,  3.0, 2.0
 
-BoundingBox =  2.17, 1.76, -11.27,  3.0, 1.0
-BoundingBox =  -2.17, 1.76, -11.27,  3.0, 1.0
 
-BoundingBox =  0.0, 3.9, -12.0,  2.0, 3.2
+BoundingBox = -1.8, 2.35, -4.0,  1.8, 0.3
+BoundingBox =  1.8, 2.35, -4.0,  1.8, 0.3
 
+
+BoundingBox = -2.9, 2.35, -6.0,  2.5, 0.3
+BoundingBox =  2.9, 2.35, -6.0,  2.5, 0.3
+BoundingBox = -4.9, 2.35, -7.0,  2.5, 0.3
+BoundingBox =  4.9, 2.35, -7.0,  2.5, 0.3
+
+BoundingBox = -6.4, 2.35, -7.5,  1.8, 0.3
+BoundingBox =  6.4, 2.35, -7.5,  1.8, 0.3
+
+
+BoundingBox =  0.0, 2.0, -10.0,  3.0, 1.6
+
+BoundingBox =  2.17, 1.75, -11.27,  3.0, 0.3
+BoundingBox =  -2.17, 1.75, -11.27,  3.0, 0.3
+
+
+BoundingBox =  0.0, 5.625, -14,  1.0, 1.25
+
+BoundingBox =  0.0, 4.8, -13,  1.0, 2.4
+
+BoundingBox =  0.0, 4.2, -12,  1.0, 3.0
+
+
+BoundingBox =  0.0, 3.75, -11,  1.0, 3.2
+BoundingBox =  0.0, 3.3, -10,  1.0, 3.2
+BoundingBox =  0.0, 2.9, -9,  1.0, 3.0
+BoundingBox =  0.0, 2.7, -8,  1.0, 2.6
+BoundingBox =  0.0, 2.2, -7,  1.0, 2.0
 
 unmountposition = 0.00, 1.55,  0.34
 

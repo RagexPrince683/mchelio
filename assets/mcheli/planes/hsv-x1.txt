@@ -109,7 +109,7 @@ AddPartSlideHatch =  0.00, 0.00, -12.53
 ; horn
 AddWeapon =  ship_horn, 0.00, 0.10, 0.00,  0.0, 90
 
-UnmountPosition = 0, 20, 0
+UnmountPosition = 0, 2, 0
 
 ;AddRack = none, 0, 40, 0,  -11.45, 16.71, 4.94,  15
 

@@ -12,6 +12,8 @@ HeatCount = 18
 MaxHeatCount = 150
 ReloadTime = 30
 
+
+
 ;SoundPitch = 0.6
 SoundVolume = 15
 

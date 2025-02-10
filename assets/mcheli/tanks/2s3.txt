@@ -9,18 +9,18 @@ GravityInWater = -1.0
 DamageFactor = 0.8
 EnableNightVision = true
 CameraZoom = 5
-CameraRotationSpeed = 12
+CameraRotationSpeed = 6
 StepHeight = 1.8
 MinRotationPitch = -60
 MaxRotationPitch = 4
 DefaultFreelook = true
 HideEntity = true
-FlareType = 10
+;FlareType = 10
 CameraPosition = 0.0, 3.85, -1.8578, true 
 
 MobilityYawOnGround = 3.0
 
-HUD = mbt_hudtwo, mbt_gnr
+HUD = mbt_hudtwo, gunnernvg
 
 SubmergedDamageHeight = 1
 

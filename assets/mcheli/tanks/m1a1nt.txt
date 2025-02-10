@@ -1,29 +1,33 @@
 DisplayName = M1A1 Abrams
 AddDisplayName = ja_JP, M1A1 エイブラムス
 ItemID = 30109
-MaxHp = 700
-Speed = 0.7
+MaxHp = 800
+Speed = 0.45
 Sound = abrams
-ThrottleUpDown = 20.0
-MobilityYawOnGround = 2.0
+ThrottleUpDown = 5.0
+
+SoundPitch = 0.6
+MobilityYawOnGround = 2.7
 MinRotationPitch = -20
 MaxRotationPitch = 10
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 ;DamageFactor = 0.8
-CameraZoom = 3
+CameraZoom = 10
 CameraPosition = 0.00,  3.25, 0.90, true
 EnableNightVision = true
-CameraRotationSpeed = 22
+CameraRotationSpeed = 24
 ;EnableEntityRadar = true
 MaxFuel         = 1200
 FuelConsumption = 3.0
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 FlareType = 10
+
+AddTexture = m1a1ntforest
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
@@ -44,13 +48,15 @@ SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
 
 HUD = mbt_hud, mbt_gnr, gunner
 
-AddGunnerSeat =  0.00,  1.25,  2.25,    0.00,  2.50,  0.25,  false, -90, 90, true
+AddGunnerSeat =  0.00,  1.1,  2.25,    0.00,  2.50,  0.25,  false, -90, 90, true
+
+unmountposition = 0.00,  1.5,  2.25
 AddGunnerSeat = -0.55,  1.00, -0.96,   -0.846, 3.60,  0.373, false, -90, 90, true
 AddGunnerSeat =  0.55,  2.50, -0.96,    0.55,  3.60, -0.96,  false, -90, 90, true
 
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
-MotionFactor = 0.9
+MotionFactor = 0.95
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
 ;ArmorMinDamage = 90
@@ -71,6 +77,8 @@ AddCrawlerTrack = false, 0.37,  2.15,  1.14/ -4.62,  1.10/ -4.88,  0.80/ -4.90, 
 
 ; 転輪の回転速度：0より小さい値を設定すると逆回転する
 ;TrackRollerRot = 30
+
+SetWheelPos =  1.72,  -0.24,  2.22,  1.02, 0.06, -0.90, -1.86, -2.82, -3.78
 
 ;転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
 ;履帯と同じ動きをするが、履帯がなくても設定可能
@@ -95,30 +103,32 @@ AddTrackRoller =  1.82,  0.18, -3.50
 AddTrackRoller =  1.82,  0.81, -4.59
 
 ;主砲
-AddPartWeapon = m1a1apfsds /m1a1heat / rehinmetall_he / canistershell, false, true, false,   0.00, 2.10, 0.00, 0
+AddPartWeapon = m1a1apfsds / m1a1heat / m1a1_he / m1a1_heor / m1a1canistershell, false, true, false,   0.00, 2.10, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.10, 2.02, 0.5
-AddTurretWeapon = m1a1apfsds, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = m1a1heat, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = rehinmetall_he,     0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = canistershell,        0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-
-AddTurretWeapon = m240,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = mbt_cas,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = targeting_pod_block,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -50, 10
+AddTurretWeapon = m1a1apfsds, 0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = m1a1heat, 0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = m1a1_he,     0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = m1a1_heor,     0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = m1a1canistershell,        0.00, 2.10, 0.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = m1a1m240,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+;AddTurretWeapon = mbt_cas,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+;AddTurretWeapon = targeting_pod_block,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -50, 10
 
 
 
 ;M240
-AddPartTurretWeapon    = m240_r,   false, true, true,   1.243, 3.24, -0.77
-AddPartTurretWeapon    = m240_r,   false, true, true,  1.243, 3.24, -0.77
-AddTurretWeapon = m240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -50,30
+AddPartTurretWeapon    = m1a1m240_r,   false, true, true,   1.243, 3.24, -0.77
+AddPartTurretWeapon    = m1a1m240_r,   false, true, true,  1.243, 3.24, -0.77
+AddTurretWeapon = m1a1m240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -65,9
 
 
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
 RideRack = c5, 2
+
+ArmorMinDamage = 20
 
 BoundingBox = 0.0, 0.5, 2.5, 3.0, 0.2, 0.02
 
@@ -140,4 +150,4 @@ BoundingBox = 0.0, 0.9, -3.8, 3.0, 1.3, 0.9
 ;back back
 BoundingBox = 0.0, 1.1, -4.1, 2.99, 1.1, 3.0
 
-AddRecipe = "XXX",  "XKX",  "XXX",  X,iron_ingot, K, mcheli:M1Abrams,  I,iron_ingot
+AddRecipe = "XIX",  "XKX",  "III",  X,iron_ingot, K, mcheli:M1Abrams,  I,iron_block

@@ -22,6 +22,8 @@ Round = 100
 
 ReloadTime = 80
 
+ModelBullet = bullet
+
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5

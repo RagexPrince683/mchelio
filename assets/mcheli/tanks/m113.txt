@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, M113 装甲兵員輸送車
 ItemID = 30191
 MaxHp = 200
 Speed = 0.42
-ThrottleUpDown = 5.0
+ThrottleUpDown = 2.0
 Gravity = -0.61
 GravityInWater = -0.2
 Float = true
@@ -45,7 +45,7 @@ AddSeat       =  -0.56, 0.85, -2.46
 CameraPosition =  0.85, 2.55,  2.05, true
 
 
-StepHeight = 1.8
+StepHeight = 1.5
 InventorySize = 25
 ParticlesScale = 0.1
 SmoothShading = true

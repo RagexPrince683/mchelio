@@ -1,40 +1,43 @@
-﻿DisplayName = PGZ 95
-AddDisplayName = en_US, PGZ04A
-AddDisplayName = ja_JP, PGZ 95
+﻿DisplayName = PGZ04A Type 95 SPAAA
+AddDisplayName = en_US, PGZ04A Type 95 SPAAA
+
+AddDisplayName = ja_JP, PGZ04A Type 95 SPAAA
 ItemID = 9997
 MaxHp = 200
-Speed = 0.63
+Speed = 0.33
 Sound = chinesecrap
-ThrottleUpDown = 20.0
-MobilityYawOnGround = 4.0
+ThrottleUpDown = 2.0
+MobilityYawOnGround = 2.8
 MinRotationPitch = -85
 MaxRotationPitch = 5
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
-DamageFactor = 0.0
-CameraZoom = 10
-CameraPosition = 0.00,  3.55, 0.000, true
+DamageFactor = 0.6
+CameraZoom = 6
+CameraPosition = 0.00,  4.55, 0.000, true
 EnableNightVision = true
-CameraRotationSpeed = 35
+CameraRotationSpeed = 48
 FlareType = 10
 MaxFuel         = 1200
 FuelConsumption = 2.7
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = true
 OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 1.0
 FlareType = 10
-EnableGunnerMode = true
-SubmergedDamageHeight = 4
+
+SubmergedDamageHeight = 2
 EnableEntityRadar = true
 
 
 
-HUD = mbt_hud,mbt_gnr, none, none,
+HUD = mbt_hud, gunnernvg, none, none,
 
 
-AddPartHatch = 0.5861, 1.0540, -2.6165,  0.00, -1.0, 0.00, 115
+;AddPartHatch = 0.5861, 1.0540, -2.6165,  0.00, -1.0, 0.00, 115
+
+
 
 
 ; Tank or Car or Unknown
@@ -46,13 +49,17 @@ WeightedCenterZ = 0.0
 
 SetWheelPos =  1.45,  -0.32,  3.7007, 2.6048, 1.6238,0.5996,-0.4373,-1.4503
 
-AddSeat = 0.00,  0.33, 0.00
-AddGunnerSeat =  0.00, 0.33, 1.57, 0.00, 3.75, 0.000, true, -90, 90
 
-AddSeat = -0.8898,  1.00, -0.9665
-AddSeat =  0.8898,  1.00, -2.2665
-AddSeat = -0.8898,  1.00, -0.9665
-AddSeat =  0.8898,  1.00, -2.2665
+AddGunnerSeat =  0.00,  0.6,  0.0,    0.00,  4.50,  0.0,  false, -90, 90, true
+
+;AddGunnerSeat =  0.00,  1.15,  2.0,    0.00,  2.50,  0.25,  false, -90, 90, true
+
+;AddGunnerSeat =  0.00, 0.33, 1.57, 0.00, 3.75, 0.000, true, -90, 90
+
+;AddSeat = -0.8898,  1.00, -0.9665
+;AddSeat =  0.8898,  1.00, -2.2665
+;AddSeat = -0.8898,  1.00, -0.9665
+;AddSeat =  0.8898,  1.00, -2.2665
 
 
 
@@ -118,34 +125,37 @@ AddTrackRoller = -1.8326,  0.7178,  -2.3742
 
 
 
-AddPartWeapon = 25mm / 25mmap / hy6 , false, true, false,  0.00, 2.8397, 0.000, 0
+AddPartWeapon = pg25mm / pg25mmap / pghy6 , false, true, false,  0.00, 2.8397, 0.000, 0
 AddPartWeaponChild = false, true, 0.00, 2.8392, -0.9190
 AddPartWeaponChild = false, true, 0.7520, 2.8392, -0.9190
 AddPartWeaponChild = false, true, -0.7520, 2.8392, -0.9190
 AddPartWeaponChild = false, true, 0.7520, 2.8392, -0.9190
 AddPartWeaponChild = false, true, -0.7520, 2.8392, -0.9190
 
-AddTurretWeapon = 25mm,   0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
-AddTurretWeapon = 25mm,   -0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
-AddTurretWeapon = 25mm,   0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
-AddTurretWeapon = 25mm,   -0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = pg25mm,   0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = pg25mm,   -0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = pg25mm,   0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = pg25mm,   -0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
 
-AddTurretWeapon = 25mmap,   0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
-AddTurretWeapon = 25mmap,   -0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
-AddTurretWeapon = 25mmap,   0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
-AddTurretWeapon = 25mmap,   -0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = pg25mmap,   0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = pg25mmap,   -0.8798, 3.0467, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = pg25mmap,   0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
+AddTurretWeapon = pg25mmap,   -0.8798, 2.777, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360, -85,  5
 
 
-AddTurretWeapon = hy6,      0.8802, 3.5378, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360
-AddTurretWeapon = hy6,      -0.8802, 3.5378, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360
-AddTurretWeapon = hy6,      0.8802, 3.3506, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360
-AddTurretWeapon = hy6,      -0.8802, 3.3506, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360
+AddTurretWeapon = pghy6,      0.8802, 3.5378, -0.9190, 0.0, 0.0, true, 1, 0,  -360, 360
+AddTurretWeapon = pghy6,      -0.8802, 3.5378, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360
+AddTurretWeapon = pghy6,      0.8802, 3.3506, -0.9190, 0.0, 0.0, true, 1, 0,  -360, 360
+AddTurretWeapon = pghy6,      -0.8802, 3.3506, -0.9190, 0.0, 0.0, true, 1, 0, -360, 360
+
+AddWeapon = op, 0.0, 0.0, 0.0
+AddPartWeaponBay = op,  0.5861, 1.0540, -2.6165,  0.00, -1.0, 0.00, 115
 
 AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 1
 AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,1
 
 
-ArmorMinDamage = 15
+ArmorMinDamage = 4
 
 
 ;staircase 130mm
@@ -173,6 +183,6 @@ BoundingBox = 0.0, 1.1, -1.25, 3.2, 1.8, 1.0
 EntityWidth  = 0.8
 EntityHeight = 0.8
 
-unmountposition = 0.00,  1.33, 0.00
+unmountposition = 0.00,  1.5, 0.00
 
 AddRecipe = " IR",  "IXI",  "III",  X, redstone_block,  I, iron_ingot, R, redstone

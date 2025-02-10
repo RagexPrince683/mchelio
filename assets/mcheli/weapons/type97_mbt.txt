@@ -1,13 +1,13 @@
 DisplayName = 7.7mm Type 97 Machine Gun 
 Type = MachineGun1
 Power = 8
-Acceleration = 10.0
+
 Explosion = 0
 Flaming = false
 Sight = None
 Delay = 1
 SoundDelay = 3
-Accuracy = 3.0
+Accuracy = 1.5
 HeatCount = 5
 MaxHeatCount = 250
 SoundPitch = 1.0
@@ -17,6 +17,8 @@ BulletColor        = 255, 119, 255, 116
 SoundPitch = 1 
 SoundPitchRandom = 0.1
 Round = 20
+
+ModelBullet = bullet
 
 Acceleration = 7.5
 Piercing = 0

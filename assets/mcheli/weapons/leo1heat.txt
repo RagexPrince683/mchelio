@@ -1,8 +1,8 @@
-DisplayName = 105mm L7A3 Cannon [DM12 - HEATFS]
+DisplayName = 105mm L7A3 Cannon [DM12 - HEAT-FS]
 Type = MachineGun2
 Power = 400
 ModelBullet = bullet105mm
-Acceleration = 7
+Acceleration = 6
 Explosion = 4
 ExplosionBlock = 2
 Flaming = false
@@ -38,7 +38,7 @@ Recoil = 2
 
 Round = 13
 
-MaxAmmo = 18
-SuppliedNum = 3
+MaxAmmo = 20
+SuppliedNum = 5
 Item =  2, iron_ingot
 Item =  2, gunpowder

@@ -1,78 +1,99 @@
-DisplayName = 9M79 Tochka-u
-AddDisplayName = en_EN 9M79 Tochka-u
-AddDisplayName = ua_UA 9M79 Tochka-u
+DisplayName = 9P129 TEL OTR-21 Tochka/SS-21 Scarab
+AddDisplayName = en_US, 9P129 TEL OTR-21 Tochka/SS-21 Scarab
+AddDisplayName = ua_UA, 9P129 TEL OTR-21 Tochka/SS-21 Scarab
 ItemID = 197714
-MaxHp = 270
-Speed = 0.8
-Sound = vehicle_run
-ThrottleUpDown = 10.0
+MaxHp = 200
+Speed = 0.37
+Sound = bmpthreeeng
+ThrottleUpDown = 0.81
 MinRotationPitch = -50
 MaxRotationPitch =  20
-MobilityRoll = -0.1
-Gravity = -0.1
+MobilityRoll = 0
+Gravity = -0.61
 GravityInWater = 0.0
+
+;-11.80
+
+Float = true
+
 DamageFactor = 0.8
 EnableNightVision = true
-DefaultFreelook = true
-CameraRotationSpeed = 40
+DefaultFreelook = false
+
 SubmergedDamageHeight = 4
 OnGroundPitchFactor = 3.0
 OnGroundRollFactor  = 3.0
 HideEntity = false
-
+unmountposition = 1.32, 1.5, 5
 ;Made by TehNIck from McHeli Ukranie workshop  
+;PivotTurnThrottle = 0.1
+PivotTurnThrottle = 0.1
 WeightType = Tank
 
-MobilityYawOnGround = 3.0
+MobilityYawOnGround = 4.5
 
-HUD = mbt_hud, mbt_hud, none
+HUD = mbt_hudtwo, mbt_gnr, none
 
-AddSeat =  1.32,  1.30, 5.0
-AddGunnerSeat =  0.06, 1.50,  4.82,   0.09, 4.04,  4.29, true, -120, 120, false
-AddSeat = -1.24, 1.50,  4.82  
+AddSeat =  1.32,  1.182, 5.0
 
-MotionFactor = 0.8
+AddWeapon = none, 0.0, 3.00, 4.00, 0.0, 0.0, false, 1
+AddWeapon = thorn2,    0.00, 0.00, 0.00,  0.0,0.0
 
-SetWheelPos =  1.75,  -0.24,  3.02, 1.44, -1.54, -2.91
+AddGunnerSeat =  0.06, 1.382,  4.82,   0.09, 3.922,  4.29, true, -90, 90, false
+AddSeat = -1.24, 1.382,  4.82  
 
-AddPartWheel     =   1.70,  0.58, 3.57, 30
-AddPartWheel     =   1.70,  0.58, -0.25
-AddPartWheel     =   1.70,  0.58, -3.94
-AddPartWheel     =   -1.55, 0.58, 3.57, 30
-AddPartWheel     =   -1.55, 0.58, -0.24
-AddPartWheel     =   -1.55, 0.58, -3.94
+MotionFactor = 0.95
 
-AddPartCanopy   =  0.72, 2.78, 5.20,  1, 0, 0, 60
+SetWheelPos =  1.45,  -0.24,  3.57, -0.24, -3.94
 
-AddPartSteeringWheel =  1.31,  2.11,  5.66,  0.0, 1.0, -1.73,   90
+AddPartWheel     =   1.70,  0.462, 3.57, 30
+AddPartWheel     =   1.70,  0.462, -0.25
+AddPartWheel     =   1.70,  0.462, -3.94
+AddPartWheel     =   -1.55, 0.462, 3.57, 30
+AddPartWheel     =   -1.55, 0.462, -0.24
+AddPartWheel     =   -1.55, 0.462, -3.94
 
-AddPartWeaponBay	= hetochka / nutochka / tvtochka,    0.98, 2.95, -1.28, 0.0, 0.0, 1.0, -160
-AddPartWeaponBay	= hetochka / nutochka / tvtochka,  -0.87, 2.95, -1.28, 0.0, 0.0, 1.0, 160
+AddPartCanopy   =  0.72, 2.662, 5.20,  1, 0, 0, 60
+
+AddPartSteeringWheel =  1.31,  1.992,  5.66,  0.0, 0.882, -1.73,   90
+
+AddPartWeaponBay	= hetochka / nutochka / tvtochka,    0.98, 2.832, -1.28, 0.0, 0.0, 1.0, -160
+AddPartWeaponBay	= hetochka / nutochka / tvtochka,  -0.87,  2.832, -1.28, 0.0, 0.0, 1.0, 160
 
 
-AddTurretWeapon = hetochka, 0.06, 2.14, -5.86,  0.0,  0.0, false, 2, 0,0,0, -60, 0
-AddTurretWeapon = nutochka, 0.06, 2.14, -5.86,  0.0,  0.0, false, 2, 0,0,0, -60, 0
-AddTurretWeapon = tvtochka, 0.06, 2.14, -5.86,  0.0,  0.0, false, 2, 0,0,0, -60, 0
+AddTurretWeapon = hetochka, 0.06, 2.022, -5.86,  0.0,  0.0, false, 2, 0,0,0, -60, 0
+AddTurretWeapon = nutochka, 0.06, 2.022, -5.86,  0.0,  0.0, false, 2, 0,0,0, -60, 0
+AddTurretWeapon = tvtochka, 0.06, 2.022, -5.86,  0.0,  0.0, false, 2, 0,0,0, -60, 0
 
 
-AddPartWeaponMissile = hetochka / nutochka / tvtochka,   false, false, true,   0.07, 1.77, -5.65, 
-AddPartWeapon =        hetochka / nutochka / tvtochka,   false, false, true,   0.07, 1.77, -5.65, 0
+AddPartWeaponMissile = hetochka / nutochka / tvtochka,   false, false, true,   0.07, 1.652, -5.65, 
+AddPartWeapon =        hetochka / nutochka / tvtochka,   false, false, true,   0.07, 1.652, -5.65, 0
 
 
 EnableBack = true
 
-ArmorMinDamage = 10
-ArmorMaxDamage = 350
+ArmorMinDamage = 7
+
 ArmorDamageFactor = 1.00
 
 MaxFuel         = 1200
 FuelConsumption = 2.0
 
-BoundingBox =  0.40, 2.64, 0.0,  3.10, 2.01
-BoundingBox =  0.40, 0.79, -1.75, 3.10, 2.01
-BoundingBox =  0.40, 0.79, 2.26, 3.10, 2.01
 
 StepHeight = 1.5
 
 ;Price=5 USD, or 2-4USD in packs
-AddRecipe = "TBT",  "TXT",  "IDI",  T, diamond_block, B, bow, X, dispenser, I, iron_ingot, D, diamond
+;you didn't even do the boundingboxes, this isn't worth 5 cents bro
+AddRecipe = "TTT",  "IDI",  "III",  T, iron_block, I, iron_ingot, D, diamond
+
+BoundingBox = 0.0, 0.882, 0.0, 2.2, 1
+BoundingBox = 0.0, 0.882, 2.2, 2.2, 1
+BoundingBox = 0.0, 0.882, 4.4, 2.2, 1
+BoundingBox = 0.0, 0.882, -2.2, 2.2, 1
+BoundingBox = 0.0, 0.882, -4.4, 2.2, 1
+
+
+BoundingBox = 0.0, 1.882,  0.0,  2.15,  2, 2
+BoundingBox = 0.0, 1.882,  2.15,  2.15,  2, 2
+BoundingBox = 0.0, 1.882, -2.15, 2.15,  2, 2
+BoundingBox = 0.0, 1.882, -4.3, 2.15,  2, 2

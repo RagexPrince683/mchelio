@@ -27,7 +27,7 @@ EnableSeaSurfaceParticle = true
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
-HUD = plane, plane_gnr
+HUD = planenvg, plane_gnrnvg
 
 AddSeat = 0.00, 1.60, 0.49
 AddGunnerSeat = 0.00, 1.65, -1.24
@@ -48,7 +48,7 @@ AddPartLG = -2.10, 1.38, -5.91, 0,0,1,   110
 AddPartLG =  2.10, 1.38, -5.91, 0,0,1,  -110
 AddPartLG =  0.00, 1.12, -11.31, -1,0,0,-40
 
-AddRecipe = " X ",  "XDX",  "ZXZ",  X, iron_block, D, diamond, Z, iron_ingot
+AddRecipe = " X ",  "XDX",  "ZX ",  X, iron_block, D, glass, Z, iron_ingot
 
 AddPartWing =  -2.18, 2.13, -5.14,  0,-1,0, 40
 AddPartWing =   2.18, 2.13, -5.14,  0, 1,0, 40
@@ -61,8 +61,8 @@ AddPartWeaponMissile = gbu12,   false,  false,  false,  -0.59, 0.97, -1.65
 AddPartWeaponMissile = gbu12,   false,  false,  false,   0.59, 0.97, -1.65
 
 AddWeapon = m61f14,  0.63, 1.33,  2.01, 0.0, 0.0
-AddWeapon = aim9_l,    -3.24, 1.54, -3.92, 0.0, 0.0
-AddWeapon = aim9_l,     3.24, 1.54, -3.92, 0.0, 0.0
+AddWeapon = aim9f14,    -3.24, 1.54, -3.92, 0.0, 0.0
+AddWeapon = aim9f14,     3.24, 1.54, -3.92, 0.0, 0.0
 AddWeapon = aim54,   -0.55, 0.91, -6.50, 0.0, 0.0, true, 2
 AddWeapon = aim54,    0.55, 0.91, -6.50, 0.0, 0.0, true, 2
 AddWeapon = gbu12,   -0.59, 0.97, -1.65, 0.0, 0.0, true, 2
@@ -83,8 +83,29 @@ BoundingBox =  2.92, 2.00, -7.00,  3.0, 1.0
 BoundingBox = -2.72, 1.60, -12.30,  2.3, 0.7
 BoundingBox =  2.72, 1.60, -12.30,  2.3, 0.7
 
-BoundingBox =  1.51, 3.18, -12.80,  1.0, 3.0
-BoundingBox =  -1.51, 3.18, -12.80,  1.0, 3.0
+BoundingBox =  1.51, 3.08, -12.80,  1.0, 3.0
+BoundingBox =  -1.51, 3.08, -12.80,  1.0, 3.0
+
+BoundingBox =  -1.51, 2.58, -11.80,  1.0, 2.5
+BoundingBox =  1.51, 2.58, -11.80,  1.0, 2.5
+
+BoundingBox =  -1.51, 2.0, -10.80,  1.0, 2.3
+BoundingBox =  1.51, 2.0, -10.80,  1.0, 2.3
+
+
+BoundingBox = -1.72, 1.60, -10.30,  2.0, 0.7
+BoundingBox =  1.72, 1.60, -10.30,  2.0, 0.7
+
+
+
+BoundingBox = -1.02, 2.10, -2.50,  2.0, 0.4
+BoundingBox =  1.02, 2.10, -2.50,  2.0, 0.4
+
+
+
+BoundingBox = -1.72, 2.10, -4.5,  2.0, 0.5
+BoundingBox =  1.72, 2.10, -4.5,  2.0, 0.5
+
 
 BoundingBox = -5.52, 2.00, -7.30,  2.5, 0.7
 BoundingBox =  5.52, 2.00, -7.30,  2.5, 0.7
@@ -92,7 +113,7 @@ BoundingBox =  5.52, 2.00, -7.30,  2.5, 0.7
 BoundingBox = -7.72, 2.00, -7.70,  2.0, 0.5
 BoundingBox =  7.72, 2.00, -7.70,  2.0, 0.5
 
-unmountposition = 0.00, 1.50, 0.49
+unmountposition = 0.00, 1.80, 0.49
 
 DamageFactor = 0.8
 

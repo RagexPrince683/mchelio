@@ -2,7 +2,7 @@ DisplayName = 46 cm/45 Type 94 Naval Gun
 AddDisplayName = en_US, 46 cm/45 Type 94 Naval Gun
 AddDisplayName = ja_JP, 46cm3連装砲
 ItemID = 28603
-MaxHp = 310
+MaxHp = 150
 HideEntity = true
 MinRotationPitch = -30
 MaxRotationPitch =  5
@@ -23,22 +23,23 @@ unmountposition = 0.00,  2.00, 0.00
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 AddPart		 =  true, true,  false, 0,   0.00, 0.00, 0.00
-AddChildPart = false, false, true,  0,   0.00, 1.55, 2.30
+AddChildPart = true, false, true,  0,   0.00, 1.55, 2.30
 AddChildPart =  true, false, true,  2,   0.00, 1.55, 2.30,1
 AddChildPart =  true, false, true,  2,   0.00, 1.55, 2.30,1
 AddChildPart =  true, false, true,  2,   0.00, 1.55, 2.30,1
 
-AddWeapon = 46cmap,         2.77, 1.55, 2.00,  0.0, 0.0
-AddWeapon = 46cmap,        -2.77, 1.55, 2.00,  0.0, 0.0
-AddWeapon = 46cmap,         0.00, 1.55, 2.00,  0.0, 0.0
-AddWeapon = 46cm,         2.77, 1.55, 2.00,  0.0, 0.0
-AddWeapon = 46cm,        -2.77, 1.55, 2.00,  0.0, 0.0
-AddWeapon = 46cm,         0.00, 1.55, 2.00,  0.0, 0.0
-AddWeapon = type3bullet_46,  2.77, 1.55, 2.00,  0.0, 0.0
-AddWeapon = type3bullet_46, -2.77, 1.55, 2.00,  0.0, 0.0
-AddWeapon = type3bullet_46,  0.00, 1.55, 2.00,  0.0, 0.0
+unmountposition = 0.00, 1.5, -0.0
+AddTurretWeapon = 46cmap,         2.77, 1.55,   0.00,  0.0, 0.0
+AddTurretWeapon = 46cmap,        -2.77, 1.55,   0.00,  0.0, 0.0
+AddTurretWeapon = 46cmap,         0.00, 1.55,   0.00,  0.0, 0.0
+AddTurretWeapon = 46cm,         2.77, 1.55,     0.00,  0.0, 0.0
+AddTurretWeapon = 46cm,        -2.77, 1.55,     0.00,  0.0, 0.0
+AddTurretWeapon = 46cm,         0.00, 1.55,     0.00,  0.0, 0.0
+AddTurretWeapon = type3bullet_46,  2.77, 1.55,  0.00,  0.0, 0.0
+AddTurretWeapon = type3bullet_46, -2.77, 1.55,  0.00,  0.0, 0.0
+AddTurretWeapon = type3bullet_46,  0.00, 1.55,  0.00,  0.0, 0.0
 
-AddRecipe = "XXX",  "DDD",  "GGG",  X, iron_block, G, gold_block, D, dispenser
+AddRecipe = "XXX",  "XGD",  "XXX",  X, iron_block, G, gunpowder, D, redstone_block
 
 BoundingBox =  0.0, 1.5, 0.0,  6.0, 3.1
 

@@ -11,10 +11,10 @@ ModelBullet = bullet105mm
 Flaming = false
 Sight = None
 Delay = 240
-Gravity = -0.05
+Gravity = -0.030
 ReloadTime = 240
 Recoil = 3
-ModeNum = 1
+
 Round = 1
 
 group = maingun

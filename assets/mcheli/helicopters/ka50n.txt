@@ -4,6 +4,7 @@ ItemID = 28818
 MaxHp = 100
 Speed = 1.7
 soundpitch = 1.4
+ThirdPersonDist = 20
 
 EnableEjectionSeat = true
 
@@ -12,7 +13,7 @@ ThrottleUpDown = 1.0
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
-HUD = heli
+HUD = helinvg
 
 MaxFuel         = 1200
 FuelConsumption = 1.0
@@ -57,12 +58,6 @@ AddWeapon = 9K121_ka50,    3.12, 0.35, 2.00,  1, 0,  true,2
 AddWeapon = 9K121tv_ka50,  3.12, 0.35, 2.00,  1, 0,  true,2
 AddWeapon = 9K121tv_ka50,  3.12, 0.35, 2.00,  1, 0,  true,2
 AddWeapon = 9K121tv_ka50,  3.12, 0.35, 2.00,  1, 0,  true,2
-AddWeapon = r-73ka50,    -3.12, 0.35, 2.00, -1, 0
-AddWeapon = r-73ka50,    -3.12, 0.35, 2.00, -1, 0
-AddWeapon = r-73ka50,    -3.12, 0.35, 2.00, -1, 0
-AddWeapon = r-73ka50,    -3.12, 0.35, 2.00, -1, 0
-AddWeapon = r-73ka50,    -3.12, 0.35, 2.00, -1, 0
-AddWeapon = r-73ka50,    -3.12, 0.35, 2.00, -1, 0
 
 AddWeapon = targeting_pod_mob,     0.00, 0.24, 5.5,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.00, 0.24, 5.5,   0.0, 0.0,  false,2
@@ -96,7 +91,7 @@ BoundingBox =  0.0, 2.7, -7.8,  1.0, 1.5
 
 unmountposition = 0.00,  1.50,  2.40
 
-AddRecipe = "DX ",  "XRX",  " X ",  X, iron_block, R,redstone_block,  D,dispenser
+AddRecipe = "APA", "ACE", "AHA", A, hfr:item.part_plating_3, P, hfr:item.part_chassis_3, C, hfr:item.components_electronics, E, hfr:item.part_engine_3, H, hfr:item.kit_hmg
 
 DamageFactor = 0.6
 

@@ -14,6 +14,7 @@ onGroundPitch = 1.8
 Float = true
 FloatOffset = -0.93
 EnableFoldBlade = true
+ThirdPersonDist = 20
 
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
 Category = M.M
@@ -21,7 +22,7 @@ Category = M.M
 sound = chfourtysix
 soundvolume = 15
 
-HUD = heli, none, gunner
+HUD = helinvg, none, gunner
 
 AddTexture = ch-46
 AddTexture = ch-46_1
@@ -48,7 +49,7 @@ AddTurretWeapon = m3m_l, 0.91, 2.10, 3.49,   0.0, 0.0, false, 3, -90,-50, 50, -4
 AddRepellingHook =  0.37, 2.94, -8.61, 30
 AddRepellingHook = -0.37, 2.94, -8.61, 30
 
-AddRecipe = " X ",  "XCX",  " X ",  X, iron_block, C, chest
+AddRecipe = "BPB", "BCB", "EHB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2, H, hfr:item.kit_repeating
 
 InventorySize = 54
 

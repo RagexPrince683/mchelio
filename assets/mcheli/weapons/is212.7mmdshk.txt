@@ -23,6 +23,9 @@ Round = 50
 
 ReloadTime = 80
 
+ModelBullet = bullet
+
+
 Gravity = -0.005
 
 DamageFactor = tank, 1.0

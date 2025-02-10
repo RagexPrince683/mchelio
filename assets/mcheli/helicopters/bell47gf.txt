@@ -8,7 +8,7 @@ Speed = 1.05
 FlareType = 3
 MaxFuel         = 600
 FuelConsumption = 0.6
-
+ThirdPersonDist = 20
 
 
 Sound = bellfourtyseven
@@ -30,7 +30,7 @@ AddSeat =-0.50,  0.96,  0.29
 
 AddWeapon = m134_l,  0.53, 0.03, 1.99,   0.5, 0.0
 
-AddRecipe = " G ",  "IXI",  "IWI",  X, iron_block, G, glass, I, iron_ingot, W, wool
+AddRecipe = "APA", "ACA", "AEA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, C, hfr:item.components_electronics, E, hfr:item.part_engine_1
 
 DamageFactor = 0.8
 

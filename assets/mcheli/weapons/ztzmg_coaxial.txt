@@ -1,16 +1,22 @@
-DisplayName = 7.62mm Type 86 Coaxial Machine Gun
+DisplayName = 7.62mm Type 86 Machine Gun
 Type = MachineGun1
 Power = 8
-Acceleration = 8.0
+
 Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
-Accuracy = 1.0
-HeatCount = 2
+Accuracy = 1.5
+HeatCount = 5
 MaxHeatCount = 150
 SoundPitch = 1.0
 Sound = pkt
+
+Round = 250
+
+
+
+ModelBullet = bullet
 
 Gravity = -0.001
 
@@ -22,7 +28,7 @@ AddMuzzleFlashSmoke =  1.7,  1,   2.0,  0.5, 15,  180,250,245,240
 Power = 8
 
 ReloadTime = 80
-Acceleration = 7.5
+Acceleration = 7
 Piercing = 0
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
@@ -30,7 +36,7 @@ DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
 SoundVolume = 15
 
-Acceleration = 7.5
+
 Piercing = 0
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
@@ -40,7 +46,7 @@ DamageFactor = heli, 0.5
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 400
-SuppliedNum = 100
+MaxAmmo = 2500
+SuppliedNum = 500
 Item =  2, iron_ingot
 Item =  2, gunpowder

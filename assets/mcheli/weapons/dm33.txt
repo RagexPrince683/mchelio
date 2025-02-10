@@ -1,14 +1,14 @@
-DisplayName = 120mm Smoothbore Cannon [DM33 - APFSDS]
+DisplayName = 120mm Rh120 L/44 Cannon [DM23 - APFSDS]
 Type = MachineGun1
-Power = 420
+Power = 410
 ModelBullet = bullet105mm
 Explosion = 1
 ExplosionBlock = 1
 Acceleration = 16.0
 Sight = None
-ReloadTime = 80
+
 Round = 1
-SoundVolume = 10.0
+
 Sound = leotwoafourmain
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100

@@ -75,10 +75,10 @@ AddCrawlerTrack = false, 0.15,  1.15,   1.07/ 2.64, 0.91/ 3.05, 0.59/ 3.11, 0.25
 MinRotationPitch = -6
 MaxRotationPitch = 10
 
-AddWeapon = hetzerap,      -0.4127, 1.51, 2.294,  0.0, 0.0, true,1, 0,-5,11,   -6, 10
-AddWeapon = hetzerapcr,      -0.4127, 1.51, 2.294,  0.0, 0.0, true,1, 0,-5,11, -6, 10
-AddWeapon = hetzerhe,      -0.4127, 1.51, 2.294,  0.0, 0.0, true,1, 0,-5,11,   -6, 10
-AddWeapon = hetzerheat,      -0.4127, 1.51, 2.294,  0.0, 0.0, true,1, 0,-5,11,   -6, 10
+AddWeapon = hetzerap,      -0.4127, 1.51, 0.294,  0.0, 0.0, true,1, 0,-5,11,   -6, 10
+AddWeapon = hetzerapcr,      -0.4127, 1.51, 0.294,  0.0, 0.0, true,1, 0,-5,11, -6, 10
+AddWeapon = hetzerhe,      -0.4127, 1.51, 0.294,  0.0, 0.0, true,1, 0,-5,11,   -6, 10
+AddWeapon = hetzerheat,      -0.4127, 1.51, 0.294,  0.0, 0.0, true,1, 0,-5,11,   -6, 10
 AddPartWeapon = hetzerap/hetzerapcr/hetzerhe, false, true, false,  -0.4125, 1.5, 1.82, 0
 AddPartWeaponChild = false, true, -0.4125, 1.5, 1.82
 ;-8.31
@@ -110,7 +110,7 @@ BoundingBox =  0.0, 1.45,  0.5,   1.6, 0.6,   0.50
 BoundingBox =  0.0, 0.9,  0.0,   2.20, 1.5,   0.50
 
 
-
+AddRecipe = "III",  "III",  "XXX",  X,iron_block,  I,iron_ingot
 
 
 ;back

@@ -1,21 +1,29 @@
-DisplayName = MGM-140 ATACMS [HE Ballistic Rocket]
-Type = ASMissile
+DisplayName = MGM-140 ATACMS [M39 Block I]
+Type = TVMissile
 Power = 1000
-Acceleration = 14.5
+Acceleration = 7.5
 Flaming = false
 Sight = None
-Gravity = -0.01
+Gravity = -0.005
 Delay = 50
-SoundVolume = 5.5
+SoundVolume = 15
 SoundPitch = 5.0
 Accuracy = 0.1
 Explosion = 30
-ExplosionBlock = 2
+ExplosionBlock = 5
 Round = 1
 ReloadTime = 1500
 ModelBullet = mgm140
 Group = Rocket
-radius = 2000
+;radius = 2000
+
+ModeNum = 2
+
+Bomblet = 45
+BombletDiff = 0.5
+BombletSTime = 120
+ModelBomblet = cbc
+
 
 AddMuzzleFlash      =  2.2,      1.80,        8,  200,254,129,44
 AddMuzzleFlash      =  2.1,      1.75,        7,  200,254,219,104
@@ -33,7 +41,7 @@ TrajectoryParticle = fireworksSpark
 
 Sound = missile_12_snd
 DisplayMortarDistance = true
-FixCameraPitch = true
+FixCameraPitch = false
 CameraRotationSpeedPitch = 0.1
 
 DamageFactor = tank, 2.0
@@ -46,4 +54,5 @@ DamageFactor = player, 20.0
 MaxAmmo = 1
 SuppliedNum = 1
 Item =  5, iron_ingot
-Item =  10, gunpowder
+Item =  5, redstone_block
+Item = 5, tnt

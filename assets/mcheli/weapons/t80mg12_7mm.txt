@@ -7,11 +7,14 @@ Flaming = false
 Sight = MoveSight
 Delay = 1
 ;SoundDelay = 3
-;Accuracy = 2.0
+Accuracy = 1.5
 HeatCount = 1
 MaxHeatCount = 100
 ;SoundPitch = 0.8
 Sound = dshk
+
+ModelBullet = bullet
+ReloadTime = 80
 
 Gravity = -0.005
 

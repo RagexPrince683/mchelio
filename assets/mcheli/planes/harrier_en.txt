@@ -47,7 +47,7 @@ AddPartWeaponMissile = aim9,    false,  false,  false,  -2.51, 0.80, -3.93
 AddPartWeaponMissile = agm-65,  false,  false,  false,   4.85, 1.09, -4.35
 AddPartWeaponMissile = agm-65,  false,  false,  false,  -4.85, 1.09, -4.35
 
-AddWeapon = gau-12u,    0.60, 0.80, -2.00,   0.0,-3.0
+AddWeapon = gau-12u,    0.60, 0.80, -2.00,   0.0,0
 AddWeapon = crv7_2,     2.33, 1.10, -3.20,   1.0, 0.0
 AddWeapon = crv7_2,    -2.33, 1.10, -3.20,  -1.0, 0.0
 AddWeapon = crv7_2,     3.93, 1.06, -3.98,   1.0, 0.0
@@ -56,24 +56,79 @@ AddWeapon = crv7_mpsm,  2.33, 1.10, -3.20,   1.0, 0.0
 AddWeapon = crv7_mpsm, -2.33, 1.10, -3.20,  -1.0, 0.0
 AddWeapon = crv7_mpsm,  3.93, 1.06, -3.98,   1.0, 0.0
 AddWeapon = crv7_mpsm, -3.93, 1.06, -3.98,  -1.0, 0.0
-AddWeapon = aim9_l,       2.51, 0.80, -3.93,   1.0, 0.0
-AddWeapon = aim9_l,      -2.51, 0.80, -3.93,  -1.0, 0.0
+AddWeapon = aim9lharrier,       2.51, 0.80, -3.93,   1.0, 0.0
+AddWeapon = aim9lharrier,      -2.51, 0.80, -3.93,  -1.0, 0.0
 AddWeapon = agm-65,     4.85, 1.09, -4.35,   1.0, 0.0
 AddWeapon = agm-65,    -4.85, 1.09, -4.35,  -1.0, 0.0
 
-AddRecipe = " X ",  "XXX",  "ZXZ",  X, iron_block, Z, iron_ingot
-
-BoundingBox =  0.00, 1.60, -1.50,  2.0, 2.5
+AddRecipe = "   ",  "ZXZ",  "   ",  X, mcheli:harrier, Z, iron_ingot
+BoundingBox =  0.00, 1.80, -1.50,  2.0, 2.1
 BoundingBox =  0.00, 1.60, -3.20,  2.0, 2.5
-BoundingBox =  0.00, 1.60, -5.60,  3.0, 2.5
-BoundingBox = -2.92, 1.90, -5.60,  3.0, 1.0
-BoundingBox =  2.92, 1.90, -5.60,  3.0, 1.0
-BoundingBox =  0.00, 1.60, -8.00,  2.0, 2.5
-BoundingBox =  0.00, 1.60, -10.00,  2.0, 2.5
-BoundingBox =  0.00, 3.30, -12.00,  2.0, 2.5
-BoundingBox =  0.00, 1.60, -12.00,  2.0, 2.5
-BoundingBox =  1.50, 1.60, -12.00,  2.0, 2.5
-BoundingBox =  -1.50, 1.60, -12.00,  2.0, 2.5
+BoundingBox =  0.00, 1.60, -4.90,  2.0, 2.5
+;bloated wings
+BoundingBox = -2.92, 2.05, -5.60,  1.0, 0.2
+BoundingBox =  2.92, 2.05, -5.60,  1.0, 0.2
+
+BoundingBox = -3.62, 1.90, -5.60,  1.0, 0.2
+BoundingBox =  3.62, 1.90, -5.60,  1.0, 0.2
+
+BoundingBox = -1.92, 2.15, -5.60,  1.0, 0.2
+BoundingBox =  1.92, 2.15, -5.60,  1.0, 0.2
+
+BoundingBox = -0.92, 2.20, -5.60,  1.0, 0.2
+BoundingBox =  0.92, 2.20, -5.60,  1.0, 0.2
+
+BoundingBox = -1.12, 2.45, -4.60,  1.0,  0.2
+BoundingBox =  1.12, 2.450, -4.60,  1.0,  0.2
+
+
+BoundingBox = -1.12, 2.450, -3.60,  1.0, 0.2
+BoundingBox =  1.12, 2.45, -3.60,  1.0,  0.2
+
+
+BoundingBox = -2.12, 2.150, -4.60,  1.0, 0.2
+BoundingBox =  2.12, 2.150, -4.60,  1.0, 0.2
+
+
+BoundingBox = -2.92, 2.05, -6.60,  1.0, 0.2
+BoundingBox =  2.92, 2.05, -6.60,  1.0, 0.2
+BoundingBox = -1.92, 2.15, -6.60,  1.0, 0.2
+BoundingBox =  1.92, 2.15, -6.60,  1.0, 0.2
+BoundingBox = -0.92, 2.25, -6.60,  1.0, 0.2
+BoundingBox =  0.92, 2.25, -6.60,  1.0, 0.2
+
+BoundingBox = -4.92, 1.66, -6.60,  1.0, 0.2
+BoundingBox =  4.92, 1.66, -6.60,  1.0, 0.2
+
+
+
+BoundingBox = -3.92, 1.90, -6.60,  1.0, 0.2
+BoundingBox =  3.92, 1.90, -6.60,  1.0,0.2
+
+
+BoundingBox =  0.00, 1.85, -7.00,  1.66, 1.55
+BoundingBox =  0.00, 1.85, -6.40,  1.66, 1.55
+BoundingBox =  0.00, 1.85, -8.25,  1.56, 1.35
+
+BoundingBox =  0.00, 1.85, -9.56,  1.26, 1.35
+BoundingBox =  0.00, 1.85, -10.20,  0.8, 1.35
+BoundingBox =  0.00, 1.85, -11.00,  0.8, 1.35
+BoundingBox =  0.00, 2.35, -11.80,  0.8, 0.5
+
+BoundingBox =  0.00, 3.70, -12.00,  0.5, 2
+BoundingBox =  0.00, 3.60, -11.50,   0.5, 2
+BoundingBox =  0.00, 3.20, -11.00,  0.5, 2
+BoundingBox =  0.00, 2.8, -10.50,  0.5, 2
+
+BoundingBox =  0.00, 2.25, -10.0,  0.5, 2
+
+BoundingBox =  0.00, 2.0, -9.5,  0.5, 2
+
+BoundingBox =  0.50, 2.220, -11.250,  1.0, 0.3
+BoundingBox =  -0.50, 2.220, -11.250,  1.0, 0.3
+
+BoundingBox =  1.50, 1.90, -12.00,  1.0, 0.3
+BoundingBox =  -1.50, 1.90, -12.00,  1.0, 0.3
 
 unmountposition = 0.00,  1.57,  0.22
 

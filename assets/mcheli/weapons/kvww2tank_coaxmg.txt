@@ -16,6 +16,9 @@ Sound = dp
 BulletColor        = 255, 119, 255, 116
 Gravity = -0.005
 
+ModelBullet = bullet
+
+
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0

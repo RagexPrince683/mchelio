@@ -11,12 +11,15 @@ enableback = true
 
 ;Sound = fighter_jet
 
+
+AddRecipe = " YP",  "XXP",  "P  ",  X, iron_block, Y, glass, P, iron_ingot
+
 sound = ffive
 ThrottleUpDown = 0.3
 MaxFuel = 1000
 FuelConsumption = 1.0
 FlareType = 4
-EnableNightVision = true
+EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
 EnableSeaSurfaceParticle = true
@@ -58,8 +61,8 @@ AddWeapon = aim9e_2,  -5.199, 1.292, -3.407,   0.0, 0.0
 AddWeapon = hydra70,   3.918, 0.549, -2.024,   1.0, 0.0
 AddWeapon = hydra70,  -3.918, 0.549, -2.024,   -1.0, 0.0
 
-AddWeapon = mk82,  2.988, 0.549, -2.967,  0.0, 0.0
-AddWeapon = mk82,  -2.988, 0.549, -2.967,  0.0, 0.0
+AddWeapon = mk82f5,  2.988, 0.549, -2.967,  0.0, 0.0
+AddWeapon = mk82f5,  -2.988, 0.549, -2.967,  0.0, 0.0
 
 ;AddWeapon = droptank, 0.0, 0.246, -1.74,  0.0, 0.0
 
@@ -94,6 +97,8 @@ unmountposition = 0.00, 1.50, 1.067
 
 
 
+BoundingBox = 4.4, 1.2, -3.7, 2.0, 0.5
+BoundingBox = -4.4, 1.2, -3.7, 2.0, 0.5
 
 BoundingBox = 2.2, 1.2, -3.5, 2.4, 0.5
 BoundingBox = -2.2, 1.2, -3.5, 2.4, 0.5

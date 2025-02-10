@@ -9,6 +9,7 @@ CameraPosition = 0.00,  0.30,   5.937
 MaxFuel = 2400
 FuelConsumption = 1.0
 onGroundPitch = 4.56
+ThirdPersonDist = 20
 
 sound = hind
 soundvolume = 15
@@ -59,7 +60,7 @@ AddPartHatch =  0.94,  0.75,  1.83,  0, 0,-1, 130
 AddPartHatch = -1.02,  2.07,  1.83,  0, 0,-1, 85
 AddPartHatch = -0.94,  0.75,  1.83,  0, 0, 1, 130
 
-AddRecipe = "XYX", "XGX", "DI ", X, iron_block, Y, glass, G, feather, I, iron_ingot, D, redstone_lamp
+AddRecipe = "BPB", "BCB", "BEB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2
 
 BoundingBox =  0.0,  0.80,  5.80,  1.2, 1.2
 BoundingBox =  0.0,  1.12,  4.59,  2.2, 2.2

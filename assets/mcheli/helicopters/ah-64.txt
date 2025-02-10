@@ -16,6 +16,7 @@ FlareType = 3
 ; FlareOption = 10.0,  5.0, -20.0
 CameraPosition = 0.0, 1.1, 4.5
 onGroundPitch = 3.5
+ThirdPersonDist = 20
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
@@ -78,10 +79,10 @@ AddWeapon = hydra70,       -2.72,  0.81, -2.13, -1, 0,  true,1,  0,0,0, 0, 25
 AddWeapon = hydra70_mpsm,   2.72,  0.81, -2.13,  1, 0,  true,1,  0,0,0, 0, 25
 AddWeapon = hydra70_mpsm,  -2.72,  0.81, -2.13, -1, 0,  true,1,  0,0,0, 0, 25
 
-AddWeapon = aim92,  2.72,  0.89, -1.00,  1, 0
-AddWeapon = aim92, -2.72,  0.89, -1.00, -1, 0
-AddWeapon = aim92,  2.72,  0.89, -1.00,  1, 0
-AddWeapon = aim92, -2.72,  0.89, -1.00, -1, 0
+AddWeapon = aim92_2,  2.72,  0.89, -1.00,  1, 0
+AddWeapon = aim92_2, -2.72,  0.89, -1.00, -1, 0
+AddWeapon = aim92_2,  2.72,  0.89, -1.00,  1, 0
+AddWeapon = aim92_2, -2.72,  0.89, -1.00, -1, 0
 
 AddWeapon = agm114,  1.72,  0.96, -1.64,  1, 0,  true,2
 AddWeapon = agm114, -1.72,  0.96, -1.64, -1, 0,  true,2
@@ -101,7 +102,7 @@ AddWeapon = targeting_pod_pv10s,   0.0, 1.1, 4.5,   0.0, 0.0,  false,2
 
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0
 
-AddRecipe = "X X",  " X ",  "X X",  X, iron_block
+AddRecipe = "APA", "ACE", "AHA", A, hfr:item.part_plating_3, P, hfr:item.part_chassis_3, C, hfr:item.components_electronics, E, hfr:item.part_engine_3, H, hfr:item.kit_hmg
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
@@ -128,6 +129,6 @@ BoundingBox = 0.0, 1.47, -11.11, 1.0, 1.0
 unmountposition = 0.00,  1.50, -0.28
 
 
-DamageFactor = 0.8
+DamageFactor = 0.1
 
 ThrottleUpDown = 0.5

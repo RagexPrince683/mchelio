@@ -50,13 +50,14 @@ AddPartWeaponMissile = r-73,  false, false, false,  4.39, 1.36, -8.0864
 
 AddWeapon = gsh-6-23m,  0.0, 1.4, 0,   0.0, -1.0, false, 1
 AddWeapon = r-73,     -4.39, 1.36, -8.0864,   0.0, -1.0, true, 2
+AddWeapon = r-73,     4.39, 1.36, -8.0864,   0.0, -1.0, true, 2
 AddWeapon = r-77,    -2.8183, 1.35, -5.9578,   0.0, -1.0, true, 2
 AddWeapon = r-77,    2.8183, 1.35, -5.9578,   0.0, -1.0, true, 2
-AddWeapon = r-73,     4.39, 1.36, -8.0864,   0.0, -1.0, true, 2
+
 AddWeapon = targeting_pod_ph50s,   0.0, 3.1,-0.6,   0.0, 0.0, true, 2
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
-AddRecipe = "DRX", "XXF", "IIP", D,dye,1, R,redstone, X,iron_block, F,furnace, I,iron_ingot, P,piston
+AddRecipe = "RFX", "XXX", "I I",  R,redstone, X,iron_block, F,glass, I,iron_ingot, 
 
 EntityWidth  = 0.75
 EntityHeight = 0.75
@@ -74,12 +75,39 @@ BoundingBox = 0.0, 1.8, -12.0, 2.7, 1.15, 1.5
 BoundingBox = -2.82, 2.2, -8.55, 2.8, 0.3
 BoundingBox = 2.82, 2.2, -8.55, 2.8, 0.3
 
+
+BoundingBox = -1.82, 2.2, -6.25, 1.8, 0.3
+BoundingBox = 1.82, 2.2, -6.25, 1.8, 0.3
+
+BoundingBox = -1.07, 1.7, -11.38, 1.5, 0.3
+BoundingBox = 1.07, 1.7, -11.38, 1.5, 0.3
+
+
 BoundingBox = -2.17, 1.7, -12.38, 1.5, 0.3
 BoundingBox = 2.17, 1.7, -12.38, 1.5, 0.3
 
 
+BoundingBox = -1.31, 2.38, -9.15, 0.5, 1.4
+BoundingBox = 1.31, 2.38,  -9.15, 0.5, 1.4
+
+
+
+BoundingBox = -1.31, 2.65, -9.65, 0.5, 1.4
+BoundingBox = 1.31, 2.65,  -9.65, 0.5, 1.4
+
+
+BoundingBox = -1.31, 2.85, -10.15, 0.5, 1.4
+BoundingBox = 1.31, 2.85, -10.15, 0.5, 1.4
+
+
+BoundingBox = -1.31, 3.05, -10.65, 0.5, 1.4
+BoundingBox = 1.31, 3.05, -10.65, 0.5, 1.4
+
+
+
 BoundingBox = -1.31, 3.15, -11.15, 0.5, 1.4
 BoundingBox = 1.31, 3.15, -11.15, 0.5, 1.4
+
 
 BoundingBox = -1.31, 3.35, -11.65, 0.5, 1.8
 BoundingBox = 1.31, 3.35, -11.65, 0.5, 1.8
@@ -90,5 +118,3 @@ BoundingBox = 1.31, 3.55, -12.15, 0.5, 2.0
 BoundingBox = -1.31, 3.65, -12.65, 0.5, 2.5
 BoundingBox = 1.31, 3.65, -12.65, 0.5, 2.5
 
-BoundingBox = -1.31, 3.55, -13.15, 0.5, 2.0
-BoundingBox = 1.31, 3.55, -13.15, 0.5, 2.0

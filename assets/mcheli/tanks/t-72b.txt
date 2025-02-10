@@ -1,17 +1,17 @@
 ﻿DisplayName = T-72A MBT
-AddDisplayName = en_US, T-72B Ural MBT
-AddDisplayName = ja_JP, T-72B ウラル 主力戦車
+AddDisplayName = en_US, T-72A
+AddDisplayName = ja_JP, T-72A ウラル 主力戦車
 ItemID = 91129
-MaxHp = 600
-Speed = 0.50
-ThrottleUpDown = 3.0
+MaxHp = 400
+Speed = 0.37
+ThrottleUpDown = 1.0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = true
 EnableEntityRadar = false
 Sound = tseventytwopass
-HUD = mbt_hud, mbt_hud
+HUD = mbt_hudtwo, gunnernvg
 WeightType = Tank
 DefaultFreelook = true
 FlareType = 10
@@ -22,16 +22,16 @@ AddTexture = t-72b_4
 AddTexture = t-72b_5
 
 EnableBack = true
-SetWheelPos =  1.62,  -0.24,  2.86,  0.70, -0.76, -2.22, 
+
 ;-4.14
 
 SubmergedDamageHeight = 2
 WeightedCenterZ = 0.0
 
-OnGroundPitchFactor = 3.5
-OnGroundRollFactor  = 3.5
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
 
-MobilityYawOnGround = 2.5
+MobilityYawOnGround = 2.3
 PivotTurnThrottle = 0.0
 
 
@@ -40,15 +40,15 @@ PivotTurnThrottle = 0.0
 ;AddGunnerSeat = 0.00,  1.00, -1.25,  -0.55,  3.80, -1.16, false, -90, 90, true
 
 
-AddGunnerSeat =  0.0, 1.6, 0.3, -0.59, 1.78, 1.85,  false, -90, 90, true
-AddGunnerSeat = -0.75,2.0,-0.5, -0.75, 3.1, -0.3576, false, -90, 90, true
-CameraPosition = -0.59, 1.78, 1.85, true
+AddGunnerSeat =  0.0, 0.8, 1.5, -0.0, 1.78, 1.85,  false, -90, 90, true
+AddGunnerSeat = -0.75,2.1,-0.5, -0.75, 3.1, -0.5, false, -75, 4, true
+CameraPosition = -0.0, 2.5, 1.85, true
 
 TurretPosition = 0.0, 0.0, -0.0
 
 
-MinRotationPitch = -75
-MaxRotationPitch = 5
+MinRotationPitch = -13
+MaxRotationPitch = 6
 
 
 
@@ -63,11 +63,11 @@ AddPartWeaponChild = false, true,  0.0, 1.706, 1.26, 0.5
 
 ;AddPartWeaponChild = false, true, -0.58, 1.784, 1.74
 
-AddTurretWeapon = t722A46M-1_APFSDS,  0.0, 1.706, 1.26,  0.0, 0.0, false,1, 0,-360,360, -13, 5
-AddTurretWeapon = t722A46M-1_HEATMP,  0.0, 1.706, 1.26,  0.0, 0.0, false,1, 0,-360,360, -13, 5
-AddTurretWeapon = t722A46M-1_HE,      0.0, 1.706, 1.26,  0.0, 0.0, false,1, 0,-360,360, -13, 5
-AddTurretWeapon = t729M119M,          0.0, 1.706, 1.26,  0.0, 0.0, false,1, 0,-360,360, -13, 5
-AddTurretWeapon = t72mg_coaxial, 0.44, 1.58, 1.54, 0.0, 0.0, false,1, 0,-360,360, -13, 5
+AddTurretWeapon = t722A46M-1_APFSDS,  0.0, 1.706, 0,  0.0, 0.0, false,1, 0,-360,360, -13, 6
+AddTurretWeapon = t722A46M-1_HEATMP,  0.0, 1.706, 0,  0.0, 0.0, false,1, 0,-360,360, -13, 6
+AddTurretWeapon = t722A46M-1_HE,      0.0, 1.706, 0,  0.0, 0.0, false,1, 0,-360,360, -13, 6
+;AddTurretWeapon = t729M119M,          0.0, 1.706, 0,  0.0, 0.0, false,1, 0,-360,360, -13, 6
+AddTurretWeapon = t72mg_coaxial, -0.35, 1.706, 1, 0.0, 0.0, false,1, 0,-360,360, -13, 6
 
 
 
@@ -76,9 +76,9 @@ AddTurretWeapon = t72mg_coaxial, 0.44, 1.58, 1.54, 0.0, 0.0, false,1, 0,-360,360
 
 
 
-AddPartTurretWeapon = NSV, false, true, false, -0.75, 2.5, -0.5
+AddPartTurretWeapon = t72NSV, false, true, false, -0.75, 2.5, -0.5
 AddPartWeaponChild   = false, true, -0.75, 2.803, 0.019
-AddTurretWeapon = NSV, -0.75, 2.5, -0.3576, 0.0, 0.0, false, 2, 0, -360,360, -75,4
+AddTurretWeapon = t72NSV, -0.7497, 2.7906, -0.5, 0.0, 0.0, false, 2, 0, -360,360, -75,4
 
 
 
@@ -89,14 +89,14 @@ AddTurretWeapon = NSV, -0.75, 2.5, -0.3576, 0.0, 0.0, false, 2, 0, -360,360, -75
 
 
 
-CameraRotationSpeed = 25
+CameraRotationSpeed = 12
 
-StepHeight = 1.5
+StepHeight = 1.8
 HideEntity = true
 
 
 
-MotionFactor = 0.9
+MotionFactor = 0.95
 
 MaxFuel         = 1500
 FuelConsumption = 2.0
@@ -105,6 +105,9 @@ TrackRollerRot = 50
 
 AddCrawlerTrack = false, 0.23, -2.221,  -0.3/2.833, -0.24/3.07, 0.18/3.92, 0.34/4.08, 0.5522/4.132, 0.766/4.075, 0.923/3.92, 0.9798/3.847, 1.029/-3.35, 0.98/-3.55, 0.83/-3.7, 0.6233/-3.755, 0.42/-3.7, 0.27/-3.56, -0.24/-2.6, -0.3006/-2.361
 AddCrawlerTrack = false, 0.23,  2.221,  -0.3/2.833, -0.24/3.07, 0.18/3.92, 0.34/4.08, 0.5522/4.132, 0.766/4.075, 0.923/3.92, 0.9798/3.847, 1.029/-3.35, 0.98/-3.55, 0.83/-3.7, 0.6233/-3.755, 0.42/-3.7, 0.27/-3.56, -0.24/-2.6, -0.3006/-2.361
+
+
+SetWheelPos =  1.62,  -0.24,  2.83, 1.83, 0.77, -0.30, -1.36, -2.36
 
 AddTrackRoller =  -1.0,  0.5522,  3.704
 AddTrackRoller =  -1.0,  0.1705,  2.833

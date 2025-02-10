@@ -67,7 +67,7 @@ BoundingBox = -1.34, 2.68, -7.95, 1.5, 0.3
 BoundingBox = 2.34, 2.68, -7.65, 0.8, 0.3
 BoundingBox = -2.34, 2.68, -7.65, 0.8, 0.3
 
-AddRecipe = " X ",  "XZX",  " Y ",  X, iron_block, Y, furnace, Z, iron_ingot
+AddRecipe = " Y ",  " X ",  " Z ",  X, iron_block, Y, glass, Z, iron_ingot
 
 
 BoundingBox = -2.88, 1.50,  -2.00,  3.8, 0.6
@@ -75,7 +75,7 @@ BoundingBox =  2.88, 1.50,  -2.00,  3.8, 0.6
 BoundingBox =  -5.90, 1.50,  -1.68,  2.3, 0.6, 0.7
 BoundingBox =  5.90, 1.50,  -1.68,  2.3, 0.6, 0.7
 
-UnmountPosition = 0.0, 1.50, 0.63
+UnmountPosition = 0.0, 1.97, 0.63
 
 enableback = true
 

@@ -14,7 +14,7 @@ ThirdPersonDist = 12
 
 
 
-
+AddRecipe = " G ",  " D ",  "IDD",  I,iron_block, D,iron_ingot, G,glass
 
 DamageFactor = 0.8
 
@@ -83,8 +83,12 @@ BoundingBox = -1.0, 2.7, -6.4, 1.2, 0.3
 BoundingBox =  2.0, 2.7, -6.4, 1.0, 0.3
 BoundingBox = -2.0, 2.7, -6.4, 1.0, 0.3
 
+
 BoundingBox = -3.85, 2.20, -0.7,  2.0, 0.3
 BoundingBox =  3.85, 2.20, -0.7,  2.0, 0.3
+
+BoundingBox = -5.45, 2.250, -0.7,  1.5, 0.3
+BoundingBox =  5.45, 2.25, -0.7,  1.5, 0.3
 
 BoundingBox = 0.0, 2.5, -7.38, 0.5, 1.5
 

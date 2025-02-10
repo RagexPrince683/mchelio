@@ -1,13 +1,11 @@
-DisplayName = M344A1 105mm HEAT
+DisplayName = 106mm M40A2 Recoilless Rifle [M344A1 - HEAT]
 Type = Rocket
 Power = 400
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+
 ModelBullet = hydra70
 Acceleration = 7.0
 Explosion = 3
+ExplosionBlock = 2
 Flaming = false
 Sound = recoillessoneosix
 Sight = MoveSight
@@ -45,7 +43,7 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 SoundVolume = 15
 
-MaxAmmo = 1
+MaxAmmo = 3
 SuppliedNum = 1
 Item =  1, iron_ingot
 Item =  2, gunpowder

@@ -1,19 +1,21 @@
-DisplayName = SGMT 7.62mm Machine Gun
+DisplayName = 7.62mm SGMT Machine Gun
 Type = MachineGun1
-Power = 7
+Power = 8
 Acceleration = 7.5
 Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
-Accuracy = 2.0
+Accuracy = 1.5
 Round = 250
 ReloadTime = 150
 SoundPitch = 1.0
 Sound = sgmt
-HeatCount = 4
+HeatCount = 5
 MaxHeatCount = 150
 Gravity = -0.001
+
+ModelBullet = bullet
 
 AddMuzzleFlash      =  1.5,      0.22,        1,  150,254,159,84
 AddMuzzleFlashSmoke =  1.7,  1,   2.0,  0.5, 15,  180,250,245,240

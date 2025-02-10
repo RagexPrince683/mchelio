@@ -11,6 +11,7 @@ CameraPosition = 0.0, 0.8, 4.0
 onGroundPitch = 4.5
 MaxFuel         = 1200
 FuelConsumption = 1.0
+ThirdPersonDist = 20
 
 
 HUD = heli, heli_gnr
@@ -38,7 +39,7 @@ AddGunnerSeat = 0.00,  1.23,  2.19,  0.0, 0.8, 4.0,  true
 
 ;AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z
 AddPartWeapon = 2a42,  true,  true,  true,   0.00, 0.11, 2.65
-AddWeapon = 2a42_30mmhei,     0.00,  0.05,  2.68,  0,-1,  true,2,  0,-360,360, -20,80
+;AddWeapon = 2a42_30mmhei,     0.00,  0.05,  2.68,  0,-1,  true,2,  0,-360,360, -20,80
 AddPartWeapon = s-8,   false, false, true,   0.00, 1.03, -1.46
 AddPartWeaponMissile = 9m39,    false, false, false, -2.18,  0.38, -0.38
 AddPartWeaponMissile = 9m39,    false, false, false, -2.73,  0.38, -0.38
@@ -50,8 +51,8 @@ AddPartWeaponMissile = 9k118tv, false, false, false,  2.78,  0.57, -0.44
 ;AddWeapon = 武器名, 位置X,Y,Z, Yaw, Pitch, パイロットが使用できる？, 座席番号, DefaultYaw,RangeYaw, MinPitch, MaxPitch
 AddWeapon = 2a42,     0.00,  0.05,  2.68,  0,-1,  true,2,  0,-360,360, -20,80
 AddWeapon = 2a42_30mmhei,     0.00,  0.05,  2.68,  0,-1,  true,2,  0,-360,360, -20,80
-AddWeapon = s-8_h,      1.33,  0.72, -0.45,  1, 0,  true,1,  0,0,0, 0, 25
-AddWeapon = s-8_h,     -1.33,  0.72, -0.45, -1, 0,  true,1,  0,0,0, 0, 25
+AddWeapon = s-8_h2,      1.33,  0.72, -0.45,  1, 0,  true,1,  0,0,0, 0, 25
+AddWeapon = s-8_h2,     -1.33,  0.72, -0.45, -1, 0,  true,1,  0,0,0, 0, 25
 AddWeapon = s-8dm,    1.33,  0.72, -0.45,  1, 0,  true,1,  0,0,0, 0, 25
 AddWeapon = s-8dm,   -1.33,  0.72, -0.45, -1, 0,  true,1,  0,0,0, 0, 25
 AddWeapon = s-8s,     1.33,  0.72, -0.45,  1, 0,  true,1,  0,0,0, 0, 25
@@ -70,7 +71,7 @@ AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0
 AddWeapon = targeting_pod_mob,     0.0, 0.8, 4.0,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.8, 4.0,   0.0, 0.0,  false,2
 
-AddRecipe = "X X",  " I ",  "X X",  X, iron_block, I, iron_ingot
+AddRecipe = "APA", "ACE", "AHA", A, hfr:item.part_plating_3, P, hfr:item.part_chassis_3, C, hfr:item.components_electronics, E, hfr:item.part_engine_3, H, hfr:item.kit_hmg
 
 
 

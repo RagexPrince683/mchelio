@@ -1,7 +1,7 @@
 DisplayName = 500lb Suicide Bomb
 Type = Bomb
 Power = 1080
-Acceleration = 0.1
+
 Explosion = 15
 ExplosionBlock = 5
 ExplosionInWater = 0
@@ -11,7 +11,17 @@ Sight = None
 Delay = 5
 ;Destruct = true
 
-Gravity = -9
+DelayFuse = 0
+ProximityFuseDist = 2.0
+TimeFuse = 0
+;ExplosionAltitude = 800
+
+Gravity = -0.1
+BombletSTime = 0
+BombletDiff = 0.1
+Bomblet = 25
+
+
 
 
 

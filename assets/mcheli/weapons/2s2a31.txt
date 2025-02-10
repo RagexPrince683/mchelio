@@ -3,7 +3,7 @@ Type = Rocket
 Power = 100
 ModelBullet = bullet105mm
 Acceleration = 5.0
-Explosion = 4
+Explosion = 10
 ExplosionBlock = 3
 Flaming = false
 Sight = None
@@ -13,7 +13,7 @@ SoundVolume = 20
 Sound = msta
 Recoil = 1.5
 
-Gravity = -0.050
+Gravity = -0.030
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
@@ -24,7 +24,7 @@ group = maingun
 
 Bomblet = 25
 BombletSTime = 15
-BombletDiff = 2
+BombletDiff = 0.8
 ModelBomblet = bullet
 
 DisableSmoke = true

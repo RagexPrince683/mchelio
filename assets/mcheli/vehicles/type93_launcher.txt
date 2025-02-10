@@ -1,7 +1,7 @@
 DisplayName = Type 93 Torpedo Launcher
 AddDisplayName = ja_JP, 九三式魚雷
 ItemID = 28609
-MaxHp = 80
+MaxHp = 100
 Gravity = -9.81
 GravityInWater = -1.0
 HideEntity = true
@@ -12,7 +12,8 @@ CameraZoom = 3
 CameraPosition = 0.0, 4.0, 0.0
 
 
-Unmountposition = 0.00,  1.5, 0.00
+unmountposition = 0.00, 1.5, -0.0
+
 
 
 ; M = Military,  T = Torpedo(魚雷)
@@ -30,6 +31,6 @@ AddWeapon = type93torpedo,  0.89, 0.71, 0.52,   0.0, 0.0
 AddWeapon = type93torpedo, -0.89, 0.71, 0.52,   0.0, 0.0
 AddWeapon = type93torpedo, -2.40, 0.71, 0.52,   0.0, 0.0
 
-AddRecipe = " XX",  "FXX",  " RG",  X, iron_block, R, redstone_block, F, fish, G, gunpowder
+AddRecipe = " XX",  "FXX",  " RG",  X, iron_block, R, redstone_block, F, tnt, G, tnt
 
 BoundingBox =  0.0, 1.5, 0.0,  6.0, 3.0

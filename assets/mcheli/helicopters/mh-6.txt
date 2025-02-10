@@ -9,6 +9,7 @@ ThrottleUpDown = 1.2
 FlareType = 3
 MaxFuel         = 1200
 FuelConsumption = 1.0
+ThirdPersonDist = 20
 
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
 Category = M.M
@@ -16,7 +17,7 @@ Category = M.M
 Sound = littlebird
 Soundvolume = 15
 
-HUD = heli, gunner, none, none, none, none
+HUD = helinvg, gunner, none, none, none, none
 
 MobilityYaw = 1.5
 MobilityPitch = 1.5
@@ -33,8 +34,9 @@ AddSeat =-1.45,  0.60,  0.70
 AddSeat = 1.45,  0.60,  0.70
 
 AddWeapon = targeting_pod_mob,     0.0, 2.2, 1.0,   0.0, 0.0,  true, 2
+AddWeapon = targeting_pod_block,     0.0, 2.2, 1.0,   0.0, 0.0,  true, 2
 
-AddRecipe = "Y Y",  " X ",  "Y Y",  X, iron_block, Y, iron_ingot
+AddRecipe = "APA", "ACA", "AEA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, C, hfr:item.components_electronics, E, hfr:item.part_engine_1
 
 InventorySize = 18
 

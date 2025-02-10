@@ -1,4 +1,4 @@
-DisplayName = C6 GPMG 7.62mm Machine Gun
+DisplayName = 7.62mm C6 GPMG Machine Gun
 Type = MachineGun1
 Power = 10
 Acceleration = 4.0
@@ -9,6 +9,9 @@ Delay = 1
 ;SoundDelay = 3
 Accuracy = 0.2
 ReloadTime = 80
+
+ModelBullet = bullet
+
 HeatCount = 3
 MaxHeatCount = 200
 SoundPitch = 1.0

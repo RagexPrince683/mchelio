@@ -18,6 +18,9 @@ SoundPitch = 1
 SoundPitchRandom = 0.1
 Round = 63
 
+ModelBullet = bullet
+
+
 ReloadTime = 80
 
 Acceleration = 7.5

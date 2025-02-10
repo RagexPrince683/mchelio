@@ -120,8 +120,8 @@ AddTrackRoller =  2.11,  0.90,  1.33
 AddPartWeapon = is2d25tap / is2d25the, false, true, false,  0.00, 2.00, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.41, 1.68, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.41, 1.68, 0.5
-AddTurretWeapon = is2d25tap, 0.00, 2.41, 1.68,  0.0, 0.0, true,1, 0,-360,360, -20, 3
-AddTurretWeapon = is2d25the,     0.00, 2.41, 1.68,  0.0, 0.0, true,1, 0,-360,360, -20, 3
+AddTurretWeapon = is2d25tap, 0.00, 2.41, 0.68,  0.0, 0.0, true,1, 0,-360,360, -20, 3
+AddTurretWeapon = is2d25the,     0.00, 2.41, 0.68,  0.0, 0.0, true,1, 0,-360,360, -20, 3
 AddTurretWeapon = is2dt29coax,        0.43, 2.28, 1.66,  0.0, 0.0, true,1, 0,-360,360, -20, 3
 ;車体
 

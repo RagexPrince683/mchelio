@@ -11,6 +11,10 @@ Round = 200
 ReloadTime = 100
 SoundDelay = 0
 Sound = besa
+
+ModelBullet = bullet
+
+
 ;group = maingun
 SoundPitch = 1.0
 ;SetCartridge = model name, velocity (in x-axis), ?, ?, size, gravity, "bounce-height" 

@@ -1,7 +1,7 @@
 ﻿DisplayName = BGM-71D TOW
 Type = TVMissile
 Power = 900
-Acceleration = 8
+Acceleration = 3
 Explosion = 5
 ExplosionBlock = 2
 Flaming = false

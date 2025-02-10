@@ -6,7 +6,7 @@ ModelBullet = bullet
 Bomblet = 5
 BombletDiff = 0.4
 BombletSTime = 15
-ModelBomblet = cbc
+ModelBomblet = flechette
 
 DisableSmoke = true
 
@@ -21,6 +21,8 @@ Round = 320
 SoundPitch = 1.0
 Sound = gepardmain
 Accuracy = 1.0
+
+
 
 Gravity = -0.001
 ProximityFuseDist = 3.0

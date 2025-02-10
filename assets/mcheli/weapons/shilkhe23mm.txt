@@ -1,16 +1,16 @@
-DisplayName = 23mm AZP-23 [HEFI-T]
+DisplayName = 23mm AZP-23 Cannon [HEFI-T]
 Type = MachineGun2
 ModelBullet = bullet
 Power = 6
 Explosion = 1
 ExplosionBlock = 1
-Acceleration = 8.0
-Flaming = false
+
+Flaming = true
 Sight = MoveSight
 Delay = 0
 SoundDelay = 0
 ;SoundPitch = 2
-Accuracy = 3.0
+Accuracy = 0
 HeatCount = 1
 MaxHeatCount = 450
 Sound = shilka
@@ -33,7 +33,7 @@ AddTexture = red
 Gravity = -0.001
 ReloadTime = 80
 
-Acceleration = 7.5
+Acceleration = 7
 Piercing = 0
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
@@ -41,19 +41,23 @@ DamageFactor = vehicle, 1.5
 DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 
+ModelBullet = bullet
+
+
 SoundVolume = 15
 
 Group = maingun
 
 Round = 500
 
+BulletColor = 230, 200, 20, 80 
 
 
-AddMuzzleFlash      =  0,      0.62,        0,  150,254,159,84
-AddMuzzleFlash      =  0,      0.61,        0,  150,254,230,160
-AddMuzzleFlash      =  0,      0.60,        0,  150,254,219,184
-AddMuzzleFlashSmoke =  0,  2,   7.0,  2.5, 15,  130,250,245,240
-AddMuzzleFlashSmoke =  0,  1,   6.0,  2.5, 25,  130,220,217,214
+AddMuzzleFlash      =  4,      0.62,        0,  150,254,159,84
+AddMuzzleFlash      =  4,      0.61,        0,  150,254,230,160
+AddMuzzleFlash      =  4,      0.60,        0,  150,254,219,184
+AddMuzzleFlashSmoke =  4,  2,   7.0,  2.5, 15,  130,250,245,240
+AddMuzzleFlashSmoke =  4,  1,   6.0,  2.5, 25,  130,220,217,214
 
 MaxAmmo = 1000
 SuppliedNum = 500

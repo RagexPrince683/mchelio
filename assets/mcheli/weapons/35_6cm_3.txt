@@ -15,6 +15,9 @@ BombletDiff = 5.0
 MaxAmmo = 8
 SuppliedNum = 2
 
+HeatCount = 500
+MaxHeatCount = 1450
+
 ;;delete
 
 Gravity = -0.005

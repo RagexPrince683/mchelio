@@ -1,4 +1,4 @@
-﻿DisplayName = as365n3 Dauphin Heli
+﻿DisplayName = Eurocopter AS365 Dauphin
 AddDisplayName = en_US, Eurocopter AS365 Dauphin
 AddDisplayName = ja_JP, AS365N3 ドーファン
 
@@ -17,6 +17,7 @@ InventorySize = 54
 RotorSpeed = 90
 EnableParachuting = true
 MobDropOption  =  -1.75,  0.72,  -2.67,  10
+ThirdPersonDist = 20
 
 sound = chinesedauphin
 soundvolume = 15
@@ -31,7 +32,7 @@ CameraZoom = 3
 Category = C
 
 
-HUD = heli, none, none, none
+HUD = helinvg, none, none, none
 
 AddTexture = as365n3_dauphin_r
 AddTexture = as365n3_dauphin_wh
@@ -99,6 +100,8 @@ BoundingBox = 0.0, 2.2, -12, 0.55, 2.2
 BoundingBox = 0.0, 2.0, -11.5, 0.55, 1.8, 1.25
 BoundingBox = 0.0, 2.1, -11.2, 0.55, 1.2, 1.25
 BoundingBox = 0.0, 2.6, -12.5, 0.55, 2.6, 1.25
+
+AddRecipe = "BPB", "BCB", "BEB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2
 
 
 

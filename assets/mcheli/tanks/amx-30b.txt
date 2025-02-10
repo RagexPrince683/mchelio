@@ -13,7 +13,7 @@ DamageFactor = 0.0
 CameraZoom = 10
 CameraPosition = 0.00,  3.2, 0.5, true
 EnableNightVision = true
-CameraRotationSpeed = 10
+CameraRotationSpeed = 18
 EnableEntityRadar = false
 MaxFuel         = 960
 FuelConsumption = 2
@@ -35,7 +35,8 @@ AddTexture = amx-30bdes2
 AddGunnerSeat =  -0.734,  1.00,  2.38,    0.00,  2.70,  -0.5,  false, -20, 8, true
 AddGunnerSeat =  -0.76,  2.3,  -0.6226,    -0.764,  3.8,  -0.657,  false, -30, 5, true
 
-unmountposition = -0.734,  2.70,  2.38
+unmountposition = -0.0,  2.00,  0.6
+
 
 MotionFactor = 0.925
 ArmorMinDamage = 15
@@ -67,9 +68,9 @@ AddTrackRoller = 2.12,  0.6869,  -4.4543
 AddPartWeapon = 30cn105f1 / 30cn105f1_he / 30cn105f1_heatmp, false, true, false,  0.00, 1.9196, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.2286, 1.7871, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.2286, 1.7871, 0.5
-AddTurretWeapon = 30cn105f1, 0.00, 2.2286, 1.7871,  0.0, 0.0, true,1, 0,-360,360,            -20, 8
-AddTurretWeapon = 30cn105f1_he,     0.00, 2.2286, 1.7871,  0.0, 0.0, true,1, 0,-360,360,     -20, 8
-AddTurretWeapon = 30cn105f1_heatmp,     0.00, 2.2286, 1.7871,  0.0, 0.0, true,1, 0,-360,360, -20, 8
+AddTurretWeapon = 30cn105f1, 0.00, 2.2286, 0.7871,  0.0, 0.0, true,1, 0,-360,360,            -20, 8
+AddTurretWeapon = 30cn105f1_he,     0.00, 2.2286, 0.7871,  0.0, 0.0, true,1, 0,-360,360,     -20, 8
+AddTurretWeapon = 30cn105f1_heatmp,     0.00, 2.2286, 0.7871,  0.0, 0.0, true,1, 0,-360,360, -20, 8
 AddTurretWeapon = 30m693,   -0.6258, 2.2275, 2.3978,   0.0, 0.0, false, 1, 0, -360,360,      -20, 0
 
 ;TODO: make a infrared search light thing, I don't know,  I don't even know how I'm gonna implement that

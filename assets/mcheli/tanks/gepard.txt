@@ -17,7 +17,7 @@ DamageFactor = 0.8
 CameraZoom = 6
 ;CameraPosition = 0.00,  3.20, 1.00, false
 EnableNightVision = true
-CameraRotationSpeed = 64
+CameraRotationSpeed = 54
 EnableEntityRadar = true
 MaxFuel         = 1200
 FuelConsumption = 1.0
@@ -40,7 +40,7 @@ AddTexture = gepard_2
 
 AddGunnerSeat =  0.00,  2.50, 0.00, 0.0, 3.50, 0.00, false, -85, 10, false
 CameraPosition =  0.00,  5.00, -0.0, true
-MotionFactor = 0.9
+MotionFactor = 0.95
 ;ArmorMinDamage 
 ArmorMinDamage = 15
 ;ArmorMaxDamage 

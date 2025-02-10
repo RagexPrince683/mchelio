@@ -2,8 +2,8 @@
 AddDisplayName = en_US, Yakovlev Yak-38 with R-60
 AddDisplayName = ru_RU, ЯК-38 (4 Ракеты Р-60)
 MaxHp = 100
-EnableNightVision = true
-EnableEntityRadar = true
+EnableNightVision = false
+EnableEntityRadar = false
 EnableEjectionSeat = true
 Speed = 1.392
 FlareType = 4
@@ -65,7 +65,7 @@ AddPartWeapon = r-60, false,false,false, -1.4659,  1.3449, -5.0239
 
 AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
 
-AddRecipe = "GYG",  "XXX",  "XDX",  X, iron_block, Y, glass, D, diamond_block, G, gunpowder
+AddRecipe = " X ",  "YQY",  "X X",  X, iron_ingot, Y, redstone, Q, mcheli:yak38
 
 BoundingBox =  0.00, 1.37,  1.21,  1.1, 1.1
 
@@ -85,6 +85,15 @@ BoundingBox =  1.84, 1.8, -7.57,  2.1, 0.3
 BoundingBox = 0.65, 2.2, -13.75, 1.0, 0.3
 BoundingBox = -0.65, 2.2, -13.75, 1.0, 0.3
 
+
+BoundingBox = -3.34, 1.5, -8.07,  1.5, 0.3
+BoundingBox =  3.34, 1.5, -8.07,  1.5, 0.3
+
+BoundingBox = -1.64, 1.5, -6.07,  1.5, 0.3
+BoundingBox =  1.64, 1.5, -6.07,  1.5, 0.3
+
+BoundingBox = 1.55, 2.0, -13.75, 0.8, 0.3
+BoundingBox = -1.55, 2.0, -13.75, 0.8, 0.3
 
 BoundingBox = 0.0, 2.3, -10.61, 0.5, 1.5
 BoundingBox = 0.0, 2.4, -11.11, 0.5, 1.5

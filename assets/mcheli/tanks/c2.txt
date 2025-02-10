@@ -98,8 +98,8 @@ AddTrackRoller = -2.26,  0.87,  -5.52
 AddPartWeapon = c2l26, false, true, false,  0.00, 1.72, -0.01, 0
 AddPartWeaponChild = false, true, -0.05, 2.20, 2.07, 0.0
 AddPartWeaponChild = false, true, -0.05, 2.20, 2.07, 0.5
-AddTurretWeapon = c2l26, 0.00, 2.20, 9.91,  0.0, 0.0, true,1, 0,-360,360, -20, 10
-AddTurretWeapon = c2l37a7, 0.00, 2.20, 9.91,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = c2l26, 0.00, 2.20, 0.91,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = c2l37a7, 0.00, 2.20, 0.91,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 AddTurretWeapon =  c2l8a2, -0.5, 2.4, 2.33,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 
 AddPartTurretWeapon    = c2l37a2,   false, true, true,0.25,3.23,-0.86,0
@@ -124,7 +124,10 @@ BoundingBox = 0.0, 1.0, 0.0, 3.0, 1.0, 0.28
 ;front plate 330mm
 BoundingBox = 0.0, 1.0, 2.8, 3.0, 1.0, 0.06
 ;turret 670mm
-BoundingBox = 0.0, 2.00, 0.0, 3.6, 1.05, 0.02
+BoundingBox = 0.0, 2.20, 0.0, 3.6, 1.05, 0.02
+
+BoundingBox = 0.0, 2.00, 0.0, 3.4, 1.05, 0.06
+
 ;side plate
 BoundingBox = 0.0, 1.1, -4.4, 3.0, 1.3, 0.52
 BoundingBox = 0.0, 1.1, -3.0, 3.0, 1.3, 0.52

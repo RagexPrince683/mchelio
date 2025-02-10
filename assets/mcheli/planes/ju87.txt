@@ -80,4 +80,4 @@ BoundingBox = -2.05, 3.62, -13.86, 3.0, 0.2
 BoundingBox =  1.9, 3.59, -13.86,  3.0, 0.2
 BoundingBox =  -0.04, 4.87, -13.73, 1.0, 3.0
 
-AddRecipe = " GG",  "IDI",  "IID",  I,iron_block, D,iron_ingot, P,paper, G,glass
+AddRecipe = "DGD",  "PDP",  "D D",  I,iron_block, D,iron_ingot, P,TNT, G,glass

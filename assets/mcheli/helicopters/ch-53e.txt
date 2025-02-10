@@ -1,7 +1,7 @@
 DisplayName = CH-53E Super Stallion
 AddDisplayName = ja_JP, CH-53E スーパースタリオン
 ItemID = 30047
-MaxHp = 100
+MaxHp = 150
 EnableGunnerMode = true
 Float = true
 FloatOffset = -0.4
@@ -15,6 +15,7 @@ CameraPosition = 0.0, 0.7, 3.5
 MaxFuel         = 2800
 FuelConsumption = 1.1
 CameraPosition = 1.52, 0.46, 1.55
+ThirdPersonDist = 20
 
 sound = stallion
 soundvolume = 15
@@ -22,7 +23,7 @@ soundvolume = 15
 ; M = Military(軍用機).  C = Transport(輸送機)
 Category = M.C
 
-HUD = heli, heli_gnr, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
+HUD = helinvg, heli_gnrnone, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
 MobilityYaw = 0.4
 MobilityPitch = 0.4
@@ -64,7 +65,7 @@ AddPartLG  = 0, 1.01, -8.35,  1,0,0, -90
 AddPartHatch  = 0, 2.500, -15.65, 1,0,0, -33
 AddPartHatch  = 0, 0.543, -10.47, 1,0,0, -34
 
-AddRecipe = " X ",  "XCX",  "X X",  X, iron_block, C, chest
+AddRecipe = "BPB", "BCB", "BEB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2
 
 InventorySize = 54
 

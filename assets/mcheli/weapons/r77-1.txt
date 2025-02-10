@@ -17,8 +17,8 @@ ProximityFuseDist = 3
 Sound = missile_1_snd
 
 
-MaxAmmo = 6
-SuppliedNum = 3
+MaxAmmo = 2
+SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder
 Item =  2, redstone

@@ -1,4 +1,4 @@
-DisplayName = 5.25 Inch QF Mark I Cannon [5.25 inch HE - HE]
+DisplayName = 5.25 Inch QF Mark I Cannon [HE]
 Type = MachineGun1
 Power = 35
 DamageFactor = tank, 2.0
@@ -8,13 +8,13 @@ DamageFactor = heli, 1.5
 DamageFactor = player, 10.0
 ModelBullet = bullet76mm
 Acceleration = 7.0
-Explosion = 4
-ExplosionBlock = 3
+Explosion = 8
+ExplosionBlock = 4
 Flaming = false
 Sight = None
 Delay = 5
 Round = 2
-ReloadTime = 90
+ReloadTime = 110
 SoundVolume = 15
 Sound = ww2tankshot_snd
 

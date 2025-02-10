@@ -2,33 +2,33 @@
 AddDisplayName = ja_JP, T-55
 AddDisplayName = en_US, T-55
 ItemID = 30100
-MaxHp = 255
-Speed = 0.6
-ThrottleUpDown = 9.0
-MobilityYawOnGround = 2.0
-MinRotationPitch = -18
-MaxRotationPitch = 3
+MaxHp = 205
+Speed = 0.32
+ThrottleUpDown = 1
+MobilityYawOnGround = 1.8
+MinRotationPitch = -17
+MaxRotationPitch = 6
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
-CameraZoom = 3
+CameraZoom = 7
 CameraPosition = 0.00,  3.15, 1.30, true
-EnableNightVision = false
-CameraRotationSpeed = 20
+EnableNightVision = true
+CameraRotationSpeed = 6
 ;EnableEntityRadar = true
 MaxFuel         = 1200
 FuelConsumption = 3.0
-StepHeight = 1.5
+StepHeight = 1.8
 DefaultFreelook = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 FlareType = 10
-Sound = mbt_run
-
+Sound = bmpone
+unmountposition = 0.50,  1.50, 1.55
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
-SubmergedDamageHeight = 3
+SubmergedDamageHeight = 2
 
 HideEntity = true
 
@@ -40,23 +40,23 @@ WeightedCenterZ = 0.0
 
 ;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
 ; X座標のマイナス側は必要なし
-SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
-
-HUD = mbt_hud, gunner
 
 
+HUD = ww2tank_hudtwo, gunnernvg
 
 
-AddGunnerSeat =  0.00,  3.50, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
-AddGunnerSeat =  1.00,  2.20, 0.12,  1.00,  3.50,  0.12,  false, -90, 90, true
+
+
+AddGunnerSeat =  0.50,  1.00, 1.55,   0.00,  3.50, 1.00,  false, -17, 6, true
+;AddGunnerSeat =  1.00,  2.20, 0.12,  1.00,  3.50,  0.12,  false, -90, 90, true
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.9
 
 ;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
-ArmorMinDamage = 12
+
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
-ArmorMaxDamage = 500
+;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
 ArmorDamageFactor = 0.95
 ;後退可能にする
@@ -76,6 +76,10 @@ AddCrawlerTrack = true, 0.2,  -1.92,   -0.16/-2.6, 0.42/-3.71, 0.64/-3.78, 0.86/
 
 ;転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
 ;履帯と同じ動きをするが、履帯がなくても設定可能
+
+
+SetWheelPos =  1.5,  -0.24,  2.4,  1.2, 0, -1.19, -2.45
+
 AddTrackRoller =  1.81 ,0.64 ,3.4
 AddTrackRoller =  1.79,  0.31,  2.4
 AddTrackRoller = 1.79,  0.31,  1.2
@@ -93,13 +97,13 @@ AddTrackRoller =  -1.85,  0.31,  -2.45
 AddTrackRoller = -1.87,  0.64,  -3.4
 
 ;主砲
-AddPartWeapon =3bm25/3bk17m/of412, false, true, false,  0.00, 0, 0, 0
+AddPartWeapon = t553bm25/t553bk17m/t55of412, false, true, false,  0.00, 0, 0, 0
 AddPartWeaponChild = false, true, 0.34, 1.69, 1.76, 0.0
 AddPartWeaponChild = false, true, 0.34, 1.69, 1.76, 0.5
-AddTurretWeapon =3bm25, 0.00, 1.71, 6.82,  0.0, 0.0, true,1, 0,-360,180, -30, 7
-AddTurretWeapon = 3bk17m, 0.00, 1.71, 6.82,  0.0, 0.0, true,1, 0,-360,180, -30, 7
-AddTurretWeapon = of412, 0.00, 1.71, 6.82,  0.0, 0.0, true,1, 0,-360,180, -30, 7
-AddTurretWeapon =t55mg,  -0.41, 1.74, 1.97,  0.0, 0.0, true,1, 0,-360,180, -30, 7
+AddTurretWeapon = t553bm25,  0.00, 1.71, 0.0,  0.0, 0.0, true,1, 0,-360,180,   -17, 6
+AddTurretWeapon = t553bk17m, 0.00, 1.71, 0.0,  0.0, 0.0, true,1, 0,-360,180, -17, 6
+AddTurretWeapon = t55of412,  0.00, 1.71, 0.0,  0.0, 0.0, true,1, 0,-360,180,  -17, 6
+AddTurretWeapon = t55mg,    -0.41, 1.74, 1.97,  0.0, 0.0, true,1, 0,-360,180, -17, 6
 
 ;AddPartTurretWeapon    =  m240_r,   true, true, true,  0.2, 3.13, 0.41
 ;AddPartTurretWeapon    = m240_r, false, true, false,  0.21, 2.73, 0.43
@@ -111,25 +115,37 @@ AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
 RideRack = c5, 1
 RideRack = c5, 2
 
-;hull
-BoundingBox =  0.0, 0.75,  0.85,   2.65, 1.4,  0.60
+ArmorMinDamage = 20
 
-BoundingBox =  0.0, 0.75,  0.0,   2.65, 1.4,  0.60
+;hull;which part on hull????
+
+;side
+BoundingBox =  0.0, 0.75,  0.85,   2.65, 1.4,  0.25
+
+BoundingBox =  0.0, 0.75,  0.0,   2.65, 1.4,  0.25
+
+
 ;lfp
-BoundingBox =  0, 0.20,  2.15,   2.50, 0.2,  0.26
-BoundingBox =  0, 0.40,  2.35,   2.50, 0.2,  0.26
+BoundingBox =  0, 0.20,  2.15,   2.50, 0.2,  0.07
+BoundingBox =  0, 0.40,  2.35,   2.50, 0.2,  0.07
 
-BoundingBox =  0, 0.60,  2.50,   2.50, 0.2,  0.26
+BoundingBox =  0, 0.60,  2.50,   2.50, 0.2,  0.08
+
+
 ;ufp
-BoundingBox =  0, 0.80,  2.45,   2.50, 0.2,   0.18
+BoundingBox =  0, 0.80,  2.45,   2.50, 0.2,   0.08
 
-BoundingBox =  0, 1.0,  2.15,   2.50, 0.2,   0.18
-BoundingBox =  0, 1.2,  1.75,   2.50, 0.2,   0.18
-BoundingBox =  0, 1.35,  1.45,   2.50, 0.2,   0.18
+BoundingBox =  0, 1.0,  2.15,   2.50, 0.2,   0.08
+BoundingBox =  0, 1.2,  1.75,   2.50, 0.2,   0.08
+BoundingBox =  0, 1.35,  1.45,   2.50, 0.2,  0.08
 
 
 ;rearhull
 
-BoundingBox =  0.0, 0.75, -2.0,   2.65, 1.4,  0.70
+BoundingBox =  0.0, 0.75, -2.0,   2.65, 1.4,  0.25
+
+;rear rear
+BoundingBox =  0.0, 0.85, -2.5,   2.6, 1.2,  0.4
+
 ;turret
-BoundingBox =  0, 1.8,  0,   2.30, 1.2,  0.20
+BoundingBox =  0, 1.65,  0,   2.30, 1.2,  0.08

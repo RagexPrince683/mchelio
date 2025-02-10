@@ -1,8 +1,8 @@
-DisplayName = Anti Submarine Rocket
+DisplayName = RUM-139 VLASR [RUM-139 - Torpedo] 
 Type = Torpedo
 Power = 324
 ModelBullet = LWT
-Acceleration = 1.5
+Acceleration = 1.0
 AccelerationInWater = 4.0
 Explosion = 0
 ExplosionInWater = 9
@@ -13,6 +13,11 @@ GuidedTorpedo = false
 Gravity = -0.04
 GravityInWater = 0.01
 TrajectoryParticle = cloud
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 MaxAmmo = 16
 SuppliedNum = 8

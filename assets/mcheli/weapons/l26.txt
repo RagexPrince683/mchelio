@@ -2,16 +2,15 @@ DisplayName = 120mm L30A1 Rifled Cannon [L27A1 - APFSDS]
 Type = MachineGun1
 Power = 564
 ModelBullet = bullet105mm
-Explosion = 1
-ExplosionBlock = 1
+Explosion = 0
+ExplosionBlock = 0
 ;Acceleration = 16.0
 Sight = None
-ReloadTime = 80
-Delay = 100
+
 Round = 25
-SoundVolume = 1.0
+
 Sound = chalmain
-Accuracy = 1.5
+
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.001
@@ -32,7 +31,7 @@ DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
-AddDisplayName = en_US,
+
 SoundVolume = 15
 
 

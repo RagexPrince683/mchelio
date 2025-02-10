@@ -15,7 +15,7 @@ AddMuzzleFlashSmoke =  4.2, 10,  2.0,  1.0, 45,  220,160,140,120
 SoundPitch = 1.0
 Sound = bmptwomain
 Accuracy = 0.5
-ModeNum = 1
+
 group = maingun
 
 TimeFuse = 560
@@ -26,6 +26,9 @@ ProximityFuseDist = 2
 Delay = 1
 HeatCount = 7
 MaxHeatCount = 150
+
+
+ModelBullet = bullet
 
 
 ;tracer

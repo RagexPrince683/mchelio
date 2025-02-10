@@ -1,5 +1,5 @@
-DisplayName = 105mm Howitzer [M548 Shell - HERA]
-Type = MachineGun1
+DisplayName = 105mm Howitzer [M548 Shell - HE-RA]
+Type = Rocket
 Power = 152
 ModelBullet = bullet105mm
 Explosion = 8

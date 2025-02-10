@@ -4,7 +4,7 @@ Power = 9
 Acceleration = 8.0
 Explosion = 2
 ExplosionBlock = 1
-Flaming = false
+Flaming = true
 Sight = MoveSight
 Delay = 5
 ReloadTime = 100
@@ -16,6 +16,9 @@ Accuracy = 1.5
 
 Piercing = 0
 Group = MainGun
+
+ModelBullet = bullet
+
 
 
 DisplayMortarDistance = true

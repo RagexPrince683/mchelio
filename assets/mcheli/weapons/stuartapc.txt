@@ -1,25 +1,33 @@
-DisplayName = M5 37mm[APC]
+DisplayName = 37mm M5 Cannon [M51B1 - APCBC]
 Type = MachineGun2
-Power = 40
-Acceleration = 4.5
+Power = 86
+Acceleration = 6.5
 ModelBullet = bullet76mm
 Explosion = 1
-ExplosionBlock = 0
+ExplosionBlock = 1
 Sight = MoveSight
 ReloadTime = 60
+Delay = 60
 Round = 1
-Sound = cannon_1_snd
-SoundVolume = 0.7
-Accuracy = 1.25
-Piercing = 0
-HeatCount = 25
-MaxHeatCount = 25
+Sound = shermanmain
+SoundVolume = 15
+Accuracy = 1.5
+Piercing = 2
+HeatCount = 200
+MaxHeatCount = 1000
 Gravity = -0.01
-GravityInWater = 0.0
+
+Group = MainGun
+
 Particle = flame
 RecoilBufCount = 20, 5
-DamageFactor = plane, 3.0
-DamageFactor = helicopter, 3.0
+Piercing = 2
+
+DamageFactor = tank, 3.5
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
 Recoil = 0.5
 
 AddMuzzleFlash      =           2.6,   1.10,        2,  220,254,159,74

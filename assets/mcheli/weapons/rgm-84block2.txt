@@ -1,19 +1,36 @@
-DisplayName = RGM-84 Harpoon Block‡U
+DisplayName = RGM-84 Harpoon Block II [RGM-84 - HE]
 Type = TVMissile
-Power = 533
-Acceleration = 2.5
-Explosion = 11
-ExplosionInWater = 22
+Power = 1080
+DamageFactor = tank, 1.0
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+Acceleration = 5.0
+Explosion = 8
+ExplosionInWater = 16
 Flaming = true
-Sight = MoveSight
+;Sight = MoveSight
+Sight = none
 Delay = 20
-ModelBullet = RGM-84A
-SoundVolume = 3
-Sound = missile_1_snd
-DisableSmoke = true
+ModelBullet = harpoonmissle
+Sound = aimnine
+SoundPitch = 0.6
+
+Round = 4
+
+ReloadTime = 1000
+
+SoundVolume = 15
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 MaxAmmo = 4
 SuppliedNum = 1
 Item =  1, iron_ingot
-Item =  3, gunpowder
+Item =  2, gunpowder
 Item =  2, redstone

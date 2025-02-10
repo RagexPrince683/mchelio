@@ -33,7 +33,7 @@ WeightedCenterZ = 0.0
 DefaultFreelook = true
 SubmergedDamageHeight = 2
 
-HUD = mbt_hud
+HUD = mbt_hudtherm
 
 AddTexture = gepard_1
 AddTexture = gepard_2

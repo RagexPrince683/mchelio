@@ -9,6 +9,8 @@ Flaming = false
 Sight = MoveSight
 
 
+
+
 Piercing  = 0
 SoundPitch = 1.6
 
@@ -19,7 +21,7 @@ Delay = 135
 ReloadTime = 200
 Group = MainGun
 Acceleration = 7.0
-;ModelBullet = bullet105mm
+
 Piercing = 0
 Accuracy = 0.0
 SoundVolume = 15

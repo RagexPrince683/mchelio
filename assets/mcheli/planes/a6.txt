@@ -60,15 +60,14 @@ AddWeapon = agm84a7,     4.192, 2.135, -4.988,   0.0, 0.0
 AddWeapon = agm84a7,    -2.814, 1.966, -4.623,   0.0, 0.0
 AddWeapon = agm84a7,     2.814, 1.966, -4.623,   0.0, 0.0
 
-AddWeapon = aim9_l2,    -4.192, 2.135, -4.988,   0.0, 0.0
-AddWeapon = aim9_l2,     4.192, 2.135, -4.988,   0.0, 0.0
+
 
 AddWeapon = gbu-12a6, 0.0, 1.9, -4.0, 0.0, 0.0
 
 
 AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  1
 
-AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt
+AddRecipe = "AYA",  "XXX",  "TDT",  X, iron_block, Y, glass, A, iron_ingot, D, redstone, T, tnt
 
 BoundingBox =  0.00, 2.90, -3.00,  3.5, 2.8
 BoundingBox =  0.00, 2.80, -5.60,  3.0, 2.0
@@ -79,6 +78,13 @@ BoundingBox =  2.92, 2.80, -5.60,  4.0, 1.0
 
 BoundingBox = -5.55, 3.00, -6.26,  2.0, 0.2
 BoundingBox =  5.55, 3.00, -6.26,  2.0, 0.2
+
+BoundingBox = -7.55, 3.00, -7.26,  2.0, 0.2
+BoundingBox =  7.55, 3.00, -7.26,  2.0, 0.2
+
+
+
+
 
 BoundingBox =  0.00, 3.10, -10,  1.5, 1.5
 BoundingBox =  0.00, 3.15, -11.5,  1.5, 1.5

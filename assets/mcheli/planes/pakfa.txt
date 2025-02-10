@@ -2,11 +2,13 @@
 AddDisplayName = en_US, Sukhoi T-50 Su-57 (Early) PAK-FA
 AddDisplayName = ja_JP, スホーイ T-50 PAK-FA
 MaxHp = 100
-EnableNightVision = true
+EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
 Speed = 1.324
 
+
+unmountposition = 0.00,  2.83,  2.3
 OnGroundPitch = -2.0
 FlareType = 3
 ParticlesScale = 0.7
@@ -83,21 +85,31 @@ BoundingBox =  0.00, 2.70, 0.00,  2.0, 2.0
 BoundingBox =  0.00, 2.80, 4.00,  2.0, 2.0
 BoundingBox =  0.00, 2.50, 5.44,  1.5, 1.5
 BoundingBox =  0.00, 2.11, -7.50,  8.0, 2.0
-BoundingBox =  0.00, 3.11, -3.50,  4.0, 2.0
+BoundingBox =  0.00, 2.89, -3.50,  4.0, 1.55
 BoundingBox =  -1.69, 2.50, -15.49,  1.0, 1.0, 2.0
 BoundingBox =  -1.69, 2.50, -13.49,  1.0, 1.0, 2.0
 BoundingBox =  1.69, 2.50, -15.49,  1.0, 1.0, 2.0
 BoundingBox =  1.69, 2.50, -13.49,  1.0, 1.0, 2.0
+
+BoundingBox =  3.59, 2.79, -7.42,  3.5, 0.5, 0.5
+BoundingBox =  -3.59, 2.79, -7.42,  3.5, 0.5, 0.5
+
 BoundingBox =  -5.89, 2.79, -10.82,  3.5, 0.5, 0.5
 BoundingBox =  5.89, 2.79, -10.82,  3.5, 0.5, 0.5
+
+
 BoundingBox =  -4.61, 2.79, -15.13,  3.5, 0.5, 0.5
 BoundingBox =  4.61, 2.79, -15.13,  3.5, 0.5, 0.5
 
 BoundingBox = 0.0, 2.51, -14.08, 3.5, 1.0
 
-BoundingBox = 3.49, 4.01, -13.32, 1.0, 2.3
-BoundingBox = -3.49, 4.01, -13.32, 1.0, 2.3
+BoundingBox = 3.79, 4.01, -14.22, 1.0, 2.3
+BoundingBox = -3.79, 4.01, -14.22, 1.0, 2.3
 
-AddRecipe = " Y ",  "XXX",  "DXD",  X, iron_block, Y, glass, D, diamond_block
+
+BoundingBox = 3.79, 4.01, -13.32, 1.0, 2.3
+BoundingBox = -3.79, 4.01, -13.32, 1.0, 2.3
+
+AddRecipe = " Y ",  "XXX",  "XXD",  X, iron_block, Y, glass, D,  iron_ingot
 
 enableback = true

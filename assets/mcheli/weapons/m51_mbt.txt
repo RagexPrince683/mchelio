@@ -8,7 +8,7 @@ Sight = None
 ReloadTime = 150
 Round = 20
 Delay = 150
-SoundVolume = 3.0
+
 Accuracy = 1.5
 Gravity = -0.03
 Sound = shermanmain

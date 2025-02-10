@@ -1,16 +1,17 @@
-DisplayName = AGS-17
+DisplayName = 30mm AGS-17 Plamya Automatic Grenade Launcher
 Type = Rocket
 ModelBullet = mk19bullet
 Power = 19
 Acceleration = 2.5
 Explosion = 2
+ExplosionBlock = 1
 ExplosionInWater = 0
 Flaming = false
 Sight = None
 SoundVolume = 2
 Gravity = -0.03
 Accuracy = 2.0
-Sound = cannon_grenade_snd
+Sound = fourtymm
 HeatCount = 20
 MaxHeatCount = 180
 Delay = 4
@@ -19,7 +20,7 @@ ReloadTime = 180
 
 Group = MainGun
 
-SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
+;SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
 
 DisableSmoke = true
 

@@ -12,7 +12,7 @@ ThrottleUpDown = 0.3
 MaxFuel = 1000
 FuelConsumption = 1.0
 FlareType = 4
-EnableNightVision = true
+EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
 EnableSeaSurfaceParticle = true
@@ -86,11 +86,21 @@ BoundingBox =  0.00, 1.8, -6.7,  1.8, 1.6
 
 BoundingBox =  0.00, 1.65, -8.3,  1.6, 0.8, 1.5
 
+
+BoundingBox = 1.6, 1.5, -2.0, 1.4, 0.3
+BoundingBox = -1.6, 1.5, -2.0, 1.4, 0.3
+
+
 BoundingBox = 1.9, 1.5, -3.0, 2.0, 0.3
 BoundingBox = -1.9, 1.5, -3.0, 2.0, 0.3
 
 BoundingBox = 3.6, 1.4, -4.7, 1.5, 0.3
 BoundingBox = -3.6, 1.4, -4.7, 1.5, 0.3
+
+BoundingBox = 4.6, 1.4, -5.7, 1.1, 0.3
+BoundingBox = -4.6, 1.4, -5.7, 1.1, 0.3
+
+
 
 BoundingBox = 0.8, 2.19, -8.20, 1.2, 0.2
 BoundingBox = -0.8, 2.19, -8.2, 1.2, 0.2
@@ -111,4 +121,4 @@ BoundingBox = 0.0, 4.0, -10.5, 0.5, 1.2
 enableback = true
 
 
-;AddRecipe = " YX",  "XXP",  "X X",  X, iron_block, Y, glass, P, iron_ingot
+AddRecipe = "PDP",  "DID",  "PDP",  I,mcheli:mig-19s, D,iron_ingot, P, gunpowder

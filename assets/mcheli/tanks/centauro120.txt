@@ -1,6 +1,6 @@
-﻿DisplayName = B1 Centauro (120mm)
-AddDisplayName = en_US, B1 Centauro (120mm)
-AddDisplayName = ja_JP, チェンタウロ偵察戦闘車 (120mm)
+﻿DisplayName = B1 Centauro 120mm
+AddDisplayName = en_US, B1 Centauro 120mm
+AddDisplayName = ja_JP, チェンタウロ偵察戦闘車 120mm
 ItemID = 30102
 MaxHp = 200
 Speed = 0.67
@@ -42,7 +42,7 @@ WeightType = Tank
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 
-HUD = mbt_hud, mbt_gnr, gunner, gunner
+HUD = mbt_hud, mbt_gnr, gunnernvg, gunnernvg
 
 AddGunnerSeat =  0.00, 1.00,  0.00
 AddGunnerSeat =  0.00, 1.01,  0.00,   0.60, 3.40,  0.60, false, -90, 90, true

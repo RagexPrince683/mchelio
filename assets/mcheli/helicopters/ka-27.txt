@@ -12,6 +12,7 @@ CameraPosition = 0.0, 0.0, 3.1
 EnableEntityRadar = true
 MaxFuel         = 1800
 FuelConsumption = 1.0
+ThirdPersonDist = 20
 
 
 sound = hind
@@ -22,7 +23,7 @@ soundvolume = 15
 ; M = Military(軍用機).  S = Antisubmarine(対潜機)
 Category = M.S
 
-HUD = heli, none, none, none, none, none, none, none
+HUD = helinvg, none, none, none, none, none, none, none
 
 MobilityYaw = 0.9
 MobilityPitch = 0.9
@@ -54,7 +55,7 @@ AddWeapon = plab-250-120,  1.25, 1.35,-4.00,   0.0, 0.0
 AddWeapon = targeting_pod_mob,     0.0, 0.0, 3.1,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.0, 3.1,   0.0, 0.0,  false,2
 
-AddRecipe = "X X",  "X X",  " X ",  X, iron_block
+AddRecipe = "BPB", "BCB", "EHB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2, H, hfr:item.kit_repeating
 
 InventorySize = 27
 

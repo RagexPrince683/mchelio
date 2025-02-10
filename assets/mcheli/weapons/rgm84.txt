@@ -5,7 +5,7 @@ DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 4.0
+Acceleration = 5.0
 Explosion = 8
 ExplosionInWater = 16
 Flaming = true
@@ -15,6 +15,10 @@ Delay = 20
 ModelBullet = harpoonmissle
 Sound = aimnine
 SoundPitch = 0.6
+
+Round = 4
+
+ReloadTime = 1000
 
 SoundVolume = 15
 

@@ -6,7 +6,7 @@ ExplosionBlock = 4
 Acceleration = 4.0
 SoundVolume = 1.0
 Sound = artillery_gun_snd
-Accuracy = 1.0
+Accuracy = 1.5
 ModelBullet = bullet105mm
 Flaming = true
 Sight = None
@@ -21,7 +21,7 @@ HeatCount = 900
 MaxHeatCount = 2050
 
 
-Gravity = -0.05
+Gravity = -0.030
 Recoil = 3
 ;ModeNum = 1
 Round = 1

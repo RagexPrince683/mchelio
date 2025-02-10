@@ -4,7 +4,7 @@ Power = 9
 Acceleration = 5.0
 Explosion = 3
 ExplosionBlock = 1
-Flaming = true
+Flaming = false
 Sight = MoveSight
 Delay = 2
 ReloadTime = 120
@@ -14,6 +14,8 @@ SoundPitch = 1.0
 SoundPitchRandom = 0.1
 Sound = bmptwomain
 Accuracy = 1.5
+
+ModelBullet = bullet
 
 group = maingun
 

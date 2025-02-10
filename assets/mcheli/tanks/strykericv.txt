@@ -19,7 +19,7 @@ MinRotationPitch = 90
 MaxRotationPitch = -90
 MobilityRoll = 0
 InventorySize = 10
-StepHeight = 1.8
+StepHeight = 1.5
 DefaultFreelook = false
 MotionFactor = 0.9
 

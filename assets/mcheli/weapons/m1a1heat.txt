@@ -1,21 +1,23 @@
-DisplayName = 120mm M256 Smoothbore Cannon [M830 - HEATFS]
+DisplayName = 120mm M256 Cannon [M830 - HEAT]
 Type = MachineGun1
 Power = 480
-Explosion = 4
+Explosion = 6
 ExplosionBlock = 4
 
 Acceleration = 7.0
 Sight = None
-ReloadTime = 140
-Round = 1
-SoundVolume = 10.0
-Sound = abramsmain
-Accuracy = 0.5
+
+Round = 8
+
+SoundPitchRandom = 0.1
+
+Sound = gheat
+
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.001
+Gravity = -0.003
 
-ProximityFuseDist = 2
+;ProximityFuseDist = 2
 
 ; AddMuzzleFlash = 発射元からの距離, サイズ, 表示時間,  A,  R,  G,  B
 AddMuzzleFlash      =           10.2,   2.10,        7,  220,254,159,74
@@ -26,11 +28,19 @@ AddMuzzleFlashSmoke   =              10.2,     30,   12.0,  4.0,       65,  220,
 AddMuzzleFlashSmoke   =             11.2,     20,   13.0,  7.0,       55,  200,190,170,150
 
 Delay = 140
-ReloadTime = 140
+ReloadTime = 160
+
+
+
+HeatCount = 900
+MaxHeatCount = 2050
+
+
+
 Group = MainGun
-Acceleration = 7.0
+Acceleration = 6.0
 BulletColor        = 255, 255, 100, 100
-ModelBullet = bullet105mm
+ModelBullet = 3bk18m
 Piercing = 0
 Accuracy = 0.0
 DamageFactor = tank, 2.0
@@ -41,10 +51,13 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
+Recoil = 1.8
+
 DisplayMortarDistance = true
 
 
-MaxAmmo = 10
-SuppliedNum = 2
-Item =  1, iron_ingot
-Item =  2, gunpowder
+MaxAmmo = 8
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  4, gunpowder
+;Item =  1, redstone

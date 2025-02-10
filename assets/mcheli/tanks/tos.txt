@@ -1,24 +1,24 @@
-DisplayName = TOS-1 "Buratino"
+DisplayName = TOS-1A Buratino
 MaxHp = 450
-Speed = 0.5
+Speed = 0.37
 Sound = tninety
-ThrottleUpDown = 10.0
+ThrottleUpDown = 1.0
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
 EnableNightVision = true
 CameraRotationSpeed = 30
-StepHeight = 1.7
-MinRotationPitch = -19
-MaxRotationPitch = 2
-DefaultFreelook = true
+StepHeight = 1.8
+MinRotationPitch = -48
+MaxRotationPitch = 3
+DefaultFreelook = false
 HideEntity = true
-CameraPosition = 0.00,  4.5, -0, true
+CameraPosition = 0.00, 1.6, 2.15, false
 
-MobilityYawOnGround = 3.0
+MobilityYawOnGround = 2.5
 
-HUD = mbt_hud, mbt_hud
+HUD = mbt_hudtwo, mbt_hud
 
 SubmergedDamageHeight = 2
 
@@ -29,11 +29,11 @@ HideEntity = true
 
 WeightType = Tank
 
-SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
+
 
 ;wheel pos copy and pasted from t-90a
 
-AddGunnerSeat =  0.00, 1.58, 0.44,   0.00, 15, 0,  true, -22, 3, true
+AddGunnerSeat =  0.00, 0.50, 0.44,   0.00, 1.6, 2.15,  false, -48, 3, false
 
 unmountposition = 0.00, 1.58, 0.44
 
@@ -42,6 +42,7 @@ unmountposition = 0.00, 1.58, 0.44
 AddCrawlerTrack = true, 0.23, -2.40,  -0.30/3.13, -0.17/3.46, 0.34/4.31, 0.61/4.42, 0.87/4.31, 0.98/4.04, 0.98/-3.32, 0.87/-3.59, 0.61/-3.70, 0.34/-3.59, -0.31/-2.12
 AddCrawlerTrack = true, 0.23,  2.40,  -0.30/3.13, -0.17/3.46, 0.34/4.31, 0.61/4.42, 0.87/4.31, 0.98/4.04, 0.98/-3.32, 0.87/-3.59, 0.61/-3.70, 0.34/-3.59, -0.31/-2.12
 
+SetWheelPos =  1.90,  -0.24,  3.13, 2.08, 1.03, -0.02, -1.07, -2.12
 
 AddTrackRoller = -2.32,  0.60,  4.04
 AddTrackRoller = -2.32,  0.16,  3.13
@@ -61,14 +62,14 @@ AddTrackRoller = 2.32,  0.16, -1.07
 AddTrackRoller = 2.32,  0.16, -2.12
 AddTrackRoller = 2.32,  0.60, -3.32
 
-AddWeapon = tos220mm,  1.2052, 2.7851, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
-AddWeapon = tos220mm,  0.4657, 2.7851, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
-AddWeapon = tos220mm,  -0.2739, 2.7851, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
-AddWeapon = tos220mm,  -1.385, 2.7851, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
-AddWeapon = tos220mm,  1.2052, 2.2179, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
-AddWeapon = tos220mm,  0.4657, 2.2179, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
-AddWeapon = tos220mm,  -0.2739, 2.2179, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
-AddWeapon = tos220mm,  -1.385, 2.2179, -1.9753,  0.0, 0.0, true,2, 0,0,0, -19, 2
+AddWeapon = tos220mm,  1.2052, 2.7851, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -48, 3
+AddWeapon = tos220mm,  0.4657, 2.7851, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -48, 3
+AddWeapon = tos220mm,  -0.2739, 2.7851, -1.9753,  0.0, 0.0, true,1, 0,0,0, -48, 3
+AddWeapon = tos220mm,  -1.385, 2.7851, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -48, 3
+AddWeapon = tos220mm,  1.2052, 2.2179, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -48, 3
+AddWeapon = tos220mm,  0.4657, 2.2179, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -48, 3
+AddWeapon = tos220mm,  -0.2739, 2.2179, -1.9753,  0.0, 0.0, true,1, 0,0,0, -48, 3
+AddWeapon = tos220mm,  -1.385, 2.2179, -1.9753,  0.0, 0.0, true,1, 0,0,0,  -48, 3
 AddPartWeapon = tos220mm, false, true, false,  0.00, 1.43, 0.3764, 0
 AddPartWeaponChild = false, true, 0.00, 1.5739, -3.2144
 

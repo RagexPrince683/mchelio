@@ -5,7 +5,8 @@ ItemID = 30046
 MaxHp = 100
 MaxFuel         = 1200
 FuelConsumption = 1.0
-Regeneration = true
+Regeneration = false
+ThirdPersonDist = 20
 
 AddTexture = s76vip_white
 AddTexture = s76vip_green
@@ -40,7 +41,7 @@ AddSeat =-0.79,  1.05, -4.24
 AddSeat = 0.00,  1.05, -4.24
 AddSeat = 0.79,  1.05, -4.24
 
-AddRecipe = "IFI",  "GKB",  "BB ",  B, iron_block,  I, iron_ingot,  G, glass,  K, gold_ingot,  F, furnace,
+AddRecipe = "BPB", "BCB", "BEB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2
 
 InventorySize = 27
 

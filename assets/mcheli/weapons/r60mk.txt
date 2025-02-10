@@ -17,8 +17,8 @@ ProximityFuseDist = 1
 ModelBullet = r60
 Sound = missile_1_snd
 
-MaxAmmo = 4
-SuppliedNum = 4
+MaxAmmo = 2
+SuppliedNum = 2
 Item =  2, iron_ingot
 Item =  2, gunpowder
 Item =  2, redstone

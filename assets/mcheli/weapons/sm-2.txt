@@ -1,4 +1,4 @@
-DisplayName = RIM-156 SM-2ER
+DisplayName = RIM-156 SM-2ER [RIM-156 - HE]
 Type = AAMissile
 Power = 70
 Acceleration = 3.5
@@ -13,8 +13,10 @@ ProximityFuseDist = 1
 HeatCount = 20
 MaxHeatCount = 60
 
-DamageFactor = helicopter, 2.0
-DamageFactor = plane, 2.0
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
 
 MaxAmmo = 48
 SuppliedNum = 8

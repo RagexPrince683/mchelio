@@ -1,20 +1,29 @@
-DisplayName = 120mm IMI MG253 Smoothbore Cannon[APFSDS]
+DisplayName = 120mm IMI MG251 Cannon [M322 - APFSDS]
 Type = MachineGun1
-Power = 960
-Delay = 165
-Explosion = 1
-ExplosionBlock = 1
+Power = 600
+
+Explosion = 0
+ExplosionBlock = 0
 Acceleration = 7.0
 Sight = None
-ReloadTime = 165
-Round = 1
-SoundVolume = 10.0
+
+Delay = 140
+ReloadTime = 160
+Round = 10
+SoundVolume = 15.0
+
+HeatCount = 2050
+MaxHeatCount = 20500
+
+ModelBullet = bullet105mm
+
+
 Sound = merkavamain
 Accuracy = 0.0
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Group = MainGun
-Piercing = 1
+Piercing = 5
 DamageFactor = tank, 10.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
@@ -35,6 +44,6 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 Gravity = -0.001
 
 MaxAmmo = 12
-SuppliedNum = 12
-Item =  1, iron_ingot
-Item =  1, gunpowder
+SuppliedNum = 3
+Item =  3, iron_ingot
+Item =  3, gunpowder

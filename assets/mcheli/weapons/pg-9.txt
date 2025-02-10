@@ -7,7 +7,7 @@ Explosion = 5
 ExplosionBlock = 4
 Flaming = false
 Sight = MoveSight
-Delay = 180
+
 ModeNum = 1
 Sound = spgnine
 Gravity = -0.005
@@ -28,6 +28,9 @@ AddMuzzleFlashSmoke = -5.0, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Delay = 70
 ReloadTime = 100
+
+Round = 1
+
 Group = MainGun
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
@@ -45,8 +48,8 @@ Recoil = 1.0
 RecoilBufCount = 40, 5
 
 
-MaxAmmo = 10
-SuppliedNum = 5
+MaxAmmo = 3
+SuppliedNum = 1
 Item =  4, iron_ingot
 Item =  4, gunpowder
 
