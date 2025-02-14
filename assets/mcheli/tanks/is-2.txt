@@ -139,9 +139,7 @@ AddTurretWeapon = is212.7mmDShK,    0.9518, 3.649, -0.87,   0.0, 0.0, false,2, 0
 AddPartWeaponChild = false, true, 0.9518, 3.649, 0.7738
 
 
-;RIP AddRecipe = " B ",  "CDE", " F ",  B, glass, C, hfr:item.part_engine_2, D, hfr:item.part_chassis_3, E, hfr:item.part_cannon_3, F, hfr:item.part_treads
-
-AddRecipe = " X ",  " X ",  "III",  X, iron_block,  I, iron_ingot
+AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1

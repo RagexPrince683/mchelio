@@ -72,7 +72,7 @@ AddTrackRoller =  1.25,  0.255,  -2.5798
 AddCrawlerTrack = false, 0.13, -1.15,   0.84/ 2.38,  0.76/ 2.69, 0.46/ 2.82, 0.15/ 2.69, -0.21/ 1.83, -0.28/ 1.49, -0.28/ -1.72, 0.0/ -2.84, 0.255/ -2.95, 0.52/ -2.84, 0.62/ -2.58, 0.73/ -0.26, 0.77/ 0.8,
 AddCrawlerTrack = false, 0.13,  1.15,   0.84/ 2.38,  0.76/ 2.69, 0.46/ 2.82, 0.15/ 2.69, -0.21/ 1.83, -0.28/ 1.49, -0.28/ -1.72, 0.0/ -2.84, 0.255/ -2.95, 0.52/ -2.84, 0.62/ -2.58, 0.73/ -0.26, 0.77/ 0.8,
 
-AddShapelessRecipe = iron_block,iron_block
+AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
 
 AddPartWeapon = 38tapcbc / 38tapcr, false, true, false,  0.0, 1.5582, 0.00, 0
 ;/ 38the

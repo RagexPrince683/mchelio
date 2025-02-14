@@ -140,10 +140,7 @@ BoundingBox = 0.0, 1.10, -1.33, 2.3, 1.2, 1.0
 
 UnmountPosition = 0.70,  1.50,  0.31
 
-;RIP AddRecipe = "BBB",  "CDC", "CEC",  B, glass, C, hfr:item.part_wheel, D, hfr:item.part_engine_1, E, hfr:item.part_plating_1
-
-AddRecipe = " G ",  "I I",  " I ",   G, glass, I, iron_ingot
-AddRecipe = " G ",  "   ",  " I ",   G, mcheli:hel, I, chest
+AddRecipe = " CA", "E X", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics
 
 
 BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9

@@ -134,6 +134,6 @@ ArmorMinDamage = 35
 ArmorDamageFactor = 2.32
 Regeneration = false
 
-AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_block, R, redstone
+AddRecipe = " CA", "E X", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics
 
 unmountposition = 0.0, 1.50,  -2.8044

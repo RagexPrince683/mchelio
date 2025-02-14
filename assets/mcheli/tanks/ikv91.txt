@@ -75,7 +75,8 @@ AddTurretWeapon = ikvmg7_62mmcox, 0.20, 1.9315, 0, 0.0, 0.0, true,1, 0,-360,360,
 AddPartTurretWeapon    = ikvmg7_62mm,  false, true, false, -0.9972, 2.6965, 0.1723
 AddPartTurretWeapon    = ikvmg7_62mm,   false, true, true,  -0.9972, 2.6965, 0.1723
 AddTurretWeapon = ikvmg7_62mm,   -0.9972, 2.6965,  0.1723,   0.0, 0.0, false, 2, 0, -120,120, -15,5
-AddRecipe = " X ",  " I ",  "III",  X, iron_block,  I, iron_ingot
+
+AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
 
 
 ArmorMinDamage = 8

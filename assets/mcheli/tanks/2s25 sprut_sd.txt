@@ -106,7 +106,9 @@ AddTurretWeapon = sp2a75-3_HE,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,3
 AddTurretWeapon = sp2a75-2_HEATMP,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360,         -17, 5
 AddTurretWeapon = sp2a75-4_9M119M_Refleks,     0.0, 1.657, 0.80,  0.0, 0.0, true,1, 0,-360,360, -17, 5
 AddTurretWeapon = 2spkt_7.62mm, -0.3, 1.657, 0.80, 0, 0, true,1, 0, -360,360, -17, 5
-AddRecipe = "XXX",  " X ",  "III",  X, iron_block,  I, iron_ingot
+
+AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+
 RideRack = c5, 1
 RideRack = c5, 2
 

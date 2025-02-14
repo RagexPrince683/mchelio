@@ -64,7 +64,7 @@ AddTurretWeapon =  favm60_r, -0.51, 1.30, 0.93,   0.0, 0.0, false, 2, 0, 0, 90, 
 
 InventorySize = 9
 
-AddRecipe = " G ",  "I I",  "RIR",   G, mcheli:m151_m2, I, iron_ingot, R, redstone
+AddRecipe = "AC ", "EXG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
 
 ;ヘッドライト
 AddFixedSearchLight =  0.3724, 1.0090, 2.3010,   0x50FFFFFF,   0x00FFFFC0,    0.3, 0.6,  -5,  0

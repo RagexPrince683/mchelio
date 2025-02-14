@@ -103,8 +103,7 @@ AddPartWeaponChild = false, true,   0.5994, 1.515, 2.609
 
 ;AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
 
-AddRecipe = " X ",  " X ",  "III",  X, iron_block,  I, iron_ingot
-
+AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 ArmorMinDamage = 30
 

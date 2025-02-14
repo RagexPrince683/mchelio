@@ -114,7 +114,7 @@ AddTurretWeapon = 2a4mg3,      0.37, 2.22, 1.46,  0.0, 0.0, true,1, 0,-360,360, 
 AddPartTurretWeapon    = 2a4mg3_l,   false, true, true,   1.3691, 3.3846, -0.4273
 AddTurretWeapon = 2a4mg3_l,    1.3691, 3.4189, -0.4273,   0.0, 0.0, false, 2, 0, -180, 180, -75,10
 
-AddRecipe = "DGX",  "IXI",  "CRX",   X, iron_block,  G, glass, I, iron_ingot,  D,dispenser,  R,redstone_block,  C,lapis_block
+AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 
 

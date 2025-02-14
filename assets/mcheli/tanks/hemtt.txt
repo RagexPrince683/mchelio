@@ -66,7 +66,7 @@ AddPartWheel =   -0.5838,  0.3523, -3.506
 
 SetWheelPos =  0.75,  -0.24,  2.6,  1.09, -1.97, -3.5
 
-AddRecipe = "III",  " I ",  "III",   I, iron_ingot
+AddRecipe = "AC ", "E X", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics
 
 BoundingBox = 0.0, 0.8, -3.7, 1.0, 0.6
 BoundingBox = 0.0, 1.0, -3.0, 1.0, 0.8

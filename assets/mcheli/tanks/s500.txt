@@ -107,4 +107,4 @@ unmountposition = 1.0189,  1.5, 3.2554
 ArmorMinDamage = 2
 
 
-AddRecipe = " I ",  "IXI",  "III",  X, iron_block,  I, iron_ingot
+AddRecipe = "ACX", "GE ", "WEW", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3

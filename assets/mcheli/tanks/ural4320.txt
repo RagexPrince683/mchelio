@@ -57,7 +57,8 @@ AddWeapon = thorn,    0.00, 0.00, 0.00,  0.0,0.0
 
 ;Creative only
 ;nyet
-AddRecipe = "XXX",  "XCX",  "XXX",  X, iron_ingot, C, coal
+
+AddRecipe = "AC ", "E X", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics
 
 AddPartWheel     =  1.4079, 0.3216, 2.8474, 30
 AddPartWheel     = -1.4079, 0.3216, 2.8474, 30

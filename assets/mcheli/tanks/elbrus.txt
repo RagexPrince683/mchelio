@@ -101,7 +101,7 @@ BoundingBox = 0.10, 1.4, -4.4, 4.6, 0.4
 BoundingBox = 0.10, 3.3, -0.0, 1.0, 1.0, 10
 BoundingBox = 0.10, 3.3, -7.0, 1.0, 1.0, 10
 
-AddRecipe = "IXI",  "RXR",  "III",  X, iron_block,  I, iron_ingot, R, redstone_block
+AddRecipe = "ACX", "GGE", "WEW", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 
 

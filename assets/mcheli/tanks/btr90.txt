@@ -111,7 +111,7 @@ HideEntity = false
 RideRack = c5, 1
 RideRack = c5, 2
 
-AddRecipe = "III",  " I ",  "III",   I, iron_ingot
+AddRecipe = "AC ", "EXG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
 
 BoundingBox = 0.0, 2.15, 0.0, 1.0, 1.0, 0.2
 

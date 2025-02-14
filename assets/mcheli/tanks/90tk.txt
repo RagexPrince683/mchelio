@@ -107,7 +107,7 @@ AddPartTurretWeapon    = 90m2_1,   false, true, true,   0.30, 3.07, 0.60
 AddPartTurretWeapon    = 90m2_1,   false, true, false,  0.30, 3.07, 0.60
 AddTurretWeapon = 90m2_1,    0.31, 3.07,  0.59,   0.0, 0.0, false, 3, 0, -60,60, -60,8
 
-AddRecipe = "XPX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot,  P, piston
+AddRecipe = "ACA", "EXG", "T T", T, hfr:item.part_treads, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1

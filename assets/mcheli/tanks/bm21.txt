@@ -345,7 +345,7 @@ BoundingBox = 0.0, 0.9, 0.0, 2.6, 1.0
 BoundingBox = 0.0, 0.9, 2.6, 2.6, 1.0
 BoundingBox = 0.0, 0.9, 5.2, 2.6, 1.0
 
-AddRecipe = " G ",  "I I",  " IX",   G, glass, I, iron_ingot, X, iron_block
+AddRecipe = "ACX", "EGG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 
 DefaultFreelook = false

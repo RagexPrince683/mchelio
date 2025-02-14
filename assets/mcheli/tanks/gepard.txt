@@ -80,8 +80,7 @@ AddTurretWeapon = targeting_pod_all100s,     0.60, 3.40, 0.60,   0.0, 0.0,  true
 AddTurretWeapon = uhf_radar,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 1
 AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,1
 
-AddRecipe = " IR",  "I I",  "III",  I, iron_ingot, R, redstone
-
+AddRecipe = "ACA", "EXG", "T T", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
 
 BoundingBox = 0.0, 2.3, 0.0, 2.0, 1.7, 1.0
 BoundingBox = 0.0, 1.15, -3.3, 3.0, 0.7, 1.0

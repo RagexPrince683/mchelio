@@ -109,7 +109,8 @@ AddRack = zu23/container/davycrockett, 0.00, 0.9862, -1.708, 0.0, 1.0, -1.25
 
 InventorySize = 9
 
-AddRecipe = "IGI",  "IRI",  "III",   G, glass, I, iron_ingot, R, redstone
+AddRecipe = " CA", "E X", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics
+
 AddFixedSearchLight =   0.878,  0.9808, 3.455,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
 AddFixedSearchLight =  -0.8793, 0.989, 3.4728,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25, -6.0,  0
 
