@@ -57,8 +57,11 @@ AddGunnerSeat = 0.00,  0.99,  0.10,  0.0, 3.20, 0.42,  true
 ;AddWeapon = 武器名, 位置X,Y,Z, Yaw, Pitch, パイロットが使用できる？, 座席番号, DefaultYaw,RangeYaw, MinPitch, MaxPitch
 0
 
-AddWeapon = sam2,  1.82,  1.00, -0.40,  1, 0
-AddWeapon = sam2, -1.82,  1.00, -0.40, -1, 0
+AddWeapon = oh1hydra, -1.11, 1.10, -1.26, 0, 0
+AddWeapon = oh1hydra, 1.11, 1.10, -1.26, 0, 0
+
+AddWeapon = sam2oh1,  1.82,  1.00, -0.40,  1, 0
+AddWeapon = sam2oh1, -1.82,  1.00, -0.40, -1, 0
 
 AddWeapon = targeting_pod_mob,     0.0, 0.3, 1.4,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.3, 1.4,   0.0, 0.0
