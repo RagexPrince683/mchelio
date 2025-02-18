@@ -1,0 +1,179 @@
+﻿DisplayName = ZTZ59D
+AddDisplayName = en_US, ZTZ59D
+AddDisplayName = zh_CN,  59D型坦克
+ItemID = 8894
+MaxHp = 203
+Speed = 0.31
+Sound = typefiftynine
+ThrottleUpDown = 5.0
+MobilityYawOnGround = 2.8
+MinRotationPitch = -18
+MaxRotationPitch = 4
+MobilityRoll = 0
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor = 0.0
+CameraPosition = 0.00,  3.25, 0.90, true
+CameraZoom = 7
+EnableNightVision = true
+CameraRotationSpeed = 6
+FlareType = 10
+MaxFuel         = 1000
+FuelConsumption = 2.3
+StepHeight = 1.8
+DefaultFreelook = true
+OnGroundPitchFactor = 2.5
+OnGroundRollFactor  = 1.0
+FlareType = 10
+;EnableGunnerMode = true
+SubmergedDamageHeight = 3
+EnableEntityRadar = false
+HideEntity = false
+
+
+
+
+
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+
+TurretPosition = 0.0, 1.0, 0.0
+
+
+WeightedCenterZ = 0.0
+
+SetWheelPos =  1.50,  -0.32,  2.6154, 1.1941, 0.0834,-1.0811,-2.2515
+
+HUD = mbt_hudtwo, gunnernvg
+
+
+
+AddGunnerSeat =  0.00,  1.25,  2.25,    0.00,  2.50,  0.0,  false, -90, 90, true
+
+AddGunnerSeat = -0.5352, 2.80,  -0.494,   -0.5352, 3.80,  -0.494, false, -90, 90, true
+
+
+;only works for passenger:
+
+;AddGunnerSeat =  0.00,  1.25,  2.25,    0.00,  2.50,  0.0,  false, -90, 90, true
+
+;AddGunnerSeat = -0.4993, 2.5936, -0.6339,   -0.4993, 3.9936, -0.6339, false, -90, 90, true
+
+
+;AddGunnerSeat = -0.4993, 2.5936, -0.6339,   -0.4993, 3.9936, -0.6339, false, -90, 90, true
+
+
+
+;AddSeat = 0.00,  2.50,  0.0
+
+
+;AddGunnerSeat =  0.00,  1.25,  2.25,    0.00,  2.50,  0.0,  false, -90, 90, true
+
+
+
+
+
+
+MotionFactor = 0.9
+
+
+;ArmorMinDamage = 9
+;ArmorMaxDamage = 350
+ArmorDamageFactor = 1.0
+
+EnableBack = true
+
+
+PivotTurnThrottle = 0.0
+
+
+
+
+
+
+AddCrawlerTrack = false, 0.22,  1.6708,    1.1831/ 3.8425, 1.1805/ -3.3349, 1.1547/ -3.5325, 0.8331/ -3.7146, 0.6170/ -3.6332, 0.4642/ -3.4996, -0.1129/ -2.6359, -0.2312/ -2.4563, -0.2756/ -2.2458, -0.2756/ 2.7070, -0.2246/ 2.9054, 0.4969/ 4.1005, 0.7014/ 4.2128, 0.9448/ 4.1905, 1.1203/ 4.0604
+
+
+
+AddCrawlerTrack = false, 0.22, -1.6708,    1.1831/ 3.8425, 1.1805/ -3.3349, 1.1547/ -3.5325, 0.8331/ -3.7146, 0.6170/ -3.6332, 0.4642/ -3.4996, -0.1129/ -2.6359, -0.2312/ -2.4563, -0.2756/ -2.2458, -0.2756/ 2.7070, -0.2246/ 2.9054, 0.4969/ 4.1005, 0.7014/ 4.2128, 0.9448/ 4.1905, 1.1203/ 4.0604
+
+
+
+
+TrackRollerRot = 30
+
+
+AddTrackRoller = 1.51, 0.8006, 3.8332
+AddTrackRoller = 1.51, 0.2964, 2.6154
+AddTrackRoller = 1.51, 0.2964, 1.1941
+AddTrackRoller = 1.51, 0.2964, 0.0834
+AddTrackRoller = 1.51, 0.2964,-1.0811
+AddTrackRoller = 1.51, 0.2964,-2.2515
+AddTrackRoller = 1.51, 0.8006,-3.3547
+
+
+AddTrackRoller = -1.51, 0.8006, 3.8332
+AddTrackRoller = -1.51, 0.2964, 2.6154
+AddTrackRoller = -1.51, 0.2964, 1.1941
+AddTrackRoller = -1.51, 0.2964, 0.0834
+AddTrackRoller = -1.51, 0.2964,-1.0811
+AddTrackRoller = -1.51, 0.2964,-2.2515
+AddTrackRoller = -1.51, 0.8006,-3.3547
+
+
+
+AddPartWeapon = 100AP59d / 100HE59d / 100he-59d, false, true, false,  0.00, 2.2927, 0.00, 0
+AddPartWeaponChild = false, true, 0.00, 2.2927, 1.23, 0.0
+AddPartWeaponChild = false, true, 0.00, 2.2927, 1.23, 0.4
+AddTurretWeapon = 100AP59d, 0.00, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -18, 4
+AddTurretWeapon = 100HE59d, 0.00, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -18, 4
+AddTurretWeapon = 100he-59d, 0.00, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -18, 4
+AddTurretWeapon =  mg_coaxial59d, 0.35, 2.2927, 0.23,  0.0, 0.0, true,1, 0,-360,360, -18, 4
+
+
+
+
+
+AddPartTurretWeapon    = 12_7mmgun59d,   false, true, true,  -0.4993, 3.5321, 0.0339
+AddPartTurretWeapon    = 12_7mmgun59d,  false, true, true, -0.4993, 3.2936, 0.0339
+AddTurretWeapon = 12_7mmgun59d,   -0.4993, 3.5321, 0.0339,   0.0, 0.0, false, 2, 0, -80,80, -82,4
+
+
+
+ArmorMinDamage = 20
+
+;BoundingBox =  0.00, 0.7259,  0.272,  4.6, 2.5,  0.60
+;BoundingBox =  0.00, 2.46,  0.00,  3.40, 1.2,  1.00
+;BoundingBox =   1.1, 0.62,  3.30,  2.3, 2.21,  0.80
+;BoundingBox =  -1.1, 0.62,  3.30,  2.3, 2.21,  0.80
+;BoundingBox =   1.1, 0.62,  -3.10,  2.30, 2.51,  0.90
+;BoundingBox =  -1.1, 0.62,  -3.10,  2.30, 2.51,  0.90
+
+;front hull 180mm
+BoundingBox = 0.0, 1.0, 1.7, 3.0, 1.0, 0.11
+BoundingBox = 0.0, 1.0, 1.9, 3.0, 0.8, 0.11
+BoundingBox = 0.0, 1.0, 2.1, 3.0, 0.6, 0.11
+BoundingBox = 0.0, 1.0, 2.3, 3.0, 0.4, 0.11
+BoundingBox = 0.0, 1.0, 2.1, 3.0, 0.2, 0.11
+BoundingBox = 0.0, 0.8, 2.6, 3.0, 0.1, 0.11
+;mid
+BoundingBox = 0.0, 1.2, 0.0, 3.1, 0.65, 0.25
+BoundingBox = 0.0, 1.2, 1.5, 3.1, 0.65, 0.25
+BoundingBox = 0.0, 1.0, -2.0, 3.0, 1.25, 0.25
+;back
+BoundingBox = 0.0, 1.0, -2.3, 2.8, 1.25, 0.44
+;top of hull 30mm
+BoundingBox = 0.0, 1.3, 1.5, 3.0, 0.65, 0.66
+;turret
+BoundingBox = 0.0, 2.1, 0.0, 2.4, 1.2, 0.1
+
+UnmountPosition = 0.00,  2.50, 0.00
+
+AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+
+
+
+;EntityWidth  = 0.8
+;EntityHeight = 0.8
