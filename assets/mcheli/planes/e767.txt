@@ -69,7 +69,7 @@ AddPartLG = -2.25, 2.00,  -23.54,  0,0,1,  90
 AddPartLGHatch =  0.30, 1.37,  -23.54,  0,0,1,-90
 AddPartLGHatch = -0.30, 1.37,  -23.54,  0,0,1, 90
 
-AddRecipe = " R ",  "DYD",  "III",  Y,mcheli:uav_station, R,redstone_block, I,iron_block, D,iron_ingot
+AddRecipe = "CAC", "E X", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics
 
 
 BoundingBox = 0.0, 3.91, -5.30, 4.0, 4.0

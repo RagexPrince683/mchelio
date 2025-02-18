@@ -140,7 +140,7 @@ BoundingBox = 6.90, 18.03, -64.23, 4.0, 0.5
 BoundingBox = -6.90, 18.03, -64.23, 4.0, 0.5
 
 
-AddRecipe = "   ",  "YXY",  "   ",  X, mcheli:c5, Y, iron_ingot
+AddRecipe = "CAC", "E X", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics
 
 ; AddRack=Entity type,                    RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute atl,  Yaw, Pitch
 AddRack = m1a2, 0.0, 2.40, -7,   0, 0, 17.0,   11,   20

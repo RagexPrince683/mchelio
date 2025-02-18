@@ -68,7 +68,7 @@ AddWeapon = cbu-87, -2.00, 1.10, -3.9,   0.0, 0.0
 AddWeapon = cbu-72,  0.65, 1.35, -3.9,   0.0, 0.0
 AddWeapon = cbu-72, -0.65, 1.35, -3.9,   0.0, 0.0
 
-AddRecipe = "ZYZ",  "XXX",  "DQD",  X, iron_block, Y, glass, Z, iron_ingot, D, gunpowder, Q, redstone
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
 
 BoundingBox =  0.00, 3.04, -0.39,  1.8, 2.4
 BoundingBox =  0.00, 2.55,  1.21,  1.5, 1.5

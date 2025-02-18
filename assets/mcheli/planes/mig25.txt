@@ -44,7 +44,7 @@ AddPartLGRev =-0.38,3.2,6.33,0,1,0.4,180
 AddPartThrottle = 0.49, 2.91,5.82, 0, 0, 0,  0, 0,0, 0.21
 AddPartThrottle = 0.78, 2.38,-14.63, 0, 0, 0,  0, 0,0, -5
 AddPartThrottle = -0.81, 2.38,-14.63, 0, 0, 0,  0, 0,0, -5
-AddRecipe = "XG ",  "XXR",  "DXD",  X, iron_block, D, redstone, G, glass, R, iron_ingot
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1, K, hfr:item.kit_hmg
 
 AddPartWeaponMissile = R73, false, false, false,  -6.01, 1.93, -4.8
 AddPartWeaponMissile = R73, false, false, false,  -5.19, 1.98, -4.02

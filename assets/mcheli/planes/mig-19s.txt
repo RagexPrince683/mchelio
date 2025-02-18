@@ -60,7 +60,7 @@ AddWeapon = s-5m57mm, -2.349, 0.792, 0.689,  -1.0, 0.0
 ;AddWeapon = droptank2,  3.334, 0.516, -2.97,  0.0, 0.0
 ;AddWeapon = droptank2, -3.334, 0.516, -2.97,  0.0, 0.0
 
-AddRecipe = "PDP",  "DID",  " D ",  I,mcheli:mig17f, D,iron_ingot, P, gunpowder
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2, K, hfr:item.kit_hmg
 
 
 BoundingBox = 0.0, 1.6, 4.0, 1.2, 1.2

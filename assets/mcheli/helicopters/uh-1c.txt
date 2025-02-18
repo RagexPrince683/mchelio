@@ -58,7 +58,7 @@ AddWeapon = targeting_pod_pv10s,0.0, 0.7, 3.0,0.0, 0.0,  false, 2
 AddWeapon = ffar,   1.91, 0.27, -2.54,   1.0, 0.0,  true,  1,  0,0,0, 0, 30
 AddWeapon = ffar,  -1.91, 0.27, -2.54,  -1.0, 0.0,  true,  1,  0,0,0, 0, 30
 
-AddRecipe = "APA", "ACE", "AHA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, C, hfr:item.components_electronics, E, hfr:item.part_engine_1, H, hfr:item.kit_auto
+AddRecipe = "APA", "ACE", "AHA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2, H, hfr:item.kit_auto
 
 
 BoundingBox = 0.0, 3.3, -2.5, 0.5, 1.5, 1.5

@@ -128,4 +128,4 @@ BoundingBox = -1.83, 3.05, -10.46, 0.5, 2.5
 BoundingBox = 1.83, 3.05, -9.96, 0.5, 2.5
 BoundingBox = -1.83, 3.05, -9.96, 0.5, 2.5
 
-AddRecipe = " YX",  "XXP",  "X X",  X, iron_block, Y, glass, P, furnace
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg

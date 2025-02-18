@@ -57,7 +57,7 @@ AddWeapon = targeting_pod_pv10s,   0.0, 0.7, 3.5,   0.0, 0.0,  false,2
 ; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range, ParaAlt
 AddRack = container,      0.0, 1.60, -3.38,   0.0, 0.0, -5.0,   12.0,   40
 
-AddRecipe = " G ",  "PXP",  "I I",  X, iron_block, G, glass, I, iron_ingot, P,heavy_weighted_pressure_plate
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2, K, hfr:item.kit_hmg
 
 BoundingBox =  0.00,  1.88,  -3.15,  2.5, 2.5
 BoundingBox =  0.00,  1.88, -4.65,  2.5, 2.5

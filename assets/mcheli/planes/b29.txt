@@ -77,7 +77,7 @@ AddRecipe = "I I",  "TTT",  "I I",  I,iron_block, T,tnt
 
 ;AddRecipe = "   ",  " T ",  "   ",  T,mcheli:tu4light
 
-AddRecipe = "IX ",  "   ",  "   ",  I,iron_ingot, X,mcheli:tu4light
+AddRecipe = "CAC", "EXK", "WGW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, G, hfr:item.part_cannon_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, K, hfr:item.kit_hmg
 
 ;AddShapelessRecipe = iron_ingot,mcheli:tu4light
 ;AddShapelessRecipe = iron_block,iron_block

@@ -75,7 +75,7 @@ AddSeat = 1.4, 2.8, -14.2
 
 
 
-AddRecipe ="YGY","XXY","   ",X,iron_block, Y, iron_ingot, G, glass
+AddRecipe = "CAC", "E X", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics
 
 ;Right
 AddPartLG = 0, 1.50,  1.39,  1,0,0, -125

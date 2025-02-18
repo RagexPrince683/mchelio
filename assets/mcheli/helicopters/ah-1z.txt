@@ -54,7 +54,7 @@ AddPartWeaponMissile = aim9,     false, false, false,  -2.42,  1.6886, -1.56
 AddSeat       = 0.00, 1.38, -0.75
 AddGunnerSeat = 0.00, 1.00,  0.79,  0.0, 1.1, 3.5, true
 
-AddRecipe = "APA", "ACE", "AHA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, C, hfr:item.components_electronics, E, hfr:item.part_engine_1, H, hfr:item.kit_auto
+AddRecipe = "APA", "ACE", "AHA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2, H, hfr:item.kit_auto
 
 AddWeapon = m197,  0.00, 0.5045, 1.4813,  0,-1, true,2, 0,-360,360, -20,80
 

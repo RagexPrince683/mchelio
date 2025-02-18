@@ -84,7 +84,7 @@ AddBlade = 1,0,  11.83,  3.17,  -5.93,   0, 0, 1
 AddPartRotor =    5.33,  2.65,  -5.13,   0, 0, 1
 AddBlade = 1,0,   5.33,  2.65,  -5.13,   0, 0, 1
 
-AddRecipe = "IXI",  " T ",  "I I",  I,iron_ingot, X,dye,1, T,mcheli:b29
+AddRecipe = "CAC", "EXK", "WGW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, G, hfr:item.part_cannon_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, K, hfr:item.kit_hmg
 
 
 AddWeapon = ns23tu4a,   0.29,  4.31, -4.05,  0.0, 0.0, true,  5,    0, -360, 360, -60, 3

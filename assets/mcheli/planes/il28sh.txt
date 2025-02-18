@@ -116,6 +116,6 @@ BoundingBox = 0.0, 3, -14.16, 1.0, 1.5
 
 unmountposition = 0,  1.50,  -2.10
 
-AddRecipe = " Y ",  "YIY",  "FDF",  I, iron_block, Y, iron_ingot, D, redstone_block, F, tnt
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2, K, hfr:item.kit_hmg
 
 enableback = true

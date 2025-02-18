@@ -19,7 +19,7 @@ Sound = sutwentyseven
 VariableSweepWing = true
 SweepWingSpeed = 0.8
 
-AddRecipe = "IGI",  "BBB",  "PBP",  G, glass, B, iron_block, I, iron_ingot, P, gunpowder
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
 
 
 Category = M.F

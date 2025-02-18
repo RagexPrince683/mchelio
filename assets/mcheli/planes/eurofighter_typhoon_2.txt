@@ -34,7 +34,7 @@ AddPartLG = -2.5126, 1.5929, -7.3302,  0,0,1, 46.5, 0,0,1, 46.5
 
 AddTexture = eurofighter_typhoon_2_ital.
 \
-AddRecipe = "   ",  "ZXZ",  "   ",  X, mcheli:eurofighter_typhoon_2_t,  Z, TNT
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1, K, hfr:item.kit_hmg
 AddPartNozzle = 0.66, 1.6868, -12.9987, -1,0,0
 AddPartNozzle = -0.66, 1.6868, -12.9987, -1,0,0
 

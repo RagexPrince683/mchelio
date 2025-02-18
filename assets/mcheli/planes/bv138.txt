@@ -90,7 +90,7 @@ AddParticleSplash = 9.71,  0.00, -2.10, 2, 9.0, 1.1, 60, 0.01,   0
 
 AddParticleSplash = 0.00,  0.00, -4.20, 3, 12.0, 3.0, 40, 0.01,  0
 
-AddRecipe = "   ",  "QGQ",  "IXI",  X, iron_block, G, glass, I, iron_ingot, Q, gunpowder
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2, K, hfr:item.kit_hmg
 
 BoundingBox =  0.00, 0.50, 5.00,  2.00, 1.00, 0.9
 ;BoundingBox =  0.00, 1.00, 2.00,  2.80, 3.00, 0.8

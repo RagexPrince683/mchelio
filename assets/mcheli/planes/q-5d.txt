@@ -121,4 +121,4 @@ BoundingBox = 0.0, 4.0, -10.5, 0.5, 1.2
 enableback = true
 
 
-AddRecipe = "PDP",  "DID",  "PDP",  I,mcheli:mig-19s, D,iron_ingot, P, gunpowder
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1, K, hfr:item.kit_hmg

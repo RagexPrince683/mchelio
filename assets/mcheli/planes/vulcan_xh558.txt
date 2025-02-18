@@ -99,4 +99,4 @@ BoundingBox = 0.0, 3.7, -19.7, 1.5, 1.5
 BoundingBox = 0.0, 3.8, -20.8, 1.3, 1.3
 
 
-AddRecipe = "ITI",  "TIT",  "IQT",  I,iron_block, T,tnt, Q, iron_ingot
+AddRecipe = "CAC", "EXK", "WGW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, G, hfr:item.part_cannon_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, K, hfr:item.kit_hmg

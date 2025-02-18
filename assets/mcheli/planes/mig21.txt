@@ -119,7 +119,7 @@ AddWeapon = s-5,  2.8259, 1.451, -4.599, 0.0, 0.0
 AddWeapon = s-5, -2.8259, 1.451, -4.599, 0.0, 0.0
 
 
-AddRecipe = "DQD",  "XXD",  "DDD",  X, iron_block, D, iron_ingot, Q, glass
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
 
 
 

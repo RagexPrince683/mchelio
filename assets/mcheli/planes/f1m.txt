@@ -50,7 +50,7 @@ AddWeapon = type97,      2.30, 1.20, 0.00,  0.0, 0.0
 AddWeapon = type97,     -2.30, 1.20, 0.00,  0.0, 0.0
 AddWeapon = lewis7_7mm,  0.00, 2.58,-1.80,  0.0, 0.0, false,2, 180,-120,120, -80, 30
 
-AddRecipe = "IQI",  "III",  "I I",  I,iron_ingot, Q, glass
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2, K, hfr:item.kit_hmg
 
 AddPartWing =  -1.06, 3.21, 0.30,  0, 1,0, -96
 AddPartWing =   1.06, 3.21, 0.30,  0,-1,0, -96

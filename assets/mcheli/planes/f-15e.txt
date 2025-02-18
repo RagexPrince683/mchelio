@@ -114,7 +114,7 @@ AddPartHatch =   0.0,  3.00,  -7.05, -1,0, 0, 45
 SweepWingSpeed = 0.8
 VariableSweepWing = true
 
-AddRecipe = "AYX",  "TTT",  "XXX",  X, iron_block, Y, glass, A, iron_ingot, T, tnt
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
 
 BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
 BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0

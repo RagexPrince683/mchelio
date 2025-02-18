@@ -36,7 +36,7 @@ AddPartLG =  0.00, 1.40,  0.00,  1,0,0, 100
 AddPartLG = -2.18, 1.90, -6.65, -1,0,0, 110,  0,0,1, 28
 AddPartLG =  2.18, 1.90, -6.65, -1,0,0, 110,  0,0,-1, 28
 
-AddRecipe = " Z ",  "ZDZ",  " Z ",  D,mcheli:f14, Z, iron_ingot
+AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
 
 
 
