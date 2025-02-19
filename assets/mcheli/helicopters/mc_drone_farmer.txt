@@ -46,7 +46,7 @@ AddWeapon = dispenser_seed,        0.04, -0.14, -0.47,   1.0, 0.0
 AddWeapon = dispenser_fertilizer,  0.04, -0.14, -0.47,   1.0, 0.0
 
 
-AddRecipe = "YXY", "H X", " Y ", H, iron_hoe, X, iron_ingot, Y, redstone
+AddRecipe = " XE", " C ", "W W", W, hfr:item.part_wheel, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics
 
 BoundingBox =  -0.03, 0.36, 0.00, 1.0, 1.0
 

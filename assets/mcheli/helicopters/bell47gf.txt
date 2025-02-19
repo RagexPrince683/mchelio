@@ -30,7 +30,7 @@ AddSeat =-0.50,  0.96,  0.29
 
 AddWeapon = m134_l,  0.53, 0.03, 1.99,   0.5, 0.0
 
-AddRecipe = "APA", "ACA", "AEA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, C, hfr:item.components_electronics, E, hfr:item.part_engine_1
+AddRecipe = "APA", "ACA", "EHA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, C, hfr:item.components_electronics, E, hfr:item.part_engine_1, H, hfr:item.kit_singleshot
 
 DamageFactor = 0.8
 

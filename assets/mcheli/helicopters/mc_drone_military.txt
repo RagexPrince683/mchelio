@@ -49,13 +49,14 @@ AddRotor = 1, 0,  -0.61,  0.38, 0.49,  0, -1, 0
 //AddRecipe " Y ", "XXX", "Y Y", Y, redstone, X, iron_ingot
 //good job removing the equal sign...
 
+AddRecipe = "XEG", " C ", "W W", W, hfr:item.part_wheel, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+
+
 AddPartWeapon    = mg7_7mmdr,      false, true, false,  -0.027,  -0.133,  -0.002
 AddPartWeapon    = mg7_7mmdr,      false, true, true,  -0.027,  -0.133,  -0.002
 
 
 AddWeapon = mg7_7mmdr,  -0.029,  -0.127,  0.228,   0.0,  0.0,   true, 1, 0, -90, 90, 0, 90
-
-AddRecipe = "YXY", "H X", " Y ", H, hfr:item.part_mechanism_1, X, iron_ingot, Y, redstone
 
 
 BoundingBox =  -0.03, 0.36, 0.00, 1.0, 1.0

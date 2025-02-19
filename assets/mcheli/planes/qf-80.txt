@@ -17,7 +17,7 @@ ThrottleUpDownOnEntity = 2.0
 EnableSeaSurfaceParticle = true
 ParticlesScale = 0.6
 
-AddRecipe = " X ",  " Z ",  " Y ",  X, iron_block, Y, furnace, Z, iron_ingot
+AddRecipe = " XE", " C ", "W W", W, hfr:item.part_wheel, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics
 
 ; M = Military.  Q = Drone
 Category = M.Q

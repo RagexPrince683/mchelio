@@ -65,7 +65,7 @@ AddWeapon = targeting_pod_mob,   0.0, 1.7, 5.2,  0.0, 0.0
 AddWeapon = targeting_pod_pv30s, 0.0, 1.7, 5.2,  0.0, 0.0
 AddWeapon = targeting_pod_block, 0.0, 1.7, 5.2,  0.0, 0.0
 
-AddRecipe = " I ",  "IRI",  " I ", I, iron_block, R, redstone_block
+AddRecipe = "XEG", " C ", "W W", W, hfr:item.part_wheel, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 BoundingBox =  0.0, 2.0,  1.0,  3.0, 1.8
 BoundingBox =  3.0, 2.0, -3.0,  3.0, 1.5
