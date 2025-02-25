@@ -37,5 +37,6 @@ AddPart		 = true, true, false, 0,   0, 0.20, 4.16
 
 AddTurretWeapon = gsh-6-30ak,  0.00, 0.167, 0,   0.0, -3.0,   true,1, 0,-360,360, -88, 12
 
-AddRecipe = " YD",  "QXQ",  "XZX",  X, iron_block, Y, glass, Z, iron_ingot, Q, gunpowder, D, diamond
+AddRecipe = " G ", "XGX", " G ", X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+
 ;BoundingBox =  0.0, 0.05, 0.0,  1.5, 0.80

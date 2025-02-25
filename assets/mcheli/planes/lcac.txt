@@ -60,7 +60,7 @@ AddRack = impreza/S15/container,       0.00,  3.00, -7.46,   0, 0, -2.5,   11,  
 ;レシピです。対応する大文字が素材を指定しています。上中下の順。
 
 
-AddRecipe = "AIQ",  "QAQ",  "ABQ",     B, boat, A, iron_block, Q, iron_ingot
+;AddRecipe = "AIQ",  "QAQ",  "ABQ",     B, boat, A, iron_block, Q, iron_ingot
 
 EntityWidth  = 0.9
 EntityHeight = 0.9

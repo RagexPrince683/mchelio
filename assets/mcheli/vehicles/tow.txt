@@ -31,7 +31,7 @@ AddPart = true,true,false,0, 0, 0, 0
 AddTurretWeapon =  bgm-71mount,  0,1,0
 
 
-AddRecipe = "YZQ",  "ZXZ",  "ZYZ",  X, iron_block, Z, iron_ingot, Q, redstone, Y, gunpowder
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
 
 
 Boundingbox = 0.00,  0.95,  0.00,  0.7, 1.0

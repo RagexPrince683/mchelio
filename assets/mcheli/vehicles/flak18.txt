@@ -58,4 +58,4 @@ BoundingBox =  0.0, 1.01, 0.0,  0.9779, 0.651, 1.0
 BoundingBox =  0.0, 1.66, 0.0,  0.9779, 0.651, 1.5
 
 
-AddRecipe = "  I",  "G G",  "ITI",  T, iron_block,  I, iron_ingot, G, gunpowder
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2

@@ -72,7 +72,7 @@ AddParticleSplash = -1.5, -0.18,  -18.0,   3,      9.0,    1.1,   20,       0.30
 AddParticleSplash =  1.0, -0.18,  -20.0,   2,      9.0,    1.1,   60,       0.01,   0
 AddParticleSplash = -1.0, -0.18,  -20.0,   2,      9.0,    1.1,   60,       0.01,   0
 
-AddRecipe = "IAP",  "AAA",  "IAB",   I, iron_ingot,  B, boat , A, iron_block, P,redstone_block
+AddRecipe = "HG ", "EXX", "WHW", H, hfr:item.part_hull_2, G, hfr:item.part_cannon_1, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, W, hfr:item.part_plating_2
 
 BoundingBox =  0.0, 0.7,  3.0,  3.0, 3.0
 BoundingBox =  0.0, 0.9,  0.0,  4.0, 4.0

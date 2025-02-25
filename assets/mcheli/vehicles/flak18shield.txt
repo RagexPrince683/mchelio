@@ -53,4 +53,4 @@ BoundingBox =  0.0, 0.483, 0.0,  0.7286, 0.6131, 0.75
 BoundingBox =  0.0, 1.01, 0.0,  0.9779, 0.651, 1.0
 BoundingBox =  0.0, 1.66, 0.0,  0.9779, 0.651, 1.5
 
-AddRecipe = "  I",  " I ",  " T ",  T, mcheli:flak18,  I, iron_ingot
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2

@@ -35,7 +35,7 @@ AddTurretWeapon = mk45_hepd, 0.00, 1.915, 0.0,   0.0,  0,   true,1, 0,-360,360, 
 AddTurretWeapon = mk45_heicm, 0.00, 1.915, 0.0,   0.0, 0,   true,1, 0,-360,360, -65, 15
 
 
-AddRecipe = "D D",  "ZXZ",  "RD ",  X, mcheli:mk45, R, redstone, Z, iron_ingot, D, gunpowder
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 BoundingBox =  0.0, 1.45, 0.0,  3.0, 2.6
 BoundingBox =  0.0, 0.0, 0.0,  2.1, 0.8

@@ -42,7 +42,7 @@ AddPartWeaponChild = false, true, 0.00, 1.63, -6.56, 0.0
 
 AddWeapon = patriotaim7_spa,  0.0, 7.1, -7.1,   0.0, 0.0, false, 1, 0, -360,360, -30,0
 
-AddRecipe = "T T",  " X ",  "XAX",  X,iron_block, T,tnt, A,iron_ingot
+AddRecipe = " G ", "GAG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, A, hfr:item.part_plating_3
 
 BoundingBox =  0.0, 1.0, -4.0,  2.5, 1.8
 

@@ -33,7 +33,7 @@ AddChildPart = true, false, true,  2,   0.00, 2.65, -1.32, 0.8
 
 AddWeapon = 15cm_vtstable,  0.00, 2.70, 5.67,   0.0, 0.0
 
-AddRecipe = " I ",  "IFI",  " I ",  I, iron_ingot, F, mcheli:150_flak
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 
 BoundingBox =  0.0, 2.05, 0.0,  2.0, 1.80

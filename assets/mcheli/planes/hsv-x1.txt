@@ -180,4 +180,4 @@ AddParticleSplash  =  -15.67, 0.25, -17.42,   4, 10.0,  0.8, 80, 0.1,  -0.02
 enableback = true
 
 
-
+AddRecipe = " H ", "E X", "WHW", H, hfr:item.part_hull_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, W, hfr:item.part_plating_2

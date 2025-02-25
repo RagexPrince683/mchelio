@@ -29,7 +29,7 @@ AddWeapon = mk46_3,  0.00, 0.62, 1.72,   0.0, 0.0
 AddWeapon = mk46_3,  0.18, 0.28, 1.72,   0.0, 0.0
 AddWeapon = mk46_3, -0.28, 0.28, 1.72,   0.0, 0.0
 
-AddRecipe = "FFF",  "FIF",  "IRI",  I, iron_block, R, redstone_block, F, gunpowder
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
 
 
 BoundingBox =  0.0, 0.5, 0.0,  1.25, 0.9
