@@ -87,4 +87,4 @@ BoundingBox = -0.7, 2.8, -8.6, 1.0, 0.3
 BoundingBox = 1.3, 2.8, -8.6, 1.0, 0.3
 BoundingBox = -1.3, 2.8, -8.6, 1.0, 0.3
 
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1, K, hfr:item.kit_hmg
+AddRecipe = "CAC", "E G", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_2, G, hfr:item.part_cannon_1, K, hfr:item.kit_hmg

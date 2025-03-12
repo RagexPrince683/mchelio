@@ -78,7 +78,7 @@ AddPartWeaponChild = false, true, 0.00, 0.343, 0.103, 0.3
 
 ;InventorySize = 9
 
-AddRecipe = " G ", "XGX", " G ", X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+AddRecipe = " G ", "XG ", " G ", X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
 
 ;AddFixedSearchLight =   0.878,  0.9808, 3.455,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
 ;AddFixedSearchLight =  -0.8793, 0.989, 3.4728,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25, -6.0,  0

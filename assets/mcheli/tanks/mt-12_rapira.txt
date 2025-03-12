@@ -68,4 +68,4 @@ BoundingBox = -0.5, 0.8, 0.5, 0.5, 1.0
 BoundingBox =  1.0, 1.0, 0.2, 0.5, 0.5
 BoundingBox = -1.0, 1.0, 0.2, 0.5, 0.5
 
-AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+AddRecipe = " G ", "G G", " GX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2

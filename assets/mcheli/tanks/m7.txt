@@ -132,4 +132,4 @@ FuelConsumption = 2.0
 
 StepHeight = 1.2
 
-AddRecipe = "AC ", "EXG", "T T", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+AddRecipe = "AC ", "E G", "T T", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, G, hfr:item.part_cannon_3

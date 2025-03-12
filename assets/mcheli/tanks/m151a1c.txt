@@ -65,7 +65,7 @@ AddTurretWeapon = m581, 0.00, 1.67, -1.35,   0.0, 0.0, false, 3, 0, -10, 90, -20
 
 InventorySize = 9
 
-AddRecipe = "AC ", "EXG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+AddRecipe = "AC ", "E G", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, G, hfr:item.part_cannon_1
 
 ;ヘッドライト
 AddFixedSearchLight =  0.3724, 1.0090, 2.3010,   0x50FFFFFF,   0x00FFFFC0,    0.3, 0.6,  -5,  0

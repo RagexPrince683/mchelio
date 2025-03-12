@@ -150,7 +150,7 @@ Boundingbox = 0.0, 2.3, 0.61, 1.8, 1.3, 0.18
 Boundingbox = 0.0, 1.34, 1.1, 2.0, 1.0, 1
 Boundingbox = 0.0, 1.34, -1.5, 2.0, 1.0, 1
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+AddRecipe = "ACA", "E G", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, G, hfr:item.part_cannon_2
 
 
 StepHeight = 1.5

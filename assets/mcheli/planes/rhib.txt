@@ -37,7 +37,7 @@ CanRotOnGround  = false
 onGroundPitch = 4
 
 sound = rhib
-AddRecipe = "HG ", "EXX", "WWW", H, hfr:item.part_hull_1, G, hfr:item.kit_hmg, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, W, hfr:item.part_plating_1
+AddRecipe = "HG ", "E  ", "WWW", H, hfr:item.part_hull_1, G, hfr:item.kit_hmg, E, hfr:item.part_engine_1, W, hfr:item.part_plating_1
 
 AddPartRotor =    0.44,  -0.58, -3.69,   1,0, 0
 AddBlade = 1, 0,  0.44,  -0.57, -3.69,   0,0,-1

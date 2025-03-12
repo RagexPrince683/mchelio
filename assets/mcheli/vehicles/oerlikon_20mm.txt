@@ -38,6 +38,6 @@ AddChildPart = false,false,true,  2,   0.0, 0.7663, -0.3456, 0.1
 
 AddTurretWeapon = Oerlikon_20mm, 0.0, 0.7663, 0,   0.0, 0.0,   true,2, 0,-360,360, -90, 15
 
-AddRecipe = " G ", "XGX", " G ", X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+AddRecipe = " G ", "XG ", " G ", X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
 
 BoundingBox = 0.0, 0.2, 0.0, 1.2, 1.4

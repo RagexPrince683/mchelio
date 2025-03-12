@@ -21,7 +21,7 @@ unmountposition = -0.0,  2.00,  -0.25
 CameraPosition = 0.0, 3.00, 0.0, true
 HUD = ww2tank_hud, gunner, none, none
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+AddRecipe = "ACA", "E G", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, G, hfr:item.part_cannon_2
 
 EnableNightVision = false
 EnableEntityRadar = false

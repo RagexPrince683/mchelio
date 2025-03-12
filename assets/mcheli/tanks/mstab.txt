@@ -92,4 +92,4 @@ BoundingBox = -1.25, 1.2, -0.5, 0.5, 1.8
 
 StepHeight = 0.0
 
-AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+AddRecipe = " G ", "G G", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3

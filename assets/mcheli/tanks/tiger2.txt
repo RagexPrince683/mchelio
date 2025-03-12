@@ -173,4 +173,4 @@ AddCrawlerTrack = true, 0.38, 1.6778, 1.0870/3.2560, 0.9452/3.6742, 0.6170/3.896
 AddCrawlerTrack = true, 0.38,-1.6778, 1.0870/3.2560, 0.9452/3.6742, 0.6170/3.8960, 0.2988/3.7742, -0.23/2.9142, -0.23/-1.6058, 0.0981/-2.9562, 0.4055/-3.1649, 0.7019/-2.9962, 0.8205/-2.6599, 0.7385/-2.1036, 0.8177/2.5564
 
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+AddRecipe = "ACA", "E G", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, G, hfr:item.part_cannon_3

@@ -46,7 +46,7 @@ AddWeapon = m77m795, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -72,
 AddWeapon = m77m549a1, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -72, 0
 AddWeapon = m77m864, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -72, 0
 
-AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+AddRecipe = " G ", "G G", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 AddPartWeapon = m77m107 / m77m795 / m77m549a1 / m77m864, false, true, false,  0.00, 0.00, 0.00
 AddPartWeaponChild  =  false, true,  0.00, 0.00, 0.00

@@ -33,6 +33,6 @@ AddTurretWeapon = mg25mm,  -0.40, 1.43, -0.04,   0.0, -1.0,   true,1, 0,-360,360
 AddTurretWeapon = mg25mm,   0.00, 1.43, -0.04,   0.0, -1.0,   true,1, 0,-360,360, -80, 25
 AddTurretWeapon = mg25mm,   0.40, 1.43, -0.04,   0.0, -1.0,   true,1, 0,-360,360, -80, 25
 
-AddRecipe = " G ", "XGX", " G ", X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+AddRecipe = " G ", " G ", " G ", G, hfr:item.part_cannon_1
 
 BoundingBox =  0.0, 1.0, 0.0,  1.5, 1.5

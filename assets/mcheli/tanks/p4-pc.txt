@@ -40,7 +40,7 @@ EntityHeight = 0.8
 
 AddSeat =  0.5285,  0.20, -0.2210
 
-AddRecipe = " CA", "E X", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics
+AddRecipe = " CA", "E  ", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1
 
 unmountposition = 0.5285,  2.20, -0.0210
 
