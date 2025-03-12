@@ -13,7 +13,10 @@ FlareType = 4
 EnableNightVision = true
 EnableEntityRadar = true
 EnableGunnerMode = true
-NewUAV = true
+//NewUAV = true
+//soon
+UAV = true
+
 AutoPilotRot = -1.60
 CameraPosition = 0.0, 0.9, 0.0
 ThrottleUpDown = 1.5
