@@ -30,7 +30,7 @@ AddChildPart = true,false,true,  2,   0.00, 0.95, -0.65, 0.4
 AddTurretWeapon =  d-30,     0.0, 0.95, 0, 0.00, 0.00 , true,1, 0, -360, 360, -70, 7
 AddTurretWeapon =  d-30he2,  0.0, 0.95, 0, 0.00, 0.00 , true,1, 0, -360, 360, -70, 7
 
-AddRecipe = "XZX",  "XDR",  "DXR",  X, iron_block, R, redstone_block, D, TNT
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
 
 
 ;BREEEEEEEEEEEEEEEEEEEEEEEECH

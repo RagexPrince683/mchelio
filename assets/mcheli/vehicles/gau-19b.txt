@@ -52,8 +52,7 @@ AddChildPart = true, false,false, 1,  0.00, 0.7851, 0.00
 ;AddTurretWeapon = type3bullet,   0.37, 2.02, 6.20,   0.0, -1.0,   true,1, 0,-360,360, -80, 8
 ;AddTurretWeapon = type3bullet,  -0.56, 2.02, 6.20,   0.0, -1.0,   true,1, 0,-360,360, -80, 8
 
-AddRecipe = "ZXZ",  "XDR",  "ZXR",  X, iron_ingot, R, redstone, Z, iron_ingot, D, gunpowder
-
+AddRecipe = " G ", " G ", " G ", X, hfr:item.components_electronics, G, hfr:item.kit_hmg
 
 BoundingBox =  0.00, 0.3,  0.00,  0.45, 1.5
 

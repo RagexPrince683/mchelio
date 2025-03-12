@@ -35,6 +35,6 @@ BoundingBox =  0.0, 1.0, 0.0,  0.1, 1.5, 0.8
 BoundingBox =  0.0, 1.8, 0.0,  0.5, 0.35, 1.2
 ;bounding boxes don't rotate with turret
 
-AddRecipe = "I I",  "I I",  "III",  X, iron_block, I, iron_ingot
+AddRecipe = " G ", " G ", " G ", X, hfr:item.components_electronics, G, hfr:item.kit_hmg
 
 unmountposition = 0.00,  1.50, -0.83

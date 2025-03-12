@@ -39,6 +39,6 @@ AddTurretWeapon = type3bullet_15_5,   1.56, 1.07, 0,   0.0, 0
 AddTurretWeapon = type3bullet_15_5,   0.00, 1.07, 0,   0.0, 0
 AddTurretWeapon = type3bullet_15_5,  -1.56, 1.07, 0,   0.0, 0
 
-AddRecipe = "XXX",  "DDD",  "XXX",  X, iron_block, D, tnt
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 BoundingBox =  0.0, 1.5, 0.0,  4.0, 3.0

@@ -34,7 +34,7 @@ AddWeapon = 20.3cm ,   0.89, 1.31, 0.00,   0.0, -1.0,   true,1, 0,-360,360, -83,
 AddWeapon = 20.3cmhe ,   -0.89, 1.31, 0.00,   0.0, -1.0,   true,1, 0,-360,360, -83, 15
 AddWeapon = 20.3cmhe ,   0.89, 1.31, 0.00,   0.0, -1.0,   true,1, 0,-360,360, -83, 15
 
-AddRecipe = "ZXZ",  "XDZ",  "ZXR",  X, iron_block, R, redstone_block, Z, iron_ingot, D, TNT
+AddRecipe = " G ", "GAG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, A, hfr:item.part_plating_3
 
 BoundingBox =  0.0, -0.5, 0.0,  3.0, 1.9
 BoundingBox =  0.0, 0.6, 0.0,  3.6, 1.2

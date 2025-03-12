@@ -37,7 +37,7 @@ unmountposition = -0.0, 0.2, -0.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddTurretWeapon = m61a1,  0.00, 1.6764, 2.43,   0.0, -3.0,   true,1, 0,-360,360, -85, 25
 
-AddRecipe = "ABZ",  "ZX ",  "ZUZ", A, mcheli:uav_station, B, mcheli:mk15, X, iron_block, U, gunpowder, Y, glass, Z, iron_ingot
+AddRecipe = " G ", "XGX", " G ", X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
 
 unmountposition = 0.0, 1.5, -1.0
 

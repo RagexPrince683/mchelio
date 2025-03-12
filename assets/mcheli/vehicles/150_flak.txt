@@ -34,7 +34,7 @@ AddChildPart = true, false, true,  2,   0.00, 2.04, -1.32, 0.8
 
 AddWeapon = 15cm_vt,  0.00, 2.10, 5.67,   0.0, 0.0
 
-AddRecipe = " I ",  "DDD",  "XIX",  X, iron_block, I, iron_ingot, D, gunpowder
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 unmountposition = 0.00, 1.5, -0.0
 

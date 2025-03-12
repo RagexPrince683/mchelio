@@ -123,7 +123,7 @@ AddPartTurretWeapon    = m1a1m240_r,   false, true, true,   1.243, 3.24, -0.77
 AddPartTurretWeapon    = m1a1m240_r,   false, true, true,  1.243, 3.24, -0.77
 AddTurretWeapon = m1a1m240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -65,9
 
-AddRecipe = "XXX",  "XKX",  "XXX",  X,iron_ingot, K, mcheli:m1a1nt,  I,iron_ingot
+AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1

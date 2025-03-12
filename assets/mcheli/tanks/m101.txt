@@ -61,6 +61,6 @@ AddWeapon = m1m916, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 5, 0
 
 BoundingBox =  0.0, 1.0, 0.0,  1.0, 1.0
 
-AddRecipe = "TBT",  "TXT",  "IDI",  T, iron_ingot, B, redstone, X, dispenser, I, iron_ingot, D, stone_button
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
 
 UnmountPosition = 1.06,  1.54, -0.41

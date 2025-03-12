@@ -29,7 +29,7 @@ AddWeapon = aim7_spa,  1.59,  1.0, 1.94,   0.0, 0.0
 AddPart	= true, true, false, 0,   0.00, 0.00, 0.00
 AddChildPart = true,false,true,  0,  0.00, 1.49, 0.00
 
-AddRecipe = "T T",  " X ",  "XAX",  X,iron_block, T,tnt, A,iron_ingot
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
 
 BoundingBox =  0.0, 0.4, 0.0,  1.2, 1.5
 

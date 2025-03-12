@@ -39,7 +39,7 @@ AddTurretWeapon = type3bullet_46,  2.77, 1.55,  0.00,  0.0, 0.0
 AddTurretWeapon = type3bullet_46, -2.77, 1.55,  0.00,  0.0, 0.0
 AddTurretWeapon = type3bullet_46,  0.00, 1.55,  0.00,  0.0, 0.0
 
-AddRecipe = "XXX",  "XGD",  "XXX",  X, iron_block, G, gunpowder, D, redstone_block
+AddRecipe = " G ", "GAG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, A, hfr:item.part_plating_3
 
 BoundingBox =  0.0, 1.5, 0.0,  6.0, 3.1
 

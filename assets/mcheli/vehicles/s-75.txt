@@ -27,7 +27,7 @@ AddPart	= true, true, false, 0,   0.00, 0.00, 0.00
 AddChildPart = true,false,true,  0,  0.00, 1.75, -0.85
 AddChildPart = true,false,true,  3,  0.00, 1.75, -0.85
 
-AddRecipe = " T ",  " X ",  "XAX",  X,iron_block, A,redstone_block, T,tnt
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
 
 BoundingBox =  0.0, 1.0, 0.0,  2.0, 2.5
 BoundingBox =  0.0, 2.4, 0.0,  1.4, 1.4, 2.0

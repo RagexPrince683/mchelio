@@ -62,6 +62,6 @@ AddTurretWeapon = type63rocket, 0.0, 1.0, 0,  0, 0.0,   true,1, 0,-360,360, -80,
 ;AddTurretWeapon = type63rocket_medium, 0.0, 1.0, 0.20,  3.82, 0.0,   true,1, 0,-360,360, -80, 25
 ;AddTurretWeapon = type63rocket_long, 0.0, 1.0, 0.20,  3.82, 0.0,   true,1, 0,-360,360, -80, 25
 
-AddRecipe = " YYI",  "III",  "TIT",  T, iron_block,  I, iron_ingot, Y, tnt
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
 BoundingBox =  0.0, 0.6, 0.0,  1.00, 1.00

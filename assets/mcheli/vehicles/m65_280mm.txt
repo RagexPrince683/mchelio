@@ -43,7 +43,7 @@ AddTurretWeapon = w9, 0.0, 2.654, 0,  0.0, 0.0,  true,1, 0,-360,360, -55, 0
 ;AddTurretWeapon = mg25mm,   0.40, 1.43, -0.04,   0.0, -1.0,   true,1, 0,-360,360, -80, 25
 
 ;oh hell no
-AddRecipe = "ZXZ",  "XDR",  "ZXR",  X, iron_block, R, redstone_block, Z, iron_ingot, D, dispenser
+AddRecipe = "GCG", "CAC", "GCG", G, hfr:item.part_cannon_3, C, hfr:item.part_cannon_2, A, hfr:item.part_plating_3
 
 ;BoundingBox =  0.0, 0.9,  4.0,  4.0, 1.8
 BoundingBox =  0.0, 0.9,  0.0,  4.0, 1.8

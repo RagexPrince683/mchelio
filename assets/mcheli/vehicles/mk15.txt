@@ -32,7 +32,7 @@ AddChildPart = true, false,false, 1,   0, 1.6764, 0.0
 
 AddTurretWeapon = m61a1,  0.00, 1.6764, 0,   0.0, -0.0,   true,1, 0,-360,360, -80, 25
 
-AddRecipe = " Y ",  " XZ",  "XZX",  X, iron_block, Y, glass, Z, iron_ingot
+AddRecipe = " G ", "XGX", " G ", X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
 
 BoundingBox =  0.0, 0.85, 0.0,  2.0, 2.8
 

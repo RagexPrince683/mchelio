@@ -39,5 +39,6 @@ AddTurretWeapon = 9m311-1e, -1.294, 0.89, 0.0,   0.0, 0.0,   true,1
 
 unmountposition = 0.0, 1.5, 0.0
 
-AddRecipe = " YD",  " X ",  "XZX",  X, iron_block, Y, glass, Z, iron_ingot, D, diamond_block
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+
 BoundingBox =  0.0, 1, 0.0,  1.8, 1.8

@@ -74,7 +74,7 @@ StepHeight = 0.0
 
 AddPartWeaponChild  =  false, true,  0.00, 0.00, 0.00
 AddPartWeaponChild  =  false, true,  0.00, 0.00, 0.00, 0.8
-AddRecipe = "DID",  "III",  "IID",  X, Iron_Block, I, Iron_Ingot, D, gunpowder
+AddRecipe = " G ", "XGX", " G ", X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
 
 BoundingBox =  0.1, 0.49, 0.0,  0.20, 0.30
 BoundingBox =  0.1, 0.51, 0.30,  0.20, 0.30

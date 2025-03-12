@@ -129,7 +129,7 @@ AddParticleSplash = -1.6,  0.02,  -10.0,   2,      9.0,    1.1,   60,       0.01
 AddParticleSplash =  0.8,  0.02,  -10.0,   2,      9.0,    1.1,   60,       0.01,   0
 AddParticleSplash = -0.8,  0.02,  -10.0,   2,      9.0,    1.1,   60,       0.01,   0
 
-AddRecipe = "AIQ",  "QAQ",  "ABA",     B, boat, A, iron_block, Q, iron_ingot
+AddRecipe = "HG ", "EXX", "WWW", H, hfr:item.part_hull_1, G, hfr:item.kit_hmg, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, W, hfr:item.part_plating_1
 
 
 enableback = true

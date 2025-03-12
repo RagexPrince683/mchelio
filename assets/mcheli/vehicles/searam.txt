@@ -44,7 +44,7 @@ AddTurretWeapon = ram116,  0.14, 0.98, 2.5,   0.0, 0.0
 AddTurretWeapon = ram116,  0.43, 0.98, 2.5,   0.0, 0.0
 
 
-AddRecipe = " Z ",  "XUY",  "Z Z",  U, mcheli:mk15, X, iron_block, Y, TNT, Z, iron_ingot
+AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
 
 BoundingBox =  0.0, 0.85, 0.0,  2.0, 2.8
 

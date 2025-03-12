@@ -38,5 +38,5 @@ unmountposition = 0.00, 1.5, -0.0
 ;;AddWeapon = 35_6cm_3,   2.56, 2.07, 2.91,   0.0, -1.0
 ;;AddWeapon = 35_6cm_3,  -2.56, 2.07, 2.91,   0.0, -1.0
 
-AddRecipe = "ZXZ",  "DZD",  "ZXR",  X, iron_block, R, iron_ingot, Z, iron_block, D, TNT
+AddRecipe = " G ", "GAG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, A, hfr:item.part_plating_3
 
