@@ -1,5 +1,5 @@
-DisplayName = ingot_steel test
-AddDisplayName = ja_JP, ingot_steel test
+DisplayName = item.ingot_steel test
+AddDisplayName = ja_JP, item.ingot_steel test
 ItemID = 28979
 
 StackSize = 64

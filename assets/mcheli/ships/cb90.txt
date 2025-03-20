@@ -1,11 +1,11 @@
 DisplayName = CB90 Combat Boat
 AddDisplayName = en_US, CB90 Combat Boat
 AddDisplayName = ja_JP, CB90 戦闘艇
-ItemID = 30514
+ItemID = 30518
 MaxHp = 1800
 ;shift by 102.88 on z axis or +1.0288
 EnableNightVision = true
-Speed = 0.08004
+Speed = 1
 Sound = cbninety
 Float = true
 ThrottleUpDown = 0.95
