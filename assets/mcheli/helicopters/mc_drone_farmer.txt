@@ -41,9 +41,9 @@ AddRotor = 1, 0,  -0.61,  0.38, 0.49,  0, -1, 0
 
 
 
-AddWeapon = dispenser_water_till,  0.04, -0.14, -0.47,   1.0, 0.0
-AddWeapon = dispenser_seed,        0.04, -0.14, -0.47,   1.0, 0.0
-AddWeapon = dispenser_fertilizer,  0.04, -0.14, -0.47,   1.0, 0.0
+AddWeapon = fdronedispenser_water_till,  0.04, -0.14, -0.47,   1.0, 0.0
+AddWeapon = fdronedispenser_seed,        0.04, -0.14, -0.47,   1.0, 0.0
+AddWeapon = fdronedispenser_fertilizer,  0.04, -0.14, -0.47,   1.0, 0.0
 
 
 AddRecipe = " XE", " C ", "W W", W, hfr:item.part_wheel, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics

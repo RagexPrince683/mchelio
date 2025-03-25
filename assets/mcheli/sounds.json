@@ -326,6 +326,7 @@
 "plane_cc": {"category": "master","sounds": ["plane_cc"]},
 "plane_cv": {"category": "master","sounds": ["plane_cv"]},
 "plastic_bomb_snd": {"category": "master","sounds": ["plastic_bomb_snd"]},
+"plow_snd": {"category": "master","sounds": ["plow_snd"]},
 "policesiren_j_snd": {"category": "master","sounds": ["policesiren_j_snd"]},
 "porsche_meighty": {"category": "master","sounds": ["porsche_meighty"]},
 "porshe": {"category": "master","sounds": ["porshe"]},
