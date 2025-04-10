@@ -42,6 +42,10 @@ ReloadTime = 12000
 SoundVolume = 15
 Sound = s-13-rocket
 
+SmokeSize   = 3.0
+
+;;pain
+
 
 DisplayMortarDistance = true
 FixCameraPitch = true

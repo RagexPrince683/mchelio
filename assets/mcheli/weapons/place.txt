@@ -12,6 +12,11 @@ SoundVolume = 1
 DispenseItem = dirt
 DispenseRange = 1
 
+;;DispenseItem = hbm:tile.mine_ap
+;;DispenseRange = 1
+
+;;how the actual fuck is this shit not working randomly
+
 
 Sound = ng
 Accuracy = 0.0
@@ -58,6 +63,8 @@ Acceleration = 0.0
 ModelBullet = 0_none
 
 ;Piercing = 2
+
+;;Item = 1, dirt
 
 Item = 1, dirt
 
