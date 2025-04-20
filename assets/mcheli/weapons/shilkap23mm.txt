@@ -19,7 +19,6 @@ Accuracy = 0
 HeatCount = 1
 MaxHeatCount = 450
 Sound = shilka
-;ProximityFuseDist = 2.0
 
 ;ロックオンするタイプのミサイルの近接信管の動作距離
 ; 1 を指定すると 1m 以内に入ったら爆発

@@ -19,7 +19,7 @@ Round = 1
 
 group = maingun
 
-ProximityFuseDist = 3
+ProximityFuseDist = 2
 
 HeatCount = 1100
 MaxHeatCount = 2050

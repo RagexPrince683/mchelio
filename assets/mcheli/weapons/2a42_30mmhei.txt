@@ -20,7 +20,7 @@ Gravity = -0.005
 
 TimeFuse = 560
 
-ProximityFuseDist = 2
+ProximityFuseDist = 1
 
 ;2a42
 Delay = 1

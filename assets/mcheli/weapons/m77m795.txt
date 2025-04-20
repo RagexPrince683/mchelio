@@ -14,8 +14,8 @@ Sound = big
 Accuracy = 1.5
 Gravity = -0.05
 
-ProximityDist = 6
-ProximityFuseDist = 6
+ProximityDist = 2
+ProximityFuseDist = 2
 
 Group = MainGun
 
@@ -26,7 +26,6 @@ DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
-DamageFactor = player, 20.0
 
 DamageFactor = player, 2.0
 

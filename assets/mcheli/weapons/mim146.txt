@@ -1,4 +1,4 @@
-DisplayName = MIM146
+DisplayName = MIM146 [AAM]
 Type = AAMissile
 Power = 50
 Acceleration = 3
@@ -42,7 +42,7 @@ AddMuzzleFlashSmoke =  3, 16,  27.0,  7.0, 90,  200,190,170,150
 
 
 MaxAmmo = 16
-SuppliedNum = 16
+SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder
 Item =  2, redstone

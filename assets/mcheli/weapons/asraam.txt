@@ -1,4 +1,4 @@
-DisplayName = ASRAAM AAM
+DisplayName = ASRAAM [AAM]
 Type = AAMissile
 Power = 60
 Acceleration = 4

@@ -13,8 +13,8 @@ SoundPitchRandom = 0.1
 
 Sound = gheat
 
-ProximityFuseDist = 10
-ProximityDist = 10
+ProximityFuseDist = 2
+ProximityDist = 2
 
 
 BulletColor        = 255, 255, 100, 100

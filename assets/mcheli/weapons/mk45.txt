@@ -13,7 +13,7 @@ MaxHeatCount = 120
 ;SoundVolume = 1.6
 SetCartridge = cartridge, 0.4,  0, 0, 7.60, -0.02, 0.70
 Sound = markfourtyfive
-ProximityFuseDist = 3
+ProximityFuseDist = 2
 ; RecoilBufCount = 駐退カウント, 後退中のカウント倍率
 RecoilBufCount = 18, 6
 

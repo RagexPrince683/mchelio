@@ -1,4 +1,4 @@
-DisplayName = Oerlikon KDA 35mm HEI
+DisplayName = Oerlikon KDA 35mm [HEI]
 Type = MachineGun2
 Power = 11
 Acceleration = 5.0

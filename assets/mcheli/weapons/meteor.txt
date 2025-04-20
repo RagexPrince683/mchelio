@@ -1,4 +1,4 @@
-DisplayName = MBDA Meteor
+DisplayName = MBDA Meteor [AAM]
 Type = AAMissile
 Power = 100
 Acceleration = 8
@@ -15,7 +15,7 @@ Sound = missile_1_snd
 Round = 4
 
 MaxAmmo = 8
-SuppliedNum = 4
+SuppliedNum = 2
 Item =  2, iron_ingot
 Item =  4, gunpowder
 Item =  4, redstone

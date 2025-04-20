@@ -18,7 +18,7 @@ Delay = 13
 SetCartridge = cartridge, 0.4,  0, 0, 5.00, -0.04, 0.40
 Sound = markfourtyfive
 Gravity = -0.005
-ProximityFuseDist = 3
+ProximityFuseDist = 2
 
 HeatCount = 20
 MaxHeatCount = 120

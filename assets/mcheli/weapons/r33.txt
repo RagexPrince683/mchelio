@@ -1,4 +1,4 @@
-DisplayName = R33
+DisplayName = R33 [AAM]
 Type = AAMissile
 Power = 47
 Acceleration = 4.5

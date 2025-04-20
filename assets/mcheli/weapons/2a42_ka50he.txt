@@ -26,7 +26,7 @@ BulletColor = 230, 200, 20, 80
 
 TimeFuse = 560
 
-ProximityFuseDist = 2
+ProximityFuseDist = 1
 
 Gravity = -0.005
 

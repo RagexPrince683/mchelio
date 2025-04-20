@@ -1,4 +1,4 @@
-DisplayName = R-73 Air to Air Missile 
+DisplayName = R-73 [AAM] 
 Type = AAMissile
 Power = 7
 Acceleration = 2.5
@@ -18,7 +18,7 @@ ProximityFuseDist = 2
 Sound = missile_1_snd
 
 MaxAmmo = 6
-SuppliedNum = 2
+SuppliedNum = 3
 Item =  4, iron_ingot
 Item =  6, gunpowder
 Item =  2, redstone

@@ -1,4 +1,4 @@
-DisplayName = MBDA Meteor
+DisplayName = MBDA Meteor [AAM]
 Type = AAMissile
 Power = 80
 Acceleration = 8

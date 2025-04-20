@@ -21,7 +21,7 @@ BombletSTime = 20
 BombletDiff = 1.8
 Bomblet = 5
 
-ProximityFuseDist = 3
+ProximityFuseDist = 2
 
 Round = 1
 

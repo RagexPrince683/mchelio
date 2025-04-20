@@ -13,7 +13,6 @@ Delay = 9
 ReloadTime = 300
 Round = 2
 LockTime = 30
-ProximityFuseDist = 0
 ModelBullet = R-60BM
 Sound = aimnine
 SoundPitch = 0.8

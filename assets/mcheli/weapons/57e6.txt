@@ -1,4 +1,4 @@
-DisplayName = 57E6 Surface-to-Air Missiles
+DisplayName = 57E6 [SAM]
 Type = AAMissile
 Power = 200
 Acceleration = 3.8

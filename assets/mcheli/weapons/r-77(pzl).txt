@@ -1,4 +1,4 @@
-DisplayName = R-77 Air To Air Missile
+DisplayName = R-77 [AAM]
 Type = AAMissile
 Power = 22
 DamageFactor = tank, 1.5
@@ -17,7 +17,7 @@ ProximityFuseDist = 3
 Sound = missile_1_snd
 
 MaxAmmo = 8
-SuppliedNum = 4
+SuppliedNum = 2
 Item =  6, iron_ingot
 Item =  8, gunpowder
 Item =  2, redstone

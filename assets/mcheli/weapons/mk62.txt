@@ -10,7 +10,7 @@ Round = 4
 ReloadTime = 20
 Gravity = -0.03
 GravityInWater = 0.01
-ProximityFuseDist = 5
+ProximityFuseDist = 2
 ModelBullet = mk62
 Sound = bomb_snd
 
@@ -32,6 +32,6 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
 MaxAmmo = 4
-SuppliedNum = 4
+SuppliedNum = 2
 Item =  2, iron_ingot
 Item =  2, gunpowder

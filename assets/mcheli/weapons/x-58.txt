@@ -15,7 +15,7 @@ RidableOnly = true
 DamageFactor = tank, 3
 
 MaxAmmo = 1
-SuppliedNum = 2
+SuppliedNum = 1
 Item =  1, iron_ingot
 Item =  1, gunpowder
 Item =  1, redstone

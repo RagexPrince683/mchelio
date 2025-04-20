@@ -23,7 +23,7 @@ Sound = gshtwentythree
 ;SoundPitch = 0.6
 
 
-ProximityFuseDist = 2.0
+;ProximityFuseDist = 2.0
 SoundVolume = 10
 ;ロックオンするタイプのミサイルの近接信管の動作距離
 ; 1 を指定すると 1m 以内に入ったら爆発

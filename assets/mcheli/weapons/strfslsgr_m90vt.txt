@@ -5,8 +5,8 @@ Acceleration = 7.0
 Explosion = 2
 ExplosionBlock = 1
 
-ProximityFuseDist = 4
-ProximityDist = 4
+ProximityFuseDist = 2
+ProximityDist = 2
 
 Flaming = false
 Sight = MoveSight

@@ -1,4 +1,4 @@
-DisplayName = 3M9M3 Surface-To-Air Missile
+DisplayName = 3M9M3 [SAM]
 Type = AAMissile
 Power = 59
 Acceleration = 2

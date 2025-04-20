@@ -20,7 +20,7 @@ BombletSTime = 15
 BombletDiff = 3.1
 ModelBomblet = cbc
 ;目標から30m以内に入ると爆発
-ProximityFuseDist = 30
+;ProximityFuseDist = 30
 
 ;bomb rewrite
 ;Acceleration = 2

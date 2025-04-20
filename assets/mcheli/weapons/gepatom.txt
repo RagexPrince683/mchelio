@@ -25,7 +25,7 @@ Accuracy = 1.0
 
 
 Gravity = -0.001
-ProximityFuseDist = 3.0
+ProximityFuseDist = 2.0
 
 HeatCount = 5
 MaxHeatCount = 450

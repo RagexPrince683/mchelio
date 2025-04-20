@@ -9,8 +9,8 @@ Gravity = -0.030
 
 SoundPitch = 1.0
 
-ProximityFuseDist = 4
-ProximityDist = 4
+ProximityFuseDist = 1
+ProximityDist = 1
 
 ;BombletSTime = 100
 ;BombletDiff = 2.8
@@ -18,7 +18,7 @@ ProximityDist = 4
 
 
 Accuracy = 1.5
-Explosion = 25
+Explosion = 12
 ExplosionBlock = 3
 Round = 40
 

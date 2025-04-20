@@ -1,4 +1,4 @@
-DisplayName = R-77-1 AAM
+DisplayName = R-77-1 [AAM]
 Type = AAMissile
 Power = 77
 DamageFactor = tank, 1.5

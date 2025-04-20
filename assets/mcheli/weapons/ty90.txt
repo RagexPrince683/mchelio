@@ -1,4 +1,4 @@
-DisplayName = TY-90 Air To Air Missile
+DisplayName = TY-90 [AAM]
 Type = AAMissile
 Power = 3
 DamageFactor = tank, 1.5

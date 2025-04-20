@@ -12,8 +12,8 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
 
-ProximityFuseDist = 6
-ProximityDist = 6
+ProximityFuseDist = 2
+ProximityDist = 2
 
 
 Accuracy = 1.5
@@ -45,5 +45,5 @@ AddMuzzleFlashSmoke   =             5.2,      5,    60.0,  20.0,       90,  200,
 
 MaxAmmo = 16
 SuppliedNum = 2
-Item =  4, iron_ingot
-Item =  4, gunpowder
+Item =  2, iron_ingot
+Item =  2, gunpowder

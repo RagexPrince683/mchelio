@@ -3,8 +3,8 @@ Type = MachineGun2
 Power = 42
 ModelBullet = bullet105mm
 
-ProximityFuseDist = 2
-ProximityDist = 2
+ProximityFuseDist = 1
+ProximityDist = 1
 
 Explosion = 15
 ExplosionBlock = 5
