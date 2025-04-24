@@ -1,0 +1,22 @@
+DisplayName = 1000LB HE bomb
+Type = Bomb
+Power = 1000
+Acceleration = 0.1
+Explosion = 20
+ExplosionBlock = 20
+ExplosionInWater = 5
+Sight = None
+Delay = 10
+Sound = bomb_snd
+ModelBullet = 1000lbBomb
+Gravity = -0.02
+DamageFactor = tank, 40.0
+DamageFactor = plane, 15.5
+DamageFactor = vehicle 15.5
+DamageFactor = heli, 15.5
+DamageFactor = player, 15.0
+
+ReloadTime = 200
+MaxAmmo = 6
+SuppliedNum = 3
+Item =  6, hbm:item.ammo_nuke,5

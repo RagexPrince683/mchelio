@@ -1,6 +1,6 @@
-﻿DisplayName = M113 APC
-AddDisplayName = en_US, M113 APC
-AddDisplayName = ja_JP, M113 装甲兵員輸送車
+﻿DisplayName = M113 APC with M2 Browning Cupola Turret
+AddDisplayName = en_US, M113 APC with M2 Browning Cupola Turret
+AddDisplayName = ja_JP, M113 APC with M2 Browning Cupola Turret
 ItemID = 30191
 MaxHp = 200
 Speed = 0.42
@@ -8,7 +8,7 @@ ThrottleUpDown = 2.0
 Gravity = -0.61
 GravityInWater = -0.2
 Float = true
-DamageFactor = 0.8
+DamageFactor = 0.45
 EnableNightVision = true
 EnableEntityRadar = false
 Sound = moneonethreeapc
@@ -45,7 +45,7 @@ AddSeat       =  -0.56, 0.85, -2.46
 CameraPosition =  0.85, 2.55,  2.05, true
 
 
-StepHeight = 1.5
+StepHeight = 1.8
 InventorySize = 25
 ParticlesScale = 0.1
 SmoothShading = true

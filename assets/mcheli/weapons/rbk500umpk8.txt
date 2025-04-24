@@ -1,0 +1,28 @@
+DisplayName = RBK500 Cluster UMPK kit
+Type = Rocket
+Power = 400
+Acceleration = 2
+Explosion = 3
+Explosionblock = 1
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 15
+ReloadTime = 50
+
+Bomblet = 75
+BombletSTime = 100
+BombletDiff = 0.5
+Sound = bomb_snd
+SoundVolume = 10
+disablesmoke=true
+
+Sound = bomb_snd
+ModelBullet = RBK500umpk
+ModelBomblet = cbc
+Gravity = -0.002
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  2, hbm:item.warhead_cluster_medium
+
+Item =  4, hbm:item.mp_stability_10_flat

@@ -1,0 +1,21 @@
+DisplayName = AM-39 Exocet
+Type = rocket
+Power = 3000
+Acceleration = 4.0
+Explosion = 12
+Flaming = true
+Sight = MoveSight
+Delay = 30
+ModelBullet = am39
+Sound = missile_2_snd
+piercing = 1
+DamageFactor = tank, 20.0
+DamageFactor = plane, 10.5
+DamageFactor = vehicle 10.5
+DamageFactor = heli, 10.5
+DamageFactor = player, 10.0
+
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  2, hbm:item.missile_generic
