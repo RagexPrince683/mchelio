@@ -51,6 +51,8 @@ TrajectoryParticle = largeexplode
 ;BombletSTime = 60
 ModelBomblet = cbc
 
+DispenseRange = 2
+
 Sound = grad
 DisplayMortarDistance = true
 FixCameraPitch = true

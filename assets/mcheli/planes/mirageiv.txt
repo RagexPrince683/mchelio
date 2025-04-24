@@ -1,7 +1,7 @@
 DisplayName = Mirage IV
 AddDisplayName = zh_CN, 幻影IV战略轰炸机
 
-MaxHp = 1000
+MaxHp = 100
 Speed = 1.9
 Sound = f110_snd
 ThrottleUpDown = 0.4
