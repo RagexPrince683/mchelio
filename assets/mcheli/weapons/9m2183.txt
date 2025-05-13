@@ -62,3 +62,4 @@ MaxAmmo = 40
 SuppliedNum = 10
 Item =  5, iron_ingot
 Item =  5, gunpowder
+Item = 15, hbm:tile.mine_he
