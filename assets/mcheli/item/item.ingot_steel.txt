@@ -1,5 +1,6 @@
-DisplayName = item.ingot_steel test
+DisplayName = Steel Ingot
 AddDisplayName = ja_JP, item.ingot_steel test
+;;fix it yourself japan
 ItemID = 28979
 
 StackSize = 64
@@ -11,6 +12,9 @@ StackSize = 64
 
 ;;AddRecipe = "ACA", "EXG", "T T", T, hfr:testcrashskibiditoilet, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
 
+AddRecipe = "A  ", "   ", "   ", A, hfr:item.ingot_steel
+
+;;/give RagexPrince683 hfr:item.ingot_steel
 
 ;hell no
 
