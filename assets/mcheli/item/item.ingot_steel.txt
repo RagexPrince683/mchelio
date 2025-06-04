@@ -15,6 +15,10 @@ StackSize = 64
 AddRecipe = "A  ", "   ", "   ", A, hfr:item.ingot_steel
 AddRecipe = "A  ", "   ", "   ", A, hbm:item.ingot_steel
 
+AddRecipe = "A  ", "B  ", "   ", A, iron_ingot, B, iron_block
+;;compat for retards, LEARN TO INSTALL A DEPENDENCY
+
+
 ;;/give RagexPrince683 hfr:item.ingot_steel
 
 ;hell no

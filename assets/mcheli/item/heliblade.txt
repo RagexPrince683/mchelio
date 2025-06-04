@@ -1,0 +1,8 @@
+DisplayName = Helicopter Rotor
+AddDisplayName = ja_JP, Helicopter Rotor
+
+StackSize = 64
+
+AddRecipe = "BRB", "RBR", "BRB", R, redstone, B, mcheli:item.ingot_aluminum
+
+
