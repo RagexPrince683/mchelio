@@ -1,7 +1,10 @@
-﻿DisplayName = Tupolev "TU-95"MS
+﻿;;DisplayName = Tupolev "TU-95"MS
+DisplayName = TU-95MS
+AddDisplayName = en_US, TU-95MS
+AddDisplayName = ja_JP, TU-95MS
 AddDisplayName = zh_CN, 图95MS“熊”
 ItemID = 19112
-MaxHp = 1200
+MaxHp = 250
 EnableNightVision = true
 EnableEntityRadar = true
 EnableGunnerMode = true
@@ -14,7 +17,7 @@ MaxFuel = 60000
 FuelConsumption = 1.0
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-ThirdPersonDist = 20
+ThirdPersonDist = 40
 AutoPilotRot = 0
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
@@ -27,6 +30,11 @@ MobilityPitch = 0.4
 MobilityRoll = 0.2
 
 AddSeat = 0.4,  4.1094,  1.2
+
+UnmountPosition = 0.4,  2.9,  1.2
+
+EnableBack = True
+
 AddGunnerSeat = -0.4,  4.1094,  1.2, -0.3021, 0.3021, 0.3021, true
 AddGunnerSeat =  0.00, 5, -47.00,  0.00,6, -48.5
 AddPartLG = 0, 3.1, 0, 1,0,0, 100
