@@ -1,0 +1,23 @@
+DisplayName = Flash Bang Grenade
+AddDisplayName = ja_JP, Flash Bang Grenade
+Power = 0
+StackSize = 2
+Explosion = 30
+ExplosionBlock = 0
+TimeFuse = 2
+Bound = 0.3
+Bomblet = 25
+BombletDiff = 2.0
+
+
+DamageFactor = tank, 0.0
+DamageFactor = plane, 0.0
+DamageFactor = vehicle, 0.0
+DamageFactor = heli, 0.0
+DamageFactor = player, 0.0
+
+;AddRecipe = "DY",  Y, iron_ingot, D, gunpowder
+
+Gravity = -0.08
+GravityInWater = -1.00
+DispenseAcceleration = 0.95

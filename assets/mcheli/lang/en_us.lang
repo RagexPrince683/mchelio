@@ -7,6 +7,7 @@ item.mcheli:parachute.name=Parachute
 item.mcheli:container.name=Container
 item.mcheli:uav_station.name=UAV Station
 item.mcheli:uav_station2.name=Portable UAV Controller
+item.mcheli:flashbang.name=Flash Bang Grenade
 item.mcheli:granade.name=M67 Hand Grenade
 item.mcheli:m18_green.name=M18 smoke (Green)
 item.mcheli:m18_red.name=M18 smoke (Red)
