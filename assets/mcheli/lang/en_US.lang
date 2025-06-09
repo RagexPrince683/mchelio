@@ -21,6 +21,7 @@ item.mcheli:airframebomb.name=Bomber Air Frame
 item.mcheli:composite.name=Basic Composite Armor
 item.mcheli:composite2.name=Advanced Composite Armor
 item.mcheli:composite3.name=Modern Composite Armor
+item.mcheli:electronics.name=Electronics
 item.mcheli:fatmanmultipart.name=Fat Man Payload
 item.mcheli:fcs.name=Basic Fire Control System
 item.mcheli:fcs2.name=Advanced Fire Control System

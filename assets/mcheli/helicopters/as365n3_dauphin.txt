@@ -29,7 +29,8 @@ CameraZoom = 3
 
 
 ; C = Civilian(民間機)
-Category = C
+;Civilian Transport T3
+Category = C.T.3
 
 
 HUD = helinvg, none, none, none

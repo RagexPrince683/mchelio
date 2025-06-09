@@ -107,6 +107,7 @@
 "cvenglonger": {"category": "master","sounds": ["cvenglonger"]},
 "cvmain": {"category": "master","sounds": ["cvmain"]},
 "dacia": {"category": "master","sounds": ["dacia"]},
+"deploy": {"category": "master","sounds": ["deploy"]},
 "diesel": {"category": "master","sounds": ["diesel"]},
 "dieselman": {"category": "master","sounds": ["dieselman"]},
 "dive_alert": {"category": "master","sounds": ["dive_alert"]},
