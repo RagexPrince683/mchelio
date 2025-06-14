@@ -13,7 +13,7 @@ Sound = humvee
 MobilityRoll     = 0
 Gravity        = -0.61
 GravityInWater = -1
-DamageFactor   = 0.85
+DamageFactor   = 0.0
 EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 3.0
@@ -33,7 +33,7 @@ EnableBack = true
 
 ;AddTexture = humveewithweapon2
 ;AddTexture = humveewithweaponv
-AddTexture = humveewithweapon2v
+AddTexture = humveewithweaponrwsgre
 
 ; Tank or Car or Unknown
 WeightType = Car
@@ -156,74 +156,74 @@ BoundingBox = 0.0, 0.90, -1.33, 1.9, 1.0, 1.0
 ;BoundingBox = 0.5, 2.0, 1.0,  0.1,   0.8
 ;BoundingBox = -0.5, 2.0, 1.0, 0.1,  0.8
 
-BoundingBox = -0.1, 1.8, 0.8,   0.1,   0.8
-BoundingBox = -0.2, 1.8, 0.8,   0.1,   0.8
-BoundingBox = -0.3, 1.8, 0.8,   0.1,   0.8
-BoundingBox = -0.4, 1.8, 0.8,   0.1,   0.8
-BoundingBox = -0.5, 1.8, 0.8,   0.1,   0.8
-BoundingBox = -0.6, 1.8, 0.8,   0.1,   0.8
-BoundingBox = -0.7, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = -0.1, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = -0.2, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = -0.3, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = -0.4, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = -0.5, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = -0.6, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = -0.7, 1.8, 0.8,   0.1,   0.8
 
-BoundingBox = 0.0, 1.8, 0.8,   0.1,   0.8
-BoundingBox = 0.1, 1.8, 0.8,   0.1,   0.8
-BoundingBox = 0.2, 1.8, 0.8,   0.1,   0.8
-BoundingBox = 0.3, 1.8, 0.8,   0.1,   0.8
-BoundingBox = 0.4, 1.8, 0.8,   0.1,   0.8
-BoundingBox = 0.5, 1.8, 0.8,   0.1,   0.8
-BoundingBox = 0.6, 1.8, 0.8,   0.1,   0.8
-BoundingBox = 0.7, 1.8, 0.8,   0.1,   0.8
-
-
-BoundingBox = 0.7, 1.8, 0.7,   0.1,   0.8
-BoundingBox = 0.7, 1.8, 0.6,   0.1,   0.8
-BoundingBox = 0.7, 1.8, 0.5,   0.1,   0.8
-BoundingBox = 0.7, 1.8, 0.4,   0.1,   0.8
-BoundingBox = 0.7, 1.8, 0.3,   0.1,   0.8
-BoundingBox = 0.7, 1.8, 0.2,   0.1,   0.8
-BoundingBox = 0.7, 1.8, 0.1,   0.1,   0.8
-BoundingBox = 0.7, 1.8, 0.0,   0.1,   0.8
-
-BoundingBox = 0.7, 1.8, -0.1,   0.1,   0.8
-BoundingBox = 0.7, 1.8, -0.2,   0.1,   0.8
-BoundingBox = 0.7, 1.8, -0.3,   0.1,   0.8
-BoundingBox = 0.7, 1.8, -0.4,   0.1,   0.8
-BoundingBox = 0.7, 1.8, -0.5,   0.1,   0.8
-BoundingBox = 0.7, 1.8, -0.6,   0.1,   0.8
-BoundingBox = 0.7,  1.8, -0.7,  0.1,  0.8
-
-BoundingBox = -0.7, 1.8, 0.7,  0.1,  0.8
-BoundingBox = -0.7, 1.8, 0.6,  0.1,  0.8
-BoundingBox = -0.7, 1.8, 0.5,  0.1,  0.8
-BoundingBox = -0.7, 1.8, 0.4,  0.1,  0.8
-BoundingBox = -0.7, 1.8, 0.3,  0.1,  0.8
-BoundingBox = -0.7, 1.8, 0.2,  0.1,  0.8
-BoundingBox = -0.7, 1.8, 0.1,  0.1,  0.8
-BoundingBox = -0.7, 1.8, 0.0,  0.1,  0.8
-
-BoundingBox = -0.7, 1.8, -0.1,  0.1,  0.8
-BoundingBox = -0.7, 1.8, -0.2,  0.1,  0.8
-BoundingBox = -0.7, 1.8, -0.3,  0.1,  0.8
-BoundingBox = -0.7, 1.8, -0.4,  0.1,  0.8
-BoundingBox = -0.7, 1.8, -0.5,  0.1,  0.8
-BoundingBox = -0.7, 1.8, -0.6,  0.1,  0.8
-BoundingBox = -0.7, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = 0.0, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = 0.1, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = 0.2, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = 0.3, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = 0.4, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = 0.5, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = 0.6, 1.8, 0.8,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, 0.8,   0.1,   0.8
 
 
-BoundingBox = 0.1, 1.8, -0.7, 0.1, 0.8
-BoundingBox = 0.2, 1.8, -0.7, 0.1, 0.8
-BoundingBox = 0.3, 1.8, -0.7, 0.1, 0.8
-BoundingBox = 0.4, 1.8, -0.7, 0.1, 0.8
-BoundingBox = 0.5, 1.8, -0.7, 0.1, 0.8
-BoundingBox = 0.6, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = 0.7, 1.8, 0.7,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, 0.6,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, 0.5,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, 0.4,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, 0.3,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, 0.2,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, 0.1,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, 0.0,   0.1,   0.8
+
+;;BoundingBox = 0.7, 1.8, -0.1,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, -0.2,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, -0.3,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, -0.4,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, -0.5,   0.1,   0.8
+;;BoundingBox = 0.7, 1.8, -0.6,   0.1,   0.8
+;;BoundingBox = 0.7,  1.8, -0.7,  0.1,  0.8
+
+;;BoundingBox = -0.7, 1.8, 0.7,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, 0.6,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, 0.5,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, 0.4,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, 0.3,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, 0.2,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, 0.1,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, 0.0,  0.1,  0.8
+
+;;BoundingBox = -0.7, 1.8, -0.1,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, -0.2,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, -0.3,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, -0.4,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, -0.5,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, -0.6,  0.1,  0.8
+;;BoundingBox = -0.7, 1.8, -0.7, 0.1, 0.8
 
 
-BoundingBox = -0.0, 1.8, -0.7, 0.1, 0.8
-BoundingBox = -0.1, 1.8, -0.7, 0.1, 0.8
-BoundingBox = -0.2, 1.8, -0.7, 0.1, 0.8
-BoundingBox = -0.3, 1.8, -0.7, 0.1, 0.8
-BoundingBox = -0.4, 1.8, -0.7, 0.1, 0.8
-BoundingBox = -0.5, 1.8, -0.7, 0.1, 0.8
-BoundingBox = -0.6, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = 0.1, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = 0.2, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = 0.3, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = 0.4, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = 0.5, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = 0.6, 1.8, -0.7, 0.1, 0.8
+
+
+;;BoundingBox = -0.0, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = -0.1, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = -0.2, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = -0.3, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = -0.4, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = -0.5, 1.8, -0.7, 0.1, 0.8
+;;BoundingBox = -0.6, 1.8, -0.7, 0.1, 0.8
 
 
 UnmountPosition = 0.00, 1.50,-0.018
