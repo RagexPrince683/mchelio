@@ -14,12 +14,12 @@ MobilityRoll     = 0
 Gravity        = -0.61
 GravityInWater = -1
 DamageFactor   = 0.0
-EnableNightVision = false
+EnableNightVision = true
 MaxFuel           = 1200
 FuelConsumption   = 3.0
 ThirdPersonDist = 5
 
-CameraZoom = 0
+CameraZoom = 10
 
 SubmergedDamageHeight = 1
 
@@ -42,7 +42,7 @@ WeightType = Car
 ; X座標のマイナス側は必要なし
 SetWheelPos =  0.70,  -0.24,  2.0657, -1.6257
 
-HUD = Humvee_hud, none, none, none, gunner
+HUD = Humvee_hudnotherm, gunner, none, none
 
 AddSeat =  0.70,  0.18,  0.31
 
@@ -50,7 +50,7 @@ AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
 
 AddWeapon =  1_horngtr, 0.00,  0.42,  3.05, 0.0, 90
 
-AddGunnerSeat = -0.70,  0.30,  0.31,   0.00, 2.60, -0.018,  false, -60,  60
+AddGunnerSeat = -0.70,  0.30,  0.31,   0.00, 2.6636, 0.7727,  false, -60,  60
 AddSeat = -0.67,  0.30, -0.41
 AddSeat =  0.67,  0.30, -0.41
 ;;AddGunnerSeat =  0.00, 1.50,-0.018,   0.00, 2.60, -0.018,  false, -60,  60
@@ -120,12 +120,16 @@ AddRecipe = "AC ", "EXG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_platin
 ;AddRecipe = "",  "",  "",  
 
 ;ヘッドライト
-AddFixedSearchLight =  0.5414, 0.7223, 2.5763,      0x20FFFFFF,   0x00FFFFC0,    0.5, 1.0,  -5,  0
-AddFixedSearchLight = -0.5414, 0.7223, 2.5763,      0x20FFFFFF,   0x00FFFFC0,    0.5, 1.0,   5,  0
+
+
+
+;;I will have to fix this at some point, not now though idc
+;AddFixedSearchLight =  0.5414, 0.7223, 2.5763,      0x20FFFFFF,   0x00FFFFC0,    0.5, 1.0,  -5,  0
+;AddFixedSearchLight = -0.5414, 0.7223, 2.5763,      0x20FFFFFF,   0x00FFFFC0,    0.5, 1.0,   5,  0
 
 ;テールランプ
-AddFixedSearchLight =  0.965, 0.794,-2.462,   0xFFFF0000,   0x10FF0000,    0.0, 0.16 
-AddFixedSearchLight = -0.965, 0.794,-2.463,   0xFFFF0000,   0x10FF0000,    0.0, 0.16
+;AddFixedSearchLight =  0.965, 0.794,-2.462,   0xFFFF0000,   0x10FF0000,    0.0, 0.16 
+;AddFixedSearchLight = -0.965, 0.794,-2.463,   0xFFFF0000,   0x10FF0000,    0.0, 0.16
 
 ;EnableNightVision = true
 
@@ -136,9 +140,9 @@ AddWeapon = horn, 0.00, 0.00, 0.00,  0.0,0.0
 ;;AddPartWeapon = humvee50cal, false, true, false,  0.00, 1.01, -0.018, 0
 ;;AddPartWeaponChild = false, true, 0.00, 2.273, 0.869
 
-AddPartWeapon    = strykerm2_rws,   true, true, true,  -0.0, 2.6636, 0.8200
-AddPartWeapon    = strykerm2_rws,  false, true, false, -0.0, 2.1104, 0.8200
-AddTurretWeapon = strykerm2_rws,   -0.0, 2.3,  -0.018,   0.0, 0.0, false, 2, 0, -360,360, -60,20
+AddPartWeapon    = strykerm2_rws,   true, true, true,  -0.0, 2.6636, 0.7727
+AddPartWeapon    = strykerm2_rws,  false, true, false, -0.0, 2.1104, 0.7727
+AddTurretWeapon = strykerm2_rws,   -0.0, 2.6636, 0.7727,   0.0, 0.0, false, 2, 0, -360,360, -60,20
 
 
 ;AddPartWeapon    = strykerm2_rws,   true, true, true,  -0.743, 3.6549, 0.3869
