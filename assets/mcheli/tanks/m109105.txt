@@ -1,6 +1,6 @@
-﻿DisplayName = M109A6 Paladin 155mm Self Propelled Howitzer
-AddDisplayName = ja_JP, M109A6 Paladin 155mm Self Propelled Howitzer
-AddDisplayName = en_US, M109A6 Paladin 155mm Self Propelled Howitzer
+﻿DisplayName = M109 105mm Self Propelled Howitzer
+AddDisplayName = ja_JP, M109 105mm Self Propelled Howitzer
+AddDisplayName = en_US, M109 105mm Self Propelled Howitzer
 ItemID = 30100
 MaxHp = 200
 Speed = 0.38
