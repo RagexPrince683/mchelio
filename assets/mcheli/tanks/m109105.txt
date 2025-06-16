@@ -1,6 +1,6 @@
-﻿DisplayName = M109 105mm Self Propelled Howitzer
-AddDisplayName = ja_JP, M109 105mm Self Propelled Howitzer
-AddDisplayName = en_US, M109 105mm Self Propelled Howitzer
+﻿DisplayName = M109 155mm Self Propelled Howitzer
+AddDisplayName = ja_JP, M109 155mm Self Propelled Howitzer
+AddDisplayName = en_US, M109 155mm Self Propelled Howitzer
 ItemID = 30100
 MaxHp = 200
 Speed = 0.38
@@ -27,8 +27,6 @@ EnableBack = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 
-AddTexture = m109des
-
 WeightType = Tank
 WeightedCenterZ = 0
 
@@ -41,18 +39,18 @@ HUD = mbt_hudtwo,gunnernvg
 ;AddTurretWeapon =m107, 0, 2.17, 8.41,  0.0, 0.0, true,1, 0,-360,180, -80, 7
 
 
-AddPartWeapon = 109m107/109bb/109raams/109m107m712/109excalibur/109m795/109m795bb/109m549, false, true, false,  0.00, 0,0,0
+AddPartWeapon = 109m107sh/109bbsh/109raamssh/109m795sh/109m795bbsh/109m549sh, false, true, false,  0.00, 0,0,0
 AddPartWeaponChild = false, true, 0.66, 2.06, 1.87, 0
 AddPartWeaponChild = false, true, 0.66, 2.06, 1.87, 0.5
 
-AddTurretWeapon = 109m107, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360, -75, 3
-AddTurretWeapon = 109bb, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
-AddTurretWeapon = 109raams, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
-AddTurretWeapon = 109m107m712, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
-AddTurretWeapon = 109excalibur, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
-AddTurretWeapon = 109m795, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
-AddTurretWeapon = 109m795bb, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
-AddTurretWeapon = 109m549, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
+AddTurretWeapon = 109m107sh, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360, -75, 3
+AddTurretWeapon = 109bbsh, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
+AddTurretWeapon = 109raamssh, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
+;;AddTurretWeapon = 109m107m712sh, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
+;;AddTurretWeapon = 109excalibursh, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
+AddTurretWeapon = 109m795sh, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
+AddTurretWeapon = 109m795bbsh, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
+AddTurretWeapon = 109m549sh, -0.0289, 2.1748, 0.2037,  0.0, 0.0, true,1, 0,-360,360,   -75, 3
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddTurretWeapon = m107,   0.00, 2.9709, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -65, 6
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddTurretWeapon = 155sgh1,  0.00, 2.9709, 2.2037,  0.0, 0.0, true,1, 0,-360,360, -65, 6
