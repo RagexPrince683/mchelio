@@ -60,7 +60,7 @@ AddWeapon = tr_seed,        -0.08, 0.12, -2.68,   1.0, 0.0
 AddWeapon = tr_water,  -0.08, 1.51, -3.28,   1.0, 0.0
 AddWeapon = tr_fertilizer,  -0.08, 1.51, -3.28,   1.0, 0.0
 
-AddRecipe = "   ",  "I I",  "III", I, iron_ingot
+AddRecipe = " I ",  "I I",  "III", I, iron_ingot
 
 
 OnGroundPitchFactor = 2.8

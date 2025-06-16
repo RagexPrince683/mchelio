@@ -2,7 +2,6 @@ DisplayName = Medium Chassis
 AddDisplayName = ja_JP, Medium Chassis
 
 StackSize = 64
-AddRecipe = "AAA", "A A", "AAA", A, mcheli:lightchassis
 ;;you vill install the fucking faction mod
 
 ;AddRecipe = "AAA", "A A", "AAA", A, mcheli:map
