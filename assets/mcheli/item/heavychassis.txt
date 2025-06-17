@@ -3,6 +3,4 @@ AddDisplayName = ja_JP, Heavy Chassis
 
 StackSize = 64
 AddRecipe = "AAA", "A A", "AAA", A, mcheli:mediumchassis
-;;you vill install the fucking faction mod
-
-AddRecipe = " A ", "   ", "   ", A, hfr:item.part_plating_3
+AddRecipe = " A ", "   ", "   ", A, hfr:item.part_chassis_3

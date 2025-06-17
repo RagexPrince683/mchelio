@@ -10,6 +10,9 @@ StackSize = 64
 ;;AddRecipe = "A  ", "   ", "   ", A, hfr:item.ingot_steel
 AddRecipe = "A  ", "   ", "   ", A, hbm:item.ingot_aluminium
 
+AddRecipe = "AB ", "C  ", "   ", A, iron_block, B, mcheli:item.ingot_steel, C, coal
+;;compat for the mentally impaired
+
 ;;temp
 ;;AddRecipe = "A  ", "   ", "   ", A, stone
 ;;I decided not to that might be a bit too much for the processes involved
