@@ -5,7 +5,8 @@ ItemID = 30063
 MaxHp = 100
 Speed = 0.74124
 
-RWRType = ALL_WAY_EARLY
+;;RWRType = ALL_WAY_EARLY
+;why no RWRType = Disabled???
 
 
 ;426 
