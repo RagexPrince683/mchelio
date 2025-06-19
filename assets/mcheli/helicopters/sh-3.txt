@@ -50,7 +50,8 @@ AddSeat       = 0.56,  1.3,  -5.9
 
 AddWeapon = m240_r,    -1.477, 1.629,-6.447,   0.0, 0.0, false, 3, 90,-80,80, -50,80
 
-AddRecipe = "BPB", "BCB", "EHB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2, H, hfr:item.kit_repeating
+;advanced modern helicopter med size armed, AOW3 style
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon1
 
 InventorySize = 54
 

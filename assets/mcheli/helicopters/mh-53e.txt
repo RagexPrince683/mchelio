@@ -69,7 +69,10 @@ AddPartHatch  = 0, 0.543, -10.47, 1,0,0, -34
 AddWeapon = m3m_l,     1.47, 1.70,-1.62,   0.0, 0.0, false, 3, -90,-70, 70, -50,80
 AddWeapon = m3m_r,    -1.47, 1.70,-1.62,   0.0, 0.0, false, 4,  90,-70, 70, -50,80
 
-AddRecipe = "BPB", "BCB", "EHB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2, H, hfr:item.kit_repeating
+;advanced large modern helicopter transport armed, AOW3 style
+AddRecipe = "ABC", "DEF", " A ", A, mcheli:airframe3, B, mcheli:heliblade, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon1
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:ch-53e, B, mcheli:cannon1
 
 InventorySize = 54
 

@@ -1,5 +1,5 @@
-﻿DisplayName = Boeing CH-47 Chinook
-AddDisplayName = en_US, Boeing CH-47 Chinook
+﻿DisplayName = Up Armed Boeing ACH-47A "Guns A Go-Go" Chinook
+AddDisplayName = en_US, Up Armed Boeing ACH-47A "Guns A Go-Go" Chinook
 AddDisplayName = ja_JP, ACH47a アームド チヌーク
 ItemID = 28811
 MaxHp = 100
@@ -69,7 +69,11 @@ AddWeapon = m134_l502,  1.2859, 1.8159, -1.6054,  0.0, 0.0,  false, 6, -90, -70,
 AddWeapon = m134_r502, -1.2859, 1.8159, -1.6054,  0.0, 0.0,  false, 7,  90, -70, 70, -80,  80
 
 
-AddRecipe = "BPB", "BCB", "EHB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2, H, hfr:item.kit_repeating
+
+;advanced large modern helicopter transport way armed, AOW3 style
+AddRecipe = "ABC", "DEF", "GH ", A, mcheli:airframe3, B, mcheli:heliblade2, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon2, G, mcheli:rocket, H, mcheli:cannon1
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:ch47, B, mcheli:cannon2, C, mcheli:rocket
 
 InventorySize = 18
 

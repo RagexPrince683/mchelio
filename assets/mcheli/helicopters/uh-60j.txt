@@ -55,7 +55,8 @@ AddRepellingHook = -1.64, 2.05, -2.30, 30
 
 AddPartSlideHatch =  -0.083,  0.00, -2.11
 
-AddRecipe = "BPB", "BCB", "BEB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2
+;advanced modern helicopter med size, AOW3 style
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics
 
 InventorySize = 27
 

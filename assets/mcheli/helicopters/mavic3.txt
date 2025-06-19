@@ -28,7 +28,7 @@ AddRotor = 1, 0, -0.55,  0.0, 0.3578,  -0.0052 , 0.0602, 0
 AddRotor = 1, 0, 0.4377,  -0.0156, -0.4693,  0.0098 , 0.0597, 0.0008
 AddRotor = 1, 0, -0.4377,  -0.0156, -0.4693,  -0.0098 , 0.0597, 0.0008
 
-AddRecipe = " XE", " C ", "W W", W, hfr:item.part_wheel, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics
-
+;basic unarmed drone
+AddRecipe = "ABC", "   ", "   ", A, mcheli:item.ingot_aluminum, B, mcheli:electronics, C, mcheli:basicmechanicparts
 
 ThrottleUpDown = 0.8

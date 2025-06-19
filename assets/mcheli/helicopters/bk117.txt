@@ -72,7 +72,8 @@ MaxFuel         = 1000
 FuelConsumption = 1.0
 
 
-AddRecipe = "APA", "ACA", "AEA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, C, hfr:item.components_electronics, E, hfr:item.part_engine_1
+;basic unarmed modern helicopter, AOW3 style
+AddRecipe = "ABC", " E ", "   ", A, mcheli:airframe, B, mcheli:heliblade, C, mcheli:engine2, E, mcheli:electronics
 
 UnmountPosition = -0.40,  1.50,  1.99
 

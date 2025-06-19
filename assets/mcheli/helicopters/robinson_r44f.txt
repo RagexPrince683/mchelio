@@ -37,7 +37,8 @@ AddPartHatch = -0.87, 1.01, 2.48,  0.046,  1.0, -0.51,  70
 AddPartHatch =  0.87, 1.01, 2.48,  0.046, -1.0,  0.51,  70
 AddPartHatch = -0.87, 1.01, 2.48,  0.046,  1.0, -0.51,  70
 
-AddRecipe = "APA", "ACA", "AEA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, C, hfr:item.components_electronics, E, hfr:item.part_engine_1
+;basic unarmed modern helicopter, AOW3 style
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:airframe, B, mcheli:heliblade, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:electronics
 
 BoundingBox = 0.0, 3.5, 0.0, 1.0, 2.0, 1.5
 

@@ -49,7 +49,8 @@ AddTurretWeapon = m3m_l, 0.91, 2.10, 3.49,   0.0, 0.0, false, 3, -90,-50, 50, -4
 AddRepellingHook =  0.37, 2.94, -8.61, 30
 AddRepellingHook = -0.37, 2.94, -8.61, 30
 
-AddRecipe = "BPB", "BCB", "EHB", B, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2, H, hfr:item.kit_repeating
+;advanced modern transport helicopter med size armed, AOW3 style
+AddRecipe = "ABC", "DEB", "   ", A, mcheli:airframe3, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon1
 
 InventorySize = 54
 

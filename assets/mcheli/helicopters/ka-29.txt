@@ -61,7 +61,8 @@ AddWeapon = targeting_pod_pv10s,   0.0, 0.6, 2.0,   0.0, 0.0,  false,2
 AddPartWeaponBay = gshg7_62mm,  0, 1.57, 1.96,  1,0,0,  60
 AddPartRotWeapon = gshg7_62mm, false, true,  true, -0.600, 1.659, 2.133
 
-AddRecipe = "APA", "ACE", "AHA", A, hfr:item.part_plating_2, P, hfr:item.part_chassis_2, C, hfr:item.components_electronics, E, hfr:item.part_engine_2, H, hfr:item.kit_hmg
+;advanced modern helicopter med size armed, AOW3 style
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:heliblade2, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon2, G, mcheli:rocket2
 
 ;BoundingBox =  0.0, 3.0, -1.0,  2.0, 4.8
 ;BoundingBox =  0.0, 2.5, -3.5,  2.0, 3.8

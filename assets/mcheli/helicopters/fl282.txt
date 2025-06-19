@@ -33,8 +33,8 @@ AddRotor= 1, 0, -0.48,  3.94, -1.69, -0.26,  1.00,  0.12
 AddSeat = 0.0,  1.45,  0.25
 
 
-AddRecipe = "APA", "A A", "AEA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, E, hfr:item.part_engine_1
-
+;shitter helicopter, AOW3 style
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:airframe, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair
 
 BoundingBox =  0.0, 2.33, -1.85,  2.0, 2.0
 

@@ -126,7 +126,8 @@ AddPartRotWeapon   = gshg-7_62,  false, true,  true, -2.2017,  1.1184,   0.39
 AddPartRotWeapon   = gshg-7_62,  false, true,  true, -1.8865,  1.1184,   0.39
 
 
-AddRecipe = "APA", "ACE", "AHA", A, hfr:item.part_plating_3, P, hfr:item.part_chassis_3, C, hfr:item.components_electronics, E, hfr:item.part_engine_3, H, hfr:item.kit_hmg
+;advanced modern helicopter armed, AOW3 style
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon2, G, mcheli:rocket3
 
 BoundingBox =  0.0,  0.80,  5.80,  1.2, 1.2
 BoundingBox =  0.0,  1.12,  4.59,  2.2, 2.2

@@ -91,7 +91,9 @@ BoundingBox =  0.0, 2.7, -7.8,  1.0, 1.5
 
 unmountposition = 0.00,  1.50,  2.40
 
-AddRecipe = "APA", "ACE", "AHA", A, hfr:item.part_plating_3, P, hfr:item.part_chassis_3, C, hfr:item.components_electronics, E, hfr:item.part_engine_3, H, hfr:item.kit_hmg
+;advanced armored modern helicopter armed no tail rotor, AOW3 style
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe3, B, mcheli:heliblade2, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon2, G, mcheli:rocket3
+
 
 DamageFactor = 0.6
 

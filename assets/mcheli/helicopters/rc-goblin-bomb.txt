@@ -27,8 +27,10 @@ AddRotor = 1, 0, 0.00, -0.00, -0.65,  1, 0, 0
 
 AddWeapon = plastic_bomb, 0,0,0,  0,0
 
-AddRecipe = "XEG", " C ", "W W", W, hfr:item.part_wheel, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+;basic armed drone
+AddRecipe = "ABC", "C  ", "   ", A, mcheli:item.ingot_aluminum, B, mcheli:electronics, C, mcheli:basicmechanicparts
 
+AddRecipe = "AB ", "   ", "   ", A, mcheli:rc-goblin, B, mcheli:basicmechanicparts
 
 ;BoundingBox =  0.0, 0.0, 0.0,  1.5, 1.5
 

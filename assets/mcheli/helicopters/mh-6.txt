@@ -36,7 +36,8 @@ AddSeat = 1.45,  0.60,  0.70
 AddWeapon = targeting_pod_mob,     0.0, 2.2, 1.0,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_block,     0.0, 2.2, 1.0,   0.0, 0.0,  true, 2
 
-AddRecipe = "APA", "ACA", "AEA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, C, hfr:item.components_electronics, E, hfr:item.part_engine_1
+;basic armed small modern helicopter NO WHEEL, AOW3 style
+AddRecipe = "ABC", " E ", "   ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, E, mcheli:electronics
 
 InventorySize = 18
 

@@ -1,5 +1,5 @@
-DisplayName = Bell 47G float
-AddDisplayName = en_US, Bell 47G float
+DisplayName = Bell 47G Float w MiniGun
+AddDisplayName = en_US, Bell 47G Float w MiniGun
 AddDisplayName = ja_JP, Bell47G フロート
 ItemID = 28808
 MaxHp = 100
@@ -30,7 +30,9 @@ AddSeat =-0.50,  0.96,  0.29
 
 AddWeapon = m134_l,  0.53, 0.03, 1.99,   0.5, 0.0
 
-AddRecipe = "APA", "ACA", "EHA", A, hfr:item.part_plating_1, P, hfr:item.part_chassis_1, C, hfr:item.components_electronics, E, hfr:item.part_engine_1, H, hfr:item.kit_singleshot
+;basic small modern helicopter, AOW3 style
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:airframe, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon1
+
 
 DamageFactor = 0.8
 
