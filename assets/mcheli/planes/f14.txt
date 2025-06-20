@@ -48,7 +48,12 @@ AddPartLG = -2.10, 1.38, -5.91, 0,0,1,   110
 AddPartLG =  2.10, 1.38, -5.91, 0,0,1,  -110
 AddPartLG =  0.00, 1.12, -11.31, -1,0,0,-40
 
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
+;modern light plane (late jet), AOW3 style (fcs)
+AddRecipe = "ABC", "DEF", "GGG", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:fcs2, G, mcheli:electronics
+
+;oh
+AddRecipe = "ABC", "   ", "   ", A, mcheli:f14d, B, mcheli:electronics, C, mcheli:fcs2
+
 
 AddPartWing =  -2.18, 2.13, -5.14,  0,-1,0, 40
 AddPartWing =   2.18, 2.13, -5.14,  0, 1,0, 40

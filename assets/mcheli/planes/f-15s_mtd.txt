@@ -91,7 +91,8 @@ AddPartHatch =   0.0,  3.20,  -4.86,  1,0, 0, 45
 AddPartHatch =   0.0,  3.00,  -7.05, -1,0, 0, 45
 SweepWingSpeed = 0.7
 
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
+;modern light plane (late jet), AOW3 style (fcs)
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:fcs2, G, mcheli:electronics
 
 
 BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0

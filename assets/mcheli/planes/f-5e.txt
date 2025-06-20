@@ -12,7 +12,8 @@ enableback = true
 ;Sound = fighter_jet
 
 
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
+;early modern light plane (late jet), AOW3 style (light arm)
+AddRecipe = "ABC", "DEG", "F  ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon1, G, mcheli:electronics, F, mcheli:rocket2
 
 sound = ffive
 ThrottleUpDown = 0.3

@@ -1,4 +1,4 @@
-DisplayName = AM-39 Exocet
+DisplayName = AM-39 Exocet [Anti Ship Missile]
 Type = rocket
 Power = 3000
 Acceleration = 4.0
@@ -17,5 +17,7 @@ DamageFactor = player, 10.0
 
 
 MaxAmmo = 2
-SuppliedNum = 2
-Item =  2, hbm:item.missile_generic
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  12, gunpowder
+Item =  2, redstone

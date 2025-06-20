@@ -1,7 +1,7 @@
 DisplayName = MBDA MICA
 Type = AAMissile
-Power = 650
-Acceleration = 3
+Power = 250
+Acceleration = 4
 Explosion = 3
 Flaming = false
 Sight = MissileSight
@@ -13,6 +13,13 @@ ProximityFuseDist = 1
 ModelBullet = r550
 Sound = missile_1_snd
 
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+
 MaxAmmo = 4
-SuppliedNum = 4
-Item =  4, hbm:item.ammo_stinger_rocket
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

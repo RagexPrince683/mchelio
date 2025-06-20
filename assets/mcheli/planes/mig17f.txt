@@ -56,7 +56,8 @@ AddWeapon = k5,    -1.544,  0.7756, -1.081,   0.0,  0.0
 
 AddWeapon = targeting_pod_ph50s,   0.0, 3.1, 4.2,    0.0, 0.0
 
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1, K, hfr:item.kit_hmg
+;less modern light plane (late jet), AOW3 style (canandaa)
+AddRecipe = "ABC", "DEG", "   ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon2, G, mcheli:electronics
 
 BoundingBox =  0.0, 1.7, 1.0,  1.0, 1.3
 
