@@ -1,4 +1,9 @@
 ﻿DisplayName = RN40 Nuclear Bomb [1MT SURFACE]
+DisplayName = RN40 Nuclear Bomb [1MT SURFACE]
+DisplayName = RN40 Nuclear Bomb [1MT SURFACE]
+DisplayName = RN40 Nuclear Bomb [1MT SURFACE]
+DisplayName = RN40 Nuclear Bomb [1MT SURFACE]
+DisplayName = RN40 Nuclear Bomb [1MT SURFACE]
 Type = Rocket
 ;Power = 100000
 ;DamageFactor = tank, 10000.0
