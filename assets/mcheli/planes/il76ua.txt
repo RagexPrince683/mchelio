@@ -14,7 +14,7 @@ EnableEntityRadar = true
 ThirdPersonDist = 68
 
 Category = M.C
-HUD = plane,plane
+HUD = planenvg,plane
 
 AddTexture = il76
 

@@ -21,7 +21,7 @@ RotorSpeed = 200.0
 
 ; M = Military(軍用機).  C = Transport(輸送機)
 Category = M.C
-HUD = plane,plane
+HUD = planenvg,plane
 
 MobilityRoll = 0.1
 MobilityYaw = 0.1	
