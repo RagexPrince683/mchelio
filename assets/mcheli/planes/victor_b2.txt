@@ -119,4 +119,6 @@ BoundingBox = 0.0, 6.39, -20.81, 2.0, 0.3
 ;BoundingBox = -0.44, 6.59, -21.81, 2.0, 0.3
 
 
-AddRecipe = "CAC", "EXK", "WGW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, G, hfr:item.part_cannon_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, K, hfr:item.kit_hmg
+
+;med large bomber aircraft semi modern, AOW3 style
+AddRecipe = "ABC", "D C", " E ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics

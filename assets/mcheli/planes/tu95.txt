@@ -9,6 +9,9 @@ RotorSpeed = 2000.0
 
 ;400mph
 
+
+DamageFactor = 0.8
+
 Sound = twinprop
 ThrottleUpDown = 0.1
 AutoPilotRot = 0.00
@@ -30,6 +33,9 @@ HUD = plane_wwii, gunner
 MobilityYaw = 0.8
 MobilityPitch = 0.8
 MobilityRoll = 0.4
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
 
 
 AddSeat = 0.36,  2.90, 0.00

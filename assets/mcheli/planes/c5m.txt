@@ -14,7 +14,7 @@ InventorySize = 64
 EnableGunnerMode = true
 AutoPilotRot = 0
 FlareType = 2
-EnableNightVision = false
+EnableNightVision = true
 EnableEntityRadar = false
 ThirdPersonDist = 68
 RotorSpeed = 200.0
@@ -140,7 +140,10 @@ BoundingBox = 6.90, 18.03, -64.23, 4.0, 0.5
 BoundingBox = -6.90, 18.03, -64.23, 4.0, 0.5
 
 
-AddRecipe = "CAC", "E X", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics
+;basic unarmed transport mil massive plane, AOW3 style
+AddRecipe = "ABC", "DA ", "EAE", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:c5, B, mcheli:advancedmechanicparts
 
 ; AddRack=Entity type,                    RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute atl,  Yaw, Pitch
 AddRack = m1a2, 0.0, 2.40, -7,   0, 0, 17.0,   11,   20

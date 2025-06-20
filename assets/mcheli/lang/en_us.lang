@@ -35,6 +35,7 @@ item.mcheli:fatmanmultipart.name=Fat Man Payload
 item.mcheli:fcs.name=Basic Fire Control System
 item.mcheli:fcs2.name=Advanced Fire Control System
 item.mcheli:fcs3.name=Modern Fire Control System
+item.mcheli:genericnuclearbomb.name=Generic Nuclear Bomb Payload
 item.mcheli:grate.name=Grate
 item.mcheli:hap.name=Heavy Armor Plate
 item.mcheli:heavychassis.name=Heavy Chassis

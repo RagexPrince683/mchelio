@@ -20,9 +20,12 @@ RotorSpeed = 2000.0
 UnmountPosition = 0.36,  2.90, 0.00
 
 ; W = WWII.  A = Attacker(攻撃機)
-Category = W.A
+;Category = W.A
 
 HUD = plane_wwii, gunner, gunner, gunner, gunner, gunner
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
 
 MobilityYaw = 0.8
 MobilityPitch = 0.8

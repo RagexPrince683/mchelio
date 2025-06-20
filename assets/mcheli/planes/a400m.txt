@@ -212,8 +212,8 @@ BoundingBox = 6.87, 16.69, -49.64, 3.5, 0.5
 BoundingBox = -6.87, 16.69, -49.64, 3.5, 0.5
 
 
-AddRecipe = "CAC", "E X", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics
-
+;basic unarmed transport mil large plane, AOW3 style
+AddRecipe = "ABC", "DA ", "E  ", A, mcheli:airframe3, B, mcheli:basicmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:electronics
 
 DamageFactor = 0.8
 
