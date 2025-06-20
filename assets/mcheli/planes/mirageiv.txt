@@ -4,6 +4,7 @@ AddDisplayName = zh_CN, 幻影IV战略轰炸机
 MaxHp = 100
 Speed = 1.9
 Sound = f110_snd
+;todo sounds
 ThrottleUpDown = 0.4
 MaxFuel = 6000
 FuelConsumption = 1.0
