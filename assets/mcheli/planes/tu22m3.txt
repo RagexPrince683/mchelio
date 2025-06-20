@@ -58,8 +58,12 @@ AddPartWeaponMissile = kh22,    false,  false,  false,   6.265,  1.994, -14.23
 
 
 AddWeapon = gsh-23-2,  0.00,  4.638, -28.07,  0, 0 , false,  2, -180,  -120,  120, -75, 75
+
+;non nuclear
 AddWeapon = kh22,  -6.265,  1.994, -14.23,  0, 0 , true,  1
 AddWeapon = kh22,   6.265,  1.994, -14.23,  0, 0 , true,  1
+
+
 
 Boundingbox = 0.0, 3.3, -0.5, 2.0, 2.0
 Boundingbox = 0.0, 3.3, -2.5, 2.0, 2.0

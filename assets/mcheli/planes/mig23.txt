@@ -48,7 +48,8 @@ AddWeapon = 23mm, 0.00, 0.5842,  1.78
 AddWeapon = r24,  1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
 AddWeapon = r24,  -1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
 
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1, K, hfr:item.kit_hmg
+;modern medium light plane (jet), AOW3 style
+AddRecipe = "ABC", "DE ", "G  ", A, mcheli:airframe2, B, mcheli:basicmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:cannon1, G, mcheli:electronics
 
 EntityWidth  = 0.7
 EntityHeight = 0.7

@@ -66,7 +66,8 @@ AddWeapon = mk62,    -2.12, 1.15, -5.48,   0.0, 0.0
 AddWeapon = mk62,     2.57, 1.15, -5.48,   0.0, 0.0
 AddWeapon = mk62,    -2.57, 1.15, -5.48,   0.0, 0.0
 
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
+;modern light plane VTOL (late jet), AOW3 style (fcs)
+AddRecipe = "ABC", "DEF", "GB ", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:fcs3, G, mcheli:electronics
 
 BoundingBox =  0.00, 1.80, -1.50,  2.0, 2.1
 BoundingBox =  0.00, 1.60, -3.20,  2.0, 2.5

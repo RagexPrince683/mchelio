@@ -118,9 +118,8 @@ AddWeapon = r3mig21,  2.776, 1.354, -5.432, 0.0, 0.0 , true, 2
 AddWeapon = s-5,  2.8259, 1.451, -4.599, 0.0, 0.0
 AddWeapon = s-5, -2.8259, 1.451, -4.599, 0.0, 0.0
 
-
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
-
+;modern light plane (early jet), AOW3 style
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:rocket, G, mcheli:electronics
 
 
 

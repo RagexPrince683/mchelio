@@ -68,7 +68,8 @@ AddWeapon = cbu-87, -2.00, 1.10, -3.9,   0.0, 0.0
 AddWeapon = cbu-72,  0.65, 1.35, -3.9,   0.0, 0.0
 AddWeapon = cbu-72, -0.65, 1.35, -3.9,   0.0, 0.0
 
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
+;modern armored plane, AOW3 style
+AddRecipe = "ABC", "DEF", "GH ", A, mcheli:airframe3, B, mcheli:basicmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon2, F, mcheli:rocket3, G, mcheli:electronics, H, mcheli:fcs
 
 BoundingBox =  0.00, 3.04, -0.39,  1.8, 2.4
 BoundingBox =  0.00, 2.55,  1.21,  1.5, 1.5

@@ -102,8 +102,10 @@ AddWeapon = alcm,  3.55, 3.99, -15.14,  0, 0
 AddWeapon = b61,  0.00,  3.32, -20.41,  0, 0
 AddWeapon = b83,  0.10,  3.32, -19.54,  0, 0
 
-AddRecipe = "CAC", "EXK", "WGW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, G, hfr:item.part_cannon_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, K, hfr:item.kit_hmg
+;large bomber aircraft semimodern, AOW3 style
+AddRecipe = "ABC", "DAC", "E  ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:electronics
 
+AddRecipe = "AB ", "   ", "   ", A, mcheli:b52d, B, mcheli:advancedmechanicparts
 
 BoundingBox =  0.0, 3.6,  -3.6,  3.8, 4.4
 BoundingBox =  0.0, 3.6,  -7.4,  3.8, 4.4

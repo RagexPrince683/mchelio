@@ -1,4 +1,4 @@
-DisplayName = Kh-22
+DisplayName = KH-22 [Conventional Payload]
 Type = ATMissile
 Power = 80
 Acceleration = 5.0

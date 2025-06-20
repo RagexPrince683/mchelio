@@ -43,7 +43,8 @@ AddPartLGRev =-0.3,2.14,4.13,0,1,0.4,180
 AddPartThrottle = 0.5, 1.9,3.57, 0, 0, 0,  0, 0,0, 0.21
 AddPartThrottle = 0.2, 2.2,4.13, 0, 0, 1,  220, 0,0, 0
 
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
+;modern armored plane, AOW3 style
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe3, B, mcheli:basicmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon2, F, mcheli:rocket3, G, mcheli:electronics
 
 ; AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 駐退距離
 AddPartWeaponMissile = R-60BM, false, false, false,  -5, 1.56, -3.23

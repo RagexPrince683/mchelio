@@ -96,7 +96,8 @@ AddPartLG = -4.04, 4.86,  -22.74,  1,0,0,  70
 AddPartLG = -4.69, 4.93,  -25.24,  0,0,1,  90
 AddPartLG = -4.94, 4.89,  -26.32,  0,0,1,  110
 
-AddRecipe = "CAC", "EXK", "WGW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, G, hfr:item.part_cannon_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, K, hfr:item.kit_hmg
+;large bomber aircraft semimodern, AOW3 style
+AddRecipe = "ABC", "DAC", "E  ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics
 
 BoundingBox =  0.0, 6.75,  -1.7, 5, 4.8
 ;BoundingBox =  0.0, 6.5,  5.7,  7, 4

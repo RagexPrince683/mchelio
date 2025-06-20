@@ -60,8 +60,8 @@ AddPartWeaponMissile = MOAB,    false,  false,  false,  0.00, 2.31, -5.345
 
 AddWeapon = MOAB,  0.00, 0.8398, -12.27,  0.0, -3.0
 
-AddRecipe = "CAC", "EXK", "WGW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, G, hfr:item.part_cannon_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, K, hfr:item.kit_hmg
-
+;large aircraft bomber, AOW3 style
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:airframebomb, B, mcheli:basicmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics
 
 BoundingBox =  0.00, 2.60,  -1.60,  4.0, 4.0
 BoundingBox =  0.00, 2.60,  -6.60,  4.0, 4.0
