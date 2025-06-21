@@ -1,5 +1,5 @@
 DisplayName = Lockheed SR-71 Blackbird
-ItemID = 2
+;ItemID = 2
 MaxHp = 100
 ;OnGroundPitch = 3
 EnableNightVision = true
@@ -13,7 +13,7 @@ MaxFuel         = 2000
 FuelConsumption = 2.0
 Stealth = 0.8
 HideEntity = false
-Category = M.F
+;Category = M.F
 WeightedCenterZ = -7.6
 
 Sound = srseventyone
@@ -51,11 +51,13 @@ AddPartCanopy = 0, 2.6196, 2.26, -1,0,0,  45
 AddPartCanopy = 0, 2.6839, 0.852, -1,0,0,  45
 
 ;Front
-AddPartLG =  0.00,  2.0496,  0.786,  -1,0,0, 94
+AddPartLG =  0.00,  2.0496,  0.286,  -1,0,0, 94
 ;Left
-AddPartLG =  1.6571,  1.8368, -15.5268, -1,0,0,  95, 0,0,1, -20
+AddPartLG =  2.402795,  1.3374, -15.5268, 0,0,-1,  95
+;, -1,0,0, 20
 ;Right
-AddPartLG =  -1.6571,  1.8368, -15.5268, -1,0,0,  95, 0,0,1,  20
+AddPartLG =  -2.402795,  1.3374, -15.5268, 0,0,1,  95
+;, -1,0,0,  -20
 
 AddWeapon = targeting_pod_all100s,   0.0, 0, 2.62,    0.0, 0.0, false,2
 AddWeapon = targeting_pod_block,   0.00, 0.49, -1.16,   0.0, 0.0, false,2
