@@ -1,11 +1,11 @@
-DisplayName = FAB250
+DisplayName = FAB-250
 Type = Bomb
 Power = 500
-DamageFactor = tank, 30.0
-DamageFactor = plane, 10.5
-DamageFactor = vehicle 10.5
-DamageFactor = heli, 10.5
-DamageFactor = player,50.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 Acceleration = 0.8
 Explosion = 15
 ExplosionBlock = 15
@@ -17,7 +17,7 @@ ReloadTime = 200
 Sound = bomb_snd
 ModelBullet = fab250
 DisplayMortarDistance = true
-DamageFactor = player, 10
+;DamageFactor = player, 10
 
 
 
@@ -25,4 +25,6 @@ DamageFactor = player, 10
 MaxAmmo = 16
 SuppliedNum = 4
 
-Item =  2, hbm:item.ammo_standard,77
+Item =  10, iron_ingot
+Item =  5, gunpowder
+Item =  5, redstone

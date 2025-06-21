@@ -1,6 +1,6 @@
-DisplayName = ASMP Nuclear Cruise Missile(150KT)
+DisplayName = ASMP Nuclear Cruise Missile [300KT]
 Type = TVMissile
-;Power = 100000
+Power = 100
 Acceleration = 3.0
 Explosion = 10
 ExplosionBlock = 3
@@ -11,16 +11,18 @@ ModeNum = 2
 ModelBullet = asmp
 Sound = missile_3_snd
 DisableSmoke = true
-nukeyield = 150
+nukeyield = 115
 ;I hate hbm proportions
 ;150kt
 
-DamageFactor = tank, 2000.0
-DamageFactor = plane, 1000.0
-DamageFactor = vehicle 400.5
-DamageFactor = heli, 400.5
-DamageFactor = player, 2000.0
+
 
 MaxAmmo = 3
 SuppliedNum = 1
-Item =  1, hbm:item.missile_nuclear
+
+;350kt eg
+;Item =  3, mcheli:genericnuclearwarheadhigh
+;Item =  16, tnt
+;Item =  1, mcheli:genericnuclearwarhead
+
+Item =  1, mcheli:genericnuclearwarheadhigh

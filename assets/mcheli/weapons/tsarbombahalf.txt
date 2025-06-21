@@ -11,7 +11,15 @@ Delay = 10
 Sound = bomb_snd
 ModelBullet = tsarbomba
 ;ModelBomblet = 0_none
-nukeyield = 300
+;nukeyield = 300
+
+;new!
+;we're going to scale this based on estimated crater radius
+;tsar est = 390
+;390/2 = 195
+
+nukeyield = 195
+
 ;ivy mike was only 10.4MT
 
 ReloadTime = 150
@@ -24,7 +32,4 @@ SuppliedNum = 1
 ;SmokeColor = 219, 155, 17
 ;SoundVolume = 50
 
-Item = 1, hbm:tile.nuke_tsar
-Item = 1, hbm:item.man_core
-Item = 4, hbm:item.explosive_lenses
-;Item = 2, hbm:item.tsar_core
+Item = 1, mcheli:tsarmultipart

@@ -50,6 +50,6 @@ Round = 1
 MaxAmmo = 1
 SuppliedNum = 1
 
-Item =  1, hbm:item.missile_nuclear
+Item =  7, mcheli:genericnuclearwarheadlow
 Item =  2, iron_block
 Item =  3, redstone

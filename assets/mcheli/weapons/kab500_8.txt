@@ -1,4 +1,4 @@
-DisplayName = KAB500 Laser guided bomb
+DisplayName = KAB-500L Laser Guided Bomb
 Type = tvmissile
 Power = 1000
 Acceleration = 2
@@ -14,18 +14,18 @@ SoundVolume = 10.0
 ReloadTime = 50
 gravity = -0.002
 ModelBullet = kab500
-DamageFactor = tank, 40.0
-DamageFactor = plane, 15.5
-DamageFactor = vehicle 15.5
-DamageFactor = heli, 15.5
-DamageFactor = player, 15.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 displaymortardistance = true
 
 DisableSmoke = true
 ExplosionAltitude = 2
 
 MaxAmmo = 8
-SuppliedNum = 4
-Item =  4, hbm:item.ammo_standard,77
-Item =  4, hbm:item.circuit,6
-Item =  4, hbm:item.mp_stability_10_flat
+SuppliedNum = 1
+Item =  10, iron_ingot
+Item =  5, gunpowder
+Item =  5, redstone

@@ -1,4 +1,4 @@
-DisplayName = B61 Nuclear Bomb [400KT SURFACE]
+DisplayName = B61 Nuclear Bomb [~400KT SURFACE]
 Type = Bomb
 ;Power = 1000
 ;DamageFactor = tank, 1.0
@@ -15,7 +15,7 @@ Delay = 4
 Sound = bomb_snd
 ModelBullet = mgm140
 ;400kt
-nukeyield = 198
+nukeyield = 135
 
 ;bomb rewrite
 Acceleration = 0.5
@@ -34,5 +34,5 @@ ReloadTime = 300
 Round = 2
 MaxAmmo = 2
 SuppliedNum = 1
-Item = 4, hbm:tile.det_nuke
-Item = 1, hbm:tile.bomb_multi
+Item = 2, mcheli:genericnuclearbomb
+Item = 1, tnt

@@ -15,7 +15,7 @@ Delay = 4
 Sound = bomb_snd
 ModelBullet = agm65e
 ;400kt
-nukeyield = 200
+nukeyield = 250
 
 ;bomb rewrite
 Acceleration = 0.5
@@ -34,5 +34,5 @@ ReloadTime = 300
 Round = 8
 MaxAmmo = 24
 SuppliedNum = 1
-Item = 12, hbm:tile.det_nuke
-Item = 1, hbm:tile.bomb_multi
+Item = 12, mcheli:genericnuclearbomb
+Item = 1, tnt

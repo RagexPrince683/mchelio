@@ -21,7 +21,7 @@ DisableSmoke = true
 ModeNum = 2
 ModelBullet = rn28
 ;400kt
-nukeyield = 120
+nukeyield = 30
 gravity = -0.01
 ;bomb rewrite
 Acceleration = 2

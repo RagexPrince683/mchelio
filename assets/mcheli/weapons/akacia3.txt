@@ -1,4 +1,4 @@
-DisplayName = 152mm 2A33 Cannon [3BV3 Nuclear Artillery Shell - 2KT]
+DisplayName = 152mm 2A33 Cannon [3BV3 Nuclear Artillery Shell - ~2KT]
 Type = Rocket
 Power = 171
 Explosion = 1
@@ -20,7 +20,7 @@ Round = 1
 group = maingun
 
 
-NukeYield = 95
+NukeYield = 20
 
 HeatCount = 1100
 MaxHeatCount = 2050
@@ -50,6 +50,6 @@ AddMuzzleFlashSmoke = 10.2, 20, 13.0,  7.0, 55,  200,190,170,150
 
 MaxAmmo = 12
 SuppliedNum = 1
-Item = 4, hbm:tile.det_nuke
+Item = 1, mcheli:genericnuclearwarheadlow
 Item = 3, iron_ingot
 Item =  5, gunpowder

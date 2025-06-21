@@ -1,4 +1,4 @@
-DisplayName = KH-20 Nuclear Cruise Missile [3MT SURFACE]
+DisplayName = KH-20 Nuclear Cruise Missile [800KT SURFACE]
 Type = TVMissile
 Power = 60
 Acceleration = 5.0
@@ -15,10 +15,11 @@ Sound = missile_1_snd
 ModelBullet = kh22
 Gravity = -0.01
 DisableSmoke = false
-nukeyield = 210
+nukeyield = 150
 
 MaxAmmo = 8
 SuppliedNum = 1
-Item =  3, hbm:item.missile_micro
-Item =  32, tnt
-Item =  40, redstone
+
+Item =  8, mcheli:genericnuclearwarheadhigh
+Item =  1, tnt
+Item =  3, redstone

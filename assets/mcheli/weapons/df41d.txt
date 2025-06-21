@@ -5,7 +5,7 @@ Acceleration = 3.5
 Explosion = 1
 ;119:469m
 ;nukeYield = 395 just too big
-nukeyield = 195
+nukeyield = 90
 ;radius = 5000
 
 BombletSTime = 120
@@ -68,6 +68,6 @@ AddMuzzleFlash      =  -29,      7.00,         8,  200,254,219,184
 Round = 1
 MaxAmmo = 1
 SuppliedNum = 1
-Item = 10, hbm:item.missile_nuclear
-Item = 10, gunpowder
+Item = 15, mcheli:genericnuclearwarheadhigh
+Item = 5, gunpowder
 Item = 2, iron_block

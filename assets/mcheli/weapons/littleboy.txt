@@ -1,24 +1,12 @@
 DisplayName = Little Boy Nuclear Bomb [15KT AIRBURST - 576M]
-;Type = Nuke
+
 Type = bomb
-nukeYield = 119
+nukeYield = 50
 modelbullet = LilBoy1
-;479
 
-;chemYield = 10
+
+
 Explosion = 1
-
-;debug
-;50 is equivelent to 82m in width
-;50*1.64=82m
-;82m/1.64=50
-;little boy was 1287.48m wide
-;I corrupted a world for this...
-;785.04
-;785=868m block damage
-;540m actually...
-;540/1.64
-
 
 
 ;600m above
@@ -37,4 +25,4 @@ Gravity = -0.01
 ;Piercing = 10
 MaxAmmo = 1
 SuppliedNum = 1
-Item = 1, hbm:tile.nuke_boy
+Item = 1, mcheli:littleboymultipart

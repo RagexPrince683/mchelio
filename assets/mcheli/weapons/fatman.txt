@@ -1,7 +1,7 @@
 DisplayName = Fat Man Nuclear Bomb [20KT AIRBURST - 457M]
 ;Type = Nuke
 Type = bomb
-nukeYield = 167
+nukeYield = 60
 modelbullet = FatMan
 ;479
 
@@ -34,4 +34,4 @@ Gravity = -0.01
 ;Piercing = 10
 MaxAmmo = 1
 SuppliedNum = 1
-Item = 1, hbm:tile.nuke_man
+Item = 1, mcheli:fatmanmultipart

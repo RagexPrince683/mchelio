@@ -1,4 +1,4 @@
-DisplayName = B28 Nuclear Bomb [50MT SURFACE]
+DisplayName = B28 Nuclear Bomb [1.45MT SURFACE]
 Type = Bomb
 Power = 500000
 Acceleration = 0.01
@@ -15,7 +15,7 @@ Delay = 10
 Sound = bomb_snd
 ModelBullet = tsarbomba
 ;ModelBomblet = 0_none
-nukeyield = 300
+nukeyield = 240
 ;ivy mike was only 10.4MT
 
 ReloadTime = 150
@@ -33,5 +33,5 @@ ReloadTime = 300
 Round = 8
 MaxAmmo = 8
 SuppliedNum = 1
-Item = 50, hbm:tile.det_nuke
-Item = 1, hbm:tile.bomb_multi
+Item = 14, mcheli:genericnuclearbomb
+Item = 1, tnt

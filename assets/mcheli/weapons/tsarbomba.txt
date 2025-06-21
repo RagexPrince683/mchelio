@@ -11,7 +11,9 @@ Delay = 10
 Sound = bomb_snd
 ModelBullet = tsarbomba
 ;ModelBomblet = 0_none
-nukeyield = 500
+
+;700/2 = 350meters squared
+nukeyield = 350
 
 ReloadTime = 150
 ;Bomblet = 90
@@ -23,7 +25,5 @@ SuppliedNum = 1
 ;SmokeColor = 219, 155, 17
 ;SoundVolume = 50
 
-Item = 1, hbm:tile.nuke_tsar
-Item = 1, hbm:item.man_core
-;Item = 4, hbm:item.explosive_lenses
-Item = 2, hbm:item.tsar_core
+Item = 1, mcheli:tsarmultipart
+Item = 1, hbm:item.tsar_core

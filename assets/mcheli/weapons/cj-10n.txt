@@ -14,7 +14,7 @@ ModelBullet = CJ-10
 Sound = missile_2_snd
 SoundVolume = 15
 DisableSmoke = true
-nukeyield = 195
+nukeyield = 100
 ;I hate hbm proportions
 ;150kt
 ReloadTime = 200
@@ -26,6 +26,12 @@ ReloadTime = 200
 
 MaxAmmo = 2
 SuppliedNum = 1
-Item =  2, hbm:item.missile_nuclear
+
+;350kt eg
+;Item =  3, mcheli:genericnuclearwarheadhigh
+;Item =  16, tnt
+;Item =  1, mcheli:genericnuclearwarhead
+
+Item =  2, mcheli:genericnuclearwarheadhigh
 Item =  3, iron_ingot
 Item =  3, redstone

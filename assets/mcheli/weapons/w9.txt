@@ -5,9 +5,7 @@ ModelBullet = w9
 Acceleration = 7.0
 ;Explosion = 50
 Explosion = 1
-;NukeYield = 119
-;too big!!! kills thing!
-NukeYield = 119
+NukeYield = 50
 ;Flaming = true
 Sight = MoveSight
 Delay = 360
@@ -31,8 +29,13 @@ AddMuzzleFlashSmoke = 11.77,  40, 13.0, 11.0, 45,  160,190,170,150
 MaxAmmo = 1
 SuppliedNum = 1
 ;Item = 1, bedrock
-Item = 1, hbm:item.ammo_shell
+;Item = 1, hbm:item.ammo_shell
 ;Item = 3, iron_ingot
-Item = 1, hbm:item.boy_bullet
-Item = 1, hbm:item.boy_igniter
-Item = 1, hbm:item.boy_target
+
+;350kt eg
+;Item =  3, mcheli:genericnuclearwarheadhigh
+;Item =  16, tnt
+;Item =  1, mcheli:genericnuclearwarhead
+
+;10kt
+Item = 1, mcheli:genericnuclearwarheadlow

@@ -1,4 +1,9 @@
 ﻿DisplayName = RN28 Nuclear Bomb [30KT SURFACE]
+DisplayName = RN28 Nuclear Bomb [30KT SURFACE]
+DisplayName = RN28 Nuclear Bomb [30KT SURFACE]
+DisplayName = RN28 Nuclear Bomb [30KT SURFACE]
+DisplayName = RN28 Nuclear Bomb [30KT SURFACE]
+
 Type = Rocket
 ;Power = 100000
 ;DamageFactor = tank, 10000.0
@@ -17,7 +22,7 @@ DisableSmoke = true
 ModeNum = 2
 ModelBullet = rn28
 ;400kt
-nukeyield = 120
+nukeyield = 30
 gravity = -0.01
 ;bomb rewrite
 Acceleration = 2

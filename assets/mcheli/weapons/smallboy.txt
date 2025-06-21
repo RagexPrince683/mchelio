@@ -1,7 +1,7 @@
 DisplayName = Blue Danube Nuclear Bomb "Small Boy" [12KT SURFACE]
 ;Type = Nuke
 Type = bomb
-nukeYield = 85
+nukeYield = 33
 modelbullet = LilBoy1
 ;479
 
@@ -41,4 +41,4 @@ Gravity = -0.01
 ;Piercing = 10
 MaxAmmo = 1
 SuppliedNum = 1
-Item = 1, hbm:tile.nuke_boy
+Item = 1, mcheli:genericnuclearbomb

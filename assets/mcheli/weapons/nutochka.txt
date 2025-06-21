@@ -27,7 +27,14 @@ SoundPitch = 1.0
 SoundDelay = 2
 Sound = missile_12_snd
 ;boi
-NukeYield = 130
+
+;10kt variant
+;NukeYield = 45
+
+;could also be 
+;my bad is
+NukeYield = 100
+
 
 AddMuzzleFlash      =  2.2,      1.80,        8,  200,254,129,44
 AddMuzzleFlash      =  2.1,      1.75,        7,  200,254,219,104
@@ -56,5 +63,11 @@ ModelBullet = ballistic
 
 MaxAmmo = 1
 SuppliedNum = 1
-Item = 1, hbm:tile.det_nuke
-Item = 1, hbm:tile.bomb_multi
+
+;350kt eg
+;Item =  3, mcheli:genericnuclearwarheadhigh
+;Item =  16, tnt
+;Item =  1, mcheli:genericnuclearwarhead
+
+Item = 1, mcheli:genericnuclearwarheadhigh
+Item = 1, tnt

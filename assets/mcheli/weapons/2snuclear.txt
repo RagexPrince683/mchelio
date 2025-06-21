@@ -1,11 +1,11 @@
-DisplayName = 152mm 2A65 Howitzer [3BV3 Nuclear Artillery Shell - 1KT]
+DisplayName = 152mm 2A65 Howitzer [3BV3 Nuclear Artillery Shell - ~1KT]
 Type = MachineGun1
 Power = 700
 ModelBullet = bullet105mm
 Explosion = 1
 ExplosionBlock = 1
 
-NukeYield = 80
+NukeYield = 10
 
 ;HeatCount = 1100
 ;MaxHeatCount = 2050
@@ -49,7 +49,7 @@ Recoil = 2.5
 
 MaxAmmo = 13
 SuppliedNum = 1
-Item = 2, hbm:tile.det_nuke
+Item = 1, mcheli:genericnuclearwarheadlow
 Item = 3, iron_ingot
 Item =  5, gunpowder
 

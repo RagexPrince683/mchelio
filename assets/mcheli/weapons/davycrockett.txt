@@ -13,7 +13,7 @@ SoundVolume = 20
 Sound = spgnine
 Gravity = -0.020
 
-nukeYield = 20
+nukeYield = 5
 
 
 
@@ -47,6 +47,6 @@ CameraRotationSpeedPitch = 0.1
 
 MaxAmmo = 1
 SuppliedNum = 1
-Item =  1, hbm:item.ammo_nuke
+Item =  1, mcheli:genericnuclearbomb
 Item = 1, iron_ingot
 Item =  4, gunpowder

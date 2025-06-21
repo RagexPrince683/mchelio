@@ -12,7 +12,7 @@ ModeNum = 2
 ModelBullet = alcm
 Sound = missile_1_snd
 DisableSmoke = true
-nukeyield = 195
+nukeyield = 90
 ;I hate hbm proportions
 ;150kt
 
@@ -24,6 +24,6 @@ nukeyield = 195
 
 MaxAmmo = 6
 SuppliedNum = 1
-Item =  2, hbm:item.missile_nuclear
-Item =  3, iron_ingot
+Item =  1, mcheli:genericnuclearwarheadhigh
+Item =  1, mcheli:genericnuclearwarhead
 Item =  3, redstone
