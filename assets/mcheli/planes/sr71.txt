@@ -5,6 +5,10 @@ MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
+
+AutoPilotRot = 0.00
+EnableGunnerMode = true
+
 Speed = 4
 FlareType = 4
 ParticlesScale = 0.7
@@ -43,6 +47,8 @@ MobilityRoll = 1.2
 MobilityPitch = 9.6
 AddSeat = 0.00,  1.2145,  3.18
 
+CameraPosition = 0.0, 2.3145, 3.18
+
 unmountposition = 0.00,  2.0449,  3.18
 
 AddGunnerSeat = 0.00,  1.4145,  1.6, 0, -0.5, 2.6, true
@@ -51,7 +57,7 @@ AddPartCanopy = 0, 2.6196, 2.26, -1,0,0,  45
 AddPartCanopy = 0, 2.6839, 0.852, -1,0,0,  45
 
 ;Front
-AddPartLG =  0.00,  2.0496,  0.286,  -1,0,0, 94
+AddPartLG =  0.00,  1.2496,  -0.286,  -1,0,0, 94
 ;Left
 AddPartLG =  2.402795,  1.3374, -15.5268, 0,0,-1,  95
 ;, -1,0,0, 20
