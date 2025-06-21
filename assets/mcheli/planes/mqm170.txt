@@ -1,5 +1,5 @@
-DisplayName = MQM-170 Outlaw(Target drone)
-AddDisplayName = ja_JP, MQM-170アウトロー(標的機)
+DisplayName = MQM-170 Outlaw (Target drone)
+AddDisplayName = ja_JP, MQM-170アウトロー (標的機)
 ItemID = 28735
 MaxHp = 100
 Speed = 0.25056
@@ -21,6 +21,7 @@ Category = M.Q
 AddPartRotor =        0.00,  0.775, -1.62,   1,0, 0
 AddBlade     = 1, 0,  0.00,  0.775, -1.62,   0,0,-1
 
-AddRecipe = " XE", " C ", "   ", C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics
+;basic target drone
+AddRecipe = "ABC", " E ", "   ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, E, mcheli:electronics
 
 BoundingBox =  0.0, 1.2, 0.0,  5.0, 2.5

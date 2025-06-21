@@ -92,6 +92,7 @@ BoundingBox =  0.00, 2.0, -7.7,   0.5, 1.9
 UnmountPosition = 0.00, 1.50, -0.60
 
 
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1, K, hfr:item.kit_hmg
+;modern light plane (late jet), AOW3 style (none)
+AddRecipe = "ABC", "DE ", "GG ", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, G, mcheli:electronics 
 
 enableback = true

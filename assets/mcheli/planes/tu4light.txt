@@ -83,8 +83,12 @@ AddBlade = 1,0,   5.33,  2.65,  -5.13,   0, 0, 1
 
 ;AddRecipe = "   ",  " T ",  "   ",  T,mcheli:b29
 
-AddRecipe = "CAC", "E K", "WGW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, G, hfr:item.part_cannon_3, E, hfr:item.part_engine_3, K, hfr:item.kit_hmg
+;large WW2 prop plane bomber, AOW3 style
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:airframebomb, B, mcheli:basicmechanicparts, C, mcheli:engine3, D, mcheli:wheelair
 
+AddRecipe = "AB ", "   ", "   ", A, mcheli:b29, B, mcheli:airframe
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:tu4, B, mcheli:airframe
 
 AddWeapon = ns23tu4a,   0.29,  4.31, -4.05,  0.0, 0.0, true,  5,    0, -360, 360, -60, 3
 AddWeapon = ns23tu4a,  -0.29,  4.31, -4.05,  0.0, 0.0, true,  5,    0, -360, 360, -60, 3

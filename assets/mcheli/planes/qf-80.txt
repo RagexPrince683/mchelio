@@ -17,7 +17,9 @@ ThrottleUpDownOnEntity = 2.0
 EnableSeaSurfaceParticle = true
 ParticlesScale = 0.6
 
-AddRecipe = " XE", " C ", "   ", C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics
+;large target drone
+AddRecipe = "ABC", " E ", "   ", A, mcheli:airframe2, B, mcheli:basicmechanicparts, C, mcheli:engine1, E, mcheli:electronics
+
 
 ; M = Military.  Q = Drone
 Category = M.Q

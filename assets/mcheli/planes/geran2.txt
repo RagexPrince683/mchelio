@@ -25,7 +25,9 @@ Category = M.Q
 AddWeapon = geran_bomb, 0,0,0,  0,0
 ;AddWeapon = plastic_bomb, 0,0,0,  0,0
 
-AddRecipe = "XEG", " C ", "W W", W, hfr:item.part_wheel, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+
+;basic suicide drone
+AddRecipe = "ABC", "GEG", " G ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, E, mcheli:electronics, G, gunpowder
 
 AddPartRotor= 1, 0, 0,  0,     0,  0.0, 0.0, 1.0
 ;,false

@@ -63,7 +63,14 @@ AddWeapon = upk-23-250, -1.5056,  1.3217,  -5.3,  1, 0
 AddWeapon = upk-23-250, -2.1261,  1.1649,  -5.3,  1, 0
 AddWeapon = upk-23-250, -2.2066,  1.1649,  -5.3,  1, 0
 AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2, K, hfr:item.kit_hmg
+;early light plane VTOL (early), AOW3 style (can)
+AddRecipe = "ABC", "DE ", "GB ", A, mcheli:airframe, B, mcheli:advancedmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:cannon1, G, mcheli:electronics
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:yak38, B, mcheli:cannon1
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:yak38_r60, B, mcheli:cannon1
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:yak38_x23, B, mcheli:cannon1
 
 BoundingBox =  0.00, 1.37,  1.21,  1.1, 1.1
 

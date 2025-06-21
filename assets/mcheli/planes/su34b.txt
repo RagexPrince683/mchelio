@@ -57,7 +57,10 @@ AddWeapon = fab500sh, -3.509, 1.75, 1.08,   2.0, -3.0
 AddWeapon = targeting_pod_ph50s,   0.0, 3.1, 7.2,    0.0, 0.0
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, K, hfr:item.kit_hmg
+;modern light plane (late jet), AOW3 style (fcs)
+AddRecipe = "ABC", "DEF", "GHG", A, mcheli:airframe3, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:fcs3, G, mcheli:electronics, H, mcheli:basicmechanicparts
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:su34, B, mcheli:basicmechanicparts
 
 BoundingBox =  0.00, 2.40, 9.80,  1.5, 1.5
 

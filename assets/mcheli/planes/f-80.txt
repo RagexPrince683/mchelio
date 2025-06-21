@@ -67,8 +67,8 @@ BoundingBox = -1.34, 2.68, -7.95, 1.5, 0.3
 BoundingBox = 2.34, 2.68, -7.65, 0.8, 0.3
 BoundingBox = -2.34, 2.68, -7.65, 0.8, 0.3
 
-AddRecipe = "CAC", "EXG", "WKW", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1, K, hfr:item.kit_hmg
-
+;early modern light plane (late jet), AOW3 style (justcan)
+AddRecipe = "ABC", "DEG", "   ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon1, G, mcheli:electronics
 
 BoundingBox = -2.88, 1.50,  -2.00,  3.8, 0.6
 BoundingBox =  2.88, 1.50,  -2.00,  3.8, 0.6
