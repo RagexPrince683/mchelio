@@ -26,6 +26,7 @@ Category = M.A
 ;large bomber aircraft modern, AOW3 style
 AddRecipe = "ABC", "DAC", "EFC", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:fcs2
 
+AddRecipe = "AB ", "   ", "   ", A, mcheli:tu95org, B, mcheli:fcs2
 
 DamageFactor = 0.8
 

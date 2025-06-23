@@ -23,7 +23,9 @@ Category = M.R
 
 
 ;large bomber aircraft modern, AOW3 style
-AddRecipe = "ABC", "DAC", "EFC", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:fcs2
+AddRecipe = "ABC", "DAC", "EEC", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:tu95org, B, mcheli:electronics
 
 
 DamageFactor = 0.8
@@ -105,7 +107,7 @@ AddWeapon = amd500,       0, 2.3628,  -19, 0, 90, true,  2
 ;AddWeapon = tsarbomba, 0, 2.3628,  -19,   1.0, 0.0, true, 2
 AddWeapon = gsh232tu,  0.11, 4.963, -48.5,  0.0, 0.0, false, 3, -180,  -50,  60, -45, 45
 AddWeapon = gsh232tu,  -0.11, 4.963, -48.5,  0.0, 0.0, false, 3, -180,  -50,  60, -45, 45
-;todo add anti submarine sht here
+;todone add anti submarine sht here
 AddPartWeaponBay = plab-250-120142/amd500, 0.9108, 2.4935, -19.0, 0, 0, 1, 90
 AddPartWeaponBay = plab-250-120142/amd500, -0.9108, 2.4935, -19.0, 0, 0, 1, -90
 

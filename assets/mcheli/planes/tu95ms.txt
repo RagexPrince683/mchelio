@@ -26,7 +26,9 @@ EnableBack = true
 
 
 ;large bomber aircraft modern, AOW3 style
-AddRecipe = "ABC", "DAC", "EEC", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics
+AddRecipe = "ABC", "DAC", "EFC", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:fcs3
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:tu142real, B, mcheli:fcs3
 
 
 DamageFactor = 0.8
