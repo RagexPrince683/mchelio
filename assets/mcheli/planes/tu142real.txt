@@ -1,7 +1,7 @@
-﻿DisplayName = TU-142 (Unarmed)
-AddDisplayName = en_US, TU-142 (Unarmed)
-AddDisplayName = ja_JP, TU-142 (Unarmed)
-AddDisplayName = zh_CN, TU-142 (Unarmed)
+﻿DisplayName = TU-142
+AddDisplayName = en_US, TU-142
+AddDisplayName = ja_JP, TU-142
+AddDisplayName = zh_CN, TU-142
 ;ItemID = 19112
 MaxHp = 250
 EnableNightVision = true
@@ -97,6 +97,7 @@ AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
 ;AddWeapon = kh22tu, 3.75, 2.5,  -8,  0, 0,true,  2, 0,-90,90, -5,90
 
 AddWeapon = plab-250-120142,       0, 2.3628,  -19, 0, 90, true,  2
+AddWeapon = amd500,       0, 2.3628,  -19, 0, 90, true,  2
 
 ;AddWeapon =  rn28, 0, 2.3628,  -19,  -1.0, 0.0, true, 2, 0,-90,90, -5,90
 
@@ -105,8 +106,8 @@ AddWeapon = plab-250-120142,       0, 2.3628,  -19, 0, 90, true,  2
 AddWeapon = gsh232tu,  0.11, 4.963, -48.5,  0.0, 0.0, false, 3, -180,  -50,  60, -45, 45
 AddWeapon = gsh232tu,  -0.11, 4.963, -48.5,  0.0, 0.0, false, 3, -180,  -50,  60, -45, 45
 ;todo add anti submarine sht here
-AddPartWeaponBay = plab-250-120142, 0.9108, 2.4935, -19.0, 0, 0, 1, 90
-AddPartWeaponBay = plab-250-120142, -0.9108, 2.4935, -19.0, 0, 0, 1, -90
+AddPartWeaponBay = plab-250-120142/amd500, 0.9108, 2.4935, -19.0, 0, 0, 1, 90
+AddPartWeaponBay = plab-250-120142/amd500, -0.9108, 2.4935, -19.0, 0, 0, 1, -90
 
 
 AddPartRotor =   14.8945,  3.1643,  -9,   0, 0, 3
