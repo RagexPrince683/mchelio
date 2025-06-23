@@ -1,32 +1,29 @@
-﻿;;DisplayName = Tupolev "TU-95"MS
-DisplayName = TU-95MS
-AddDisplayName = en_US, TU-95MS
-AddDisplayName = ja_JP, TU-95MS
-AddDisplayName = zh_CN, 图95MS“熊”
-ItemID = 19112
+﻿DisplayName = TU-142 (Unarmed)
+AddDisplayName = en_US, TU-142 (Unarmed)
+AddDisplayName = ja_JP, TU-142 (Unarmed)
+AddDisplayName = zh_CN, TU-142 (Unarmed)
+;ItemID = 19112
 MaxHp = 250
 EnableNightVision = true
 EnableEntityRadar = true
 EnableGunnerMode = true
-Speed = 1.6
+Speed = 0.696
 FlareType = 3
 Sound = twinprop
 ThrottleUpDown = 0.10
 CameraPosition = -0.3021, 0.3021, 0.3021
 MaxFuel = 60000
-FuelConsumption = 1.0
+FuelConsumption = 0.8
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 ThirdPersonDist = 40
 AutoPilotRot = 0
-; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
-
-EnableBack = true
+; M = Military(軍用機).  Recon
+Category = M.R
 
 
 ;large bomber aircraft modern, AOW3 style
-AddRecipe = "ABC", "DAC", "EEC", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics
+AddRecipe = "ABC", "DAC", "EFC", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:fcs2
 
 
 DamageFactor = 0.8
@@ -34,6 +31,8 @@ DamageFactor = 0.8
 RotorSpeed = 2000.0
 
 HUD = planenvg, plane_gnr
+
+EnableBack = true
 
 AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
 
@@ -59,45 +58,55 @@ AddPartLG = -7.6, 2.9, -16.6, 0,0,0, 100
 AddPartLGrev =  -7.053, 2.385, -17, 0,0,1, 90
 AddPartLGrev = -8.15, 2.385, -17, 0,0,1, -90
 
-AddPartWeaponMissile = kh102,  false, false, false,  11.74, 1.6734,  -13
-AddPartWeaponMissile = kh102,  false, false, false,   -11.74, 1.6734,  -13
-AddPartWeaponMissile = kh102,  false, false, false,  10.6, 1.6734,  -13
-AddPartWeaponMissile = kh102,  false, false, false,   -10.6, 1.6734,  -13
-AddPartWeaponMissile = kh102n,  false, false, false,  3.75, 2.5,  -8
-AddPartWeaponMissile = kh102n,  false, false, false,    -3.75, 2.5,  -8
-AddPartWeaponMissile = kh102n,  false, false, false,  2.6, 2.5,  -8
-AddPartWeaponMissile = kh102n,  false, false, false,  -2.6, 2.5,  -8
+;AddPartWeaponMissile = kh102,  false, false, false,  11.74, 1.6734,  -13
+;AddPartWeaponMissile = kh102,  false, false, false,   -11.74, 1.6734,  -13
+;AddPartWeaponMissile = kh102,  false, false, false,  10.6, 1.6734,  -13
+;AddPartWeaponMissile = kh102,  false, false, false,   -10.6, 1.6734,  -13
+;AddPartWeaponMissile = kh102n,  false, false, false,  3.75, 2.5,  -8
+;AddPartWeaponMissile = kh102n,  false, false, false,    -3.75, 2.5,  -8
+;AddPartWeaponMissile = kh102n,  false, false, false,  2.6, 2.5,  -8
+;AddPartWeaponMissile = kh102n,  false, false, false,  -2.6, 2.5,  -8
 AddPartWeapon = gsh232tu, false, true, true,  0, 4.963, -48.6
 AddPartWeaponChild = false, true,0, 4.963, -53
 
 AddWeapon = RDI,   0.00, 0.49, -1.16,   0.0, 0.0
 AddWeapon = targeting_pod_block,   0.00, 0.49, -1.16,   0.0, 0.0
+;AddWeapon = fab250h, 0, 2.3628,  -19,  -1.0, 0.0, true, 2
+;;AddWeapon = kab500_8, 0, 2.3628,  -19,  -1.0, 0.0, true, 2, 0,-90,90, -5,90
+;AddWeapon = fab500umpk_8, 0, 2.3628,  -19,  -1.0, 0.0, true, 2, 0,-90,90, -5,90
+;AddWeapon =  rbk500umpk8, 0, 2.3628,  -19,  -1.0, 0.0, true, 2, 0,-90,90, -5,90
+;AddWeapon =  kab1500kr4, 0, 2.3628,  -19,  -1.0, 0.0, true, 2, 0,-90,90, -5,90
+
+;AddWeapon = kh102,  11.74, 1.6734,  -13,   0, 0,true,  2, 0,-90,90, -5,90
+;AddWeapon = kh102,   -11.74, 1.6734,  -13,   0, 0,true,  2, 0,-90,90, -5,90
+;AddWeapon = kh102, 10.6, 1.6734,  -13,  0, 0, true, 2, 0,-90,90, -5,90
+;AddWeapon = kh102,  -10.6, 1.6734,  -13,   0, 0, true, 2, 0,-90,90, -5,90
+;AddWeapon = kh102n,  3.75, 2.5,  -8,  0, 0,true,  2, 0,-90,90, -5,90
+;AddWeapon = kh102n, -3.75, 2.5,  -8,  0, 0,true,  2, 0,-90,90, -5,90
+;AddWeapon = kh102n,  2.6, 2.5,  -8,  0, 0,true,  2, 0,-90,90, -5,90
+;AddWeapon = kh102n, -2.6, 2.5,  -8,  0, 0, true, 2, 0,-90,90, -5,90
+
 AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
-;AddWeapon = fab250hms, 0, 2.3628,  -19,  -1.0, 0.0, true, 2
-AddWeapon = kab500_8, 0, 2.3628,  -19,  -1.0, 0.0, true, 2, 0,-90,90, -5,90
-AddWeapon = fab500umpk_8, 0, 2.3628,  -19,  -1.0, 0.0, true, 2, 0,-90,90, -5,90
-AddWeapon =  rbk500umpk8, 0, 2.3628,  -19,  -1.0, 0.0, true, 2, 0,-90,90, -5,90
 
+;AddWeapon = 250kg, 0, 2.3628,  -19,  -1.0, 0.0, true, 2
 ;AddWeapon = kh20, 0, 2.3628,  -19,  -1.0, 0.0, true, 2
-;AddWeapon = kh22tu, 0, 2.3628,  -19,  -1.0, 0.0, true, 2
-AddWeapon = kh55ms, 0, 2.3628,  -19,  -1.0, 0.0, true, 2
 
-AddWeapon =  kab1500kr4, 0, 2.3628,  -19,  -1.0, 0.0, true, 2, 0,-90,90, -5,90
+;AddWeapon = 250kgtuk22,       0, 2.3628,  -19, 0, 90, true,  2
+;AddWeapon = kh22tu,       0, 2.3628,  -19, 0, 90, true,  2
+;AddWeapon = kh22tu, -3.75, 2.5,  -8,  0, 0,true,  2, 0,-90,90, -5,90
+;AddWeapon = kh22tu, 3.75, 2.5,  -8,  0, 0,true,  2, 0,-90,90, -5,90
+
+AddWeapon = plab-250-120142,       0, 2.3628,  -19, 0, 90, true,  2
+
 ;AddWeapon =  rn28, 0, 2.3628,  -19,  -1.0, 0.0, true, 2, 0,-90,90, -5,90
-AddWeapon = kh102,  11.74, 1.6734,  -13,   0, 0,true,  2, 0,-90,90, -5,90
-AddWeapon = kh102,   -11.74, 1.6734,  -13,   0, 0,true,  2, 0,-90,90, -5,90
-AddWeapon = kh102, 10.6, 1.6734,  -13,  0, 0, true, 2, 0,-90,90, -5,90
-AddWeapon = kh102,  -10.6, 1.6734,  -13,   0, 0, true, 2, 0,-90,90, -5,90
-AddWeapon = kh102n,  3.75, 2.5,  -8,  0, 0,true,  2, 0,-90,90, -5,90
-AddWeapon = kh102n, -3.75, 2.5,  -8,  0, 0,true,  2, 0,-90,90, -5,90
-AddWeapon = kh102n,  2.6, 2.5,  -8,  0, 0,true,  2, 0,-90,90, -5,90
-AddWeapon = kh102n, -2.6, 2.5,  -8,  0, 0, true, 2, 0,-90,90, -5,90
+
 ;AddWeapon = tsarbombahalf, 0, 2.3628,  -19,  -1.0, 0.0, true, 2
 ;AddWeapon = tsarbomba, 0, 2.3628,  -19,   1.0, 0.0, true, 2
 AddWeapon = gsh232tu,  0.11, 4.963, -48.5,  0.0, 0.0, false, 3, -180,  -50,  60, -45, 45
 AddWeapon = gsh232tu,  -0.11, 4.963, -48.5,  0.0, 0.0, false, 3, -180,  -50,  60, -45, 45
-AddPartWeaponBay = kAB500_8/fab500umpk_8/kab1500kr4/rbk500umpk8/kh55ms, 0.9108, 2.4935, -19.0, 0, 0, 1, 90
-AddPartWeaponBay = kAB500_8/fab500umpk_8/kab1500kr4/rbk500umpk8/kh55ms, -0.9108, 2.4935, -19.0, 0, 0, 1, -90
+;todo add anti submarine sht here
+AddPartWeaponBay = plab-250-120142, 0.9108, 2.4935, -19.0, 0, 0, 1, 90
+AddPartWeaponBay = plab-250-120142, -0.9108, 2.4935, -19.0, 0, 0, 1, -90
 
 
 AddPartRotor =   14.8945,  3.1643,  -9,   0, 0, 3

@@ -1,0 +1,29 @@
+DisplayName = KH-102 Thermonuclear Cruise Missile [~250KT AIRBURST]
+Type = TVMissile
+Power = 1000
+Acceleration = 2.0
+Explosion = 10
+ExplosionBlock = 3
+ExplosionInWater = 3
+Sight = MoveSight
+Delay = 5
+ModeNum = 2
+ModelBullet = kh101
+Sound = missile_1_snd
+DisableSmoke = true
+
+ProximityFuseDist = 30
+
+nukeyield = 125
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 1.0
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  2, mcheli:genericnuclearwarheadhigh
+Item =  1, mcheli:genericnuclearwarhead
+Item =  3, redstone

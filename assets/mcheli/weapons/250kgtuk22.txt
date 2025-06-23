@@ -1,4 +1,4 @@
-DisplayName = 250kg Bomb
+DisplayName = FAB-250 Bomb
 Type = Bomb
 
 
@@ -28,9 +28,9 @@ DamageFactor = player, 20.0
 
 
 ReloadTime = 150
-Round = 32
-MaxAmmo = 64
-SuppliedNum = 8
+Round = 8
+MaxAmmo = 8
+SuppliedNum = 1
 
-Item = 4, iron_ingot
-Item = 4, gunpowder
+Item = 2, iron_ingot
+Item = 2, gunpowder

@@ -17,7 +17,7 @@ Gravity = -0.01
 DisableSmoke = false
 nukeyield = 125
 
-MaxAmmo = 8
+MaxAmmo = 3
 SuppliedNum = 1
 Item =  3, mcheli:genericnuclearwarheadhigh
 Item =  16, tnt

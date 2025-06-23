@@ -19,7 +19,7 @@ Sight = None
 Delay = 20
 Sound = bomb_snd
 DisableSmoke = true
-ModeNum = 2
+;ModeNum = 2
 ModelBullet = rn28
 ;400kt
 nukeyield = 30

@@ -16,7 +16,6 @@ DamageFactor = heli, 3.0
 GravityInWater = -0.01
 
 ProximityFuseDist = 8
-ProximityDist = 8
 
 
 Acceleration = 0.5
