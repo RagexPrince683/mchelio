@@ -1,6 +1,6 @@
-DisplayName = RHIB
+DisplayName = RHIB 12.7
 AddDisplayName = en_US, Rigid Inflatable Boat 12.7mm Mount
-AddDisplayName = ja_JP, RHIB
+AddDisplayName = ja_JP, RHIB 12.7
 ItemID = 31500
 MaxHp = 100
 Speed = 0.2
@@ -37,7 +37,9 @@ CanRotOnGround  = false
 onGroundPitch = 4
 
 sound = rhib
-AddRecipe = "HG ", "E  ", "WWW", H, hfr:item.part_hull_1, G, hfr:item.kit_hmg, E, hfr:item.part_engine_1, W, hfr:item.part_plating_1
+
+;small light transport rubber
+AddRecipe = "ACB", "BDD", "   ", A, mcheli:shiphull1, C, mcheli:engine1, B, mcheli:cannon1, D, mcheli:rubber
 
 AddPartRotor =    0.44,  -0.58, -3.69,   1,0, 0
 AddBlade = 1, 0,  0.44,  -0.57, -3.69,   0,0,-1

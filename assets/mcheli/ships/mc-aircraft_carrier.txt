@@ -1,6 +1,6 @@
-﻿DisplayName = mc-Aircraft Carrier
+﻿DisplayName = Aircraft Carrier
 AddDisplayName = en_US, Generic Aircraft Carrier
-AddDisplayName = ja_JP, mc航空母艦
+AddDisplayName = ja_JP, 航空母艦
 
 
 MaxHp = 1100
@@ -320,4 +320,5 @@ AddParticleSplash  =  -33.43, 0.23, -110.53, 3, 10.0,  0.8, 80, 0.1, -0.01
 
 enableback = true
 
-AddRecipe = " H ", "E X", "WHW", H, hfr:item.part_hull_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, W, hfr:item.part_plating_2
+;modern carrier
+AddRecipe = "AAC", "DEE", "BAD", A, mcheli:shiphull3, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:electronics, E, mcheli:cannon2

@@ -202,7 +202,8 @@ BoundingBox = -8.7, 0.80, 33.02,  20.0,  8.0
 ;AddRack = test, 5.0, 1.0, 1.0,  0, 0,  -4.3,   15,    20
 BoundingBox = -8.7, 0.80, 13.82,  18.0,  8.0
 
-AddRecipe = "GGG", "HEX", "WHW", H, hfr:item.part_hull_3, G, hfr:item.part_cannon_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, W, hfr:item.part_plating_3
+;destroyer
+AddRecipe = "ABC", "DEA", "BCE", A, mcheli:shiphull3, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:electronics, E, mcheli:cannon3
 
 
 AddParticleSplash  =  4.16, 0.25, 1.38,    5, 10.5,  0.8, 40, 0.4, -0.03 

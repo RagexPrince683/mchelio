@@ -156,7 +156,8 @@ BoundingBox =  0.0, -0.4,  -5.4712,  2.8, 1.5
 BoundingBox =  0.0, -0.4,  -3.4712,  2.8, 1.5
 
 
-AddRecipe = "HG ", "EXX", "WHW", H, hfr:item.part_hull_2, G, hfr:item.part_cannon_1, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, W, hfr:item.part_plating_2
+;medium ship with armament
+AddRecipe = "ABC", "DER", "   ", A, mcheli:shiphull2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:electronics, R, mcheli:rocket2, E, mcheli:cannon2
 
 ;AddRack = none,   -0.63, -12.04, 2.42,    0,0,0,  1,  1
 

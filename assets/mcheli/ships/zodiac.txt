@@ -42,7 +42,9 @@ AddParticleSplash =  0.5,  0.15, -0.8,   2,      7.0,    1.0,   60,       0.01, 
 
 AddPartSteeringWheel =  0.00,  0.00, -1.21,  0.0, -1.0, 0.0,   30
 
-AddRecipe = " W ",  "W W",  " X ",  X, iron_ingot, W, wool
+;small light transport rubber
+AddRecipe = " C ", "DDD", "   ", C, mcheli:engine1, D, mcheli:rubber
+
 
 enableback = true
 

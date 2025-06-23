@@ -1,4 +1,4 @@
-﻿DisplayName = Rigid inflatable boat
+﻿DisplayName = Rigid Inflatable Boat M240 Mount
 AddDisplayName = en_US, Rigid Inflatable Boat M240 Mount
 AddDisplayName = ja_JP, 複合艇(マシンガン搭載)
 ItemID = 49998
@@ -64,7 +64,8 @@ AddParticleSplash =  0.5,  0.15, -0.8,   2,      7.0,    1.0,   60,       0.01, 
 
 AddRack = container,   0.0, 0.7, 0.5,  0.0, 0.0, 0.0,  8.0,   20
 
-AddRecipe = "HG ", "E  ", "WWW", H, hfr:item.part_hull_1, G, hfr:item.kit_hmg, E, hfr:item.part_engine_1, W, hfr:item.part_plating_1
+;small light transport rubber
+AddRecipe = "ACB", "BDD", "   ", A, mcheli:shiphull1, C, mcheli:engine1, B, mcheli:cannon1, D, mcheli:rubber
 
 BoundingBox = 0.0, 0.2, 0.0, 1.5, 1.0, 1.0
 BoundingBox = 0.0, 0.2, -1.5, 1.5, 1.0, 1.0

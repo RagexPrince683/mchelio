@@ -46,7 +46,8 @@ AddSeat =   0.00,  0.97, -2.65
 
 InventorySize = 27
 
-AddRecipe = " H ", " E ", "WWW", H, hfr:item.part_hull_1, E, hfr:item.part_engine_1, W, hfr:item.part_plating_1
+;civ transport 'fiberglass'
+AddRecipe = "  C", "DDD", "DDD", C, mcheli:engine2, D, mcheli:item.ingot_aluminum
 
 BoundingBox =  0.00,  0.70, 2.08,  2.0, 1.0
 BoundingBox =  0.00,  0.50, -2.45,  2.0, 1.0

@@ -62,8 +62,8 @@ AddRack = impreza/S15/container,       0.00,  3.00, -7.46,   0, 0, -2.5,   11,  
 
 ;AddRecipe = "AIQ",  "QAQ",  "ABQ",     B, boat, A, iron_block, Q, iron_ingot
 
-AddRecipe = " HW", "EXX", "WHW", H, hfr:item.part_hull_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, W, hfr:item.part_plating_2
-
+;large light transport rubber
+AddRecipe = "AC ", "DDD", "DDD", A, mcheli:shiphull3, C, mcheli:engine2, D, mcheli:rubber
 
 EntityWidth  = 0.9
 EntityHeight = 0.9

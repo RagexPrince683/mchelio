@@ -3,7 +3,7 @@ AddDisplayName = en_US, Landing Craft For Vehicles and Personnel (LCVP Boat)
 AddDisplayName = ja_JP, Lcvp輸送ボート
 
 
-MaxHp = 100
+MaxHp = 200
 Speed = 0.02436
 Float = true
 FloatOffset = 0.0
@@ -129,7 +129,8 @@ AddParticleSplash = -1.6,  0.02,  -10.0,   2,      9.0,    1.1,   60,       0.01
 AddParticleSplash =  0.8,  0.02,  -10.0,   2,      9.0,    1.1,   60,       0.01,   0
 AddParticleSplash = -0.8,  0.02,  -10.0,   2,      9.0,    1.1,   60,       0.01,   0
 
-AddRecipe = "HG ", "E  ", "WWW", H, hfr:item.part_hull_1, G, hfr:item.kit_hmg, E, hfr:item.part_engine_1, W, hfr:item.part_plating_1
+;small light transport
+AddRecipe = "ACB", "BDD", "   ", A, mcheli:shiphull1, C, mcheli:engine1, B, mcheli:cannon1, D, mcheli:lap
 
 
 enableback = true

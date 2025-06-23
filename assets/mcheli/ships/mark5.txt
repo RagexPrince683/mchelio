@@ -77,8 +77,8 @@ AddTexture = mark5-camo2
 ;AddPartNozzle =  0.73, 0.00, -5.64, -1,0,0
 ;AddPartNozzle = -0.73, 0.00, -5.64, -1,0,0
 
-AddRecipe = "HG ", "EXX", "WHW", H, hfr:item.part_hull_2, G, hfr:item.part_cannon_1, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, W, hfr:item.part_plating_2
-
+;medium ship with armament
+AddRecipe = "ABC", "DEE", "   ", A, mcheli:shiphull2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:electronics, E, mcheli:cannon2
 
 BoundingBox =  0.0, 0.3,  2.5,  2.5, 1.8
 BoundingBox =  0.0, 0.3,  4.5,  1.5, 1.8
