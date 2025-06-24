@@ -142,6 +142,12 @@ BoundingBox = 0.0, 1.965, 0.0, 2.6, 0.9, 0.02
 ;slightly really less modern mbt tracked tank 
 AddRecipe = "ABC", "DGF", "EFH", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:complexmechanicparts, H, mcheli:fcs3
 
+AddRecipe = "AB ", "   ", "   ", A, mcheli:t-80u, B, mcheli:fcs3
+
+;origin t-80
+;AddRecipe = "ABC", "DGF", "EH ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:complexmechanicparts, H, mcheli:fcs
+
+
 unmountposition = 0.00,  1.50, 0.25
 
 ArmorMinDamage = 20

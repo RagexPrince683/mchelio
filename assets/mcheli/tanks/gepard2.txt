@@ -93,9 +93,9 @@ AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,1
 
 
 ;light tracked spaa alt (modern)
-AddRecipe = "AFC", "DEF", "B  ", A, mcheli:lightchassis, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics, B, mcheli:basicmechanicparts
+AddRecipe = "AFC", "DEF", "B  ", A, mcheli:lightchassis, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics, B, mcheli:fcs2
 
-AddRecipe = "AB ", "   ", "   ", A, mcheli:basicmechanicparts, B, mcheli:gepard
+AddRecipe = "AB ", "   ", "   ", A, mcheli:fcs2, B, mcheli:gepard
 
 BoundingBox = 0.0, 2.3, 0.0, 2.0, 1.7, 1.0
 BoundingBox = 0.0, 1.15, -3.3, 3.0, 0.7, 1.0

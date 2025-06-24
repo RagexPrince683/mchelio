@@ -89,7 +89,7 @@ PartWheelRot = 25
 SetWheelPos =  1.33,  -0.24,  3.86,  0.75, -1.2, -4.3
 
 ;light 8x8 mlrs (2 eng)
-AddRecipe = "ABC", "DCG", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, G, mcheli:rocket3
+AddRecipe = "ABC", "DCG", "E  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, G, mcheli:rocket3, E, mcheli:fcs
 
 ;ArmorMinDamage = 4
 ;ArmorMaxDamage = 500

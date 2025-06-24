@@ -64,7 +64,7 @@ AddPartWeapon =   konkurs, false, true, false, 0.0,  2.21, 0.22
 AddPartWeaponChild = false, true,   0.0, 2.34, 0.04
 
 ;IFV armed light rkt 4x4
-AddRecipe = "ABC", "DE ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:rocket, D, mcheli:electronics, E, mcheli:lap
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:rocket, D, mcheli:electronics, E, mcheli:fcs2
 
 ArmorMinDamage = 2
 

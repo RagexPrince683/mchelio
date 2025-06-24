@@ -107,7 +107,7 @@ RideRack = c5, 2
 
 
 ;IFV armed atgm light 8x8
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:lap, F, mcheli:advancedmechanicparts, G, mcheli:cannon2
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:fcs, E, mcheli:lap, F, mcheli:advancedmechanicparts, G, mcheli:cannon2
 
 BoundingBox = -0.0154, 2.2362, -0.0245, 1.5, 1.5, 1.0
 

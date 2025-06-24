@@ -79,7 +79,7 @@ BoundingBox = 0.0, 1.0, 4.0, 2.0, 1.0
 BoundingBox = 0.0, 1.0, 5.0, 2.0, 1.0
 
 ;medlight 8x8 with cannon arty
-AddRecipe = "ABC", "DDF", "GG ", A, mcheli:mediumchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, F, mcheli:complexmechanicparts, G, mcheli:cannon3
+AddRecipe = "ABC", "DDF", "GG ", A, mcheli:mediumchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, F, mcheli:fcs3, G, mcheli:cannon3
 
 ;cab
 

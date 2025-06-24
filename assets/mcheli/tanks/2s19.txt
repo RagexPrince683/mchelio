@@ -162,7 +162,7 @@ BoundingBox = 0.0, 2.1, 0.0, 3.5, 1.8, 1.0
 
 
 ;med tracked cannon arty (modern)
-AddRecipe = "ABB", "DEF", "C  ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:map, F, mcheli:electronics
+AddRecipe = "ABB", "DEF", "C  ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:fcs2, F, mcheli:electronics
 
 
 

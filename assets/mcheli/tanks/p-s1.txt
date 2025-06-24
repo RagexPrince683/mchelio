@@ -179,7 +179,7 @@ AddWeapon			= UHF_radar, 0.0, 4.6, -1.558, 0.0, 0.0, false, 2, 0, -360, 360, -90
 ;AddTurretWeapon = UHF_radar, 0.0, 4.6, -1.558, 0.0, 0.0, false, 5, 0, -360, 360, -90,  90
 
 ;light 8x8 spaa (modern)
-AddRecipe = "ABC", "DEG", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine2, D, mcheli:electronics, E, mcheli:lap, G, mcheli:cannon3
+AddRecipe = "ABC", "DEG", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine2, D, mcheli:electronics, E, mcheli:fcs3, G, mcheli:cannon3
 
 
 ;BoundingBox = 0.0, 1.0, 1.0, 1.0, 1.0, 1.0

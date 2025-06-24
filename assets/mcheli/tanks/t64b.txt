@@ -116,7 +116,7 @@ AddPartTurretWeapon    = t64mg12_7mms, false, true, true, -0.72, 2.96, -0.61
 AddWeapon = t64mg12_7mms,    -0.72, 3.07, -0.61,   0.0, 0.0, false, 2, 0, -95,95, -70,5
 
 ;slightly really less modern mbt tracked tank 
-AddRecipe = "ABC", "DGF", "EF ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:map, E, mcheli:advancedmechanicparts, F, mcheli:composite
+AddRecipe = "ABC", "DGF", "EF ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs, G, mcheli:map, E, mcheli:advancedmechanicparts, F, mcheli:composite
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1

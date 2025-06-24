@@ -93,7 +93,7 @@ AddTurretWeapon     = mcvm240_r,     0.2621,1.73, 0.2147,         0.0, 0.0,    t
 AddTurretWeapon = mcvh2hb,             -0.5304, 2.7845, 0.2357,      0.0, 0.0, true,  2, 0, -360, 360, -60,8
 
 ;light 8x8 with cannon
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine2, D, mcheli:electronics, E, mcheli:lap, F, mcheli:basicmechanicparts, G, mcheli:cannon3
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine2, D, mcheli:electronics, E, mcheli:fcs2, F, mcheli:basicmechanicparts, G, mcheli:cannon3
 
 FlareType = 10
 DamageFactor = 0.1

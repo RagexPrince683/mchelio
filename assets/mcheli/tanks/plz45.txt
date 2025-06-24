@@ -143,4 +143,4 @@ EntityHeight = 0.8
 unmountposition = 0.00,  1.50, 0.00
 
 ;med tracked cannon arty (m109base)
-AddRecipe = "ABC", "DEF", "F  ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:fcs3

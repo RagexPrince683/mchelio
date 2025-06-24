@@ -189,4 +189,4 @@ UnmountPosition = 0.00,  2.5, -0.35
 DefaultFreeLook = true
 
 ;light tracked spaa (modern)
-AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:rocket, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:rocket, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:fcs3, F, mcheli:electronics

@@ -103,4 +103,4 @@ InventorySize = 9
 
 
 ;light 8x8 spaa (modern)
-AddRecipe = "ABC", "DEG", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:lap, G, mcheli:complexmechanicparts
+AddRecipe = "ABC", "DEG", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:fcs2, E, mcheli:lap, G, mcheli:complexmechanicparts

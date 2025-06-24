@@ -126,6 +126,6 @@ BoundingBox = -0.1, 1.5, -2.5, 4.0, 0.65, 1.0
 BoundingBox = -0.1, 2.2, 0.0, 4.0, 0.85, 1.0
 
 ;light tracked spaa no aam (modern)
-AddRecipe = "A C", "DEF", "   ", A, mcheli:lightchassis, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics, B, mcheli:fcs
 
 ArmorMinDamage = 8

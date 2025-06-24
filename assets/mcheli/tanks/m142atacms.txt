@@ -148,4 +148,4 @@ unmountposition = 0.91, 1.50 ,7.46
 
 
 ;med 6x6 rocket arty (modern)
-AddRecipe = "ABC", "DEF", "FF ", A, mcheli:lightchassis, B, mcheli:rocket3, C, mcheli:engine2, D, mcheli:wheel6, E, mcheli:map, F, mcheli:electronics
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:rocket3, C, mcheli:engine2, D, mcheli:wheel6, E, mcheli:map, F, mcheli:electronics, G, mcheli:fcs3

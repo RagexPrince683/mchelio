@@ -125,7 +125,7 @@ AddPartTurretWeapon    = abramsm240_r,   false, true, false,  1.243, 3.24, -0.77
 AddTurretWeapon = abramsm240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -65,9
 
 ; modern mbt tracked tank 
-AddRecipe = "ABC", "DGF", "EF ", A, mcheli:heavychassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:complexmechanicparts
+AddRecipe = "ABC", "DGF", "E  ", A, mcheli:heavychassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs3, G, mcheli:composite3, E, mcheli:complexmechanicparts
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1

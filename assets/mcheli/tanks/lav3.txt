@@ -94,4 +94,4 @@ BoundingBox = 0.0, 2.65, 0.0, 1.8, 0.5, 1.0
 
 
 ;light 8x8 with autocan
-AddRecipe = "ABC", "DEG", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:lap, G, mcheli:cannon1
+AddRecipe = "ABC", "DEG", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:fcs, G, mcheli:cannon1

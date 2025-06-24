@@ -109,7 +109,7 @@ AddPartTurretWeapon    =c1l37a2,   false, true, true,-0.38,3.55,-0.34,0
 AddTurretWeapon = c1l37a2,-0.4, 3.47, 0.3 ,0,0, false, 2, 0, -80,80, -25,10
 
 ;less modern mbt tracked tank 
-AddRecipe = "ABC", "DGF", "E  ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite2, E, mcheli:basicmechanicparts
+AddRecipe = "ABC", "DGF", "E  ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs, G, mcheli:composite2, E, mcheli:basicmechanicparts
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1

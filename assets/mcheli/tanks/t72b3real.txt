@@ -104,7 +104,13 @@ FuelConsumption = 2.0
 AddTexture = t-90_2
 
 ;slightly really less modern mbt tracked tank 
-AddRecipe = "ABC", "DGF", "EFH", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite2, E, mcheli:basicmechanicparts, H, mcheli:fcs3
+AddRecipe = "ABC", "DGF", "EFH", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:basicmechanicparts, H, mcheli:fcs3
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:t-72b, B, mcheli:fcs3, C, mcheli:composite3
+
+;original t-72 recip for ref
+;AddRecipe = "ABC", "DGF", "EF ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite2, E, mcheli:basicmechanicparts
+
 
 
 ;BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75

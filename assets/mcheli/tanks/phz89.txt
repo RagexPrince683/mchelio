@@ -184,7 +184,7 @@ AddPartWeaponChild = false, true, 2.1514, 4.5920, -0.7037
 
 
 ;med tracked rocket arty (modern)
-AddRecipe = "ABC", "DFF", "   ", A, mcheli:mediumchassis, B, mcheli:rocket3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics
+AddRecipe = "ABC", "DFE", "   ", A, mcheli:mediumchassis, B, mcheli:rocket3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, E, mcheli:fcs2
 
 
 

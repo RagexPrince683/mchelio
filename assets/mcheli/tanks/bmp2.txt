@@ -131,9 +131,9 @@ ArmorMinDamage = 5
 ArmorDamageFactor = 0.90
 
 ;light tracked tank/ifv (bmp2 family) (modern no composite)
-AddRecipe = "ABC", "DEF", "F  ", A, mcheli:lightchassis, B, mcheli:cannon3, C, mcheli:engine1, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:cannon3, C, mcheli:engine1, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics, G, mcheli:fcs
 
-AddRecipe = "ABC", "   ", "   ", A, mcheli:bmp1, B, mcheli:cannon3, C, mcheli:electronics
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:bmp1, B, mcheli:cannon3, C, mcheli:electronics, D, mcheli:fcs
 
 ;BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
 ;BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00

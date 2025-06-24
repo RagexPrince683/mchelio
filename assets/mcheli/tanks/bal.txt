@@ -142,7 +142,7 @@ AddPartSteeringWheel =  -.962, 1.88,5.37,  -0, 1.88,-1,  130
 
 
 ;rocket transport armed 8x8
-AddRecipe = "ABC", "DAE", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine2, D, mcheli:electronics, E, mcheli:rocket2
+AddRecipe = "ABC", "DAE", "F  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine2, D, mcheli:electronics, E, mcheli:rocket2, F, mcheli:fcs2
 
 unmountposition = -0.9612, 1.5, 4.7212
 

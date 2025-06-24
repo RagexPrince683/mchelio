@@ -43,7 +43,7 @@ AddPartWeaponChild = false, true, 0.00, 1.63, -6.56, 0.0
 AddWeapon = patriotaim7_spa,  0.0, 7.1, -7.1,   0.0, 0.0, false, 1, 0, -360,360, -30,0
 
 ;basic turret SAM (advanced)
-AddRecipe = "DDD", "D F", "EEE", D, mcheli:electronics, E, mcheli:lap, F, mcheli:advancedmechanicparts 
+AddRecipe = "DDD", "D F", " E ", D, mcheli:electronics, E, mcheli:fcs2, F, mcheli:advancedmechanicparts 
 
 BoundingBox =  0.0, 1.0, -4.0,  2.5, 1.8
 

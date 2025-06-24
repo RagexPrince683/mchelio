@@ -118,9 +118,9 @@ InventorySize = 9
 ArmorMinDamage = 5
 
 ;light tracked tank/ifv (bradley family) (modern composite)
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:cannon2, C, mcheli:engine1, D, mcheli:tanktracks, E, mcheli:composite, F, mcheli:electronics, G, mcheli:advancedmechanicparts
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:cannon2, C, mcheli:engine1, D, mcheli:tanktracks, E, mcheli:composite, F, mcheli:fcs, G, mcheli:advancedmechanicparts
 
-AddRecipe = "ABC", "   ", "   ", A, mcheli:bradleym2, B, mcheli:advancedmechanicparts, C, mcheli:composite
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:bradleym2, B, mcheli:advancedmechanicparts, C, mcheli:composite, D, mcheli:fcs
 
 ;BoundingBox =  0.0, 0.6,  2,   4, 1.9,  1
 ;BoundingBox = -0.35, 1.6,  0.0,   2.4, 3.2,  1

@@ -92,7 +92,7 @@ RideRack = c5, 1
 RideRack = c5, 2
 
 ;armored armed 6x6
-AddRecipe = "ABC", "DDD", "E  ", A, mcheli:lightchassis, B, mcheli:wheel6, C, mcheli:engine3, D, mcheli:lap, E, mcheli:cannon1
+AddRecipe = "ABC", "DFD", "E  ", A, mcheli:lightchassis, B, mcheli:wheel6, C, mcheli:engine3, D, mcheli:lap, E, mcheli:cannon1, F, mcheli:fcs
 
 ;BoundingBox =  0.0, 1.4,  1.0,   3.4, 3.8,  1.00
 ;BoundingBox =  0.0, 1.0, -2.0,   3.4, 2.3,  1.25

@@ -91,7 +91,7 @@ AddPartWeaponChild = false, true, -0.00, 2.33, 0.00
 InventorySize = 9
 
 ;light 6x6 aa (modern) 2eng
-AddRecipe = "ABC", "DCF", "   ", A, mcheli:lightchassis, B, mcheli:advancedmechanicparts, C, mcheli:engine1, D, mcheli:wheel6, F, mcheli:electronics
+AddRecipe = "ABC", "DCF", "   ", A, mcheli:lightchassis, B, mcheli:advancedmechanicparts, C, mcheli:engine1, D, mcheli:wheel6, F, mcheli:fcs2
 
 ;ヘッドライト
 ;AddFixedSearchLight =  0.52, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0

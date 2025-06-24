@@ -102,7 +102,7 @@ BoundingBox = 0.10, 3.3, -0.0, 1.0, 1.0, 10
 BoundingBox = 0.10, 3.3, -7.0, 1.0, 1.0, 10
 
 ;rocket transport armed 8x8 (modern)
-AddRecipe = "ABC", "DAE", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine2, D, mcheli:electronics, E, mcheli:rocket3 
+AddRecipe = "ABC", "DAE", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine2, D, mcheli:fcs2, E, mcheli:rocket3 
 
 
 

@@ -103,7 +103,7 @@ RideRack = c5, 2
 ;BoundingBox =  0.0, 1.0, -2.0,   3.4, 2.3,  1.25
 
 ;light 8x8 with cannon
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:lap, F, mcheli:basicmechanicparts, G, mcheli:cannon3
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:fcs2, F, mcheli:basicmechanicparts, G, mcheli:cannon3
 
 BoundingBox = 0.0, 1.4, 3.5, 3.2, 1.6, 1.0
 BoundingBox = 0.0, 1.4, 3.8, 3.2, 1.4, 1.0

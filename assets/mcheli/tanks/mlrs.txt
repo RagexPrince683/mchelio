@@ -123,7 +123,7 @@ AddTurretWeapon			= mfom227mm2,    0.435,  1.79, -2.205,  0.0, 0.0,  false,  1, 
 
 
 ;light tracked rocket arty (modern)
-AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:rocket3, C, mcheli:engine2, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:rocket3, C, mcheli:engine2, D, mcheli:tanktracks, E, mcheli:fcs3, F, mcheli:electronics
 
 ;BoundingBox =  0.0, 1.4,  -2.0,   3.4, 3.8,  1.00
 ;BoundingBox =  0.0, 1.4, 2.0,   3.4, 2.3,  1.00

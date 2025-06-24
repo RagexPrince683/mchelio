@@ -124,7 +124,7 @@ RideRack = c5, 1
 RideRack = c5, 2
 
 ;modern mbt tracked tank 
-AddRecipe = "ABC", "DGF", "EFF", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:basicmechanicparts
+AddRecipe = "ABC", "DGF", "E  ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:fcs3
 
 ArmorMinDamage = 33
 

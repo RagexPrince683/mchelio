@@ -108,7 +108,7 @@ AddTurretWeapon = sp2a75-4_9M119M_Refleks,     0.0, 1.657, 0.80,  0.0, 0.0, true
 AddTurretWeapon = 2spkt_7.62mm, -0.3, 1.657, 0.80, 0, 0, true,1, 0, -360,360, -17, 5
 
 ;light tracked tank (modern)
-AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:cannon3, C, mcheli:engine2, D, mcheli:tanktracks, E, mcheli:composite, F, mcheli:electronics
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:cannon3, C, mcheli:engine2, D, mcheli:tanktracks, E, mcheli:composite, F, mcheli:fcs3
 
 RideRack = c5, 1
 RideRack = c5, 2
