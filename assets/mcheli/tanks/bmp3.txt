@@ -123,7 +123,7 @@ ArmorDamageFactor = 1.00
 ;light tracked tank/ifv (bmp3 family) (modern no composite)
 AddRecipe = "ABC", "DEF", "FGR", A, mcheli:lightchassis, B, mcheli:cannon3, C, mcheli:engine1, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics, R, mcheli:basicmechanicparts, G, mcheli:fcs2
 
-AddRecipe = "ABC", "D  ", "   ", A, mcheli:bmp2, B, mcheli:basicmechanicparts, C, mcheli:electronics, mcheli:fcs2
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:bmp2, B, mcheli:basicmechanicparts, C, mcheli:electronics, D, mcheli:fcs2
 
 
 
