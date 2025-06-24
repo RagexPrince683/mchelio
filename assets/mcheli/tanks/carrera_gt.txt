@@ -62,7 +62,9 @@ AddPartHatch = 0, 0.91096, -0.8208, -1, 0, 0, -60
 MaxFuel         = 500
 FuelConsumption = 0.8
 
-AddRecipe = " G ",  "I I",  "IIR",   G, glass, I, gold_ingot, R, diamond
+;faster civ car really expensiv
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine3, D, mcheli:advancedmechanicparts, E, gold_block, F, glass_pane
+
 
 ;BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
 ;BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1

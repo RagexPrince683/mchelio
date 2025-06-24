@@ -62,4 +62,5 @@ AddPartWeapon = PG-9, false, true, false,  0.00, 0.66, -0.10, 0
 AddPartWeaponChild = false, true, 0.00, 1.36, -0.09,0.0
 AddPartWeaponChild = false, true, 0.00, 1.15, -0.09, 0.5
 
-AddRecipe = " G ", "G G", " G ", G, hfr:item.part_cannon_2
+;basic cannon turret 
+AddRecipe = "   ", "GEF", "   ", E, mcheli:electronics, F, mcheli:basicmechanicparts, G, mcheli:cannon2

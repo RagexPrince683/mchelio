@@ -69,7 +69,9 @@ BoundingBox = 0.0, 0.0147, 0.0, 2.1, 0.2
 
 InventorySize = 0
 
-AddRecipe = "AC ", "EXG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+;basic civ car armed
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:cannon1
+
 
 AddFixedSearchLight =  0.5487, 0.7053, 1.9932,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
 AddFixedSearchLight = -0.5487, 0.7053, 1.9932,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25, -6.0,  0

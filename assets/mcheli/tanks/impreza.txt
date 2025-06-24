@@ -102,6 +102,7 @@ ArmorDamageFactor = 2.32
 
 InventorySize = 9
 
-AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+;faster civ car awd
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:advancedmechanicparts, E, glass_pane
 
 ArmorMinDamage = 2

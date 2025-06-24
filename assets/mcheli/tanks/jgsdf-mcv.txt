@@ -92,7 +92,8 @@ AddTurretWeapon = 105mm_heatmcv,     0.00,1.73, 0.1147,           0.0, 0.0,    t
 AddTurretWeapon     = mcvm240_r,     0.2621,1.73, 0.2147,         0.0, 0.0,    true,  1, 0, -360, 360, -15,6
 AddTurretWeapon = mcvh2hb,             -0.5304, 2.7845, 0.2357,      0.0, 0.0, true,  2, 0, -360, 360, -60,8
 
-AddRecipe = "AC ", "EXG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+;light 8x8 with cannon
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine2, D, mcheli:electronics, E, mcheli:lap, F, mcheli:basicmechanicparts, G, mcheli:cannon3
 
 FlareType = 10
 DamageFactor = 0.1

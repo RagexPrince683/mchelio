@@ -104,7 +104,8 @@ AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
 
 InventorySize = 18
 
-AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+;basic civ car
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, glass_pane
 
 ;ヘッドライト
 AddFixedSearchLight =  0.826, 0.947, 2.88,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0

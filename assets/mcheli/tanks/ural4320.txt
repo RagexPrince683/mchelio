@@ -61,7 +61,9 @@ AddWeapon = thorn,    0.00, 0.00, 0.00,  0.0,0.0
 ;Creative only
 ;nyet
 
-AddRecipe = "AC ", "E  ", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2
+;civ truck
+AddRecipe = "ABC", "   ", "   ", A, mcheli:mediumchassis, B, mcheli:wheel4, C, mcheli:engine2
+
 
 AddPartWheel     =  1.4079, 0.3216, 2.8474, 30
 AddPartWheel     = -1.4079, 0.3216, 2.8474, 30

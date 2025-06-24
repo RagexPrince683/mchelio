@@ -89,7 +89,9 @@ AddWeapon =  1_horn , 0.00,  0.42,  3.05, 0.0, 90
 
 InventorySize = 9
 
-AddRecipe = " G ",  "ILI",  "RIR",   G, glass, I, iron_ingot, R, redstone, L,light_weighted_pressure_plate
+;faster civ car expensiv
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:basicmechanicparts, E, gold_nugget, F, glass_pane
+
 
 ;ヘッドライト
 AddFixedSearchLight =  0.70, 0.66, 3.15,   0x50FFFFFF,   0x00FFFFC0,    0.25, 0.55,  -5,  0

@@ -91,7 +91,10 @@ AddFixedSearchLight =  -0.8426, 0.7147,-3.6825,   0xFFFF0000,   0x10FF0000,    -
 
 ;-0.1348
 
-AddRecipe = "GGG",  "IJI",  "RIR",   G, glass, I, iron_ingot, J, mcheli:phantom, R, redstone
+;faster civ car really expensiv
+AddRecipe = "ABC", "DEE", "FFF", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine3, D, mcheli:advancedmechanicparts, E, gold_block, F, mcheli:lap
+
+AddRecipe = "ABB", "B  ", "   ", A, mcheli:phantom, B, mcheli:lap
 
 AddPartSteeringWheel =  -0.61061,  0.7674,  0.40854,  0.0, 1.0, -5.1476,   130
 

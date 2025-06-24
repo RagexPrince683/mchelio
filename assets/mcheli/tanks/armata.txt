@@ -118,7 +118,9 @@ AddPartWeaponChild = false, true, -0.450, 3.62, -1.77, 0.0
 
 ;AddTurretWeapon = mg7_62mm_mbt,   -0.0939, 3.5920, -1.2962,   0.0, 0.0, false, 2, 0, -360,360, -30,5
 
-AddRecipe = "ACA", "EAG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;heavy MEME (APS) mbt tracked tank 3 (modern autoloader)
+AddRecipe = "ABC", "DGF", "EEG", A, mcheli:heavychassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:complexmechanicparts
+
 
 RideRack = c5, 1
 RideRack = c5, 2

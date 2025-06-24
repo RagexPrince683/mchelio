@@ -59,7 +59,8 @@ AddPartWheel     =  0.68,  0.19, -1.10
 
 InventorySize = 9
 
-AddRecipe = " CA", "E  ", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1
+;basic civ car offroad
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:basicmechanicparts
 
 ;ヘッドライト
 AddFixedSearchLight =  -0.605, 0.894, 1.77,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,  -5,  0

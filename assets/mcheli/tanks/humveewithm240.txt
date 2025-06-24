@@ -115,7 +115,10 @@ AddPartCanopy   =  0,0,0,  0,1,0,  0
 
 InventorySize = 27
 
-AddRecipe = "AC ", "EXG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+;basic armored humvee m240
+AddRecipe = "ABC", "DDD", "G  ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine2, D, mcheli:lap, G, mcheli:cannon1
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:hel, B, mcheli:cannon1
 
 ;AddRecipe = "",  "",  "",  
 

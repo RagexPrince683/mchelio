@@ -95,7 +95,8 @@ MotionFactor = 0.9
 ArmorDamageFactor = 1.0
 
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+;med tracked tank/ifv (marder family) (modern no composite)
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:mediumchassis, B, mcheli:cannon1, C, mcheli:engine1, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics, G, mcheli:basicmechanicparts
 
 ArmorMinDamage = 19
 

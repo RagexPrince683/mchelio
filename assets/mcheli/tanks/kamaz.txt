@@ -97,4 +97,8 @@ AddFixedSearchLight = -0.973, 1.13, -6.61,   0xFFFF0000,   0x10FF0000, 0.05, 0.2
 
 AddPartSteeringWheel =  1.3475, 2.9296, 6.6145, 0, 1.2, -1, 110
 
-AddRecipe = "AC ", "E  ", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2
+;light 8x8 spaa (modern)
+;AddRecipe = "ABC", "DEG", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine2, D, mcheli:electronics, E, mcheli:lap, G, mcheli:cannon3
+
+;light 8x8 unarmed mil modern
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics

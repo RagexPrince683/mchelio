@@ -50,7 +50,7 @@ AddPartHatch =   0.9959,  1.234,  -2.61,   0, -1, 0, 95
 AddPartSlideHatch =  0.00, 0.00, -1.0
 
 ;advanced modern helicopter armed just rocket, AOW3 style
-AddRecipe = "ABC", "DE ", "G  ", A, mcheli:airframe1, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, G, mcheli:rocket2
+AddRecipe = "ABC", "DE ", "G  ", A, mcheli:airframe, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, G, mcheli:rocket2
 
 BoundingBox = 0.0, 3.55, 0.0, 1.0, 2.0, 1.5
 BoundingBox = 0.0, 3.10, 0.0, 2.3, 1.0, 1.0

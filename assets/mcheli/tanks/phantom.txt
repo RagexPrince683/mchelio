@@ -91,7 +91,8 @@ AddFixedSearchLight =  -0.8426, 0.7147,-3.6825,   0xFFFF0000,   0x10FF0000,    -
 
 ;-0.1348
 
-AddRecipe = "GGG",  "III",  "RIR",   G, glass, I, gold_ingot, R, diamond
+;faster civ car really expensiv
+AddRecipe = "ABC", "DEE", "G  ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine3, D, mcheli:advancedmechanicparts, E, gold_block, G, glass_pane
 
 AddPartSteeringWheel =  -0.61061,  0.7674,  0.40854,  0.0, 1.0, -5.1476,   130
 

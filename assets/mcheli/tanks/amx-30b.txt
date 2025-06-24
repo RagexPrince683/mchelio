@@ -85,7 +85,8 @@ AddPartWeaponChild = false, true, 0.00, 2.2286, 1.7871, 0.0
 
 ;AddTurretWeapon = m2_rws,   -0.846, 3.68,  0.373,   0.0, 0.0, false, 2, 0, -360,360, -60,20
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;medium tracked tank (modern no composite)
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:map, F, mcheli:electronics
 
 BoundingBox =  0.0, 1.1, -3,   2.9, 1.6,  0.90
 BoundingBox =  0.0, 1.1, -0.1,   2.9, 1.6,  0.60

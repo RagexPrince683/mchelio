@@ -162,8 +162,8 @@ BoundingBox = 0.0, 0.47, 2.0, 2.5, 0.4, 0.16
 BoundingBox =  0.0, 1.25, -3.7,  2.5, 1.1, 0.44
 BoundingBox =  0.0, 0.8, -3.7,  2.5, 1.1, 0.44
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
-
+;medium tracked tank ww2
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:map
 
 unmountposition = 0.00, 1.5957, -0.2821
 

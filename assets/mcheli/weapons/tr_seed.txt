@@ -17,6 +17,10 @@ BombletDiff = 1.2
 
 SmokeSize   = 1.0
 
+MaxAmmo = 90
+SuppliedNum = 45
+Item =  15, wheat_seeds
+
 
 DispenseItem = wheat_seeds
 DispenseRange = 3

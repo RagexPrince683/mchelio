@@ -102,8 +102,8 @@ RideRack = c5, 2
 ;BoundingBox =  0.0, 1.4,  1.0,   3.4, 3.8,  1.00
 ;BoundingBox =  0.0, 1.0, -2.0,   3.4, 2.3,  1.25
 
-AddRecipe = "AC ", "EXG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
-
+;light 8x8 with cannon
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:lap, F, mcheli:basicmechanicparts, G, mcheli:cannon3
 
 BoundingBox = 0.0, 1.4, 3.5, 3.2, 1.6, 1.0
 BoundingBox = 0.0, 1.4, 3.8, 3.2, 1.4, 1.0

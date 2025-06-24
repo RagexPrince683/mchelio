@@ -76,8 +76,8 @@ AddPartTurretWeapon    = ikvmg7_62mm,  false, true, false, -0.9972, 2.6965, 0.17
 AddPartTurretWeapon    = ikvmg7_62mm,   false, true, true,  -0.9972, 2.6965, 0.1723
 AddTurretWeapon = ikvmg7_62mm,   -0.9972, 2.6965,  0.1723,   0.0, 0.0, false, 2, 0, -120,120, -15,5
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
-
+;light tracked tank/ifv (bmp2 family) (modern no composite)
+AddRecipe = "ABC", "D F", "F  ", A, mcheli:lightchassis, B, mcheli:cannon3, C, mcheli:engine1, D, mcheli:tanktracks, F, mcheli:electronics
 
 ArmorMinDamage = 8
 

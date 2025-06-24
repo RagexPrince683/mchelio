@@ -63,7 +63,8 @@ AddTurretWeapon = konkurs,    -0.4733,  3.1327, -0.53, 0, 0,  false, 1, 0, -360,
 AddPartWeapon =   konkurs, false, true, false, 0.0,  2.21, 0.22
 AddPartWeaponChild = false, true,   0.0, 2.34, 0.04
 
-AddRecipe = "AC ", "EXG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+;IFV armed light rkt 4x4
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:rocket, D, mcheli:electronics, E, mcheli:lap
 
 ArmorMinDamage = 2
 

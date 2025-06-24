@@ -37,7 +37,8 @@ AddTexture = ILTIS-Kdow_2
 
 HUD =  bnr32_hud, none, none, none, none, none
 
-AddRecipe = " CA", "E  ", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1
+;basic civ car offroad
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:basicmechanicparts
 
 EntityWidth  = 0.8
 EntityHeight = 0.8

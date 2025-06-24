@@ -87,7 +87,9 @@ AddPartTurretWeapon    = bt27_62mmDTGun1,  false, true, false,-0.4984,  2.0838, 
 AddPartTurretWeapon    = bt27_62mmDTGun1,  false, true, true, -0.4984,  2.0838, 0.6078
 AddTurretWeapon = bt27_62mmDTGun1, -0.4984,  2.0838, 0.6078,   0.0, 0.0, true, 1, 0, -360,360, -25,8
 
-AddRecipe = "ACA", "E G", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, G, hfr:item.part_cannon_1
+;light tracked tank ww2 EARLY
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:cannon, C, mcheli:engine2, D, mcheli:tanktracks
+
 
 ArmorMinDamage = 6
 

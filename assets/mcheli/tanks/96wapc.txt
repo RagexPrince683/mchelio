@@ -104,7 +104,8 @@ DamageFactor = 0.0
 RideRack = c5, 1
 RideRack = c5, 2
 
-AddRecipe = "AC ", "EXG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+;armored armed 6x6
+AddRecipe = "ABC", "DDE", "   ", A, mcheli:lightchassis, B, mcheli:wheel6, C, mcheli:engine3, D, mcheli:lap, E, mcheli:cannon1
 
 UnmountPosition = -0.64, 1.50,  2.82
 

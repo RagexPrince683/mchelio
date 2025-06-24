@@ -97,7 +97,8 @@ AddPartWheel = 1.3337, 00.1620,  -2.0025
 AddPartWheel = -1.3337, 00.1620,  2.2385, 15
 AddPartWheel = -1.3337, 00.1620,  -2.0025
 
-AddRecipe = " G ",  "IXI",  "RIR",   G, glass, I, iron_ingot, X, lapis_block, R, redstone
+;basic civ car advanced
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:basicmechanicparts, E, glass_pane
 
 ;;BoundingBox =  0.00,  0.52,  2.48,  2.2, 1.0
 ;;BoundingBox =  0.00,  0.79, -0.02,  2.2, 1.5

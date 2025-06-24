@@ -120,7 +120,10 @@ ArmorDamageFactor = 1.00
 ;BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
 ;BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;light tracked tank/ifv (bmp3 family) (modern no composite)
+AddRecipe = "ABC", "DEF", "FFR", A, mcheli:lightchassis, B, mcheli:cannon3, C, mcheli:engine1, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics, R, mcheli:basicmechanicparts
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:bmp2, B, mcheli:basicmechanicparts, C, mcheli:electronics
 
 
 

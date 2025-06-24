@@ -111,6 +111,8 @@ BoundingBox = 0.0, 1.7, 0.6, 2.7, 0.1, 0.28
 
 
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+;slightly really less modern mbt tracked tank 
+AddRecipe = "ABC", "DGF", "EF ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite, E, mcheli:basicmechanicparts
+
 
 unmountposition = 0.00,  1.93, 0.70

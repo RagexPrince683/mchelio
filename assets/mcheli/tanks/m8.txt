@@ -123,4 +123,5 @@ StepHeight = 1.2
 
 UnmountPosition = -0.0114, 1.5456, 0.2101
 
-AddRecipe = "AC ", "E G", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, G, hfr:item.part_cannon_1
+;armored armed 6x6
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:lightchassis, B, mcheli:wheel6, C, mcheli:engine2, D, mcheli:lap, E, mcheli:cannon1

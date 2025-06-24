@@ -61,6 +61,7 @@ AddWeapon = m1m916, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -10, 10, -65, 5, 0
 
 BoundingBox =  0.0, 1.0, 0.0,  1.0, 1.0
 
-AddRecipe = " G ", "GXG", " G ", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+;advanced arty turret (less)
+AddRecipe = "   ", "DEF", "GG ", D, mcheli:electronics, E, mcheli:lap, F, mcheli:advancedmechanicparts, G, mcheli:cannon3
 
 UnmountPosition = 1.06,  1.54, -0.41

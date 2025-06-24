@@ -89,7 +89,8 @@ MaxFuel         = 1000
 FuelConsumption = 2.0
 
 
-AddRecipe = "ACA", "EXG", "T T", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;med tracked cannon arty (modern)
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:map, F, mcheli:electronics
 
 BoundingBox =  0.0, 1.0,  -0.1,   3.45, 2.0,   0.75
 BoundingBox =  0.0, 2.5, -0.1,   2.65, 1.0,   1.00

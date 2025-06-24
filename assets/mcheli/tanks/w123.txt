@@ -75,7 +75,8 @@ BoundingBox = 0.0, 0.18, 1.9, 2.1, 0.2
 
 BoundingBox = 0.0, 0.18, -1.7, 2.1, 0.2
 
-AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+;basic civ car glass
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, glass_pane
 
 
 InventorySize = 9

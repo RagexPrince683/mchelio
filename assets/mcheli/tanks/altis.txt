@@ -74,7 +74,8 @@ AddPartHatch    =     0.00,   0.9917, -2.3310, 1,0,0,   70
 
 InventorySize = 18
 
-AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+;basic civ car
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, glass_pane
 
 ;ヘッドライト
 AddFixedSearchLight =  -0.8331, 0.5422, 2.2565,   0x50FFFFFF,   0x00FFFFC0,    0.5, 1.0,  -5,  0

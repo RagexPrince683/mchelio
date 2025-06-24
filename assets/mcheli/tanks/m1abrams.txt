@@ -114,7 +114,8 @@ AddTurretWeapon = 105abramscanistershell,        0.00, 2.10, 0.02,  0.0, 0.0, tr
 AddTurretWeapon = m1a1m240,      -0.43, 2.28, 2.02,  0.0, 0.0, true,1, 0,-360,360, -20, 10
 
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+; less modern mbt tracked tank 
+AddRecipe = "ABC", "DGF", "E  ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite2, E, mcheli:advancedmechanicparts
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1

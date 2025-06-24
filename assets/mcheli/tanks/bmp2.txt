@@ -130,8 +130,10 @@ ArmorMinDamage = 5
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
 ArmorDamageFactor = 0.90
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+;light tracked tank/ifv (bmp2 family) (modern no composite)
+AddRecipe = "ABC", "DEF", "F  ", A, mcheli:lightchassis, B, mcheli:cannon3, C, mcheli:engine1, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics
 
+AddRecipe = "ABC", "   ", "   ", A, mcheli:bmp1, B, mcheli:cannon3, C, mcheli:electronics
 
 ;BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
 ;BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00

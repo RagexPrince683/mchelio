@@ -71,7 +71,8 @@ AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
 
 InventorySize = 9
 
-AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+;basic civ car
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, glass_pane
 
 
 AddWeapon = smoke_none, 1.2,  -0.3,-1.7592,   1.0, 0.0

@@ -121,4 +121,5 @@ BoundingBox = 0.0, 1.5, 3.3, 2.8, 0.4, 1.0
 UnmountPosition = -0.0,  1.5,-3.5
 
 
-AddRecipe = "AC ", "EXG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+;light 8x8 with mg
+AddRecipe = "ABC", "DEG", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:lap, G, mcheli:cannon1

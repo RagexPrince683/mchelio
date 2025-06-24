@@ -45,4 +45,5 @@ PartWheelRot = 40
 AddWeapon = c4, 0,0,0,  0,0, 
 AddWeapon = targeting_pod_pv30s, 0.00, 2, 0.00, 0.0, 0.0, true, 1, 0, -360, 360, -90, 90
 
-AddRecipe = "XEG", " C ", "T T", T, hfr:item.part_treads, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+;basic ground drone
+AddRecipe = "ABC", "   ", "   ", A, mcheli:item.ingot_aluminum, B, mcheli:wheel, C, mcheli:electronics

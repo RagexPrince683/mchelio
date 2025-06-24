@@ -81,7 +81,7 @@ BoundingBox =  0.0, 3.0,-10.0,  1.0, 1.0, 1.25
 BoundingBox =  0.0, 3.7,-11.0,  1.0, 1.0,  1.25
 
 ;advanced modern helicopter armed, AOW3 style
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe1, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon1, G, mcheli:rocket2
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon1, G, mcheli:rocket2
 
 unmountposition = -0.55,  1.50,  2.40
 

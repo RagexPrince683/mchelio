@@ -1,6 +1,6 @@
-﻿DisplayName = BM-21 MRL
-AddDisplayName = ja_JP, BM-21
-AddDisplayName = en_US, BM-21 Grad "Ural" Truck
+﻿DisplayName = BM-21 Grad MLRS "Ural" Truck
+AddDisplayName = ja_JP, BM-21 Grad MLRS "Ural" Truck
+AddDisplayName = en_US, BM-21 Grad MLRS "Ural" Truck
 ItemID = 30100
 MaxHp = 200
 Speed = 0.47
@@ -345,8 +345,8 @@ BoundingBox = 0.0, 0.9, 0.0, 2.6, 1.0
 BoundingBox = 0.0, 0.9, 2.6, 2.6, 1.0
 BoundingBox = 0.0, 0.9, 5.2, 2.6, 1.0
 
-AddRecipe = "ACX", "EGG", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
-
+;light 6x6 rocket arty (modern)
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:rocket3, C, mcheli:engine2, D, mcheli:wheel6, E, mcheli:lap, F, mcheli:electronics
 
 DefaultFreelook = false
 

@@ -132,4 +132,5 @@ FuelConsumption = 2.0
 
 StepHeight = 1.2
 
-AddRecipe = "AC ", "E G", "T T", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, G, hfr:item.part_cannon_3
+;medium tracked arty ww2 less EARLY
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:cannon1, C, mcheli:engine1, D, mcheli:tanktracks

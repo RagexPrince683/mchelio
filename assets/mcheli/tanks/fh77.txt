@@ -57,7 +57,8 @@ AddPartWeapon = fhm77 / m549a1_fh77 / m864_fh77, false, true, false,  0.0041, 1.
 AddPartWeaponChild  =  false, true,  0.0041, 1.1448, -0.5882
 AddPartWeaponChild  =  false, true,  0.0041, 1.1448, -0.5882, 0.8
 
-AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;advanced arty turret (advanced)
+AddRecipe = "DDD", "DEF", "GGG", D, mcheli:electronics, E, mcheli:lap, F, mcheli:complexmechanicparts, G, mcheli:cannon3
 
 BoundingBox =  0.0, 1.4, -0.58,  1.4, 1.6
 

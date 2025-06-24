@@ -55,7 +55,11 @@ AddFixedSearchLight = -0.722, 0.5524,-2.4452,   0x80FF0000,   0x00FF0000,    0.0
 AddFixedSearchLight =  0.53, 0.5524,-2.4452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
 AddFixedSearchLight = -0.53, 0.5524,-2.4452,   0x80FF0000,   0x00FF0000,    0.02, 0.55,  180.0,  4
 
-AddRecipe = " G ",  "I I",  "RIR",   G, mcheli:2105, I, iron_ingot, R, redstone
+;basic civ car
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:basicmechanicparts, E, glass_pane
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:2105, B, mcheli:basicmechanicparts
+
 
 MaxFuel         = 1000
 FuelConsumption = 2

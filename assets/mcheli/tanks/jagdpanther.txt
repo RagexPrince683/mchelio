@@ -192,4 +192,5 @@ BoundingBox = 0.0, 1.45, -2.8, 2.8, 0.6, 0.4
 
 BoundingBox = 0.0, 2.2, -1.1, 1.8, 0.8, 0.4
 
-AddRecipe = "ACA", "E G", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, G, hfr:item.part_cannon_2
+;heavy tracked TD ww2
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:heavychassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:hap

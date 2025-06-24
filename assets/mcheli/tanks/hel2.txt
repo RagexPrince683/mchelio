@@ -140,8 +140,8 @@ BoundingBox = 0.0, 1.10, -1.33, 2.3, 1.2, 1.0
 
 UnmountPosition = 0.70,  1.50,  0.31
 
-AddRecipe = " CA", "E X", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, X, hfr:item.components_electronics
-
+;basic armored humvee
+AddRecipe = "ABC", "DDD", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine2, D, mcheli:lap
 
 BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
 Regeneration = false

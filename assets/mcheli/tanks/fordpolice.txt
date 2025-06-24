@@ -55,7 +55,8 @@ AddPartWheel     = -1.2495,  0.1242, 2.1172, 30
 AddPartWheel     = 1.2495,   0.09723, -2.0698
 AddPartWheel     = -1.2495,  0.09723, -2.0698
 
-AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone
+;faster civ car polic
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:basicmechanicparts, E, mcheli:electronics, F, glass_pane
 
 ;AddPartWheel     = 1.2495,  0.1232, 2.1113, 30
 ;AddPartWheel     = -1.2495,  0.1232, 2.1113, 30

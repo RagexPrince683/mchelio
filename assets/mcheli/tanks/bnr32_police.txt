@@ -118,8 +118,10 @@ EnableBack = true
 
 InventorySize = 9
 
-AddRecipe = "RGR",  "III",  "RIR",   G, glass, I, iron_ingot, R, redstone
+;faster civ car expensiv
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:basicmechanicparts, E, gold_nugget, F, mcheli:electronics, G, glass_pane
 
+AddRecipe = "AB ", "   ", "   ", A, mcheli:bnr32, B, mcheli:electronics
 
 ;engine?
 BoundingBox =  0.0, 0.60,  2.1,   0.8, 0.6

@@ -97,7 +97,9 @@ AddPartLightHatch =  0.00, 0.68, 2.63,   1,0, 0, -90
 
 InventorySize = 9
 
-AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, gold_ingot, R, redstone
+;faster civ car advanced
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:basicmechanicparts, E, gold_nugget, F, glass_pane 
+
 
 ;ヘッドライト
 AddFixedSearchLight =  0.78, 0.73, 2.823,   0x50FFFFFF,   0x00FFFFC0,    0.05, 0.5,  -5,  0

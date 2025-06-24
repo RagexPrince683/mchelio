@@ -73,4 +73,5 @@ BoundingBox = 0.0, 0.8, 0.0, 0.3, 0.8
 ;AddPartWeaponChild = false, true, 0.00, 1.36, -0.09,0.0
 ;AddPartWeaponChild = false, true, 0.00, 1.15, -0.09, 0.5
 
-AddRecipe = " X ", "GPG", " X ", X, hfr:item.components_electronics, G, hfr:item.kit_hmg, P, hfr:item.part_cannon_2
+;basic turret
+AddRecipe = "   ", "DEF", "GGG", D, mcheli:electronics, E, mcheli:lap, F, mcheli:advancedmechanicparts, G, mcheli:cannon2

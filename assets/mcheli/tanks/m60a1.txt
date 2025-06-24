@@ -145,4 +145,5 @@ BoundingBox = 0.0, 1.8, 0.75, 2.45, 0.2, 0.28
 ;turret 
 BoundingBox = 0.0, 2.35, 0.0, 1.7, 1.7, 0.07
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+;slightly really less modern mbt tracked tank 
+AddRecipe = "ABC", "DGF", "EF ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:lap, E, mcheli:basicmechanicparts

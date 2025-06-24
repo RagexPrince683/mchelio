@@ -132,4 +132,5 @@ BoundingBox = 0.0, 2.1, 0.0, 3.6, 1.3, 1.0
 unmountposition = 0.01,  1.5, 0
 
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;med tracked cannon arty (modern m109)
+AddRecipe = "ABC", "DEF", "FF ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics

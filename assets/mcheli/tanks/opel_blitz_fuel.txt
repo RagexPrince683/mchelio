@@ -54,7 +54,8 @@ AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
 AddWeapon =  old_horn, 0.00,  0.42,  3.05, 0.0, 90
 
 
-AddRecipe = " G ",  "III",  "RIR",   G, glass, I, iron_ingot, R, redstone
+;civ truck
+AddRecipe = "ABC", "   ", "   ", A, mcheli:mediumchassis, B, mcheli:wheel4, C, mcheli:engine1
 
 PivotTurnThrottle = 0.1
 
