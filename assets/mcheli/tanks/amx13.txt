@@ -66,7 +66,7 @@ MaxFuel         = 1200
 FuelConsumption = 2.0
 
 ;light tracked tank (modern no composite)
-AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:cannon, C, mcheli:engine2, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:cannon1, C, mcheli:engine2, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics
 
 ;turret
 BoundingBox =  0.0, 2,  0,   2.55, 1.0,   0.20

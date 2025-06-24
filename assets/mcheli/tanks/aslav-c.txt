@@ -19,7 +19,7 @@ ThrottleUpDown = 2.0
 MobilityYawOnGround = 3.5
 
 ;light 8x8 with mg
-AddRecipe = "ABC", "DEG", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:lap, G, mcheli:cannon
+AddRecipe = "ABC", "DEG", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:lap, G, mcheli:cannon1
 
 FlareType = 10
 
