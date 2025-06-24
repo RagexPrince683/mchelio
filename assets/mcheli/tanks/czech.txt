@@ -73,7 +73,7 @@ AddCrawlerTrack = false, 0.13, -1.15,   0.84/ 2.38,  0.76/ 2.69, 0.46/ 2.82, 0.1
 AddCrawlerTrack = false, 0.13,  1.15,   0.84/ 2.38,  0.76/ 2.69, 0.46/ 2.82, 0.15/ 2.69, -0.21/ 1.83, -0.28/ 1.49, -0.28/ -1.72, 0.0/ -2.84, 0.255/ -2.95, 0.52/ -2.84, 0.62/ -2.58, 0.73/ -0.26, 0.77/ 0.8,
 
 ;light tracked tank ww2 EARLY
-AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:cannon, C, mcheli:engine1, D, mcheli:tanktracks
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:cannon1, C, mcheli:engine1, D, mcheli:tanktracks
 
 AddPartWeapon = 38tapcbc / 38tapcr, false, true, false,  0.0, 1.5582, 0.00, 0
 ;/ 38the

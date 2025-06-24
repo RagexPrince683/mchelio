@@ -84,7 +84,8 @@ ArmorMinDamage = 30
 MaxFuel         = 1200
 FuelConsumption = 2.0
 
-AddRecipe = "ACA", "EXG", "TGT", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_2, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;modern mbt tracked base to rocket bullshit 
+AddRecipe = "ABC", "DGF", "EHG", A, mcheli:mediumchassis, B, mcheli:rocket3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite2, E, mcheli:complexmechanicparts, H, mcheli:fcs2
 
 ;copy and pasted from t-90a
 

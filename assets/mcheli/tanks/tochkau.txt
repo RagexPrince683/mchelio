@@ -84,7 +84,9 @@ StepHeight = 1.5
 
 ;Price=5 USD, or 2-4USD in packs
 ;you didn't even do the boundingboxes, this isn't worth 5 cents bro
-AddRecipe = "ACX", "GGE", "WEW", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;light 6x6 rocket arty (modern)
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:mediumchassis, B, mcheli:rocket3, C, mcheli:engine2, D, mcheli:wheel6, E, mcheli:fcs3, F, mcheli:electronics
+;im gonna actually fucking kill someone
 
 BoundingBox = 0.0, 0.882, 0.0, 2.2, 1
 BoundingBox = 0.0, 0.882, 2.2, 2.2, 1

@@ -114,4 +114,5 @@ BoundingBox =  0.0, 1.50, 0.10,   1.90, 0.1,  0.30
 
 AddFixedSearchLight =  0.072, 1.2216, 1.42,   0xFFFFFFFF,   0x00FFFFC0,    0.15, 0.25,  6.0,  0
 
-AddRecipe = "ACA", "E G", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_1, G, hfr:item.part_cannon_1
+;light tracked tank ww2 EARLY
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:cannon1, C, mcheli:engine1, D, mcheli:tanktracks

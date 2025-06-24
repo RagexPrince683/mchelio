@@ -4,7 +4,8 @@ AddDisplayName = ja_JP, T-80U
 MaxHp = 525
 Speed = 0.50
 Sound = teightyeng
-ThrottleUpDown = 1.2
+ThrottleUpDown = 1.4
+throttleDownFactor = 0.6
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -140,4 +141,9 @@ BoundingBox = 0.0, 1.565, 0.5, 2.6, 0.7, 0.02
 
 unmountposition = 0.00, 1.58, 0.44
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;the t-80 is based on the t-64
+
+;which is based on the T-72, thanks zealot for deleting all my goddamn recipes for this AI slop!
+
+;slightly really less modern mbt tracked tank 
+AddRecipe = "ABC", "DGF", "EF ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:complexmechanicparts

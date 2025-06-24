@@ -21,7 +21,8 @@ unmountposition = -0.0,  2.00,  -0.25
 CameraPosition = 0.0, 3.00, 0.0, true
 HUD = ww2tank_hud, gunner, none, none
 
-AddRecipe = "ACA", "E G", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_2, C, hfr:item.part_chassis_2, E, hfr:item.part_engine_2, G, hfr:item.part_cannon_2
+;medium heavier tracked tank ww2 less EARLY
+AddRecipe = "ABC", "DA ", "   ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks
 
 EnableNightVision = false
 EnableEntityRadar = false

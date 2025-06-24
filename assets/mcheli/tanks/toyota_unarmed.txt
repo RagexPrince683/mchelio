@@ -56,7 +56,10 @@ AddPartWheel     =  -0.97,  0.1714, -0.0691
 
 InventorySize = 27
 
-AddRecipe = "IGI",  "IRI",  "III",   G, glass, I, iron_ingot, R, redstone
+;basic civ car offroad armed
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:basicmechanicparts
+
+
 AddFixedSearchLight =  0.7890, 0.6448, 4.4096,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5, 0, 0
 AddFixedSearchLight = -0.7890, 0.6448, 4.4096,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5, 0, 0
 

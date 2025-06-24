@@ -127,7 +127,8 @@ AddPartTurretWeapon    = t10m240_r,   false, true, true,-0.49,3.66,-0.26,0
 AddPartTurretWeapon    = t10m240_r,  false, true, false,-0.5, 3.24, -0.24
 AddTurretWeapon = t10m240_r,-0.49,3.66,-0.26,0,0, false, 2, 0, -360,360, -60,8
 
-AddRecipe = "ACA", "EXG", "TAT", T, hfr:item.part_treads, A, hfr:item.part_plating_3, C, hfr:item.part_chassis_3, E, hfr:item.part_engine_3, X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;mbt tracked tank (modern autoloader)
+AddRecipe = "ABC", "DGF", "EH ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:complexmechanicparts, H, mcheli:fcs3
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
