@@ -44,4 +44,5 @@ BoundingBox =  0.0, 0.032, -0.966,  0.64, 0.225, 0.75
 
 unmountposition = 0.00, 1.5, -0.0
 
-AddRecipe = " G ", "G G", " G ", G, hfr:item.part_cannon_2
+;light aa turret not modern less complex stage 2 naval med can 88mm ww2
+AddRecipe = "AB ", "   ", "CCC", A, mcheli:cannon2, B, mcheli:map, C, mcheli:lap

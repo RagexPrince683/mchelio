@@ -28,12 +28,13 @@ AddPart	= true, true, false, 0,   0.00, 0.00, -0.4220
 AddChildPart = true,false,true,  0, 0.00, 2.12, -0.4220
 
 ;left
-AddChildPart = true,false,true,  3,  0.00, 1.55, -0.4220
+AddChildPart = true,false,true,  3,  0.00, 2.12, -0.4220
 ;right
-AddChildPart = true,false,true,  3,  0.00, 1.55, -0.4220
+AddChildPart = true,false,true,  3,  0.00, 2.12, -0.4220
 
 BoundingBox =  0.0, 2.05, -0.4220,  1.2, 1.25
 BoundingBox =  0.0, 0.5, -0.4220,  0.75, 1.8
 
 unmountposition = 0.00, 1.5, -0.0
-AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+;basic aa launcher
+AddRecipe = "BBC", "DCC", "   ", B, mcheli:lap, C, mcheli:electronics, D, mcheli:fcs

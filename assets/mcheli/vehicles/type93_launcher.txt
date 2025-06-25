@@ -31,6 +31,8 @@ AddWeapon = type93torpedo,  0.89, 0.71, 0.52,   0.0, 0.0
 AddWeapon = type93torpedo, -0.89, 0.71, 0.52,   0.0, 0.0
 AddWeapon = type93torpedo, -2.40, 0.71, 0.52,   0.0, 0.0
 
-AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;torp launchr 4 turret
+AddRecipe = "BBB", "BCD", "   ", B, mcheli:lap, C, mcheli:electronics, D, mcheli:map
+
 
 BoundingBox =  0.0, 1.5, 0.0,  6.0, 3.0

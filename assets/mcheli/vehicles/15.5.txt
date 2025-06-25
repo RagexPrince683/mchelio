@@ -39,6 +39,7 @@ AddTurretWeapon = type3bullet_15_5,   1.56, 1.07, 0,   0.0, 0
 AddTurretWeapon = type3bullet_15_5,   0.00, 1.07, 0,   0.0, 0
 AddTurretWeapon = type3bullet_15_5,  -1.56, 1.07, 0,   0.0, 0
 
-AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;heavier turret 3
+AddRecipe = " BC", "BCB", "AAA", A, mcheli:cannon3, B, mcheli:map, C, mcheli:hap
 
 BoundingBox =  0.0, 1.5, 0.0,  4.0, 3.0

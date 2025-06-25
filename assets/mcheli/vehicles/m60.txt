@@ -25,7 +25,8 @@ AddPart	       = true, true, false,  0,   0.00, 0.12, 0.00
 AddChildPart   = true, false, true,  2,   0.00, 0.12, -0.06, 0.01
 AddWeapon = m60_100,  0.00, 0.168, 0.00,   0.0, 0.0,   true,1, 0,-360,360, -5, 5
 
-AddRecipe = " G ", " G ", " G ", X, hfr:item.components_electronics, G, hfr:item.kit_hmg
+;basic turret low cal
+AddRecipe = "   ", "GEE", "   ", E, mcheli:lap, G, mcheli:cannon1
 
 BoundingBox =  0.00, 0.00,  0.00,  0.75, 0.50
 

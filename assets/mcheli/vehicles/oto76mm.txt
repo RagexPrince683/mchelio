@@ -31,7 +31,8 @@ AddChildPart = true,false,true,  2,   0.00, 1.35, 0.00, 0.4
 
 AddWeapon = 76mmgun,  0.00, 1.35, 0.00,   0.0, 0,   true,1, 0,-360,360, -85, 15
 
-AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+;light aa turret modern less complex stage 2 naval can
+AddRecipe = "ABC", "DC ", "   ", A, mcheli:cannon2, B, mcheli:map, C, mcheli:electronics, D, mcheli:fcs2
 
 BoundingBox =  0.0, 1.3, 0.0,  2.6, 2.6
 BoundingBox =  0.0, -0.1, 0.0,  1.6, 0.5

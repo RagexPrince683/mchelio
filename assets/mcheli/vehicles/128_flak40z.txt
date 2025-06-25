@@ -35,7 +35,8 @@ AddTurretWeapon = 128flakz_mid,  -0.84, 2.43, 10.27,   0.0, 0.0
 AddTurretWeapon = 128flakz_hig,   0.84, 2.43, 10.27,   0.0, 0.0
 AddTurretWeapon = 128flakz_hig,  -0.84, 2.43, 10.27,   0.0, 0.0
 
-AddRecipe = " G ", "G G", " GX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;light aa turret not modern less complex stage 2 naval big can
+AddRecipe = "ABA", "BB ", "   ", A, mcheli:cannon3, B, mcheli:map
 
 
 unmountposition = 0.00, 1.5, -0.0

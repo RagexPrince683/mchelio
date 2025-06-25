@@ -18,6 +18,8 @@ Gravity = -0.005
 Group = MainGun
 Recoil = 0.406
 
+CameraRotationSpeedPitch = 0.4
+
 Delay = 406
 ReloadTime = 406
 Group = MainGun

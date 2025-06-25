@@ -33,6 +33,7 @@ AddTurretWeapon = mg25mm,  -0.40, 1.43, -0.04,   0.0, -1.0,   true,1, 0,-360,360
 AddTurretWeapon = mg25mm,   0.00, 1.43, -0.04,   0.0, -1.0,   true,1, 0,-360,360, -80, 25
 AddTurretWeapon = mg25mm,   0.40, 1.43, -0.04,   0.0, -1.0,   true,1, 0,-360,360, -80, 25
 
-AddRecipe = " G ", " G ", " G ", G, hfr:item.part_cannon_1
+;basic 20mm x3
+AddRecipe = "AAB", "AAA", "AB ", A, mcheli:cannon1, B, mcheli:lap
 
 BoundingBox =  0.0, 1.0, 0.0,  1.5, 1.5

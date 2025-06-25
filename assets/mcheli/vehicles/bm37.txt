@@ -4,8 +4,8 @@ AddDisplayName = en_US, M-37/82-BM-37
 ItemID = 30095
 MaxHp = 100
 CameraZoom = 2
-CameraPosition = 0.0, 2.80,  0, true
-AddGunnerSeat = 0.50,  -0.30, -0.80, 0.00,  1.57, 0.00, false, -75, -45, true
+CameraPosition = 0.50,  0.90, -0.80, true
+AddGunnerSeat = 0.50,  -0.30, -0.80, 0.50,  0.90, -0.80, false, -45, 85, true
 MinRotationPitch = -30
 MaxRotationPitch =  0
 HideEntity = false
@@ -20,10 +20,11 @@ HUD = gunner
 AddPart = true,true,false,0, 0.07, 0.52 , 0
 AddChildPart = true,false,true,  0,   0.00, 1.13, 0.60
 
-AddTurretWeapon =  81mm_mortar,  0,0.56,0.85,  0.0,0.0, false, 1, 0, -360,360, -75, -45
-AddPartWeapon = 82mm_mortar,    true, true,  false, 0.00, 1.80, -2.67
+AddTurretWeapon =  81mm_mortar,  0,0.56,0.85,  0.0,0.0, false, 1, 0, -360,360, -45, 85
+AddPartWeapon = 81mm_mortar,    true, true,  false, 0.00, 1.80, -2.67
 
-AddRecipe = " G ", "G G", " G ", G, hfr:item.part_cannon_2
+;basic mortar
+AddRecipe = "ABA", "   ", "   ", A, mcheli:cannon1, B, mcheli:lap
 
 Boundingbox = 0.00,  0.20,  0.00,  0.5, 1.0
 

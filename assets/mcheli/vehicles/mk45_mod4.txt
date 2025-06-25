@@ -35,7 +35,8 @@ AddTurretWeapon = mk45_hepd, 0.00, 1.915, 0.0,   0.0,  0,   true,1, 0,-360,360, 
 AddTurretWeapon = mk45_heicm, 0.00, 1.915, 0.0,   0.0, 0,   true,1, 0,-360,360, -65, 15
 
 
-AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;light aa turret modern less complex stage 2 naval can more 
+AddRecipe = "ABC", "DCC", "   ", A, mcheli:cannon2, B, mcheli:map, C, mcheli:electronics, D, mcheli:fcs3
 
 BoundingBox =  0.0, 1.45, 0.0,  3.0, 2.6
 BoundingBox =  0.0, 0.0, 0.0,  2.1, 0.8

@@ -37,7 +37,8 @@ unmountposition = -0.0, 0.2, -0.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AddTurretWeapon = m61a1,  0.00, 1.6764, 2.43,   0.0, -3.0,   true,1, 0,-360,360, -85, 25
 
-AddRecipe = " G ", "XGX", " G ", X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+;light aa turret modern complex more
+AddRecipe = "ABC", "DCC", "CC ", A, mcheli:cannon1, B, mcheli:lap, C, mcheli:electronics, D, mcheli:fcs3
 
 unmountposition = 0.0, 1.5, -1.0
 

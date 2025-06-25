@@ -34,7 +34,8 @@ unmountposition = 0.00, 1.5, -0.0
 AddTurretWeapon = bofors40mm_l,  0.00,  1.48,  1.70,  0,0
 AddTurretWeapon = bofors40mm_he,  0.00, 1.48,  1.70,  0,0
 
-AddRecipe = " G ", "XGX", " G ", X, hfr:item.components_electronics, G, hfr:item.part_cannon_1
+;bofors
+AddRecipe = "AB ", " B ", "BBB", A, mcheli:cannon2, B, mcheli:lap
 
 BoundingBox =  0.0, 0.8, 0.0,  0.5, 1.5, 1.25
 

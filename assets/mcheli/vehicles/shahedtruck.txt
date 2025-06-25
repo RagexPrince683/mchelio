@@ -1,5 +1,5 @@
-﻿DisplayName = Shahed Truck
-AddDisplayName = en_US, Shahed Truck
+﻿DisplayName = Shahed Trailer/Launcher
+AddDisplayName = en_US, Shahed Trailer/Launcher
 MaxHp = 50
 Gravity = -9.81
 GravityInWater = -1.0
@@ -34,7 +34,9 @@ BoundingBox =  0.0, 0.5, -5.6,  3.3, 1.1
 BoundingBox =  0.0, 0.5, -6.7,  3.3, 1.1
 
 unmountposition = 0.00, 1.5, -0.0
-AddRecipe = " G ", "GAG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3, A, hfr:item.part_plating_3
+
+;launcher
+AddRecipe = "BBC", "DCC", "   ", B, mcheli:lap, C, mcheli:electronics, D, mcheli:fcs2
 
 
 BoundingBox =  0.0, 2.6,  1.6,  3.1, 0.25

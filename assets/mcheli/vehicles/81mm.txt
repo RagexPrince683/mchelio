@@ -28,7 +28,8 @@ AddPartWeaponChild= false, true, 0,0.6366,  1.0839
 
 AddTurretWeapon = 81mm_mortar252,        0, 2.3, 0,   0.0, 0,   true,1, 0,-360,360, -85,0
 
-AddRecipe = " G ", "G G", " G ", G, hfr:item.part_cannon_2
+;basic modern mortar
+AddRecipe = "ABA", "C  ", "   ", A, mcheli:cannon1, B, mcheli:lap, C, mcheli:electronics
 
 
 

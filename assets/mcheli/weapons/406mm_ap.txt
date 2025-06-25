@@ -35,6 +35,8 @@ Piercing = 2
 
 SoundVolume = 15
 
+CameraRotationSpeedPitch = 0.4
+;doesnt work here for some reason
 
 ; AddMuzzleFlash = distance, size, life time,  A,  R,  G,  B
 AddMuzzleFlash      =           19,   2.10,        10,  220,254,159,74

@@ -39,6 +39,7 @@ AddTurretWeapon = 9m311-1e, -1.294, 0.89, 0.0,   0.0, 0.0,   true,1
 
 unmountposition = 0.0, 1.5, 0.0
 
-AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+;light aa turret modern complex
+AddRecipe = "ABC", "DCC", "   ", A, mcheli:cannon1, B, mcheli:lap, C, mcheli:electronics, D, mcheli:fcs3
 
 BoundingBox =  0.0, 1, 0.0,  1.8, 1.8

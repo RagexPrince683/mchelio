@@ -23,7 +23,8 @@ AddSeat = 0.00,  0.00, 0.00
 unmountposition = 0.0, 1.5, 0.0
 
 
-AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_3
+;med aa turret modern less complex stage 3 big naval can
+AddRecipe = "ABC", "DCC", "   ", A, mcheli:cannon3, B, mcheli:map, C, mcheli:electronics, D, mcheli:fcs2
 
 ; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, PoxZ
 ;砲塔

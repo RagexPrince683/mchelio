@@ -59,4 +59,5 @@ BoundingBox =  0.0, 1.7, 0.0,  0.8, 3.7
 
 BoundingBox =  0.0, 0.3, 0.0,  2.0, 1.5
 
-AddRecipe = " G ", "GXG", "XGX", X, hfr:item.components_electronics, G, hfr:item.part_cannon_2
+;basic aa launcher
+AddRecipe = "BBC", "DCC", "   ", B, mcheli:lap, C, mcheli:electronics, D, mcheli:fcs
