@@ -3,8 +3,6 @@ Type = MachineGun2
 Power = 77
 Acceleration = 6.5
 ModelBullet = bullet76mm
-Explosion = 0
-ExplosionBlock = 0
 Sight = MoveSight
 ReloadTime = 60
 Delay = 60
@@ -16,9 +14,7 @@ Piercing = 2
 HeatCount = 200
 MaxHeatCount = 1000
 Gravity = -0.01
-
 Group = MainGun
-
 Particle = flame
 RecoilBufCount = 20, 5
 DamageFactor = tank, 3.0

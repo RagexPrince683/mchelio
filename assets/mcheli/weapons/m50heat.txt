@@ -3,6 +3,7 @@ Type = Rocket
 Power = 433
 ModelBullet =bullet105mm
 Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 2
 Acceleration = 16.0
 Sight = None

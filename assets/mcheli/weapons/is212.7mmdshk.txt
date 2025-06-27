@@ -2,7 +2,6 @@ DisplayName = 12.7mm DShK Machine Gun (Coaxial)
 Type = MachineGun2
 Power = 31
 Acceleration = 7.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 2
@@ -18,24 +17,14 @@ AddMuzzleFlash      =  2.6,      0.22,        1,  150,254,159,84
 AddMuzzleFlash      =  2.5,      0.20,        1,  150,254,219,184
 AddMuzzleFlashSmoke =  2.2,  1,   5.0,  0.5, 15,  180,250,245,240
 AddMuzzleFlashSmoke =  3.2,  1,   3.0,  0.5, 25,  180,220,217,214
-
 Round = 50
-
 ReloadTime = 80
-
 ModelBullet = bullet
-
-
 Gravity = -0.005
-
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
-
-;DamageFactor = player, 20.0
-
-
 MaxAmmo = 250
 SuppliedNum = 250
 Item =  2, iron_ingot

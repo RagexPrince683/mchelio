@@ -3,19 +3,13 @@ Type = MachineGun2
 Power = 287
 ModelBullet = bullet
 Acceleration = 7.0
-Explosion = 0
-ExplosionBlock = 0
 Piercing = 2
 Sight = None
-
 SoundPitch = 1.2
-
 Accuracy = 1.5
 Gravity = -0.001
 Sound = big
 Recoil = 1.5
-
-
 ReloadTime = 140
 Round = 10
 Delay = 140

@@ -3,8 +3,6 @@ Type = MachineGun2
 Power = 94
 ModelBullet = bullet76mm
 Acceleration = 6.0
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 60
@@ -14,7 +12,6 @@ Sound = mbtshot
 Round = 1
 ReloadTime = 70
 Gravity = -0.005
-
 DamageFactor = tank, 3.5
 DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0

@@ -3,7 +3,6 @@ Type = MachineGun1
 Power = 8
 Acceleration = 7.5
 Accuracy = 1.5
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
@@ -19,7 +18,6 @@ Gravity = -0.005
 SoundVolume = 15
 AddMuzzleFlash      =           1.3,   0.25,        1,  220,254,219,104
 AddMuzzleFlashSmoke   =              1.5,     2,   3.0,  0.5,       15,  220,160,140,120
-
 MaxAmmo = 1000
 SuppliedNum = 250
 Item =  2, iron_ingot

@@ -3,7 +3,8 @@ Type = Rocket
 Power = 25
 ModelBullet = hydra70
 Acceleration = 4.0
-Explosion = 6
+Explosion = 2
+ExplosionInWater = 1
 ExplosionBlock = 3
 Flaming = false
 Sound = mlrs
@@ -28,6 +29,6 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 MaxAmmo = 60
-SuppliedNum = 1
+SuppliedNum = 5
 Item =  1, iron_ingot
 Item =  2, gunpowder

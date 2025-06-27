@@ -5,27 +5,20 @@ Acceleration = 4.0
 Flaming = true
 Sight = None
 Gravity = -0.030
-
 FAE = true
-
 SoundPitch = 1.0
-
 ;ProximityFuseDist = 3
-
-BombletSTime = 70
-BombletDiff = 3.8
-Bomblet = 180
-
-
+;BombletSTime = 70
+;BombletDiff = 3.8
+;Bomblet = 180
 Accuracy = 1.5
-Explosion = 3
+Explosion = 4
+ExplosionInWater = 2
 ExplosionBlock = 1
 Round = 40
-
 ModelBullet = m30
 ;Group = Rocket
 recoil = 0.5
-
 Delay = 6
 ReloadTime = 14000
 Group = MainGun
@@ -39,22 +32,16 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-
 SoundVolume = 15
-
 TrajectoryParticle = largeexplode
-
-
 ;Bomblet = 10
 ;BombletDiff = 0.3
 ;BombletSTime = 60
-ModelBomblet = cbc
-
+ModelBomblet = bullet
 Sound = grad
 DisplayMortarDistance = true
 FixCameraPitch = true
 CameraRotationSpeedPitch = 0.2
-
 MaxAmmo = 40
 SuppliedNum = 10
 Item =  5, iron_ingot

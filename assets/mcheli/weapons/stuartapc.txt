@@ -16,13 +16,10 @@ Piercing = 2
 HeatCount = 200
 MaxHeatCount = 1000
 Gravity = -0.01
-
 Group = MainGun
-
 Particle = flame
 RecoilBufCount = 20, 5
 Piercing = 2
-
 DamageFactor = tank, 3.5
 DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0

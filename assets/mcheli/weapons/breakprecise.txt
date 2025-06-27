@@ -3,6 +3,7 @@ Type = Rocket
 Power = 5
 Explosion = 1
 ExplosionBlock = 1
+;todo change
 Acceleration = 0.0
 Sight = None
 Round = 1

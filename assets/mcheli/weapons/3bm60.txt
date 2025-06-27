@@ -4,8 +4,6 @@ Type = MachineGun2
 Power = 580
 ModelBullet = 3bm42
 Acceleration = 8.5
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 150
@@ -16,16 +14,11 @@ Sound = tsixtyfourmain
 Gravity = -0.001
 DisplayMortarDistance = true
 group = maingun
-
 DisplayMortarDistance = true
-
-
 MaxAmmo = 12
-SuppliedNum = 12
+SuppliedNum = 6
 Item =  3, iron_ingot
 Item =  2, gunpowder
-
-
 Delay = 120
 ReloadTime = 120
 Group = MainGun

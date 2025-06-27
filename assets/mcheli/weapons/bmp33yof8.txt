@@ -2,7 +2,7 @@ DisplayName = 30mm 2A72 Automatic Cannon [3UOF8 - HEF-I]
 Type = MachineGun1
 Power = 9
 
-Explosion = 2
+Explosion = 1
 ExplosionBlock = 1
 Flaming = true
 Sight = MoveSight

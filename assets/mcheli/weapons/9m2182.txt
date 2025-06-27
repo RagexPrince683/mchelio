@@ -13,11 +13,12 @@ SoundPitch = 1.0
 
 BombletSTime = 80
 BombletDiff = 3.8
-Bomblet = 45
+Bomblet = 20
 
 
 Accuracy = 1.5
-Explosion = 10
+Explosion = 2
+ExplosionInWater = 1
 ExplosionBlock = 2
 Round = 40
 
@@ -47,7 +48,7 @@ TrajectoryParticle = largeexplode
 ;Bomblet = 10
 ;BombletDiff = 0.3
 ;BombletSTime = 60
-ModelBomblet = cbc
+ModelBomblet = bullet
 
 Sound = grad
 DisplayMortarDistance = true
@@ -56,5 +57,5 @@ CameraRotationSpeedPitch = 0.2
 
 MaxAmmo = 40
 SuppliedNum = 10
-Item =  5, iron_ingot
-Item =  5, gunpowder
+Item =  8, iron_ingot
+Item =  8, gunpowder

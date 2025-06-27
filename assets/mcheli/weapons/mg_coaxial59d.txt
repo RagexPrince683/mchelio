@@ -2,7 +2,6 @@ DisplayName = 7.62mm Type 59 Machine Gun
 Type = MachineGun1
 Power = 8
 Acceleration = 8.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
@@ -13,12 +12,8 @@ SoundPitch = 1.0
 Sound = sgmt
 Gravity = -0.005
 Round = 250
-
 ReloadTime = 80
-
 ModelBullet = bullet
-
-
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0
@@ -28,7 +23,6 @@ DamageFactor = heli, 0.5
 ;DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
-
 MaxAmmo = 3500
 SuppliedNum = 250
 Item =  2, iron_ingot
