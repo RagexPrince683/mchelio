@@ -6,8 +6,7 @@ DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-
-Explosion = 4
+Explosion = 5
 Flaming = false
 Sight = MissileSight
 Delay = 9
@@ -16,8 +15,6 @@ Round = 2
 LockTime = 20
 ProximityFuseDist = 2
 Sound = missile_1_snd
-
-
 MaxAmmo = 2
 SuppliedNum = 2
 Item =  1, iron_ingot

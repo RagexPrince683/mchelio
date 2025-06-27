@@ -3,21 +3,13 @@ Type = MachineGun2
 Power = 94
 ModelBullet = bullet76mm
 Acceleration = 6.0
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
-
 Accuracy = 1.5
-
 Sound = shermanmain
-
 HeatCount = 500
 MaxHeatCount = 2500
-
-
 Gravity = -0.005
-
 Round = 1
 Delay = 60
 ReloadTime = 70

@@ -2,8 +2,11 @@ DisplayName = RPG-7
 Type = Rocket
 Power = 600
 Acceleration = 3
-Explosion = 8
+Explosion = 3
 ExplosionBlock = 4
+
+ExplosionInWater = 2
+
 Flaming = false
 Sight = MissileSight 
 Delay = 300

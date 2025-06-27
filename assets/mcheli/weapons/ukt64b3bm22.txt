@@ -2,13 +2,8 @@ DisplayName = 125mm KBA-3 Cannon [3BM42 - APFSDS]
 Type = MachineGun2
 Power = 457
 ModelBullet = 3bm42
-
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
-
-
 SoundPitch = 1
 SoundVolume = 15
 Sound = tsixtyfourmain

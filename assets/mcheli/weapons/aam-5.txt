@@ -1,4 +1,4 @@
-DisplayName = AAM-5 04Ž®‹ó‘Î‹ó—U“±’e [AAM]
+DisplayName = AAM-5 [AAM]
 Type = AAMissile
 Power = 12
 Acceleration = 3

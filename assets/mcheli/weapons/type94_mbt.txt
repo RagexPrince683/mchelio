@@ -2,8 +2,10 @@ DisplayName = 37mm Type 94 Cannon [Type 94 - APHE]
 Type = MachineGun2
 Power = 34
 Acceleration = 5
-Explosion = 4
+Explosion = 2
 ExplosionBlock = 2
+
+ExplosionInWater = 1
 Sight = None
 
 ModelBullet = bullet

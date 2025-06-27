@@ -3,8 +3,11 @@ Type = MachineGun2
 Power = 460
 ModelBullet = 3bk18m
 Acceleration = 6.5
-Explosion = 4
+Explosion = 2
 ExplosionBlock = 4
+
+ExplosionInWater = 1
+
 Flaming = false
 Sight = MoveSight
 Piercing  = 0

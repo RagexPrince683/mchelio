@@ -2,18 +2,12 @@ DisplayName = 100mm D-10T2S Cannon [3BM25 - APFSDS]
 Type = MachineGun1
 Power = 335
 ModelBullet = bullet105mm
-
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = None
-
 SoundVolume = 15
 Sound = tfiftyfive
-
 BulletColor        = 255, 255, 100, 100
 Group = MainGun
-
 Gravity = -0.001
 ;DisplayMortarDistance = true
 Group = MainGun

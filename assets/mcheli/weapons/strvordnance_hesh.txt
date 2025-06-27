@@ -1,19 +1,16 @@
 DisplayName = 105mm L74 Cannon [Shell L35 - HESH]
 Type = MachineGun1
 Power = 127
-
-Explosion = 4
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 3
 Acceleration = 7.0
 Sight = None
-
 Round = 1
-
 Sound = strvmain
 Accuracy = 1.0
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-
 Delay = 62
 ReloadTime = 62
 Group = MainGun

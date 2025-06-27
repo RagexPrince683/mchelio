@@ -3,8 +3,6 @@ Type = MachineGun1
 Power = 127
 ModelBullet = bullet
 Acceleration = 5.0
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 6
@@ -15,11 +13,8 @@ Sound =rcvtwentyfive
 SoundVolume = 3
 ;gun_h1_snd
 ;cannon_5_snd
-
 Round = 4
-
 group = maingun
-
 Acceleration = 7.5
 Piercing = 2
 DamageFactor = tank, 1.0
@@ -29,7 +24,6 @@ DamageFactor = heli, 1.5
 DamageFactor = player, 20.0
 AddDisplayName = en_US,
 SoundVolume = 15
-
 MaxAmmo = 126
 SuppliedNum = 126
 Item =  2, iron_ingot

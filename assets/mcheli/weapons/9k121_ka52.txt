@@ -2,7 +2,8 @@ DisplayName = 9K121 Vikhr
 Type = ATMissile
 Power = 1000
 Acceleration = 4.0
-Explosion = 4
+Explosion = 5
+ExplosionInWater = 3
 Flaming = true
 Sight = MissileSight 
 Delay = 90
@@ -13,7 +14,6 @@ ModeNum = 2
 ProximityFuseDist = 1
 Sound = missile_3_snd
 RidableOnly = true
-
 Delay = 90
 ReloadTime = 130
 Group = MainGun
@@ -29,7 +29,6 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 AddDisplayName = en_US, 9K121 Vikhr
 SoundVolume = 15
-
 MaxAmmo = 6
 SuppliedNum = 3
 Item =  1, iron_ingot

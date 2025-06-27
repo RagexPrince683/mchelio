@@ -2,7 +2,8 @@ DisplayName = 115mm U-5TS Cannon [3UBK10M-2 9M117 Bastion - ATGM]
 Type = TVMissile
 Power = 600
 Acceleration = 4.0
-Explosion = 6
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 4
 Flaming = false
 Sight = MissileSight 
@@ -12,15 +13,11 @@ ModeNum = 2
 ProximityFuseDist = 1
 Sound = tsixtytwo
 RidableOnly = false
-
 CameraRotationSpeedPitch = 0.5
-
 Delay = 140
 ReloadTime = 200
 Round = 1
 ModelBullet = 9M113
-
-
 HeatCount = 2000
 MaxHeatCount = 5500
 

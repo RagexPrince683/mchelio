@@ -2,7 +2,7 @@ DisplayName = 37mm M6 Cannon [M51B1 - APCBC]
 Type = MachineGun2
 Power = 87
 
-Explosion = 2
+Explosion = 1
 ExplosionBlock = 1
 Sight = None
 

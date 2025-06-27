@@ -3,7 +3,6 @@ Type = MachineGun1
 Power = 8
 Acceleration = 7.0
 Accuracy = 1.5
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1

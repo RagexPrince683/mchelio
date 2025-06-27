@@ -1,8 +1,11 @@
 DisplayName = 107mm M30 Mortar [M329A1 - HE]
 Type = Rocket
 Power = 35
-Explosion = 20
+Explosion = 5
 ExplosionBlock = 1
+
+ExplosionInWater = 3
+
 Acceleration = 4.0
 SoundVolume = 15.0
 SoundPitchRandom = 0.1

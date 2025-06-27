@@ -3,7 +3,6 @@ Type = MachineGun1
 ModelBullet = 7.91mm
 Power = 8
 Acceleration = 7.5
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 2
@@ -25,19 +24,14 @@ AddMuzzleFlashSmoke   =             0.8,     5,   0.5,  0.2,       6,  200,190,1
 Gravity = -0.001
 ModelBullet = bullet
 TrajectoryParticle = crit
-
-
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
-
 RecoilBufCount = 5, 1
-
 HeatCount = 5
 MaxHeatCount = 150
 MaxAmmo = 288
 SuppliedNum = 144
 Item =   3, iron_ingot
 Item =  3, gunpowder
-

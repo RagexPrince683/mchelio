@@ -3,7 +3,10 @@ Type = MachineGun2
 Power = 127
 ModelBullet = bullet
 SoundPitchRandom = 0.1
-Explosion = 4
+Explosion = 6
+
+ExplosionInWater = 3
+
 ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight

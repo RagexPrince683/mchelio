@@ -2,8 +2,10 @@ DisplayName = 155mm M126 Cannon [M795E2 - HE-BB]
 Type = MachineGun1
 Power = 500
 ModelBullet = bullet105mm
-Explosion = 13
+Explosion = 5
 ExplosionBlock = 5
+
+ExplosionInWater = 3
 Sight = None
 
 Round = 1

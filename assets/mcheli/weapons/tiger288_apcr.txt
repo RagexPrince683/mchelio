@@ -3,9 +3,6 @@ Type = MachineGun1
 ModelBullet = shortapfsds
 Power = 279
 Acceleration = 7.0
-Explosion = 0
-ExplosionBlock = 0
-ExplosionInWater = 0
 Flaming = false
 Sight = None
 

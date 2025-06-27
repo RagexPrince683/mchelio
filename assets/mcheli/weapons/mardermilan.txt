@@ -3,7 +3,8 @@ Type = TVMissile
 Power = 530
 Acceleration = 2.0
 ExplosionBlock = 3
-Explosion = 5
+Explosion = 3
+ExplosionInWater = 2
 Flaming = false
 Sight = MoveSight
 ReloadTime = 350
@@ -12,23 +13,17 @@ Round = 1
 ModelBullet = agm114
 Sound = bmptmissile
 ModeNum = 2
-
 HeatCount = 8000
 MaxHeatCount = 12000
-
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-
 Delay = 40
 ReloadTime = 200
 Group = MainGun
 ;Acceleration = 7.0
-
-
 CameraRotationSpeedPitch = 0.2
-
 MaxAmmo = 4
 SuppliedNum = 1
 Item =  1, iron_ingot

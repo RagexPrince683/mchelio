@@ -3,8 +3,11 @@ Type = Rocket
 Power = 20
 ModelBullet = bullet76mm
 Acceleration = 7.0
-Explosion = 3
+Explosion = 4
 ExplosionBlock = 1
+
+ExplosionInWater = 2
+
 Flaming = false
 Sight = MoveSight
 Delay = 13

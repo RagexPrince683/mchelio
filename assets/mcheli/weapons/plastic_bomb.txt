@@ -1,10 +1,11 @@
-DisplayName = Plastic Bomb
+DisplayName = Plastic Bomb 5kg
 Type = Bomb
 Power = 1000
 Acceleration = 0.1
-Explosion = 10
+Explosion = 4
+;5kg
 ExplosionBlock = 2
-ExplosionInWater = 0
+ExplosionInWater = 2
 Flaming = false
 Sight = None
 Delay = 5000

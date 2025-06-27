@@ -2,23 +2,16 @@ DisplayName = 125mm 2A46 Cannon [3OF26 - HE]
 Type = MachineGun2
 Power = 42
 ModelBullet = bullet
-
-Explosion = 15
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 5
 Flaming = false
 Sight = MoveSight
-
 Recoil = 2.0
-
 ;SoundPitch = 0.5
-
 Sound = tseventytwomain
 group = maingun
-
-
-
 DisplayMortarDistance = true
-
 Round = 1
 Gravity = -0.005
 

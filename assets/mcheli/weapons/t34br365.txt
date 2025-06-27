@@ -3,6 +3,7 @@ Type = MachineGun2
 Power = 135
 Acceleration = 7
 Explosion = 2
+ExplosionInWater = 1
 ExplosionBlock = 1
 Sight = None
 ReloadTime = 140

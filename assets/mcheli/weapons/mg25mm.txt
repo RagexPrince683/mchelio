@@ -2,7 +2,6 @@ DisplayName = 25mm Type 96 Automatic Cannon
 Type = MachineGun2
 Power = 18
 Acceleration = 8.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1

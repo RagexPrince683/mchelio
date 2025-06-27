@@ -2,9 +2,6 @@ DisplayName = FAB-500 SH
 Type = Bomb
 Power = 1000
 Acceleration = 0.05
-Explosion = 5
-ExplosionBlock = 4
-ExplosionInWater = 0
 Flaming = false
 Sight = None
 Delay = 8
@@ -13,11 +10,11 @@ ModelBullet = fab500sh
 Gravity = -0.01
 
 Acceleration = 0.5
-Explosion = 52
+Explosion = 15
 ;Explosive mass	269.9/around 2 kg kg
 Power = 1080
 ExplosionBlock = 5
-ExplosionInWater = 0
+ExplosionInWater = 8
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

@@ -1,8 +1,8 @@
-DisplayName = MIM146 [AAM]
+DisplayName = MIM-146 [AAM]
 Type = AAMissile
 Power = 50
 Acceleration = 3
-Explosion = 4
+Explosion = 5
 Flaming = false
 Sight = MissileSight
 Delay = 100

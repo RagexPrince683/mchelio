@@ -1,8 +1,5 @@
 DisplayName = 7.62mm Type 59 Machine Gun
 Type = MachineGun1
-
-
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1

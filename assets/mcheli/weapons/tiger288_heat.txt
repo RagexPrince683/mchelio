@@ -3,9 +3,9 @@ Type = MachineGun1
 ModelBullet = bullet
 Power = 110
 Acceleration = 5.0
-Explosion = 4
+Explosion = 2
 ExplosionBlock = 2
-ExplosionInWater = 2
+ExplosionInWater = 1
 Flaming = false
 Sight = None
 

@@ -1,13 +1,9 @@
 DisplayName = 120mm M256 Cannon [M1028 - Canister]
 Type = Rocket
 Power = 10
-Explosion = 0
-ExplosionBlock = 0
 Acceleration = 6
 Sight = None
-
 SoundPitchRandom = 0.1
-
 Round = 1
 SoundVolume = 15
 Sound = gheat

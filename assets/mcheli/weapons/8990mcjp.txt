@@ -2,9 +2,6 @@ DisplayName = 35mm KDE Cannon [DM23 - APDS]
 Type = MachineGun1
 Power = 127
 ModelBullet = shortapfsds
-
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 6

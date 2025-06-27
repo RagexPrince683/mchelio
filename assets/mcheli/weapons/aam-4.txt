@@ -1,8 +1,8 @@
-DisplayName = AAM-4 99Ž®‹ó‘Î‹ó—U“±’e [AAM]
+DisplayName = AAM-4 [AAM]
 Type = AAMissile
 Power = 20
 Acceleration = 4.5
-Explosion = 6
+Explosion = 7
 Flaming = false
 Sight = MissileSight
 Delay = 15

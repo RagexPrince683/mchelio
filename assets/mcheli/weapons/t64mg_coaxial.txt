@@ -2,7 +2,6 @@ DisplayName = 7.62mm PKT Coaxial Machine Gun
 Type = MachineGun1
 Power = 8
 Acceleration = 8.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
@@ -11,11 +10,8 @@ HeatCount = 2
 MaxHeatCount = 150
 SoundPitch = 1.0
 Sound = pkt
-
 ModelBullet = bullet
-
 Round = 250
-
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0

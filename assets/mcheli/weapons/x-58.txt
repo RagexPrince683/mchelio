@@ -1,8 +1,11 @@
-DisplayName = X-58
+DisplayName = Kh-58
 Type = TVMissile
-Power = 250
+Power = 1000
 Acceleration = 4.0
-Explosion = 10
+Explosion = 12
+
+ExplosionInWater = 6
+
 Flaming = true
 Sight = MissileSight 
 Delay = 100
@@ -12,7 +15,11 @@ ProximityFuseDist = 1
 Sound = missile_1_snd
 RidableOnly = true
 
-DamageFactor = tank, 3
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 MaxAmmo = 1
 SuppliedNum = 1

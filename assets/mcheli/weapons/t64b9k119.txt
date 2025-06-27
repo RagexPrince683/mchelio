@@ -3,7 +3,8 @@ Type = TVMissile
 Power = 650
 ModelBullet = 9M119
 
-Explosion = 6
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 4
 Flaming = false
 Sight=None

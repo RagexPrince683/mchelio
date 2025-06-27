@@ -2,12 +2,11 @@ DisplayName = 100mm D-10T2S Cannon [3BK17M - HEAT-FS]
 Type = MachineGun1
 Power = 390
 ModelBullet = 3bk18m
-Explosion = 6
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 3
 Acceleration = 7.0
 Sight = None
-
-
 Sound = tfiftyfive
 
 BulletColor        = 255, 255, 100, 100

@@ -2,7 +2,6 @@ DisplayName = 7.62mm PKT Machine Gun
 Type = MachineGun1
 Power = 8
 Acceleration = 8.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1

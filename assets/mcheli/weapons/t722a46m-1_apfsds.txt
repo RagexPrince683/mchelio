@@ -2,18 +2,11 @@ DisplayName = 125mm 2A46 Cannon [3BM15 - APFSDS]
 Type = MachineGun1
 Power = 440
 ModelBullet = bullet105mm
-Explosion = 0
-ExplosionBlock = 0
-
 Sight = None
 Round = 15
 ;Round = 1
-
 Recoil = 2.0
-
-
 Sound = tseventytwomain
-
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 Gravity = -0.001

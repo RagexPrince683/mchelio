@@ -2,7 +2,10 @@ DisplayName = Stugna-P Baryer [Skif - ATGM]
 Type = TVMissile
 Power = 800
 Acceleration = 4.0
-Explosion = 5
+Explosion = 4
+
+ExplosionInWater = 2
+
 ExplosionBlock = 3
 
 Flaming = false

@@ -1,8 +1,9 @@
 DisplayName = 120mm M256 Cannon [M908 - HE-OR-T]
 Type = MachineGun1
 Power = 300
-Explosion = 10
+Explosion = 3
 ExplosionBlock = 5
+ExplosionInWater = 2
 
 Sight = None
 

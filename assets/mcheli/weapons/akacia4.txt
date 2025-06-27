@@ -1,7 +1,10 @@
 DisplayName = 152mm 2A33 Cannon [3OF25 (PF) - HE-VT]
 Type = Rocket
 Power = 62
-Explosion = 15
+Explosion = 8
+
+ExplosionInWater = 4
+
 ExplosionBlock = 5
 Acceleration = 4.0
 SoundVolume = 1.0

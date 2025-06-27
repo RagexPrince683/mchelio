@@ -2,8 +2,6 @@ DisplayName = 85mm ZIS-S-53 [BR-365P - APCR]
 Type = MachineGun2
 Power = 195
 Acceleration = 8.0
-Explosion = 0
-ExplosionBlock = 0
 Sight = None
 ReloadTime = 140
 Round = 15
@@ -14,9 +12,7 @@ Gravity = -0.001
 Particle = largeexplode
 Sound = tthirtyfoureightyfive
 Recoil = 1.5
-
 Piercing = 2
-
 DamageFactor = tank, 3.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
@@ -24,13 +20,9 @@ DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
-
 HeatCount = 1000
 MaxHeatCount = 2500
-
-
 group = maingun
-
 AddMuzzleFlash      =  10.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  10.1,      1.75,        6,  200,254,219,104
 AddMuzzleFlash      =  10.0,      1.70,        5,  200,254,219,184

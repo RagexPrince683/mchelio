@@ -2,7 +2,7 @@ DisplayName = 76mm M1 [M62 Shell - APCBC]
 Type = MachineGun1
 Power = 149
 Acceleration = 7.5
-Explosion = 2
+Explosion = 1
 ExplosionBlock = 1
 Sight = None
 

@@ -1,9 +1,12 @@
-DisplayName = GBU-24 PavewayIII
+DisplayName = GBU-24 Paveway III
 Type = ASMissile
 Power = 4000
 Acceleration = 2
-Explosion = 25
+Explosion = 17
 ExplosionBlock = 25
+
+ExplosionInWater = 9
+
 Flaming = true
 Sight = MoveSight
 Delay = 25

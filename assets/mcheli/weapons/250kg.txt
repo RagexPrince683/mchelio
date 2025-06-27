@@ -10,7 +10,7 @@ Sound = bomb_snd
 
 ;bomb rewrite
 Acceleration = 0.5
-Explosion = 25
+Explosion = 11
 ;Explosive mass	125 kg
 Power = 500
 ExplosionBlock = 2

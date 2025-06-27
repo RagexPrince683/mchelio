@@ -2,8 +2,6 @@ DisplayName = 76mm M1 [M79 Shot - AP]
 Type = MachineGun1
 Power = 134
 Acceleration = 7.5
-Explosion = 0
-ExplosionBlock = 0
 Sight = None
 
 Round = 1

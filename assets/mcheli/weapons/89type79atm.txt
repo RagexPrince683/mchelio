@@ -4,7 +4,10 @@ Power = 700
 ;something about this file seems to be bugged???
 DisplayName = Type 79 Jyu-MAT Anti-Tank Guided Missile
 
-Explosion = 2
+Explosion = 4
+
+ExplosionInWater = 2
+
 Flaming = false
 Sight = MoveSight
 

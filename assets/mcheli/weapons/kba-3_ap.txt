@@ -1,22 +1,11 @@
 DisplayName = 125mm KBA-3 Cannon [3BM42 - APFSDS]
 Type = MachineGun2
 Power = 457
-Explosion = 0
-ExplosionBlock = 0
-
 Sight = None
-
-
 Sound = teightymain
-
-
 BulletColor        = 255, 255, 100, 100
 Round = 1
-
-
 DisplayMortarDistance = true
-
-
 Gravity = -0.001
 Group = MainGun
 Recoil = 2.5

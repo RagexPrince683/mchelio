@@ -2,8 +2,11 @@ DisplayName = 155mm M126 Cannon [M864 DPICM - Cluster]
 Type = Rocket
 Power = 80
 ModelBullet = bullet105mm
-Explosion = 5
+Explosion = 2
 ExplosionBlock = 3
+
+ExplosionInWater = 1
+
 Acceleration = 3.5
 Sight = None
 

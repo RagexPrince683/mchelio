@@ -3,8 +3,11 @@ Type = MachineGun2
 Power = 10
 Acceleration = 6
 ModelBullet = bullet76mm
-Explosion = 4
+Explosion = 2
 ExplosionBlock = 2
+
+ExplosionInWater = 1
+
 Sight = MoveSight
 
 Sound = cannon_5_snd

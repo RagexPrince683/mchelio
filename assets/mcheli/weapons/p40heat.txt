@@ -3,12 +3,11 @@ Type = MachineGun1
 ModelBullet = 75mm
 Power = 100
 Acceleration = 4.0
-Explosion = 3
+Explosion = 2
 ExplosionBlock = 2
-ExplosionInWater = 0
+ExplosionInWater = 1
 Flaming = false
 Sight = None
-
 Round = 1
 SoundPitch = 0.8
 SoundVolume = 15

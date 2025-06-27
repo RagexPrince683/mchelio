@@ -1,8 +1,11 @@
 DisplayName = 220mm [MO-1.01.04 - Rocket]
 Type = Rocket
 Power = 500
-Explosion = 15
+Explosion = 9
 ExplosionBlock = 5
+
+ExplosionInWater = 5
+
 Acceleration = 5.0
 SoundVolume = 15
 Sound = grad

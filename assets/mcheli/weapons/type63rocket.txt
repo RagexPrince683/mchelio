@@ -3,8 +3,11 @@ Type = Rocket
 Power = 42
 ModelBullet = hydra70
 Acceleration = 7.0
-Explosion = 5
+Explosion = 3
 ExplosionBlock = 4
+
+ExplosionInWater = 2
+
 Flaming = false
 DisplayMortarDistance = true
 Sight = MoveSight

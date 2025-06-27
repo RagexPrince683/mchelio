@@ -6,7 +6,10 @@ ModelBullet = bullet105mm
 ProximityFuseDist = 1
 ProximityDist = 1
 
-Explosion = 15
+Explosion = 4
+
+ExplosionInWater = 2
+
 ExplosionBlock = 5
 Flaming = false
 Sight = MoveSight

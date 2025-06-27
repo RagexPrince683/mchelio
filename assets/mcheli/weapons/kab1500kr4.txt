@@ -2,13 +2,16 @@ DisplayName = KAB-1500KR Guided Bomb
 Type =TVmissile
 Power = 4500
 Acceleration = 2
-Explosion = 37
+Explosion = 21
 Sight = MoveSight
 Delay = 20
 ModeNum = 2
 Sound = bomb_snd
 SoundVolume = 10.0
 ReloadTime = 100
+
+ExplosionInWater = 10
+
 ModelBullet = KAB-1500KR
 ;DamageFactor = tank, 100.0
 ;DamageFactor = plane, 50.5

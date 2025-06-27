@@ -3,7 +3,8 @@ Type = MachineGun2
 Power = 270
 ModelBullet = bullet105mm
 
-Explosion = 10
+Explosion = 5
+ExplosionInWater = 3
 ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight

@@ -1,8 +1,11 @@
 DisplayName = 220mm Rocket [9M27F - HE-Frag] 
 Type = Rocket
 Power = 500
-Explosion = 25
+Explosion = 18
 ExplosionBlock = 3
+
+ExplosionInWater = 9
+
 Acceleration = 4.0
 
 DamageFactor = tank, 1.5

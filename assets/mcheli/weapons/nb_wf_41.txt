@@ -4,7 +4,8 @@ Power = 27
 ModelBullet = HVAR_5inch_Rocket
 Acceleration = 2.0
 Accuracy = 1.5
-Explosion = 15
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 3
 Sound = rocket_snd
 Flaming = false
@@ -14,20 +15,15 @@ Round = 10
 ReloadTime = 600
 Gravity = -0.012
 ;GravityInWater = 0.1
-
 group = maingun
-
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-
-
 ; Particle test
 ;TrajectoryParticle = heart
 ;TrajectoryParticle = fireworksSpark
-
 MaxAmmo = 20
 SuppliedNum = 5
 Item =  10, iron_ingot

@@ -2,7 +2,6 @@ DisplayName = 12.7mm NSVT Machine Gun
 Type = MachineGun1
 Power = 31
 Acceleration = 8.0
-Explosion = 0
 Flaming = false
 Sight = MissileSight
 Delay = 2
@@ -13,11 +12,8 @@ MaxHeatCount = 150
 SoundPitch = 0.8
 Sound = dshk
 Accuracy = 1.5
-
 ModelBullet = bullet
-
 Round = 150
-
 ;12.7
 Power = 31
 

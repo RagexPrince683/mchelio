@@ -19,8 +19,6 @@ DispenseItem = hbm:tile.mine_he
 
 
 Accuracy = 1.5
-;Explosion = 15
-;ExplosionBlock = 3
 Round = 40
 
 ModelBullet = m30

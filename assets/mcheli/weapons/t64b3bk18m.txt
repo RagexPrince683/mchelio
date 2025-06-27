@@ -4,8 +4,10 @@ Type = MachineGun2
 Power = 550
 ModelBullet = 3bk18m
 
-Explosion = 7
+Explosion = 3
 ExplosionBlock = 4
+ExplosionInWater = 2
+
 Flaming = false
 Sight = None
 Delay = 150

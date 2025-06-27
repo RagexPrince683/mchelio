@@ -1,4 +1,4 @@
-DisplayName = 127mm Mark 45 Naval Cannon [HE-VT] 
+DisplayName = 127mm Mark 45 Naval Cannon [HE-VT]
 Type = MachineGun2
 Power = 40
 DamageFactor = tank, 1.0
@@ -7,8 +7,8 @@ DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 ModelBullet = bullet76mm
 Acceleration = 7.0
-Explosion = 5
-ExplosionInWater = 4
+Explosion = 4
+ExplosionInWater = 2
 ExplosionBlock = 4
 Flaming = false
 Sight = MoveSight

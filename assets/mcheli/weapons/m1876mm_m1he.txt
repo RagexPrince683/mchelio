@@ -2,7 +2,10 @@ DisplayName = 76mm M1 [M42A1 Shell - HE]
 Type = MachineGun1
 Power = 40
 Acceleration = 7.5
-Explosion = 4
+Explosion = 3
+
+ExplosionInWater = 2
+
 ExplosionBlock = 3
 Sight = None
 

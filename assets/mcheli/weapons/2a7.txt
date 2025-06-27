@@ -1,4 +1,4 @@
-DisplayName = 2A7 23mm [HE]
+DisplayName = 23mm 2A7 [HE]
 Type = MachineGun2
 ModelBullet = bullet
 Power = 6

@@ -3,7 +3,10 @@ Type = Rocket
 Power = 50
 ModelBullet = bullet105mm
 Acceleration = 6
-Explosion = 4
+Explosion = 3
+
+ExplosionInWater = 2
+
 ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight

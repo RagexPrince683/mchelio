@@ -1,6 +1,6 @@
 DisplayName = 9M123F Tochka HE Missle [Scarab A]
 Type = Rocket
-Power = 5000
+Power = 1080
 Acceleration = 5.5
 Flaming = false
 Sight = rocket
@@ -8,8 +8,11 @@ Gravity = -0.017
 Delay = 140
 SoundVolume = 4.5
 Accuracy = 0.1
-Explosion = 1000
+Explosion = 18
 ExplosionBlock = 15
+
+ExplosionInWater = 9
+
 Round = 1
 ReloadTime = 500
 ModelBullet = ballistic
@@ -54,4 +57,4 @@ CameraRotationSpeedPitch = 0.2
 MaxAmmo = 1
 SuppliedNum = 1
 Item =  16, iron_ingot
-Item =  10, gunpowder
+Item =  20, gunpowder

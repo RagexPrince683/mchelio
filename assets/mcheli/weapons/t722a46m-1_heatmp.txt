@@ -2,9 +2,9 @@ DisplayName = 125mm 2A46 Cannon [3BK12M - HEAT-FS]
 Type = MachineGun2
 Power = 440
 ModelBullet = 3bk18m
-
-Explosion = 5
+Explosion = 3
 ExplosionBlock = 3
+ExplosionInWater = 2
 Flaming = false
 Sight = MoveSight
 

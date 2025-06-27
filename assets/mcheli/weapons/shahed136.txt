@@ -2,7 +2,10 @@
 Type = TVMissile
 Power = 450
 Acceleration = 2
-Explosion = 5
+Explosion = 9
+
+ExplosionInWater = 5
+
 Flaming = false
 Sound = radicon_heli
 Sight = MoveSight

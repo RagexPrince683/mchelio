@@ -1,10 +1,10 @@
-DisplayName = 127mm Mark 45 Mod 4 Naval Cannon [HE-PD] 
+DisplayName = 127mm Mark 45 Mod 4 Naval Cannon [HE-PD]
 Type = MachineGun2
 Power = 40
 ModelBullet = bullet76mm
 Acceleration = 7.0
-Explosion = 5
-ExplosionInWater = 4
+Explosion = 4
+ExplosionInWater = 2
 ExplosionBlock = 4
 Sight = MoveSight
 Delay = 13

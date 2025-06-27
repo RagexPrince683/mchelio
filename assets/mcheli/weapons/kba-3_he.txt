@@ -1,7 +1,10 @@
 DisplayName = 125mm KBA-3 Cannon [3OF26 - HE]
 Type = MachineGun2
 Power = 42
-Explosion = 15
+Explosion = 3
+
+ExplosionInWater = 2
+
 ExplosionBlock = 5
 
 Sight = None

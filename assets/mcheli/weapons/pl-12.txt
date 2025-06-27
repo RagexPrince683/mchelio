@@ -16,7 +16,6 @@ LockTime = 18
 ProximityFuseDist = 3
 ModelBullet = PL-12
 Sound = missile_1_snd
-
 MaxAmmo = 4
 SuppliedNum = 2
 Item =  2, iron_ingot

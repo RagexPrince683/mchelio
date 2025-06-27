@@ -3,8 +3,6 @@ Type = MachineGun2
 Power = 100
 ModelBullet = bullet76mm
 Acceleration = 8.0
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 150
@@ -14,7 +12,6 @@ SoundPitch = 0.5
 SoundVolume = 20
 Sound = cannon_3_snd
 Gravity = -0.01
-
 Delay = 150
 ReloadTime = 150
 Group = MainGun
@@ -29,8 +26,6 @@ DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
 AddDisplayName = en_US, 77mm HV APDS
 SoundVolume = 15
-
-
 MaxAmmo = 85
 SuppliedNum = 30
 Item =  3, iron_ingot

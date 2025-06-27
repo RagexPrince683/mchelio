@@ -3,21 +3,13 @@ Type = MachineGun1
 Power = 350
 ModelBullet = bullet105mm
 Acceleration = 7.0
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = None
-
-
 Delay = 140
 ReloadTime = 200
 Round = 10
-
-
 HeatCount = 2000
 MaxHeatCount = 5500
-
-
 SoundVolume = 15.0
 Sound = tsixtytwo
 Accuracy = 0

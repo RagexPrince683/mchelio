@@ -3,7 +3,7 @@ Type = MachineGun2
 Power = 9
 ModelBullet = bullet
 
-Explosion = 3
+Explosion = 2
 ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight

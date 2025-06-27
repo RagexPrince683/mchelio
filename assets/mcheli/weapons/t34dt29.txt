@@ -1,8 +1,6 @@
 DisplayName = 7.62mm DT Machine Gun (Hull)
 Type = MachineGun1
 Power = 8
-Acceleration = 10.0
-Explosion = 0
 Flaming = false
 Sight = None
 Delay = 1
@@ -17,9 +15,7 @@ BulletColor        = 255, 119, 255, 116
 SoundPitch = 1 
 SoundPitchRandom = 0.1
 Round = 63
-
 ReloadTime = 80
-
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0

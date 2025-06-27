@@ -1,11 +1,8 @@
 DisplayName = 105mm M68A1 Cannon [M1040 - Canister]
 Type = Rocket
 Power = 10
-Explosion = 0
-ExplosionBlock = 0
 Acceleration = 6
 Sight = None
-
 SoundPitchRandom = 0.1
 Round = 7
 SoundVolume = 15

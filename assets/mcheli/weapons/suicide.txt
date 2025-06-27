@@ -2,9 +2,9 @@ DisplayName = 500lb Suicide Bomb
 Type = Bomb
 Power = 1080
 
-Explosion = 15
+Explosion = 10
 ExplosionBlock = 5
-ExplosionInWater = 0
+ExplosionInWater = 5
 Flaming = true
 ModelBullet = 0_none
 Sight = None

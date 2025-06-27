@@ -18,7 +18,10 @@ ProximityDist = 1
 
 
 Accuracy = 1.5
-Explosion = 12
+Explosion = 4
+
+ExplosionInWater = 2
+
 ExplosionBlock = 3
 Round = 40
 

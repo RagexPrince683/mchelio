@@ -3,7 +3,10 @@ Type = MachineGun2
 Power = 135
 ModelBullet = bullet
 Acceleration =  5.5
-Explosion = 4
+Explosion = 2
+
+ExplosionInWater = 1
+
 ExplosionBlock = 2
 Sight = None
 ReloadTime = 120

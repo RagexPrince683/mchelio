@@ -2,8 +2,10 @@
 Type = TVMissile
 Power = 900
 Acceleration = 3
-Explosion = 5
+Explosion = 4
 ExplosionBlock = 2
+ExplosionInWater = 2
+
 Flaming = false
 Sight = MoveSight
 Delay = 100

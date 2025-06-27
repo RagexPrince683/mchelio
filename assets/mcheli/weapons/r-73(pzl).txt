@@ -1,4 +1,4 @@
-DisplayName = R-73 [AAM] 
+DisplayName = R-73 [AAM]
 Type = AAMissile
 Power = 7
 Acceleration = 2.5
@@ -7,7 +7,7 @@ DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
-Explosion = 4
+Explosion = 5
 Flaming = false
 Sight = MissileSight
 Delay = 20

@@ -5,6 +5,9 @@ ModelBullet = bullet76mm
 Acceleration = 5.0
 Explosion = 2
 ExplosionBlock = 1
+
+ExplosionInWater = 1
+
 Flaming = false
 Sight = MoveSight
 Delay = 13

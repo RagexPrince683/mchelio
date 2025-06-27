@@ -1,7 +1,8 @@
 DisplayName = 125mm KBA-3 Cannon [3BK18M - HEAT-FS]
 Type = MachineGun2
 Power = 550
-Explosion = 7
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 4
 
 Sight = None

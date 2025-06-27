@@ -1,8 +1,6 @@
 DisplayName = 12.7mm Type 54 Machine Gun
 Type = MachineGun1
 Power = 31
-
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1

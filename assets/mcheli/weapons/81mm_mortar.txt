@@ -1,8 +1,11 @@
 DisplayName = 81mm M1937 Battalion Mortar [M374A2 - HE]
 Type = Rocket
 Power = 35
-Explosion = 20
+Explosion = 2
 ExplosionBlock = 1
+
+ExplosionInWater = 2
+
 Acceleration = 4.0
 SoundVolume = 15.0
 SoundPitchRandom = 0.1

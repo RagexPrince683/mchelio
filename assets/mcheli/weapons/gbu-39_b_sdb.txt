@@ -3,8 +3,6 @@ Type = ASMissile
 Power = 1000
 radius = 2000
 Acceleration = 7.3
-Explosion = 5
-ExplosionBlock = 3
 Flaming = true
 Sight = MoveSight
 Delay = 35
@@ -19,11 +17,11 @@ DisableSmoke = true
 
 ;bomb rewrite
 Acceleration = 0.5
-Explosion = 25
+Explosion = 8
 ;Explosive mass	125 kg
 Power = 500
 ExplosionBlock = 2
-ExplosionInWater = 0
+ExplosionInWater = 4
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

@@ -2,9 +2,6 @@ DisplayName = 120mm TKG Cannon [Type 10 - APFSDS]
 Type = MachineGun1
 Power = 615
 ModelBullet = bullet105mm
-Explosion = 0
-ExplosionBlock = 0
-
 Sight = None
 ReloadTime = 40
 Delay = 100

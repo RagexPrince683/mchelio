@@ -2,7 +2,6 @@ DisplayName = GBU-53/B SDB II
 Type = ATMissile
 Power = 1000
 Acceleration = 2.1
-Explosion = 4
 Flaming = false
 Sight = MissileSight 
 Delay = 60
@@ -21,11 +20,11 @@ DamageFactor = heli, 3.0
 
 ;bomb rewrite
 Acceleration = 0.5
-Explosion = 20
+Explosion = 7
 ;Explosive mass	105 kg
 Power = 500
 ExplosionBlock = 2
-ExplosionInWater = 0
+ExplosionInWater = 4
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
@@ -33,7 +32,7 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
 MaxAmmo = 8
-SuppliedNum = 2
+SuppliedNum = 1
 Item =  2, iron_ingot
 Item =  5, gunpowder
 Item =  3, redstone

@@ -3,9 +3,9 @@ Type = Rocket
 ModelBullet = mk19bullet
 Power = 10
 Acceleration = 2.5
-Explosion = 6
+Explosion = 1
 ExplosionBlock = 2
-ExplosionInWater = 0
+ExplosionInWater = 1
 Flaming = true
 Sight = None
 SoundVolume = 2
@@ -17,6 +17,7 @@ MaxHeatCount = 85
 Delay = 6
 Round = 30
 ReloadTime = 180
+FAE = true
 
 Group = MainGun
 

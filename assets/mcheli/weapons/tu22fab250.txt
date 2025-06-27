@@ -2,8 +2,9 @@ DisplayName = FAB-250
 Type = Bomb
 Power = 1000
 Acceleration = 0.1
-Explosion = 8
+
 ExplosionBlock = 3
+
 Flaming = false
 Sight =  MoveSight
 Delay = 1
@@ -17,11 +18,11 @@ DamageFactor = tank, 2
 DamageFactor =vehicle , 4
 
 Acceleration = 0.5
-Explosion = 28
+Explosion = 11
 ;Explosive mass	269.9/around 2 kg kg
 Power = 540
 ExplosionBlock = 5
-ExplosionInWater = 0
+ExplosionInWater = 5
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

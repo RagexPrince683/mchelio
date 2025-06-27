@@ -2,8 +2,12 @@ DisplayName = 155mm Haubits BW L/52 FH-77 [Nexter Bonus]
 Type = Rocket
 Power = 500
 ModelBullet = 155mm
-Explosion = 15
+Explosion = 6
+;;would be 4 accounting for guidance
 ExplosionBlock = 2
+
+ExplosionInWater = 3
+
 Acceleration = 6.0
 Sight = None
 ReloadTime = 80

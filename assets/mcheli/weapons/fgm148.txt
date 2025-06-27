@@ -1,7 +1,10 @@
 DisplayName = FGM-148 Javelin
 Type = ATMissile
 Power = 762
-Explosion = 4
+Explosion = 5
+
+ExplosionInWater = 3
+
 Flaming = false
 Sight = MissileSight 
 Delay = 100

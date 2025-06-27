@@ -1,8 +1,11 @@
 DisplayName = 20.3cm SK C/34 Cannon [L/4.4 m.Hb - APBC]
 Type = MachineGun2
 Power = 421
-Explosion = 6
+Explosion = 4
 ExplosionBlock = 3
+
+ExplosionInWater = 2
+
 Acceleration = 4.0
 SoundVolume = 1.0
 Sound = cannon_4_snd
