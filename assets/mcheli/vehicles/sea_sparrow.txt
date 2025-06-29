@@ -13,6 +13,7 @@ AddSeat = 0.0,  0.0, 0.0
 HideEntity = true
 unmountposition = 0.0,  1.4, -0
 DamageFactor = 1.0
+EnableNightVision = true
 
 ; M = Military,  M = Missile(ミサイル)
 Category = M.M

@@ -10,6 +10,7 @@ AddSeat = 0.0,  0.0, 0.0
 HideEntity = true
 ThirdPersonDist = 12
 DamageFactor = 1
+EnableNightVision = true
 
 Gravity = -9.81
 GravityInWater = -1.0

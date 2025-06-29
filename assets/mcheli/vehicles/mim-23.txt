@@ -9,6 +9,7 @@ MaxRotationPitch = 0
 HideEntity = true
 Gravity = -9.81
 GravityInWater = -1.0
+EnableNightVision = true
 
 HideEntity = false
 

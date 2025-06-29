@@ -9,6 +9,7 @@ CameraZoom = 6
 AddGunnerSeat = 0.45,0.2,-1, 0.45,  1.65,  0, false, -25, 25, true
 CameraPosition = 0.45,  1.65,  0
 HideEntity = false
+EnableNightVision = false
 
 
 unmountposition = 0.00, 1.5, -0.0

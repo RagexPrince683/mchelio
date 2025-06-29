@@ -8,6 +8,7 @@ MinRotationPitch = -90
 MaxRotationPitch = 0
 HideEntity = true
 ThirdPersonDist = 8
+EnableNightVision = true
 
 Gravity = -9.81
 GravityInWater = -1.0
