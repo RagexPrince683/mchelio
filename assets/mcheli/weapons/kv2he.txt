@@ -1,7 +1,8 @@
 DisplayName = 152mm M-10T Howitzer [OF-530 - HE]
 Type = MachineGun2
 Power = 48
-Explosion = 10
+Explosion = 5
+ExplosionInWater = 2
 ExplosionBlock = 5
 Sight = None
 Round = 1

@@ -1,10 +1,10 @@
-DisplayName = AGS-40 "Balkan"
+DisplayName = 40mm AGS-40 Balkan [7P39 - HE-Frag]
 Type = Rocket
 ModelBullet = mk19bullet
 Power = 15
 Acceleration = 2.5
-Explosion = 2
-ExplosionInWater = 0
+Explosion = 1
+ExplosionInWater = 1
 Flaming = false
 Sight = None
 SoundVolume = 2

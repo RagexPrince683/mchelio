@@ -1,7 +1,8 @@
 DisplayName = 132mm M-13 Rocket
 Type = Rocket
 Power = 400
-Explosion = 16
+Explosion = 4
+ExplosionInWater = 2
 ExplosionBlock = 5
 Acceleration = 4.0
 SoundVolume = 20.0
@@ -34,6 +35,6 @@ AddMuzzleFlashSmoke   =             3.2,     10,    6.0,  3.0,       25,  220,16
 AddMuzzleFlashSmoke   =             2.2,      5,    6.0,  4.0,       35,  200,190,170,150
 
 MaxAmmo = 16
-SuppliedNum = 3
+SuppliedNum = 4
 Item =  4, iron_ingot
 Item =  4, gunpowder

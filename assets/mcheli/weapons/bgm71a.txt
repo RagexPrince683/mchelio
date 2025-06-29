@@ -20,7 +20,8 @@ SoundVolume = 15
 
 Acceleration = 2.0
 LockTime = 20
-Explosion = 5
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 2
 Flaming = true
 Sight = MoveSight

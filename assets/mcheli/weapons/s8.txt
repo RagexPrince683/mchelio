@@ -1,9 +1,10 @@
-	DisplayName = S-8 Rocket B-8M1
+DisplayName = 80mm S-8 Rocket [B-8M1]
 Type = Rocket
 Power = 400
 
 Acceleration = 3.5
 Explosion = 4
+ExplosionInWater = 2
 Flaming = false
 Sight = MoveSight
 Delay = 1

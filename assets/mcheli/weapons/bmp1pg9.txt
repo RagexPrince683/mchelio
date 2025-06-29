@@ -1,9 +1,11 @@
-DisplayName = 73mm 2A28 Grom Smoothbore Cannon [PG-9/PG-15V - HEAT]
+DisplayName = 73mm 2A28 Grom Smoothbore Cannon [PG-9 - HEAT]
+;/PG-15V
 Type = MachineGun2
 Power = 400
 ModelBullet = bullet105mm
 
-Explosion = 3
+Explosion = 2
+ExplosionInWater = 1
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight

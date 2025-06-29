@@ -2,9 +2,9 @@ DisplayName = RGM-84 Harpoon [Anti-Ship Missile]
 Type = TVMissile
 Power = 800
 Acceleration = 2.5
-Explosion = 12
+Explosion = 14
 ExplosionBlock = 8
-ExplosionInWater = 24
+ExplosionInWater = 14
 Flaming = false
 Sight = MoveSight
 Delay = 50
@@ -27,7 +27,7 @@ AddMuzzleFlashSmoke =  -6.2, 13,  13.0,  6.0, 35,  200,190,170,150
 
 
 MaxAmmo = 4
-SuppliedNum = 4
-Item =  1, iron_ingot
-Item =  3, gunpowder
+SuppliedNum = 1
+Item =  4, iron_ingot
+Item =  8, gunpowder
 Item =  2, redstone

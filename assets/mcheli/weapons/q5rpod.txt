@@ -1,20 +1,16 @@
-DisplayName = S-5 57mm
+DisplayName = 57mm S-5
 Type = Rocket
 Power = 150
 ModelBullet = hydra70
 Acceleration = 4.0
-Explosion = 3
+Explosion = 2
 Flaming = false
 Sight = MoveSight
 Sound = rocket_snd
 Delay = 1
 ReloadTime = 110
 Round = 16
-Accuracy = 2
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
+Accuracy = 1.5
 
 Acceleration = 7.5
 Gravity = -0.005

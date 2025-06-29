@@ -2,9 +2,6 @@ DisplayName = 30mm 2A38M Cannon [AP-T]
 Type = MachineGun2
 Power = 65
 ModelBullet = bullet
-
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 0
@@ -18,15 +15,9 @@ TrajectoryParticle = crit
 HeatCount = 1
 MaxHeatCount = 150
 Gravity = -0.001
-
 Round = 351
-
 Group = MainGun
-
 ReloadTime = 180
-
-
-
 SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
 AddMuzzleFlash      =  3.1,      0.62,        1,  150,254,159,84

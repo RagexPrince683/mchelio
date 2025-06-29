@@ -1,4 +1,4 @@
-DisplayName = 2A70 Rifled Gun[HEAT-MP]
+DisplayName = 2A70 Rifled Gun [HEAT-MP]
 Type = MachineGun1
 Power = 390
 ModelBullet =3bm42

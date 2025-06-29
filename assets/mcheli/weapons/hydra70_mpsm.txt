@@ -1,4 +1,4 @@
-DisplayName = Hydra 70mm MPSM
+DisplayName = 70mm Hydra MPSM
 Type = Rocket
 Power = 16
 Acceleration = 4.0
@@ -28,5 +28,5 @@ ModelBomblet = cbc
 
 MaxAmmo = 19
 SuppliedNum = 19
-Item =  3, iron_ingot
+Item =  4, iron_ingot
 Item =  3, gunpowder

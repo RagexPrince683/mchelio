@@ -3,8 +3,6 @@ Type = MachineGun2
 Power = 536
 ModelBullet = bullet105mm
 Acceleration = 8.5
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 150
@@ -17,7 +15,6 @@ DisplayMortarDistance = true
 Piercing = 5
 Delay = 170
 ReloadTime = 170
-
 Item =  3, iron_ingot
 Item =  2, gunpowder
 Round = 1

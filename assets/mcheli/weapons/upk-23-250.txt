@@ -1,4 +1,4 @@
-DisplayName = GSh-23 
+DisplayName = GSh-23
 Type = MachineGun2
 Power = 16
 Acceleration = 8.0

@@ -1,13 +1,10 @@
-DisplayName = KH-38 Anti-Surface Missile
+DisplayName = KH-38MAE Anti-Surface Missile
 Type = ASMissile
 radius = 2000
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
 Power = 1000
 Acceleration = 4.2
-Explosion = 21
+Explosion = 11
+ExplosionInWater = 6
 ExplosionBlock = 5
 Flaming = true
 Sight = MoveSight
@@ -29,6 +26,6 @@ SoundVolume = 15
 
 MaxAmmo = 2
 SuppliedNum = 1
-Item =  1, iron_ingot
-Item =  2, gunpowder
-Item =  1, redstone
+Item =  4, iron_ingot
+Item =  8, gunpowder
+Item =  2, redstone

@@ -1,8 +1,6 @@
 DisplayName = 7.7mm  ShKAS Machine Gun
 Type = MachineGun1
 Power = 7
-Acceleration = 6.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 0

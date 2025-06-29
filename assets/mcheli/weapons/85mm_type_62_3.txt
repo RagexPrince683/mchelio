@@ -1,9 +1,10 @@
-DisplayName = 85mm62-85TC Rifled Cannon [Type 56 - HE]
+DisplayName = 85mm 62-85TC Rifled Cannon [Type 56 - HE]
 Type = MachineGun2
 Power = 19
 ModelBullet = bullet105mm
 Acceleration = 6.0
-Explosion = 4
+Explosion = 2
+ExplosionInWater = 1
 ExplosionBlock = 2
 Sight = None
 ReloadTime = 120

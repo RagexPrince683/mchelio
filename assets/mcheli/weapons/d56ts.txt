@@ -1,4 +1,4 @@
-DisplayName = D-56TS 76mm Gun
+DisplayName = 76mm D-56TS Cannon [BK-354M - HEAT-FS]
 Type = MachineGun2
 Power = 400
 ModelBullet = bullet76mm
@@ -8,7 +8,8 @@ DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Explosion = 3
+Explosion = 2
+ExplosionInWater = 2
 Flaming = false
 Sight = MoveSight
 Delay = 100

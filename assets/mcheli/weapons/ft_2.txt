@@ -1,8 +1,8 @@
 DisplayName = Drop fuel tank
 Type = Bomb
-Power = 20
+Power = 30
 Acceleration = 0.1
-Explosion = 3
+Explosion = 2
 ExplosionBlock = 2
 ExplosionInWater = 0
 Flaming = true

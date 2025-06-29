@@ -2,8 +2,8 @@ DisplayName = 9M133-1 Kornet-E
 Type = ATMissile
 Power = 1200
 Acceleration = 1.0
-Explosion = 8
-ExplosionBlock = 5
+Explosion = 4
+ExplosionInWater = 2
 Flaming = false
 Sight = MissileSight
 

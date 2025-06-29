@@ -1,7 +1,8 @@
 DisplayName = 125mm 2A46 Smoothbore Cannon [3OF26 - HE]
 Type = MachineGun1
 Power = 42
-Explosion = 5
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 5
 Acceleration = 6.5
 Sight = None

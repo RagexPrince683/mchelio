@@ -1,4 +1,4 @@
-DisplayName = N-37 37mm Auto Cannon
+DisplayName = 37mm N-37 Automatic Cannon
 Type = MachineGun1
 Power = 49
 Acceleration = 5.0

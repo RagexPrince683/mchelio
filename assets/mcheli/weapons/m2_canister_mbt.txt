@@ -1,8 +1,6 @@
 DisplayName = 37mm M6 Cannon M2 [Canister]
 Type = Rocket
 Power = 20
-Explosion = 0
-ExplosionBlock = 0
 Acceleration = 8.0
 Sight = None
 Delay = 150

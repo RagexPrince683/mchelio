@@ -1,9 +1,7 @@
 DisplayName = Large-Caliber Gun [HT]
 Type = MachineGun2
 Power = 120
-Acceleration = 8.0
-Explosion = 4
-ExplosionBlock = 4
+Acceleration = 7.0
 Sight = None
 ReloadTime = 150
 Round = 1
@@ -15,7 +13,6 @@ Gravity = -0.03
 Particle = largeexplode
 Sound = ww2tankshot_snd
 ModeNum = 2
-
 MaxAmmo = 50
 SuppliedNum = 10
 Item =  2, iron_ingot

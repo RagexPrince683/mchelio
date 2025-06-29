@@ -117,8 +117,6 @@ MaxFuel         = 1200
 FuelConsumption = 2.5
 
 
-
-
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
 RideRack = c5, 2
@@ -134,9 +132,6 @@ BoundingBox = -1.1, 1.05,  2.7,  2.3, 1.8, 0.41
 BoundingBox =  1.1, 1.05,  2.7,  2.3, 1.8, 0.18
 
 ;;;;;;;;side turret 11 but since mcheli is annoying with non rot bbs .20
-
-
-
 
 ;turret
 BoundingBox =  0.0, 2.0, 0.0,  2.8, 1.8, 0.20

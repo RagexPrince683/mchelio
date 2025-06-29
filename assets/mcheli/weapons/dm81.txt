@@ -1,9 +1,9 @@
-DisplayName = DM81 20mm [HEFI-T]
+DisplayName = 20mm Automatic Cannon [DM81 - HEFI-T]
 Type = MachineGun1
 Power = 7
 Acceleration = 5.0
 ExplosionBlock = 1
-Explosion = 2
+Explosion = 1
 Flaming = false
 Sight = MoveSight
 Delay = 2

@@ -1,8 +1,7 @@
-DisplayName = M2HB Browning [Machine Gun]
+DisplayName = 12.7mm M2HB Browning
 Type = MachineGun1
 Power = 31
 Acceleration = 7
-Explosion = 0
 Flaming = false
 Sight = None
 Delay = 1

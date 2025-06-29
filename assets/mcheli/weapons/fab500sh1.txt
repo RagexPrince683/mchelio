@@ -2,9 +2,6 @@ DisplayName = FAB-500 SH
 Type = Bomb
 Power = 1080
 Acceleration = 0.5
-Explosion = 30
-ExplosionBlock = 4
-ExplosionInWater = 0
 Flaming = false
 Sight = None
 Delay = 8
@@ -14,11 +11,11 @@ Gravity = -0.01
 
 
 Acceleration = 0.5
-Explosion = 52
+Explosion = 14
 ;Explosive mass	269.9/around 2 kg kg
 Power = 1080
 ExplosionBlock = 5
-ExplosionInWater = 0
+ExplosionInWater = 7
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
@@ -30,5 +27,5 @@ Round = 12
 
 MaxAmmo = 24
 SuppliedNum = 4
-Item =  2, iron_ingot
-Item =  4, gunpowder
+Item =  6, iron_ingot
+Item =  8, gunpowder

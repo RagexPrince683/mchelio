@@ -1,9 +1,7 @@
-DisplayName = 12.7*108mm Gun
+DisplayName = 12.7x108mm Machine Gun
 Type = MachineGun1
 Power = 23
 Acceleration = 9.0
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 2

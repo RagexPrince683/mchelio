@@ -1,4 +1,4 @@
-DisplayName = M8 110mm Rocket
+DisplayName = 110mm M8 Rocket
 Type = Rocket
 Power = 400
 ModelBullet = hydra70
@@ -25,6 +25,6 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 MaxAmmo = 60
-SuppliedNum = 60
+SuppliedNum = 30
 Item =  2, iron_ingot
 Item =  2, gunpowder

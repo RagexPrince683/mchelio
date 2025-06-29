@@ -1,7 +1,7 @@
 DisplayName = 152mm Howitzer
 Type = MachineGun2
 Power = 86
-Explosion = 4
+Explosion = 2
 ExplosionBlock = 2
 Sight = None
 Round = 1

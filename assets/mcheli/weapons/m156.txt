@@ -1,9 +1,10 @@
-DisplayName = 120mm Rh-120 L/44 DM12 [HEAT-FS]
+DisplayName = 120mm Rh-120 L/44 [DM12 - HEAT-FS]
 Type = MachineGun2
 Power = 480
 ModelBullet = bullet105mm
 Acceleration = 8.0
-Explosion = 2
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight

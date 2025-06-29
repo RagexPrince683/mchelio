@@ -34,5 +34,5 @@ ReloadTime = 300
 Round = 4
 MaxAmmo = 12
 SuppliedNum = 1
-Item = 10, hbm:tile.det_nuke
-Item = 1, hbm:tile.bomb_multi
+Item = 14, mcheli:genericnuclearbomb
+Item = 1, tnt

@@ -1,4 +1,4 @@
-DisplayName = 45mm20-K TankGun[APHEBC]
+DisplayName = 45mm 20-K Cannon [APHEBC]
 Type = MachineGun2
 Power = 64
 Acceleration = 5.5

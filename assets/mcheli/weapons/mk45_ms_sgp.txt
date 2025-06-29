@@ -1,9 +1,10 @@
-DisplayName = Mk45 MS-SGP 127mm gun
+DisplayName = 127mm Mk45 MS-SGP Gun
 Type = TVMissile
 Power = 127
 ModelBullet = bullet76mm
 Acceleration = 3.0
-Explosion = 6
+Explosion = 4
+ExplosionInWater = 2
 Sight = None
 Delay = 60
 HeatCount = 20

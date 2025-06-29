@@ -1,8 +1,6 @@
 DisplayName = 105mm M68A1E8 Cannon [M1040 - Canister Shot]
 Type = Rocket
 Power = 10
-Explosion = 0
-ExplosionBlock = 0
 Acceleration = 8.0
 Sight = None
 ReloadTime = 180

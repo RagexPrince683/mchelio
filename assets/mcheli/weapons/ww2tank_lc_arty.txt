@@ -2,8 +2,6 @@ DisplayName = Heavy Artillery Gun
 Type = MachineGun2
 Power = 120
 Acceleration = 6.0
-Explosion = 6
-ExplosionBlock = 7
 Sight = None
 ReloadTime = 150
 Round = 1
@@ -13,8 +11,6 @@ Accuracy = 2.0
 Gravity = -0.04
 Particle = largeexplode
 Sound = HT_Fire_snd
-
-
 MaxAmmo = 50
 SuppliedNum = 10
 Item =  2, iron_ingot

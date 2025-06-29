@@ -1,8 +1,6 @@
-DisplayName = NSVT 12.7mm 6P49 Machine Gun
+DisplayName = 12.7mm 6P49 NSVT Machine Gun
 Type = MachineGun1
 Power = 31
-Acceleration = 8.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 2
@@ -16,13 +14,7 @@ Sound = dshk
 
 Round = 150
 
-Acceleration = 7.5
-Piercing = 0
-DamageFactor = tank, 1.0
-DamageFactor = plane, 0.5
-DamageFactor = vehicle, 1.0
-DamageFactor = heli, 0.5
-DamageFactor = player, 20.0
+
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
@@ -39,7 +31,7 @@ DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
-DamageFactor = player, 20.0
+;DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 

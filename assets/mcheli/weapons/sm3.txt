@@ -1,8 +1,8 @@
-DisplayName = RIM-161 Standart [Anti-Aircraft Missile]
+DisplayName = RIM-161 Standard [Anti-Aircraft Missile]
 Type = AAMissile
 Power = 100
-Acceleration = 8.8
-Explosion = 8
+Acceleration = 7
+Explosion = 1
 Flaming = false
 Sight = MissileSight
 Delay = 20
@@ -15,7 +15,7 @@ Sound = missile_cruise_snd
 Round = 2
 
 MaxAmmo = 4
-SuppliedNum = 2
-Item =  1, iron_ingot
-Item =  1, gunpowder
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  2, gunpowder
 Item =  1, redstone

@@ -1,8 +1,7 @@
-DisplayName = Vladimirov MG 14.5mm
+DisplayName = 14.5mm Vladimirov MG
 Type = MachineGun1
 Power = 39
 Acceleration = 8.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
@@ -21,11 +20,6 @@ DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
 
 Gravity = -0.001
-
-
-
-
-
 
 MaxAmmo = 600
 SuppliedNum = 200

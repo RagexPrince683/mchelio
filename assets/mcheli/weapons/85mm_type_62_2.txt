@@ -4,6 +4,7 @@ Power = 300
 ModelBullet = bullet105mm
 Acceleration = 6.0
 Explosion = 2
+ExplosionInWater = 1
 ExplosionBlock = 1
 Sight = None
 ReloadTime = 120

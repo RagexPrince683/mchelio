@@ -1,6 +1,6 @@
-DisplayName = LS-6 Laser Guided Bomb
+DisplayName = LS-6/500 500kg Laser Guided Bomb
 Type = ASMissile
-Power = 1500
+Power = 500
 Acceleration = 1.50
 Explosion = 15
 ExplosionBlock = 7
@@ -23,7 +23,7 @@ DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
 MaxAmmo = 8
-SuppliedNum = 4
+SuppliedNum = 2
 Item =  4, iron_ingot
 Item =  4, gunpowder
 Item =  4, redstone

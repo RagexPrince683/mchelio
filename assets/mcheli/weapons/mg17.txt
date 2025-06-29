@@ -2,7 +2,6 @@ DisplayName = 7.92mm MG17 [Machine gun]
 Type = MachineGun1
 Power = 7
 Acceleration = 8.0
-Explosion = 0
 Sight = MoveSight
 Delay = 0
 HeatCount = 1

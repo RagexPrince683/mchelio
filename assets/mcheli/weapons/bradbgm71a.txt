@@ -22,7 +22,8 @@ SoundVolume = 15
 
 Acceleration = 3.0
 LockTime = 20
-Explosion = 2
+Explosion = 4
+ExplosionInWater = 2
 Flaming = false
 Sight = MoveSight
 Delay = 20

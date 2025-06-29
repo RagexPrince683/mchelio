@@ -9,7 +9,7 @@ Sound = artillery_gun_snd
 SoundVolume = 15
 SoundPitch = 1.0
 Accuracy = 1.2
-Explosion = 12
+Explosion = 1
 ExplosionBlock = 2
 ModelBullet = bullet105mm
 ;Group = Rocket
@@ -20,7 +20,7 @@ MaxHeatCount = 2000
 Bomblet = 18
 BombletDiff = 0.5
 BombletSTime = 5
-ModelBomblet = cbc
+ModelBomblet = gr34
 
 DelayFuse = 0
 

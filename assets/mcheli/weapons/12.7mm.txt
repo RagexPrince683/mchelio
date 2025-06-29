@@ -1,4 +1,4 @@
-DisplayName = H2HB 12.7mm Machine Gun
+DisplayName = 12.7mm M2HB Machine Gun
 Type = MachineGun1
 ModelBullet = 12.7mm
 Power = 31

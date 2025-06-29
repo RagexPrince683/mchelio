@@ -1,8 +1,9 @@
 DisplayName = HJ-10
 Type = TVMissile
-Power = 850
+Power = 1200
 Acceleration = 2.0
-Explosion = 6
+Explosion = 4
+ExplosionInWater = 2
 Flaming = true
 Sight = MoveSight
 Delay = 10
@@ -27,7 +28,7 @@ ReloadTime = 100
 
 
 MaxAmmo = 4
-SuppliedNum = 2
-Item =  1, iron_ingot
-Item =  1, gunpowder
-Item =  1, redstone
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

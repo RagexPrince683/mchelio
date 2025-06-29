@@ -44,8 +44,6 @@ WeightedCenterZ = 0.0
 HUD = mbt_hud, gunnernvg
 
 
-
-
 AddGunnerSeat =  0.00,  1.50, 1.55,   0.00,  3.50, 0,  false, -10, 7, true
 AddGunnerSeat =  -0.81,  2.20, -0.25,  -0.49,3.9,-0.26,  false, -60, 8, true
 
@@ -109,20 +107,6 @@ AddTurretWeapon =  t10type74,  -0.386, 2.37, 0.538,     0.0, 0.0, true,1, 0,-360
 
 TurretPosition = 0.00, 1.72, -0.462
 
-
-;depricated model, reason: too many polygons, buggy, laggy
-
-;AddPartWeapon = Rh120-L55_apfsds/ Rh120-L55_heat, false, true, false,  0.00, 2.3204, 0.00, 0
-;AddPartWeaponChild = false, true, 0.00, 2.3204, 2.2626, 0.0
-;AddPartWeaponChild = false, true, 0.00, 2.3204, 2.2626, 0.5
-
-
-;AddTurretWeapon = Rh120-L55_apfsds, 0.00, 2.3204, 2.2626,  0.0, 0.0, true, 1, 0, -360, 360, -40, 7
-;AddTurretWeapon = Rh120-L55_heat,     0.00, 2.3204, 2.2626,  0.0, 0.0, true, 1, 0, -360, 360, -40, 7
-;AddTurretWeapon = mg7_62mm_mbt,      0.25, 2.3204, 2.2626,  0.0, 0.0, true, 1, 0, -360, 360, -40, 7
-
-
-
 AddPartTurretWeapon    = t10m240_r,   false, true, true,-0.49,3.66,-0.26,0
 AddPartTurretWeapon    = t10m240_r,  false, true, false,-0.5, 3.24, -0.24
 AddTurretWeapon = t10m240_r,-0.49,3.66,-0.26,0,0, false, 2, 0, -360,360, -60,8
@@ -133,15 +117,6 @@ AddRecipe = "ABC", "DGF", "EH ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
 RideRack = c5, 2
-
-;BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
-;BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
-;BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
-;BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
-;BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
-;BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
-;BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25
-
 
 ArmorMinDamage = 15
 

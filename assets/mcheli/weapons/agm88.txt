@@ -11,11 +11,11 @@ Round = 2
 ModelBullet = agm84
 Sound = missile_2_snd
 
-Explosion = 11
+Explosion = 9
 ;Explosive mass	68 kg kg
 ;Power = 1080
 ExplosionBlock = 5
-ExplosionInWater = 0
+ExplosionInWater = 5
 
 DamageFactor = tank, 2.0
 DamageFactor = plane, 1.0
@@ -24,7 +24,7 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
 MaxAmmo = 2
-SuppliedNum = 2
-Item =  1, iron_ingot
-Item =  2, gunpowder
-Item =  1, redstone
+SuppliedNum = 1
+Item =  4, iron_ingot
+Item =  6, gunpowder
+Item =  2, redstone

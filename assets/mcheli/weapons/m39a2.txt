@@ -1,9 +1,8 @@
-DisplayName = 20mm M39A2 Autocannon
+DisplayName = 20mm M39A2 Automatic Cannon
 Type = MachineGun2
 ModelBullet = bullet
 Power = 18
 Acceleration = 7.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 0

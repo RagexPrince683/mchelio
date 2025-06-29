@@ -1,8 +1,9 @@
 DisplayName = Chunryong ALCM
 Type = TVMissile
-Power = 200
+Power = 1080
 Acceleration = 2
-Explosion = 20
+Explosion = 18
+ExplosionInWater = 9
 ExplosionBlock = 15
 Flaming = false
 Sight = MoveSight
@@ -13,13 +14,17 @@ SoundVolume = 3
 Sound = bomb_snd
 ModelBullet = chunryong
 DisableSmoke = true
-Piercing = 2
+Piercing = 8
 
-DamageFactor = Tank, 3.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 Round = 2
 MaxAmmo = 2
 SuppliedNum = 1
-Item =  3, iron_ingot
+Item =  4, iron_ingot
 Item =  6, tnt
 Item =  3, redstone

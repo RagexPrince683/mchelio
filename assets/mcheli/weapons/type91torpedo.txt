@@ -1,11 +1,11 @@
 DisplayName = Type 91 Torpedo
 Type = Torpedo
-Power = 350
+Power = 850
 ModelBullet = type93torpedo
 Acceleration = 0.0
 AccelerationInWater = 2.5
-Explosion = 4
-ExplosionInWater = 9
+Explosion = 14
+ExplosionInWater = 14
 Flaming = false
 Sight = None
 Delay = 40
@@ -18,7 +18,7 @@ DisableSmoke = true
 Sound = bomb_snd
 
 MaxAmmo = 4
-SuppliedNum = 2
+SuppliedNum = 1
 Item =  2, iron_ingot
 Item =  2, gunpowder
-Item =  2, redstone
+Item =  1, redstone

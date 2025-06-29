@@ -2,7 +2,6 @@ DisplayName = AGM-84 Harpoon
 Type = TVMissile
 Power = 1000
 Acceleration = 4.0
-Explosion = 9
 Flaming = true
 Sight = MoveSight
 Delay = 5
@@ -11,12 +10,11 @@ ModelBullet = agm84
 Sound = mlrs
 SoundPitch = 0.8
 
-;Acceleration = 0.5
-Explosion = 15
+Explosion = 14
 ;Explosive mass	50 kg kg
 ;Power = 1080
 ExplosionBlock = 5
-ExplosionInWater = 18
+ExplosionInWater = 14
 ModeNum = 2
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
@@ -27,7 +25,7 @@ DamageFactor = player, 20.0
 
 
 MaxAmmo = 6
-SuppliedNum = 6
-Item =  1, iron_ingot
-Item =  2, gunpowder
-Item =  1, redstone
+SuppliedNum = 1
+Item =  4, iron_ingot
+Item =  8, gunpowder
+Item =  2, redstone

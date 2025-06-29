@@ -2,7 +2,8 @@ DisplayName = 155mm M284 Cannon [M795E2 - HE-BB]
 Type = MachineGun1
 Power = 500
 ModelBullet = bullet105mm
-Explosion = 25
+Explosion = 5
+ExplosionInWater = 3
 ExplosionBlock = 5
 Sight = None
 

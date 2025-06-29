@@ -1,4 +1,4 @@
-DisplayName = 20mm Vektor F2 Autocannon
+DisplayName = 20mm Vektor F2 Automatic Cannon
 Type = MachineGun1
 Power = 17
 Acceleration = 6.0

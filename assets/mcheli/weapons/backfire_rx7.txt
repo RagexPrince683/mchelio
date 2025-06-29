@@ -2,7 +2,6 @@ DisplayName = Back Fire
 Type = MachineGun2
 Power = 1
 Acceleration = 0.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 8

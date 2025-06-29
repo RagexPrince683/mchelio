@@ -2,7 +2,8 @@ DisplayName = 155mm M284 Cannon [M712 Copperhead - Guided Shell]
 Type = TVMissile
 Power = 800
 ModelBullet = bullet105mm
-Explosion = 15
+Explosion = 4
+ExplosionInWater = 2
 ExplosionBlock = 3
 Sight = None
 
@@ -53,6 +54,6 @@ RecoilBufCount = 40, 1400
 
 MaxAmmo = 5
 SuppliedNum = 1
-Item =  2, iron_ingot
-Item =  5, gunpowder
+Item = 2, iron_ingot
+Item = 5, gunpowder
 Item = 1, redstone

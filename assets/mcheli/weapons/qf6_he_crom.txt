@@ -3,7 +3,8 @@ Type = MachineGun2
 Power = 10
 ModelBullet = bullet76mm
 ;Acceleration = 3.0
-Explosion = 3
+Explosion = 2
+ExplosionInWater = 1
 ExplosionBlock = 2
 Sight = MoveSight
 
@@ -12,8 +13,6 @@ SoundVolume = 20
 Sound = tank_gun_snd
 Gravity = -0.005
 Recoil = 1.5
-
-
 Delay = 120
 ReloadTime = 120
 Group = MainGun
@@ -35,10 +34,6 @@ MaxHeatCount = 2050
 RecoilBufCount = 40, 5
 
 Round = 1
-
-
-
-
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  7.1,      1.75,        6,  200,254,219,104
 AddMuzzleFlash      =  7.0,      1.70,        5,  200,254,219,184

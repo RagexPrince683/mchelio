@@ -1,9 +1,8 @@
-DisplayName = Type 86 7.62mm Gun
+DisplayName = 7.62mm Type 86 Gun
 Type = MachineGun1
 Power = 7
 Acceleration = 9.0
 Accuracy = 0.25
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1

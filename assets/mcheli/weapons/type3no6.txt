@@ -1,8 +1,8 @@
-DisplayName = Type 3 No6 Mod 27
+DisplayName = Type 3 No6 Mod 27 Rocket
 Type = Rocket
 Power = 25
 Acceleration = 4.0
-Explosion = 2
+Explosion = 3
 Flaming = false
 Sight = MoveSight
 Delay = 5
@@ -19,5 +19,5 @@ DamageFactor = heli, 3.0
 
 MaxAmmo = 12
 SuppliedNum = 4
-Item =  2, iron_ingot
-Item =  2, gunpowder
+Item =  3, iron_ingot
+Item =  3, gunpowder

@@ -1,4 +1,4 @@
-DisplayName = 	25mm M242 [M919]
+DisplayName = 25mm M242 [M919]
 Type = MachineGun2
 Power = 7
 Acceleration = 8.0

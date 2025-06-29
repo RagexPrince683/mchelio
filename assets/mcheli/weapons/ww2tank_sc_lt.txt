@@ -2,8 +2,6 @@ DisplayName = Small-Caliber Gun [LT]
 Type = MachineGun2
 Power = 85
 Acceleration = 9.0
-Explosion = 2
-ExplosionBlock = 2
 Sight = None
 ReloadTime = 150
 Round = 1
@@ -15,7 +13,6 @@ Gravity = -0.02
 Particle = largeexplode
 Sound = ww2tankshot_snd
 ModeNum = 2
-
 MaxAmmo = 50
 SuppliedNum = 10
 Item =  2, iron_ingot

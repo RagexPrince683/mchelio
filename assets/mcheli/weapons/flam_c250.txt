@@ -1,8 +1,6 @@
-DisplayName = FLAM-C250B 250kg Incendiary
+DisplayName = 250kg FLAM-C250B Incendiary
 Type = Bomb
-Power = 1000
 Acceleration = 1.3
-Explosion = 4
 Flaming = true
 Sight = None
 Delay = 7
@@ -12,11 +10,11 @@ FAE = True
 
 ;bomb rewrite
 Acceleration = 0.5
-Explosion = 25
+Explosion = 9
 ;Explosive mass	125 kg
 Power = 500
 ExplosionBlock = 2
-ExplosionInWater = 0
+ExplosionInWater = 5
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

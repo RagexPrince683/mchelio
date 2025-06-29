@@ -1,7 +1,8 @@
 DisplayName = 90mm KV90S73 Cannon [slsgr m/72 - HE]
 Type = MachineGun2
 Power = 24
-Explosion = 4
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 2
 Acceleration = 6.0
 SoundVolume = 15.0

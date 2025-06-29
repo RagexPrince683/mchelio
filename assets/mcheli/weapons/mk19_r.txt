@@ -1,9 +1,9 @@
-DisplayName = Mark 19 Grenade Launcher (Right Side)
+DisplayName = Mark 19 Grenade Launcher [M430 - HEDP] (Right Side)
 Type = Rocket
 ModelBullet = mk19bullet
 Power = 15
 Acceleration = 2.5
-Explosion = 5
+Explosion = 1
 ExplosionBlock = 2
 ExplosionInWater = 1
 Flaming = true

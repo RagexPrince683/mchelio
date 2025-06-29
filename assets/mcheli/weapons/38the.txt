@@ -3,7 +3,7 @@ Type = MachineGun2
 Power = 9
 
 ModelBullet = bullet76mm
-Explosion = 2
+Explosion = 1
 ExplosionBlock = 1
 Sight = MoveSight
 ReloadTime = 60

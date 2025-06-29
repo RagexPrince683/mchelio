@@ -1,7 +1,7 @@
 DisplayName = 81mm Mortar
 Type = Rocket
 Power = 35
-Explosion = 19
+Explosion = 2
 ExplosionBlock = 1
 Acceleration = 4.0
 SoundVolume = 4.0

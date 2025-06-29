@@ -1,9 +1,10 @@
-DisplayName = B-8V20A [S-8 Rocket]
+DisplayName = 80mm B-8V20A Rocket Pod [S-8 - HE]
 Type = Rocket
 Power = 400
 ModelBullet = hydra70
 Acceleration = 4.0
-Explosion = 3
+Explosion = 4
+ExplosionInWater = 2
 Flaming = false
 Sight = MoveSight
 Delay = 1
@@ -32,6 +33,6 @@ SoundVolume = 15
 
 
 MaxAmmo = 20
-SuppliedNum = 20
+SuppliedNum = 5
 Item =  4, iron_ingot
 Item =  3, gunpowder

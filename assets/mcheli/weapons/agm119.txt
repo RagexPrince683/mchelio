@@ -2,7 +2,7 @@ DisplayName = AGM-119B Penguin
 Type = TVMissile
 Power = 1000
 Acceleration = 4.0
-Explosion = 20
+Explosion = 12
 ExplosionBlock = 10
 Flaming = true
 Sight = MoveSight
@@ -14,11 +14,11 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-ExplosionInWater = 40
+ExplosionInWater = 12
 
 
 MaxAmmo = 4
 SuppliedNum = 1
-Item =  1, iron_ingot
-Item =  2, gunpowder
-Item =  1, redstone
+Item =  4, iron_ingot
+Item =  5, gunpowder
+Item =  2, redstone

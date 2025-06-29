@@ -32,7 +32,9 @@ Delay = 60
 ReloadTime = 100
 
 
-
+Item = 2, iron_ingot
+Item = 2, gunpowder
+Item = 1, redstone
 
 
 ModeNum = 2

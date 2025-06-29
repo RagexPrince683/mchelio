@@ -1,10 +1,11 @@
-DisplayName = JM61A1 20mm‹@ŠÖ–C
+DisplayName = 20mm JM61A1 Cannon
 Type = MachineGun2
 ModelBullet = bullet
 Power = 40
 Acceleration = 8.0
-Explosion = 1
-ExplosionBlock = 1
+;Explosion = 1
+;ExplosionBlock = 1
+;wtf even is this
 Flaming = false
 Sight = MoveSight
 Delay = 0

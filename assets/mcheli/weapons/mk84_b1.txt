@@ -3,9 +3,6 @@ Type = Bomb
 Power = 2000
 ModelBullet = 1000lbBomb
 Acceleration = 0.1
-Explosion = 20
-ExplosionBlock = 6
-ExplosionInWater = 6
 Flaming = false
 Sight = None
 Round = 10
@@ -14,11 +11,11 @@ Sound = bomb_snd
 
 ;bomb rewrite
 Acceleration = 0.5
-Explosion = 50
+Explosion = 17
 ;Explosive mass	269.9 kg kg
 Power = 1080
 ExplosionBlock = 5
-ExplosionInWater = 0
+ExplosionInWater = 9
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

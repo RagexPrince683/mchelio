@@ -2,7 +2,6 @@ DisplayName = MK24 Flare
 Type = MkRocket
 Power = 0
 Acceleration = 7.5
-Explosion = 0
 Flaming = false
 Sight = None
 Sound = bomb_snd
@@ -14,7 +13,7 @@ Gravity = -0.02
 
 
 MaxAmmo = 8
-SuppliedNum = 4
+SuppliedNum = 1
 Item =  3, iron_ingot
 Item =  3, gunpowder
 Item =  3, redstone

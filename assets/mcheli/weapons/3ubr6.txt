@@ -2,7 +2,7 @@ DisplayName = 30mm 2A42 Cannon [3UBR6 - APBC-T]
 Type = MachineGun2
 Power = 40
 
-Explosion = 1
+;Explosion = 1
 Flaming = false
 Sight = MoveSight
 Delay = 2

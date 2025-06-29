@@ -1,8 +1,7 @@
-DisplayName = GIAT THL 20mm Cannon
+DisplayName = 20mm GIAT THL Cannon
 Type = MachineGun2
 Power = 17
 Acceleration = 7.5
-Explosion = 1
 Flaming = false
 Sight = MoveSight
 Delay = 1

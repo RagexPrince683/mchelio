@@ -1,7 +1,8 @@
 DisplayName = 152mm M-10T Howitzer [PB-35 - SAPCBC]
 Type = MachineGun2
 Power = 86
-Explosion = 10
+Explosion = 4
+ExplosionInWater = 2
 ExplosionBlock = 5
 Sight = None
 Round = 1

@@ -1,4 +1,4 @@
-DisplayName = S-8TsM 80mm Marker
+DisplayName = 80mm S-8TsM Marker
 Type = MkRocket
 Power = 0
 Acceleration = 7.0
@@ -11,6 +11,6 @@ Sound = rocket_snd
 Gravity = -0.001
 
 MaxAmmo = 4
-SuppliedNum = 2
-Item =  1, iron_ingot
-Item =  1, gunpowder
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  2, gunpowder

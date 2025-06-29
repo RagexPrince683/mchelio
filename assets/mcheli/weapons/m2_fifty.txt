@@ -2,7 +2,6 @@ DisplayName = M2 Browning
 Type = MachineGun2
 Power = 31
 Acceleration = 7.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
@@ -15,9 +14,7 @@ Accuracy = 0.5
 HeatCount = 4
 MaxHeatCount = 225
 Gravity = -0.001
-
 ModelBullet = bullet
-
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0

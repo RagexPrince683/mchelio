@@ -3,6 +3,7 @@ Type = MachineGun1
 Power = 400
 ModelBullet = bullet105mm
 Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 1
 Acceleration = 4.2
 Sight = None

@@ -1,7 +1,8 @@
 DisplayName = 152mm M-10T Howitzer [G-530 - SAPCBC]
 Type = MachineGun2
 Power = 69
-Explosion = 9
+Explosion = 4
+ExplosionInWater = 2
 ExplosionBlock = 3
 Sight = None
 Round = 1

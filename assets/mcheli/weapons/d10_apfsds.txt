@@ -1,10 +1,8 @@
-DisplayName = D-102TC Rifled gun[APFSDS]
+DisplayName = D-102TC Rifled gun [APFSDS]
 Type = MachineGun1
 Power = 337
 ModelBullet = bullet105mm
 Acceleration = 8.0
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = None
 Delay = 120

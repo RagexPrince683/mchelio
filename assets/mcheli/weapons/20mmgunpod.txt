@@ -2,7 +2,8 @@ DisplayName = 20mm Gunpod
 Type = MachineGun1
 Power = 40
 Acceleration = 8.0
-Explosion = 1
+;Explosion = 1
+;what
 Flaming = false
 Sight = MoveSight
 Delay = 1

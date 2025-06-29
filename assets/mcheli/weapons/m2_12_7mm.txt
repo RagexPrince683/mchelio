@@ -2,7 +2,6 @@ DisplayName = 12.7mm M2 Heavy Machine Gun
 Power = 31
 Acceleration = 7.0
 Type = MachineGun2
-Explosion = 0
 Flaming = false
 ReloadTime = 200
 Round = 110

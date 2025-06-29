@@ -2,9 +2,9 @@ DisplayName = Kh-35 Anti Ship Missile
 Type = TVMissile
 Power = 1000
 Acceleration = 6.5
-Explosion = 8
+Explosion = 12
 ExplosionBlock = 2
-ExplosionInWater = 16
+ExplosionInWater = 12
 Flaming = true
 Sight = MoveSight
 Delay = 10
@@ -21,7 +21,7 @@ SoundPitchRandom = 0.1
 
 Sound = hydraseventy
 
-DamageFactor = tank, 1.0
+DamageFactor = tank, 2.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
@@ -43,6 +43,6 @@ AddMuzzleFlashSmoke =  -6.2, 13,  13.0,  6.0, 35,  200,190,170,150
 
 MaxAmmo = 8
 SuppliedNum = 1
-Item =  1, iron_ingot
-Item =  12, gunpowder
+Item =  3, iron_ingot
+Item =  16, gunpowder
 Item =  2, redstone

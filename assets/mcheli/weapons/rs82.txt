@@ -1,8 +1,9 @@
-DisplayName = RS-82
+DisplayName = 82mm RS-82 Rocket
 Type = Rocket
 Power = 25
 Acceleration = 4.0
 Explosion = 2
+ExplosionInWater = 1
 Flaming = false
 Sight = MoveSight
 Delay = 5

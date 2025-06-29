@@ -1,9 +1,10 @@
-DisplayName = S-5 57mm
+DisplayName = 57mm S-5
 Type = Rocket
 Power = 150
 ModelBullet = hydra70
 Acceleration = 4.0
-Explosion = 3
+Explosion = 2
+ExplosionInWater = 1
 Flaming = false
 Sight = MoveSight
 Sound = rocket_snd

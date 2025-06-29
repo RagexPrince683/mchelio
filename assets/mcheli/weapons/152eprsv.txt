@@ -2,7 +2,7 @@ DisplayName = 152EPrSv [HE]
 Type = MachineGun1
 Power = 450
 ModelBullet = bullet105mm
-Explosion = 6
+Explosion = 4
 ExplosionBlock = 5
 Acceleration = 10.0
 Sight = None
@@ -39,5 +39,5 @@ Recoil = 2.5
 
 MaxAmmo = 20
 SuppliedNum = 2
-Item =  1, iron_ingot
-Item =  1, gunpowder
+Item =  5, iron_ingot
+Item =  5, gunpowder

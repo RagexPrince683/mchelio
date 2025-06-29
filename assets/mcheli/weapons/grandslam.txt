@@ -4,8 +4,8 @@ Power = 34012
 ModelBullet = slam
 Acceleration = 0.8
 ;AccelerationInWater = 2.5
-Explosion = 150
-ExplosionInWater = 80
+Explosion = 38
+ExplosionInWater = 38
 Flaming = true
 Sight = None
 Delay = 40
@@ -22,7 +22,7 @@ Group = maingun
 ProximityFuseDist = 5
 ;ExplosionAltitude =
 
-DelayFuse = 15
+DelayFuse = 3
 
 Piercing = 40
  
@@ -36,6 +36,6 @@ ParticlesScale = 40
 
 MaxAmmo = 1
 SuppliedNum = 1
-Item =  4, iron_ingot
+Item =  8, iron_ingot
 Item =  64, gunpowder
 Item =  32, tnt

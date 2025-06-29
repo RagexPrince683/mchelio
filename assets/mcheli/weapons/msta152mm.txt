@@ -1,9 +1,10 @@
-DisplayName = 152mm "Msta-C" Gun
+DisplayName = 152mm Msta-C Cannon [OF-45 - HE]
 Type = Rocket
 Power = 500
 ModelBullet = mstabhe
 Acceleration = 8.0
-Explosion = 10
+Explosion = 5
+ExplosionInWater = 2
 ExplosionBlock = 5
 Flaming = false
 Sight = None

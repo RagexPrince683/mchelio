@@ -1,10 +1,10 @@
-DisplayName = GSh-6-23M (armor-piercing-incendiary-tracer)
+DisplayName = 23mm GSh-6-23M Cannon [API-T]
 Type = MachineGun2
 Power = 18
 Acceleration = 8.0
-Explosion = 0
+Explosion = 1
 ExplosionBlock = 0
-Flaming = false
+Flaming = true
 Sight = MoveSight
 Delay = 0
 ReloadTime = 70
@@ -30,6 +30,6 @@ HeatCount = 1
 MaxHeatCount = 65
 
 MaxAmmo = 200
-SuppliedNum = 200
+SuppliedNum = 50
 Item =  2, iron_ingot
 Item =  2, gunpowder

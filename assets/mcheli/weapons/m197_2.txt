@@ -1,4 +1,4 @@
-DisplayName = M197 M940 [MPT-SD] 20mm gun
+DisplayName = 20mm M197 Cannon [M940 - MPT-SD]
 Type = MachineGun2
 Power = 16
 Acceleration = 7.0
@@ -8,7 +8,7 @@ Sight = MoveSight
 Delay = 1
 ReloadTime = 20
 Round = 200
-HeatCount = 4
+HeatCount = 1
 MaxHeatCount = 150
 SoundPitch = 1.0
 Sound = ah

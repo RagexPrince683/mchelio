@@ -1,8 +1,9 @@
-DisplayName = LAU-68/APKWS
+DisplayName = 70mm LAU-68/APKWS
 Type = TVMissile
 Power = 400
 Acceleration = 2.0
-Explosion = 3
+Explosion = 4
+ExplosionInWater = 2
 Flaming = true
 Sight = MoveSight
 Delay = 50
@@ -23,7 +24,7 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 MaxAmmo = 8
-SuppliedNum = 2
-Item =  1, iron_ingot
-Item =  1, gunpowder
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  6, gunpowder
 Item =  1, redstone

@@ -1,8 +1,8 @@
 DisplayName = Drop Tank
 Type = Bomb
-Power = 10
+Power = 30
 Acceleration = 0.1
-Explosion = 0
+Explosion = 2
 ExplosionInWater = 0
 Flaming = true
 Sight = None

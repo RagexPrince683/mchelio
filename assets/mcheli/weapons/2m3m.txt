@@ -3,7 +3,6 @@ AddDisplayName = en_US, 25mm 2M-3M
 Type = MachineGun2
 Power = 18
 Acceleration = 9.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1

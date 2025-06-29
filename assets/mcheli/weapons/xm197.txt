@@ -1,8 +1,7 @@
-DisplayName = XM197 [MPT-SD]
+DisplayName = 20mm XM197 Automatic Cannon [MPT-SD]
 Type = MachineGun2
 ModelBullet = bullet
 Power = 15
-Acceleration = 8.0
 Explosion = 1
 Flaming = false
 Sight = MoveSight

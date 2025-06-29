@@ -1,8 +1,6 @@
 DisplayName = 12.7mm Browning AN/M3 Machine Gun
 Type = MachineGun1
 Power = 31
-Acceleration = 7.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 0
@@ -22,6 +20,6 @@ DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
 
 MaxAmmo = 1800
-SuppliedNum = 1800
+SuppliedNum = 900
 Item =  2, iron_ingot
 Item =  2, gunpowder

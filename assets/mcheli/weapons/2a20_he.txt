@@ -1,9 +1,10 @@
-DisplayName = 2A20 115MM Smoothbore Gun [3OF11 - HE]
+DisplayName = 115mm 2A20 Smoothbore Gun [3OF11 - HE]
 Type = MachineGun2
 Power = 60
 ModelBullet = bullet105mm
 Acceleration = 5.0
-Explosion = 4
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 4
 Flaming = false
 Sight = MoveSight

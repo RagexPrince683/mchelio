@@ -1,8 +1,7 @@
-DisplayName = PWU 7.92mm Machine Gun
+DisplayName = 7.92mm PWU Machine Gun
 Type = MachineGun1
 Power = 8
 Acceleration = 7.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 0
@@ -15,6 +14,6 @@ SetCartridge = cartridge, 0.0, 0, 0, 2.00, -0.04, 0.40
 Particle = explode
 
 MaxAmmo = 600
-SuppliedNum = 150
+SuppliedNum = 100
 Item =  2, iron_ingot
 Item =  2, gunpowder

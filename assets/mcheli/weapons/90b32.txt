@@ -2,8 +2,6 @@ DisplayName = 30mm 2A42 Cannon [3UBR8 - APDS]
 Type = MachineGun2
 Power = 82
 
-Explosion = 0
-ExplosionBlock = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1

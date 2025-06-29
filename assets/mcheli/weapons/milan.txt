@@ -3,7 +3,8 @@ Type = TVMissile
 Power = 530
 Acceleration = 2.0
 ExplosionBlock = 2
-Explosion = 6
+Explosion = 3
+ExplosionInWater = 2
 Flaming = true
 Sight = MoveSight
 ReloadTime = 200
@@ -25,7 +26,7 @@ Group = MainGun
 
 
 MaxAmmo = 4
-SuppliedNum = 4
-Item =  1, iron_ingot
+SuppliedNum = 1
+Item =  2, iron_ingot
 Item =  3, gunpowder
-Item =  1, redstone
+Item =  2, redstone

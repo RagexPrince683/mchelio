@@ -1,8 +1,9 @@
 DisplayName = GBU-10 Paveway II
 Type = ASMissile
-Power = 35
+Power = 1080
 Acceleration = 1.7
-Explosion = 5
+Explosion = 17
+ExplosionInWater = 9
 ExplosionBlock = 4
 Sight = MoveSight
 Delay = 10
@@ -17,7 +18,7 @@ DisableSmoke = true
 Round = 2
 
 MaxAmmo = 4
-SuppliedNum = 2
+SuppliedNum = 1
 Item =  5, iron_ingot
 Item =  5, gunpowder
 Item =  5, redstone

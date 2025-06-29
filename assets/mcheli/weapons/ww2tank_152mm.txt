@@ -1,8 +1,7 @@
-DisplayName = 122mmMainGun[HE]
+DisplayName = 122mm Main Gun [HE]
 Type = MachineGun1
 Power = 70
 Acceleration = 5.5
-Explosion = 5
 Sight = None
 ReloadTime = 140
 Round = 1
@@ -11,7 +10,6 @@ Accuracy = 1.5
 Gravity = -0.02
 Particle = largeexplode
 Sound = ww2tankshot_snd
-
 MaxAmmo = 15
 SuppliedNum = 10
 Item =  2, iron_ingot

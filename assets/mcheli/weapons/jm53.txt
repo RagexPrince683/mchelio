@@ -2,8 +2,6 @@ DisplayName = 120mm TKG Cannon [JM33 - APFSDS]
 Type = MachineGun1
 Power = 481
 ModelBullet = bullet105mm
-Explosion = 1
-ExplosionBlock = 1
 Acceleration = 16.0
 Sight = None
 ReloadTime = 40
@@ -45,6 +43,6 @@ SoundVolume = 15
 Recoil = 2.5
 
 MaxAmmo = 12
-SuppliedNum = 12
+SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder

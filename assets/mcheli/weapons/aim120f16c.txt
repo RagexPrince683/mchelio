@@ -2,7 +2,7 @@ DisplayName = AIM-120 AMRAAM [AAM]
 Type = AAMissile
 Power = 70
 Acceleration = 5
-Explosion = 5
+Explosion = 7
 Flaming = false
 Sight = MissileSight
 Delay = 9
@@ -20,7 +20,7 @@ DamageFactor = heli, 3.0
 
 
 MaxAmmo = 2
-SuppliedNum = 2
+SuppliedNum = 1
 Item =  2, iron_ingot
 Item =  2, gunpowder
 Item =  2, redstone

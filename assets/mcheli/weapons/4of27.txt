@@ -1,8 +1,9 @@
-DisplayName = 152mm howitzer 2A65 OF-45 [HE]
+DisplayName = 152mm howitzer 2A65 [OF-45 - HE]
 Type = MachineGun1
 Power = 700
 ModelBullet = bullet105mm
-Explosion = 25
+Explosion = 4
+ExplosionInWater = 2
 ExplosionBlock = 5
 Acceleration = 4.0
 Sight = None

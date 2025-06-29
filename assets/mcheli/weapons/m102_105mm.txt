@@ -1,9 +1,10 @@
-DisplayName = M102 105mm Howitzer
+DisplayName = 105mm M102 Howitzer [M1 - HE]
 Type = MachineGun2
 Power = 100
 ModelBullet = bullet76mm
 Acceleration = 4.5
-Explosion = 6
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 4
 Flaming = false
 Sight = MoveSight

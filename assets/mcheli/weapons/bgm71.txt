@@ -3,6 +3,7 @@ Type = TVMissile
 Power = 900
 Acceleration = 2.0
 Explosion = 4
+ExplosionInWater = 2
 Flaming = true
 Sight = MoveSight
 Delay = 100
@@ -37,7 +38,7 @@ SoundVolume = 15
 ;RigidityTime = 30
 
 MaxAmmo = 8
-SuppliedNum = 2
-Item =  3, iron_ingot
+SuppliedNum = 1
+Item =  4, iron_ingot
 Item =  2, gunpowder
 Item =  1, redstone

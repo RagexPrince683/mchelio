@@ -1,9 +1,7 @@
-DisplayName = GShG - 7.62 Machine Gun
+DisplayName = 7.62mm GShG Machine Gun
 Type = MachineGun2
 ModelBullet = bullet
 Power = 8
-Acceleration = 8.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 0

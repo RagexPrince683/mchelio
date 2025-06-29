@@ -1,8 +1,7 @@
 DisplayName = 30mm Mk44 Bushmaster II Automatic Cannon [MK258 - APFSDS]
 Type = MachineGun2
 Power = 116
-Acceleration = 8.0
-Explosion = 0
+Acceleration = 7.0
 Flaming = false
 Sight = MoveSight
 Delay = 5

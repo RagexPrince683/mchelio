@@ -1,9 +1,7 @@
-DisplayName = 20mm MG 151 Autocannon [Front]
+DisplayName = 20mm MG151 Automatic Cannon [Front]
 Type = MachineGun1
 Power = 21
 Acceleration = 5.0
-Explosion = 1
-ExplosionBlock = 0
 Flaming = false
 Sight = None
 Delay = 1

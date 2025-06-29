@@ -1,10 +1,11 @@
-DisplayName = 9M120  Ataka [ATGM] [HEAT]
+DisplayName = 9M120M Ataka
 Type = TVMissile
 Power = 950
 Piercing = 0
 Acceleration = 2.0
-Explosion = 4
-Flaming = true
+Explosion = 5
+ExplosionInWater = 2
+Flaming = false
 Sight = MoveSight
 Delay = 100
 ModeNum = 2
@@ -15,12 +16,17 @@ Sound = missile_atgm2_snd
 
 ;DEBUG:Manual control only
 ;FixMode = 1
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 ; DEBUG
 ;RigidityTime = 30
 
 MaxAmmo = 4
-SuppliedNum = 2
-Item =  1, iron_ingot
-Item =  1, gunpowder
+SuppliedNum = 1
+Item =  4, iron_ingot
+Item =  4, gunpowder
 Item =  1, redstone

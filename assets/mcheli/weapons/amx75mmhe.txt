@@ -3,7 +3,8 @@ Type = MachineGun2
 Power = 15
 ModelBullet = bullet76mm
 Acceleration = 5.0
-Explosion = 4
+Explosion = 2
+ExplosionInWater = 1
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
@@ -37,6 +38,6 @@ AddMuzzleFlashSmoke = 10.2, 20, 13.0,  7.0, 55,  200,190,170,150
 RecoilBufCount = 40, 5
 
 MaxAmmo = 18
-SuppliedNum = 6
+SuppliedNum = 9
 Item =  2, iron_ingot
 Item =  2, gunpowder

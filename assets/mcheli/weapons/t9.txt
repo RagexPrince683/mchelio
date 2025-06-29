@@ -1,4 +1,4 @@
-DisplayName = T9 37mm Cannon
+DisplayName = 37mm T9 Cannon
 Type = Machinegun2
 Power = 25
 Acceleration = 6.5

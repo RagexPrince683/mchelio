@@ -2,8 +2,6 @@ DisplayName = 155mm M284 Cannon [M718 RAAMS - Anti-Tank Mines]
 Type = Dispenser
 ;Power = 10
 ModelBullet = bullet105mm
-;Explosion = 20
-;ExplosionBlock = 5
 Sight = None
 
 Round = 1

@@ -1,9 +1,10 @@
-DisplayName = UB-32M [S-5 Rocket]
+DisplayName = UB-32M [S-5K Rocket]
 Type = Rocket
 Power = 150
 ModelBullet = hydra70
 Acceleration = 5
-Explosion = 3
+Explosion = 2
+ExplosionInWater = 1
 Flaming = false
 Sight = MoveSight
 Sound = rocket_snd

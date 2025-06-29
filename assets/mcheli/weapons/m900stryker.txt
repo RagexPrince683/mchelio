@@ -1,14 +1,9 @@
 DisplayName = 105mm M68A1E8 Cannon [M900 - APFSDS]
 Type = MachineGun1
 Power = 522
-;DamageFactor = tank, 1.0
-;DamageFactor = plane, 3.0
-;DamageFactor = vehicle 2.0
-;DamageFactor = heli, 3.0
 ModelBullet = bullet105mm
-Explosion = 0
-ExplosionBlock = 0
-;Acceleration = 16.0
+
+
 Sight = None
 ;ReloadTime = 40
 ;Delay = 150

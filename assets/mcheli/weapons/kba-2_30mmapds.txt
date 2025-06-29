@@ -3,7 +3,6 @@ Type = MachineGun2
 Power = 82
 Acceleration = 6.0
 Piercing = 2
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 2

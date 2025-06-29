@@ -1,9 +1,9 @@
-DisplayName = QF-6 95mm [HE]
+DisplayName = 95mm QF-6 [HE]
 Type = MachineGun2
 Power = 30
 ModelBullet = bullet76mm
 Acceleration = 3.0
-Explosion = 6
+Explosion = 3
 ExplosionBlock = 6
 Sight = MoveSight
 Delay = 150

@@ -1,8 +1,8 @@
-DisplayName = 30mm MK108 Autocannon
+DisplayName = 30mm MK108 Automatic Cannon
 Type = MachineGun1
 Power = 25
 Acceleration = 4.5
-Explosion = 2
+Explosion = 1
 ExplosionBlock = 1
 Flaming = true
 Sight = MoveSight

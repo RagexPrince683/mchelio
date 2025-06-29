@@ -1,8 +1,7 @@
-DisplayName = 20mm Type 99 Mark 1 Autocannon
+DisplayName = 20mm Type 99 Mark 1 Automatic Cannon
 Type = MachineGun1
 Power = 16
 Acceleration = 8.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1

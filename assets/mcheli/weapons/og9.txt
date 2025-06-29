@@ -3,7 +3,8 @@ Type = MachineGun2
 Power = 11
 ModelBullet = bullet105mm
 Acceleration = 5.0
-Explosion = 4
+Explosion = 2
+ExplosionInWater = 1
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight
@@ -13,7 +14,6 @@ ModeNum = 1
 SoundVolume = 20
 Sound = spgnine
 Gravity = -0.005
-
 Delay = 70
 ReloadTime = 100
 Group = MainGun
@@ -28,8 +28,6 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
-
-
 AddMuzzleFlash      =  10.2,      1.80,        7,  200,254,129,44
 AddMuzzleFlash      =  10.1,      1.75,        6,  200,254,219,104
 AddMuzzleFlash      =  10.0,      1.70,        5,  200,254,219,184

@@ -1,4 +1,4 @@
-DisplayName = BGM-71B TOW-2 [ATGM]
+DisplayName = BGM-71B TOW-2
 Type = TVMissile
 Power = 430
 
@@ -22,7 +22,8 @@ SoundVolume = 15
 
 Acceleration = 3.0
 LockTime = 20
-Explosion = 2
+Explosion = 3
+ExplosionInWater = 2
 Flaming = false
 Sight = MoveSight
 Delay = 20

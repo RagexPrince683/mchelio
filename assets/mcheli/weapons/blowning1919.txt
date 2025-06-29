@@ -1,8 +1,7 @@
-DisplayName = 7.7mm Browning M1919 Machine Gun
+DisplayName = 7.7mm M1919 Browning Machine Gun
 Type = MachineGun1
 Power = 13
 Acceleration = 7.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 0

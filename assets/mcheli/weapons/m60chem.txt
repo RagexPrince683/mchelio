@@ -42,6 +42,6 @@ RecoilBufCount = 40, 5
 
 MaxAmmo = 10
 SuppliedNum = 10
-Item =  4, iron_ingot
-Item =  6, gunpowder
-Item = 1, hbm:item.powder_poison
+Item = 4, iron_ingot
+Item = 6, gunpowder
+Item = 1, mcheli:poison

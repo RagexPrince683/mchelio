@@ -4,6 +4,7 @@ Power = 550
 ModelBullet = bullet105mm
 Acceleration = 7.0
 Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 2
 Flaming = false
 Sight = MoveSight

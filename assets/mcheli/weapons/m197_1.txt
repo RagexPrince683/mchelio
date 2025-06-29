@@ -1,20 +1,21 @@
-DisplayName = M197 M53 [API] 20mm gun
+DisplayName = 20mm M197 Cannon [M53 - API]
 Type = MachineGun2
 Power = 40
 Acceleration = 7.0
-Explosion = 0
-Flaming = false
+Explosion = 1
+Flaming = true
+;maybe?
+;FAE = true
 Sight = MoveSight
 Delay = 1
 ReloadTime = 20
-HeatCount = 4
+HeatCount = 1
 MaxHeatCount = 150
 Round = 200
 SoundPitch = 1.0
 Sound = ah
 SoundVolume = 15
 Accuracy = 1.0
-ModeNum = 2
 
 
 DamageFactor = tank, 1.0

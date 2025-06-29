@@ -1,7 +1,7 @@
-DisplayName = Rehinmetall Smoothbore Gun[HEAT]
+DisplayName = Rehinmetall Smoothbore Gun [HEAT]
 Type = MachineGun1
 Power = 600
-Explosion = 4
+Explosion = 3
 ExplosionBlock = 4
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0

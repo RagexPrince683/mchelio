@@ -1,10 +1,11 @@
-DisplayName = S-8 80mm Rocket
+DisplayName = 80mm S-8 Rocket
 Type = Rocket
 Power = 400
 
 ModelBullet = hydra70
 Acceleration = 4.0
-Explosion = 3
+Explosion = 4
+ExplosionInWater = 2
 Flaming = false
 Sight = None
 Delay = 2
@@ -28,7 +29,7 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 MaxAmmo = 80
-SuppliedNum = 40
+SuppliedNum = 20
 Item =  4, iron_ingot
 Item =  3, gunpowder
 

@@ -1,7 +1,7 @@
 DisplayName = 60mm Mortar
 Type = MachineGun1
 Power = 40
-Explosion = 10
+Explosion = 1
 ExplosionBlock = 2
 Acceleration = 4.0
 Gravity = -0.07

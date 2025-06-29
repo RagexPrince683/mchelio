@@ -1,8 +1,7 @@
-DisplayName = M242 25mm Bushmaster Cannon
+DisplayName = 25mm M242 Bushmaster Cannon
 Type = MachineGun2
 Power = 13
 Acceleration = 7.0
-Explosion = 0
 Flaming = false
 Sight = None
 Delay = 3

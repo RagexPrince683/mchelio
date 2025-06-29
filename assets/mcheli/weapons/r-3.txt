@@ -19,8 +19,6 @@ Sound = aimnine
 SoundPitch = 0.8
 SoundVolume = 15
 TrajectoryParticleStartTick = 10
-
-
 MaxAmmo = 4
 SuppliedNum = 2
 Item =  2, iron_ingot

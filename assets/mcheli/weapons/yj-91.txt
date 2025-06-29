@@ -1,8 +1,8 @@
 DisplayName = YJ-91 Supersonic Long-Range Anti-Ship/Anti-Radiation Missile
 Type = ATMissile
-Power = 300
+Power = 1080
 Acceleration = 5.0
-Explosion = 18
+Explosion = 10
 Flaming = true
 Sight = MissileSight
 Delay = 300
@@ -15,28 +15,16 @@ Round = 2
 Piercing  = 2
 RigidityTime = 10
 RidableOnly = false
-ExplosionInWater = 36
-
+ExplosionInWater = 10
 TrajectoryParticle = largeexplode
-
-
 TrajectoryParticleStartTick = 10
-
-
-
-
-
-
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-
-
-
 MaxAmmo = 2
-SuppliedNum = 2
-Item =  2, iron_ingot
+SuppliedNum = 1
+Item =  4, iron_ingot
 Item =  2, gunpowder
 Item =  2, redstone

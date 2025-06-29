@@ -1,12 +1,8 @@
 DisplayName = GBU-31
 Type = rocket
 DisableSmoke = true
-
-
 Power = 1000
 Acceleration = 1.7
-Explosion = 6
-ExplosionBlock = 3
 Flaming = true
 Sight = MoveSight
 Delay = 35
@@ -21,11 +17,11 @@ DisableSmoke = true
 
 ;bomb rewrite
 ;Acceleration = 0.5
-Explosion = 50
+Explosion = 17
 ;Explosive mass	269.9*5 kg kg
 Power = 1080
 ExplosionBlock = 5
-ExplosionInWater = 0
+ExplosionInWater = 9
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
@@ -34,9 +30,9 @@ DamageFactor = player, 20.0
 
 
 MaxAmmo = 4
-SuppliedNum = 4
+SuppliedNum = 1
 Item =  4, iron_ingot
 Item =  4, gunpowder
 Item =  4, redstone
 
-Item =  4, hbm:item.mp_stability_10_flat
+;Item =  4, hbm:item.mp_stability_10_flat

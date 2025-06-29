@@ -1,7 +1,8 @@
 DisplayName = 81mm M252 Mortar [M374A2 - HE]
 Type = Rocket
 Power = 35
-Explosion = 20
+Explosion = 2
+ExplosionInWater = 1
 ExplosionBlock = 1
 Acceleration = 4.0
 SoundVolume = 15.0

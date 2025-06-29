@@ -1,9 +1,9 @@
-DisplayName = S-5K Rocket
+DisplayName = 57mm S-5K Rocket
 Type = Rocket
 Power = 150
 ModelBullet = hydra70
 Acceleration = 4.0
-Explosion = 3
+Explosion = 2
 Flaming = false
 Sight = MoveSight
 Sound = rocket_snd

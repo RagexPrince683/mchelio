@@ -2,7 +2,8 @@ DisplayName = M864 Shell [DPICM]
 Type = Rocket
 Power = 18
 ModelBullet = 155mm
-Explosion = 4
+Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 2
 Acceleration = 6.0
 Sight = None
@@ -18,7 +19,7 @@ DamageFactor = player, 2.0
 
 SetCartridge = cartridge_2, 0.2, 180, 0, 0.3, -0.02, 0.65
 
-Bomblet = 40
+Bomblet = 72
 BombletDiff = 0.4
 BombletSTime = 25
 ModelBomblet = cbc

@@ -1,14 +1,7 @@
-DisplayName = MK82 500lb Bomb
+DisplayName = 500lb MK82 Bomb
 Type = Bomb
 Power = 1000
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
 Acceleration = 0.1
-Explosion = 4
-ExplosionBlock = 3
-ExplosionInWater = 0
 Flaming = false
 Sight = None
 Delay = 4
@@ -17,11 +10,11 @@ ModelBullet = mk82_b
 
 ;bomb rewrite
 Acceleration = 0.5
-Explosion = 15
+Explosion = 10
 ;Explosive mass	? kg
 Power = 500
 ExplosionBlock = 2
-ExplosionInWater = 0
+ExplosionInWater = 5
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

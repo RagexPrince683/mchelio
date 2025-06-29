@@ -1,10 +1,8 @@
-DisplayName = XM301 20mm Cannon
+DisplayName = 20mm XM301 Automatic Cannon
 Type = MachineGun2
 ModelBullet = bullet
 Power = 11
-Acceleration = 8.0
-Explosion = 1
-ExplosionBlock = 0
+
 Flaming = false
 Sight = MoveSight
 Delay = 0

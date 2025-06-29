@@ -4,6 +4,7 @@ Power = 440
 ModelBullet =3bk18m
 Acceleration = 7.0
 Explosion = 3
+ExplosionInWater = 2
 ExplosionBlock = 3
 Flaming = false
 Sight = None

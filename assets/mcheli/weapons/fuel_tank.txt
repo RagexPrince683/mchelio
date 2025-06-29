@@ -1,8 +1,8 @@
-DisplayName = ドロップタンク投棄
+DisplayName = Fuel Tank
 Type = Bomb
-Power = 1
+Power = 30
 Acceleration = 0.5
-Explosion = 5
+Explosion = 2
 FAE = true
 Flaming = true
 Delay = 20

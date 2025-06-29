@@ -1,10 +1,10 @@
-DisplayName = XM197 [API]
+DisplayName = 20mm XM197 Automatic Cannon [AP-I]
 Type = MachineGun2
 ModelBullet = bullet
 Power = 15
-Acceleration = 8.0
-Explosion = 0
-Flaming = false
+Explosion = 1
+ExplosionBlock = 0
+Flaming = true
 Sight = MoveSight
 Delay = 0
 SoundDelay = 3

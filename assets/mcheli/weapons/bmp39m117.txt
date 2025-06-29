@@ -3,7 +3,8 @@ Type = TVMissile
 Power = 750
 Acceleration = 4.0
 Piercing = 2
-Explosion = 3
+Explosion = 4
+ExplosionInWater = 2
 Flaming = false
 Sight = MoveSight
 

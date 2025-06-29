@@ -1,16 +1,17 @@
-DisplayName = CRV7 Rocket
+DisplayName = 70mm CRV7 Rocket [WDU‑50001/B - SAPHEI]
 Type = Rocket
 Power = 140
 ModelBullet = crv7
 Acceleration = 5.0
-Explosion = 3
+Explosion = 4
+ExplosionInWater = 2
 Flaming = false
 Sight = MoveSight
 Sound = rocket_snd
 Delay = 2
 ReloadTime = 80
 Round = 19
-ModeNum = 2
+;ModeNum = 2
 Piercing  = 2
 
 Sound = hydraseventy

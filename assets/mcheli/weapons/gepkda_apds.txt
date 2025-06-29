@@ -1,9 +1,6 @@
 DisplayName = 35mm Oerlikon GDF Automatic Cannon [DM23 - APDS]
 Type = MachineGun2
 Power = 127
-
-
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 0

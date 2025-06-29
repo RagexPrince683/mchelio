@@ -1,9 +1,9 @@
-DisplayName = QF-3 76mm 
+DisplayName = 76mm QF-3 
 Type = Rocket
 Power = 45
 ModelBullet = 88mm
 Acceleration = 35
-Explosion = 5
+Explosion = 3
 ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight

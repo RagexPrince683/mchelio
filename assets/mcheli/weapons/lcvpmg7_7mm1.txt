@@ -1,8 +1,6 @@
 DisplayName = 7.62mm Browning Machine Gun
 Type = MachineGun1
 Power = 7
-Acceleration = 8.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 2
@@ -26,7 +24,6 @@ DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
-;DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 

@@ -3,13 +3,12 @@ Type = MachineGun2
 Power = 40
 ModelBullet = bullet
 Acceleration = 8.0
-Explosion = 3
+Explosion = 1
 Flaming = false
 Sight = MoveSight
 Delay = 0
 SoundDelay = 0
 SoundPitch = 1.0
-Accuracy = 3.0
 ;HeatCount = 1
 
 

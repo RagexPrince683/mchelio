@@ -2,7 +2,6 @@ DisplayName = Canister Shot
 Type = Rocket
 Power = 80
 ModelBullet = bullet105mm
-Explosion = 3
 Acceleration = 4.0
 Sight = None
 ReloadTime =10000

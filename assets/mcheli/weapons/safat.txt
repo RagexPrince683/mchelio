@@ -1,8 +1,7 @@
-DisplayName = Breda SAFAT 12.7mm
+DisplayName = 12.7mm Breda SAFAT
 Type = MachineGun1
 Power = 31
 Acceleration = 4.5
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1

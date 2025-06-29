@@ -1,8 +1,6 @@
-DisplayName = 20mm Autocannon Firing Upward
+DisplayName = 20mm Automatic Cannon Firing Upward
 Type = MachineGun1
 Power = 16
-Acceleration = 8.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1

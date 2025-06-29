@@ -1,10 +1,11 @@
-DisplayName = S-13 122mm Rocket
+DisplayName = 122mm S-13 Rocket
 Type = Rocket
 Power = 500
 
 ModelBullet = hydra70
 Acceleration = 5.0
 Explosion = 4
+ExplosionInWater = 2
 Flaming = false
 Sight = MoveSight
 Delay = 1
@@ -26,6 +27,6 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 MaxAmmo = 20
-SuppliedNum = 20
+SuppliedNum = 5
 Item =  4, iron_ingot
 Item =  3, gunpowder

@@ -2,8 +2,9 @@ DisplayName = 9M113 Konkurs [9N131 HEAT - ATGM]
 Type =  TVMissile
 Power = 600
 Acceleration = 5
-Explosion = 1
-Flaming = true
+Explosion = 3
+ExplosionInWater = 2
+Flaming = false
 Sight =MissileSight
 Delay = 20
 ModelBullet = 9M113M
@@ -28,8 +29,6 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 AddDisplayName = en_US, 9M113M
 SoundVolume = 15
-
-
 
 
 MaxAmmo = 4

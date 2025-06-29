@@ -1,9 +1,9 @@
-DisplayName = GSh-6-23 30mm
+DisplayName = 30mm GSh-6-23 [API-T]
 Type = MachineGun1
 Power = 16
 Acceleration = 8.0
 Explosion = 1
-Flaming = false
+Flaming = true
 Sight = MoveSight
 Delay = 0
 SoundDelay = 1
@@ -25,6 +25,6 @@ Piercing = 0
 Gravity = -0.001
 
 MaxAmmo = 200
-SuppliedNum = 200
+SuppliedNum = 50
 Item =  2, iron_ingot
 Item =  2, gunpowder

@@ -7,10 +7,10 @@ DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 DamageFactor = player, 20.0
 
-Explosion = 15
+Explosion = 1
+ExplosionInWater = 1
 ExplosionBlock = 2
 Acceleration = 4.0
-
 Sound = mlrs
 SoundPitchRandom = 0.1
 Accuracy = 0.0
@@ -18,17 +18,14 @@ Accuracy = 0.0
 Flaming = false
 Sight = None
 Gravity = -0.04
-
 DelayFuze = 5
-
-
 BombletSTime = 50
 BombletDiff = 2.5
-Bomblet = 60
+Bomblet = 644
 
 TrajectoryParticle = largeexplode
 
-ModelBomblet = cbc
+ModelBomblet = bullet
 
 Delay = 8
 ReloadTime = 4800

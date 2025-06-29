@@ -30,4 +30,4 @@ MaxAmmo = 4
 SuppliedNum = 1
 Item =  2, iron_ingot
 Item =  2, gunpowder
-Item =  2, redstone
+Item =  1, redstone

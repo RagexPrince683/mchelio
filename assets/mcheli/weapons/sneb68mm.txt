@@ -1,4 +1,4 @@
-DisplayName = SNEB 68mm Rocket
+DisplayName = 68mm SNEB Rocket
 Type = Rocket
 Power = 400
 DamageFactor = tank, 1.0
@@ -7,7 +7,8 @@ DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 ModelBullet = hydra70
 Acceleration = 4.0
-Explosion = 2
+Explosion = 3
+ExplosionInWater = 2
 Flaming = false
 Sight = MoveSight
 Delay = 3

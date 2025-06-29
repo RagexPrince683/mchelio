@@ -2,7 +2,8 @@ DisplayName = 155mm M284 Cannon [M982 Excalibur - Guided Shell]
 Type = TVMissile
 Power = 600
 ModelBullet = bullet105mm
-Explosion = 10
+Explosion = 5
+ExplosionInWater = 3
 ExplosionBlock = 3
 Sight = MoveSight
 
@@ -55,6 +56,6 @@ RecoilBufCount = 40, 1400
 
 MaxAmmo = 5
 SuppliedNum = 1
-Item =  2, iron_ingot
-Item =  3, gunpowder
+Item = 2, iron_ingot
+Item = 3, gunpowder
 Item = 1, redstone

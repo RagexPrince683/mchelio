@@ -1,8 +1,6 @@
-DisplayName = NSVT 12.7mm 6P49 Machine Gun
+DisplayName = 12.7mm NSVT 6P49 Machine Gun
 Type = MachineGun1
 Power = 31
-Acceleration = 8.0
-Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
