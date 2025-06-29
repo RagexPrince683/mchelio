@@ -10,7 +10,7 @@ Speed = 1.35
 Sound = bone
 ThrottleUpDown = 0.1
 CameraPosition = -2.42, 4.18, -4.87
-EnableNightVision = false
+EnableNightVision = true
 EnableEntityRadar = true
 EnableGunnerMode = true
 EnableEjectionSeat = true
@@ -28,7 +28,7 @@ Stealth = 0.2
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
-HUD = plane, plane_gnr, 
+HUD = planenvg, plane_gnrnvg, 
 
 MobilityYaw = 0.3
 MobilityPitch = 0.3

@@ -4,8 +4,7 @@ AddDisplayName = ja_JP, Poison
 StackSize = 64
 ;;AddRecipe = "A  ", "B  ", "A  ", A, coal, B, reeds
 AddRecipe = " A ", "   ", "   ", A, hbm:item.powder_poison
-;AddRecipe = "AAA", "AAA", "   ", A, hbm:item.circuit,2
-;AddRecipe = " A ", "   ", "   ", A, hbm:item.circuit,3
+AddRecipe = " A ", "   ", "   ", A, hbm:item.pellet_gas
 ;AddRecipe = " A ", "   ", "   ", A, hbm:item.circuit,4
 ;AddRecipe = " A ", "   ", "   ", A, hbm:item.circuit,5
 ;AddRecipe = " A ", "   ", "   ", A, hbm:item.circuit,6
@@ -19,6 +18,7 @@ AddRecipe = " A ", "   ", "   ", A, hbm:item.powder_poison
 
 ;idiot compat tm
 ;AddRecipe = "AAA", "BBB, "AAA", A, gold_ingot, B, redstone
+AddRecipe = " A ", "   ", "   ", A, poisonous_potato
 
 ;;AddRecipe = " A ", "   ", "   ", A, hbm:item.ingot_bakelite
 ;;AddRecipe = " A ", "   ", "   ", A, hbm:item.ingot_pc

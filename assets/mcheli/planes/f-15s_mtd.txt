@@ -4,6 +4,7 @@ AddDisplayName = ja_JP, F-15 S/MTD
 ItemID = 28734
 MaxHp = 100
 EnableNightVision = false
+;oh wtf
 EnableEntityRadar = true
 EnableEjectionSeat = true
 Speed = 1.5

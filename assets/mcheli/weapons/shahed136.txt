@@ -1,4 +1,8 @@
 ﻿DisplayName = Shahed 136/Geran 2 Drone
+DisplayName = Shahed 136/Geran 2 Drone
+DisplayName = Shahed 136/Geran 2 Drone
+DisplayName = Shahed 136/Geran 2 Drone
+DisplayName = Shahed 136/Geran 2 Drone
 Type = TVMissile
 Power = 450
 Acceleration = 2

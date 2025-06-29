@@ -32,7 +32,7 @@ DamageFactor = 0.8
 
 RotorSpeed = 2000.0
 
-HUD = planenvg, plane_gnr
+HUD = planesu24, plane_gnrsu24
 
 EnableBack = true
 

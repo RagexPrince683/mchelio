@@ -4,7 +4,7 @@ AddDisplayName = ua_UA, Su-24
 AddDisplayName = en_EN, Su-24
 ItemID = 28731
 MaxHp = 250
-EnableNightVision = false
+EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
 Speed = 1.42158
@@ -25,7 +25,7 @@ enableback = true
 
 Category = M.A
 
-HUD = plane, plane_gnr
+HUD = planesu24, plane_gnrsu24
 
 MobilityYaw = 30.0
 MobilityRoll = 0.5

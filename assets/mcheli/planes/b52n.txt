@@ -21,7 +21,7 @@ FlareType = 2
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
-HUD = plane, plane_gnr
+HUD = planenvg, plane_gnrnvg
 
 MobilityYaw = 0.4
 MobilityPitch = 0.4

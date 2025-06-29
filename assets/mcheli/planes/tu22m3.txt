@@ -34,7 +34,7 @@ MaxRotationPitch =  60
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
-HUD = plane, plane_gnr
+HUD = planesu24, plane_gnrsu24
 
 AddSeat =  0.4733, 2.7, 1.119 
 
