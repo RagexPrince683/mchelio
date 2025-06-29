@@ -1,4 +1,4 @@
-DisplayName = 20mm GAU-4 Autocannon
+DisplayName = 20mm GAU-4 Automatic Cannon
 Type = MachineGun2
 ModelBullet = bullet
 Power = 25

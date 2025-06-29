@@ -1,4 +1,4 @@
-DisplayName = 57mm S-5
+DisplayName = 57mm S-5 Rocket
 Type = Rocket
 Power = 150
 ModelBullet = hydra70

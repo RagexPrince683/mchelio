@@ -1,4 +1,4 @@
-DisplayName = UB-32M [S-5K Rocket]
+DisplayName = 57mm UB-32M [S-5K Rocket]
 Type = Rocket
 Power = 150
 ModelBullet = hydra70

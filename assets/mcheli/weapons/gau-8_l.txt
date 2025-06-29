@@ -1,4 +1,4 @@
-DisplayName = GAU-8 Avenger
+DisplayName = 30mm GAU-8 Avenger
 Type = MachineGun1
 Power = 40
 Acceleration = 6.0

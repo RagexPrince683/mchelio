@@ -1,4 +1,4 @@
-DisplayName = M2 12.7 Heavy Machine Gun
+DisplayName = 12.7mm M2 Heavy Machine Gun
 Power = 31
 Acceleration = 7.0
 Type = MachineGun2

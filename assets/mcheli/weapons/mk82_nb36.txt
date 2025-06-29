@@ -1,4 +1,4 @@
-DisplayName = Mk82 500lb Napalm B
+DisplayName = 500lb Mk82 Napalm B
 Type = Bomb
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0

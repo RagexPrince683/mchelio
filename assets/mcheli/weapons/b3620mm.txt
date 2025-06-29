@@ -1,4 +1,4 @@
-DisplayName = 20mm Browning AN/M3 Autocannon
+DisplayName = 20mm Browning AN/M3 Automatic Cannon
 Type = MachineGun1
 Power = 36
 Acceleration = 7.0

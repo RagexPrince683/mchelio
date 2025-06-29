@@ -11,7 +11,7 @@ Sound = eseven
 ThrottleUpDown = 0.1
 AutoPilotRot = -0.50
 CameraPosition = 0.0, 4.0, 5.0
-EnableNightVision = false
+EnableNightVision = true
 EnableEntityRadar = true
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
@@ -25,7 +25,7 @@ EnableSeaSurfaceParticle = true
 ; M = Military(軍用機).  R = Reconnaissance(偵察機)
 Category = M.R
 
-HUD = plane, plane_gnr, none, none, none, none, none
+HUD = planenvg, plane_gnr, none, none, none, none, none
 
 MobilityYaw = 0.3
 MobilityPitch = 0.3

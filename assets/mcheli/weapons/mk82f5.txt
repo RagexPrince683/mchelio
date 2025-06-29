@@ -1,4 +1,4 @@
-DisplayName = MK82 500lb Bomb
+DisplayName = 500lb MK82 Bomb
 Type = Bomb
 Power = 1000
 Acceleration = 0.1

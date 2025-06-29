@@ -1,4 +1,4 @@
-DisplayName = GSh-23
+DisplayName = 23mm GSh-23 Automatic Cannon
 Type = MachineGun2
 Power = 16
 Acceleration = 8.0
