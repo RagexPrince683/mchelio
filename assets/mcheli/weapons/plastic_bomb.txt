@@ -1,4 +1,4 @@
-DisplayName = Plastic Bomb 5kg
+DisplayName = 5kg Plastic Bomb
 Type = Bomb
 Power = 1000
 Acceleration = 0.1

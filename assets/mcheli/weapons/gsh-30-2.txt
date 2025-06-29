@@ -1,4 +1,4 @@
-DisplayName = GSh-30-2 30mm Machine Gun
+DisplayName = 30mm GSh-30-2 Machine Gun
 Type = MachineGun1
 Power = 60
 Acceleration = 5.0

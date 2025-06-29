@@ -1,4 +1,4 @@
-DisplayName = M230 Chain Gun [M789 - HEDP]
+DisplayName = 30mm M230 Chain Gun [M789 - HEDP]
 Type = MachineGun2
 Power = 16
 Acceleration = 7.0

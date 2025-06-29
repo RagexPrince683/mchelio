@@ -1,4 +1,4 @@
-DisplayName = NR-30 30mm Auto Cannon
+DisplayName = 30mm NR-30 Automatic Cannon
 Type = MachineGun2
 ModelBullet = bullet
 Explosion = 2

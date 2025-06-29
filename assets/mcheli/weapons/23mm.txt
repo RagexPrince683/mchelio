@@ -1,8 +1,8 @@
-DisplayName = 23mm GSH-23 Auto Cannon
+DisplayName = 23mm GSH-23 Automatic Cannon
 Type = MachineGun2
 ModelBullet = bullet
-Explosion = 2
-ExplosionBlock = 1
+Explosion = 1
+ExplosionBlock = 0
 Power = 16
 Acceleration = 8.0
 Flaming = false

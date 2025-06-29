@@ -1,4 +1,4 @@
-DisplayName = S-8 80mm Rocket
+DisplayName = 80mm S-8 Rocket
 Type = Rocket
 Power = 400
 ModelBullet = hydra70

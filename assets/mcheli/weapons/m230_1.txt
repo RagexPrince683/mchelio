@@ -1,4 +1,4 @@
-DisplayName = 23mm Chain Gun
+DisplayName = 30mm M230 Chain Gun
 Type = MachineGun2
 Power = 16
 Acceleration = 7.0

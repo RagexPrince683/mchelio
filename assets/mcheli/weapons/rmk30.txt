@@ -1,4 +1,4 @@
-DisplayName = RMK30 Revolver Cannon
+DisplayName = 30mm RMK30 Revolver Cannon
 Type = MachineGun2
 Power = 27
 Acceleration = 6.0

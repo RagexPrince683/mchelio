@@ -1,4 +1,4 @@
-DisplayName = S-8S 80mm Rocket Flechette
+DisplayName = 80mm S-8S Rocket Flechette
 Type = Rocket
 Power = 25
 DamageFactor = tank, 1.0

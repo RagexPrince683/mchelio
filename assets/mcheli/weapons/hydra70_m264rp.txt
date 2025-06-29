@@ -1,4 +1,4 @@
-DisplayName = Hydra 70mm Rocket [M264RP]
+DisplayName = 70mm Hydra Rocket [M264RP]
 Type = MkRocket
 Power = 0
 Acceleration = 3.0
