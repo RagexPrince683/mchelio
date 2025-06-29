@@ -18,8 +18,8 @@ Group = maingun
 Gravity = -0.001
 
 BombletSTime = 25
-BombletDiff = 0.5
-Bomblet = 9
+BombletDiff = 1.5
+Bomblet = 3
 
 DispenseItem = mcheli:m18_white
 
