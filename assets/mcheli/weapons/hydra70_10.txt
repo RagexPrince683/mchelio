@@ -1,4 +1,4 @@
-DisplayName = Hydra 70mm Rocket [HE-FRAG - M151]
+DisplayName = 70mm Hydra Rocket [HE-FRAG - M151]
 Type = Rocket
 Power = 400
 ModelBullet = hydra70

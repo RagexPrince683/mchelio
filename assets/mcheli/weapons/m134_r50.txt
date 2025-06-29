@@ -1,4 +1,4 @@
-DisplayName = M134D Minigun
+DisplayName = 7.62mm M134D Minigun
 Type = MachineGun2
 Power = 9
 Flaming = false

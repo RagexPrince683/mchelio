@@ -17,7 +17,7 @@ Group = maingun
 
 Gravity = -0.001
 
-BombletSTime = 25
+BombletSTime = 6
 BombletDiff = 1.5
 Bomblet = 3
 

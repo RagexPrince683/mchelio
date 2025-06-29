@@ -28,7 +28,7 @@ DisplayMortarDistance = true
 ;AddMuzzleFlash      =  12,      20.00,         8,  200,254,219,184
 
 
-BombletSTime = 25
+BombletSTime = 6
 BombletDiff = 1.5
 Bomblet = 3
 
