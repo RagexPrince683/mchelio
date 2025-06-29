@@ -1,4 +1,4 @@
-DisplayName = M61A1 Vulcan
+DisplayName = 20mm M61A1 Vulcan Automatic Cannon
 Type = MachineGun1
 ModelBullet = bullet
 Power = 25

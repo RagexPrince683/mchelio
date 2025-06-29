@@ -1,4 +1,4 @@
-DisplayName = 20mm M61A2 Vulcan Rotary Cannon
+DisplayName = 20mm M61A2 Vulcan Automatic Rotary Cannon
 Type = MachineGun2
 ModelBullet = bullet
 Power = 25
