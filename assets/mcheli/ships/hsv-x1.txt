@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, HSV-X1 軍用フェリー
 
 
 MaxHp = 1000
-Speed = 0.10092
+Speed = 0.58
 
 ;50 knots
 
