@@ -11,4 +11,8 @@ AddRecipe = "AAA", "AA ", "   ", A, mcheli:item.ingot_steel
 
 AddRecipe = " A ", "   ", "   ", A, hfr:item.part_plating_1
 
+AddRecipe = " A ", "   ", "   ", A, hbm:item.plate_steel
+
+AddRecipe = " A ", "   ", "   ", A, hbm:item.plate_stainless
+
 
