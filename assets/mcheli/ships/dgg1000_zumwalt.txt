@@ -2,6 +2,7 @@
 AddDisplayName = en_US, DGG-1000 Zumwalt Destroyer
 AddDisplayName = ja_JP, DGG-1000 ズムウォルト駆逐艦
 
+PivotTurnThrottle = 0.2
 
 MaxHp = 15656
 Speed = 0.39
@@ -9,7 +10,7 @@ Float = true
 FloatOffset = 0.0
 Sound = warship_snd
 SoundVolume = 50
-ThrottleUpDown = 0.8
+ThrottleUpDown = 0.2
 MaxFuel         = 3000
 FuelConsumption = 5.2
 Gravity = -0.5
@@ -165,13 +166,13 @@ AddWeapon =  dgg30mm,  -4.14,  8.93, 33.39,  0, 0, true,  4,   0,   360,  -360, 
 
 AddWeapon =  dggbgm109,   -0.67, 4.58, 19.38,    0, 0, true,  5,   0,   360,  -360, -90, 20
 AddWeapon =  dggbgm109,   -16.54, 4.58, 19.38,   0, 0, true,  5,   0,   360,  -360, -90, 20
-AddWeapon =  dggbgm109,   -0.67, 4.58, 4.95,    0, 0, true,  5,   0,   360,  -360, -90, 20
-AddWeapon =  dggbgm109,   -16.54, 4.58, 4.95,   0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggbgm109nc,   -0.67, 4.58, 4.95,    0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggbgm109nc,   -16.54, 4.58, 4.95,   0, 0, true,  5,   0,   360,  -360, -90, 20
 
-AddWeapon =  sm2,   -0.67, 4.58, 19.38,    0, 0, true,  5,   0,   360,  -360, -90, 20
-AddWeapon =  sm2,   -16.54, 4.58, 19.38,   0, 0, true,  5,   0,   360,  -360, -90, 20
-AddWeapon =  sm2,   -0.67, 4.58, 4.95,    0, 0, true,  5,   0,   360,  -360, -90, 20
-AddWeapon =  sm2,   -16.54, 4.58, 4.95,   0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggsm2,   -0.67, 4.58, 19.38,    0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggsm2,   -16.54, 4.58, 19.38,   0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggsm2,   -0.67, 4.58, 4.95,    0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggsm2,   -16.54, 4.58, 4.95,   0, 0, true,  5,   0,   360,  -360, -90, 20
 
 AddWeapon =  targeting_pod_block,   -16.54, 4.58, 4.95,   0, 0, true,  5,   0,   360,  -360, -90, 20
 

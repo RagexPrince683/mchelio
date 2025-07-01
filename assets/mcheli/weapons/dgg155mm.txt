@@ -8,7 +8,6 @@ Explosion = 5
 ExplosionBlock = 5
 Flaming = false
 Sight = MoveSight
-Delay = 50
 ModeNum = 1
 Piercing  = 0
 SoundPitch = 0.9
@@ -17,8 +16,8 @@ Sound = msta
 Recoil = 0.2
 Gravity = -0.005
 
-Delay = 50
-ReloadTime = 350
+Delay = 5
+ReloadTime = 50
 Group = MainGun
 Acceleration = 6.0
 BulletColor        = 255, 255, 100, 100
@@ -31,6 +30,8 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 AddDisplayName = en_US, 155mm Cannon
 SoundVolume = 15
+
+Round = 2
 
 
 RecoilBufCount = 25, 5

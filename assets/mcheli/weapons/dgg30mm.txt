@@ -1,8 +1,8 @@
-DisplayName = 30mm Mk46 Cannon (GDLS) IRCPS
+DisplayName = 30mm Mk46 Cannon (GDLS) IRCPS [HEI-T]
 Type = MachineGun2
 Power = 25
-ModelBullet = bullet76mm
-Explosion = 3
+ModelBullet = bullet
+Explosion = 2
 ExplosionBlock = 3
 
 ExplosionInWater = 2
@@ -15,7 +15,7 @@ Round = 400
 HeatCount = 1
 MaxHeatCount = 160
 SoundVolume = 15
-Sound = naval
+Sound = dggthircan
 
 Gravity = -0.005
 

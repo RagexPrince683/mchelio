@@ -16,6 +16,8 @@ GravityInWater = -0.1
 DamageFactor = 1.0
 StepHeight = 0.0
 
+PivotTurnThrottle = 0.2
+
 CanMoveOnGround = false
 CanRotOnGround  = false
 

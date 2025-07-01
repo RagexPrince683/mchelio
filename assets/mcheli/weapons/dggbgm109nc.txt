@@ -1,4 +1,4 @@
-DisplayName = BGM-109 Tomahawk [Cruise Missile]
+DisplayName = BGM-109 Tomahawk [TLAM-N - Nuclear Cruise Missile - 200KT]
 Type = ASMissile
 Power = 1000
 radius = 2000
@@ -11,9 +11,11 @@ Sound = missile_cruise_snd
 Accuracy = 1.0
 ModelBullet = bgm109
 Sight = MissileSight
-Delay = 3
+Delay = 5
 ReloadTime = 350
 DisableSmoke = true
+
+nukeyield = 100
 
 RigidityTime = 3
 
@@ -44,8 +46,7 @@ AddMuzzleFlashSmoke =  -6.2, 13,  13.0,  6.0, 25,  200,190,170,150
 
 DisplayMortarDistance = true
 
-MaxAmmo = 20
-SuppliedNum = 5
-Item =  20, iron_ingot
-Item =  16, gunpowder
-Item =  10, redstone
+MaxAmmo = 12
+SuppliedNum = 1
+Item = 2, mcheli:genericnuclearwarheadhigh
+Item = 1, tnt

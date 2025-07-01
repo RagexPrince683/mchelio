@@ -23,9 +23,9 @@ StepHeight = -1.0
 Category = M.C
 HUD = planenvg,planenvg
 
-MobilityRoll = 0.1
-MobilityYaw = 0.1
-MobilityPitch = 0.1
+MobilityRoll = 0.3
+MobilityYaw = 0.3
+MobilityPitch = 0.3
 ;MinRotationRoll =-30
 ;MaxRotationRoll =30
 

@@ -2,9 +2,11 @@
 AddDisplayName = en_US, Landing Craft For Vehicles and Personnel (LCVP Boat)
 AddDisplayName = ja_JP, Lcvp輸送ボート
 
+PivotTurnThrottle = 0.2
 
 MaxHp = 200
-Speed = 0.02436
+Speed = 0.14
+;modern is 17mph
 Float = true
 FloatOffset = 0.0
 Sound = boat

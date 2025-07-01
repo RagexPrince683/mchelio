@@ -1,8 +1,8 @@
-DisplayName = RHIB 12.7
-AddDisplayName = en_US, Rigid Inflatable Boat 12.7mm Mount
-AddDisplayName = ja_JP, RHIB 12.7
+DisplayName = NSW 11-meter RHIB with 12.7mm
+AddDisplayName = en_US, NSW 11-meter RHIB with 12.7mm Mount
+AddDisplayName = ja_JP, NSW 11-meter RHIB with 12.7mm
 ItemID = 31500
-MaxHp = 100
+MaxHp = 130
 Speed = 0.2
 Float = true
 FloatOffset = 0.00
@@ -11,6 +11,8 @@ DamageFactor = 1.0
 MobilityPitch = 0.01
 MobilityYaw = 2.60
 MobilityYawOnGround = 2.5
+
+PivotTurnThrottle = 0.2
 
 enableback = true
 
@@ -39,7 +41,7 @@ onGroundPitch = 4
 sound = rhib
 
 ;small light transport rubber
-AddRecipe = "ACB", "BDD", "   ", A, mcheli:shiphull1, C, mcheli:engine1, B, mcheli:cannon1, D, mcheli:rubber
+AddRecipe = "ACB", "BCD", "   ", A, mcheli:shiphull1, C, mcheli:engine1, B, mcheli:cannon1, D, mcheli:rubber
 
 AddPartRotor =    0.44,  -0.58, -3.69,   1,0, 0
 AddBlade = 1, 0,  0.44,  -0.57, -3.69,   0,0,-1

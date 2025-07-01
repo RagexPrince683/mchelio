@@ -23,6 +23,8 @@ ThirdPersonDist = 68
 enablegunnermode = true
 HUD = plane
 
+;;PivotTurnThrottle = 0.2
+
 ;;submarine
 EnableVtol = true
 

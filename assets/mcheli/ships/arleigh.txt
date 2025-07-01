@@ -21,6 +21,8 @@ ParticlesScale = 1.7
 HideEntity = true
 DefaultFreelook = true
 
+PivotTurnThrottle = 0.2
+
 
 
 HUD = plane, vehicle, vehicle, vehicle, vehicle, vehicle, vehicle, vehicle, vehicle, vehicle_wwii, vehicle_wwii

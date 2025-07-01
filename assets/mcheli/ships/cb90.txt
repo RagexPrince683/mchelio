@@ -18,6 +18,8 @@ GravityInWater = -0.1
 DamageFactor = 0.6
 StepHeight = 0.0
 
+PivotTurnThrottle = 0.2
+
 ArmorMinDamage = 10
 
 CanMoveOnGround = false

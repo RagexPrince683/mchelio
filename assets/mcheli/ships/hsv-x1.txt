@@ -2,6 +2,7 @@
 AddDisplayName = en_US, HSV-X1 JOINT VENTURE
 AddDisplayName = ja_JP, HSV-X1 軍用フェリー
 
+PivotTurnThrottle = 0.2
 
 MaxHp = 1000
 Speed = 0.58
