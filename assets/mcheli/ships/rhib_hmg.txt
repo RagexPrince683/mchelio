@@ -1,4 +1,5 @@
 ﻿DisplayName = Rigid Inflatable Boat M240 Mount
+;ok seriously what the fuck is this
 AddDisplayName = en_US, Rigid Inflatable Boat M240 Mount
 AddDisplayName = ja_JP, 複合艇(マシンガン搭載)
 ItemID = 49998
