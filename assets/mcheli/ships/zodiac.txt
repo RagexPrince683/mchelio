@@ -1,8 +1,8 @@
-DisplayName = Zodiac Boat
-AddDisplayName = ja_JP, ゴムボート
+DisplayName = Small Zodiac Boat
+AddDisplayName = ja_JP, Small ゴムボート
 ItemID = 28743
 MaxHp = 55
-Speed = 0.5
+Speed = 0.4
 Float = true
 FloatOffset = -0.5
 Sound = prop

@@ -11,11 +11,12 @@ Float = true
 FloatOffset = -0.3
 Sound = big_ships
 ThrottleUpDown = 0.2
-MaxFuel         = 3500
-FuelConsumption = 1.2
+MaxFuel         = 10
+FuelConsumption = 0.0
+;todo nuclear fuel sht
 Gravity = -0.15
 ArmorDamageFactor = 1.0
-DamageFactor = 0.0
+DamageFactor = 0.2
 Regeneration = true
 MobilityYawOnGround = 0.6
 EnableNightVision = true
@@ -133,7 +134,7 @@ AddPartSteeringWheel =   -23.52, -4.73, -69.96,   0, 1, 0,  -40
 
 
 
-; front weapon
+; front weapon its like a fucking 50 cal or some 20mm bushmaster bs
 AddPartWeapon    = 12_7cm,   false, true, false,  -4.47, 10.11, 87.63
 AddPartWeapon    = 12_7cm,   false, true, true,  -4.47, 10.11, 87.63
 
@@ -230,30 +231,30 @@ AddRack = helicopter / mv-22,  -42.14, 11.53, -8.05,  18.80, 45.22, -5.75,  70, 
 
 
 
+;sadly messes up nvg/therm
+
+;AddFixedSearchLight = -20.78, 11.63, 82.85,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
+;AddFixedSearchLight = -20.78, 11.63, 62.35,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
+;AddFixedSearchLight = -20.78, 11.63, 44.98,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
+
+;AddFixedSearchLight = -1.19, 11.61, 19.58,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
+;AddFixedSearchLight = -5.90, 11.61, 1.68,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
+;AddFixedSearchLight = -11.51, 11.61, -20.50,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
+;AddFixedSearchLight = -16.26, 11.61, -39.63,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
+;AddFixedSearchLight = -20.20, 11.61, -55.75,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
+;AddFixedSearchLight = -23.56, 11.61, -69.38,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
 
 
-AddFixedSearchLight = -20.78, 11.63, 82.85,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
-AddFixedSearchLight = -20.78, 11.63, 62.35,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
-AddFixedSearchLight = -20.78, 11.63, 44.98,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
+;AddFixedSearchLight = -31.79, 28.15, -25.70,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0, 0
+;AddFixedSearchLight = -47.88, 28.25, -25.68,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0, 0
+;AddFixedSearchLight = -31.79, 28.15, -43.45,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  180, 0
+;AddFixedSearchLight = -47.88, 28.25, -43.48,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  180, 0
 
-AddFixedSearchLight = -1.19, 11.61, 19.58,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
-AddFixedSearchLight = -5.90, 11.61, 1.68,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
-AddFixedSearchLight = -11.51, 11.61, -20.50,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
-AddFixedSearchLight = -16.26, 11.61, -39.63,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
-AddFixedSearchLight = -20.20, 11.61, -55.75,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
-AddFixedSearchLight = -23.56, 11.61, -69.38,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0,  -90
+;AddFixedSearchLight = -33.64,  41.21, -35.77,   0x50FFFFFF,   0x10FFFFC0,    0.5, 2.5,  0, 0
+;AddFixedSearchLight = -44.98,  41.21, -35.77,   0x50FFFFFF,   0x10FFFFC0,    0.5, 2.5,  0, 0
 
 
-AddFixedSearchLight = -31.79, 28.15, -25.70,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0, 0
-AddFixedSearchLight = -47.88, 28.25, -25.68,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  0, 0
-AddFixedSearchLight = -31.79, 28.15, -43.45,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  180, 0
-AddFixedSearchLight = -47.88, 28.25, -43.48,   0x50FFFFFF,   0x10FFFFC0,    0.5, 6.5,  180, 0
-
-AddFixedSearchLight = -33.64,  41.21, -35.77,   0x50FFFFFF,   0x10FFFFC0,    0.5, 2.5,  0, 0
-AddFixedSearchLight = -44.98,  41.21, -35.77,   0x50FFFFFF,   0x10FFFFC0,    0.5, 2.5,  0, 0
-
-
-AddFixedSearchLight = 4.35, 4.65, -0.21,   0x50FFFFFF,   0x10FFFFC0,    10.0, 10.0,  0, 90
+;AddFixedSearchLight = 4.35, 4.65, -0.21,   0x50FFFFFF,   0x10FFFFC0,    10.0, 10.0,  0, 90
 
 
 
