@@ -1,6 +1,6 @@
-﻿DisplayName = CVN-68 USS Nimitz
-AddDisplayName = en_US, CVN-68 USS Nimitz
-AddDisplayName = ja_JP, CVN-68
+﻿DisplayName = CVN-68 USS Nimitz Aircraft Carrier
+AddDisplayName = en_US, CVN-68 USS Nimitz Aircraft Carrier
+AddDisplayName = ja_JP, CVN-68 Aircraft Carrier
 
 PivotTurnThrottle = 0.2
 
