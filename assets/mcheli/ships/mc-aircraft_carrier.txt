@@ -40,7 +40,7 @@ InventorySize = 54
 Category = M.C
 
 
-HUD = plane_wwii, gunner, gunner, gunner, gunner, gunner, gunner, none, none, none, none, none
+HUD = plane, gunner, gunner, gunner, gunner, gunner, gunner, none, none, none, none, none
 
 UnmountPosition = -2.00, 10.90, -0.00
 
@@ -157,53 +157,55 @@ AddPartSteeringWheel =   -23.52, -4.73, -69.96,   0, 1, 0,  -40
 
 
 ; rear aim7
-AddPartWeapon    = aim7_spa,   false, true, false,  0.53, 8.99, -67.96
-AddPartWeapon    = aim7_spa,   false, true, true,  0.53, 8.99, -67.96
+AddPartWeapon    = nimaim7_spa2,   false, true, false,  0.53, 8.99, -67.96
+AddPartWeapon    = nimaim7_spa2,   false, true, true,  0.53, 8.99, -67.96
 
-AddPartWeapon    = aim7_spa,   false, true, false,  -39.70, 8.99, -67.96
-AddPartWeapon    = aim7_spa,   false, true, true,   -39.70, 8.99, -67.96
+AddPartWeapon    = nimaim7_spa2,   false, true, false,  -39.70, 8.99, -67.96
+AddPartWeapon    = nimaim7_spa2,   false, true, true,   -39.70, 8.99, -67.96
 
 
-AddWeapon =  aim7_spa,  1.69, 9.12, -67.99,    0, 0, true,  4,   0,   360,  -360, -90, 30
-AddWeapon =  aim7_spa,   0.74, 9.12, -67.99,   0, 0, true,  4,   0,   360,  -360, -90, 30
-AddWeapon =  aim7_spa,  -40.63, 9.22, -68.01,  0, 0, true,  4,   0,   360,  -360, -90, 30
-AddWeapon =  aim7_spa,  -38.33, 9.22, -68.01,  0, 0, true,  4,   0,   360,  -360, -90, 30
+AddWeapon =  nimaim7_spa2,  1.69, 9.12, -67.99,    0, 0, true,  4,   0,   360,  -360, -90, 30
+AddWeapon =  nimaim7_spa2,   0.74, 9.12, -67.99,   0, 0, true,  4,   0,   360,  -360, -90, 30
+AddWeapon =  nimaim7_spa2,  -40.63, 9.22, -68.01,  0, 0, true,  4,   0,   360,  -360, -90, 30
+AddWeapon =  nimaim7_spa2,  -38.33, 9.22, -68.01,  0, 0, true,  4,   0,   360,  -360, -90, 30
 
-AddWeapon =  hydra70,  1.68, 9.12, -67.97,    0, 0, true,  4,   0,   360,  -360, -90, 30
-AddWeapon =  hydra70,   0.73, 9.12, -67.97,   0, 0, true,  4,   0,   360,  -360, -90, 30
-AddWeapon =  hydra70,  -40.65, 9.22, -68.00,  0, 0, true,  4,   0,   360,  -360, -90, 30
-AddWeapon =  hydra70,  -38.32, 9.22, -68.00,  0, 0, true,  4,   0,   360,  -360, -90, 30
+;also just not real
+;AddWeapon =  hydra70,  1.68, 9.12, -67.97,    0, 0, true,  4,   0,   360,  -360, -90, 30
+;AddWeapon =  hydra70,   0.73, 9.12, -67.97,   0, 0, true,  4,   0,   360,  -360, -90, 30
+;AddWeapon =  hydra70,  -40.65, 9.22, -68.00,  0, 0, true,  4,   0,   360,  -360, -90, 30
+;AddWeapon =  hydra70,  -38.32, 9.22, -68.00,  0, 0, true,  4,   0,   360,  -360, -90, 30
 
-AddWeapon =  aim-9x,  1.67, 9.12, -67.96,    0, 0, true,  4,   0,   360,  -360, -90, 30
-AddWeapon =  aim-9x,   0.72, 9.12, -67.96,   0, 0, true,  4,   0,   360,  -360, -90, 30
-AddWeapon =  aim-9x,  -40.64, 9.22, -67.98,  0, 0, true,  4,   0,   360,  -360, -90, 30
-AddWeapon =  aim-9x,  -38.31, 9.22, -67.98,  0, 0, true,  4,   0,   360,  -360, -90, 30
+;AddWeapon =  aim-9x,  1.67, 9.12, -67.96,    0, 0, true,  4,   0,   360,  -360, -90, 30
+;AddWeapon =  aim-9x,   0.72, 9.12, -67.96,   0, 0, true,  4,   0,   360,  -360, -90, 30
+;AddWeapon =  aim-9x,  -40.64, 9.22, -67.98,  0, 0, true,  4,   0,   360,  -360, -90, 30
+;AddWeapon =  aim-9x,  -38.31, 9.22, -67.98,  0, 0, true,  4,   0,   360,  -360, -90, 30
 
 
 
 ; left side m61
-AddPartWeapon    = m61a1_1,   false, true, false,   10.69, 9.01, -10.91
-AddPartWeapon = m61a1_1,   false, true, true,    10.69, 9.01, -10.91
-AddPartRotWeapon = m61a1_1,   false, true, true,    10.69, 9.01, -10.91, 0, 0, 1
+AddPartWeapon    = nimm61a1_1l,   false, true, false,   10.69, 9.01, -10.91
+AddPartWeapon = nimm61a1_1l,   false, true, true,    10.69, 9.01, -10.91
+AddPartRotWeapon = nimm61a1_1l,   false, true, true,    10.69, 9.01, -10.91, 0, 0, 1
 
-AddWeapon =  m61a1_1, 10.69, 8.99, -10.72,  0, 0, true,  5,  0,   360, -360, -90, 80
+AddWeapon =  nimm61a1_1l, 10.69, 8.99, -10.72,  0, 0, true,  5,  0,   360, -360, -90, 80
 
 
 ; right side m61
-AddPartWeapon    = m61a1_2,   false, true, false,   -53.82, 9.01, -25.80
-AddPartWeapon = m61a1_2,   false, true, true,     -53.82, 9.01, -25.80
-AddPartRotWeapon = m61a1_2,   false, true, true,    -53.82, 9.01, -25.80, 0, 0, 1
+AddPartWeapon    = nimm61a1_2,   false, true, false,   -53.82, 9.01, -25.80
+AddPartWeapon = nimm61a1_2,   false, true, true,     -53.82, 9.01, -25.80
+AddPartRotWeapon = nimm61a1_2,   false, true, true,    -53.82, 9.01, -25.80, 0, 0, 1
 
-AddWeapon =  m61a1_2, -53.82, 8.98, -25.62,  0, 0, true,  6,  0,  360, -360,  -90, 80
+AddWeapon =  nimm61a1_2, -53.82, 8.98, -25.62,  0, 0, true,  6,  0,  360, -360,  -90, 80
 
 
 
 ; rear deck gau-19
-AddPartWeapon    = gau-19_tw,   false, true, false,  -20.87, 5.49, -75.14
-AddPartWeapon = gau-19_tw,   false, true, true,     -20.87, 5.49, -75.14
-AddPartRotWeapon = gau-19_tw,   false, true, true,    -20.87, 5.49, -75.14, 0, 0, 1
+;ok that's just not real
+;AddPartWeapon    = gau-19_tw,   false, true, false,  -20.87, 5.49, -75.14
+;AddPartWeapon = gau-19_tw,   false, true, true,     -20.87, 5.49, -75.14
+;AddPartRotWeapon = gau-19_tw,   false, true, true,    -20.87, 5.49, -75.14, 0, 0, 1
 
-AddWeapon =  gau-19_tw, -20.87, 5.49, -75.14,  0, 0, true,  7,  0,  360,  -360, -90, 80
+;AddWeapon =  gau-19_tw, -20.87, 5.49, -75.14,  0, 0, true,  7,  0,  360,  -360, -90, 80
 
 
 ; horn

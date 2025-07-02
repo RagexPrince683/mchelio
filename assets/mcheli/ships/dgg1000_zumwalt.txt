@@ -37,7 +37,7 @@ InventorySize = 54
 Category = M.A
 
 
-HUD = plane_wwii, gunner, gunner, gunner, gunner, gunner, gunner, none, none, none, none, none
+HUD = plane, gunner, gunner, gunner, gunner, gunner, gunner, none, none, none, none, none
 
 
 
