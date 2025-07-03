@@ -21,6 +21,8 @@ FlareType = 10
 ParticlesScale = 1.7
 HideEntity = true
 DefaultFreelook = true
+EnableNightVision = true
+EnableEntityRadar = true
 
 PivotTurnThrottle = 0.2
 
@@ -39,24 +41,33 @@ AddSeat = 0.29, 9.20, 6.49
 
 unmountposition = 0.29, 1.50, 6.49
 
-AddGunnerSeat = 0.29, 2.07, 11.82, 0.29, 4.07, 11.82, false, -90.0, 4.0
+;second seat, vls
+AddGunnerSeat = 0.29, 2.07, 11.82, 0.29, 4.07, 11.82, false, -90.0, 90.0, false
 
-AddGunnerSeat = 0.28, 2.76, 16.79, 0.28, 4.76, 16.79, false, -30.0, 4.0
+;mk45
+AddGunnerSeat = 0.28, 2.76, 16.79, 0.28, 4.76, 16.79, false, -65.0, 15.0
 
-AddGunnerSeat = 0.28, 4.21, 8.73, 0.28, 5.61, 8.73, false, -30.0, 4.0
+;ciws
+AddGunnerSeat = 0.28, 4.21, 8.73, 0.28, 5.61, 8.73, false, -80.0, 25.0
 
-AddGunnerSeat = 0.28, 4.10, -22.12, 0.28, 5.70, -22.12, false, -30.0, 4.0
+;cram
+AddGunnerSeat = 0.28, 4.10, -22.12, 0.28, 5.70, -22.12, false, -80.0, 25.0
 
-AddGunnerSeat = 5.24, 1.20, -8.79, 5.24, 3.20, -8.79, false, -30.0, 4.0
+;right mk38
+AddGunnerSeat = 5.24, 1.20, -8.79, 5.24, 3.20, -8.79, false, -55.0, 15.0
 
-AddGunnerSeat = -4.59, 1.20, -8.79, -4.59, 3.20, -8.79, false, -30.0, 4.0
+;left mk38
+AddGunnerSeat = -4.59, 1.20, -8.79, -4.59, 3.20, -8.79, false, -55.0, 15.0
 
-AddGunnerSeat = -0.41, 2.64, -24.41, -0.99, 3.64, -24.41, false, -30.0, 4.0
+;harp1
+AddGunnerSeat = -0.41, 2.64, -24.41, -0.99, 3.64, -24.41, false, -90.0, 90.0
+;harp2
+AddGunnerSeat = -0.41, 2.64, -25.38, -0.41, 3.64, -25.38, false, -90.0, 90.0
 
-AddGunnerSeat = -0.41, 2.64, -25.38, -0.41, 3.64, -25.38, false, -30.0, 4.0
-
+;fucked up torp bs
 AddGunnerSeat = -4.13, 1.53, -29.70, -4.13, 3.13, -29.70, false, -30.0, 4.0
 
+;torp2
 AddGunnerSeat = 4.71, 1.53, -29.82, 4.71, 3.13,  -29.82, false, -30.0, 4.0
 
 AddWeapon = arlsm2, -1.14, 2.18, 12.80,   0.0, -90.0, true,2, 360,-360,-90.0,10.0
@@ -69,41 +80,37 @@ AddWeapon = arlsm3,  0.93, 2.18, 12.34,   0.0, -90.0, true,2, 360,-360,-90.0,10.
 AddWeapon = arlsm3,  1.32, 2.18, 12.34,   0.0, -90.0, true,2, 360,-360,-90.0,10.0
 AddWeapon = arlsm3,  1.72, 2.18, 12.34,   0.0, -90.0, true,2, 360,-360,-90.0,10.0
 
-AddWeapon = arlbgm109, -1.14, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlbgm109, -0.74, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlbgm109, -0.35, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlbgm109, -0.03, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -90,90
+AddWeapon = arlbgm109, -1.14, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, -0.74, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, -0.35, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, -0.03, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, 0.53, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, 0.93, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, 1.32, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, 1.72, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, -1.14, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, -0.35, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, -0.03, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, 0.53, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, 0.93, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlbgm109, 1.72, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
 
-AddWeapon = arlbgm109, 0.53, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlbgm109, 0.93, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlbgm109, 1.32, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlbgm109, 1.72, 2.18, 13.82,   0.0, -1.0,   true,2, 0,-360,360, -90,90
+AddWeapon = arlasroc, -1.14, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlasroc, -0.35, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlasroc, -0.03, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlasroc, 0.53, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlasroc, 0.93, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
+AddWeapon = arlasroc, 1.72, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -65,-65
 
-AddWeapon = arlbgm109, -1.14, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlbgm109, -0.35, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlbgm109, -0.03, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -90,90
+AddWeapon = arlmk45,    0.28, 3.16, 16.79, 0.0, 0.0, true,  3,   0, -145,145, -65.0, 15.0
 
-AddWeapon = arlbgm109, 0.53, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlbgm109, 0.93, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlbgm109, 1.72, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -90,90
+AddWeapon = arlm61a1_r,    0.28, 4.91, 8.73, 0.0, 0.0, true,  4,   0, -145,145, -80.0, 25.0
 
-AddWeapon = arlasroc, -1.14, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlasroc, -0.35, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlasroc, -0.03, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -90,90
+AddWeapon = arlcram,    0.28, 4.50, -22.12, 0.0, 0.0, true, 5,   180, -180, 180,  -80, 25
 
-AddWeapon = arlasroc, 0.53, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlasroc, 0.93, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -90,90
-AddWeapon = arlasroc, 1.72, 2.18, 13.35,   0.0, -1.0,   true,2, 0,-360,360, -90,90
+AddWeapon = arlmk38_r,     5.24, 1.90, -8.79, 0.0, 0.0, true,  6,  -90, -145,145, -55.0, 15.0
 
-AddWeapon = arlmk45,    0.28, 3.16, 16.79, 0.0, 0.0, true,  3,   0, -145,145, -30.0, 4.0
-
-AddWeapon = arlm61a1_r,    0.28, 4.91, 8.73, 0.0, 0.0, true,  4,   0, -145,145, -30.0, 4.0
-
-AddWeapon = arlcram,    0.28, 4.50, -22.12, 0.0, 0.0, true, 5,   180, -180, 180,  -90, 90
-
-AddWeapon = arlmk38_r,     5.24, 1.90, -8.79, 0.0, 0.0, true,  6,  -90, -145,145, -30.0, 4.0
-
-AddWeapon = arlmk38_l,    -4.59, 1.90, -8.79, 0.0, 0.0, true,  7,   90, -145,145, -30.0, 4.0
+AddWeapon = arlmk38_l,    -4.59, 1.90, -8.79, 0.0, 0.0, true,  7,   90, -145,145, -55.0, 15.0
 
 AddWeapon = rgm84_r,     0.02, 3.57, -24.62, 0.0, 0.0, true,  8,  -90, -145,145, -30.0, 4.0
 AddWeapon = rgm84_r,     0.06, 3.63, -24.17, 0.0, 0.0, true,  8,  -90, -145,145, -30.0, 4.0
@@ -132,11 +139,11 @@ AddPartWeapon = arlm61a1_r, false, true, true, 0.28, 4.91, 8.73
 AddPartWeapon = arlcram, false, true, false, 0.28, 4.50, -22.12
 AddPartWeapon = arlcram, false, true, true, 0.28, 4.50, -22.12
 
-AddPartWeapon = mk38_r, false, true, false, 5.24, 1.90, -8.79
-AddPartWeapon = mk38_r, false, true, true, 5.24, 1.90, -8.79
+AddPartWeapon = arlmk38_r, false, true, false, 5.24, 1.90, -8.79
+AddPartWeapon = arlmk38_r, false, true, true, 5.24, 1.90, -8.79
 
-AddPartWeapon = mk38_l, false, true, false, -4.59, 1.90, -8.79
-AddPartWeapon = mk38_l, false, true, true, -4.59, 1.90, -8.79
+AddPartWeapon = arlmk38_l, false, true, false, -4.59, 1.90, -8.79
+AddPartWeapon = arlmk38_l, false, true, true, -4.59, 1.90, -8.79
 
 AddPartWeapon = mk46_r, false, true, false, -4.13, 1.83, -29.70
 

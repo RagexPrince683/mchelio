@@ -11,7 +11,7 @@ Sound = missile_cruise_snd
 Accuracy = 1.0
 ModelBullet = bgm109
 Sight = MissileSight
-Delay = 3
+Delay = 5
 ReloadTime = 350
 DisableSmoke = true
 

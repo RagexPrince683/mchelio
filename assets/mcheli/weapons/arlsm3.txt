@@ -1,8 +1,8 @@
-DisplayName = RIM-161 Standard [Anti-Aircraft Missile]
-Type = AAMissile
-Power = 100
+DisplayName = RIM-174 SM-6 Dual-Purpose [Dual purpose]
+Type = TVMissile
+Power = 500
 Acceleration = 7
-Explosion = 1
+Explosion = 9
 Flaming = false
 Sight = MissileSight
 Delay = 20
@@ -12,10 +12,16 @@ ProximityFuseDist = 3
 ModelBullet = aim7
 Sound = missile_cruise_snd
 
-Round = 16
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
-MaxAmmo = 16
-SuppliedNum = 1
-Item =  2, iron_ingot
-Item =  2, gunpowder
-Item =  1, redstone
+Round = 8
+
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  4, iron_ingot
+Item =  3, gunpowder
+Item =  2, redstone

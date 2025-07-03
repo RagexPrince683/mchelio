@@ -1,4 +1,4 @@
-DisplayName = 20mm Mk.38 Cannon [L]
+DisplayName = 25mm Mark 38 Machine Gun System [L]
 Type = MachineGun2
 Power = 32
 Acceleration = 7.0

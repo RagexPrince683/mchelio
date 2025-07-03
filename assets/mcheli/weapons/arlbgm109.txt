@@ -11,11 +11,17 @@ Sound = missile_cruise_snd
 Accuracy = 1.0
 ModelBullet = bgm109
 Sight = MissileSight
-Delay = 3
+Delay = 5
 ReloadTime = 350
 DisableSmoke = true
 
 RigidityTime = 3
+
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 AddMuzzleFlash      =  2.2,      1.80,        8,  200,254,129,44
 AddMuzzleFlash      =  2.1,      1.75,        7,  200,254,219,104
