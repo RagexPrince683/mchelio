@@ -7,7 +7,7 @@ Delay = 0
 SoundDelay = 3
 Accuracy = 3.0
 Sound = minigun
-HeatCount = 6
+HeatCount = 1
 MaxHeatCount = 150
 
 Acceleration = 7.5

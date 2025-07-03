@@ -9,7 +9,7 @@ SoundVolume = 1.0
 SoundPitch = 1.0
 Sound = m2_snd
 Accuracy = 1.5
-HeatCount = 8
+HeatCount = 1
 MaxHeatCount = 150
 
 Acceleration = 7.5
