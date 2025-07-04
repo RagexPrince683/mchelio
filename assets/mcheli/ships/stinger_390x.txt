@@ -24,7 +24,7 @@ CanRotOnGround  = false
 MaxFuel         = 1500
 FuelConsumption = 1.5
 
-MobilityYawOnGround = 3.5
+MobilityYawOnGround = 5.5
 
 AddPartRotor =    0.44,  -0.25,  0.0,   0,0, 1
 AddBlade = 1, 0,  0.44,  -0.25,  0.0,   0,0, 1
