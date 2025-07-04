@@ -1,18 +1,18 @@
-DisplayName = 12.7mm M2 Browning
+DisplayName = 12.7mm M2 Browning [L]
 Type = MachineGun2
 Power = 31
 Acceleration = 7.0
 Flaming = false
 Sight = MoveSight
-Delay = 1
+Delay = 0
 Sound = m2_snd
 SoundVolume = 15
 SoundPitch = 1 
 SoundPitchRandom = 0.1
 SoundDelay = 2
 Accuracy = 0.5
-HeatCount = 4
-MaxHeatCount = 225
+;HeatCount = 1
+;MaxHeatCount = 225
 Gravity = -0.001
 ModelBullet = bullet
 DamageFactor = tank, 1.0
@@ -31,8 +31,8 @@ AddMuzzleFlashSmoke =  2.6,  1,   3.0,  0.5, 25,  180,220,217,214
 
 ReloadTime = 150
 
-Round = 100
-MaxAmmo = 500
-SuppliedNum = 20
+Round = 300
+MaxAmmo = 25000
+SuppliedNum = 1000
 Item =  2, iron_ingot
 Item =  2, gunpowder
