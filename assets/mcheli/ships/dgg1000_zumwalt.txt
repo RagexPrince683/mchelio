@@ -164,6 +164,8 @@ AddWeapon =  dgg30mm,  -4.14,  8.93, 33.39,  0, 0, true,  4,   0,   360,  -360, 
 ;;AddWeapon =  dggagm119,   -0.67, 4.58, 4.95,    0, 0, true,  5,   0,   360,  -360, -90, 20
 ;;AddWeapon =  dggagm119,   -16.54, 4.58, 4.95,   0, 0, true,  5,   0,   360,  -360, -90, 20
 
+;this isn't even where these fucking are wtf
+
 AddWeapon =  dggbgm109,   -0.67, 4.58, 19.38,    0, 0, true,  5,   0,   360,  -360, -90, 20
 AddWeapon =  dggbgm109,   -16.54, 4.58, 19.38,   0, 0, true,  5,   0,   360,  -360, -90, 20
 AddWeapon =  dggbgm109nc,   -0.67, 4.58, 4.95,    0, 0, true,  5,   0,   360,  -360, -90, 20
@@ -179,7 +181,7 @@ AddWeapon =  targeting_pod_block,   -16.54, 4.58, 4.95,   0, 0, true,  5,   0,  
 
 
 ; torpedo
-AddWeapon =  mk46,   -8.68, -7.27, 131.35,    0, 0, true,  6,   0,   -50,  50, -5, 5
+AddWeapon =  dggmk46,   -8.68, -7.27, 131.35,    0, 0, true,  6,   0,   -50,  50, -5, 5
 
 
 ; horn
