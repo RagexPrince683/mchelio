@@ -48,6 +48,7 @@ UnmountPosition = -1.0, 1.98, 1.76
 BoundingBox = -1.0, 1.0, 1.7, 3.5, 3.5, 1.0
 
 ;　main seat
+;captain
 AddSeat =  -8.84, 1.98, 5.76
 
 
@@ -63,11 +64,14 @@ AddPartSteeringWheel =   -12.16, -2.795, 5.54,   0, -1, 0,  50
 
 
 ; weapon seat
+;cannons
 AddGunnerSeat =   -0.25, 0.65, 0.39,  -8.84, 8.40, 88.95,  false
 
+;30mm
 AddGunnerSeat =   -8.84, 0.71, 10.39,  -8.84, 11.04, 34.91,  false
 
-AddGunnerSeat =   -8.84, 0.75, 8.13,  -8.84, 10.00, 13.13,  false,  -90, 20, false
+;annoying
+AddGunnerSeat =   -8.84, 0.75, 8.13,  -8.84, 18.00, 52.82,  false,  -90, 20, false
 
 AddGunnerSeat =   -0.25, 0.80, 0.39,  -8.68, -1.46, 131.35,  false
 
@@ -166,15 +170,15 @@ AddWeapon =  dgg30mm,  -4.14,  8.93, 33.39,  0, 0, true,  4,   0,   360,  -360, 
 
 ;this isn't even where these fucking are wtf
 
-AddWeapon =  dggbgm109,   -0.67, 4.58, 19.38,    0, 0, true,  5,   0,   360,  -360, -90, 20
-AddWeapon =  dggbgm109,   -16.54, 4.58, 19.38,   0, 0, true,  5,   0,   360,  -360, -90, 20
-AddWeapon =  dggbgm109nc,   -0.67, 4.58, 4.95,    0, 0, true,  5,   0,   360,  -360, -90, 20
-AddWeapon =  dggbgm109nc,   -16.54, 4.58, 4.95,   0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggbgm109,   -5.86, 14.23, 57.01,    0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggbgm109,   -11.90, 14.23, 57.01,   0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggbgm109nc,   -5.86, 14.23, 52.82,    0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggbgm109nc,   -11.90, 14.23, 52.82,   0, 0, true,  5,   0,   360,  -360, -90, 20
 
-AddWeapon =  dggsm2,   -0.67, 4.58, 19.38,    0, 0, true,  5,   0,   360,  -360, -90, 20
-AddWeapon =  dggsm2,   -16.54, 4.58, 19.38,   0, 0, true,  5,   0,   360,  -360, -90, 20
-AddWeapon =  dggsm2,   -0.67, 4.58, 4.95,    0, 0, true,  5,   0,   360,  -360, -90, 20
-AddWeapon =  dggsm2,   -16.54, 4.58, 4.95,   0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggsm2,   -5.86, 14.23, 52.82,    0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggsm2,   -11.90, 14.23, 57.01,   0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggsm2,   -5.86, 14.23, 52.82,    0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggsm2,   -11.90, 14.23, 52.82,   0, 0, true,  5,   0,   360,  -360, -90, 20
 
 AddWeapon =  targeting_pod_block,   -16.54, 4.58, 4.95,   0, 0, true,  5,   0,   360,  -360, -90, 20
 
