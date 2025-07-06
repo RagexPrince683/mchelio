@@ -1,5 +1,6 @@
 DisplayName = 125mm 2A46M Cannon [9M119 - ATGM]
 Type = TVMissile
+FixMode = 1
 Power = 700
 Acceleration = 2.0
 LockTime = 20

@@ -1,5 +1,6 @@
 DisplayName = 9M120 Ataka [HEAT - ATGM]
 Type = ATMissile
+FixMode = 1
 Power = 800
 Acceleration = 7.0
 Piercing = 2

@@ -1,5 +1,6 @@
 DisplayName = 125mm KBA-3 Cannon [9M112 - ATGM]
 Type = TVMissile
+FixMode = 1
 Power = 600
 ModelBullet = 9M119
 

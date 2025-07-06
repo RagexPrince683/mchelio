@@ -1,5 +1,6 @@
 DisplayName = 9M117M1 Arkan [ATGM]
 Type = TVMissile
+FixMode = 1
 Power = 750
 Acceleration = 4.0
 Piercing = 2

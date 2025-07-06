@@ -1,5 +1,6 @@
 DisplayName = 100mm 2A29 Anti-Tank Gun [9K117 Kastet - ATGM]
 Type = TVMissile
+FixMode = 1
 Power = 600
 Acceleration = 3.0
 Piercing = 0

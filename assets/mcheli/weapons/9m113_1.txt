@@ -1,5 +1,6 @@
 DisplayName = 9M120 ATGM [TV]
 Type = TVMissile
+FixMode = 1
 Power = 600
 Acceleration = 2.0
 Piercing = 2

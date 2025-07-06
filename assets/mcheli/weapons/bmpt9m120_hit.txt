@@ -1,5 +1,6 @@
 DisplayName = 9M120F Ataka [Thermoberic - ATGM]
 Type = TVMissile
+FixMode = 1
 Power = 150
 Acceleration = 7.0
 Explosion = 6

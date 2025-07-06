@@ -1,5 +1,6 @@
 DisplayName = ZT-3 Ingwe [ATGM]
 Type = TVMissile
+FixMode = 1
 Power = 650
 Acceleration = 2.0
 Piercing = 0

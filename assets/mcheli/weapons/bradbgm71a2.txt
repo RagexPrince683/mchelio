@@ -1,4 +1,5 @@
 DisplayName = BGM-71B TOW-2
+FixMode = 1
 Type = TVMissile
 Power = 430
 

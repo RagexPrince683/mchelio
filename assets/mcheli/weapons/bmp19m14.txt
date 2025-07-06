@@ -1,5 +1,6 @@
 DisplayName = Malyutka 9M14 [ATGM]
 Type = TVMissile
+FixMode = 1
 Power = 400
 Acceleration = 4.0
 Piercing = 2

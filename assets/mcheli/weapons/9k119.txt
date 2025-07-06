@@ -1,5 +1,6 @@
 DisplayName = 125mm 2A46M-1 [9M112 ATGM]
 Type = TVMissile
+FixMode = 1
 Power = 650
 ModelBullet =9M119
 Acceleration = 10.0

@@ -1,5 +1,6 @@
 DisplayName = 9M133 Kornet-M
 Type = TVMissile
+FixMode = 1
 Power = 1000
 Acceleration = 1.5
 Explosion = 4

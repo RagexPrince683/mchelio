@@ -1,5 +1,5 @@
-DisplayName = Merkava Mk.4B
-AddDisplayName = ja_JP, Merkava Mk.4B
+DisplayName = Merkava Mk.4 Baz
+AddDisplayName = ja_JP, Merkava Mk.4 Baz
 ItemID = 30075
 MaxHp = 600
 Speed = 0.40
@@ -15,7 +15,7 @@ DamageFactor = 0.0
 CameraZoom = 10
 CameraPosition = 0.52, 3.70, -0.1, true
 EnableNightVision = true
-CameraRotationSpeed = 20
+CameraRotationSpeed = 23
 StepHeight = 1.8
 DefaultFreelook = true
 TurretPosition = 0.0, 0.0, 0.25
@@ -98,13 +98,14 @@ AddTrackRoller =  1.72,  0.18, -2.19
 AddTrackRoller =  1.72,  0.73, -3.10
 
 
-AddPartWeapon = merkava4rehinmetall_apfsds / merkava4rehinmetall_he / merkava4rehinmetall_heat / merkava120mmcanistershell, false, true, false,  0.00, 1.52, 0.25, 0
+AddPartWeapon = merkava4rehinmetall_apfsds / merkava4rehinmetall_he / merkava4rehinmetall_heat / merkava120mmcanistershell/ merkava4lahat, false, true, false,  0.00, 1.52, 0.25, 0
 AddPartWeaponChild = false, true, 0.00, 2.01, 1.62, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.01, 1.62, 0.5
 AddTurretWeapon = merkava4rehinmetall_apfsds, 0.00, 2.22, 0.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 7
 AddTurretWeapon = merkava4rehinmetall_he, 0.00, 2.22, 0.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 7
 AddTurretWeapon = merkava4rehinmetall_heat, 0.00, 2.22, 0.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 7
 AddTurretWeapon = merkava120mmcanistershell,      0.00, 2.22, 0.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 7
+AddTurretWeapon = merkava4lahat,      0.00, 2.22, 0.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 7
 AddTurretWeapon = merkava460mm_mortar,        0.90, 3.00, 0.52,  0.0,-45.0, false, 1, 0,-360,360, -85, 7
 AddTurretWeapon = merkava412_7,         0.00, 2.92, 2.70,  0.0,  0.0, false, 1, 0,-360,360, -20, 7
 AddTurretWeapon = merkava4mgcox,         0.5, 2.22, 1.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 7
@@ -124,40 +125,43 @@ RideRack = c5, 2
 ;modern mbt tracked tank 
 AddRecipe = "ABC", "DGF", "E  ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:fcs3
 
-ArmorMinDamage = 33
+ArmorMinDamage = 30
 
-BoundingBox =  0.0, 1.0,  4.0,  3.0, 1.0, 0.15
+;lower plate
+BoundingBox =  0.0, 1.0,  4.0,  3.0, 1.0, 0.17
 
-BoundingBox = -1.1, 1.05,  2.7,  2.3, 1.8, 0.41
-BoundingBox =  1.1, 1.05,  2.7,  2.3, 1.8, 0.18
+;left
+BoundingBox = -1.1, 1.05,  2.7,  2.3, 1.8, 0.08
+;right
+BoundingBox =  1.1, 1.05,  2.7,  2.3, 1.8, 0.09
 
 ;;;;;;;;side turret 11 but since mcheli is annoying with non rot bbs .20
 
 ;turret
-BoundingBox =  0.0, 2.0, 0.0,  2.8, 1.8, 0.20
+BoundingBox =  0.0, 2.0, 0.0,  2.8, 1.8, 0.05
 ;side armor
-BoundingBox =  0.0, 1.0, 0.0,  4.3, 1.8, 0.22
+BoundingBox =  0.0, 1.0, 0.0,  4.3, 1.8, 0.6
 
 ;back
 ;top back
-BoundingBox =  1.25, 0.91, -3.0,  1.79, 2.0, 1.1
-BoundingBox = -1.25, 0.91, -3.0,  1.79, 2.0, 1.1
+BoundingBox =  1.25, 0.91, -3.0,  1.79, 2.0, 1
+BoundingBox = -1.25, 0.91, -3.0,  1.79, 2.0, 1
 
 ;sideback
-BoundingBox =  1.26, 0.9, -3.0,  1.8, 2.0, 0.01
-BoundingBox = -1.26, 0.9, -3.0,  1.8, 2.0, 0.01
-;back full
-BoundingBox =  1.25, 0.9, -3.01,  1.79, 2.0, 0.13
-BoundingBox = -1.25, 0.9, -3.01,  1.79, 2.0, 0.13
+BoundingBox =  1.26, 0.9, -3.0,  1.8, 2.0, 0.4
+BoundingBox = -1.26, 0.9, -3.0,  1.8, 2.0, 0.4
+;back back
+BoundingBox =  1.25, 0.9, -3.01,  1.79, 2.0, 1
+BoundingBox = -1.25, 0.9, -3.01,  1.79, 2.0, 1
 ;back back back back 30mm 
-BoundingBox = 0.0, 0.9, -2.1, 1.0, 2.0, 1.1
+BoundingBox = 0.0, 0.9, -2.1, 1.0, 2.0, 1
 
 
 
 ;BoundingBox =  0.0, 2.9,  0.0,  2.0, 1.0, 1.30
 
-AddSeat =  0.75, 0.45, -0.21
-AddSeat = -0.75, 0.45, -0.21
+AddSeat =  0.75, 0.45, -0.51
+AddSeat = -0.75, 0.45, -0.51
 AddSeat =  0.75, 0.45, -1.32
 AddSeat = -0.75, 0.45, -1.32
 AddSeat =  0.75, 0.45, -1.62

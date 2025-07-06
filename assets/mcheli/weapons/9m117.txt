@@ -1,5 +1,6 @@
 DisplayName = 9M117 [ATGM]
 Type = TVMissile
+FixMode = 1
 Power = 750
 Acceleration = 2.0
 Piercing = 2

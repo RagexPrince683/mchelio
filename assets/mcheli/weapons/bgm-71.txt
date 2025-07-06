@@ -1,4 +1,5 @@
 ﻿DisplayName = BGM-71D TOW
+FixMode = 1
 Type = TVMissile
 Power = 900
 Acceleration = 3

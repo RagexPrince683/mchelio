@@ -1,5 +1,6 @@
 DisplayName = ATGM Combat
 Type = TVMissile
+FixMode = 1
 Power = 100
 Acceleration = 2.0
 Explosion = 1

@@ -1,5 +1,6 @@
 DisplayName = 115mm U-5TS Cannon [3UBK10M-2 9M117 Bastion - ATGM]
 Type = TVMissile
+FixMode = 1
 Power = 600
 Acceleration = 4.0
 Explosion = 3

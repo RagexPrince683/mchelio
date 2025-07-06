@@ -1,5 +1,6 @@
 DisplayName = 9M113 ATM
 Type = TVMissile
+FixMode = 1
 Power = 600
 Acceleration = 2.0
 LockTime = 20

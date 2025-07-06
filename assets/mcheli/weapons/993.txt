@@ -1,5 +1,6 @@
 DisplayName = 125mm ZPT-98 Cannon [GP125 - GP7 ATGM]
 Type = TVMissile
+FixMode = 1
 Power = 850
 ModelBullet = 9M113
 Explosion = 4

@@ -1,0 +1,115 @@
+DisplayName = AMX56 Leclere MBT
+AddDisplayName = zh_CN,AMX56 “勒克莱尔”主战坦克
+AddDisplayName = en_US,AMX56 Leclere MBT
+
+ItemID = 91128
+MaxHp = 270
+Speed = 0.7
+Gravity = -0.1
+
+DamageFactor = 0.00
+EnableNightVision = true
+EnableEntityRadar = false
+Sound = MBT_RUN
+HUD = mbt_hud2
+WeightType = Tank
+DefaultFreelook = true
+
+CameraZoom = 4
+
+FlareType = 10
+
+ArmorDamageFactor = 1
+
+ThrottleUpDown = 3.5
+MobilityYawOnGround = 4
+OnGroundPitchFactor = 5
+OnGroundRollFactor  = 5
+MotionFactor = 0.9
+
+EnableBack = true
+SetWheelPos =  1.79,  -0.21,  4.14, 3.01, 0.83, -1.11, -3.26
+
+SubmergedDamageHeight = 2
+WeightedCenterZ = 0.0
+
+
+
+
+PivotTurnThrottle = 0.0
+
+AddGunnerSeat =  0.00, 1.58, 0.0,    -0.6, 1.78, 2.0,  false, -90, 90, true
+Entitywidth=0
+Entityheight=0
+
+HideEntity = true
+
+CameraPosition = -0.8,  3.2, 2.25, true
+CameraRotationSpeed = 30
+
+StepHeight = 2
+HideEntity = true
+
+ArmorMinDamage = 18
+
+
+
+MaxFuel         = 1500
+FuelConsumption = 1.0
+
+TrackRollerRot = 50
+
+
+
+AddTrackRoller = -2.32,  0.8253,  3.566
+AddTrackRoller = -2.32,  0.2588,  2.493
+AddTrackRoller = -2.32,  0.2590,  1.322
+AddTrackRoller = -2.32,  0.2592,  0.1436
+AddTrackRoller = -2.32,  0.2594,  -1.044
+AddTrackRoller = -2.32,  0.2595,  -2.214
+AddTrackRoller = -2.32,  0.2597,  -3.435
+
+
+AddTrackRoller = -2.32,  0.8347, -4.454
+
+
+
+AddCrawlerTrack = true, 0.21, -2.0,  -0.25/1.323,-0.25/2.494,-0.2016/2.683,0.4697/3.778,0.6253/3.930,0.8352/3.896,1.045/3.930,1.199/3.777,1.251/3.568,1.252/-4.455,1.198/-4.664,1.048/-4.811,0.8449/-4.867,0.6418/-4.810,0.4931/-4.662,-0.2035/-3.631,-0.25/-3.437
+
+
+
+
+MinRotationPitch = -20
+MaxRotationPitch =  10
+
+
+
+
+
+
+AddTurretWeapon = AMX56_ap, 0.00, 2.14, 1.04,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+AddTurretWeapon = AMX56_he, 0.00, 2.14, 1.04,  0.0, 0.0, true,1, 0,-360,360, -20, 10
+
+AddTurretWeapon = mg_127,  0.5, 2.14, 1.04,  1, -1, true,1, 0,-360,360, -20, 10
+AddPartWeapon = AMX56_AP /AMX56_he, false, true, false,  0.00, 1.58, 0.0, 0
+AddPartWeaponChild = false, true, 0.00, 2.14, 1.04
+AddPartWeaponChild = false, true, 0.00, 2.14, 1.04, 0.5
+
+
+
+BoundingBox =  0, 0.826, 1.73,   4, 2,  0.4
+BoundingBox =  0, 0.853, 2.75,   3, 1,  1
+BoundingBox =  0, 0.826, -2.3,   4, 2,  1
+BoundingBox =  1, 0.826, -4.75,   2, 2,  2
+BoundingBox =  -1, 0.826, -4.75,   2, 2,  2
+BoundingBox =  0, 2.4, 0.625,   3.5, 1.2,  0.4
+BoundingBox =  0, 2.4, -2.25,   3.5, 1.2,  1.3
+
+
+
+
+
+
+
+
+;AddRecipe = "TBT",  "TXT",  "IDI",  T, tnt_minecart, B, bow, X, dispenser, I, iron_ingot, D, diamond

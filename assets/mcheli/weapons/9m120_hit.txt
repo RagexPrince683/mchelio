@@ -1,5 +1,6 @@
 DisplayName = 9M120F Ataka
 Type = TVMissile
+FixMode = 1
 Power = 150
 Acceleration = 2.0
 Explosion = 5

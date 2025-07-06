@@ -1,5 +1,6 @@
 DisplayName = Skif (Stugna-P) [RK-2S - ATGM]
 Type = TVMissile
+FixMode = 1
 Power = 1000
 Piercing = 0
 Acceleration = 4.0

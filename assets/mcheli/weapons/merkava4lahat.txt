@@ -1,4 +1,4 @@
-DisplayName = 120mm IMI MG253 Smoothbore Cannon [LAHAT ATGM]
+DisplayName = 120mm IMI MG251 Cannon [LAHAT ATGM]
 Type = ATMissile
 Power = 950
 Delay = 165
@@ -11,7 +11,7 @@ ExplosionInWater = 2
 ExplosionBlock = 2
 Sight = None
 ReloadTime = 165
-Round = 1
+Round = 9
 Sound = merkavamain
 Particle = largeexplode
 Group = MainGun
@@ -23,6 +23,8 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 SoundVolume = 15
+HeatCount = 2050
+MaxHeatCount = 20500
 
 
 Gravity = -0.001
@@ -35,7 +37,7 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 1.5
 
-MaxAmmo = 12
+MaxAmmo = 9
 SuppliedNum = 1
 Item =  2, iron_ingot
 Item =  3, gunpowder

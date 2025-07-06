@@ -1,5 +1,6 @@
 DisplayName = 9M113M [ATGM]
 Type =  TVMissile
+FixMode = 1
 Power = 800
 Acceleration = 5
 Explosion = 3
