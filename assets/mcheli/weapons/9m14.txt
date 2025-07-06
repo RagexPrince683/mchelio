@@ -1,6 +1,7 @@
 DisplayName = 9M14 Malyutka
 Type = TVMissile
 FixMode = 1
+ModeNum = 2
 Power = 400
 Acceleration = 2.0
 Explosion = 3

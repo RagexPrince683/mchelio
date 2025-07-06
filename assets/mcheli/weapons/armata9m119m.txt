@@ -2,6 +2,7 @@ DisplayName = 125mm 2A82-1M Smoothbore Cannon [9M119M Refleks - ATGM]
 Type = TVMissile
 Power = 900
 FixMode = 1
+ModeNum = 2
 Acceleration = 2.0
 LockTime = 20
 Explosion = 3

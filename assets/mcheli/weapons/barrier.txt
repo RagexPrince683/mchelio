@@ -1,6 +1,7 @@
 DisplayName = Skif (Stugna-P) [RK-2S - ATGM]
 Type = TVMissile
 FixMode = 1
+ModeNum = 2
 Power = 1000
 Piercing = 0
 Acceleration = 4.0
@@ -30,7 +31,7 @@ DamageFactor = player, 20.0
 ;RigidityTime = 30
 
 MaxAmmo = 2
-SuppliedNum = 2
-Item =  1, iron_ingot
-Item =  1, gunpowder
-Item =  1, redstone
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  6, gunpowder
+Item =  2, redstone

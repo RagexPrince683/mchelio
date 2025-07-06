@@ -1,6 +1,7 @@
 DisplayName = 9M113 Konkurs [9N131 HEAT - ATGM]
 Type =  TVMissile
 FixMode = 1
+ModeNum = 2
 Power = 600
 Acceleration = 5
 Explosion = 3

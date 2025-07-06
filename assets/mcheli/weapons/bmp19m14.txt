@@ -1,6 +1,7 @@
 DisplayName = Malyutka 9M14 [ATGM]
 Type = TVMissile
 FixMode = 1
+ModeNum = 2
 Power = 400
 Acceleration = 4.0
 Piercing = 2
@@ -29,6 +30,6 @@ SoundVolume = 15
 CameraRotationSpeedPitch = 0.3
 MaxAmmo = 4
 SuppliedNum = 1
-Item =  1, iron_ingot
-Item =  1, gunpowder
-Item =  1, redstone
+Item =  2, iron_ingot
+Item =  3, gunpowder
+Item =  2, redstone

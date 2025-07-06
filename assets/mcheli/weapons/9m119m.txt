@@ -1,6 +1,7 @@
 DisplayName = 9M119M Refleks
 Type = TVMissile
 FixMode = 1
+ModeNum = 2
 Power = 900
 Acceleration = 2.0
 LockTime = 20

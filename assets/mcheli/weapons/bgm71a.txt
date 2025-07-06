@@ -2,6 +2,7 @@ DisplayName = BGM-71A "TOW"
 Type = TVMissile
 Power = 430
 FixMode = 1
+ModeNum = 2
 
 Delay = 100
 ReloadTime = 200

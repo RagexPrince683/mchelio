@@ -1,6 +1,7 @@
 DisplayName = 9M119 Refleks [ATGM]
 Type = TVMissile
 FixMode = 1
+ModeNum = 2
 Power = 700
 Acceleration = 2.0
 Explosion = 3

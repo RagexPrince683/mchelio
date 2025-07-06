@@ -12,7 +12,7 @@ Sight = MoveSight
 Round = 4
 ModelBullet = 9M113
 Sound = bmptmissile
-;ModeNum = 2
+ModeNum = 2
 
 Delay = 2
 ReloadTime = 2000

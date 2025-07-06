@@ -1,6 +1,7 @@
 DisplayName = 9M133M-2 Kornet-EM
 Type = TVMissile
 FixMode = 1
+ModeNum = 2
 Power = 1300
 Acceleration = 1.0
 Explosion = 4

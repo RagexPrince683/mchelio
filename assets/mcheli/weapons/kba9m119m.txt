@@ -5,6 +5,7 @@ Power = 900
 Acceleration = 2.0
 LockTime = 20
 Explosion = 3
+ModeNum = 2
 
 ExplosionInWater = 2
 
