@@ -13,6 +13,7 @@ SoundVolume = 15.0
 Sound = leotwoasixmain
 BulletColor        = 255, 255, 100, 100
 Recoil = 1.8
+Gravity = -0.001
 
 Round = 8
 
