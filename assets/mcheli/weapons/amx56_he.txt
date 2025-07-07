@@ -1,4 +1,4 @@
-DisplayName = OCC-120-G1 HEAT-FS
+DisplayName = 120mm GIAT CN120-26/52 Cannon [OCC-120-G1 - HEAT-FS]
 Type = MachineGun1
 Power = 100
 ModelBullet =tank_ap
@@ -8,11 +8,11 @@ ExplosionBlock = 0
 Flaming = false
 Sight = None
 Delay = 80
-ReloadTime = 150
-Round = 5
-SoundVolume = 10.0
-Sound = jp_120_snd
-Accuracy = 0.05
+ReloadTime = 80
+Round = 22
+SoundVolume = 15
+Sound = leotwoasixmain
+Accuracy = 0.0
 BulletColor        = 255, 255, 100, 100
 Group = MainGun
 DisplayMortarDistance = true
@@ -20,11 +20,11 @@ Recoil = 0.8
 Gravity = -0.007
 DisplayMortarDistance = true
 TrajectoryParticle = largesmoke
-DamageFactor = player, 0.5
-DamageFactor = plane, 1.5
-DamageFactor = heli, 3
-DamageFactor =vehicle , 1
-DamageFactor = tank, 1.0
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
 
 
 

@@ -1,18 +1,16 @@
-DisplayName = OFL-120-F1 APFSDS
+DisplayName = 120mm GIAT CN120-26/52 Cannon [OFL-120-F1 - APFSDS]
 Type = MachineGun1
-Power = 150
+Power = 576
 ModelBullet =tank_ap
 Acceleration = 26.0
-Explosion = 1
-ExplosionBlock = 0
 Flaming = false
 Sight = None
 Delay = 80
-ReloadTime = 150
-Round = 5
-SoundVolume = 10.0
-Sound = jp_120_snd
-Accuracy = 0.05
+ReloadTime = 80
+Round = 20
+SoundVolume = 15
+Sound = leotwoasixmain
+Accuracy = 0.0
 BulletColor        = 255, 255, 100, 100
 Group = MainGun
 DisplayMortarDistance = true
@@ -20,11 +18,11 @@ Recoil = 0.8
 Gravity = -0.007
 DisplayMortarDistance = true
 TrajectoryParticle = largesmoke
-DamageFactor = player, 0.5
+DamageFactor = tank, 10.0
 DamageFactor = plane, 1.5
-DamageFactor = heli, 3
-DamageFactor =vehicle , 1
-DamageFactor = tank, 1.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
 
 
 
@@ -37,6 +35,6 @@ AddMuzzleFlashSmoke = 9.3, 10,  13.0,  7.0, 55,  200,190,170,150
 RecoilBufCount = 40, 5
 
 MaxAmmo = 20
-SuppliedNum = 10
-Item =  10, iron_ingot
-Item =  5, gunpowder
+SuppliedNum = 5
+Item =  3, iron_ingot
+Item =  3, gunpowder

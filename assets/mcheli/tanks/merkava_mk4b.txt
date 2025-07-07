@@ -129,7 +129,8 @@ RideRack = c5, 1
 RideRack = c5, 2
 
 ;modern mbt tracked tank 
-AddRecipe = "ABC", "DGF", "EH ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:fcs3, H, mcheli:complexmechanicparts
+;todo fix aps bc it is not working for some reason
+;AddRecipe = "ABC", "DGF", "EH ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:fcs3, H, mcheli:complexmechanicparts
 
 ArmorMinDamage = 30
 
