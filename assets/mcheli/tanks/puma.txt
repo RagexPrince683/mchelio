@@ -1,0 +1,107 @@
+DisplayName = SPZ.PUMA IFV
+AddDisplayName = zh_CN,美洲狮重型步兵战车
+AddDisplayName = en_US,SPZ.PUMA IFV
+
+ItemID = 91128
+MaxHp = 250
+Speed = 0.6
+ThrottleUpDown = 2.2
+Gravity = -0.1
+
+DamageFactor = 0.00
+EnableNightVision = true
+EnableEntityRadar = false
+Sound = mbt_run
+HUD = ifv_hud2
+WeightType = Tank
+DefaultFreelook = true
+
+CameraZoom = 6
+
+FlareType = 10
+
+ArmorDamageFactor = 1
+
+
+
+EnableBack = true
+SetWheelPos =  1.79,  -0.21,  4.14, 3.01, 0.83, -1.11, -3.26
+
+SubmergedDamageHeight = 2
+WeightedCenterZ = 0.0
+
+AddCrawlerTrack = true, 0.20, -2.0,  -0.2520/3.778,-0.2468/3.952,0.2156/4.782,0.5494/4.991,0.7281/4.991,1.062/4.782,1.097/4.649,1.124/4.5,1.124/-1.831,0.9573/-2.078,0.7456/-2.133,0.5279/-2.093,-0.1871/-1.279,-0.2491/-1.139,-0.2520/-0.7371,
+
+OnGroundPitchFactor = 3.5
+OnGroundRollFactor  = 3.5
+
+MobilityYawOnGround = 4
+PivotTurnThrottle = 0.0
+
+AddGunnerSeat =  0.00, 1.58, 0.0,    -0.0, 1.78, 0.0,  false, -90, 90, true
+Entitywidth=0
+Entityheight=0
+
+HideEntity = true
+
+CameraPosition = 0.4,  3.15, 1.928, true
+CameraRotationSpeed = 40
+
+StepHeight = 2
+HideEntity = true
+
+ArmorMinDamage = 14
+
+MotionFactor = 0.9
+
+MaxFuel         = 1500
+FuelConsumption = 1.0
+
+TrackRollerRot = 50
+
+
+
+AddTrackRoller = -2.32,  0.6755,  4.637
+AddTrackRoller = -2.32,  0.1460,  3.583
+AddTrackRoller = -2.32,  0.1460,  2.684
+AddTrackRoller = -2.32,  0.1460,  1.806
+AddTrackRoller = -2.32,  0.1460,  0.7388
+AddTrackRoller = -2.32,  0.1460,  -0.1249
+AddTrackRoller = -2.32,  0.1460,  -0.9801
+AddTrackRoller = -2.32,  0.6975, -1.709
+
+
+
+
+
+
+
+
+
+MinRotationPitch = -45
+MaxRotationPitch =  10
+
+
+
+
+
+
+AddTurretWeapon = puma_ap, -0.4672, 2.452,  0.6086,  0.0, 0.0, true,1, 0,-360,360, -75, 10
+AddTurretWeapon = puma_he, -0.4672, 2.452,  0.6086,  0.0, 0.0, true,1, 0,-360,360, -75, 10
+AddTurretWeapon = puma_atgm, 0.82,  2.514, -0.05,  0.0, -55, true,1, 0,-360,360, -75, 10
+AddPartWeapon =puma_ap/puma_he, false, true, false,  0.00, 2.702, 0.0, 0
+AddPartWeaponChild = false, true, -0.4672, 2.452, 0.6086
+AddPartWeaponChild = false, true, -0.4672,  2.452, 0.6086, 0.05
+AddPartWeaponChild = false, true, 0.82,  2.514,0.05
+
+BoundingBox =  -0.49, 0.985,  0.85,   4.0, 2.5,  0.8
+BoundingBox =  0.51, 0.985,  4.1,   2.0, 2.5,  0.6
+BoundingBox = -1.49, 0.985,  4.1,   2.0, 2.5,  0.6
+BoundingBox =  0.51, 0.985,  -1.55,   2.0, 2.5,  1.3
+BoundingBox = -1.49, 0.985,  -1.55,   2.0, 2.5,  1.3
+BoundingBox =  -0.15,2.7, -0.6,   3.25, 1.5,  0.5
+
+
+
+
+

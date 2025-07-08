@@ -1,0 +1,74 @@
+DisplayName = 155mm M40 Gun Motor Carriage
+AddDisplayName = zh_CN,M40“长脚汤姆”自行火炮
+MaxHp = 100
+Speed = 0.24
+Sound = shermaneng
+ThrottleUpDown = 0.7
+MobilityRoll = 0
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor = 0.9
+CameraRotationSpeed = 10
+StepHeight = 1.5
+MinRotationPitch = -50
+MaxRotationPitch = 3
+DefaultFreelook = true
+CameraZoom = 6
+HideEntity = false
+CameraPosition = -0.90, 3.21, -1.2266, false
+
+MobilityYawOnGround = 0.8
+
+HUD = ww2tank_hud,none,none
+
+SubmergedDamageHeight = 2
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+WeightType = tank
+
+AddGunnerSeat =  -0.90, 1.41, -1.2266
+AddSeat =  0.90, 1.41, -1.2266
+
+AddCrawlerTrack = true, 0.23, -1.8083,  -0.2166/3.8343, 0.0/4.6717, 0.3734/4.9794, 0.5683/5.06, 0.7632/4.9794, 0.844/4.7845, 0.844/0.0, 0.894/-1.8224, 0.8211/-2.0676, 0.5759/-2.1692, 0.3306/-2.0676, 0.0/-1.8224, -0.2166/-1.2142, -0.2166/-0.0
+
+SetWheelPos =  1.99,  -0.24,  3.83, 2.7931, 1.8306, 0.7895, -0.173, -1.2142
+
+AddTrackRoller = -1.75,  0.566,  4.78
+AddTrackRoller = -1.20,  0.0958,  3.83
+AddTrackRoller = -1.20,  0.0958,  2.7931
+AddTrackRoller = -1.20,  0.0958,  1.8306
+AddTrackRoller = -1.20,  0.0958,  0.7895
+AddTrackRoller = -1.20,  0.0958,  -0.173
+AddTrackRoller = -1.20,  0.0958,  -1.2142
+AddTrackRoller = -1.20,  0.5759,  -1.8224
+
+
+
+
+
+
+AddWeapon = m40m107,      0.00, 2.8, 0.2165,  0.0, 0.0, true, 1,0,-5,5, -50, 3
+AddWeapon = m40m107vt,      0.00, 2.8, 0.2165,  0.0, 0.0, true, 1,0,-5,5, -50, 3
+AddWeapon = m40gas,      0.00, 2.8, 0.2165,  0.0, 0.0, true, 1,0,-5,5, -50, 3
+AddpartWeapon = m107/m107vt/m40gas, false, true, false, 0.00, 0, -0.0, 0
+AddPartWeaponChild = false, true, 0.00, 2.6991, -0.4276,  0.0
+
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+;ArmorMinDamage = 15
+;no its an opentop wtf
+
+
+MaxFuel         = 1200
+FuelConsumption = 1.2
+
+BoundingBox =  0.9, 0.9,  4.2,   1.8, 1.9,   0.4
+BoundingBox =  -0.9, 0.9,  4.2,   1.8, 1.9,   0.4
+BoundingBox =  0.0, 1.1,  1.8,   3.5, 1.5,   0.7
+
+BoundingBox =  1.0, 1.5, -0.0,   2.0, 2.0,   1.00
+BoundingBox =  -1.0, 1.5, -0.0,   2.0, 2.0,   1.00

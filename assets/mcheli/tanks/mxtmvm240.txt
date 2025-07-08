@@ -107,4 +107,4 @@ ArmorDamageFactor = 2.0
 Regeneration = false
 
 ;advanced humvee type gl
-AddRecipe = "ABC", "DDD", "G  ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine2, D, mcheli:map, G, mcheli:cannon1
+AddRecipe = "ABC", "DDD", "GE ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine2, D, mcheli:map, G, mcheli:cannon1, E, mcheli:electronics

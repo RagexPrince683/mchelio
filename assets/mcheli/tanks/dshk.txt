@@ -1,0 +1,65 @@
+DisplayName = DSHK
+AddDisplayName = en_US, DSHK
+AddDisplayName = ru_RU, DSHK
+MaxHp = 100
+ThrottleUpDown = 9.9
+Speed = 0.005
+MobilityYawOnGround = 1.0
+StepHeight = 0
+Sound = none
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 5
+Gravity = -0.61
+GravityInWater = -1.0
+DamageFactor   = 1.00
+MaxFuel           = 0
+FuelConsumption   = 0
+ThirdPersonDist = 3
+WeightType = Unknown
+WeightedCenterZ = 0.0
+
+OnGroundPitchFactor = 0
+OnGroundRollFactor  = 0
+
+EnableBack = true
+
+SetWheelPos =  0.20,  -0.20,  0.20, -0.20
+CameraRotationSpeed = 20
+
+;oh fuck -70.35 y
+
+HUD = none, gunner
+
+addseat = 1.40,  -0.3, -0.57
+
+AddGunnerSeat =  0.0,  1.343,  -0.57,   0.00, 1.00,-1.00,  false, -90, 90, false
+
+;AddSeat = 0.0,  1.343,  -0.57
+
+
+AddWeapon = dshk12_7mm, -0.0671, 2.0606, 0.018, 0.0, 0.0, false,2, 0,-100,100, -30, 1
+;TurretWeapon?
+AddPartWeapon = dshk12_7mm, false, true, false, -0.0671, 0.8016, 0.018, 0
+
+AddPartWeaponChild = false, true, 0.0296, 2.1174, 0.1342, 0.0
+
+
+PivotTurnThrottle = 0.0
+
+;;AddPartWeapon = dshk12_7mm, false, true, false,  0.000, 0.0000,  0.00, -0.003
+
+;basic turret 
+AddRecipe = "   ", "GEF", "   ", E, mcheli:lap, F, mcheli:basicmechanicparts, G, mcheli:cannon1
+
+;AddWeapon = toyotadshk12_7mm, -0.0671, 2.0606, 0.018, 0.0, 0.0, false,2, 0,-100,100, -30, 1
+;AddPartWeapon = toyotadshk12_7mm, false, true, false, -0.0671, 0.8016, 0.018, 0
+;AddPartWeaponChild = false, true, 0.0296, 2.1174, 0.1342, 0.0
+
+;;AddTurretWeapon = dshk12_7mm,   0.00, 0.1746,-0.15,  0.0, 0.0,  false, 2, 0,  -100,100, -30, 1
+
+
+
+
+
+unmountposition = 1.40,  1.5, -1.00

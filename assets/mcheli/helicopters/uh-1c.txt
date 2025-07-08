@@ -6,7 +6,7 @@ EnableGunnerMode = true
 EnableNightVision = true
 ThirdPersonDist = 20
 
-Speed = 1.48
+Speed = 1.35
 ThrottleUpDown = 0.8
 FlareType = 3
 CameraPosition = 0.0, 0.7, 3.0
