@@ -1,5 +1,6 @@
 DisplayName = Bicycle
 AddDisplayName = ja_JP, 自転車
+;until i fix how mcheli applies damage to entites this is staying uncraftable
 
 MaxHp = 20
 ;Speed = 0.16
