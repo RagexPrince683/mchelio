@@ -9,10 +9,6 @@ ReloadTime = 500
 Sound = bomb_snd
 ModelBullet = fab250
 DisplayMortarDistance = true
-DamageFactor = player, 10
-DamageFactor = heli, 10
-DamageFactor = tank, 2
-DamageFactor =vehicle , 4
 
 Acceleration = 0.5
 Explosion = 11

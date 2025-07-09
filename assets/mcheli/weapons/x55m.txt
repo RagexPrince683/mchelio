@@ -1,8 +1,10 @@
-DisplayName = Kh-55M
+DisplayName = Kh-55M2 Cruise Missile
 Type = TVMissile
-Power = 1000
-Acceleration = 2.0
-Explosion = 15
+Power = 2000
+Acceleration = 4.0
+Explosion = 17
+ExplosionInWater = 9
+ExplosionBlock = 15
 Sight = MoveSight
 Delay = 220
 ModeNum = 2
@@ -11,13 +13,17 @@ Sound = missile_1_snd
 DisableSmoke = true
 
 DamageFactor = tank, 2.0
-DamageFactor = plane, 4.5
-DamageFactor = vehicle 4.5
-DamageFactor = heli, 4.5
+DamageFactor = plane, 3.0
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 3.0
+DamageFactor = player, 20.0
+gravity = -0.001
+displaymortardistance= true
+ExplosionAltitude = 4
 
 
 MaxAmmo = 2
-SuppliedNum = 2
-Item =  3, iron_ingot
-Item =  3, gunpowder
-Item =  3, redstone
+SuppliedNum = 1
+Item =  5, iron_ingot
+Item =  5, gunpowder
+Item =  5, redstone
