@@ -1,0 +1,76 @@
+DisplayName = Mirage 2000C
+AddDisplayName = en_US, Mirage 2000C
+AddDisplayName = ja_JP, Mirage 2000C
+MaxHp = 200
+Speed = 1.1
+Sound = mirage2000_snd
+ThrottleUpDown = 0.8
+MaxFuel = 1200
+FuelConsumption = 1.0
+FlareType = 3
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+EnableSeaSurfaceParticle = true
+ParticlesScale = 0.7
+ThirdPersonDist = 20
+Category = M.F
+
+AddSeat = 0.00,  1.75,  0.5
+AddPartCanopy = 0.0, 3.14, -0.30,  -1,0,0,  60
+HUD = plane
+
+;main-lg
+AddPartLG =  0.0, 1.40, 1.04,  1,0,0, 90
+AddPartLG =  2.10, 1.55, -5.13,  0,0,-1, 90
+AddPartLG =  -2.10, 1.55, -5.13,  0,0,1, 90
+
+;front-etc
+AddPartLG = 0.0, 1.25, 1.35, 1,0,0, 75
+AddPartLG = 0.18, 1.182, 0.994, 0,0,-1, 90
+AddPartLG = 0.18, 1.182, 0.994, 0,0,-1, 90
+
+EntityHeight = 0.8
+EntityWidth = 0.8
+
+MobilityYaw = 1.5
+MobilityPitch = 1.5
+MobilityRoll = 1.5
+;OnGroundPitch = 3
+
+AddTexture = m2000c2_5
+AddTexture = m2000c_vendé
+AddTexture = m2000c_cig1984
+AddTexture = m2000c_spa172
+AddTexture = m2000c_corse
+AddTexture = m2000_braz
+AddTexture = m2000h
+AddTexture = m2000EG
+AddTexture = m2000rad
+
+;weapon
+AddWeapon = defa554,  0.663, 1.29, -1.07,  0.0, 0.0
+AddWeapon = defa554,  -0.663, 1.29, -1.07,  0.0, 0.0
+
+AddWeapon = mica,  0.97, 0.87, -2.36,   1.0, 0.0
+AddWeapon = mica,  -0.97, 0.87, -2.36,   1.0, 0.0
+AddWeapon = mica,  0.97, 0.86, -6.30,   1.0, 0.0
+AddWeapon = mica,  -0.97, 0.86, -6.30,   1.0, 0.0
+
+AddWeapon = r550_2, 3.72, 0.78, -5.96, 0.0, 0.0
+AddWeapon = r550_2, -3.72, 0.78, -5.96, 0.0, 0.0
+
+AddWeapon = ft_m2k, 0.0, 0.574, -3.4, 0.0, 0.0
+
+;weapon-parts
+AddPartWeaponMissile = mica,  false, false, false, 0.97, 0.87, -2.36
+AddPartWeaponMissile = mica,  false, false, false, -0.97, 0.87, -2.36
+AddPartWeaponMissile = mica,  false, false, false, 0.97, 0.86, -6.30
+AddPartWeaponMissile = mica,  false, false, false, -0.97, 0.86, -6.30
+
+AddPartWeaponMissile = r550_2,  false, false, false, 3.72, 0.78, -5.96
+AddPartWeaponMissile = r550_2,  false, false, false, -3.72, 0.78, -5.96
+
+AddPartWeaponMissile = ft_m2k, false, false, false, 0.0, 0.574, -3.4
+
+AddWeapon = RDI,   0.0, 2.25, 10.6,  0.0, 0.0

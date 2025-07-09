@@ -1,0 +1,54 @@
+DisplayName = Mirage 2000-5F
+AddDisplayName = en_US, Mirage 2000-5
+AddDisplayName = ja_JP, Mirage 2000-5
+MaxHp = 200
+Speed = 1.1
+Sound = mirage2000_snd
+ThrottleUpDown = 0.8
+MaxFuel = 1200
+FuelConsumption = 1.0
+FlareType = 3
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+EnableSeaSurfaceParticle = true
+ParticlesScale = 0.7
+ThirdPersonDist = 20
+Category = M.F
+
+AddSeat = 0.00,  1.75, 0.6
+AddPartCanopy = 0.0, 3.10, -0.185,  -1,0,0,  60
+HUD = plane
+
+AddTexture = m2000-5_corse
+AddTexture = m2000-5eg
+
+;front
+AddPartLG =  0.0, 1.51, 1.09,  1,0,0, 85
+AddPartLG =  0.0, 1.287, 1.447,  1,0,0, 69
+AddPartLG =  0.25, 1.30, 0.64,  0,0,-1, 60
+AddPartLG = -0.25, 1.30, 0.64,  0,0,1, 60
+
+;back-left
+AddPartLG = 2.09, 1.536, -5.14, 0,0,-1, 90
+AddPartLG = 1.222, 1.653, -5.08, 0,0,1, 20
+AddPartLG = 2.35, 1.435, -4.95, 0,0,-1, 84
+
+;back-right
+AddPartLG = -2.09, 1.536, -5.14, 0,0,1, 90
+AddPartLG = -1.222, 1.653, -5.08, 0,0,-1, 20
+AddPartLG = -2.35, 1.435, -4.95, 0,0,1, 84
+
+EntityHeight = 0.8
+EntityWidth = 0.8
+
+MobilityYaw = 1.5
+MobilityPitch = 1.5
+MobilityRoll = 1.5
+;OnGroundPitch = 3
+
+;weapon
+AddWeapon = defa554,  0.663, 1.29, -1.07,  0.0, 0.0
+AddWeapon = defa554,  -0.663, 1.29, -1.07,  0.0, 0.0
+
+AddWeapon = RDY,   0.0, 2.25, 10.6,  0.0, 0.0
