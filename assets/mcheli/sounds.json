@@ -358,6 +358,7 @@
 "prop_tank": {"category": "master","sounds": ["prop_tank"]},
 "psiren": {"category": "master","sounds": ["psiren"]},
 "pulse_jet": {"category": "master","sounds": ["pulse_jet"]},
+"puma": {"category": "master","sounds": ["puma"]},
 "puma_snd": {"category": "master","sounds": ["puma_snd"]},
 "pwu_snd": {"category": "master","sounds": ["pwu_snd"]},
 "pzl": {"category": "master","sounds": ["pzl"]},

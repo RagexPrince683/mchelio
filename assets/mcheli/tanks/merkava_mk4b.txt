@@ -19,14 +19,19 @@ CameraRotationSpeed = 23
 StepHeight = 1.8
 DefaultFreelook = true
 TurretPosition = 0.0, 0.0, 0.25
-;FlareType = 10
+FlareType = 10
 ;WHY TS NOT WORKING
 
 ;debug: testing new APS feature
-HasAPS = true
-APSUseTime = 500
-APSWaitTime = 0
-APSRange = 30
+;HasAPS = true
+;APSUseTime = 500
+;APSWaitTime = 0
+;APSRange = 30
+
+hasaps=true
+apsUseTime= 1500
+apsWaitTime=5
+apsRange = 8
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3

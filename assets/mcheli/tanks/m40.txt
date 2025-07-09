@@ -51,7 +51,7 @@ AddTrackRoller = -1.20,  0.5759,  -1.8224
 AddWeapon = m40m107,      0.00, 2.8, 0.2165,  0.0, 0.0, true, 1,0,-5,5, -50, 3
 AddWeapon = m40m107vt,      0.00, 2.8, 0.2165,  0.0, 0.0, true, 1,0,-5,5, -50, 3
 AddWeapon = m40gas,      0.00, 2.8, 0.2165,  0.0, 0.0, true, 1,0,-5,5, -50, 3
-AddpartWeapon = m107/m107vt/m40gas, false, true, false, 0.00, 0, -0.0, 0
+AddpartWeapon = m40m107/m40m107vt/m40gas, false, true, false, 0.00, 0, -0.0, 0
 AddPartWeaponChild = false, true, 0.00, 2.6991, -0.4276,  0.0
 
 
