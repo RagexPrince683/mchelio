@@ -61,4 +61,4 @@ PivotTurnThrottle = 0.0
 AddRecipe = "   ", "GEF", "   ", E, mcheli:lap, F, mcheli:basicmechanicparts, G, mcheli:cannon1
 
 
-unmountposition = 1.40,  1.5, -1.00
+unmountposition = 0.0,  1.2,  -0.84

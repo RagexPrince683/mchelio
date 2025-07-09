@@ -1,6 +1,8 @@
 ﻿DisplayName = Fast Back Humvee with M2 Browning RWS
 AddDisplayName = ja_JP, Fast Back Humvee with M2 Browning RWS
 AddDisplayName = en_US, Fast Back Humvee with M2 Browning RWS
+;sigma sigma on the wall who is the most lonely of them all
+;smd atom
 ItemID = 30032
 MaxHp = 230
 ThrottleUpDown = 0.81
@@ -50,7 +52,7 @@ AddWeapon =  none, 0.00,  0.42,  3.05, 0.0, 90
 
 AddWeapon =  1_horngtr, 0.00,  0.42,  3.05, 0.0, 90
 
-AddGunnerSeat = -0.70,  0.30,  0.31,   0.00, 2.6636, 0.7727,  false, -60,  60
+AddGunnerSeat = -0.70,  0.30,  0.31,   0.00, 2.6636, 0.7727,  true, -60,  60, false
 AddSeat = -0.67,  0.30, -0.41
 AddSeat =  0.67,  0.30, -0.41
 ;;AddGunnerSeat =  0.00, 1.50,-0.018,   0.00, 2.60, -0.018,  false, -60,  60
@@ -159,9 +161,6 @@ EntityWidth  = 0.85
 EntityHeight = 0.85
 
 InventorySize = 9
-
-
-;RIP AddRecipe = "BC ",  "   ", "   ",  B, mcheli:Humvee, C, mcheli:basicm2hb
 
 
 BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9

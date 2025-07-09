@@ -13,8 +13,13 @@ SoundVolume = 15
 SoundPitch = 1.0
 Sound = m2_snd
 Accuracy = 0.2
+Gravity = -0.001
 HeatCount = 4
 MaxHeatCount = 50
+DamageFactor = tank, 1.0
+DamageFactor = plane, 0.5
+DamageFactor = vehicle, 1.0
+DamageFactor = heli, 0.5
 SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
 modelbullet = bullet
 

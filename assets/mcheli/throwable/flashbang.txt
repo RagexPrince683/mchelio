@@ -1,13 +1,21 @@
-DisplayName = Flash Bang Grenade
-AddDisplayName = ja_JP, Flash Bang Grenade
+DisplayName = Flash Bang Grenade [BROKEN]
+AddDisplayName = ja_JP, Flash Bang Grenade [DEBUG]
 Power = 0
 StackSize = 2
-Explosion = 5
-ExplosionBlock = 0
+;Explosion = 0
+;ExplosionBlock = 0
+;let's just not actually
 TimeFuse = 2
 Bound = 0.3
 Bomblet = 25
 BombletDiff = 2.0
+
+SmokeMaxAge = 3
+SmokeSize = 25
+SmokeNum = 8
+SmokeColor = 225, 225, 225
+SmokeVelocityVertical   = 5
+SmokeVelocityHorizontal = 5
 
 
 DamageFactor = tank, 0.0

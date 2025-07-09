@@ -53,7 +53,7 @@ HUD = mbt_hud, gunner
 
 AddGunnerSeat = 0.00,  2.50,  0.25,   2.00,  3.50,  0.25, false, -90, 90, true
 ;AddGunnerSeat = 0.00,  1.00, -1.25,  -0.40,  3.60, -0.90, false, -90, 90, true
-AddGunnerSeat = 0.7196, 2.853, -1.986,  -0.6034, 4.304, -1.175, false, -90, 90, true
+AddGunnerSeat = 0.7196, 1.453, -0.686,  0.7196, 4.304, -1.986, false, -90, 90, true
 
 MotionFactor = 0.9
 
