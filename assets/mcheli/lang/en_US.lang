@@ -1,4 +1,6 @@
 item.mcheli:rangefinder.name=Laser Rangefinder
+item.mcheli:spawn_gunner_vs_monster.name=Gunner (vs Monster)
+item.mcheli:spawn_gunner_vs_player.name=Gunner (vs Player of other team)
 item.mcheli:wrench.name=Wrench
 item.mcheli:fuel.name=Fuel
 item.mcheli:gltd.name=GLTD:Target Designator

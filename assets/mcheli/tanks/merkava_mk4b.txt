@@ -29,9 +29,9 @@ FlareType = 10
 ;APSRange = 30
 
 hasaps=true
-apsUseTime= 1500
+apsUseTime= 4500
 apsWaitTime=5
-apsRange = 8
+apsRange = 16
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
