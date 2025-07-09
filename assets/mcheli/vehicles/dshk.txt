@@ -30,23 +30,25 @@ CameraRotationSpeed = 20
 
 ;oh fuck -70.35 y
 
-HUD = none, gunner
+HUD = gunner
+;, gunner
 
 ;another -45.48
 
 ;addseat = 1.40,  -0.3, -0.57
 
-AddGunnerSeat =  0.0,  0.8882,  -0.57,   0.00, 1.8452,-0.57,  false, -90, 90, true
+AddGunnerSeat =  0.0,  0.2882,  -0.84,   0.0, 1.8452,0.0,  false, -90, 90, true
 
-Cameraposition = 0.00, 1.8452,-0.57
+Cameraposition = 0.0, 1.2452,-0.84
 
-TurretPosition = 0.0, -1.0, -0.0
+TurretPosition = 0.0, 0.2, 0.0
 
-AddTurretWeapon = dshk12_7mm, -0.0671, 1.6058, 0.018, 0.0, 0.0, false,2, 0,-360,360, -30, 1
+AddTurretWeapon = dshk12_7mm, 0.0296, 0.9085, 0.1342, 0.0, 0.0, false,1, 0,-360,360, -30, 1
 ;TurretWeapon?
-AddPartTurretWeapon = dshk12_7mm, false, true, false, -0.0671, 0.8016, 0.018, 0
+AddPartTurretWeapon = dshk12_7mm, false, true, false, 0.0, 0.6165, 0.0, 0
+;y was 8016
 
-AddPartWeaponChild = false, true, 0.0296, 0.645, 0.1342, 0.0
+AddPartWeaponChild = false, true, 0.0, 0.6165, 0.0, 0.0
 
 
 PivotTurnThrottle = 0.0
