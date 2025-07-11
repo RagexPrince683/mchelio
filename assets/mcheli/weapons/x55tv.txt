@@ -1,7 +1,7 @@
 DisplayName = Kh-55M2 Cruise Missile
 Type = TVmissile
 Power = 2000
-Acceleration = 4.0
+Acceleration = 2.7
 Explosion = 17
 ExplosionInWater = 9
 ExplosionBlock = 15
@@ -10,7 +10,7 @@ Delay = 20
 ModeNum = 2
 ModelBullet = x55at
 Sound = missile_1_snd
-SoundVolume = 10.0
+SoundVolume = 15.0
 DisableSmoke = true
 
 DamageFactor = tank, 2.0

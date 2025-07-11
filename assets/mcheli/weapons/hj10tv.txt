@@ -1,7 +1,7 @@
 DisplayName = HJ-10
 Type = TVMissile
 Power = 1200
-Acceleration = 2.0
+Acceleration = 2.5
 Explosion = 4
 ExplosionInWater = 2
 Flaming = true
@@ -22,9 +22,6 @@ FixMode = 2
 
 Delay = 10
 ReloadTime = 100
-;Group = MainGun
-;Acceleration = 7.0
-
 
 
 MaxAmmo = 4

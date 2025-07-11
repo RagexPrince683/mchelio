@@ -1,7 +1,7 @@
 DisplayName = Kh-23M
 Type = TVMissile
 Power = 500
-Acceleration = 4.0
+Acceleration = 8.1
 Explosion = 12
 ExplosionInWater = 6
 Flaming = true
@@ -22,4 +22,4 @@ MaxAmmo = 2
 SuppliedNum = 1
 Item =  5, iron_ingot
 Item =  4, gunpowder
-Item =  4, redstone
+Item =  6, redstone

@@ -1,7 +1,7 @@
 DisplayName = AGM-119B Penguin
 Type = TVMissile
 Power = 1000
-Acceleration = 4.0
+Acceleration = 1.9
 Explosion = 12
 ExplosionBlock = 10
 Flaming = true

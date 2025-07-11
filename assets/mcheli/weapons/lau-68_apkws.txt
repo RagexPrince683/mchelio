@@ -1,7 +1,7 @@
 DisplayName = 70mm LAU-68/APKWS
 Type = TVMissile
 Power = 400
-Acceleration = 2.0
+Acceleration = 4.2
 Explosion = 4
 ExplosionInWater = 2
 Flaming = true

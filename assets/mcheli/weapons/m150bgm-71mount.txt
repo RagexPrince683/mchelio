@@ -5,7 +5,7 @@ FixMode = 1
 DisplayName = BGM-71D TOW
 Type = TVMissile
 Power = 900
-Acceleration = 3
+Acceleration = 3.2
 Explosion = 4
 ExplosionBlock = 2
 
@@ -19,18 +19,15 @@ Round = 1
 
 Delay = 100
 ReloadTime = 200
-;Group = MainGun
 
 BulletColor        = 255, 255, 100, 100
-;ModelBullet = bullet105mm
 Piercing = 0
-;Accuracy = 0.0
+
 DamageFactor = tank, 2.0
 DamageFactor = plane, 2.0
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-;AddDisplayName = en_US,
 Sound = tow
 SoundVolume = 15
 

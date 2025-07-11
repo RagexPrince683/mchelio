@@ -1,7 +1,7 @@
-DisplayName = AGM-86B/C W80 Nuclear Warhead [150KT SURFACE]
+DisplayName = AGM-86B/C [W80 Nuclear Warhead - 150KT SURFACE]
 Type = TVMissile
-;Power = 1000
-Acceleration = 2.0
+Power = 100
+Acceleration = 2.7
 Explosion = 10
 ExplosionBlock = 3
 ExplosionInWater = 3
@@ -17,12 +17,9 @@ nukeyield = 90
 Group = maingun
 ;I hate hbm proportions
 ;150kt
+SoundVolume = 15
 
-;DamageFactor = tank, 2.0
-;DamageFactor = plane, 1.0
-;DamageFactor = vehicle 4.5
-;DamageFactor = heli, 4.5
-;DamageFactor = player, 20.0
+
 
 MaxAmmo = 12
 SuppliedNum = 1

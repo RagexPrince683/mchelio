@@ -1,7 +1,7 @@
 DisplayName = SPLIKE-LR2 ATGM
 Type = TVMissile
 Power = 1200
-Acceleration = 3.5
+Acceleration = 1.4
 Explosion = 6
 ExplosionBLOCK = 2
 Flaming = false

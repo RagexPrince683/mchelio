@@ -1,9 +1,9 @@
-DisplayName = 9M133 Kornet-M
+DisplayName = 9M133 Kornet-M [ATGM]
 Type = TVMissile
 FixMode = 1
 ModeNum = 2
 Power = 1000
-Acceleration = 1.5
+Acceleration = 3.0
 Explosion = 4
 ExplosionInWater = 2
 ExplosionBlock = 3
@@ -14,7 +14,7 @@ Sound = bmptmissile
 SoundVolume = 3
 Round = 2
 ReloadTime = 120
-LockTime = 30
+LockTime = 20
 RigidityTime = 7
 ModelBullet = 9m113
 
@@ -26,18 +26,17 @@ AddMuzzleFlashSmoke = 10.2, 20, 13.0,  7.0, 55,  200,190,170,150
 
 Delay = 100
 ReloadTime = 120
-;Group = MainGun
-;Acceleration = 7.0
+
 BulletColor        = 255, 255, 100, 100
-;ModelBullet = bullet105mm
+
 Piercing = 0
-;Accuracy = 0.0
+
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 9M133 Kornet-M
+
 SoundVolume = 15
 
 MaxAmmo = 4

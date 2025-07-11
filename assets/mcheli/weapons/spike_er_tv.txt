@@ -5,7 +5,7 @@ DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-Acceleration = 1.7
+Acceleration = 2
 Explosion = 4
 ExplosionInWater = 2
 Flaming = true
@@ -23,7 +23,6 @@ Sound = missile_1_snd
 
 Delay = 100
 ReloadTime = 240
-;Acceleration = 7.0
 
 MaxAmmo = 4
 SuppliedNum = 1

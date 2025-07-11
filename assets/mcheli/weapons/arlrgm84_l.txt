@@ -1,7 +1,7 @@
 DisplayName = RGM-84 Harpoon [Anti-Ship Missile]
 Type = TVMissile
 Power = 1080
-Acceleration = 5.0
+Acceleration = 2.9
 Explosion = 14
 ExplosionBlock = 8
 ExplosionInWater = 14
@@ -10,7 +10,7 @@ Sight = MoveSight
 Delay = 20
 ModeNum = 2
 ModelBullet = agm84
-SoundVolume = 10.0
+SoundVolume = 15.0
 Sound = aimnine
 SoundPitch = 0.6
 

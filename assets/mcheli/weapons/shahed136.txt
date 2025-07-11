@@ -5,7 +5,7 @@ DisplayName = Shahed 136/Geran 2 Drone
 DisplayName = Shahed 136/Geran 2 Drone
 Type = TVMissile
 Power = 450
-Acceleration = 2
+Acceleration = 1
 Explosion = 9
 
 ExplosionInWater = 5
@@ -30,3 +30,4 @@ MaxAmmo = 5
 SuppliedNum = 1
 Item =  5, iron_ingot
 Item =  5, gunpowder
+Item = 2, redstone

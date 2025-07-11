@@ -1,9 +1,9 @@
-DisplayName = 9M14 Malyutka
-Type = TVMissile
+DisplayName = 9M14 Malyutka [ATM]
+Type = ATMissile
 FixMode = 1
 ModeNum = 2
 Power = 400
-Acceleration = 2.0
+Acceleration = 1.2
 Explosion = 3
 ExplosionInWater = 2
 Flaming = false
@@ -12,13 +12,12 @@ Round = 4
 ModelBullet = 9M113
 Sound = bmptmissile
 ModeNum = 2
+LockTime = 40
 
 Delay = 40
 ReloadTime = 200
 Group = MainGun
-;Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
-;ModelBullet = bullet105mm
 Piercing = 0
 ;Accuracy = 0.0
 DamageFactor = tank, 2.0
@@ -26,7 +25,6 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 9M14 [ATGM TV]
 SoundVolume = 15
 
 MaxAmmo = 1

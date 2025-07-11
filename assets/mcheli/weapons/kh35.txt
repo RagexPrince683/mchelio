@@ -1,7 +1,7 @@
 DisplayName = Kh-35
 Type = TVMissile
 Power = 1000
-Acceleration = 6.5
+Acceleration = 2.9
 Explosion = 12
 ExplosionBlock = 2
 ExplosionInWater = 12
@@ -13,7 +13,7 @@ ReloadTime = 1000
 
 ModeNum = 2
 ModelBullet = Kh35
-SoundVolume = 3
+SoundVolume = 15
 ;;Sound = HOT-1_snd
 SoundPitchRandom = 0.1
 
@@ -41,6 +41,6 @@ AddMuzzleFlashSmoke =  -6.2, 13,  13.0,  6.0, 35,  200,190,170,150
 
 MaxAmmo = 8
 SuppliedNum = 1
-Item =  1, iron_ingot
+Item =  3, iron_ingot
 Item =  12, gunpowder
-Item =  2, redstone
+Item =  5, redstone

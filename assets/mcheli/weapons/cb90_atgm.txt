@@ -1,10 +1,10 @@
 DisplayName = AGM-114 Hellfire ATGM
 Type = TVMissile
 Power = 1000
-Acceleration = 2.0
+Acceleration = 4.8
 Explosion = 5
 ExplosionInWater = 3
-ExplosionBlock = 0
+ExplosionBlock = 5
 Sight = MoveSight
 Delay = 5
 ModelBullet = agm114

@@ -1,12 +1,12 @@
 DisplayName = AGM-119B Penguin
 Type = TVMissile
 Power = 1000
-Acceleration = 4.0
+Acceleration = 1.9
 Explosion = 12
 ExplosionBlock = 10
 Flaming = true
 Sight = MoveSight
-Delay = 10
+Delay = 5
 Sound = missile_2_snd
 
 DamageFactor = tank, 2.0

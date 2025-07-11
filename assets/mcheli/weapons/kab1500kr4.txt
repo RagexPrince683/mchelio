@@ -1,7 +1,7 @@
 DisplayName = KAB-1500KR Guided Bomb
 Type =TVmissile
 Power = 4500
-Acceleration = 2
+Acceleration = 2.9
 Explosion = 21
 Sight = MoveSight
 Delay = 20
@@ -34,5 +34,5 @@ Gravity = -0.004
 MaxAmmo = 4
 SuppliedNum = 1
 Item =  15, iron_ingot
-Item =  10, gunpowder
-Item =  5, redstone
+Item =  14, gunpowder
+Item =  8, redstone

@@ -1,7 +1,7 @@
 DisplayName = AGM-84 Harpoon
 Type = TVMissile
 Power = 1000
-Acceleration = 4.0
+Acceleration = 2.9
 Flaming = true
 Sight = MoveSight
 Delay = 5
@@ -9,6 +9,7 @@ ReloadTime = 1000
 ModelBullet = agm84
 Sound = mlrs
 SoundPitch = 0.8
+SoundVolume = 15
 
 Explosion = 14
 ;Explosive mass	50 kg kg

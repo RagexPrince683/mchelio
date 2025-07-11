@@ -1,5 +1,5 @@
-DisplayName = 9M113M [ATGM]
-Type =  TVMissile
+DisplayName = 9M113M Konkurs-M ATM
+Type = ATMissile
 FixMode = 1
 ModeNum = 2
 Power = 800
@@ -12,22 +12,19 @@ Delay = 20
 ModelBullet = 9M113M
 Sound = missile_15_snd
 ReloadTime = 1000
+LockTime = 20
 
 
 Delay = 40
 ReloadTime = 1000
 Group = MainGun
-;Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
-;ModelBullet = bullet105mm
 Piercing = 0
-;Accuracy = 0.0
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 9M113M
 SoundVolume = 15
 
 

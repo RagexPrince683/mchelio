@@ -1,7 +1,7 @@
 DisplayName = AGM-158 JASSM
 Type = TVMissile
 Power = 1000
-Acceleration = 2.0
+Acceleration = 2.9
 Explosion = 18
 ExplosionBlock = 3
 ExplosionInWater = 9

@@ -1,14 +1,13 @@
 DisplayName = Milan ATGM
 Type = TVMissile
 Power = 530
-Acceleration = 2.0
+FixMode = 1
+Acceleration = 1.9
 ExplosionBlock = 2
 Explosion = 3
 ExplosionInWater = 2
 Flaming = true
 Sight = MoveSight
-ReloadTime = 200
-Delay = 40
 Round = 4
 ModelBullet = agm114
 Sound = bmptmissile
@@ -22,7 +21,6 @@ DamageFactor = heli, 3.0
 Delay = 40
 ReloadTime = 200
 Group = MainGun
-;Acceleration = 7.0
 
 
 MaxAmmo = 4

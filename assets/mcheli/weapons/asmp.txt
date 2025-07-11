@@ -1,19 +1,18 @@
 DisplayName = ASMP Nuclear Cruise Missile [300KT]
 Type = TVMissile
 Power = 100
-Acceleration = 3.0
+Acceleration = 8.5
 Explosion = 10
 ExplosionBlock = 3
 ExplosionInWater = 3
 Sight = MoveSight
-soundvolume = 10
+soundvolume = 15
 ModeNum = 2
 ModelBullet = asmp
 Sound = missile_3_snd
 DisableSmoke = true
 nukeyield = 115
-;I hate hbm proportions
-;150kt
+
 
 
 

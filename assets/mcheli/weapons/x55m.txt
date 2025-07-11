@@ -1,7 +1,7 @@
 DisplayName = Kh-55M2 Cruise Missile
 Type = TVMissile
 Power = 2000
-Acceleration = 4.0
+Acceleration = 2.7
 Explosion = 17
 ExplosionInWater = 9
 ExplosionBlock = 15

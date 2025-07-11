@@ -12,9 +12,6 @@ Sight=None
 
 SoundPitch = 1
 Sound = tsixtyfourmain
-;Piercing =3
-;HeatCount = 3
-;MaxHeatCount = 150
 Modenum = 2
 
 Delay = 140
@@ -35,9 +32,7 @@ CameraRotationSpeedPitch = 0.5
 Group = MainGun
 Acceleration = 4.0
 BulletColor        = 255, 255, 100, 100
-;ModelBullet = bullet105mm
 Piercing = 0
-;Accuracy = 0.0
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

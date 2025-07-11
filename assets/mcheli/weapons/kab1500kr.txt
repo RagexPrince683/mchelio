@@ -1,7 +1,7 @@
 DisplayName = KAB-1500KR Guided Bomb
 Type =TVmissile
 Power = 4500
-Acceleration = 2
+Acceleration = 0.2
 Explosion = 21
 ExplosionInWater = 10
 Sight = MoveSight

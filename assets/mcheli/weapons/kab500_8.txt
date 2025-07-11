@@ -1,7 +1,7 @@
 DisplayName = KAB-500L Laser Guided Bomb
 Type = tvmissile
 Power = 1000
-Acceleration = 2
+Acceleration = 0.2
 Explosion = 15
 Explosionblock = 18
 

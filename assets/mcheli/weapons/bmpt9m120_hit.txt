@@ -2,7 +2,7 @@ DisplayName = 9M120F Ataka [Thermoberic - ATGM]
 Type = TVMissile
 FixMode = 1
 Power = 150
-Acceleration = 7.0
+Acceleration = 3.2
 Explosion = 6
 ExplosionBlock = 2
 Flaming = true
@@ -15,17 +15,15 @@ Sound = bmptmissile
 ModeNum = 2
 FAE = true
 
-Piercing = 2
+;Piercing = 2
+;why
 
 
 Delay = 2
 ReloadTime = 20000
 Group = MainGun
-;Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
-;ModelBullet = bullet105mm
 Piercing = 0
-;Accuracy = 0.0
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

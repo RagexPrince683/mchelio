@@ -2,7 +2,7 @@ DisplayName = 9M120F Ataka
 Type = TVMissile
 FixMode = 1
 Power = 150
-Acceleration = 2.0
+Acceleration = 3.2
 Explosion = 5
 ExplosionInWater = 3
 Flaming = true
@@ -20,7 +20,6 @@ DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-AddDisplayName = en_US, 9M120 Ataka HIT
 SoundVolume = 15
 
 

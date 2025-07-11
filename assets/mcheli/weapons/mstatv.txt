@@ -1,7 +1,7 @@
 DisplayName = 152mm 2A65 Howitzer [3V0F64 - GUIDED]
 Type = TVMissile
 Power = 500
-Acceleration = 7
+Acceleration = 8.3
 Explosion = 5
 ExplosionInWater = 3
 ExplosionBlock = 3
@@ -9,7 +9,7 @@ Sight = MoveSight
 ModeNum = 2
 ModelBullet = mstabkr
 Sound = msta
-SoundVolume = 10
+SoundVolume = 15
 Gravity = -0.030
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5

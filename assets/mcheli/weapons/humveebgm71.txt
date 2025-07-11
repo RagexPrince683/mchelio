@@ -2,7 +2,7 @@ DisplayName = BGM-71E TOW
 FixMode = 1
 Type = TVMissile
 Power = 900
-Acceleration = 2.0
+Acceleration = 3.2
 Explosion = 4
 ExplosionInWater = 2
 Flaming = true
@@ -17,26 +17,18 @@ ReloadTime = 400
 
 Round = 1
 
-;Group = MainGun
-;Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
-;ModelBullet = bullet105mm
 Piercing = 0
-;Accuracy = 0.0
+
 DamageFactor = tank, 2.0
 DamageFactor = plane, 2.0
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
-;AddDisplayName = en_US,
 SoundVolume = 15
-
 
 CameraRotationSpeedPitch = 0.15
 
-
-;DEBUG:Manual control only
-;FixMode = 1
 
 ; DEBUG
 ;RigidityTime = 30

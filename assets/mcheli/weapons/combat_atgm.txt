@@ -1,4 +1,5 @@
 DisplayName = ATGM Combat
+;still no idea what this is
 Type = TVMissile
 FixMode = 1
 ModeNum = 2

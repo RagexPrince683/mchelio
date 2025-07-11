@@ -1,24 +1,20 @@
 DisplayName = AGM-65 Maverick
 Type = TVMissile
 Power = 1000
-Acceleration = 4.0
+Acceleration = 2.7
 Flaming = true
 Sight = MoveSight
-;Delay = 2
-;ReloadTime = 1000
-;Round = 2
 ModelBullet = agm65e
 Sound = mlrs
 SoundPitch = 0.8
+SoundVolume = 15
 
 Delay = 10
 ReloadTime = 1000
 Round = 2
 
-;Acceleration = 0.5
+
 Explosion = 9
-;Explosive mass	50 kg kg
-;Power = 1080
 ExplosionBlock = 5
 ExplosionInWater = 5
 ModeNum = 2

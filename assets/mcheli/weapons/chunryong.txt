@@ -1,7 +1,7 @@
 DisplayName = Chunryong ALCM
 Type = TVMissile
 Power = 1080
-Acceleration = 2
+Acceleration = 3.1
 Explosion = 18
 ExplosionInWater = 9
 ExplosionBlock = 15
@@ -26,5 +26,5 @@ Round = 2
 MaxAmmo = 2
 SuppliedNum = 1
 Item =  4, iron_ingot
-Item =  6, tnt
+Item =  12, tnt
 Item =  3, redstone

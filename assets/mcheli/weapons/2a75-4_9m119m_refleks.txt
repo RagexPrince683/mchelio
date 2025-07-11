@@ -3,7 +3,7 @@ Type = TVMissile
 FixMode = 1
 ModeNum = 2
 Power = 700
-Acceleration = 2.0
+Acceleration = 3.5
 Explosion = 3
 ExplosionInWater = 2
 ExplosionBlock = 4
@@ -24,7 +24,7 @@ DamageFactor = player, 20.0
 
 
 MaxAmmo = 10
-SuppliedNum = 5
+SuppliedNum = 1
 Item =  3, iron_ingot
 Item =  2, gunpowder
 Item =  1, redstone

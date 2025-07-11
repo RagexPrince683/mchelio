@@ -1,19 +1,20 @@
-DisplayName = AGM-86B ALCM conventional warhead
+DisplayName = AGM-86B ALCM [Conventional Warhead]
 Type = TVMissile
 Power = 1000
-Acceleration = 2.0
+Acceleration = 2.7
 Explosion = 18
 ExplosionBlock = 2
 ExplosionInWater = 9
 Sight = MoveSight
 Delay = 5
-Round = 12
+Round = 8
 ReloadTime = 1500
 Group = maingun
 ModeNum = 2
 ModelBullet = alcm
 Sound = missile_1_snd
 DisableSmoke = true
+SoundVolume = 15
 
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
