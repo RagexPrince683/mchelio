@@ -13,7 +13,7 @@ MaxRotationPitch = 0
 MobilityRoll = 0
 Gravity = -0.15
 GravityInWater = -0.1
-DamageFactor = 0.8
+DamageFactor = 0.5
 StepHeight = 0.0
 
 PivotTurnThrottle = 0.2

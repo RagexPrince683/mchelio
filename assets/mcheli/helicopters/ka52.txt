@@ -2,7 +2,7 @@ DisplayName = Ka-52 Hokum B
 AddDisplayName = ja_JP, Ka-52 ホーカムB
 ItemID = 28819
 MaxHp = 100
-Speed = 1.7
+Speed = 1.86
 ThrottleUpDown = 0.7
 ThirdPersonDist = 20
 

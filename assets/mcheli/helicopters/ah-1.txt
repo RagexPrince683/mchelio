@@ -1,11 +1,11 @@
-﻿DisplayName =  AH-1F/S Cobra
+﻿DisplayName = AH-1F/S Cobra
 AddDisplayName = en_US, AH-1F/S Cobra
 AddDisplayName = ja_JP, AH-1F/S コブラ
 ItemID = 28824
 MaxHp = 100
 EnableGunnerMode = true
 EnableNightVision = true
-Speed = 1.41
+Speed = 1.72
 ThrottleUpDown = 0.8
 FlareType = 3
 MaxFuel         = 1200

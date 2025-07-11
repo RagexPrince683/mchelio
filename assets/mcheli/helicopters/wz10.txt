@@ -6,7 +6,7 @@ MaxHp = 100
 EnableGunnerMode = true
 EnableNightVision = true
 EnableEntityRadar = true
-Speed = 1.7
+Speed = 1.86
 FlareType = 3
 
 ThirdPersonDist = 20

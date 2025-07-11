@@ -1,14 +1,14 @@
 DisplayName = CH-53E Super Stallion
 AddDisplayName = ja_JP, CH-53E スーパースタリオン
 ItemID = 30047
-MaxHp = 150
+MaxHp = 200
 EnableGunnerMode = true
 Float = true
 FloatOffset = -0.4
 EnableFoldBlade = true
 EnableNightVision = true
 EnableEntityRadar = false
-Speed = 1.7
+Speed = 1.96
 ThrottleUpDown = 0.5
 FlareType = 3
 CameraPosition = 0.0, 0.7, 3.5

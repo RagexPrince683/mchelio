@@ -1,8 +1,8 @@
-DisplayName = RC Goblin with Bomb
-AddDisplayName = ja_JP, RC Goblin with Bomb
+DisplayName = World Tech Elite Goblin 2.4GHz 4.5CH RC Goblin with Bomb
+AddDisplayName = ja_JP, World Tech Elite Goblin 2.4GHz 4.5CH RC Goblin with Bomb
 ItemID = 28813
-MaxHp = 3
-Speed = 1.55
+MaxHp = 8
+Speed = 0.25
 CameraPosition = 0.00, -0.05, 0.18
 SmallUAV = true
 Sound = radicon_heli

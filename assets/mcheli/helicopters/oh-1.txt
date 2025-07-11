@@ -5,7 +5,7 @@ MaxHp = 100
 EnableGunnerMode = true
 EnableNightVision = true
 
-Speed = 1.7
+Speed = 1.73
 FlareType = 3
 CameraPosition = 0.0, 3.20, 0.42
 onGroundPitch = 4.1

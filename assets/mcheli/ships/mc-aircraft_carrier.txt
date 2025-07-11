@@ -16,7 +16,7 @@ FuelConsumption = 0.0
 ;todo nuclear fuel sht
 Gravity = -0.15
 ArmorDamageFactor = 1.0
-DamageFactor = 0.2
+DamageFactor = 0.1
 Regeneration = true
 MobilityYawOnGround = 0.6
 EnableNightVision = true
@@ -26,7 +26,8 @@ ParticlesScale = 18.5
 Stealth = 0.0
 RotorSpeed = 3
 FuelSupplyRange = 80
-AmmoSupplyRange = 80
+;fuel is fine, ammo isn't
+;AmmoSupplyRange = 80
 EnableBack = true
 ThirdPersonDist = 60
 CanMoveOnGround = false

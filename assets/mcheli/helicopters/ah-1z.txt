@@ -1,11 +1,11 @@
-DisplayName =  AH-1Z Viper
+DisplayName = AH-1Z Viper
 AddDisplayName = ja_JP, AH-1Z ヴァイパー
 ItemID = 28824
 MaxHp = 100
 EnableGunnerMode = true
 EnableNightVision = true
 EnableEntityRadar = true
-Speed = 1.41
+Speed = 1.8
 ThrottleUpDown = 0.8
 FlareType = 3
 MaxFuel         = 1200

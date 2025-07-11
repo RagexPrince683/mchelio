@@ -1,10 +1,11 @@
-﻿DisplayName = Farming Drone UAV
-AddDisplayName = en_US, Farming Drone UAV
+﻿DisplayName = Generic Farming Drone UAV
+AddDisplayName = en_US, Generic Farming Drone UAV
 AddDisplayName = ja_JP, 農業用RCドローンUAV
 
 
 MaxHp = 20
 Speed = 0.4
+;idk what it'd be bc i have no idea what this is but I think I have one its just not a crop duster obv
 CameraPosition = -0.02, -0.06, 0.77
 SmallUAV = true
 Sound = radicon_heli

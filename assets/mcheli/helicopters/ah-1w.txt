@@ -1,11 +1,11 @@
-﻿DisplayName =  AH-1W Super Cobra
+﻿DisplayName = AH-1W Super Cobra
 AddDisplayName = en_US, AH-1W Super Cobra
 AddDisplayName = ja_JP, AH-1W スーパーコブラ
 ItemID = 28824
 MaxHp = 100
 EnableGunnerMode = true
 EnableNightVision = true
-Speed = 1.41
+Speed = 1.75
 ThrottleUpDown = 0.8
 FlareType = 3
 MaxFuel         = 1200

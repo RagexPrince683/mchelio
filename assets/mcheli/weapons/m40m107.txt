@@ -7,23 +7,23 @@ ExplosionInWater = 1
 ExplosionBlock = 5
 Acceleration = 16.0
 Sight = None
-ReloadTime =10000
-Delay = 50
-Round = 10
-SoundVolume = 10
+Round = 1
+SoundVolume = 15
 Sound = mspg
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.10
+Gravity = -0.08
+Group = maingun
+HeatCount = 4100
+MaxHeatCount = 8000
 
-Delay = 120
-ReloadTime = 160
+Delay = 2400
+ReloadTime = 2400
 Group = MainGun
 Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
 Piercing = 2
-Accuracy = 0.0
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
@@ -32,7 +32,7 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 ; 着弾距離の表示
-DisplayMortarDistance = true
+DisplayMortarDistance = false
 ; カメラの垂直方向を0に固定する
 FixCameraPitch = false
 ; カメラの回転速度の倍率(小さくするとより細かく着弾地点が調整ができる)

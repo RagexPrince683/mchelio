@@ -1,4 +1,5 @@
 ﻿DisplayName = CH47 chnuke radicon
+;i might remove this...
 AddDisplayName = en_US, CH47 CHnuke RC
 AddDisplayName = ja_JP, CH-47 チヌーク ラジコンヘリ
 ItemID = 30024

@@ -1,4 +1,4 @@
-DisplayName = AH60L battlehawk
+DisplayName = AH60L BattleHawk
 AddDisplayName = en_US, AH60L Battle Hawk
 AddDisplayName = ja_JP, AH60L バトルホーク
 ItemID = 28836
@@ -7,7 +7,7 @@ EnableGunnerMode = true
 EnableFoldBlade = true
 EnableNightVision = true
 EnableEntityRadar = true
-Speed = 1.7
+Speed = 2
 ThrottleUpDown = 0.8
 FlareType = 3
 CameraZoom = 2

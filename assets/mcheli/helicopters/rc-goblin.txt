@@ -1,5 +1,5 @@
-DisplayName = RC Goblin
-AddDisplayName = ja_JP, RC Goblin
+DisplayName = World Tech Elite Goblin 2.4GHz 4.5CH RC Goblin
+AddDisplayName = ja_JP, World Tech Elite Goblin 2.4GHz 4.5CH RC Goblin
 ItemID = 28814
 MaxHp = 15
 Speed = 1.55

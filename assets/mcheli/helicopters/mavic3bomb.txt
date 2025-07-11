@@ -1,6 +1,6 @@
-DisplayName = DJI Mavic 3 with bomb
+DisplayName = DJI Mavic 3 with Grenade
 MaxHp = 20
-Speed = 0.5
+Speed = 0.45
 CameraPosition = 0.00, -0.2, 0.4
 SmallUAV = true
 Sound = radicon_heli

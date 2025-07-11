@@ -2,7 +2,7 @@ DisplayName = Ka-50N Hokum A
 AddDisplayName = ja_JP, Ka-50N ホーカムA
 ItemID = 28818
 MaxHp = 100
-Speed = 1.7
+Speed = 1.96
 soundpitch = 1.4
 ThirdPersonDist = 20
 
