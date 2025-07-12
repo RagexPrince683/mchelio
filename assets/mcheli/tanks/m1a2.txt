@@ -59,7 +59,7 @@ MotionFactor = 0.92
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
-ArmorDamageFactor = 0.95
+ArmorDamageFactor = 0.90
 ;後退可能にする
 EnableBack = true
 
@@ -116,7 +116,7 @@ AddPartTurretWeapon    = abramsm2_rws,   true, true, true,  -0.846, 3.68, 0.373
 AddPartTurretWeapon    = abramsm2_rws,  false, true, false, -0.846, 3.68, 0.373
 AddTurretWeapon = abramsm2_rws,   -0.846, 3.68,  0.373,   0.0, 0.0, false, 2, 0, -360,360, -60,20
 AddTurretWeapon = targeting_pod_block,      -0.846, 3.68, 0.373,  0.0, 0.0, true,2, 0,-360,360, -50, 10
-;AddTurretWeapon = mbt_cas,      -0.846, 3.68, 0.373,  0.0, 0.0, true,2, 0,-360,360, -20, 10
+AddTurretWeapon = mbt_cas,      -0.846, 3.68, 0.373,  0.0, 0.0, true,2, 0,-360,360, -20, 10
 AddTurretWeapon = targeting_pod_ground,   -0.846, 3.68, 0.373,   0.0, 0.0,  true, 2
 
 ;M240
