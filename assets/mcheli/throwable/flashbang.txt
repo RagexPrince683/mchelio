@@ -2,8 +2,9 @@ DisplayName = Flash Bang Grenade [BROKEN]
 AddDisplayName = ja_JP, Flash Bang Grenade [DEBUG]
 Power = 0
 StackSize = 2
-Explosion = 1
+;Explosion = 1
 ;ok maybe just one it does technically explode
+;nvm we cant do that
 ;ExplosionBlock = 0
 ;let's just not actually
 TimeFuse = 1

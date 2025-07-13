@@ -45,7 +45,7 @@ WeightedCenterZ = 0.0
 ; X座標のマイナス側は必要なし
 
 
-HUD = mbt_hud, mbt_gnrtwo, gunnernvg
+HUD = mbt_hud, mbt_gnrtwo, none
 
 AddGunnerSeat =  0.00,  1.1,  2.25,    0.00,  2.50,  0.25,  false, -90, 90, true
 

@@ -125,11 +125,13 @@ AddPartTurretWeapon    = abramsm240_r,   false, true, true,   1.243, 3.24, -0.77
 AddPartTurretWeapon    = abramsm240_r,   false, true, false,  1.243, 3.24, -0.77
 AddTurretWeapon = abramsm240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -65,9
 
-; modern mbt tracked tank 
+; m1a2T 
 AddRecipe = "ABC", "DGF", "E  ", A, mcheli:heavychassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs3, G, mcheli:composite3, E, mcheli:complexmechanicparts
 
 
-AddRecipe = "ABC", "   ", "   ", A, mcheli:heavychassis, B, mcheli:fcs3, C, mcheli:complexmechanicparts
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:heavychassis, B, mcheli:fcs3, C, mcheli:complexmechanicparts, D, mcheli:m1a1
+
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:heavychassis, B, mcheli:fcs3, C, mcheli:composite3, D, mcheli:m1a1nt
 
 ;tusk
 ;AddRecipe = "ABC", "DGF", "EH ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:fcs2, H, mcheli:composite2
