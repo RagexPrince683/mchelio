@@ -28,6 +28,7 @@ chemType = 0
 ;2 = really unfunny larp bullshit
 ;3 = agent orange
 ;DAMMIT PAM WHERES THE MUSTARD GAS
+;fuck you bob
 
 Delay = 2400
 ReloadTime = 2400
