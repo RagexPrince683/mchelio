@@ -125,7 +125,22 @@ AddPartTurretWeapon    = abramsm240_r,   false, true, false,  1.243, 3.24, -0.77
 AddTurretWeapon = abramsm240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -65,9
 
 ; modern mbt tracked tank 
-AddRecipe = "ABC", "DGF", "   ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs3, G, mcheli:composite3
+AddRecipe = "ABC", "DGF", "EH ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs3, G, mcheli:composite3, E, mcheli:complexmechanicparts, H, mcheli:fcs2
+
+;m1a1->m1a2 sepv3
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:complexmechanicparts, B, mcheli:m1a1nt, C, mcheli:fcs2, D, mcheli:fcs3
+
+;de-tusk
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:complexmechanicparts, B, mcheli:m1a1, C, mcheli:fcs2, D, mcheli:fcs3
+
+
+;m1a1nt
+;AddRecipe = "ABC", "DGF", "E  ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:fcs2
+
+;m1a1 tusk
+;AddRecipe = "ABC", "DGF", "EH ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:fcs2, H, mcheli:composite2
+
+
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
