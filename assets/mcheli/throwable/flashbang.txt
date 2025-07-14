@@ -10,15 +10,16 @@ StackSize = 2
 TimeFuse = 1
 Particle = largeexplode
 BombletSTime = 0
-Bound = 0.3
-Bomblet = 25
-BombletDiff = 5.0
-ModelBomblet = none
+;Bound = 0.3
+;Bomblet = 25
+;BombletDiff = 5.0
+;ModelBomblet = none
 ;idk if bomblets are allowed here but we're going to find out
 
 SmokeMaxAge = 0.1
-SmokeSize = 25
-SmokeNum = 8
+AliveTime = 1
+SmokeSize = 45
+SmokeNum = 9
 SmokeColor = 225, 225, 225
 SmokeVelocityVertical   = 0
 SmokeVelocityHorizontal = 0.1
