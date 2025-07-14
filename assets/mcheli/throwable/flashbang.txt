@@ -1,5 +1,7 @@
-DisplayName = Flash Bang Grenade [BROKEN]
-AddDisplayName = ja_JP, Flash Bang Grenade [DEBUG]
+DisplayName = Flash Bang Grenade
+;[BROKEN]
+AddDisplayName = ja_JP, Flash Bang Grenade 
+;[DEBUG]
 Power = 0
 StackSize = 2
 ;Explosion = 1
@@ -9,7 +11,7 @@ StackSize = 2
 ;let's just not actually
 TimeFuse = 1
 Particle = largeexplode
-BombletSTime = 0
+;BombletSTime = 0
 ;Bound = 0.3
 ;Bomblet = 25
 ;BombletDiff = 5.0
@@ -18,8 +20,9 @@ BombletSTime = 0
 
 SmokeMaxAge = 0.1
 AliveTime = 1
-SmokeSize = 45
-SmokeNum = 9
+SmokeSize = 145
+SmokeNum = 1
+;9
 SmokeColor = 225, 225, 225
 SmokeVelocityVertical   = 0
 SmokeVelocityHorizontal = 0.1
