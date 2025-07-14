@@ -1,7 +1,7 @@
 DisplayName = M67 Hand Grenade
 AddDisplayName = ja_JP, M67 Grenade
 ItemID = 28907
-Power = 30
+Power = 80
 StackSize = 5
 Explosion = 1
 ProximityDist = 5
@@ -11,9 +11,9 @@ ProximityFuseDist = 5
 ExplosionBlock = 2
 
 TimeFuse = 5
-Bound = 0.3
-Bomblet = 25
-BombletDiff = 2.0
+;Bound = 0.3
+;Bomblet = 25
+;BombletDiff = 2.0
 
 
 DamageFactor = tank, 0.1
