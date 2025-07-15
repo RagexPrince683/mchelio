@@ -150,4 +150,4 @@ BoundingBox = 0.0, 1.0, -1.0, 3.3, 1.7, 0.5
 Category = IFV
 
 ;light tracked tank/ifv (not bradley family) (heavier composite)
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:cannon2, C, mcheli:engine2, D, mcheli:tanktracks, E, mcheli:composite2, F, mcheli:fcs2, G, mcheli:complexmechanicparts
+AddRecipe = "ABC", "DEF", "GHH", A, mcheli:lightchassis, B, mcheli:cannon2, C, mcheli:engine2, D, mcheli:tanktracks, E, mcheli:composite2, F, mcheli:fcs2, G, mcheli:complexmechanicparts, H, mcheli:electronics
