@@ -21,7 +21,7 @@ Particle = largeexplode
 SmokeMaxAge = 0.1
 AliveTime = 1
 SmokeSize = 145
-SmokeNum = 1
+SmokeNum = 3
 ;9
 SmokeColor = 225, 225, 225
 SmokeVelocityVertical   = 0
