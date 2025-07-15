@@ -21,6 +21,8 @@ MaxFuel         = 3600
 FuelConsumption = 0.1
 DefaultFreelook = true
 
+Category = MBT
+
 StepHeight = 1.8
 
 FlareType = 10

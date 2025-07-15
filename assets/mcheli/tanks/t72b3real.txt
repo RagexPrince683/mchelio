@@ -18,6 +18,8 @@ DefaultFreelook = true
 HideEntity = true
 FlareType = 10
 
+Category = MBT
+
 MobilityYawOnGround = 2.0
 
 HUD = mbt_hud, gunnernvg

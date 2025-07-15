@@ -33,7 +33,7 @@ AddTexture = humveev2v
 ;後退可能にする
 EnableBack = true
 ; C = Civilian(民間機)
-Category = C
+Category = IMV
 
 ; Tank or Car or Unknown
 WeightType = Car

@@ -3,7 +3,7 @@ AddDisplayName = ru_RU, УАЗ-469
 AddDisplayName = en_US, UAZ-469
 MaxHp = 230
 ThrottleUpDown = 0.81
-Speed = 0.575
+Speed = 0.62
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
 Sound = uaz_loop
@@ -37,7 +37,7 @@ SweepWingSpeed  = 0.0
 
 EnableBack = true
 
-Category = C
+Category = LUV
 
 WeightType = Car
 

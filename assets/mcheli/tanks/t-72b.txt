@@ -17,6 +17,8 @@ WeightType = Tank
 DefaultFreelook = true
 FlareType = 10
 
+Category = MBT
+
 AddTexture = t-72b_2
 AddTexture = t-72b_3
 AddTexture = t-72b_4

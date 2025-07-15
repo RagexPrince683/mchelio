@@ -32,6 +32,8 @@ WeightedCenterZ = 0.0
 DefaultFreelook = true
 SubmergedDamageHeight = 1
 
+Category = MBT
+
 HUD = mbt_hudtwo, gunnernvg
 
 AddTexture = leopard1_1

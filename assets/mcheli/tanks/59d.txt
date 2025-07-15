@@ -30,7 +30,7 @@ SubmergedDamageHeight = 3
 EnableEntityRadar = false
 HideEntity = false
 
-
+Category = MBT
 
 
 

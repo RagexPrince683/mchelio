@@ -27,7 +27,9 @@ FlareType = 10
 ThirdPersonDist = 12
 
 Category = MBT
-Category = South Korean
+;\n\South Korean
+;damn, guess we cant do next line indents here :c
+;;Category = South Korean
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し

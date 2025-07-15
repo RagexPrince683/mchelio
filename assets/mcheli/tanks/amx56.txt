@@ -16,6 +16,8 @@ HUD = mbt_hud
 WeightType = Tank
 DefaultFreelook = true
 
+Category = MBT
+
 CameraZoom = 10
 
 FlareType = 10

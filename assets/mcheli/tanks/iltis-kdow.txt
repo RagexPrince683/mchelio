@@ -29,7 +29,7 @@ SweepWingSpeed  = 0.0
 
 EnableBack = true
 
-Category = C
+Category = LUV
 
 WeightType = Car
 

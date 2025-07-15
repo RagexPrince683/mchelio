@@ -20,6 +20,8 @@ HideEntity = true
 FlareType = 10
 CameraZoom = 10
 
+Category = MBT
+
 MobilityYawOnGround = 3
 
 HUD = mbt_hud, gunnernvg

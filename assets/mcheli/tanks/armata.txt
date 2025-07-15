@@ -17,6 +17,8 @@ CameraZoom = 10
 
 Stealth = 0.3
 
+Category = MBT
+
 CameraPosition = 0.00,  3.7, -0.0, true
 EnableNightVision = true
 CameraRotationSpeed = 30

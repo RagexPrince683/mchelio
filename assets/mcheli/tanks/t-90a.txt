@@ -14,6 +14,8 @@ EnableNightVision = true
 CameraRotationSpeed = 14
 FlareType = 10
 
+Category = MBT
+
 MinRotationPitch = -14
 MaxRotationPitch = 6
 

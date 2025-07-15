@@ -10,6 +10,8 @@ Sound = tseventytwopass
 
 FlareType = 10
 
+Category = FSCV
+
 ThrottleUpDown = 2.0
 MinRotationPitch = -45
 MaxRotationPitch =  5

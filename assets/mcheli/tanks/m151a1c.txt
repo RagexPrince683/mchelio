@@ -26,7 +26,7 @@ OnGroundRollFactor  = 5.2
 ;後退可能にする
 EnableBack = true
 ; C = Civilian(民間機)
-Category = C
+Category = LUV
 
 ; Tank or Car or Unknown
 WeightType = Car

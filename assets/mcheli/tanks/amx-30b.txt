@@ -27,6 +27,8 @@ HideEntity = true
 WeightType = Tank
 WeightedCenterZ = 0.0
 
+Category = MBT
+
 HUD = mbt_hudtwo, gunnernvg
 
 AddTexture = amx-30bdes

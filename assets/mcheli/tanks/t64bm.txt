@@ -25,6 +25,8 @@ OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 FlareType = 10
 
+Category = MBT
+
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
 SubmergedDamageHeight = 3

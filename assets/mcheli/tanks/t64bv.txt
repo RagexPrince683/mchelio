@@ -2,6 +2,8 @@
 AddDisplayName = en_US, T-64BV Model 2017
 AddDisplayName = ja_JP, T-64BV Model 2017
 
+Category = MBT
+
 ItemID = 31400
 MaxHp = 400
 Speed = 0.43

@@ -39,7 +39,9 @@ AddTexture = dra_vdv7
 
 EnableBack = true 
 
-Category = C 
+;;Category = LAV/SANDRAIL
+Category = LUV
+;light utility vehicle
 
 WeightType = Car 
 

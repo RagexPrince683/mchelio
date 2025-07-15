@@ -23,6 +23,8 @@ TurretPosition = 0.0, 0.0, 0.0
 FlareType = 10
 ThirdPersonDist = 8
 
+Category = MBT
+
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 

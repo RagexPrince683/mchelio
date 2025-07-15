@@ -39,7 +39,7 @@ SetWheelPos =  0.90,  -0.24,  2.84, -1.20, -2.80
 ;後退可能にする
 EnableBack = true
 ; C = Civilian(民間機)
-Category = C
+Category = GUT
 WeightType = Car
 
 StepHeight = 1.8

@@ -21,6 +21,8 @@ HideEntity = true
 EnableBack = true
 DamageFactor = 0.0
 
+Category = MBT
+
 MobilityYawOnGround = 2.8
 
 ; 指定した高さまでの水に触れてもダメージを受けない

@@ -22,6 +22,8 @@ TurretPosition = 0.0, 0.0, 0.25
 FlareType = 10
 ;WHY TS NOT WORKING
 
+Category = MBT
+
 ;debug: testing new APS feature
 ;HasAPS = true
 ;APSUseTime = 500

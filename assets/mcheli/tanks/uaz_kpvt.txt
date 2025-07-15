@@ -2,7 +2,7 @@ DisplayName = UAZ-469 with KPVT
 AddDisplayName = ru_RU, УАЗ-469 с КПВТ
 MaxHp = 230
 ThrottleUpDown = 0.81
-Speed = 0.575
+Speed = 0.6
 MobilityYawOnGround = 6.0
 StepHeight = 1.5
 Sound = uaz_loop
@@ -29,7 +29,7 @@ EntityWidth  = 0.8
 EntityHeight = 0.8
 
 EnableBack = true
-Category = C
+Category = LUV
 
 WeightType = Car
 

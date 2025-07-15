@@ -16,6 +16,8 @@ WeightType = Tank
 DefaultFreelook = true
 FlareType = 10
 
+Category = MBT
+
 AddTexture = type741
 AddTexture = type742
 AddTexture = type743
