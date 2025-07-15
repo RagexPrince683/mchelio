@@ -9,7 +9,7 @@ DefaultFreelook = false
 EnableBack = true
 AddTexture = tigr_1
 HUD = super_duty_hud,mbt_gnr,none,none,none,none,none
-
+Category = IMV
 WeightType = car
 
 EnableEntityRadar = false

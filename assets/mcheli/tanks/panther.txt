@@ -4,6 +4,8 @@ ItemID = 32359
 
 MaxHp = 155
 
+Category = MED
+
 Speed = 0.285
 ;1.0 = 46mph
 ;0.5 = 23mph

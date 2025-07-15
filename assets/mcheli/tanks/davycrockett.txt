@@ -29,7 +29,7 @@ ThrottleUpDown = 9.9
 ;CameraRotationSpeed = 5
 
 ; M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = NRG
 
 HUD = none, gunner
 

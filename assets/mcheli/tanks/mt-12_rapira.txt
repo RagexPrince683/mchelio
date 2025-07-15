@@ -16,6 +16,8 @@ ThirdPersonDist = 5
 SetWheelPos =  0.45,  -0.24,  -0.04, 0.04
 ThrottleUpDown = 0.81
 
+Category = ATG
+
 CameraZoom = 2
 
 AddTexture = MT-12_Rapira_2

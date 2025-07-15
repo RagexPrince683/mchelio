@@ -39,7 +39,7 @@ AddPartCanopy =  0,0,0,  0.00,  0.0, 0.00, -0
 
 AddPartWing = 0.0, 0.0, 0.0,  1,0, 0, -90
 
-Category = M.A
+Category = SST/TEL
 
 WeightType = Tank
 WeightedCenterZ = -1

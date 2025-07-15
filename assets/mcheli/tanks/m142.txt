@@ -14,6 +14,8 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.8
 
+Category = MLRS
+
 Regeneration = false
 ArmorMinDamage = 35
 ArmorDamageFactor = 2.32

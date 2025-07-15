@@ -21,6 +21,8 @@ MobilityYawOnGround = 1.8
 
 HUD = mbt_hudtwo, gunnernvg
 
+Category = MED
+
 
 SubmergedDamageHeight = 2
 

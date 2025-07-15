@@ -17,6 +17,8 @@ HUD = mbt_hudtherm
 WeightType = Tank
 DefaultFreelook = true
 
+Category = SPAAG
+
 
 CameraRotationSpeed = 45
 

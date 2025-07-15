@@ -39,7 +39,7 @@ EnableBack = true
 AddTexture = m2_1
 AddTexture = m2_2
 
-Category = M.A
+Category = HMG
 
 WeightType = Unknown
 

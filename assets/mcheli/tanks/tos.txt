@@ -16,6 +16,8 @@ DefaultFreelook = false
 HideEntity = true
 CameraPosition = 0.00, 1.6, 2.15, false
 
+Category = MLRS
+
 MobilityYawOnGround = 2.5
 
 HUD = mbt_hudtwo, mbt_hud

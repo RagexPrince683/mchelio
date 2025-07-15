@@ -20,7 +20,7 @@ MinRotationPitch = -16
 MaxRotationPitch = 16
 DefaultFreelook = true
 
-
+Category = HT/AG
 
 SubmergedDamageHeight = 2
 

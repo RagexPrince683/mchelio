@@ -19,6 +19,8 @@ DefaultFreelook = false
 ThirdPersonDist = 12
 HideEntity = false
 
+Category = SPG/SPH/SPA
+
 HUD = ww2tank_hud, ww2tank_hud
 
 OnGroundPitchFactor = 2.0

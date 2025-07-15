@@ -17,6 +17,8 @@ DefaultFreelook = false
 ThirdPersonDist = 8
 ;EnableGunnerMode = true
 
+Category = HTMLRS
+
 AddTexture = Panzerwerfer1
 
 AddGunnerSeat = -0.45, 1.0, 1.0, -0.45, 1.2, 1.4

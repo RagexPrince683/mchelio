@@ -31,7 +31,7 @@ CameraPosition = -0.0154, 3.4291, -0.0245
 SubmergedDamageHeight = 3
 
 ;  M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = APC
 
 WeightType = Tank
 

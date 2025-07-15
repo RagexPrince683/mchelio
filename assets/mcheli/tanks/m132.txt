@@ -17,6 +17,8 @@ WeightType = Tank
 DefaultFreelook = false
 CameraZoom = 1
 
+Category = APC
+
 ThirdPersonDist = 8
 
 AddTexture = m113a3

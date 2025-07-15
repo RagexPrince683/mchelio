@@ -14,6 +14,8 @@ MinRotationPitch = -13
 MaxRotationPitch = 6
 DefaultFreelook = true
 
+Category = LT
+
 FlareType = 10
 
 CameraPosition = 0.00,  2.85, 0.5, true

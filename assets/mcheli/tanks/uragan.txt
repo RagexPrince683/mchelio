@@ -25,7 +25,7 @@ HideEntity = false
 EnableBack = true
 ;MinRotationPitch = -25
 ;MaxRotationPitch = 2
-Category = M.A
+Category = MLRS
 DefaultFreelook = false
 StepHeight = 1.8
 

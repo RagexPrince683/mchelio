@@ -32,7 +32,7 @@ DefaultFreelook = false
 SubmergedDamageHeight = 1
 
 ;  M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = CCV
 
 WeightType = Tank
 
@@ -78,6 +78,10 @@ EnableBack = true
 PivotTurnThrottle = 0.2
 
 TrackRollerRot = 30
+
+AddTurretWeapon = targeting_pod_block,      -0.36, 1,  1.60,  0.0, 0.0, true,1, 0,-360,360, -90, 90
+AddTurretWeapon = mbt_cas,      -0.36, 1,  1.60,  0.0, 0.0, true,1, 0,-360,360, -90, 90
+AddTurretWeapon = targeting_pod_ground,   -0.36, 1,  1.60,   0.0, 0.0,  true, 1
 
 
 AddPartWeapon    = 82m2_1,   false, true, true,  -0.5957, 2.6538, -2.0184

@@ -18,6 +18,8 @@ MaxRotationPitch = 7
 DefaultFreelook = true
 ThirdPersonDist = 12
 
+Category = LT/AC
+
 HUD = ww2tank_hud, gunner, none, none, none, none, none, none
 
 OnGroundPitchFactor = 2.0

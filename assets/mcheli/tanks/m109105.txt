@@ -27,6 +27,8 @@ EnableBack = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 
+Category = SPH/SPA
+
 WeightType = Tank
 WeightedCenterZ = 0
 

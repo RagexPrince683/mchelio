@@ -30,6 +30,8 @@ WeightType = Tank
 
 MotionFactor = 0.9
 
+Category = HT/MED
+
 
 ;-3.93
 

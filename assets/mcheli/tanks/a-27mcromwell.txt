@@ -16,7 +16,7 @@ ThirdPersonDist = 12
 CameraZoom = 4
 CameraPosition = 0.00, 3.45, -0.0600
 
-
+Category = MED
 
 
 HideEntity = true

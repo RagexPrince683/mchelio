@@ -30,6 +30,8 @@ EnableBack = true
 ThirdPersonDist = 25
 DefaultFreelook = false
 
+Category = TFG/H
+
 SetWheelPos =  0.20,  -0.20,  0.20, -0.20
 
 WeightType = Unknown

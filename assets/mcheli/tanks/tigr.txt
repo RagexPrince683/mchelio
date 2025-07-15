@@ -15,7 +15,7 @@ WeightType = car
 
 ;moved down -20.71
 
-
+Category = IMV
 
 EnableEntityRadar = true
 MaxFuel         = 1200

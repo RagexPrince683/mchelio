@@ -1,6 +1,6 @@
-DisplayName = 9P129 TEL OTR-21 Tochka/SS-21 Scarab
-AddDisplayName = en_US, 9P129 TEL OTR-21 Tochka/SS-21 Scarab
-AddDisplayName = ua_UA, 9P129 TEL OTR-21 Tochka/SS-21 Scarab
+DisplayName =  OTR-21 Tochka 9P129 TEL/SS-21 Scarab
+AddDisplayName = en_US, OTR-21 Tochka 9P129 TEL/SS-21 Scarab
+AddDisplayName = ua_UA, OTR-21 Tochka 9P129 TEL/SS-21 Scarab
 ItemID = 197714
 MaxHp = 200
 Speed = 0.37
@@ -11,6 +11,8 @@ MaxRotationPitch =  20
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = 0.0
+
+Category = TEL/TBM
 
 ;-11.80
 

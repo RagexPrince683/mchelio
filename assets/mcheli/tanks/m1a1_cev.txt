@@ -6,6 +6,8 @@ Speed = 0.45
 Sound = abrams
 ThrottleUpDown = 5.0
 
+Category = MEV/ABV
+
 SoundPitch = 0.6
 MobilityYawOnGround = 2.7
 MinRotationPitch = -90
@@ -150,7 +152,7 @@ AddWeapon = place, 1.20, 2.10, 5.20,  0.0, 0.0, true,1, 0,-0,0, -20, 20
 AddWeapon = place, 0.00, 2.10, 5.20,  0.0, 0.0, true,1, 0,-0,0, -20, 20
 AddWeapon = place, -1.20, 2.10, 5.20,  0.0, 0.0, true,1, 0,-0,0, -20, 20
 
-;entrenching tracked tank 
+;entrenching tracked tank thing
 AddRecipe = "ABC", "DGF", "E  ", A, mcheli:mediumchassis, B, mcheli:rocket, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite, E, mcheli:basicmechanicparts
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 

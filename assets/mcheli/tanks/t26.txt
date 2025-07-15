@@ -27,6 +27,8 @@ HideEntity = true
 WeightType = Tank
 WeightedCenterZ = 0.0
 
+Category = LT
+
 HUD = ww2tank_hud
 AddTexture = t26_1
 unmountposition = -0.0,  2.00,  -0.25

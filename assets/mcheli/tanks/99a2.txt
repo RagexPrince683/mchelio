@@ -30,6 +30,8 @@ SubmergedDamageHeight = 3
 EnableEntityRadar = false
 HideEntity = true
 
+Category = MBT
+
 
 ;fix this stupid shit's zoom level
 ;ok

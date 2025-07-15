@@ -13,6 +13,8 @@ GravityInWater = -1.0
 DamageFactor = 0.8
 CameraZoom = 4
 
+Category = LT
+
 EnableNightVision = false
 CameraRotationSpeed = 10
 EnableEntityRadar = false

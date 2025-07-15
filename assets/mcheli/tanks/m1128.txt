@@ -29,7 +29,7 @@ AddTexture = m1128des
 SubmergedDamageHeight = 2
 
 ;  M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = WTD
 
 WeightType = Tank
 

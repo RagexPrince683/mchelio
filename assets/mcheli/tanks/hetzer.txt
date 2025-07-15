@@ -17,6 +17,8 @@ DefaultFreelook = false
 AddTexture = Hetzer1
 AddTexture = Hetzer2
 
+Category = TD
+
 EnableBack = true
 
 

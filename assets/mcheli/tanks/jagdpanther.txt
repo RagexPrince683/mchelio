@@ -14,6 +14,8 @@ HUD = ww2tank_hud, vehiclescoped
 WeightType = Tank
 DefaultFreelook = false
 
+Category = TD
+
 AddTexture = jagdpanther1
 AddTexture = jagdpanther2
 

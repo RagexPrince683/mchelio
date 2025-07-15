@@ -22,7 +22,7 @@ StepHeight = 1.8
 ;FlareType = 10
 ;CameraPosition = 0.71,2.5,5.04, false
 
-
+Category = MLRS
 
 CameraPosition = 0.0,2.5,0, false
 HideEntity = false

@@ -20,6 +20,8 @@ HideEntity = false
 CameraZoom = 4
 CameraPosition = 0.00,  3.00,  -0.30, false
 
+Category = LTD/LT
+
 MotionFactor = 0.94
 
 EntityWidth  = 0.8

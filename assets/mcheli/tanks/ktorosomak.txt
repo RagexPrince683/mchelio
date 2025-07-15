@@ -5,6 +5,8 @@ Sound = mcv
 
 SoundPitch = 0.8
 
+Category = AAPC
+
 ThrottleUpDown = 5.0
 HideEntity = true
 MobilityYawOnGround = 3.0

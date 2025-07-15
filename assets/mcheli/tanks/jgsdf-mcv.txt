@@ -12,6 +12,8 @@ AddTexture = jgsdf-mcv-1
 AddTexture = jgsdf-mcv-2
 AddTexture = jgsdf-mcv-3
 
+Category = WTD/AAC/AAG/ATD/AWAFV
+
 AddGunnerSeat =  0.0, 1.0, -0.0
 
 AddGunnerSeat = -0.5150,  2.2502, -0.3848,   -0.5304, 2.9845, -0.1357, false, -90, 90, true

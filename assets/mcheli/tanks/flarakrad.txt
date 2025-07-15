@@ -24,7 +24,7 @@ OnGroundRollFactor  = 1.0
 FlareType = 10
 ThirdPersonDist = 16
 
-
+Category = SPAAMS
 
 
 SubmergedDamageHeight = 4

@@ -23,6 +23,8 @@ DefaultFreelook = true
 ;FlareType = 10
 ThirdPersonDist = 12
 
+Category = MLRS/SPMRL
+
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 

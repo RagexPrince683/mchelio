@@ -51,7 +51,7 @@ MotionFactor = 0.9
 
 EnableBack = true
 
-Category = M.A
+Category = TD
 
 HUD = ww2tank_hud, gunner
 

@@ -23,6 +23,8 @@ SubmergedDamageHeight = 2
 HideEntity = true
 DefaultFreelook = true
 
+Category = SPH/SPG/SPA
+
 TurretPosition = 0, 1.0, 0
 
 unmountposition = -0.0,  1.50, -1.3733

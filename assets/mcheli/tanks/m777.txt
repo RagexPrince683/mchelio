@@ -16,6 +16,8 @@ CameraRotationSpeed = 45
 Sound = none
 SoundVolume = 0
 
+Category = TH/H
+
 ;CameraZoom = 3
 
 SetWheelPos =  0.20,  -0.20,  0.20, -0.20

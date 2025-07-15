@@ -30,6 +30,8 @@ unmountposition = 0.50,  1.50, 1.55
 ; 2であれば2ブロックまでダメージ無し
 SubmergedDamageHeight = 2
 
+Category = MED
+
 HideEntity = true
 
 ; Tank or Car or Unknown

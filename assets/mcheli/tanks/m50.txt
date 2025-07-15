@@ -26,6 +26,8 @@ HideEntity = false
 EnableBack = true
 DefaultFreeLook = true
 
+Category = TD
+
 OnGroundPitchFactor = 1.5
 OnGroundRollFactor  = 1.3
 

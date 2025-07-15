@@ -26,7 +26,7 @@ ThrottleUpDown = 9.9
 CameraRotationSpeed = 20
 
 ; M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = ATG
 
 HUD = none, vehiclescoped
 

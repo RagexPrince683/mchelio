@@ -25,6 +25,8 @@ OnGroundRollFactor  = 1.0
 FlareType = 10
 ThirdPersonDist = 8
 
+Category = IFV
+
 ;stryker -122.65
 
 

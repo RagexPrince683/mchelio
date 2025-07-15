@@ -16,6 +16,8 @@ HUD = mbt_hudtwo, gunnernvg, gunnernvg, none
 WeightType = Tank
 DefaultFreelook = false
 
+Category = APC/ATM
+
 ThirdPersonDist = 8
 
 AddTexture = m113a3

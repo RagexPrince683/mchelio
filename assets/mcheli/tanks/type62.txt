@@ -22,6 +22,8 @@ AddTexture = type62_3
 AddTexture = type62_4
 AddTexture = type62_5
 
+Category = LT
+
 FlareType = 10
 
 HideEntity = true

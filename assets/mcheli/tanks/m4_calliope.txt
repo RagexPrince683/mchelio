@@ -21,6 +21,8 @@ HideEntity = true
 CameraZoom = 4
 CameraPosition = 0.00,  3.50,  0.90, false
 
+Category = MED
+
 MobilityYawOnGround = 3.0
 
 HUD = ww2tank_hud, gunner
@@ -244,3 +246,5 @@ unmountposition = 0.00,  1.50,  0.25
 
 ;medium tracked tank ww2 mid rkt
 AddRecipe = "ABC", "D  ", "RRR", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine2, D, mcheli:tanktracks, R, mcheli:rocket
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:m4, B, mcheli:rocket

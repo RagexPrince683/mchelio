@@ -25,6 +25,8 @@ WeightType = tank
 HUD = ww2tank_hudtwo
 EnableNightVision = true
 
+Category = SPAAG
+
 AddgunnerSeat =  0.80,  1.9,  -0.5,    0.00,  1.9,  -1.8,  true, -85, 3, true
 ;AddSeat =  -1.00,  1.9,  -0.5,    0.00
 CameraPosition = 0.00,  3.6, 0.0,true

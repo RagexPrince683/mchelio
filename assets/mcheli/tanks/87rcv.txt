@@ -33,7 +33,7 @@ CameraPosition = 0.0, 3.68, 0.0, true
 SubmergedDamageHeight = 2
 
 ;  M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = RCV
 
 WeightType = Tank
 

@@ -13,6 +13,8 @@ MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -0.2
 
+Category = IFV
+
 Float = true
 FloatOffset = -2.0
 

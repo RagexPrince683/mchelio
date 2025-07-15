@@ -18,6 +18,8 @@ SoundVolume = 0
 Gravity = -0.61
 GravityInWater = -1.0
 
+Category = AGL
+
 UnmountPosition = 1.40,  1.5, -1.00
 
 MaxFuel           = 0

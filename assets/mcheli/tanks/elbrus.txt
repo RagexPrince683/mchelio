@@ -27,6 +27,8 @@ OnGroundRollFactor  = 1.3
 DefaultFreelook = false
 ThirdPersonDist = 60
 
+Category = TEL
+
 
 ;moved back 4.52 so subtract 4.52 from skewed coords
 

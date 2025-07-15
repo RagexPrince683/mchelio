@@ -24,6 +24,8 @@ StepHeight = 1.8
 FlareType = 10
 AddTexture = 2k22_1
 
+Category = SPAAG
+
 MotionFactor = 0.9
 
 OnGroundPitchFactor = 2.0

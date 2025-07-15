@@ -17,6 +17,8 @@ ThirdPersonDist = 10
 CameraRotationSpeed = 45
 CameraZoom = 3
 
+Category = H
+
 SetWheelPos =  0.80,  -0.40,  1.32, 0.05
 
 EnableBack = true

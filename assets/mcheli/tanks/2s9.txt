@@ -18,6 +18,8 @@ HideEntity = true
 ;CameraPosition =  0.00,  3.65, -0.315
 CameraZoom = 5
 
+Category = SPM
+
 Float = true
 FloatOffset = 0.0
 

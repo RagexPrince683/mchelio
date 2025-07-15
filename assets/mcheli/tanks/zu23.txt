@@ -21,6 +21,8 @@ ThirdPersonDist = 10
 ;WeightType = 
 WeightedCenterZ = 0.0
 
+Category = AAAC
+
 DefaultFreelook = true
 
 ;-3.33

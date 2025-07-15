@@ -21,6 +21,8 @@ CameraRotationSpeed = 8
 DefaultFreelook = true
 SubmergedDamageHeight = 2
 
+Category = HT
+
  
 unmountposition = -0.0,  1.50,  -0.534
 

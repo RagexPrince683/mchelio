@@ -9,6 +9,8 @@ EnableBack = true
 HUD = mbt_hudtwo
 HideEntity = true
 
+Category = AASC
+
 PivotTurnThrottle = 0.1
 
 EnableEntityRadar = false

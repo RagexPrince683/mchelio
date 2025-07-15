@@ -27,6 +27,7 @@ CameraPosition = 0.1136, 2.8065, 0.1832, true
 PivotTurnThrottle = 0.1
 
 
+
 Float = true
 FloatOffset = -2.0
 
@@ -34,7 +35,7 @@ SubmergedDamageHeight = 3
 MobilityYawOnGround = 6.0
 
 ;  M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = AASC
 
 WeightType = Tank
 

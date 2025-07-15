@@ -20,6 +20,8 @@ HideEntity = true
 unmountposition = 0.00, 1.5, 0.47
 MobilityYawOnGround = 2.5
 
+Category = HT/MED
+
 ; Tank or Car or Unknown
 WeightType = Tank
 

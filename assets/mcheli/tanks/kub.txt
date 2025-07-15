@@ -18,6 +18,8 @@ CameraPosition = 0.0, 5.5, 0.16, true
 MinRotationPitch = -50
 MaxRotationPitch = 0
 
+Category = SAM/SPAA
+
 MobilityYawOnGround = 2.5
 
 HUD = mbt_hud

@@ -26,6 +26,9 @@ OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 1.0
 FlareType = 10
 
+Category = AIFV/AAPC
+;AARV
+
 
 
 ; 指定した高さまでの水に触れてもダメージを受けない

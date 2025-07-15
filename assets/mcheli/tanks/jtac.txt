@@ -13,6 +13,8 @@ EnableNightVision = true
 DefaultFreelook = true
 HUD = vehicle
 
+Category = JTAC
+
 CameraRotationSpeed = 10
 
 ;RotationPitchMin = -70

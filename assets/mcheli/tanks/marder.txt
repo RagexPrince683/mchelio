@@ -12,6 +12,8 @@ DamageFactor = 0.2
 EnableNightVision = true
 CameraRotationSpeed = 42
 
+Category = IFV
+
 CameraPosition = 0.50, 3.23, 0.57, true
 StepHeight = 1.8
 MinRotationPitch = -65

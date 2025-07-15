@@ -19,6 +19,8 @@ HideEntity = true
 DefaultFreeLook = true
 CameraPosition = -0.24,  3.05, 0.47, true
 
+Category = MED
+
 MobilityYawOnGround = 2.5
 
 ; Tank or Car or Unknown

@@ -27,6 +27,8 @@ OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 1.0
 FlareType = 10
 
+Category = SPAAG
+
 SubmergedDamageHeight = 2
 EnableEntityRadar = true
 

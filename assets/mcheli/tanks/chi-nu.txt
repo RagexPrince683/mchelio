@@ -19,6 +19,7 @@ EnableBack = true
 
 CameraZoom = 4
 
+Category = MED
 
 SubmergedDamageHeight = 1
 WeightedCenterZ = 0.0

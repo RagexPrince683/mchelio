@@ -19,6 +19,8 @@ ThirdPersonDist = 12
 CameraPosition = 0.0, 3.4, 0.68, true
 TurretPosition = 0.00, 1.81, 0.68
 
+Category = MED
+
 CameraZoom = 4
 
 HideEntity = true

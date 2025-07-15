@@ -35,7 +35,7 @@ DefaultFreelook = false
 SubmergedDamageHeight = 3
 
 ;  M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = APC
 
 WeightType = Tank
 

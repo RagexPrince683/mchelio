@@ -17,6 +17,8 @@ CameraZoom = 3
 HideEntity = false
 CameraPosition = -0.80, 2.85, -0.63, false
 
+Category = SPH/SPA
+
 MobilityYawOnGround = 1.8
 
 HUD = ww2tank_hud,none,none,none,none,none

@@ -21,6 +21,8 @@ ThirdPersonDist = 8
 unmountposition = -0.0,  2.00,  0.25
 MobilityYawOnGround = 2.5
 
+Category = IFV
+
 TurretPosition = 0.24, 0.00, -0.36
 
 HUD = mbt_hud, none, none, none, none, none, none, none, none

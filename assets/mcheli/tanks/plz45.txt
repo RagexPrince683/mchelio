@@ -29,6 +29,8 @@ SubmergedDamageHeight = 2
 EnableEntityRadar = true
 HideEntity = true
 
+Category = SPH/SPA
+
 AddTexture = plz45_1
 AddTexture = plz45_2
 

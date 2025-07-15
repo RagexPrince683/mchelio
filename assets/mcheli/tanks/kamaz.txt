@@ -18,6 +18,8 @@ ThrottleUpDown = 0.81
 MobilityYawOnGround = 2.5
 AddSeat =  1.33,  2.39, 6.06
 
+Category = HUT/GUT
+
 ThirdPersonDist = 10
 
 PivotTurnThrottle = 0.1

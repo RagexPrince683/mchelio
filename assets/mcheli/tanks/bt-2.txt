@@ -12,6 +12,8 @@ EnableNightVision = false
 EnableEntityRadar = false
 Sound = bmptwoeng
 
+Category = LCT
+
 CameraZoom = 3
 
 SoundPitch = 0.8

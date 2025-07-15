@@ -21,6 +21,8 @@ ThirdPersonDist = 10
 WeightType = Car
 WeightedCenterZ = 0.0
 
+Category = LUV
+
 ThirdPersonDist = 2
 
 ;-3.33

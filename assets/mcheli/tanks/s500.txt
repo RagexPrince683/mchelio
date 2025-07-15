@@ -48,7 +48,7 @@ AddPartCanopy =  -1.5415, 1.7798, 4.2705,  0.00,  1.0, 0.00, 70
 AddPartSteeringWheel =  1.1008,  2.0152,  3.9710,  0, 0.7, -1,   90
 AddFixedSearchLight =  1.6737, 1.1225, 4.4859,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5, 0, 0
 AddFixedSearchLight = -1.6737, 1.1225, 4.4859,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5, 0, 0
-Category = M.A
+Category = MSAM
 
 WeightType = Car
 WeightedCenterZ = 0.0

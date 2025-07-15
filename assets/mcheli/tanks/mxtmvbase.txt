@@ -17,6 +17,8 @@ EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 1.0
 
+Category = IMV
+
 CameraZoom = 1
 
 AddTexture = mxtmvbase2

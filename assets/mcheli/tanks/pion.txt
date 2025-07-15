@@ -16,6 +16,8 @@ DefaultFreelook = false
 HideEntity = false
 CameraPosition = 0.90, 2.61, -3.2266, false
 
+Category = SPH/SPA
+
 MobilityYawOnGround = 1.5
 
 HUD = ww2tank_hud

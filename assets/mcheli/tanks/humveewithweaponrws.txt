@@ -21,6 +21,8 @@ MaxFuel           = 1200
 FuelConsumption   = 3.0
 ThirdPersonDist = 5
 
+Category = IMV
+
 CameraZoom = 10
 
 SubmergedDamageHeight = 1

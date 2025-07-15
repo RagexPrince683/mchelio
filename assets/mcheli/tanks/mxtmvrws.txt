@@ -17,6 +17,8 @@ EnableNightVision = true
 MaxFuel           = 1200
 FuelConsumption   = 1.0
 
+Category = IMV
+
 CameraZoom = 10
 
 

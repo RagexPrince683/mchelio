@@ -27,7 +27,7 @@ DefaultFreelook = true
 HideEntity = true
 
 EnableBack = true
-Category = M.A
+Category = MLRS
 
 WeightType = Tank
 

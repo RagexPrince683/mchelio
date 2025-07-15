@@ -19,6 +19,8 @@ ThirdPersonDist = 10
 WeightType = Car
 WeightedCenterZ = 0.0
 
+Category = TFV
+
 OnGroundPitchFactor = 15.0
 OnGroundRollFactor  = 5.2
 

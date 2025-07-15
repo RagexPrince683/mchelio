@@ -15,6 +15,8 @@ HUD = ww2tank_hud, vehiclescoped, vehiclescoped
 WeightType = Tank
 DefaultFreelook = true
 
+Category = MED
+
 CameraZoom = 4
 
 AddTexture = chi-he1

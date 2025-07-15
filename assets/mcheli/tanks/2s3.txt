@@ -18,6 +18,8 @@ HideEntity = true
 ;FlareType = 10
 CameraPosition = 0.0, 3.85, -1.8578, true 
 
+Category = SPH
+
 MobilityYawOnGround = 3.0
 
 HUD = mbt_hudtwo, gunnernvg

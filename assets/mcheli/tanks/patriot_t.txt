@@ -30,7 +30,7 @@ SetWheelPos =  0.70,  -0.24,  -7.8766, -6.5774
 AddTexture = patriot_td
 
 ; M = Military,  M = Missile(ミサイル)
-Category = M.M
+Category = MSAM
 
 WeightType = Tank
 

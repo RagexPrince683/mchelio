@@ -21,6 +21,8 @@ Gravity = -0.61
 Float = true
 FloatOffset = 0.0
 
+Category = ATAG/AHMAG/ALT
+
 GravityInWater = -0.2
 StepHeight = 1.8
 ThrottleUpDown = 2.0
