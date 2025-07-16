@@ -60,6 +60,8 @@ AddSeat = -0.82, 1.0, -2.5
 
 SetWheelPos =  1.28,  -0.32,  3.3451, 1.7177, -0.1335, -1.7905
 
+;-44.16
+
 AddPartWheel = -1.53,  0.3927,  3.3451, 40
 AddPartWheel =  1.53,  0.3927,  3.3451, 40
 AddPartWheel = -1.53,  0.3927,  1.7177, 20
@@ -70,14 +72,14 @@ AddPartWheel =  1.7598,    0.3927,  -1.7905,
 AddPartWheel =  -1.7598,    0.3927,  -1.7905,
 
 
-AddPartWeapon = lav3M791 / lav3M919 / lav3he, false, true, false,  0.0, 2.0, 0.0, 0
+AddPartWeapon = 25lav3M791 / 25lav3M919 / 25lav3he, false, true, false,  0.0, 2.0, 0.0, 0
 AddPartWeaponChild = false, true, -0.0, 2.6, 1.10, 0.0,
 AddPartWeaponChild = false, true, -0.0, 2.6, 1.10, 0.0,
 AddPartWeaponChild = false, true, -0.0, 2.6, 1.10, 0.2,
-AddTurretWeapon = lav3M791,  0.0760, 2.8418, 0.7,  0.0, 0.0, false, 1, 0,-360,360,  -30,  5
-AddTurretWeapon = lav3M919,  0.0760, 2.8418, 0.7,  0.0, 0.0, false, 1, 0,-360,360, -30, 5
-AddTurretWeapon = lav3he,    0.0760, 2.8418, 0.7,  0.0, 0.0, false, 1, 0,-360,360, -30, 5
-AddTurretWeapon = lav3fnmag, -0.179, 2.8405, 0.7, 0.0, 0.0, false, 1, 0,-360,360, -30, 5
+AddTurretWeapon = 25lav3M791,  0.0760, 2.5900, 0.7,  0.0, 0.0, false, 1, 0,-360,360,  -30,  5
+AddTurretWeapon = 25lav3M919,  0.0760, 2.5900, 0.7,  0.0, 0.0, false, 1, 0,-360,360, -30, 5
+AddTurretWeapon = 25lav3he,    0.0760, 2.5900, 0.7,  0.0, 0.0, false, 1, 0,-360,360, -30, 5
+AddTurretWeapon = 25lav3fnmag, -0.179, 2.5900, 0.7, 0.0, 0.0, false, 1, 0,-360,360, -30, 5
 
 
 
