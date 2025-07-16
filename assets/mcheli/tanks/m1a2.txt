@@ -136,6 +136,10 @@ AddRecipe = "ABC", "D  ", "   ", A, mcheli:complexmechanicparts, B, mcheli:m1a1n
 ;de-tusk
 AddRecipe = "ABC", "D  ", "   ", A, mcheli:complexmechanicparts, B, mcheli:m1a1, C, mcheli:fcs2, D, mcheli:fcs3
 
+;de-tusk p2/modernization
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:complexmechanicparts, B, mcheli:m1a2tusk, C, mcheli:fcs2, D, mcheli:fcs3
+
+
 
 ;m1a1nt
 ;AddRecipe = "ABC", "DGF", "E  ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite3, E, mcheli:fcs2

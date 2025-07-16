@@ -1,5 +1,5 @@
-DisplayName = M1A1HA Abrams TUSK
-AddDisplayName = ja_JP, M1A1HA エイブラムス
+DisplayName = M1A1SA Abrams TUSK II
+AddDisplayName = ja_JP, M1A1SA エイブラムス TUSK II
 ItemID = 30107
 MaxHp = 800
 Speed = 0.43

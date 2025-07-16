@@ -26,7 +26,7 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 2.5
 
-BombletSTime = 5
+BombletSTime = 4
 BombletDiff = 0.35
 Bomblet = 520
 ;2080/4
