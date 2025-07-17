@@ -1,5 +1,5 @@
-DisplayName = M1A2 Abrams ARAT Reactive Armor TUSK II
-AddDisplayName = ja_JP, M1A2 エイブラムス ARAT Reactive Armor TUSK II
+DisplayName = M1A2 Abrams SEPv2 ARAT Reactive Armor TUSK II
+AddDisplayName = ja_JP, M1A2 SEPv2 エイブラムス ARAT Reactive Armor TUSK II
 ItemID = 30100
 MaxHp = 800
 Speed = 0.41
@@ -146,13 +146,16 @@ RideRack = c5, 2
 
 ArmorMinDamage = 25
 
+;american bias (DU factor) BASELINE M1A1HA++
+ArmorDamageFactor = 0.90
+
 ;reactive armor tiles
 
-;front hull 360mm
+;front hull 360mm BASE+DU FUCK YOU GAIJIN 6S RELOAD IS NOT HOW YOU BALANCE AMERICA
 BoundingBox = 0.0, 0.5, 2.5, 3.0, 0.2, 0.02
 
 BoundingBox = 0.0, 0.9, 3.0, 3.0, 0.5, 0.03
-BoundingBox = 0.0, 1.1, 2.5, 3.0, 0.5, 0.08
+BoundingBox = 0.0, 1.1, 2.5, 3.0, 0.5, 0.04
 BoundingBox = 0.0, 1.2, 1.8, 3.0, 0.5, 0.11
 BoundingBox = 0.0, 1.3, 1.4, 3.0, 0.5, 0.09
 
@@ -164,11 +167,11 @@ BoundingBox = 0.0, 2.0, 0.1, 3.0, 1.0, 0.02
 
 
 ;mid
-BoundingBox = 0.0, 0.9, 0.0, 3.1, 1.3, 0.17
+BoundingBox = 0.0, 0.9, 0.0, 3.1, 1.3, 0.15
 ;back side
-BoundingBox = 0.0, 0.9, -3.0, 3.0, 1.3, 0.22
-BoundingBox = 0.0, 0.9, -3.8, 3.0, 1.3, 0.22
+BoundingBox = 0.0, 0.9, -3.0, 3.0, 1.3, 0.21
+BoundingBox = 0.0, 0.9, -3.8, 3.0, 1.3, 0.21
 ;back back
-BoundingBox = 0.0, 1.1, -4.1, 2.99, 1.1, 3.0
+BoundingBox = 0.0, 1.1, -4.1, 2.99, 1.1, 2.0
 
 unmountposition = 0.00,  2.0,  0.8

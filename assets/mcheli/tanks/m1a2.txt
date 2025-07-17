@@ -158,6 +158,9 @@ RideRack = c5, 2
 
 ArmorMinDamage = 25
 
+;american bias (DU factor) BASELINE M1A1HA+++
+ArmorDamageFactor = 0.85
+
 ;front hull 360mm
 BoundingBox = 0.0, 0.5, 2.5, 3.0, 0.2, 0.02
 
