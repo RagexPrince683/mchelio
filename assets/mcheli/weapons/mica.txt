@@ -1,4 +1,4 @@
-DisplayName = MBDA MICA
+DisplayName = MBDA MICA [AAM]
 Type = AAMissile
 Power = 250
 Acceleration = 4

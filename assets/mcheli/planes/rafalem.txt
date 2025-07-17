@@ -1,11 +1,11 @@
-DisplayName = Rafale M
-AddDisplayName = en_US, Rafale M
-AddDisplayName = zh_CN, 阵风M舰载战斗机
-MaxHp = 750
-Speed = 2.2
+DisplayName = Dassault Rafale M
+AddDisplayName = en_US, Dassault Rafale M
+AddDisplayName = zh_CN, Dassault 阵风M舰载战斗机
+MaxHp = 100
+Speed = 1.65
 Sound = RafaleM_snd
 ;onGroundPitch = 0.5
-ThrottleUpDown = 0.6
+ThrottleUpDown = 0.3
 MaxFuel = 1200
 FuelConsumption = 1.0
 FlareType = 3
@@ -37,6 +37,8 @@ EntityWidth  = 0.8
 EntityHeight = 0.8
 
 AddSeat = 0.0, 2.6, 0.4
+unmountposition = 0.0, 1.5, 0.4
+
 VariableSweepWing = true
 AddPartSteeringWheel =  -3.6,2.4192,-9.5489,  -1, 0, 0.0,   -20
 AddPartSteeringWheel =  3.6,2.4192,-9.5489, 1, 0, 0.0,   -20
@@ -57,7 +59,7 @@ AddPartLG =  0, 1.5, -9.47, 1,0,0, 55
 AddPartLG = -0.5363, 1.5844, -6, 0,0,1, -90
 AddPartLG = 0.5363, 1.5844, -6, 0,0,1, 90
 
-AddWeapon = GIAT30, -1.672, 2.22, -2.7,   0.0, 0.0
+AddWeapon = rafgiat30, -1.672, 2.22, -2.7,   0.0, 0.0
 AddPartWeaponMissile = micair,   false, false, false,   6.7,  2,  -8
 AddPartWeaponMissile = micair,   false, false, false,  -6.7,  2,  -8
 AddPartWeaponMissile = micaif,   false, false, false,   4.1,  1.6,  -5
