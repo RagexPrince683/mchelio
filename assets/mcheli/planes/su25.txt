@@ -151,3 +151,4 @@ Sound = frogfoot
 unmountposition = 0,1.53,3.48
 
 enableback = true
+DamageFactor = 0.8

@@ -118,3 +118,4 @@ BoundingBox =  -4.8,2.7, -5.5, 5.5, 0.3,1
 
 ;AddFixedSearchLight =  0.8, 2.26, -12.30,   0x00E96106,   0x99E25EE9,    0.01, 1,  0,  0
 ;AddFixedSearchLight =  -0.8, 2.26, -12.30,   0x00E96106,   0x99E25EE9,    0.01, 1,  0,  0
+DamageFactor = 0.8

@@ -148,3 +148,4 @@ BoundingBox = 0.0, 5.75, -21.60, 0.5, 4.0
 BoundingBox = 0.0, 5.25, -22.10, 0.5, 3.5
 
 RotorSpeed = 500.0
+DamageFactor = 0.8

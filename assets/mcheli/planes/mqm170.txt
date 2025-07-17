@@ -25,3 +25,4 @@ AddBlade     = 1, 0,  0.00,  0.775, -1.62,   0,0,-1
 AddRecipe = "ABC", " E ", "   ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, E, mcheli:electronics
 
 BoundingBox =  0.0, 1.2, 0.0,  5.0, 2.5
+DamageFactor = 0.8

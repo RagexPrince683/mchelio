@@ -160,3 +160,4 @@ AddRecipe = "ABC", "DEH", "GHG", A, mcheli:airframe3, B, mcheli:advancedmechanic
 unmountposition = 0,  2.1,  0
 
 enableback = true
+DamageFactor = 0.8

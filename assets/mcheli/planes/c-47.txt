@@ -98,3 +98,4 @@ BoundingBox = -3.75, 3.45, -2.073, 1.3, 1.3, 1.5
 AddRecipe = "ABC", "DA ", "   ", A, mcheli:airframebomb, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair
 
 UnmountPosition = 0.68, 2.2, 1.78
+DamageFactor = 0.8

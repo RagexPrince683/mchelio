@@ -105,3 +105,4 @@ BoundingBox = 2.2, 1.2, -3.5, 2.4, 0.5
 BoundingBox = -2.2, 1.2, -3.5, 2.4, 0.5
 
 ;AddRecipe = " YX",  "XXP",  "X X",  X, iron_block, Y, glass, P, iron_ingot
+DamageFactor = 0.8

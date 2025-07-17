@@ -91,3 +91,4 @@ AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe, B, mcheli:basicmechanicpart
 Unmountposition = 0.0,  1.90, -0.94
 
 enableback = true
+DamageFactor = 0.8

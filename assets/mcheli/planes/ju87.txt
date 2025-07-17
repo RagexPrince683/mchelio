@@ -81,4 +81,4 @@ BoundingBox =  1.9, 3.59, -13.86,  3.0, 0.2
 BoundingBox =  -0.04, 4.87, -13.73, 1.0, 3.0
 
 ;basic ww2 prop plane, AOW3 style
-AddRecipe = "ABC", "DE ", "   ", A, mcheli:airframe2, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon2
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:airframe2, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon2DamageFactor = 0.8

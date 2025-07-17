@@ -92,3 +92,4 @@ enableback = true
 AddRecipe = "ABC", "DEG", "   ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon2, G, mcheli:electronics
 
 unmountposition = 0.0, 1.72, 2.65
+DamageFactor = 0.8

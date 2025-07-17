@@ -84,3 +84,4 @@ BoundingBox =  4.0, 1.2, -3.0,  1.5, 0.6
 enableback = true
 
 
+DamageFactor = 0.8

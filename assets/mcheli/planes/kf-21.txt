@@ -130,3 +130,4 @@ BoundingBox = -1.83, 3.05, -9.96, 0.5, 2.5
 
 ;modern medium light plane (jet), AOW3 style
 AddRecipe = "ABC", "DEH", "GHG", A, mcheli:airframe3, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, G, mcheli:electronics, H, mcheli:fcs3
+DamageFactor = 0.8

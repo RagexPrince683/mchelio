@@ -147,4 +147,4 @@ BoundingBox =  1.8, 1.6, -21,  2.0, 0.4
 BoundingBox =  -1.8, 1.6, -21,  2.0, 0.4
 
 BoundingBox = 0.0, 1.4, 1.6, 1.6, 1.0
-BoundingBox = 0.0, 1.4, 3.2, 1.6, 1.0
+BoundingBox = 0.0, 1.4, 3.2, 1.6, 1.0DamageFactor = 0.8

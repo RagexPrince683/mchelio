@@ -73,4 +73,4 @@ AddPartWeaponMissile = r550_2,  false, false, false, -3.72, 0.78, -5.96
 
 AddPartWeaponMissile = ft_m2k, false, false, false, 0.0, 0.574, -3.4
 
-AddWeapon = RDI,   0.0, 2.25, 10.6,  0.0, 0.0
+AddWeapon = RDI,   0.0, 2.25, 10.6,  0.0, 0.0DamageFactor = 0.8

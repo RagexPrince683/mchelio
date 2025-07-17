@@ -124,3 +124,4 @@ DamageFactor = 0.8
 
 
 enableback = true
+DamageFactor = 0.8

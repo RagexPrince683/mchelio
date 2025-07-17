@@ -120,3 +120,4 @@ unmountposition = 0,  1.50,  -2.10
 AddRecipe = "ABC", "DEF", "   ", A, mcheli:airframe2, B, mcheli:basicmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon2, F, mcheli:rocket3
 
 enableback = true
+DamageFactor = 0.8

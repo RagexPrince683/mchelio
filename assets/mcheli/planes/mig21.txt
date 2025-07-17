@@ -153,3 +153,4 @@ BoundingBox =  -1.5,2.4, -13.01, 1.6, 0.3
 unmountposition =  0.00, 2.80,  0.50
 
 enableback = true
+DamageFactor = 0.8

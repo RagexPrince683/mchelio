@@ -37,3 +37,4 @@ RotorSpeed = 200.0
 
 ;BoundingBox =  0.0, 0.0, 0.0,  1.5, 1.5
 
+DamageFactor = 0.8

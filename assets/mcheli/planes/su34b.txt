@@ -108,3 +108,4 @@ BoundingBox = 2.20, 3.95, -4.5, 0.5, 3.2
 BoundingBox = -2.20, 3.95, -4.5, 0.5, 3.2
 BoundingBox = 2.20, 4.2, -5, 0.5, 3.5
 BoundingBox = -2.20, 4.2, -5, 0.5, 3.5
+DamageFactor = 0.8

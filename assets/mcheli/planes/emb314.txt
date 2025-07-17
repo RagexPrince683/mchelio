@@ -96,3 +96,4 @@ EntityWidth  = 0.81
 EntityHeight = 0.81
 
 enableback = true
+DamageFactor = 0.8

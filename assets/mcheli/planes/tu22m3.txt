@@ -143,3 +143,4 @@ Boundingbox = -5.81, 2.97, -25.04, 2.8, 0.3
 
 ;large bomber aircraft dated modern, AOW3 style
 AddRecipe = "ABC", "DAC", "E  ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:electronics
+DamageFactor = 0.8

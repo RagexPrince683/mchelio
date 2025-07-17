@@ -223,3 +223,4 @@ enableback = true
 
 RotorSpeed = 2000
 
+DamageFactor = 0.8

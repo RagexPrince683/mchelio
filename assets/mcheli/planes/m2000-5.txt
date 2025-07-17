@@ -51,4 +51,4 @@ MobilityRoll = 1.5
 AddWeapon = defa554,  0.663, 1.29, -1.07,  0.0, 0.0
 AddWeapon = defa554,  -0.663, 1.29, -1.07,  0.0, 0.0
 
-AddWeapon = RDY,   0.0, 2.25, 10.6,  0.0, 0.0
+AddWeapon = RDY,   0.0, 2.25, 10.6,  0.0, 0.0DamageFactor = 0.8
