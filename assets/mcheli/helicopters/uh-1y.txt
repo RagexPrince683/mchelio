@@ -7,6 +7,7 @@ EnableFoldBlade = true
 EnableNightVision = true
 EnableEntityRadar = true
 Speed = 1.89
+Sound = r44_heli
 ThrottleUpDown = 0.8
 FlareType = 3
 CameraPosition = 0.0, 0.7, 3.5
