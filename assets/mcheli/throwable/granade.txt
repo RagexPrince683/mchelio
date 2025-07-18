@@ -3,11 +3,11 @@ AddDisplayName = ja_JP, M67 Grenade
 ItemID = 28907
 Power = 80
 StackSize = 5
-Explosion = 1
-ProximityDist = 5
-ProximityFuseDist = 5
+Explosion = 5
+;ProximityDist = 5
+;ProximityFuseDist = 5
 ;would be 5
-;using lethal radius
+;using lethal radius = 1
 ExplosionBlock = 2
 
 TimeFuse = 5
