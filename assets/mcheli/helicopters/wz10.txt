@@ -122,3 +122,4 @@ DamageFactor = 0.8
 unmountposition = 0.00,  1.50,  2.5010
 
 ThrottleUpDown = 0.8
+DamageFactor = 0.8

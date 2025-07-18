@@ -116,7 +116,6 @@ unmountposition = 0.25,  1.50,  2.40
 ;advanced armored modern helicopter armed no tail rotor, AOW3 style
 AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe3, B, mcheli:heliblade2, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon2, G, mcheli:rocket3
 
-DamageFactor = 0.6
-
 
 ThrottleUpDown = 0.5
+DamageFactor = 0.3

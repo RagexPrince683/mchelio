@@ -89,3 +89,4 @@ DamageFactor = 0.8
 
 
 ThrottleUpDown = 0.8
+DamageFactor = 0.8

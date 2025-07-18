@@ -95,7 +95,7 @@ unmountposition = 0.00,  1.50,  2.40
 AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe3, B, mcheli:heliblade2, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon2, G, mcheli:rocket3
 
 
-DamageFactor = 0.6
+DamageFactor = 0.3
 
 
 ThrottleUpDown = 0.5

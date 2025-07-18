@@ -1,4 +1,4 @@
-DisplayName = AH60L BattleHawk
+DisplayName = AH60L Battle Hawk
 AddDisplayName = en_US, AH60L Battle Hawk
 AddDisplayName = ja_JP, AH60L バトルホーク
 ItemID = 28836
@@ -102,3 +102,4 @@ unmountposition = -0.85,  1.5,  1.30
 DamageFactor = 0.8
 
 ThrottleUpDown = 0.5
+DamageFactor = 0.8
