@@ -1,4 +1,4 @@
-DisplayName = 105mm M68 [M728 - APDS]
+DisplayName = 105mm M68 Cannon [M728 - APDS]
 Type = MachineGun1
 Power = 265
 ModelBullet = 3of26
@@ -29,7 +29,7 @@ AddMuzzleFlash      =  10.0,      1.70,        5,  220,254,219,184
 AddMuzzleFlashSmoke =  12.2, 20,  10.0,  3.0, 45,  220,160,140,120
 AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
-Recoil = 2.5
+Recoil = 1.2
 
 Piercing = 2
 Accuracy = 0.0
