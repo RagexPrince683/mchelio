@@ -98,12 +98,24 @@ AddWeapon = op, 0.00, 3.50, 0.00, 0.0, 0.0, false, 1, 0, -360, 360, -90, 90
 
 ;TurretPosition = 0.0, 2.66, -0.0259, true
 
-AddPartWeapon    = m113ft/m607.62mm,   false, true, false,  0.00, 2.69, -0.0259
+AddPartWeapon    = m113ft,   false, true, false,  0.00, 2.69, -0.0259
 AddPartWeaponChild    = false, true, 0, 2.69, -0.0259
-AddTurretWeapon = m113ft, -0.0356, 2.7518,  -0.0259,   0.0, 0.0, false, 2, 0, -360, 360, -55,15, false
-AddTurretWeapon = m607.62mm, -0.4088, 2.8600,  -0.0259,   0.0, 0.0, false, 2, 0, -360, 360, -55,15, false
+;/m607.62mm
+AddPartWeapon    = m607.62mm,   false, true, true,  -0.0, 2.69, -0.0259
+AddPartWeaponChild    = false, true, -0.4958, 2.69, -0.0259
+
+AddTurretWeapon = m113ft, -0.0356, 2.7518,  -0.0259,   0.0, 0.0, false, 2, 0, -360, 360, -55,15
+;, false
+AddWeapon = m607.62mm, -0.4958, 2.8600,  -0.0259,   0.0, 0.0, true, 2, 0, -360, 360, -55,15
+
+;AddTurretWeapon = puma_atgm, 1.4703,  2.5006, -0.0,  0.0, -55, true,1, 0,-360,360, -15, 0
+
+;, false
 
 
+
+;AddPartWeapon = gsh232tu, false, true, true,  0, 4.963, -48.6
+;AddPartWeaponChild = false, true,0, 4.963, -53
 ;AddGunnerSeat =  0.00, 5, -47.00,  0.00,6, -48.5
 ;AddWeapon = gsh232tu,  0.11, 4.963, -48.5,  0.0, 0.0, false, 3, -180,  -50,  60, -45, 45
 ;AddWeapon = gsh232tu,  -0.11, 4.963, -48.5,  0.0, 0.0, false, 3, -180,  -50,  60, -45, 45
