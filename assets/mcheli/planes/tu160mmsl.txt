@@ -1,7 +1,7 @@
-﻿DisplayName = Tu-160M Super Blackjack Conventional Bombs
-AddDisplayName = en_US, Tu-160M Super Blackjack Conventional Bombs
-AddDisplayName =  zh_CN, 图-160M 超级海盗旗 Conventional Bombs
-ItemID = 30714
+﻿DisplayName = Tu-160M Super Blackjack with Rotary Launchers
+AddDisplayName = en_US, Tu-160M Super Blackjack with Rotary Launchers
+AddDisplayName =  zh_CN, 图-160M 超级海盗旗 Rotary Launchers
+;ItemID = 30714
 MaxHp = 250
 EnableNightVision = true
 EnableEntityRadar = true
@@ -75,46 +75,31 @@ AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
 AddWeapon = targeting_pod_block, 0.0, 4.0, 5.0,  0.0, 0.0
 AddWeapon = RDI,   -0.846, 3.68,  0.373,   0.0, 0.0, false, 2, 0, -90,90, -70,10
 
-AddWeapon = tu160FAB250t, 0.0, 4.0, -7.0, 0.0, 0.0, true, 2
-;8
-AddWeapon = tu160FAB500X, 0.0, 4.0, -7.0, 0.0, 0.0, true, 2
-;6
-AddWeapon = tu160r77m, 0.0, 4.0, -7.0, 0.0, 0.0, true, 2
-;4
-AddWeapon = tu160kAB500, 0.0, 4.0, -7.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
-;4
-AddWeapon = tu160kab1500kr, 0.0, 4.0, -7.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
+
+AddWeapon = tu160kh35tu,     0.0, 4.0, -7.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
 ;2
-AddWeapon = tu160fab1500umpk_8, 0.0, 4.0, -7.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
+AddWeapon =tu160p800tu,     0.0, 4.0, -7.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
 ;2
-AddWeapon = odab9000, 0.0, 4.0, -7.0, 0.0, 0.0, true, 2
-;1
-
-
-AddWeapon = tu160rbk500umpk16, 0.0, 4.0, -30.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
-;8 
-AddWeapon = tu160fab3000umpk4, 0.0, 4.0, -30.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
+AddWeapon = tu160x55tv,    0.0, 4.0, -7.0, 0.0, 0.0, true, 2
 ;2
+AddWeapon = tu160x55r,    0.0, 4.0, -30.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
+;2
+AddWeapon = tu160zircon6,    0.0, 4.0, -30.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
+;2
+AddWeapon = tu160X55n,    0.0, 4.0, -30.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
+;1 nuclear
+AddWeapon = tu160zirconn6,    0.0, 4.0, -30.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
+;1 nuclear
+;max 12 in rotary thingy
 
-AddWeapon = tsarbombahalf, 0.0, 4.0, -30.0, 0.0, 0.0, true, 2
-AddWeapon = tsarbomba,0.0, 4.0, -30.0, 0.0, 0.0, true, 2
-;it didnt have it and this would be over payload cap but fuck it we ball
-
-
-;AddWeapon = fAB500umpk16, 0.0, 4.0, -7.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
-;im not adding it and i never got this weapon file so
-;AddWeapon = X55clu,    0.0, 4.0, -30.0, 0.0, 0.0, true, 2, 0,-90,90, -5,90
-;not real
 
 ;==========================================================
 
-AddPartWeaponBay = tu160fab250t/tu160FAB500X/tu160r77m/tu160kAB500/tu160kab1500kr/tu160fab1500umpk_8/odab9000, -1.3338, 4.0209, -13.0, 0, 0, -1, 90
-AddPartWeaponBay = tu160fab250t/tu160FAB500X/tu160r77m/tu160kAB500/tu160kab1500kr/tu160fab1500umpk_8/odab9000, 1.3338, 4.0209, -13.0, 0, 0, 1, 90
+AddPartWeaponBay = tu160kh35tu/tu160p800tu/tu160x55tv, -1.3338, 4.0209, -13.0, 0, 0, -1, 90
+AddPartWeaponBay = tu160kh35tu/tu160p800tu/tu160x55tv, 1.3338, 4.0209, -13.0, 0, 0, 1, 90
 
-;;/tsarbombahalf/tsarbomba
-
-AddPartWeaponBay = tu160rbk500umpk16/tu160fab3000umpk4/tsarbombahalf/tsarbomba,-1.3, 4.228, -13.0, 0, 0, 1, -90
-AddPartWeaponBay = tu160rbk500umpk16/tu160fab3000umpk4/tsarbombahalf/tsarbomba, 1.3, 4.228, -13.0, 0, 0, 1, 90
+AddPartWeaponBay = tu160x55r/tu160zircon6/tu160X55n/tu160zirconn6,-1.3, 4.228, -13.0, 0, 0, 1, -90
+AddPartWeaponBay = tu160x55r/tu160zircon6/tu160X55n/tu160zirconn6, 1.3, 4.228, -13.0, 0, 0, 1, 90
 
 
 
@@ -150,5 +135,6 @@ BoundingBox = -12, 4.50, -25.0,  8.5, 1.0
 
 BoundingBox = 13.5, 4.50, -32.0,  6, 1.0
 BoundingBox = -13.5, 4.50, -32.0,  6, 1.0
+
 
 DamageFactor = 0.8

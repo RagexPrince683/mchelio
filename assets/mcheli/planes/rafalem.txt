@@ -17,6 +17,8 @@ ParticlesScale = 0.7
 ThirdPersonDist = 18
 onGroundPitch = 3.0
 
+;modern light plane (late jet), AOW3 style (fcs)
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:fcs2, G, mcheli:electronics
 
 
 ; M = Military.  F = Fighter

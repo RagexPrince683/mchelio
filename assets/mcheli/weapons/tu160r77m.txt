@@ -1,24 +1,25 @@
-DisplayName = R.550 Magic II [AAM]
+DisplayName = R77M 
 Type = AAMissile
-Power = 12
-Acceleration = 2
-Explosion = 5
+Power = 22
+Acceleration = 6
+Explosion = 4
 Flaming = false
 Sight = MissileSight
-Delay = 90
-LockTime = 17
-ProximityFuseDist = 1
-ModelBullet = aim9h
-Sound = missile_1_snd
-Round = 2
+Delay = 5
+ReloadTime = 50
 
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
 
-MaxAmmo = 2
+LockTime = 19
+ProximityFuseDist = 3
+ModelBullet =r-77
+Sound = missile_1_snd
+
+MaxAmmo = 4
 SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder
-Item =  1, redstone
+Item =  2, redstone

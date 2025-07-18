@@ -1,6 +1,6 @@
-DisplayName = Schützenpanzer (SPz) Puma
-AddDisplayName = zh_CN,美洲狮重型步兵战车
-AddDisplayName = en_US, Schützenpanzer (SPz) Puma
+DisplayName = Schützenpanzer (SPz) Puma S1
+AddDisplayName = zh_CN,美洲狮重型步兵战车 S1
+AddDisplayName = en_US, Schützenpanzer (SPz) Puma S1
 
 ItemID = 91128
 MaxHp = 250

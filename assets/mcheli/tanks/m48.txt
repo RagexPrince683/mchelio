@@ -1,5 +1,5 @@
-DisplayName = M48 Patton
-AddDisplayName = zh_CN,M48 巴顿 主战坦克
+DisplayName = M48A1 Patton
+AddDisplayName = zh_CN,M48A1 巴顿 主战坦克
 ItemID = 30100
 MaxHp = 280
 Speed = 0.45
@@ -18,7 +18,7 @@ MaxFuel         = 3600
 FuelConsumption = 0.1
 DefaultFreelook = true
 
-Category = MBT
+Category = MBT/MED
 
 EnableNightvision = true
 
