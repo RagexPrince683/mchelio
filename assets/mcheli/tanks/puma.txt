@@ -99,6 +99,9 @@ MaxRotationPitch =  10
 AddTurretWeapon = puma_ap, 0.0342, 2.5303,  0.0,  0.0, 0.0, true,1, 0,-360,360, -45, 10
 AddTurretWeapon = puma_he, 0.0342, 2.5303,  0.0,  0.0, 0.0, true,1, 0,-360,360, -45, 10
 ;was -0.4672
+
+AddTurretWeapon = pumamg5, -0.1462, 2.7115,  0.0,  0.0, 0.0, true,1, 0,-360,360, -45, 10
+
 AddTurretWeapon = puma_atgm, 1.4703,  2.5006, -0.0,  0.0, -55, true,1, 0,-360,360, -15, 0
 ;was 0.9689
 AddTurretWeapon = puma_atgm, 1.7026,  2.5006, -0.0,  0.0, -55, true,1, 0,-360,360, -15, 0

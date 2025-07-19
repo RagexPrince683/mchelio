@@ -23,7 +23,7 @@ AutoPilotRot = 0
 ;Sound = bone
 
 sound = tutwentytwo
-SoundPitch = 0.6
+SoundPitch = 0.8
 ;"The Tu-160's engine sound is generally lower pitched compared to the Tu-22M3"
 
 ;ArmorMinDamage = 35
@@ -150,5 +150,10 @@ BoundingBox = -12, 4.50, -25.0,  8.5, 1.0
 
 BoundingBox = 13.5, 4.50, -32.0,  6, 1.0
 BoundingBox = -13.5, 4.50, -32.0,  6, 1.0
+
+;large bomber aircraft modern, AOW3 style
+AddRecipe = "ABC", "DAF", "E  ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:fcs2
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:tu160mmsl, B, mcheli:fcs2, C, mcheli:airframe
 
 DamageFactor = 0.8

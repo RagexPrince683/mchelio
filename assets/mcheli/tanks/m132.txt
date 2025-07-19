@@ -12,10 +12,12 @@ DamageFactor = 0.45
 EnableNightVision = false
 EnableEntityRadar = false
 Sound = moneonethreeapc
-HUD = mbt_hudtwo, gunnernvg, none, none, none, none, none, none
+HUD = ww2tank_hud
 WeightType = Tank
 DefaultFreelook = true
 CameraZoom = 1
+
+CameraRotationSpeed = 24
 
 Category = APC
 
@@ -99,9 +101,9 @@ MaxRotationPitch = 15
 ;TurretPosition = 0.0, 2.66, -0.0259, true
 
 AddPartWeapon    = m113ft/m607.62mm,   false, true, false,  0.00, 2.69, -0.0259
-AddPartWeaponChild    = false, true, 0, 2.69, -0.0259
-AddTurretWeapon = m113ft, -0.0356, 2.7518,  2,   0.0, 0.0, false, 1, 0, -360, 360, -55,15, false
-AddTurretWeapon = m607.62mm, -1, 2.8600,  -0.0259,   2.0, 0.0, false, 1, 0, -360, 360, -55,15, false
+AddPartWeaponChild    = false, true, 0, 2.69, 0.3333
+AddTurretWeapon = m113ft, -0.0356, 2.7518,  1,   0.0, 0.0, false, 1, 0, -360, 360, -55,15, false
+AddTurretWeapon = m607.62mm, -0.4088, 2.8600,  -0.0259,   0.0, 0.0, false, 1, 0, -360, 360, -55,15, false
 
 
 ;oh yay another pantsir like problem
