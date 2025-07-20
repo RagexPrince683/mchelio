@@ -17,7 +17,10 @@ AddMuzzleFlash      =  3.3,      0.10,        1,  150,254,219,184
 AddMuzzleFlashSmoke =  3.6,  1,   5.0,  0.5, 15,  180,250,245,240
 AddMuzzleFlashSmoke =  4.6,  1,   3.0,  0.5, 25,  180,220,217,214
 Acceleration = 7.5
-Round = 1000
+Round = 200
+
+ReloadTime = 110
+
 Piercing = 0
 DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5

@@ -114,6 +114,8 @@ StepHeight = 1.8
 ArmorMinDamage = 20
 ;hull
 
+;medium tracked tank ww2 less EARLY
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:lightchassis, B, mcheli:cannon2, C, mcheli:engine2, D, mcheli:tanktracks, E, mcheli:electronics
 
 
 ;middle split 74mm
