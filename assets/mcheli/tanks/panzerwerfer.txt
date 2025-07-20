@@ -17,7 +17,7 @@ DefaultFreelook = false
 ThirdPersonDist = 8
 ;EnableGunnerMode = true
 
-Category = HTMLRS
+Category = HTRACMLRS
 
 AddTexture = Panzerwerfer1
 
