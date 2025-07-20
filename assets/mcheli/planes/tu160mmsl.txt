@@ -138,6 +138,6 @@ BoundingBox = -13.5, 4.50, -32.0,  6, 1.0
 ;large bomber aircraft modern, AOW3 style
 AddRecipe = "ABC", "DAF", "E  ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:fcs3
 
-AddRecipe = "ABC", "   ", "   ", A, mcheli:tu160, B, mcheli:fcs3, C, mcheli:airframe
+AddRecipe = "ABC", "   ", "   ", A, mcheli:tu160m, B, mcheli:fcs3, C, mcheli:airframe
 
 DamageFactor = 0.8

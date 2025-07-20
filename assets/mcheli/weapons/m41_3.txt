@@ -9,11 +9,12 @@ ExplosionBlock = 0
 Sight = None
 ReloadTime = 88
 Round = 1
-Delay = 88
+Delay = 80
 SoundPitch = 1.1
 SoundVolume = 15.0
 Accuracy = 1.5
-Sound = cannon_4_snd
+
+Sound = meighteenhellcat
 Recoil = 1.5
 HeatCount = 700
 MaxHeatCount = 2050

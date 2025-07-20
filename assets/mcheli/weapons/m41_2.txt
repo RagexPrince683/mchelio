@@ -8,13 +8,14 @@ ExplosionInWater = 1
 ExplosionBlock = 0
 Sight = None
 ReloadTime = 88
-Round = 1
-Delay = 88
+Round = 3
+Delay = 80
 SoundPitch = 1.1
 SoundVolume = 15.0
 Accuracy = 1.5
 Gravity = -0.02
-Sound = cannon_4_snd
+
+Sound = meighteenhellcat
 Recoil = 1.5
 Piercing = 0
 HeatCount = 700

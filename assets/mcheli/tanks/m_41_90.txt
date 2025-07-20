@@ -2,7 +2,7 @@ DisplayName = leKPz M41 Walker Bulldog
 MaxHp = 300
 Speed = 0.6
 Sound = bulldog
-ThrottleUpDown = 3.0
+ThrottleUpDown = 2.0
 MobilityYawOnGround = 3.3
 MobilityRoll = 5
 Gravity = -0.61
@@ -13,6 +13,8 @@ MinRotationPitch = -20
 MaxRotationPitch = 10
 DefaultFreelook = true
 ThirdPersonDist = 12
+
+FlareType = 10
 
 AddTexture = M_41_90_2
 AddTexture = M_41_90_3

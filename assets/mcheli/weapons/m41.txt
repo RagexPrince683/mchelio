@@ -5,12 +5,13 @@ ModelBullet = bullet105mm
 Acceleration = 7
 Sight = None
 ReloadTime = 88
-Round = 1
-Delay = 88
+Round = 3
+Delay = 80
 SoundPitch = 1.1
 SoundVolume = 15.0
 Accuracy = 1.5
-Sound = cannon_4_snd
+
+Sound = meighteenhellcat
 Group = maingun
 Recoil = 1.5
 Piercing = 2

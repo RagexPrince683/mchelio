@@ -4,10 +4,10 @@ MaxHp = 200
 Speed = 0.45
 Sound = bulldog
 ThrottleUpDown = 2.0
-MobilityYawOnGround = 2.3
+MobilityYawOnGround = 3.3
 MinRotationPitch = -85
 MaxRotationPitch = 3
-MobilityRoll = 0
+MobilityRoll = 5
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 1
@@ -24,6 +24,9 @@ HideEntity = false
 WeightType = tank
 HUD = ww2tank_hudtwo
 EnableNightVision = false
+
+AddTexture = M_41_90_2
+AddTexture = M_41_90_3
 
 Category = SPAAG
 
