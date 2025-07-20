@@ -13,6 +13,7 @@ MinRotationPitch = -20
 MaxRotationPitch = 10
 DefaultFreelook = true
 ThirdPersonDist = 12
+Category = LT
 
 FlareType = 10
 
