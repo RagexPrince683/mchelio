@@ -1,4 +1,4 @@
-DisplayName = 76mm M1 [M79 Shot - AP]
+DisplayName = 76mm M1 Cannon [M79 Shot - AP]
 Type = MachineGun1
 Power = 134
 Acceleration = 7.5

@@ -1,4 +1,4 @@
-DisplayName = 76mm M1 [M62 Shell - APCBC]
+DisplayName = 76mm M1 Cannon [M62 Shell - APCBC]
 Type = MachineGun1
 Power = 149
 Acceleration = 7.5

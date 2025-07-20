@@ -1,4 +1,4 @@
-DisplayName = 76mm M1 [M42A1 Shell - HE]
+DisplayName = 76mm M1 Cannon [M42A1 Shell - HE]
 Type = MachineGun1
 Power = 40
 Acceleration = 7.5

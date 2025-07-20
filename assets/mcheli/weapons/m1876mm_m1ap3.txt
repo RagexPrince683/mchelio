@@ -1,4 +1,4 @@
-DisplayName = 76mm M1 [M93 shot - APCR]
+DisplayName = 76mm M1 Cannon [M93 shot - APCR]
 Type = MachineGun1
 Power = 190
 Acceleration = 7.5

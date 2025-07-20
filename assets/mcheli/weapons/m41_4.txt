@@ -1,25 +1,28 @@
-DisplayName = 76mm M32A1 Cannon [HEAT]
+DisplayName = 76mm M32A1 Cannon [M331A2 Shot - APDS]
 Type = MachineGun2
-Power = 155
+Power = 300
 ModelBullet = bullet105mm
-Acceleration = 6.0
-Explosion = 2
-ExplosionBlock = 0
+Acceleration = 7
 Sight = None
 ReloadTime = 88
 Round = 1
 Delay = 88
 SoundPitch = 1.1
-SoundVolume = 16.0
+SoundVolume = 15.0
 Accuracy = 1.5
-Gravity = -0.02
 Sound = cannon_4_snd
 Recoil = 1.5
+HeatCount = 700
+MaxHeatCount = 2050
+Gravity = -0.005
+Piercing = 2
+Group = maingun
 
-DamageFactor = helicopter, 0.5
-DamageFactor = plane,      0.5
-DamageFactor = vehicle,    0.5
-DamageFactor = tank,       2.5
+DamageFactor = tank, 3.5
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+DamageFactor = player, 10.0
 
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44

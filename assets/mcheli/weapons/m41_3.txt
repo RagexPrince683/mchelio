@@ -1,25 +1,31 @@
-DisplayName = 76mm M32A1 Cannon [HE]
+DisplayName = 76mm M32A1 Cannon [M352 Shell - HE]
 Type = MachineGun2
-Power = 205
+Power = 15
 ModelBullet = bullet105mm
-Acceleration = 6.0
+Acceleration = 5.5
 Explosion = 4
+ExplosionInWater = 2
 ExplosionBlock = 0
 Sight = None
 ReloadTime = 88
 Round = 1
 Delay = 88
 SoundPitch = 1.1
-SoundVolume = 16.0
+SoundVolume = 15.0
 Accuracy = 1.5
-Gravity = -0.02
 Sound = cannon_4_snd
 Recoil = 1.5
+HeatCount = 700
+MaxHeatCount = 2050
+Gravity = -0.008
+Group = maingun
 
-DamageFactor = helicopter, 2.5
-DamageFactor = plane,      2.5
-DamageFactor = vehicle,    2.5
-DamageFactor = tank,       0.1
+DamageFactor = tank, 2.0
+DamageFactor = plane, 4.5
+DamageFactor = vehicle 4.5
+DamageFactor = heli, 4.5
+DamageFactor = player, 20.0
+
 
 
 AddMuzzleFlash      =  7.2,      1.80,        7,  200,254,129,44
