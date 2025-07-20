@@ -44,7 +44,7 @@ AddWeapon = gbu-44,     1.86, 0.72, 0.09,   0.0, 0.0
 AddWeapon = targeting_pod_mob,     0.0, 0.3, 1.4,   0.0, 0.0
 AddWeapon = targeting_pod_pv30s,   0.0, 0.3, 1.4,   0.0, 0.0
 
-AddRecipe = "ABC", "DE ", "EEE", A, mcheli:airframe, B, mcheli:heliblade, C, mcheli:engine1, E, mcheli:electronics, D, mcheli:rocket2
+AddRecipe = "ABC", "DE ", "EEE", A, mcheli:airframe, B, mcheli:heliblade, C, mcheli:engine1, E, mcheli:fcs2, D, mcheli:rocket2
 
 BoundingBox =  0.0, 1.7, -0.5,  2.4, 2.5, 1.25
 

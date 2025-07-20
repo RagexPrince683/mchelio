@@ -71,7 +71,7 @@ AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
 ;AddWeapon = plastic_bomb, 0,0,0,  0,0
 
 ;advanced prop drone (modern drone), AOW3 style
-AddRecipe = "ABC", "DEF", "   ", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:fcs3
+AddRecipe = "ABC", "DEF", "B  ", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:fcs2
 
 BoundingBox =  0.0, 1.6, -1.0,  1.6, 1.4
 BoundingBox =  0.0, 1.6, -3.0,  1.6, 1.4

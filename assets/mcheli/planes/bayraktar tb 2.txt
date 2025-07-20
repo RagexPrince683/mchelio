@@ -48,7 +48,7 @@ AddWeapon = targeting_pod_pv30s, 0.0, 0.9, 0.0,  0.0, 0.0
 AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
 
 ;basic unarmed prop drone (modern drone), AOW3 style
-AddRecipe = "ABC", "DEF", "   ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:fcs
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:fcs2
 
 
 BoundingBox =  0.0, 0.587, -2.35,  1.0, 1.0

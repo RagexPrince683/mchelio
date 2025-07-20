@@ -128,16 +128,16 @@ AddPartTurretWeapon    = abramsm240_r,   false, true, false,  1.243, 3.24, -0.77
 AddTurretWeapon = abramsm240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -65,9
 
 ; modern mbt tracked tank 
-AddRecipe = "ABC", "DGF", "EH ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs3, G, mcheli:composite3, E, mcheli:complexmechanicparts, H, mcheli:fcs2
+AddRecipe = "ABC", "DGF", "EH ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs3, G, mcheli:composite4, E, mcheli:complexmechanicparts, H, mcheli:fcs2
 
 ;m1a1->m1a2 sepv3
-AddRecipe = "ABC", "D  ", "   ", A, mcheli:complexmechanicparts, B, mcheli:m1a1nt, C, mcheli:fcs2, D, mcheli:fcs3
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:complexmechanicparts, B, mcheli:m1a1nt, C, mcheli:fcs2, D, mcheli:fcs3, E, mcheli:composite4
 
 ;de-tusk
-AddRecipe = "ABC", "D  ", "   ", A, mcheli:complexmechanicparts, B, mcheli:m1a1, C, mcheli:fcs2, D, mcheli:fcs3
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:complexmechanicparts, B, mcheli:m1a1, C, mcheli:fcs2, D, mcheli:fcs3, E, mcheli:composite4
 
 ;de-tusk p2/modernization
-AddRecipe = "ABC", "D  ", "   ", A, mcheli:complexmechanicparts, B, mcheli:m1a2tusk, C, mcheli:fcs2, D, mcheli:fcs3
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:complexmechanicparts, B, mcheli:m1a2tusk, C, mcheli:fcs2, D, mcheli:fcs3, E, mcheli:composite4
 
 
 

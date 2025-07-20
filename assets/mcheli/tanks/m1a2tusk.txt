@@ -61,7 +61,7 @@ MotionFactor = 0.9
 ;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
 ;ArmorMaxDamage = 500
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
-ArmorDamageFactor = 0.92
+;ArmorDamageFactor = 0.92
 ;後退可能にする
 EnableBack = true
 
@@ -128,7 +128,7 @@ AddPartTurretWeapon    = abramsm240_r,   false, true, false,  1.243, 3.24, -0.77
 AddTurretWeapon = abramsm240_r,    1.243, 3.24, -0.77,   0.0, 0.0, false, 3, 0, -220,30, -65,9
 
 ; m1a2T 
-AddRecipe = "ABC", "DGF", "E  ", A, mcheli:heavychassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs3, G, mcheli:composite3, E, mcheli:complexmechanicparts
+AddRecipe = "ABC", "DGF", "E  ", A, mcheli:heavychassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs3, G, mcheli:composite4, E, mcheli:complexmechanicparts
 
 
 AddRecipe = "ABC", "D  ", "   ", A, mcheli:heavychassis, B, mcheli:fcs3, C, mcheli:complexmechanicparts, D, mcheli:m1a1

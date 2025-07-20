@@ -48,7 +48,7 @@ AddWeapon = fdronedispenser_fertilizer,  0.04, -0.14, -0.47,   1.0, 0.0
 
 
 ;basic unarmed drone
-AddRecipe = "ABC", "   ", "   ", A, mcheli:item.ingot_aluminum, B, mcheli:electronics, C, mcheli:basicmechanicparts
+AddRecipe = "ABC", "   ", "   ", A, mcheli:item.ingot_aluminum, B, mcheli:fcs, C, mcheli:basicmechanicparts
 
 
 BoundingBox =  -0.03, 0.36, 0.00, 1.0, 1.0

@@ -30,7 +30,7 @@ AddPartWeaponMissile = rgd5mavic,  false, false, false,  0, -0.124 , 0.095
 AddWeapon = rgd5mavic, 0, -0.124 , 0.095,  0,0
 
 ;basic armed drone
-AddRecipe = "ABC", "C  ", "   ", A, mcheli:item.ingot_aluminum, B, mcheli:electronics, C, mcheli:basicmechanicparts
+AddRecipe = "ABC", "C  ", "   ", A, mcheli:item.ingot_aluminum, B, mcheli:electronics, C, mcheli:fcs2
 
 AddRecipe = "AB ", "   ", "   ", A, mcheli:mavic3, B, mcheli:basicmechanicparts
 

@@ -47,7 +47,7 @@ AddRotor = 1, 0,  -0.61,  0.38, 0.49,  0, -1, 0
 
 
 ;basic unarmed drone
-AddRecipe = "ABC", "   ", "   ", A, mcheli:item.ingot_aluminum, B, mcheli:electronics, C, mcheli:basicmechanicparts, D, mcheli:cannon1
+AddRecipe = "ABC", "   ", "   ", A, mcheli:item.ingot_aluminum, B, mcheli:fcs2, C, mcheli:basicmechanicparts, D, mcheli:cannon1
 
 AddRecipe = "AB ", "   ", "   ", A, mcheli:mc_drone_farmer, B, mcheli:cannon1
 

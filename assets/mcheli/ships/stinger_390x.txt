@@ -49,7 +49,7 @@ AddSeat =   0.00,  0.97, -2.65
 InventorySize = 27
 
 ;civ transport 'fiberglass'
-AddRecipe = "  C", "DDD", "DDD", C, mcheli:engine2, D, mcheli:item.ingot_aluminum
+AddRecipe = " AC", "DDD", "DDD", C, mcheli:engine2, D, mcheli:item.ingot_aluminum, A, mcheli:electronics
 
 BoundingBox =  0.00,  0.70, 2.08,  2.0, 1.0
 BoundingBox =  0.00,  0.50, -2.45,  2.0, 1.0
