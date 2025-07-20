@@ -11,6 +11,9 @@ Accuracy = 1.5
 HeatCount = 3
 MaxHeatCount = 150
 SoundPitch = 1.0
+ReloadTime = 80
+
+Round = 250
 
 Sound = browning
 

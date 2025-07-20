@@ -3,8 +3,8 @@ MaxHp = 300
 Speed = 0.6
 Sound = bulldog
 ThrottleUpDown = 3.0
-MobilityYawOnGround = 3.0
-MobilityRoll = 0
+MobilityYawOnGround = 3.3
+MobilityRoll = 5
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.8
@@ -111,13 +111,29 @@ StepHeight = 1.8
 ArmorMinDamage = 20
 ;hull
 
+
+
 ;middle split 74mm
 BoundingBox = 0.0, 0.65, 1.3, 2, 0.2, 0.27
 ;staircase up 82
 BoundingBox = 0.0, 0.85, 1.0, 2, 0.2, 0.24
 ;88
-BoundingBox = 0.0, 1.05, 0.6, 2, 0.2, 0.22
+BoundingBox = 0.0, 0.98, 0.6, 2, 0.2, 0.22
+;md ft 85
+BoundingBox = 0.0, 1.15, 0.1, 2, 0.2, 0.23
 
+;lowerp
+BoundingBox = 0.0, 0.45, 1.2, 2, 0.2, 0.26
+;69
+BoundingBox = 0.0, 0.25, 1.1, 2, 0.2, 0.28
+
+;side 25
+BoundingBox = 0.0, 0.75, 0.0, 2.1, 1.0, 0.8
+;back
+BoundingBox = 0.0, 0.75, -1.75, 2.1, 1.0, 1
 
 
 ;hull
+
+;turret 53
+BoundingBox = 0.0, 1.45, 0.0, 1.7, 1, 0.37

@@ -39,19 +39,41 @@ MotionFactor = 0.95
 EnableBack = true
 PivotTurnThrottle = 0.0
 
-AddCrawlerTrack = true, 0.2, -1.9184,  -0.2538/1.7282, -0.0/2.21, 0.448/2.902, 0.7366/3.022, 1.025/2.902, 1.115/2.6135, 1.178/0.0, 1.178/-2.307, 1.229/-3.8513, 1.015/-4.2223, 0.794/-4.2865, 0.554/-4.2223, 0.2834/-4.0325, 0.124/-3.655,  -0.2538/-2.681, -0.2538/-0.0
+AddCrawlerTrack = true, 0.20, -1.2633,  -0.2753/1.5513,  0.2057/2.1241, 0.3465/2.2266, 0.5203/2.2266, 0.6612/2.1247, 0.7155/1.9583, 0.7453/-2.6778, 0.6649/-2.8607, 0.4745/-2.9224, 0.3024/-2.8228, -0.2753/-2.0048
+
+AddCrawlerTrack = true, 0.20,  1.2633,  -0.2753/1.5513,  0.2057/2.1241, 0.3465/2.2266, 0.5203/2.2266, 0.6612/2.1247, 0.7155/1.9583, 0.7453/-2.6778, 0.6649/-2.8607, 0.4745/-2.9224, 0.3024/-2.8228, -0.2753/-2.0048
+
+SetWheelPos =  0.98, -0.24, 1.3948, 0.5888, -0.2038, -1.0316, -1.8857
 
 
-SetWheelPos =  1.55, -0.24, 1.72, 0.62, -0.47, -1.57, -2.68
+AddTrackRoller = -1.1221,  0.4300,  1.9580
+AddTrackRoller = -1.1408,  0.0457,  1.3948
+AddTrackRoller = -1.1408,  0.0457,  0.5888
+AddTrackRoller = -1.1408,  0.0457, -0.2038
+AddTrackRoller = -1.1408,  0.0457, -1.0316
+AddTrackRoller = -1.1408,  0.0457, -1.8857
+AddTrackRoller = -1.0965,  0.4945, -2.6643
+AddTrackRoller = -1.1641,  0.5899,  0.8002
+AddTrackRoller = -1.1641,  0.5899, -0.5723
+AddTrackRoller = -1.1641,  0.5899, -1.6047
 
-AddTrackRoller = -2.0,  0.7366,  2.6135
-AddTrackRoller = -1.82,  0.2026,  1.7282
- AddTrackRoller = -1.82,  0.2026,  0.6282
- AddTrackRoller = -1.82,  0.2026,  -0.4748
- AddTrackRoller = -1.82,  0.2026,  -1.578
- AddTrackRoller = -1.82,  0.2026,  -2.681
- AddTrackRoller = -1.82,  0.7845,  -3.841
+AddTrackRoller =  1.1221,  0.4300,  1.9580
+AddTrackRoller =  1.1408,  0.0457,  1.3948
+AddTrackRoller =  1.1408,  0.0457,  0.5888
+AddTrackRoller =  1.1408,  0.0457, -0.2038
+AddTrackRoller =  1.1408,  0.0457, -1.0316
+AddTrackRoller =  1.1408,  0.0457, -1.8857
+AddTrackRoller =  1.0965,  0.4945, -2.6643
+AddTrackRoller =  1.1641,  0.5899,  0.8002
+AddTrackRoller =  1.1641,  0.5899, -0.5723
+AddTrackRoller =  1.1641,  0.5899, -1.6047
 
+
+;turret moved down by Y-75.36~
+
+;scaled down by 0.8 and moved back
+
+;ok ts fucked im just gonna rewrite
 
 AddTurretWeapon   = m42AP,  0.1, 2.96, 0,  0.0, 0.0, true,1, 0,-360,360, -85, 3
 AddTurretWeapon   = m42AP,  -0.1, 2.96, 0,  0.0, 0.0, true,1, 0,-360,360, -85, 3
