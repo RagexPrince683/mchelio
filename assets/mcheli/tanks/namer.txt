@@ -42,7 +42,7 @@ WeightedCenterZ = 0.0
 ; X座標のマイナス側は必要なし
 
 
-HUD = mbt_hudtherm, gunner, none, none, none, none, none, none, none, none, none, none
+HUD = mbt_hudtherm, gunner, gunner, none, none, none, none, none, none, none, none, none
 ;HUD = ww2tank_hud, ww2tank_hud, none, none, none, none, none, none
 
 AddSeat = 0.00,  2.50,  0.25, false
@@ -54,7 +54,7 @@ AddGunnerSeat = -0.6219,  0.45, 0.5068,  -0.6219,  2.6636, 1.2968, true, -60, 20
 
 
 ;fnmag
-AddGunnerSeat =  0.6219,  0.45, 0.5068,   0.00, 2.60, -0.018,  false, -60,  60
+AddGunnerSeat =  0.6770,  1.85, 0.2468,   0.6770, 2.85, 0.2468,  false, -60,  60
 
 
 ;x-62.19, z52.41
@@ -65,9 +65,9 @@ AddTurretWeapon = strykerm2_rws,   -0.6219, 2.6636, 1.2968,   0.0, 0.0, false, 2
 
 
 ;merkava4mg7_62mm
-AddTurretWeapon = merkava4mg7_62mm,   0.00, 2.12, -0.018,  0.0, 0.0, false, 3, 0, -360, 360, -25,  6
-AddPartWeapon = merkava4mg7_62mm, false, true, false,  0.00, 1.01, -0.018, 0
-AddPartWeaponChild = false, true, 0.00, 1.87, 0.742
+AddTurretWeapon = merkava4mg7_62mm,   0.6733, 2.488, 1.06,  0.0, 0.0, false, 3, 0, -90, 90, -45,  10
+AddPartWeapon = merkava4mg7_62mm, false, true, true,  0.6733, 2.488, 1.06, 0
+;AddPartWeaponChild = false, true, 0.00, 1.87, 0.742
 
 
 
