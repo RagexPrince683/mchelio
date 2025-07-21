@@ -1,6 +1,6 @@
-DisplayName = M1126 Stryker Infantry Carrier Vehicle with M2 Browning Protector RWS
-AddDisplayName = en_US, M1126 Stryker Infantry Carrier Vehicle with M2 Browning Protector RWS
-AddDisplayName = ja_JP, M1126 M2 RWS
+DisplayName = M-SHORAD Stryker 'Sergeant Stout'
+AddDisplayName = en_US, M-SHORAD Stryker 'Sergeant Stout'
+AddDisplayName = ja_JP, M-SHORAD Stryker
 MaxHp = 200
 Speed = 0.62
 Sound = stryker
@@ -84,9 +84,9 @@ AddPartCanopy	=  -0.7504, 2.7969, -0.9051, 1.0, 0.0, 0.0,-80
 ;AddPartWeapon 		= 2981mm_mortar,    false, true,  false, 0.00, 1.80, -2.67
 ;AddPartWeaponChild 	= false, true, 0.00,  1.80, -2.67
 
-AddPartWeapon    = strykerm2_rws,   true, true, true,  -0.743, 3.6549, 0.3869
-AddPartWeapon    = strykerm2_rws,  false, true, false, -0.743, 3.0549, 0.3869
-AddWeapon = strykerm2_rws,   -0.743, 3.68,  0.3869,   0.0, 0.0, false, 2, 0, -360,360, -60,20
+;AddPartWeapon    = strykerm2_rws,   true, true, true,  -0.743, 3.6549, 0.3869
+;AddPartWeapon    = strykerm2_rws,  false, true, false, -0.743, 3.0549, 0.3869
+;AddWeapon = strykerm2_rws,   -0.743, 3.68,  0.3869,   0.0, 0.0, false, 2, 0, -360,360, -60,20
 
 
 DamageFactor = 0.5
@@ -121,5 +121,5 @@ BoundingBox = 0.0, 1.5, 3.3, 2.8, 0.4, 1.0
 UnmountPosition = -0.0,  1.5,-3.5
 
 
-;light 8x8 with mg
-AddRecipe = "ABC", "DEG", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:lap, G, mcheli:cannon1
+;light/med 8x8 with a bunch of shit
+AddRecipe = "ABC", "DEG", "   ", A, mcheli:mediumchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:rocket2, G, mcheli:cannon1
