@@ -1,5 +1,5 @@
-DisplayName = Namer
-AddDisplayName = ja_JP, Namer
+DisplayName = Namer 'Leopard' APC
+AddDisplayName = ja_JP, Namer 'Leopard' APC
 ItemID = 30075
 MaxHp = 600
 Speed = 0.5
@@ -12,13 +12,13 @@ MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.2
-CameraZoom = 8
-CameraPosition = 0.52, 3.70, -0.1, true
+CameraZoom = 10
+CameraPosition = 1.04, 1.9213, 2.9883, true
 EnableNightVision = true
 CameraRotationSpeed = 28
 StepHeight = 1.8
 DefaultFreelook = true
-TurretPosition = 0.0, 0.0, 0.25
+;TurretPosition = 0.0, 0.0, 0.25
 FlareType = 10
 
 Category = HAPC
@@ -42,12 +42,34 @@ WeightedCenterZ = 0.0
 ; X座標のマイナス側は必要なし
 
 
-HUD = mbt_hudtherm, gunnernvg, none, none, none, none, none, none, none, none
+HUD = mbt_hudtherm, gunner, none, none, none, none, none, none, none, none, none, none
 ;HUD = ww2tank_hud, ww2tank_hud, none, none, none, none, none, none
 
-AddGunnerSeat = 0.00,  2.50,  0.25,   2.00,  3.50,  0.25, false, -90, 90, true
-AddSeat = 0.2481,  1.80, -1.16
-AddGunnerSeat = -0.2481,  1.80, -1.16,  -0.2481,  3.80, -1.16, false, -90, 90, true
+AddSeat = 0.00,  2.50,  0.25, false
+;,   1.2082,  1.9213,  2.9883, false, -90, 90, true
+
+AddGunnerSeat = -0.6219,  0.45, 0.5068,  -0.6219,  2.6636, 1.2968, true, -60, 20, false
+
+;AddSeat = 0.6219,  0.45, 0.5068
+
+
+;fnmag
+AddGunnerSeat =  0.6219,  0.45, 0.5068,   0.00, 2.60, -0.018,  false, -60,  60
+
+
+;x-62.19, z52.41
+
+AddPartWeapon    = strykerm2_rws,   true, true, true,  -0.6219, 2.6636, 1.2968
+AddPartWeapon    = strykerm2_rws,  false, true, false, -0.6219, 2.1104, 1.2968
+AddTurretWeapon = strykerm2_rws,   -0.6219, 2.6636, 1.2968,   0.0, 0.0, false, 2, 0, -360,360, -60,20
+
+
+;merkava4mg7_62mm
+AddTurretWeapon = merkava4mg7_62mm,   0.00, 2.12, -0.018,  0.0, 0.0, false, 3, 0, -360, 360, -25,  6
+AddPartWeapon = merkava4mg7_62mm, false, true, false,  0.00, 1.01, -0.018, 0
+AddPartWeaponChild = false, true, 0.00, 1.87, 0.742
+
+
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.92
@@ -101,23 +123,6 @@ AddTrackRoller =  1.72,  0.18, -2.19
 AddTrackRoller =  1.72,  0.73, -3.10
 
 
-;AddPartWeapon = merkava1rehinmetall_apfsds / merkava1rehinmetall_he / merkava1rehinmetall_heat , false, true, false,  0.00, 1.52, 0.25, 0
-;merkava105mmcanistershell
-;AddPartWeaponChild = false, true, 0.00, 2.01, 1.62, 0.0
-;AddPartWeaponChild = false, true, 0.00, 2.01, 1.62, 0.5
-;AddTurretWeapon = merkava1rehinmetall_apfsds, 0.00, 2.22, 0.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 8
-;AddTurretWeapon = merkava1rehinmetall_he, 0.00, 2.22, 0.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 8
-;AddTurretWeapon = merkava1rehinmetall_heat, 0.00, 2.22, 0.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 8
-;AddTurretWeapon = merkava105mmcanistershell,      0.00, 2.22, 0.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 8
-;AddTurretWeapon = merkava460mm_mortar,        0.90, 3.00, 0.52,  0.0,-45.0, false, 1, 0,-360,360, -85, 8
-
-
-;AddTurretWeapon = merkava412_7,         0.00, 2.92, 2.70,  0.0,  0.0, false, 1, 0,-360,360, -20, 8
-;AddTurretWeapon = merkava4mgcox,         0.5, 2.22, 1.00,  0.0,  0.0, false, 1, 0,-360,360, -20, 8
-
-
-;AddPartTurretWeapon = merkava4mg7_62mm, false, true, true,  -0.5281, 3.39,-0.57, 0
-;AddTurretWeapon = merkava4mg7_62mm,          -0.5281, 3.39,-0.57,  0.0,  0.0, false,2, 0,-60,120, -50, 5
 
 MaxFuel         = 1200
 FuelConsumption = 2.5
@@ -143,7 +148,9 @@ BoundingBox =  1.1, 1.05,  2.7,  2.3, 1.8, 0.15
 ;;;;;;;;side turret 11 but since mcheli is annoying with non rot bbs .20
 
 ;turret
-BoundingBox =  0.0, 2.0, 0.0,  2.8, 1.8, 0.3
+;BoundingBox =  0.0, 2.0, 0.0,  2.8, 1.8, 0.3
+
+
 ;side armor
 BoundingBox =  0.0, 1.0, 0.0,  4.3, 1.8, 0.6
 
@@ -166,14 +173,14 @@ BoundingBox = 0.0, 0.9, -2.1, 1.0, 2.0, 0.6
 
 ;BoundingBox =  0.0, 2.9,  0.0,  2.0, 1.0, 1.30
 
-AddSeat =  0.75, 0.45, -0.51
-AddSeat = -0.75, 0.45, -0.51
-AddSeat =  0.75, 0.45, -1.32
-AddSeat = -0.75, 0.45, -1.32
-AddSeat =  0.75, 0.45, -1.62
-AddSeat = -0.75, 0.45, -1.62
-AddSeat =  0.75, 0.45, -1.92
-AddSeat = -0.75, 0.45, -1.92
+AddSeat =  0.62, 0.45, -0.51
+AddSeat = -0.62, 0.45, -0.51
+AddSeat =  0.62, 0.45, -1.32
+AddSeat = -0.62, 0.45, -1.32
+AddSeat =  0.62, 0.45, -1.62
+AddSeat = -0.62, 0.45, -1.62
+AddSeat =  0.62, 0.45, -1.92
+AddSeat = -0.62, 0.45, -1.92
 
 AddSeat = -0.0, 0.45, -1.92
 
