@@ -21,6 +21,7 @@ SmokeSize   = 0
 ; 本来水バケツは使用すると水を設置するが、ヘリMOD内では特殊な処理を行って火を消していいる。
 DispenseItem = hbm:item.disperser_canister, 5
 DispenseRange = 1
+;hmm
 
 MaxAmmo = 20
 SuppliedNum = 4
