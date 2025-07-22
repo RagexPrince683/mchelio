@@ -1,9 +1,9 @@
-DisplayName = Douglas C-47 Skytrain
-AddDisplayName = en_US, Douglas C-47 Skytrain
-AddDisplayName = ja_JP, C-47 スカイトレイン
+DisplayName = Douglas AC-47 Spooky "Puff, the Magic Dragon"
+AddDisplayName = en_US, Douglas AC-47 Spooky "Puff, the Magic Dragon"
+AddDisplayName = ja_JP, AC-47 Spooky "Puff, the Magic Dragon"
 HUD = plane_wwii, plane_wwii
 EnableEntityRadar = false
-Speed = 2.3
+Speed = 2.33
 GravityInWater = -0.04
 MobilityRoll = 0.3
 MobilityYaw = 0.3
@@ -11,13 +11,15 @@ MobilityPitch = 0.3
 ;MinRotationRoll =-30
 ;MaxRotationRoll =30
 MaxHP = 250
-InventorySize = 36
+InventorySize = 9
 Sound = prop
 OnGroundPitch = 11.62
 ThrottleUpDown = 0.1
-EnableParachuting = true
-MobDropOption  = 0.97, 1.52, -6.48, 2
+EnableParachuting = false
+;MobDropOption  = 0.97, 1.52, -6.48, 2
 ;Regeneration = true
+
+;OH BROTHER!!!
 
 RotorSpeed = 2000.0
 
@@ -46,12 +48,43 @@ AddBlade =1, 0, -3.79, 3.47, 0.29,  0, 0, 1
 AddPartRotor = 3.77, 3.47, 0.29,  0, 0, 1
 AddBlade =1, 0, 3.77, 3.47, 0.29,  0, 0, 1
 
-AddRack = container,     0.0, 4.11, -2.42,  2.19, 4.39, -11.12,   15,    20
-AddRack = container,     0.0, 4.11, -3.95,  2.19, 4.39, -11.12,   15,    20
-AddRack = container,     0.0, 4.11, -5.68,  2.19, 4.39, -11.12,   15,    20
-AddRack = container,     0.0, 4.11, -7.4,  2.19, 4.39, -11.12,   15,    20
-AddRack = container,     0.0, 4.11, -9.19,  2.19, 4.39, -11.12,   15,    20
-AddRack = container,     0.0, 4.11, -11.35,  2.19, 4.39, -11.12,   15,    20
+;AddRack = container,     0.0, 4.11, -2.42,  2.19, 4.39, -11.12,   15,    20
+;AddRack = container,     0.0, 4.11, -3.95,  2.19, 4.39, -11.12,   15,    20
+;AddRack = container,     0.0, 4.11, -5.68,  2.19, 4.39, -11.12,   15,    20
+;AddRack = container,     0.0, 4.11, -7.4,  2.19, 4.39, -11.12,   15,    20
+;AddRack = container,     0.0, 4.11, -9.19,  2.19, 4.39, -11.12,   15,    20
+;AddRack = container,     0.0, 4.11, -11.35,  2.19, 4.39, -11.12,   15,    20
+
+
+
+
+;-6.4338, 2.4156, -0.1949
+
+;shamelessly stolen from mk5
+
+;1st
+AddWeapon        = m134puff3,  -4.7538, 4.3756, -4.1599,   0.0, 0.0, false, 3, -90,-80, 80, -50,80
+AddPartWeapon    = m134puff3, false, true, false,  -4.8938, 4.0756, -4.1599
+AddPartWeapon    = m134puff3, false, true, true,   -4.8938, 4.3756, -4.1599
+AddPartRotWeapon = m134puff3, false, true, true,   -4.8938, 4.3756, -4.1599, -1,0,0
+
+;2nd
+;z272.70, 72.57
+
+AddWeapon        = m134puff,  -4.7538, 5.1013, -4.1599,   0.0, 0.0, false, 3, -90,-80, 80, -50,80
+AddPartWeapon    = m134puff, false, true, false,  -4.8938, 4.8013, -1.4329
+AddPartWeapon    = m134puff, false, true, true,   -4.8938, 5.1013, -1.4329
+AddPartRotWeapon = m134puff, false, true, true,   -4.8938, 5.1013, -1.4329, -1,0,0
+
+;3rd forward from original (1)
+;z147.01, y72.57
+
+AddWeapon        = m134puff2,  -4.7538, 5.1013, -4.1599,   0.0, 0.0, false, 3, -90,-80, 80, -50,80
+AddPartWeapon    = m134puff2, false, true, false,  -4.8938, 4.8013, -2.6898
+AddPartWeapon    = m134puff2, false, true, true,   -4.8938, 5.1013, -2.6898
+AddPartRotWeapon = m134puff2, false, true, true,   -4.8938, 5.1013, -2.6898, -1,0,0
+
+
 
 AddPartLG    =  3.77, 2.78, -1.29,  -1,0,0,  -90
 AddPartLG    =  -3.77, 2.78, -1.29,  -1,0,0,  -90
@@ -95,7 +128,7 @@ BoundingBox = 3.75, 3.45, -2.073, 1.3, 1.3, 1.5
 BoundingBox = -3.75, 3.45, -2.073, 1.3, 1.3, 1.5 
 
 ;large WW2 prop plane transport, AOW3 style
-AddRecipe = "ABC", "DA ", "   ", A, mcheli:airframebomb, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair
+;AddRecipe = "ABC", "DA ", "EEE", A, mcheli:airframebomb, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon1
 
 UnmountPosition = 0.68, 2.2, 1.78
 DamageFactor = 0.8

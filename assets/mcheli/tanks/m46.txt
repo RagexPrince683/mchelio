@@ -1,7 +1,7 @@
 DisplayName = M46 Patton
 AddDisplayName = ja_JP, M46 Patton
 AddDisplayName = en_US, M46 Patton
-ItemID = 30997
+;ItemID = 30997
 MaxHp = 162
 Speed = 0.3
 Sound = mtwentysixeng
@@ -10,7 +10,7 @@ MobilityYawOnGround = 2.3
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
-DamageFactor = 0.2
+DamageFactor = 0.0
 CameraZoom = 8
 CameraPosition = 0.00,  3.6, 0.7542, true
 CameraRotationSpeed = 13
@@ -172,7 +172,8 @@ BoundingBox = -0.8, 1.20, 3.3, 0.25, 0.25, 0.88
 
 
 MaxFuel         = 600
-FuelConsumption = 2.0
+FuelConsumption = 1.8
+;idk man I just work here
 
 StepHeight = 1.5
 

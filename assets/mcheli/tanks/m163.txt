@@ -1,6 +1,6 @@
-﻿DisplayName = M163 VADS
-AddDisplayName = en_US, M163 VADS
-AddDisplayName = ja_JP, M163 対空自走砲
+﻿DisplayName = M163 VADS (M113)
+AddDisplayName = en_US, M163 VADS (M113)
+AddDisplayName = ja_JP, M163 対空自走砲 (M113)
 ItemID = 30191
 MaxHp = 200
 Speed = 0.40
