@@ -11,7 +11,7 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.2
 EnableNightVision = false
-CameraRotationSpeed = 14
+CameraRotationSpeed = 7
 StepHeight = 1.8
 MinRotationPitch = -25
 MaxRotationPitch = 10
@@ -83,11 +83,12 @@ AddTrackRoller = 1.42,  0.87,  1.54
 
 
 
-AddPartWeapon = sherman75mm_M3AP / sherman75mm_M3HE, false, true, false,  0.00, 2.20, 0.00, 0
+AddPartWeapon = sherman105mm_M3AP / sherman105mm_M3HE / sherman105mm_M3WP, false, true, false,  0.00, 2.20, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.58, 0.98, 0.5
 AddPartWeaponChild = false, true, 0.00, 2.58, 0.98
-AddTurretWeapon = sherman75mm_M3AP,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
-AddTurretWeapon = sherman75mm_M3HE,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
+AddTurretWeapon = sherman105mm_M3AP,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
+AddTurretWeapon = sherman105mm_M3HE,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
+AddTurretWeapon = sherman105mm_M3WP,  0.00, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
 AddTurretWeapon = shermanmg7_62mm,   0.24, 2.58, 0.98,  0.0, 0.0, true,1, 0,-360,360, -25, 10
 
 ;M2
@@ -175,7 +176,7 @@ BoundingBox =  0.0, 2.1, 1.28,  2.0, 0.1, 0.25
 unmountposition = 0.00,  1.50,  0.25
 
 ;medium tracked tank ww2 mid
-AddRecipe = "ABC", "D  ", "   ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine2, D, mcheli:tanktracks
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine2, D, mcheli:tanktracks
 
 ;AddRecipe = "   ",  " X ",  "   ",  X,mcheli:m4_calliope
 

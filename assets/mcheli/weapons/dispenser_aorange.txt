@@ -6,7 +6,7 @@ Sight = None
 Delay = 2
 Sound = smoke_snd
 SoundDelay = 4
-Gravity = -0.05
+Gravity = -0.1
 
 Bomblet = 8
 BombletSTime = 1
