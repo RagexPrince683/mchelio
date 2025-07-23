@@ -1,9 +1,10 @@
 DisplayName = Douglas AC-47 Spooky "Puff, the Magic Dragon"
 AddDisplayName = en_US, Douglas AC-47 Spooky "Puff, the Magic Dragon"
 AddDisplayName = ja_JP, AC-47 Spooky "Puff, the Magic Dragon"
-HUD = plane_wwii, plane_wwii
+HUD = plane_wwiinotherm, plane_wwiinotherm
 EnableEntityRadar = false
-Speed = 2.33
+Speed = 1.75
+;max speed seemed too fast
 GravityInWater = -0.04
 MobilityRoll = 0.3
 MobilityYaw = 0.3
@@ -19,6 +20,8 @@ EnableParachuting = false
 ;MobDropOption  = 0.97, 1.52, -6.48, 2
 ;Regeneration = true
 
+Category = M.A
+
 ;OH BROTHER!!!
 
 RotorSpeed = 2000.0
@@ -28,19 +31,32 @@ enableback = true
 DamageFactor = 0.8
 
 AddSeat = 0.68, 5.0, 1.78
+
+
+AutoPilotRot = -0.10
+CameraPosition = 1.8, 4.40, -7.42
+CameraZoom = 1
+EnableNightVision = true
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+FlareType = 2
+
+AddGunnerSeat = 0.0, 4.25, -7.42
+
 AddSeat = -0.67, 5.0, 1.78
-AddSeat = 1.41, 4.64, -2.42
-AddSeat = 1.41, 4.64, -3.73
-AddSeat = 1.41, 4.64, -5.0
-AddSeat = 1.41, 4.64, -6.34
-AddSeat = 1.41, 4.64, -7.66
-AddSeat = 1.41, 4.64, -8.88
-AddSeat = -1.41, 4.64, -2.42
-AddSeat = -1.41, 4.64, -3.73
-AddSeat = -1.41, 4.64, -5.0
-AddSeat = -1.41, 4.64, -6.34
-AddSeat = -1.41, 4.64, -7.66
-AddSeat = -1.41, 4.64, -8.88
+
+;AddSeat = 1.41, 4.64, -2.42
+;AddSeat = 1.41, 4.64, -3.73
+;AddSeat = 1.41, 4.64, -5.0
+;AddSeat = 1.41, 4.64, -6.34
+;AddSeat = 1.41, 4.64, -7.66
+;AddSeat = 1.41, 4.64, -8.88
+;AddSeat = -1.41, 4.64, -2.42
+;AddSeat = -1.41, 4.64, -3.73
+;;AddSeat = -1.41, 4.64, -5.0
+;AddSeat = -1.41, 4.64, -6.34
+;AddSeat = -1.41, 4.64, -7.66
+;AddSeat = -1.41, 4.64, -8.88
 
 AddPartRotor = -3.79, 3.47, 0.29,  0, 0, 1
 AddBlade =1, 0, -3.79, 3.47, 0.29,  0, 0, 1
@@ -62,27 +78,38 @@ AddBlade =1, 0, 3.77, 3.47, 0.29,  0, 0, 1
 
 ;shamelessly stolen from mk5
 
+;AddWeapon        = m134_l50,  1.68, 1.96, -3.965,   0.0, 0.0, false, 2, -90,-80, 80, -50,80
+;AddPartWeapon    = m134_l50, false, true, false,  1.54, 1.66, -3.965
+;AddPartWeapon    = m134_l50, false, true, true,   1.54, 1.96, -3.965
+;AddPartRotWeapon = m134_l50, false, true, true,   1.54, 1.96, -3.965, -1,0,0
+
+;1.68 -> 1.54 = 0.14 diff x
+;1.96 -> 1.66 = 0.3 diff y
+
 ;1st
-AddWeapon        = m134puff3,  -4.7538, 4.3756, -4.1599,   0.0, 0.0, false, 3, -90,-80, 80, -50,80
-AddPartWeapon    = m134puff3, false, true, false,  -4.8938, 4.0756, -4.1599
-AddPartWeapon    = m134puff3, false, true, true,   -4.8938, 4.3756, -4.1599
-AddPartRotWeapon = m134puff3, false, true, true,   -4.8938, 4.3756, -4.1599, -1,0,0
+AddWeapon        = m134puff3,  1.4860, 4.3775, -10.3993,   0.0, 0.0, true, 2, -90,-45, 15, -5,45
+AddPartWeapon    = m134puff3, false, true, false,  1.346, 4.0775, -10.3993
+AddPartWeapon    = m134puff3, false, true, true,   1.346, 4.3775, -10.3993
+AddPartRotWeapon = m134puff3, false, true, true,   1.346, 4.3775, -10.3993, -1,0,0
 
 ;2nd
-;z272.70, 72.57
+;z272.70, y72.57
 
-AddWeapon        = m134puff,  -4.7538, 5.1013, -4.1599,   0.0, 0.0, false, 3, -90,-80, 80, -50,80
-AddPartWeapon    = m134puff, false, true, false,  -4.8938, 4.8013, -1.4329
-AddPartWeapon    = m134puff, false, true, true,   -4.8938, 5.1013, -1.4329
-AddPartRotWeapon = m134puff, false, true, true,   -4.8938, 5.1013, -1.4329, -1,0,0
+AddWeapon        = m134puff,  1.4860, 5.1032, -7.6723,   0.0, 0.0, true, 2, -90,-45, 15, -5,45
+AddPartWeapon    = m134puff, false, true, false,  1.346, 4.8032, -7.6723
+AddPartWeapon    = m134puff, false, true, true,   1.346, 5.1032, -7.6723
+AddPartRotWeapon = m134puff, false, true, true,   1.346, 5.1032, -7.6723, -1,0,0
 
 ;3rd forward from original (1)
 ;z147.01, y72.57
 
-AddWeapon        = m134puff2,  -4.7538, 5.1013, -4.1599,   0.0, 0.0, false, 3, -90,-80, 80, -50,80
-AddPartWeapon    = m134puff2, false, true, false,  -4.8938, 4.8013, -2.6898
-AddPartWeapon    = m134puff2, false, true, true,   -4.8938, 5.1013, -2.6898
-AddPartRotWeapon = m134puff2, false, true, true,   -4.8938, 5.1013, -2.6898, -1,0,0
+AddWeapon        = m134puff2,  1.4860, 5.1032, -8.9292,   0.0, 0.0, true, 2, -90,-45, 15, -5,45
+AddPartWeapon    = m134puff2, false, true, false,  1.346, 4.8032, -8.9292
+AddPartWeapon    = m134puff2, false, true, true,   1.346, 5.1032, -8.9292
+AddPartRotWeapon = m134puff2, false, true, true,   1.346, 5.1032, -8.9292, -1,0,0
+
+
+AddWeapon = memeflare, 0.0, 5.0, -9, 0.0, 0.0, true, 3, -90, 0, 0, 0, 90
 
 
 

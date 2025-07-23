@@ -11,10 +11,11 @@ Category = HT
 
 
 Sound = istwo
-ThrottleUpDown = 1.0
+ThrottleUpDown = 1.3
+throttleDownFactor = 0.65
 MobilityYawOnGround = 2.0
-MinRotationPitch = -20
-MaxRotationPitch = 3
+MinRotationPitch = -25
+MaxRotationPitch = 5
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -22,7 +23,7 @@ DamageFactor = 0.0
 CameraZoom = 4
 CameraPosition = 0.00,  3.50, 0.90, true
 EnableNightVision = false
-CameraRotationSpeed = 10
+CameraRotationSpeed = 9
 ;EnableEntityRadar = true
 MaxFuel         = 1500
 FuelConsumption = 2.0
@@ -119,30 +120,31 @@ AddTrackRoller =  2.11,  0.90, -1.33
 AddTrackRoller =  2.11,  0.90,  1.33
 
 ;主砲
-AddPartWeapon = is2d25tap / is2d25the, false, true, false,  0.00, 2.00, 0.00, 0
+AddPartWeapon = is1d25tap / is1d25the / is1d25tap2, false, true, false,  0.00, 2.00, 0.00, 0
 AddPartWeaponChild = false, true, 0.00, 2.41, 1.68, 0.0
 AddPartWeaponChild = false, true, 0.00, 2.41, 1.68, 0.5
-AddTurretWeapon = is2d25tap, 0.00, 2.41, 0.68,  0.0, 0.0, true,1, 0,-360,360, -20, 3
-AddTurretWeapon = is2d25the,     0.00, 2.41, 0.68,  0.0, 0.0, true,1, 0,-360,360, -20, 3
-AddTurretWeapon = is2dt29coax,        0.43, 2.28, 1.66,  0.0, 0.0, true,1, 0,-360,360, -20, 3
+AddTurretWeapon = is1d25tap, 0.00, 2.41, 0.68,  0.0, 0.0, true,1, 0,-360,360, -25, 5
+AddTurretWeapon = is1d25the,     0.00, 2.41, 0.68,  0.0, 0.0, true,1, 0,-360,360, -25, 5
+AddTurretWeapon = is1d25tap2,     0.00, 2.41, 0.68,  0.0, 0.0, true,1, 0,-360,360, -25, 5
+AddTurretWeapon = is2dt29coax,        0.43, 2.28, 1.66,  0.0, 0.0, true,1, 0,-360,360, -25, 5
 ;車体
 
-;AddTurretWeapon = is2reardt,        0.7048, 2.6171, -2.8433,  0.0, 0.0, true,1, 0,-360,-360, -20, 3
+;AddTurretWeapon = is2reardt,        0.7048, 2.6171, -2.8433,  0.0, 0.0, true,1, -180,-360,-360, -20, 3
 
 AddWeapon = is2hullmg, -1.3679, 1.6866, 1.7297, 0, 0, true, 1, 0, -0, 0, 0, 0
 
 
-AddPartTurretWeapon    = is212.7mmDShK,   false, true, true,   0.96, 3.60, -0.88, 0
+;AddPartTurretWeapon    = is212.7mmDShK,   false, true, true,   0.96, 3.60, -0.88, 0
 
 
 
 
-AddTurretWeapon = is212.7mmDShK,    0.9518, 3.649, -0.87,   0.0, 0.0, false,2, 0, -360,360, -60,10
-AddPartWeaponChild = false, true, 0.9518, 3.649, 0.7738
+;AddTurretWeapon = is212.7mmDShK,    0.9518, 3.649, -0.87,   0.0, 0.0, false,2, 0, -360,360, -60,10
+;AddPartWeaponChild = false, true, 0.9518, 3.649, 0.7738
 
 
 ;heavy tracked tank ww2
-AddRecipe = "ABC", "DEE", "E  ", A, mcheli:heavychassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:hap
+AddRecipe = "ABC", "DEE", "   ", A, mcheli:heavychassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:hap
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
@@ -159,56 +161,44 @@ BoundingBox = 0.0, 0.85, -2.5, 2.5, 1.3, 0.33
 BoundingBox = 0.0, 0.85, -4.5, 2.5, 1.3, 0.33
 BoundingBox = 0.0, 0.85, 1.0, 2.5, 1.3, 0.33
 
-;130mm upper side armor
-BoundingBox = 0.0, 1.7, 0.0, 3.5, 0.5, 0.23
+;120mm upper side armor
+BoundingBox = 0.0, 1.7, 0.0, 3.5, 0.5, 0.25
 
-;side armor top rear 90mm
-BoundingBox = 0.0, 1.7, -3.0, 3.5, 0.5, 0.5
+;side armor top rear 95mm
+BoundingBox = 0.0, 1.7, -3.0, 3.5, 0.5, 0.31
 
-;270mm front upper armor
-BoundingBox = 0.0, 1.55, 2.15, 1.0, 0.8, 0.11
+;155mm front upper armor
+BoundingBox = 0.0, 1.55, 2.15, 1.0, 0.8, 0.19
 
-;200mm
-BoundingBox = 0.0, 1.70, 0.7, 3.4, 0.5, 0.15
+;100mm
+BoundingBox = 0.0, 1.70, 0.7, 3.4, 0.5, 0.3
 
-;310 front
+;230 front
 
-BoundingBox = 1.25, 1.70, 2.0, 1.0, 0.5, 0.09
-BoundingBox = -1.25, 1.70, 2.0, 1.0, 0.5, 0.09
+BoundingBox = 1.25, 1.70, 2.0, 1.0, 0.5, 0.13
+BoundingBox = -1.25, 1.70, 2.0, 1.0, 0.5, 0.13
 
-;lower front plate 137mm
-BoundingBox = 0.0, 0.68, 2.80, 1.1, 0.8, 0.21
-BoundingBox = -1.07, 0.67, 3.23, 0.25, 0.75, 0.21
-BoundingBox = 1.0, 0.67, 3.23, 0.25, 0.75, 0.21
+;lower front plate
+;BoundingBox = 0.0, 0.68, 2.80, 1.1, 0.8, 0.21
+;BoundingBox = -1.07, 0.67, 3.23, 0.25, 0.75, 0.21
+;BoundingBox = 1.0, 0.67, 3.23, 0.25, 0.75, 0.21
 
-;lower front plate no track 117mm
-BoundingBox = 0.0, 0.66, 2.00, 2.5, 0.9, 0.25
-;BoundingBox = 0.0, 0.67, 1.99, 2.5, 0.9, 0.25
-;BoundingBox = 0.0, 0.68, 1.98, 2.5, 0.9, 0.25
-;BoundingBox = 0.0, 0.69, 1.97, 2.5, 0.9, 0.25
-;BoundingBox = 0.0, 0.70, 1.96, 2.5, 0.9, 0.25
-;BoundingBox = 0.0, 0.71, 1.95, 2.5, 0.9, 0.25
-;BoundingBox = 0.0, 0.72, 1.94, 2.5, 0.9, 0.25
+;lower front plate no track 148
+BoundingBox = 0.0, 0.66, 2.00, 2.5, 0.9, 0.20
 
-;upper front plate center 0.13/228mm
-BoundingBox = 0.0, 1.33, 2.70, 1.3, 0.5, 0.13
+
+;upper front plate center 167
+BoundingBox = 0.0, 1.33, 2.70, 1.3, 0.5, 0.17
 
 ;upper front plate left/right
-BoundingBox = 1.15, 1.55, 2.55, 1.0, 0.5, 0.1
-BoundingBox = -1.15, 1.55, 2.55, 1.0, 0.5, 0.1
+BoundingBox = 1.15, 1.55, 2.55, 1.0, 0.5, 0.13
+BoundingBox = -1.15, 1.55, 2.55, 1.0, 0.5, 0.13
 
-;lower upper shit 180mm
-;BoundingBox = 1.15, 1.35, 2.55, 1.0, 0.5, 0.16
-;BoundingBox = -1.15, 1.35, 2.55, 1.0, 0.5, 0.16
-
-;upper front plate side 90mm
+;lower side
 ;left
-BoundingBox = 0.65, 0.75, 2.55, 1.3, 0.8, 0.5
+BoundingBox = 0.65, 0.75, 2.55, 1.3, 0.8, 0.33
 ;right
-BoundingBox = -0.65, 0.75, 2.55, 1.3, 0.8, 0.5
+BoundingBox = -0.65, 0.75, 2.55, 1.3, 0.8, 0.33
 
 Regeneration = false
 
-
-;;;;;;;;;;;;60mm rear trollface jk it's 90
-;;;;;;;;;;;;;BoundingBox = 0.0, 2.0, -4.5

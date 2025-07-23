@@ -6,7 +6,7 @@ ReloadTime = 180
 Delay = 80
 Round = 8
 SoundVolume = 15.0
-Sound = cannon_1_snd
+Sound = ktwofire
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 

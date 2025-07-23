@@ -11,8 +11,8 @@ Category = HT
 
 
 Sound = istwo
-ThrottleUpDown = 1.0
-MobilityYawOnGround = 2.0
+ThrottleUpDown = 1.3
+throttleDownFactor = 0.65
 MinRotationPitch = -20
 MaxRotationPitch = 3
 MobilityRoll = 0
@@ -22,7 +22,7 @@ DamageFactor = 0.0
 CameraZoom = 4
 CameraPosition = 0.00,  3.50, 0.90, true
 EnableNightVision = false
-CameraRotationSpeed = 10
+CameraRotationSpeed = 9
 ;EnableEntityRadar = true
 MaxFuel         = 1500
 FuelConsumption = 2.0
