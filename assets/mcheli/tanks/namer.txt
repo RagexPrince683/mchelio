@@ -6,22 +6,24 @@ Speed = 0.5
 Sound = merkavaeng
 ThrottleUpDown = 10.0
 MobilityYawOnGround = 2.5
-MinRotationPitch = -20
-MaxRotationPitch = 8
+MinRotationPitch = -0
+MaxRotationPitch = 0
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.2
 CameraZoom = 10
-CameraPosition = 1.04, 1.9213, 2.9883, true
+CameraPosition = 1.04, 2.0923, 2.9883, true
 EnableNightVision = true
-CameraRotationSpeed = 28
+;CameraRotationSpeed = 28
 StepHeight = 1.8
 DefaultFreelook = true
 ;TurretPosition = 0.0, 0.0, 0.25
 FlareType = 10
 
 Category = HAPC
+
+;moved up by 17.10
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
@@ -45,28 +47,28 @@ WeightedCenterZ = 0.0
 HUD = mbt_hudtherm, gunner, gunner, none, none, none, none, none, none, none, none, none
 ;HUD = ww2tank_hud, ww2tank_hud, none, none, none, none, none, none
 
-AddSeat = 0.00,  2.50,  0.25, false
+AddSeat = 0.00,  2.671,  0.25, false
 ;,   1.2082,  1.9213,  2.9883, false, -90, 90, true
 
-AddGunnerSeat = -0.6219,  0.45, 0.5068,  -0.6219,  2.6636, 1.2968, true, -60, 20, false
+AddGunnerSeat = -0.6219,  0.621, 0.5068,  -0.6219,  2.8346, 1.2968, true, -60, 20, false
 
 ;AddSeat = 0.6219,  0.45, 0.5068
 
 
 ;fnmag
-AddGunnerSeat =  0.6770,  1.85, 0.2468,   0.6770, 2.85, 0.2468,  false, -60,  60
+AddGunnerSeat =  0.6770,  2.021, 0.2468,   0.6770, 3.021, 0.2468,  false, -60,  60
 
 
 ;x-62.19, z52.41
 
-AddPartWeapon    = strykerm2_rws,   true, true, true,  -0.6219, 2.6636, 1.2968
-AddPartWeapon    = strykerm2_rws,  false, true, false, -0.6219, 2.1104, 1.2968
-AddTurretWeapon = strykerm2_rws,   -0.6219, 2.6636, 1.2968,   0.0, 0.0, false, 2, 0, -360,360, -60,20
+AddPartWeapon    = strykerm2_rws,   true, true, true,  -0.6219, 2.8346, 1.2968
+AddPartWeapon    = strykerm2_rws,  false, true, false, -0.6219, 2.2814, 1.2968
+AddTurretWeapon = strykerm2_rws,   -0.6219, 2.8346, 1.2968,   0.0, 0.0, false, 2, 0, -360,360, -60,20
 
 
 ;merkava4mg7_62mm
-AddTurretWeapon = merkava4mg7_62mm,   0.6733, 2.488, 1.06,  0.0, 0.0, false, 3, 0, -90, 90, -45,  10
-AddPartWeapon = merkava4mg7_62mm, false, true, true,  0.6733, 2.488, 1.06, 0
+AddTurretWeapon = merkava4mg7_62mm,   0.6733, 2.659, 1.06,  0.0, 0.0, false, 3, 0, -90, 60, -45,  10
+AddPartWeapon = merkava4mg7_62mm, false, true, true,  0.6733, 2.659, 1.06, 0
 ;AddPartWeaponChild = false, true, 0.00, 1.87, 0.742
 
 
@@ -173,17 +175,17 @@ BoundingBox = 0.0, 0.9, -2.1, 1.0, 2.0, 0.6
 
 ;BoundingBox =  0.0, 2.9,  0.0,  2.0, 1.0, 1.30
 
-AddSeat =  0.62, 0.45, -0.51
-AddSeat = -0.62, 0.45, -0.51
-AddSeat =  0.62, 0.45, -1.32
-AddSeat = -0.62, 0.45, -1.32
-AddSeat =  0.62, 0.45, -1.62
-AddSeat = -0.62, 0.45, -1.62
-AddSeat =  0.62, 0.45, -1.92
-AddSeat = -0.62, 0.45, -1.92
+AddSeat =  0.62, 0.621, -0.51
+AddSeat = -0.62, 0.621, -0.51
+AddSeat =  0.62, 0.621, -1.32
+AddSeat = -0.62, 0.621, -1.32
+AddSeat =  0.62, 0.621, -1.62
+AddSeat = -0.62, 0.621, -1.62
+AddSeat =  0.62, 0.621, -1.92
+AddSeat = -0.62, 0.621, -1.92
 
-AddSeat = -0.0, 0.45, -1.92
+AddSeat = -0.0, 0.621, -1.92
 
 
 
-unmountposition = 0.00,  1.50,  0.25
+unmountposition = 0.00,  1.50,  -1.92
