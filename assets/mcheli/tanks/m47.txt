@@ -107,11 +107,12 @@ AddTrackRoller = 1.757, 1.0112, -2.0271
 
 
 
-AddTurretWeapon = m4790mm_gun_m3,   0.00, 2.314, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -20,10
-AddTurretWeapon = m47290mm_gun_m3,   0.00, 2.314, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -20,10
-AddTurretWeapon = m47he,   0.00, 2.314, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -20,10
-AddTurretWeapon = m47heat,   0.00, 2.314, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -20,10
-AddTurretWeapon = m26browning,   0.453, 2.314, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -20,10
+AddTurretWeapon = m4790mm_gun_m3,   0.00, 2.2113, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
+AddTurretWeapon = m47290mm_gun_m3,   0.00, 2.2113, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
+AddTurretWeapon = m47he,   0.00, 2.2113, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
+AddTurretWeapon = m47heat,   0.00, 2.2113, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
+AddTurretWeapon = m47m2,   0.453, 2.3503, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
+;should be 50cal
 AddPartWeapon    = m4790mm_gun_m3 / m47290mm_gun_m3 / m47he / m47heat,      false, true, false,  0.00,  1.70, 0.7542
 AddPartWeaponChild = false, true, 0.00, 2.314, 1.908,
 AddPartWeaponChild = false, true, 0.00, 2.314, 1.908, 0.5
@@ -180,4 +181,4 @@ StepHeight = 1.5
 unmountposition = 0.00,  1.50, 0.00
 
 ;medium tracked tank ww2 less EARLY
-AddRecipe = "ABC", "DE ", "   ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:electronics
+AddRecipe = "ABC", "DEB", "   ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:electronics
