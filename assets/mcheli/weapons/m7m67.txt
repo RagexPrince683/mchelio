@@ -1,15 +1,14 @@
-DisplayName = 105mm Howitzer [M67 Shell - HEAT]
+DisplayName = 105mm M2 Howitzer [M67 Shell - HEAT]
 Type = MachineGun2
 Power = 183
-ModelBullet = bullet105mm
+ModelBullet = 3bk18m
 Acceleration = 7
 Explosion = 3
 ExplosionInWater = 2
 ExplosionBlock = 3
 Sight = MissileSight
-ReloadTime = 80
 Round = 1
-Delay = 80
+
 SoundPitch = 1.2
 SoundVolume = 15
 Accuracy = 1.5
@@ -17,8 +16,11 @@ Gravity = -0.04
 Sound = artillery_gun_snd
 Recoil = 1.5
 
-HeatCount = 500
-MaxHeatCount = 2000
+HeatCount = 2200
+MaxHeatCount = 3500
+
+Delay = 200
+ReloadTime = 200
 
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5

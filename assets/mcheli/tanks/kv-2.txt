@@ -16,8 +16,8 @@ HideEntity = true
 MaxFuel         = 1500
 FuelConsumption = 2.0
 CameraRotationSpeed = 4
-MinRotationPitch = -16
-MaxRotationPitch = 16
+MinRotationPitch = -12
+MaxRotationPitch = 5
 DefaultFreelook = true
 
 Category = HT/AG
@@ -117,16 +117,16 @@ BoundingBox = 0.0, 1.0, -3.48, 2.69, 1.7, 0.46
 
 ;center 75
 BoundingBox = 0.0, 1.0, 0.0, 2.7, 1.7, 0.4
-;lower plate 75
-BoundingBox = 0.0, 0.7, 2.3, 2.69, 1.1, 0.4
-;upper plate 89
-BoundingBox = 0.0, 1.0, 1.85, 1.0, 1.7, 0.33
-;upper 89
-BoundingBox = 0.8, 1.0, 1.85, 1.0, 1.7, 0.33
-;upper 89
-BoundingBox = -0.8, 1.0, 1.85, 1.0, 1.7, 0.33
+;lower plate 92
+BoundingBox = 0.0, 0.7, 2.3, 2.69, 1.1, 0.32
+;upper plate 150
+BoundingBox = 0.0, 1.0, 1.85, 1.0, 1.7, 0.2
+;upper 86
+BoundingBox = 0.8, 1.0, 1.85, 1.0, 1.7, 0.34
+;upper 86
+BoundingBox = -0.8, 1.0, 1.85, 1.0, 1.7, 0.34
 
-;turret 96
-BoundingBox = 0.0, 2.8, 0.0, 1.5, 1.9, 0.31
+;turret 83
+BoundingBox = 0.0, 2.8, 0.0, 1.5, 1.9, 0.36
 
 unmountposition = 0.00,  1.45,  0.00

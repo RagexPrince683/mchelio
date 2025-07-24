@@ -1,6 +1,6 @@
-﻿DisplayName = Leopard 1A4
-AddDisplayName = en_US, Leopard 1A4
-AddDisplayName = ja_JP, レオパルト1A4
+﻿DisplayName = Leopard 1A1
+AddDisplayName = en_US, Leopard 1A1
+AddDisplayName = ja_JP, レオパルト1A1
 ItemID = 30059
 MaxHp = 200
 Speed = 0.4
@@ -72,12 +72,12 @@ AddTrackRoller =  0.00,  0.56, -3.64
 SetWheelPos =  1.30,  -0.29,  1.98,  -3.02, 0.0, 1.0, -1.0, -2.0
 
 
-AddPartWeapon = leo1apfsds / leo1heat / leo1hesh, false, true, false,  0.00, 1.83, 0.00, 0
+AddPartWeapon = leo1a1apfsds / leo1a1heat / leo1a1hesh, false, true, false,  0.00, 1.83, 0.00, 0
 AddPartWeaponChild = flase, true,  0.00, 2.25, 1.44
 AddPartWeaponChild = false, true,  0.00, 2.25, 1.44
-AddTurretWeapon = leo1apfsds, 0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
-AddTurretWeapon = leo1heat,  0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
-AddTurretWeapon = leo1hesh,  0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = leo1a1apfsds, 0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = leo1a1heat,  0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
+AddTurretWeapon = leo1a1hesh,  0.00, 2.25, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
 AddTurretWeapon = leo1mg3,  -0.37, 2.24, 0.00,  0.0, 0.0, true,1, 0,-360,360, -20, 9
 
 AddPartTurretWeapon = leo1mg3_l, false, true, true, 0.74, 3.32, 0.01
@@ -114,7 +114,7 @@ BoundingBox = 0.0, 1.7, 0.6, 2.7, 0.1, 0.28
 
 
 ;slightly really less modern mbt tracked tank 
-AddRecipe = "ABC", "DGF", "EF ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs, G, mcheli:composite, E, mcheli:basicmechanicparts
+AddRecipe = "ABC", "DGF", "EF ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite, E, mcheli:basicmechanicparts
 
 
 unmountposition = 0.00,  1.93, 0.70

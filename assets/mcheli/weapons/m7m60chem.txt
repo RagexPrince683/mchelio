@@ -1,23 +1,31 @@
-DisplayName = 105mm Howitzer [H M60 Shell - Chemical]
+DisplayName = 105mm M2 Howitzer [H M60 Shell - Chemical]
 Type = MachineGun2
 Power = 10
-ModelBullet = bullet105mm
+ModelBullet = bullet
 Acceleration = 7
-Explosion = 1
-ExplosionBlock = 1
+Explosion = 0
+ExplosionBlock = 0
 Sight = MoveSight
-ReloadTime = 80
+
 Round = 1
-Delay = 80
+
 SoundPitch = 1.2
 SoundVolume = 15
 Accuracy = 1.5
 Gravity = -0.04
 Sound = artillery_gun_snd
+
+Bomblet = 6
+BombletDiff = 0.6
+BombletSTime = 6
+
 Recoil = 1.5
 ;Piercing = 3
-HeatCount = 500
-MaxHeatCount = 2000
+HeatCount = 2200
+MaxHeatCount = 3500
+
+Delay = 200
+ReloadTime = 200
 chemyield = 50
 group = maingun
 ;;DamageFactor = tank, 1.5

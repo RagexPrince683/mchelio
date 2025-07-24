@@ -14,11 +14,11 @@ Accuracy = 1.2
 Particle = largeexplode
 Sound = artillery_gun_snd
 BulletColor        = 255, 255, 100, 100
-HeatCount = 800
-MaxHeatCount = 1000
+HeatCount = 2200
+MaxHeatCount = 3500
 
-Delay = 100
-ReloadTime = 100
+Delay = 200
+ReloadTime = 200
 Group = MainGun
 
 BulletColor        = 255, 255, 100, 100
