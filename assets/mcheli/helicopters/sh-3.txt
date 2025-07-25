@@ -58,7 +58,7 @@ AddWeapon = shmk46_4,      0.25, 1.35,-2.00,   0.0, 0.0
 AddWeapon = shm240_r,    -1.477, 1.629,-6.447,   0.0, 0.0, false, 3, 90,-80,80, -50,80
 
 ;advanced modern helicopter med size armed, AOW3 style
-AddRecipe = "ABC", "DEF", "   ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon1
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:fcs, F, mcheli:cannon1
 
 InventorySize = 54
 
