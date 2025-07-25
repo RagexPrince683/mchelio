@@ -39,7 +39,8 @@ CameraZoom = 1
 EnableNightVision = true
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
-FlareType = 2
+;FlareType = 2
+;sorry kid
 
 AddGunnerSeat = 0.0, 4.25, -7.42
 

@@ -13,8 +13,8 @@ GravityInWater = -1.0
 DamageFactor = 0.0
 CameraZoom = 8
 CameraPosition = 0.00,  3.6, 0.7542, true
-CameraRotationSpeed = 13
-MinRotationPitch = -20
+CameraRotationSpeed = 21
+MinRotationPitch = -30
 MaxRotationPitch = 10
 DefaultFreelook = true
 
@@ -112,19 +112,23 @@ AddTurretWeapon = m47290mm_gun_m3,   0.00, 2.2113, 0.7542,   0.0, 0.0, true, 1,0
 AddTurretWeapon = m47he,   0.00, 2.2113, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
 AddTurretWeapon = m47heat,   0.00, 2.2113, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
 AddTurretWeapon = m47m2,   0.453, 2.3503, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
-;should be 50cal
+
 AddPartWeapon    = m4790mm_gun_m3 / m47290mm_gun_m3 / m47he / m47heat,      false, true, false,  0.00,  1.70, 0.7542
 AddPartWeaponChild = false, true, 0.00, 2.314, 1.908,
 AddPartWeaponChild = false, true, 0.00, 2.314, 1.908, 0.5
 
+;;z21.00, Y-22.75
 
-AddPartWeapon    = m26browninghull,      false, true, true,  -0.796, 1.18, 3.28, 0
+AddPartWeapon    = m26browninghull,      false, true, true,  -0.796, 0.9525, 3.49, 0
 
-AddWeapon = m26browninghull,   -0.8008, 1.1900, 3.8592,   0.0, 0.0, false, 2,0,-5,5, -5,5
+AddWeapon = m26browninghull,   -0.8008, 0.9625, 4.0692,   0.0, 0.0, false, 2,0,-5,5, -5,5
 
 
-AddPartTurretWeapon    =m26M2,   false, true, true,   -0.580, 3.44, 0.575
-AddTurretWeapon = m26m2,    -0.580, 3.54, 0.575,   0.0, 0.0, false, 1, 0, -360,360, -50,10
+AddPartTurretWeapon    =m47m22,   false, true, true,   -0.580, 3.44, 0.7770
+AddTurretWeapon = m47m22,    -0.580, 3.54, 0.575,   0.0, 0.0, false, 1, 0, -360,360, -30,10
+
+;AddPartTurretWeapon = m41mg12_7mm_l, false, true, false, -0.6307, 2.4051,  0.1268
+;AddPartWeaponChild = false, true, 0.0,    2.5498,  0.1268, 0.0
 
 
 TurretPosition = 0.00, 1.7, 0.7542
@@ -142,18 +146,18 @@ TurretPosition = 0.00, 1.7, 0.7542
 
 ArmorMinDamage = 22
 
-;turret 
+;turret 283
 
-BoundingBox = 0.0, 2.2, 0.7542, 2.2, 1.0, 0.13
+BoundingBox = 0.0, 2.25, 0.7542, 2.2, 1.25, 0.07
 
 
 ;back 
-BoundingBox = 0.0, 1.0, -2.51, 2.79, 1.0, 0.44
+BoundingBox = 0.0, 1.0, -2.51, 2.79, 1.0, 0.43
 
 ; side
 BoundingBox = 0.0, 1.0, 0.0, 2.8, 1.4, 0.28
 BoundingBox = 0.0, 1.0, -2.0, 2.8, 1.4, 0.28
-BoundingBox = 0.0, 1.0, -2.5, 2.8, 1.0, 0.28
+BoundingBox = 0.0, 1.0, -2.5, 2.8, 1.0, 0.43
 ;start front
 BoundingBox = 0.0, 1.0, 1.4, 2.79, 1.4, 0.16
 
@@ -169,7 +173,7 @@ BoundingBox = 0.0, 0.94, 2.0, 2.79, 0.5, 0.16
 
 BoundingBox = 0.0, 0.85, 2.3, 2.79, 0.1, 0.21
 
-BoundingBox = -0.8, 1.20, 3.3, 0.25, 0.25, 0.88
+BoundingBox = -0.8, 1.00, 3.5, 0.25, 0.25, 0.55
 
 
 MaxFuel         = 600
@@ -181,4 +185,4 @@ StepHeight = 1.5
 unmountposition = 0.00,  1.50, 0.00
 
 ;medium tracked tank ww2 less EARLY
-AddRecipe = "ABC", "DEB", "   ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:electronics
+AddRecipe = "ABC", "DEB", "E  ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:electronics

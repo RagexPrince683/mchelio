@@ -1,4 +1,4 @@
-DisplayName = 12.7mm M2 Heavy Machine Gun (Coaxial)
+DisplayName = 12.7mm M2 Heavy Machine Gun
 Power = 31
 Acceleration = 7.0
 Type = MachineGun2
@@ -37,7 +37,7 @@ Round = 200
 ReloadTime = 80
 
 
-MaxAmmo = 550
-SuppliedNum = 110
+MaxAmmo = 1600
+SuppliedNum = 100
 Item =  2, iron_ingot
 Item =  2, gunpowder
