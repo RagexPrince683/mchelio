@@ -1,6 +1,5 @@
 DisplayName = 500lb MK82 Bomb
 Type = Bomb
-Power = 1000
 Acceleration = 0.1
 Flaming = false
 Sight = None
@@ -21,9 +20,9 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
-ReloadTime = 300
-Round = 40
-MaxAmmo = 80
-SuppliedNum = 20
-Item = 6, iron_ingot
-Item = 6, gunpowder
+ReloadTime = 1000
+Round = 33
+MaxAmmo = 33
+SuppliedNum = 33
+Item = 8, iron_ingot
+Item = 8, gunpowder

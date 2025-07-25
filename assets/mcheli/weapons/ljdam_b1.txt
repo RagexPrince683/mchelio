@@ -9,8 +9,8 @@ ExplosionInWater = 5
 Flaming = false
 Sight = MoveSight
 Delay = 5
-Round = 6
-ReloadTime = 350
+Round = 12
+ReloadTime = 1000
 SoundPitch = 0.1
 SoundVolume = 3
 Sound = bomb_snd
@@ -28,7 +28,7 @@ DamageFactor = player, 20.0
 
 SoundVolume = 15
 
-MaxAmmo = 6
+MaxAmmo = 12
 SuppliedNum = 1
 Item =  4, iron_ingot
 Item =  6, gunpowder

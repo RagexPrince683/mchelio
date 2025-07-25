@@ -1,6 +1,6 @@
-﻿DisplayName = B-1B Lancer (Conventional Payload)
-AddDisplayName = en_US, B-1B Lancer (Conventional Payload)
-AddDisplayName = ja_JP, B-1B ランサー (Conventional Payload)
+﻿DisplayName = B-1B Lancer (Nuclear Payload)
+AddDisplayName = en_US, B-1B Lancer (Nuclear Payload)
+AddDisplayName = ja_JP, B-1B ランサー (Nuclear Payload)
 ItemID = 28747
 MaxHp = 250
 Speed = 1.35
@@ -44,45 +44,33 @@ AddGunnerSeat = -0.95, 7.16, 3.70
 AddPartWing =  -6.60, 5.16, -21.42,  0,-1,0, 45
 AddPartWing =   6.60, 5.16, -21.42,  0, 1,0, 45
 
-AddPartWeaponBay = mk82_b1/cbu-87, -1.88, 4.54,-6.49,  0, -0.04, 1.0, -90
-AddPartWeaponBay = mk82_b1/cbu-87,  1.88, 4.54,-6.49,  0, -0.04, 1.0,  90
+AddPartWeaponBay = b1b28/b1b61/b1b83, -1.88, 4.54,-6.49,  0, -0.04, 1.0, -90
+AddPartWeaponBay = b1b28/b1b61/b1b83,  1.88, 4.54,-6.49,  0, -0.04, 1.0,  90
+AddPartWeaponBay = b1b28/b1b61/b1b83, -1.88, 4.51,-13.71,  0, -0.04, 1.0, -90
+AddPartWeaponBay = b1b28/b1b61/b1b83,  1.88, 4.51,-13.71,  0, -0.04, 1.0,  90
 
-
-
-AddPartWeaponBay = ljdam_b1, -1.88, 4.51,-13.71,  0, -0.04, 1.0, -90
-AddPartWeaponBay = ljdam_b1,  1.88, 4.51,-13.71,  0, -0.04, 1.0,  90
-
-AddPartWeaponBay = agm158/agm154b1, -1.88, 4.47,-26.16,  0, -0.04, 1.0, -90
-AddPartWeaponBay = agm158/agm154b1,  1.88, 4.47,-26.16,  0, -0.04, 1.0,  90
+AddPartWeaponBay = b1agm86b/b1b28/b1b61/b1b83, -1.88, 4.47,-26.16,  0, -0.04, 1.0, -90
+AddPartWeaponBay = b1agm86b/b1b28/b1b61/b1b83,  1.88, 4.47,-26.16,  0, -0.04, 1.0,  90
 
 AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
 
-AddWeapon = mk82_b1,  0.00,  6.01, -9.87,  0, 0, true,  2
-AddWeapon = mk82_b1,  0.30,  6.01, -9.87,  0, 0, true,  2
-AddWeapon = mk82_b1,  -0.30,  6.01, -9.87,  0, 0, true,  2
-AddWeapon = mk82_b1,  0.00,  6.01, -10.87,  0, 0, true,  2
-AddWeapon = mk82_b1,  0.30,  6.01, -10.87,  0, 0, true,  2
-AddWeapon = mk82_b1,  -0.30,  6.01, -10.87,  0, 0, true,  2
-AddWeapon = mk82_b1,  0.00,  6.01, -8.87,  0, 0, true,  2
-AddWeapon = mk82_b1,  0.30,  6.01, -8.87,  0, 0, true,  2
-AddWeapon = mk82_b1,  -0.30,  6.01, -8.87,  0, 0, true,  2
+;4
+AddWeapon = b1agm86b,   0.00,  6.01, -31.90,  0, 0, true,  2
 
+;4
+AddWeapon = b1b28,  0.00,  6.01, -8.87,  0, 0, true,  2
+AddWeapon = b1b28, 0.00,  6.01, -17.49,  0, 0, true,  2
+AddWeapon = b1b28,   0.00,  6.01, -31.90,  0, 0, true,  2
 
-AddWeapon = cbu-87,  0.00,  6.01, -9.87,  0, 0, true,  2
-AddWeapon = ljdam_b1, 0.00,  6.01, -17.49,  0, 0, true,  2
-AddWeapon = agm158b1,   0.00,  6.01, -31.90,  0, 0, true,  2
-AddWeapon = agm154b1,   0.00,  6.01, -31.90,  0, 0, true,  2
+;12
+AddWeapon = b1b61,  0.00,  6.01, -8.87,  0, 0, true,  2
+AddWeapon = b1b61,  0.00,  6.01, -17.49,  0, 0, true,  2
+AddWeapon = b1b61,  0.00,  6.01, -31.90,  0, 0, true,  2
 
-;AddWeapon = agm86b,   0.00,  6.01, -31.90,  0, 0, true,  2
-;AddWeapon = b28,  0.00,  6.01, -8.87,  0, 0, true,  2
-;AddWeapon = b28, 0.00,  6.01, -17.49,  0, 0, true,  2
-;AddWeapon = b28,   0.00,  6.01, -31.90,  0, 0, true,  2
-;AddWeapon = b61,  0.00,  6.01, -8.87,  0, 0, true,  2
-;AddWeapon = b61,  0.00,  6.01, -17.49,  0, 0, true,  2
-;AddWeapon = b61,  0.00,  6.01, -31.90,  0, 0, true,  2
-;AddWeapon = b83,  0.00,  6.01, -8.87,  0, 0, true,  2
-;AddWeapon = b83,  0.00,  6.01, -17.49,  0, 0, true,  2
-;AddWeapon = b83,  0.00,  6.01, -31.90,  0, 0, true,  2
+;18
+AddWeapon = b1b83,  0.00,  6.01, -8.87,  0, 0, true,  2
+AddWeapon = b1b83,  0.00,  6.01, -17.49,  0, 0, true,  2
+AddWeapon = b1b83,  0.00,  6.01, -31.90,  0, 0, true,  2
 
 AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
 
@@ -98,7 +86,7 @@ AddPartLG = -4.69, 4.93,  -25.24,  0,0,1,  90
 AddPartLG = -4.94, 4.89,  -26.32,  0,0,1,  110
 
 ;large bomber aircraft semimodern, AOW3 style
-AddRecipe = "ABC", "DAC", "E  ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics
+AddRecipe = "ABC", "DAC", "E  ", A, mcheli:airframebomb, B, mcheli:complexmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:fcs2
 
 BoundingBox =  0.0, 6.75,  -1.7, 5, 4.8
 ;BoundingBox =  0.0, 6.5,  5.7,  7, 4
