@@ -46,9 +46,9 @@ AddSeat = -0.65,  2.43,  0.75
 AddSeat =  0.65,  2.43, -0.50
 AddSeat = -0.65,  2.43, -0.50
 
-AddPartRotWeapon = m61a1_1,    true,  true,  true,   1.65,  1.483,  -2.255, -1,0,0
-AddPartWeapon    = bofors40mm, true,  true,  true,   1.85,  1.75,  -10.96,  0.5
-AddPartRotWeapon = m61a1_2,    true,  true,  true,   1.65,  1.483,  -3.056, -1,0,0
+AddPartRotWeapon = ac130m61a1_1,    true,  true,  true,   1.65,  1.483,  -2.255, -1,0,0
+AddPartWeapon    = ac130bofors40mm, true,  true,  true,   1.85,  1.75,  -10.96,  0.5
+AddPartRotWeapon = ac130m61a1_2,    true,  true,  true,   1.65,  1.483,  -3.056, -1,0,0
 AddPartWeapon    = m102_105mm, true,  true,  true,   1.87,  1.75,  -12.51,  1.0
 
 ;AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 駐退距離
@@ -74,10 +74,10 @@ AddPartHatch =   0.00, 3.62, -18.65, -1, 0,0, 27
 AddPartHatch =   0.00, 0.81, -13.46, -1, 0,0, 48
 
 
-AddWeapon = m61a1_1,     1.65,  1.48,  -2.26,  0, 0, true,  1, -90, -50,50,  -20,70
-AddWeapon = bofors40mm,  1.85,  1.75, -10.96, 10, 0, true,  1, -90, -50,50,  -20,70
+AddWeapon = ac130m61a1_1,     1.65,  1.48,  -2.26,  0, 0, true,  1, -90, -50,50,  -20,70
+AddWeapon = ac130bofors40mm,  1.85,  1.75, -10.96, 10, 0, true,  1, -90, -50,50,  -20,70
 
-AddWeapon = m61a1_2,     1.65,  1.48,  -3.06,  0, 0, false, 2, -90, -50,50,  -20,70
+AddWeapon = ac130m61a1_2,     1.65,  1.48,  -3.06,  0, 0, false, 2, -90, -50,50,  -20,70
 AddWeapon = m102_105mm,  1.87,  1.75, -12.51, 10, 0, true,  2, -90, -50,50,  -20,70
 
 BoundingBox =  0.00, 2.60,  -1.60,  4.0, 4.0

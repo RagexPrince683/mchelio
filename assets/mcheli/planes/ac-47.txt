@@ -24,6 +24,9 @@ Category = M.A
 
 ;OH BROTHER!!!
 
+;large WW2 prop plane transport, AOW3 style
+AddRecipe = "ABC", "DAE", "EEF", A, mcheli:airframebomb, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:complexmechanicparts
+
 RotorSpeed = 2000.0
 
 enableback = true

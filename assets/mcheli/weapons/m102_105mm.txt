@@ -8,16 +8,19 @@ ExplosionInWater = 2
 ExplosionBlock = 4
 Flaming = false
 Sight = MoveSight
-Delay = 90
-ModeNum = 1
 SoundPitch = 0.7
 SoundVolume = 10
 ;SetCartridge = cartridge, 0.1,  180, 0, 10.0, -0.04, 0.40
 Sound = oneofive
 
+HeatCount = 350
+MaxHeatCount = 650
+
 SoundVolume = 15
 
 Gravity = -0.001
+
+Round = 10
 
 
 Delay = 90
@@ -42,7 +45,7 @@ AddMuzzleFlash      =  7.0,     1.70,        5,  200,254,219,184
 AddMuzzleFlashSmoke =  8.2, 20, 10.0,  3.0, 45,  220,160,140,120
 AddMuzzleFlashSmoke = 10.2, 10, 11.0,  6.0, 35,  200,190,170,150
 
-MaxAmmo = 120
-SuppliedNum = 30
+MaxAmmo = 100
+SuppliedNum = 25
 Item =  4, iron_ingot
 Item =  4, gunpowder

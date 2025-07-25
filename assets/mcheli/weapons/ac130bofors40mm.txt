@@ -8,7 +8,7 @@ ExplosionBlock = 1
 Flaming = false
 Sight = MoveSight
 Delay = 5
-HeatCount = 18
+HeatCount = 14
 MaxHeatCount = 150
 ReloadTime = 30
 
@@ -19,8 +19,8 @@ Gravity = -0.001
 SoundVolume = 15
 Sound = bofors
 
-MaxAmmo = 480
-SuppliedNum = 120
+MaxAmmo = 256
+SuppliedNum = 64
 Item =  2, iron_ingot
 Item =  2, gunpowder
 DamageFactor = tank, 1.0
