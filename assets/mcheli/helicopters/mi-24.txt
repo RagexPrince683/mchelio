@@ -54,15 +54,15 @@ AddPartHatch = -1.02,  2.07,  1.83,  0, 0,-1, 85
 AddPartHatch = -0.94,  0.75,  1.83,  0, 0, 1, 130
 
 
-AddWeapon = gsh-23-2, 0.00,  0.43,  5.937,  0,-1,  true, 2, 0,-60,60, -10,60
+AddWeapon = hindgsh-23-2, 0.00,  0.43,  5.937,  0,-1,  true, 2, 0,-60,60, -10,60
 
-AddWeapon = yakb-12_7,  2.04,  1.11,  0.64, -1, 0, true, 1, 0,-0,0, 0,0
-AddWeapon = yakb-12_7, -2.04,  1.11,  0.64,  1, 0, true, 1, 0,-0,0, 0,0
+AddWeapon = hindyakb-12_7,  2.04,  1.11,  0.64, -1, 0, true, 1, 0,-0,0, 0,0
+AddWeapon = hindyakb-12_7, -2.04,  1.11,  0.64,  1, 0, true, 1, 0,-0,0, 0,0
 
-AddWeapon = gshg-7_62,  2.20,  1.11,  0.39, -1, 0
-AddWeapon = gshg-7_62,  1.88,  1.11,  0.39, -1, 0
-AddWeapon = gshg-7_62, -2.20,  1.11,  0.39,  1, 0
-AddWeapon = gshg-7_62, -1.88,  1.11,  0.39,  1, 0
+AddWeapon = hindgshg-7_62,  2.20,  1.11,  0.39, -1, 0
+AddWeapon = hindgshg-7_62,  1.88,  1.11,  0.39, -1, 0
+AddWeapon = hindgshg-7_62, -2.20,  1.11,  0.39,  1, 0
+AddWeapon = hindgshg-7_62, -1.88,  1.11,  0.39,  1, 0
 
 AddWeapon = 9m114,  4.25, -2.47,  -0.37,  1, 0,  true, 2
 AddWeapon = 9m114,  3.97, -2.47,  -0.37,  1, 0,  true, 2
@@ -111,19 +111,19 @@ AddWeapon = s-8hm2, -2.85,  0.76, -2.32, -1, 0
 AddWeapon = s-8hm2,  2.77,  0.78, -2.32,  1, 0
 AddWeapon = s-8hm2, -2.77,  0.78, -2.32, -1, 0
 
-AddWeapon = targeting_pod_mob,     0.00,  0.30, 5.94,   0.0, 0.0,  true, 2
-AddWeapon = targeting_pod_pv10s,   0.00,  0.30, 5.94,   0.0, 0.0,  false,2
+;AddWeapon = targeting_pod_mob,     0.00,  0.30, 5.94,   0.0, 0.0,  true, 2
+AddWeapon = targeting_pod_pv10s,   0.00,  0.30, 5.94,   0.0, 0.0,  true,2
 
-AddPartWeapon      = gsh-23-2,   true,  true,  false, 0.00,  0.43,   5.937
+AddPartWeapon      = hindgsh-23-2,   true,  true,  false, 0.00,  0.43,   5.937
 AddPartWeaponChild =                    false, true,  0.00,  0.2056, 6.22
 
-AddPartRotWeapon   = yakb-12_7,  false, true,  true,  2.0435,  1.1189,   0.64
-AddPartRotWeapon   = yakb-12_7,  false, true,  true, -2.0435,  1.1189,   0.64
+AddPartRotWeapon   = hindyakb-12_7,  false, true,  true,  2.0435,  1.1189,   0.64
+AddPartRotWeapon   = hindyakb-12_7,  false, true,  true, -2.0435,  1.1189,   0.64
 
-AddPartRotWeapon   = gshg-7_62,  false, true,  true,  2.2017,  1.1184,   0.39
-AddPartRotWeapon   = gshg-7_62,  false, true,  true,  1.8865,  1.1184,   0.39
-AddPartRotWeapon   = gshg-7_62,  false, true,  true, -2.2017,  1.1184,   0.39
-AddPartRotWeapon   = gshg-7_62,  false, true,  true, -1.8865,  1.1184,   0.39
+AddPartRotWeapon   = hindgshg-7_62,  false, true,  true,  2.2017,  1.1184,   0.39
+AddPartRotWeapon   = hindgshg-7_62,  false, true,  true,  1.8865,  1.1184,   0.39
+AddPartRotWeapon   = hindgshg-7_62,  false, true,  true, -2.2017,  1.1184,   0.39
+AddPartRotWeapon   = hindgshg-7_62,  false, true,  true, -1.8865,  1.1184,   0.39
 
 
 ;advanced modern helicopter armed, AOW3 style

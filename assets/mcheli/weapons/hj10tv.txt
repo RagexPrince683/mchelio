@@ -11,6 +11,8 @@ ModeNum = 2
 ModelBullet = HJ10
 Sound = missile_1_snd
 
+SoundVolume = 10
+
 DamageFactor = tank, 2.0
 DamageFactor = plane, 1.0
 DamageFactor = vehicle 4.5
@@ -20,12 +22,12 @@ DamageFactor = player, 20.0
 ;DEBUG:Manual control only
 FixMode = 2
 
-Delay = 10
-ReloadTime = 100
+Delay = 5
+ReloadTime = 180
 
 
 MaxAmmo = 4
 SuppliedNum = 1
-Item =  3, iron_ingot
-Item =  3, gunpowder
+Item =  5, iron_ingot
+Item =  6, gunpowder
 Item =  3, redstone

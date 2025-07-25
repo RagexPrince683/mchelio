@@ -1,5 +1,5 @@
-DisplayName = AH-6 Killer Egg
-AddDisplayName = ja_JP, AH-6 キラ－エッグ
+DisplayName = AH-6 Little Bird 'Killer Egg'
+AddDisplayName = ja_JP, AH-6 Little Bird 'キラ－エッグ'
 ItemID = 28801
 MaxHp = 100
 EnableNightVision = true
@@ -34,14 +34,15 @@ AddSeat = 0.90,  0.80,  0.20
 AddWeapon = m134ah6,  1.48, 0.40, 1.54,   1.0, 0.0
 AddWeapon = m134ah6, -1.48, 0.40, 1.54,  -1.0, 0.0
 
-AddWeapon = hydra70_l,  2.20, 0.16, 1.11,   1.0, 0.0
-AddWeapon = hydra70_l, -2.20, 0.16, 1.11,  -1.0, 0.0
+AddWeapon = ah6hydra70_l,  2.20, 0.16, 1.11,   1.0, 0.0
+AddWeapon = ah6hydra70_l, -2.20, 0.16, 1.11,  -1.0, 0.0
 
-AddWeapon = hydra70_m264rp,  2.20, 0.16, 1.11,   1.0, 0.0
-AddWeapon = hydra70_m264rp, -2.20, 0.16, 1.11,  -1.0, 0.0
+AddWeapon = ah6hydra70_m264rp,  2.20, 0.16, 1.11,   1.0, 0.0
+AddWeapon = ah6hydra70_m264rp, -2.20, 0.16, 1.11,  -1.0, 0.0
 
-AddWeapon = aim92,  2.30, 0.16, 1.11,   1.0, 0.0
-AddWeapon = aim92, -2.30, 0.16, 1.11,  -1.0, 0.0
+;AddWeapon = aim92,  2.30, 0.16, 1.11,   1.0, 0.0
+;AddWeapon = aim92, -2.30, 0.16, 1.11,  -1.0, 0.0
+;they arent on the model
 
 AddWeapon = targeting_pod_mob,     0.0, 0.10, 2.91,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.10, 2.91,   0.0, 0.0,  false,2

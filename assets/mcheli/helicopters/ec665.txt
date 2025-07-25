@@ -31,18 +31,21 @@ AddPartCamera = 0.0, 5.38, -1.22
 
 ;               name, HideGM, Yaw,  Pitch  PositionX,Y,Z
 ; RMK30
-AddPartWeapon = rmk30, true, true, true,  0.0, 0.43, 3.37
+AddPartWeapon = ecrmk30, true, true, true,  0.0, 0.43, 3.37
 ; 機首カメラ EC665の機首カメラは機銃と一緒に動く必要があるので武器として追加
-AddPartWeapon = rmk30, true, true, false, 0.0, 0.43, 3.37
+AddPartWeapon = ecrmk30, true, true, false, 0.0, 0.43, 3.37
 
 
 AddSeat       = 0.00,  0.91,  1.76
 AddGunnerSeat = 0.00,  1.32,  0.17,  0.0, 0.6, 4.8,  true
 
-AddWeapon = rmk30,  0.0, 0.43, 3.37,   0.0,-1.0, true,2, 0, -360,360, -20,80
+AddWeapon = ecrmk30,  0.0, 0.43, 3.37,   0.0,-1.0, true,2, 0, -360,360, -20,80
 
-AddWeapon = 12_7mmgunpod,  2.31, 1.25, 0.32,   1.0, 0.0
-AddWeapon = 12_7mmgunpod, -2.31, 1.25, 0.32,  -1.0, 0.0
+;AddWeapon = 12_7mmgunpod,  2.31, 1.25, 0.32,   1.0, 0.0
+;AddWeapon = 12_7mmgunpod, -2.31, 1.25, 0.32,  -1.0, 0.0
+
+AddWeapon = aim92,  2.31, 1.25, 0.32,  1.0,0.0
+AddWeapon = aim92, -2.31, 1.25, 0.32,  1.0,0.0
 
 AddWeapon = pars_3_lr,   1.25, 1.22,-0.01,   1.0, 0.0, true,2
 AddWeapon = pars_3_lr,  -1.25, 1.22,-0.01,   1.0, 0.0, true,2
@@ -53,8 +56,7 @@ AddWeapon = pars_3_lr,  -1.24, 0.93,-0.01,   1.0, 0.0, true,2
 AddWeapon = pars_3_lr,   1.54, 0.92,-0.01,   1.0, 0.0, true,2
 AddWeapon = pars_3_lr,  -1.54, 0.92,-0.01,   1.0, 0.0, true,2
 
-AddWeapon = aim92,  0.79,0.55,-0.01,  1.0,0.0
-AddWeapon = aim92, -0.79,0.55,-0.01,  1.0,0.0
+
 
 AddWeapon = targeting_pod_mob,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.6, 4.8,   0.0, 0.0,  false,2

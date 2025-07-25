@@ -8,14 +8,13 @@ Explosion = 4
 ExplosionInWater = 2
 Flaming = false
 Sight = MoveSight
-ReloadTime = 200
-Delay = 40
-Round = 4
+
+Round = 8
 ModelBullet = 9M113
 Sound = missile_1_snd
 ModeNum = 2
 
-Delay = 40
+Delay = 5
 ReloadTime = 200
 Group = MainGun
 BulletColor        = 255, 255, 100, 100
@@ -31,6 +30,6 @@ SoundVolume = 15
 
 MaxAmmo = 8
 SuppliedNum = 1
-Item =  2, iron_ingot
-Item =  2, gunpowder
-Item =  1, redstone
+Item =  4, iron_ingot
+Item =  3, gunpowder
+Item =  2, redstone

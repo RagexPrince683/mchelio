@@ -1,5 +1,5 @@
-DisplayName = SH-60 Seahawk
-AddDisplayName = ja_JP, SH-60 シーホーク
+DisplayName = SH-60 Seahawk (Lamps III)
+AddDisplayName = ja_JP, SH-60 シーホーク (Lamps III)
 ItemID = 28803
 MaxHp = 100
 EnableGunnerMode = true
@@ -22,7 +22,7 @@ soundvolume = 15
 ; M = Military(軍用機).  S = Antisubmarine(対潜機)
 Category = M.S
 
-HUD = helinvg, heli_gnrnvg, gunner, none, none, none, none
+HUD = heli, heli_gnr, gunner, none, none, none, none, none
 
 MobilityYaw = 0.9
 MobilityPitch = 0.9
@@ -49,23 +49,27 @@ AddRack = zodiac,      0.0, 0.3, -3.0,   0.0, 0.0, -3.0,   12.0,   40
 
 AddPartCamera = 0.0, 0.52, 2.84
 
-AddPartWeapon = m3m_r, false, true, true,  -1.88, 1.28, -2.18
-AddPartWeaponMissile = agm114tv, false, false, false,  2.36, 0.41,-1.03
-AddPartWeaponMissile = agm114tv, false, false, false,  2.36, 0.41,-1.03
-AddPartWeaponMissile = agm114tv, false, false, false,  2.36, 0.41,-1.03
-AddPartWeaponMissile = agm114tv, false, false, false,  2.36, 0.41,-1.03
-AddPartWeaponMissile = mk46_4,     false, false, false, -1.53, 0.75,-3.40
+AddPartWeapon = shm3m_r, false, true, true,  -1.88, 1.28, -2.18
+AddPartWeaponMissile = shagm114tv, false, false, false,  2.36, 0.41,-1.03
+AddPartWeaponMissile = shagm114tv, false, false, false,  2.36, 0.41,-1.03
+AddPartWeaponMissile = shagm119, false, false, false,  2.36, 0.41,-1.03
+AddPartWeaponMissile = shagm119, false, false, false,  2.36, 0.41,-1.03
+AddPartWeaponMissile = shmk46_4,     false, false, false, -1.53, 0.75,-3.40
+AddPartWeaponMissile = shmk46_4,     false, false, false, 1.53, 0.75,-3.40
 
-AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
-AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
-AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
-AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
-AddWeapon = agm119,    2.36, 0.41,-3.03,   0.0, 0.0
-AddWeapon = mk46_4,     -1.53, 0.75,-3.40,   0.0, 0.0, true,  2
-AddWeapon = m3m_r,    -1.88, 1.28,-2.18,   0.0, 0.0, false, 3, 90,-80,80, -50,80
+AddWeapon = shagm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
+AddWeapon = shagm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
+;AddWeapon = shagm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
+;AddWeapon = agm114tv,  2.36, 0.41,-1.03,   0.0, 0.0, true,  2
+AddWeapon = shagm119,    2.36, 0.41,-3.03,   0.0, 0.0
+AddWeapon = shagm119,    2.36, 0.41,-3.03,   0.0, 0.0
 
-AddWeapon = targeting_pod_mob,     0.0, 0.7, 3.5,   0.0, 0.0,  true, 2
-AddWeapon = targeting_pod_pv10s,   0.0, 0.7, 3.5,   0.0, 0.0,  false,2
+AddWeapon = shmk46_4,     -1.53, 0.75,-3.40,   0.0, 0.0, true,  2
+AddWeapon = shmk46_4,     1.53, 0.75,-3.40,   0.0, 0.0, true,  2
+AddWeapon = shm3m_r,    -1.88, 1.28,-2.18,   0.0, 0.0, false, 3, 90,-80,80, -50,80
+
+AddWeapon = targeting_pod_mob,     0.0, 0.7, 3.5,   0.0, 0.0,  false, 2
+AddWeapon = targeting_pod_pv10s,   0.0, 0.7, 3.5,   0.0, 0.0,  true,2
 
 ;advanced modern helicopter med size, AOW3 style
 AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:rocket2, G, mcheli:cannon1

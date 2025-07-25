@@ -18,7 +18,9 @@ ThirdPersonDist = 20
 sound = nhninety
 soundvolume = 15
 
-HUD = helinvg, heli_gnrnone
+HUD = helinvg, heli_gnrnvg, none, none, none, none, none, none, none, none, none, none
+
+AddWeapon = targeting_pod_pv10s,   0.0, 0.7, 3.5,   0.0, 0.0,  true,2
 
 AddSeat = -0.40, 0.52, 5.11
 AddSeat =  0.40, 0.52, 5.11

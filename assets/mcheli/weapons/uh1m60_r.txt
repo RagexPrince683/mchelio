@@ -33,7 +33,7 @@ AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
 ModelBullet = bullet
 
 
-MaxAmmo = 2000
+MaxAmmo = 1000
 SuppliedNum = 500
 Item =  3, iron_ingot
 Item =  2, gunpowder

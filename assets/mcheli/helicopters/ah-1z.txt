@@ -38,8 +38,8 @@ EntityRoll = 0
 AddRotor= 1, 0, 0,  3.0185, -14.3308,  1.0, 0.0, 0.0
 AddRotor= 1, 0, 0,  3.5,     -2.9328,  0.0, 1.0, 0.0,false
 
-AddPartWeapon        = m197,     true,  true,  false,   0.00,  0.50,    1.48
-AddPartRotWeapon     = m197,     false, true,  true,    0.00,  0.40,    1.48
+AddPartWeapon        = vipm197,     true,  true,  false,   0.00,  0.50,    1.48
+AddPartRotWeapon     = vipm197,     false, true,  true,    0.00,  0.40,    1.48
 AddPartWeaponMissile = agm114,   false, false, false,   1.85,  1.0328, -1.91
 AddPartWeaponMissile = agm114,   false, false, false,  -1.85,  1.0328, -1.91
 AddPartWeaponMissile = agm114,   false, false, false,   1.54,  1.0328, -1.91
@@ -62,16 +62,16 @@ AddRecipe = "ABC", "D  ", "   ", A, mcheli:ah-1, B, mcheli:airframe3, C, mcheli:
 AddRecipe = "ABC", "   ", "   ", A, mcheli:ah-1w, B, mcheli:airframe3, C, mcheli:rocket3
 
 
-AddWeapon = m197,  0.00, 0.5045, 1.4813,  0,-1, true,2, 0,-360,360, -20,80
+AddWeapon = vipm197,  0.00, 0.5045, 1.4813,  0,-1, true,2, 0,-360,360, -20,80
 
-AddWeapon = hydra70,        1.04,  1.1262, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
-AddWeapon = hydra70,       -1.04,  0.8262, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
-AddWeapon = hydra70,        0.80,  0.8262, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
-AddWeapon = hydra70,       -0.80,  1.1262, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
-AddWeapon = hydra70_mpsm,   1.04,  0.8862, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
-AddWeapon = hydra70_mpsm,  -1.04,  1.1862, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
-AddWeapon = hydra70_mpsm,   0.80,  1.1862, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
-AddWeapon = hydra70_mpsm,  -0.80,  0.8862, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
+AddWeapon = ahhydra70,        1.04,  1.1262, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
+AddWeapon = ahhydra70,       -1.04,  0.8262, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
+AddWeapon = ahhydra70,        0.80,  0.8262, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
+AddWeapon = ahhydra70,       -0.80,  1.1262, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
+AddWeapon = ahhydra70_mpsm,   1.04,  0.8862, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
+AddWeapon = ahhydra70_mpsm,  -1.04,  1.1862, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
+AddWeapon = ahhydra70_mpsm,   0.80,  1.1862, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
+AddWeapon = ahhydra70_mpsm,  -0.80,  0.8862, -1.9168,  1, 0,  true,1,  0,0,0, 0, 25
 
 AddWeapon = agm114,    1.85,  1.0328, -1.91,  1, 0,  true,2
 AddWeapon = agm114,   -1.85,  1.0328, -1.91, -1, 0,  true,2
@@ -86,7 +86,8 @@ AddWeapon = agm114tv, -1.54,  0.7444, -1.91,  1, 0,  true,2
 AddWeapon = aim9lah1,  2.42,  1.6886, -1.56,  1, 0,  true,1
 AddWeapon = aim9lah1, -2.42,  1.6886, -1.56,  1, 0,  true,1
 
-AddWeapon = a10gau8,  0.00,  0.70,  0.95,  0, 0,  false,2
+;AddWeapon = a10gau8,  0.00,  0.70,  0.95,  0, 0,  false,2
+;no
 
 AddWeapon = targeting_pod_mob,     0.0, 1.179, 2.89,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 1.179, 2.89,   0.0, 0.0,  false,2

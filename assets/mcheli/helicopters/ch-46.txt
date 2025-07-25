@@ -42,9 +42,9 @@ AddPartHatch = 0.00, 2.84, -8.93, 1, 0,0, -10
 AddRotor = 3, 120, 0.0,  3.77, 4.38,  0.0, 1.0, 0.0, true
 AddRotor = 3, 120, 0.0,  5.68, -7.16, 0.0, 1.0, 0.0, true
 
-AddPartWeapon    = m3m_l,   false, true, true, 0.91, 1.78, 3.49
-AddPartWeapon    = m3m_l,   false, true, false, 0.91, 2.05, 3.49
-AddTurretWeapon = m3m_l, 0.91, 2.10, 3.49,   0.0, 0.0, false, 3, -90,-50, 50, -40,80
+AddPartWeapon    = chm3m_l,   false, true, true, 0.91, 1.78, 3.49
+AddPartWeapon    = chm3m_l,   false, true, false, 0.91, 2.05, 3.49
+AddTurretWeapon = chm3m_l, 0.91, 2.10, 3.49,   0.0, 0.0, false, 3, -90,-50, 50, -40,80
 
 AddRepellingHook =  0.37, 2.94, -8.61, 30
 AddRepellingHook = -0.37, 2.94, -8.61, 30

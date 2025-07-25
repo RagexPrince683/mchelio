@@ -22,7 +22,7 @@ soundvolume = 15
 ; M = Military(軍用機).  S = Antisubmarine(対潜機)
 Category = M.S
 
-HUD = helinvg, none, gunner, none, none, none, none
+HUD = helinvg, heli_gnrnvg, gunner, none, none, none, none
 
 MobilityYaw = 0.8
 MobilityPitch = 0.8
@@ -33,7 +33,7 @@ AddTexture = sh-3-en-2
 AddTexture = sh-3-jp-1
 AddTexture = sh-3-jp-2
 
-AddPartWeapon = m240_r, false, true, true,  -1.477, 1.629,-6.447
+AddPartWeapon = shm240_r, false, true, true,  -1.477, 1.629,-6.447
 
 AddPartLG =  0.00, 0.8493, -2.6048,  1,0,0, 93.2
 
@@ -48,7 +48,14 @@ AddSeat       = 0.56,  1.3,  -3.9
 AddSeat       = 0.56,  1.3,  -4.9
 AddSeat       = 0.56,  1.3,  -5.9
 
-AddWeapon = m240_r,    -1.477, 1.629,-6.447,   0.0, 0.0, false, 3, 90,-80,80, -50,80
+AddWeapon = shmk46_4,     -0.25, 1.35,-2.00,   0.0, 0.0
+AddWeapon = shmk46_4,      0.25, 1.35,-2.00,   0.0, 0.0
+;AddWeapon = shdc, -0.55, 1.35,-3.00,   0.0, 0.0
+;AddWeapon = shdc,  0.55, 1.35,-3.00,   0.0, 0.0
+
+;either or so this will be a variant when i feel like it
+
+AddWeapon = shm240_r,    -1.477, 1.629,-6.447,   0.0, 0.0, false, 3, 90,-80,80, -50,80
 
 ;advanced modern helicopter med size armed, AOW3 style
 AddRecipe = "ABC", "DEF", "   ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon1

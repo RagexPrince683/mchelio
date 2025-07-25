@@ -10,19 +10,19 @@ Explosion = 4
 ExplosionInWater = 2
 Flaming = true
 Sight = MoveSight
-Delay = 100
+Delay = 5
+
+ReloadTime = 110
 ModeNum = 2
 ModelBullet = agm114
 Sound = missile_1_snd
 
 ;DEBUG:Manual control only
-;FixMode = 1
+FixMode = 1
 
 ; DEBUG
 ;RigidityTime = 30
 
-Delay = 100
-ReloadTime = 240
 
 MaxAmmo = 4
 SuppliedNum = 1

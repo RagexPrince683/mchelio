@@ -34,12 +34,12 @@ MobilityRoll = 0.9
 
 AddPartCamera = 0.0, 0.70, 2.88
 
-AddPartWeapon    = m134_lm, false, true, false,  1.62, 1.475, -0.31
-AddPartWeapon    = m134_lm, false, true, true,   1.62, 1.475, -0.31
-AddPartRotWeapon = m134_lm, false, true, true,   1.62, 1.475, -0.31, -1,0,0
-AddPartWeapon    = m134_rm, false, true, false, -1.62, 1.475, -0.31
-AddPartWeapon    = m134_rm, false, true, true,  -1.62, 1.475, -0.31
-AddPartRotWeapon = m134_rm, false, true, true,  -1.62, 1.475, -0.31,  1,0,0
+AddPartWeapon    = uhm134_l50, false, true, false,  1.62, 1.475, -0.31
+AddPartWeapon    = uhm134_l50, false, true, true,   1.62, 1.475, -0.31
+AddPartRotWeapon = uhm134_l50, false, true, true,   1.62, 1.475, -0.31, -1,0,0
+AddPartWeapon    = uhm134_r50, false, true, false, -1.62, 1.475, -0.31
+AddPartWeapon    = uhm134_r50, false, true, true,  -1.62, 1.475, -0.31
+AddPartRotWeapon = uhm134_r50, false, true, true,  -1.62, 1.475, -0.31,  1,0,0
 
 AddRotor= 4, 90,  0.00,  3.98, -2.33,   0.0, 1.0, 0.0, true
 AddRotor= 1,  0, -0.60,  4.07, -14.57,  1.0, 0.0, 0.0, false
@@ -61,8 +61,10 @@ AddSeat =-0.87,  0.90, -1.23
 AddRepellingHook =  1.64, 2.05, -2.30, 30
 AddRepellingHook = -1.64, 2.05, -2.30, 30
 
-AddWeapon = m134_lm,  1.62, 1.48,-0.31,   0.0, 0.0, false, 3, -90,-80, 80, -50,80
-AddWeapon = m134_rm, -1.62, 1.48,-0.31,   0.0, 0.0, false, 4,  90,-80, 80, -50,80
+AddWeapon = targeting_pod_pv10s,   0.0, 0.7, 3.5,   0.0, 0.0,  true,2
+
+AddWeapon = uhm134_l50,  1.62, 1.48,-0.31,   0.0, 0.0, false, 3, -90,-80, 80, -50,80
+AddWeapon = uhm134_r50, -1.62, 1.48,-0.31,   0.0, 0.0, false, 4,  90,-80, 80, -50,80
 
 AddPartSlideHatch =   0.083,  0.00, -2.11
 AddPartSlideHatch =  -0.083,  0.00, -2.11

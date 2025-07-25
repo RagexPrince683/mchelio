@@ -28,8 +28,9 @@ AddPartCamera = 0.0, 0.45, 1.45
 
 AddPartWeapon    = uhm134_l50, false, true, false,   1.54, 1.3795, -2.14
 AddPartWeapon    = uhm134_l50, false, true, true,   1.54, 1.3795, -2.14
-AddPartRotWeapon = uhm134_l50, false, true, true,   1.54, 1.3795, -2.14, -1,0,0
+AddPartRotWeapon = uhm134_l50, false, true, true,   1.54, 1.3795, -2.14, 1,0,0
 ;idk how or why but this rotweapon is absolutely cooked beyond repair and I do NOT feel like fixing it
+;after further review i have determined not only is this cooked but it is beyond absolutely fucked
 
 AddPartWeapon    = uhm134_r50, false, true, false, -1.54, 1.379, -2.14
 AddPartWeapon    = uhm134_r50, false, true, true,  -1.54, 1.379, -2.14

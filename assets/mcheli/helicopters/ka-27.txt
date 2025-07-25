@@ -23,7 +23,7 @@ soundvolume = 15
 ; M = Military(軍用機).  S = Antisubmarine(対潜機)
 Category = M.S
 
-HUD = helinvg, none, none, none, none, none, none, none
+HUD = helinvg, heli_gnrnvg, none, none, none, none, none, none
 
 MobilityYaw = 0.9
 MobilityPitch = 0.9
@@ -44,16 +44,16 @@ AddSeat =-0.60,  1.70, -2.60
 AddSeat =-0.60,  1.70, -3.85
 AddSeat =-0.60,  1.70, -5.00
 
-AddPartWeaponMissile = plab-250-120, false, false, false, -1.25, 1.35,-4.00
-AddPartWeaponMissile = plab-250-120, false, false, false,  1.25, 1.35,-4.00
+AddPartWeaponMissile = kaplab-250-120, false, false, false, -1.25, 1.35,-4.00
+AddPartWeaponMissile = kaplab-250-120, false, false, false,  1.25, 1.35,-4.00
 
-AddWeapon = torped45,     -1.25, 1.35,-2.00,   0.0, 0.0
-AddWeapon = torped45,      1.25, 1.35,-2.00,   0.0, 0.0
-AddWeapon = plab-250-120, -1.25, 1.35,-4.00,   0.0, 0.0
-AddWeapon = plab-250-120,  1.25, 1.35,-4.00,   0.0, 0.0
+AddWeapon = katorped45,     -1.25, 1.35,-2.00,   0.0, 0.0
+AddWeapon = katorped45,      1.25, 1.35,-2.00,   0.0, 0.0
+AddWeapon = kaplab-250-120, -1.25, 1.35,-4.00,   0.0, 0.0
+AddWeapon = kaplab-250-120,  1.25, 1.35,-4.00,   0.0, 0.0
 
-AddWeapon = targeting_pod_mob,     0.0, 0.0, 3.1,   0.0, 0.0,  true, 2
-AddWeapon = targeting_pod_pv10s,   0.0, 0.0, 3.1,   0.0, 0.0,  false,2
+;AddWeapon = targeting_pod_mob,     0.0, 0.0, 3.1,   0.0, 0.0,  false, 2
+AddWeapon = targeting_pod_pv10s,   0.0, 0.0, 3.1,   0.0, 0.0,  true,2
 
 ;advanced modern helicopter med size armed, AOW3 style
 AddRecipe = "ABC", "DE ", "G  ", A, mcheli:airframe2, B, mcheli:heliblade2, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, G, mcheli:rocket2

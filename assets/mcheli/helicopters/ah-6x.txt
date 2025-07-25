@@ -44,18 +44,18 @@ UnmountPosition = -0.45,  1.50,  1.20
 AddWeapon = m134ah6, -1.48, 0.40, 1.54,  -1.0, 0.0
 AddWeapon = m134ah6, 1.48, 0.40, 1.54,   1.0, 0.0
 
-AddWeapon = hydra70_l,  2.20, 0.16, 1.11,   1.0, 0.0
-AddWeapon = hydra70_l, -2.20, 0.16, 1.11,  -1.0, 0.0
+AddWeapon = uavlhydra70_l,  2.20, 0.16, 1.11,   1.0, 0.0
+AddWeapon = uavlhydra70_l, -2.20, 0.16, 1.11,  -1.0, 0.0
 
-AddWeapon = aim92_l,  2.30, 0.16, 1.11,   1.0, 0.0
-AddWeapon = aim92_l, -2.30, 0.16, 1.11,  -1.0, 0.0
+;AddWeapon = aim92_l,  2.30, 0.16, 1.11,   1.0, 0.0
+;AddWeapon = aim92_l, -2.30, 0.16, 1.11,  -1.0, 0.0
 
 AddWeapon = targeting_pod_mob,     0.0, 0.10, 2.91,   0.0, 0.0
 AddWeapon = targeting_pod_pv30s,   0.0, 0.10, 2.91,   0.0, 0.0
 AddWeapon = targeting_pod_block,   0.0, 0.10, 2.91,   0.0, 0.0
 
 AddRecipe = "ABC", "DEF", "EEE", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, E, mcheli:electronics, D, mcheli:rocket, F, mcheli:cannon1
-AddRecipe = "ABC", "EEE", "   ", A, mcheli:mh-6, B, mcheli:rocket, C, mcheli:cannon1, E, mcheli:electronics
+AddRecipe = "ABC", "EEE", "EE ", A, mcheli:mh-6, B, mcheli:rocket, C, mcheli:cannon1, E, mcheli:electronics
 
 BoundingBox =  0.0, 1.7, -0.5,  2.4, 2.5
 

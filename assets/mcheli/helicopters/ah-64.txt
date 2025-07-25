@@ -74,8 +74,8 @@ AddWeapon = m230,  0.00, 0.38, 0.90,  0,-1, true,2, 0,-360,360, -20,80
 ;AddWeapon = dispenser_fire2,   0.00, 0.38, 0.90,  0,-1, true,2, 0,-360,360, -20,80
 ;AddWeapon = dispenser_water2,  0.00, 0.38, 0.90,  0,-1, true,2, 0,-360,360, -20,80
 
-AddWeapon = hydra70,        2.72,  0.81, -2.13,  1, 0,  true,1,  0,0,0, 0, 25
-AddWeapon = hydra70,       -2.72,  0.81, -2.13, -1, 0,  true,1,  0,0,0, 0, 25
+AddWeapon = ahhydra70,        2.72,  0.81, -2.13,  1, 0,  true,1,  0,0,0, 0, 25
+AddWeapon = ahhydra70,       -2.72,  0.81, -2.13, -1, 0,  true,1,  0,0,0, 0, 25
 AddWeapon = hydra70_mpsm,   2.72,  0.81, -2.13,  1, 0,  true,1,  0,0,0, 0, 25
 AddWeapon = hydra70_mpsm,  -2.72,  0.81, -2.13, -1, 0,  true,1,  0,0,0, 0, 25
 

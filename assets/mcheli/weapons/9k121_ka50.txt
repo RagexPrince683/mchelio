@@ -1,21 +1,20 @@
 DisplayName = 9K121 Vikhr
 Type = ATMissile
 Power = 1000
-Acceleration = 4.0
+Acceleration = 6.0
 Explosion = 4
 Flaming = true
 Sight = MissileSight 
-Delay = 80
+Delay = 5
 LockTime = 30
 Round = 6
 ReloadTime = 130
-ModeNum = 2
+ModeNum = 1
 ProximityFuseDist = 1
 Sound = missile_3_snd
 RidableOnly = true
 
-Delay = 80
-ReloadTime = 130
+
 Group = MainGun
 ;Acceleration = 7.0
 BulletColor        = 255, 255, 100, 100
@@ -32,6 +31,6 @@ SoundVolume = 15
 
 MaxAmmo = 6
 SuppliedNum = 3
-Item =  1, iron_ingot
-Item =  1, gunpowder
-Item =  1, redstone
+Item =  5, iron_ingot
+Item =  6, gunpowder
+Item =  4, redstone
