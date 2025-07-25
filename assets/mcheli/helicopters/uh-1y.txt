@@ -71,7 +71,7 @@ AddWeapon = uhhydra70_l,   1.77, 0.57, -1.46,   1.0, 0.0,  false,  1,  0,0,0, 0,
 AddWeapon = uhhydra70_l,  -1.77, 0.57, -1.46,  -1.0, 0.0,  false,  1,  0,0,0, 0, 30
 
 ;basic armed small modern helicopter NO WHEEL, AOW3 style
-AddRecipe = "ABC", "DEF", "E  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine2, E, mcheli:electronics, D, mcheli:rocket, F, mcheli:cannon1
+AddRecipe = "ABC", "DEF", "E  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine2, E, mcheli:fcs2, D, mcheli:rocket, F, mcheli:cannon1
 
 AddRecipe = "ABC", "   ", "   ", A, mcheli:uh-1c, B, mcheli:engine2, C, mcheli:electronics
 

@@ -1,5 +1,5 @@
-DisplayName = Bell 47G Float w MiniGun
-AddDisplayName = en_US, Bell 47G Float w MiniGun
+DisplayName = Bell 47G Float with MiniGun
+AddDisplayName = en_US, Bell 47G Float with MiniGun
 AddDisplayName = ja_JP, Bell47G フロート
 ItemID = 28808
 MaxHp = 100

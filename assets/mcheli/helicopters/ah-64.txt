@@ -103,7 +103,7 @@ AddWeapon = targeting_pod_pv10s,   0.0, 1.1, 4.5,   0.0, 0.0,  false,2
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0
 
 ;advanced armored modern helicopter armed, AOW3 style
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe3, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon2, G, mcheli:rocket3
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe3, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:fcs2, F, mcheli:cannon2, G, mcheli:rocket3
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1

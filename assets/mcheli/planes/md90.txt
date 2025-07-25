@@ -19,7 +19,7 @@ InventorySize = 36
 ; C = Civilian(民間機)
 Category = C
 
-HUD = civilian_aircraft, none, none, none
+HUD = civilian_aircraft, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
 MobilityYaw = 0.4
 MobilityPitch = 0.4

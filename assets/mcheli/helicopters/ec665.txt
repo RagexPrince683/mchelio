@@ -58,14 +58,14 @@ AddWeapon = pars_3_lr,  -1.54, 0.92,-0.01,   1.0, 0.0, true,2
 
 
 
-AddWeapon = targeting_pod_mob,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
-AddWeapon = targeting_pod_pv10s,   0.0, 0.6, 4.8,   0.0, 0.0,  false,2
+AddWeapon = targeting_pod_mob,     0.0, 0.6, 4.8,   0.0, 0.0,  false, 2
+AddWeapon = targeting_pod_pv10s,   0.0, 0.6, 4.8,   0.0, 0.0,  true,2
 
 
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0
 
 ;advanced modern helicopter armed, AOW3 style
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon1, G, mcheli:rocket2
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:fcs2, F, mcheli:cannon1, G, mcheli:rocket2
 
 BoundingBox = 0.0, 4.5, -1.2, 1.0, 1.5, 1.5
 

@@ -75,7 +75,7 @@ AddWeapon = pavm134_r50, -1.62, 1.48,-0.31,   0.0, 0.0, false, 4,  90,-80, 80, -
 AddWeapon = targeting_pod_pv10s,   0.0, 0.7, 3.5,   0.0, 0.0,  true,2
 
 ;advanced modern helicopter med size, AOW3 style
-AddRecipe = "ABC", "DEF", "F  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon1
+AddRecipe = "ABC", "DEF", "F  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:fcs, F, mcheli:cannon1
 
 AddRecipe = "ABB", "   ", "   ", A, mcheli:uh-60j, B, mcheli:cannon1
 

@@ -96,7 +96,7 @@ AddWeapon = targeting_pod_mob,     0.0, 0.8, 4.0,   0.0, 0.0,  false, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 0.8, 4.0,   0.0, 0.0,  true,2
 
 ;advanced modern helicopter armed, AOW3 style
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon2, G, mcheli:rocket3
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:fcs2, F, mcheli:cannon2, G, mcheli:rocket3
 
 
 

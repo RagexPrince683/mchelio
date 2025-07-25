@@ -75,7 +75,7 @@ EnableEntityRadar = true
 
 
 ;advanced modern helicopter armed, AOW3 style
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon1, G, mcheli:rocket2
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:fcs, F, mcheli:cannon1, G, mcheli:rocket2
 
 BoundingBox =  0.0,  0.80,  5.80,  1.2, 1.2
 BoundingBox =  0.0,  1.12,  4.59,  2.2, 2.2

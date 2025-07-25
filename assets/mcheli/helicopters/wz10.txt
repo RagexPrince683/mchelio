@@ -114,7 +114,7 @@ BoundingBox =  0.0, 2.6, -9.3,  1.5, 1.9
 BoundingBox =  0.0, 2.6, -10.8,  1.5, 1.9
 
 ;advanced armored modern helicopter armed, AOW3 style
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:cannon2, G, mcheli:rocket3
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:heliblade, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:fcs3, F, mcheli:cannon2, G, mcheli:rocket3
 
 
 DamageFactor = 0.8
