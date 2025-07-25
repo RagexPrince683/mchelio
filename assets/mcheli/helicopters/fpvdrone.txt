@@ -1,4 +1,4 @@
-DisplayName = fpvdrone
+DisplayName = FPV Drone with RPG-7 Warhead
 MaxHp = 5
 Speed = 60.0
 CameraPosition = 0.00, -0.2, 0.4
@@ -11,7 +11,10 @@ FuelConsumption = 0.1
 Stealth = 0.4
 HideEntity = True
 
+explosionSizeByCrash = 10
+
 UAV = true
+SmallUAV = true
 
 HUD = heli
 
@@ -22,7 +25,7 @@ MobilityYaw = 10.0
 MobilityPitch = 10.0
 MobilityRoll = 10.0
 
-AddFixRotSeat =  0.0, 1.0, 0.0
+;AddFixRotSeat =  0.0, 1.0, 0.0
 
 AddRotor = 1, 0, 0.5689,  0.3219, 0.3443,  0 ,1, 0
 AddRotor = 1, 0, -0.5898,  0.3219, 0.3443,  -0 , 1, 0
