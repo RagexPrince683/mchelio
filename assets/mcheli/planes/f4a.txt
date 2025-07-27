@@ -1,4 +1,4 @@
-DisplayName = F-4A PhantomII
+DisplayName = F-4A Phantom II
 AddDisplayName = en_US, F-4A Phantom II
 AddDisplayName = ja_JP, F-4A ファントムⅡ
 ItemID = 28734
@@ -49,12 +49,12 @@ AddPartLG    =  -2.6182, 1.0752, -6.234, 0,-1,0,30, 0,0,1,90
 AddPartRotWeapon  = m61a1_gpod,   false,  false,  false,   3.7296, 0.5352, -4.736
 AddPartRotWeapon  = m61a1_gpod,   false,  false,  false,   0.00, 0.5352, -3.9862
 AddPartRotWeapon  = m61a1_gpod,   false,  false,  false,   -3.7296, 0.5352, -4.736
-AddPartWeaponMissile = aim7_f,   false,  false,  false,    0.5343, 0.9202, 0.7853
-AddPartWeaponMissile = aim7_f,   false,  false,  false,   -0.5343, 0.9202, 0.7853
-AddPartWeaponMissile = aim7_f,   false,  false,  false,    1.1668, 0.9202, -5.3736
-AddPartWeaponMissile = aim7_f,   false,  false,  false,   -1.1668, 0.9202, -5.3736
-AddPartWeaponMissile = mk82,   false,  false,  false,   2.5457, 0.7549, -3.9708
-AddPartWeaponMissile = mk82,   false,  false,  false,   -2.5457, 0.7549, -3.9708
+AddPartWeaponMissile = aim7b,   false,  false,  false,    0.5343, 0.9202, 0.7853
+AddPartWeaponMissile = aim7b,   false,  false,  false,   -0.5343, 0.9202, 0.7853
+AddPartWeaponMissile = aim7b,   false,  false,  false,    1.1668, 0.9202, -5.3736
+AddPartWeaponMissile = aim7b,   false,  false,  false,   -1.1668, 0.9202, -5.3736
+AddPartWeaponMissile = f4mk82,   false,  false,  false,   2.5457, 0.7549, -3.9708
+AddPartWeaponMissile = f4mk82,   false,  false,  false,   -2.5457, 0.7549, -3.9708
 
 AddWeapon = m61a1_gpod, 0.00, 0.5352, -3.9862,   0.0,-3.0
 AddWeapon = m61a1_gpod, 3.7296, 0.5352, -4.736,   2.0,-3.0
@@ -63,8 +63,8 @@ AddWeapon = aim7b,    0.5343, 0.9202, 0.7853,   0.0, 0.0 , true, 2
 AddWeapon = aim7b,   -0.5343, 0.9202, 0.7853,   0.0, 0.0 , true, 2
 AddWeapon = aim7b,    1.1668, 0.9202, -5.3736,   0.0, 0.0,true, 2
 AddWeapon = aim7b,   -1.1668, 0.9202, -5.3736,  0.0, 0.0,true, 2
-AddWeapon = mk82,  2.5457, 0.7549, -3.9708,   0.0, 0.0, true, 2
-AddWeapon = mk82, -2.5457, 0.7549, -3.9708,   0.0, 0.0, true, 2
+AddWeapon = f4mk82,  2.5457, 0.7549, -3.9708,   0.0, 0.0, true, 2
+AddWeapon = f4mk82, -2.5457, 0.7549, -3.9708,   0.0, 0.0, true, 2
 
 ;modern light plane (early jet), AOW3 style
 AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe, B, mcheli:advancedmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon1, G, mcheli:electronics

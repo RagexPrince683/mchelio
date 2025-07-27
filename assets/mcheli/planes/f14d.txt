@@ -33,7 +33,7 @@ AddSeat = 0.00, 1.89, -1.87
 AddTexture = f14d_vx9
 AddTexture = f14d_razgriz
 
-AddPartCanopy = 0, 3.01, -2.97, -1,0,0,  70
+AddPartCanopy = 0, 2.89, -2.40, -1,0,0,  25
 
 AddPartLG =  0.00, 1.40,  0.00,  1,0,0, 100
 AddPartLG = -2.18, 1.90, -6.65, -1,0,0, 110,  0,0,1, 28
@@ -50,10 +50,10 @@ AddRecipe = "A C", "   ", "   ", A, mcheli:f14, C, mcheli:fcs
 AddPartWing =  -3.17, 2.31, -5.69,  0,-1,0, 50
 AddPartWing =   3.17, 2.31, -5.69,  0, 1,0, 50
 
-AddPartWeaponMissile = aim9,    false,  false,  false,   3.27, 1.71, -4.09
-AddPartWeaponMissile = aim9,    false,  false,  false,  -3.27, 1.71, -4.09
-AddPartWeaponMissile = aim7,    false,  false,  false,   2.98, 1.45, -3.58
-AddPartWeaponMissile = aim7,    false,  false,  false,  -2.98, 1.45, -3.58
+AddPartWeaponMissile = aim9mf14,    false,  false,  false,   3.27, 1.71, -4.09
+AddPartWeaponMissile = aim9mf14,    false,  false,  false,  -3.27, 1.71, -4.09
+AddPartWeaponMissile = aim7ff14,    false,  false,  false,   2.98, 1.45, -3.58
+AddPartWeaponMissile = aim7ff14,    false,  false,  false,  -2.98, 1.45, -3.58
 AddPartWeaponMissile = mk82_2r, false,  false,  false,   0.35, 0.76, -1.83
 AddPartWeaponMissile = mk82_2r, false,  false,  false,  -0.35, 0.76, -1.83
 AddPartWeaponMissile = cbu-100, false,  false,  false,  -0.00, 0.58, -4.35

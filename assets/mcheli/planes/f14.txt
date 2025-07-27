@@ -39,13 +39,9 @@ AddTexture = vf84_high
 AddPartCanopy = 0, 2.89, -2.40, -1,0,0,  25
 
 
-AddPartLG = -0.20, 1.09,  1.53, 0,0,1,   110
-AddPartLG =  0.20, 1.09,  1.53, 0,0,1,   110
-AddPartLG =  0.00, 1.45,  0.03,  1,0,0, -110
-AddPartLG = -2.02, 1.50, -6.98,  1,-1,0, -180
-AddPartLG =  2.02, 1.50, -6.98,  1,1,0, -180
-AddPartLG = -2.10, 1.38, -5.91, 0,0,1,   110
-AddPartLG =  2.10, 1.38, -5.91, 0,0,1,  -110
+AddPartLG =  0.00, 1.40,  0.00,  1,0,0, 100
+AddPartLG = -2.18, 1.90, -6.65, -1,0,0, 110,  0,0,1, 28
+AddPartLG =  2.18, 1.90, -6.65, -1,0,0, 110,  0,0,-1, 28
 AddPartLG =  0.00, 1.12, -11.31, -1,0,0,-40
 
 ;modern light plane (late jet), AOW3 style (fcs)
@@ -55,11 +51,11 @@ AddRecipe = "ABC", "DEF", "GGG", A, mcheli:airframe2, B, mcheli:advancedmechanic
 AddRecipe = "ABC", "   ", "   ", A, mcheli:f14d, B, mcheli:electronics, C, mcheli:fcs2
 
 
-AddPartWing =  -2.18, 2.13, -5.14,  0,-1,0, 40
-AddPartWing =   2.18, 2.13, -5.14,  0, 1,0, 40
+AddPartWing =  -3.17, 2.31, -5.69,  0,-1,0, 50
+AddPartWing =   3.17, 2.31, -5.69,  0, 1,0, 50
 
-AddPartWeaponMissile = aim9,    false,  false,  false,  -3.24, 1.54, -3.92
-AddPartWeaponMissile = aim9,    false,  false,  false,   3.24, 1.54, -3.92
+AddPartWeaponMissile = aim9f14,    false,  false,  false,  -3.24, 1.54, -3.92
+AddPartWeaponMissile = aim9f14,    false,  false,  false,   3.24, 1.54, -3.92
 AddPartWeaponMissile = aim54,   false,  false,  false,  -0.55, 0.91, -6.50
 AddPartWeaponMissile = aim54,   false,  false,  false,   0.55, 0.91, -6.50
 AddPartWeaponMissile = gbu12,   false,  false,  false,  -0.59, 0.97, -1.65

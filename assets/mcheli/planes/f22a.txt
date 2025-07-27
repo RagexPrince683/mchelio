@@ -64,36 +64,36 @@ AddPartLG    =  1.10, 1.07, -8.56,     0,0,1,  102
 AddPartLG    = -1.10, 1.07, -8.56,     0,0,1, -102
 
 ;AddPartWeaponBay = 武器名1 / 武器名2 / 武器名3, 位置X, 位置Y, 位置Z, 回転軸X, 回転軸Y, 回転軸Z, 回転角度 0～180
-AddPartWeaponBay = aim120 / gbu-53_sdb,  1.29,  1.04, -2.64,  0.000, -0.025, 1.000,  80
-AddPartWeaponBay = aim120 / gbu-53_sdb,  0.24, -0.25, -2.64,  0.000, -0.031, 1.000, -56
-AddPartWeaponBay = aim120 / gbu-53_sdb, -1.29,  1.04, -2.64,  0.000, -0.025, 1.000, -80
-AddPartWeaponBay = aim120 / gbu-53_sdb, -0.24, -0.25, -2.64,  0.000, -0.031, 1.000,  56
+AddPartWeaponBay = f22aim120 / gbu-53_sdbf22,  1.29,  1.04, -2.64,  0.000, -0.025, 1.000,  80
+AddPartWeaponBay = f22aim120 / gbu-53_sdbf22,  0.24, -0.25, -2.64,  0.000, -0.031, 1.000, -56
+AddPartWeaponBay = f22aim120 / gbu-53_sdbf22, -1.29,  1.04, -2.64,  0.000, -0.025, 1.000, -80
+AddPartWeaponBay = f22aim120 / gbu-53_sdbf22, -0.24, -0.25, -2.64,  0.000, -0.031, 1.000,  56
 
-AddPartWeaponBay = aim9,                 2.05,  1.78, -5.14,   0.000,  0.000, 1.000,  90
-AddPartWeaponBay = aim9,                 1.64,  1.16, -5.16,   0.000,  0.000, 1.000, -90
-AddPartWeaponBay = aim9,                -2.05,  1.78, -5.14,   0.000,  0.000, 1.000, -90
-AddPartWeaponBay = aim9,                -1.64,  1.16, -5.16,   0.000,  0.000, 1.000,  90
+AddPartWeaponBay = aim-9xf22,                 2.05,  1.78, -5.14,   0.000,  0.000, 1.000,  90
+AddPartWeaponBay = aim-9xf22,                 1.64,  1.16, -5.16,   0.000,  0.000, 1.000, -90
+AddPartWeaponBay = aim-9xf22,                -2.05,  1.78, -5.14,   0.000,  0.000, 1.000, -90
+AddPartWeaponBay = aim-9xf22,                -1.64,  1.16, -5.16,   0.000,  0.000, 1.000,  90
 
-AddPartWeaponBay = aim9,                 1.41,  1.78, -5.74,   0.578,  1.000, 0.000,  7
-AddPartWeaponBay = aim9,                -1.41,  1.78, -5.74,  -0.578,  1.000, 0.000, -7
+AddPartWeaponBay = aim-9xf22,                 1.41,  1.78, -5.74,   0.578,  1.000, 0.000,  7
+AddPartWeaponBay = aim-9xf22,                -1.41,  1.78, -5.74,  -0.578,  1.000, 0.000, -7
 
 
-AddPartWeaponMissile = aim120,      false,  false,  false,    0.84, 1.27, -7.28
-AddPartWeaponMissile = aim120,      false,  false,  false,   -0.84, 1.27, -7.28
-AddPartWeaponMissile = gbu-53_sdb,  false,  false,  false,    0.37, 1.18, -5.54
-AddPartWeaponMissile = gbu-53_sdb,  false,  false,  false,   -0.37, 1.18, -5.54
-AddPartWeaponMissile = gbu-53_sdb,  false,  false,  false,    0.37, 1.18, -5.54
-AddPartWeaponMissile = gbu-53_sdb,  false,  false,  false,   -0.37, 1.18, -5.54
-AddPartWeaponMissile = gbu-53_sdb,  false,  false,  false,    0.37, 1.18, -7.41
-AddPartWeaponMissile = gbu-53_sdb,  false,  false,  false,   -0.37, 1.18, -7.41
-AddPartWeaponMissile = gbu-53_sdb,  false,  false,  false,    0.37, 1.18, -7.41
-AddPartWeaponMissile = gbu-53_sdb,  false,  false,  false,   -0.37, 1.18, -7.41
+AddPartWeaponMissile = f22aim120,      false,  false,  false,    0.84, 1.27, -7.28
+AddPartWeaponMissile = f22aim120,      false,  false,  false,   -0.84, 1.27, -7.28
+AddPartWeaponMissile = gbu-53_sdbf22,  false,  false,  false,    0.37, 1.18, -5.54
+AddPartWeaponMissile = gbu-53_sdbf22,  false,  false,  false,   -0.37, 1.18, -5.54
+AddPartWeaponMissile = gbu-53_sdbf22,  false,  false,  false,    0.37, 1.18, -5.54
+AddPartWeaponMissile = gbu-53_sdbf22,  false,  false,  false,   -0.37, 1.18, -5.54
+AddPartWeaponMissile = gbu-53_sdbf22,  false,  false,  false,    0.37, 1.18, -7.41
+AddPartWeaponMissile = gbu-53_sdbf22,  false,  false,  false,   -0.37, 1.18, -7.41
+AddPartWeaponMissile = gbu-53_sdbf22,  false,  false,  false,    0.37, 1.18, -7.41
+AddPartWeaponMissile = gbu-53_sdbf22,  false,  false,  false,   -0.37, 1.18, -7.41
 
 AddWeapon = m61f22,    -1.74, 2.45, -5.56,   0.0, 0.0
 AddWeapon = aim-9xf22,        1.72, 1.53, -6.72,   0.0, 0.0
 AddWeapon = aim-9xf22,       -1.72, 1.53, -6.72,   0.0, 0.0
-AddWeapon = aim120,      0.84, 1.27, -7.28,   0.0, 0.0
-AddWeapon = aim120,     -0.84, 1.27, -7.28,   0.0, 0.0
+AddWeapon = f22aim120,      0.84, 1.27, -7.28,   0.0, 0.0
+AddWeapon = f22aim120,     -0.84, 1.27, -7.28,   0.0, 0.0
 AddWeapon = gbu-53_sdbf22,  0.37, 1.18, -5.54,   0.0, 0.0
 AddWeapon = gbu-53_sdbf22, -0.37, 1.18, -5.54,   0.0, 0.0
 AddWeapon = gbu-53_sdbf22,  0.37, 1.18, -5.54,   0.0, 0.0

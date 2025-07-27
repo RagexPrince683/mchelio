@@ -12,7 +12,6 @@ SoundPitch = 0.7
 Accuracy = 3.0
 HeatCount = 1
 MaxHeatCount = 210
-Sound = gun_l2_snd
 
 Gravity = -0.001
 
