@@ -19,7 +19,7 @@ ReloadTime = 80
 Gravity = -0.001
 
 ;no
-Sound = cannon_2_snd
+Sound = gshtwentythree
 ;SoundPitch = 0.6
 
 

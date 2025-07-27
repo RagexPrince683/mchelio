@@ -1,5 +1,5 @@
-DisplayName = MC-130 Combatalon
-AddDisplayName = ja_JP, MC-130 Combatalon
+DisplayName = MC-130H Combat Talon II
+AddDisplayName = ja_JP, MC-130H Combat Talon II
 ItemID = 28713
 MaxHp = 250
 Speed = 0.63858

@@ -9,7 +9,7 @@ ExplosionInWater = 2
 Flaming = false
 Sight = None
 Delay = 2
-ReloadTime = 150
+ReloadTime = 1000
 Round = 40
 Sound = hydraseventy
 SoundPitch = 0.8
@@ -28,7 +28,7 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 80
+MaxAmmo = 40
 SuppliedNum = 20
 Item =  4, iron_ingot
 Item =  3, gunpowder

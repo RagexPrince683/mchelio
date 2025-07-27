@@ -1,6 +1,6 @@
-﻿DisplayName = MIG-23M
-AddDisplayName = en_US, Mig-23
-AddDisplayName = ja_JP, mig23
+﻿DisplayName = MIG-23MLD
+AddDisplayName = en_US, Mig-23MLD
+AddDisplayName = ja_JP, Mig-23MLD
 ItemID = 28720
 MaxHp = 100
 EnableNightVision = false
@@ -43,7 +43,7 @@ AddPartWeaponMissile = r-60, false, false, false,  1.701, 1.8502, -5.641
 AddPartWeaponMissile = r-60, false, false, false,  -1.701, 1.8502, -5.641
 
 
-AddWeapon = 23mm, 0.00, 0.5842,  1.78
+AddWeapon = mig2323mm, 0.00, 0.5842,  1.78
 
 AddWeapon = r24,  1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2
 AddWeapon = r24,  -1.701, 1.8502, -5.641, 0.0, 0.0 , true, 2

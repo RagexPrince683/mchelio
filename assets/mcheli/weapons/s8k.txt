@@ -3,14 +3,13 @@ Type = Rocket
 Power = 400
 
 ModelBullet = hydra70
-Acceleration = 4.0
 Explosion = 4
 ExplosionInWater = 2
 Flaming = false
 Sight = None
 Delay = 1
-ReloadTime = 150
-Round = 40
+ReloadTime = 1500
+Round = 80
 Sound = hydraseventy
 SoundPitch = 0.8
 DisplayMortarDistance = true

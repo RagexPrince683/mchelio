@@ -9,7 +9,7 @@ Flaming = true
 Sight = MoveSight
 Delay = 5
 Round = 2
-ReloadTime = 200
+ReloadTime = 1000
 Sound = missile_2_snd
 
 DamageFactor = tank, 2.0

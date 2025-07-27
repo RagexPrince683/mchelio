@@ -14,7 +14,7 @@ Sound = bomb_snd
 ModelBullet = gbu28
 Gravity = -0.01
 DisableSmoke = true
-Piercing  = 1
+Piercing  = 2
 
 ;bomb rewrite
 ;Acceleration = 0.5

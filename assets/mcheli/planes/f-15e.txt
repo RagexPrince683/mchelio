@@ -61,55 +61,61 @@ AddPartLG    =  1.24, 1.87, -8.09,      1,0,0, -70,   0,1,0, -95
 ;前席がAIM-9、ガンポッド（M61 20mmバルカン）
 
 ; 使用直後は非表示
-AddPartWeaponMissile = aim9,    false,  false,  false,    3.49, 2.16, -4.95
-AddPartWeaponMissile = aim9,    false,  false,  false,   -3.49, 2.16, -4.95
-AddPartWeaponMissile = aim9,    false,  false,  false,    2.86, 2.16, -4.95
-AddPartWeaponMissile = aim9,    false,  false,  false,   -2.86, 2.16, -4.95
 
-AddPartWeaponMissile = blu10b,  false,  false,  false,    2.53, 1.43, -6.84
-AddPartWeaponMissile = blu10b,  false,  false,  false,   -2.53, 1.43, -6.84
-AddPartWeaponMissile = blu10b,  false,  false,  false,    2.53, 1.43, -9.64
-AddPartWeaponMissile = blu10b,  false,  false,  false,   -2.53, 1.43, -9.64
-AddPartWeaponMissile = blu10b,  false,  false,  false,    2.53, 1.43,-12.41
-AddPartWeaponMissile = blu10b,  false,  false,  false,   -2.53, 1.43,-12.41
+;4
+AddPartWeaponMissile = f15eaim9_m,    false,  false,  false,    3.49, 2.16, -4.95
+AddPartWeaponMissile = f15eaim9_m,    false,  false,  false,   -3.49, 2.16, -4.95
+AddPartWeaponMissile = f15eaim9_m,    false,  false,  false,    2.86, 2.16, -4.95
+AddPartWeaponMissile = f15eaim9_m,    false,  false,  false,   -2.86, 2.16, -4.95
 
-AddPartWeaponMissile = cbu-87,  false,  false,  false,    2.18, 0.87, -3.56
-AddPartWeaponMissile = cbu-87,  false,  false,  false,   -2.18, 0.87, -3.56
-AddPartWeaponMissile = cbu-87,  false,  false,  false,    2.18, 0.87, -6.36
-AddPartWeaponMissile = cbu-87,  false,  false,  false,   -2.18, 0.87, -6.36
+;6
+AddPartWeaponMissile = f15eblu10b,  false,  false,  false,    2.53, 1.43, -6.84
+AddPartWeaponMissile = f15eblu10b,  false,  false,  false,   -2.53, 1.43, -6.84
+AddPartWeaponMissile = f15eblu10b,  false,  false,  false,    2.53, 1.43, -9.64
+AddPartWeaponMissile = f15eblu10b,  false,  false,  false,   -2.53, 1.43, -9.64
+AddPartWeaponMissile = f15eblu10b,  false,  false,  false,    2.53, 1.43,-12.41
+AddPartWeaponMissile = f15eblu10b,  false,  false,  false,   -2.53, 1.43,-12.41
 
-AddPartWeaponMissile = agm130,  false,  false,  false,    3.18, 1.66, -5.04
-AddPartWeaponMissile = agm130,  false,  false,  false,   -3.18, 1.66, -5.04
+;4
+AddPartWeaponMissile = f15ecbu-87,  false,  false,  false,    2.18, 0.87, -3.56
+AddPartWeaponMissile = f15ecbu-87,  false,  false,  false,   -2.18, 0.87, -3.56
+AddPartWeaponMissile = f15ecbu-87,  false,  false,  false,    2.18, 0.87, -6.36
+AddPartWeaponMissile = f15ecbu-87,  false,  false,  false,   -2.18, 0.87, -6.36
 
-AddPartWeaponMissile = gbu28_e, false,  false,  false,    0.00, 1.18, -9.85
+;2
+AddPartWeaponMissile = f15eagm130,  false,  false,  false,    3.18, 1.66, -5.04
+AddPartWeaponMissile = f15eagm130,  false,  false,  false,   -3.18, 1.66, -5.04
+
+;1
+AddPartWeaponMissile = f15egbu28_e, false,  false,  false,    0.00, 1.18, -9.85
 
 AddWeapon = m61f15, -2.07, 2.70, -3.00,   0.0, 0.0
-AddWeapon = aim9_m,     3.49, 2.16, -4.95,   0.0, 0.0
-AddWeapon = aim9_m,    -3.49, 2.16, -4.95,   0.0, 0.0
-AddWeapon = aim9_m,     2.86, 2.16, -4.95,   0.0, 0.0
-AddWeapon = aim9_m,    -2.86, 2.16, -4.95,   0.0, 0.0
+AddWeapon = f15eaim9_m,     3.49, 2.16, -4.95,   0.0, 0.0
+AddWeapon = f15eaim9_m,    -3.49, 2.16, -4.95,   0.0, 0.0
+AddWeapon = f15eaim9_m,     2.86, 2.16, -4.95,   0.0, 0.0
+AddWeapon = f15eaim9_m,    -2.86, 2.16, -4.95,   0.0, 0.0
 
-AddWeapon = blu10b,   2.53, 1.43, -6.84,   0.0, 0.0
-AddWeapon = blu10b,  -2.53, 1.43, -6.84,   0.0, 0.0
-AddWeapon = blu10b,   2.53, 1.43, -9.64,   0.0, 0.0
-AddWeapon = blu10b,  -2.53, 1.43, -9.64,   0.0, 0.0
-AddWeapon = blu10b,   2.53, 1.43,-12.41,   0.0, 0.0
-AddWeapon = blu10b,  -2.53, 1.43,-12.41,   0.0, 0.0
+AddWeapon = f15eblu10b,   2.53, 1.43, -6.84,   0.0, 0.0
+AddWeapon = f15eblu10b,  -2.53, 1.43, -6.84,   0.0, 0.0
+AddWeapon = f15eblu10b,   2.53, 1.43, -9.64,   0.0, 0.0
+AddWeapon = f15eblu10b,  -2.53, 1.43, -9.64,   0.0, 0.0
+AddWeapon = f15eblu10b,   2.53, 1.43,-12.41,   0.0, 0.0
+AddWeapon = f15eblu10b,  -2.53, 1.43,-12.41,   0.0, 0.0
 
-AddWeapon = cbu-87,   2.18, 0.87, -3.56,   0.0, 0.0 , false, 2
-AddWeapon = cbu-87,  -2.18, 0.87, -3.56,   0.0, 0.0 , false, 2
-AddWeapon = cbu-87,   2.18, 0.87, -6.36,   0.0, 0.0 , false, 2
-AddWeapon = cbu-87,  -2.18, 0.87, -6.36,   0.0, 0.0 , false, 2
+AddWeapon = f15ecbu-87,   2.18, 0.87, -3.56,   0.0, 0.0 , true, 2
+AddWeapon = f15ecbu-87,  -2.18, 0.87, -3.56,   0.0, 0.0 , true, 2
+AddWeapon = f15ecbu-87,   2.18, 0.87, -6.36,   0.0, 0.0 , true, 2
+AddWeapon = f15ecbu-87,  -2.18, 0.87, -6.36,   0.0, 0.0 , true, 2
 
-AddWeapon = agm130,   3.18, 1.66, -5.04,   0.0, 0.0 , true,  2
-AddWeapon = agm130,  -3.18, 1.66, -5.04,   0.0, 0.0 , true,  2
+AddWeapon = f15eagm130,   3.18, 1.66, -5.04,   0.0, 0.0 , true,  2
+AddWeapon = f15eagm130,  -3.18, 1.66, -5.04,   0.0, 0.0 , true,  2
 
-AddWeapon = gbu28_e,  0.00, 1.18, -9.85,   0.0, 0.0 , true,  2
+AddWeapon = f15egbu28_e,  0.00, 1.18, -9.85,   0.0, 0.0 , true,  2
 
-AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
+AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0, false, 2
 
 AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  2
-AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0, true, 2
 
 AddPartHatch =   0.0,  3.20,  -4.86,  1,0, 0, 45
 AddPartHatch =   0.0,  3.00,  -7.05, -1,0, 0, 45

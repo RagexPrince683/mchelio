@@ -47,8 +47,8 @@ AddPartLG =  0.00, 1.35, -5.45, -1,0,0
 ;RightLeft
 AddPartLG =  0.00, 1.80, -6.60,  1,0,0
 
-AddPartWeaponMissile =aim9,    false,  false,  false,   4.85, 1.20, -3.87
-AddPartWeaponMissile =aim9,    false,  false,  false,  -4.85, 1.20, -3.87
+AddPartWeaponMissile =aim9lharrier,    false,  false,  false,   4.85, 1.20, -3.87
+AddPartWeaponMissile =aim9lharrier,    false,  false,  false,  -4.85, 1.20, -3.87
 AddPartWeaponMissile =agm-65_1,  false,  false,  false,   3.94, 1.21, -3.77
 AddPartWeaponMissile =agm-65_1,  false,  false,  false,  -3.94, 1.21, -3.77
 AddPartWeaponMissile =mk62,    false,  false,  false,   2.12, 1.15, -5.48

@@ -18,7 +18,11 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
-MaxAmmo = 4
+Round = 8
+
+ReloadTime = 1000
+
+MaxAmmo = 8
 SuppliedNum = 1
 Item =  3, iron_ingot
 Item =  6, gunpowder

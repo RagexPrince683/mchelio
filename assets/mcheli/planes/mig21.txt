@@ -1,6 +1,6 @@
-﻿DisplayName = Mig21 f13
+﻿DisplayName = Mig-21 F-13
 AddDisplayName = en_US, Mig-21 F-13
-AddDisplayName = ja_JP, Mig21 F-13
+AddDisplayName = ja_JP, Mig-21 F-13
 ItemID = 28720
 MaxHp = 100
 EnableNightVision = false
@@ -111,7 +111,7 @@ AddPartWeaponMissile = r-3, false, false, false,  3.5, 1.91, -3.69
 ;AddPartWeaponMissile = kh-25, false, false, false,  -2.2259, 1.351, -4.599
 
 
-AddWeapon = nr30, -1.00, 2.40,  1
+AddWeapon = mig21nr30, -1.00, 2.40,  1
 AddWeapon = fueltank,  0.00, 0.6183, -4.331
 AddWeapon = r3mig21,  -2.776, 1.354, -5.432, 0.0, 0.0 , true, 2
 AddWeapon = r3mig21,  2.776, 1.354, -5.432, 0.0, 0.0 , true, 2

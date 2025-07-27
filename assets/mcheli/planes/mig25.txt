@@ -47,20 +47,19 @@ AddPartThrottle = -0.81, 2.38,-14.63, 0, 0, 0,  0, 0,0, -5
 ;modern medium light plane (jet), AOW3 style
 AddRecipe = "ABC", "D  ", "G  ", A, mcheli:airframe2, B, mcheli:basicmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, G, mcheli:electronics
 
-AddPartWeaponMissile = R73, false, false, false,  -6.01, 1.93, -4.8
-AddPartWeaponMissile = R73, false, false, false,  -5.19, 1.98, -4.02
-AddPartWeaponMissile = R73, false, false, false,  4.72, 1.98, -4.02
-AddPartWeaponMissile = R73, false, false, false,  6.01, 1.93, -4.8
-AddPartWeaponMissile = R33, false, false, false,   -0.78, -1.2, -0.13
-AddPartWeaponMissile = R33, false, false, false,  1.12, -1.2, -0.13
+AddPartWeaponMissile = mig25R73, false, false, false,  -6.01, 1.93, -4.8
+AddPartWeaponMissile = mig25R73, false, false, false,  -5.19, 1.98, -4.02
+AddPartWeaponMissile = mig25R73, false, false, false,  4.72, 1.98, -4.02
+AddPartWeaponMissile = mig25R73, false, false, false,  6.01, 1.93, -4.8
+AddPartWeaponMissile = mig25R33, false, false, false,   -0.78, -1.2, -0.13
+AddPartWeaponMissile = mig25R33, false, false, false,  1.12, -1.2, -0.13
 
 
-AddWeapon = R73,  -6.01, 1.93, -4.8, 0.0, 0.0 , true, 2
-AddWeapon = R73,  -5.19, 1.98, -4.02, 0.0, 0.0 , true, 2
-AddWeapon = R73,   4.72, 1.98, -4.02, 0.0, 0.0 , true, 2
-AddWeapon = R73,   6.01, 1.93, -4.8, 0.0, 0.0 , true, 2
-AddWeapon = R33, -0.78, -1.2, -0.13,  -1.0, 0.0
-AddWeapon = R33, 1.12, -1.2, -0.13,  -1.0, 0.0
+
+AddWeapon = mig25R73,   -0.9629, 0.8007, 1.0, 0.0, 0.0 , true, 2
+AddWeapon = mig25R73,   0.9629, 0.8007, 1.0, 0.0, 0.0 , true, 2
+AddWeapon = mig25R33, -8.6351, 2.5433, -0.13,  -1.0, 0.0
+AddWeapon = mig25R33, 8.6351, 2.5433, -0.13,  -1.0, 0.0
 
 
 

@@ -1,7 +1,6 @@
 DisplayName = GBU-57 Massive Ordnance Penetrator
 Type = ASMissile
 radius=1000
-Power = 1000
 Acceleration = 2
 Flaming = true
 Sight = MoveSight

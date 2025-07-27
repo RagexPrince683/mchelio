@@ -98,7 +98,7 @@ AddPartLG = -4.69, 4.93,  -25.24,  0,0,1,  90
 AddPartLG = -4.94, 4.89,  -26.32,  0,0,1,  110
 
 ;large bomber aircraft semimodern, AOW3 style
-AddRecipe = "ABC", "DAC", "E  ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics
+AddRecipe = "ABC", "DAC", "E  ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:fcs
 
 BoundingBox =  0.0, 6.75,  -1.7, 5, 4.8
 ;BoundingBox =  0.0, 6.5,  5.7,  7, 4

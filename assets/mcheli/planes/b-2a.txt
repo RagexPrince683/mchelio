@@ -1,6 +1,6 @@
-DisplayName = B-2A Spirit
-AddDisplayName = en_US, B-2A Spirit
-AddDisplayName = ja_JP, B-2A スピリット
+DisplayName = B-2A Spirit (Conventional)
+AddDisplayName = en_US, B-2A Spirit (Conventional)
+AddDisplayName = ja_JP, B-2A スピリット (Conventional)
 ItemID = 28738
 MaxHp  = 250
 EnableNightVision  = true
@@ -86,10 +86,10 @@ AddWeapon = mk82_b2,  1.84,  2.80, -8.57,  0, 0
 AddWeapon = mk82_b2, -1.84,  2.80, -8.57,  0, 0
 
 ;20
-AddWeapon = b2gbu38,    1.84,  2.80, -4.27,  0, 0 , false, 2
-AddWeapon = b2gbu38,   -1.84,  2.80, -4.27,  0, 0 , false, 2
-AddWeapon = b2gbu38,    1.84,  2.80, -8.57,  0, 0 , false, 2
-AddWeapon = b2gbu38,   -1.84,  2.80, -8.57,  0, 0 , false, 2
+AddWeapon = b2gbu38,    1.84,  2.80, -4.27,  0, 0 , true, 2
+AddWeapon = b2gbu38,   -1.84,  2.80, -4.27,  0, 0 , true, 2
+AddWeapon = b2gbu38,    1.84,  2.80, -8.57,  0, 0 , true, 2
+AddWeapon = b2gbu38,   -1.84,  2.80, -8.57,  0, 0 , true, 2
 
 ;4
 AddWeapon = b2gbu28,    1.84,  1.80, -6.13,  0, 0
@@ -123,7 +123,7 @@ BoundingBox = -18.5, 3.2, -12.3, 10.0, 2.3
 
 
 ;large bomber aircraft modern, AOW3 style
-AddRecipe = "ABC", "DAC", "EEE", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics
+AddRecipe = "ABC", "DAC", "EF ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:fcs2, F, mcheli:electronics
 
 DamageFactor = 0.8
 

@@ -54,24 +54,32 @@ AddPartLG    =  -0.62, 2.34, -2.71,   1,0,0,  -125
 
 AddPartWeaponMissile = r60, false,  false,  false,  6.75,  1.84, -7.59
 AddPartWeaponMissile = r60, false,  false,  false, -6.75,  1.84, -7.59
-AddPartWeaponMissile = fb250, false,  false,  false,  5.09,  1.91, -6.73
-AddPartWeaponMissile = fb250, false,  false,  false, -5.09,  1.91, -6.73
-AddPartWeaponMissile = fb250, false,  false,  false, -5.09,  1.91, -6.73
-AddPartWeaponMissile = fb250, false,  false,  false, -5.09,  1.91, -6.73
+AddPartWeaponMissile = su24fb250, false,  false,  false,  5.09,  1.91, -6.73
+AddPartWeaponMissile = su24fb250, false,  false,  false, -5.09,  1.91, -6.73
+AddPartWeaponMissile = su24fb250, false,  false,  false, -5.09,  1.91, -6.73
+AddPartWeaponMissile = su24fb250, false,  false,  false, -5.09,  1.91, -6.73
 
+
+;200rnds
 AddWeapon = gsh-6-23,  0.08,  3.68,  10.08,   2.0, -3.0
+;2
 AddWeapon = kh-25,     7.64,  3.68, -1.75,   0.0,  0.0 , true,  2
 AddWeapon = kh-25,    -7.64,  3.68, -1.75,   0.0,  0.0 , true,  2
-AddWeapon = r60mk,     2.43,  2.93, -1.32,   0.0,  0.0 , true,  2
-AddWeapon = r60mk,    -2.43,  2.93, -1.32,   0.0,  0.0 , true,  2
-AddWeapon = fb500,     9.44,  2.93, -3.51,   0.0,  0.0 , true,  2
-AddWeapon = fb500,    -9.44,  2.93, -3.51,   0.0,  0.0 , true,  2
-AddWeapon = fb250,  0.08,  1.16, -3.31,   0.0,  0.0 , true,  2
-AddWeapon = fb250,  0.00,  1.16, -3.31,   0.0,  0.0 , true,  2
-AddWeapon = fb250,  -0.08,  1.16, -3.31,   0.0,  0.0 , true,  2
-AddWeapon = fb250,  0.08,  1.16,  0.27,   0.0,  0.0 , true,  2
+;2
+AddWeapon = r60mk,     2.43,  2.93, -1.32,   0.0,  0.0 , true,  1
+AddWeapon = r60mk,    -2.43,  2.93, -1.32,   0.0,  0.0 , true,  1
+;12 (wrong there's 2 on model)
+AddWeapon = su24fb500,     9.44,  2.93, -3.51,   0.0,  0.0 , true,  2
+AddWeapon = su24fb500,    -9.44,  2.93, -3.51,   0.0,  0.0 , true,  2
+;8 (4 on model)
+AddWeapon = su24fb250,  0.08,  1.16, -3.31,   0.0,  0.0 , true,  2
+AddWeapon = su24fb250,  0.00,  1.16, -3.31,   0.0,  0.0 , true,  2
+AddWeapon = su24fb250,  -0.08,  1.16, -3.31,   0.0,  0.0 , true,  2
+AddWeapon = su24fb250,  0.08,  1.16,  0.27,   0.0,  0.0 , true,  2
+;2
 AddWeapon = korshun, 6.09,  2.89, -3.32,   0.0,  0.0 , true,  2
 AddWeapon = korshun, -6.09,  2.89, -3.32,   0.0,  0.0 , true,  2
+;80
 AddWeapon = s8k, 4.36,  2.68, -0.76,   0.0,  0.0 , true,  2
 AddWeapon = s8k, -4.36,  2.68, -0.76,   0.0,  0.0 , true,  2
 
