@@ -3,9 +3,12 @@ AddDisplayName = en_US, C5A galaxy
 AddDisplayName = ja_JP, C5A ギャラクシー
 ItemID = 28739
 MaxHp = 250
-Speed = 1.00746
+Speed = 1.0266
 
-;579 
+;590
+
+EnableParachuting = true
+MobDropOption  = 0.97, 1.10, -12.91, 2
 
 ThirdPersonDist = 68
 Sound = c5m
@@ -21,7 +24,7 @@ StepHeight = -1.0
 
 ; M = Military(軍用機).  C = Transport(輸送機)
 Category = M.C
-HUD = planenvg,planenvg
+HUD = planenvg,planenvg, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
 MobilityRoll = 0.3
 MobilityYaw = 0.3
@@ -31,6 +34,42 @@ MobilityPitch = 0.3
 
 AddSeat = 0.62, 6.8, 2.4
 AddSeat = -0.62, 6.8, 2.4
+
+AddSeat =  0.58,  4.59,  1.75
+AddSeat = -0.58,  4.59,  1.75
+AddSeat =  0.71,  2.9, -0.38
+AddSeat = -0.71,  2.9,  -0.38
+
+
+AddSeat =  2.6,  2.2,  -7.8
+AddSeat = -2.6,  2.2,  -7.8
+
+AddSeat =  2.6,  2.2,  -8.8
+AddSeat = -2.6,  2.2,  -8.8
+
+AddSeat =  2.6,  2.2,  -9.8
+AddSeat = -2.6,  2.2,  -9.8
+
+AddSeat =  2.6,  2.2,  -10.8
+AddSeat = -2.6,  2.2,  -10.8
+
+AddSeat =  2.6,  2.2,  -11.8
+AddSeat = -2.6,  2.2,  -11.8
+
+AddSeat =  2.6,  2.2,  -12.8
+AddSeat = -2.6,  2.2,  -12.8
+
+AddSeat =  2.6,  2.2,  -13.8
+AddSeat = -2.6,  2.2,  -13.8
+
+AddSeat =  2.6,  2.2,  -14.8
+AddSeat = -2.6,  2.2,  -14.8
+
+AddSeat =  2.6,  2.2,  -15.8
+AddSeat = -2.6,  2.2,  -15.8
+
+AddSeat =  2.6,  2.2,  -16
+
 
 AddPartRotor = 12.0203, 4.1816, -18.57,   0,0,-1
 AddBlade = 1, 0, 12.0203, 4.1816, -18.57, 0,0,-1

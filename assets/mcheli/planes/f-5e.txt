@@ -45,16 +45,16 @@ AddPartLG =  2.197, 1.20, -3.20,  0,0,-1, 94
 AddPartLG =  -2.197, 1.20, -3.20,  0,0,1, 94
 
 ;WEAPON_COUNT
-AddPartWeaponMissile = aim9,  false, false, false,  5.199, 1.292, -3.407
-AddPartWeaponMissile = aim9,  false, false, false,  -5.199, 1.292, -3.407
-AddPartWeaponMissile = mk82,  false, false, false,  2.988, 0.549, -2.967
-AddPartWeaponMissile = mk82,  false, false, false,  -2.988, 0.549, -2.967
+AddPartWeaponMissile = aim9e_2,  false, false, false,  5.199, 1.292, -3.407
+AddPartWeaponMissile = aim9e_2,  false, false, false,  -5.199, 1.292, -3.407
+AddPartWeaponMissile = mk82f5,  false, false, false,  2.988, 0.549, -2.967
+AddPartWeaponMissile = mk82f5,  false, false, false,  -2.988, 0.549, -2.967
 
 AddPartWeaponMissile = droptank, false, false, false, 0.0, 0.246, -1.74
 
 ;WEAPON
-AddWeapon = m39a2, 0.238, 1.65, 5.23, 0.0, -0.5
-AddWeapon = m39a2, -0.238, 1.65, 5.23, 0.0, -0.5
+AddWeapon = m39a2f5, 0.238, 1.65, 5.23, 0.0, -0.5
+AddWeapon = m39a2f5, -0.238, 1.65, 5.23, 0.0, -0.5
 
 AddWeapon = aim9e_2,   5.199, 1.292, -3.407,   0.0, 0.0
 AddWeapon = aim9e_2,  -5.199, 1.292, -3.407,   0.0, 0.0

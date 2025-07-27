@@ -27,10 +27,10 @@ DamageFactor = player, 20.0
 
 
 
-ReloadTime = 150
-Round = 10
-MaxAmmo = 10
-SuppliedNum = 5
+ReloadTime = 1000
+Round = 12
+MaxAmmo = 12
+SuppliedNum = 6
 
 Item = 4, iron_ingot
 Item = 4, gunpowder

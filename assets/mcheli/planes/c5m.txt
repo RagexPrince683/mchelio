@@ -1,15 +1,15 @@
 DisplayName = C5M Super Galaxy
 AddDisplayName = en_US, C5M Super Galaxy
 MaxHp = 250
-Speed = 0.99354
+Speed = 1.05444
 
 ;571
 
 
 Sound = c5m
-ThrottleUpDown = 0.1
-MaxFuel         = 25000
-FuelConsumption = 1.4
+ThrottleUpDown = 0.13
+MaxFuel         = 20000
+FuelConsumption = 0.8
 InventorySize = 64
 EnableGunnerMode = true
 AutoPilotRot = 0
@@ -17,20 +17,60 @@ FlareType = 2
 EnableNightVision = true
 EnableEntityRadar = false
 ThirdPersonDist = 68
-RotorSpeed = 200.0
+
+EnableParachuting = true
+MobDropOption  = 0.97, 1.10, -12.91, 2
+;its technically possible
+
 
 ; M = Military(軍用機).  C = Transport(輸送機)
 Category = M.C
-HUD = planenvg,planenvg
+HUD = planenvg,planenvg, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
-MobilityRoll = 0.1
-MobilityYaw = 0.1	
-MobilityPitch = 0.1
+
+MobilityRoll = 0.3
+MobilityYaw = 0.3
+MobilityPitch = 0.3
 ;MinRotationRoll =-30
 ;MaxRotationRoll =30
 
 AddSeat = 0.62, 6.8, 2.4
 AddSeat = -0.62, 6.8, 2.4
+
+AddSeat =  0.58,  4.59,  1.75
+AddSeat = -0.58,  4.59,  1.75
+AddSeat =  0.71,  2.9, -0.38
+AddSeat = -0.71,  2.9,  -0.38
+
+
+AddSeat =  2.6,  2.2,  -7.8
+AddSeat = -2.6,  2.2,  -7.8
+
+AddSeat =  2.6,  2.2,  -8.8
+AddSeat = -2.6,  2.2,  -8.8
+
+AddSeat =  2.6,  2.2,  -9.8
+AddSeat = -2.6,  2.2,  -9.8
+
+AddSeat =  2.6,  2.2,  -10.8
+AddSeat = -2.6,  2.2,  -10.8
+
+AddSeat =  2.6,  2.2,  -11.8
+AddSeat = -2.6,  2.2,  -11.8
+
+AddSeat =  2.6,  2.2,  -12.8
+AddSeat = -2.6,  2.2,  -12.8
+
+AddSeat =  2.6,  2.2,  -13.8
+AddSeat = -2.6,  2.2,  -13.8
+
+AddSeat =  2.6,  2.2,  -14.8
+AddSeat = -2.6,  2.2,  -14.8
+
+AddSeat =  2.6,  2.2,  -15.8
+AddSeat = -2.6,  2.2,  -15.8
+
+AddSeat =  2.6,  2.2,  -16
 
 AddPartRotor = 11.9983, 4.1816, -18.57,   0,0,-1
 AddBlade = 1, 0, 11.9983, 4.1816, -18.57, 0,0,-1
@@ -155,12 +195,12 @@ AddRack = mh-60g/mh-60l_dap/sh-60/uh-60m/sh-3/ah-64,   0, 2.2, -22.8,   0, 0,-58
 AddRack = centauro/m1129/, 0.0, 2.40, -9,   0, 0, 17.0,   11,   20
 AddRack = centauro/m1129/, 0.0, 2.18,-29,   0, 0,-58.0,   11,   20	
 
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon/ah-64, 0.0, 2.40,-11.8,   0, 0, 17.0,   11,   20
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon/ah-64, 0.0, 2.35, -4.8,   0, 0, 17.0,   11,   20
-:
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon/ah-64, 0.0, 2.25,-18.8,   0, 0,-58.0,   12,   20
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon/ah-64, 0.0, 2.20,-25.8,   0, 0,-58.0,   12,   20
-AddRack = Lamborghini Huracan/Lamborghini Huracan Spyder/l hps1/bnr32/bnr32_police/impreza/s15/humvee/humveev2/humveewithweapon/ah-64, 0.0, 2.15,-32.8,   0, 0,-58.0,   12,   20
+AddRack = imshorad/strykericv/m1129/m2/bnr32/bnr32_police/impreza/s15/hel/hel2/humveewithweapon/ah-64, 0.0, 2.40,-11.8,   0, 0, 17.0,   11,   20
+AddRack = imshorad/strykericv/m1129/m2/bnr32/bnr32_police/impreza/s15/hel/hel2/humveewithweapon/ah-64, 0.0, 2.35, -4.8,   0, 0, 17.0,   11,   20
+
+AddRack = growler/m2/bnr32/bnr32_police/impreza/s15/hel/hel2/humveewithweapon/ah-64, 0.0, 2.25,-18.8,   0, 0,-58.0,   12,   20
+AddRack = growler/m2/bnr32/bnr32_police/impreza/s15/hel/hel2/humveewithweapon/ah-64, 0.0, 2.20,-25.8,   0, 0,-58.0,   12,   20
+AddRack = growler/m2/bnr32/bnr32_police/impreza/s15/hel/hel2/humveewithweapon/ah-64, 0.0, 2.15,-32.8,   0, 0,-58.0,   12,   20
 
 AddRack = ah-64,   0, 2.4,  -4.8,   0, 0, 17.0,      11,    100000,  0, -3.55
 AddRack = ah-64,   0, 2.2, -22.8,   0, 0,-58.0,      11,    100000,  0, -3.55

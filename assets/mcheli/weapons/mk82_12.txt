@@ -1,13 +1,13 @@
 DisplayName = 500lb MK82 Bomb
 Type = Bomb
-Power = 1000
 ModelBullet = mk82
 Acceleration = 0.1
 Flaming = false
 Sight = None
 Delay = 4
-ReloadTime = 230
-Round = 12
+ReloadTime = 1500
+Round = 24
+;me when i lie
 Sound = bomb_snd
 
 ;bomb rewrite
@@ -24,6 +24,6 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
 MaxAmmo = 24
-SuppliedNum = 12
+SuppliedNum = 6
 Item =  4, iron_ingot
 Item =  4, gunpowder

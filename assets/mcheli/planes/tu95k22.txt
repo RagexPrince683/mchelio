@@ -1,8 +1,8 @@
 ﻿;;DisplayName = Tupolev "TU-95 Bear
-DisplayName = TU-95K-22
-AddDisplayName = en_US, TU-95K-22
-AddDisplayName = ja_JP, TU-95K-22
-AddDisplayName = zh_CN, TU-95K-22
+DisplayName = TU-95K-22 (3x KH-22 Nuclear)
+AddDisplayName = en_US, TU-95K-22 (3x KH-22 Nuclear)
+AddDisplayName = ja_JP, TU-95K-22 (3x KH-22 Nuclear)
+AddDisplayName = zh_CN, TU-95K-22 (3x KH-22 Nuclear)
 ;ItemID = 19112
 MaxHp = 250
 EnableNightVision = true
@@ -60,14 +60,10 @@ AddPartLG = -7.6, 2.9, -16.6, 0,0,0, 100
 AddPartLGrev =  -7.053, 2.385, -17, 0,0,1, 90
 AddPartLGrev = -8.15, 2.385, -17, 0,0,1, -90
 
-AddPartWeaponMissile = kh102,  false, false, false,  11.74, 1.6734,  -13
-AddPartWeaponMissile = kh102,  false, false, false,   -11.74, 1.6734,  -13
-AddPartWeaponMissile = kh102,  false, false, false,  10.6, 1.6734,  -13
-AddPartWeaponMissile = kh102,  false, false, false,   -10.6, 1.6734,  -13
-AddPartWeaponMissile = kh102n,  false, false, false,  3.75, 2.5,  -8
-AddPartWeaponMissile = kh102n,  false, false, false,    -3.75, 2.5,  -8
-AddPartWeaponMissile = kh102n,  false, false, false,  2.6, 2.5,  -8
-AddPartWeaponMissile = kh102n,  false, false, false,  -2.6, 2.5,  -8
+AddPartWeaponMissile = kh22tu,  false, false, false,  11.74, 1.6734,  -13
+AddPartWeaponMissile = kh22tu,  false, false, false,   0.0, 1.6734,  -13
+AddPartWeaponMissile = kh22tu,  false, false, false,  10.6, 1.6734,  -13
+
 AddPartWeapon = gsh232tu, false, true, true,  0, 4.963, -48.6
 AddPartWeaponChild = false, true,0, 4.963, -53
 
@@ -93,19 +89,20 @@ AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
 ;AddWeapon = 250kg, 0, 2.3628,  -19,  -1.0, 0.0, true, 2
 ;AddWeapon = kh20, 0, 2.3628,  -19,  -1.0, 0.0, true, 2
 
-AddWeapon = 250kgtuk22,       0, 2.3628,  -19, 0, 90, true,  2
-AddWeapon = kh22tu,       0, 2.3628,  -19, 0, 90, true,  2
-AddWeapon = kh22tu, -3.75, 2.5,  -8,  0, 0,true,  2, 0,-90,90, -5,90
-AddWeapon = kh22tu, 3.75, 2.5,  -8,  0, 0,true,  2, 0,-90,90, -5,90
+;;AddWeapon = 250kgtuk22,       0, 2.3628,  -19, 0, 90, true,  2
 
-AddWeapon =  rn28, 0, 2.3628,  -19,  -1.0, 0.0, true, 2, 0,-90,90, -5,90
+AddWeapon = kh22tu,       -3.1852, 2.3656,  -8, 0, 90, true,  2
+AddWeapon = kh22tu, 3.1852, 2.3656,  -8,  0, 0,true,  2, 0,-90,90, -5,90
+AddWeapon = kh22tu, -0.0153, 2.2732,  -8,  0, 0,true,  2, 0,-90,90, -5,90
+
+;;AddWeapon =  rn28, 0, 2.3628,  -19,  -1.0, 0.0, true, 2, 0,-90,90, -5,90
 
 ;AddWeapon = tsarbombahalf, 0, 2.3628,  -19,  -1.0, 0.0, true, 2
 ;AddWeapon = tsarbomba, 0, 2.3628,  -19,   1.0, 0.0, true, 2
 AddWeapon = gsh232tu,  0.11, 4.963, -48.5,  0.0, 0.0, false, 3, -180,  -50,  60, -45, 45
 AddWeapon = gsh232tu,  -0.11, 4.963, -48.5,  0.0, 0.0, false, 3, -180,  -50,  60, -45, 45
-AddPartWeaponBay = 250kgtuk22/kh22tu/rn28, 0.9108, 2.4935, -19.0, 0, 0, 1, 90
-AddPartWeaponBay = 250kgtuk22/kh22tu/rn28, -0.9108, 2.4935, -19.0, 0, 0, 1, -90
+;;AddPartWeaponBay = 250kgtuk22/kh22tu/rn28, 0.9108, 2.4935, -19.0, 0, 0, 1, 90
+;;AddPartWeaponBay = 250kgtuk22/kh22tu/rn28, -0.9108, 2.4935, -19.0, 0, 0, 1, -90
 
 
 AddPartRotor =   14.8945,  3.1643,  -9,   0, 0, 3

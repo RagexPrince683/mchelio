@@ -1,6 +1,6 @@
-DisplayName = IL-76
-AddDisplayName = en_US, IL-76
-AddDisplayName = ru_RU, Ил-76
+DisplayName = Il-76MD-90A
+AddDisplayName = en_US, Il-76MD-90A
+AddDisplayName = ru_RU, Ил-76MD-90A
 MaxHp = 250
 Speed = 1.15
 
@@ -14,15 +14,15 @@ EnableEntityRadar = true
 ThirdPersonDist = 68
 
 Category = M.C
-HUD = planenvg,plane
+HUD = planenvg,planenvg, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
 AddTexture = il76
 
-MobilityRoll = 0.1
-MobilityYaw = 0.1
-MobilityPitch = 0.1
-MinRotationRoll =-30
-MaxRotationRoll =30
+MobilityRoll = 0.3
+MobilityYaw = 0.3
+MobilityPitch = 0.3
+;MinRotationRoll =-30
+;MaxRotationRoll =30
 
 
 sound = ilsevensix
@@ -34,6 +34,42 @@ unmountposition = 0.7544, 2.5919, 3.9352
 enableback = true
 
 AddSeat = -0.7544, 5.8919, 3.9352
+
+
+AddSeat =  1.9,  2.59,  -3.75
+AddSeat = -1.6,  2.59,  -3.75
+AddSeat =  1.9,  2.59, -4.75
+AddSeat = -1.9,  2.59,  -4.75
+
+
+AddSeat =  1.9,  2.59,  -5.75
+AddSeat = -1.9,  2.59,  -5.75
+
+AddSeat =  1.9,  2.59,  -6.75
+AddSeat = -1.9,  2.59,  -6.75
+
+AddSeat =  1.9,  2.59,  -7.75
+AddSeat = -1.9,  2.59,  -7.75
+
+AddSeat =  1.9,  2.59,  -10.8
+AddSeat = -1.9,  2.59,  -10.8
+
+AddSeat =  1.9,  2.59,  -11.8
+AddSeat = -1.9,  2.59,  -11.8
+
+AddSeat =  1.9,  2.59,  -12.8
+AddSeat = -1.9,  2.59,  -12.8
+
+AddSeat =  1.9,  2.59,  -13.8
+AddSeat = -1.9,  2.59,  -13.8
+
+AddSeat =  1.9,  2.59,  -14.8
+AddSeat = -1.9,  2.59,  -14.8
+
+AddSeat =  1.9,  2.59,  -15.8
+AddSeat = -1.9,  2.59,  -15.8
+
+AddSeat =  1.9,  2.59,  -16
 
 AddPartRotor = 8.5576, 4.9526, -7.2549,   0,0,-1
 AddBlade = 1, 0, 8.5576, 4.9526, -7.2549, 0,0,-1

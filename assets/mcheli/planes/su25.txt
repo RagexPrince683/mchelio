@@ -44,7 +44,7 @@ AddPartThrottle = 0.5, 1.9,3.57, 0, 0, 0,  0, 0,0, 0.21
 AddPartThrottle = 0.2, 2.2,4.13, 0, 0, 1,  220, 0,0, 0
 
 ;modern armored plane, AOW3 style
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe3, B, mcheli:basicmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon2, F, mcheli:rocket3, G, mcheli:electronics
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe3, B, mcheli:basicmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon2, F, mcheli:rocket3, G, mcheli:fcs
 
 ; AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 駐退距離
 AddPartWeaponMissile = su25r-60bm, false, false, false,  -5, 1.56, -3.23

@@ -30,7 +30,7 @@ Explosion = 15
 ;DamageFactor = heli, 4.5
 ;DamageFactor = player, 20.0
 
-ReloadTime = 300
+ReloadTime = 1000
 Round = 2
 MaxAmmo = 2
 SuppliedNum = 1

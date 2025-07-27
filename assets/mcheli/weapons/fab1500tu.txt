@@ -7,7 +7,7 @@ ExplosionBlock = 15
 ExplosionInWater = 10
 Flaming = true
 Sight = None
-Delay = 8
+Delay = 5
 Sound = bomb_snd
 ModelBullet = fab500sh
 Gravity = -0.01
@@ -19,7 +19,7 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
 
-ReloadTime = 200
+ReloadTime = 1000
 ;Round = 4
 
 MaxAmmo = 4

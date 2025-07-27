@@ -15,6 +15,9 @@ SoundVolume = 15
 
 ProximityFuseDist = 30
 
+Round = 6
+ReloadTime = 2000
+
 nukeyield = 125
 
 DamageFactor = tank, 2.0
@@ -23,7 +26,7 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
-MaxAmmo = 4
+MaxAmmo = 6
 SuppliedNum = 1
 Item =  2, mcheli:genericnuclearwarheadhigh
 Item =  1, mcheli:genericnuclearwarhead

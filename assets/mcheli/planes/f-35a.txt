@@ -41,42 +41,44 @@ AddPartLG    =  2.18, 1.91, -7.23,    -1,0, -0.05, 90,  0,-1,0, 90
 AddPartLG    = -2.18, 1.91, -7.23,    -1,0, -0.05, 90,  0, 1,0, 90
 
 ;AddPartWeaponBay = 武器名1 / 武器名2 / 武器名3, 位置X, 位置Y, 位置Z, 回転軸X, 回転軸Y, 回転軸Z, 回転角度 0～180
-AddPartWeaponBay = aim-9x / gbu-39_b_sdb / b6135,  1.65, 1.43,-2.64,  -0.027, -0.031, 1.000,  80
-AddPartWeaponBay = aim-9x / gbu-39_b_sdb / b6135, -1.65, 1.43,-2.64,   0.027, -0.031, 1.000, -80
-AddPartWeaponBay = aim-9x / gbu-39_b_sdb / b6135,  0.51, 1.15,-2.64,   0.000, -0.011, 1.000, -80
-AddPartWeaponBay = aim-9x / gbu-39_b_sdb / b6135, -0.51, 1.15,-2.64,   0.000, -0.011, 1.000,  80
-AddPartWeaponBay = aim-9x,                 0.65, 1.22,-4.92,   0.000,  0.000, 1.000, -110
-AddPartWeaponBay = aim-9x,                -0.65, 1.22,-4.92,   0.000,  0.000, 1.000,  110
+AddPartWeaponBay = f35aaim-9x / f35agbu-39_b_sdb / b6135,  1.65, 1.43,-2.64,  -0.027, -0.031, 1.000,  80
+AddPartWeaponBay = f35aaim-9x / f35agbu-39_b_sdb / b6135, -1.65, 1.43,-2.64,   0.027, -0.031, 1.000, -80
+AddPartWeaponBay = f35aaim-9x / f35agbu-39_b_sdb / b6135,  0.51, 1.15,-2.64,   0.000, -0.011, 1.000, -80
+AddPartWeaponBay = f35aaim-9x / f35agbu-39_b_sdb / b6135, -0.51, 1.15,-2.64,   0.000, -0.011, 1.000,  80
+AddPartWeaponBay = f35aaim-9x,                 0.65, 1.22,-4.92,   0.000,  0.000, 1.000, -110
+AddPartWeaponBay = f35aaim-9x,                -0.65, 1.22,-4.92,   0.000,  0.000, 1.000,  110
 
-AddPartWeaponMissile = gbu-39_b_sdb,   false,  false,  false,   1.06, 1.71, -4.85
-AddPartWeaponMissile = gbu-39_b_sdb,   false,  false,  false,  -1.06, 1.71, -4.85
-AddPartWeaponMissile = gbu-39_b_sdb,   false,  false,  false,   1.06, 1.71, -4.85
-AddPartWeaponMissile = gbu-39_b_sdb,   false,  false,  false,  -1.06, 1.71, -4.85
-AddPartWeaponMissile = gbu-39_b_sdb,   false,  false,  false,   1.06, 1.71, -6.85
-AddPartWeaponMissile = gbu-39_b_sdb,   false,  false,  false,  -1.06, 1.71, -6.85
-AddPartWeaponMissile = gbu-39_b_sdb,   false,  false,  false,   1.06, 1.71, -6.85
-AddPartWeaponMissile = gbu-39_b_sdb,   false,  false,  false,  -1.06, 1.71, -6.85
+AddPartWeaponMissile = f35agbu-39_b_sdb,   false,  false,  false,   1.06, 1.71, -4.85
+AddPartWeaponMissile = f35agbu-39_b_sdb,   false,  false,  false,  -1.06, 1.71, -4.85
+AddPartWeaponMissile = f35agbu-39_b_sdb,   false,  false,  false,   1.06, 1.71, -4.85
+AddPartWeaponMissile = f35agbu-39_b_sdb,   false,  false,  false,  -1.06, 1.71, -4.85
+AddPartWeaponMissile = f35agbu-39_b_sdb,   false,  false,  false,   1.06, 1.71, -6.85
+AddPartWeaponMissile = f35agbu-39_b_sdb,   false,  false,  false,  -1.06, 1.71, -6.85
+AddPartWeaponMissile = f35agbu-39_b_sdb,   false,  false,  false,   1.06, 1.71, -6.85
+AddPartWeaponMissile = f35agbu-39_b_sdb,   false,  false,  false,  -1.06, 1.71, -6.85
 
-AddWeapon = gau-22a,       1.67, 2.37, -1.43, 0.0, 0.0
-AddWeapon = aim-9x,        0.95, 1.16, -6.53, 0.0, 0.0
-AddWeapon = aim-9x,       -0.95, 1.16, -6.53, 0.0, 0.0
-AddWeapon = gbu-39_b_sdb,  1.06, 1.71, -4.85, 0.0, 0.0
-AddWeapon = gbu-39_b_sdb, -1.06, 1.71, -4.85, 0.0, 0.0
-AddWeapon = gbu-39_b_sdb,  1.06, 1.71, -4.85, 0.0, 0.0
-AddWeapon = gbu-39_b_sdb, -1.06, 1.71, -4.85, 0.0, 0.0
-AddWeapon = gbu-39_b_sdb,  1.06, 1.71, -6.85, 0.0, 0.0
-AddWeapon = gbu-39_b_sdb, -1.06, 1.71, -6.85, 0.0, 0.0
-AddWeapon = gbu-39_b_sdb,  1.06, 1.71, -6.85, 0.0, 0.0
-AddWeapon = gbu-39_b_sdb, -1.06, 1.71, -6.85, 0.0, 0.0
 
+;230
+AddWeapon = f35agau-22a,       1.67, 2.37, -1.43, 0.0, 0.0
+
+;4
+AddWeapon = f35aaim-9x,        0.95, 1.16, -6.53, 0.0, 0.0
+AddWeapon = f35aaim-9x,       -0.95, 1.16, -6.53, 0.0, 0.0
+
+;8
+AddWeapon = f35agbu-39_b_sdb,  1.06, 1.71, -4.85, 0.0, 0.0
+AddWeapon = f35agbu-39_b_sdb, -1.06, 1.71, -4.85, 0.0, 0.0
+AddWeapon = f35agbu-39_b_sdb,  1.06, 1.71, -4.85, 0.0, 0.0
+AddWeapon = f35agbu-39_b_sdb, -1.06, 1.71, -4.85, 0.0, 0.0
+AddWeapon = f35agbu-39_b_sdb,  1.06, 1.71, -6.85, 0.0, 0.0
+AddWeapon = f35agbu-39_b_sdb, -1.06, 1.71, -6.85, 0.0, 0.0
+AddWeapon = f35agbu-39_b_sdb,  1.06, 1.71, -6.85, 0.0, 0.0
+AddWeapon = f35agbu-39_b_sdb, -1.06, 1.71, -6.85, 0.0, 0.0
+
+;2
 AddWeapon = b6135,  1.06, 1.71, -4.85, 0.0, 0.0
 AddWeapon = b6135, -1.06, 1.71, -4.85, 0.0, 0.0
-AddWeapon = b6135,  1.06, 1.71, -4.85, 0.0, 0.0
-AddWeapon = b6135, -1.06, 1.71, -4.85, 0.0, 0.0
-AddWeapon = b6135,  1.06, 1.71, -6.85, 0.0, 0.0
-AddWeapon = b6135, -1.06, 1.71, -6.85, 0.0, 0.0
-AddWeapon = b6135,  1.06, 1.71, -6.85, 0.0, 0.0
-AddWeapon = b6135, -1.06, 1.71, -6.85, 0.0, 0.0
+
 
 
 

@@ -61,25 +61,25 @@ AddPartLG    =  2.18, 1.91, -7.23,    -1,0, -0.05, 90,  0,-1,0, 90
 AddPartLG    = -2.18, 1.91, -7.23,    -1,0, -0.05, 90,  0, 1,0, 90
 
 ;AddPartWeaponBay = 武器名1 / 武器名2 / 武器名3, 位置X, 位置Y, 位置Z, 回転軸X, 回転軸Y, 回転軸Z, 回転角度 0～180
-AddPartWeaponBay = aim-9x / gbu-31,  1.65, 1.43,-2.64,  -0.027, -0.031, 1.000,  80
-AddPartWeaponBay = aim-9x / gbu-31, -1.65, 1.43,-2.64,   0.027, -0.031, 1.000, -80
-AddPartWeaponBay = aim-9x / gbu-31,  0.51, 1.15,-2.64,   0.000, -0.011, 1.000, -80
-AddPartWeaponBay = aim-9x / gbu-31, -0.51, 1.15,-2.64,   0.000, -0.011, 1.000,  80
-AddPartWeaponBay = aim-9x,          -0.65, 1.22,-4.92,   0.000,  0.000, 1.000,  110
-AddPartWeaponBay = aim-9x,           0.65, 1.22,-4.92,   0.000,  0.000, 1.000, -110
+AddPartWeaponBay = f35baim-9x / f35bgbu-31,  1.65, 1.43,-2.64,  -0.027, -0.031, 1.000,  80
+AddPartWeaponBay = f35baim-9x / f35bgbu-31, -1.65, 1.43,-2.64,   0.027, -0.031, 1.000, -80
+AddPartWeaponBay = f35baim-9x / f35bgbu-31,  0.51, 1.15,-2.64,   0.000, -0.011, 1.000, -80
+AddPartWeaponBay = f35baim-9x / f35bgbu-31, -0.51, 1.15,-2.64,   0.000, -0.011, 1.000,  80
+AddPartWeaponBay = f35baim-9x,          -0.65, 1.22,-4.92,   0.000,  0.000, 1.000,  110
+AddPartWeaponBay = f35baim-9x,           0.65, 1.22,-4.92,   0.000,  0.000, 1.000, -110
 
-AddPartWeaponMissile = gbu-31,   false,  false,  false,   1.21, 1.63, -7.07
-AddPartWeaponMissile = gbu-31,   false,  false,  false,  -1.21, 1.63, -7.07
-AddPartWeaponMissile = 35cbu-87,   false,  false,  false,   3.50, 1.16, -7.85
-AddPartWeaponMissile = 35cbu-87,   false,  false,  false,  -3.50, 1.16, -7.85
+AddPartWeaponMissile = f35bgbu-31,   false,  false,  false,   1.21, 1.63, -7.07
+AddPartWeaponMissile = f35bgbu-31,   false,  false,  false,  -1.21, 1.63, -7.07
+AddPartWeaponMissile = f35b35cbu-87,   false,  false,  false,   3.50, 1.16, -7.85
+AddPartWeaponMissile = f35b35cbu-87,   false,  false,  false,  -3.50, 1.16, -7.85
 
-AddWeapon = gau-22a35,  0.00, 0.79, -4.63, 0.0,-3.0
-AddWeapon = aim-9x,   0.95, 1.16, -6.53, 0.0, 0.0
-AddWeapon = aim-9x,  -0.95, 1.16, -6.53, 0.0, 0.0
-AddWeapon = gbu-31,   1.21, 1.63, -7.07, 0.0, 0.0
-AddWeapon = gbu-31,  -1.21, 1.63, -7.07, 0.0, 0.0
-AddWeapon = 35cbu-87,   3.50, 1.16, -7.85, 0.0, 0.0
-AddWeapon = 35cbu-87,  -3.50, 1.16, -7.85, 0.0, 0.0
+AddWeapon = f35bgau-22a35,  0.00, 0.79, -4.63, 0.0,-3.0
+AddWeapon = f35baim-9x,   0.95, 1.16, -6.53, 0.0, 0.0
+AddWeapon = f35baim-9x,  -0.95, 1.16, -6.53, 0.0, 0.0
+AddWeapon = f35bgbu-31,   1.21, 1.63, -7.07, 0.0, 0.0
+AddWeapon = f35bgbu-31,  -1.21, 1.63, -7.07, 0.0, 0.0
+AddWeapon = f35b35cbu-87,   3.50, 1.16, -7.85, 0.0, 0.0
+AddWeapon = f35b35cbu-87,  -3.50, 1.16, -7.85, 0.0, 0.0
 
 AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0

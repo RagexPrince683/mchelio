@@ -10,7 +10,7 @@ ReloadTime = 70
 Round = 200
 SoundVolume = 1
 SoundPitch = 1.0
-Sound = gun_h7_snd
+Sound = gshtwentythree
 Accuracy = 1.0
 Piercing = 0
 

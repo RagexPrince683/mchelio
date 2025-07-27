@@ -10,8 +10,10 @@ HeatCount = 2
 MaxHeatCount = 30
 Sound = cannon_2_snd
 SoundPitch = 0.8
-Round = 360
+Round = 220
 Gravity = -0.001
+
+ReloadTime = 180
 
 Acceleration = 7.5
 Piercing = 0

@@ -59,11 +59,14 @@ AddPartLG         =   0.00,  1.456,  -1.67,  1,0,0,  -90
 AddPartLG         =   0.00,  2.255, -8.032,  1,0,0,  -90
 AddPartSlideRotLG =   0.00,  2.1,  1.6223,  0.00, 0.00, 0.00, 1,0,0, 0
 
+AddPartWeaponBay = vic250kg/smallboy/grandslam, -0.85, 2.05, -3.13, 0, 0, 1, -60
+AddPartWeaponBay = vic250kg/smallboy/grandslam, 0.85, 2.05, -3.13, 0, 0, 1, 60
+
 AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
 
 
-AddWeapon = 250kg,   0.00,  1.80, -4.13,  0, 0 , true,  2
-AddWeapon = 250kg,   0.00,  1.80, -6.13,  0, 0 , true,  2
+AddWeapon = vic250kg,   0.00,  1.80, -4.13,  0, 0 , true,  2
+AddWeapon = vic250kg,   0.00,  1.80, -6.13,  0, 0 , true,  2
 
 AddWeapon = smallboy,   0.00,  1.80, -6.13,  0, 0 , true,  2
 

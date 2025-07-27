@@ -11,8 +11,8 @@ SoundPitch = 0.7
 Accuracy = 1.0
 HeatCount = 1
 MaxHeatCount = 75
-Sound = gun_l4_snd
-SoundVolume = 3
+Sound = twentymil
+SoundVolume = 15
 Round = 560
 
 ;AddMuzzleFlash      = 2.1,     0.85,        1,  150,254,219,154
