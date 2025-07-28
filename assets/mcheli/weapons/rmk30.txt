@@ -14,7 +14,7 @@ Accuracy = 0.0
 HeatCount = 3
 MaxHeatCount = 160
 ModeNum = 2
-Sound = gun_h3_snd
+Sound = twentymil
 
 AddMuzzleFlash      =   3.1,      0.32,        3,  100,254,159,84
 AddMuzzleFlash      =   3.0,      0.30,        2,  100,254,219,184

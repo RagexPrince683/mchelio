@@ -1,4 +1,4 @@
-﻿DisplayName = 毛子的Su-57 
+﻿DisplayName = Su-57 
 AddDisplayName = en_US, Su-57 
 AddDisplayName = zh_CN, 老毛子的苏-57 
 ItemID = 7788
@@ -13,7 +13,7 @@ ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel         = 1400
 FuelConsumption = 1.0
-Stealth = 0.5
+Stealth = 0.43
 CameraPosition = 0.0, 1.25, 0.00
 EnableGunnerMode = true
 AutoPilotRot = 0
@@ -70,40 +70,46 @@ AddPartThrottle =  -3.4796, 2.6939, -18.925,  1,0,0, -15
 AddPartThrottle =   3.4796, 2.6939, -18.925,  1,0,0, -15
 
 
-AddPartWeaponBay = t500,  -0.8083,  1.6108, -12.4423,    0, 0, -1,  100
+AddPartWeaponBay = su57t500,  -0.8083,  1.6108, -12.4423,    0, 0, -1,  100
 
-AddPartWeaponBay = t500,   0.8083,  1.6108, -12.4423,    0, 0,  1,  100
-
-
-
-AddPartWeaponBay = t501/ t502/ t503,  -0.8083,  1.6108, -12.4423,    0, 0, -1,  100
-
-AddPartWeaponBay = t501/ t502/ t503,   0.8083,  1.6108, -12.4423,    0, 0,  1,  100
+AddPartWeaponBay = su57t500,   0.8083,  1.6108, -12.4423,    0, 0,  1,  100
 
 
 
+AddPartWeaponBay = su57t501/ su57t502/ su57t503,  -0.8083,  1.6108, -12.4423,    0, 0, -1,  100
 
-
-AddPartWeaponMissile = t500,   false, false, false,   0.4784, 2.135, -7
-AddPartWeaponMissile = t500,   false, false, false,   0.4784, 2.135, -7
-AddPartWeaponMissile = t500,   false, false, false,  -0.4784, 2.135, -7
-AddPartWeaponMissile = t501,     false, false, false,   0, 2.335 , -17.47
-AddPartWeaponMissile = t502,     false, false, false,   0.4784, 2.135, -17.47
-AddPartWeaponMissile = t502,     false, false, false,  -0.4784, 2.135, -17.47
-AddPartWeaponMissile = t503,   false, false, false,  0.2821, 1.96, -14
-AddPartWeaponMissile = t503,   false, false, false,  -0.2821, 1.96, -14
+AddPartWeaponBay = su57t501/ su57t502/ su57t503,   0.8083,  1.6108, -12.4423,    0, 0,  1,  100
 
 
 
-AddWeapon = gsh-30-1,    -1.74, 2.45, -5.56,   0.0, 0.0
-AddWeapon = t501,        0, 2.56, -17.47,   0.0, 0.0
-AddWeapon = t502,      0.4858, 2.56, -17.47,   0.0, 0.0
-AddWeapon = t502,     -0.4858, 2.56, -17.47,   0.0, 0.0
-AddWeapon = t500,      0, 2.035, -7,   0.0, 0.0
-AddWeapon = t500,      0.4784, 2.035, -7,   0.0, 0.0
-AddWeapon = t500,     -0.4784, 2.035, -7,   0.0, 0.0
-AddWeapon = t503,     0.2821, 1.96, -14,   0.0, 0.0
-AddWeapon = t503,    -0.2821, 1.96, -14,   0.0, 0.0
+
+;R-77-1
+AddPartWeaponMissile = su57t500,   false, false, false,   0.4784, 2.135, -7
+AddPartWeaponMissile = su57t500,   false, false, false,   0.4784, 2.135, -7
+AddPartWeaponMissile = su57t500,   false, false, false,  -0.4784, 2.135, -7
+
+;R-73
+AddPartWeaponMissile = su57t501,     false, false, false,   0, 2.335 , -17.47
+
+;kh-38mae
+AddPartWeaponMissile = su57t502,     false, false, false,   0.4784, 2.135, -17.47
+AddPartWeaponMissile = su57t502,     false, false, false,  -0.4784, 2.135, -17.47
+
+;kab-250 guided bomb
+AddPartWeaponMissile = su57t503,   false, false, false,  0.2821, 1.96, -14
+AddPartWeaponMissile = su57t503,   false, false, false,  -0.2821, 1.96, -14
+
+
+;150rnds
+AddWeapon = su57gsh-30-1,    -1.74, 2.45, -5.56,   0.0, 0.0
+AddWeapon = su57t501,        0, 2.56, -17.47,   0.0, 0.0
+AddWeapon = su57t502,      0.4858, 2.56, -17.47,   0.0, 0.0
+AddWeapon = su57t502,     -0.4858, 2.56, -17.47,   0.0, 0.0
+AddWeapon = su57t500,      0, 2.035, -7,   0.0, 0.0
+AddWeapon = su57t500,      0.4784, 2.035, -7,   0.0, 0.0
+AddWeapon = su57t500,     -0.4784, 2.035, -7,   0.0, 0.0
+AddWeapon = su57t503,     0.2821, 1.96, -14,   0.0, 0.0
+AddWeapon = su57t503,    -0.2821, 1.96, -14,   0.0, 0.0
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 

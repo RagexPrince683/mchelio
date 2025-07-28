@@ -22,6 +22,8 @@ Category = M.A
 AutoPilotRot = -0.10
 ThirdPersonDist = 30
 
+EnableBack = true
+
 MobilityYaw = 0.5
 MobilityPitch = 0.5
 MobilityRoll = 0.3

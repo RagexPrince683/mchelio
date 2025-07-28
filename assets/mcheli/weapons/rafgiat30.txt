@@ -1,6 +1,6 @@
-DisplayName = 30mm GIAT 30 Automatic Cannon [M791]
+DisplayName = 30mm GIAT 30M 791 Automatic Cannon 
 Type = MachineGun1
-Power = 57
+Power = 40
 Explosion = 1
 ExplosionBlock = 0
 Flaming = false
@@ -14,7 +14,7 @@ Sound = twentymil
 SoundVolume = 15
 SoundPitch = 0.8
 round= 125
-reloadtime = 60
+reloadtime = 160
 
 Accuracy = 1.7
 HeatCount = 6

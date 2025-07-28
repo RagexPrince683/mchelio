@@ -19,6 +19,7 @@ HeatCount = 5
 MaxHeatCount = 100
 Sound = gshtwentythree
 SoundPitch = 0.8
+SoundVolume = 15
 
 AddMuzzleFlash      =  0,      0.62,        0,  150,254,159,84
 AddMuzzleFlash      =  0,      0.61,        0,  150,254,230,160

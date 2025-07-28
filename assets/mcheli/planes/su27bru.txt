@@ -1,7 +1,7 @@
 DisplayName = Su-27 Flanker-B
 MaxHp = 100
 Speed = 1.553
-EnableNightVision = true
+EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
 ThrottleUpDown = 0.3
@@ -12,6 +12,8 @@ MaxFuel         = 1000
 FuelConsumption = 1.0
 ThirdPersonDist = 20
 Sound = sutwentyseven
+
+SweepWingSpeed = 0.85
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
@@ -47,26 +49,26 @@ AddPartLG    = -1.9987, 2.1521, -5.9321, -1, 0.4, 0, 90, 0,  1, 0, 90
 AddPartLGRev = -2.3540, 2.2603, -4.1278,  0, 0,  -1, 100
 AddPartLGRev = -2.2778, 2.1853, -5.5007,  0, 0,  -1, 110
 
-AddPartWeaponMissile = r-60_2,  false, false, false,   6.5259, 1.8519, -7.6642
-AddPartWeaponMissile = r-60_2,  false, false, false,  -6.5259, 1.8519, -7.6642
-AddPartWeaponMissile = r-60_2,  false, false, false,   4.9154, 1.6903, -6.1041
-AddPartWeaponMissile = r-60_2,  false, false, false,  -4.9154, 1.6903, -6.1041
+AddPartWeaponMissile = su27r-73e,  false, false, false,   6.5259, 1.8519, -7.6642
+AddPartWeaponMissile = su27r-73e,  false, false, false,  -6.5259, 1.8519, -7.6642
+AddPartWeaponMissile = su27r-73e,  false, false, false,   4.9154, 1.6903, -6.1041
+AddPartWeaponMissile = su27r-73e,  false, false, false,  -4.9154, 1.6903, -6.1041
 
-AddPartWeaponMissile = x-25_2, false, false, false,   1.2223, 0.4577, -5.0653
-AddPartWeaponMissile = x-25_2, false, false, false,  -1.2223, 0.4577, -5.0653
-AddPartWeaponMissile = x-25_2, false, false, false,   0.00,   1.6277, -3.2562
-AddPartWeaponMissile = x-25_2, false, false, false,  -0.00,   1.6522, -9.1284
+AddPartWeaponMissile = su27x-25_2, false, false, false,   1.2223, 0.4577, -5.0653
+AddPartWeaponMissile = su27x-25_2, false, false, false,  -1.2223, 0.4577, -5.0653
+AddPartWeaponMissile = su27x-25_2, false, false, false,   0.00,   1.6277, -3.2562
+AddPartWeaponMissile = su27x-25_2, false, false, false,  -0.00,   1.6522, -9.1284
 
-AddWeapon = gsh-30-1, -1.0126, 2.4849,  1.1137,  0.0, -1.0
-AddWeapon = r-73e,      6.5259, 1.8519, -7.6642,  0.0, -1.0
-AddWeapon = r-73e,     -6.5259, 1.8519, -7.6642,  0.0, -1.0
-AddWeapon = r-73e,      4.9154, 1.6903, -6.1041,  0.0, -1.0
-AddWeapon = r-73e,     -4.9154, 1.6903, -6.1041,  0.0, -1.0
+AddWeapon = su27gsh-30-1, -1.0126, 2.4849,  1.1137,  0.0, -1.0
+AddWeapon = su27r-73e,      6.5259, 1.8519, -7.6642,  0.0, -1.0
+AddWeapon = su27r-73e,     -6.5259, 1.8519, -7.6642,  0.0, -1.0
+AddWeapon = su27r-73e,      4.9154, 1.6903, -6.1041,  0.0, -1.0
+AddWeapon = su27r-73e,     -4.9154, 1.6903, -6.1041,  0.0, -1.0
 
-AddWeapon = x-25_2,      1.2223, 0.4577, -5.0653,  0.0, -1.0
-AddWeapon = x-25_2,     -1.2223, 0.4577, -5.0653,  0.0, -1.0
-AddWeapon = x-25_2,      0.00,   1.6277, -3.2562,  0.0, -1.0
-AddWeapon = x-25_2,      0.00,   1.6522, -9.1284,  0.0, -1.0
+AddWeapon = su27x-25_2,      1.2223, 0.4577, -5.0653,  0.0, -1.0
+AddWeapon = su27x-25_2,     -1.2223, 0.4577, -5.0653,  0.0, -1.0
+AddWeapon = su27x-25_2,      0.00,   1.6277, -3.2562,  0.0, -1.0
+AddWeapon = su27x-25_2,      0.00,   1.6522, -9.1284,  0.0, -1.0
 
 AddWeapon = targeting_pod_ph50s_ru,   0.0, 3.1,-0.6,    0.0, 0.0
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0

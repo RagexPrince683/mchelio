@@ -16,6 +16,27 @@ LockTime = 16
 ProximityFuseDist = 3
 Sound = missile_1_snd
 
+;debug
+
+tickEndHoming = 170
+
+maxDegreeOfMissile = 1000
+
+turningFactor = 1
+
+;;isRadarMissile = true
+
+;maxLockOnAngle=10
+;MaxLockOnRange = 500
+;AntiFlareCount=30
+;;WeaponSwitchSound = Switch_Jet_Weapon_Missile
+;EnableOffAxis = TRUE
+;SpeedFactor = 0.04
+;SpeedFactorStartTick = 10
+;SpeedFactorEndTick = 70
+;SpeedDependsAircraft = true
+;canlockmissile=true
+
 
 MaxAmmo = 3
 SuppliedNum = 3

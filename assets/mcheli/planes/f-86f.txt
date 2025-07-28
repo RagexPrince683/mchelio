@@ -17,6 +17,8 @@ ParticlesScale = 0.7
 ThirdPersonDist = 16
 Category = M.F
 
+EnableBack = true
+
 DamageFactor = 0.8
 
 AddSeat = 0.00,  1.6,  1.378

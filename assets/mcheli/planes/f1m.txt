@@ -7,6 +7,8 @@ Speed = 0.39846
 Float = true
 Sound = prop_fighter
 
+EnableBack = true
+
 SoundPitch = 1.3
 
 ThrottleUpDown = 0.3

@@ -23,7 +23,7 @@ DamageFactor = 0.8
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
-HUD = planenvgonly
+HUD = plane
 
 AddTexture = su34_1
 AddTexture = su34_2
@@ -44,23 +44,29 @@ AddPartLG =  0.00,  2.47,  6.68,  -1,0,0, 80
 AddPartLG = 1.956,  2.35, -0.53, -1,-1,0, 100,  0,-1,0,  90
 AddPartLG =  -1.956,  2.35, -0.53, -1,1,0, 100,  0,-1,0,  -90
 
-AddPartWeaponMissile = kh-31,   false,  false,  false,    1.25, 0.707, -2.49
-AddPartWeaponMissile = kh-31,   false,  false,  false,   -1.23, 0.707, -2.49
-AddPartWeaponMissile = r-73,    false,  false,  false,    6.208, 1.808, -3.97
-AddPartWeaponMissile = r-73,    false,  false,  false,   -6.208, 1.808, -3.97
+AddPartWeaponMissile = su34kh-31,   false,  false,  false,    1.25, 0.707, -2.49
+AddPartWeaponMissile = su34kh-31,   false,  false,  false,   -1.23, 0.707, -2.49
+AddPartWeaponMissile = su34r-73,    false,  false,  false,    6.208, 1.808, -3.97
+AddPartWeaponMissile = su34r-73,    false,  false,  false,   -6.208, 1.808, -3.97
 
-AddWeapon = gsh-30-1, -1.15,  2.11,  5.77,  -0.5, -1.0
-AddWeapon = kh-31,  1.25, 0.707, -2.49,   2.0, -3.0, true, 2
-AddWeapon = kh-31, -1.23, 0.707, -2.49,   2.0, -3.0, true, 2
-AddWeapon = r-73,  6.208, 1.808, -3.97,   2.0, -3.0, true, 2
-AddWeapon = r-73, -6.208, 1.808, -3.97,   2.0, -3.0, true, 2
-AddWeapon = s-13, 4.84, 1.75, 0.26,   2.0, -3.0
-AddWeapon = s-13, -4.84, 1.75, 0.26,   2.0, -3.0
-AddWeapon = s-13, 3.509, 1.75, 1.08,   2.0, -3.0
-AddWeapon = s-13, -3.509, 1.75, 1.08,   2.0, -3.0
+AddWeapon = su34gsh-30-1, -1.15,  2.11,  5.77,  -0.5, -1.0
+
+;2
+AddWeapon = su34kh-31,  1.25, 0.707, -2.49,   2.0, -3.0, true, 2
+AddWeapon = su34kh-31, -1.23, 0.707, -2.49,   2.0, -3.0, true, 2
+
+;2
+AddWeapon = su34r-73,  6.208, 1.808, -3.97,   2.0, -3.0
+AddWeapon = su34r-73, -6.208, 1.808, -3.97,   2.0, -3.0
+
+;20 rkt
+AddWeapon = su34s-13, 4.84, 1.75, 0.26,   0.0, -0.0
+AddWeapon = su34s-13, -4.84, 1.75, 0.26,   0.0, -0.0
+AddWeapon = su34s-13, 3.509, 1.75, 1.08,   0.0, -0.0
+AddWeapon = su34s-13, -3.509, 1.75, 1.08,   0.0, -0.0
 
 AddWeapon = targeting_pod_ph50s,   0.0, 3.1, 7.2,    0.0, 0.0
-AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0, true, 2
 
 ;modern light plane (late jet), AOW3 style (rkt)
 AddRecipe = "ABC", "DEF", "GGG", A, mcheli:airframe3, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:rocket, G, mcheli:electronics

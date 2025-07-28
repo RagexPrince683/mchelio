@@ -39,7 +39,7 @@ DamageFactor = player, 20.0
 SoundVolume = 15
 
 
-MaxAmmo = 150
-SuppliedNum = 150
+MaxAmmo = 180
+SuppliedNum = 90
 Item =  2, iron_ingot
 Item =  2, gunpowder

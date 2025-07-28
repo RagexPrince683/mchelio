@@ -21,9 +21,9 @@ DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
 ReloadTime = 2000
-Round = 12
+Round = 4
 
-MaxAmmo = 12
+MaxAmmo = 4
 SuppliedNum = 4
 Item =  6, iron_ingot
 Item =  6, gunpowder
