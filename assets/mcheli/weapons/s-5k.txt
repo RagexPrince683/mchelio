@@ -9,7 +9,7 @@ Flaming = false
 Sight = MoveSight
 Sound = rocket_snd
 Delay = 1
-ReloadTime = 110
+ReloadTime = 1800
 Round = 192
 Accuracy = 2
 

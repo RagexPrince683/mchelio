@@ -18,11 +18,13 @@ Sound = missile_1_snd
 
 ;debug
 
-tickEndHoming = 170
+;tickEndHoming = 170
 
-maxDegreeOfMissile = 1000
 
-turningFactor = 1
+
+;maxDegreeOfMissile = 1000
+
+;turningFactor = 1
 
 ;;isRadarMissile = true
 

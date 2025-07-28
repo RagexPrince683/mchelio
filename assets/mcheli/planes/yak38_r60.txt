@@ -54,14 +54,14 @@ AddPartWing =  2.5531,  1.65, -7.587,  0,0,    1, 110
 AddPartLG    =  0.000, 1.0855,-0.5136,   -1.00, 0.000, 0.00, 80
 AddPartLG    = -0.8369, 1.2777, -7.3264,    -1,0, -0.05, 90,  0, 1,0, 90
 AddPartLG    = 0.8369, 1.2777, -7.3264,    -1,0, -0.05, 90,  0, -1,0, 90
-AddWeapon = r-60,    2.1581,  1.2097, -5.0239,   0.0,  0.0
-AddWeapon = r-60,    1.4659,  1.3449, -5.0239,   0.0,  0.0
-AddWeapon = r-60,    -1.4659,  1.3449, -5.0239,   0.0,  0.0
-AddWeapon = r-60,    -2.1581,  1.2097, -5.0239,   0.0,  0.0
-AddPartWeapon = r-60, false,false,false, 2.1581,  1.2097, -5.0239
-AddPartWeapon = r-60, false,false,false, 1.4659,  1.3449, -5.0239
-AddPartWeapon = r-60, false,false,false, -2.1581,  1.2097, -5.0239
-AddPartWeapon = r-60, false,false,false, -1.4659,  1.3449, -5.0239
+AddWeapon = yakr-60,    2.1581,  1.2097, -5.0239,   0.0,  0.0
+AddWeapon = yakr-60,    1.4659,  1.3449, -5.0239,   0.0,  0.0
+AddWeapon = yakr-60,    -1.4659,  1.3449, -5.0239,   0.0,  0.0
+AddWeapon = yakr-60,    -2.1581,  1.2097, -5.0239,   0.0,  0.0
+AddPartWeapon = yakr-60, false,false,false, 2.1581,  1.2097, -5.0239
+AddPartWeapon = yakr-60, false,false,false, 1.4659,  1.3449, -5.0239
+AddPartWeapon = yakr-60, false,false,false, -2.1581,  1.2097, -5.0239
+AddPartWeapon = yakr-60, false,false,false, -1.4659,  1.3449, -5.0239
 
 AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
 

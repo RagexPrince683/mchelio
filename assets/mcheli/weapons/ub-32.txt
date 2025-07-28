@@ -1,4 +1,4 @@
-DisplayName = 57mm UB-32M [S-5K Rocket]
+DisplayName = 57mm S-5K Rocket
 Type = Rocket
 Power = 150
 ModelBullet = hydra70
@@ -8,10 +8,11 @@ ExplosionInWater = 1
 Flaming = false
 Sight = MoveSight
 Sound = rocket_snd
-Delay = 3
-ReloadTime = 110
+Delay = 2
+ReloadTime = 1100
 Round = 64
-Gravity = -0.075
+Gravity = -0.005
+Acceleration = 4.0
 
 
 
