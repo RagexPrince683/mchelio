@@ -1,6 +1,6 @@
-﻿DisplayName = mig17f
+﻿DisplayName = MIG-17 F
 AddDisplayName = en_US, MIG-17 F
-AddDisplayName = ja_JP, mig17 f
+AddDisplayName = ja_JP, MIG-17 F
 ItemID = 28731
 MaxHp = 100
 EnableNightVision = false

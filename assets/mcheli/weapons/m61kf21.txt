@@ -11,11 +11,9 @@ SoundPitch = 0.7
 Accuracy = 3.0
 HeatCount = 1
 MaxHeatCount = 150
-Sound = gun_l2_snd
 
 Gravity = -0.001
 
-Delay = 0
 SoundVolume = 5.5
 SoundPitch = 5.5
 Accuracy = 3
@@ -29,6 +27,10 @@ DamageFactor = tank, 1.0
 DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
+
+Round = 480
+
+ReloadTime = 120
 
 
 AddMuzzleFlash      =  3.2,      0.62,        1,  150,254,159,84

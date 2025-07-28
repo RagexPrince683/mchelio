@@ -21,7 +21,7 @@ MobilityRoll = 2.0
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
-HUD = plane
+HUD = planenvg
 
 AddSeat = 0.00, 1.30, -0.60
 
@@ -33,18 +33,18 @@ AddPartLG =  0.00,  1.185,  0.078, 1,0,0, 81
 AddPartLG = -2.11, 1.70, -5.80, -1,0,0, 95,  0,0,1, 28
 AddPartLG =  2.11, 1.70, -5.80, -1,0,0, 95,  0,0,-1, 28
 
-AddPartWeaponMissile =  aim120,  false,  false, false,   -3.24, 0.85, -6.00
-AddPartWeaponMissile =  aim120,  false,  false, false,    3.24, 0.85, -6.00
-AddPartWeaponMissile =  aim120,  false,  false, false,   -3.55, 1.27, -6.00
-AddPartWeaponMissile =  aim120,  false,  false, false,    3.55, 1.27, -6.00
-AddPartWeaponMissile =  aim-9x,  false,  false, false,   -4.76, 1.67, -8.00
-AddPartWeaponMissile =  aim-9x,  false,  false, false,    4.76, 1.67, -8.00
+AddPartWeaponMissile =  jasaim120,  false,  false, false,   -3.24, 0.85, -6.00
+AddPartWeaponMissile =  jasaim120,  false,  false, false,    3.24, 0.85, -6.00
+AddPartWeaponMissile =  jasaim120,  false,  false, false,   -3.55, 1.27, -6.00
+AddPartWeaponMissile =  jasaim120,  false,  false, false,    3.55, 1.27, -6.00
+AddPartWeaponMissile =  aim9_mjas39,  false,  false, false,   -4.76, 1.67, -8.00
+AddPartWeaponMissile =  aim9_mjas39,  false,  false, false,    4.76, 1.67, -8.00
 
-AddWeapon =  bk27_1, -0.59, 1.23,  1.78, 0.0, 0.0
-AddWeapon =  aim120, -3.24, 0.85, -6.00,  0.0, 0.0
-AddWeapon =  aim120,  3.24, 0.85, -6.00,  0.0, 0.0
-AddWeapon =  aim120, -3.55, 1.27, -6.00,  0.0, 0.0
-AddWeapon =  aim120,  3.55, 1.27, -6.00,  0.0, 0.0
+AddWeapon =  jasbk27_1, -0.59, 1.23,  1.78, 0.0, 0.0
+AddWeapon =  jasaim120, -3.24, 0.85, -6.00,  0.0, 0.0
+AddWeapon =  jasaim120,  3.24, 0.85, -6.00,  0.0, 0.0
+AddWeapon =  jasaim120, -3.55, 1.27, -6.00,  0.0, 0.0
+AddWeapon =  jasaim120,  3.55, 1.27, -6.00,  0.0, 0.0
 AddWeapon =  aim9_mjas39, -4.76, 1.67, -8.00,  0.0, 0.0
 AddWeapon =  aim9_mjas39,  4.76, 1.67, -8.00,  0.0, 0.0
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0

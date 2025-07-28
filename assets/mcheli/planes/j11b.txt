@@ -30,7 +30,7 @@ AddSeat = 0.00, 3.24, 0.00
 
 
 
-MobilityYaw = 10.0
+MobilityYaw = 8.0
 MobilityRoll = 2.0
 MobilityPitch = 4.5
 
@@ -57,32 +57,45 @@ AddPartLG = -2.4466,  2.0670, -9.8678,  850.00, -100.00,-250.00,  -90
 
 
 
-AddPartWeaponMissile = yj-91,    false,  false,  false,   0.00, 0.8485, -7.53
-AddPartWeaponMissile = yj-91,    false,  false,  false,   0.00, 0.8485, -12.50
-AddPartWeaponMissile = KD-88,   false,  false,  false,   -3.2046, 1.2159, -8.4029
-AddPartWeaponMissile = KD-88,   false,  false,  false,    3.2046, 1.2159, -8.4029
-AddPartWeaponMissile= Kh-59ME,  false,  false,  false,  -5.87, 1.39, -8.17
-AddPartWeaponMissile= Kh-59ME,  false,  false,  false,  5.87, 1.39, -8.17
-AddPartWeaponMissile= Kh-59ME2,  false,  false,  false,  -7.35, 1.90, -8.64
-AddPartWeaponMissile= Kh-59ME2,  false,  false,  false,  7.35, 1.90, -8.64
-AddPartWeaponMissile= PL-12,  false,  false,  false, -8.55, 1.84, -10.31
-AddPartWeaponMissile= PL-12,  false,  false,  false, 8.55, 1.84, -10.31
-AddPartWeaponMissile= PL-8,  false,  false,  false, -9.39, 1.20, -12.44
-AddPartWeaponMissile= PL-8,  false,  false,  false, 9.39, 1.20, -12.44
+AddPartWeaponMissile = j11yj-91,    false,  false,  false,   0.00, 0.8485, -7.53
+AddPartWeaponMissile = j11yj-91,    false,  false,  false,   0.00, 0.8485, -12.50
+AddPartWeaponMissile = j11kd-88,   false,  false,  false,   -3.2046, 1.2159, -8.4029
+AddPartWeaponMissile = j11kd-88,   false,  false,  false,    3.2046, 1.2159, -8.4029
+AddPartWeaponMissile= j11kh-59me,  false,  false,  false,  -5.87, 1.39, -8.17
+AddPartWeaponMissile= j11kh-59me,  false,  false,  false,  5.87, 1.39, -8.17
+AddPartWeaponMissile= j11kh-59me,  false,  false,  false,  -7.35, 1.90, -8.64
+AddPartWeaponMissile= j11kh-59me,  false,  false,  false,  7.35, 1.90, -8.64
+AddPartWeaponMissile= j11pl-12,  false,  false,  false, -8.55, 1.84, -10.31
+AddPartWeaponMissile= j11pl-12,  false,  false,  false, 8.55, 1.84, -10.31
+AddPartWeaponMissile= j11pl-8,  false,  false,  false, -9.39, 1.20, -12.44
+AddPartWeaponMissile= j11pl-8,  false,  false,  false, 9.39, 1.20, -12.44
 
-AddWeapon = gsh-30-1, -1.15,  2.11,  0.57
-AddWeapon = yj-91,  0.00, 0.8485, -7.53,   2.0, -3.0
-AddWeapon = yj-91,  0.00, 0.8485, -12.50,   2.0, -3.0
-AddWeapon = KD-88, -3.2046, 1.2159, -8.4029,   2.0, -3.0
-AddWeapon = KD-88,  3.2046, 1.2159, -8.4029,   2.0, -3.0
-AddWeapon = Kh-59ME,   -5.87, 1.39, -8.17,   2.0, -3.0
-AddWeapon = Kh-59ME,    5.87, 1.39, -8.17,   2.0, -3.0
-AddWeapon = Kh-59ME2,    -7.35, 1.90, -8.64,   2.0, -3.0
-AddWeapon = Kh-59ME2,    7.35, 1.90, -8.64,   2.0, -3.0
-AddWeapon = PL-12_2,   -8.55, 1.84, -10.31,   2.0, -3.0
-AddWeapon = PL-12_2,   8.55, 1.84, -10.31,   2.0, -3.0
-AddWeapon = PL-8, -9.39, 1.20, -12.44,   2.0, -3.0
-AddWeapon = PL-8, 9.39, 1.20, -12.44,   2.0, -3.0
+;150rnds
+AddWeapon = j11gsh-30-1, -1.15,  2.11,  0.57
+
+;2
+AddWeapon = j11yj-91,  0.00, 0.8485, -7.53,   2.0, -3.0
+AddWeapon = j11yj-91,  0.00, 0.8485, -12.50,   2.0, -3.0
+
+;2
+AddWeapon = j11kd-88, -3.2046, 1.2159, -8.4029,   2.0, -3.0
+AddWeapon = j11kd-88,  3.2046, 1.2159, -8.4029,   2.0, -3.0
+
+;4
+AddWeapon = j11kh-59me,   -5.87, 1.39, -8.17,   2.0, -3.0
+AddWeapon = j11kh-59me,    5.87, 1.39, -8.17,   2.0, -3.0
+AddWeapon = j11kh-59me,    -7.35, 1.90, -8.64,   2.0, -3.0
+AddWeapon = j11kh-59me,    7.35, 1.90, -8.64,   2.0, -3.0
+
+;2
+AddWeapon = j11pl-12_2,   -8.55, 1.84, -10.31,   2.0, -3.0
+AddWeapon = j11pl-12_2,   8.55, 1.84, -10.31,   2.0, -3.0
+
+;2
+AddWeapon = j11pl-8, -9.39, 1.20, -12.44,   2.0, -3.0
+AddWeapon = j11pl-8, 9.39, 1.20, -12.44,   2.0, -3.0
+
+
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
 
 

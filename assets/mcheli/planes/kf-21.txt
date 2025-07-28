@@ -65,36 +65,36 @@ AddPartLGRev = -1.448, 1.114, -4.62, 0,0,1, 150
 AddPartLGRev = -1.89, 2.078, -5.7, 0,0,-1, 30
 
 ;WEAPON_COUNT
-AddPartWeaponMissile = meteor_k,  false, false, false,  0.75, 0.99, -4.3
-AddPartWeaponMissile = meteor_k,  false, false, false, -0.75, 0.99, -4.3
-AddPartWeaponMissile = meteor_k,  false, false, false,   0.25, 0.99, -4.15
-AddPartWeaponMissile = meteor_k,  false, false, false,  -0.25, 0.99, -4.15
+AddPartWeaponMissile = kfmeteor_k,  false, false, false,  0.75, 0.99, -4.3
+AddPartWeaponMissile = kfmeteor_k,  false, false, false, -0.75, 0.99, -4.3
+AddPartWeaponMissile = kfmeteor_k,  false, false, false,   0.25, 0.99, -4.15
+AddPartWeaponMissile = kfmeteor_k,  false, false, false,  -0.25, 0.99, -4.15
 
-AddPartWeaponMissile = chunryong, false, false, false, 2.92, 1.38, -5.67
-AddPartWeaponMissile = chunryong, false, false, false, -2.92, 1.38, -5.67
+AddPartWeaponMissile = kfchunryong, false, false, false, 2.92, 1.38, -5.67
+AddPartWeaponMissile = kfchunryong, false, false, false, -2.92, 1.38, -5.67
 
-AddPartWeaponMissile = agm-65_1, false, false, false, 4.0, 1.45, -5.92
-AddPartWeaponMissile = agm-65_1, false, false, false, -4.0, 1.45, -5.92
+AddPartWeaponMissile = kfagm-65_1, false, false, false, 4.0, 1.45, -5.92
+AddPartWeaponMissile = kfagm-65_1, false, false, false, -4.0, 1.45, -5.92
 
-AddPartWeaponMissile = iris-t, false, false, false, 5.17, 1.43, -6.56
-AddPartWeaponMissile = iris-t, false, false, false, -5.17, 1.43, -6.56
+AddPartWeaponMissile = kfiris-t, false, false, false, 5.17, 1.43, -6.56
+AddPartWeaponMissile = kfiris-t, false, false, false, -5.17, 1.43, -6.56
 
 ;WEAPON
 AddWeapon = m61kf21,  1.46, 2.36, -1.15,  0.0, 0.0
 
-AddWeapon = meteor_k,  0.75, 0.99, -4.3,   1.0, 0.0
-AddWeapon = meteor_k, -0.75, 0.99, -4.3,  -1.0, 0.0
-AddWeapon = meteor_k,  0.25, 0.99, -4.15,  1.0, 0.0
-AddWeapon = meteor_k, -0.25, 0.99, -4.15,  -1.0, 0.0
+AddWeapon = kfmeteor_k,  0.75, 0.99, -4.3,   1.0, 0.0
+AddWeapon = kfmeteor_k, -0.75, 0.99, -4.3,  -1.0, 0.0
+AddWeapon = kfmeteor_k,  0.25, 0.99, -4.15,  1.0, 0.0
+AddWeapon = kfmeteor_k, -0.25, 0.99, -4.15,  -1.0, 0.0
 
-AddWeapon = chunryong, 2.92, 1.38, -5.67, 0.0, 0.0
-AddWeapon = chunryong, -2.92, 1.38, -5.67, 0.0, 0.0
+AddWeapon = kfchunryong, 2.92, 1.38, -5.67, 0.0, 0.0
+AddWeapon = kfchunryong, -2.92, 1.38, -5.67, 0.0, 0.0
 
-AddWeapon = agm-65_1, 4.0, 1.45, -5.92, 0.0, 0.0
-AddWeapon = agm-65_1, -4.0, 1.45, -5.92, 0.0, 0.0
+AddWeapon = kfagm-65_1, 4.0, 1.45, -5.92, 0.0, 0.0
+AddWeapon = kfagm-65_1, -4.0, 1.45, -5.92, 0.0, 0.0
 
-AddWeapon = iris-t, 5.17, 1.43, -6.56, 0.0, 0.0
-AddWeapon = iris-t, -5.17, 1.43, -6.56, 0.0, 0.0
+AddWeapon = kfiris-t, 5.17, 1.43, -6.56, 0.0, 0.0
+AddWeapon = kfiris-t, -5.17, 1.43, -6.56, 0.0, 0.0
 
 AddWeapon = targeting_pod_ph50s,   0.0, 2.1, 1.4,    0.0, 0.0
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0

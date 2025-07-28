@@ -46,21 +46,21 @@ AddPartLG =  1.8, 1.40, -3.0,  0,0,-1, 90
 AddPartLG = -1.8, 1.40, -3.0,  0,0,1, 90
 
 ;WEAPON_COUNT
-AddPartWeaponMissile = k-13,  false, false, false,  3.369, 0.878, 3.968
-AddPartWeaponMissile = k-13,  false, false, false,  -3.369, 0.878, 3.968
-AddPartWeaponMissile = k-13,  false, false, false,  0.241, 0.918, -2.842
-AddPartWeaponMissile = k-13,  false, false, false,  -0.241, 0.918, -2.842
+AddPartWeaponMissile = m21k-13,  false, false, false,  3.369, 0.878, 3.968
+AddPartWeaponMissile = m21k-13,  false, false, false,  -3.369, 0.878, 3.968
+AddPartWeaponMissile = m21k-13,  false, false, false,  0.241, 0.918, -2.842
+AddPartWeaponMissile = m21k-13,  false, false, false,  -0.241, 0.918, -2.842
 
 AddPartWeaponMissile = droptank, false, false, false, 0.0, 0.246, -1.74
 
 ;WEAPON
-AddWeapon = gsh-23l, 0.3, 0.75, 1.6, 0.0, -0.5
-AddWeapon = gsh-23l, -0.3, 0.75, 1.6, 0.0, -0.5
+AddWeapon = m21gsh-23l, 0.3, 0.65, 0.0, 0.0, -0.5
+AddWeapon = m21gsh-23l, -0.3, 0.65, 0.0, 0.0, -0.5
 
-AddWeapon = k-13,   3.369, 0.878, 3.968,   1.0, 0.0
-AddWeapon = k-13,  -3.369, 0.878, 3.968,   -1.0, 0.0
-AddWeapon = k-13,   0.241, 0.918, -2.842,   1.0, 0.0
-AddWeapon = k-13,  -0.241, 0.918, -2.842,   -1.0, 0.0
+AddWeapon = m21k-13,   3.369, 0.878, 3.968,   1.0, 0.0
+AddWeapon = m21k-13,  -3.369, 0.878, 3.968,   -1.0, 0.0
+AddWeapon = m21k-13,   0.241, 0.918, -2.842,   1.0, 0.0
+AddWeapon = m21k-13,  -0.241, 0.918, -2.842,   -1.0, 0.0
 
 ;AddWeapon = droptank, 0.0, 0.246, -1.74,  0.0, 0.0
 

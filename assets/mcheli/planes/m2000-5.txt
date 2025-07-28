@@ -1,6 +1,6 @@
 DisplayName = Mirage 2000-5F
-AddDisplayName = en_US, Mirage 2000-5
-AddDisplayName = ja_JP, Mirage 2000-5
+AddDisplayName = en_US, Mirage 2000-5F
+AddDisplayName = ja_JP, Mirage 2000-5F
 MaxHp = 200
 Speed = 1.75
 Sound = miragetwothousand
@@ -8,7 +8,7 @@ ThrottleUpDown = 0.3
 MaxFuel = 1200
 FuelConsumption = 1.0
 FlareType = 3
-EnableNightVision = true
+EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
 EnableSeaSurfaceParticle = true
@@ -16,14 +16,14 @@ ParticlesScale = 0.7
 ThirdPersonDist = 20
 Category = M.F
 
-;modern light plane (late jet), AOW3 style (fcs)
+;modern light plane (erl jet), AOW3 style (fcs)
 AddRecipe = "ABC", "DEF", "GG ", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:fcs, G, mcheli:electronics
 
 
 AddSeat = 0.00,  1.75, 0.6
 unmountposition = 0.00,  1.5, 0.6
 AddPartCanopy = 0.0, 3.10, -0.185,  -1,0,0,  60
-HUD = plane
+HUD = planenvg
 
 AddTexture = m2000-5_corse
 AddTexture = m2000-5eg
@@ -53,24 +53,24 @@ MobilityRoll = 1.5
 ;OnGroundPitch = 3
 
 ;weapon
-AddWeapon = defa554,  0.663, 1.29, -1.07,  0.0, 0.0
-AddWeapon = defa554,  -0.663, 1.29, -1.07,  0.0, 0.0
+AddWeapon = mirdefa554,  0.663, 1.29, -1.07,  0.0, 0.0
+AddWeapon = mirdefa554,  -0.663, 1.29, -1.07,  0.0, 0.0
 
-AddWeapon = mica,  0.97, 1.042, -1.6557,   1.0, 0.0
-AddWeapon = mica,  -0.97, 1.042, -1.6557,   1.0, 0.0
-AddWeapon = mica,  0.97, 0.9936, -5.5936,   1.0, 0.0
-AddWeapon = mica,  -0.97, 0.9936, -5.5936,   1.0, 0.0
+AddWeapon = mirmica,  0.97, 1.042, -1.6557,   1.0, 0.0
+AddWeapon = mirmica,  -0.97, 1.042, -1.6557,   1.0, 0.0
+AddWeapon = mirmica,  0.97, 0.9936, -5.5936,   1.0, 0.0
+AddWeapon = mirmica,  -0.97, 0.9936, -5.5936,   1.0, 0.0
 
 AddWeapon = mirr550_2, 3.72, 0.78, -5.96, 0.0, 0.0
 AddWeapon = mirr550_2, -3.72, 0.78, -5.96, 0.0, 0.0
 
-AddPartWeaponMissile = mica,  false, false, false, 0.97, 1.042, -1.6557
-AddPartWeaponMissile = mica,  false, false, false, -0.97, 1.042, -1.6557
+AddPartWeaponMissile = mirmica,  false, false, false, 0.97, 1.042, -1.6557
+AddPartWeaponMissile = mirmica,  false, false, false, -0.97, 1.042, -1.6557
 
 ;;y17.20, z70.43
 
-AddPartWeaponMissile = mica,  false, false, false, 0.97, 0.9936, -5.5936
-AddPartWeaponMissile = mica,  false, false, false, -0.97, 0.9936, -5.5936
+AddPartWeaponMissile = mirmica,  false, false, false, 0.97, 0.9936, -5.5936
+AddPartWeaponMissile = mirmica,  false, false, false, -0.97, 0.9936, -5.5936
 
 ;13.36, -70.64
 

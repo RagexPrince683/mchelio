@@ -8,7 +8,7 @@ ThrottleUpDown = 0.3
 MaxFuel = 1200
 FuelConsumption = 1.0
 FlareType = 3
-EnableNightVision = true
+EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
 EnableSeaSurfaceParticle = true
@@ -55,17 +55,18 @@ AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:advancedmechanic
 
 
 ;weapon
-AddWeapon = defa554,  0.663, 1.29, -1.07,  0.0, 0.0
-AddWeapon = defa554,  -0.663, 1.29, -1.07,  0.0, 0.0
+AddWeapon = mirdefa554,  0.663, 1.29, -1.07,  0.0, 0.0
+AddWeapon = mirdefa554,  -0.663, 1.29, -1.07,  0.0, 0.0
 
-AddWeapon = mica,  0.97, 0.87, -2.36,   1.0, 0.0
-AddWeapon = mica,  -0.97, 0.87, -2.36,   1.0, 0.0
-AddWeapon = mica,  0.97, 0.86, -6.30,   1.0, 0.0
-AddWeapon = mica,  -0.97, 0.86, -6.30,   1.0, 0.0
+AddWeapon = mirmica,  0.97, 0.87, -2.36,   1.0, 0.0
+AddWeapon = mirmica,  -0.97, 0.87, -2.36,   1.0, 0.0
+AddWeapon = mirmica,  0.97, 0.86, -6.30,   1.0, 0.0
+AddWeapon = mirmica,  -0.97, 0.86, -6.30,   1.0, 0.0
 
 AddWeapon = mirr550_2, 3.72, 0.78, -5.96, 0.0, 0.0
 AddWeapon = mirr550_2, -3.72, 0.78, -5.96, 0.0, 0.0
 
+;todo replace with 1 250kg
 AddWeapon = ft_m2k, 0.0, 0.574, -3.4, 0.0, 0.0
 
 ;weapon-parts

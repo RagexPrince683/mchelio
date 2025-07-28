@@ -21,7 +21,7 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
-ReloadTime = 150
+ReloadTime = 1000
 Round = 6
 
 MaxAmmo = 6
