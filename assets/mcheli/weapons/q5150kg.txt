@@ -1,11 +1,11 @@
-DisplayName = 150kg Bomb
+DisplayName = 150kg Y-50 Bomb
 Type = Bomb
 Power = 300
 ;bomb rewrite
 Acceleration = 0.4
-Explosion = 10
-;Explosive mass	75 kg
-ExplosionInWater = 5
+Explosion = 8
+;Explosive mass	45 kg
+ExplosionInWater = 4
 Flaming = false
 Sight = None
 Delay = 5
@@ -21,9 +21,9 @@ ModelBullet = 150kg
 
 
 ReloadTime = 1500
-Round = 8
+Round = 4
 
-MaxAmmo = 8
+MaxAmmo = 4
 SuppliedNum = 1
 Item =  4, iron_ingot
 Item =  4, gunpowder

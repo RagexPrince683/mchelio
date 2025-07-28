@@ -8,7 +8,7 @@ Flaming = false
 Sight = MoveSight
 Delay = 0
 ReloadTime = 170
-Round = 200
+Round = 240
 SoundVolume = 15
 SoundPitch = 1.0
 Sound = shilka
@@ -30,7 +30,7 @@ DamageFactor = player, 20.0
 
 
 
-MaxAmmo = 600
-SuppliedNum = 200
+MaxAmmo = 240
+SuppliedNum = 120
 Item =  3, iron_ingot
 Item =  2, gunpowder
