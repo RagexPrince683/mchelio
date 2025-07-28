@@ -43,20 +43,20 @@ AddPartLG =  2.1, 1.45, -5.09, 0,0,-1, 99
 AddPartLG = -2.1, 1.45, -5.09, 0,0,1, 99
 
 ;WEAPON_COUNT
-AddPartWeaponMissile = r550,  false, false, false,  4.045, 0.945, -6.67
-AddPartWeaponMissile = r550,  false, false, false,  -4.045, 0.945, -6.67
-AddPartWeaponMissile = r530,  false, false, false,  0.0, 0.888, -2.278
+AddPartWeaponMissile = mir3r550,  false, false, false,  4.045, 0.945, -6.67
+AddPartWeaponMissile = mir3r550,  false, false, false,  -4.045, 0.945, -6.67
+AddPartWeaponMissile = mir3r530,  false, false, false,  0.0, 0.888, -2.278
 
 ;WEAPON
-AddWeapon = defa552, 0.753, 1.38, -0.31, 0.0, -0.5
-AddWeapon = defa552, -0.753, 1.38, -0.31, 0.0, -0.5
+AddWeapon = mir3defa552, 0.753, 1.38, -0.31, 0.0, -0.5
+AddWeapon = mir3defa552, -0.753, 1.38, -0.31, 0.0, -0.5
 
-AddWeapon = r550,   4.045, 0.945, -6.67,   1.0, 0.0
-AddWeapon = r550,  -4.045, 0.945, -6.67,   -1.0, 0.0
-AddWeapon = r530,   0.0, 0.888, -2.278,   0.0, 0.0
+AddWeapon = mir3r550,   4.045, 0.945, -6.67,   1.0, 0.0
+AddWeapon = mir3r550,  -4.045, 0.945, -6.67,   -1.0, 0.0
+AddWeapon = mir3r530,   0.0, 0.888, -2.278,   0.0, 0.0
 
-AddWeapon = sneb,   3.157, 0.99, -2.171,   1.0, 0.0
-AddWeapon = sneb,  -3.157, 0.99, -2.171,   -1.0, 0.0
+AddWeapon = mir3sneb,   3.157, 0.99, -2.171,   1.0, 0.0
+AddWeapon = mir3sneb,  -3.157, 0.99, -2.171,   -1.0, 0.0
 
 ;HITBOX
 BoundingBox =  0.00, 2.3, -0.2,  2.0, 1.8

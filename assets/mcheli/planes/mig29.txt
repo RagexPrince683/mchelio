@@ -19,7 +19,7 @@ Sound = migtwentynine
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
-HUD = plane
+HUD = planenvg
 
 EntityWidth  = 0.75
 EntityHeight = 0.75
@@ -38,16 +38,23 @@ AddPartLG =  1.83, 1.73, -6.80,  0,0,-1,  95
 AddPartLG =  1.80, 1.05, -5.42,  0,0,-1,  63
 AddPartLG =  1.66, 1.75, -8.00, -1,0, 0,  90, 0,-1,0,90
 
-AddPartWeaponMissile = r-60,  false, false, false,   5.13, 1.75, -6.70
-AddPartWeaponMissile = r-60,  false, false, false,  -5.13, 1.75, -6.70
-AddPartWeaponMissile = kh-25, false, false, false,   3.66, 1.65, -5.65
-AddPartWeaponMissile = kh-25, false, false, false,  -3.66, 1.65, -5.65
+AddPartWeaponMissile = r73mig29,  false, false, false,   5.13, 1.75, -6.70
+AddPartWeaponMissile = r73mig29,  false, false, false,  -5.13, 1.75, -6.70
+AddPartWeaponMissile = mig29kh-25, false, false, false,   3.66, 1.65, -5.65
+AddPartWeaponMissile = mig29kh-25, false, false, false,  -3.66, 1.65, -5.65
 
-AddWeapon = gsh-30-1,  0.75, 1.94, -0.30,   0.0, -1.0
-AddWeapon = s8,       -2.55, 1.57, -5.14,   0.0, -1.0
-AddWeapon = s8,        2.55, 1.57, -5.14,   0.0, -1.0
-AddWeapon = kh-25,     3.66, 1.65, -5.65,   0.0, -1.0
-AddWeapon = kh-25,    -3.66, 1.65, -5.65,   0.0, -1.0
+;150rnd
+AddWeapon = mig29gsh-30-1,  0.75, 1.94, -0.30,   0.0, -1.0
+
+;40
+AddWeapon = mig29s8,       -2.55, 1.57, -5.14,   0.0, -1.0
+AddWeapon = mig29s8,        2.55, 1.57, -5.14,   0.0, -1.0
+
+;2
+AddWeapon = mig29kh-25,     3.66, 1.65, -5.65,   0.0, -1.0
+AddWeapon = mig29kh-25,    -3.66, 1.65, -5.65,   0.0, -1.0
+
+;2
 AddWeapon = r73mig29,      5.13, 1.75, -6.70,   0.0, -1.0
 AddWeapon = r73mig29,     -5.13, 1.75, -6.70,   0.0, -1.0
 
