@@ -14,11 +14,11 @@ DisableSmoke = true
 nukeyield = 115
 
 Delay = 5
-Round = 3
+Round = 1
 ReloadTime = 1800
 
 
-MaxAmmo = 3
+MaxAmmo = 1
 SuppliedNum = 1
 
 ;350kt eg
