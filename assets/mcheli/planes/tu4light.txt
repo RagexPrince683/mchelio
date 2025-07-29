@@ -1,5 +1,5 @@
-DisplayName = Tupolev Tu-4 (Light)
-AddDisplayName = en_US, Tupolev Tu-4 (Light)
+DisplayName = Tupolev Tu-4
+AddDisplayName = en_US, Tupolev Tu-4
 AddDisplayName = ja_JP, Tu-4 スーパーフォートレス
 ItemID = 28779
 MaxHp = 250
@@ -12,8 +12,8 @@ CameraPosition = 2.0, 1.40, -4.0
 ;EnableEntityRadar = true
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
-InventorySize = 18
-MaxFuel         = 4200
+InventorySize = 9
+MaxFuel         = 4800
 FuelConsumption = 1.7
 ThirdPersonDist = 40
 
@@ -24,7 +24,7 @@ UnmountPosition = 3.0, 2.0, -4.0
 ; W = WWII.  A = Attacker(攻撃機)
 Category = W.A
 
-HUD = plane_wwii, gunner, none, gunner, gunner, gunner
+HUD = plane_wwii, gunner, none, gunner, gunner, gunner, gunner, gunner
 
 MobilityYaw = 0.4
 MobilityPitch = 0.4

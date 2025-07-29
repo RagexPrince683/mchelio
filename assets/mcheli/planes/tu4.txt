@@ -1,6 +1,6 @@
-DisplayName = Tupolev Tu-4
-AddDisplayName = en_US, Tupolev Tu-4
-AddDisplayName = ja_JP, Tu-4 スーパーフォートレス
+DisplayName = Tupolev Tu-4A
+AddDisplayName = en_US, Tupolev Tu-4A
+AddDisplayName = ja_JP, Tu-4A スーパーフォートレス
 ItemID = 28777
 MaxHp = 250
 Speed = 0.60378
@@ -116,8 +116,8 @@ AddPartWeapon = ns23tu4e, false, true, true,  0.00, 1.81, -27.5118
 ;rear
 AddPartWeapon = ns23tu4c, false, true, true,  0.00, 3.59, -34.84
 
-AddPartWeaponBay = fab5000 / fatmanrussian,  0.98, 0.88, -12.3, 0, 0,  1, 90
-AddPartWeaponBay = fab5000 / fatmanrussian, -0.98, 0.88, -12.3, 0, 0, -1, 90
+AddPartWeaponBay = fatmanrussian,  0.98, 0.88, -12.3, 0, 0,  1, 90
+AddPartWeaponBay = fatmanrussian, -0.98, 0.88, -12.3, 0, 0, -1, 90
 
 
 ;;top cupola front
@@ -141,16 +141,16 @@ AddWeapon = ns23tu4e,   0.16,  1.81, -27.5118, 0.0, 0.0, false, 8,    0, -360, 3
 
 AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
 
-AddWeapon = fab5000,       0.55,  1.08,  -6.0, 0, 90, true,  1
-AddWeapon = fab5000,      -0.55,  1.08,  -6.0, 0, 90, true,  1
-AddWeapon = fab5000,       0.55,  1.08, -13.0, 0, 90, true,  1
-AddWeapon = fab5000,      -0.55,  1.08, -13.0, 0, 90, true,  1
-AddWeapon = fab5000,       0.55,  1.08,  -8.0, 0, 90, true,  1
-AddWeapon = fab5000,      -0.55,  1.08,  -8.0, 0, 90, true,  1
-AddWeapon = fab5000,       0.55,  1.08, -16.0, 0, 90, true,  1
-AddWeapon = fab5000,      -0.55,  1.08, -16.0, 0, 90, true,  1
+;AddWeapon = fab5000,       0.55,  1.08,  -6.0, 0, 90, true,  1
+;AddWeapon = fab5000,      -0.55,  1.08,  -6.0, 0, 90, true,  1
+;AddWeapon = fab5000,       0.55,  1.08, -13.0, 0, 90, true,  1
+;AddWeapon = fab5000,      -0.55,  1.08, -13.0, 0, 90, true,  1
+;AddWeapon = fab5000,       0.55,  1.08,  -8.0, 0, 90, true,  1
+;AddWeapon = fab5000,      -0.55,  1.08,  -8.0, 0, 90, true,  1
+;AddWeapon = fab5000,       0.55,  1.08, -16.0, 0, 90, true,  1
+;AddWeapon = fab5000,      -0.55,  1.08, -16.0, 0, 90, true,  1
 
-AddWeapon = fatmanrussian,      -0.55,  1.08, -16.0, 0, 90, true,  1
+AddWeapon = fatmanrussian,      -0.0,  1.08, -16.0, 0, 90, true,  1
 
 ;;AddWeapon = ruanm17allc,   0.55,  1.08,  -6.0, 0, 90, true,  1
 ;;AddWeapon = ruanm17allc,  -0.55,  1.08,  -6.0, 0, 90, true,  1
