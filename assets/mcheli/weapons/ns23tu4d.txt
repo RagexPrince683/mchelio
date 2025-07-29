@@ -1,4 +1,4 @@
-DisplayName = 23mm NS-23 Automatic Cannon B
+DisplayName = 23mm NS-23 Automatic Cannon D
 Type = MachineGun1
 Power = 20
 Acceleration = 5.5
@@ -12,13 +12,16 @@ Accuracy = 4.0
 Particle = largeexplode
 HeatCount = 4
 MaxHeatCount = 200
-;;Sound = mk108_snd
-;;SoundPitch = 2.0
+;Sound = mk108_snd
+;SoundPitch = 2.0
+
 
 Power = 18
 Sound = shilka
 Acceleration = 7.5
 Gravity = -0.005
+
+
 
 Acceleration = 7.5
 Piercing = 0

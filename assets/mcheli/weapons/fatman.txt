@@ -1,4 +1,4 @@
-DisplayName = Fat Man Nuclear Bomb [20KT AIRBURST - 457M]
+DisplayName = Fat Man Nuclear Bomb [20KT AIRBURST - 114M]
 ;Type = Nuke
 Type = bomb
 nukeYield = 60
@@ -22,7 +22,11 @@ Explosion = 1
 
 ;457m above
 ;ProximityFuseDist = 457.0
-ExplosionAltitude = 457
+;ExplosionAltitude = 457
+
+;not fun from gameplay perspective :c
+;let's divide that by 4!
+ExplosionAltitude = 114
 
 ;Power = 329
 Acceleration = 0.3

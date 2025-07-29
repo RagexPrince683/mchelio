@@ -15,7 +15,7 @@ CameraPosition = 2.0, 1.40, -4.0
 ;EnableEntityRadar = true
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
-InventorySize = 18
+InventorySize = 9
 MaxFuel         = 4800
 FuelConsumption = 2.0
 
