@@ -49,14 +49,14 @@ AddGunnerSeat =  0.00, 2.0,  -3.4235,  0.00, 0.10,  -3.4235
 AddGunnerSeat =  0.00, 3.2,  -5.05,  0.00, 4.36, -5.05,  false,  -90, 5, false
 
 ;6th seat rear gun
-AddGunnerSeat =  0.00, 2.5, -30.00,  0.00, 4, -35, false, -30, 30, false
+AddGunnerSeat =  0.00, 3.8, -34.00,  0.00, 5, -34.7, false, -30, 30, false
 
 
 ;7th seat top cupola BACK
 AddGunnerSeat =  0.00, 3.2, -18.8103,  0.00, 4.36, -18.8103, false, -90, 5, false
 
 ;8th seat lower cupola BACK
-AddGunnerSeat =  0.00, 1.9, -27.5118,  0.00, 1.8, -27.5118, false, -5, 90, false
+AddGunnerSeat =  0.00, 1.9, -27.5118,  0.00, 1.4, -27.5118, false, -5, 90, false
 
 
 
@@ -114,10 +114,10 @@ AddPartWeaponBay = 250kg / anm17allc/ littleboy / fatman, -0.98, 0.88, -12.3, 0,
 
 
 ;top cupola front
-AddWeapon = b29mg12_7mm_tf,   0.29,  4.31, -2.8227,  0.0, 0.0, false,  5,    0, -360, 360, -90, 5
-AddWeapon = b29mg12_7mm_tf,  -0.29,  4.31, -2.8227,  0.0, 0.0, false,  5,    0, -360, 360, -90, 5
-AddWeapon = b29mg12_7mm_tf,   0.12,  4.4,  -2.8227,  0.0, 0.0, false,  5,    0, -360, 360, -90, 5
-AddWeapon = b29mg12_7mm_tf,  -0.12,  4.4,  -2.8227,  0.0, 0.0, false,  5,    0, -360, 360, -90, 5
+AddWeapon = b29mg12_7mm_tf,   0.29,  4.31, -2.8227,  0.0, 0, false,  5,    0, -360, 360, -90, 5
+AddWeapon = b29mg12_7mm_tf,  -0.29,  4.31, -2.8227,  0.0, 0, false,  5,    0, -360, 360, -90, 5
+AddWeapon = b29mg12_7mm_tf,   0.12,  4.4,  -2.8227,  0.0, 0, false,  5,    0, -360, 360, -90, 5
+AddWeapon = b29mg12_7mm_tf,  -0.12,  4.4,  -2.8227,  0.0, 0, false,  5,    0, -360, 360, -90, 5
 
 
 
@@ -131,8 +131,8 @@ AddWeapon = b29mg12_7mm_uf,   0.16,  0.36, -3.4235,  0.0, 0.0, false, 4,    0, -
 
 
 ;rear gun
-AddWeapon = b29mg12_7mm_rr,  -0.16,  3.59, -36.0,  0.0, 0.0, false, 6, -180,  -60,  60, -75, 60
-AddWeapon = b29mg12_7mm_rr,   0.16,  3.59, -36.0,  0.0, 0.0, false, 6, -180,  -60,  60, -75, 60
+AddWeapon = b29mg12_7mm_rr,  -0.16,  3.59, -34.84,  0.0, 0.0, false, 6, -180,  -30,  30, -30, 30
+AddWeapon = b29mg12_7mm_rr,   0.16,  3.59, -34.84,  0.0, 0.0, false, 6, -180,  -30,  30, -30, 30
 
 
 ;top cupola back
@@ -143,27 +143,29 @@ AddWeapon = b29mg12_7mm_tf2,   0.16,  4.4,  -20.5399, 0.0, 0.0, false,  7,    0,
 AddWeapon = b29mg12_7mm_uf2,  -0.16,  1.81, -27.5118, 0.0, 0.0, false, 8,    0, -360, 360, -5,  90
 AddWeapon = b29mg12_7mm_uf2,   0.16,  1.81, -27.5118, 0.0, 0.0, false, 8,    0, -360, 360, -5,  90
 
+AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
 
-AddWeapon = 250kg,       0.55,  1.08,  -6.0, 0, 90, true,  1
-AddWeapon = 250kg,      -0.55,  1.08,  -6.0, 0, 90, true,  1
-AddWeapon = 250kg,       0.55,  1.08, -13.0, 0, 90, true,  1
-AddWeapon = 250kg,      -0.55,  1.08, -13.0, 0, 90, true,  1
-AddWeapon = 250kg,       0.55,  1.08,  -8.0, 0, 90, true,  1
-AddWeapon = 250kg,      -0.55,  1.08,  -8.0, 0, 90, true,  1
-AddWeapon = 250kg,       0.55,  1.08, -16.0, 0, 90, true,  1
-AddWeapon = 250kg,      -0.55,  1.08, -16.0, 0, 90, true,  1
 
-AddWeapon = anm17allc,   0.55,  1.08,  -6.0, 0, 90, true,  1
-AddWeapon = anm17allc,  -0.55,  1.08,  -6.0, 0, 90, true,  1
-AddWeapon = anm17allc,   0.55,  1.08, -13.0, 0, 90, true,  1
-AddWeapon = anm17allc,  -0.55,  1.08, -13.0, 0, 90, true,  1
-AddWeapon = anm17allc,   0.55,  1.08,  -8.0, 0, 90, true,  1
-AddWeapon = anm17allc,  -0.55,  1.08,  -8.0, 0, 90, true,  1
-AddWeapon = anm17allc,   0.55,  1.08, -16.0, 0, 90, true,  1
-AddWeapon = anm17allc,  -0.55,  1.08, -16.0, 0, 90, true,  1
+AddWeapon = 250kg,       0.55,  1.08,  -6.0, 0, 90, true,  2
+AddWeapon = 250kg,      -0.55,  1.08,  -6.0, 0, 90, true,  2
+AddWeapon = 250kg,       0.55,  1.08, -13.0, 0, 90, true,  2
+AddWeapon = 250kg,      -0.55,  1.08, -13.0, 0, 90, true,  2
+AddWeapon = 250kg,       0.55,  1.08,  -8.0, 0, 90, true,  2
+AddWeapon = 250kg,      -0.55,  1.08,  -8.0, 0, 90, true,  2
+AddWeapon = 250kg,       0.55,  1.08, -16.0, 0, 90, true,  2
+AddWeapon = 250kg,      -0.55,  1.08, -16.0, 0, 90, true,  2
 
-AddWeapon = littleboy,      -0.55,  1.08, -16.0, 0, 90, true,  1
-AddWeapon = fatman,      -0.55,  1.08, -16.0, 0, 90, true,  1
+AddWeapon = anm17allc,   0.55,  1.08,  -6.0, 0, 90, true,  2
+AddWeapon = anm17allc,  -0.55,  1.08,  -6.0, 0, 90, true,  2
+AddWeapon = anm17allc,   0.55,  1.08, -13.0, 0, 90, true,  2
+AddWeapon = anm17allc,  -0.55,  1.08, -13.0, 0, 90, true,  2
+AddWeapon = anm17allc,   0.55,  1.08,  -8.0, 0, 90, true,  2
+AddWeapon = anm17allc,  -0.55,  1.08,  -8.0, 0, 90, true,  2
+AddWeapon = anm17allc,   0.55,  1.08, -16.0, 0, 90, true,  2
+AddWeapon = anm17allc,  -0.55,  1.08, -16.0, 0, 90, true,  2
+
+AddWeapon = littleboy,   -0.55,  1.08, -16.0, 0, 90, true,  2
+AddWeapon = fatman,      -0.55,  1.08, -16.0, 0, 90, true,  2
 
 
 AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0
