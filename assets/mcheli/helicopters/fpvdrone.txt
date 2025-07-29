@@ -1,6 +1,6 @@
 DisplayName = FPV Drone with RPG-7 Warhead
 MaxHp = 5
-Speed = 60.0
+Speed = 15.0
 CameraPosition = 0.00, -0.2, 0.4
 Sound = fpvdrone
 ThrottleUpDown = 2.0
