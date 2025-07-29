@@ -74,6 +74,8 @@ AddWeapon = targeting_pod_block, 0.0, 0.9, 0.0,  0.0, 0.0, true, 2
 
 AddWeapon = targeting_pod_ph50s,   0.0, 2.7, 0.1,    0.0, 0.0, true,  2
 
+AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
+
 BoundingBox =  0.00, 1.80, -3.50,  3.0, 1.8
 BoundingBox =  0.00, 1.50, -5.50,  3.0, 2.0
 BoundingBox =  0.00, 1.40, -8.50,  3.0, 2.2

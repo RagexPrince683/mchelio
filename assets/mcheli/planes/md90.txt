@@ -12,7 +12,7 @@ Sound = mdninety
 ThrottleUpDown = 0.1
 MaxFuel         = 4500
 FuelConsumption = 2.0
-InventorySize = 36
+InventorySize = 64
 
 
 

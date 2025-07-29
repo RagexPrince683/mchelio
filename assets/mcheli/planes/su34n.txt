@@ -1,5 +1,5 @@
-DisplayName = Su-34N
-AddDisplayName = ja_JP, Su-34N
+DisplayName = Su-34 (Rocket)
+AddDisplayName = ja_JP, Su-34 (Rocket)
 MaxHp = 250
 EnableNightVision = true
 EnableEntityRadar = true

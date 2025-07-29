@@ -3,7 +3,7 @@ DisplayName = RN28 Nuclear Bomb [30KT SURFACE]
 DisplayName = RN28 Nuclear Bomb [30KT SURFACE]
 DisplayName = RN28 Nuclear Bomb [30KT SURFACE]
 
-Type = Rocket
+Type = Bomb
 ;Power = 100000
 ;DamageFactor = tank, 10000.0
 ;DamageFactor = plane, 30000.0
