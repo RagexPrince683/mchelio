@@ -16,10 +16,11 @@ ExplosionAltitude = 576
 
 
 ;Power = 329
-Acceleration = 0.1
+Acceleration = 0.6
 Sight = None
 Sound = bomb_snd
-Delay = 4
+Delay = 5
+ReloadTime = 10000
 SoundVolume = 8
 Gravity = -0.01
 ;Piercing = 10
