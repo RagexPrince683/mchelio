@@ -1,14 +1,14 @@
 DisplayName = 7.7mm Type 97 Machine Gun
 Type = MachineGun1
-Power = 7
+Power = 8
 Acceleration = 8.0
 Flaming = false
 Sight = MoveSight
 Delay = 0
 ;SoundDelay = 3
-;Accuracy = 2.0
+Accuracy = 1.8
 HeatCount = 3
-MaxHeatCount = 150
+MaxHeatCount = 180
 SoundPitch = 1.0
 Sound = vickers
 
@@ -24,6 +24,15 @@ DamageFactor = heli, 0.5
 ;DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
+AddMuzzleFlash      =           2.3,   0.10,        3,  220,254,159,74
+AddMuzzleFlash      =           2.3,   0.25,        5,  220,254,219,104
+
+; AddMuzzleFlashSmoke = Distance from source, number of displays, size, range, display time,  A,  R,  G,  B
+AddMuzzleFlashSmoke   =              2.5,     7,  1.0,  1.0,       5,  220,160,140,120
+AddMuzzleFlashSmoke   =             2.3,     5,   0.5,  0.2,       6,  200,190,170,150
+
+ReloadTime = 190
+Round = 1000
 
 MaxAmmo = 1000
 SuppliedNum = 500

@@ -1,7 +1,7 @@
 DisplayName = KV-2 'Gigant' (1940)
 AddDisplayName = en_US, KV-2 'Gigant' (1940)
 AddDisplayName = ja_JP, KV-2 ギガント (1940)
-MaxHp = 100
+MaxHp = 150
 Speed = 0.17
 Sound = kvtwo
 MobilityYawOnGround = 2.0

@@ -36,7 +36,7 @@ AddSeat = 0,  2.71,  -2.10
 AddGunnerSeat = 0, 2.48, -18.7,   0.0, 3.50, -19.5,   true,-60,45
 AddSeat = 0,  1.92,  -0.10
 
-AddPartWeapon = nr23_g,false, true, false,       0, 2.4023, -19.4921
+AddPartWeapon = il28nr23_g,false, true, false,       0, 2.4023, -19.4921
 AddPartWeaponChild  =        false, true,  0.0000, 2.4023, -19.4921
 AddPartWeaponChild  =        false, true,  0.0000, 2.4023, -19.4921
 
@@ -54,24 +54,24 @@ AddPartLG =-3.8523,    1.6, -9.1522, -1, 0.3, 0, 135
 AddPartNozzle =  3.8196, 2.3235, -13.7, 1, 0, 0
 AddPartNozzle = -3.8196, 2.3235, -13.7, 1, 0, 0
 
-AddWeapon = nr23_g,  0.1851, 2.4023, -19.4021,   0.0, 0.0, false, 2,180,-50,50,-60,45
-AddWeapon = nr23_g, -0.1851, 2.4023, -19.4021,   0.0, 0.0, false, 2,180,-50,50,-60,45
+AddWeapon = il28nr23_g,  0.1851, 2.4023, -19.4021,   0.0, 0.0, false, 2,180,-70,70,-60,40
+AddWeapon = il28nr23_g, -0.1851, 2.4023, -19.4021,   0.0, 0.0, false, 2,180,-70,70,-60,40
 
-AddWeapon = nr23_n,  0.61, 2.0967, -0.4,   0.0, 0.0, true, 1
-AddWeapon = nr23_n, -0.61, 2.0967, -0.4,   0.0, 0.0, true, 1
+AddWeapon = il28nr23_n,  0.61, 2.0967, -0.4,   0.0, 0.0, true, 1
+AddWeapon = il28nr23_n, -0.61, 2.0967, -0.4,   0.0, 0.0, true, 1
 
-AddWeapon = s-5k,      8.1715,2.3793, -8.1181, 0, 0, true,  1
-AddWeapon = s-5k,     -8.1715,2.3793, -8.1181, 0, 0, true,  1
-AddWeapon = s-5k,      7.4516,2.3527, -8.1181, 0, 0, true,  1
-AddWeapon = s-5k,     -7.4516,2.3527, -8.1181, 0, 0, true,  1
-AddWeapon = s-5k,      6.7758,2.3128, -8.1181, 0, 0, true,  1
-AddWeapon = s-5k,     -6.7758,2.3128, -8.1181, 0, 0, true,  1
-AddWeapon = s-5k,      6.0990,2.2995, -8.1181, 0, 0, true,  1
-AddWeapon = s-5k,     -6.0990,2.2995, -8.1181, 0, 0, true,  1
-AddWeapon = s-5k,      5.4475,2.2728, -8.1181, 0, 0, true,  1
-AddWeapon = s-5k,     -5.4475,2.2728, -8.1181, 0, 0, true,  1
-AddWeapon = s-5k,      1.8944,2.2728, -8.1181, 0, 0, true,  1
-AddWeapon = s-5k,     -1.8944,2.2728, -8.1181, 0, 0, true,  1
+AddWeapon = il28s-5k,      8.1715,2.3793, -8.1181, 0, 0, true,  1
+AddWeapon = il28s-5k,     -8.1715,2.3793, -8.1181, 0, 0, true,  1
+AddWeapon = il28s-5k,      7.4516,2.3527, -8.1181, 0, 0, true,  1
+AddWeapon = il28s-5k,     -7.4516,2.3527, -8.1181, 0, 0, true,  1
+AddWeapon = il28s-5k,      6.7758,2.3128, -8.1181, 0, 0, true,  1
+AddWeapon = il28s-5k,     -6.7758,2.3128, -8.1181, 0, 0, true,  1
+AddWeapon = il28s-5k,      6.0990,2.2995, -8.1181, 0, 0, true,  1
+AddWeapon = il28s-5k,     -6.0990,2.2995, -8.1181, 0, 0, true,  1
+AddWeapon = il28s-5k,      5.4475,2.2728, -8.1181, 0, 0, true,  1
+AddWeapon = il28s-5k,     -5.4475,2.2728, -8.1181, 0, 0, true,  1
+AddWeapon = il28s-5k,      1.8944,2.2728, -8.1181, 0, 0, true,  1
+AddWeapon = il28s-5k,     -1.8944,2.2728, -8.1181, 0, 0, true,  1
 
 BoundingBox =  0, 2.56, 0,  2.0, 2, 1.0
 ;BoundingBox =  0, 2.56, -2,  2.0, 3, 1.0

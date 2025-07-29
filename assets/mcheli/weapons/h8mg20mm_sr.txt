@@ -1,17 +1,13 @@
-DisplayName = 20mm Type 99 Mark 1 Automatic Cannon
+DisplayName = 20mm Type 99 Model 1 Automatic Cannon [Right]
 Type = MachineGun1
 Power = 19
-Acceleration = 8.0
 Flaming = false
 Sight = MoveSight
 Delay = 1
-SoundVolume = 15
 HeatCount = 3
 MaxHeatCount = 60
-Sound = twentymil
-Acceleration = 7.5
-Gravity = -0.005
-Accuracy = 1.8
+Sound = gun_h2_snd
+SetCartridge = cartridge, 0.1,  90, 0, 3.00, -0.04, 0.40
 
 Acceleration = 7.5
 Piercing = 0
@@ -23,9 +19,12 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
+ReloadTime = 180
+Round = 270
 
-MaxAmmo = 400
-SuppliedNum = 200
+
+MaxAmmo = 270
+SuppliedNum = 135
 Item =  2, iron_ingot
 Item =  2, gunpowder
 

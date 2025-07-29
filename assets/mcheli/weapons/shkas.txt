@@ -1,6 +1,6 @@
-DisplayName = 7.7mm  ShKAS Machine Gun
+DisplayName = 7.62mm ShKAS Machine Gun
 Type = MachineGun1
-Power = 7
+Power = 8
 Flaming = false
 Sight = MoveSight
 Delay = 0
@@ -23,6 +23,9 @@ DamageFactor = heli, 0.5
 ;DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
+
+Round = 1500
+ReloadTime = 190
 
 MaxAmmo = 1500
 SuppliedNum = 750

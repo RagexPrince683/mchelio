@@ -1,6 +1,6 @@
-﻿DisplayName = F8F Bearcat
-AddDisplayName = en_US, F8F Bearcat
-AddDisplayName = ko_KR, F8F 베어캣
+﻿DisplayName = F8F-1B Bearcat
+AddDisplayName = en_US, F8F-1B Bearcat
+AddDisplayName = ko_KR, F8F-1B 베어캣
 ItemID = 40006
 MaxHp = 100
 Speed = 0.73254
@@ -60,10 +60,10 @@ AddPartLG =   0.16, 1.65,  -6.00,   0, 0, -1, 65
 AddPartLG =   -0.16, 1.65,  -6.00,  0,0, 1, 65
 
 ;change weapons firing trajectory
-AddWeapon = an-m3_20,  3.15, 1.95, -0.59, 2.0, -2.5
-AddWeapon = an-m3_20,  -3.15, 1.95, -0.59, -2.0, -2.5
-AddWeapon = an-m3_20,  2.905, 1.925, -0.64, 1.5, -3.0
-AddWeapon = an-m3_20,  -2.905, 1.925, -0.64, -1.5, -3.0
+AddWeapon = f8an-m3_20,  3.15, 1.95, -0.59, 2.0, -2.5
+AddWeapon = f8an-m3_20,  -3.15, 1.95, -0.59, -2.0, -2.5
+AddWeapon = f8an-m3_20,  2.905, 1.925, -0.64, 1.5, -3.0
+AddWeapon = f8an-m3_20,  -2.905, 1.925, -0.64, -1.5, -3.0
 
 BoundingBox =  0.00, 2.20, 1.7, 1.7, 1.7, 1.5
 BoundingBox =  0.00, 2.20, 0.0, 1.7, 1.7

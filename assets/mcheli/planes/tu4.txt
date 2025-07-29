@@ -139,7 +139,7 @@ AddWeapon = ns23tu4e,   0.16,  1.81, -27.5118, 0.0, 0.0, false, 8,    0, -360, 3
 
 
 
-AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
+AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  1
 
 ;AddWeapon = fab5000,       0.55,  1.08,  -6.0, 0, 90, true,  1
 ;AddWeapon = fab5000,      -0.55,  1.08,  -6.0, 0, 90, true,  1

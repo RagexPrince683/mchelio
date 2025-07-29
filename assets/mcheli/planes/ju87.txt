@@ -1,5 +1,5 @@
-DisplayName = Ju-87 Stuka
-AddDisplayName = ru_RU, Ju-87 Stuka
+DisplayName = Ju-87D-3 Stuka
+AddDisplayName = ru_RU, Ju-87D-3 Stuka
 ItemID = 30005
 MaxHp = 150
 Speed = 0.4002
@@ -13,6 +13,10 @@ MaxFuel         = 1200
 FuelConsumption = 1.0
 onGroundPitch = 6.8
 ThirdPersonDist = 12
+
+MobilityYaw = 0.8
+MobilityPitch = 0.4
+MobilityRoll = 0.6
 
 DamageFactor = 0.8
 
@@ -30,7 +34,7 @@ enableback = true
 AddSeat = -0.04, 2.8969, -2.5839
 unmountposition = -0.04, 1.9969, -2.5839
 
-AddGunnerSeat = 0.02, 2.74, -4.38, 0.03, 3.94, -5.06, false -90, 20
+AddGunnerSeat = 0.02, 2.74, -5.38, 0.03, 3.94, -5.06, false -90, 20
 
 AddPartSlideCanopy = 0.00, 0.00, -0.60
 
@@ -39,19 +43,19 @@ AddPartCanopy = 0.00, 0.00, 0.0
 AddPartRotor =    0.00, 3.0367, 3.8732,   1,0, 0
 AddBlade = 1, 0,  0.00, 3.0367, 3.8732,   0,0,-1
 
-AddWeapon = mg17,  3.30, 2.63, 0.054,  0.0, -3.0
-AddWeapon = mg17, -3.33, 2.6385, 2.54,  0.0, -3.0
+AddWeapon = jumg17,  3.30, 2.63, 0.054,  0.0, -3.0
+AddWeapon = jumg17, -3.33, 2.6385, 2.54,  0.0, -3.0
 
-AddPartWeapon = mg151w, false, true, true, 0.00, 4.76, -5.94
-AddWeapon     = mg151w, 0.08, 3.4, -7.60, 0.0, 0.0, false,  2, 180, -80, 80, -60, 10
-AddWeapon     = mg151w, 0.08, 3.4, -5.94, 0.0, 0.0, false,  2, 180, -80, 80, -60, 10
+AddPartWeapon = jumg151w, false, true, true, 0.00, 3.4, -5.94
+AddWeapon     = jumg151w, 0.0882, 3.4, -5.94, 0.0, 0.0, false,  2, 180, -80, 80, -60, 10
+AddWeapon     = jumg151w, -0.0882, 3.4, -5.94, 0.0, 0.0, false,  2, 180, -80, 80, -60, 10
 AddPartWeaponChild = false, true,  0.00,4.76,-5.94
 AddPartWeaponChild = false, true,  0.00,4.76,-5.94
 
-AddPartWeaponMissile = sc250, false, false, false,  7.63, 2.61, -3.37
-AddPartWeaponMissile = sc250, false, false, false, -7.63, 2.61, -3.37
-AddWeapon = sc250,  7.63, 2.61, -3.37,   0.0, 0.0,true, 1
-AddWeapon = sc250, -7.63, 2.61, -3.37,   0.0, 0.0,true, 1
+AddPartWeaponMissile = jusc250, false, false, false,  7.63, 2.61, -3.37
+AddPartWeaponMissile = jusc250, false, false, false, -7.63, 2.61, -3.37
+AddWeapon = jusc250,  7.63, 2.61, -3.37,   0.0, 0.0,true, 1
+AddWeapon = jusc250, -7.63, 2.61, -3.37,   0.0, 0.0,true, 1
 
 BoundingBox =  -0.04, 3.0,   3.01,  1.0, 1.0
 BoundingBox =  0.08, 2.94,  2.13,  1.0, 1.0

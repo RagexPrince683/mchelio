@@ -1,7 +1,7 @@
 DisplayName = Douglas C-47 Skytrain
 AddDisplayName = en_US, Douglas C-47 Skytrain
 AddDisplayName = ja_JP, C-47 スカイトレイン
-HUD = plane_wwii, plane_wwii
+HUD = plane_wwii, plane_wwii, none, none, none, none, none, none, none, none, none, none, none, none
 EnableEntityRadar = false
 Speed = 2.3
 GravityInWater = -0.04
@@ -27,18 +27,19 @@ DamageFactor = 0.8
 
 AddSeat = 0.68, 5.0, 1.78
 AddSeat = -0.67, 5.0, 1.78
-AddSeat = 1.41, 4.64, -2.42
-AddSeat = 1.41, 4.64, -3.73
-AddSeat = 1.41, 4.64, -5.0
-AddSeat = 1.41, 4.64, -6.34
-AddSeat = 1.41, 4.64, -7.66
-AddSeat = 1.41, 4.64, -8.88
-AddSeat = -1.41, 4.64, -2.42
-AddSeat = -1.41, 4.64, -3.73
-AddSeat = -1.41, 4.64, -5.0
-AddSeat = -1.41, 4.64, -6.34
-AddSeat = -1.41, 4.64, -7.66
-AddSeat = -1.41, 4.64, -8.88
+
+AddSeat =  1.21, 4.64, -2.42
+AddSeat =  1.21, 4.64, -3.73
+AddSeat =  1.21, 4.64, -5.0
+AddSeat =  1.21, 4.64, -6.34
+AddSeat =  1.21, 4.64, -7.66
+AddSeat =  1.21, 4.64, -8.88
+AddSeat = -1.21, 4.64, -2.42
+AddSeat = -1.21, 4.64, -3.73
+AddSeat = -1.21, 4.64, -5.0
+AddSeat = -1.21, 4.64, -6.34
+AddSeat = -1.21, 4.64, -7.66
+AddSeat = -1.21, 4.64, -8.88
 
 AddPartRotor = -3.79, 3.47, 0.29,  0, 0, 1
 AddBlade =1, 0, -3.79, 3.47, 0.29,  0, 0, 1

@@ -6,7 +6,7 @@ Sight = MoveSight
 Delay = 1
 ;SoundDelay = 3
 Accuracy = 1.2
-HeatCount = 1
+HeatCount = 3
 MaxHeatCount = 100
 ;SoundPitch = 0.8
 Sound = m2_snd
@@ -22,6 +22,9 @@ DamageFactor = heli, 0.5
 DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
+
+Round = 1800
+ReloadTime = 230
 
 MaxAmmo = 1800
 SuppliedNum = 200

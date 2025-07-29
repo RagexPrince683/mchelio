@@ -1,7 +1,7 @@
 DisplayName = KV-1 Model 1939 (L-11)
 AddDisplayName = en_US, KV-1 Model 1939 (L-11)
 AddDisplayName = ja_JP, KV-1 Model 1939 (L-11)
-MaxHp = 100
+MaxHp = 150
 Speed = 0.23
 Sound = kvtwo
 MobilityYawOnGround = 2.0
@@ -92,6 +92,9 @@ AddTrackRoller = -1.70,  0.6740, -4.3796
 AddTurretWeapon      = kv1apcbc,  0.00, 3.017, 0.00,  0.0, 0.0, true,1, 0,-360,360, -25, 7
 AddTurretWeapon      = kv1he,  0.00, 3.017, 0.00,  0.0, 0.0, true,1, 0,-360,360, -25, 7
 AddTurretWeapon      = kv1apcbc2,  0.00, 3.017, 0.00,  0.0, 0.0, true,1, 0,-360,360, -25, 7
+
+AddTurretWeapon      = kv1dt29,  -0.347, 3.117, 0.00,  0.0, 0.0, true,1, 0,-360,360, -25, 7
+
 AddPartWeapon = kv1apcbc/ kv1he / kv1apcbc2, false, true, false, 0.00, 0.00, 0.00
 AddPartWeaponChild = false, true,   0.00, 3.017, 1.245
 AddPartWeaponChild = false, true,   0.00, 3.017, 1.245, 0.5

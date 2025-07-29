@@ -1,6 +1,6 @@
-﻿DisplayName = MiG-3
-AddDisplayName = en_US, Mikoyan-Gurevich MiG-3
-AddDisplayName = ru_RU, MiG-3
+﻿DisplayName = MiG-3-15
+AddDisplayName = en_US, Mikoyan-Gurevich MiG-3-15
+AddDisplayName = ru_RU, MiG-3-15
 ItemID = 30020
 MaxHp = 100
 Speed = 0.69252
@@ -36,10 +36,10 @@ AddPartLG =    0.00, 1.85, -5.33,  1,0,0, 90
 AddPartRotor =    0.00,  1.99, 4.51,   1,0, 0
 AddBlade = 1, 0,  0.00,  1.99, 4.51,   0,0,-1
 
-AddWeapon = shkas,  0.23, 2.69, 2.94,  0.0, -3.0
-AddWeapon = shkas, -0.23, 2.69, 2.94,  0.0, -3.0
+AddWeapon = mig3shkas,  0.23, 2.69, 2.94,  0.0, -3.0
+AddWeapon = mig3shkas, -0.23, 2.69, 2.94,  0.0, -3.0
 
-AddWeapon = ubs,  0.00, 1.52, 4.41,   0.0, 2.0
+AddWeapon = mig3ubs,  0.00, 2.7, 4.41,   0.0, 2.0
 
 ;;AddWeapon = rs82,  -2.32, 1.22, 2.08,   0.2, 0.0
 ;;AddWeapon = rs82,   2.32, 1.22, 2.08,  -0.2, 0.0

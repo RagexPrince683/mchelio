@@ -41,12 +41,12 @@ AddPartLG =  -0.81, 1.23, -0.31,  0,0,-1, 79.0,  1,0,0, 20
 AddPartRotor =    0.00,  2.34, 2.51,   1,0, 0
 AddBlade = 1, 0,  0.00,  2.34, 2.51,   0,0,-1
 
-AddWeapon = hs404,  2.91, 1.57, 1.48,  1.5, -3.5
-AddWeapon = hs404, -2.91, 1.57, 1.48, -1.5, -3.5
-AddWeapon = blowning1919, 3.87, 1.64, 0.72, 2.0, -4.0
-AddWeapon = blowning1919,-3.87, 1.64, 0.72,-2.0, -4.0
-AddWeapon = blowning1919, 6.06, 1.81, 0.42, 3.3, -4.0
-AddWeapon = blowning1919,-6.06, 1.81, 0.42,-3.3, -4.0
+AddWeapon = sfirhs404,  2.91, 1.57, 1.48,  1.5, -3.5
+AddWeapon = sfirhs404, -2.91, 1.57, 1.48, -1.5, -3.5
+AddWeapon = sfirblowning1919, 3.87, 1.64, 0.72, 2.0, -4.0
+AddWeapon = sfirblowning1919,-3.87, 1.64, 0.72,-2.0, -4.0
+AddWeapon = sfirblowning1919, 6.06, 1.81, 0.42, 3.3, -4.0
+AddWeapon = sfirblowning1919,-6.06, 1.81, 0.42,-3.3, -4.0
 
 BoundingBox =  0.00, 2.20, 2.30,  1.0, 1.0, 1.5
 BoundingBox =  0.00, 2.10, 1.50,  1.2, 1.4

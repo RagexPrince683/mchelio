@@ -1,40 +1,33 @@
-DisplayName = 7.7mm M1919 Browning Machine Gun
+DisplayName = 20mm Hispano Mk.II Cannon
 Type = MachineGun1
-Power = 13
+Power = 37
 Acceleration = 7.0
 Flaming = false
 Sight = MoveSight
-Delay = 0
-SoundDelay = 1
-Accuracy = 1.7
-HeatCount = 1
-MaxHeatCount = 150
-SoundPitch = 1.0
-Particle = explode
-Gravity = -0.005
-Sound = 5mm_gun_snd
+Delay = 1
+HeatCount = 5
+MaxHeatCount = 100
+Accuracy = 0.8
+Sound = 20mm_gun_snd
 SoundPitch = 1 
 SoundPitchRandom = 0.1
 
-Acceleration = 7.5
-Piercing = 0
 DamageFactor = tank, 1.0
-DamageFactor = plane, 0.5
-DamageFactor = vehicle, 1.0
-DamageFactor = heli, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.5
+DamageFactor = heli, 1.5
 
-SoundVolume = 15
-
+Gravity = -0.005
 
 AddMuzzleFlash      =  1.4,      0.15,        2,  170,254,159,84
 AddMuzzleFlash      =  1.3,      0.10,        1,  150,254,219,184
 AddMuzzleFlashSmoke =  1.6,  1,   5.0,  0.5, 15,  180,250,245,240
 AddMuzzleFlashSmoke =  2.6,  1,   3.0,  0.5, 25,  180,220,217,214
 
-Round = 1400
-ReloadTime = 280
+Round = 120
+ReloadTime = 180
 
-MaxAmmo = 1400
-SuppliedNum = 350
+MaxAmmo = 120
+SuppliedNum = 120
 Item =  2, iron_ingot
 Item =  2, gunpowder
