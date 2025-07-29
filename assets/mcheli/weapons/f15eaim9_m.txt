@@ -5,7 +5,7 @@ Acceleration = 2.5
 Explosion = 5
 Flaming = false
 Sight = MissileSight
-Delay = 90
+Delay = 5
 LockTime = 13
 ProximityFuseDist = 1
 ModelBullet = aim9h
@@ -19,7 +19,7 @@ DamageFactor = heli, 3.0
 
 Round = 4 
 
-ReloadTime = 110
+ReloadTime = 1000
 
 MaxAmmo = 4
 SuppliedNum = 2

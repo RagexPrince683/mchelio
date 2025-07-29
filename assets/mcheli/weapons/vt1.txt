@@ -5,7 +5,7 @@ Acceleration = 1.6
 Explosion = 5
 Flaming = false
 Sight = MissileSight
-Delay = 10
+Delay = 5
 
 ReloadTime = 100
 

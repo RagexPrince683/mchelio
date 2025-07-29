@@ -5,14 +5,14 @@ Acceleration = 8
 Explosion = 7
 Flaming = false
 Sight = MissileSight
-Delay = 4
+Delay = 5
 LockTime = 15
 ProximityFuseDist = 1
 ModelBullet = Meteor
-ReloadTime = 600
+ReloadTime = 1000
 Sound = missile_1_snd
 
-Round = 4
+Round = 8
 
 MaxAmmo = 8
 SuppliedNum = 2

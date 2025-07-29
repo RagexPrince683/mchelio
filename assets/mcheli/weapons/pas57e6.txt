@@ -7,8 +7,8 @@ ExplosionBlock = 2
 
 ModelBullet = 57e6
 Sight = MissileSight
-Delay = 120
-ReloadTime = 80
+Delay = 5
+ReloadTime = 1000
 Round = 12
 LockTime = 10
 ProximityFuseDist = 1

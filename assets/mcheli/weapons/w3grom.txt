@@ -5,12 +5,12 @@ Acceleration = 4
 Explosion = 3
 Flaming = false
 Sight = MissileSight
-Delay = 100
+Delay = 5
 LockTime = 40
 Sound = missile_1_snd
 Zoom = 1.8
 Round = 2
-ReloadTime = 80
+ReloadTime = 1000
 
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0

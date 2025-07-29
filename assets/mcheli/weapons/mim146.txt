@@ -5,14 +5,14 @@ Acceleration = 3
 Explosion = 5
 Flaming = false
 Sight = MissileSight
-Delay = 100
-Round = 8
+Delay = 5
+Round = 16
 LockTime = 4
 ProximityFuseDist = 1
 SoundVolume = 20
 Sound = missile_1_snd
 ModelBullet = rocket
-
+ReloadTime = 1000
 
 Piercing  = 2
 RigidityTime = 10

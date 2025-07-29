@@ -5,14 +5,14 @@ Acceleration = 8.8
 Explosion = 7
 Flaming = false
 Sight = MissileSight
-Delay = 20
-ReloadTime = 110
+Delay = 5
+ReloadTime = 1000
 LockTime = 12
 ProximityFuseDist = 3
 ModelBullet = aim7
 Sound = missile_cruise_snd
 
-Round = 2
+Round = 4
 
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0

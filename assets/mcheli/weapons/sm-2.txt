@@ -12,6 +12,7 @@ RigidityTime = 10
 ProximityFuseDist = 1
 HeatCount = 20
 MaxHeatCount = 60
+ReloadTime = 1000
 
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
