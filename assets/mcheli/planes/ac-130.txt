@@ -8,19 +8,21 @@ Speed = 0.52026
 ;299mph
 Sound = conethirty
 ThrottleUpDown = 0.1
-AutoPilotRot = -0.10
+AutoPilotRot = -0.12
 CameraPosition = 2.0, 1.40, -4.0
 EnableNightVision = true
 EnableEntityRadar = true
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
 FlareType = 2
-InventorySize = 18
+InventorySize = 9
 MaxFuel         = 4800
 FuelConsumption = 2.0
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 ThirdPersonDist = 28
+
+CameraZoom = 10
 
 RotorSpeed = 500.0
 

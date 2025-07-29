@@ -48,14 +48,14 @@ AddPartWing =   5.04, 2.10, 0.00,  0,0,1, 150
 AddPartNozzle = -0.35, 2.23, -5.23, -1,0,0
 AddPartNozzle =  0.35, 2.23, -5.23, -1,0,0
 
-AddPartWeaponBay = gbu-31, -0.62, 1.22,-1.45,  0, -0.02, 1.0,  90
-AddPartWeaponBay = gbu-31,  0.62, 1.22,-1.45,  0, -0.02, 1.0, -90
+AddPartWeaponBay = x47gbu-31, -0.62, 1.22,-1.45,  0, -0.02, 1.0,  90
+AddPartWeaponBay = x47gbu-31,  0.62, 1.22,-1.45,  0, -0.02, 1.0, -90
 
-AddPartWeaponMissile = gbu-31,   false,  false,  false,    1.15,  1.97, -3.55
-AddPartWeaponMissile = gbu-31,   false,  false,  false,   -1.15,  1.97, -3.55
+AddPartWeaponMissile = x47gbu-31,   false,  false,  false,    1.15,  1.97, -3.55
+AddPartWeaponMissile = x47gbu-31,   false,  false,  false,   -1.15,  1.97, -3.55
 
 AddWeapon = dummy_bay_closed, 0,0,0,0,0
-AddWeapon = gbu-31,  1.15,  1.97, -3.55,  0, 0
+AddWeapon = x47gbu-31,  1.15,  1.97, -3.55,  0, 0
 
 ;AddTurretWeapon = gbu-31, 1.15,  1.97, -3.55,  0.0, 0.0, true,1, 0,-360,360, -20, 9
 
@@ -66,7 +66,8 @@ AddWeapon = targeting_pod_pv30s, 0.0, 1.7, 5.2,  0.0, 0.0
 AddWeapon = targeting_pod_block, 0.0, 1.7, 5.2,  0.0, 0.0
 
 ;advanced prop drone (modern drone), AOW3 style
-AddRecipe = "ABC", "DEF", "FB ", A, mcheli:airframe3, B, mcheli:advancedmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:fcs2
+AddRecipe = "ABC", "DEF", "FBE", A, mcheli:airframe3, B, mcheli:complexmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:electronics, F, mcheli:fcs2
+;prototype thing... but like there's probably something like this in active service we just dont know about or something
 
 BoundingBox =  0.0, 2.0,  1.0,  3.0, 1.8
 BoundingBox =  3.0, 2.0, -3.0,  3.0, 1.5

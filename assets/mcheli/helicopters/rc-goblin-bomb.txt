@@ -12,6 +12,8 @@ MaxFuel         = 1100
 FuelConsumption = 0.1
 Stealth = 0.2
 
+explosionSizeByCrash = 4
+
 HUD = heli
 
 ; C = Civilian(–¯ŠÔ‹@)

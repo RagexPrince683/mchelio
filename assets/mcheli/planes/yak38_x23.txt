@@ -55,10 +55,10 @@ AddPartWing =  2.5531,  1.65, -7.587,  0,0,    1, 110
 AddPartLG    =  0.000, 1.0855,-0.5136,   -1.00, 0.000, 0.00, 80
 AddPartLG    = -0.8369, 1.2777, -7.3264,    -1,0, -0.05, 90,  0, 1,0, 90
 AddPartLG    = 0.8369, 1.2777, -7.3264,    -1,0, -0.05, 90,  0, -1,0, 90
-AddWeapon = x-23,    1.4657,  1.306, -4.2985,   0.0,  0.0
-AddWeapon = x-23,    -1.4657,  1.306, -4.2985,   0.0,  0.0
-AddPartWeaponMissile = x-23, false,false,false, 1.4657,  1.306, -4.2985
-AddPartWeaponMissile = x-23, false,false,false, -1.4657,  1.306, -4.2985
+AddWeapon = yakx-23,    1.4657,  1.306, -4.2985,   0.0,  0.0
+AddWeapon = yakx-23,    -1.4657,  1.306, -4.2985,   0.0,  0.0
+AddPartWeaponMissile = yakx-23, false,false,false, 1.4657,  1.306, -4.2985
+AddPartWeaponMissile = yakx-23, false,false,false, -1.4657,  1.306, -4.2985
 
 AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.3,    0.0, 0.0
 

@@ -1,15 +1,13 @@
-DisplayName = GBU-31
-Type = ATMissile
-DisableSmoke = true
-
-
+DisplayName = GBU-12 Paveway II
+Type = ASMissile
 Power = 1000
+radius = 14000
+accuracy = 1.0
 Acceleration = 1.7
-Flaming = true
 Sight = MoveSight
 Delay = 5
-Round = 4
-ReloadTime = 1500
+Round = 2
+ReloadTime = 1200
 SoundVolume = 3
 SoundPitch = 0.1
 Sound = bomb_snd
@@ -17,21 +15,19 @@ ModelBullet = gbu31
 Gravity = -0.01
 DisableSmoke = true
 
-;bomb rewrite
 ;Acceleration = 0.5
-Explosion = 17
-;Explosive mass	269.9*5 kg kg
-Power = 1080
+Explosion = 10
+;Explosive mass	269.9/around 2 kg kg
+Power = 540
 ExplosionBlock = 5
-ExplosionInWater = 9
+ExplosionInWater = 5
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
-
-MaxAmmo = 4
+MaxAmmo = 2
 SuppliedNum = 1
 Item =  4, iron_ingot
 Item =  4, gunpowder

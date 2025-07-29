@@ -1,6 +1,6 @@
-DisplayName = E767
-AddDisplayName = en_US, E767
-AddDisplayName = ja_JP, E767
+DisplayName = E767 AWACS
+AddDisplayName = en_US, E767 AWACS
+AddDisplayName = ja_JP, E767 AWACS
 ItemID = 28747
 MaxHp = 250
 Speed = 1.1484
@@ -9,7 +9,7 @@ Speed = 1.1484
 
 Sound = eseven
 ThrottleUpDown = 0.1
-AutoPilotRot = -0.50
+AutoPilotRot = -0.1
 CameraPosition = 0.0, 4.0, 5.0
 EnableNightVision = true
 EnableEntityRadar = true
@@ -21,6 +21,8 @@ MaxFuel         = 7000
 FuelConsumption = 1.7
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
+
+CameraZoom = 10
 
 ; M = Military(軍用機).  R = Reconnaissance(偵察機)
 Category = M.R

@@ -17,6 +17,8 @@ ParticlesScale = 0.2
 HUD = plane
 ThirdPersonDist = 4
 
+explosionSizeByCrash = 10
+
 AddSeat =  0.0, 0.0, 0.0
 
 ; M = Military(軍用機).  Q = Drone(無人航空機)

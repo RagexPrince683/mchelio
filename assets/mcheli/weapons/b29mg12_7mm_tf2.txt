@@ -1,4 +1,4 @@
-DisplayName = 12.7mm Machine Gun
+DisplayName = 12.7mm Machine Gun 3(2)
 Type = MachineGun1
 Power = 31
 Flaming = false
@@ -11,6 +11,7 @@ HeatCount = 1
 MaxHeatCount = 100
 ;SoundPitch = 0.8
 Sound = m2_snd
+
 Gravity = -0.005
 
 ;12.7

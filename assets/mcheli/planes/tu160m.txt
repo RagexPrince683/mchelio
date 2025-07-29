@@ -21,6 +21,7 @@ AutoPilotRot = 0
 ;Stealth = 0.1
 ;????
 ;Sound = bone
+ThirdPersonDist = 68
 
 sound = tutwentytwo
 SoundPitch = 0.8

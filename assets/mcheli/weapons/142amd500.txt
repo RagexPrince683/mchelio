@@ -1,24 +1,23 @@
-DisplayName = PLAB-250-120 Depth Charge
+DisplayName = AMD-500 Naval Mine
 Type = Bomb
 Power = 1000
 Acceleration = 0.1
-Explosion = 6
-ExplosionInWater = 12
+Explosion = 16
+ExplosionInWater = 16
 Flaming = true
 Sight = None
 Sound = bomb_snd
 Delay = 5
 ReloadTime = 1000
-DamageFactor = tank, 1.0
-DamageFactor = plane, 3.0
-DamageFactor = vehicle 2.0
-DamageFactor = heli, 3.0
 
-GravityInWater = -0.01
+ModelBullet = blu10b
+
+DelayFuse = 9000
+
+GravityInWater = 0.001
 
 ProximityFuseDist = 8
 ProximityDist = 8
-
 
 Acceleration = 0.5
 ;Explosion = 50
@@ -32,8 +31,9 @@ DamageFactor = vehicle 4.5
 DamageFactor = heli, 4.5
 DamageFactor = player, 20.0
 
+Round = 9
 
-MaxAmmo = 8
-SuppliedNum = 4
-Item =  2, iron_ingot
+MaxAmmo = 9
+SuppliedNum = 1
+Item =  4, iron_ingot
 Item =  2, gunpowder

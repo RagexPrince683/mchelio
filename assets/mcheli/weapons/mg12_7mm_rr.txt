@@ -9,7 +9,7 @@ SoundVolume = 10
 ;Accuracy = 2.0
 HeatCount = 1
 MaxHeatCount = 100
-SoundPitch = 0.8
+;SoundPitch = 0.8
 Sound = m2_snd
 Gravity = -0.005
 

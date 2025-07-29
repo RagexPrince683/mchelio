@@ -1,16 +1,15 @@
-DisplayName = 12.7mm Machine Gun
+DisplayName = 12.7mm Machine Gun 2
 Type = MachineGun1
 Power = 31
 Flaming = false
 Sight = MoveSight
 Delay = 1
-SoundVolume = 10
 ;SoundDelay = 3
 ;Accuracy = 2.0
 HeatCount = 1
 MaxHeatCount = 100
-;SoundPitch = 0.8
 Sound = m2_snd
+
 Gravity = -0.005
 
 ;12.7
@@ -26,7 +25,7 @@ DamageFactor = player, 20.0
 ;AddDisplayName = en_US,
 SoundVolume = 15
 
-MaxAmmo = 1000
-SuppliedNum = 200
+MaxAmmo = 4000
+SuppliedNum = 1000
 Item =  2, iron_ingot
 Item =  2, gunpowder

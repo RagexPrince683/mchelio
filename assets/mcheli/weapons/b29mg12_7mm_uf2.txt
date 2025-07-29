@@ -1,4 +1,4 @@
-DisplayName = 12.7mm Machine Gun
+DisplayName = 12.7mm Machine Gun 2(2)
 Type = MachineGun1
 Power = 31
 Flaming = false

@@ -1,13 +1,13 @@
 DisplayName = PLAB-250-120 Depth Charge
 Type = Bomb
 Acceleration = 0.1
-Explosion = 11
+Explosion = 6
 ExplosionInWater = 12
 Flaming = true
 Sight = None
 Sound = bomb_snd
 Delay = 5
-ReloadTime = 110
+ReloadTime = 1000
 DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
