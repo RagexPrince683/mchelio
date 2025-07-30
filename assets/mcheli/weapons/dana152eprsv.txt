@@ -12,7 +12,8 @@ SoundVolume = 15
 Sound = artillery_gun_snd
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
-Gravity = -0.01
+;18.5km
+Gravity = -0.00155
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

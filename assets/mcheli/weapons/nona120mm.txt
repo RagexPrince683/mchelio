@@ -17,7 +17,8 @@ Group = MainGun
 DisableSmoke = true
 HeatCount = 900
 MaxHeatCount = 2050
-Gravity = -0.030
+;7.1km
+Gravity = -0.00231
 Recoil = 3
 ;ModeNum = 1
 Round = 1

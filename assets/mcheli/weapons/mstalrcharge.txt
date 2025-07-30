@@ -15,7 +15,9 @@ Sound = msta
 Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.010
+;28.9km
+Gravity = -0.00099
+
 group = maingun
 ; 着弾距離の表示
 ;DisplayMortarDistance = true
@@ -37,9 +39,9 @@ MaxAmmo = 13
 SuppliedNum = 1
 Item =  2, iron_ingot
 Item =  5, gunpowder
-ReloadTime = 80
+ReloadTime = 180
 Round = 1
-Delay = 80
+Delay = 180
 HeatCount = 500
 MaxHeatCount = 2000
 Group = MainGun

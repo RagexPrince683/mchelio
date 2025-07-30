@@ -1,10 +1,11 @@
 DisplayName = 122mm 9P132 [9M28F - FRAG-HE Rocket]
 Type = Rocket
 Power = 250
-Acceleration = 4.0
+Acceleration = 7.0
 Flaming = false
 Sight = None
-Gravity = -0.030
+;10.4km
+Gravity = -0.00276
 
 
 SoundPitch = 1.0

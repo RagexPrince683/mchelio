@@ -4,7 +4,8 @@ Power = 50
 Acceleration = 7
 Flaming = false
 Sight = None
-Gravity = -0.01
+;32km
+Gravity = -0.00090
 Delay = 8
 ReloadTime = 1800
 SoundVolume = 15
@@ -13,12 +14,14 @@ Accuracy = 0.2
 Explosion = 1
 ExplosionBlock = 3
 ExplosionInWater = 1
+HeatCount = 1000
+MaxHeatCount = 6000
 Round = 6
 ModelBullet = m28
 Group = MainGun
 Bomblet = 644
 BombletDiff = 0.5
-BombletSTime = 120
+BombletSTime = 220
 ModelBomblet = bullet
 AddMuzzleFlash      =  2.2,      1.80,        8,  200,254,129,44
 AddMuzzleFlash      =  2.1,      1.75,        7,  200,254,219,104
@@ -36,7 +39,7 @@ TrajectoryParticle = fireworksSpark
 
 Sound = missile_11_snd
 DisplayMortarDistance = true
-FixCameraPitch = true
+FixCameraPitch = false
 CameraRotationSpeedPitch = 0.1
 
 MaxAmmo = 6

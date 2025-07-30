@@ -4,14 +4,15 @@ Power = 20
 Acceleration = 8.0
 Flaming = false
 Sight = None
-Gravity = -0.0135
+;9km
+Gravity = -0.00318
 
 
 SoundPitch = 1.0
 
 ;ProximityFuseDist = 3
 
-BombletSTime = 80
+BombletSTime = 280
 BombletDiff = 1.2
 Bomblet = 3
 

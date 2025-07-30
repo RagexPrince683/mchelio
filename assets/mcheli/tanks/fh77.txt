@@ -10,7 +10,7 @@ GravityInWater = -1.0
 DamageFactor = 1.0
 Sound = none
 MinRotationPitch = -70
-MaxRotationPitch =  5
+MaxRotationPitch = 5
 WeightType = Unknown
 DefaultFreelook = true
 ThirdPersonDist = 10
@@ -44,7 +44,7 @@ AddTrackRoller =  -1.0449, 0.1341, 0.0593
 
 HUD = gunner
 
-AddGunnerSeat =  2.20, 0.00, -2.20, 0.00, 3.7472, -1.2630
+AddGunnerSeat =  2.20, 0.00, -2.20, 0.00, 3.7472, -1.2630, false, -70, 5, false
 
 unmountposition = 2.20, 1.50, -2.20
 

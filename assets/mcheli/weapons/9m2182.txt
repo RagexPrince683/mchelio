@@ -1,10 +1,11 @@
 DisplayName = 122mm 9P132 [9M218 - HEAT Submunition Rocket]
 Type = Rocket
 Power = 700
-Acceleration = 4.0
+Acceleration = 7.0
 Flaming = false
 Sight = None
-Gravity = -0.030
+;30km
+Gravity = -0.000955
 
 
 SoundPitch = 1.0

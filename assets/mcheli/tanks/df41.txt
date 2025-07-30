@@ -15,7 +15,11 @@ GravityInWater = -1.0
 CameraRotationSpeed = 35
 MinRotationPitch = -90
 MaxRotationPitch = 90
-MobilityRoll = 0
+MobilityRoll = 5
+
+OnGroundPitchFactor = 2.5
+OnGroundRollFactor  = 2.0
+
 InventorySize = 10
 StepHeight = 1.8
 DefaultFreelook = true
