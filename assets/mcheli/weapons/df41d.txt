@@ -16,7 +16,7 @@ ModelBomblet = scud
 
 DelayFuze = 0
 
-;Gravity = -0.0000024
+Gravity = -0.0000024
 ;the game REALLY did not like this with the displaymortardistance.
 
 Group = MainGun

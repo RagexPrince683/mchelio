@@ -1,7 +1,7 @@
 DisplayName = DF-41 ICBM Rocket - Thermonuclear Warhead [5MT - SURFACE]
 Type = Rocket
 ;Power = 41000
-Acceleration = 3.5
+Acceleration = 7
 Explosion = 1
 
 nukeyield = 300
