@@ -1,5 +1,5 @@
-DisplayName = M119 105mm Howitzer
-AddDisplayName = ru_RU, M119 105mm Howitzer
+DisplayName = 105mm M119 Howitzer
+AddDisplayName = ru_RU, 105mm M119 Howitzer
 ItemID = 30151
 MaxHp = 100
 Sound = none

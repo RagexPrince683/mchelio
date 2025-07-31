@@ -5,7 +5,7 @@ ModelBullet = 155mm
 Explosion = 3
 ExplosionInWater = 2
 ExplosionBlock = 3
-Acceleration = 6.0
+Acceleration = 7.0
 Sight = None
 ReloadTime = 100
 Delay = 100
@@ -13,7 +13,8 @@ Round = 1
 SoundVolume = 15.0
 Sound = big
 Accuracy = 1.5
-Gravity = -0.028
+;22km
+Gravity = -0.0013
 
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
@@ -29,7 +30,7 @@ Group = MainGun
 SetCartridge = cartridge_2, 0.2, 180, 0, 0.3, -0.02, 0.65
 
 Bomblet = 72
-BombletSTime = 10
+BombletSTime = 100
 BombletDiff = 1.2
 ModelBomblet = cbc
 

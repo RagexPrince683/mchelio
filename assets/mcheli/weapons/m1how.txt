@@ -2,7 +2,7 @@ DisplayName = 105mm Howitzer [M1 Shell - HE]
 Type = MachineGun2
 Power = 500
 ModelBullet = bullet105mm
-Acceleration = 4.7
+Acceleration = 7
 Explosion = 3
 
 ExplosionInWater = 2
@@ -15,7 +15,8 @@ Delay = 80
 SoundPitch = 1.2
 SoundVolume = 15
 Accuracy = 1.2
-Gravity = -0.06
+;11.16km
+Gravity = -0.00257
 Sound = artillery_gun_snd
 Recoil = 1.5
 

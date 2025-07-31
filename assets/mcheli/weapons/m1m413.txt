@@ -1,9 +1,10 @@
 DisplayName = 105mm Howitzer [M413 - Cluster Grenades]
 Type = Rocket
 Power = 20
-Acceleration = 4.7
+Acceleration = 7
 Sight = MissileSight
-Gravity = -0.06
+;11.27km
+Gravity = -0.00246
 Sound = artillery_gun_snd
 SoundVolume = 15
 SoundPitch = 1.0
@@ -20,7 +21,7 @@ MaxHeatCount = 2000
 
 Bomblet = 18
 BombletDiff = 0.2
-BombletSTime = 0
+BombletSTime = 150
 ModelBomblet = gr34
 
 DelayFuse = 20

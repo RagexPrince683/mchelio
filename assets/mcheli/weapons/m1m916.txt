@@ -1,9 +1,9 @@
 DisplayName = 105mm Howitzer [M916 DPICM - Cluster]
 Type = Rocket
 Power = 50
-Acceleration = 4.7
+Acceleration = 7
 Sight = MissileSight
-Gravity = -0.06
+Gravity = -0.00198
 ;Delay = 100
 Sound = artillery_gun_snd
 SoundVolume = 15
@@ -20,7 +20,7 @@ MaxHeatCount = 2000
 
 Bomblet = 42
 BombletDiff = 0.8
-BombletSTime = 5
+BombletSTime = 145
 ModelBomblet = cbc
 
 DelayFuse = 0

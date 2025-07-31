@@ -1,6 +1,6 @@
 DisplayName = 155mm M777 Howitzer [M549A1 Shell - HE-RA]
 Type = Rocket
-Power = 500
+Power = 800
 ModelBullet = 155mm
 Explosion = 4
 ExplosionInWater = 2
@@ -13,7 +13,7 @@ Round = 1
 SoundVolume = 15.0
 Sound = big
 Accuracy = 1.5
-Gravity = -0.025
+Gravity = -0.00096
 
 HeatCount = 2100
 MaxHeatCount = 8000

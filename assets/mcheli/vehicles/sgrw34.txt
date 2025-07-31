@@ -10,7 +10,7 @@ MinRotationPitch = -20
 MaxRotationPitch =  0
 DamageFactor = 1.0
 CameraZoom = 3
-CameraPosition = -1.0,1.4, -0.2
+CameraPosition = -1.0,0.9, -0.2
 ThirdPersonDist = 8
 
 ;Category = W.A

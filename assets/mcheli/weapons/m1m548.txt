@@ -5,7 +5,7 @@ ModelBullet = bullet105mm
 Explosion = 3
 ExplosionInWater = 2
 ExplosionBlock = 3
-Acceleration = 8.0
+Acceleration = 7.0
 Sight = MissileSight
 
 
@@ -13,7 +13,7 @@ SoundVolume = 15
 Sound = artillery_gun_snd
 Accuracy = 1.2
 BulletColor        = 255, 255, 100, 100
-Gravity = -0.05
+Gravity = -0.00203
 
 HeatCount = 500
 MaxHeatCount = 2000

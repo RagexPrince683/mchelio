@@ -1,6 +1,6 @@
-DisplayName = M777 Lightweight Towed Howitzer
-AddDisplayName = ru_RU, M777 Lightweight Towed Howitzer
-AddDisplayName = en_US, M777 Lightweight Towed Howitzer
+DisplayName = 155mm M777 Lightweight Towed Howitzer
+AddDisplayName = ru_RU, 155mm M777 Lightweight Towed Howitzer
+AddDisplayName = en_US, 155mm M777 Lightweight Towed Howitzer
 MaxHp = 100
 Speed = 0.00
 ThrottleUpDown = 1.0

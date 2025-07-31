@@ -15,7 +15,7 @@ Round = 1
 SoundVolume = 15.0
 Sound = big
 Accuracy = 1.5
-Gravity = -0.05
+Gravity = -0.00102
 
 ProximityDist = 2
 ProximityFuseDist = 2

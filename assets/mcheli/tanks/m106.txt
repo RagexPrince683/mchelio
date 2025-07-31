@@ -102,7 +102,7 @@ AddWeapon = m113m2_1, 0.0077, 3.1436,  -0.0241,   0.0, 0.0, false, 2, 0, -360, 3
 AddWeapon			= m106mort,    0.00,  1.80, -2.67,  0.0,0.0, false, 3, 0, -360,360, -90, -45
 
 AddPartWeapon 		= m106mort,    false, true,  false, 0.00, 0.7608, -2.3453
-AddPartWeaponChild 	= false, true, 0.00,  0.7608, -2.3453
+AddPartWeaponChild 	= false, true, 0.00,  0.7608, -1.9554
 
 
 

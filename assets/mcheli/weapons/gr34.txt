@@ -1,13 +1,13 @@
-DisplayName = 8cm Wurfgranate 34 Mortar 
+DisplayName = 8cm Wurfgranate 34 Mortar [Mortar grenade 34 - HE]
 Type = MachineGun1
 Power = 34
 Explosion = 2
 ExplosionBlock = 3
 Acceleration = 4.0
-Gravity = -0.05
+Gravity = -0.00694
 Sight = MissileSight
-Delay = 60
-ReloadTime = 60
+Delay = 80
+ReloadTime = 80
 Round = 1
 SoundVolume = 15
 Sound = mortar_gun_snd
@@ -18,7 +18,10 @@ DamageFactor = tank, 1.0
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 3.0
-DisplayMortarDistance = true
+DisplayMortarDistance = false
+
+HeatCount = 400
+MaxHeatCount = 850
 
 AddMuzzleFlash      =           0.1,   0.55,        1,  220,254,219,104
 AddMuzzleFlash      =           0.0,   0.50,        1,  220,254,219,184

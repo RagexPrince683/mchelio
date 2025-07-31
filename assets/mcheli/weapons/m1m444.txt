@@ -1,9 +1,10 @@
 DisplayName = 105mm Howitzer [M444 APICM - Cluster]
 Type = Rocket
 Power = 25
-Acceleration = 4.7
+Acceleration = 7
 Sight = MissileSight
-Gravity = -0.06
+;11.27km
+Gravity = -0.00246
 ;Delay = 100
 Sound = artillery_gun_snd
 SoundVolume = 15

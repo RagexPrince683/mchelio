@@ -1,9 +1,9 @@
 DisplayName = 105mm Howitzer [M546 - APERS-T]
 Type = Rocket
 Power = 15
-Acceleration = 6.9
+Acceleration = 7
 Sight = MissileSight
-Gravity = -0.08
+Gravity = -0.00249
 Sound = artillery_gun_snd
 SoundVolume = 15
 SoundPitch = 1.0
@@ -20,7 +20,7 @@ MaxHeatCount = 2000
 
 Bomblet = 800
 BombletDiff = 1.0
-BombletSTime = 10
+BombletSTime = 100
 ModelBomblet = flechette
 
 DisableSmoke = true
