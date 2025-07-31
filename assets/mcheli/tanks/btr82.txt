@@ -111,6 +111,13 @@ RideRack = c5, 2
 ;IFV armed light 8x8
 AddRecipe = "ABC", "DEG", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:fcs, E, mcheli:lap, G, mcheli:cannon2
 
+AddRecipe = "ABC", "   ", "   ", A, mcheli:fcs, B, mcheli:cannon2, C, mcheli:btr80
+
+;;start of btr family
+;;AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:lap, F, mcheli:cannon1
+
+
+
 BoundingBox = 0.0, 2.3, 0.0, 1.0, 1.0, 0.2
 
 BoundingBox = 0.0, 1.2, 0.0, 3.0, 2.0, 0.75

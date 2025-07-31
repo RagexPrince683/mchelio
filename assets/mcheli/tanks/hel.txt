@@ -1,6 +1,7 @@
 ﻿DisplayName = Humvee with Fast Back
 AddDisplayName = ja_JP, Humvee with Fast Back
 AddDisplayName = en_US, Humvee with Fast Back
+;hola pidor!!!
 ItemID = 30032
 MaxHp = 230
 ThrottleUpDown = 0.81
@@ -144,12 +145,22 @@ BoundingBox = 0.0, 0.90, -1.33, 1.9, 1.0, 1.0
 ;basic armored humvee
 AddRecipe = "ABC", "DDD", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine2, D, mcheli:lap
 
+AddRecipe = "ABC", "   ", "   ", A, mcheli:hel2, B, mcheli:wrench, C, mcheli:lap
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:humveewithweapon, B, mcheli:wrench, C, mcheli:lap
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:humvee_mk19, B, mcheli:wrench, C, mcheli:lap
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:humvee_tow, B, mcheli:wrench, C, mcheli:lap
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:humveewithweaponrws, B, mcheli:wrench, C, mcheli:lap
+
 ;UnmountPosition = 1.80, 2.0, 0.0
 UnmountPosition = 0.70,  1.50,  0.31
 
 SubmergedDamageHeight = 1
 
-InventorySize = 9
+InventorySize = 18
 
 ;BoundingBox =  0.0, 0.88, -1.30,   2.3, 0.7  
 ;BoundingBox =  0.0, 1.42, -0.10,   2.2, 0.5

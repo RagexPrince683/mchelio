@@ -97,4 +97,10 @@ BoundingBox = 0.0, 1.2, -1.6, 3.0, 2.2
 
 
 ;basic armored gaz
-AddRecipe = "ABC", "DDD", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:lap
+AddRecipe = "ABC", "DDD", "E  ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:lap, E, mcheli:electronics
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:tigr-a, B, mcheli:wrench
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:tigr-k, B, mcheli:wrench
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:tigr-m, B, mcheli:wrench

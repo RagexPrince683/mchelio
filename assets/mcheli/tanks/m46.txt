@@ -20,7 +20,7 @@ DefaultFreelook = true
 
 HideEntity = false
 
-HUD = ww2tank_hud, gunner, 
+HUD = ww2tank_hud, gunner
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
@@ -181,3 +181,5 @@ unmountposition = 0.00,  1.50, 0.00
 
 ;medium tracked tank ww2 less EARLY
 AddRecipe = "ABC", "DE ", "   ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:electronics
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:m26, B, mcheli:electronics, C, mcheli:wrench

@@ -102,9 +102,17 @@ UnmountPosition = -0.70, 1.79,  0.27
 
 ;BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
 ArmorMinDamage = 50
-ArmorDamageFactor = 2.0
+ArmorDamageFactor = 1.2
 Regeneration = false
 
 
 ;advanced humvee none
 AddRecipe = "ABC", "DDD", "E  ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:map, E, mcheli:electronics
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:mxtmv50, B, mcheli:wrench
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:mxtmvrws, B, mcheli:wrench
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:mxtmv, B, mcheli:wrench
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:mxtmvm240, B, mcheli:wrench

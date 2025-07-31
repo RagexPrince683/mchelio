@@ -114,4 +114,6 @@ BoundingBox = 0.0, 0.60, 1.75, 3.0, 1.4, 1.0
 light tracked tank/apc (m2) (modern no composite)
 AddRecipe = "ADC", "B  ", "   ", A, mcheli:lightchassis, C, mcheli:engine1, D, mcheli:tanktracks, B, mcheli:cannon1
 
+AddRecipe = "ABC", "   ", "   ", A, mcheli:m113unarmed, B, mcheli:cannon1, C, mcheli:wrench
+
 unmountposition = 0.84, 1.37,  1.26

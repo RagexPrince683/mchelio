@@ -144,6 +144,8 @@ AddPartWeaponChild = false, true, 0.9518, 3.649, 0.7738
 ;heavy tracked tank ww2
 AddRecipe = "ABC", "DEE", "E  ", A, mcheli:heavychassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:hap
 
+AddRecipe = "ABC", "   ", "   ", A, mcheli:is-1, B, mcheli:hap, C, mcheli:wrench
+
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1
 RideRack = c5, 2

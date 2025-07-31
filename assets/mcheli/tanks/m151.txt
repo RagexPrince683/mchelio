@@ -67,6 +67,12 @@ InventorySize = 9
 ;basic civ car offroad
 AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:basicmechanicparts
 
+AddRecipe = "AB ", "   ", "   ", A, mcheli:m151_m2, B, mcheli:wrench
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:m151a1c, B, mcheli:wrench
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:m151a2, B, mcheli:wrench
+
 ;ヘッドライト
 AddFixedSearchLight =  0.3724, 1.0090, 2.3010,   0x50FFFFFF,   0x00FFFFC0,    0.3, 0.6,  -5,  0
 AddFixedSearchLight = -0.3724, 1.0090, 2.3010,   0x50FFFFFF,   0x00FFFFC0,    0.3, 0.6,   5,  0

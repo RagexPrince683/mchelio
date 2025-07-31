@@ -116,5 +116,7 @@ BoundingBox = 0.0, 1.7, 0.6, 2.7, 0.1, 0.28
 ;slightly really less modern mbt tracked tank 
 AddRecipe = "ABC", "DGF", "   ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs, G, mcheli:composite
 
+AddRecipe = "ABC", "   ", "   ", A, mcheli:leopard1a1, B, mcheli:fcs, C, mcheli:wrench
+
 
 unmountposition = 0.00,  1.93, 0.70

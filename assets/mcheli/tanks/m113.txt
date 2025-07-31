@@ -2,7 +2,7 @@
 AddDisplayName = en_US, M113A3 APC with M2 Browning Cupola Turret
 AddDisplayName = ja_JP, M113A3 APC with M2 Browning Cupola Turret
 ItemID = 30191
-MaxHp = 200
+MaxHp = 230
 Speed = 0.42
 ThrottleUpDown = 2.0
 Gravity = -0.61
@@ -114,6 +114,8 @@ BoundingBox = 0.0, 0.80, 1.4, 3.0, 1.8, 1.0
 BoundingBox = 0.0, 0.60, 1.75, 3.0, 1.4, 1.0
 
 light tracked tank/apc (m2) (modern no composite)
-AddRecipe = "ABC", "D F", "   ", A, mcheli:lightchassis, B, mcheli:cannon1, C, mcheli:engine1, D, mcheli:tanktracks, F, mcheli:electronics
+AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:cannon1, C, mcheli:engine1, D, mcheli:tanktracks, F, mcheli:electronics, E, mcheli:lap
+
+AddRecipe = "ABC", "DE ", "   ", A, mcheli:m113unarmed, B, mcheli:cannon1, C, mcheli:wrench, D, mcheli:electronics, E, mcheli:lap
 
 unmountposition = 0.84, 1.37,  1.26

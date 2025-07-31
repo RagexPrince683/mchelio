@@ -95,6 +95,8 @@ EnableBack = true
 ;IFV armed light 4x4
 AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine2, D, mcheli:fcs, E, mcheli:lap, F, mcheli:cannon1
 
+AddRecipe = "ABC", "   ", "   ", A, mcheli:brdm-s, B, mcheli:cannon1, C, mcheli:wrench
+
 BoundingBox = 0.1136, 2.2, 0.1832, 1.0, 1.0, 0.2
 
 BoundingBox = 0.0, 1.2, 0.0, 3.0, 2.0, 0.28

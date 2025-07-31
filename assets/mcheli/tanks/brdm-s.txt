@@ -68,6 +68,8 @@ AddPartWeaponChild = false, true,   0.0, 2.34, 0.04
 ;IFV armed light rkt 4x4
 AddRecipe = "ABC", "DE ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:rocket, D, mcheli:electronics, E, mcheli:fcs2
 
+AddRecipe = "ABC", "   ", "   ", A, mcheli:brdm2, B, mcheli:fcs2, C, mcheli:wrench
+
 ArmorMinDamage = 2
 
 BoundingBox = 0.0, 2.7, 0.2, 1.0, 1.0, 1.5

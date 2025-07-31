@@ -104,10 +104,24 @@ HideEntity = false
 RideRack = c5, 1
 RideRack = c5, 2
 
+;start of Ukro bullshit tree
+
+;btr3
+AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:fcs2, E, mcheli:lap, F, mcheli:advancedmechanicparts, G, mcheli:cannon2
+
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:fcs2, B, mcheli:advancedmechanicparts, C, mcheli:cannon1, D, mcheli:btr82
+
+;btr82
+;;AddRecipe = "ABC", "DEG", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:fcs, E, mcheli:lap, G, mcheli:cannon2
+;;AddRecipe = "ABC", "   ", "   ", A, mcheli:fcs, B, mcheli:cannon2, C, mcheli:btr80
 
 
-;IFV armed atgm light 8x8
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:fcs, E, mcheli:lap, F, mcheli:advancedmechanicparts, G, mcheli:cannon2
+
+
+;btr80 to btr3 recipe for the clinically insane
+;;AddRecipe = "ABC", "DEF", "   ", A, mcheli:fcs2, B, mcheli:advancedmechanicparts, C, mcheli:cannon2, D, mcheli:btr80, E, mcheli:wrench, F, mcheli:fcs
+;i refuse to go any further than this actually i decided im just gonna remove this to spare my sanity
+
 
 BoundingBox = -0.0154, 2.2362, -0.0245, 1.5, 1.5, 1.0
 

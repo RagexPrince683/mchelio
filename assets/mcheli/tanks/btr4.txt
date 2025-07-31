@@ -152,5 +152,12 @@ BoundingBox =  0.0, 2.2, 3.05, 2.45, 0.2, 0.30
 
 StepHeight = 1.8
 
-;IFV armed atgm light 8x8
-AddRecipe = "ABC", "DEF", "GD ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:fcs2, F, mcheli:advancedmechanicparts, G, mcheli:cannon2
+;btr4e
+AddRecipe = "ABC", "DEF", "GDH", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:fcs3, F, mcheli:advancedmechanicparts, G, mcheli:cannon2, H, mcheli:rocket
+
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:btr3, B, mcheli:fcs3, C, mcheli:electronics, D, mcheli:rocket
+
+;btr3
+;;AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:fcs2, E, mcheli:lap, F, mcheli:advancedmechanicparts, G, mcheli:cannon2
+;;AddRecipe = "ABC", "D  ", "   ", A, mcheli:fcs2, B, mcheli:advancedmechanicparts, C, mcheli:cannon1, D, mcheli:btr82
+

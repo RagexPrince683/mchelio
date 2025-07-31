@@ -118,9 +118,11 @@ UnmountPosition = -0.70, 1.79,  0.27
 
 ;BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
 ArmorMinDamage = 50
-ArmorDamageFactor = 2.0
+ArmorDamageFactor = 1.2
 Regeneration = false
 
 
 ;advanced humvee rws
 AddRecipe = "ABC", "DDD", "GEF", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:map, G, mcheli:cannon1, E, mcheli:electronics, F, mcheli:basicmechanicparts
+
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:mxtmvbase, B, mcheli:electronics, C, mcheli:cannon1, D, mcheli:basicmechanicparts

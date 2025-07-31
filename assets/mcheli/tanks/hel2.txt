@@ -21,7 +21,7 @@ ThirdPersonDist = 5
 
 SubmergedDamageHeight = 1
 
-InventorySize = 9
+InventorySize = 27
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
@@ -141,7 +141,9 @@ BoundingBox = 0.0, 1.10, -1.33, 2.3, 1.2, 1.0
 UnmountPosition = 0.70,  1.50,  0.31
 
 ;basic armored humvee
-AddRecipe = "ABC", "DDD", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine2, D, mcheli:lap
+AddRecipe = "ABC", "DDD", "E  ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine2, D, mcheli:lap, E, chest
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:hel, B, mcheli:wrench, C, chest
 
 BoundingBox =  0.0, 0.62,  1.70,   1.8, 0.9
 Regeneration = false

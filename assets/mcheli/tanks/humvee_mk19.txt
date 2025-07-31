@@ -116,7 +116,7 @@ AddPartCanopy   =  -1.19, 0.93, 1.0277,  0, 1, 0, 60
 
 AddPartCanopy   =  0,0,0,  0,1,0,  0
 
-InventorySize = 27
+InventorySize = 9
 
 ;basic armored humvee gl
 AddRecipe = "ABC", "DDD", "G  ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine2, D, mcheli:lap, G, mcheli:cannon2

@@ -184,7 +184,9 @@ BoundingBox =  0.0, 2.1, 1.28,  2.0, 0.1, 0.16
 unmountposition = 0.00,  1.50,  0.25
 
 ;medium tracked tank ww2 mid
-AddRecipe = "ABC", "DB ", "   ", A, mcheli:heavychassis, B, mcheli:cannon2, C, mcheli:engine2, D, mcheli:tanktracks
+AddRecipe = "ABC", "DBE", "   ", A, mcheli:heavychassis, B, mcheli:cannon2, C, mcheli:engine2, D, mcheli:tanktracks, E, mcheli:complexmechanicparts
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:m4, B, mcheli:complexmechanicparts, C, mcheli:wrench
 
 ;AddRecipe = "   ",  " X ",  "   ",  X,mcheli:m4_calliope
 

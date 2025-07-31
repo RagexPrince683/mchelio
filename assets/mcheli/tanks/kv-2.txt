@@ -106,6 +106,8 @@ AddPartWeaponChild = false, true,   0.5994, 1.515, 2.609
 ;heavy tracked tank ww2
 AddRecipe = "ABC", "DEE", "EEE", A, mcheli:heavychassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:hap
 
+AddRecipe = "ABB", "BBC", "   ", A, mcheli:kv-1, B, mcheli:hap, C, mcheli:wrench
+
 
 ArmorMinDamage = 30
 

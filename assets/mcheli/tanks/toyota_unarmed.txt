@@ -1,6 +1,6 @@
-DisplayName = Toyota Hilux
-AddDisplayName = en_US, Toyota Hilux
-AddDisplayName = ru_RU, Тойота Hilux
+DisplayName = Toyota Hilux (1989)
+AddDisplayName = en_US, Toyota Hilux (1989)
+AddDisplayName = ru_RU, Тойота Hilux (1989)
 MaxHp = 200
 ThrottleUpDown = 0.81
 Speed = 0.81
@@ -61,6 +61,12 @@ InventorySize = 27
 
 ;basic civ car offroad armed
 AddRecipe = "ABC", "D  ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mcheli:engine1, D, mcheli:basicmechanicparts
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:toyota_dshk, B, mcheli:wrench
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:toyota_nurs, B, mcheli:wrench
+
+AddRecipe = "AB ", "   ", "   ", A, mcheli:toyota_ub32, B, mcheli:wrench
 
 
 AddFixedSearchLight =  0.7890, 0.6448, 4.4096,   0x50FFFFFF,   0x00FFFFC0,    0.1, 0.5, 0, 0

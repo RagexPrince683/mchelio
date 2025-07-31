@@ -184,6 +184,10 @@ unmountposition = 0.00,  1.50,  0.25
 ;medium tracked tank ww2 mid
 AddRecipe = "ABC", "DB ", "   ", A, mcheli:heavychassis, B, mcheli:cannon2, C, mcheli:engine2, D, mcheli:tanktracks
 
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:m4, B, mcheli:heavychassis, C, mcheli:wrench, D, mcheli:cannon2
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:m4a3e2, B, mcheli:cannon2, C, mcheli:wrench
+
 ;AddRecipe = "   ",  " X ",  "   ",  X,mcheli:m4_calliope
 
 ;AddShapelessRecipe = mcheli:m4_calliope,iron_ingot

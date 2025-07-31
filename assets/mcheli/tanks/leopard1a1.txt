@@ -113,7 +113,7 @@ BoundingBox = 0.0, 1.7, 0.6, 2.7, 0.1, 0.28
 
 
 
-;slightly really less modern mbt tracked tank 
+;leo1
 AddRecipe = "ABC", "DGF", "   ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite
 
 

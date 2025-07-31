@@ -20,7 +20,7 @@ DefaultFreelook = true
 
 HideEntity = false
 
-HUD = ww2tank_hud, gunner, 
+HUD = ww2tank_hud, gunner
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8

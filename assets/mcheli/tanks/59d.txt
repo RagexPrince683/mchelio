@@ -180,7 +180,7 @@ UnmountPosition = 0.00,  2.50, 0.00
 ;med tracked tank (modern)
 AddRecipe = "ABC", "DGF", "   ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:fcs, G, mcheli:composite
 
-
+AddRecipe = "ABC", "   ", "   ", A, mcheli:t55, B, mcheli:fcs, C, mcheli:composite
 
 ;EntityWidth  = 0.8
 ;EntityHeight = 0.8
