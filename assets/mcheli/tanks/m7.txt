@@ -23,6 +23,9 @@ Category = SPG/SPH/SPA
 
 HUD = ww2tank_hud, ww2tank_hud
 
+;;HUD = mbt_hud, ww2tank_hud
+;debug
+
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 0.8
 

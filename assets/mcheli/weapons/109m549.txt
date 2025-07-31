@@ -16,9 +16,8 @@ Sound = moneonine
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 
-;18.7mi
-
-Gravity = -0.025
+;30km
+Gravity = -0.00096
 
 HeatCount = 4100
 MaxHeatCount = 8000

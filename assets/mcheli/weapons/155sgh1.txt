@@ -1,4 +1,4 @@
-DisplayName = 155mm Howitzer Gun [ERFB-BB - HE]
+DisplayName = 155mm L/45 Howitzer Gun [ERFB-BB - HE]
 Type = MachineGun2
 Power = 270
 ModelBullet = bullet105mm
@@ -15,7 +15,7 @@ Sound = mspg
 Recoil = 1.5
 Delay = 150
 CameraRotationSpeedPitch = 0.6
-Gravity = -0.005
+Gravity = -0.00096
 
 
 

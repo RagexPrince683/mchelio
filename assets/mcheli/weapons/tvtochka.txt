@@ -1,23 +1,26 @@
 DisplayName = 9M123K Tochka Anti-Personnel [Scarab A]
 Type = Rocket
 Power = 110
-Acceleration = 5.5
+Acceleration = 7
 Explosion = 18
 ExplosionBlock = 5
+
+HeatCount = 41000
+MaxHeatCount = 80000
 
 ExplosionInWater = 9
 
 Flaming = false
 Sight = MoveSight
-Delay = 140
+Delay = 5000
 Round = 1
-ReloadTime = 500
+ReloadTime = 5000
 SoundVolume = 15
 SoundPitch = 1.0
 Sound = missile_12_snd
 ;ModeNum = 2
 ModelBullet = ballistic
-Gravity = -0.017
+Gravity = -0.00041
 
 
 TrajectoryParticle = largeexplode

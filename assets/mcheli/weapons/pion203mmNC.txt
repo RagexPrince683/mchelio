@@ -1,4 +1,4 @@
-DisplayName = 203mm 2A44 Cannon L/56.2 [3BV2 - Nuclear SURFACE] 
+DisplayName = 203mm 2A44 Cannon L/56.2 [3BV2 5KT - Nuclear SURFACE]
 Type = Rocket
 Power = 800
 Explosion = 6
@@ -11,13 +11,17 @@ ModelBullet = bullet105mm
 Flaming = false
 Sight = None
 Delay = 180
-Gravity = -0.05
+Gravity = -0.00099
 ReloadTime = 180
 Recoil = 1.5
 Round = 1
 DisableSmoke = true
 
-NukeYield = 10
+HeatCount = 41000
+MaxHeatCount = 80000
+
+;60 crater radius
+NukeYield = 30
 
 Group = Maingun
 

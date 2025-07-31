@@ -20,7 +20,7 @@ TrajectoryParticle = crit
 
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.0055
+Gravity = -0.00164
 
 HeatCount = 4100
 MaxHeatCount = 8000
@@ -28,7 +28,7 @@ MaxHeatCount = 8000
 Delay = 305
 ReloadTime = 305
 Group = MainGun
-Acceleration = 6.5
+Acceleration = 8
 BulletColor        = 255, 255, 100, 100
 Piercing = 0
 Accuracy = 0.5

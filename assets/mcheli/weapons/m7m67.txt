@@ -12,7 +12,8 @@ Round = 1
 SoundPitch = 1.2
 SoundVolume = 15
 Accuracy = 1.5
-Gravity = -0.04
+;7.5km
+Gravity = -0.003821
 Sound = artillery_gun_snd
 Recoil = 1.5
 

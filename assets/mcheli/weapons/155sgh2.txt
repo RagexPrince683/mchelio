@@ -1,6 +1,6 @@
-DisplayName = 155mm Howitzer Gun [Canister]
+DisplayName = 155mm L/45 Howitzer Gun [Type 85 - Canister]
 Type = Rocket
-Power = 50
+Power = 20
 ModelBullet = bullet105mm
 Flaming = false
 Sight = MoveSight
@@ -9,7 +9,7 @@ Sight = MoveSight
 SoundVolume = 20
 Sound = mspg
 Recoil = 1.5
-Gravity = -0.005
+Gravity = -0.01433
 Bomblet = 30
 BombletSTime = 20
 BombletDiff = 1.0

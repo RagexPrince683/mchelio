@@ -4,14 +4,17 @@ Acceleration = 6
 Explosion = 1
 Flaming = false
 Sight = MissileSight
-Delay = 2000
+Delay = 10000
 SoundVolume = 15
 SoundPitch = 10.0
 Sound = missile_scud_snd
 ModelBullet = scud
-Gravity = -0.005
-nukeYield = 185
+Gravity = -0.000096
+nukeYield = 150
 ;70kt
+
+HeatCount = 41000
+MaxHeatCount = 80000
 
 CameraRotationSpeedPitch = 0.3
 
@@ -45,7 +48,7 @@ Accuracy = 0.0
 
 EnableGunnerMode = True
 
-ReloadTime = 2000
+ReloadTime = 10000
 Round = 1
 MaxAmmo = 1
 SuppliedNum = 1

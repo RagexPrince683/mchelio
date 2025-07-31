@@ -6,7 +6,7 @@ ExplosionBlock = 5
 
 ExplosionInWater = 5
 
-Acceleration = 5.0
+Acceleration = 7.0
 SoundVolume = 15
 Sound = grad
 Accuracy = 1.5
@@ -14,8 +14,12 @@ ModelBullet = bullet76mm
 Flaming = true
 Sight = None
 Delay = 1
-Gravity = -0.06
-ReloadTime = 600
+;6km
+Gravity = -0.00478
+ReloadTime = 2600
+
+HeatCount = 1000
+MaxHeatCount = 30000
 
 DisplayMortarDistance = true
 FixCameraPitch = true

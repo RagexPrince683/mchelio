@@ -1,4 +1,4 @@
-DisplayName =  OTR-21 Tochka 9P129 TEL/SS-21 Scarab
+DisplayName = OTR-21 Tochka 9P129 TEL/SS-21 Scarab
 AddDisplayName = en_US, OTR-21 Tochka 9P129 TEL/SS-21 Scarab
 AddDisplayName = ua_UA, OTR-21 Tochka 9P129 TEL/SS-21 Scarab
 ItemID = 197714
@@ -34,7 +34,7 @@ WeightType = Tank
 
 MobilityYawOnGround = 4.5
 
-HUD = mbt_hudtwo, mbt_gnr, none
+HUD = mbt_hudtwo, mbt_gnrnvg, none
 
 AddSeat =  1.32,  1.182, 5.0
 

@@ -1,7 +1,7 @@
 DisplayName = 220mm Rocket [9M27K2 - Anti-Personnel Mines]
 Type = Dispenser
 Power = 80
-Acceleration = 4.0
+Acceleration = 7.0
 
 DamageFactor = tank, 1.5
 DamageFactor = plane, 4.5
@@ -16,7 +16,7 @@ ModelBomblet = pom2
 ;TimeFuse = 9999999
 
 
-BombletSTime = 190
+BombletSTime = 390
 BombletDiff = 3.0
 Bomblet = 312
 
@@ -31,8 +31,8 @@ Accuracy = 1.5
 ModelBullet = bullet76mm
 Flaming = false
 Sight = None
-Delay = 90
-Gravity = -0.01
+Delay = 120
+Gravity = -0.00082
 ReloadTime = 12000
 
 SoundVolume = 15

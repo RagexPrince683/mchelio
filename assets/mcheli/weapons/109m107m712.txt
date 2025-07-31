@@ -15,7 +15,7 @@ ProximityFuseDist = 2
 
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.05
+Gravity = -0.00172
 
 HeatCount = 4100
 MaxHeatCount = 8000

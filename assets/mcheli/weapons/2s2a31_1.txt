@@ -14,8 +14,8 @@ Sound = msta
 Recoil = 1.5
 
 
-
-Gravity = -0.005
+;4km
+Gravity = -0.00716
 
 Delay = 160
 

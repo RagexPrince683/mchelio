@@ -6,15 +6,15 @@ Explosion = 8
 ExplosionInWater = 4
 
 ExplosionBlock = 5
-Acceleration = 4.0
-SoundVolume = 1.0
+Acceleration = 7.0
+SoundVolume = 15.0
 Sound = msta
 Accuracy = 5.0
 ModelBullet = bullet105mm
 Flaming = false
 Sight = None
 Delay = 240
-Gravity = -0.030
+Gravity = -0.00155
 ReloadTime = 240
 Recoil = 3
 

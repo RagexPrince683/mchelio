@@ -20,7 +20,8 @@ DisableSmoke = true
 Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.05
+;26km
+Gravity = -0.001102
 group = maingun
 ; 着弾距離の表示
 ;DisplayMortarDistance = true

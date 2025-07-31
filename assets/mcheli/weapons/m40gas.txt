@@ -5,7 +5,6 @@ ModelBullet = bullet105mm
 Explosion = 2
 ExplosionInWater = 1
 ExplosionBlock = 5
-Acceleration = 16.0
 Sight = None
 ;ReloadTime =10000
 Round = 1
@@ -14,7 +13,7 @@ Sound = mspg
 Accuracy = 1.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-Gravity = -0.08
+Gravity = -0.00116
 Group = maingun
 HeatCount = 4100
 MaxHeatCount = 8000
@@ -29,6 +28,8 @@ chemType = 0
 ;3 = agent orange
 ;DAMMIT PAM WHERES THE MUSTARD GAS
 ;fuck you bob
+
+;to account for mustard im giving this bomblet
 
 Delay = 2400
 ReloadTime = 2400

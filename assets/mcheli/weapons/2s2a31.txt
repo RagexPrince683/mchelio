@@ -1,9 +1,9 @@
-DisplayName = 122mm 2A31 Howitzer [3OF56 FRAG-HE]
+DisplayName = 122mm 2A31 Howitzer [3OF56 - FRAG-HE]
 Type = Rocket
 Power = 100
-ModelBullet = bullet105mm
-Acceleration = 5.0
-Explosion = 10
+ModelBullet = bullet
+Acceleration = 7.0
+Explosion = 4
 ExplosionBlock = 3
 Flaming = false
 Sight = None
@@ -12,8 +12,8 @@ SoundPitch = 0.7
 SoundVolume = 20
 Sound = msta
 Recoil = 1.5
-
-Gravity = -0.030
+;15.2km
+Gravity = -0.001885
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

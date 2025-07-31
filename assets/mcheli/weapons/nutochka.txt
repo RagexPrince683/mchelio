@@ -1,11 +1,14 @@
 DisplayName = 9M79B Tochka Nuclear Missle [100KT - Surface]
 Type = Rocket
 Power = 1000
-Acceleration = 5.5
+Acceleration = 7
 Sight = rocket
-Gravity = -0.017
+Gravity = -0.00041
 SoundVolume = 4.5
 Accuracy = 0.1
+
+HeatCount = 41000
+MaxHeatCount = 80000
 
 
 TrajectoryParticle = largeexplode
@@ -14,8 +17,8 @@ Group = Maingun
 
 Explosion = 5
 Flaming = true
-Delay = 140
-ReloadTime = 1000
+Delay = 5000
+ReloadTime = 5000
 SmokeColor = 219, 155, 17
 SoundVolume = 50
 ParticlesScale = 40

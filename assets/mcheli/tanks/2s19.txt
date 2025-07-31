@@ -2,7 +2,7 @@
 AddDisplayName = en_US, 2S19 Msta-S
 AddDisplayName = ja_JP, 2S19 ムスタ自走榴弾砲
 ItemID = 30100
-MaxHp = 200
+MaxHp = 400
 Speed = 0.37
 Sound = tseventytwopass
 ThrottleUpDown = 2.0
@@ -131,7 +131,7 @@ UnmountPosition = 0.01,  1.5, 0
 
 
 
-ArmorDamageFactor = 20.0
+ArmorDamageFactor = 3.0
 
 ArmorMinDamage = 15
 

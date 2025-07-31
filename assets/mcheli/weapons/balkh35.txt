@@ -9,7 +9,8 @@ Flaming = true
 Sight = MoveSight
 Delay = 10
 
-
+HeatCount = 1000
+MaxHeatCount = 8000
 
 ReloadTime = 1000
 

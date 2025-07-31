@@ -2,7 +2,8 @@ DisplayName = TOS-1A Buratino
 MaxHp = 450
 Speed = 0.37
 Sound = tninety
-ThrottleUpDown = 1.0
+ThrottleUpDown = 3.0
+throttleDownFactor = 0.4
 MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
@@ -10,8 +11,8 @@ DamageFactor = 0.0
 EnableNightVision = true
 CameraRotationSpeed = 30
 StepHeight = 1.8
-MinRotationPitch = -48
-MaxRotationPitch = 3
+MinRotationPitch = -60
+MaxRotationPitch = 1
 DefaultFreelook = false
 HideEntity = true
 CameraPosition = 0.00, 1.6, 2.15, false
@@ -35,7 +36,7 @@ WeightType = Tank
 
 ;wheel pos copy and pasted from t-90a
 
-AddGunnerSeat =  0.00, 0.50, 0.44,   0.00, 1.6, 2.15,  false, -48, 3, false
+AddGunnerSeat =  0.00, 0.50, 0.44,   0.00, 1.6, 2.15,  false, -60, 1, false
 
 unmountposition = 0.00, 1.58, 0.44
 
@@ -64,14 +65,14 @@ AddTrackRoller = 2.32,  0.16, -1.07
 AddTrackRoller = 2.32,  0.16, -2.12
 AddTrackRoller = 2.32,  0.60, -3.32
 
-AddWeapon = tos220mm,  1.2052, 2.7851, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -48, 3
-AddWeapon = tos220mm,  0.4657, 2.7851, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -48, 3
-AddWeapon = tos220mm,  -0.2739, 2.7851, -1.9753,  0.0, 0.0, true,1, 0,0,0, -48, 3
-AddWeapon = tos220mm,  -1.385, 2.7851, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -48, 3
-AddWeapon = tos220mm,  1.2052, 2.2179, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -48, 3
-AddWeapon = tos220mm,  0.4657, 2.2179, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -48, 3
-AddWeapon = tos220mm,  -0.2739, 2.2179, -1.9753,  0.0, 0.0, true,1, 0,0,0, -48, 3
-AddWeapon = tos220mm,  -1.385, 2.2179, -1.9753,  0.0, 0.0, true,1, 0,0,0,  -48, 3
+AddWeapon = tos220mm,  1.2052, 2.7851, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -60, 1
+AddWeapon = tos220mm,  0.4657, 2.7851, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -60, 1
+AddWeapon = tos220mm,  -0.2739, 2.7851, -1.9753,  0.0, 0.0, true,1, 0,0,0, -60, 1
+AddWeapon = tos220mm,  -1.385, 2.7851, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -60, 1
+AddWeapon = tos220mm,  1.2052, 2.2179, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -60, 1
+AddWeapon = tos220mm,  0.4657, 2.2179, -1.9753,  0.0, 0.0,  true,1, 0,0,0, -60, 1
+AddWeapon = tos220mm,  -0.2739, 2.2179, -1.9753,  0.0, 0.0, true,1, 0,0,0, -60, 1
+AddWeapon = tos220mm,  -1.385, 2.2179, -1.9753,  0.0, 0.0, true,1, 0,0,0,  -60, 1
 AddPartWeapon = tos220mm, false, true, false,  0.00, 1.43, 0.3764, 0
 AddPartWeaponChild = false, true, 0.00, 1.5739, -3.2144
 
@@ -80,6 +81,7 @@ EnableBack = true
 MotionFactor = 0.9
 
 ArmorMinDamage = 30
+ArmorDamageFactor = 3.0
 ;ArmorMaxDamage = 250
 ;ArmorDamageFactor = 0.98
 

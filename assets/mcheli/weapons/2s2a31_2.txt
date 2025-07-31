@@ -1,10 +1,8 @@
-DisplayName = 122mm 2A31 Howitzer [SH-1 AP Flechete]
+DisplayName = 122mm 2A31 Howitzer [SH-1 AP - Flechete]
 Type = Rocket
 Power = 50
-ModelBullet = bullet105mm
-Acceleration = 5.0
-Explosion = 3
-ExplosionBlock = 2
+ModelBullet = bullet
+Acceleration = 7.0
 Flaming = false
 Sight = None
 Piercing  = 1
@@ -12,8 +10,8 @@ SoundPitch = 0.7
 SoundVolume = 20
 Sound = msta
 Recoil = 1.5
-
-Gravity = -0.030
+;2.5km
+Gravity = -0.01146
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5
@@ -23,8 +21,8 @@ DamageFactor = player, 20.0
 group = maingun
 
 Bomblet = 15
-BombletSTime = 20
-BombletDiff = 0.1
+BombletSTime = 10
+BombletDiff = 0.25
 ModelBomblet = bullet
 
 DisableSmoke = true

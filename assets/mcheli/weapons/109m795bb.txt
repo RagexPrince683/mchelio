@@ -18,7 +18,7 @@ Particle = largeexplode
 
 ;17.7mi
 
-Gravity = -0.03
+Gravity = -0.00115
 
 HeatCount = 4100
 MaxHeatCount = 8000

@@ -1,4 +1,4 @@
-DisplayName = 220mm Rocket [9M27F - HE-Frag] 
+DisplayName = 220mm Rocket [9M27F - HE-Frag]
 Type = Rocket
 Power = 500
 Explosion = 18
@@ -6,7 +6,7 @@ ExplosionBlock = 3
 
 ExplosionInWater = 9
 
-Acceleration = 4.0
+Acceleration = 7.0
 
 DamageFactor = tank, 1.5
 DamageFactor = plane, 4.5
@@ -24,7 +24,8 @@ ModelBullet = bullet76mm
 Flaming = false
 Sight = None
 Delay = 6
-Gravity = -0.045
+;35km
+Gravity = -0.00082
 ReloadTime = 12000
 
 Group = MainGun
