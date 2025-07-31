@@ -15,7 +15,9 @@ nukeyield = 300
 
 DelayFuze = 0
 
-Gravity = -0.0000024
+;;Gravity = -0.0000024
+Gravity = -0.00024
+;right, so basically this memory fucks the game because of raytrace calcs that Displaymortardistance does.
 
 Group = MainGun
 
