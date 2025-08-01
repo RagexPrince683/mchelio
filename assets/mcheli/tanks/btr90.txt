@@ -114,7 +114,7 @@ RideRack = c5, 2
 ;IFV armed atgm light 8x8
 AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:fcs, F, mcheli:advancedmechanicparts, G, mcheli:cannon2
 
-AddRecipe = "ABC", "   ", "   ", A, mcheli:fcs, B, mcheli:advancedmechanicparts, C, mcheli:cannon2
+AddRecipe = "ABC", "D  ", "   ", A, mcheli:fcs, B, mcheli:advancedmechanicparts, C, mcheli:cannon2, D, mcheli:btr80
 
 ;;start of btr family
 ;;AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:wheel8, C, mcheli:engine1, D, mcheli:electronics, E, mcheli:lap, F, mcheli:cannon1

@@ -160,3 +160,9 @@ BoundingBox = 0.0, 2.35, 0.0, 1.7, 1.7, 0.10
 
 ;flame tank nam/ww2
 AddRecipe = "ABC", "DGF", "   ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:lap, G, mcheli:map
+
+AddRecipe = "ABC", "   ", "   ", A, mcheli:m48, B, mcheli:map, C, mcheli:wrench
+
+
+;AddRecipe = "ABC", "DBF", "   ", A, mcheli:mediumchassis, B, mcheli:cannon1, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:advancedmechanicparts
+
