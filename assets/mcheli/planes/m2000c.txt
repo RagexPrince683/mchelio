@@ -41,7 +41,7 @@ MobilityRoll = 1.5
 ;OnGroundPitch = 3
 
 AddTexture = m2000c2_5
-AddTexture = m2000c_vendé
+AddTexture = m2000c_vend
 AddTexture = m2000c_cig1984
 AddTexture = m2000c_spa172
 AddTexture = m2000c_corse
