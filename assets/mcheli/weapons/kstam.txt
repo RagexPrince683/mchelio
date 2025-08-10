@@ -19,6 +19,8 @@ BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 LockTime = 20
 
+;DisplayMortarDistance = true
+
 Group = MainGun
 
 DamageFactor = tank, 2.0

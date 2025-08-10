@@ -27,6 +27,8 @@ ModelBullet = 3bk18m
 Piercing = 0
 Accuracy = 0.0
 
+DisplayMortarDistance = true
+
 
 ; AddMuzzleFlash = 発射元からの距離, サイズ, 表示時間,  A,  R,  G,  B
 AddMuzzleFlash      =           9.2,   2.10,        7,  220,254,159,74

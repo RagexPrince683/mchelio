@@ -21,6 +21,8 @@ DamageFactor = player, 10.0
 Recoil = 1.8
 Round = 8
 
+DisplayMortarDistance = true
+
 HeatCount = 900
 MaxHeatCount = 2050
 Delay = 130

@@ -15,6 +15,8 @@ BulletColor        = 255, 255, 100, 100
 Recoil = 1.8
 Gravity = -0.001
 
+DisplayMortarDistance = true
+
 Round = 8
 
 Group = MainGun
