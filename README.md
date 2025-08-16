@@ -54,6 +54,17 @@ Step 7: Launch Minecraft.
 Sqeedometer (Mcheli speeds rubberneck and use partial tick hacks so the speeds fluctuate)
 
 
-If you encounter any issues, please contact me at: ragexprince684@gmail.com
 
-For reporting bugs or project-related problems, reach out to me on Discord: [Discord Link](https://discord.gg/uQK6QF2TeA) or submit a bug report on github for the official source code [here](https://github.com/RagexPrince683/MCH-mocmaster)
+
+# If you encounter any issues, do not hesitate to make an issue on the [official github page](https://github.com/RagexPrince683/MCH-mocmaster/)
+
+Alternatively you can:
+
+contact me at: ragexprince684@gmail.com
+
+or via a direct message on CurseForge. However I may be slow to reply.
+
+
+For reporting other bugs, chatting, or semi-project-related problems, do not hesitate to reach out on [Discord](https://discord.gg/uQK6QF2TeA) or submit a bug report on github for the official source code [here](https://github.com/RagexPrince683/MCH-mocmaster)
+
+We also have an official modded war server: [Ragecraft Discord Invite](https://discord.gg/EfrnP8WJtj)
