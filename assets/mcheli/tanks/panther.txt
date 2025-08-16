@@ -106,7 +106,7 @@ FuelConsumption = 0.5
 EnableBack = true
 MotionFactor = 0.92
 
-DamageFactor = 0.2
+DamageFactor = 0.0
 
 
 CameraRotationSpeed = 12
