@@ -14,6 +14,7 @@ MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -1.0
 ;DamageFactor = 0.8
+DamageFactor = 0.0
 CameraZoom = 10
 CameraPosition = -1.00,  3.00, 0.90, true
 EnableNightVision = true
