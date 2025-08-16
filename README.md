@@ -44,6 +44,7 @@ Dynamic FOV (breaks zooming functionality)
 skin port (makes McheliDummyEntity have a steve skin) (may be fixed, have not tested)
 Fisk's Superheroes's Slow-motion vision (unchecked)
 Xradar & Mcheli on servers (set the config option for the mcheli issue to false in the xradar config)
+Sqeedometer (Mcheli speeds rubberneck and use partial tick hacks so the speeds fluctuate)
 
 
 If you encounter any issues, please contact me at: ragexprince684@gmail.com
