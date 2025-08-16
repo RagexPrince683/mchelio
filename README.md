@@ -8,7 +8,7 @@ Nexusmods: [Download Link](https://www.nexusmods.com/minecraft/mods/375)
 
 Itch.io: [Download Link](https://ragexprince683.itch.io/mcheli-overdrive)
 
-To successfully install and use this mod, follow these steps:
+To successfully install and use this mod, follow these steps (DEPRICATED: MANUAL INSTALLATION, NOT LOADERMOD, DO AT OWN RISK!):
 
 
 
@@ -30,7 +30,7 @@ Step 4: Verify that the extracted folder's name is 'mcheli'. (Ensure there are '
 Step 5: Place the main (parent) 'mcheli' folder into the 'mods' folder within your Minecraft directory. (Note: Do not just place the root 'mcheli' folder there. The root folder is identifiable by having class files. You need those class files in the 'mods' folder, but 'assets' and 'mcheli' should remain as subfolders.)
 
 
-Step 6: Install HBM's Nuclear Tech Mod as it's a dependency for this mod. You can find the mod here: [HBM's Nuclear Tech Mod](https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT) IMPORTANT: If you're using an older version of the mod (1.2 or lower), download the corresponding HBM version to avoid compatibility issues (only necessary for the first version of mcheli-o): [HBM's Nuclear Tech Mod Legacy Version](https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT/releases/tag/1.0.27X3920)
+Step 6: Install ~~HBM's Nuclear Tech Mod~~ *NEW! -[Ragex's Nuclear Tech](https://www.curseforge.com/minecraft/mc-mods/ragexs-nuclear-tech) or [JamesH2's fork equivalent (experimental, not recommended!)](https://www.curseforge.com/minecraft/mc-mods/ntm-space) as it's a major dependency for the nuclear weapons in this mod. LEGACY: ~~You can find the mod here: [HBM's Nuclear Tech Mod](https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT) IMPORTANT: If you're using an older version of the mod (1.2 or lower), download the corresponding HBM version to avoid compatibility issues (only necessary for the first version of mcheli-o): [HBM's Nuclear Tech Mod Legacy Version](https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT/releases/tag/1.0.27X3920)~~
 
 
 Step 7: Launch Minecraft.
