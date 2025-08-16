@@ -1,10 +1,10 @@
 Hello! This file was uploaded by RagexPrince683 to either Modrinth, Nexusmods, or Curseforge. If there is an update available, you can download it from the following sources:
 
+Curseforge (NEW!): [Download Link](https://www.curseforge.com/minecraft/mc-mods/mcheli-overdrive-loader-mod)
+
 Modrinth: [Download Link](https://modrinth.com/mod/mcheli-o)
 
 Nexusmods: [Download Link](https://www.nexusmods.com/minecraft/mods/375)
-
-Curseforge (work in progress): [Download Link](https://legacy.curseforge.com/minecraft/mc-mods/mcheli-overdrive)
 
 Itch.io: [Download Link](https://ragexprince683.itch.io/mcheli-overdrive)
 
@@ -37,13 +37,20 @@ Step 7: Launch Minecraft.
 
 
 
-KNOWN INCOMPATIBILITIES:
-CMDcam
-Optifine setting Fast render (thermals)
-Dynamic FOV (breaks zooming functionality)
-skin port (makes McheliDummyEntity have a steve skin) (may be fixed, have not tested)
-Fisk's Superheroes's Slow-motion vision (unchecked)
-Xradar & Mcheli on servers (set the config option for the mcheli issue to false in the xradar config)
+# KNOWN INCOMPATIBILITIES:
+
+-CMDcam
+
+-Optifine setting: Fast render - (may break thermals)
+
+-Setting: Turning off Dynamic FOV - (breaks zooming functionality)
+
+-skin port (makes McheliDummyEntity have a steve skin) (may be fixed, have not tested)
+
+-Fisk's Superheroes's Slow-motion vision (unchecked)
+
+~~Xradar & Mcheli on servers (set the config option for the mcheli issue to false in the xradar config)~~ *Use XenoFactions instead!
+
 Sqeedometer (Mcheli speeds rubberneck and use partial tick hacks so the speeds fluctuate)
 
 
