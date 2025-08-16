@@ -1,5 +1,5 @@
 DisplayName = TOS-1A Buratino
-MaxHp = 450
+MaxHp = 250
 Speed = 0.37
 Sound = tninety
 ThrottleUpDown = 3.0
@@ -80,8 +80,8 @@ EnableBack = true
 
 MotionFactor = 0.9
 
-ArmorMinDamage = 30
-ArmorDamageFactor = 3.0
+ArmorMinDamage = 10
+;ArmorDamageFactor = 3.0
 ;ArmorMaxDamage = 250
 ;ArmorDamageFactor = 0.98
 
@@ -89,21 +89,22 @@ MaxFuel         = 1200
 FuelConsumption = 2.0
 
 ;modern mbt tracked base to rocket bullshit 
-AddRecipe = "ABC", "DGF", "EHG", A, mcheli:mediumchassis, B, mcheli:rocket3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite2, E, mcheli:complexmechanicparts, H, mcheli:fcs2
+AddRecipe = "ABC", "DGF", "EHG", A, mcheli:mediumchassis, B, mcheli:rocket3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:lap, E, mcheli:complexmechanicparts, H, mcheli:fcs2
 
 ;copy and pasted from t-90a
+;NO COMPOSITE
 
 ;side armor 
 BoundingBox = 0.0, 0.65, 1.0, 3.1, 1.15, 0.37
 ;front plate
 
-BoundingBox = 0.0, 0.60, 2.7, 3.0, 0.1, 0.05
-BoundingBox = 0.0, 0.65, 2.50, 3.0, 0.1, 0.05
-BoundingBox = 0.0, 0.80, 2.30, 3.0, 0.1, 0.05
-BoundingBox = 0.0, 0.85, 2.10, 3.0, 0.1, 0.05
-BoundingBox = 0.0, 0.90, 1.90, 3.0, 0.1, 0.06
-BoundingBox = 0.0, 0.95, 1.70, 3.0, 0.1, 0.08
-BoundingBox = 0.0, 1.05, 1.50, 3.0, 0.1, 0.08
+BoundingBox = 0.0, 0.60, 2.7, 3.0, 0.1, 0.5
+BoundingBox = 0.0, 0.65, 2.50, 3.0, 0.1, 0.5
+BoundingBox = 0.0, 0.80, 2.30, 3.0, 0.1, 0.5
+BoundingBox = 0.0, 0.85, 2.10, 3.0, 0.1, 0.5
+BoundingBox = 0.0, 0.90, 1.90, 3.0, 0.1, 0.6
+BoundingBox = 0.0, 0.95, 1.70, 3.0, 0.1, 0.8
+BoundingBox = 0.0, 1.05, 1.50, 3.0, 0.1, 0.8
 BoundingBox = 0.0, 1.10, 1.30, 3.0, 0.1, 0.11
 BoundingBox = 0.0, 1.175, 1.10, 3.0, 0.1, 0.29
 
