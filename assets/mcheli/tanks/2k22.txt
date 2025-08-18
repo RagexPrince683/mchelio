@@ -46,7 +46,7 @@ WeightType = Tank
 
 ;AddGunnerSeat =  0.00,  0, -0,   0.00,  3.5, -0,  false, -90, 5, true
 
-AddGunnerSeat =  0.00,  1.00, 0.00, 0.0, 3.50, 0.00, false, -90, 10, true
+AddGunnerSeat =  0.00,  1.80, 0.00, 0.0, 3.50, 0.00, false, -90, 10, true
 
 CameraPosition = 0.0, 3.50, 0.50, true
 
