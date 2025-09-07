@@ -16,6 +16,8 @@ DamageFactor = 0.8
 
 Category = MLRS
 
+AddTexture = m142des
+
 Regeneration = false
 ArmorMinDamage = 35
 ArmorDamageFactor = 2.32

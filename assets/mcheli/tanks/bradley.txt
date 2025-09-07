@@ -13,6 +13,8 @@ Gravity = -0.61
 ;Float = true
 ;FloatOffset = 0.0
 
+AddTexture = bradleydes
+
 Category = RIFV/ARV
 
 ;GravityInWater = -0.2

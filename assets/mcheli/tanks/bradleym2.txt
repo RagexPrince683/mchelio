@@ -13,6 +13,8 @@ Gravity = -0.61
 Float = true
 FloatOffset = 0.0
 
+AddTexture = bradleydes
+
 GravityInWater = -0.2
 
 Category = ARIFV/AARV
