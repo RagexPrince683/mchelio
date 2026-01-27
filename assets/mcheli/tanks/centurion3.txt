@@ -1,10 +1,11 @@
-DisplayName = Centurion3
-AddDisplayName = ja_JP, Centurion3
-AddDisplayName = en_US, Centurion3
+DisplayName = Centurion Mk 3
+AddDisplayName = ja_JP, Centurion Mk 3
+AddDisplayName = en_US, Centurion Mk 3
 ;ItemID = 30997
 MaxHp = 162
-Speed = 0.3
+Speed = 0.22
 Sound = mtwentysixeng
+;todo change
 ThrottleUpDown = 1.0
 MobilityYawOnGround = 2.3
 MobilityRoll = 0
@@ -12,9 +13,9 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.0
 CameraZoom = 8
-CameraPosition = 0.00,  3.6, 0.7542, true
-CameraRotationSpeed = 21
-MinRotationPitch = -30
+CameraPosition = 0.00,  3.6, 0.4602, true
+CameraRotationSpeed = 14
+MinRotationPitch = -20
 MaxRotationPitch = 10
 DefaultFreelook = true
 
@@ -40,7 +41,7 @@ Category = MED
 ; 2であれば2ブロックまでダメージ無し
 SubmergedDamageHeight = 2
 
-AddGunnerSeat = 0.00,  1.00, 0.7542
+AddGunnerSeat = 0.00,  0.80, 0.4602
 
 AddGunnerSeat = -0.824, 0.4, 1.9, -0.8008, 1.7900, 2.6592
 
@@ -72,50 +73,64 @@ AddCrawlerTrack = false, 0.26,  1.767,  1.306/1.915, 1.241/3.417, 0.9937/3.741, 
 
 SetWheelPos =  1.51, -0.24, 2.505, 1.52, 0.53, -0.4495, -1.43, -2.419
 
-AddTrackRoller =  1.757,  0.7676,  3.280
-AddTrackRoller = -1.757,  0.7676,  3.280
-AddTrackRoller =  1.757,  0.2341,  2.505
-AddTrackRoller = -1.757,  0.2341,  2.505
-AddTrackRoller =  1.757,  0.2341,  1.520
-AddTrackRoller = -1.757,  0.2341,  1.520
-AddTrackRoller =  1.757,  0.2341,  0.5353
-AddTrackRoller = -1.757,  0.2341,  0.5353
-AddTrackRoller =  1.757,  0.2341,  -0.4495
-AddTrackRoller = -1.757,  0.2341,  -0.4495
-AddTrackRoller =  1.757,  0.2341,  -1.434
-AddTrackRoller = -1.757,  0.2341,  -1.434
-AddTrackRoller =  1.757,  0.2341,  -2.419
-AddTrackRoller = -1.757,  0.2341,  -2.419
-AddTrackRoller =  1.757,  0.6061,  -3.463
-AddTrackRoller = -1.757,  0.6061,  -3.463
+AddTrackRoller =  -1.12,  0.5944,  3.1002
 
-;;todo these need to go in reverse direction but like they dont so like just duplicate AddTrackRoller and reversal but for a different var like AddTrackRollerInverse = x y z
+AddTrackRoller =  1.12,  0.5944,  3.1002
+;good
 
-AddTrackRoller = -1.757, 1.0112, 1.9043
-AddTrackRoller = -1.757, 1.0112, 0.9214
-AddTrackRoller = -1.757, 1.0112, -0.0614
-AddTrackRoller = -1.757, 1.0112, -1.0443
-AddTrackRoller = -1.757, 1.0112, -2.0271
+;bad
+
+AddTrackRoller = -1.52,  0.184,  2.17
+
+AddTrackRoller = 1.52,  0.184,  2.17
+
+AddTrackRoller = -1.52,  0.184,  1.30
+
+AddTrackRoller = 1.52,  0.184,  1.30
+
+AddTrackRoller = -1.52,  0.184,  0.2602
+
+AddTrackRoller = 1.52,  0.184,  0.2602
+
+AddTrackRoller = -1.52,  0.184,  -0.62
+
+AddTrackRoller = 1.52,  0.184,  -0.62
+
+AddTrackRoller = -1.52,  0.184,  -1.5
+
+AddTrackRoller = 1.52,  0.184,  -1.5
+
+AddTrackRoller = -1.52,  0.184,  -2.38
+
+AddTrackRoller = 1.52,  0.184,  -2.38
+
+AddTrackRoller = -1.52,  0.594,  -3.32
+
+AddTrackRoller = 1.52,  0.594,  -3.32
 
 
-AddTrackRoller = 1.757, 1.0112, 1.9043
-AddTrackRoller = 1.757, 1.0112, 0.9214
-AddTrackRoller = 1.757, 1.0112, -0.0614
-AddTrackRoller = 1.757, 1.0112, -1.0443
-AddTrackRoller = 1.757, 1.0112, -2.0271
+;AddTrackRoller =  0.0,  0.3501,  1.7002
+;AddTrackRoller = 0.0,  0.3501,  0.6602
+;AddTrackRoller =  0.0,  0.3501,  1.520
+;AddTrackRoller = 0.0,  0.3501,  1.520
+;AddTrackRoller =  0.0,  0.3501,  0.5353
+;AddTrackRoller = 0.0,  0.2341,  0.5353
 
 
 
 
-AddTurretWeapon = m4790mm_gun_m3,   0.00, 2.2113, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
-AddTurretWeapon = m47290mm_gun_m3,   0.00, 2.2113, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
-AddTurretWeapon = m47he,   0.00, 2.2113, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
-AddTurretWeapon = m47heat,   0.00, 2.2113, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
-AddTurretWeapon = m47m2,   0.453, 2.3503, 0.7542,   0.0, 0.0, true, 1,0,-360,360, -19,10
 
-AddPartWeapon    = m4790mm_gun_m3 / m47290mm_gun_m3 / m47he / m47heat,      false, true, false,  0.00,  1.70, 0.7542
-AddPartWeaponChild = false, true, 0.00, 2.314, 1.908,
-AddPartWeaponChild = false, true, 0.00, 2.314, 1.908, 0.5
+
+
+AddTurretWeapon = m4790mm_gun_m3,   0.00, 2.2113, 0.4602,   0.0, 0.0, true, 1,0,-360,360, -19,10
+AddTurretWeapon = m47290mm_gun_m3,   0.00, 2.2113, 0.4602,   0.0, 0.0, true, 1,0,-360,360, -19,10
+AddTurretWeapon = m47he,   0.00, 2.2113, 0.4602,   0.0, 0.0, true, 1,0,-360,360, -19,10
+AddTurretWeapon = m47heat,   0.00, 2.2113, 0.4602,   0.0, 0.0, true, 1,0,-360,360, -19,10
+AddTurretWeapon = m47m2,   0.453, 2.3503, 0.4602,   0.0, 0.0, true, 1,0,-360,360, -19,10
+
+AddPartWeapon    = m4790mm_gun_m3 / m47290mm_gun_m3 / m47he / m47heat,      false, true, false,  0.00,  1.70, 0.4602
+AddPartWeaponChild = false, true, 0.00, 1.83, 1.23,
+AddPartWeaponChild = false, true, 0.00, 1.83, 1.23, 0.5
 
 ;;z21.00, Y-22.75
 
@@ -131,7 +146,7 @@ AddTurretWeapon = m47m22,    -0.580, 3.54, 0.575,   0.0, 0.0, false, 1, 0, -360,
 ;AddPartWeaponChild = false, true, 0.0,    2.5498,  0.1268, 0.0
 
 
-TurretPosition = 0.00, 1.7, 0.7542
+TurretPosition = 0.00, 1.7, 0.4602
 
 ;;AddWeapon = targeting_pod_block,     0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
 ;;AddWeapon = targeting_pod_tank,   0.0, 0.6, 4.8,   0.0, 0.0,  true, 2
@@ -148,7 +163,7 @@ ArmorMinDamage = 22
 
 ;turret 283
 
-BoundingBox = 0.0, 2.25, 0.7542, 2.2, 1.25, 0.07
+BoundingBox = 0.0, 2.25, 0.4602, 2.2, 1.25, 0.07
 
 
 ;back 
