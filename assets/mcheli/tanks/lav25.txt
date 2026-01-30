@@ -77,11 +77,12 @@ AddPartWheel =  -1.4287, 0.3927,  -1.5735,
 AddPartWheel =  1.4286,    0.3927,  -1.5735,
 
 
-AddPartWeapon = 25lav3M791 / 25lav3M919 / 25lav3he, false, true, false,  0.0, 2.0, 0.0, 0
+AddPartWeapon = 25lav3M919 / 25lav3he, false, true, false,  0.0, 2.0, 0.0, 0
+;;25lav3M791 /
 AddPartWeaponChild = false, true, -0.0, 2.6, 1.10, 0.0,
 AddPartWeaponChild = false, true, -0.0, 2.6, 1.10, 0.0,
 AddPartWeaponChild = false, true, -0.0, 2.6, 1.10, 0.2,
-AddTurretWeapon = 25lav3M791,  0.0760, 2.5900, 0.7,  0.0, 0.0, false, 1, 0,-360,360,  -30,  5
+;;AddTurretWeapon = 25lav3M791,  0.0760, 2.5900, 0.7,  0.0, 0.0, false, 1, 0,-360,360,  -30,  5
 AddTurretWeapon = 25lav3M919,  0.0760, 2.5900, 0.7,  0.0, 0.0, false, 1, 0,-360,360, -30, 5
 AddTurretWeapon = 25lav3he,    0.0760, 2.5900, 0.7,  0.0, 0.0, false, 1, 0,-360,360, -30, 5
 AddTurretWeapon = 25lav3fnmag, -0.179, 2.5900, 0.7, 0.0, 0.0, false, 1, 0,-360,360, -30, 5

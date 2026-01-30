@@ -29,7 +29,7 @@ ReloadTime = 320
 
 BulletColor        = 255, 255, 100, 100
 
-Piercing = 0
+Piercing = 1
 ;Accuracy = 0.0
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5

@@ -13,13 +13,13 @@ Sound = msta
 Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
-;Gravity = -0.030
 
-;too far this is mc
-;Gravity = -0.000045
-
-Gravity = -0.00116
+;;Gravity = -0.00116
 ;24km with 7 accel
+
+Gravity = -0.07424
+
+
 group = maingun
 ; 着弾距離の表示
 ;DisplayMortarDistance = true

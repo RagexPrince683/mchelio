@@ -16,7 +16,6 @@ SoundDelay = 2
 Sound = bradmain
 Accuracy = 0.0
 ;ModeNum = 2
-Piercing = 1
 group = maingun
 HeatCount = 7
 MaxHeatCount = 150

@@ -16,7 +16,7 @@ Recoil = 1.5
 HeatCount = 700
 MaxHeatCount = 2050
 Gravity = -0.005
-Piercing = 2
+;;Piercing = 2
 Group = maingun
 
 DamageFactor = tank, 3.5

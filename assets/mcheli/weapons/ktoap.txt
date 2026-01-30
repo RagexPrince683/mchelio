@@ -13,7 +13,7 @@ Sound = bradmain
 Accuracy = 1.5
 ModelBullet = bullet105mm
 
-Piercing = 5
+;;Piercing = 5
 Group = MainGun
 
 DisplayMortarDistance = true

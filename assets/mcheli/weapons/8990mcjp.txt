@@ -18,7 +18,7 @@ Round = 4
 group = maingun
 
 Acceleration = 7
-Piercing = 2
+;;Piercing = 2
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5

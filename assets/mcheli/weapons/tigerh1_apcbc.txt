@@ -12,7 +12,7 @@ Round = 1
 Sound = HT_Fire_snd
 SoundVolume = 15
 Accuracy = 1.5
-Piercing = 2
+;;Piercing = 2
 ;HeatCount = 80
 ;MaxHeatCount = 75
 Gravity = -0.005
@@ -31,7 +31,6 @@ MaxHeatCount = 2050
 
 Group = MainGun
 Recoil = 2.0
-Piercing = 2
 
 AddMuzzleFlash      =           8.0,   2.50,        3,  220,254,159,74
 AddMuzzleFlash      =           12.0,  1.25,        6,  220,254,219,104

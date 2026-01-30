@@ -14,7 +14,9 @@ SoundVolume = 15.0
 Sound = artillery_gun_snd
 Accuracy = 1.5
 ;30km
-Gravity = -0.00096
+;;Gravity = -0.00096
+;;x64 for minecraft scaling
+Gravity = -0.06144
 HeatCount = 1000
 MaxHeatCount = 2100
 DamageFactor = tank, 2.0

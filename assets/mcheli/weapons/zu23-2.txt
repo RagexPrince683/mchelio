@@ -39,7 +39,7 @@ AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
 
 HeatCount = 2
 MaxHeatCount = 80
-Piercing = 2
+;;Piercing = 2
 DamageFactor = tank, 1.0
 DamageFactor = plane, 1.5
 DamageFactor = vehicle, 1.5

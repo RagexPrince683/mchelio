@@ -26,7 +26,7 @@ RecoilBufCount = 20, 5
 Recoil = 0.5
 
 Acceleration = 7.0
-Piercing = 2
+;;Piercing = 2
 DamageFactor = tank, 3.5
 DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0

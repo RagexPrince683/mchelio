@@ -19,6 +19,8 @@ RidableOnly = false
 ;TimeFuse = 200
 ;it literally has ai integrated in it wtf
 
+Piercing = 1
+
 heatcount = 900
 maxheatcount = 1500
 

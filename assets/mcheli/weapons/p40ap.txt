@@ -29,7 +29,7 @@ MaxHeatCount = 2000
 
 ModelBullet = bullet
 
-Piercing = 2
+;;Piercing = 2
 ; AddMuzzleFlash = distance, size, life time,   A,  R,  G,  B
 AddMuzzleFlash   =     9.2, 1.00,        4, 220,254,159, 74
 AddMuzzleFlash   =     9.1, 1.25,        4, 220,254,219,104
