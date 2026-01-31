@@ -24,7 +24,7 @@ SoundVolume = 15
 Sound = strykermain
 
 Group = MainGun
-Piercing = 5
+Piercing = 2
 Accuracy = 0.0
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5

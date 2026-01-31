@@ -20,7 +20,7 @@ Gravity = -0.001
 
 Acceleration = 7.0
 ;ModelBullet = bullet105mm
-Piercing = 5
+;;Piercing = 5
 Accuracy = 0.0
 DamageFactor = tank, 10.0
 DamageFactor = plane, 1.5

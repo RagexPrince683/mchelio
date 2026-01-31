@@ -18,6 +18,7 @@ ProximityFuseDist = 1.0
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 LockTime = 20
+Piercing = 1
 
 ;DisplayMortarDistance = true
 

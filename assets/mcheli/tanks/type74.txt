@@ -78,12 +78,12 @@ AddCrawlerTrack = false, 0.37,  1.8,   1.0/ 2.96, 0.91/ 3.2, 0.67/ 3.3, 0.44/ 3.
 MinRotationPitch = -60
 MaxRotationPitch =  10
 
-AddPartWeapon  = Type74_APDS / Type74_HEP, false, true,  false,  0.0, 1.9, 0.0, 0
+AddPartWeapon  = Type74_APDS / Type74_HEP / Type74_heat, false, true,  false,  0.0, 1.9, 0.0, 0
 AddPartWeaponChild = false, true,   0.0,    1.9146, 1.5959
 AddPartWeaponChild = false, true,   0.0,    1.9146, 1.5959, 0.5
 AddTurretWeapon     = Type74_APDS,  0.0,    1.8278, 0,  0.0, 0.0, true,1, 0,-360,360, -9, 6
 AddTurretWeapon     = Type74_HEP,   0.0,    1.8278, 0,  0.0, 0.0, true,1, 0,-360,360, -9, 6
-AddTurretWeapon     = Type74_HEat,   0.0,    1.8278, 0,  0.0, 0.0, true,1, 0,-360,360, -9, 6
+AddTurretWeapon     = Type74_heat,   0.0,    1.8278, 0,  0.0, 0.0, true,1, 0,-360,360, -9, 6
 AddTurretWeapon     = type74lmg,    0.3958, 1.9914, 1.0,   0.0, 0.0, true,1, 0,-360,360, -9, 6
 
 AddPartTurretWeapon    = type74M2_12_7mm,  false, true, false,  -0.042, 2.91, -0.03

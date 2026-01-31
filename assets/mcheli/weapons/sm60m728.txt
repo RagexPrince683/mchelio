@@ -31,7 +31,7 @@ AddMuzzleFlashSmoke = 15.2, 10,  11.0,  6.0, 35,  200,190,170,150
 
 Recoil = 1.2
 
-Piercing = 2
+;;Piercing = 2
 Accuracy = 1.5
 DamageFactor = tank, 3.0
 DamageFactor = plane, 1.5
