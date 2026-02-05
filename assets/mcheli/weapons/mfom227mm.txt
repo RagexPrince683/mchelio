@@ -26,7 +26,7 @@ Bomblet = 644
 
 TrajectoryParticle = largeexplode
 
-ModelBomblet = bullet
+ModelBomblet = none
 
 Delay = 8
 ReloadTime = 4800
