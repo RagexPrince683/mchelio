@@ -5,14 +5,16 @@ Acceleration = 8.0
 Flaming = false
 Sight = None
 ;9km
-Gravity = -0.00318
+Gravity = -0.01272
+;(x4, dispenser)
 
 
 SoundPitch = 1.0
 
 ;ProximityFuseDist = 3
 
-BombletSTime = 280
+BombletSTime = 28
+;;div 10
 BombletDiff = 1.2
 Bomblet = 3
 

@@ -118,15 +118,15 @@ BoundingBox = 0.0, 2.2, 0.0, 2.3, 0.8, 0.22
 
 ;top of engine 14
 
-BoundingBox =  0.0, 1.78, -3.7,  2.4, 0.1, 1.0
+;BoundingBox =  0.0, 1.78, -3.7,  2.4, 0.1, 1.0
 
 ;top of front part of tank 20mm
-BoundingBox =  0.0, 1.78, -1.3,  2.4, 0.1, 0.7
-BoundingBox =  0.0, 1.78, 1.0,  2.4, 0.1, 0.7
+;BoundingBox =  0.0, 1.78, -1.3,  2.4, 0.1, 0.7
+;BoundingBox =  0.0, 1.78, 1.0,  2.4, 0.1, 0.7
 
 ;top of turret 20
 
-BoundingBox = 0.0, 2.57, 0.0, 2.2, 0.1, 0.7
+;BoundingBox = 0.0, 2.57, 0.0, 2.2, 0.1, 0.7
 
 
 

@@ -1,4 +1,4 @@
-DisplayName = Type 1 47mm Tank Gun [Type 1 - APHE]
+DisplayName = 47mm Type 1 Cannon [Type 1 - APHE]
 Type = MachineGun2
 Power = 77
 Acceleration = 7
@@ -13,7 +13,7 @@ Sight = MoveSight
 Sound = cannon_5_snd
 
 Accuracy = 1.5
-Piercing = 2
+;;Piercing = 2
 HeatCount = 225
 MaxHeatCount = 400
 Gravity = -0.005
@@ -31,7 +31,6 @@ Group = maingun
 
 Recoil = 1.5
 
-Piercing = 2
 DamageFactor = tank, 3.5
 DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0

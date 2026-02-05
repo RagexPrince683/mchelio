@@ -153,7 +153,9 @@ AddWeapon = place, 0.00, 2.10, 5.20,  0.0, 0.0, true,1, 0,-0,0, -20, 20
 AddWeapon = place, -1.20, 2.10, 5.20,  0.0, 0.0, true,1, 0,-0,0, -20, 20
 
 ;entrenching tracked tank thing
-AddRecipe = "ABC", "DGF", "E  ", A, mcheli:mediumchassis, B, mcheli:rocket, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite, E, mcheli:basicmechanicparts
+;AddRecipe = "ABC", "DGF", "E  ", A, mcheli:mediumchassis, B, mcheli:rocket, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:composite, E, mcheli:basicmechanicparts
+
+;TODO WIP
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 
 RideRack = c5, 1

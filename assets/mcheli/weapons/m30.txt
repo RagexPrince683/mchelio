@@ -17,11 +17,11 @@ Sound = missile_11_snd
 Group = MainGun
 SoundVolume = 15
 ;70km
-Gravity = -0.00041
+Gravity = -0.02624
 Bomblet = 404
 BombletDiff = 0.5
-BombletSTime = 140
-ModelBomblet = bullet
+BombletSTime = 14
+ModelBomblet = none
 
 TrajectoryParticle = fireworksSpark
 

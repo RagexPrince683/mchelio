@@ -17,9 +17,10 @@ Accuracy = 0.0
 ;ModelBullet = bullet105mm
 Flaming = false
 Sight = None
-Gravity = -0.04
+;;32km
+Gravity = -0.0576
 DelayFuze = 5
-BombletSTime = 50
+BombletSTime = 5
 BombletDiff = 2.5
 Bomblet = 644
 

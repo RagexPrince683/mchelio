@@ -8,7 +8,7 @@ ExplosionBlock = 1
 
 ModelBullet = bullet
 Acceleration = 6.5
-Piercing = 1
+;Piercing = 1
 Sight = None
 SoundPitch = 1.2
 Accuracy = 1.5

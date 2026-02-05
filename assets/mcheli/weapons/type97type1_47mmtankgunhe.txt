@@ -1,4 +1,4 @@
-DisplayName = Type 1 47mm Tank Gun [HE]
+DisplayName = 47mm Type 1 Cannon [Type 1 - HE]
 Type = MachineGun2
 Power = 10
 Acceleration = 6
@@ -13,7 +13,6 @@ Sight = MoveSight
 Sound = cannon_5_snd
 
 Accuracy = 1.5
-Piercing = 2
 HeatCount = 225
 MaxHeatCount = 400
 Gravity = -0.005

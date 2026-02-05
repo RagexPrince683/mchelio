@@ -5,7 +5,7 @@ Acceleration = 7.0
 Flaming = false
 Sight = None
 ;10.4km
-Gravity = -0.00276
+Gravity = -0.17664
 
 
 SoundPitch = 1.0

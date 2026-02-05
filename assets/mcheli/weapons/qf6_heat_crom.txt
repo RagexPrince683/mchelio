@@ -11,7 +11,6 @@ SoundPitch = 0.5
 
 Sound = tank_gun_snd
 Gravity = -0.005
-Piercing = 2
 Recoil = 1.5
 
 DamageFactor = tank, 3.5
@@ -19,7 +18,7 @@ DamageFactor = plane, 1.5
 DamageFactor = vehicle 2.0
 DamageFactor = heli, 2.0
 DamageFactor = player, 10.0
-Piercing = 2
+;Piercing = 2
 ;ModelBullet = bullet
 
 HeatCount = 900
