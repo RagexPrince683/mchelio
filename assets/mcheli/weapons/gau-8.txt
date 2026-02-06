@@ -1,7 +1,6 @@
 DisplayName = 30mm GAU-8 Avenger
 Type = MachineGun1
 Power = 40
-Acceleration = 6.0
 Explosion = 1
 ExplosionBlock = 1
 Flaming = true
@@ -15,6 +14,14 @@ Sound = ah
 Accuracy = 2.0
 HeatCount = 1
 MaxHeatCount = 150
+
+;;Bomblet = 65
+;;BombletSTime = 0
+;;BombletDiff = 0.0
+
+;;DisableSmoke = true
+;;ModelBullet = bullet76mm
+;;ModelBomblet = none
 
 
 Gravity = -0.001
