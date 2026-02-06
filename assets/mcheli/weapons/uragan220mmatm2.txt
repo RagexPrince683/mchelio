@@ -16,7 +16,7 @@ ModelBomblet = pom2
 ;TimeFuse = 9999999
 
 
-BombletSTime = 390
+BombletSTime = 39
 BombletDiff = 3.0
 Bomblet = 312
 
@@ -32,7 +32,7 @@ ModelBullet = bullet76mm
 Flaming = false
 Sight = None
 Delay = 120
-Gravity = -0.00082
+Gravity = -0.0328
 ReloadTime = 12000
 
 SoundVolume = 15

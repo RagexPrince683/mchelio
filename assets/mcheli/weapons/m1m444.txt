@@ -4,7 +4,7 @@ Power = 25
 Acceleration = 7
 Sight = MissileSight
 ;11.27km
-Gravity = -0.00246
+Gravity = -0.15744
 ;Delay = 100
 Sound = artillery_gun_snd
 SoundVolume = 15

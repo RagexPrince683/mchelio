@@ -13,7 +13,7 @@ Round = 1
 SoundVolume = 15.0
 Sound = big
 Accuracy = 1.5
-Gravity = -0.00096
+Gravity = -0.06144
 
 HeatCount = 2100
 MaxHeatCount = 8000

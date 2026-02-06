@@ -13,7 +13,7 @@ SoundVolume = 20
 Sound = msta
 Recoil = 1.5
 ;15.2km
-Gravity = -0.001885
+Gravity = -0.12064
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

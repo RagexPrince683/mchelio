@@ -3,7 +3,7 @@ Type = Rocket
 Power = 1000
 Acceleration = 7
 Sight = rocket
-Gravity = -0.00041
+Gravity = -0.02624
 SoundVolume = 4.5
 Accuracy = 0.1
 

@@ -20,7 +20,7 @@ SoundPitch = 1.0
 Sound = missile_12_snd
 ;ModeNum = 2
 ModelBullet = ballistic
-Gravity = -0.00041
+Gravity = -0.02624
 
 
 TrajectoryParticle = largeexplode

@@ -14,7 +14,7 @@ BombletSTime = 4
 BombletDiff = 0.9
 Bomblet = 2080
 ModelBullet = bullet76mm
-ModelBomblet = flechette
+ModelBomblet = none
 DisableSmoke = true
 ;DamageFactor = player, 2.0
 

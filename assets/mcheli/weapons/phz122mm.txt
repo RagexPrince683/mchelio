@@ -1,4 +1,4 @@
-DisplayName =  122mm Grad Artillery Rocket [9M22U]
+DisplayName =  122mm Grad Artillery Rocket [9M22U - HE-Frag]
 Type = Rocket
 Power = 400
 ModelBullet = m30
@@ -12,7 +12,7 @@ Sight = MoveSight
 Delay = 1
 ReloadTime = 5600
 Round = 40
-Gravity = -0.00143
+Gravity = -0.09152
 DamageFactor = tank, 2.0
 DamageFactor = plane, 4.5
 DamageFactor = vehicle 4.5

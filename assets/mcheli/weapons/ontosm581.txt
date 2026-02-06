@@ -55,7 +55,7 @@ Piercing = 0
 SoundVolume = 15
 
 ModelBullet = hydra70
-ModelBomblet = flechette
+ModelBomblet = none
 
 MaxAmmo = 6
 SuppliedNum = 1

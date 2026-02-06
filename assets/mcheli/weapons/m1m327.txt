@@ -14,8 +14,8 @@ Sound = artillery_gun_snd
 Accuracy = 1.2
 BulletColor        = 255, 255, 100, 100
 ;8.7km
-Gravity = -0.00329
-Piercing = 5
+Gravity = -0.21056
+Piercing = 2
 
 HeatCount = 500
 MaxHeatCount = 2000

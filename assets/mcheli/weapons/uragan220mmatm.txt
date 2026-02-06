@@ -14,7 +14,7 @@ ModelBomblet = pom2
 ;ProximityFuseDist = 2.0
 
 
-BombletSTime = 340
+BombletSTime = 34
 BombletDiff = 2.5
 Bomblet = 24
 
@@ -30,7 +30,7 @@ ModelBullet = bullet76mm
 Flaming = false
 Sight = None
 Delay = 6
-Gravity = -0.00082
+Gravity = -0.0328
 ReloadTime = 12000
 
 SoundVolume = 15

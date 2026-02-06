@@ -25,7 +25,7 @@ Flaming = false
 Sight = None
 Delay = 6
 ;35km
-Gravity = -0.00082
+Gravity = -0.05248
 ReloadTime = 12000
 
 Group = MainGun

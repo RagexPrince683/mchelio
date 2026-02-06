@@ -3,7 +3,7 @@ Type = Rocket
 Power = 50
 Acceleration = 7
 Sight = MissileSight
-Gravity = -0.00198
+Gravity = -0.12672
 ;Delay = 100
 Sound = artillery_gun_snd
 SoundVolume = 15
@@ -20,8 +20,8 @@ MaxHeatCount = 2000
 
 Bomblet = 42
 BombletDiff = 0.8
-BombletSTime = 145
-ModelBomblet = cbc
+BombletSTime = 14
+ModelBomblet = none
 
 DelayFuse = 0
 

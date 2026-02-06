@@ -31,7 +31,7 @@ BombletDiff = 0.35
 Bomblet = 520
 ;2080/4
 ModelBullet = bullet76mm
-ModelBomblet = bullet
+ModelBomblet = none
 DisableSmoke = true
 DamageFactor = player, 2.0
 
