@@ -18,6 +18,9 @@ RidableOnly = true
 ModeNum = 2
 fixmode=1
 
+
+Piercing = 1
+
 HeatCount = 1000
 MaxHeatCount = 2000
 

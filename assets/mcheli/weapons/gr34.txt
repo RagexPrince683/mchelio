@@ -4,7 +4,8 @@ Power = 34
 Explosion = 2
 ExplosionBlock = 3
 Acceleration = 4.0
-Gravity = -0.00694
+Gravity = -0.11104
+;;x16
 Sight = MissileSight
 Delay = 80
 ReloadTime = 80

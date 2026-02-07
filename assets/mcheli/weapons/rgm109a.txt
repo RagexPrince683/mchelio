@@ -5,6 +5,8 @@ Explosion = 1
 Flaming = false
 DisplayMortarDistance = true
 
+Piercing = 1
+
 Sight = MoveSight
 Delay = 1
 nukeyield = 90

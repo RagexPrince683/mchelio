@@ -15,6 +15,8 @@ Delay = 5
 ReloadTime = 350
 DisableSmoke = true
 
+Piercing = 1
+
 RigidityTime = 3
 
 AddMuzzleFlash      =  2.2,      1.80,        8,  200,254,129,44

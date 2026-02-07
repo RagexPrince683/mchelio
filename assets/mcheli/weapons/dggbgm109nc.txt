@@ -15,6 +15,8 @@ Delay = 5
 ReloadTime = 350
 DisableSmoke = true
 
+Piercing = 1
+
 nukeyield = 100
 
 RigidityTime = 3

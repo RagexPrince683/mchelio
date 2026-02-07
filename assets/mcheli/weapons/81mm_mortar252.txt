@@ -12,7 +12,8 @@ ModelBullet = bullet76mm
 Flaming = false
 Sight = None
 Delay = 30
-Gravity = -0.00295
+Gravity = -0.0472
+;;x16
 DamageFactor = tank, 1.5
 DamageFactor = plane, 3.0
 DamageFactor = vehicle 2.0

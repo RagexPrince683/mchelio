@@ -15,6 +15,7 @@ Delay = 20
 ModelBullet = harpoonmissle
 Sound = aimnine
 SoundPitch = 0.6
+Piercing = 1
 
 Round = 4
 

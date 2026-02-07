@@ -18,7 +18,7 @@ Gravity = -0.005
 ReloadTime = 800
 Recoil = 5
 Round = 2
-Piercing = 2
+;;Piercing = 2
 
 HeatCount = 300
 MaxHeatCount = 520

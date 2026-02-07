@@ -1,5 +1,5 @@
-﻿DisplayName = WZ-10
-AddDisplayName = en_US, WZ-10
+﻿DisplayName = Changhe Z-10
+AddDisplayName = en_US, Changhe Z-10
 AddDisplayName = ja_JP, WZ  10 
 ItemID = 8994
 MaxHp = 100
@@ -77,10 +77,10 @@ AddWeapon = targeting_pod1,  0.00, 0.38, 0.90,  0,-1, true,2, 0,-360,360, -25,80
 AddWeapon = type23,  0.00, 0.5809, 4.8309,  0,-1, true,2, 0,-360,360, -25,80
 
 
-AddWeapon = 70,        2.1397,  1.2932, -1.8411,  1, 0,  true,1,  0,0,0, 0, 35
-AddWeapon = 70,       -2.1397,  1.2932, -1.8411,  1, 0,  true,1,  0,0,0, 0, 35
-AddWeapon = 70_mpsm,   2.1397,  1.2932, -1.8411,  1, 0,  true,1,  0,0,0, 0, 35
-AddWeapon = 70_mpsm,  -2.1397,  1.2932, -1.8411,  1, 0,  true,1,  0,0,0, 0, 35
+AddWeapon = 70,        2.1397,  1.2932, -1.8411,  1, 0,  true,1,  0,0,0, 0, 0
+AddWeapon = 70,       -2.1397,  1.2932, -1.8411,  1, 0,  true,1,  0,0,0, 0, 0
+;;AddWeapon = 70_mpsm,   2.1397,  1.2932, -1.8411,  1, 0,  true,1,  0,0,0, 0, 35
+;;AddWeapon = 70_mpsm,  -2.1397,  1.2932, -1.8411,  1, 0,  true,1,  0,0,0, 0, 35
 
 AddWeapon = HJ10,  3.7984,  1.6648, -1.5,  1, 0,  true,2
 AddWeapon = HJ10, -3.7984,  1.6648, -1.5, -1, 0,  true,2

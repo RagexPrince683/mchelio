@@ -12,6 +12,8 @@ ModelBullet = harpoonmissle
 Sound = aimnine
 SoundPitch = 0.6
 
+Piercing = 1
+
 Round = 4
 
 ReloadTime = 1000
