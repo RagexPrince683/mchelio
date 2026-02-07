@@ -1,7 +1,7 @@
 DisplayName = 155mm M284 Cannon [M864 DPICM - Cluster]
 Type = Rocket
 Power = 80
-ModelBullet = bullet105mm
+;;ModelBullet = bullet105mm
 Explosion = 3
 ExplosionInWater = 2
 ExplosionBlock = 3
@@ -17,7 +17,7 @@ BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 
 ;22km
-Gravity = -0.0013
+Gravity = -0.0832
 
 HeatCount = 4100
 MaxHeatCount = 8000
@@ -44,6 +44,8 @@ SoundPitch = 1.1
 Bomblet = 72
 BombletSTime = 10
 BombletDiff = 1.2
+
+ModelBomblet = none
 
 
 ; 着弾距離の表示

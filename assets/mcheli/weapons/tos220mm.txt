@@ -15,7 +15,8 @@ Flaming = true
 Sight = None
 Delay = 1
 ;6km
-Gravity = -0.30592
+Gravity = -0.10592
+;;added another 0 because it was just fucking cooked
 ;;x8, x1.4 because this just gets fucked
 ;;+rebalanced fuck ts
 ;;nvm, just take the actual fucking value its fine.

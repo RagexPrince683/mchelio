@@ -14,7 +14,7 @@ ModelBullet = bullet105mm
 Flaming = false
 Sight = None
 Delay = 240
-Gravity = -0.00155
+Gravity = -0.0992
 ReloadTime = 240
 Recoil = 3
 

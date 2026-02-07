@@ -15,7 +15,7 @@ Sound = mspg
 Recoil = 1.5
 Delay = 150
 CameraRotationSpeedPitch = 0.6
-Gravity = -0.00096
+Gravity = -0.06144
 
 
 

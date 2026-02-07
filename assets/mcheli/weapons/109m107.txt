@@ -1,7 +1,7 @@
 DisplayName = 155mm M284 Cannon [M107 - HE]
 Type = MachineGun1
 Power = 500
-ModelBullet = bullet105mm
+;;ModelBullet = bullet105mm
 Explosion = 4
 ExplosionBlock = 5
 
@@ -18,7 +18,7 @@ ProximityFuseDist = 2
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 ;18.4km
-Gravity = -0.00158
+Gravity = -0.10112
 
 HeatCount = 4100
 MaxHeatCount = 8000

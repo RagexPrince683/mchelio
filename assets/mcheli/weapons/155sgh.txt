@@ -14,7 +14,7 @@ SoundVolume = 20
 Sound = mspg
 Recoil = 1.5
 Delay = 85
-Gravity = -0.00119
+Gravity = -0.07616
 
 
 Group = MainGun

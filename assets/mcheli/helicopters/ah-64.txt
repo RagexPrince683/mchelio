@@ -94,11 +94,11 @@ AddWeapon = agm114tv, -1.72,  0.96, -1.64, -1, 0,  true,2
 AddWeapon = agm114tv,  1.72,  0.96, -1.64,  1, 0,  true,2
 AddWeapon = agm114tv, -1.72,  0.96, -1.64, -1, 0,  true,2
 
-AddWeapon = a10gau8,  0.00,  0.70,  0.95,  0, 0,  true,2
+;;AddWeapon = a10gau8,  0.00,  0.70,  0.95,  0, 0,  true,2
 
 AddWeapon = targeting_pod_mob,     0.0, 1.1, 4.5,   0.0, 0.0,  true, 2
 AddWeapon = targeting_pod_pv10s,   0.0, 1.1, 4.5,   0.0, 0.0,  false,2
-;AddWeapon = targeting_pod_block,   0.0, 1.1, 4.5,   0.0, 0.0,  false,2
+AddWeapon = targeting_pod_block,   0.0, 1.1, 4.5,   0.0, 0.0,  false,2
 
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0
 

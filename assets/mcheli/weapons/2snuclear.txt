@@ -22,7 +22,7 @@ Accuracy = 0.5
 BulletColor        = 255, 255, 100, 100
 Particle = largeexplode
 ;24.7
-Gravity = -0.00116
+Gravity = -0.07424
 group = maingun
 
 ; 着弾距離の表示
