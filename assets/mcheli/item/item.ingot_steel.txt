@@ -5,7 +5,7 @@ ItemID = 28979
 
 StackSize = 64
 
-
+oredict = ingotSteel
 
 
 ;;AddRecipe = "DY",  Y, iron_ingot, D, gunpowder
