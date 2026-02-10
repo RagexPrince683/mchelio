@@ -1,6 +1,6 @@
-DisplayName = 7.62mm M240C Machine Gun
+DisplayName = 7.62x51mm M240C Machine Gun
 Type = MachineGun2
-Power = 8
+Power = 15
 Acceleration = 7.0
 Flaming = false
 Sight = MoveSight
