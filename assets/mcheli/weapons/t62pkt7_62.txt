@@ -1,6 +1,5 @@
-DisplayName = 7.62mm PKT Machine Gun
+DisplayName = 7.62x54mmR PKT Machine Gun
 Type = MachineGun1
-Power = 8
 Flaming = false
 Sight = MoveSight
 Delay = 1
@@ -20,7 +19,7 @@ DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
 ;new standard for 7.62
 
-Power = 8
+Power = 15
 
 ReloadTime = 80
 Acceleration = 7

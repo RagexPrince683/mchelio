@@ -1,6 +1,6 @@
-DisplayName = 7.62mm PKT General-Purpose Machine Gun
+DisplayName = 7.62x54mmR PKT General-Purpose Machine Gun
 Type = MachineGun2
-Power = 7
+Power = 15
 Acceleration = 8.0
 Flaming = false
 Sight = MoveSight

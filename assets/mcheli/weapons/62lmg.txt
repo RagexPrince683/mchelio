@@ -1,4 +1,4 @@
-DisplayName = 7.62mm Type 59 Machine Gun
+DisplayName = 7.62x54mmR Type 59 Machine Gun
 Type = MachineGun1
 Flaming = false
 Sight = MoveSight
@@ -23,7 +23,7 @@ DamageFactor = heli, 0.5
 
 ;new standard for 7.62
 
-Power = 8
+Power = 15
 
 ReloadTime = 80
 Acceleration = 7

@@ -1,6 +1,6 @@
-DisplayName = 7.62mm UKM-2000 Machine Gun
+DisplayName = 7.62x51mm UKM-2000 Machine Gun
 Type = MachineGun2
-Power = 8
+Power = 15
 Acceleration = 8.0
 Sight = MoveSight
 Flaming = false

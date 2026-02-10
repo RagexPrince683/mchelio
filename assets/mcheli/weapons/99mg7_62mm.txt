@@ -1,4 +1,4 @@
-DisplayName = 7.62mm Type 86 Machine Gun
+DisplayName = 7.62x54mmR Type 86 Machine Gun
 Type = MachineGun1
 Flaming = false
 Sight = MoveSight
@@ -14,7 +14,7 @@ MaxHeatCount = 150
 Gravity = -0.001
 ModelBullet = bullet
 ;new standard for 7.62
-Power = 8
+Power = 15
 ReloadTime = 80
 Acceleration = 7.5
 Piercing = 0

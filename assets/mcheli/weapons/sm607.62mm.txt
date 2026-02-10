@@ -20,7 +20,6 @@ DamageFactor = plane, 0.5
 DamageFactor = vehicle, 1.0
 DamageFactor = heli, 0.5
 ;new standard for 7.62
-Power = 8
 ReloadTime = 80
 Acceleration = 7.5
 Piercing = 0

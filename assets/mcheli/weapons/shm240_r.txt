@@ -18,8 +18,6 @@ Gravity = -0.005
 
 ;new standard for 7.62
 
-Power = 8
-
 Round = 200
 
 ReloadTime = 80

@@ -1,6 +1,5 @@
-DisplayName = 7.62mm PKT Coaxial Machine Gun
+DisplayName = 7.62x54mmR PKT Coaxial Machine Gun
 Type = MachineGun1
-Power = 8
 Acceleration = 8.0
 Flaming = false
 Sight = MoveSight
@@ -24,7 +23,7 @@ SoundVolume = 15
 
 ;new standard for 7.62
 
-Power = 8
+Power = 15
 
 Gravity = -0.005
 

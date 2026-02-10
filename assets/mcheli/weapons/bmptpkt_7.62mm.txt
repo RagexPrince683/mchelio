@@ -1,6 +1,6 @@
-DisplayName = 7.62mm PKT Machine Gun
+DisplayName = 7.62x54mmR PKT Machine Gun
 Type = MachineGun1
-Power = 7
+Power = 15
 Acceleration = 7.5
 Flaming = false
 Sight = MoveSight
@@ -16,7 +16,6 @@ MaxHeatCount = 150
 ModelBullet = bullet
 DisplayMortarDistance = true
 ;new standard for 7.62
-Power = 8
 ReloadTime = 80
 Acceleration = 7.5
 Piercing = 0

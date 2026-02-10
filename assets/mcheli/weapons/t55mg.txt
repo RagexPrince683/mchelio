@@ -1,6 +1,5 @@
-DisplayName = 7.62mm SGMT Machine Gun
+DisplayName = 7.62x54mmR SGMT Machine Gun
 Type = MachineGun1
-Power = 8
 Acceleration = 7.5
 Flaming = false
 Sight = MoveSight
@@ -23,7 +22,7 @@ DamageFactor = heli, 0.5
 
 ;new standard for 7.62
 
-Power = 8
+Power = 15
 
 ReloadTime = 80
 Acceleration = 7.5

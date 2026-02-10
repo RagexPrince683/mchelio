@@ -22,8 +22,6 @@ Gravity = -0.005
 
 ;new standard for 7.62
 
-Power = 8
-
 Acceleration = 7.5
 Piercing = 0
 DamageFactor = tank, 1.0
