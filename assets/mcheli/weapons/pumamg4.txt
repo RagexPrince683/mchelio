@@ -1,4 +1,4 @@
-DisplayName = 5.56mm Heckler & Koch MG4 Machine Gun
+DisplayName = 5.56x45mm Heckler & Koch MG4 Machine Gun
 Type = MachineGun1
 Power = 8
 ModelBullet = bullet
