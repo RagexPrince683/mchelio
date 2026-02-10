@@ -1,6 +1,16 @@
 DisplayName = Plastic
 AddDisplayName = ja_JP, Plastic
 
+;;oredict = ingotAnyHardPlastic
+;;oredict = ingotPolycarbonate
+;;oredict = Polycarbonate
+;;oredict = Polymer
+;;oredict = ingotAnyPlastic
+;;oredict = ingotPolymer
+oredict = ingotAnyPlastic
+;;oredict = ingotBakelite
+;;oredict = Bakelite
+
 StackSize = 64
 ;;compat
 ;;AddRecipe = "A  ", "   ", "   ", A, HandmadeGuns:Prastic

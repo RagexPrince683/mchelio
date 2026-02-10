@@ -5,6 +5,15 @@ AddDisplayName = ja_JP, Depleted Uranium
 
 StackSize = 64
 
+;;oredict = ingotU238
+;;oredict = Uranium238
+;;oredict = U238
+;;oredict = ingotUranium238
+;;oredict = nuggetUranium238
+;;oredict = tinyUranium238
+;;oredict = nuggetU238
+oredict = tinyU238
+
 
 AddRecipe = "A  ", "   ", "   ", A, hbm:item.waste_natural_uranium
 AddRecipe = "A  ", "   ", "   ", A, hbm:item.ingot_u238
