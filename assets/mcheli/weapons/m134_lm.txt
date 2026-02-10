@@ -1,6 +1,6 @@
-DisplayName = 7.62mm M134D Minigun
+DisplayName = 7.62x51mm M134D Minigun
 Type = MachineGun2
-Power = 9
+Power = 15
 Flaming = false
 Sight = MoveSight
 Delay = 0
