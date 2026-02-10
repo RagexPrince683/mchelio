@@ -1,6 +1,6 @@
 DisplayName = DT-29 [7.62mm]
 Type = MachineGun2
-Power = 8
+Power = 15
 Flaming = false
 Sight = None
 Delay = 1

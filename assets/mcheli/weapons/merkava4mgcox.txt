@@ -1,6 +1,6 @@
-DisplayName = 7.62mm FN MAG 60-40 Machine Gun
+DisplayName = 7.62x51mm FN MAG 60-40 Machine Gun
 Type = MachineGun1
-Power = 8
+Power = 15
 Flaming = false
 Sight = MoveSight
 Delay = 1

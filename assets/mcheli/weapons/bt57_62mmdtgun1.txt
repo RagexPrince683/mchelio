@@ -1,6 +1,6 @@
-DisplayName = 7.62mm DT Machine Gun
+DisplayName = 7.62x54mmR DT Machine Gun
 Type = MachineGun1
-Power = 8
+Power = 15
 Flaming = false
 Sight = None
 Delay = 1

@@ -1,6 +1,6 @@
-DisplayName = 7.62mm KV-2 lear
+DisplayName = 7.62x54mmR KV-2 lear
 Type = MachineGun1
-Power = 7
+Power = 15
 Acceleration = 7.5
 Explosion = 0
 Flaming = false

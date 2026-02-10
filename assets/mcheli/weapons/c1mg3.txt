@@ -1,6 +1,6 @@
-DisplayName = 7.62mm Beretta MG42/59 Machine Gun
+DisplayName = 7.62x51mm Beretta MG42/59 Machine Gun
 Type = MachineGun1
-Power = 8
+Power = 15
 ModelBullet = bullet
 Flaming = false
 Sight = MoveSight

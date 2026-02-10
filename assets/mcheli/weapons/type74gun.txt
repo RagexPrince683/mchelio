@@ -1,6 +1,6 @@
-DisplayName = Type 74 7.62mm Machine Gun
+DisplayName = 7.62x51mm Type 74 Machine Gun
 Type = MachineGun2
-Power = 8
+Power = 15
 Acceleration = 8.0
 Flaming = false
 Sight = MoveSight
