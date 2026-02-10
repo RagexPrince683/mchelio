@@ -1,6 +1,6 @@
-DisplayName = 7.62mm Browning M1919 Machine Gun (L)
+DisplayName = 7.62x63mm Browning M1919 Machine Gun (L)
 Type = MachineGun1
-Power = 8
+Power = 15
 Acceleration = 7.0
 Flaming = false
 Sight = MoveSight

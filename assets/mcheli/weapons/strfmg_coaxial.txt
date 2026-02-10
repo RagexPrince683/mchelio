@@ -1,6 +1,6 @@
-DisplayName = 7.62mm Ksp-39C Machine Gun
+DisplayName = 7.62x51mm Ksp-39C Machine Gun
 Type = MachineGun1
-Power = 8
+Power = 15
 Round = 250
 ReloadTime = 80
 Flaming = false
