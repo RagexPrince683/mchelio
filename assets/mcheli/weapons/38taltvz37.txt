@@ -1,7 +1,7 @@
-DisplayName = 7.92mm MG37(t) Machine Gun
+DisplayName = 7.92x57mm MG37(t) Machine Gun
 Type = MachineGun1
 ModelBullet = 7.91mm
-Power = 7
+Power = 15
 Acceleration = 7.5
 Flaming = false
 Sight = MoveSight

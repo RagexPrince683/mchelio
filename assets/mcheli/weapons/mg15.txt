@@ -1,6 +1,6 @@
-DisplayName = 7.92mm MG15 Machine Gun
+DisplayName = 7.92x57mm MG15 Machine Gun
 Type = MachineGun1
-Power = 8
+Power = 15
 Flaming = false
 Accuracy = 2.5
 Sight = MoveSight

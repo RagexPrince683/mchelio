@@ -1,7 +1,7 @@
-DisplayName = 7.92mm MG34 Machine Gun
+DisplayName = 7.92x57mm MG34 Machine Gun
 Type = MachineGun1
 ModelBullet = 7.91mm
-Power = 8
+Power = 15
 Flaming = false
 Sight = MoveSight
 Delay = 1

@@ -1,6 +1,6 @@
-DisplayName = 7.62mm Vickers Machine Gun
+DisplayName = 7.7x56mmR Vickers Machine Gun
 Type = MachineGun1
-Power = 7
+Power = 15
 Acceleration = 7.5
 Flaming = false
 Sight = MoveSight
