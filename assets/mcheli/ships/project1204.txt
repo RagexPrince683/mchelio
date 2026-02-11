@@ -17,6 +17,8 @@ DamageFactor = 0.6
 
 PivotTurnThrottle = 0.2
 
+Category = APB/ARPC/IWGB
+
 HUD = gunner, plane_gnr, plane_gnr, plane_gnr
 
 AddPartCamera = 0.00, 3.95, -4.42, true, false

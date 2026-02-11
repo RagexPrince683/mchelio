@@ -23,6 +23,8 @@ DefaultFreelook = true
 EnableNightVision = true
 EnableEntityRadar = true
 
+Category = ABCD/GMD
+
 PivotTurnThrottle = 0.2
 
 

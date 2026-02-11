@@ -30,7 +30,7 @@ RideRack = ch47, 5
 MobilityYawOnGround = 4.0
 
 ; M = Military(軍用機).  C = Transport(輸送機)
-Category = M.C
+Category = RIB/RHIB
 
 HUD = none, none
 

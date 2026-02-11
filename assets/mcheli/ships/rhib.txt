@@ -12,6 +12,8 @@ MobilityPitch = 0.01
 MobilityYaw = 2.60
 MobilityYawOnGround = 2.5
 
+Category = RHIB/RIB
+
 PivotTurnThrottle = 0.2
 
 enableback = true

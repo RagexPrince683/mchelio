@@ -34,7 +34,7 @@ ParticlesScale = 0.7
 
 
 ; M = Military(軍用機).  C = Transport(輸送機)
-Category = M.C
+Category = LC
 
 
 HUD = plane_wwii, gunner, gunner, none

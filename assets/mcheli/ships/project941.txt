@@ -1,4 +1,5 @@
-﻿DisplayName = Project 941 Akula
+﻿DisplayName = Project 941 Akula Ballistic Missile Submarine
+AddDisplayName = en_US, Project 941 Akula Ballistic Missile Submarine
 AddDisplayName = zh_CN, 台风级战略核潜艇 
 ItemID = 21991
 MaxHp = 23200
@@ -29,7 +30,7 @@ HUD = plane
 EnableVtol = true
 
 
-Category = M.C
+Category = BMS
 
 EnableBack = true
 

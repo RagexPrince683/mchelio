@@ -1,4 +1,4 @@
-DisplayName = Fuel truck
+DisplayName = Fuel Truck
 AddDisplayName = ja_JP, 燃料補給車
 ItemID = 28722
 MaxHp = 100
@@ -7,6 +7,8 @@ DamageFactor = 2
 ThrottleUpDown = 0.0
 FuelSupplyRange = 35
 CanRide = false
+
+Category = ADMIN
 
 AddSeat = 0.00,  0.80,  0.0
 
