@@ -20,7 +20,7 @@ FlareType = 2
 ThirdPersonDist = 68
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = SHB/HB
 
 HUD = planenvg, plane_gnrnvg
 

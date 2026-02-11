@@ -20,7 +20,7 @@ ParticlesScale = 0.6
 ThirdPersonDist = 12
 
 ; W = WW2.  F = Fighter
-Category = W.F
+Category = JF
 
 HUD = plane_wwii
 

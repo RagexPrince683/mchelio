@@ -1,4 +1,4 @@
-DisplayName =  Airbus A400M Atlas
+DisplayName = Airbus A400M Atlas
 AddDisplayName = en_US, Airbus A400M Atlas
 AddDisplayName = ja_JP, エアバス A400M アトラス
 ItemID = 30048
@@ -35,7 +35,7 @@ AddTexture = a400m_2
 AddTexture = a400m_3
 
 ; M = Military(軍用機).  C = Transport(輸送機)
-Category = M.C
+Category = STA/AR/TA
 
 HUD = planenvgonly, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 

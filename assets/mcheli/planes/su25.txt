@@ -18,7 +18,7 @@ FuelConsumption = 1.0
 ThirdPersonDist = 16
 SmoothShading = true
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = AA/CAS
 HUD = planenvg
 ;HUD = plane only for mercury system
 ThrottleUpDown = 0.3

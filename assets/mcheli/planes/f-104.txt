@@ -20,7 +20,8 @@ enableback = true
 DamageFactor = 0.8
 
 ; M = Military.  F = Fighter
-Category = M.F
+Category = IA/FA
+;/FB
 
 HUD = plane
 

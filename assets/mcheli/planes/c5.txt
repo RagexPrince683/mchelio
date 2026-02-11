@@ -23,7 +23,7 @@ EnableEntityRadar = false
 StepHeight = -1.0
 
 ; M = Military(軍用機).  C = Transport(輸送機)
-Category = M.C
+Category = SA/TA
 HUD = planenvg,planenvg, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
 MobilityRoll = 0.3

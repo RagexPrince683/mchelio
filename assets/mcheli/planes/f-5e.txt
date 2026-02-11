@@ -26,7 +26,7 @@ EnableEjectionSeat = true
 EnableSeaSurfaceParticle = true
 ParticlesScale = 0.7
 ThirdPersonDist = 17
-Category = M.F
+Category = LF
 
 AddSeat = 0.00, 1.33, 1.067
 AddPartCanopy = -0.57, 2.149, 1.262,  0,0,1, 70

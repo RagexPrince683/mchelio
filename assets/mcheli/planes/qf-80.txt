@@ -1,5 +1,5 @@
-﻿DisplayName = Lockheed P-80 Shooting Star (Target drone)
-AddDisplayName = en_US, Lockheed P-80 Shooting Star (Target drone)
+﻿DisplayName = Lockheed QF-80A Shooting Star (Target drone)
+AddDisplayName = en_US, Lockheed QF-80A Shooting Star (Target drone)
 AddDisplayName = ko_KR, QF-80 슈팅스타 (무인표적기)
 AddDisplayName = ja_JP, QF-80 Shooting Star(標的機)
 ItemID = 40003
@@ -22,7 +22,7 @@ AddRecipe = "ABC", " E ", "   ", A, mcheli:airframe2, B, mcheli:basicmechanicpar
 
 
 ; M = Military.  Q = Drone
-Category = M.Q
+Category = UAV/TD
 
 AddPartNozzle = 0.0, 1.92, -8.47, -1, 0, 0
 

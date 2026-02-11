@@ -21,7 +21,7 @@ MaxFuel         = 1200
 FuelConsumption = 1.0
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = MA/SA
 
 HUD = planenvg, plane_gnrnvg
 

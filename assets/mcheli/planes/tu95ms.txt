@@ -19,7 +19,7 @@ EnableSeaSurfaceParticle = true
 ThirdPersonDist = 40
 AutoPilotRot = 0
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = SHNB/SB
 
 EnableBack = true
 

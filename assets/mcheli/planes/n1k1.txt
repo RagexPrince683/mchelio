@@ -22,7 +22,7 @@ enableback = true
 DamageFactor = 0.8
 
 ; W = WWII.  F = Fighter(戦闘機)
-Category = W.F
+Category = FA
 
 HUD = plane_wwii
 

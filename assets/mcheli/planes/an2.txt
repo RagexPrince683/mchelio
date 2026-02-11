@@ -28,7 +28,7 @@ AddTexture = an2_5
 
 
 ; C = Civilian(民間機)
-Category = C
+Category = C/AUA
 
 EntityWidth  = 0.81
 EntityHeight = 0.81

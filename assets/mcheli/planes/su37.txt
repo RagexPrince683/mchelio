@@ -19,7 +19,7 @@ HUD = planenvgonly
 sound = sutwentyseven
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
-Category = M.F
+Category = MF
 
 MobilityYaw = 30.0
 MobilityRoll = 0.5

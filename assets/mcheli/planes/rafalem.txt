@@ -22,7 +22,7 @@ AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:advancedmechanic
 
 
 ; M = Military.  F = Fighter
-Category = M.F
+Category = MF
 
 HUD = plane
 

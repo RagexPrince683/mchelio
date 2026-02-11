@@ -31,7 +31,7 @@ EntityHeight = 0.83
 MobilityRoll = 0.50
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = AG/CI/UT
 
 HUD = plane, plane_gnr, none
 

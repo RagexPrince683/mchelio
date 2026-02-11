@@ -18,7 +18,7 @@ EnableGunnerMode = true
 HUD = planenvg, plane_gnr, none, none, none, none, none
 CameraPosition  = 0.0, 2.00, 4.78
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = SB
 AutoPilotRot = -0.10
 ThirdPersonDist = 30
 

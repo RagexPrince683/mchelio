@@ -14,7 +14,7 @@ FuelConsumption = 1.0
 RotorSpeed = 200.0
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = LA/OA
 
 AddTexture = ov-10A_1
 AddTexture = ov-10A_2

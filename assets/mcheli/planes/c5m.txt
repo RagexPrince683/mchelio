@@ -24,7 +24,7 @@ MobDropOption  = 0.97, 1.10, -12.91, 2
 
 
 ; M = Military(軍用機).  C = Transport(輸送機)
-Category = M.C
+Category = SA/TA
 HUD = planenvg,planenvg, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
 

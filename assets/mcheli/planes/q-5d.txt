@@ -22,7 +22,7 @@ AutoPilotRot = 0.0
 ParticlesScale = 0.7
 ThirdPersonDist = 18
 
-Category = M.F
+Category = GAA
 
 AddSeat = 0.00, 1.43, 2.0
 

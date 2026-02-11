@@ -21,7 +21,7 @@ EnableSeaSurfaceParticle = true
 ThirdPersonDist = 28
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = STOL/SOMTA/TA
 
 HUD = planenvg, plane_gnrnvg, plane_gnrnvg, none, none, none, none
 

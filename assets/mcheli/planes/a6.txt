@@ -22,7 +22,7 @@ DamageFactor = 0.8
 enableback = true
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = AA
 
 AddTexture = a62
 AddTexture = a63

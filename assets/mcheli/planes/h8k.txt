@@ -15,7 +15,7 @@ FuelConsumption = 1.5
 ThirdPersonDist = 28
 
 ; W = WWII.  F = Fighter(戦闘機)
-Category = W.F
+Category = MPFB
 
 DamageFactor = 0.8
 enableback = true

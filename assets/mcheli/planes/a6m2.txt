@@ -19,7 +19,7 @@ ThrottleUpDownOnEntity = 2.0
 UnmountPosition = 3.0, 1.0, -2.0
 
 ; W = WWII.  F = Fighter(戦闘機)
-Category = W.F
+Category = CCFA/FA
 
 HUD = plane_wwii
 

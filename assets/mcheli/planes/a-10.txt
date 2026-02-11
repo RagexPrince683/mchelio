@@ -22,7 +22,7 @@ EntityWidth  = 0.90
 EntityHeight = 0.90
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = CASAA
 
 AddTexture = a-10_1
 

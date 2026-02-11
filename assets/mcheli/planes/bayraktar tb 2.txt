@@ -23,7 +23,7 @@ ThirdPersonDist = 12
 AddSeat = 0.0, 0.0, -3
 
 ; M = Military(軍用機).  Q = Drone(無人航空機)
-Category = M.Q
+Category = UCAV
 
 HUD = plane
 

@@ -20,7 +20,7 @@ FuelConsumption = 1.0
 EnableSeaSurfaceParticle = true
 ParticlesScale = 0.7
 ThirdPersonDist = 17
-Category = M.F
+Category = FA
 
 enableback = true
 

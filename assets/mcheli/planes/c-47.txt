@@ -19,6 +19,8 @@ EnableParachuting = true
 MobDropOption  = 0.97, 1.52, -6.48, 2
 ;Regeneration = true
 
+Category = MTA
+
 RotorSpeed = 2000.0
 
 enableback = true

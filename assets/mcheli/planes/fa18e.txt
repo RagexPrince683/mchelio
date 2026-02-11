@@ -20,7 +20,7 @@ EntityWidth  = 0.75
 EntityHeight = 0.75
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
-Category = M.F
+Category = CBMF/MF
 
 HUD = plane, plane_gnr
 

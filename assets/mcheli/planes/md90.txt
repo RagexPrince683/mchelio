@@ -17,7 +17,7 @@ InventorySize = 64
 
 
 ; C = Civilian(民間機)
-Category = C
+Category = C/NBJA
 
 HUD = civilian_aircraft, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 

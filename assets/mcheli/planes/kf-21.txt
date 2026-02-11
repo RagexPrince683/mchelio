@@ -16,7 +16,8 @@ EnableSeaSurfaceParticle = true
 ParticlesScale = 0.7
 ThirdPersonDist = 20
 Stealth = 0.55
-Category = M.F
+Category = SSF/MCA/ASF
+;;block 3?
 
 DamageFactor = 0.8
 

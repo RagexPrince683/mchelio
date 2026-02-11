@@ -25,7 +25,7 @@ EnableSeaSurfaceParticle = true
 CameraZoom = 10
 
 ; M = Military(軍用機).  R = Reconnaissance(偵察機)
-Category = M.R
+Category = AWACS
 
 HUD = planenvg, plane_gnr, none, none, none, none, none
 

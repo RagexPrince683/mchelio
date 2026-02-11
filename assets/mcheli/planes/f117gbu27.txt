@@ -24,7 +24,7 @@ Stealth = 0.95
 DamageFactor = 0.8
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = SAA
 
 AddTexture = f117
 AddTexture = f1172

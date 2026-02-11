@@ -20,6 +20,8 @@ HideEntity = false
 ;Category = M.F
 WeightedCenterZ = -7.6
 
+Category = SRA
+
 Sound = srseventyone
 
 DamageFactor = 0.8

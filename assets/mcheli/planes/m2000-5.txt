@@ -14,7 +14,7 @@ EnableEjectionSeat = true
 EnableSeaSurfaceParticle = true
 ParticlesScale = 0.7
 ThirdPersonDist = 20
-Category = M.F
+Category = MFA
 
 ;modern light plane (erl jet), AOW3 style (fcs)
 AddRecipe = "ABC", "DEF", "GG ", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:fcs, G, mcheli:electronics

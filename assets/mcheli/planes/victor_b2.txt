@@ -45,7 +45,7 @@ AddPartRotor =    3.631,  2.416,  -2.367,   0, 0, -1
 AddBlade = 1,0,   3.631,  2.416,  -2.367,   0, 0, -1
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = SB
 
 HUD = plane, plane_gnr
 

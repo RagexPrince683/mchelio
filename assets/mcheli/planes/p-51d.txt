@@ -18,7 +18,7 @@ ThirdPersonDist = 12
 UnmountPosition = 0.0,  1.80, -1.82
 
 ; W = WWII.  F = Fighter(戦闘機)
-Category = W.F
+Category = FA
 
 HUD = plane_wwii
 

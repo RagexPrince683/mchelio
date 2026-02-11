@@ -1,5 +1,5 @@
-﻿DisplayName = J-15 Fly shark
-AddDisplayName = en_US, J-15 Fly shark
+﻿DisplayName = J-15 Fly Shark
+AddDisplayName = en_US, J-15 Fly Shark
 AddDisplayName = zh_CN, 歼15 飞鲨
 ItemID = 6655
 MaxHp = 100
@@ -17,7 +17,7 @@ ThrottleUpDown = 0.3
 Sound = sutwentyseven
 
 
-Category = M.F
+Category = CBMF/MF
 
 HUD = plane
 

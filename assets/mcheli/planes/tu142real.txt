@@ -19,7 +19,7 @@ EnableSeaSurfaceParticle = true
 ThirdPersonDist = 40
 AutoPilotRot = 0
 ; M = Military(軍用機).  Recon
-Category = M.R
+Category = MP/ASWA
 
 
 ;large bomber aircraft modern, AOW3 style

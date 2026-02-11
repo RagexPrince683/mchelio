@@ -21,7 +21,7 @@ EntityWidth  = 0.86
 EntityHeight = 0.86
 
 ; C = Civilian(民間機)
-Category = C
+Category = C/UA
 
 HUD = plane_wwii
 

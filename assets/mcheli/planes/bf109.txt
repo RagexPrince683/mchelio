@@ -26,7 +26,7 @@ ThrottleUpDownOnEntity = 2.0
 DamageFactor = 0.8
 
 ; W = WWII.  F = Fighter(戦闘機)
-Category = W.F
+Category = F
 
 HUD = plane_wwii
 

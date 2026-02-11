@@ -22,7 +22,7 @@ EntityWidth = 0.9
 EntityHeight = 0.9
 
 MobilityRoll = 1.8
-Category = M.F
+Category = VTOL/FA
 
 HUD = plane
 

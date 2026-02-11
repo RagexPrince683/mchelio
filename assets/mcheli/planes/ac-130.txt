@@ -27,7 +27,7 @@ CameraZoom = 10
 RotorSpeed = 500.0
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = GAA/CASG
 
 HUD = plane, plane_gnr, none, none, none, none, none
 

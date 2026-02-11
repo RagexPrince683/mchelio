@@ -20,7 +20,7 @@ RotorSpeed = 2000.0
 UnmountPosition = 3.0, 2.0, -5.0
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = LA/COINA
 
 HUD = planenvg, plane_gnr
 

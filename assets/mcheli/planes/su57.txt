@@ -1,6 +1,6 @@
-﻿DisplayName = Su-57 
-AddDisplayName = en_US, Su-57 
-AddDisplayName = zh_CN, 老毛子的苏-57 
+﻿DisplayName = Su-57
+AddDisplayName = en_US, Su-57
+AddDisplayName = zh_CN, 老毛子的苏-57
 ItemID = 7788
 MaxHp = 100
 ThrottleUpDown = 0.3
@@ -30,7 +30,7 @@ AddTexture = su57_AC
 AddTexture = su57_tgm
 
 
-Category = M.F
+Category = SMF
 
 
 

@@ -16,7 +16,7 @@ MaxFuel         = 180
 FuelConsumption = 1.0
 
 ; M = Military(軍用機).  Q = Drone(無人航空機)
-Category = M.Q
+Category = UAV/TD
 
 ParticlesScale = 2.5
 AddPartNozzle = 0.00, 0.02, -1.59, -1,0,0

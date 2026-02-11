@@ -24,7 +24,7 @@ RotorSpeed = 2000.0
 
 
 ; W = WWII.  F = Fighter(???)
-Category = W.F
+Category = DB/GAA
 
 HUD = plane_wwii
 

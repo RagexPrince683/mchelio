@@ -24,7 +24,7 @@ ThirdPersonDist = 40
 UnmountPosition = 3.0, 2.0, -4.0
 
 ; W = WWII.  A = Attacker(攻撃機)
-Category = W.A
+Category = SB/HB
 
 HUD = plane_wwii, gunner, none, gunner, gunner, gunner, gunner, gunner
 

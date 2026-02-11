@@ -27,7 +27,7 @@ ThrottleUpDown = 0.3
 sound = ftwentytwo
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
-Category = M.F
+Category = ASF/SF
 
 MobilityRoll = 9.5
 MobilityPitch = 9.5

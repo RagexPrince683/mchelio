@@ -19,7 +19,7 @@ Sound = faeighteen
 MobilityRoll = 2.0
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
-Category = M.F
+Category = MF
 
 HUD = planenvg
 

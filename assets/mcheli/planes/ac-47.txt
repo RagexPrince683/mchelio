@@ -20,7 +20,7 @@ EnableParachuting = false
 ;MobDropOption  = 0.97, 1.52, -6.48, 2
 ;Regeneration = true
 
-Category = M.A
+Category = GAA/CASG
 
 ;OH BROTHER!!!
 

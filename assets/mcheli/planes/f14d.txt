@@ -1,5 +1,5 @@
-DisplayName = F-14D Tomcat (Dumb Bombs)
-AddDisplayName = en_US, F-14D Tomcat (Dumb Bombs)
+DisplayName = F-14D Tomcat (alt)
+AddDisplayName = en_US, F-14D Tomcat (alt)
 ;eventually I will add a descriptor that tells you what weapons the aircraft has or something like that
 ;but for now enjoy the wall of shit when hovering over item
 ;oh wait the 'super' tomcat doesn't exist
@@ -23,7 +23,7 @@ ThrottleUpDown = 0.3
 
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
-Category = M.F
+Category = IA/AS/MF
 
 HUD = planenvg, plane_gnrnvg
 

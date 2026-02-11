@@ -19,7 +19,7 @@ ThirdPersonDist = 12
 RotorSpeed = 2000.0
 
 ; W = WWII.  R = Reconnaissance(偵察機)
-Category = W.R
+Category = RFLP
 
 ; 水しぶき を発生させる
 ;AddParticleSplash = 座標X,   Y,    Z,   表示数, サイズ,  速度,  表示時間, 上昇, 重力

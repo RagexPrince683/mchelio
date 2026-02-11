@@ -24,7 +24,7 @@ unmountposition = 0.0,  1.90, -2.27
 AddTexture = spitfire-mkvb_skalski
 
 ; W = WWII.  F = Fighter(戦闘機)
-Category = W.F
+Category = FA
 
 HUD = plane_wwii
 

@@ -10,7 +10,7 @@ ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel         = 1000
 FuelConsumption = 1.0
-Category = M.F
+Category = IA/SF
 HideEntity = false
 
 sound = migthirtyone

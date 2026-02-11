@@ -23,6 +23,8 @@ AddTexture = il28_cs
 AddTexture = il28_pla
 AddTexture = il28_none
 
+Category = MB
+
 
 HUD = plane_wwii, gunner, none
 

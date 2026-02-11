@@ -23,7 +23,7 @@ ThrottleUpDown = 0.3
 
 enableback = true
 
-Category = M.A
+Category = AWTB/ID
 
 HUD = planesu24, plane_gnrsu24
 

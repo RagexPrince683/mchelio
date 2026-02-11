@@ -15,7 +15,7 @@ FuelConsumption = 1.0
 AutoPilotRot = 0
 CameraZoom = 2
 ; M = Military(軍用機).  F = Fighter(戦闘機)
-Category = M.F
+Category = IB/FB
 onGroundPitch = -2.0
 ThrottleUpDown = 0.3
 Sound = phantomplane
