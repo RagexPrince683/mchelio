@@ -14,7 +14,7 @@ CameraPosition = 0.0, 4.36, 0.00
 
 
 ; M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = DPG/NG
 
 HUD = vehicle
 

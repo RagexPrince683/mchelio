@@ -17,7 +17,7 @@ ThirdPersonDist = 8
 unmountposition = 0.0, 1.60, 0.0
 
 ; M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = NG
 
 HUD = vehicle
 

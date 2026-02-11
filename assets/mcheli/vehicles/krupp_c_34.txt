@@ -20,7 +20,7 @@ GravityInWater = -1.0
 
 
 ; M = Military,  A = AAGun(対空砲)
-;Category = M.A
+Category = NG/CD
 
 HUD = vehicle_wwii
 

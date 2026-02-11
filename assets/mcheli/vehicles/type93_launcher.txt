@@ -1,4 +1,7 @@
-DisplayName = Type 93 Torpedo Launcher
+DisplayName = Torpedo Tube Mount Type 92 Modification 4 Torpedo Launcher
+
+;https://web.archive.org/web/20141022175245/http://www.fischer-tropsch.org/primary_documents/gvt_reports/USNAVY/USNTMJ%20Reports/USNTMJ-200D-0530-0549%20Report%200-01-3.pdf
+
 AddDisplayName = ja_JP, 九三式魚雷
 ItemID = 28609
 MaxHp = 100
@@ -17,7 +20,7 @@ unmountposition = 0.00, 1.5, -0.0
 
 
 ; M = Military,  T = Torpedo(魚雷)
-Category = M.T
+Category = TL
 
 HUD = vehicle_wwii
 

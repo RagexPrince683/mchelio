@@ -14,7 +14,7 @@ CameraZoom = 3
 CameraPosition = 0.0, 2.57, 0.0
 
 ; M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = CIWS
 
 HUD = vehicle
 

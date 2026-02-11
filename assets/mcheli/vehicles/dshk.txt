@@ -20,6 +20,8 @@ ThirdPersonDist = 3
 WeightedCenterZ = 0.0
 ;emb4 when coding turrets separate from tanks for some fucking reason or something idk this code base is so shitted
 
+Category = HMG
+
 OnGroundPitchFactor = 0
 OnGroundRollFactor  = 0
 CameraZoom = 2

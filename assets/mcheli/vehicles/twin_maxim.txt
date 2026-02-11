@@ -15,7 +15,7 @@ CameraPosition = 0.0,  2.00, -1.10
 
 
 ; W = WWII,  A = AAGun(対空砲)
-Category = W.A
+Category = AAMG
 
 HUD = vehicle_wwii
 

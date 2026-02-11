@@ -10,7 +10,7 @@ HideEntity = false
 DamageFactor = 1.0
 
 ; M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = UCAVL
 
 HUD = vehicle
 

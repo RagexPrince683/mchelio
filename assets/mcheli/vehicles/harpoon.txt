@@ -1,5 +1,5 @@
-﻿DisplayName = RGM-84 Harpoon Missile Launching Platform
-AddDisplayName = en_US, RGM-84 Harpoon Missile Launching Platform
+﻿DisplayName = RGM-84 Harpoon Missile Launching Platform/Canister Launcher
+AddDisplayName = en_US, RGM-84 Harpoon Missile Launching Platform/Canister Launcher
 AddDisplayName = ja_JP, ハープーン
 ItemID = 28698
 AddTexture = harpoon
@@ -13,6 +13,8 @@ EnableGunnerMode = false
 EnableNightVision = true
 Gravity = -9.81
 GravityInWater = -1.0
+
+Category = TEL/ASM/MLP/CL
 
 DamageFactor = 1.0
 

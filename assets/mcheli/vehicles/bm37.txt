@@ -11,7 +11,7 @@ MaxRotationPitch =  0
 HideEntity = false
 ;AddGunnerSeat =  0.00, 1.16, -1.67,   0.00, 3.19, -1.67, true,  -87, -45, false
 ; M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = IM
 
 Gravity = -9.81
 GravityInWater = -1.0

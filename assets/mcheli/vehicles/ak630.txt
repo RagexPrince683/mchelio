@@ -17,7 +17,7 @@ Gravity = -9.81
 GravityInWater = -1.0
 
 ; M = Military,  A = AAGun(‘Î‹ó–C)
-Category = M.A
+Category = CIWS/RC
 
 HUD = vehicle
 

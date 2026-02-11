@@ -15,7 +15,7 @@ ThirdPersonDist = 10
 ;AddTexture = flak36alt
 
 ; W = WWII
-Category = W
+Category = AAG
 
 HUD = vehicle_wwii
 

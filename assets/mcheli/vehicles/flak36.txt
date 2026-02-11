@@ -16,7 +16,7 @@ AddTexture = flak36shield
 AddTexture = flak36alt
 
 ; W = WWII
-Category = W
+Category = AAG
 
 HUD = vehicle_wwii
 

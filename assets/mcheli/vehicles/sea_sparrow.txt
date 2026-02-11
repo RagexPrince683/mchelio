@@ -16,7 +16,7 @@ DamageFactor = 1.0
 EnableNightVision = true
 
 ; M = Military,  M = Missile(ミサイル)
-Category = M.M
+Category = SAM
 
 AddWeapon = aim7_spa,  -1.14, 1.75, 1.94,   0.0, 0.0
 AddWeapon = aim7_spa,  -1.14, 1.0, 1.94,   0.0, 0.0

@@ -21,7 +21,7 @@ AddTexture = mim-23_tan
 AddTexture = mim-23_white
 
 ; M = Military,  M = Missile(ミサイル)
-Category = M.M
+Category = SAM
 
 HUD = vehicle
 

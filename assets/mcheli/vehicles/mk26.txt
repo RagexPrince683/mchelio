@@ -16,7 +16,7 @@ GravityInWater = -1.0
 AddSeat = 0.0,  0.0, 0.0
 
 ; M = Military,  M = Missile(ミサイル)
-Category = M.M
+Category = GMLS/SAM
 
 HUD = vehicle
 

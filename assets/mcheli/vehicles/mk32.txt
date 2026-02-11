@@ -14,7 +14,7 @@ CameraPosition = 0.0, 1.0, -1.5
 Unmountposition = 0.0, 1.0, -1.5
 
 ; M = Military,  T = Torpedo(魚雷)
-Category = M.T
+Category = TT/SVTT
 
 HUD = vehicle_wwii
 

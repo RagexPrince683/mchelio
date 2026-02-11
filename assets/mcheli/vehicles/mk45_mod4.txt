@@ -16,7 +16,7 @@ EnableNightVision = true
 CameraPosition = 0.0, 4, 0.0
 unmountposition = -0.0, 1.5, -0.0
 ; M = Military,  A = AAGun(対空砲)
-Category = M.A
+Category = NG
 
 HUD = plane_gnr
 
