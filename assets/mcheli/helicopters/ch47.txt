@@ -15,7 +15,7 @@ FloatOffset = -0.9
 ThirdPersonDist = 20
 
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
-Category = M.M
+Category = TH
 
 HUD = helinvg, gunnernvg, gunner, gunner, gunner, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 

@@ -21,7 +21,7 @@ soundpitch = 1.3
 soundvolume = 15
 
 ; M = Military(軍用機).  H = Search and Rescue/Medevac(捜索救難機)
-Category = M.H
+Category = SAR/TT/UH
 
 AddTexture = uh-60j_1
 AddTexture = uh-60j_2

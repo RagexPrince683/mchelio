@@ -20,7 +20,7 @@ soundpitch = 1.0
 soundvolume = 15
 
 ; M = Military(軍用機).  S = Antisubmarine(対潜機)
-Category = M.S
+Category = ASWH/SAR/TH/UH
 
 HUD = helinvg, heli_gnrnvg, gunner, none, none, none, none
 

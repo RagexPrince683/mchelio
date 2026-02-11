@@ -13,7 +13,7 @@ soundpitch = 1.3
 Soundvolume = 15
 
 ; C = Civilian(–¯ŠÔ‹@)
-Category = C
+Category = MULH
 
 HUD = civilian_aircraft, none
 

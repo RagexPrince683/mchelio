@@ -7,7 +7,8 @@ FuelConsumption = 1.0
 ThirdPersonDist = 20
 
 ; C = Civilian(民間機)
-Category = C
+;multipurpose
+Category = MUUH
 
 Sound = littlebird 
 Soundvolume = 15

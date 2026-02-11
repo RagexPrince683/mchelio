@@ -18,7 +18,7 @@ Sound = littlebird
 Soundvolume = 15
 
 ; M = Military(軍用機).  R = Reconnaissance(偵察機)
-Category = M.R
+Category = SH/OH
 
 HUD = helinvg, heli_gnrnvg
 

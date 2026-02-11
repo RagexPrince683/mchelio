@@ -23,7 +23,7 @@ MobilityRoll = 1.4
 HUD = heli
 
 ; C = Civilian(民間機)
-Category = C
+Category = UAS
 
 
 AddPartCamera =  -0.02, -0.06, 0.00, true, true

@@ -15,7 +15,7 @@ MaxFuel         = 60
 FuelConsumption = 0.1
 
 ; C = Civilian(民間機)
-Category = C
+Category = sUAS
 
 HUD = civilian_aircraft
 

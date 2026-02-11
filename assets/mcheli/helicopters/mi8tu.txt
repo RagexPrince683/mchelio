@@ -13,7 +13,7 @@ sound = hind
 soundvolume = 15
 
 ; C = Civilian(民間機)
-Category = C
+Category = TH
 
 MobilityYaw = 0.9
 MobilityPitch = 0.9

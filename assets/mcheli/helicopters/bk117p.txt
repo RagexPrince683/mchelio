@@ -17,7 +17,7 @@ HUD = helinvg, tv_missile,none,
 
 CameraPosition = 0.53, -0.13, 2.78, false
 
-Category = C
+Category = UT
 
 MobilityYaw = 1.1
 MobilityPitch = 1.1

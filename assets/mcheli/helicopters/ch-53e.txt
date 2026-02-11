@@ -21,7 +21,7 @@ sound = stallion
 soundvolume = 15
 
 ; M = Military(軍用機).  C = Transport(輸送機)
-Category = M.C
+Category = HLCH/TH
 
 HUD = helinvg, heli_gnrnone, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 

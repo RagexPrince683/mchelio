@@ -13,7 +13,7 @@ Soundpitch = 1.65
 SoundVolume = 15
 
 ; C = Civilian(民間機)
-Category = C
+Category = LU/TRH
 
 HUD = civilian_aircraft, none, none, none
 

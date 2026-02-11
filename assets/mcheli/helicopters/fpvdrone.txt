@@ -19,7 +19,7 @@ SmallUAV = true
 HUD = heli
 
 ; C = Civilian(–¯ŠÔ‹@)
-Category = C
+Category = sUAS
 
 MobilityYaw = 10.0
 MobilityPitch = 10.0

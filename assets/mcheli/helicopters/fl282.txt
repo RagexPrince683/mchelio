@@ -13,7 +13,7 @@ FuelConsumption = 0.6
 ThirdPersonDist = 12
 unmountposition = 0.0,  1.45,  0.25
 ; W = WWII.  R = Reconnaissance(偵察機)
-Category = W.R
+Category = H
 
 HUD = plane_wwii
 

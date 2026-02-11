@@ -16,7 +16,7 @@ Regeneration = true
 
 HUD = helinvg, none, none, none, none
 
-Category = C
+Category = UT
 
 MobilityYaw = 1.1
 MobilityPitch = 1.1

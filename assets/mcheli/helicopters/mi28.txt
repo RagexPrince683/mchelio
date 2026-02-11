@@ -21,7 +21,7 @@ soundvolume = 15
 soundpitch = 1.4
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = AH
 
 AddTexture = mi28d
 

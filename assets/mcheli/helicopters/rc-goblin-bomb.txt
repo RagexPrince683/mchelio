@@ -17,7 +17,7 @@ explosionSizeByCrash = 4
 HUD = heli
 
 ; C = Civilian(–¯ŠÔ‹@)
-Category = C
+Category = sUAS
 
 AddSeat =  0.0, 0.0, 0.0
 

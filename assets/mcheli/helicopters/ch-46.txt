@@ -1,6 +1,6 @@
-﻿DisplayName = Boeing Vertol CH-46 
-AddDisplayName = en_US, Boeing Vertol CH-46 
-AddDisplayName = ja_JP, ボーイング・バートル CH-46 
+﻿DisplayName = Boeing Vertol CH-46
+AddDisplayName = en_US, Boeing Vertol CH-46
+AddDisplayName = ja_JP, ボーイング・バートル CH-46
 ItemID = 28811
 MaxHp = 100
 EnableNightVision = true
@@ -17,7 +17,7 @@ EnableFoldBlade = true
 ThirdPersonDist = 20
 
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
-Category = M.M
+Category = TH
 
 sound = chfourtysix
 soundvolume = 15

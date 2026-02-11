@@ -25,7 +25,7 @@ AddTexture = ah-60_us
 AddTexture = ah-60_il
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
-Category = M.A
+Category = UH
 
 HUD = heli, heli_gnr, gunner, gunner
 

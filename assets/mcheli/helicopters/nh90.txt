@@ -12,7 +12,7 @@ RotorSpeed = 80.0
 ArmorDamageFactor = 1
 
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
-Category = M.M
+Category = TTH/MUMH
 ThirdPersonDist = 20
 
 sound = nhninety

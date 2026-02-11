@@ -19,7 +19,7 @@ soundpitch = 1.0
 soundvolume = 15
 
 ; M = Military(軍用機).  S = Multi-Mission(多目的機)
-Category = M.S
+Category = TH/GH
 
 HUD = helinvg, heli_gnrnvg, gunner, gunner, gunner, gunner,
 

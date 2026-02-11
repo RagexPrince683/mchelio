@@ -19,7 +19,7 @@ sound = stallion
 soundvolume = 15
 
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
-Category = M.M
+Category = HLCHA
 
 HUD = helinvg, none, gunner, gunner, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 

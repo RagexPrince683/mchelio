@@ -15,7 +15,7 @@ sound = hind
 soundvolume = 15
 
 ; C = Civilian(民間機)
-Category = C
+Category = TH/TRAINER/TRANSPORT
 
 AddTexture = mi-24ps_close
 
