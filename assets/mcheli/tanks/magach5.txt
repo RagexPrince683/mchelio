@@ -57,6 +57,9 @@ unmountposition = -0.0,  1.50,  0.0
 AddGunnerSeat = -0.4683,  2, -0.7271,   -0.587, 4.2, -0.7271, false, -90, 45, true
 
 
+AddGunnerSeat =  0.55,  2.50, -0.96,    0.55,  3.60, -0.96,  false, -90, 90, true
+
+
 ;27.21z
 
 EnableBack = true
@@ -92,12 +95,18 @@ AddTurretWeapon = m607.62mm,      0.43, 2.6, 2.0,  0.0, 0.0, true,1, 0,-360,360,
 
 ;-76.60
 
-AddPartTurretWeapon = m48m2, false, true, false, -0.587, 3.0, -0.7271
-AddPartWeaponChild = false, true, -0.587, 3.45, 0.0819, 0.0
+AddPartTurretWeapon = magach5lmg, false, true, false, 1.2286, 2.9, -0.4445
+AddPartWeaponChild = false, true, 1.2286, 2.9, -0.4445, 0.0
+;;todo
 
-AddturretWeapon = m48m2,    -0.6067, 3.4729, -0.7271,   0.0, 0.0, false, 2, 0, -360,360, -60,9
+AddturretWeapon = magach5lmg,    -0.6067, 3.4729, -0.7271,   0.0, 0.0, false, 2, 0, -360,360, -60,9
+
+AddturretWeapon = magach5lmg2,    -0.6067, 3.4729, -0.7271,   0.0, 0.0, false, 2, 0, -360,360, -60,9
+
 
 ArmorMinDamage = 20
+
+ArmorDamageFactor = 0.95
 
 
 ;side
