@@ -157,7 +157,7 @@ AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 1
 AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,1
 
 
-ArmorMinDamage = 4
+ArmorMinDamage = 8
 
 
 ;staircase 130mm

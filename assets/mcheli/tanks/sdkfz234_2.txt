@@ -48,7 +48,7 @@ ParticlesScale = 0.1
 SmoothShading = true
 HideEntity = true
 
-ArmorMinDamage = 5
+ArmorMinDamage = 10
 
 MotionFactor = 0.95
 

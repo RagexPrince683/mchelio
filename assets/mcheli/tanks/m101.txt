@@ -61,6 +61,8 @@ AddWeapon = m1m413, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -0, 0, -65, 5, 0
 AddWeapon = m1m444, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -0, 0, -65, 5, 0
 AddWeapon = m1m916, 0, 2.3, 1.29, 0.0, 0.0, true, 1, 0, -0, 0, -65, 5, 0
 
+ArmorMinDamage = 8
+
 BoundingBox =  0.0, 1.0, 0.0,  1.0, 1.0
 
 ;advanced arty turret (less)

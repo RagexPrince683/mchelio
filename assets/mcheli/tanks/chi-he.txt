@@ -118,7 +118,7 @@ AddTurretWeapon = chiheType97_7_7mmGun1,   0.2326, 2.9657, 0.1723,   0.0, 0.0, f
 AddWeapon = chiheType97_7_7mmGun2,  0.4172, 1.428, 1.4793,  0.0, 0.0, false,2, 0,-15,15, -10, 10
 AddPartWeapon = chiheType97_7_7mmGun2, false, true, true,  0.4172, 1.428, 1.4793, 0
 
-ArmorMinDamage = 10
+ArmorMinDamage = 14
 
 ;siding
 BoundingBox = 0.0, 0.85, 0.0, 2.1, 1.2, 0.4

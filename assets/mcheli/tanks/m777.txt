@@ -55,4 +55,6 @@ AddPartWeapon = m77m107 / m77m795 / m77m549a1 / m77m864, false, true, false,  0.
 AddPartWeaponChild  =  false, true,  0.00, 0.00, 0.00
 AddPartWeaponChild  =  false, true,  0.00, 0.00, 0.00, 0.8
 
+ArmorMinDamage = 8
+
 BoundingBox =  0.0, 1.3, 0.0,  1.0, 2

@@ -33,7 +33,7 @@ SubmergedDamageHeight = 4
 HUD = bnr32_hudnotherm, gunnernvg, none
 
 MotionFactor = 0.925
-ArmorMinDamage = 5
+ArmorMinDamage = 8
 ;ArmorMaxDamage = 600
 ArmorDamageFactor = 1.00
 EnableBack = true

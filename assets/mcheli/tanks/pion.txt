@@ -74,8 +74,7 @@ EnableBack = true
 
 MotionFactor = 0.9
 
-ArmorMinDamage = 9
-;ArmorMaxDamage = 250
+ArmorMinDamage = 12
 ArmorDamageFactor = 1.0
 
 MaxFuel         = 1200

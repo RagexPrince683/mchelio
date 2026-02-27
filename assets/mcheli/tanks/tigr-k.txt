@@ -105,7 +105,7 @@ AddWeapon = gaz9k118tv,     0.3310,  2.8345, -1.2120, 0, 0,  false, 2, 0, -360, 
 AddPartWeapon = gaz9k118, false, true, false, 0.53,  2.6, -1.7352
 AddPartWeapon = gaz9k118tv, false, true, false, -0.53,  2.6, -1.7352
 
-ArmorMinDamage = 7
+ArmorMinDamage = 8
 
 BoundingBox = 0.0, 0.8, 2.0, 2.1, 1.2
 

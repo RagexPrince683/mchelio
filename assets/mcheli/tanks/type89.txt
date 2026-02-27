@@ -129,7 +129,7 @@ AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:cannon2, C, m
 RideRack = c5, 1
 RideRack = c5, 2
 
-ArmorMinDamage = 10
+ArmorMinDamage = 15
 
 
 ;staircase 130mm

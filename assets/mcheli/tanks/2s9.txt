@@ -83,7 +83,7 @@ EnableBack = true
 
 MotionFactor = 0.9
 
-ArmorMinDamage = 5
+ArmorMinDamage = 8
 ;ArmorMaxDamage = 250
 ArmorDamageFactor = 1.0
 

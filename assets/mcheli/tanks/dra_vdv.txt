@@ -68,6 +68,8 @@ BoundingBox = 0.0, 0.4147, 1.4, 0.8, 0.8
 
 BoundingBox = 0.0, 0.0147, 0.0, 2.1, 0.2
 
+ArmorMinDamage = 8
+
 
 InventorySize = 0
 

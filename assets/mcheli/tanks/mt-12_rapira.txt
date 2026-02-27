@@ -70,5 +70,7 @@ BoundingBox = -0.5, 0.8, 0.5, 0.5, 1.0
 BoundingBox =  1.0, 1.0, 0.2, 0.5, 0.5
 BoundingBox = -1.0, 1.0, 0.2, 0.5, 0.5
 
+ArmorMinDamage = 8
+
 ;advanced anti tank turret (less)
 AddRecipe = "   ", "DEF", "G  ", D, mcheli:electronics, E, mcheli:lap, F, mcheli:advancedmechanicparts, G, mcheli:cannon2

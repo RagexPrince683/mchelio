@@ -206,6 +206,8 @@ BoundingBox = -0.4, 1.8, -0.7, 0.1, 0.8
 BoundingBox = -0.5, 1.8, -0.7, 0.1, 0.8
 BoundingBox = -0.6, 1.8, -0.7, 0.1, 0.8
 
+ArmorMinDamage = 12
+
 unmountposition = -0.0,  1.50, -0.0
 
 ;light tracked tank ww2 late

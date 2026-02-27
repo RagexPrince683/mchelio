@@ -19,7 +19,7 @@ Category = MLRS
 AddTexture = m142des
 
 Regeneration = false
-ArmorMinDamage = 35
+ArmorMinDamage = 15
 ArmorDamageFactor = 2.32
 
 CameraZoom = 10

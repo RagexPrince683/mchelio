@@ -119,7 +119,7 @@ RideRack = c5, 2
 InventorySize = 9
 
 
-ArmorMinDamage = 5
+ArmorMinDamage = 15
 
 ;light tracked tank/ifv (bradley family) (modern composite)
 AddRecipe = "ABC", "DEF", "G  ", A, mcheli:lightchassis, B, mcheli:cannon2, C, mcheli:engine1, D, mcheli:tanktracks, E, mcheli:composite, F, mcheli:fcs, G, mcheli:advancedmechanicparts

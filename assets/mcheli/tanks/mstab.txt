@@ -16,6 +16,8 @@ DamageFactor = 1.0
 EnableNightVision = false
 DefaultFreelook = false
 
+ArmorMinDamage = 8
+
 Category = H
 
 SubmergedDamageHeight = 2

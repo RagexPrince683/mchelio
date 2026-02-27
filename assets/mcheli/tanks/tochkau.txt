@@ -74,7 +74,7 @@ AddPartWeapon =        hetochka / nutochka / tvtochka,   false, false, true,   0
 
 EnableBack = true
 
-ArmorMinDamage = 7
+ArmorMinDamage = 10
 
 ArmorDamageFactor = 1.00
 

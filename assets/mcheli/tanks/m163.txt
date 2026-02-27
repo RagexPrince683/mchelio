@@ -102,7 +102,7 @@ AddTurretWeapon = targeting_pod_mob,     0.60, 3.40, 0.60,   0.0, 0.0,  true, 1
 AddTurretWeapon = targeting_pod_pv10s,   0.60, 3.40, 0.60,   0.0, 0.0,  false,1
 
 
-;ArmorMinDamage = 29
+ArmorMinDamage = 14
 
 BoundingBox = 0.0, 1.25, -1.8, 3.0, 2.6, 1.0
 

@@ -51,6 +51,8 @@ unmountposition = 2.20, 1.50, -2.20
 CameraPosition = 0.00, 3.7472, -1.2630
 ;, true
 
+ArmorMinDamage = 8
+
 AddWeapon = fhm77, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -70, 5
 AddWeapon = m549a1_fh77, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -70, 5
 AddWeapon = m864_fh77, 0.00, 1.5774, -1.1638, 0.00, 0.00, true,1, 0, -27, 27, -70, 5

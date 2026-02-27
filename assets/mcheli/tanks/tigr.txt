@@ -87,7 +87,7 @@ AddFixedSearchLight = -0.8550, 1.0296, 2.9332,   0xFFFFFFFF,   0x00FFFFC0,    0.
 AddFixedSearchLight =   1.2179, 0.7841, -3.1010,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  0.0,  0
 AddFixedSearchLight =  -1.2179, 0.7841, -3.1010,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  0.0,  0
 
-ArmorMinDamage = 7
+ArmorMinDamage = 8
 
 BoundingBox = 0.0, 0.8, 2.0, 2.1, 1.2
 

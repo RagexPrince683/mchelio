@@ -108,4 +108,4 @@ BoundingBox =  0.0, 2.2, 1.65,   2.8, 0.1,  0.35
 BoundingBox =  0.0, 2.3, 1.40,   2.8, 0.1,  0.35
 
 
-
+ArmorMinDamage = 14

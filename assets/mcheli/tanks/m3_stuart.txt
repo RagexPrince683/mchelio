@@ -112,7 +112,7 @@ AddWeapon = stuartm1919_4,  1.1499, 1.5550, 0.8447,  0.0, 0.0, false,4, 0,-0,0, 
 AddPartWeapon = stuartm1919_4, false, true, true,  1.1499, 1.5550, 0.5, 0
 
 
-ArmorMinDamage = 4
+ArmorMinDamage = 19
 
 ;turret
 BoundingBox  = 0.0, 2.2, 0.0, 1.2, 1.2, 0.10

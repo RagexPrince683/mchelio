@@ -17,7 +17,7 @@ DamageFactor = 0.8
 Category = TBM
 
 Regeneration = false
-ArmorMinDamage = 35
+ArmorMinDamage = 15
 ArmorDamageFactor = 2.32
 
 AddTexture = m142des

@@ -18,6 +18,8 @@ FuelConsumption   = 0
 DefaultFreelook = false
 ThirdPersonDist = 3
 
+ArmorMinDamage = 8
+
 CameraZoom = 1
 
 StepHeight = 0.0

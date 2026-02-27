@@ -115,6 +115,8 @@ AddTrackRoller = -1.92,  0.66,  2.44
 MaxFuel = 600
 FuelConsumption = 2.0
 
+ArmorMinDamage = 12
+
 BoundingBox = 0.0, 0.5, -1.6, 3.0, 0.8
 BoundingBox = 0.0, 0.7, -1.45, 3.0, 0.8
 BoundingBox = 0.0, 0.9, -1.35, 3.0, 0.8

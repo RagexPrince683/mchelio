@@ -67,7 +67,7 @@ AddWeapon = dana152EOF,   0.00, 2.821, 0.0,  0.0, 0.0,  true,1, 0,  -30, 30, -70
 AddWeapon = dana152EOFd,   0.00, 2.821, 0.0,  0.0, 0.0, true,1, 0,  -30, 30, -70, 4
 AddWeapon = dana152EPrSv,   0.00, 2.821, 0.0,  0.0, 0.0, true,1, 0, -30, 30, -70, 4
 
-ArmorMinDamage = 12
+ArmorMinDamage = 10
 
 BoundingBox = 0.0, 1.5, -5.3, 2.0, 1.0
 BoundingBox = 0.0, 1.5, -4.0, 2.0, 1.0

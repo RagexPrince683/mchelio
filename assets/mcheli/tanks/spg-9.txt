@@ -57,6 +57,8 @@ AddChildPart = true,true,true,  2,   0.00, 1.15, -0.09, 0.4
 
 AddTurretWeapon = PG-9,  0.00, 1.36, -0.09,   0.0, 0.0, false, 2, 0, -20,20, -7,3
 
+ArmorMinDamage = 8
+
 
 AddPartWeapon = PG-9, false, true, false,  0.00, 0.66, -0.10, 0
 AddPartWeaponChild = false, true, 0.00, 1.36, -0.09,0.0

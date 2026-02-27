@@ -36,7 +36,7 @@ SubmergedDamageHeight = 2
 HUD = mbt_hud, nohudbmp, none, none, none, none, none
 
 MotionFactor = 0.925
-ArmorMinDamage = 14
+ArmorMinDamage = 15
 ;ArmorMaxDamage = 600
 ;ArmorDamageFactor = 0.90
 EnableBack = true

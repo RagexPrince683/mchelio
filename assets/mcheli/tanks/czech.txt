@@ -46,7 +46,7 @@ unmountposition = 0.00,  1.70,  0
 AddGunnerSeat = 0.3487, 0.1229, 1.0919, 0.72, 1.12, 1.70
 
 MotionFactor = 0.90
-ArmorMinDamage = 7
+ArmorMinDamage = 12
 
 TurretPosition = 0.0, 1.0, 0.0
 

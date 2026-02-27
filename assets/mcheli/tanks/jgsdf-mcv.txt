@@ -59,8 +59,7 @@ OnGroundRollFactor  = 0.8
 
 
 
-ArmorMinDamage = 5
-;ArmorMaxDamage = 400
+ArmorMinDamage = 14
 
 HUD = mbt_hud, mbt_gnr
 

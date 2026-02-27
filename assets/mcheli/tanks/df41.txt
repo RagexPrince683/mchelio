@@ -82,9 +82,8 @@ AddPartWheel =   -2.7512,  0.6891, -19.2363, 0
 
 
 
-;ArmorMinDamage = 9
+;;ArmorMinDamage = 8
 
-;ArmorMaxDamage = 500
 
 ArmorDamageFactor = 1.00
 DamageFactor = 1.0

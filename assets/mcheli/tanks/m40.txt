@@ -71,9 +71,8 @@ EnableBack = true
 
 MotionFactor = 0.9
 
-;ArmorMinDamage = 15
-;no its an opentop wtf
-;but it would be 12
+ArmorMinDamage = 12
+
 
 MaxFuel         = 1200
 FuelConsumption = 1.2

@@ -42,6 +42,8 @@ AddPartWeaponChild = false, true, 0.00, 1.63, -6.56, 0.0
 
 AddWeapon = patriotaim7_spa,  0.0, 7.1, -7.1,   0.0, 0.0, false, 1, 0, -360,360, -30,0
 
+ArmorMinDamage = 8
+
 ;basic turret SAM (advanced)
 AddRecipe = "DDD", "D F", " E ", D, mcheli:electronics, E, mcheli:fcs2, F, mcheli:advancedmechanicparts 
 

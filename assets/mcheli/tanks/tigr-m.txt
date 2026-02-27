@@ -90,7 +90,7 @@ AddPartWeaponChild = false, true, 0.4093, 2.6888, -0.5159
 ;TurretPosition = 0, 1.0, -1.01
 
 
-ArmorMinDamage = 7
+ArmorMinDamage = 8
 
 BoundingBox = 0.0, 0.8, 2.0, 2.1, 1.2
 
