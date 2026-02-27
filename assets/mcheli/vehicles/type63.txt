@@ -1,7 +1,7 @@
 DisplayName = Type-63 MLRS
 AddDisplayName = ja_JP, ボフォース Type-63 MLRS
 ItemID = 28611
-MaxHp = 80
+MaxHp = 100
 HideEntity = false
 MinRotationPitch = -89
 MaxRotationPitch =  5
@@ -66,3 +66,5 @@ AddTurretWeapon = type63rocket, 0.0, 1.0, 0,  0, 0.0,   true,1, 0,-360,360, -80,
 AddRecipe = "ABB", "B  ", "   ", A, mcheli:rocket, B, mcheli:lap
 
 BoundingBox =  0.0, 0.6, 0.0,  1.00, 1.00
+
+ArmorMinDamage = 10

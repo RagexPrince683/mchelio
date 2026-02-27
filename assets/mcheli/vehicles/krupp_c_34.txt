@@ -2,7 +2,7 @@ DisplayName = Krupp C/34 40.6cm Coastal-Artillery "Adolfkanone"
 AddDisplayName = en_US, Krupp C/34 40.6cm Coastal-Artillery "Adolfkanone"
 AddDisplayName = ja_JP, クルップ C/34 沿岸砲
 ItemID = 28601
-MaxHp = 250
+MaxHp = 1500
 ;MaxFuel         = 100000000
 ;FuelConsumption = 0.00
 OnGroundPitchFactor = 1.0
@@ -44,3 +44,5 @@ AddWeapon = 406mm_ap, 0.00, 2.84, 0.0, 0.0, -1.0, true, 1, 0,-360,360, -40, 5
 AddRecipe = "ABA", "ABB", "   ", A, mcheli:cannon3, B, mcheli:hap
 
 BoundingBox =  0.0, 2.0, 0.0,  5.0, 5.0
+
+ArmorMinDamage = 10

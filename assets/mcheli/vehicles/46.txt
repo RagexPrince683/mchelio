@@ -2,7 +2,7 @@ DisplayName = 46 cm/45 Type 94 Naval Gun
 AddDisplayName = en_US, 46 cm/45 Type 94 Naval Gun
 AddDisplayName = ja_JP, 46cm3連装砲
 ItemID = 28603
-MaxHp = 150
+MaxHp = 1690
 HideEntity = true
 MinRotationPitch = -30
 MaxRotationPitch =  5
@@ -51,3 +51,5 @@ BoundingBox =  0.0, 1.5, -2.0, 6.0, 3.0
 
 BoundingBox =  2.0, 1.5, 0.0,  6.0, 3.0
 BoundingBox =  -2.0, 1.5, 0.0,  6.0, 3.0
+
+ArmorMinDamage = 10

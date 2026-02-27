@@ -2,7 +2,7 @@ DisplayName = 12.7 cm/40 Type 89 Naval Gun Shield Variant
 AddDisplayName = en_US, 12.7 cm/40 Type 89 Naval Gun Shield Variant
 AddDisplayName = ja_JP, 12.7cm連装高角砲シールド付き
 ItemID = 28606
-MaxHp = 200
+MaxHp = 140
 HideEntity = false
 MinRotationPitch = -80
 MaxRotationPitch =  8
@@ -41,3 +41,5 @@ AddRecipe = "ABA", "BB ", "   ", A, mcheli:cannon2, B, mcheli:map
 
 
 BoundingBox =  0.0, 1.20, 0.0,  4.0, 3.05
+
+ArmorMinDamage = 10

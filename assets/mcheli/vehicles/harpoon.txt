@@ -13,6 +13,7 @@ EnableGunnerMode = false
 EnableNightVision = true
 Gravity = -9.81
 GravityInWater = -1.0
+MaxHp = 50
 
 Category = TEL/ASM/MLP/CL
 
@@ -30,3 +31,5 @@ BoundingBox = 0.0, 0.3, -0.6, 1.8, 3.2
 AddRecipe = "BBC", "DCC", "   ", B, mcheli:map, C, mcheli:electronics, D, mcheli:fcs3
 
 unmountposition = 0.0, 1.5, 0.0
+
+ArmorMinDamage = 10

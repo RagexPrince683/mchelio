@@ -2,7 +2,7 @@
 AddDisplayName = en_US, 36cm 41st Year Type Naval Gun
 AddDisplayName = ja_JP, 45口径35.6cm連装砲
 ItemID = 30031
-MaxHp = 200
+MaxHp = 1525
 HideEntity = true
 MinRotationPitch = -43
 MaxRotationPitch =  3
@@ -41,3 +41,4 @@ unmountposition = 0.00, 1.5, -0.0
 ;heavier turret 2
 AddRecipe = " BC", "BCB", "A A", A, mcheli:cannon3, B, mcheli:map, C, mcheli:hap
 
+ArmorMinDamage = 10

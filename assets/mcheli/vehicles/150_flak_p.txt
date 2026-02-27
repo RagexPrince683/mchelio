@@ -40,3 +40,5 @@ AddRecipe = "ABA", "BB ", "CCC", A, mcheli:cannon2, B, mcheli:map, C, mcheli:lap
 BoundingBox =  0.0, 2.05, 0.0,  2.0, 1.80
 BoundingBox =  0.0, 0.0, 0.15,  1.2, 1.0
 BoundingBox =  0.0, 1.0, 0.15,  1.2, 1.0
+
+ArmorMinDamage = 10

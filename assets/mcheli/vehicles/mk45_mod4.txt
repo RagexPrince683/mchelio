@@ -2,7 +2,7 @@
 AddDisplayName = ja_JP, Mk45 Mod4 5インチ砲
 AddDisplayName = en_US, 5"/54 Caliber Mark 45 Mod4 Naval Cannon
 ItemID = 28601
-MaxHp = 100
+MaxHp = 123
 HideEntity = true
 MinRotationPitch = -65
 MaxRotationPitch =  15
@@ -41,3 +41,5 @@ AddRecipe = "ABC", "DCC", "   ", A, mcheli:cannon2, B, mcheli:map, C, mcheli:ele
 
 BoundingBox =  0.0, 1.45, 0.0,  3.0, 2.6
 BoundingBox =  0.0, 0.0, 0.0,  2.1, 0.8
+
+ArmorMinDamage = 10

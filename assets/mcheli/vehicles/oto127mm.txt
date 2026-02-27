@@ -1,7 +1,7 @@
 DisplayName = Otobreda 127/64 Naval Gun
 AddDisplayName = ja_JP, オート・メラーラ127mm砲
 ItemID = 30110
-MaxHp = 100
+MaxHp = 300
 HideEntity = true
 Gravity = -9.81
 GravityInWater = -1.0
@@ -38,3 +38,5 @@ BoundingBox =  0.0, 1.8, 0.0,  3.0, 3.0
 
 ;light aa turret modern less complex stage 3 naval can
 AddRecipe = "ABC", "DCC", "   ", A, mcheli:cannon3, B, mcheli:map, C, mcheli:electronics, D, mcheli:fcs2
+
+ArmorMinDamage = 10

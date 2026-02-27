@@ -1,6 +1,6 @@
 DisplayName = 7.62mm M60 Machine Gun Tripod Mount
 AddDisplayName = ja_JP, M60 汎用機関銃
-MaxHp = 80
+MaxHp = 100
 HideEntity = false
 RotationPitchMin = -5
 RotationPitchMax =  5
@@ -31,3 +31,5 @@ AddRecipe = "   ", "GEE", "   ", E, mcheli:lap, G, mcheli:cannon1
 BoundingBox =  0.00, 0.00,  0.00,  0.75, 0.50
 
 unmountposition = 0.00,  1.5, -1.0
+
+ArmorMinDamage = 10

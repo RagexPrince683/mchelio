@@ -2,7 +2,7 @@
 AddDisplayName = en_US, QF 5.25-inch Mark I Naval Gun
 AddDisplayName = ja_JP, QF 5.25インチ砲 マークI
 ItemID = 30067
-MaxHp = 100
+MaxHp = 201
 Gravity = -9.81
 GravityInWater = -1.0
 HideEntity = true
@@ -41,3 +41,5 @@ BoundingBox =  0.0, 1.5, 0.0,  3.5, 3.5
 
 BoundingBox =  0.0, 3.3, 0.0,  3.0, 0.3
 BoundingBox =  0.0, 3.6, 0.0,  3.0, 0.3
+
+ArmorMinDamage = 10
