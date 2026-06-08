@@ -2,11 +2,12 @@ DisplayName = Improvised Weaponized Drone
 AddDisplayName = en_US, Improvised Weaponized Drone
 AddDisplayName = ja_JP, ??RC????UAV
 
+NewSmallUAV = true
+HideEntity = true
 
 MaxHp = 20
 Speed = 0.4
 CameraPosition = -0.02, -0.06, 0.77
-SmallUAV = true
 Sound = radicon_heli
 ThrottleUpDown = 5.0
 ParticlesScale = 0.2

@@ -4,8 +4,6 @@ ItemID = 28707
 MaxHp = 100
 Speed = 0.522
 
-HideEntity = true
-
 ;300mph 
 
 Sound = turboprop
@@ -16,7 +14,9 @@ EnableGunnerMode = true
 ;;NewUAV = true
 ;;soon
 ;;blud really used java comments
-UAV = true
+;;UAV = true
+NewUAV = true
+HideEntity = true
 
 AutoPilotRot = -1.60
 CameraPosition = 0.0, 0.9, 0.0

@@ -9,12 +9,12 @@ MaxFuel         = 3500
 ExplosionBlock = 0
 FuelConsumption = 0.1
 Stealth = 0.4
-HideEntity = True
+
 
 explosionSizeByCrash = 10
 
-UAV = true
-SmallUAV = true
+NewSmallUAV = true
+HideEntity = true
 
 HUD = heli
 

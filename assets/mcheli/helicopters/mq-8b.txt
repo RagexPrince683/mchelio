@@ -10,9 +10,12 @@ Speed = 1.32
 ThrottleUpDown = 0.8
 FlareType = 3
 InventorySize = 9
-UAV = true
+;;UAV = true
 MaxFuel         = 1000
 FuelConsumption = 1.0
+
+NewUAV = true
+HideEntity = true
 
 ThirdPersonDist = 20
 
