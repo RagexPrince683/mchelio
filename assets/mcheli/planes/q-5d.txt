@@ -3,14 +3,14 @@ AddDisplayName = en_US, Nanchang Q-5D
 AddDisplayName = ko_KR, Q-5D 판탄
 ItemID = 40016
 MaxHp = 100
-Speed = 1.30848
+Speed = 2.105
 ;752mph
 Sound = mignineteen
 SoundPitch = 0.8
 
 ThrottleUpDown = 0.3
-MaxFuel = 1000
-FuelConsumption = 1.0
+MaxFuel = 8800
+FuelConsumption = 4.4
 FlareType = 4
 EnableNightVision = true
 EnableEntityRadar = true
@@ -23,6 +23,37 @@ ParticlesScale = 0.7
 ThirdPersonDist = 18
 
 Category = GAA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 2.105
+StallSpeedFactor = 0.174
+StallSpeed = 0.365
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 7
+MaxStructuralG = 8.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 1.852
+CompressibilityPitchPenalty = 0.6
+MaxSafeSpeed = 2.358
+OverspeedDamageRate = 0.15
+PitchTorque = 0.35
+RollTorque = 0.35
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 AddSeat = 0.00, 1.43, 2.0
 
@@ -129,3 +160,5 @@ enableback = true
 ;early modern light plane (late jet), AOW3 style (light arm)
 AddRecipe = "ABC", "DEG", "F  ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon1, G, mcheli:fcs, F, mcheli:rocket2
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Q-5 Fantan class.

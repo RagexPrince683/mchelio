@@ -1,18 +1,18 @@
-﻿DisplayName = Lockheed QF-80A Shooting Star (Target drone)
+DisplayName = Lockheed QF-80A Shooting Star (Target drone)
 AddDisplayName = en_US, Lockheed QF-80A Shooting Star (Target drone)
 AddDisplayName = ko_KR, QF-80 슈팅스타 (무인표적기)
 AddDisplayName = ja_JP, QF-80 Shooting Star(標的機)
 ItemID = 40003
 MaxHp = 100
-Speed = 1.03356
+Speed = 1.663
 
 ;594
 
 Sound = plane
 onGroundPitch = 2
 TargetDrone = true
-MaxFuel = 600
-FuelConsumption = 1.3
+MaxFuel = 6660
+FuelConsumption = 5.015
 ThrottleUpDownOnEntity = 2.0
 EnableSeaSurfaceParticle = true
 ParticlesScale = 0.6
@@ -23,6 +23,37 @@ AddRecipe = "ABC", " E ", "   ", A, mcheli:airframe2, B, mcheli:basicmechanicpar
 
 ; M = Military.  Q = Drone
 Category = UAV/TD
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.663
+StallSpeedFactor = 0.178
+StallSpeed = 0.296
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 6
+MaxStructuralG = 8
+GControlPenalty = 0.7
+CompressibilitySpeed = 1.463
+CompressibilityPitchPenalty = 0.6
+MaxSafeSpeed = 1.863
+OverspeedDamageRate = 0.15
+PitchTorque = 0.35
+RollTorque = 0.35
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 AddPartNozzle = 0.0, 1.92, -8.47, -1, 0, 0
 
@@ -36,3 +67,5 @@ BoundingBox =  2.92, 1.50,  -2.00,  2.0, 0.6
 BoundingBox =  -5.70, 1.50,  -1.68,  1.5, 0.6, 0.7
 BoundingBox =  5.70, 1.50,  -1.68,  1.6, 0.6, 0.7
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; F/QF-80 Shooting Star.

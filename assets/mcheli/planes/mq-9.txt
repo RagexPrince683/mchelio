@@ -2,7 +2,7 @@ DisplayName = MQ-9 Reaper
 AddDisplayName = ja_JP, MQ-9 リーパー
 ItemID = 28707
 MaxHp = 100
-Speed = 0.522
+Speed = 0.839
 
 ;300mph 
 
@@ -21,13 +21,44 @@ HideEntity = true
 AutoPilotRot = -1.60
 CameraPosition = 0.0, 0.9, 0.0
 ThrottleUpDown = 1.5
-MaxFuel         = 1000
-FuelConsumption = 1.0
+MaxFuel         = 7200
+FuelConsumption = 3.789
 
 RotorSpeed = 200.0
 
 ; M = Military(軍用機).  Q = Drone(無人航空機)
 Category = UCAV
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.839
+StallSpeedFactor = 0.207
+StallSpeed = 0.174
+CriticalAoA = 16
+StallLiftLoss = 0.6
+AoADragMultiplier = 1.35
+StallInstability = 0.18
+BaseDrag = 0.003
+InducedDrag = 0.004
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.006
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3
+MaxStructuralG = 5.5
+GControlPenalty = 0.45
+CompressibilitySpeed = 0.738
+CompressibilityPitchPenalty = 0.35
+MaxSafeSpeed = 0.94
+OverspeedDamageRate = 0.05
+PitchTorque = 0.3
+RollTorque = 0.3
+YawTorque = 0.225
+PitchDamping = 0.38
+RollDamping = 0.342
+YawDamping = 0.418
+InertiaMultiplier = 0.8
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane
 
@@ -84,3 +115,4 @@ BoundingBox =  4.0, 1.2, -3.0,  1.5, 0.6
 
 enableback = true
 
+; RealismSource = MCHO plane scripted pass; MQ-9 Reaper.

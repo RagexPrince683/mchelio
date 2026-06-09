@@ -3,7 +3,7 @@ AddDisplayName = en_US, A6M5 Zero Type 21
 AddDisplayName = ja_JP, 零式艦上戦闘機21型
 ItemID = 28708
 MaxHp = 100
-Speed = 0.61074
+Speed = 0.927
 
 RotorSpeed = 2000.0
 
@@ -12,14 +12,45 @@ RotorSpeed = 2000.0
 Sound = zero
 onGroundPitch = 14.3
 ThrottleUpDown = 0.3
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 2072
+FuelConsumption = 0.668
 ThrottleUpDownOnEntity = 2.0
 
 UnmountPosition = 3.0, 1.0, -2.0
 
 ; W = WWII.  F = Fighter(戦闘機)
 Category = CCFA/FA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.927
+StallSpeedFactor = 0.206
+StallSpeed = 0.191
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 7
+MaxStructuralG = 10
+GControlPenalty = 0.7
+CompressibilitySpeed = 0.816
+CompressibilityPitchPenalty = 0.35
+MaxSafeSpeed = 1.038
+OverspeedDamageRate = 0.15
+PitchTorque = 0.35
+RollTorque = 0.35
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane_wwii
 
@@ -83,3 +114,5 @@ DamageFactor = 0.8
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; A6M2 Zero.

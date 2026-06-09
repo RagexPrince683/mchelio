@@ -1,4 +1,4 @@
-﻿DisplayName = MIG-23MLD
+DisplayName = MIG-23MLD
 AddDisplayName = en_US, Mig-23MLD
 AddDisplayName = ja_JP, Mig-23MLD
 ItemID = 28720
@@ -7,20 +7,51 @@ EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
 Sound = migtwentythree
-Speed = 1.553
+Speed = 4.254
 
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 VariableSweepWing = true
 SweepWingSpeed = 1.9
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 18800
+FuelConsumption = 16.348
 ThirdPersonDist = 16
 ThrottleUpDown = 0.3
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = FA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 4.254
+StallSpeedFactor = 0.12
+StallSpeed = 0.452
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 8.5
+MaxStructuralG = 10
+GControlPenalty = 0.7
+CompressibilitySpeed = 3.744
+CompressibilityPitchPenalty = 0.6
+MaxSafeSpeed = 4.764
+OverspeedDamageRate = 0.15
+PitchTorque = 0.35
+RollTorque = 0.402
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane
 
@@ -112,3 +143,5 @@ UnmountPosition = 0.00, 1.6,  -0.40
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; MiG-23.

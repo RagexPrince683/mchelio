@@ -5,11 +5,11 @@ MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.5
+Speed = 5.22
 FlareType = 5
 ThrottleUpDown = 0.3
-MaxFuel         = 1800
-FuelConsumption = 1.0
+MaxFuel         = 65400
+FuelConsumption = 21.8
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 HideEntity = false
@@ -26,6 +26,37 @@ EntityHeight = 0.8
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = IA/SF
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 5.22
+StallSpeedFactor = 0.12
+StallSpeed = 0.487
+CriticalAoA = 16
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 5
+MaxStructuralG = 7
+GControlPenalty = 0.7
+CompressibilitySpeed = 4.594
+CompressibilityPitchPenalty = 0.6
+MaxSafeSpeed = 5.846
+OverspeedDamageRate = 0.15
+PitchTorque = 0.25
+RollTorque = 0.25
+YawTorque = 0.188
+PitchDamping = 0.46
+RollDamping = 0.414
+YawDamping = 0.506
+InertiaMultiplier = 1.8
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 
 HUD = plane
@@ -117,3 +148,5 @@ BoundingBox = -1.31, 3.65, -12.65, 0.5, 2.5
 BoundingBox = 1.31, 3.65, -12.65, 0.5, 2.5
 
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; MiG-31K heavy interceptor.

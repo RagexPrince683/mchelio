@@ -1,10 +1,10 @@
-﻿DisplayName = Mikoyan-Gurevich MiG-15 (No Payload)
+DisplayName = Mikoyan-Gurevich MiG-15 (No Payload)
 AddDisplayName = en_US, Mikoyan-Gurevich MiG-15 (No Payload)
 AddDisplayName = ko_KR, 미그-15
 AddDisplayName = ja_JP, MiG-15
 ItemID = 40004
 MaxHp = 100
-Speed = 1.16406
+Speed = 1.872
 
 DamageFactor = 0.8
 
@@ -13,8 +13,8 @@ DamageFactor = 0.8
 Sound = migfifteen
 onGroundPitch = 2
 ThrottleUpDown = 0.3
-MaxFuel = 1100
-FuelConsumption = 1.5
+MaxFuel = 5800
+FuelConsumption = 4.833
 ThrottleUpDownOnEntity = 2.0
 EnableEjectionSeat = false
 EnableSeaSurfaceParticle = true
@@ -23,6 +23,37 @@ ThirdPersonDist = 12
 
 ; M = Military.  F = Fighter
 Category = FA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.872
+StallSpeedFactor = 0.162
+StallSpeed = 0.303
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 6.5
+MaxStructuralG = 8.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 1.647
+CompressibilityPitchPenalty = 0.6
+MaxSafeSpeed = 2.097
+OverspeedDamageRate = 0.15
+PitchTorque = 0.35
+RollTorque = 0.35
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane_wwii
 
@@ -93,3 +124,5 @@ AddRecipe = "ABC", "DEG", "   ", A, mcheli:airframe, B, mcheli:basicmechanicpart
 
 unmountposition = 0.0, 1.72, 2.65
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; MiG-15.

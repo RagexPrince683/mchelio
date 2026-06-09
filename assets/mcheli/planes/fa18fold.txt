@@ -6,12 +6,12 @@ MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.19
+Speed = 3.332
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 19720
+FuelConsumption = 8.406
 ThrottleUpDown = 0.3
 ThirdPersonDist = 20
 Sound = faeighteen
@@ -21,6 +21,37 @@ EntityHeight = 0.75
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = CBMF/MF
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 3.332
+StallSpeedFactor = 0.13
+StallSpeed = 0.432
+CriticalAoA = 25
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 7.5
+MaxStructuralG = 9
+GControlPenalty = 0.7
+CompressibilitySpeed = 2.932
+CompressibilityPitchPenalty = 0.6
+MaxSafeSpeed = 3.732
+OverspeedDamageRate = 0.15
+PitchTorque = 0.35
+RollTorque = 0.402
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane, plane_gnr
 
@@ -106,3 +137,5 @@ BoundingBox =  -1.25, 3.88, -8.80,  1.4, 3.0
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; F/A-18 carrier fighter.

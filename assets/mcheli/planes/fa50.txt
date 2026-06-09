@@ -5,12 +5,12 @@ MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.142
+Speed = 3.196
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 10620
+FuelConsumption = 5.741
 ThirdPersonDist = 20
 ThrottleUpDown = 0.3
 
@@ -18,6 +18,37 @@ Sound = faeighteen
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = LCA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 3.196
+StallSpeedFactor = 0.12
+StallSpeed = 0.348
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 8
+MaxStructuralG = 9.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 2.812
+CompressibilityPitchPenalty = 0.6
+MaxSafeSpeed = 3.58
+OverspeedDamageRate = 0.15
+PitchTorque = 0.35
+RollTorque = 0.402
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = planenvg, plane_gnrnvg
 
@@ -102,3 +133,5 @@ Unmountposition = 0.00,  1.544,  2.57
 enableback = true
 
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; FA-50/T-50 class.

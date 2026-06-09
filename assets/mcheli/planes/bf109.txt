@@ -1,10 +1,10 @@
-﻿DisplayName = Bf.109
+DisplayName = Bf.109
 AddDisplayName = en_US, Bf-109 G-6
 ;/R6
 AddDisplayName = ru_RU, Bf.109
 ItemID = 30063
 MaxHp = 100
-Speed = 0.74124
+Speed = 1.114
 
 ;;RWRType = ALL_WAY_EARLY
 ;why no RWRType = Disabled???
@@ -19,14 +19,45 @@ ThrottleUpDown = 0.3
 
 RotorSpeed = 2000.0
 
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 1600
+FuelConsumption = 1.882
 ThrottleUpDownOnEntity = 2.0
 
 DamageFactor = 0.8
 
 ; W = WWII.  F = Fighter(戦闘機)
 Category = F
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.114
+StallSpeedFactor = 0.234
+StallSpeed = 0.261
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 7.5
+MaxStructuralG = 11
+GControlPenalty = 0.7
+CompressibilitySpeed = 0.98
+CompressibilityPitchPenalty = 0.35
+MaxSafeSpeed = 1.248
+OverspeedDamageRate = 0.15
+PitchTorque = 0.35
+RollTorque = 0.35
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane_wwii
 
@@ -89,3 +120,5 @@ BoundingBox =  -1.20, 3.20, -8.2,  0.8, 0.15
 ;basic ww2 prop plane, AOW3 style
 AddRecipe = "ABC", "DE ", "   ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon3
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Bf 109 late-war class.

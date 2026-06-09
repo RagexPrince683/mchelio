@@ -3,7 +3,7 @@ AddDisplayName = en_US, Kawanishi N1K
 AddDisplayName = ja_JP, 強風
 ItemID = 28704
 MaxHp = 100
-Speed = 0.6177
+Speed = 1.016
 Float = true
 FloatOffset = -0.77
 Sound = zero
@@ -11,8 +11,8 @@ Sound = zero
 SoundPitch = 0.8
 
 ThrottleUpDown = 0.3
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 2400
+FuelConsumption = 1.678
 ThirdPersonDist = 12
 
 RotorSpeed = 2000.0
@@ -23,6 +23,37 @@ DamageFactor = 0.8
 
 ; W = WWII.  F = Fighter(戦闘機)
 Category = FA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.016
+StallSpeedFactor = 0.257
+StallSpeed = 0.261
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 7
+MaxStructuralG = 10
+GControlPenalty = 0.7
+CompressibilitySpeed = 0.894
+CompressibilityPitchPenalty = 0.35
+MaxSafeSpeed = 1.138
+OverspeedDamageRate = 0.15
+PitchTorque = 0.35
+RollTorque = 0.35
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane_wwii
 
@@ -80,3 +111,5 @@ AddParticleSplash = -4.18, 0.35,  0.85,   3,   14.0,  1.1,   60,   0.05,  -0.001
 
 
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; N1K1-J Shiden class.
