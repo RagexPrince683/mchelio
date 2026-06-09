@@ -4,9 +4,40 @@ AddDisplayName = ko_KR, 미라주 3E
 ItemID = 40012
 MaxHp = 100
 Speed = 1.460
+EnableRealisticFlightModel = true
+PitchTorque = 3.8
+RollTorque = 3.5
+YawTorque = 2.2
+PitchDamping = 0.7
+RollDamping = 0.7
+YawDamping = 0.7
+InertiaMultiplier = 1.2
+ThrottleAcceleration = 0.35
+EngineDrag = 0.25
+FlightCeiling = 160
+FlightCeilingRange = 60
+MaxLevelSpeed = 1.7
+StallSpeed = 0.25
+StallRecoverySpeed = 0.32
+StallAoARange = 0.04
+CriticalAoA = 0.27
+MaxComfortableG = 7.5
+MaxStructuralG = 9.0
+CompressibilityLimit = 1.0
+MaxSpeedBeforeBuffet = 1.8
+OverspeedEntry = 1.7
+OverspeedMaxSpeed = 2.1
+OverspeedDragCoefficient = 0.05
+OverspeedPowerLoss = 0.25
+BaseDrag = 0.006
+InducedDrag = 0.015
+DragEnergyRetention = 0.3
+MinIdleThrust = -0.1
+MaxThrust = 200
+MaxAoA = 24
 Sound = mirage
 ThrottleUpDown = 0.3
-MaxFuel = 1000
+MaxFuel = 3400
 FuelConsumption = 1.0
 FlareType = 4
 EnableNightVision = false
@@ -69,7 +100,6 @@ BoundingBox =  0.00, 2.25, -10.8,  1.3, 1.3, 1.5
 
 BoundingBox = 2.0, 1.5, -7.2, 3.5, 0.3
 BoundingBox = -2.0, 1.5, -7.2, 3.5, 0.3
-
 
 
 
