@@ -1,6 +1,40 @@
 DisplayName = MiG-31 Foxhound
 MaxHp = 100
-Speed = 1.5
+; Realism pass: MiG-31 high-speed interceptor, ~1,860 mph / Mach 2.8 class, ceiling ~20.6 km.
+Speed = 1.860
+EnableRealisticFlightModel = true
+PitchTorque = 0.34
+RollTorque = 0.38
+YawTorque = 0.24
+PitchDamping = 0.46
+RollDamping = 0.44
+YawDamping = 0.52
+InertiaMultiplier = 1.95
+ThrottleAcceleration = 0.016
+EngineDrag = 0.011
+FlightCeiling = 206.0
+FlightCeilingRange = 40.0
+StallSpeed = 0.180
+CriticalAoA = 17.0
+StallLiftLoss = 0.76
+AoADragMultiplier = 2.00
+StallInstability = 0.45
+StallRecoverySpeed = 0.216
+DiveSpeedMultiplier = 1.05
+MaxComfortableG = 5.0
+MaxStructuralG = 7.0
+GControlPenalty = 0.76
+CompressibilitySpeed = 1.35
+CompressibilityPitchPenalty = 0.68
+MaxSafeSpeed = 1.96
+OverspeedDamageRate = 0.22
+BaseDrag = 0.00135
+InducedDrag = 0.0085
+ControlSurfaceDrag = 0.0032
+ClimbEnergyLoss = 0.0065
+DiveEnergyGain = 0.0070
+MaxLevelSpeed = 1.860
+IdleDrag = 0.0048
 EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
@@ -8,8 +42,8 @@ ThrottleUpDown = 0.3
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1000
-FuelConsumption = 1.0
+MaxFuel         = 65200
+FuelConsumption = 18.5
 Category = IA/SF
 HideEntity = false
 
@@ -95,6 +129,7 @@ BoundingBox = 1.31, 2.38,  -9.15, 0.5, 1.4
 
 BoundingBox = -1.31, 2.65, -9.65, 0.5, 1.4
 BoundingBox = 1.31, 2.65,  -9.65, 0.5, 1.4
+
 
 
 BoundingBox = -1.31, 2.85, -10.15, 0.5, 1.4
