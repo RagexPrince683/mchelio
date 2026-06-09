@@ -6,22 +6,49 @@ MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-;Speed = 40.68
-;sad
-;divide by 30 aircraft
-
-;new formula
-;1.8k
-;owie no work
-
+; Realism pass: F-15E max speed ~1,650 mph, service ceiling ~18.2 km, internal fuel ~13,455 kg.
+; High-speed aircraft use mph/1000 style speed tuning from MCH2 notes.
 DamageFactor = 0.8
 
-Speed = 1.65
+Speed = 1.650
+EnableRealisticFlightModel = true
+PitchTorque = 0.48
+RollTorque = 0.52
+YawTorque = 0.30
+PitchDamping = 0.40
+RollDamping = 0.38
+YawDamping = 0.46
+InertiaMultiplier = 1.45
+ThrottleAcceleration = 0.020
+EngineDrag = 0.013
+FlightCeiling = 182.0
+FlightCeilingRange = 34.0
+StallSpeed = 0.150
+CriticalAoA = 20.0
+StallLiftLoss = 0.70
+AoADragMultiplier = 1.80
+StallInstability = 0.38
+StallRecoverySpeed = 0.180
+DiveSpeedMultiplier = 1.08
+MaxComfortableG = 7.0
+MaxStructuralG = 9.0
+GControlPenalty = 0.68
+CompressibilitySpeed = 1.35
+CompressibilityPitchPenalty = 0.58
+MaxSafeSpeed = 1.82
+OverspeedDamageRate = 0.18
+BaseDrag = 0.00115
+InducedDrag = 0.0070
+ControlSurfaceDrag = 0.0028
+ClimbEnergyLoss = 0.0060
+DiveEnergyGain = 0.0075
+MaxLevelSpeed = 1.650
+IdleDrag = 0.0043
 FlareType = 3
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 53820
+FuelConsumption = 15.9
 CameraPosition = 0.0, 0.70, 1.6
 EnableGunnerMode = true
 AutoPilotRot = 0
@@ -118,29 +145,3 @@ AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  2
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0, true, 2
 
 AddPartHatch =   0.0,  3.20,  -4.86,  1,0, 0, 45
-AddPartHatch =   0.0,  3.00,  -7.05, -1,0, 0, 45
-SweepWingSpeed = 0.8
-VariableSweepWing = true
-
-;modern light plane (late jet), AOW3 style (fcs)
-AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:fcs3, G, mcheli:electronics
-
-BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
-BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0
-BoundingBox = -4.52, 2.20, -9.60,  4.0, 1.0
-BoundingBox =  4.52, 2.20, -9.60,  4.0, 1.0
-BoundingBox =  0.00, 1.80, -11.8,  3.0, 1.5
-BoundingBox =  0.00, 1.80, -13.8,  3.0, 1.5, 1.5 
-
-BoundingBox = 3.05, 2.46, -14.59, 3.0, 0.5
-BoundingBox = -3.05, 2.46, -14.59, 3.0, 0.5
-BoundingBox = 1.99, 3.73, -13.91, 1.0, 3.0
-BoundingBox = -1.99, 3.73, -13.91, 1.0, 3.0
-BoundingBox = 1.99, 4.18, -14.91, 1.0, 3.3
-BoundingBox = -1.99, 4.18, -14.91, 1.0, 3.3
-BoundingBox = 1.99, 3.15, -12.91, 1.0, 2.62
-BoundingBox = -1.99, 3.15, -12.91, 1.0, 2.62
-
-
-enableback = true
-DamageFactor = 0.8
