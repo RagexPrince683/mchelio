@@ -10,10 +10,43 @@ EnableEjectionSeat = true
 Speed = 0.7308
 ;420
 
+EnableRealisticFlightModel = true
+PitchTorque = 3.5
+RollTorque = 3.0
+YawTorque = 2.5
+PitchDamping = 0.8
+RollDamping = 0.6
+YawDamping = 0.5
+ThrottleAcceleration = 0.04
+EngineDrag = 0.03
+InertiaMultiplier = 2.0
+FlightCeiling = 50
+FlightCeilingRange = 20
+StallSpeed = 0.15
+StallThrottle = 0.2
+MinRecoveryThrottle = 0.5
+CriticalAoA = 18.0
+MaxComfortableG = 5.0
+MaxStructuralG = 7.5
+MaxLevelSpeed = 0.8
+SpeedLossFactor = 0.5
+BaseDrag = 0.04
+InducedDrag = 0.025
+LiftCoefficient = 1.2
+MaxGroundLiftSpeed = 0.2
+MaxGroundLiftFactor = 1.5
+CompressibilityStart = 0.8
+CompressibilityLinear = 0.5
+CompressibilityQuadratic = 1.0
+StartOverspeed = 1.0
+FullOverspeed = 1.2
+OverspeedFactor = 0.02
+YawStability = 0.0
+FallOfEffectSpeed = 0.6
 
 FlareType = 5
 ThrottleUpDown = 0.2
-MaxFuel         = 1800
+MaxFuel         = 6400
 FuelConsumption = 1.0
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -76,21 +109,17 @@ BoundingBox =  0.00, 2.55,  1.21,  1.5, 1.5
 BoundingBox =  0.00, 2.84, -3.05,  2.0, 2.0
 BoundingBox =  0.00, 2.44, -5.60,  2.0, 2.5
 
-
 BoundingBox =  0.00, 2.7, -7.20,  2.0, 2.0
 BoundingBox =  0.00, 2.65, -9.20,  2.0, 1.6
 BoundingBox =  0.00, 2.45, -11.20,  2.0,  1.2
 
 BoundingBox =  -2.10, 3.20, -9,  2.0, 2.0, 1.5
 
-
 BoundingBox =  2.1, 3.20, -9,  2.0, 2.0, 1.5
 
 BoundingBox =  -2.1, 3.20, -11,  2.0, 2.0, 1.5
 
-
 BoundingBox =  2.1, 3.20, -11,  2.0, 2.0, 1.5
-
 
 BoundingBox = -2.92, 2.19, -6.21,  3.5, 0.7,  0.9
 BoundingBox = -6.83, 2.55, -6.30,  3.0, 0.7,  0.8
@@ -99,7 +128,6 @@ BoundingBox =  6.83, 2.55, -6.30,  3.0, 0.7,  0.8
 
 BoundingBox = -1.78, 2.32,-13.54,  2.5, 0.3,  0.8
 BoundingBox =  1.78, 2.32,-13.54,  2.5, 0.3,  0.8
-
 
 DamageFactor = 0.2
 
