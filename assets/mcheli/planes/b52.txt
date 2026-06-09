@@ -1,10 +1,10 @@
-﻿DisplayName = B-52H Stratofortress (Conventional)
+DisplayName = B-52H Stratofortress (Conventional)
 AddDisplayName = en_US, B-52H Stratofortress (Conventional)
 
 AddDisplayName = ja_JP, B-52H ストラトフォートレス
 ItemID = 28729
 MaxHp = 250
-Speed = 1.12
+Speed = 1.822
 Sound = bfiftytwo
 ThrottleUpDown = 0.1
 ;EnableNightVision = true
@@ -13,14 +13,45 @@ EnableNightVision = true
 EnableGunnerMode = true
 CameraPosition  = -14.84, 3.96, -18.01
 InventorySize = 9
-MaxFuel         = 4800
-FuelConsumption = 2.0
+MaxFuel         = 726440
+FuelConsumption = 51.158
 AutoPilotRot = 0
 FlareType = 2
 ThirdPersonDist = 68
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = SHB/HB
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.822
+StallSpeedFactor = 0.21
+StallSpeed = 0.383
+CriticalAoA = 14
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 2.5
+MaxStructuralG = 4.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.18
+RollTorque = 0.18
+YawTorque = 0.135
+PitchDamping = 0.55
+RollDamping = 0.495
+YawDamping = 0.605
+InertiaMultiplier = 3
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = planenvg, plane_gnrnvg
 
@@ -277,3 +308,5 @@ unmountposition = 0.72,  1.52,  0.21
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; B-52 Stratofortress.

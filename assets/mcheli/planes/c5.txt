@@ -3,7 +3,7 @@ AddDisplayName = en_US, C5A galaxy
 AddDisplayName = ja_JP, C5A ギャラクシー
 ItemID = 28739
 MaxHp = 250
-Speed = 1.0266
+Speed = 1.489
 
 ;590
 
@@ -13,8 +13,8 @@ MobDropOption  = 0.97, 1.10, -12.91, 2
 ThirdPersonDist = 68
 Sound = c5m
 ThrottleUpDown = 0.1
-MaxFuel         = 20000
-FuelConsumption = 1.6
+MaxFuel         = 603260
+FuelConsumption = 135.869
 InventorySize = 64
 FlareType = 2
 EnableNightVision = true
@@ -24,6 +24,37 @@ StepHeight = -1.0
 
 ; M = Military(軍用機).  C = Transport(輸送機)
 Category = SA/TA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.489
+StallSpeedFactor = 0.239
+StallSpeed = 0.357
+CriticalAoA = 14
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 2.5
+MaxStructuralG = 4
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.16
+RollTorque = 0.16
+YawTorque = 0.12
+PitchDamping = 0.58
+RollDamping = 0.522
+YawDamping = 0.638
+InertiaMultiplier = 3.3
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 HUD = planenvg,planenvg, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
 MobilityRoll = 0.3
@@ -206,3 +237,5 @@ enableback = true
 
 RotorSpeed = 2000.0
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; C-5 Galaxy.

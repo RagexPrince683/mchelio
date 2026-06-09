@@ -1,4 +1,4 @@
-﻿DisplayName = F-14D Tomcat
+DisplayName = F-14D Tomcat
 AddDisplayName = en_US, F-14D Tomcat
 AddDisplayName = ja_JP, F-14D トムキャット
 ItemID = 30000
@@ -8,7 +8,7 @@ EnableEntityRadar = true
 EnableEjectionSeat = true
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
-Speed = 1.544
+Speed = 4.324
 Sound = tomcat
 CameraPosition = -2.97, 1.0, -4.95
 ConcurrentGunnerMode = true
@@ -17,8 +17,8 @@ ThrottleUpDown = 0.3
 FlareType = 4
 VariableSweepWing = true
 SweepWingSpeed = 1.6
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 29392
+FuelConsumption = 9.93
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 
@@ -26,6 +26,37 @@ EnableSeaSurfaceParticle = true
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = IA/AS/MF
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 4.324
+StallSpeedFactor = 0.12
+StallSpeed = 0.435
+CriticalAoA = 20
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 7.5
+MaxStructuralG = 9
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.3
+RollTorque = 0.345
+YawTorque = 0.225
+PitchDamping = 0.44
+RollDamping = 0.396
+YawDamping = 0.484
+InertiaMultiplier = 1.45
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = planenvg, plane_gnrnvg
 
@@ -123,3 +154,5 @@ DamageFactor = 0.8
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; F-14D Tomcat.

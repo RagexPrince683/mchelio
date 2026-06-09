@@ -1,4 +1,4 @@
-﻿DisplayName = J-11B
+DisplayName = J-11B
 AddDisplayName = en_US, J-11B
 AddDisplayName = zh_CN, 歼11B
 ItemID = 6855
@@ -6,12 +6,12 @@ MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.553
+Speed = 4.35
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1400
-FuelConsumption = 1.0
+MaxFuel         = 37600
+FuelConsumption = 10.652
 ThrottleUpDown = 0.3
 
 Sound = sutwentyseven
@@ -23,6 +23,37 @@ SweepWingSpeed = 0.8
 AddRecipe = "ABC", "DEF", "GGG", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:fcs3, G, mcheli:electronics 
 
 Category = ASF
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 4.35
+StallSpeedFactor = 0.12
+StallSpeed = 0.4
+CriticalAoA = 24
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 9
+MaxStructuralG = 11.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.36
+RollTorque = 0.414
+YawTorque = 0.27
+PitchDamping = 0.4
+RollDamping = 0.36
+YawDamping = 0.44
+InertiaMultiplier = 1.25
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane
 
@@ -135,3 +166,5 @@ unmountposition = 0.00, 1.54, 0.00
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; J-11B Flanker derivative.

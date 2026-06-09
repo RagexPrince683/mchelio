@@ -7,12 +7,12 @@ EnableNightVision = false
 ;oh wtf
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.5
+Speed = 4.62
 FlareType = 3
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 24400
+FuelConsumption = 6.256
 CameraPosition = 0.0, 0.70, 1.6
 EnableGunnerMode = true
 AutoPilotRot = 0
@@ -27,6 +27,37 @@ Sound = ffifteen
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = ASF
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 4.62
+StallSpeedFactor = 0.12
+StallSpeed = 0.383
+CriticalAoA = 24
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 9
+MaxStructuralG = 12
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.35
+RollTorque = 0.402
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane, plane_gnr
 
@@ -121,3 +152,5 @@ BoundingBox = -1.99, 3.15, -12.91, 1.0, 2.42
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; F-15 STOL/MTD experimental class.

@@ -1,7 +1,7 @@
 DisplayName = Il-28Sh
 AddDisplayName = ja_JP, Il-28Sh
 MaxHp = 150
-Speed = 0.90132
+Speed = 1.569
 
 ;518
 
@@ -10,8 +10,8 @@ AutoPilotRot = 0.00
 CameraPosition = 0.0, 1.10, -4.47
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
-MaxFuel         = 2400
-FuelConsumption = 2.0
+MaxFuel         = 31632
+FuelConsumption = 13.18
 ThirdPersonDist = 28
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -24,6 +24,37 @@ AddTexture = il28_pla
 AddTexture = il28_none
 
 Category = MB
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.569
+StallSpeedFactor = 0.188
+StallSpeed = 0.296
+CriticalAoA = 16
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 4
+MaxStructuralG = 6
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.28
+RollTorque = 0.28
+YawTorque = 0.21
+PitchDamping = 0.44
+RollDamping = 0.396
+YawDamping = 0.484
+InertiaMultiplier = 1.5
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 
 HUD = plane_wwii, gunner, none
@@ -123,3 +154,5 @@ AddRecipe = "ABC", "DEF", "   ", A, mcheli:airframe2, B, mcheli:basicmechanicpar
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Il-28Sh.

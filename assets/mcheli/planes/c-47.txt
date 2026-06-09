@@ -3,7 +3,7 @@ AddDisplayName = en_US, Douglas C-47 Skytrain
 AddDisplayName = ja_JP, C-47 スカイトレイン
 HUD = plane_wwii, plane_wwii, none, none, none, none, none, none, none, none, none, none, none, none
 EnableEntityRadar = false
-Speed = 2.3
+Speed = 0.626
 GravityInWater = -0.04
 MobilityRoll = 0.3
 MobilityYaw = 0.3
@@ -20,6 +20,37 @@ MobDropOption  = 0.97, 1.52, -6.48, 2
 ;Regeneration = true
 
 Category = MTA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.626
+StallSpeedFactor = 0.306
+StallSpeed = 0.191
+CriticalAoA = 15
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3
+MaxStructuralG = 5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.25
+RollTorque = 0.25
+YawTorque = 0.188
+PitchDamping = 0.45
+RollDamping = 0.405
+YawDamping = 0.495
+InertiaMultiplier = 1.7
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 RotorSpeed = 2000.0
 
@@ -59,8 +90,8 @@ AddRack = container,     0.0, 4.11, -11.35,  2.19, 4.39, -11.12,   15,    20
 AddPartLG    =  3.77, 2.78, -1.29,  -1,0,0,  -90
 AddPartLG    =  -3.77, 2.78, -1.29,  -1,0,0,  -90
 
-MaxFuel         = 1000
-FuelConsumption = 0.5
+MaxFuel         = 12000
+FuelConsumption = 5
 
 BoundingBox = 0.0, 4.97, -0.65,3, 3
 BoundingBox = 0.0, 4.97, -3.65,3, 3
@@ -102,3 +133,5 @@ AddRecipe = "ABC", "DA ", "   ", A, mcheli:airframebomb, B, mcheli:basicmechanic
 
 UnmountPosition = 0.68, 2.2, 1.78
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Douglas C-47 Skytrain.

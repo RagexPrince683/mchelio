@@ -6,7 +6,7 @@ MaxHp  = 250
 EnableNightVision  = true
 EnableEntityRadar  = true
 EnableEjectionSeat = true
-Speed = 1.09272
+Speed = 1.757
 
 ;628
 
@@ -15,8 +15,8 @@ SoundPitch = 0.8
 FlareType = 2
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 4800
-FuelConsumption = 2.0
+MaxFuel         = 303000
+FuelConsumption = 27.297
 CameraPosition  = 0.0, 2.66, 3.78
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
@@ -40,6 +40,37 @@ MaxRotationPitch =  60
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = SSHB/HB
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.757
+StallSpeedFactor = 0.248
+StallSpeed = 0.435
+CriticalAoA = 17
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3
+MaxStructuralG = 5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.2
+RollTorque = 0.2
+YawTorque = 0.15
+PitchDamping = 0.52
+RollDamping = 0.468
+YawDamping = 0.572
+InertiaMultiplier = 2.7
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane, plane_gnr
 
@@ -132,3 +163,5 @@ unmountposition = 0.80,  1.70,  0.28
 enableback = true
 
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; B-2A Spirit conventional payload.

@@ -1,4 +1,4 @@
-﻿DisplayName = Tu-160M Super Blackjack Conventional Bombs
+DisplayName = Tu-160M Super Blackjack Conventional Bombs
 AddDisplayName = en_US, Tu-160M Super Blackjack Conventional Bombs
 AddDisplayName =  zh_CN, 图-160M 超级海盗旗 Conventional Bombs
 ItemID = 30714
@@ -6,12 +6,12 @@ MaxHp = 250
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.3
+Speed = 3.863
 FlareType = 2
 VariableSweepWing = true
 SweepWingSpeed = 2.4
-MaxFuel         = 90000
-FuelConsumption = 6.2
+MaxFuel         = 592000
+FuelConsumption = 48.13
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 ThirdPersonDist = 20
@@ -40,6 +40,37 @@ enableback = true
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = SSHB
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 3.863
+StallSpeedFactor = 0.12
+StallSpeed = 0.452
+CriticalAoA = 15
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3.5
+MaxStructuralG = 5.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.18
+RollTorque = 0.18
+YawTorque = 0.135
+PitchDamping = 0.55
+RollDamping = 0.495
+YawDamping = 0.605
+InertiaMultiplier = 3.1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane, plane_gnr, gunner, gunner
 
@@ -158,3 +189,5 @@ AddRecipe = "ABC", "DAF", "E  ", A, mcheli:airframebomb, B, mcheli:advancedmecha
 AddRecipe = "ABC", "   ", "   ", A, mcheli:tu160mmsl, B, mcheli:fcs2, C, mcheli:airframe
 
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Tu-160M.

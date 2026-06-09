@@ -6,15 +6,15 @@ MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.19016
+Speed = 1.914
 
 Sound = faeighteen
 
 FlareType = 3
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1300
-FuelConsumption = 1.0
+MaxFuel         = 33020
+FuelConsumption = 19.198
 ThirdPersonDist = 20
 
 ThrottleUpDown = 0.3
@@ -25,6 +25,37 @@ DamageFactor = 0.8
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = SAA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.914
+StallSpeedFactor = 0.2
+StallSpeed = 0.383
+CriticalAoA = 17
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 6
+MaxStructuralG = 7.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.28
+RollTorque = 0.28
+YawTorque = 0.21
+PitchDamping = 0.45
+RollDamping = 0.405
+YawDamping = 0.495
+InertiaMultiplier = 1.35
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 AddTexture = f117
 AddTexture = f1172
@@ -77,3 +108,5 @@ BoundingBox =  3.92, 1.45, -3.80,  1.9, 0.3
 
 BoundingBox =  0.00, 1.65, -3.8,  3.0, 0.8, 1.5
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; F-117 Nighthawk GBU-12 loadout.

@@ -7,12 +7,12 @@ ThrottleUpDown = 0.3
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.553
+Speed = 4.35
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1400
-FuelConsumption = 1.0
+MaxFuel         = 37600
+FuelConsumption = 10.444
 
 HUD = planenvgonly
 
@@ -20,6 +20,37 @@ sound = sutwentyseven
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = MF
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 4.35
+StallSpeedFactor = 0.12
+StallSpeed = 0.383
+CriticalAoA = 30
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 9
+MaxStructuralG = 12
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.38
+RollTorque = 0.437
+YawTorque = 0.285
+PitchDamping = 0.4
+RollDamping = 0.36
+YawDamping = 0.44
+InertiaMultiplier = 1.25
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 MobilityYaw = 30.0
 MobilityRoll = 0.5
@@ -124,3 +155,5 @@ unmountposition = 0.00,  1.50,  4.19
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Sukhoi Su-35/Su-37 thrust-vectoring class.

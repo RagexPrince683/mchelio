@@ -1,9 +1,9 @@
-﻿DisplayName = MiG-3-15
+DisplayName = MiG-3-15
 AddDisplayName = en_US, Mikoyan-Gurevich MiG-3-15
 AddDisplayName = ru_RU, MiG-3-15
 ItemID = 30020
 MaxHp = 100
-Speed = 0.69252
+Speed = 1.114
 
 ;398
 
@@ -11,8 +11,8 @@ Float = false
 Sound = prop_fighter
 onGroundPitch = 15
 ThrottleUpDown = 0.3
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 1852
+FuelConsumption = 2.259
 ThirdPersonDist = 12
 DamageFactor = 0.8
 
@@ -20,6 +20,37 @@ RotorSpeed = 2000.0
 
 ; W = WWII.  F = Fighter(戦闘機)
 Category = FA/IA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.114
+StallSpeedFactor = 0.242
+StallSpeed = 0.27
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 7
+MaxStructuralG = 10
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.35
+RollTorque = 0.35
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane_wwii
 
@@ -71,3 +102,5 @@ BoundingBox =  0.00,  2.85, -5.36,  0.5, 1.8
 BoundingBox =  0.00,  2.65, -4.86,  0.5, 1.8
 BoundingBox =  0.00,  2.35, -4.36,  0.5, 1.8
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Mikoyan-Gurevich MiG-3-15.

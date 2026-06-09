@@ -1,9 +1,9 @@
-﻿DisplayName = B-1B Lancer (Conventional Payload)
+DisplayName = B-1B Lancer (Conventional Payload)
 AddDisplayName = en_US, B-1B Lancer (Conventional Payload)
 AddDisplayName = ja_JP, B-1B ランサー (Conventional Payload)
 ItemID = 28747
 MaxHp = 250
-Speed = 1.35
+Speed = 2.323
 
 ;formula no work too big
 
@@ -19,14 +19,45 @@ VariableSweepWing = true
 SweepWingSpeed = 2.0
 FlareType = 2
 AutoPilotRot = 0
-MaxFuel         = 7000
-FuelConsumption = 1.7
+MaxFuel         = 480000
+FuelConsumption = 51.064
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 Stealth = 0.2
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = SSHB/SB
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 2.323
+StallSpeedFactor = 0.195
+StallSpeed = 0.452
+CriticalAoA = 15
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3
+MaxStructuralG = 5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.2
+RollTorque = 0.2
+YawTorque = 0.15
+PitchDamping = 0.52
+RollDamping = 0.468
+YawDamping = 0.572
+InertiaMultiplier = 2.6
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = planenvg, plane_gnrnvg, 
 
@@ -307,3 +338,5 @@ DamageFactor = 0.8
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; B-1B Lancer conventional payload.

@@ -1,4 +1,4 @@
-﻿DisplayName = MIG-17 F
+DisplayName = MIG-17 F
 AddDisplayName = en_US, MIG-17 F
 AddDisplayName = ja_JP, MIG-17 F
 ItemID = 28731
@@ -7,20 +7,51 @@ EnableNightVision = false
 EnableEntityRadar = false
 EnableEjectionSeat = true
 Sound = migfifteen
-Speed = 1.23714
+Speed = 1.992
 
 ;711
 
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1400
-FuelConsumption = 1.0
+MaxFuel         = 4680
+FuelConsumption = 4.333
 ThirdPersonDist = 24
 ThrottleUpDown = 0.3
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = FA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.992
+StallSpeedFactor = 0.153
+StallSpeed = 0.304
+CriticalAoA = 19
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 7.5
+MaxStructuralG = 9
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.35
+RollTorque = 0.35
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 MobilityYaw = 4.0
 MobilityRoll = 0.5
@@ -98,3 +129,5 @@ unmountposition = 0.00,  1.6,  -0.1540
 enableback = true
 
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; MiG-17F.

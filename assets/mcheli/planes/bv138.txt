@@ -3,7 +3,7 @@ AddAddDisplayName = en_US, BV-138 C-1
 AddDisplayName = ja_JP, BV-138 C-1
 ItemID = 28711
 MaxHp = 150
-Speed = 0.30798
+Speed = 0.496
 ;177mph
 
 Sound = junkersjumo
@@ -14,8 +14,8 @@ Float = true
 FloatOffset = -0.4
 Sound = prop
 Regeneration = false
-MaxFuel         = 4000
-FuelConsumption = 2.0
+MaxFuel         = 14000
+FuelConsumption = 3.256
 InventorySize = 36
 RotorSpeed = 500.0
 StepHeight = 1.0
@@ -24,6 +24,37 @@ MobilityYawOnGround = 1.5
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = MP/LRR
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.496
+StallSpeedFactor = 0.333
+StallSpeed = 0.165
+CriticalAoA = 14
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.003
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3
+MaxStructuralG = 5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.22
+RollTorque = 0.22
+YawTorque = 0.165
+PitchDamping = 0.48
+RollDamping = 0.432
+YawDamping = 0.528
+InertiaMultiplier = 1.8
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane_wwii, plane_wwii, gunner, gunner, gunner
 
@@ -133,3 +164,5 @@ DamageFactor = 0.8
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; BV-138 C-1 flying boat.

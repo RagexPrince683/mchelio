@@ -7,11 +7,11 @@ MaxHp = 100
 ;160mph max speed
 
 
-Speed = 0.2784
+Speed = 0.449
 Sound = antwo
 ThrottleUpDown = 0.4
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 4960
+FuelConsumption = 5.87
 onGroundPitch = 12.31
 InventorySize = 18
 
@@ -29,6 +29,37 @@ AddTexture = an2_5
 
 ; C = Civilian(民間機)
 Category = C/AUA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.449
+StallSpeedFactor = 0.248
+StallSpeed = 0.111
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.004
+InducedDrag = 0.009
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.007
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3.8
+MaxStructuralG = 5.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.27
+RollTorque = 0.27
+YawTorque = 0.203
+PitchDamping = 0.42
+RollDamping = 0.378
+YawDamping = 0.462
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 EntityWidth  = 0.81
 EntityHeight = 0.81
@@ -86,3 +117,5 @@ unmountposition = 0.5267, 1.51,  0.0
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Antonov An-2.

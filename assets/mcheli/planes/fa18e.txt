@@ -103,7 +103,7 @@ AddWeapon = targeting_pod_ph50s,   0.0, 2.7, 1.1,    0.0, 0.0, true,  2
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0, true, 2
 
 ;modern light plane (late jet), AOW3 style (rkt)
-AddRecipe = \"ABC\", \"DEF\", \"GG \", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:rocket, G, mcheli:electronics
+AddRecipe = "ABC", "DEF", "GG ", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:rocket, G, mcheli:electronics
 
 AddPartWing =  4.91, 1.89, -5.14,  0,0,1,  90
 AddPartWing = -4.91, 1.89, -5.14,  0,0,1, -90

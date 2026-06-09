@@ -8,10 +8,10 @@ EnableVtol = true
 EnableParachuting = true
 ;MobDropOption =降下位置X, 降下位置Y, 降下位置Z, 降下間隔(1/20秒)
 MobDropOption = 0.0, 0.0, -11.5,  10
-DefaultVtol = true
-VtolYaw = 0.7
-VtolPitch = 0.4
-Speed = 0.61074
+DefaultVtol = false
+VtolYaw = 0.3
+VtolPitch = 0.22
+Speed = 0.983
 
 ;351 
 
@@ -20,11 +20,42 @@ FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 ThrottleUpDown = 0.5
-MaxFuel         = 1800
-FuelConsumption = 1.0
+MaxFuel         = 26052
+FuelConsumption = 16.012
 
 ; M = Military(軍用機).  C = Transport(輸送機)
 Category = TRMTA/TA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.983
+StallSpeedFactor = 0.301
+StallSpeed = 0.296
+CriticalAoA = 16
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.003
+InducedDrag = 0.007
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.006
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3.5
+MaxStructuralG = 5.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.24
+RollTorque = 0.24
+YawTorque = 0.18
+PitchDamping = 0.48
+RollDamping = 0.432
+YawDamping = 0.528
+InertiaMultiplier = 1.7
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = planenvg, planenvg, none, none, none, none, none, none, none, none, none, none, none, none
 
@@ -176,3 +207,5 @@ UnmountPosition = 0.0, 2.7, -2.00
 
 RotorSpeed = 2000.0
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; MV-22 Osprey tiltrotor; handled as VTOL airplane.

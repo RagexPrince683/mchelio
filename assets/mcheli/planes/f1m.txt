@@ -3,7 +3,7 @@ AddDisplayName = en_US, Mitsubishi F1M "Pete"
 AddDisplayName = ja_JP, 三菱 零式水上観測機
 ItemID = 28709
 MaxHp = 100
-Speed = 0.39846
+Speed = 0.644
 Float = true
 Sound = prop_fighter
 
@@ -12,14 +12,45 @@ EnableBack = true
 SoundPitch = 1.3
 
 ThrottleUpDown = 0.3
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 1320
+FuelConsumption = 1.234
 ThirdPersonDist = 12
 
 RotorSpeed = 2000.0
 
 ; W = WWII.  R = Reconnaissance(偵察機)
 Category = RFLP
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.644
+StallSpeedFactor = 0.257
+StallSpeed = 0.165
+CriticalAoA = 17
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.003
+InducedDrag = 0.008
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 5.5
+MaxStructuralG = 8
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.34
+RollTorque = 0.34
+YawTorque = 0.255
+PitchDamping = 0.36
+RollDamping = 0.324
+YawDamping = 0.396
+InertiaMultiplier = 0.75
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 ; 水しぶき を発生させる
 ;AddParticleSplash = 座標X,   Y,    Z,   表示数, サイズ,  速度,  表示時間, 上昇, 重力
@@ -95,3 +126,5 @@ BoundingBox = 0.0, 3.15, -4.45, 0.2, 1.7
 BoundingBox = 0.0, 3.15, -4.65, 0.2, 1.5
 BoundingBox = 0.0, 3.15, -4.85, 0.2, 1.5
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Mitsubishi F1M Pete floatplane.

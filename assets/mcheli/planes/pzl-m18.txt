@@ -3,7 +3,7 @@ AddDisplayName = en_US, PZL M-18 Dromader
 AddDisplayName = ja_JP, PZL M-18 ドロマーデル
 ItemID = 28733
 MaxHp = 100
-Speed = 0.2436
+Speed = 0.435
 
 ;140
 ;.140*1.74
@@ -13,8 +13,8 @@ RotorSpeed = 2000.0
 
 Sound = dromader
 ThrottleUpDown = 0.3
-MaxFuel         = 1300
-FuelConsumption = 1.0
+MaxFuel         = 1920
+FuelConsumption = 3.692
 onGroundPitch = 13.0
 
 EntityWidth  = 0.86
@@ -22,6 +22,37 @@ EntityHeight = 0.86
 
 ; C = Civilian(民間機)
 Category = C/UA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.435
+StallSpeedFactor = 0.36
+StallSpeed = 0.157
+CriticalAoA = 16
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.003
+InducedDrag = 0.008
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3.8
+MaxStructuralG = 5.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.25
+RollTorque = 0.25
+YawTorque = 0.188
+PitchDamping = 0.42
+RollDamping = 0.378
+YawDamping = 0.462
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane_wwii
 
@@ -66,3 +97,5 @@ unmountposition = 0.0, 2.17, -2.95
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; PZL M-18 Dromader.

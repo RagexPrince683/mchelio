@@ -3,7 +3,7 @@ AddDisplayName = en_US, MiG-19S Farmer
 AddDisplayName = ko_KR, 미그-19S 파머
 ItemID = 40014
 MaxHp = 100
-Speed = 0.904
+Speed = 2.53
 
 ;904mph
 
@@ -11,8 +11,8 @@ DamageFactor = 0.8
 
 Sound = mignineteen
 ThrottleUpDown = 0.3
-MaxFuel = 1000
-FuelConsumption = 1.0
+MaxFuel = 7200
+FuelConsumption = 5.18
 ;FlareType = 4
 ;EnableNightVision = true
 ;EnableEntityRadar = true
@@ -21,6 +21,37 @@ EnableSeaSurfaceParticle = true
 ParticlesScale = 0.7
 ThirdPersonDist = 17
 Category = FA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 2.53
+StallSpeedFactor = 0.138
+StallSpeed = 0.348
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 8
+MaxStructuralG = 9.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.35
+RollTorque = 0.35
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 enableback = true
 
@@ -102,3 +133,5 @@ BoundingBox = 0.0, 3.9, -10.43, 0.5, 1.0
 
 ;AddRecipe = " YX",  "XXP",  "X X",  X, iron_block, Y, glass, P, iron_ingot
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; MiG-19S Farmer.

@@ -3,14 +3,14 @@ AddDisplayName = en_US, Geran 2
 AddDisplayName = ja_JP, Geran 2
 MaxHp = 10
 ;;Speed = 0.006 for a specific server config
-Speed = 0.075
+Speed = 0.322
 
 ;75mph
 Sound = radicon_heli
 CameraPosition = 0.0, 0.40, 0.34
 ThrottleUpDown = 5.0
-MaxFuel         = 120
-FuelConsumption = 0.1
+MaxFuel         = 200
+FuelConsumption = 0.111
 Stealth = 0.2
 SmallUAV = true
 ParticlesScale = 0.2
@@ -23,6 +23,37 @@ AddSeat =  0.0, 0.0, 0.0
 
 ; M = Military(軍用機).  Q = Drone(無人航空機)
 Category = OWAD
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.322
+StallSpeedFactor = 0.38
+StallSpeed = 0.157
+CriticalAoA = 16
+StallLiftLoss = 0.6
+AoADragMultiplier = 1.35
+StallInstability = 0.18
+BaseDrag = 0.004
+InducedDrag = 0.004
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.006
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3
+MaxStructuralG = 5
+GControlPenalty = 0.45
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.32
+RollTorque = 0.32
+YawTorque = 0.24
+PitchDamping = 0.36
+RollDamping = 0.324
+YawDamping = 0.396
+InertiaMultiplier = 0.5
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 AddWeapon = geran_bomb, 0,0,0,  0,0
 ;AddWeapon = plastic_bomb, 0,0,0,  0,0
@@ -40,3 +71,5 @@ RotorSpeed = 200.0
 ;BoundingBox =  0.0, 0.0, 0.0,  1.5, 1.5
 
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Geran-2/Shahed-136 loitering munition.

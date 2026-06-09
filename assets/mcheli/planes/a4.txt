@@ -8,12 +8,12 @@ Sound = asix
 EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.17102
+Speed = 1.884
 FlareType = 3
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1500
-FuelConsumption = 1.0
+MaxFuel         = 12112
+FuelConsumption = 3.761
 ThirdPersonDist = 20
 ThrottleUpDown = 0.3
 
@@ -23,6 +23,37 @@ enableback = true
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = AA/FA/AGA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.884
+StallSpeedFactor = 0.18
+StallSpeed = 0.339
+CriticalAoA = 19
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 7.3
+MaxStructuralG = 9
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.35
+RollTorque = 0.35
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 
 HUD = planesu24, plane_gnrsu24
@@ -126,3 +157,5 @@ BoundingBox = -0.7, 3.05, -8.6, 1.3, 0.25
 
 Unmountposition = -0.0,  1.6,  0.2
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; A-4E Skyhawk Early.

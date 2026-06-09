@@ -6,12 +6,12 @@ MaxHp  = 250
 EnableNightVision  = false
 EnableEntityRadar  = true
 EnableEjectionSeat = true
-Speed = 1.42158
+Speed = 3.48
 FlareType = 2
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 4800
-FuelConsumption = 2.0
+MaxFuel         = 214200
+FuelConsumption = 31.5
 CameraPosition  = 0.0, 1.46, 3.78
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
@@ -33,6 +33,37 @@ MaxRotationPitch =  60
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = SB/MS
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 3.48
+StallSpeedFactor = 0.13
+StallSpeed = 0.452
+CriticalAoA = 15
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 4
+MaxStructuralG = 6
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.2
+RollTorque = 0.2
+YawTorque = 0.15
+PitchDamping = 0.52
+RollDamping = 0.468
+YawDamping = 0.572
+InertiaMultiplier = 2.5
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = planesu24, plane_gnrsu24
 
@@ -144,3 +175,5 @@ Boundingbox = -5.81, 2.97, -25.04, 2.8, 0.3
 ;large bomber aircraft dated modern, AOW3 style
 AddRecipe = "ABC", "DAC", "E  ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:electronics
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Tu-22M3 Backfire.

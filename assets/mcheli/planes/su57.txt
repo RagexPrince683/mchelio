@@ -1,4 +1,4 @@
-﻿DisplayName = Su-57
+DisplayName = Su-57
 AddDisplayName = en_US, Su-57
 AddDisplayName = zh_CN, 老毛子的苏-57
 ItemID = 7788
@@ -7,12 +7,12 @@ ThrottleUpDown = 0.3
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.324
+Speed = 4.524
 FlareType = 3
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1400
-FuelConsumption = 1.0
+MaxFuel         = 41200
+FuelConsumption = 11.771
 Stealth = 0.43
 CameraPosition = 0.0, 1.25, 0.00
 EnableGunnerMode = true
@@ -31,6 +31,37 @@ AddTexture = su57_tgm
 
 
 Category = SMF
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 4.524
+StallSpeedFactor = 0.12
+StallSpeed = 0.383
+CriticalAoA = 28
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 9
+MaxStructuralG = 12
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.36
+RollTorque = 0.414
+YawTorque = 0.27
+PitchDamping = 0.42
+RollDamping = 0.378
+YawDamping = 0.462
+InertiaMultiplier = 1.35
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 
 
@@ -167,3 +198,5 @@ unmountposition = 0,  2.1,  0
 
 enableback = true
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Su-57 Felon.

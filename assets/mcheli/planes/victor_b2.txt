@@ -6,12 +6,12 @@ MaxHp  = 250
 EnableNightVision  = false
 EnableEntityRadar  = true
 EnableEjectionSeat = true
-Speed = 1.0
+Speed = 1.757
 FlareType = 2
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 4800
-FuelConsumption = 2.0
+MaxFuel         = 200000
+FuelConsumption = 33.333
 CameraPosition  = 0.0, 0.66, 3.78
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
@@ -46,6 +46,37 @@ AddBlade = 1,0,   3.631,  2.416,  -2.367,   0, 0, -1
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = SB
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.757
+StallSpeedFactor = 0.218
+StallSpeed = 0.383
+CriticalAoA = 15
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3
+MaxStructuralG = 5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.2
+RollTorque = 0.2
+YawTorque = 0.15
+PitchDamping = 0.52
+RollDamping = 0.468
+YawDamping = 0.572
+InertiaMultiplier = 2.5
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane, plane_gnr
 
@@ -126,3 +157,5 @@ BoundingBox = 0.0, 6.39, -20.81, 2.0, 0.3
 ;med large bomber aircraft semi modern, AOW3 style
 AddRecipe = "ABC", "D C", " E ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Handley Page Victor B.2.

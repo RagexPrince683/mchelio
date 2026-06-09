@@ -1,6 +1,6 @@
 DisplayName = Su-27 Flanker-B
 MaxHp = 100
-Speed = 1.553
+Speed = 4.35
 EnableNightVision = false
 EnableEntityRadar = true
 EnableEjectionSeat = true
@@ -8,8 +8,8 @@ ThrottleUpDown = 0.3
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1000
-FuelConsumption = 1.0
+MaxFuel         = 37600
+FuelConsumption = 10.652
 ThirdPersonDist = 20
 Sound = sutwentyseven
 
@@ -17,6 +17,37 @@ SweepWingSpeed = 0.85
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = MF/ASF
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 4.35
+StallSpeedFactor = 0.12
+StallSpeed = 0.4
+CriticalAoA = 24
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 9
+MaxStructuralG = 11.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.36
+RollTorque = 0.414
+YawTorque = 0.27
+PitchDamping = 0.4
+RollDamping = 0.36
+YawDamping = 0.44
+InertiaMultiplier = 1.25
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = planenvgonly
 
@@ -145,3 +176,5 @@ AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe3, B, mcheli:advancedmechanic
 
 DamageFactor = 0.8
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Su-27 Flanker-B.

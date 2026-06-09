@@ -2,7 +2,7 @@ DisplayName = X-47B Pegasus
 AddDisplayName = ja_JP, X-47B ペガサス
 ItemID = 28728
 MaxHp = 100
-Speed = 1.1919
+Speed = 1.914
 
 ;685mph cruising speed
 
@@ -17,12 +17,43 @@ UAV = true
 AutoPilotRot = -1.60
 CameraPosition = 0.0, 1.7, 5.2
 ThrottleUpDown = 0.7
-MaxFuel         = 1000
-FuelConsumption = 1.0
+MaxFuel         = 26000
+FuelConsumption = 6.667
 Stealth = 0.35
 
 ; M = Military(軍用機).  Q = Drone(無人航空機)
 Category = UCAV/TECD
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.914
+StallSpeedFactor = 0.191
+StallSpeed = 0.365
+CriticalAoA = 18
+StallLiftLoss = 0.6
+AoADragMultiplier = 1.35
+StallInstability = 0.18
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 6
+MaxStructuralG = 8
+GControlPenalty = 0.45
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.3
+RollTorque = 0.3
+YawTorque = 0.225
+PitchDamping = 0.42
+RollDamping = 0.378
+YawDamping = 0.462
+InertiaMultiplier = 1.4
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane
 
@@ -76,3 +107,5 @@ BoundingBox = -3.0, 2.0, -3.0,  3.0, 1.5
 BoundingBox =  0.0, 2.0, -5.0,  3.0, 1.8
 
 enableback = true
+
+; RealismSource = MCHO plane scripted pass; X-47B UCAV.

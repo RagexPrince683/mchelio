@@ -1,4 +1,4 @@
-﻿DisplayName = TU-95 Bear
+DisplayName = TU-95 Bear
 AddDisplayName = en_US, TU-95 Bear
 AddDisplayName = ja_JP, TU-95 Bear
 AddDisplayName = zh_CN, 图95 Bear
@@ -7,19 +7,50 @@ MaxHp = 250
 EnableNightVision = false
 EnableEntityRadar = true
 EnableGunnerMode = true
-Speed = 0.696
+Speed = 1.601
 FlareType = 3
 Sound = twinprop
 ThrottleUpDown = 0.10
 CameraPosition = -0.3021, 0.3021, 0.3021
-MaxFuel = 60000
-FuelConsumption = 1.0
+MaxFuel = 348000
+FuelConsumption = 23.2
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 ThirdPersonDist = 40
 AutoPilotRot = 0
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = SHNB/SB
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.601
+StallSpeedFactor = 0.196
+StallSpeed = 0.313
+CriticalAoA = 14
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 2.8
+MaxStructuralG = 4.8
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.18
+RollTorque = 0.18
+YawTorque = 0.135
+PitchDamping = 0.55
+RollDamping = 0.495
+YawDamping = 0.605
+InertiaMultiplier = 3
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 
 ;large bomber aircraft modern, AOW3 style
@@ -236,3 +267,5 @@ BoundingBox = 14.8945,  3.1643,  -17, 1.0, 1.0, 1.25
 
 BoundingBox = -14.8945,  3.1643,  -17, 1.0, 1.0, 1.25
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Tu-95 Bear.

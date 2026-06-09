@@ -3,14 +3,14 @@ AddDisplayName = en_US, MiG-21PF Fishbed
 AddDisplayName = ko_KR, 미그-21PF 피쉬베드
 ItemID = 40012
 MaxHp = 100
-Speed = 1.385
+Speed = 3.784
 
 ;1385mph
 
 Sound = migtwentyone
 ThrottleUpDown = 0.3
-MaxFuel = 1000
-FuelConsumption = 1.0
+MaxFuel = 9400
+FuelConsumption = 7.769
 FlareType = 4
 EnableNightVision = false
 EnableEntityRadar = true
@@ -19,6 +19,37 @@ EnableSeaSurfaceParticle = true
 ParticlesScale = 0.7
 ThirdPersonDist = 17
 Category = F/IA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 3.784
+StallSpeedFactor = 0.12
+StallSpeed = 0.383
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 8
+MaxStructuralG = 9.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.35
+RollTorque = 0.402
+YawTorque = 0.262
+PitchDamping = 0.39
+RollDamping = 0.351
+YawDamping = 0.429
+InertiaMultiplier = 0.95
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 AddSeat = 0.00, 1.50, 1.40
 
@@ -110,3 +141,5 @@ BoundingBox = -1.8, 1.63, -9.81, 1.0, 0.3
 
 ;AddRecipe = " YX",  "XXP",  "X X",  X, iron_block, Y, glass, P, iron_ingot
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; MiG-21PF Fishbed.

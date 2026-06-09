@@ -3,7 +3,7 @@ AddDisplayName = en_US, Tupolev Tu-4A
 AddDisplayName = ja_JP, Tu-4A スーパーフォートレス
 ItemID = 28777
 MaxHp = 250
-Speed = 0.60378
+Speed = 0.971
 
 ;347 
 
@@ -16,8 +16,8 @@ CameraPosition = 2.0, 1.40, -4.0
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
 InventorySize = 9
-MaxFuel         = 4800
-FuelConsumption = 2.0
+MaxFuel         = 143200
+FuelConsumption = 23.097
 ThirdPersonDist = 40
 
 RotorSpeed = 2000.0
@@ -26,6 +26,37 @@ UnmountPosition = 3.0, 2.0, -4.0
 
 ; W = WWII.  A = Attacker(攻撃機)
 Category = SB/NB
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.971
+StallSpeedFactor = 0.305
+StallSpeed = 0.296
+CriticalAoA = 15
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3
+MaxStructuralG = 5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.22
+RollTorque = 0.22
+YawTorque = 0.165
+PitchDamping = 0.48
+RollDamping = 0.432
+YawDamping = 0.528
+InertiaMultiplier = 2.2
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 CameraZoom = 2
 
@@ -207,3 +238,5 @@ DamageFactor = 0.8
 
 enableback = true 
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Tupolev Tu-4A.

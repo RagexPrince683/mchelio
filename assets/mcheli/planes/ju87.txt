@@ -2,15 +2,15 @@ DisplayName = Ju-87D-3 Stuka
 AddDisplayName = ru_RU, Ju-87D-3 Stuka
 ItemID = 30005
 MaxHp = 150
-Speed = 0.4002
+Speed = 0.679
 
 ;230
 
 Float = true
 Sound = prop_g
 ThrottleUpDown = 0.3
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 2000
+FuelConsumption = 4
 onGroundPitch = 6.8
 ThirdPersonDist = 12
 
@@ -25,6 +25,37 @@ RotorSpeed = 2000.0
 
 ; W = WWII.  F = Fighter(???)
 Category = DB/GAA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.679
+StallSpeedFactor = 0.277
+StallSpeed = 0.188
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.007
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 5.5
+MaxStructuralG = 8
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.35
+RollTorque = 0.35
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane_wwii
 
@@ -87,3 +118,5 @@ BoundingBox =  -0.04, 4.87, -13.73, 1.0, 3.0
 ;basic ww2 prop plane, AOW3 style
 AddRecipe = "ABC", "DE ", "   ", A, mcheli:airframe2, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon2
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Ju 87 Stuka.

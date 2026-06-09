@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, エアバス A400M アトラス
 ItemID = 30048
 EnableNightVision = true
 EnableEntityRadar = false
-Speed = 0.89262
+Speed = 1.357
 
 EnableParachuting = true
 MobDropOption  = 0.97, 1.10, -12.91, 2
@@ -21,8 +21,8 @@ MaxHP = 250
 InventorySize = 54
 ThrottleUpDown = 0.1
 Sound = airbus
-MaxFuel         = 6000
-FuelConsumption = 1.0
+MaxFuel         = 202000
+FuelConsumption = 61.212
 ThirdPersonDist = 52
 
 ;MinRotationRoll = -70
@@ -36,6 +36,37 @@ AddTexture = a400m_3
 
 ; M = Military(軍用機).  C = Transport(輸送機)
 Category = STA/AR/TA
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.357
+StallSpeedFactor = 0.244
+StallSpeed = 0.331
+CriticalAoA = 15
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 2.8
+MaxStructuralG = 4.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.2
+RollTorque = 0.2
+YawTorque = 0.15
+PitchDamping = 0.54
+RollDamping = 0.486
+YawDamping = 0.594
+InertiaMultiplier = 2.5
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = planenvgonly, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
@@ -252,3 +283,5 @@ enableback = true
 RotorSpeed = 2000
 
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Airbus A400M Atlas.

@@ -3,7 +3,7 @@ AddDisplayName = en_US, B-29 Superfortress
 AddDisplayName = ja_JP, B-29 スーパーフォートレス
 ItemID = 28729
 MaxHp = 250
-Speed = 0.62118
+Speed = 0.999
 
 ;357 
 
@@ -16,8 +16,8 @@ CameraPosition = 2.0, 1.40, -4.0
 EnableGunnerMode = true
 ConcurrentGunnerMode = true
 InventorySize = 9
-MaxFuel         = 4800
-FuelConsumption = 2.0
+MaxFuel         = 143200
+FuelConsumption = 27.38
 
 ThirdPersonDist = 40
 
@@ -25,6 +25,37 @@ UnmountPosition = 3.0, 2.0, -4.0
 
 ; W = WWII.  A = Attacker(攻撃機)
 Category = SB/HB
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.999
+StallSpeedFactor = 0.296
+StallSpeed = 0.296
+CriticalAoA = 15
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.008
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.005
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 3
+MaxStructuralG = 5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.22
+RollTorque = 0.22
+YawTorque = 0.165
+PitchDamping = 0.48
+RollDamping = 0.432
+YawDamping = 0.528
+InertiaMultiplier = 2.2
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane_wwii, gunner, none, gunner, gunner, gunner, gunner, gunner
 
@@ -220,3 +251,5 @@ enableback = true
 
 RotorSpeed = 2000.0
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; B-29 Superfortress.

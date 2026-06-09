@@ -3,7 +3,7 @@ AddDisplayName = en_US, AC-130H Spectre
 AddDisplayName = ja_JP, AC-130 H スペクター
 ItemID = 28713
 MaxHp = 250
-Speed = 0.52026
+Speed = 1.03
 
 ;299mph
 Sound = conethirty
@@ -16,8 +16,8 @@ EnableGunnerMode = true
 ConcurrentGunnerMode = true
 FlareType = 2
 InventorySize = 9
-MaxFuel         = 4800
-FuelConsumption = 2.0
+MaxFuel         = 108800
+FuelConsumption = 26.537
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 ThirdPersonDist = 28
@@ -28,6 +28,37 @@ RotorSpeed = 500.0
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = GAA/CASG
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 1.03
+StallSpeedFactor = 0.262
+StallSpeed = 0.27
+CriticalAoA = 15
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.003
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 2.7
+MaxStructuralG = 4.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.2
+RollTorque = 0.2
+YawTorque = 0.15
+PitchDamping = 0.54
+RollDamping = 0.486
+YawDamping = 0.594
+InertiaMultiplier = 2.4
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane, plane_gnr, none, none, none, none, none
 
@@ -135,3 +166,5 @@ unmountposition = 0.65,  2.43,  2.00
 enableback = true
 
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; AC-130H Spectre.

@@ -7,17 +7,48 @@ ThrottleUpDown = 0.3
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.429
+Speed = 4.002
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-MaxFuel         = 1400
-FuelConsumption = 1.0
+MaxFuel         = 37600
+FuelConsumption = 12.533
 
 Sound = sutwentyseven
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = CBASF/MF
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 4.002
+StallSpeedFactor = 0.12
+StallSpeed = 0.418
+CriticalAoA = 24
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.002
+InducedDrag = 0.006
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 8.5
+MaxStructuralG = 11
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.34
+RollTorque = 0.391
+YawTorque = 0.255
+PitchDamping = 0.42
+RollDamping = 0.378
+YawDamping = 0.462
+InertiaMultiplier = 1.35
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = planenvgonly
 
@@ -96,3 +127,5 @@ unmountposition = 0.00,  2.40,  7.21
 enableback = true
 
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; Su-33 Flanker-D carrier fighter.

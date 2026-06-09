@@ -1,14 +1,14 @@
-﻿DisplayName = A6M2-N Rufe
+DisplayName = A6M2-N Rufe
 AddDisplayName = en_US, A6M2-N
 AddDisplayName = ru_RU, A6M2-N Rufe
 ItemID = 30005
 MaxHp = 100
-Speed = 0.59334
+Speed = 0.76
 Float = true
 Sound = zero
 ThrottleUpDown = 0.3
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 2072
+FuelConsumption = 1.164
 
 RotorSpeed = 2000.0
 
@@ -21,6 +21,37 @@ EntityHeight = 0.8
 
 ; W = WWII.  F = Fighter(戦闘機)
 Category = IF/FBFP
+EnableRealisticFlightModel = true
+MaxLevelSpeed = 0.76
+StallSpeedFactor = 0.24
+StallSpeed = 0.183
+CriticalAoA = 18
+StallLiftLoss = 0.7
+AoADragMultiplier = 1.65
+StallInstability = 0.38
+BaseDrag = 0.003
+InducedDrag = 0.009
+ControlSurfaceDrag = 0.003
+ClimbEnergyLoss = 0.006
+DiveEnergyGain = 0.008
+IdleDrag = 0.004
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 6
+MaxStructuralG = 8.5
+GControlPenalty = 0.7
+CompressibilitySpeed = 9999
+CompressibilityPitchPenalty = 0
+MaxSafeSpeed = 9999
+OverspeedDamageRate = 0
+PitchTorque = 0.35
+RollTorque = 0.35
+YawTorque = 0.262
+PitchDamping = 0.35
+RollDamping = 0.315
+YawDamping = 0.385
+InertiaMultiplier = 1
+ThrottleAcceleration = 0.018
+EngineDrag = 0.012
 
 HUD = plane_wwii
 
@@ -62,3 +93,5 @@ BoundingBox = 0.0, 3.10, -5.73, 0.5, 2.3
 
 DamageFactor = 0.8
 DamageFactor = 0.8
+
+; RealismSource = MCHO plane scripted pass; A6M2-N Rufe float fighter.
