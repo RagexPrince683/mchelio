@@ -7,8 +7,43 @@ EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
 Speed = 1.323
+
+EnableRealisticFlightModel = true
+PitchTorque = 3.8
+RollTorque = 3.5
+YawTorque = 2.2
+PitchDamping = 0.8
+RollDamping = 0.6
+YawDamping = 0.4
+ThrottleAcceleration = 0.05
+EngineDrag = 0.02
+InertiaMultiplier = 1.1
+FlightCeiling = 160
+FlightCeilingRange = 20
+StallSpeed = 0.2
+StallThrottle = 0.2
+MinRecoveryThrottle = 0.5
+CriticalAoA = 16.0
+MaxComfortableG = 8.0
+MaxStructuralG = 9.5
+MaxLevelSpeed = 1.6
+SpeedLossFactor = 0.5
+BaseDrag = 0.03
+InducedDrag = 0.02
+LiftCoefficient = 0.9
+MaxGroundLiftSpeed = 0.35
+MaxGroundLiftFactor = 1.4
+CompressibilityStart = 0.8
+CompressibilityLinear = 1.0
+CompressibilityQuadratic = 1.5
+StartOverspeed = 1.3
+FullOverspeed = 1.7
+OverspeedFactor = 0.03
+YawStability = 0.0
+FallOfEffectSpeed = 0.6
+
 FlareType = 4
-MaxFuel         = 1200
+MaxFuel         = 4200
 FuelConsumption = 1.0
 MotionFactor = 0.968
 ThrottleUpDown = 0.3
@@ -18,7 +53,7 @@ Sound = faeighteen
 
 MobilityRoll = 2.0
 
-; M = Military(軍用機).  F = Fighter(戦闘機)
+; M = Military(軍用機).  F = Fighter(戦闗機)
 Category = MF
 
 HUD = planenvg
@@ -63,10 +98,7 @@ BoundingBox =  0.00, 1.85, -10.2,   1.2, 1.2
 ;canards (oh waiter more bloat)
 BoundingBox =  1.65, 1.95, -2.55,   1.05, 0.3
 
-
 BoundingBox =  -1.65, 1.95, -2.55,   1.05, 0.3
-
-
 
 BoundingBox =  1.32, 1.68, -4.55,   1.0, 0.2
 BoundingBox = -1.32, 1.68, -4.55,   1.0, 0.2
@@ -86,14 +118,9 @@ BoundingBox =  0.00, 2.8, -8.7,   0.5, 2.6
 BoundingBox =  0.00, 2.6, -8.2,   0.5, 1.9
 BoundingBox =  0.00, 2.0, -7.7,   0.5, 1.9
 
-
-
-
 UnmountPosition = 0.00, 1.50, -0.60
-
 
 ;modern light plane (late jet), AOW3 style (none)
 AddRecipe = "ABC", "DE ", "GG ", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, G, mcheli:electronics 
-
 enableback = true
 DamageFactor = 0.8
