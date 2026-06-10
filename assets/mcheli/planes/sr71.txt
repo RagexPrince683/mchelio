@@ -29,12 +29,12 @@ CriticalAoA = 14
 StallLiftLoss = 0.7
 AoADragMultiplier = 1.65
 StallInstability = 0.38
-BaseDrag = 0.001
-InducedDrag = 0.004
-ControlSurfaceDrag = 0.003
-ClimbEnergyLoss = 0.006
-DiveEnergyGain = 0.008
-IdleDrag = 0.004
+BaseDrag = 0.0010
+InducedDrag = 0.0045
+ControlSurfaceDrag = 0.0025
+ClimbEnergyLoss = 0.0048
+DiveEnergyGain = 0.0110
+IdleDrag = 0.0032
 DiveSpeedMultiplier = 1.18
 MaxComfortableG = 3
 MaxStructuralG = 4.5
@@ -43,15 +43,15 @@ CompressibilitySpeed = 9999
 CompressibilityPitchPenalty = 0
 MaxSafeSpeed = 9999
 OverspeedDamageRate = 0
-PitchTorque = 0.18
-RollTorque = 0.18
-YawTorque = 0.135
-PitchDamping = 0.55
-RollDamping = 0.495
-YawDamping = 0.605
-InertiaMultiplier = 2.4
-ThrottleAcceleration = 0.018
-EngineDrag = 0.012
+PitchTorque = 0.24
+RollTorque = 0.26
+YawTorque = 0.18
+PitchDamping = 0.54
+RollDamping = 0.49
+YawDamping = 0.60
+InertiaMultiplier = 2.20
+ThrottleAcceleration = 0.030
+EngineDrag = 0.0085
 
 Sound = srseventyone
 
@@ -75,9 +75,9 @@ AddPartHatch =   0.0,  2.7696,  -7.05, -1,0, 0, 45
 ThrottleUpDown = 0.3
 
 
-MobilityYaw = 32.0
-MobilityRoll = 1.2
-MobilityPitch = 9.6
+MobilityYaw = 0.35
+MobilityRoll = 0.35
+MobilityPitch = 0.45
 AddSeat = 0.00,  1.2145,  3.18
 
 CameraPosition = 0.0, 2.3145, 3.18

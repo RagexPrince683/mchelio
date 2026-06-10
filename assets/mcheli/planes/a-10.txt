@@ -7,19 +7,19 @@ Sound = aten
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 0.7308
+Speed = 1.45
 ;420
 
 EnableRealisticFlightModel = true
-PitchTorque = 3.5
-RollTorque = 3.0
-YawTorque = 2.5
-PitchDamping = 0.8
-RollDamping = 0.6
-YawDamping = 0.5
-ThrottleAcceleration = 0.04
-EngineDrag = 0.03
-InertiaMultiplier = 2.0
+PitchTorque = 0.39
+RollTorque = 0.42
+YawTorque = 0.29
+PitchDamping = 0.40
+RollDamping = 0.36
+YawDamping = 0.44
+ThrottleAcceleration = 0.030
+EngineDrag = 0.010
+InertiaMultiplier = 1.20
 FlightCeiling = 50
 FlightCeilingRange = 20
 StallSpeed = 0.15
@@ -28,10 +28,14 @@ MinRecoveryThrottle = 0.5
 CriticalAoA = 18.0
 MaxComfortableG = 5.0
 MaxStructuralG = 7.5
-MaxLevelSpeed = 0.8
+MaxLevelSpeed = 1.45
 SpeedLossFactor = 0.5
-BaseDrag = 0.04
-InducedDrag = 0.025
+BaseDrag = 0.0017
+InducedDrag = 0.0064
+ControlSurfaceDrag = 0.0027
+ClimbEnergyLoss = 0.0054
+DiveEnergyGain = 0.0095
+IdleDrag = 0.0038
 LiftCoefficient = 1.2
 MaxGroundLiftSpeed = 0.2
 MaxGroundLiftFactor = 1.5
@@ -61,9 +65,9 @@ AddTexture = a-10_1
 
 HUD = plane
 
-MobilityYaw = 0.7
-MobilityPitch = 0.7
-MobilityRoll = 0.6
+MobilityYaw = 0.9
+MobilityPitch = 1.0
+MobilityRoll = 1.1
 
 AddSeat = 0.00,  2.70,  0.0
 
