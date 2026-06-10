@@ -1,20 +1,22 @@
 # Plane flight tuning audit
 
-This pass audits every `assets/mcheli/planes/*.txt` aircraft config and documents the intended relative scale between prop aircraft and jets. The BF-109 remains the prop-fighter reference: usable WWII props keep roughly `Speed` 0.9-1.15, `ThrottleAcceleration` 0.018, and torque around 0.35 unless a file already had a special legacy feel. Jets should not fall below that baseline by default.
+This pass audits every `assets/mcheli/planes/*.txt` aircraft config and documents the intended relative scale between prop aircraft and jets. The BF-109 remains the prop-fighter reference: usable WWII props keep roughly `Speed` 0.9-1.15, `ThrottleAcceleration` 0.018, and torque around 0.35 unless a file already had a special legacy feel. Jets should not fall below that baseline by default, and prop outliers should not use jet-like instant-turn or no-momentum values.
 
 ## Balance logic
 
 | Class | Intended feel | Typical tuned ranges |
 | --- | --- | --- |
 | WWII props / piston aircraft | Preserved as the baseline; BF-109-style handling stays responsive without jet-level acceleration. | `Speed` ~0.4-1.15, `ThrottleAcceleration` ~0.018, prop drag retained. |
+| Late-war prop outlier cleanup | Fix obviously borked configs such as instant-turn/no-momentum P-51-style values while keeping them in the prop envelope. | `ThrottleAcceleration` ~0.018, torque ~0.34-0.37, `Mobility*` <= ~1.1, modestly higher inertia/damping. |
 | Early jets / jet drones | Faster than props, better throttle response, but not modern-fighter agility. | `Speed` >=1.55, `ThrottleAcceleration` 0.026, moderate pitch/roll/yaw authority. |
 | Jet strike / attackers | Powerful acceleration and climb with heavier handling than fighters. | `Speed` >=1.45 or existing higher value, `ThrottleAcceleration` 0.030, moderate-high control authority. |
+| Heavy strike jets | Strike-aircraft thrust with bomber-like inertia; no extreme legacy mobility multipliers. | `ThrottleAcceleration` ~0.030, `Mobility*` below 1.0, higher damping/inertia than fighters. |
 | Modern fighters | Clear step above props and early jets with strong roll/pitch response and lower high-speed drag. | `Speed` >=3.20 or existing higher value, `ThrottleAcceleration` 0.034, strong control authority. |
 | Agile / 5th-gen fighters | Best fighter response without UFO turning; high speed retention and fast throttle response. | `Speed` >=3.60, `ThrottleAcceleration` 0.038, highest pitch/roll profile. |
 | Heavy jets / large transports / bombers | Stronger acceleration than props, high speed and climb, but deliberately slower turn response. This includes large turboprop transports that need the same heavy-airframe feel. | `Speed` >=1.45 or existing higher value, `ThrottleAcceleration` 0.024, high damping/inertia. |
 | Superfast recon/interceptors | Highest straight-line performance with intentionally heavy control feel at speed. | `Speed` ~4.0+, `ThrottleAcceleration` 0.030-0.032, low-moderate authority, high damping. |
 
-The pass uses the extended realistic-flight-model fields already parsed by the plane loader: `ThrottleAcceleration`, `EngineDrag`, `BaseDrag`, `InducedDrag`, `ControlSurfaceDrag`, `ClimbEnergyLoss`, `DiveEnergyGain`, `IdleDrag`, `MaxLevelSpeed`, `StallSpeed`, `StallRecoverySpeed`, `CompressibilitySpeed`, `MaxSafeSpeed`, `PitchTorque`, `RollTorque`, `YawTorque`, `PitchDamping`, `RollDamping`, `YawDamping`, `MobilityYaw`, `MobilityPitch`, `MobilityRoll`, and `InertiaMultiplier`. Optional fields are only added to jet/large-airframe configs that needed explicit safe values; prop aircraft are left on their existing baseline so older configs continue to load normally.
+The pass uses the extended realistic-flight-model fields already parsed by the plane loader: `ThrottleAcceleration`, `EngineDrag`, `BaseDrag`, `InducedDrag`, `ControlSurfaceDrag`, `ClimbEnergyLoss`, `DiveEnergyGain`, `IdleDrag`, `MaxLevelSpeed`, `StallSpeed`, `StallRecoverySpeed`, `CompressibilitySpeed`, `MaxSafeSpeed`, `PitchTorque`, `RollTorque`, `YawTorque`, `PitchDamping`, `RollDamping`, `YawDamping`, `MobilityYaw`, `MobilityPitch`, `MobilityRoll`, and `InertiaMultiplier`. Optional fields are only added to jet/large-airframe configs and prop outliers that needed explicit safe values; normal prop aircraft are left on their existing baseline so older configs continue to load normally.
 
 ## Aircraft audit table
 
@@ -71,7 +73,7 @@ The pass uses the extended realistic-flight-model fields already parsed by the p
 | `f1m.txt` | Mitsubishi F1M "Pete" | prop / piston / turboprop | 0.644 | 0.018 | 0.34/0.34/0.255 | unchanged: prop baseline preserved |
 | `f22a.txt` | F-22A Raptor | agile / 5th-gen fighter | 4.2 | 0.038 | 0.46/0.52/0.34 | rebalanced profile |
 | `f4a.txt` | F-4A Phantom II | fast interceptor | 4.124 | 0.032 | 0.38/0.42/0.28 | rebalanced profile |
-| `f8f.txt` | F8F-1B Bearcat | prop / piston / turboprop | 1.18 | 0.018 | 0.35/0.35/0.262 | unchanged: prop baseline preserved |
+| `f8f.txt` | F8F-1B Bearcat | late-war prop outlier cleanup | 1.18 | 0.018 | 0.35/0.35/0.262 | rebalanced: clamped borked prop mobility/momentum values |
 | `fa18e.txt` | F/A-18E Super Hornet | modern fighter | 3.65 | 0.034 | 0.43/0.48/0.32 | rebalanced profile |
 | `fa18fold.txt` | F/A-18F Super Hornet | modern fighter | 3.65 | 0.034 | 0.43/0.48/0.32 | rebalanced profile |
 | `fa50.txt` | FA-50 | modern fighter | 3.20 | 0.034 | 0.43/0.48/0.32 | rebalanced profile |
@@ -113,7 +115,7 @@ The pass uses the extended realistic-flight-model fields already parsed by the p
 | `mv-22.txt` | MV-22 Osprey | prop / piston / turboprop | 0.983 | 0.018 | 0.24/0.24/0.18 | unchanged: prop baseline preserved |
 | `n1k1.txt` | Kawanishi N1K | prop / piston / turboprop | 1.016 | 0.018 | 0.35/0.35/0.262 | unchanged: prop baseline preserved |
 | `ov-10a.txt` | OV-10A Bronco | prop / piston / turboprop | 0.786 | 0.018 | 0.3/0.3/0.225 | unchanged: prop baseline preserved |
-| `p-51d.txt` | P-51D Mustang | prop / piston / turboprop | 0.76734 | 0.25 | 2.8/1.5/1.2 | unchanged: prop baseline preserved |
+| `p-51d.txt` | P-51D Mustang | late-war prop outlier cleanup | 1.08 | 0.018 | 0.34/0.37/0.255 | rebalanced: clamped borked prop mobility/momentum values |
 | `pzl-m18.txt` | PZL M-18 Dromader | prop / piston / turboprop | 0.435 | 0.018 | 0.25/0.25/0.188 | unchanged: prop baseline preserved |
 | `q-5d.txt` | Nanchang Q-5D | jet strike / attack | 2.105 | 0.030 | 0.39/0.42/0.29 | rebalanced profile |
 | `qf-80.txt` | Lockheed QF-80A Shooting Star (Target drone) | early jet / jet drone | 1.663 | 0.026 | 0.38/0.42/0.28 | rebalanced profile |
@@ -122,7 +124,7 @@ The pass uses the extended realistic-flight-model fields already parsed by the p
 | `spitfire-mkvb.txt` | SuperMarine Spitfire Mk.Vb | prop / piston / turboprop | 1.034 | 0.018 | 0.35/0.35/0.262 | unchanged: prop baseline preserved |
 | `sr71.txt` | Lockheed SR-71 Blackbird | superfast recon/interceptor | 6.16 | 0.030 | 0.24/0.26/0.18 | rebalanced profile |
 | `su-33.txt` | Su-33 Flanker-D | modern fighter | 4.002 | 0.034 | 0.43/0.48/0.32 | rebalanced profile |
-| `su24.txt` | Su-24 | prop/heavy or special | 2.878 | 0.018 | 0.28/0.28/0.21 | unchanged: non-jet or special aircraft baseline preserved |
+| `su24.txt` | Su-24 | heavy strike jet | 2.878 | 0.030 | 0.34/0.36/0.26 | rebalanced profile |
 | `su25.txt` | Su-25T | jet strike / attack | 1.697 | 0.030 | 0.39/0.42/0.29 | rebalanced profile |
 | `su27bru.txt` | Su-27 Flanker-B | modern fighter | 4.35 | 0.034 | 0.43/0.48/0.32 | rebalanced profile |
 | `su34.txt` | Su-34 | modern fighter | 3.306 | 0.034 | 0.43/0.48/0.32 | rebalanced profile |
