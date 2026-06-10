@@ -1,8 +1,9 @@
-﻿DisplayName = DGG-1000 Zumwalt Destroyer
-AddDisplayName = en_US, DGG-1000 Zumwalt Destroyer
-AddDisplayName = ja_JP, DGG-1000 ズムウォルト駆逐艦
+﻿DisplayName = DDG-1000 Zumwalt Destroyer
+AddDisplayName = en_US, DDG-1000 Zumwalt Destroyer
+AddDisplayName = ja_JP, DDG-1000 ズムウォルト駆逐艦
 
 PivotTurnThrottle = 0.2
+PreventWaterBobbing = true
 
 MaxHp = 15656
 Speed = 0.39
@@ -179,12 +180,18 @@ AddWeapon =  dggsm2,   -11.90, 14.23, 57.01,   0, 0, true,  5,   0,   360,  -360
 AddWeapon =  dggsm2,   -5.86, 14.23, 52.82,    0, 0, true,  5,   0,   360,  -360, -90, 20
 AddWeapon =  dggsm2,   -11.90, 14.23, 52.82,   0, 0, true,  5,   0,   360,  -360, -90, 20
 
+AddWeapon =  dggasroc,   -5.86, 14.23, 52.82,    0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggasroc,   -11.90, 14.23, 57.01,   0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggasroc,   -5.86, 14.23, 52.82,    0, 0, true,  5,   0,   360,  -360, -90, 20
+AddWeapon =  dggasroc,   -11.90, 14.23, 52.82,   0, 0, true,  5,   0,   360,  -360, -90, 20
+
 AddWeapon =  targeting_pod_block,   -16.54, 4.58, 4.95,   0, 0, true,  5,   0,   360,  -360, -90, 20
 
 
 
 ; torpedo
-AddWeapon =  dggmk46,   -8.68, -7.27, 131.35,    0, 0, true,  6,   0,   -50,  50, -5, 5
+;;AddWeapon =  dggmk46,   -8.68, -7.27, 131.35,    0, 0, true,  6,   0,   -50,  50, -5, 5
+;;this doesn't even fucking exist
 
 
 ; horn

@@ -14,6 +14,7 @@ MobilityRoll = 0
 Gravity = -0.1
 GravityInWater = 0.1
 DamageFactor = 0.6
+PreventWaterBobbing = true
 
 PivotTurnThrottle = 0.2
 
@@ -38,15 +39,15 @@ FuelConsumption = 2.0
 AddSeat = 0.00, 1.22, -2.78
 AddGunnerSeat = 0.00,  -0.20,  0.05, 0.00, 2.54,  0.05, false, -30.0, 4.0
 AddGunnerSeat = 0.00,  -0.20,-11.09, 0.00, 3.14,-11.09, false, -30.0, 0.0
-AddGunnerSeat = 0.00,  -0.20,-14.82, 0.00, 3.14,-14.82, false, -65.0, 5.0
+AddGunnerSeat = 0.00,  -0.20,-14.82, 0.00, 3.14,-14.82, false, -85.0, 10.0
 AddSeat = -0.60, 2.80, -5.23
 AddSeat =  0.60, 2.80, -5.23
 
 AddWeapon = d56ts,    0.00, 1.68,   0.05, 0.0, 0.0, true,  2,   0, -145,145, -30.0, 4.0
 AddWeapon = prmg7_62mm, 0.24, 1.68,   0.45, 0.0, 0.0, true,  2,   0, -145,145, -30.0, 4.0
 AddWeapon = bm_14_17, 0.00, 2.31, -11.09, 0.0, 0.0, false, 3, 180, -140,140, -30.0, 0.0
-AddWeapon = 2m3m,     0.00, 2.06, -14.82, 0.0, 0.0, false, 4, 180, -170,170, -80.0, 5.0
-AddWeapon = 2m3m,     0.00, 2.26, -14.82, 0.0, 0.0, false, 4, 180, -170,170, -80.0, 5.0
+AddWeapon = 2m3m,     0.00, 2.06, -14.82, 0.0, 0.0, false, 4, 180, -170,170, -85.0, 10.0
+AddWeapon = 2m3m,     0.00, 2.26, -14.82, 0.0, 0.0, false, 4, 180, -170,170, -85.0, 10.0
 
 AddPartWeapon = d56ts, false, true, false, 0.00, 1.44, 0.14
 AddPartWeaponChild = false, true, 0.00, 1.68, 0.96
@@ -79,12 +80,13 @@ AddParticleSplash = -1.0, -0.18,  -20.0,   2,      9.0,    1.1,   60,       0.01
 ;medium ship with armament
 AddRecipe = "ABC", "DER", "F  ", A, mcheli:shiphull2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:electronics, R, mcheli:rocket2, E, mcheli:cannon3, F, mcheli:cannon1
 
-BoundingBox =  0.0, 0.7,  3.0,  3.0, 3.0
-BoundingBox =  0.0, 0.9,  0.0,  4.0, 4.0
-BoundingBox =  0.0, 0.9, -4.0,  4.0, 4.0
-BoundingBox =  0.0, 0.9, -8.0,  4.0, 4.0
-BoundingBox =  0.0, 0.9, -12.0,  4.0, 4.0
-BoundingBox =  0.0, 0.7, -16.0,  4.0,  4.0
+BoundingBox =  0.0, 0.2,  3.0,  3.0, 1.0
+BoundingBox =  0.0, 0.4,  0.0,  4.0, 2.0
+BoundingBox =  0.0, 0.4, -4.0,  4.0, 2.0
+BoundingBox =  0.0, 0.4, -8.0,  4.0, 2.0
+BoundingBox =  0.0, 0.4, -12.0,  4.0, 2.0
+BoundingBox =  0.0, 0.2, -16.0,  4.0,  2.0
+BoundingBox =  0.0, 0.2, -18.0,  3.0,  1.7
 
 unmountposition = 0.00, 1.50, -2.78
 

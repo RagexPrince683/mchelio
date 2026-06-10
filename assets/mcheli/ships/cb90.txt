@@ -14,9 +14,11 @@ MinRotationPitch = 0
 MaxRotationPitch = 0
 MobilityRoll = 0
 Gravity = -0.15
-GravityInWater = -0.1
+GravityInWater = 0.1
 DamageFactor = 0.5
 StepHeight = 0.0
+
+PreventWaterBobbing = true
 
 PivotTurnThrottle = 0.2
 
@@ -29,7 +31,7 @@ MobilityYawOnGround = 4.0
 MaxFuel         = 1500
 FuelConsumption = 2.0
 
-
+onGroundPitch = 4
 
 
 Category = CB/FAC
@@ -55,7 +57,7 @@ AddParticleSplash = -0.8, -0.18,  -6.9712,   2,      9.0,    1.1,   60,       0.
 ;操縦席
 AddSeat = -0.63, 0.74, 3.4488
 
-UnmountPosition = -0.63, 1.74, 3.4488
+UnmountPosition = -0.63, 1.94, 3.4488
 
 ;ATGMオペレーター
 AddGunnerSeat = 0.63, 0.74, 3.4488, 0.0, 3.00, -6.5812,  true, -90, 20
@@ -142,23 +144,37 @@ AddPartRotWeapon = cb90_m134l, false, true, true, 1.2857, 2.28, -1.3412
 ;AddPartNozzle =  0.73, 0.00, -5.64, -1,0,0
 ;AddPartNozzle = -0.73, 0.00, -5.64, -1,0,0
 
-BoundingBox =  0.0, 0.2, -0.9712,  2.8, 2.8
 
-BoundingBox =  0.0, 1.2,  -0.9712,  2.8, 2.0
-
-BoundingBox =  0.0, 0.2,  2.0288,  2.8, 2.8
-
-BoundingBox =  0.0, 0.2,  4.4288,  4.0, 2.0
-
-BoundingBox =  0.0, 0.2,  7.4288,  2.0, 2.0
-BoundingBox =  0.0, 0.2,  5.0288,  1.8, 1.8, 0.8
-
-BoundingBox =  0.0, 0.2,  -1.9712,  2.8, 2.8
+;back
 BoundingBox =  0.0, -0.4,  -5.4712,  2.8, 1.5
+BoundingBox =  0.0, 0.4,  -5.0,  3.8, 0.5
+;low rear bow
 BoundingBox =  0.0, -0.4,  -3.4712,  2.8, 1.5
+
+;midsection
+BoundingBox =  0.0, 0.1, -0.9712,  4, 2.6
+
+;mid2
+BoundingBox =  0.0, 0.1,  2.0288,  2.8, 2.6
+BoundingBox =  0.0, 1.2,  2.0288,  3.8, 0.5
 
 ;armored captains quarters
 BoundingBox = 0.0, 1.4, 3.35, 2.6, 1.5
+
+BoundingBox =  0.0, 0.2,  4.4288,  4.0, 2.0
+
+BoundingBox =  0.0, 0.2,  5.0288,  1.8, 1.8, 0.8
+
+BoundingBox =  0.0, 0.2,  7.4288,  2.0, 2.0
+
+
+;BoundingBox =  0.0, 0.2,  -1.9712,  2.8, 2.8
+;;BoundingBox =  0.0, 0.2,  -0.9712,  3, 2.0
+
+;;saab thing
+BoundingBox = 0.00, 2.0, 0.5388, 0.5, 2.0
+BoundingBox = 0.00, 2.5, 0.0388, 0.5, 2.8
+BoundingBox = 0.00, 2.0, -0.5388, 0.5, 2.0
 
 
 ;medium ship with armament
