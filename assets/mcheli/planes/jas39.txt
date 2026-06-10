@@ -6,18 +6,20 @@ MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.323
+Speed = 3.20
+MobilityYaw = 1.2
+MobilityPitch = 1.4
 
 EnableRealisticFlightModel = true
-PitchTorque = 3.8
-RollTorque = 3.5
-YawTorque = 2.2
-PitchDamping = 0.8
-RollDamping = 0.6
-YawDamping = 0.4
-ThrottleAcceleration = 0.05
-EngineDrag = 0.02
-InertiaMultiplier = 1.1
+PitchTorque = 0.43
+RollTorque = 0.48
+YawTorque = 0.32
+PitchDamping = 0.38
+RollDamping = 0.34
+YawDamping = 0.42
+ThrottleAcceleration = 0.034
+EngineDrag = 0.0095
+InertiaMultiplier = 1.15
 FlightCeiling = 160
 FlightCeilingRange = 20
 StallSpeed = 0.2
@@ -26,10 +28,14 @@ MinRecoveryThrottle = 0.5
 CriticalAoA = 16.0
 MaxComfortableG = 8.0
 MaxStructuralG = 9.5
-MaxLevelSpeed = 1.6
+MaxLevelSpeed = 3.20
 SpeedLossFactor = 0.5
-BaseDrag = 0.03
-InducedDrag = 0.02
+BaseDrag = 0.0014
+InducedDrag = 0.0058
+ControlSurfaceDrag = 0.0025
+ClimbEnergyLoss = 0.0050
+DiveEnergyGain = 0.0100
+IdleDrag = 0.0035
 LiftCoefficient = 0.9
 MaxGroundLiftSpeed = 0.35
 MaxGroundLiftFactor = 1.4
@@ -51,7 +57,7 @@ ThirdPersonDist = 16
 
 Sound = faeighteen
 
-MobilityRoll = 2.0
+MobilityRoll = 1.6
 
 ; M = Military(軍用機).  F = Fighter(戦闗機)
 Category = MF

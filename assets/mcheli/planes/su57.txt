@@ -39,12 +39,13 @@ CriticalAoA = 28
 StallLiftLoss = 0.7
 AoADragMultiplier = 1.65
 StallInstability = 0.38
-BaseDrag = 0.002
-InducedDrag = 0.006
-ControlSurfaceDrag = 0.003
-ClimbEnergyLoss = 0.006
-DiveEnergyGain = 0.008
-IdleDrag = 0.004
+BaseDrag = 0.0012
+InducedDrag = 0.0056
+ControlSurfaceDrag = 0.0024
+ClimbEnergyLoss = 0.0048
+DiveEnergyGain = 0.0105
+IdleDrag = 0.0033
+MobilityYaw = 1.4
 DiveSpeedMultiplier = 1.18
 MaxComfortableG = 9
 MaxStructuralG = 12
@@ -53,20 +54,20 @@ CompressibilitySpeed = 9999
 CompressibilityPitchPenalty = 0
 MaxSafeSpeed = 9999
 OverspeedDamageRate = 0
-PitchTorque = 0.36
-RollTorque = 0.414
-YawTorque = 0.27
-PitchDamping = 0.42
-RollDamping = 0.378
-YawDamping = 0.462
-InertiaMultiplier = 1.35
-ThrottleAcceleration = 0.018
-EngineDrag = 0.012
+PitchTorque = 0.46
+RollTorque = 0.52
+YawTorque = 0.34
+PitchDamping = 0.36
+RollDamping = 0.32
+YawDamping = 0.40
+InertiaMultiplier = 1.10
+ThrottleAcceleration = 0.038
+EngineDrag = 0.0090
 
 
 
-MobilityRoll = 2.5
-MobilityPitch = 9.5
+MobilityRoll = 2.0
+MobilityPitch = 1.7
 
 
 
