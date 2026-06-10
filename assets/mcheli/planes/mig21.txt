@@ -24,12 +24,15 @@ CriticalAoA = 18
 StallLiftLoss = 0.7
 AoADragMultiplier = 1.65
 StallInstability = 0.38
-BaseDrag = 0.002
-InducedDrag = 0.006
-ControlSurfaceDrag = 0.003
-ClimbEnergyLoss = 0.006
-DiveEnergyGain = 0.008
-IdleDrag = 0.004
+BaseDrag = 0.0012
+InducedDrag = 0.0060
+ControlSurfaceDrag = 0.0026
+ClimbEnergyLoss = 0.0050
+DiveEnergyGain = 0.0105
+IdleDrag = 0.0035
+MobilityYaw = 0.9
+MobilityPitch = 1.1
+MobilityRoll = 1.3
 DiveSpeedMultiplier = 1.18
 MaxComfortableG = 8
 MaxStructuralG = 9.5
@@ -38,15 +41,15 @@ CompressibilitySpeed = 9999
 CompressibilityPitchPenalty = 0
 MaxSafeSpeed = 9999
 OverspeedDamageRate = 0
-PitchTorque = 0.35
-RollTorque = 0.402
-YawTorque = 0.262
-PitchDamping = 0.39
-RollDamping = 0.351
-YawDamping = 0.429
-InertiaMultiplier = 0.95
-ThrottleAcceleration = 0.018
-EngineDrag = 0.012
+PitchTorque = 0.38
+RollTorque = 0.42
+YawTorque = 0.28
+PitchDamping = 0.44
+RollDamping = 0.40
+YawDamping = 0.48
+InertiaMultiplier = 1.35
+ThrottleAcceleration = 0.032
+EngineDrag = 0.0095
 AddPartNozzle =0,2.31,-11.97,-1,0,0
 HUD = mig21
 ParticlesScale = 0.7
@@ -103,9 +106,9 @@ AddPartThrottle=-0.22,3.02,-12.96,-0.8,-0.1,0,10
 AddPartThrottle=-0,3.05,-12.96,-0.8,-0.1,0,10
 
 
-AddPartThrottle=-0.73,2.31,-12.96,0,1,0,-10	
+AddPartThrottle=-0.73,2.31,-12.96,0,1,0,-10
 AddPartThrottle=-0.70,2.09,-12.96,0,1,0,-10
-	
+
 AddPartThrottle=-0.70,2.09,-12.96,0.3,-0.5,0.1,10
 AddPartThrottle=-0.59,1.88,-12.96,0.3,-0.5,0.1,10
 
@@ -128,11 +131,11 @@ AddPartThrottle=0.59,1.88,-12.96,-0.3,3,0.2,10
 AddPartThrottle=0.59,1.88,-12.96,0.4,0.3,0,10
 AddPartThrottle=0.43,1.72,-12.96,0.4,0.3,0,10
 
-AddPartThrottle=0.43,1.72,-12.96,0.6,0.1,0,10	
+AddPartThrottle=0.43,1.72,-12.96,0.6,0.1,0,10
 AddPartThrottle=0.22,1.61,-12.96,0.6,0.1,0,10
 
 AddPartThrottle=0.22,1.61,-12.96,0.8,0.1,0,10
-AddPartThrottle=0,1.58,-12.96,0.8,0.1,0,10	
+AddPartThrottle=0,1.58,-12.96,0.8,0.1,0,10
 
 
 AddPartWeaponMissile = fueltank, false, false, false,  0.28, 1.32, -1.99
