@@ -43,13 +43,13 @@ HUD = plane, gunner, gunner, gunner, gunner, gunner, gunner, none, none, none, n
 
 AddPartRotation  =  -11.24, 15.05, 62.75,  0, 1, 0, 1.0,   false
 
-UnmountPosition = -1.0, 1.98, 1.76
+UnmountPosition = -8.84, 5, 5.76
 
-BoundingBox = -1.0, 1.0, 1.7, 3.5, 3.5, 1.0
+
 
 ;　main seat
 ;captain
-AddSeat =  -8.84, 1.98, 5.76
+AddSeat =  -8.84, 2, 5.76
 
 
 ; entry seat
@@ -204,16 +204,51 @@ AddRack = helicopter / mv-22,  -9.52, 4.45, 21.56,   -9.52, 13.20, 15.09,  15
 
 AddRack =  zodiac /  stinger_390x /  mc_RHIB / mc_jetski_military,  -8.46, 0.53, 6.64,  -8.46, 0.28, -5.02, 10
 
+;;BoundingBox = -1.0, 1.0, 1.7, 3.5, 3.5, 1.0
+
+;rear
+BoundingBox = -2.2, 0.8, 4, 5.8, 8
+BoundingBox = -15.2, 0.8, 4, 5.8, 8
+
+BoundingBox = -2.2, 0.8, 9.4, 5.8, 8
+BoundingBox = -15.2, 0.8, 9.4, 5.8, 8
+
+BoundingBox = -8.7, 4, 9.4, 16, 0.3
+BoundingBox = -8.7, 0.4, 8.4, 16, 0.3
+
+;rear to midsec
+BoundingBox = -8.7, -0.80, 21,  19.0,  11
+BoundingBox = -8.7, -0.80, 40,  19.0,  11
+BoundingBox = -8.7, -0.80, 40,  19.0,  11
+BoundingBox = -8.7, -0.80, 59,  19.0,  11
+
+;the big triangle
+BoundingBox = -8.7, 5.5, 38,  14.0,  6.0
+BoundingBox = -8.7, 8.8, 48,  14.0,  13.0, 2
+BoundingBox = -8.7, 8.8, 60,  14.0,  13.0, 2
+
+;front
+BoundingBox = -8.7, -0.80, 64,  18.5,  11
+BoundingBox = -8.7, -0.80, 74,  16.0,  11
+BoundingBox = -8.7, -0.80, 85.34,  13.0,  11
+BoundingBox = -8.7, -0.80, 95,  10.0,  11
+BoundingBox = -8.7, -0.80, 100,  8.0,  11
+BoundingBox = -8.7, -0.80, 105,  6.0,  11
+BoundingBox = -8.7, -0.80, 110,  5.0,  11
+BoundingBox = -8.7, -0.80, 114,  4.0,  11
+BoundingBox = -8.7, -0.80, 117,  3.0,  11
+BoundingBox = -8.7, -0.80, 119,  2.0,  11
+BoundingBox = -8.7, -0.8, 120.7,  1.8,  11
+
+;Turrets
+BoundingBox = -8.7, 5.44, 78.05, 3.5, 2.0
+
+BoundingBox = -8.75, 5.44, 97.17, 3.5, 2.0
 
 
-BoundingBox = -9.29, 0.80, 99.81,  10.0,  8.0
-BoundingBox = -9.29, 0.80, 85.34,  10.0,  8.0
-BoundingBox = -9.29, 0.80, 70.32,  10.0,  8.0
-BoundingBox = -9.29, 0.80, 53.02,  15.0,  15.0
-BoundingBox = -8.7, 0.80, 33.02,  20.0,  8.0
 ;AddRack = test, -9.29, 0.80, 33.02,  -9.29, 0.80, 33.02,   15,    20
 ;AddRack = test, 5.0, 1.0, 1.0,  0, 0,  -4.3,   15,    20
-BoundingBox = -8.7, 0.80, 13.82,  18.0,  8.0
+
 
 ;destroyer
 AddRecipe = "ABC", "DEA", "BCE", A, mcheli:shiphull3, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:electronics, E, mcheli:cannon3

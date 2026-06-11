@@ -1,8 +1,9 @@
-﻿DisplayName = HSV-X1 JOINT VENTURE
-AddDisplayName = en_US, HSV-X1 JOINT VENTURE
+﻿DisplayName = HSV-X1 Joint Venture
+AddDisplayName = en_US, HSV-X1 Joint Venture
 AddDisplayName = ja_JP, HSV-X1 軍用フェリー
 
 PivotTurnThrottle = 0.2
+PreventWaterBobbing = true
 
 MaxHp = 1000
 Speed = 0.58
@@ -136,23 +137,40 @@ AddRack =  tank,  -5.98, 4.14, 12.88, -11.75, 4.38, -25.87, 20
 AddRack =  tank,  -11.15, 4.14,  12.88, -23.70, 4.38, -25.87, 20
 AddRack =  tank,  -15.68, 4.14,  12.88, -08.65, 4.38, -25.87, 20
 
+BoundingBox = -10.75, 2.99, 1.48,  15.0,  10
+BoundingBox = -10.75, 6.99, 1.48,  15.0,  10
 
+BoundingBox = -10.75, 2.99, 6.48,  15.0,  10
 
-BoundingBox = -10.75, 6.99, 56.38,  15.0,  10
+BoundingBox = -10.75, 6.99, 9.22,  15.0,  10
+
+BoundingBox = -10.75, 6.99, 23.60,  20.0,  20
+BoundingBox = -10.75, 4.99, 23.60,  20.0,  10
+
+BoundingBox = -10.75, 6.99, 30.60,  20.0,  20
+
+BoundingBox = -10.75, 6.99, 32.83,  15.0,  10
+
+BoundingBox = -10.75, 1.09, 44.00,  15.0,  10
 BoundingBox = -10.75, 6.99, 44.00,  15.0,  10
 
 BoundingBox = -10.75, 1.09, 56.38,  15.0,  10
-BoundingBox = -10.75, 1.09, 44.00,  15.0,  10
+BoundingBox = -10.75, 6.99, 56.38,  15.0,  10
 
 
-BoundingBox = -10.75, 6.99, 32.83,  15.0,  10
-BoundingBox = -10.75, 6.99, 30.60,  20.0,  20
-BoundingBox = -10.75, 6.99, 23.60,  20.0,  20
-BoundingBox = -10.75, 4.99, 23.60,  20.0,  10
-BoundingBox = -10.75, 6.99, 9.22,  15.0,  10
-BoundingBox = -10.75, 6.99, 1.48,  15.0,  10
-BoundingBox = -10.75, 2.99, 6.48,  15.0,  10
-BoundingBox = -10.75, 2.99, 1.48,  15.0,  10
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
