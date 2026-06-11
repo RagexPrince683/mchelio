@@ -6,25 +6,25 @@ MaxHp = 100
 Speed = 1.08
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
-PitchTorque = 0.367
-RollTorque = 0.407
-YawTorque = 0.273
-PitchDamping = 0.388
-RollDamping = 0.347
-YawDamping = 0.408
-InertiaMultiplier = 1.104
-ThrottleAcceleration = 0.02
-EngineDrag = 0.013
+PitchTorque = 0.46
+RollTorque = 0.55
+YawTorque = 0.32
+PitchDamping = 0.355
+RollDamping = 0.32
+YawDamping = 0.39
+InertiaMultiplier = 0.96
+ThrottleAcceleration = 0.024
+EngineDrag = 0.012
 FlightCeiling = 12800
 FlightCeilingRange = 40
 MaxLevelSpeed = 1.08
 StallSpeed = 0.245
-StallRecoverySpeed = 0.180
-CriticalAoA = 18
-MaxComfortableG = 7.5
+StallRecoverySpeed = 0.274
+CriticalAoA = 19
+MaxComfortableG = 8
 MaxStructuralG = 11
-BaseDrag = 0.0022
-InducedDrag = 0.0062
+BaseDrag = 0.002
+InducedDrag = 0.006
 
 ;441 
 
@@ -44,15 +44,15 @@ OverspeedDamageRate = 0
 MaxSafeSpeed = 2.052
 CompressibilityPitchPenalty = 0
 CompressibilitySpeed = 1.674
-GControlPenalty = 0.7
+GControlPenalty = 0.55
 DiveSpeedMultiplier = 1.18
 IdleDrag = 0.0042
 DiveEnergyGain = 0.0085
 ClimbEnergyLoss = 0.0060
-ControlSurfaceDrag = 0.0032
-StallInstability = 0.38
-AoADragMultiplier = 1.65
-StallLiftLoss = 0.7
+ControlSurfaceDrag = 0.003
+StallInstability = 0.34
+AoADragMultiplier = 1.55
+StallLiftLoss = 0.64
 
 HUD = plane_wwii
 
@@ -62,9 +62,9 @@ AddSeat = 0.0,  2.00, -1.82
 
 AddPartSlideCanopy = 0, 0.00, -0.6
 
-MobilityYaw = 0.795
-MobilityRoll = 1.08
-MobilityPitch = 0.909
+MobilityYaw = 1.12
+MobilityRoll = 1.82
+MobilityPitch = 1.36
 
 AddPartLG =   2.46, 1.60, -0.36,  0,0,-1, 88.5, 1,0,0, 25
 AddPartLG =  -2.46, 1.60, -0.36,  0,0, 1, 88.5, 1,0,0, 25
@@ -119,3 +119,4 @@ RotorSpeed = 2000.0
 
 enableback = true
 DamageFactor = 0.8
+; HandlingBalancePass = prop-maneuverability-2026-06-11; role=energy_fighter

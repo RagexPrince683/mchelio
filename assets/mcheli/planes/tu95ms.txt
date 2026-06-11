@@ -27,12 +27,13 @@ FlightCeilingRange = 56
 MaxLevelSpeed = 1.609
 StallSpeedFactor = 0.195
 StallSpeed = 0.313
-CriticalAoA = 14
-StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
+CriticalAoA = 14.5
+StallLiftLoss = 0.72
+AoADragMultiplier = 1.75
 StallInstability = 0.38
+StallRecoverySpeed = 0.376
 BaseDrag = 0.002
-InducedDrag = 0.006
+InducedDrag = 0.009
 ControlSurfaceDrag = 0.003
 ClimbEnergyLoss = 0.006
 DiveEnergyGain = 0.008
@@ -40,20 +41,20 @@ IdleDrag = 0.004
 DiveSpeedMultiplier = 1.18
 MaxComfortableG = 2.8
 MaxStructuralG = 4.8
-GControlPenalty = 0.7
+GControlPenalty = 0.72
 CompressibilitySpeed = 1.448
 CompressibilityPitchPenalty = 0
 MaxSafeSpeed = 1.866
 OverspeedDamageRate = 0
-PitchTorque = 0.194
-RollTorque = 0.198
-YawTorque = 0.144
-PitchDamping = 0.561
-RollDamping = 0.505
-YawDamping = 0.617
-InertiaMultiplier = 2.88
-ThrottleAcceleration = 0.02
-EngineDrag = 0.013
+PitchTorque = 0.19
+RollTorque = 0.19
+YawTorque = 0.15
+PitchDamping = 0.56
+RollDamping = 0.51
+YawDamping = 0.62
+InertiaMultiplier = 2.85
+ThrottleAcceleration = 0.015
+EngineDrag = 0.017
 
 EnableBack = true
 
@@ -72,9 +73,9 @@ HUD = planesu24, plane_gnrsu24
 
 AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
 
-MobilityYaw = 0.424
-MobilityPitch = 0.428
-MobilityRoll = 0.216
+MobilityYaw = 0.32
+MobilityPitch = 0.36
+MobilityRoll = 0.24
 
 AddSeat = 0.4,  4.1094,  1.2
 
@@ -281,3 +282,4 @@ BoundingBox = -14.8945,  3.1643,  -17, 1.0, 1.0, 1.25
 DamageFactor = 0.8
 
 ; RealismSource = MCHO plane scripted pass; Tu-95MSM.
+; HandlingBalancePass = prop-maneuverability-2026-06-11; role=heavy_turboprop

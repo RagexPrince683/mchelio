@@ -32,10 +32,11 @@ FlightCeilingRange = 40
 MaxLevelSpeed = 0.999
 StallSpeedFactor = 0.296
 StallSpeed = 0.296
-CriticalAoA = 15
+CriticalAoA = 15.2
 StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
-StallInstability = 0.38
+AoADragMultiplier = 1.7
+StallInstability = 0.36
+StallRecoverySpeed = 0.349
 BaseDrag = 0.002
 InducedDrag = 0.008
 ControlSurfaceDrag = 0.003
@@ -50,23 +51,23 @@ CompressibilitySpeed = 1.548
 CompressibilityPitchPenalty = 0
 MaxSafeSpeed = 1.898
 OverspeedDamageRate = 0
-PitchTorque = 0.238
-RollTorque = 0.242
-YawTorque = 0.177
-PitchDamping = 0.49
-RollDamping = 0.441
-YawDamping = 0.539
-InertiaMultiplier = 2.112
-ThrottleAcceleration = 0.02
-EngineDrag = 0.013
+PitchTorque = 0.22
+RollTorque = 0.21
+YawTorque = 0.17
+PitchDamping = 0.5
+RollDamping = 0.46
+YawDamping = 0.55
+InertiaMultiplier = 2.15
+ThrottleAcceleration = 0.016
+EngineDrag = 0.016
 
 HUD = plane_wwii, gunner, none, gunner, gunner, gunner, gunner, gunner
 
 CameraZoom = 2
 
-MobilityYaw = 0.424
-MobilityPitch = 0.428
-MobilityRoll = 0.108
+MobilityYaw = 0.34
+MobilityPitch = 0.39
+MobilityRoll = 0.22
 MinRotationPitch = -40
 MaxRotationPitch =  40
 ;MinRotationRoll  = -40
@@ -256,3 +257,4 @@ RotorSpeed = 2000.0
 DamageFactor = 0.8
 
 ; RealismSource = MCHO plane scripted pass; B-29 Superfortress.
+; HandlingBalancePass = prop-maneuverability-2026-06-11; role=heavy_bomber_prop
