@@ -137,6 +137,8 @@ AddRack =  tank,  -5.98, 4.14, 12.88, -11.75, 4.38, -25.87, 20
 AddRack =  tank,  -11.15, 4.14,  12.88, -23.70, 4.38, -25.87, 20
 AddRack =  tank,  -15.68, 4.14,  12.88, -08.65, 4.38, -25.87, 20
 
+;;TODO bounding boxes for this need to be redone but I could not care less about this stupid fucking ship
+
 BoundingBox = -10.75, 2.99, 1.48,  15.0,  10
 BoundingBox = -10.75, 6.99, 1.48,  15.0,  10
 
