@@ -24,6 +24,9 @@ ThirdPersonDist = 18
 
 Category = GAA
 EnableRealisticFlightModel = true
+UseNewMobilitySystem = true
+FlightCeiling = 16500
+FlightCeilingRange = 44
 MaxLevelSpeed = 2.105
 StallSpeedFactor = 0.174
 StallSpeed = 0.365
@@ -41,19 +44,19 @@ DiveSpeedMultiplier = 1.18
 MaxComfortableG = 7
 MaxStructuralG = 8.5
 GControlPenalty = 0.7
-CompressibilitySpeed = 9999
+CompressibilitySpeed = 1.895
 CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 9999
+MaxSafeSpeed = 2.442
 OverspeedDamageRate = 0
-PitchTorque = 0.39
-RollTorque = 0.42
-YawTorque = 0.29
-PitchDamping = 0.40
-RollDamping = 0.36
-YawDamping = 0.44
-InertiaMultiplier = 1.20
-ThrottleAcceleration = 0.030
-EngineDrag = 0.010
+PitchTorque = 0.421
+RollTorque = 0.462
+YawTorque = 0.31
+PitchDamping = 0.408
+RollDamping = 0.367
+YawDamping = 0.449
+InertiaMultiplier = 1.152
+ThrottleAcceleration = 0.033
+EngineDrag = 0.011
 
 AddSeat = 0.00, 1.43, 2.0
 
@@ -66,9 +69,9 @@ AddTexture = q-5g
 EntityHeight = 0.8
 EntityWidth = 0.8
 
-MobilityYaw = 0.9
-MobilityPitch = 1.0
-MobilityRoll = 1.1
+MobilityYaw = 0.954
+MobilityPitch = 1.07
+MobilityRoll = 1.188
 OnGroundPitch = 2.5
 
 AddPartLG =  0.0, 0.90, 2.45,  -1,0,0, 123

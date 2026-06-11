@@ -8,7 +8,7 @@ sound = tornado
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 4.176
+Speed = 4.0
 
 ;1452mph
 
@@ -23,7 +23,10 @@ FuelConsumption = 13.419
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = MA/SA
 EnableRealisticFlightModel = true
-MaxLevelSpeed = 4.176
+UseNewMobilitySystem = true
+FlightCeiling = 15240
+FlightCeilingRange = 48
+MaxLevelSpeed = 4.0
 StallSpeedFactor = 0.12
 StallSpeed = 0.435
 CriticalAoA = 18
@@ -36,26 +39,26 @@ ControlSurfaceDrag = 0.0025
 ClimbEnergyLoss = 0.0050
 DiveEnergyGain = 0.0100
 IdleDrag = 0.0035
-MobilityYaw = 1.2
-MobilityPitch = 1.4
-MobilityRoll = 1.6
+MobilityYaw = 1.272
+MobilityPitch = 1.498
+MobilityRoll = 1.728
 DiveSpeedMultiplier = 1.18
 MaxComfortableG = 7.5
 MaxStructuralG = 9
 GControlPenalty = 0.7
-CompressibilitySpeed = 9999
+CompressibilitySpeed = 3.758
 CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 9999
+MaxSafeSpeed = 4.844
 OverspeedDamageRate = 0
-PitchTorque = 0.43
-RollTorque = 0.48
-YawTorque = 0.32
-PitchDamping = 0.38
-RollDamping = 0.34
-YawDamping = 0.42
-InertiaMultiplier = 1.15
-ThrottleAcceleration = 0.034
-EngineDrag = 0.0095
+PitchTorque = 0.464
+RollTorque = 0.528
+YawTorque = 0.342
+PitchDamping = 0.388
+RollDamping = 0.347
+YawDamping = 0.428
+InertiaMultiplier = 1.104
+ThrottleAcceleration = 0.037
+EngineDrag = 0.01
 
 HUD = planenvg, plane_gnrnvg
 

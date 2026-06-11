@@ -18,6 +18,8 @@ Planes inherit every shared key from `base.md` and add visual VTOL/sweep-wing ke
 | `vtolyaw` | float[0..1] | 0.3 | VTOL yaw and roll factor. |
 | `vtolpitch` | float[0.01..1] | 0.2 | VTOL pitch factor. |
 | `enableautopilot` | boolean | false | Legacy autopilot flag. |
+| `UseNewMobilitySystem` | boolean | false | Opts a plane into the new damped fixed-wing mobility path. Enable only when the config already provides a coherent documented flight-model block; leave omitted/false for legacy-only or uncertain planes. |
+| `EnableRealisticFlightModel` | boolean | false | Legacy compatibility gate used by older migrated packs. It may coexist with `UseNewMobilitySystem`; prefer the new key for current migration decisions. |
 
 ## Fixed-wing flight-model keys
 

@@ -27,6 +27,9 @@ EntityHeight = 0.8
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = IA/SF
 EnableRealisticFlightModel = true
+UseNewMobilitySystem = true
+FlightCeiling = 20600
+FlightCeilingRange = 48
 MaxLevelSpeed = 3.95
 StallSpeedFactor = 0.12
 StallSpeed = 0.487
@@ -44,26 +47,26 @@ DiveSpeedMultiplier = 1.18
 MaxComfortableG = 5
 MaxStructuralG = 7
 GControlPenalty = 0.7
-CompressibilitySpeed = 9999
+CompressibilitySpeed = 3.555
 CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 9999
+MaxSafeSpeed = 4.582
 OverspeedDamageRate = 0
-PitchTorque = 0.24
-RollTorque = 0.26
-YawTorque = 0.18
-PitchDamping = 0.54
-RollDamping = 0.49
-YawDamping = 0.60
-InertiaMultiplier = 2.20
-ThrottleAcceleration = 0.030
-EngineDrag = 0.0085
+PitchTorque = 0.259
+RollTorque = 0.286
+YawTorque = 0.193
+PitchDamping = 0.551
+RollDamping = 0.5
+YawDamping = 0.612
+InertiaMultiplier = 2.112
+ThrottleAcceleration = 0.033
+EngineDrag = 0.009
 
 
 HUD = plane
 
-MobilityYaw = 0.35
-MobilityPitch = 0.45
-MobilityRoll = 0.35
+MobilityYaw = 0.371
+MobilityPitch = 0.482
+MobilityRoll = 0.378
 
 AddSeat = 0.00,  1.78,  0.02
 

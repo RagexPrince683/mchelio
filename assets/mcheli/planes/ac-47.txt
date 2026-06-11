@@ -6,9 +6,9 @@ EnableEntityRadar = false
 Speed = 0.626
 ;max speed seemed too fast
 GravityInWater = -0.04
-MobilityRoll = 0.3
-MobilityYaw = 0.3
-MobilityPitch = 0.3
+MobilityRoll = 0.324
+MobilityYaw = 0.318
+MobilityPitch = 0.321
 ;MinRotationRoll =-30
 ;MaxRotationRoll =30
 MaxHP = 250
@@ -22,6 +22,9 @@ EnableParachuting = false
 
 Category = GAA/CASG
 EnableRealisticFlightModel = true
+UseNewMobilitySystem = true
+FlightCeiling = 7300
+FlightCeilingRange = 40
 MaxLevelSpeed = 0.626
 StallSpeedFactor = 0.306
 StallSpeed = 0.191
@@ -39,19 +42,19 @@ DiveSpeedMultiplier = 1.18
 MaxComfortableG = 3
 MaxStructuralG = 5
 GControlPenalty = 0.7
-CompressibilitySpeed = 9999
+CompressibilitySpeed = 0.97
 CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 9999
+MaxSafeSpeed = 1.189
 OverspeedDamageRate = 0
-PitchTorque = 0.25
-RollTorque = 0.25
-YawTorque = 0.188
-PitchDamping = 0.45
-RollDamping = 0.405
-YawDamping = 0.495
-InertiaMultiplier = 1.7
-ThrottleAcceleration = 0.018
-EngineDrag = 0.012
+PitchTorque = 0.27
+RollTorque = 0.275
+YawTorque = 0.201
+PitchDamping = 0.459
+RollDamping = 0.413
+YawDamping = 0.505
+InertiaMultiplier = 1.632
+ThrottleAcceleration = 0.02
+EngineDrag = 0.013
 
 ;OH BROTHER!!!
 

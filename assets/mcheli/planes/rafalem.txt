@@ -24,6 +24,9 @@ AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:advancedmechanic
 ; M = Military.  F = Fighter
 Category = MF
 EnableRealisticFlightModel = true
+UseNewMobilitySystem = true
+FlightCeiling = 15240
+FlightCeilingRange = 48
 MaxLevelSpeed = 3.327
 StallSpeedFactor = 0.12
 StallSpeed = 0.371
@@ -41,19 +44,19 @@ DiveSpeedMultiplier = 1.18
 MaxComfortableG = 9
 MaxStructuralG = 11
 GControlPenalty = 0.7
-CompressibilitySpeed = 9999
+CompressibilitySpeed = 2.994
 CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 9999
+MaxSafeSpeed = 3.859
 OverspeedDamageRate = 0
-PitchTorque = 0.43
-RollTorque = 0.48
-YawTorque = 0.32
-PitchDamping = 0.38
-RollDamping = 0.34
-YawDamping = 0.42
-InertiaMultiplier = 1.15
-ThrottleAcceleration = 0.034
-EngineDrag = 0.0095
+PitchTorque = 0.464
+RollTorque = 0.528
+YawTorque = 0.342
+PitchDamping = 0.388
+RollDamping = 0.347
+YawDamping = 0.428
+InertiaMultiplier = 1.104
+ThrottleAcceleration = 0.037
+EngineDrag = 0.01
 
 HUD = plane
 
@@ -62,9 +65,9 @@ AddTexture = Rafale_M_17f
 AddTexture = Rafale_M_tiger1
 AddTexture = Rafale_M_3
 
-MobilityYaw = 1.2
-MobilityPitch = 1.4
-MobilityRoll = 1.6
+MobilityYaw = 1.272
+MobilityPitch = 1.498
+MobilityRoll = 1.728
 
 EntityWidth  = 0.8
 EntityHeight = 0.8

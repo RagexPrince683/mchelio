@@ -14,9 +14,9 @@ FuelConsumption = 4
 onGroundPitch = 6.8
 ThirdPersonDist = 12
 
-MobilityYaw = 0.8
-MobilityPitch = 0.4
-MobilityRoll = 0.6
+MobilityYaw = 0.848
+MobilityPitch = 0.428
+MobilityRoll = 0.648
 
 DamageFactor = 0.8
 
@@ -26,6 +26,9 @@ RotorSpeed = 2000.0
 ; W = WWII.  F = Fighter(???)
 Category = DB/GAA
 EnableRealisticFlightModel = true
+UseNewMobilitySystem = true
+FlightCeiling = 8200
+FlightCeilingRange = 40
 MaxLevelSpeed = 0.679
 StallSpeedFactor = 0.277
 StallSpeed = 0.188
@@ -43,19 +46,19 @@ DiveSpeedMultiplier = 1.18
 MaxComfortableG = 5.5
 MaxStructuralG = 8
 GControlPenalty = 0.7
-CompressibilitySpeed = 9999
+CompressibilitySpeed = 1.052
 CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 9999
+MaxSafeSpeed = 1.29
 OverspeedDamageRate = 0
-PitchTorque = 0.35
-RollTorque = 0.35
-YawTorque = 0.262
-PitchDamping = 0.35
-RollDamping = 0.315
-YawDamping = 0.385
-InertiaMultiplier = 1
-ThrottleAcceleration = 0.018
-EngineDrag = 0.012
+PitchTorque = 0.378
+RollTorque = 0.385
+YawTorque = 0.28
+PitchDamping = 0.357
+RollDamping = 0.321
+YawDamping = 0.393
+InertiaMultiplier = 0.96
+ThrottleAcceleration = 0.02
+EngineDrag = 0.013
 
 HUD = plane_wwii
 

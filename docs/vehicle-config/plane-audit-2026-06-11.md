@@ -1,0 +1,583 @@
+# Plane configuration audit - 2026-06-11
+
+Source documentation: `docs/vehicle-config/base.md` and `docs/vehicle-config/planes.md`.
+
+## Migration summary
+
+- Migrated to `UseNewMobilitySystem = true`: 125 configs.
+- Left on legacy / not migrated: 2 configs.
+- Manual-review configs: 1 configs.
+
+### Migrated planes
+
+- a-10.txt (attack aircraft)
+- a4.txt (early jet/attack jet)
+- a400m.txt (transport/heavy aircraft)
+- a6.txt (early jet/attack jet)
+- a6m2.txt (prop)
+- a6m2n.txt (seaplane/float prop)
+- a7.txt (early jet/attack jet)
+- ac-130.txt (heavy prop/turboprop)
+- ac-47.txt (prop)
+- an2.txt (prop)
+- au23.txt (prop)
+- b-1.txt (bomber)
+- b-1nuclear.txt (bomber)
+- b-2a.txt (bomber)
+- b-2a2.txt (bomber)
+- b-2a3.txt (bomber)
+- b-2a4.txt (bomber)
+- b29.txt (prop)
+- b29sp.txt (prop)
+- b52.txt (bomber)
+- b52d.txt (bomber)
+- b52n.txt (bomber)
+- bayraktar tb 2.txt (drone/special)
+- bf109.txt (prop)
+- bqm_74e.txt (drone/special)
+- bv138.txt (seaplane/float prop)
+- c-47.txt (prop)
+- c5.txt (transport/heavy aircraft)
+- c5m.txt (transport/heavy aircraft)
+- e767.txt (transport/heavy aircraft)
+- emb314.txt (prop)
+- eurofighter_typhoon_2.txt (modern jet)
+- eurofighter_typhoon_2_t.txt (modern jet)
+- f-104.txt (early jet/attack jet)
+- f-15e.txt (modern jet)
+- f-15s_mtd.txt (modern jet)
+- f-35a.txt (modern jet)
+- f-35b.txt (modern jet)
+- f-35c.txt (modern jet)
+- f-5e.txt (early jet/attack jet)
+- f-80.txt (early jet/attack jet)
+- f-86f.txt (early jet/attack jet)
+- f117.txt (special/stealth attack aircraft)
+- f117gbu27.txt (special/stealth attack aircraft)
+- f117nuc.txt (special/stealth attack aircraft)
+- f14.txt (modern jet)
+- f14d.txt (modern jet)
+- f16c.txt (modern jet)
+- f1m.txt (seaplane/float prop)
+- f22a.txt (modern jet)
+- f4a.txt (early jet/attack jet)
+- f8f.txt (prop)
+- fa18e.txt (modern jet)
+- fa18fold.txt (modern jet)
+- fa50.txt (modern jet)
+- geran2.txt (drone/special)
+- h6k.txt (seaplane/float prop)
+- h8k.txt (seaplane/float prop)
+- harrier.txt (modern jet)
+- harrier_en.txt (modern jet)
+- il28sh.txt (early jet/attack jet)
+- il76ua.txt (transport/heavy aircraft)
+- j11b.txt (modern jet)
+- j15.txt (modern jet)
+- j8.txt (early jet/attack jet)
+- jas39.txt (modern jet)
+- ju87.txt (prop)
+- kf-21.txt (modern jet)
+- m2000-5.txt (modern jet)
+- m2000c.txt (modern jet)
+- mc130.txt (heavy prop/turboprop)
+- mc130j.txt (heavy prop/turboprop)
+- md90.txt (transport/heavy aircraft)
+- mig-15.txt (early jet/attack jet)
+- mig-19s.txt (early jet/attack jet)
+- mig-21pf.txt (early jet/attack jet)
+- mig17f.txt (early jet/attack jet)
+- mig21.txt (early jet/attack jet)
+- mig23.txt (early jet/attack jet)
+- mig25.txt (modern jet)
+- mig29.txt (modern jet)
+- mig3.txt (prop)
+- mig31.txt (modern jet)
+- mig31k.txt (modern jet)
+- mirage3e.txt (early jet/attack jet)
+- mirageiv.txt (early jet/attack jet)
+- mq-9.txt (drone/special)
+- mqm170.txt (drone/special)
+- mv-22.txt (tiltrotor/special aircraft)
+- n1k1.txt (prop)
+- ov-10a.txt (prop)
+- p-51d.txt (prop)
+- pzl-m18.txt (prop)
+- q-5d.txt (early jet/attack jet)
+- qf-80.txt (early jet/attack jet)
+- rafalem.txt (modern jet)
+- skylark.txt (drone/special)
+- spitfire-mkvb.txt (prop)
+- sr71.txt (special/experimental aircraft)
+- su-33.txt (modern jet)
+- su24.txt (modern jet)
+- su25.txt (modern jet)
+- su27bru.txt (modern jet)
+- su34.txt (modern jet)
+- su34b.txt (modern jet)
+- su34n.txt (modern jet)
+- su37.txt (modern jet)
+- su57.txt (modern jet)
+- tornado-gr4.txt (modern jet)
+- tornado-ids.txt (modern jet)
+- tu142real.txt (heavy prop/turboprop)
+- tu160m.txt (bomber)
+- tu160mmsl.txt (bomber)
+- tu22m3.txt (bomber)
+- tu4.txt (prop)
+- tu4light.txt (prop)
+- tu95k22.txt (heavy prop/turboprop)
+- tu95ms.txt (heavy prop/turboprop)
+- tu95org.txt (heavy prop/turboprop)
+- victor_b2.txt (bomber)
+- x-47b.txt (drone/special)
+- yak38.txt (early jet/attack jet)
+- yak38_r60.txt (early jet/attack jet)
+- yak38_upk.txt (early jet/attack jet)
+- yak38_x23.txt (early jet/attack jet)
+
+### Left on legacy mobility
+
+- fuel_truck.txt (non-plane support)
+- mq-9debug.txt (legacy/manual drone)
+
+### Needs manual review
+
+- mq-9debug.txt: debug UAV config has a flight ceiling but lacks a documented new flight-model block, so it remains legacy.
+
+## Balance changes
+
+Applied moderate snappier tuning to migrated aircraft: pitch/roll/yaw torque increased by about 7-10%, damping by 2%, throttle acceleration by 10%, engine drag response by 5%, inertia reduced by 4%, and existing MobilityYaw/Pitch/Roll multipliers raised by 6-8% where present.
+
+- a-10.txt: attack aircraft; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- a4.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- a400m.txt: transport/heavy aircraft; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- a6.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- a6m2.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- a6m2n.txt: seaplane/float prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- a7.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- ac-130.txt: heavy prop/turboprop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- ac-47.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- an2.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- au23.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityroll, inertiamultiplier.
+- b-1.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- b-1nuclear.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- b-2a.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- b-2a2.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- b-2a3.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- b-2a4.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- b29.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- b29sp.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- b52.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- b52d.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- b52n.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- bayraktar tb 2.txt: drone/special; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- bf109.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- bqm_74e.txt: drone/special; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- bv138.txt: seaplane/float prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityroll, inertiamultiplier.
+- c-47.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- c5.txt: transport/heavy aircraft; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- c5m.txt: transport/heavy aircraft; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- e767.txt: transport/heavy aircraft; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- emb314.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- eurofighter_typhoon_2.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- eurofighter_typhoon_2_t.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f-104.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f-15e.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f-15s_mtd.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f-35a.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f-35b.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f-35c.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f-5e.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f-80.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f-86f.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f117.txt: special/stealth attack aircraft; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f117gbu27.txt: special/stealth attack aircraft; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f117nuc.txt: special/stealth attack aircraft; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f14.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f14d.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f16c.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f1m.txt: seaplane/float prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- f22a.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f4a.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- f8f.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- fa18e.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- fa18fold.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- fa50.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- geran2.txt: drone/special; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- h6k.txt: seaplane/float prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- h8k.txt: seaplane/float prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- harrier.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- harrier_en.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- il28sh.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- il76ua.txt: transport/heavy aircraft; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- j11b.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- j15.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- j8.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- jas39.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- ju87.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- kf-21.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- m2000-5.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- m2000c.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mc130.txt: heavy prop/turboprop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mc130j.txt: heavy prop/turboprop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- md90.txt: transport/heavy aircraft; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mig-15.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mig-19s.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mig-21pf.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mig17f.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mig21.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mig23.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mig25.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mig29.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mig3.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- mig31.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mig31k.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mirage3e.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mirageiv.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- mq-9.txt: drone/special; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- mqm170.txt: drone/special; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- mv-22.txt: tiltrotor/special aircraft; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- n1k1.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- ov-10a.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- p-51d.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- pzl-m18.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- q-5d.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- qf-80.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- rafalem.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- skylark.txt: drone/special; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- spitfire-mkvb.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, inertiamultiplier.
+- sr71.txt: special/experimental aircraft; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- su-33.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- su24.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- su25.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- su27bru.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- su34.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- su34b.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- su34n.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- su37.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- su57.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- tornado-gr4.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- tornado-ids.txt: modern jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- tu142real.txt: heavy prop/turboprop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- tu160m.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- tu160mmsl.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- tu22m3.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- tu4.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- tu4light.txt: prop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- tu95k22.txt: heavy prop/turboprop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- tu95ms.txt: heavy prop/turboprop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- tu95org.txt: heavy prop/turboprop; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- victor_b2.txt: bomber; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- x-47b.txt: drone/special; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- yak38.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- yak38_r60.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- yak38_upk.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+- yak38_x23.txt: early jet/attack jet; tuned pitchtorque, rolltorque, yawtorque, pitchdamping, rolldamping, yawdamping, throttleacceleration, enginedrag, mobilityyaw, mobilitypitch, mobilityroll, inertiamultiplier.
+
+## Flight ceiling assignments
+
+- mq-9debug.txt: `FlightCeiling = 15000`, `FlightCeilingRange = 40` (legacy/manual drone; not migrated).
+- a-10.txt: `FlightCeiling = 13700`, `FlightCeilingRange = 44` (attack aircraft).
+- a4.txt: `FlightCeiling = 12880`, `FlightCeilingRange = 44` (early jet/attack jet).
+- a400m.txt: `FlightCeiling = 11280`, `FlightCeilingRange = 64` (transport/heavy aircraft).
+- a6.txt: `FlightCeiling = 12900`, `FlightCeilingRange = 44` (early jet/attack jet).
+- a6m2.txt: `FlightCeiling = 10000`, `FlightCeilingRange = 40` (prop).
+- a6m2n.txt: `FlightCeiling = 7600`, `FlightCeilingRange = 48` (seaplane/float prop).
+- a7.txt: `FlightCeiling = 12800`, `FlightCeilingRange = 44` (early jet/attack jet).
+- ac-130.txt: `FlightCeiling = 7600`, `FlightCeilingRange = 56` (heavy prop/turboprop).
+- ac-47.txt: `FlightCeiling = 7300`, `FlightCeilingRange = 40` (prop).
+- an2.txt: `FlightCeiling = 4500`, `FlightCeilingRange = 40` (prop).
+- au23.txt: `FlightCeiling = 7600`, `FlightCeilingRange = 40` (prop).
+- b-1.txt: `FlightCeiling = 18000`, `FlightCeilingRange = 64` (bomber).
+- b-1nuclear.txt: `FlightCeiling = 18000`, `FlightCeilingRange = 64` (bomber).
+- b-2a.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 64` (bomber).
+- b-2a2.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 64` (bomber).
+- b-2a3.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 64` (bomber).
+- b-2a4.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 64` (bomber).
+- b29.txt: `FlightCeiling = 10000`, `FlightCeilingRange = 40` (prop).
+- b29sp.txt: `FlightCeiling = 10000`, `FlightCeilingRange = 40` (prop).
+- b52.txt: `FlightCeiling = 15000`, `FlightCeilingRange = 64` (bomber).
+- b52d.txt: `FlightCeiling = 15000`, `FlightCeilingRange = 64` (bomber).
+- b52n.txt: `FlightCeiling = 15000`, `FlightCeilingRange = 64` (bomber).
+- bayraktar tb 2.txt: `FlightCeiling = 8200`, `FlightCeilingRange = 40` (drone/special).
+- bf109.txt: `FlightCeiling = 12000`, `FlightCeilingRange = 40` (prop).
+- bqm_74e.txt: `FlightCeiling = 12000`, `FlightCeilingRange = 40` (drone/special).
+- bv138.txt: `FlightCeiling = 6500`, `FlightCeilingRange = 48` (seaplane/float prop).
+- c-47.txt: `FlightCeiling = 7300`, `FlightCeilingRange = 40` (prop).
+- c5.txt: `FlightCeiling = 10600`, `FlightCeilingRange = 64` (transport/heavy aircraft).
+- c5m.txt: `FlightCeiling = 10600`, `FlightCeilingRange = 64` (transport/heavy aircraft).
+- e767.txt: `FlightCeiling = 13100`, `FlightCeilingRange = 64` (transport/heavy aircraft).
+- emb314.txt: `FlightCeiling = 10600`, `FlightCeilingRange = 40` (prop).
+- eurofighter_typhoon_2.txt: `FlightCeiling = 19800`, `FlightCeilingRange = 48` (modern jet).
+- eurofighter_typhoon_2_t.txt: `FlightCeiling = 19800`, `FlightCeilingRange = 48` (modern jet).
+- f-104.txt: `FlightCeiling = 17680`, `FlightCeilingRange = 44` (early jet/attack jet).
+- f-15e.txt: `FlightCeiling = 18300`, `FlightCeilingRange = 48` (modern jet).
+- f-15s_mtd.txt: `FlightCeiling = 18300`, `FlightCeilingRange = 48` (modern jet).
+- f-35a.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 48` (modern jet).
+- f-35b.txt: `FlightCeiling = 15250`, `FlightCeilingRange = 48` (modern jet).
+- f-35c.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 48` (modern jet).
+- f-5e.txt: `FlightCeiling = 15800`, `FlightCeilingRange = 44` (early jet/attack jet).
+- f-80.txt: `FlightCeiling = 15000`, `FlightCeilingRange = 44` (early jet/attack jet).
+- f-86f.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 44` (early jet/attack jet).
+- f117.txt: `FlightCeiling = 13700`, `FlightCeilingRange = 52` (special/stealth attack aircraft).
+- f117gbu27.txt: `FlightCeiling = 13700`, `FlightCeilingRange = 52` (special/stealth attack aircraft).
+- f117nuc.txt: `FlightCeiling = 13700`, `FlightCeilingRange = 52` (special/stealth attack aircraft).
+- f14.txt: `FlightCeiling = 16000`, `FlightCeilingRange = 48` (modern jet).
+- f14d.txt: `FlightCeiling = 16000`, `FlightCeilingRange = 48` (modern jet).
+- f16c.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 48` (modern jet).
+- f1m.txt: `FlightCeiling = 5000`, `FlightCeilingRange = 48` (seaplane/float prop).
+- f22a.txt: `FlightCeiling = 19800`, `FlightCeilingRange = 48` (modern jet).
+- f4a.txt: `FlightCeiling = 18300`, `FlightCeilingRange = 44` (early jet/attack jet).
+- f8f.txt: `FlightCeiling = 11800`, `FlightCeilingRange = 40` (prop).
+- fa18e.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 48` (modern jet).
+- fa18fold.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 48` (modern jet).
+- fa50.txt: `FlightCeiling = 14600`, `FlightCeilingRange = 48` (modern jet).
+- geran2.txt: `FlightCeiling = 4000`, `FlightCeilingRange = 40` (drone/special).
+- h6k.txt: `FlightCeiling = 7600`, `FlightCeilingRange = 48` (seaplane/float prop).
+- h8k.txt: `FlightCeiling = 8800`, `FlightCeilingRange = 48` (seaplane/float prop).
+- harrier.txt: `FlightCeiling = 15000`, `FlightCeilingRange = 48` (modern jet).
+- harrier_en.txt: `FlightCeiling = 15000`, `FlightCeilingRange = 48` (modern jet).
+- il28sh.txt: `FlightCeiling = 12300`, `FlightCeilingRange = 44` (early jet/attack jet).
+- il76ua.txt: `FlightCeiling = 12000`, `FlightCeilingRange = 64` (transport/heavy aircraft).
+- j11b.txt: `FlightCeiling = 19000`, `FlightCeilingRange = 48` (modern jet).
+- j15.txt: `FlightCeiling = 20000`, `FlightCeilingRange = 48` (modern jet).
+- j8.txt: `FlightCeiling = 20500`, `FlightCeilingRange = 44` (early jet/attack jet).
+- jas39.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 48` (modern jet).
+- ju87.txt: `FlightCeiling = 8200`, `FlightCeilingRange = 40` (prop).
+- kf-21.txt: `FlightCeiling = 16000`, `FlightCeilingRange = 48` (modern jet).
+- m2000-5.txt: `FlightCeiling = 17000`, `FlightCeilingRange = 48` (modern jet).
+- m2000c.txt: `FlightCeiling = 17000`, `FlightCeilingRange = 48` (modern jet).
+- mc130.txt: `FlightCeiling = 10000`, `FlightCeilingRange = 56` (heavy prop/turboprop).
+- mc130j.txt: `FlightCeiling = 10000`, `FlightCeilingRange = 56` (heavy prop/turboprop).
+- md90.txt: `FlightCeiling = 11300`, `FlightCeilingRange = 64` (transport/heavy aircraft).
+- mig-15.txt: `FlightCeiling = 15000`, `FlightCeilingRange = 44` (early jet/attack jet).
+- mig-19s.txt: `FlightCeiling = 15000`, `FlightCeilingRange = 44` (early jet/attack jet).
+- mig-21pf.txt: `FlightCeiling = 17500`, `FlightCeilingRange = 44` (early jet/attack jet).
+- mig17f.txt: `FlightCeiling = 15000`, `FlightCeilingRange = 44` (early jet/attack jet).
+- mig21.txt: `FlightCeiling = 17500`, `FlightCeilingRange = 44` (early jet/attack jet).
+- mig23.txt: `FlightCeiling = 18500`, `FlightCeilingRange = 44` (early jet/attack jet).
+- mig25.txt: `FlightCeiling = 17000`, `FlightCeilingRange = 48` (modern jet).
+- mig29.txt: `FlightCeiling = 18000`, `FlightCeilingRange = 48` (modern jet).
+- mig3.txt: `FlightCeiling = 12000`, `FlightCeilingRange = 40` (prop).
+- mig31.txt: `FlightCeiling = 20600`, `FlightCeilingRange = 48` (modern jet).
+- mig31k.txt: `FlightCeiling = 20600`, `FlightCeilingRange = 48` (modern jet).
+- mirage3e.txt: `FlightCeiling = 17000`, `FlightCeilingRange = 44` (early jet/attack jet).
+- mirageiv.txt: `FlightCeiling = 20000`, `FlightCeilingRange = 44` (early jet/attack jet).
+- mq-9.txt: `FlightCeiling = 15000`, `FlightCeilingRange = 40` (drone/special).
+- mqm170.txt: `FlightCeiling = 16000`, `FlightCeilingRange = 40` (drone/special).
+- mv-22.txt: `FlightCeiling = 7600`, `FlightCeilingRange = 48` (tiltrotor/special aircraft).
+- n1k1.txt: `FlightCeiling = 10700`, `FlightCeilingRange = 40` (prop).
+- ov-10a.txt: `FlightCeiling = 9145`, `FlightCeilingRange = 40` (prop).
+- p-51d.txt: `FlightCeiling = 12800`, `FlightCeilingRange = 40` (prop).
+- pzl-m18.txt: `FlightCeiling = 4000`, `FlightCeilingRange = 40` (prop).
+- q-5d.txt: `FlightCeiling = 16500`, `FlightCeilingRange = 44` (early jet/attack jet).
+- qf-80.txt: `FlightCeiling = 15000`, `FlightCeilingRange = 44` (early jet/attack jet).
+- rafalem.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 48` (modern jet).
+- skylark.txt: `FlightCeiling = 4600`, `FlightCeilingRange = 40` (drone/special).
+- spitfire-mkvb.txt: `FlightCeiling = 11200`, `FlightCeilingRange = 40` (prop).
+- sr71.txt: `FlightCeiling = 25900`, `FlightCeilingRange = 80` (special/experimental aircraft).
+- su-33.txt: `FlightCeiling = 17000`, `FlightCeilingRange = 48` (modern jet).
+- su24.txt: `FlightCeiling = 11000`, `FlightCeilingRange = 48` (modern jet).
+- su25.txt: `FlightCeiling = 7000`, `FlightCeilingRange = 48` (modern jet).
+- su27bru.txt: `FlightCeiling = 19000`, `FlightCeilingRange = 48` (modern jet).
+- su34.txt: `FlightCeiling = 17000`, `FlightCeilingRange = 48` (modern jet).
+- su34b.txt: `FlightCeiling = 17000`, `FlightCeilingRange = 48` (modern jet).
+- su34n.txt: `FlightCeiling = 17000`, `FlightCeilingRange = 48` (modern jet).
+- su37.txt: `FlightCeiling = 18000`, `FlightCeilingRange = 48` (modern jet).
+- su57.txt: `FlightCeiling = 20000`, `FlightCeilingRange = 48` (modern jet).
+- tornado-gr4.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 48` (modern jet).
+- tornado-ids.txt: `FlightCeiling = 15240`, `FlightCeilingRange = 48` (modern jet).
+- tu142real.txt: `FlightCeiling = 12000`, `FlightCeilingRange = 56` (heavy prop/turboprop).
+- tu160m.txt: `FlightCeiling = 16000`, `FlightCeilingRange = 64` (bomber).
+- tu160mmsl.txt: `FlightCeiling = 16000`, `FlightCeilingRange = 64` (bomber).
+- tu22m3.txt: `FlightCeiling = 13300`, `FlightCeilingRange = 64` (bomber).
+- tu4.txt: `FlightCeiling = 10000`, `FlightCeilingRange = 40` (prop).
+- tu4light.txt: `FlightCeiling = 10000`, `FlightCeilingRange = 40` (prop).
+- tu95k22.txt: `FlightCeiling = 12000`, `FlightCeilingRange = 56` (heavy prop/turboprop).
+- tu95ms.txt: `FlightCeiling = 12000`, `FlightCeilingRange = 56` (heavy prop/turboprop).
+- tu95org.txt: `FlightCeiling = 12000`, `FlightCeilingRange = 56` (heavy prop/turboprop).
+- victor_b2.txt: `FlightCeiling = 17000`, `FlightCeilingRange = 64` (bomber).
+- x-47b.txt: `FlightCeiling = 12200`, `FlightCeilingRange = 40` (drone/special).
+- yak38.txt: `FlightCeiling = 12000`, `FlightCeilingRange = 44` (early jet/attack jet).
+- yak38_r60.txt: `FlightCeiling = 12000`, `FlightCeilingRange = 44` (early jet/attack jet).
+- yak38_upk.txt: `FlightCeiling = 12000`, `FlightCeilingRange = 44` (early jet/attack jet).
+- yak38_x23.txt: `FlightCeiling = 12000`, `FlightCeilingRange = 44` (early jet/attack jet).
+
+## Invalid or questionable config values found
+
+- `bv138.txt`: corrected `AddAddDisplayName` typo to `AddDisplayName`.
+- Deprecated prototype flight-model keys were commented where found after documented replacements were supplied:
+  - a-10.txt: StallThrottle, MinRecoveryThrottle, SpeedLossFactor, LiftCoefficient, MaxGroundLiftSpeed, MaxGroundLiftFactor, CompressibilityStart, CompressibilityLinear, CompressibilityQuadratic, StartOverspeed, FullOverspeed, OverspeedFactor, YawStability, FallOfEffectSpeed.
+  - f-104.txt: StallThrottle, MinRecoveryThrottle, SpeedLossFactor, LiftCoefficient, MaxGroundLiftSpeed, MaxGroundLiftFactor, CompressibilityStart, CompressibilityLinear, CompressibilityQuadratic, StartOverspeed, FullOverspeed, OverspeedFactor, YawStability, FallOfEffectSpeed.
+  - f-5e.txt: StallThrottle, MinRecoveryThrottle, SpeedLossFactor, LiftCoefficient, MaxGroundLiftSpeed, MaxGroundLiftFactor, CompressibilityStart, CompressibilityLinear, CompressibilityQuadratic, StartOverspeed, FullOverspeed, OverspeedFactor, YawStability, FallOfEffectSpeed.
+  - f-86f.txt: StallThrottle, MinRecoveryThrottle, SpeedLossFactor, LiftCoefficient, MaxGroundLiftSpeed, MaxGroundLiftFactor, CompressibilityStart, CompressibilityLinear, CompressibilityQuadratic, StartOverspeed, FullOverspeed, OverspeedFactor, YawStability, FallOfEffectSpeed.
+  - jas39.txt: StallThrottle, MinRecoveryThrottle, SpeedLossFactor, LiftCoefficient, MaxGroundLiftSpeed, MaxGroundLiftFactor, CompressibilityStart, CompressibilityLinear, CompressibilityQuadratic, StartOverspeed, FullOverspeed, OverspeedFactor, YawStability, FallOfEffectSpeed.
+  - mirage3e.txt: StallAoARange, CompressibilityLimit, MaxSpeedBeforeBuffet, OverspeedEntry, OverspeedMaxSpeed, OverspeedDragCoefficient, OverspeedPowerLoss, DragEnergyRetention, MinIdleThrust, MaxThrust, MaxAoA.
+
+### Range cleanup
+
+- Replaced out-of-range `9999` compressibility/safe-speed placeholders with finite documented-range values derived from each aircraft speed and role.
+- Clamped plane `Speed` / `MaxLevelSpeed` values above the documented maximum where encountered.
+- eurofighter_typhoon_2.txt: `speed` is clamped to documented maximum 4.0.
+- eurofighter_typhoon_2.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- eurofighter_typhoon_2_t.txt: `speed` is clamped to documented maximum 4.0.
+- eurofighter_typhoon_2_t.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- f-15e.txt: `speed` is clamped to documented maximum 4.0.
+- f-15e.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- f-15s_mtd.txt: `speed` is clamped to documented maximum 4.0.
+- f-15s_mtd.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- f14.txt: `speed` is clamped to documented maximum 4.0.
+- f14.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- f22a.txt: `speed` is clamped to documented maximum 4.0.
+- f22a.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- f4a.txt: `speed` is clamped to documented maximum 4.0.
+- f4a.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- j11b.txt: `speed` is clamped to documented maximum 4.0.
+- j11b.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- j15.txt: `speed` is clamped to documented maximum 4.0.
+- j15.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- j8.txt: `speed` is clamped to documented maximum 4.0.
+- j8.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- m2000-5.txt: `speed` is clamped to documented maximum 4.0.
+- m2000-5.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- m2000c.txt: `speed` is clamped to documented maximum 4.0.
+- m2000c.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- mig23.txt: `speed` is clamped to documented maximum 4.0.
+- mig23.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- mig25.txt: `speed` is clamped to documented maximum 4.0.
+- mig25.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- mig29.txt: `speed` is clamped to documented maximum 4.0.
+- mig29.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- mig31.txt: `speed` is clamped to documented maximum 4.0.
+- mig31.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- mirage3e.txt: `speed` is clamped to documented maximum 4.0.
+- mirage3e.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- mirageiv.txt: `speed` is clamped to documented maximum 4.0.
+- mirageiv.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- sr71.txt: `speed` is clamped to documented maximum 4.0.
+- sr71.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- su-33.txt: `speed` is clamped to documented maximum 4.0.
+- su-33.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- su27bru.txt: `speed` is clamped to documented maximum 4.0.
+- su27bru.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- su37.txt: `speed` is clamped to documented maximum 4.0.
+- su37.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- su57.txt: `speed` is clamped to documented maximum 4.0.
+- su57.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- tornado-gr4.txt: `speed` is clamped to documented maximum 4.0.
+- tornado-gr4.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+- tornado-ids.txt: `speed` is clamped to documented maximum 4.0.
+- tornado-ids.txt: `maxlevelspeed` is clamped to documented maximum 4.0.
+
+## Duplicated non-repeatable values found
+
+- a4.txt: `damagefactor` at line 20 and line 165; later value currently wins.
+- a400m.txt: `damagefactor` at line 280 and line 288; later value currently wins.
+- a6.txt: `damagefactor` at line 20 and line 146; later value currently wins.
+- a6m2.txt: `unmountposition` at line 19 and line 114; later value currently wins.
+- a6m2.txt: `damagefactor` at line 116 and line 119; later value currently wins.
+- a6m2n.txt: `damagefactor` at line 97 and line 98; later value currently wins.
+- a7.txt: `damagefactor` at line 19 and line 140; later value currently wins.
+- ac-47.txt: `damagefactor` at line 68 and line 199; later value currently wins.
+- an2.txt: `damagefactor` at line 117 and line 122; later value currently wins.
+- au23.txt: `damagefactor` at line 122 and line 125; later value currently wins.
+- b-1.txt: `damagefactor` at line 340 and line 343; later value currently wins.
+- b-1nuclear.txt: `damagefactor` at line 328 and line 331; later value currently wins.
+- b-2a.txt: `damagefactor` at line 162 and line 168; later value currently wins.
+- b-2a2.txt: `damagefactor` at line 145 and line 151; later value currently wins.
+- b-2a3.txt: `damagefactor` at line 178 and line 184; later value currently wins.
+- b-2a4.txt: `damagefactor` at line 147 and line 153; later value currently wins.
+- b29.txt: `unmountposition` at line 24 and line 247; later value currently wins.
+- b29.txt: `damagefactor` at line 249 and line 256; later value currently wins.
+- b29sp.txt: `unmountposition` at line 23 and line 218; later value currently wins.
+- b29sp.txt: `damagefactor` at line 220 and line 227; later value currently wins.
+- b52.txt: `damagefactor` at line 307 and line 313; later value currently wins.
+- b52d.txt: `damagefactor` at line 320 and line 325; later value currently wins.
+- b52n.txt: `damagefactor` at line 271 and line 277; later value currently wins.
+- bf109.txt: `damagefactor` at line 26 and line 125; later value currently wins.
+- bv138.txt: `damagefactor` at line 166 and line 169; later value currently wins.
+- c-47.txt: `damagefactor` at line 62 and line 138; later value currently wins.
+- c5.txt: `damagefactor` at line 235 and line 242; later value currently wins.
+- c5m.txt: `damagefactor` at line 293 and line 300; later value currently wins.
+- e767.txt: `damagefactor` at line 175 and line 178; later value currently wins.
+- emb314.txt: `unmountposition` at line 20 and line 129; later value currently wins.
+- emb314.txt: `damagefactor` at line 132 and line 138; later value currently wins.
+- eurofighter_typhoon_2.txt: `damagefactor` at line 172 and line 177; later value currently wins.
+- eurofighter_typhoon_2_t.txt: `damagefactor` at line 175 and line 181; later value currently wins.
+- f-104.txt: `damagefactor` at line 66 and line 145; later value currently wins.
+- f-15e.txt: `damagefactor` at line 17 and line 186; later value currently wins.
+- f-15s_mtd.txt: `sweepwingspeed` at line 21 and line 136; later value currently wins.
+- f-35a.txt: `damagefactor` at line 50 and line 159; later value currently wins.
+- f-35b.txt: `damagefactor` at line 50 and line 151; later value currently wins.
+- f-35c.txt: `damagefactor` at line 50 and line 145; later value currently wins.
+- f-5e.txt: `damagefactor` at line 58 and line 155; later value currently wins.
+- f-86f.txt: `damagefactor` at line 68 and line 138; later value currently wins.
+- f117.txt: `damagefactor` at line 24 and line 116; later value currently wins.
+- f117gbu27.txt: `damagefactor` at line 24 and line 116; later value currently wins.
+- f117nuc.txt: `damagefactor` at line 24 and line 116; later value currently wins.
+- f14.txt: `concurrentgunnermode` at line 10 and line 14; later value currently wins.
+- f14.txt: `damagefactor` at line 158 and line 162; later value currently wins.
+- f14d.txt: `damagefactor` at line 162 and line 166; later value currently wins.
+- f16c.txt: `damagefactor` at line 49 and line 158; later value currently wins.
+- f4a.txt: `damagefactor` at line 129 and line 133; later value currently wins.
+- f8f.txt: `damagefactor` at line 20 and line 133; later value currently wins.
+- fa18e.txt: `damagefactor` at line 49 and line 139; later value currently wins.
+- fuel_truck.txt: `damagefactor` at line 6 and line 17; later value currently wins.
+- h6k.txt: `damagefactor` at line 8 and line 212; later value currently wins.
+- h6k.txt: `damagefactor` at line 212 and line 214; later value currently wins.
+- h8k.txt: `damagefactor` at line 54 and line 201; later value currently wins.
+- il76ua.txt: `damagefactor` at line 126 and line 221; later value currently wins.
+- ju87.txt: `damagefactor` at line 21 and line 123; later value currently wins.
+- kf-21.txt: `damagefactor` at line 56 and line 168; later value currently wins.
+- mc130.txt: `damagefactor` at line 140 and line 151; later value currently wins.
+- mc130j.txt: `damagefactor` at line 189 and line 200; later value currently wins.
+- mig-15.txt: `damagefactor` at line 9 and line 132; later value currently wins.
+- mig-19s.txt: `damagefactor` at line 10 and line 138; later value currently wins.
+- mig-21pf.txt: `damagefactor` at line 63 and line 146; later value currently wins.
+- mig21.txt: `particlesscale` at line 11 and line 58; later value currently wins.
+- mig21.txt: `damagefactor` at line 63 and line 193; later value currently wins.
+- mig25.txt: `particlesscale` at line 12 and line 58; later value currently wins.
+- mig25.txt: `damagefactor` at line 62 and line 157; later value currently wins.
+- mig29.txt: `damagefactor` at line 163 and line 168; later value currently wins.
+- mig3.txt: `damagefactor` at line 17 and line 107; later value currently wins.
+- mig31.txt: `damagefactor` at line 56 and line 161; later value currently wins.
+- mig31k.txt: `damagefactor` at line 21 and line 153; later value currently wins.
+- mirage3e.txt: `damagefactor` at line 66 and line 145; later value currently wins.
+- mirageiv.txt: `damagefactor` at line 69 and line 171; later value currently wins.
+- mv-22.txt: `rotorspeed` at line 101 and line 211; later value currently wins.
+- n1k1.txt: `damagefactor` at line 22 and line 116; later value currently wins.
+- skylark.txt: `throttleupdown` at line 11 and line 18; later value currently wins.
+- spitfire-mkvb.txt: `damagefactor` at line 16 and line 126; later value currently wins.
+- sr71.txt: `damagefactor` at line 61 and line 187; later value currently wins.
+- su25.txt: `particlesscale` at line 14 and line 62; later value currently wins.
+- su27bru.txt: `damagefactor` at line 183 and line 184; later value currently wins.
+- su34.txt: `damagefactor` at line 21 and line 169; later value currently wins.
+- su34b.txt: `damagefactor` at line 21 and line 184; later value currently wins.
+- su34n.txt: `damagefactor` at line 21 and line 157; later value currently wins.
+- tu142real.txt: `enableback` at line 71 and line 83; later value currently wins.
+- tu142real.txt: `damagefactor` at line 65 and line 289; later value currently wins.
+- tu160m.txt: `thirdpersondist` at line 17 and line 24; later value currently wins.
+- tu160mmsl.txt: `thirdpersondist` at line 17 and line 24; later value currently wins.
+- tu22m3.txt: `damagefactor` at line 75 and line 180; later value currently wins.
+- tu4.txt: `unmountposition` at line 25 and line 237; later value currently wins.
+- tu4.txt: `damagefactor` at line 239 and line 243; later value currently wins.
+- tu4light.txt: `unmountposition` at line 22 and line 234; later value currently wins.
+- tu4light.txt: `damagefactor` at line 236 and line 239; later value currently wins.
+- tu95k22.txt: `enableback` at line 71 and line 83; later value currently wins.
+- tu95k22.txt: `damagefactor` at line 65 and line 282; later value currently wins.
+- tu95ms.txt: `enableback` at line 58 and line 83; later value currently wins.
+- tu95ms.txt: `damagefactor` at line 67 and line 281; later value currently wins.
+- tu95org.txt: `enableback` at line 69 and line 81; later value currently wins.
+- tu95org.txt: `damagefactor` at line 63 and line 272; later value currently wins.
+- victor_b2.txt: `damagefactor` at line 21 and line 162; later value currently wins.
+- yak38.txt: `damagefactor` at line 71 and line 153; later value currently wins.
+- yak38_r60.txt: `damagefactor` at line 72 and line 156; later value currently wins.
+- yak38_upk.txt: `damagefactor` at line 72 and line 154; later value currently wins.
+- yak38_x23.txt: `damagefactor` at line 74 and line 152; later value currently wins.
+
+## Documentation gaps discovered
+
+- `UseNewMobilitySystem` was required by this migration but was not previously listed in `docs/vehicle-config`; `planes.md` now documents it as the new fixed-wing model gate.
+- Commonly used compatibility/geometry keys such as `EntityWidth`, `EntityHeight`, `BoundingBox`, `AutoPilotRot`, `AddPartCamera`, `CanRide`, `StepHeight`, and `WeightedCenterZ` appear in plane configs but are not fully described by the current docs. They were treated as compatibility/documentation gaps rather than removed.
+- Deprecated prototype flight-model keys (`StallThrottle`, `SpeedLossFactor`, `CompressibilityStart`, `OverspeedFactor`, etc.) are not documented and were commented where found after documented replacement values were supplied.
