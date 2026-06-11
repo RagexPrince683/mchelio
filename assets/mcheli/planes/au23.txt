@@ -28,7 +28,7 @@ ZoomLevel = 1
 EntityWidth  = 0.83
 EntityHeight = 0.83
 
-MobilityRoll = 0.54
+MobilityRoll = 1.05
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = AG/CI/UT
@@ -39,12 +39,13 @@ FlightCeilingRange = 40
 MaxLevelSpeed = 0.475
 StallSpeedFactor = 0.304
 StallSpeed = 0.144
-CriticalAoA = 16
-StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
-StallInstability = 0.38
+CriticalAoA = 17.5
+StallLiftLoss = 0.68
+AoADragMultiplier = 1.6
+StallInstability = 0.36
+StallRecoverySpeed = 0.166
 BaseDrag = 0.003
-InducedDrag = 0.006
+InducedDrag = 0.007
 ControlSurfaceDrag = 0.003
 ClimbEnergyLoss = 0.006
 DiveEnergyGain = 0.008
@@ -52,20 +53,22 @@ IdleDrag = 0.004
 DiveSpeedMultiplier = 1.18
 MaxComfortableG = 4
 MaxStructuralG = 6
-GControlPenalty = 0.7
+GControlPenalty = 0.62
 CompressibilitySpeed = 0.736
 CompressibilityPitchPenalty = 0
 MaxSafeSpeed = 0.902
 OverspeedDamageRate = 0
-PitchTorque = 0.302
-RollTorque = 0.308
-YawTorque = 0.225
-PitchDamping = 0.408
-RollDamping = 0.367
-YawDamping = 0.449
-InertiaMultiplier = 0.768
-ThrottleAcceleration = 0.02
-EngineDrag = 0.013
+PitchTorque = 0.36
+RollTorque = 0.4
+YawTorque = 0.28
+PitchDamping = 0.39
+RollDamping = 0.36
+YawDamping = 0.43
+InertiaMultiplier = 0.96
+ThrottleAcceleration = 0.021
+EngineDrag = 0.014
+MobilityYaw = 0.86
+MobilityPitch = 0.98
 
 HUD = plane, plane_gnr, none
 
@@ -125,3 +128,4 @@ enableback = true
 DamageFactor = 0.8
 
 ; RealismSource = MCHO plane scripted pass; Fairchild AU-23A Peacemaker.
+; HandlingBalancePass = prop-maneuverability-2026-06-11; role=attack_prop
