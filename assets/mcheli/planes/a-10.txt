@@ -42,6 +42,7 @@ InertiaMultiplier = 1.152
 FlightCeiling = 13700
 FlightCeilingRange = 44
 StallSpeed = 0.15
+StallSpeedFactor = 0.103
 DiveSpeedMultiplier = 1.18
 OverspeedDamageRate = 0.12
 MaxSafeSpeed = 1.624
