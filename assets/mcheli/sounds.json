@@ -22,6 +22,7 @@
 "abrams": {"category": "master","sounds": ["abrams"]},
 "abramscoax": {"category": "master","sounds": ["abramscoax"]},
 "abramsmain": {"category": "master","sounds": ["abramsmain"]},
+"acsonar": {"category": "master","sounds": ["acsonar"]},
 "aeeightysix": {"category": "master","sounds": ["aeeightysix"]},
 "ags_snd": {"category": "master","sounds": ["ags_snd"]},
 "ah": {"category": "master","sounds": ["ah"]},

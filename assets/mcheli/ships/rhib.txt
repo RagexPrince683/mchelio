@@ -1,6 +1,8 @@
 DisplayName = NSW 11-meter RHIB with 12.7mm
 AddDisplayName = en_US, NSW 11-meter RHIB with 12.7mm Mount
 AddDisplayName = ja_JP, NSW 11-meter RHIB with 12.7mm
+MaxFuel         = 1200
+FuelConsumption = 1.0
 ItemID = 31500
 MaxHp = 130
 Speed = 0.58
@@ -53,3 +55,12 @@ AddBlade = 1, 0,  -0.44,  -0.57, -3.69,   0,0,-1
 
 AddPartWeapon    = mg12_7mm,       false, true, true,  0.00,  1.38,  4.27
 AddWeapon = mg12_7mm,  0.00, 1.38, 4.27,   0.0, 0.0, false, 9, 0,-120,120, -15,10
+
+;eng
+BoundingBox = 0.5, 0.55, -2.8, 1.0, 1.4, 1.5
+BoundingBox = -0.5, 0.55, -2.8, 1.0, 1.4, 1.5
+
+BoundingBox = 0.0, 0.0, -1.8, 3.0, 0.3
+BoundingBox = 0.0, 0.0, 0, 3.0, 0.3
+BoundingBox = 0.0, 0.0, 3, 3.0, 0.3
+BoundingBox = 0.0, 0.0, 5, 2.0, 0.3

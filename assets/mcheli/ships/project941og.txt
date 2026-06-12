@@ -1,9 +1,7 @@
-DisplayName = Project 941UM Dmitry Donskoy Bulava Test Submarine
-DisplayName = Project 941UM Dmitry Donskoy Bulava Test Submarine
-AddDisplayName = en_US, Project 941UM Dmitry Donskoy Bulava Test Submarine
-AddDisplayName = en_US, Project 941UM Dmitry Donskoy Bulava Test Submarine
-AddDisplayName = zh_CN, 德米特里·顿斯科伊·布拉瓦试验潜艇
-ItemID = 21991
+DisplayName = Project 941 Akula Submarine
+AddDisplayName = en_US, Project 941 Akula Submarine
+AddDisplayName = zh_CN, 台风级战略核潜艇
+ItemID = 21992
 MaxHp = 23200
 EnableNightVision = true
 EnableEntityRadar = true
@@ -62,65 +60,81 @@ AddWeapon = sonar, 0.0, 18, 11
 unmountposition = 0.00,11.0,4.5
 AddgunnerSeat =  0.00,5.0,-15.0, 0.00, 20.0, 8.0, true, -30.0, 4.0
 
+;todo: original loadout, not modernized test version
 
-;;I don't know what kind of crack you guys were on but this WAS not realistic
-AddPartWeaponBay = bulava/bulavar/bulavartest,5.1159, 1.7674, 0.0,    0, 0, 1, -90
-AddPartWeaponBay = bulava/bulavar/bulavartest, -5.1159, 1.7674, 0.0,    0, 0, 1, 90
-;;we need to replace these with whatever it should be... Actually refit was cooked so nothing lolll
-;;so we'll make them all open when on the bulava
-AddPartWeaponBay = bulava/bulavar/bulavartest,5.1159, 1.7674, 0.0,    0, 0, 1, -90
-AddPartWeaponBay = bulava/bulavar/bulavartest, -5.1159, 1.7674, 0.0,    0, 0, 1, 90
-AddPartWeaponBay = bulava/bulavar/bulavartest,5.1159, 1.7674, 0.0,    0, 0, 1, -90
-AddPartWeaponBay = bulava/bulavar/bulavartest, -5.1159, 1.7674, 0.0,    0, 0, 1, 90
+;;	
+;;1 x 9K38 Igla SAM
+;;6 x 533 mm (21 in) torpedo tubes[5]
+;;22 x Type 53 torpedoes and RPK-2 Vyuga or RPK-6 Vodopad antisubmarine missiles[5]
+;;D-19 launch system
+;;20 x RSM-52 SLBMs
 
 
+AddPartWeaponBay = r39_rif,5.1159, 1.7674, 0.0,    0, 0, 1, -90
+AddPartWeaponBay = r39_rif, -5.1159, 1.7674, 0.0,    0, 0, 1, 90
+AddPartWeaponBay = r39_rif,5.1159, 1.7674, 0.0,    0, 0, 1, -90
+AddPartWeaponBay = r39_rif, -5.1159, 1.7674, 0.0,    0, 0, 1, 90
+AddPartWeaponBay = r39_rif,5.1159, 1.7674, 0.0,    0, 0, 1, -90
+AddPartWeaponBay = r39_rif, -5.1159, 1.7674, 0.0,    0, 0, 1, 90
 
-;;AddWeapon = p800, 1.2, -1.7,  90.0, 0,0,true,  2
-;;AddWeapon = p800, -1.2, -1.7,  90.0, 0,0,true,  2
+
+
+
 ;;???
 ;;only 2 entries
-AddWeapon = ugst-533mm, 1.2, -3.0,  90.0, 0,0,true,  2, 0,-60,60, -10,60
-AddWeapon = ugst-533mm,  -1.2, -3.0,  90.0, 0,0,true,  2, 0,-60,60, -10,60
+AddWeapon = type53-533mm, 1.2, -3.0,  90.0, 0,0,true,  2, 0,-60,60, -10,60
+AddWeapon = type53-533mm,  -1.2, -3.0,  90.0, 0,0,true,  2, 0,-60,60, -10,60
 
-;;make 2 not 12...? 
-;;so this isn't realistic either?
-;;AddWeapon = ugstn, 1.2, -4.5,  90.0, 0,0,true,  2, 0,-60,60, -10,60
-;;AddWeapon = ugstn,  -1.2, -4.5,  90.0, 0,0,true,  2, 0,-60,60, -10,60
+AddWeapon = rpk6_vodopad,  1.2, -4.5, 90.0, 0,0,true, 2, 0,-60,60, -10,60
+AddWeapon = rpk6_vodopad, -1.2, -4.5, 90.0, 0,0,true, 2, 0,-60,60, -10,60
+AddWeapon = rpk6_vodopadnc,  1.2, -4.5, 90.0, 0,0,true, 2, 0,-60,60, -10,60
+
+;;type53-533mm MaxAmmo = 16
+;;rpk6_vodopad MaxAmmo = 6
+;;total = 22
+
+;;does this get nuclear torpedos?
+
+; carried MANPADS
+;;AddWeapon = igla, 0.0, 12.0, 6.5, 0, 0, true, 3, 0, 360, -360, -10, 80
 
 
+;NEWER MODEL STUFF, REPLACE WITH OLD IN THIS FILE: Bulava Intercontinental Ballistic Missile (ICBM)
 
 
-;Bulava Intercontinental Ballistic Missile (ICBM)
+; R-39 Rif / RSM-52 / SS-N-20 Sturgeon SLBM
+; Original Project 941 loadout: 20 missiles.
+; MaxAmmo must be set to 20 in the r39_rif weapon file.
 
-;;should only have 2
+AddWeapon = r39_rif,  1.34,1,  62.23, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif, -1.34,1,  62.23, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
 
-AddWeapon = bulava,  1.34,1,  62.23, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-AddWeapon = bulavar,  -1.34,1,  62.23, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-AddWeapon = bulavartest,  1.34,1,  62.23, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif,  1.34,1,  58.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif, -1.34,1,  58.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
 
-;;AddWeapon = bulava,  1.34,1,  58.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = bulava,  -1.34,1,  58.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = bulava, 1.34,1,  54.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = bulava, -1.34,1,  54.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif,  1.34,1,  54.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif, -1.34,1,  54.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
 
-;;AddWeapon = bulavar, 1.34,1,  50.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = bulavar, -1.34,1,  50.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = bulavar,  1.34,1,  46.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = bulavar,  -1.34,1,  46.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = bulavar,  1.34,1,  42.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = bulavar,  -1.34,1,  42.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif,  1.34,1,  50.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif, -1.34,1,  50.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
 
-;;will change in weapon config
+AddWeapon = r39_rif,  1.34,1,  46.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif, -1.34,1,  46.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
 
-;;AddWeapon = 3m54e1,  1.34,1,  38.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = 3m54e1,  -1.34,1,  38.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = 3m54e1r,  1.34,1,  34.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = 3m54e1r,  -1.34,1,  34.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;what crack pipe ccp fent made you think this was real
-;;AddWeapon = 77h6h_941,  1.34,1,  30.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = 77h6h_941,  -1.34,1,  30.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = 77h6h_941,  1.34,1,  28.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
-;;AddWeapon = 77h6h_941,  -1.34,1,  28.0, 0.0,-90.0, true,  2,   0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif,  1.34,1,  42.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif, -1.34,1,  42.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+
+AddWeapon = r39_rif,  1.34,1,  38.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif, -1.34,1,  38.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+
+AddWeapon = r39_rif,  1.34,1,  34.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif, -1.34,1,  34.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+
+AddWeapon = r39_rif,  1.34,1,  30.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif, -1.34,1,  30.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+
+AddWeapon = r39_rif,  1.34,1,  28.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
+AddWeapon = r39_rif, -1.34,1,  28.0, 0.0,-90.0, true, 2, 0, -145, 145, -80.0, 35.0
 
 
 
