@@ -30,6 +30,7 @@ FlightCeilingRange = 44
 MaxLevelSpeed = 2.105
 StallSpeedFactor = 0.174
 StallSpeed = 0.365
+StallRecoverySpeed = 0.438
 CriticalAoA = 18
 StallLiftLoss = 0.7
 StallNoseDownForce = 0.14
