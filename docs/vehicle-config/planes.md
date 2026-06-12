@@ -171,6 +171,19 @@ motionY += lift - GravityStrength
 
 This means throttle by itself does not hold altitude: an aircraft must have enough airspeed and acceptable AoA to create lift. Cutting power increases drag and eventually reduces airspeed, so lift decays and the plane naturally descends. Near/on ground, upward bounce is damped unless throttle, airspeed, lift factor, and stall state indicate a real takeoff/climb.
 
+Practical tuning ranges used by bundled aircraft:
+
+| Aircraft role | `GravityStrength` | `LiftGravityCompensation` | `StallNoseDownForce` | `StallNoseDownMinSpeed` | Ground damping/clamp notes |
+| --- | --- | --- | --- | --- | --- |
+| WW2 and light prop fighters | `0.030`-`0.031` | `1.12`-`1.16` | `0.18`-`0.20` | `0.055`-`0.060` | Moderate damping; these should remain forgiving at approach speed. |
+| Early jets and attack jets | `0.032`-`0.033` | `1.05`-`1.10` | `0.135`-`0.160` | `0.070`-`0.100` | Slightly stronger bounce damping for carrier/attack landings. |
+| Modern fighters | `0.034`-`0.035` | `1.03`-`1.08` | `0.13`-`0.155` | `0.090`-`0.110` | Keep enough clamp headroom for valid high-power rotation. |
+| Interceptors and fast reconnaissance aircraft | `0.036`-`0.037` | `0.94`-`0.98` | `0.085`-`0.115` | `0.125`-`0.160` | Lower lift compensation reinforces high landing/stall speeds. |
+| Heavy transports and bombers | `0.039`-`0.042` | `0.92`-`0.96` | `0.070`-`0.085` | `0.140`-`0.165` | Low bounce clamp and damping prevent unloaded airframe pop-up after touchdown. |
+| UAVs and loitering munitions | `0.020`-`0.031` | `0.98`-`1.06` | `0.055`-`0.095` | `0.020`-`0.075` | Tune by size; micro UAVs need much gentler gravity than fast UCAVs. |
+| VTOL/STOVL aircraft | `0.033`-`0.034` | `0.98`-`1.01` | `0.090`-`0.120` | `0.085`-`0.115` | Review individually so hover/tilt behavior is not treated like fixed-wing lift. |
+
+Treat these as starting points, not hard rules. If a plane floats at idle, first lower `LiftGravityCompensation` or raise `GravityStrength` slightly. If it drops too abruptly from a valid glide, raise `LiftGravityCompensation` or lower `StallLiftLoss` before weakening gravity.
 
 ```text
 AoA = degrees_between(nose_forward_vector, velocity_vector)
@@ -245,6 +258,8 @@ maxhp = 80
 ```ini
 displayname = Trainer Realistic FM
 Category = EXAMPLE.PLANE
+EnableRealisticFlightModel = true
+UseNewMobilitySystem = true
 addtexture = trainer_realistic
 AddSeat = 0.0, 0.9, 0.0
 HUD = plane
@@ -267,9 +282,23 @@ YawDamping = 0.35
 InertiaMultiplier = 1.35
 ThrottleAcceleration = 0.018
 EngineDrag = 0.014
+NewFlightThrottleResponse = 1.0
+NewFlightThrottleChangeRateUp = 0.006
+NewFlightThrottleChangeRateDown = 0.008
+NewFlightIdleThrottle = 0.08
+NewFlightEngineBrakeDrag = 0.0035
+NewFlightLowThrottleLiftRetention = 0.82
+GravityStrength = 0.032
+LiftGravityCompensation = 1.05
+GroundBounceDamping = 0.25
+GroundVerticalVelocityClamp = 0.015
+NewFlightThrottleControlAuthorityScale = 0.18
+NewFlightThrottleHudDisplay = true
 StallSpeed = 0.36
 CriticalAoA = 16.0
 StallLiftLoss = 0.70
+StallNoseDownForce = 0.12
+StallNoseDownMinSpeed = 0.08
 AoADragMultiplier = 1.8
 StallInstability = 0.45
 StallRecoverySpeed = 0.46
