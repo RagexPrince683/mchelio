@@ -37,7 +37,7 @@ ParticlesScale = 0.7
 Category = LC
 
 
-HUD = plane_wwii, gunner, gunner, none
+HUD = plane_wwii, gunner, gunner, none, none, none, none, none, none, none, none, none, none, none, none, none
 
 
 
@@ -117,7 +117,8 @@ UnmountPosition = -1.31, 2.10, 6.33
 
 BoundingBox = -1.31, 0.11, -1.48, 4.0, 2.0
 BoundingBox = -1.31, 0.11, -2.70, 4.0, 2.0
-BoundingBox = -1.31, 0.11, 2.60, 4.0, 2.0
+BoundingBox = -1.31, 0.28, 2.60, 4.0, 2.0
+BoundingBox = -1.31, 0.28, 5.60, 4.0, 2.0
 ;BoundingBox = -1.31, 0.41, 5.73, 4.0, 2.0
 
 

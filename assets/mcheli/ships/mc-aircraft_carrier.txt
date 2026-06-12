@@ -4,6 +4,8 @@ AddDisplayName = ja_JP, CVN-68 Aircraft Carrier
 
 PivotTurnThrottle = 0.2
 
+PreventWaterBobbing = true
+
 MaxHp = 100000
 ;displacement formula
 Speed = 0.36
@@ -43,7 +45,7 @@ Category = NCAC/AC
 
 HUD = plane, gunner, gunner, gunner, gunner, gunner, gunner, none, none, none, none, none
 
-UnmountPosition = -2.00, 10.90, -0.00
+UnmountPosition = -38.98, 25.64, -31.97
 
 ;　main
 AddSeat =  -5.00,  2.59, -5.0
@@ -268,20 +270,31 @@ AddRack = plane,  -35.54, 12.08, 0.96, 18.80, 45.22, -5.75,  70, 100000,  -90.0,
 
 AddRack = plane,  -28.44, 11.86, 56.69, 18.80, 45.22, -5.75,  70
 AddRack = plane,  -14.25, 11.86, 56.69, 18.80, 45.22, -5.75,  70
-;needs MORE RACKS also launchrack = true would be good so we could launch jets instead of murdering them 
+;needs MORE RACKS 
 
 
 ; under
-AddRack = plane,  -29.04, 4.09, 6.20, 18.80, 45.22, -5.75,  70, 100000,  -90.0, 0.0
-AddRack = plane,  -29.04, 4.09, -5.34, 18.80, 45.22, -5.75,  70, 100000,  -90.0, 0.0
-AddRack = plane,  -29.04, 4.09, -19.58, 18.80, 45.22, -5.75,  70, 100000,  -90.0, 0.0
+; fuck you I am NOT adding carrier elevators. They are ALL going on top of the carrier. FOR NOW.
+;Y moved 4->12
+AddRack = plane,  -29.04, 12, 6.20, 18.80, 45.22, -5.75,  70, 100000,  -90.0, 0.0
+AddRack = plane,  -29.04, 12, -5.34, 18.80, 45.22, -5.75,  70, 100000,  -90.0, 0.0
+AddRack = plane,  -29.04, 12, -19.58, 18.80, 45.22, -5.75,  70, 100000,  -90.0, 0.0
 
-AddRack = plane,  -14.91, 4.09, 6.20, 18.80, 45.22, -5.75,  70, 100000,  90.0, 0.0
-AddRack = plane,  -14.91, 4.09, -5.34, 18.80, 45.22, -5.75,  70, 100000,  90.0, 0.0
-AddRack = plane,  -14.91, 4.09, -19.58, 18.80, 45.22, -5.75,  70, 100000,  90.0, 0.0
+AddRack = plane,  -14.91, 12, 6.20, 18.80, 45.22, -5.75,  70, 100000,  90.0, 0.0
+AddRack = plane,  -14.91, 12, -5.34, 18.80, 45.22, -5.75,  70, 100000,  90.0, 0.0
+AddRack = plane,  -14.91, 12, -19.58, 18.80, 45.22, -5.75,  70, 100000,  90.0, 0.0
+
+;These don't seem to register
+;;AddRack = plane,  -29.04, 22, 6.20, 6.80, 45.22, -5.75,  70, 100000,  -90.0, 0.0
+;;AddRack = plane,  -29.04, 22, -5.34, 6.80, 45.22, -5.75,  70, 100000,  -90.0, 0.0
+;;AddRack = plane,  -29.04, 22, -19.58, 6.80, 45.22, -5.75,  70, 100000,  -90.0, 0.0
+
+;;AddRack = plane,  -14.91, 22, 6.20, 6.80, 45.22, -5.75,  70, 100000,  90.0, 0.0
+;;AddRack = plane,  -14.91, 22, -5.34, 6.80, 45.22, -5.75,  70, 100000,  90.0, 0.0
+;;AddRack = plane,  -14.91, 22, -19.58, 6.80, 45.22, -5.75,  70, 100000,  90.0, 0.0
 
 
-
+;;this registers
 AddRack = helicopter / mv-22,  -42.14,  11.53, -21.07,  18.80, 45.22, -5.75,  70, 100000,  -90.0, 0.0
 AddRack = helicopter / mv-22,  -42.14, 11.53, -8.05,  18.80, 45.22, -5.75,  70, 100000,  -90.0, 0.0
 
@@ -313,30 +326,7 @@ AddRack = helicopter / mv-22,  -42.14, 11.53, -8.05,  18.80, 45.22, -5.75,  70, 
 
 ;AddFixedSearchLight = 4.35, 4.65, -0.21,   0x50FFFFFF,   0x10FFFFC0,    10.0, 10.0,  0, 90
 
-
-
-
-
-BoundingBox = -20.71, 3.84, 70.94,  28.0,  8.0
-BoundingBox = -20.71, 3.84, 64.53,  28.0,  8.0
-BoundingBox = -20.71, 3.84, 47.58,  28.0,  8.0
-BoundingBox = -20.71, 3.84, 29.50,  28.0,  8.0
-BoundingBox = -20.71, 3.84, 14.12,  40.0,  8.0
-BoundingBox = -20.71, 3.84, -2.44,  40.0,  8.0
-BoundingBox = -20.71, 3.84, -29.42,  40.0,  8.0
-BoundingBox = -20.71, 3.84, -48.87,  30.0,  8.0
-BoundingBox = -20.71, 3.84, -60.20,  30.0,  8.0
-
-BoundingBox = -20.71, 7.54, 70.94,  28.0,  8.0
-BoundingBox = -20.71, 7.54, 64.53,  28.0,  8.0
-BoundingBox = -20.71, 7.54, 47.58,  28.0,  8.0
-BoundingBox = -20.71, 7.54, 29.50,  28.0,  8.0
-BoundingBox = -20.71, 7.54, 14.12,  40.0,  8.0
-BoundingBox = -20.71, 7.54, -2.44,  40.0,  8.0
-BoundingBox = -20.71, 7.54, -29.42,  40.0,  8.0
-BoundingBox = -20.71, 7.54, -48.87,  30.0,  8.0
-BoundingBox = -20.71, 7.54, -60.20,  30.0,  8.0
-
+;lower
 BoundingBox = -20.71, -3.5, 70.94,  20.0,  8.0
 BoundingBox = -20.71, -3.5, 64.53,  20.0,  8.0
 BoundingBox = -20.71, -3.5, 47.58,  20.0,  8.0
@@ -347,7 +337,44 @@ BoundingBox = -20.71, -3.5, -29.42,  32.0,  8.0
 BoundingBox = -20.71, -3.5, -48.87,  22.0,  8.0
 BoundingBox = -20.71, -3.5, -60.20,  22.0,  8.0
 
+;middle
+BoundingBox = -20.71, 3.84, -60.20,  30.0,  8.0
+BoundingBox = -20.71, 3.84, -48.87,  30.0,  8.0
+BoundingBox = -20.71, 3.84, -29.42,  40.0,  8.0
+BoundingBox = -20.71, 3.84, -2.44,  40.0,  8.0
+BoundingBox = -20.71, 3.84, 14.12,  40.0,  8.0
+BoundingBox = -20.71, 3.84, 29.50,  28.0,  8.0
+BoundingBox = -20.71, 3.84, 47.58,  28.0,  8.0
+BoundingBox = -20.71, 3.84, 64.53,  28.0,  8.0
+BoundingBox = -20.71, 3.84, 70.94,  28.0,  8.0
 
+;upper
+BoundingBox = -20.71, 7.54, -60.20,  34.0,  8.0
+BoundingBox = -20.71, 7.54, -48.87,  34.0,  8.0
+BoundingBox = -20.71, 7.54, -29.42,  48.0,  8.0
+BoundingBox = -20.71, 7.54,  -2.44,  48.0,  8.0
+
+BoundingBox = -20.71, 7.54, 14.12,  40.0,  8.0
+BoundingBox = -20.71, 7.54, 29.50,  28.0,  8.0
+BoundingBox = -20.71, 7.54, 47.58,  28.0,  8.0
+BoundingBox = -20.71, 7.54, 64.53,  28.0,  8.0
+BoundingBox = -20.71, 7.54, 70.94,  28.0,  8.0
+
+;full deck
+;L
+BoundingBox = -14.6, 10.04,  10,  45,  3
+BoundingBox = -2, 10.04,  15,  30,  3
+BoundingBox = -14.6, 10.04,  -2.44,  45,  3
+BoundingBox = -16.2, 10.04,  -30,  45,  3
+
+
+
+
+
+
+
+
+;tower
 BoundingBox = -39.67, 21.10, -36.75,  10.0,  8.0
 
 
