@@ -1,6 +1,6 @@
-﻿DisplayName = Project 941UM Dmitry Donskoy Bulava Test Submarine
+DisplayName = Project 941UM Dmitry Donskoy Bulava Test Submarine
 AddDisplayName = en_US, Project 941UM Dmitry Donskoy Bulava Test Submarine
-AddDisplayName = zh_CN, 德米特里·顿斯科伊布拉瓦试验潜艇
+AddDisplayName = zh_CN, 德米特里·顿斯科伊·布拉瓦试验潜艇
 ItemID = 21991
 MaxHp = 23200
 EnableNightVision = true
