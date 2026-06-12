@@ -59,6 +59,20 @@ InertiaMultiplier = 1.488
 ThrottleAcceleration = 0.033
 EngineDrag = 0.011
 
+NewFlightThrottleResponse = 1.12
+NewFlightThrottleChangeRateUp = 0.0075
+NewFlightThrottleChangeRateDown = 0.0095
+NewFlightIdleThrottle = 0.07
+NewFlightEngineBrakeDrag = 0.003
+NewFlightLowThrottleLiftRetention = 0.8
+NewFlightThrottleControlAuthorityScale = 0.2
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.13
+NewFlightCombatFlapDrag = 0.009
+NewFlightCombatFlapControl = 0.12
+NewFlightCombatFlapOverspeed = 0.8
+
 HUD = planesu24, plane_gnrsu24
 
 MobilityYaw = 0.689

@@ -61,6 +61,16 @@ InertiaMultiplier = 1.008
 ThrottleAcceleration = 0.029
 EngineDrag = 0.011
 
+NewFlightThrottleResponse = 1.12
+NewFlightThrottleChangeRateUp = 0.0065
+NewFlightThrottleChangeRateDown = 0.008
+NewFlightIdleThrottle = 0.07
+NewFlightEngineBrakeDrag = 0.0028
+NewFlightLowThrottleLiftRetention = 0.8
+NewFlightThrottleControlAuthorityScale = 0.22
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
+
 AddPartNozzle = 0.0, 1.92, -8.47, -1, 0, 0
 
 BoundingBox =  0.00, 1.60,  2.70,  1.6, 1.6, 0.8

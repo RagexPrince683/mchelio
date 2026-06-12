@@ -63,6 +63,16 @@ InertiaMultiplier = 1.152
 ThrottleAcceleration = 0.033
 EngineDrag = 0.011
 
+NewFlightThrottleResponse = 1.12
+NewFlightThrottleChangeRateUp = 0.007
+NewFlightThrottleChangeRateDown = 0.009
+NewFlightIdleThrottle = 0.065
+NewFlightEngineBrakeDrag = 0.0028
+NewFlightLowThrottleLiftRetention = 0.78
+NewFlightThrottleControlAuthorityScale = 0.22
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
+
 AddTexture = f117
 AddTexture = f1172
 AddTexture = f1173

@@ -56,6 +56,16 @@ InertiaMultiplier = 2.85
 ThrottleAcceleration = 0.015
 EngineDrag = 0.017
 
+NewFlightThrottleResponse = 1.02
+NewFlightThrottleChangeRateUp = 0.0055
+NewFlightThrottleChangeRateDown = 0.007
+NewFlightIdleThrottle = 0.095
+NewFlightEngineBrakeDrag = 0.0028
+NewFlightLowThrottleLiftRetention = 0.86
+NewFlightThrottleControlAuthorityScale = 0.24
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
+
 
 ;large bomber aircraft modern, AOW3 style
 AddRecipe = "ABC", "DAC", "EEC", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics

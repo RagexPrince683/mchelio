@@ -56,6 +56,16 @@ YawDamping = 0.4
 InertiaMultiplier = 0.86
 ThrottleAcceleration = 0.024
 EngineDrag = 0.014
+
+NewFlightThrottleResponse = 0.82
+NewFlightThrottleChangeRateUp = 0.012
+NewFlightThrottleChangeRateDown = 0.016
+NewFlightIdleThrottle = 0.105
+NewFlightEngineBrakeDrag = 0.0052
+NewFlightLowThrottleLiftRetention = 0.92
+NewFlightThrottleControlAuthorityScale = 0.1
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 MobilityYaw = 1.02
 MobilityPitch = 1.24
 MobilityRoll = 1.42
