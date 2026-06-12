@@ -67,6 +67,20 @@ InertiaMultiplier = 1.056
 ThrottleAcceleration = 0.042
 EngineDrag = 0.009
 
+NewFlightThrottleResponse = 1
+NewFlightThrottleChangeRateUp = 0.0115
+NewFlightThrottleChangeRateDown = 0.014
+NewFlightIdleThrottle = 0.055
+NewFlightEngineBrakeDrag = 0.0024
+NewFlightLowThrottleLiftRetention = 0.79
+NewFlightThrottleControlAuthorityScale = 0.14
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.12
+NewFlightCombatFlapDrag = 0.008
+NewFlightCombatFlapControl = 0.12
+NewFlightCombatFlapOverspeed = 0.82
+
 
 
 MobilityRoll = 2.16

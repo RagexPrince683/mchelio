@@ -61,6 +61,20 @@ InertiaMultiplier = 1.05
 ThrottleAcceleration = 0.02
 EngineDrag = 0.015
 
+NewFlightThrottleResponse = 0.88
+NewFlightThrottleChangeRateUp = 0.012
+NewFlightThrottleChangeRateDown = 0.015
+NewFlightIdleThrottle = 0.1
+NewFlightEngineBrakeDrag = 0.0048
+NewFlightLowThrottleLiftRetention = 0.9
+NewFlightThrottleControlAuthorityScale = 0.13
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.2
+NewFlightCombatFlapDrag = 0.014
+NewFlightCombatFlapControl = 0.16
+NewFlightCombatFlapOverspeed = 0.68
+
 HUD = plane_wwii
 
 enableback = true

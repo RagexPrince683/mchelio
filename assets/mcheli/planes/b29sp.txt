@@ -60,6 +60,16 @@ InertiaMultiplier = 2.15
 ThrottleAcceleration = 0.016
 EngineDrag = 0.016
 
+NewFlightThrottleResponse = 0.98
+NewFlightThrottleChangeRateUp = 0.006
+NewFlightThrottleChangeRateDown = 0.0075
+NewFlightIdleThrottle = 0.105
+NewFlightEngineBrakeDrag = 0.003
+NewFlightLowThrottleLiftRetention = 0.86
+NewFlightThrottleControlAuthorityScale = 0.24
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
+
 HUD = plane_wwii, gunner, none, gunner
 
 CameraZoom = 2

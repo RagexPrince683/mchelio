@@ -64,6 +64,20 @@ InertiaMultiplier = 1.104
 ThrottleAcceleration = 0.037
 EngineDrag = 0.01
 
+NewFlightThrottleResponse = 1.03
+NewFlightThrottleChangeRateUp = 0.01
+NewFlightThrottleChangeRateDown = 0.013
+NewFlightIdleThrottle = 0.065
+NewFlightEngineBrakeDrag = 0.0028
+NewFlightLowThrottleLiftRetention = 0.82
+NewFlightThrottleControlAuthorityScale = 0.15
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.16
+NewFlightCombatFlapDrag = 0.012
+NewFlightCombatFlapControl = 0.15
+NewFlightCombatFlapOverspeed = 0.74
+
 HUD = planenvg, plane_gnrnvg
 
 AddSeat = 0.00, 1.60, 0.49

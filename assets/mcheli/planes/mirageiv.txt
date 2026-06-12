@@ -50,6 +50,16 @@ YawDamping = 0.49
 InertiaMultiplier = 1.296
 ThrottleAcceleration = 0.035
 EngineDrag = 0.01
+
+NewFlightThrottleResponse = 1.16
+NewFlightThrottleChangeRateUp = 0.005
+NewFlightThrottleChangeRateDown = 0.0065
+NewFlightIdleThrottle = 0.075
+NewFlightEngineBrakeDrag = 0.0022
+NewFlightLowThrottleLiftRetention = 0.8
+NewFlightThrottleControlAuthorityScale = 0.28
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 CameraPosition = 0.0, 0.70, 1.6
 EnableGunnerMode = true
 AutoPilotRot = 0
