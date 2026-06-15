@@ -1,69 +1,124 @@
-# Getting Started Guide
+# Getting Started with MC Helicopter Overdrive+
 
-This guide is for players installing MC Helicopter Overdrive+ for the first time.
+This guide explains the basic workflow for installing, finding, placing, and operating the mod's content.
 
-## 1. Confirm your version
+## Version and dependency expectations
 
-MC Helicopter Overdrive+ in this repository is packaged for:
+MC Helicopter Overdrive+ in this repository targets Minecraft `1.7.10`, Forge `1.7.10`, mod id `mcheli`, and packaged version `1.9.23`. Install the required `hbm`/Ragex Nuclear Tech dependency expected by your release, and do not install this package into a modern Minecraft instance unless you are using a compatibility layer specifically made for 1.7.10 Forge mods.
 
-- Minecraft `1.7.10`
-- Minecraft Forge for `1.7.10`
-- Mod id `mcheli`
-- Packaged version `1.9.23`
 
-Do not install this package into a modern Minecraft instance unless you are using a compatibility layer specifically made for 1.7.10 Forge mods.
+## 1. Install the mod and assets
 
-## 2. Install the mod
+MC Helicopter Overdrive+ is code plus MCHeli-style content assets. The Java mod registers systems, items, commands, entities, and rendering; the content pack provides most vehicle definitions, models, textures, HUD files, sounds, and recipes.
 
-1. Install Minecraft 1.7.10.
-2. Install Forge for Minecraft 1.7.10.
-3. Download MC Helicopter Overdrive+ from the project's CurseForge, Modrinth, Nexus Mods, or itch.io page.
-4. Install the required `hbm`/Ragex Nuclear Tech dependency expected by your release.
-5. Put the supplied mod package in `.minecraft/mods` or your launcher profile's `mods` directory.
-6. Start the game once so `config/mcheli.cfg` is generated.
+Expected content folders include:
 
-## 3. Start with creative testing
+```text
+assets/mcheli/hud
+assets/mcheli/weapons
+assets/mcheli/helicopters
+assets/mcheli/planes
+assets/mcheli/ships
+assets/mcheli/tanks
+assets/mcheli/vehicles
+assets/mcheli/item
+assets/mcheli/throwable
+assets/mcheli/models
+assets/mcheli/textures
+assets/mcheli/sounds
+assets/mcheli/sounds.json
+```
 
-The content set is large. For a first session, use a creative test world before adding the mod to an existing survival world.
+In a normal Minecraft install, put the mod jar and matching content in `mods/`. In the development run directory, the code expects assets under `build/run/mods/mcheli/`.
 
-Suggested first checks:
+## 2. Start the game once
 
-1. Open the MC Helicopter creative tabs.
-2. Place or craft a Drafting Table.
-3. Spawn one simple ground vehicle and one simple helicopter.
-4. Verify sounds, textures, keybinds, weapons, and HUDs work.
-5. Open `Options > Controls` and adjust conflicting keys.
+The first launch creates `config/mcheli.cfg`. The mod writes the file back out with current defaults, command permission examples, damage multipliers, ignored projectile classes, and key configuration values.
 
-## 4. Learn the core loop
+## 3. Find content in creative mode
 
-Most gameplay follows this flow:
+The mod creates several creative tabs:
 
-1. **Craft components** such as frames, mechanic parts, cannon parts, engines, or armor components.
-2. **Use the Drafting Table** to craft vehicles and support items.
-3. **Fuel vehicles** if fuel is enabled.
-4. **Load ammunition** or use configured weapon reload behavior.
-5. **Mount the vehicle**, switch weapon groups, use zoom/camera modes, and operate countermeasures or support systems.
-6. **Repair vehicles** with the wrench/maintenance systems if damage and repair settings are enabled.
+- `MCHeliO Item`
+- `MCHeliO Recipe Items`
+- `MCHeliO Helicopters`
+- `MCHeliO Planes`
+- `MCHeliO Ships`
+- `MCHeliO Tanks`
+- `MCHeliO Vehicles`
 
-## 5. Default keybind areas
+If a tab is empty or an expected vehicle is missing, verify that the matching asset folder is installed and that the content definition loaded without errors.
 
-Exact key values are stored in `mcheli.cfg` as LWJGL key/mouse codes. The most important default bindings include movement keys, mouse weapon controls, weapon switching, zoom, camera mode, unmount, flares/chaff, maintenance, APS, landing gear, rack controls, scoreboard, and multiplayer manager.
+## 4. Craft or place the Drafting Table
 
-If another mod uses the same keys, change MC Helicopter bindings in Minecraft controls or in `mcheli.cfg`.
+The mod registers a **Drafting Table** and a lit Drafting Table variant. The Drafting Table is the main recipe interface for MCHeli content when recipes are enabled.
 
-## 6. Recommended first server settings
+Default Drafting Table recipe:
 
-For public or semi-public servers, review these settings before launch:
+```text
+"R  ", "PCP", "F F", R, redstone, C, crafting_table, P, planks, F, fence
+```
 
-- `EnableCommand`
-- `CommandPermission`
-- `Explosion_DestroyBlock`
-- `Explosion_FlamingBlock`
-- `Collision_DestroyBlock`
-- `InfinityAmmo`
-- `InfinityFuel`
-- `KillPassengersWhenDestroyed`
-- `AutoRepairHP` and `AutoRepairEnabled`
-- Speed multipliers such as `AllPlaneSpeed`, `AllHeliSpeed`, `AllTankSpeed`, and `AllShipSpeed`
+Set `ItemRecipe_DraftingTable` in `mcheli.cfg` to change or disable the recipe according to the recipe parser behavior used by your pack.
 
-See [Server Administration](server-administration.md) for recommended policies.
+## 5. Place and use vehicles
+
+- Vehicle placement is controlled by item definitions and global settings.
+- If `PlaceableOnSpongeOnly = true`, vehicle placement is restricted to sponge blocks.
+- Global speed scalars are controlled by `AllHeliSpeed`, `AllPlaneSpeed`, `AllShipSpeed`, and `AllTankSpeed`.
+- Fuel and ammunition requirements are controlled by content definitions and global `InfinityFuel`/`InfinityAmmo` settings.
+
+## 6. Default controls
+
+The config stores key codes rather than names. Common defaults:
+
+| Action | Config key | Default |
+| --- | --- | --- |
+| Forward/up | `KeyUp` | W |
+| Back/down | `KeyDown` | S |
+| Right | `KeyRight` | D |
+| Left | `KeyLeft` | A |
+| Switch gunner/mode | `KeySwitchGunner` | H |
+| Switch hovering | `KeySwitchHovering` | Space |
+| Use weapon | `KeyUseWeapon` | Right Click |
+| Attack/current lock | `KeyAttack`, `KeyCurrentWeaponLock` | Left Click |
+| Switch weapon 1 | `KeySwitchWeapon1` | Middle Click |
+| Switch weapon 2 | `KeySwitchWeapon2` | G |
+| Switch weapon mode | `KeySwitchWeaponMode` | X |
+| Zoom | `KeyZoom` | Z |
+| Camera mode | `KeyCameraMode` | C |
+| Dismount mob/seat action | `KeyUnmountMob` | Y |
+| Flares/chaff/maintenance/APS | `KeyFlare`, `KeyChaff`, `KeyMaintenance`, `KeyAPS` | V |
+| Extra function | `KeyExtra` | F |
+| Free look | `KeyFreeLook` | Left Control |
+| Open MCHeli GUI | `KeyGUI` | R |
+| Gear | `KeyGearUpDown` | B |
+| Rack up/down | `KeyPutToRack`, `KeyDownFromRack` | J / U |
+| Scoreboard | `KeyScoreboard` | L |
+| Multiplayer manager | `KeyMultiplayManager` | M |
+
+## 7. Useful first configuration changes
+
+For survival-friendly servers:
+
+```text
+Explosion_DestroyBlock = false
+Collision_DestroyBlock = false
+InfinityAmmo = false
+InfinityFuel = false
+PlaceableOnSpongeOnly = true
+```
+
+For creative testing:
+
+```text
+InfinityAmmo = true
+InfinityFuel = true
+EnableDebugBoundingBox = true
+```
+
+## 8. Next steps
+
+- Read [Configuration Reference](configuration.md) for defaults and server/client impact.
+- Read [Command and Permission Reference](commands.md) before granting admin tools.
+- Read [Server Administration Guide](server-administration.md) for safe server defaults.

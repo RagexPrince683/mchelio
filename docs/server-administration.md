@@ -1,92 +1,84 @@
 # Server Administration Guide
 
-MC Helicopter Overdrive+ can be server-friendly, but its vehicle count, projectile count, explosions, and administrative commands require deliberate configuration.
+This guide focuses on safe defaults and operational practices for multiplayer servers.
 
-## Install requirements
+## Installation checklist
 
-- Run a Minecraft 1.7.10 Forge server.
-- Install the same MC Helicopter Overdrive+ package on the server and all clients.
-- Install required dependencies on both sides.
-- Distribute the same asset/config pack to clients when running a curated server.
+- Install Forge 1.7.10 on the server.
+- Put the MC Helicopter Overdrive+ jar in `mods/`.
+- Install the same MCHeli asset/content pack expected by your clients.
+- Start once to generate `config/mcheli.cfg`.
+- Stop the server and review world-damage, command, and permission settings.
+- Require clients to use the same mod and compatible assets.
 
-## First-launch checklist
+## Recommended survival-server baseline
 
-1. Start the server once to generate `config/mcheli.cfg`.
-2. Stop the server.
-3. Review destructive options:
-   - `Explosion_DestroyBlock`
-   - `Explosion_FlamingBlock`
-   - `Collision_DestroyBlock`
-   - car/tank breakable block and material lists
-4. Review economy/survival options:
-   - `ItemFuel`
-   - `ItemDamage`
-   - `InfinityAmmo`
-   - `InfinityFuel`
-   - recipe toggles
-5. Review command access:
-   - `EnableCommand`
-   - `CommandPermission`
-6. Restart and test with a small group before opening the server.
+```text
+EnableCommand = true
+PlaceableOnSpongeOnly = true
+Explosion_DestroyBlock = false
+Explosion_FlamingBlock = false
+Collision_DestroyBlock = false
+Collision_EntityDamage = true
+Collision_EntityTankDamage = false
+InfinityAmmo = false
+InfinityFuel = false
+DropItemInCreativeMode = false
+EnableDebugBoundingBox = false
+```
 
-## Destructive gameplay controls
+This limits accidental terrain damage while preserving vehicle combat and admin tooling.
 
-If your world should not be heavily griefable, consider:
+## Command permissions
 
-- Disable explosion block damage.
-- Disable explosion fire.
-- Disable collision block destruction.
-- Restrict vehicles/weapons through recipes, permissions, claims, or external protection mods.
-- Keep administrative entity commands restricted.
+Operators can use all MCHeli commands. For non-operators, grant only the exact subcommands required:
 
-## Performance controls
+```text
+CommandPermission = status:Moderator1
+CommandPermission = modlist:Moderator1, Moderator2
+CommandPermission = reconfig:AdminHelper
+```
 
-Potentially high-impact systems include:
+Avoid granting destructive commands (`fill`, `killentity`, `removeentity`, `attackentity`) to normal users.
 
-- Large numbers of projectiles and bomblets.
-- Many vehicles with active weapons, radar, or AI/seat entities.
-- Long render distances and high LOD settings on clients.
-- Large `/mcheli fill` operations.
-- Entity accumulation from battles.
+## Runtime reloads
 
-Useful tools/settings:
+Use:
 
-- `/mcheli status entity [minNum]`
-- `/mcheli status tile [minNum]`
-- `/mcheli removeentity <classFragment>` for emergency cleanup
-- `EnableAircraftLODRender`
-- `AircraftLODStartDistance`
-- `AircraftLODFarDistance`
-- `RenderDistanceWeight`
-- `MobRenderDistanceWeight`
-- `DespawnCount`
+```text
+/mcheli reconfig
+```
 
-## Multiplayer command policy
+This reloads the server config and sends updated server settings to clients. Some client-only rendering/keybind changes still require client restart or local config reload.
 
-Recommended access:
+## Entity cleanup and diagnostics
 
-| Staff role | Suggested commands |
-| --- | --- |
-| Helper | none, or `list` only |
-| Moderator | `list`, `status` |
-| Admin | `list`, `status`, `reconfig`, `showboundingbox` |
-| Technical owner | all commands, including destructive commands |
+Useful diagnostics:
 
-Be especially careful with `fill`, `killentity`, `removeentity`, and `attackentity`.
+```text
+/mcheli status entity 5
+/mcheli status tile 5
+```
 
-## Client expectations
+Emergency cleanup examples:
 
-Players should be told to:
+```text
+/mcheli removeentity EntityBullet
+/mcheli killentity EntityParachute
+```
 
-- Use the exact modpack version required by the server.
-- Keep Dynamic FOV enabled for zoom behavior.
-- Disable OptiFine Fast Render if thermal/vision effects break.
-- Report key conflicts and remap controls before combat events.
+Be careful: matching is a case-insensitive substring search against full Java class names and excludes players only.
 
-## Updating a server
+## Performance notes
 
-1. Back up the world, configs, and current mod files.
-2. Read release notes for dependency changes.
-3. Replace the mod on server and clients together.
-4. Compare new generated config options against your existing `mcheli.cfg`.
-5. Test recipes, critical vehicles, and major weapons in a staging world.
+- `EnableAircraftLODRender`, `AircraftLODStartDistance`, and `AircraftLODFarDistance` are client-side rendering aids for far vehicle snapshots.
+- `MultiThreadedModelLoading = true` enables threaded model loading and is on by default.
+- Large asset packs can increase startup time and memory use.
+- `RenderDistanceWeight` and `MobRenderDistanceWeight` can affect how far mod entities render.
+
+## Pack policy recommendations
+
+- Publish the exact asset pack version with your server pack.
+- Keep a known-good copy of `mcheli.cfg` under version control outside the live server.
+- Disable terrain damage before public events unless vehicle griefing is intended.
+- Test every added vehicle definition in a staging world before deployment.
