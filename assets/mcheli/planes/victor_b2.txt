@@ -48,29 +48,42 @@ AddBlade = 1,0,   3.631,  2.416,  -2.367,   0, 0, -1
 Category = SB
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0088
+NewFlightThrottleResponse = 1.22
+NewFlightThrottleChangeRateUp = 0.0032
+NewFlightThrottleChangeRateDown = 0.0048
+NewFlightIdleThrottle = 0.12
+NewFlightEngineBrakeDrag = 0.0032
+NewFlightLowThrottleLiftRetention = 0.91
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 17000
 FlightCeilingRange = 64
-MaxLevelSpeed = 1.757
-StallSpeedFactor = 0.218
-StallSpeed = 0.383
-CriticalAoA = 15
-StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
-StallInstability = 0.38
-BaseDrag = 0.0017
-InducedDrag = 0.0068
-ControlSurfaceDrag = 0.0028
-ClimbEnergyLoss = 0.0056
-DiveEnergyGain = 0.0090
-IdleDrag = 0.0038
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 3
-MaxStructuralG = 5
-GControlPenalty = 0.7
+StallSpeed = 0.334
+CriticalAoA = 13.5
+StallLiftLoss = 0.74
+AoADragMultiplier = 2.15
+StallInstability = 0.3
+StallRecoverySpeed = 0.448
+StallSpeedFactor = 0.19
+StallStrength = 0.82
+DiveSpeedMultiplier = 1.14
+MaxComfortableG = 2.8
+MaxStructuralG = 5.2
+GControlPenalty = 0.78
 CompressibilitySpeed = 1.581
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 2.038
-OverspeedDamageRate = 0
+CompressibilityPitchPenalty = 0.58
+MaxSafeSpeed = 1.933
+OverspeedDamageRate = 0.18
+BaseDrag = 0.0029
+InducedDrag = 0.011
+ControlSurfaceDrag = 0.0042
+ClimbEnergyLoss = 0.013
+DiveEnergyGain = 0.0065
+MaxLevelSpeed = 1.616
+IdleDrag = 0.0040
+
 PitchTorque = 0.27
 RollTorque = 0.275
 YawTorque = 0.193
@@ -80,16 +93,6 @@ YawDamping = 0.561
 InertiaMultiplier = 1.776
 ThrottleAcceleration = 0.026
 EngineDrag = 0.011
-
-NewFlightThrottleResponse = 1.1
-NewFlightThrottleChangeRateUp = 0.0045
-NewFlightThrottleChangeRateDown = 0.006
-NewFlightIdleThrottle = 0.09
-NewFlightEngineBrakeDrag = 0.0024
-NewFlightLowThrottleLiftRetention = 0.83
-NewFlightThrottleControlAuthorityScale = 0.27
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 
 HUD = plane, plane_gnr
 
@@ -108,14 +111,12 @@ AddPartWeaponBay = vic250kg/smallboy/grandslam, 0.85, 2.05, -3.13, 0, 0, 1, 60
 
 AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
 
-
 AddWeapon = vic250kg,   0.00,  1.80, -4.13,  0, 0 , true,  2
 AddWeapon = vic250kg,   0.00,  1.80, -6.13,  0, 0 , true,  2
 
 AddWeapon = smallboy,   0.00,  1.80, -6.13,  0, 0 , true,  2
 
 AddWeapon = grandslam,   0.00,  1.80, -6.13,  0, 0 , true,  2
-
 
 BoundingBox = 0.0, 2.6, 0.0, 2.8, 2.8
 BoundingBox = 0.0, 2.6, -2.8, 2.8, 2.8
@@ -164,8 +165,6 @@ BoundingBox = -0.84, 6.69, -21.81, 2.0, 0.3
 
 BoundingBox = 0.0, 6.39, -20.81, 2.0, 0.3
 ;BoundingBox = -0.44, 6.59, -21.81, 2.0, 0.3
-
-
 
 ;med large bomber aircraft semi modern, AOW3 style
 AddRecipe = "ABC", "D C", " E ", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics

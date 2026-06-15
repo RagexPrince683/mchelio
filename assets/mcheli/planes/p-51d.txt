@@ -6,6 +6,46 @@ MaxHp = 100
 Speed = 1.08
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 0.95
+NewFlightThrottleChangeRateUp = 0.0065
+NewFlightThrottleChangeRateDown = 0.0090
+NewFlightIdleThrottle = 0.085
+NewFlightEngineBrakeDrag = 0.0055
+NewFlightLowThrottleLiftRetention = 0.86
+NewFlightThrottleControlAuthorityScale = 0.16
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.2
+NewFlightCombatFlapDrag = 0.014
+NewFlightCombatFlapControl = 0.18
+NewFlightCombatFlapOverspeed = 0.7
+FlightCeiling = 12800
+FlightCeilingRange = 56
+StallSpeed = 0.259
+CriticalAoA = 17.0
+StallLiftLoss = 0.68
+AoADragMultiplier = 1.85
+StallInstability = 0.42
+StallRecoverySpeed = 0.332
+StallSpeedFactor = 0.24
+StallStrength = 0.72
+DiveSpeedMultiplier = 1.2
+MaxComfortableG = 5
+MaxStructuralG = 8.5
+GControlPenalty = 0.62
+CompressibilitySpeed = 1.102
+CompressibilityPitchPenalty = 0.45
+MaxSafeSpeed = 1.318
+OverspeedDamageRate = 0.12
+BaseDrag = 0.0022
+InducedDrag = 0.0088
+ControlSurfaceDrag = 0.0034
+ClimbEnergyLoss = 0.0095
+DiveEnergyGain = 0.0090
+MaxLevelSpeed = 1.037
+IdleDrag = 0.0055
+
 PitchTorque = 0.46
 RollTorque = 0.55
 YawTorque = 0.32
@@ -15,30 +55,6 @@ YawDamping = 0.39
 InertiaMultiplier = 0.96
 ThrottleAcceleration = 0.024
 EngineDrag = 0.012
-
-NewFlightThrottleResponse = 0.86
-NewFlightThrottleChangeRateUp = 0.014
-NewFlightThrottleChangeRateDown = 0.017
-NewFlightIdleThrottle = 0.095
-NewFlightEngineBrakeDrag = 0.0046
-NewFlightLowThrottleLiftRetention = 0.89
-NewFlightThrottleControlAuthorityScale = 0.12
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = true
-NewFlightCombatFlapLift = 0.18
-NewFlightCombatFlapDrag = 0.012
-NewFlightCombatFlapControl = 0.17
-NewFlightCombatFlapOverspeed = 0.72
-FlightCeiling = 12800
-FlightCeilingRange = 40
-MaxLevelSpeed = 1.08
-StallSpeed = 0.245
-StallRecoverySpeed = 0.274
-CriticalAoA = 19
-MaxComfortableG = 8
-MaxStructuralG = 11
-BaseDrag = 0.002
-InducedDrag = 0.006
 
 ;441 
 
@@ -54,19 +70,6 @@ UnmountPosition = 0.0,  1.80, -1.82
 
 ; W = WWII.  F = Fighter(戦闘機)
 Category = FA
-OverspeedDamageRate = 0
-MaxSafeSpeed = 2.052
-CompressibilityPitchPenalty = 0
-CompressibilitySpeed = 1.674
-GControlPenalty = 0.55
-DiveSpeedMultiplier = 1.18
-IdleDrag = 0.0042
-DiveEnergyGain = 0.0085
-ClimbEnergyLoss = 0.0060
-ControlSurfaceDrag = 0.003
-StallInstability = 0.34
-AoADragMultiplier = 1.55
-StallLiftLoss = 0.64
 
 HUD = plane_wwii
 
@@ -120,14 +123,12 @@ BoundingBox =  0.00, 3.77, -8.40,   0.2, 2.0,  1.0
 BoundingBox =  0.00, 3.77, -8.30,   0.2, 2.0,  1.0
 BoundingBox =  0.00, 3.77, -8.20,   0.2, 2.0,  1.0
 
-
 BoundingBox =  1.50, 2.85, -7.95,   1.3, 0.1,  1.0
 BoundingBox = -1.50, 2.85, -7.95,   1.3, 0.1,  1.0
 BoundingBox =  2.20, 1.55, -1.50,   2.8, 0.4,  1.0
 BoundingBox = -2.20, 1.55, -1.50,   2.8, 0.4,  1.0
 BoundingBox =  5.15, 1.75, -1.35,   2.2, 0.3,  1.0
 BoundingBox = -5.15, 1.75, -1.35,   2.2, 0.3,  1.0
-
 
 RotorSpeed = 2000.0
 

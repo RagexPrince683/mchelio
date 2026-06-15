@@ -9,7 +9,6 @@ EnableEjectionSeat = true
 Speed = 1.697
 ;606mph
 
-
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -21,32 +20,49 @@ SmoothShading = true
 Category = AA/CAS
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.18
+NewFlightThrottleChangeRateUp = 0.0055
+NewFlightThrottleChangeRateDown = 0.0075
+NewFlightIdleThrottle = 0.095
+NewFlightEngineBrakeDrag = 0.0030
+NewFlightLowThrottleLiftRetention = 0.88
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.14
+NewFlightCombatFlapDrag = 0.0090
+NewFlightCombatFlapControl = 0.12
+NewFlightCombatFlapOverspeed = 0.78
 FlightCeiling = 7000
-FlightCeilingRange = 48
+FlightCeilingRange = 72
+StallSpeed = 0.32
+CriticalAoA = 18.0
+StallLiftLoss = 0.66
+AoADragMultiplier = 1.45
+StallInstability = 0.32
+StallRecoverySpeed = 0.41
+StallSpeedFactor = 0.18
+StallStrength = 0.62
+DiveSpeedMultiplier = 1.28
+MaxComfortableG = 7.5
+MaxStructuralG = 10.0
+GControlPenalty = 0.58
+CompressibilitySpeed = 1.629
+CompressibilityPitchPenalty = 0.5
+MaxSafeSpeed = 2.07
+OverspeedDamageRate = 0.14
+BaseDrag = 0.0013
+InducedDrag = 0.0054
+ControlSurfaceDrag = 0.0024
+ClimbEnergyLoss = 0.0058
+DiveEnergyGain = 0.011
 MaxLevelSpeed = 1.697
-StallSpeedFactor = 0.215
-StallSpeed = 0.365
-CriticalAoA = 19
-StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
-StallInstability = 0.38
-BaseDrag = 0.0017
-InducedDrag = 0.0064
-ControlSurfaceDrag = 0.0027
-ClimbEnergyLoss = 0.0054
-DiveEnergyGain = 0.0095
-IdleDrag = 0.0038
+IdleDrag = 0.0034
+
 MobilityYaw = 0.954
 MobilityPitch = 1.07
 MobilityRoll = 1.188
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 6.5
-MaxStructuralG = 8.5
-GControlPenalty = 0.7
-CompressibilitySpeed = 1.527
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 1.969
-OverspeedDamageRate = 0
 PitchTorque = 0.421
 RollTorque = 0.462
 YawTorque = 0.31
@@ -57,19 +73,6 @@ InertiaMultiplier = 1.152
 ThrottleAcceleration = 0.033
 EngineDrag = 0.011
 
-NewFlightThrottleResponse = 1.15
-NewFlightThrottleChangeRateUp = 0.0078
-NewFlightThrottleChangeRateDown = 0.01
-NewFlightIdleThrottle = 0.075
-NewFlightEngineBrakeDrag = 0.0035
-NewFlightLowThrottleLiftRetention = 0.81
-NewFlightThrottleControlAuthorityScale = 0.18
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = true
-NewFlightCombatFlapLift = 0.15
-NewFlightCombatFlapDrag = 0.011
-NewFlightCombatFlapControl = 0.14
-NewFlightCombatFlapOverspeed = 0.72
 HUD = planenvg
 ;HUD = plane only for mercury system
 ThrottleUpDown = 0.3
@@ -79,7 +82,6 @@ AddPartCanopy = -0.6, 2.26, 3.28, 0, 0, 1, 90
 AddSeat = 0,1.33,3.48
 
 AddTexture = su251
-
 
 AddPartLG =  0, 0.87, 3.97,  1,0,0, -120
 AddPartLGRev =0.44,0.84,3.69,-0.02,0,1,90
@@ -116,7 +118,6 @@ AddPartSteeringWheel =   0.1, 1.35, 3.99,   0.0,0,1, -10
 
 ; パラメータは前から順に 武器設定ファイル名、位置(X,Y,Z)、回転角度(横,縦), パイロット使用可否, 座席, DefaultYaw, MinYaw, MaxYaw, MinPitch, MaxPitch
 
-
 ;250rd
 AddWeapon = su25gsh-30-2, 0.18, 0.83,  6.15
 
@@ -142,8 +143,6 @@ AddWeapon = s-8_su25,  4.24, 1.24, 1.2, 0.0, 0.0 , true, 2
 AddWeapon = su25s13,  -3.35, 1.35, 1.3, 0.0, 0.0 , true, 2
 AddWeapon = su25s13,  3.35, 1.35, 1.3, 0.0, 0.0 , true, 2
 
-
-
 BoundingBox =  0,1.3, 6.3,  1.5, 1,0.9
 BoundingBox =  0,1.3, 4.7,  1.5, 1,0.87
 
@@ -153,7 +152,6 @@ BoundingBox =  0,1.8, 1.3, 1.6, 2.0, 1.0
 BoundingBox =  0,1.8, -0.2, 1.6, 2.0, 1.0
 BoundingBox =  0,1.8, -1.8, 1.6, 2.0, 1.0
 BoundingBox =  0,1.8, -3.4, 1.6, 2.0, 1.0
-
 
 BoundingBox = -1.1, 1.65, 1.3, 0.8, 1.69, 
 BoundingBox = 1.1, 1.65, 1.3, 0.8, 1.69, 
@@ -180,16 +178,10 @@ BoundingBox = -1.1, 1.65, -4.3, 0.8, 0.95, 1.5
 BoundingBox = 1.1, 1.65, -4.3, 0.8, 0.95,  1.5
  
 
-
-
-
-
 BoundingBox =  0.0, 3.6, -6,  1, 2.8,2.5
 BoundingBox =  0.0, 4.0, -7,  1, 3,2.5
 BoundingBox =  0.0, 3.0, -5,  1, 2.0,2.5
 BoundingBox =  0.0, 2.0, -4,  1, 1.8,1.0
-
-
 
 BoundingBox =  1.5, 2.6, -6.8,  1.45, 0.3, 1.1
 
@@ -197,18 +189,14 @@ BoundingBox =  -1.5, 2.6, -6.8,  1.45, 0.3, 1.1
 
 BoundingBox =  -0.0, 2.6, -6.8,  1.6, 0.2, 1.1
 
-
 BoundingBox =  2.5, 2.15, -1.95, 2.75, 0.5,0.6
 BoundingBox =  -2.5, 2.15, -1.95, 2.75, 0.5,0.6
-
 
 BoundingBox =  4.5, 2.15, -2.05, 2.00, 0.4,0.6
 BoundingBox =  -4.5, 2.15, -2.05, 2.00, 0.4,0.6
 
-
 BoundingBox =  5.9, 2.09, -2.15, 1.45, 0.3,0.6
 BoundingBox =  -5.9, 2.09, -2.15, 1.45, 0.3,0.6
-
 
 ;AddFixedSearchLight =  0, 0, 0,  0,   0,    0, 0,  0,  0
 ;original su-25

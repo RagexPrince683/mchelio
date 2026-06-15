@@ -26,29 +26,42 @@ StepHeight = -1.0
 Category = SA/TA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0088
+NewFlightThrottleResponse = 1.22
+NewFlightThrottleChangeRateUp = 0.0032
+NewFlightThrottleChangeRateDown = 0.0048
+NewFlightIdleThrottle = 0.12
+NewFlightEngineBrakeDrag = 0.0032
+NewFlightLowThrottleLiftRetention = 0.91
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 10600
 FlightCeilingRange = 64
-MaxLevelSpeed = 1.489
-StallSpeedFactor = 0.239
-StallSpeed = 0.357
-CriticalAoA = 14
-StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
-StallInstability = 0.38
-BaseDrag = 0.0017
-InducedDrag = 0.0068
-ControlSurfaceDrag = 0.0028
-ClimbEnergyLoss = 0.0056
-DiveEnergyGain = 0.0090
-IdleDrag = 0.0038
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 2.5
-MaxStructuralG = 4
-GControlPenalty = 0.7
+StallSpeed = 0.283
+CriticalAoA = 13.5
+StallLiftLoss = 0.74
+AoADragMultiplier = 2.15
+StallInstability = 0.3
+StallRecoverySpeed = 0.379
+StallSpeedFactor = 0.19
+StallStrength = 0.82
+DiveSpeedMultiplier = 1.14
+MaxComfortableG = 2.8
+MaxStructuralG = 5.2
+GControlPenalty = 0.78
 CompressibilitySpeed = 1.34
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 1.727
-OverspeedDamageRate = 0
+CompressibilityPitchPenalty = 0.58
+MaxSafeSpeed = 1.638
+OverspeedDamageRate = 0.18
+BaseDrag = 0.0029
+InducedDrag = 0.011
+ControlSurfaceDrag = 0.0042
+ClimbEnergyLoss = 0.013
+DiveEnergyGain = 0.0065
+MaxLevelSpeed = 1.37
+IdleDrag = 0.0040
+
 PitchTorque = 0.27
 RollTorque = 0.275
 YawTorque = 0.193
@@ -59,15 +72,6 @@ InertiaMultiplier = 1.776
 ThrottleAcceleration = 0.026
 EngineDrag = 0.011
 
-NewFlightThrottleResponse = 1.02
-NewFlightThrottleChangeRateUp = 0.0055
-NewFlightThrottleChangeRateDown = 0.007
-NewFlightIdleThrottle = 0.095
-NewFlightEngineBrakeDrag = 0.0028
-NewFlightLowThrottleLiftRetention = 0.86
-NewFlightThrottleControlAuthorityScale = 0.24
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 HUD = planenvg,planenvg, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
 MobilityRoll = 0.486
@@ -83,7 +87,6 @@ AddSeat =  0.58,  4.59,  1.75
 AddSeat = -0.58,  4.59,  1.75
 AddSeat =  0.71,  2.9, -0.38
 AddSeat = -0.71,  2.9,  -0.38
-
 
 AddSeat =  2.6,  2.2,  -7.8
 AddSeat = -2.6,  2.2,  -7.8
@@ -113,7 +116,6 @@ AddSeat =  2.6,  2.2,  -15.8
 AddSeat = -2.6,  2.2,  -15.8
 
 AddSeat =  2.6,  2.2,  -16
-
 
 AddPartRotor = 12.0203, 4.1816, -18.57,   0,0,-1
 AddBlade = 1, 0, 12.0203, 4.1816, -18.57, 0,0,-1
@@ -219,10 +221,8 @@ BoundingBox = -2.90, 18.03, -62.23, 4.0, 0.5
 BoundingBox = 6.90, 18.03, -64.23, 4.0, 0.5
 BoundingBox = -6.90, 18.03, -64.23, 4.0, 0.5
 
-
 ;basic unarmed transport mil massive plane, AOW3 style
 AddRecipe = "ABC", "DA ", "EAE", A, mcheli:airframebomb, B, mcheli:basicmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics
-
 
 ; AddRack=Entity type,                    RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute atl,  Yaw, Pitch
 AddRack = mh-60g/mh-60l_dap/sh-60/sh-3,   0, 2.1,  -4.8,   0, 0, -2.5,      11,    100000
@@ -240,7 +240,6 @@ AddRack = container,   2.0, 2.1, -32.5,  0, 0,  -4.3,   15,    20
 AddRack = container,  -2.0, 2.1, -32.5,  0, 0,  -4.3,   15,    20
 AddRack = container,   2.0, 2.1, -34.0,  0, 0,  -4.3,   15,    20
 AddRack = container,  -2.0, 2.1, -34.0,  0, 0,  -4.3,   15,    20
-
 
 DamageFactor = 0.8
 

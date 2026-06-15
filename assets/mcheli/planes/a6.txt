@@ -25,32 +25,49 @@ enableback = true
 Category = AA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.25
+NewFlightThrottleChangeRateUp = 0.0048
+NewFlightThrottleChangeRateDown = 0.0068
+NewFlightIdleThrottle = 0.10
+NewFlightEngineBrakeDrag = 0.0038
+NewFlightLowThrottleLiftRetention = 0.86
+NewFlightThrottleControlAuthorityScale = 0.13
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.17
+NewFlightCombatFlapDrag = 0.011
+NewFlightCombatFlapControl = 0.14
+NewFlightCombatFlapOverspeed = 0.74
 FlightCeiling = 12900
-FlightCeilingRange = 44
-MaxLevelSpeed = 1.81
-StallSpeedFactor = 0.183
-StallSpeed = 0.331
-CriticalAoA = 17
+FlightCeilingRange = 56
+StallSpeed = 0.38
+CriticalAoA = 15.5
 StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
+AoADragMultiplier = 1.7
 StallInstability = 0.38
-BaseDrag = 0.0017
-InducedDrag = 0.0064
-ControlSurfaceDrag = 0.0027
-ClimbEnergyLoss = 0.0054
-DiveEnergyGain = 0.0095
-IdleDrag = 0.0038
+StallRecoverySpeed = 0.494
+StallSpeedFactor = 0.21
+StallStrength = 0.7
+DiveSpeedMultiplier = 1.24
+MaxComfortableG = 5.8
+MaxStructuralG = 8.5
+GControlPenalty = 0.66
+CompressibilitySpeed = 1.683
+CompressibilityPitchPenalty = 0.62
+MaxSafeSpeed = 2.136
+OverspeedDamageRate = 0.16
+BaseDrag = 0.0018
+InducedDrag = 0.0068
+ControlSurfaceDrag = 0.0029
+ClimbEnergyLoss = 0.0078
+DiveEnergyGain = 0.011
+MaxLevelSpeed = 1.774
+IdleDrag = 0.0043
+
 MobilityYaw = 0.954
 MobilityPitch = 1.07
 MobilityRoll = 1.188
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 6.5
-MaxStructuralG = 8
-GControlPenalty = 0.7
-CompressibilitySpeed = 1.629
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 2.1
-OverspeedDamageRate = 0
 PitchTorque = 0.421
 RollTorque = 0.462
 YawTorque = 0.31
@@ -60,20 +77,6 @@ YawDamping = 0.449
 InertiaMultiplier = 1.152
 ThrottleAcceleration = 0.033
 EngineDrag = 0.011
-
-NewFlightThrottleResponse = 1.15
-NewFlightThrottleChangeRateUp = 0.0078
-NewFlightThrottleChangeRateDown = 0.01
-NewFlightIdleThrottle = 0.075
-NewFlightEngineBrakeDrag = 0.0035
-NewFlightLowThrottleLiftRetention = 0.81
-NewFlightThrottleControlAuthorityScale = 0.18
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = true
-NewFlightCombatFlapLift = 0.16
-NewFlightCombatFlapDrag = 0.012
-NewFlightCombatFlapControl = 0.15
-NewFlightCombatFlapOverspeed = 0.74
 
 AddTexture = a62
 AddTexture = a63
@@ -91,12 +94,10 @@ AddPartWing  = 4.504, 3.23, -5.878,  0, 0, 1,  160
 ;Front
 AddPartLG    =  0.00, 1.74, 0.3636,  1,0,0, 105
 
-
 ;Left
 AddPartLG    =  1.692, 2.494, -5.77,      1,0,0, -90,   0,1,0, -100
 ;Right
 AddPartLG    = -1.692, 2.494, -5.77,      1,0,0, -90,   0,1,0,  100
-
 
 ; 使用直後は非表示
 AddPartWeaponMissile = agm84a7,    false,  false,  false,   -4.192, 2.135, -4.988
@@ -111,16 +112,12 @@ AddWeapon = agm84a7,     4.192, 2.135, -4.988,   0.0, 0.0
 AddWeapon = agm84a7,    -2.814, 1.966, -4.623,   0.0, 0.0
 AddWeapon = agm84a7,     2.814, 1.966, -4.623,   0.0, 0.0
 
-
-
 AddWeapon = gbu-12a6, 0.0, 1.9, -4.0, 0.0, 0.0
-
 
 AddWeapon = targeting_pod_ph50s,   0.0, 3.4, 0.0,    0.0, 0.0, true,  1
 
 ;modern medium-light plane (no gun early jet), AOW3 style
 AddRecipe = "ABC", "DGF", "   ", A, mcheli:airframe2, B, mcheli:basicmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, F, mcheli:rocket2, G, mcheli:electronics 
-
 
 BoundingBox =  0.00, 2.90, -3.00,  3.5, 2.8
 BoundingBox =  0.00, 2.80, -5.60,  3.0, 2.0
@@ -134,10 +131,6 @@ BoundingBox =  5.55, 3.00, -6.26,  2.0, 0.2
 
 BoundingBox = -7.55, 3.00, -7.26,  2.0, 0.2
 BoundingBox =  7.55, 3.00, -7.26,  2.0, 0.2
-
-
-
-
 
 BoundingBox =  0.00, 3.10, -10,  1.5, 1.5
 BoundingBox =  0.00, 3.15, -11.5,  1.5, 1.5

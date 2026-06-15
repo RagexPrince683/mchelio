@@ -23,29 +23,42 @@ WeightedCenterZ = -7.6
 Category = SRA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.35
+NewFlightThrottleChangeRateUp = 0.0038
+NewFlightThrottleChangeRateDown = 0.0055
+NewFlightIdleThrottle = 0.10
+NewFlightEngineBrakeDrag = 0.0028
+NewFlightLowThrottleLiftRetention = 0.88
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 25900
-FlightCeilingRange = 80
-MaxLevelSpeed = 4.0
-StallSpeedFactor = 0.12
-StallSpeed = 0.487
-CriticalAoA = 14
-StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
-StallInstability = 0.38
-BaseDrag = 0.0010
-InducedDrag = 0.0045
-ControlSurfaceDrag = 0.0025
-ClimbEnergyLoss = 0.0048
-DiveEnergyGain = 0.0110
-IdleDrag = 0.0032
-DiveSpeedMultiplier = 1.18
+FlightCeilingRange = 72
+StallSpeed = 0.64
+CriticalAoA = 12.0
+StallLiftLoss = 0.76
+AoADragMultiplier = 1.35
+StallInstability = 0.18
+StallRecoverySpeed = 0.819
+StallSpeedFactor = 0.16
+StallStrength = 0.75
+DiveSpeedMultiplier = 1.3
 MaxComfortableG = 3
-MaxStructuralG = 4.5
-GControlPenalty = 0.7
-CompressibilitySpeed = 5.544
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 7.146
-OverspeedDamageRate = 0
+MaxStructuralG = 5.5
+GControlPenalty = 0.82
+CompressibilitySpeed = 4.2
+CompressibilityPitchPenalty = 0.78
+MaxSafeSpeed = 5.12
+OverspeedDamageRate = 0.12
+BaseDrag = 0.0011
+InducedDrag = 0.0045
+ControlSurfaceDrag = 0.0022
+ClimbEnergyLoss = 0.0065
+DiveEnergyGain = 0.0090
+MaxLevelSpeed = 4
+IdleDrag = 0.0032
+
 PitchTorque = 0.259
 RollTorque = 0.286
 YawTorque = 0.193
@@ -55,16 +68,6 @@ YawDamping = 0.612
 InertiaMultiplier = 2.112
 ThrottleAcceleration = 0.033
 EngineDrag = 0.009
-
-NewFlightThrottleResponse = 1.34
-NewFlightThrottleChangeRateUp = 0.0048
-NewFlightThrottleChangeRateDown = 0.006
-NewFlightIdleThrottle = 0.055
-NewFlightEngineBrakeDrag = 0.002
-NewFlightLowThrottleLiftRetention = 0.72
-NewFlightThrottleControlAuthorityScale = 0.28
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 
 Sound = srseventyone
 
@@ -86,7 +89,6 @@ AddPartHatch =   0.0,  2.9696,  -4.86,  1,0, 0, 45
 AddPartHatch =   0.0,  2.7696,  -7.05, -1,0, 0, 45
 
 ThrottleUpDown = 0.3
-
 
 MobilityYaw = 0.371
 MobilityRoll = 0.378
@@ -121,11 +123,8 @@ AddWeapon = targeting_pod_block,   0.00, 0.49, -1.16,   0.0, 0.0, false,2
 ;modern medium-light plane (fast as shit boyyeeeeeeeee), AOW3 style
 AddRecipe = "ABC", "DFF", "BCB", A, mcheli:airframe3, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, F, mcheli:electronics
 
-
-
 ;AddRecipe = "GCG",  "CCC",  "CDC",    G, glass,  D,diamond_block,  B, iron_block,  C, coal_block,  I, iron_ingot,  P, gunpowder
 ;BoundingBox =  0.0, 1.6, 2.5,  2.0, 1.7
-
 
 BoundingBox =  0.0, 1.9, -0.6,  3.0, 1.7
 BoundingBox =  0.0, 1.8, -3.5,  3.0, 1.5
@@ -145,7 +144,6 @@ BoundingBox = -2.4, 1.6, -17,  2.0, 0.4
 BoundingBox =  2.4, 1.6, -17,  2.0, 0.4
 BoundingBox = -2.4, 1.6, -19,  2.0, 0.4
 BoundingBox =  2.4, 1.6, -19,  2.0, 0.4
-
 
 BoundingBox = -4.15, 1.7, -9.9,  1.5, 1.5, 1.5
 BoundingBox =  4.15, 1.7, -9.9,  1.5, 1.5, 1.5
@@ -167,7 +165,6 @@ BoundingBox =  4.35, 1.9, -18.7,  1.9, 1.7, 1.5
 
 BoundingBox = -4.35, 2.0, -19.0,  1.9, 1.7, 1.5
 BoundingBox =  4.35, 2.0, -19.0,  1.9, 1.7, 1.5
-
 
 BoundingBox = -3.65, 4.2, -20.5,  0.5, 2.2
 BoundingBox =  3.65, 4.2, -20.5,  0.5, 2.2

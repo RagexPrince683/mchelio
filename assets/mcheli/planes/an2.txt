@@ -6,7 +6,6 @@ MaxHp = 100
 ;130mph cruise speed
 ;160mph max speed
 
-
 Speed = 0.449
 Sound = antwo
 ThrottleUpDown = 0.4
@@ -17,8 +16,6 @@ InventorySize = 18
 
 RotorSpeed = 2000.0
 
-
-
 Regeneration = false
 
 AddTexture = an2_2
@@ -26,35 +23,46 @@ AddTexture = an2_3
 AddTexture = an2_4
 AddTexture = an2_5
 
-
 ; C = Civilian(民間機)
 Category = C/AUA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 0.95
+NewFlightThrottleChangeRateUp = 0.0065
+NewFlightThrottleChangeRateDown = 0.0090
+NewFlightIdleThrottle = 0.085
+NewFlightEngineBrakeDrag = 0.0055
+NewFlightLowThrottleLiftRetention = 0.86
+NewFlightThrottleControlAuthorityScale = 0.16
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 4500
-FlightCeilingRange = 40
-MaxLevelSpeed = 0.449
-StallSpeedFactor = 0.248
-StallSpeed = 0.111
-CriticalAoA = 18.5
-StallLiftLoss = 0.62
-AoADragMultiplier = 1.55
-StallInstability = 0.28
-StallRecoverySpeed = 0.122
-BaseDrag = 0.004
-InducedDrag = 0.009
-ControlSurfaceDrag = 0.003
-ClimbEnergyLoss = 0.006
-DiveEnergyGain = 0.008
-IdleDrag = 0.007
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 3.8
-MaxStructuralG = 5.5
-GControlPenalty = 0.65
-CompressibilitySpeed = 0.696
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 0.853
-OverspeedDamageRate = 0
+FlightCeilingRange = 56
+StallSpeed = 0.18
+CriticalAoA = 17.0
+StallLiftLoss = 0.68
+AoADragMultiplier = 1.85
+StallInstability = 0.42
+StallRecoverySpeed = 0.23
+StallSpeedFactor = 0.24
+StallStrength = 0.72
+DiveSpeedMultiplier = 1.2
+MaxComfortableG = 5
+MaxStructuralG = 8.5
+GControlPenalty = 0.62
+CompressibilitySpeed = 0.458
+CompressibilityPitchPenalty = 0.45
+MaxSafeSpeed = 0.548
+OverspeedDamageRate = 0.12
+BaseDrag = 0.0022
+InducedDrag = 0.0088
+ControlSurfaceDrag = 0.0034
+ClimbEnergyLoss = 0.0095
+DiveEnergyGain = 0.0090
+MaxLevelSpeed = 0.431
+IdleDrag = 0.0055
+
 PitchTorque = 0.3
 RollTorque = 0.3
 YawTorque = 0.24
@@ -65,15 +73,6 @@ InertiaMultiplier = 0.98
 ThrottleAcceleration = 0.018
 EngineDrag = 0.016
 
-NewFlightThrottleResponse = 0.82
-NewFlightThrottleChangeRateUp = 0.012
-NewFlightThrottleChangeRateDown = 0.016
-NewFlightIdleThrottle = 0.105
-NewFlightEngineBrakeDrag = 0.0052
-NewFlightLowThrottleLiftRetention = 0.92
-NewFlightThrottleControlAuthorityScale = 0.1
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 MobilityYaw = 0.7
 MobilityPitch = 0.82
 MobilityRoll = 0.72
@@ -88,10 +87,8 @@ ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 HUD = plane_wwii, plane_wwii, none, none, none
 
-
 AddFixedSearchLight =  6.4, 1.6, -0.47,   0x50FFFFFF,   0x00FFFFC0,  60.0, 26.0,-3, 15
 AddFixedSearchLight = -6.4, 1.6, -0.47,   0x50FFFFFF,   0x00FFFFC0,  60.0, 26.0, 3, 15
-
 
 AddSeat =  0.5267, 2.01,  0.0
 AddSeat =  -0.5267, 2.01,  0.0
@@ -111,14 +108,11 @@ AddWeapon = dispenser_water,  0.0, 0.0, 0.54,   1.0, 0.0
 
 ;;AddRecipe = "CAC", "E  ", "W W", W, hfr:item.part_wheel, A, hfr:item.part_plating_1, C, hfr:item.part_chassis_1, E, hfr:item.part_engine_2
 
-
 ;basic unarmed prop plane, AOW3 style
 AddRecipe = "ABC", "D  ", "   ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair
 
-
 BoundingBox =  0.00,  2.15, -3.41,  1.5, 1.5
 BoundingBox =  0.00,  2.15,  2.03,  1.3, 1.3
-
 
 BoundingBox =  1.88,  3.38, -0.32,  2.0, 0.3
 BoundingBox = -1.88,  3.38, -0.32,  2.0, 0.3
@@ -126,7 +120,6 @@ BoundingBox =  3.88,  3.38, -0.32,  2.0, 0.3
 BoundingBox = -3.88,  3.38, -0.32,  2.0, 0.3
 BoundingBox =  5.88,  3.38, -0.32,  2.0, 0.3
 BoundingBox = -5.88,  3.38, -0.32,  2.0, 0.3
-
 
 DamageFactor = 0.8
 

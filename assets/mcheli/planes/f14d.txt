@@ -14,6 +14,46 @@ EnableEjectionSeat = true
 Speed = 3.20
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.18
+NewFlightThrottleChangeRateUp = 0.0055
+NewFlightThrottleChangeRateDown = 0.0075
+NewFlightIdleThrottle = 0.095
+NewFlightEngineBrakeDrag = 0.0030
+NewFlightLowThrottleLiftRetention = 0.88
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.14
+NewFlightCombatFlapDrag = 0.0090
+NewFlightCombatFlapControl = 0.12
+NewFlightCombatFlapOverspeed = 0.78
+FlightCeiling = 16000
+FlightCeilingRange = 72
+StallSpeed = 0.576
+CriticalAoA = 18.0
+StallLiftLoss = 0.66
+AoADragMultiplier = 1.45
+StallInstability = 0.32
+StallRecoverySpeed = 0.737
+StallSpeedFactor = 0.18
+StallStrength = 0.62
+DiveSpeedMultiplier = 1.28
+MaxComfortableG = 7.5
+MaxStructuralG = 10.0
+GControlPenalty = 0.58
+CompressibilitySpeed = 3.072
+CompressibilityPitchPenalty = 0.5
+MaxSafeSpeed = 3.904
+OverspeedDamageRate = 0.14
+BaseDrag = 0.0013
+InducedDrag = 0.0054
+ControlSurfaceDrag = 0.0024
+ClimbEnergyLoss = 0.0058
+DiveEnergyGain = 0.011
+MaxLevelSpeed = 3.2
+IdleDrag = 0.0034
+
 PitchTorque = 0.464
 RollTorque = 0.528
 YawTorque = 0.342
@@ -24,42 +64,6 @@ InertiaMultiplier = 1.104
 ThrottleAcceleration = 0.037
 EngineDrag = 0.01
 
-NewFlightThrottleResponse = 1.03
-NewFlightThrottleChangeRateUp = 0.0105
-NewFlightThrottleChangeRateDown = 0.0135
-NewFlightIdleThrottle = 0.065
-NewFlightEngineBrakeDrag = 0.0028
-NewFlightLowThrottleLiftRetention = 0.82
-NewFlightThrottleControlAuthorityScale = 0.15
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = true
-NewFlightCombatFlapLift = 0.16
-NewFlightCombatFlapDrag = 0.012
-NewFlightCombatFlapControl = 0.15
-NewFlightCombatFlapOverspeed = 0.74
-FlightCeiling = 16000
-FlightCeilingRange = 48
-StallSpeed = 0.173
-CriticalAoA = 19.0
-StallLiftLoss = 0.72
-AoADragMultiplier = 1.85
-StallInstability = 0.42
-StallRecoverySpeed = 0.208
-DiveSpeedMultiplier = 1.08
-MaxComfortableG = 6.5
-MaxStructuralG = 7.5
-GControlPenalty = 0.72
-CompressibilitySpeed = 1.05
-CompressibilityPitchPenalty = 0.60
-MaxSafeSpeed = 1.36
-OverspeedDamageRate = 0.18
-BaseDrag = 0.0014
-InducedDrag = 0.0058
-ControlSurfaceDrag = 0.0025
-ClimbEnergyLoss = 0.0050
-DiveEnergyGain = 0.0100
-MaxLevelSpeed = 3.20
-IdleDrag = 0.0035
 MobilityYaw = 1.272
 MobilityPitch = 1.498
 MobilityRoll = 1.728
@@ -72,8 +76,6 @@ FuelConsumption = 12.3
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 ThrottleUpDown = 0.3
-
-
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = IA/AS/MF
@@ -98,7 +100,6 @@ AddRecipe = "ABC", "DEF", "GG ", A, mcheli:airframe2, B, mcheli:advancedmechanic
 ;oops sorry you get dumb bombs instead of something useful! no yeah I should probably fix that-
 ;oh it's all wrong ok
 AddRecipe = "A C", "   ", "   ", A, mcheli:f14, C, mcheli:fcs
-
 
 AddPartWing =  -3.17, 2.31, -5.69,  0,-1,0, 50
 AddPartWing =   3.17, 2.31, -5.69,  0, 1,0, 50
@@ -133,7 +134,6 @@ BoundingBox =  0.00, 1.50,-11.50,  3.0, 2.0
 
 BoundingBox =  0.00, 1.50,-12.50,  3.0, 2.0
 
-
 BoundingBox = -2.72, 1.60, -13.00,  2.3, 0.7
 BoundingBox =  2.72, 1.60, -13.00,  2.3, 0.7
 
@@ -148,16 +148,11 @@ BoundingBox =  1.51, 2.28, -11.80,  1.0, 2.5
 BoundingBox =  -1.51, 1.65, -10.80,  1.0, 2.3
 BoundingBox =  1.51, 1.65, -10.80,  1.0, 2.3
 
-
 BoundingBox = -1.72, 1.60, -10.80,  2.0, 0.7
 BoundingBox =  1.72, 1.60, -10.80,  2.0, 0.7
 
-
-
 BoundingBox = -1.02, 2.10, -3,  2.0, 0.4
 BoundingBox =  1.02, 2.10, -3,  2.0, 0.4
-
-
 
 BoundingBox = -1.72, 2.10, -5,  2.0, 0.5
 BoundingBox =  1.72, 2.10, -5,  2.0, 0.5
@@ -174,7 +169,6 @@ BoundingBox =  7.72, 2.00, -8.10,  2.0, 0.5
 unmountposition =  0.00, 2.04,  0.15
 
 DamageFactor = 0.8
-
 
 enableback = true
 DamageFactor = 0.8

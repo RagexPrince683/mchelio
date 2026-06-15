@@ -20,37 +20,49 @@ ParticlesScale = 0.6
 ;large target drone
 AddRecipe = "ABC", " E ", "   ", A, mcheli:airframe2, B, mcheli:basicmechanicparts, C, mcheli:engine1, E, mcheli:electronics
 
-
 ; M = Military.  Q = Drone
 Category = UAV/TD
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.25
+NewFlightThrottleChangeRateUp = 0.0048
+NewFlightThrottleChangeRateDown = 0.0068
+NewFlightIdleThrottle = 0.10
+NewFlightEngineBrakeDrag = 0.0038
+NewFlightLowThrottleLiftRetention = 0.86
+NewFlightThrottleControlAuthorityScale = 0.13
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 15000
-FlightCeilingRange = 44
-MaxLevelSpeed = 1.663
-StallSpeedFactor = 0.178
-StallSpeed = 0.296
-CriticalAoA = 18
+FlightCeilingRange = 56
+StallSpeed = 0.349
+CriticalAoA = 15.5
 StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
+AoADragMultiplier = 1.7
 StallInstability = 0.38
+StallRecoverySpeed = 0.454
+StallSpeedFactor = 0.21
+StallStrength = 0.7
+DiveSpeedMultiplier = 1.24
+MaxComfortableG = 5.8
+MaxStructuralG = 8.5
+GControlPenalty = 0.66
+CompressibilitySpeed = 1.547
+CompressibilityPitchPenalty = 0.62
+MaxSafeSpeed = 1.962
+OverspeedDamageRate = 0.16
 BaseDrag = 0.0018
-InducedDrag = 0.0062
-ControlSurfaceDrag = 0.0028
-ClimbEnergyLoss = 0.0055
-DiveEnergyGain = 0.0090
-IdleDrag = 0.0038
+InducedDrag = 0.0068
+ControlSurfaceDrag = 0.0029
+ClimbEnergyLoss = 0.0078
+DiveEnergyGain = 0.011
+MaxLevelSpeed = 1.63
+IdleDrag = 0.0043
+
 MobilityYaw = 0.848
 MobilityPitch = 0.963
 MobilityRoll = 1.188
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 6
-MaxStructuralG = 8
-GControlPenalty = 0.7
-CompressibilitySpeed = 1.497
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 1.929
-OverspeedDamageRate = 0
 PitchTorque = 0.41
 RollTorque = 0.462
 YawTorque = 0.3
@@ -60,16 +72,6 @@ YawDamping = 0.428
 InertiaMultiplier = 1.008
 ThrottleAcceleration = 0.029
 EngineDrag = 0.011
-
-NewFlightThrottleResponse = 1.12
-NewFlightThrottleChangeRateUp = 0.0065
-NewFlightThrottleChangeRateDown = 0.008
-NewFlightIdleThrottle = 0.07
-NewFlightEngineBrakeDrag = 0.0028
-NewFlightLowThrottleLiftRetention = 0.8
-NewFlightThrottleControlAuthorityScale = 0.22
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 
 AddPartNozzle = 0.0, 1.92, -8.47, -1, 0, 0
 

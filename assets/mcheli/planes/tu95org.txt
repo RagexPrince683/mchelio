@@ -22,30 +22,42 @@ AutoPilotRot = 0
 Category = SHNB/SB
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0088
+NewFlightThrottleResponse = 1.22
+NewFlightThrottleChangeRateUp = 0.0032
+NewFlightThrottleChangeRateDown = 0.0048
+NewFlightIdleThrottle = 0.12
+NewFlightEngineBrakeDrag = 0.0032
+NewFlightLowThrottleLiftRetention = 0.91
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 12000
-FlightCeilingRange = 56
-MaxLevelSpeed = 1.601
-StallSpeedFactor = 0.196
-StallSpeed = 0.313
-CriticalAoA = 14.5
-StallLiftLoss = 0.72
-AoADragMultiplier = 1.75
-StallInstability = 0.38
-StallRecoverySpeed = 0.376
-BaseDrag = 0.002
-InducedDrag = 0.009
-ControlSurfaceDrag = 0.003
-ClimbEnergyLoss = 0.006
-DiveEnergyGain = 0.008
-IdleDrag = 0.004
-DiveSpeedMultiplier = 1.18
+FlightCeilingRange = 64
+StallSpeed = 0.304
+CriticalAoA = 13.5
+StallLiftLoss = 0.74
+AoADragMultiplier = 2.15
+StallInstability = 0.3
+StallRecoverySpeed = 0.407
+StallSpeedFactor = 0.19
+StallStrength = 0.82
+DiveSpeedMultiplier = 1.14
 MaxComfortableG = 2.8
-MaxStructuralG = 4.8
-GControlPenalty = 0.72
+MaxStructuralG = 5.2
+GControlPenalty = 0.78
 CompressibilitySpeed = 1.441
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 1.857
-OverspeedDamageRate = 0
+CompressibilityPitchPenalty = 0.58
+MaxSafeSpeed = 1.761
+OverspeedDamageRate = 0.18
+BaseDrag = 0.0029
+InducedDrag = 0.011
+ControlSurfaceDrag = 0.0042
+ClimbEnergyLoss = 0.013
+DiveEnergyGain = 0.0065
+MaxLevelSpeed = 1.473
+IdleDrag = 0.0040
+
 PitchTorque = 0.19
 RollTorque = 0.19
 YawTorque = 0.15
@@ -56,20 +68,8 @@ InertiaMultiplier = 2.85
 ThrottleAcceleration = 0.015
 EngineDrag = 0.017
 
-NewFlightThrottleResponse = 1
-NewFlightThrottleChangeRateUp = 0.0055
-NewFlightThrottleChangeRateDown = 0.007
-NewFlightIdleThrottle = 0.1
-NewFlightEngineBrakeDrag = 0.0028
-NewFlightLowThrottleLiftRetention = 0.85
-NewFlightThrottleControlAuthorityScale = 0.25
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
-
-
 ;large bomber aircraft modern, AOW3 style
 AddRecipe = "ABC", "DAC", "E C", A, mcheli:airframebomb, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:electronics
-
 
 DamageFactor = 0.8
 
@@ -139,7 +139,6 @@ AddWeapon = gsh232tu,  -0.11, 4.963, -48.5,  0.0, 0.0, false, 3, -180,  -50,  60
 AddPartWeaponBay = 250kgtu/fab500tu/fab1500tu/rn28/tsarbombahalf/tsarbomba, 0.9108, 2.4935, -19.0, 0, 0, 1, 90
 AddPartWeaponBay = 250kgtu/fab500tu/fab1500tu/rn28/tsarbombahalf/tsarbomba, -0.9108, 2.4935, -19.0, 0, 0, 1, -90
 
-
 AddPartRotor =   14.8945,  3.1643,  -9,   0, 0, 3
 AddBlade = 1,0,   14.8945,  3.1643,  -9,   0, 0, 3
 
@@ -151,8 +150,6 @@ AddBlade = 1,0,   -7.6288,  3.0442,  -4,   0, 0, 3
 
 AddPartRotor =   -14.8927,  3.1643,  -9,   0, 0, 3
 AddBlade = 1,0,   -14.8927,  3.1643,  -9,   0, 0, 3
-
-
 
 ;;BoundingBox =  0.0, 4.2,  2.5,  3.5, 3
 ;cockpit
@@ -222,7 +219,6 @@ BoundingBox = 14.8945,  3.1643,  -10, 1.0, 1.0, 1.25
 
 BoundingBox = -14.8945,  3.1643,  -10, 1.0, 1.0, 1.25
 
-
 BoundingBox = -7.6288, 3.0442, -6.0062, 1.0, 1.0, 1.25
 
 BoundingBox = 7.6288, 3.0442, -6.0062, 1.0, 1.0, 1.25
@@ -230,8 +226,6 @@ BoundingBox = 7.6288, 3.0442, -6.0062, 1.0, 1.0, 1.25
 BoundingBox = 14.8945,  3.1643,  -11, 1.0, 1.0, 1.25
 
 BoundingBox = -14.8945,  3.1643,  -11, 1.0, 1.0, 1.25
-
-
 
 BoundingBox = -7.6288, 3.0442, -7.0062, 1.0, 1.0, 1.25
 
@@ -241,8 +235,6 @@ BoundingBox = 14.8945,  3.1643,  -12, 1.0, 1.0, 1.25
 
 BoundingBox = -14.8945,  3.1643,  -12, 1.0, 1.0, 1.25
 
-
-
 BoundingBox = -7.6288, 3.0442, -8.0062, 1.0, 1.0, 1.25
 
 BoundingBox = 7.6288, 3.0442, -8.0062, 1.0, 1.0, 1.25
@@ -250,8 +242,6 @@ BoundingBox = 7.6288, 3.0442, -8.0062, 1.0, 1.0, 1.25
 BoundingBox = 14.8945,  3.1643,  -13, 1.0, 1.0, 1.25
 
 BoundingBox = -14.8945,  3.1643,  -13, 1.0, 1.0, 1.25
-
-
 
 BoundingBox = -7.6288, 3.0442, -9.0062, 1.0, 1.0, 1.25
 
@@ -261,7 +251,6 @@ BoundingBox = 14.8945,  3.1643,  -14, 1.0, 1.0, 1.25
 
 BoundingBox = -14.8945,  3.1643,  -14, 1.0, 1.0, 1.25
 
-
 BoundingBox = -7.6288, 3.0442, -10.0062, 1.0, 1.0, 1.25
 
 BoundingBox = 7.6288, 3.0442, -10.0062, 1.0, 1.0, 1.25
@@ -270,12 +259,9 @@ BoundingBox = 14.8945,  3.1643,  -15, 1.0, 1.0, 1.25
 
 BoundingBox = -14.8945,  3.1643,  -15, 1.0, 1.0, 1.25
 
-
-
 BoundingBox = 14.8945,  3.1643,  -16, 1.0, 1.0, 1.25
 
 BoundingBox = -14.8945,  3.1643,  -16, 1.0, 1.0, 1.25
-
 
 BoundingBox = 14.8945,  3.1643,  -17, 1.0, 1.0, 1.25
 
