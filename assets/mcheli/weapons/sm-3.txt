@@ -1,7 +1,7 @@
 DisplayName = RIM-161E SM-3 [RIM-161E - HE]
 Type = AAMissile
 Power = 100
-Acceleration = 8.8
+Acceleration = 10
 Explosion = 7
 Flaming = false
 Sight = MissileSight
@@ -9,6 +9,11 @@ Delay = 5
 ReloadTime = 1000
 LockTime = 12
 ProximityFuseDist = 3
+RigidityTime = 3
+TurningFactor = 0.16
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 ModelBullet = aim7
 Sound = missile_cruise_snd
 

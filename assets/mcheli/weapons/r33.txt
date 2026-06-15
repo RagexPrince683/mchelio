@@ -1,7 +1,7 @@
 DisplayName = R33 [AAM]
 Type = AAMissile
 Power = 47
-Acceleration = 4.5
+Acceleration = 6.75
 Explosion = 8
 Flaming = true
 Delay = 5
@@ -9,11 +9,15 @@ ReloadTime = 1000
 Round = 2
 LockTime = 25
 ProximityFuseDist = 5
+RigidityTime = 2
+TurningFactor = 0.12
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 ModelBullet = R33
 Sound = missile_9_snd
 TrajectoryParticleStartTick = 10
 SoundVolume = 3
-RigidityTime = 20
 Sight = MissileSight
 
 MaxAmmo = 2

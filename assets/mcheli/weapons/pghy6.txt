@@ -1,7 +1,7 @@
 DisplayName = QW-2 MANPADS
 Type = AAMissile
 Power = 30
-Acceleration = 5.5
+Acceleration = 7.43
 Explosion = 3
 Flaming = false
 Sight = MissileSight
@@ -10,6 +10,11 @@ ReloadTime = 1000
 Round = 4
 LockTime = 15
 ProximityFuseDist = 1
+RigidityTime = 3
+TurningFactor = 0.16
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 Sound = bmptmissile
 
 DamageFactor = tank, 1.5

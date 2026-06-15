@@ -1,7 +1,7 @@
 DisplayName = MBDA Meteor [AAM]
 Type = AAMissile
 Power = 80
-Acceleration = 8
+Acceleration = 10
 Explosion = 7
 Flaming = false
 Sight = MissileSight
@@ -9,6 +9,11 @@ Delay = 5
 ReloadTime = 1000
 LockTime = 15
 ProximityFuseDist = 1
+RigidityTime = 3
+TurningFactor = 0.16
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 ModelBullet = aim120
 Sound = missile_1_snd
 

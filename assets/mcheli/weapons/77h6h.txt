@@ -1,7 +1,7 @@
 DisplayName = 77N6-N [SAM]
 Type = AAMissile
 Power = 1000
-Acceleration = 7
+Acceleration = 9.45
 Explosion = 14
 Flaming = false
 Sight = MissileSight
@@ -10,6 +10,11 @@ ReloadTime = 1000
 Round = 2
 LockTime = 10
 ProximityFuseDist = 0
+RigidityTime = 3
+TurningFactor = 0.16
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 ModelBullet = 77h6h
 Sound = missile_3_snd
 

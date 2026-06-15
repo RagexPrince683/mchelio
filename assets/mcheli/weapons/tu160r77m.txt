@@ -1,7 +1,7 @@
 DisplayName = R77M 
 Type = AAMissile
 Power = 22
-Acceleration = 6
+Acceleration = 8.1
 Explosion = 4
 Flaming = false
 Sight = MissileSight
@@ -15,6 +15,11 @@ DamageFactor = heli, 3.0
 
 LockTime = 19
 ProximityFuseDist = 3
+RigidityTime = 3
+TurningFactor = 0.16
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 ModelBullet =r-77
 Sound = missile_1_snd
 

@@ -1,7 +1,7 @@
 DisplayName = AIM-7F Sparrow [AAM]
 Type = AAMissile
 Power = 40
-Acceleration = 4
+Acceleration = 6
 Explosion = 8
 Flaming = false
 Sight = MissileSight
@@ -10,6 +10,11 @@ ReloadTime = 1000
 Round = 4
 LockTime = 22
 ProximityFuseDist = 2
+RigidityTime = 2
+TurningFactor = 0.12
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 ModelBullet = aim7
 Sound = missile_1_snd
 

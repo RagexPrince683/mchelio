@@ -1,7 +1,7 @@
 DisplayName = 57E6 [SAM]
 Type = AAMissile
 Power = 200
-Acceleration = 7
+Acceleration = 9.45
 Explosion = 12
 ExplosionBlock = 2
 
@@ -12,6 +12,11 @@ ReloadTime = 1000
 Round = 12
 LockTime = 10
 ProximityFuseDist = 1
+RigidityTime = 3
+TurningFactor = 0.16
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 Sound = pantsirmis
 SoundVolume = 15
 
