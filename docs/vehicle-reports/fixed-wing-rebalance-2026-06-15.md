@@ -25,3 +25,16 @@ This audit retuned the MCHeli Overdrive fixed-wing roster around the documented 
 ## Static validation
 
 Validation was limited to static configuration review. The game was not launched and no gameplay testing was performed. Checks verified that every edited fixed-wing aircraft remains opted into the new mobility system, managed keys are present exactly once, `StallRecoverySpeed` is greater than `StallSpeed`, and the primary documented values remain inside the documented ranges.
+
+## True-AoA stall follow-up
+
+After the fixed-wing code was updated to calculate AoA from the nose-forward vector against the velocity vector, the opted-in plane configs were given a second static tuning pass. The pass intentionally made high-nose/low-energy flight more costly instead of preserving the older behavior where pitch attitude could substitute for usable airflow over the wing.
+
+Common conventions from this follow-up:
+
+- Keep explicit `StallSpeed` values on new-flight aircraft and keep `StallRecoverySpeed` meaningfully above them; most fighters recover around 1.28x stall speed, heavy aircraft closer to 1.38x, and high-speed interceptors/special aircraft around 1.32x.
+- Use `CriticalAoA` as a role distinction, not as a stall bypass. Modern agile fighters may sit near 17.5-18.5 degrees, but older deltas/interceptors and heavy aircraft should stay lower.
+- Increase `StallLiftLoss`, `AoADragMultiplier`, `StallInstability`, and `StallStrength` enough that vertical pitch or deep post-stall pulls produce lift loss, drag, buffet/wing drop, and a recoverable pitch break.
+- Prefer drag and energy-loss tuning (`BaseDrag`, `InducedDrag`, `ControlSurfaceDrag`, `ClimbEnergyLoss`) over runway hacks when correcting aircraft that previously relied on pitch-generated lift.
+- Trim excessive fast-jet thrust only where needed so aircraft keep speed and climb advantages but cannot simply power through severe AoA stalls.
+- Leave legacy planes untouched unless they opt into `UseNewMobilitySystem = true`.
