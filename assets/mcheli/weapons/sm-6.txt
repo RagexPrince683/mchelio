@@ -1,15 +1,19 @@
 DisplayName = RIM-174 SERAM [RIM-174 - HE]
 Type = AAMissile
 Power = 64
-Acceleration = 3.5
+Acceleration = 5.25
 Explosion = 7
 Sight = MissileSight
 Delay = 0
 LockTime = 5
 ModelBullet = RIM-156
 Sound = missile_1_snd
-RigidityTime = 10
+RigidityTime = 2
 ProximityFuseDist = 2
+TurningFactor = 0.12
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 ReloadTime = 1000
 
 DamageFactor = tank, 1.5

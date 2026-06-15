@@ -1,13 +1,18 @@
 DisplayName = Fliegerfaust 2 Stinger [FIM-92E - HE-FRAG]
 Type = AAMissile
 Power = 45
-Acceleration = 2.5
+Acceleration = 4.5
 Explosion = 4
 Flaming = false
 Sight = MissileSight
 Delay = 5
 LockTime = 30
 ProximityFuseDist = 0
+RigidityTime = 1
+TurningFactor = 0.1
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 Sound = missile_1_snd
 ReloadTime = 1000
 

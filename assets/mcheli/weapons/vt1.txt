@@ -1,7 +1,7 @@
 DisplayName = Roland 3 [VT-1 - Surface To Air Missile]
 Type = AAMissile
 Power = 59
-Acceleration = 1.6
+Acceleration = 4.5
 Explosion = 5
 Flaming = false
 Sight = MissileSight
@@ -12,13 +12,17 @@ ReloadTime = 100
 Round = 2
 LockTime = 4
 ProximityFuseDist = 3
+RigidityTime = 1
+TurningFactor = 0.1
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 SoundVolume = 15
 Sound = aimnine
 ModelBullet = rocket
 
 
 Piercing  = 0
-RigidityTime = 10
 RidableOnly = false
 
 

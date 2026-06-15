@@ -1,8 +1,13 @@
 DisplayName = 9M311M Surface-to-Air Missile
 Type = AAMissile
 Power = 80
-Acceleration = 2
+Acceleration = 4.5
 LockTime = 20
+RigidityTime = 1
+TurningFactor = 0.1
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 Explosion = 5
 Flaming = true
 Sight =MissileSight

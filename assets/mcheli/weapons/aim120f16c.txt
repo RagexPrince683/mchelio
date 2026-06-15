@@ -1,7 +1,7 @@
 DisplayName = AIM-120 AMRAAM [AAM]
 Type = AAMissile
 Power = 70
-Acceleration = 5
+Acceleration = 6.75
 Explosion = 7
 Flaming = false
 Sight = MissileSight
@@ -10,6 +10,11 @@ ReloadTime = 1000
 Round = 2
 LockTime = 19
 ProximityFuseDist = 3
+RigidityTime = 3
+TurningFactor = 0.16
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 ModelBullet = aim120
 Sound = missile_1_snd
 

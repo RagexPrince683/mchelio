@@ -1,7 +1,7 @@
 DisplayName = MIM-146 [AAM]
 Type = AAMissile
 Power = 50
-Acceleration = 3
+Acceleration = 4.5
 Explosion = 5
 Flaming = false
 Sight = MissileSight
@@ -9,13 +9,17 @@ Delay = 5
 Round = 16
 LockTime = 4
 ProximityFuseDist = 1
+RigidityTime = 2
+TurningFactor = 0.12
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 SoundVolume = 20
 Sound = missile_1_snd
 ModelBullet = rocket
 ReloadTime = 1000
 
 Piercing  = 2
-RigidityTime = 10
 RidableOnly = false
 
 

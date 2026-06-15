@@ -1,7 +1,7 @@
 DisplayName = AAM-4 [AAM]
 Type = AAMissile
 Power = 20
-Acceleration = 4.5
+Acceleration = 6.75
 Explosion = 7
 Flaming = false
 Sight = MissileSight
@@ -10,6 +10,11 @@ ReloadTime = 1000
 Round = 4
 LockTime = 14
 ProximityFuseDist = 2
+RigidityTime = 2
+TurningFactor = 0.12
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 ModelBullet = aam-4
 Sound = missile_1_snd
 

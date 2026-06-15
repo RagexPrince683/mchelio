@@ -1,7 +1,7 @@
 DisplayName = AIM-54C+ Phoenix [AAM]
 Type = AAMissile
 Power = 70
-Acceleration = 5
+Acceleration = 6.75
 Explosion = 9
 Flaming = false
 Sight = MissileSight
@@ -10,6 +10,11 @@ ReloadTime = 1000
 Round = 2
 LockTime = 20
 ProximityFuseDist = 2
+RigidityTime = 3
+TurningFactor = 0.16
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 ModelBullet = agm65e
 Sound = aimnine
 

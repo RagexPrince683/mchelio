@@ -1,7 +1,7 @@
 DisplayName = 9M113M
 Type = AAMissile
 Power = 800
-Acceleration = 5
+Acceleration = 6.75
 LockTime = 20
 Explosion = 3
 Flaming = true
@@ -10,6 +10,11 @@ Delay = 5
 ModelBullet = 9M113M
 Sound = missile_15_snd
 ProximityFuseDist = 2
+RigidityTime = 3
+TurningFactor = 0.16
+TickEndHoming = -1
+MaxDegreeOfMissile = 160
+SpeedDependsAircraft = true
 
 
 ReloadTime = 1000
