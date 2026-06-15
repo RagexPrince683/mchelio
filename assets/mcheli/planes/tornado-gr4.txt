@@ -21,6 +21,10 @@ FuelConsumption = 13.419
 Category = MA/SA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+# PhysicalMass is translational aircraft weight/momentum for the new flight model.
+# EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
+PhysicalMass = 4.489
+EngineThrust = 0.19
 NewFlightGravity = 0.0080
 NewFlightThrottleResponse = 1.18
 NewFlightThrottleChangeRateUp = 0.0055

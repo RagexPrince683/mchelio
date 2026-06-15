@@ -26,6 +26,10 @@ StepHeight = -1.0
 Category = SA/TA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+# PhysicalMass is translational aircraft weight/momentum for the new flight model.
+# EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
+PhysicalMass = 9.262
+EngineThrust = 0.183
 NewFlightGravity = 0.0088
 NewFlightThrottleResponse = 1.22
 NewFlightThrottleChangeRateUp = 0.0032

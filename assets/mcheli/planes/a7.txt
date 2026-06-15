@@ -24,6 +24,10 @@ enableback = true
 Category = AA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+# PhysicalMass is translational aircraft weight/momentum for the new flight model.
+# EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
+PhysicalMass = 3.788
+EngineThrust = 0.122
 NewFlightGravity = 0.0080
 NewFlightThrottleResponse = 1.25
 NewFlightThrottleChangeRateUp = 0.0048

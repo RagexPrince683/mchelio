@@ -26,6 +26,10 @@ MobilityRoll = 1.188
 Category = VTOL/FA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+# PhysicalMass is translational aircraft weight/momentum for the new flight model.
+# EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
+PhysicalMass = 4.161
+EngineThrust = 0.161
 NewFlightGravity = 0.0080
 NewFlightThrottleResponse = 1.25
 NewFlightThrottleChangeRateUp = 0.0048

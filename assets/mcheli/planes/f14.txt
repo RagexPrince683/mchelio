@@ -26,6 +26,10 @@ EnableSeaSurfaceParticle = true
 Category = IA/AS/MF
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+# PhysicalMass is translational aircraft weight/momentum for the new flight model.
+# EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
+PhysicalMass = 3.829
+EngineThrust = 0.204
 NewFlightGravity = 0.0080
 NewFlightThrottleResponse = 1.18
 NewFlightThrottleChangeRateUp = 0.0055

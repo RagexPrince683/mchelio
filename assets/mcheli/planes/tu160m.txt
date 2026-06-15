@@ -42,6 +42,10 @@ enableback = true
 Category = SSHB
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+# PhysicalMass is translational aircraft weight/momentum for the new flight model.
+# EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
+PhysicalMass = 16.118
+EngineThrust = 0.48
 NewFlightGravity = 0.0088
 NewFlightThrottleResponse = 1.22
 NewFlightThrottleChangeRateUp = 0.0032

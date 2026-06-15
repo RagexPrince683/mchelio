@@ -28,6 +28,10 @@ MobDropOption  = 0.97, 1.10, -12.91, 2
 Category = STOL/SOMTA/TA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+# PhysicalMass is translational aircraft weight/momentum for the new flight model.
+# EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
+PhysicalMass = 10.297
+EngineThrust = 0.193
 NewFlightGravity = 0.0088
 NewFlightThrottleResponse = 1.22
 NewFlightThrottleChangeRateUp = 0.0032
