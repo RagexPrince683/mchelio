@@ -1,5 +1,5 @@
-DisplayName = Improvised Weaponized Drone
-AddDisplayName = en_US, Improvised Weaponized Drone
+DisplayName = Improvised DJI Phantom Weaponized UAV
+AddDisplayName = en_US, Improvised DJI Phantom Weaponized UAV
 AddDisplayName = ja_JP, ??RC????UAV
 
 NewSmallUAV = true

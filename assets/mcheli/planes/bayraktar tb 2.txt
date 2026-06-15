@@ -4,7 +4,7 @@ AddDisplayName = ja_JP, Bayraktar Tb 2 リーパー
 ItemID = 28707
 MaxHp = 100
 ;;Speed = 0.001
-Speed = 0.386
+Speed = 0.240
 ;136mph
 
 Sound = turboprop

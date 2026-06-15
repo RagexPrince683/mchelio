@@ -2,7 +2,7 @@ DisplayName = X-47B Pegasus
 AddDisplayName = ja_JP, X-47B ペガサス
 ItemID = 28728
 MaxHp = 100
-Speed = 1.914
+Speed = 1.20
 
 ;685mph cruising speed
 

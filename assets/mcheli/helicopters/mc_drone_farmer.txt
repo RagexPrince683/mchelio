@@ -1,12 +1,12 @@
-﻿DisplayName = Generic Farming Drone UAV
-AddDisplayName = en_US, Generic Farming Drone UAV
+﻿DisplayName = DJI Phantom Farming UAV
+AddDisplayName = en_US, DJI Phantom Farming UAV
 AddDisplayName = ja_JP, 農業用RCドローンUAV
 
 NewSmallUAV = true
 HideEntity = true
 
 MaxHp = 20
-Speed = 0.4
+Speed = 0.45
 ;idk what it'd be bc i have no idea what this is but I think I have one its just not a crop duster obv
 CameraPosition = -0.02, -0.06, 0.77
 Sound = radicon_heli

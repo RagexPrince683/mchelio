@@ -2,7 +2,7 @@ DisplayName = MQ-9 Reaper
 AddDisplayName = ja_JP, MQ-9 リーパー
 ItemID = 28707
 MaxHp = 100
-Speed = 0.839
+Speed = 0.522
 
 ;300mph 
 
