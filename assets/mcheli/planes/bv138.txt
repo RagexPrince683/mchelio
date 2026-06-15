@@ -8,7 +8,6 @@ Speed = 0.496
 
 Sound = junkersjumo
 
-
 ThrottleUpDown = 0.2
 Float = true
 FloatOffset = -0.4
@@ -26,30 +25,42 @@ MobilityYawOnGround = 1.5
 Category = MP/LRR
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 0.95
+NewFlightThrottleChangeRateUp = 0.0065
+NewFlightThrottleChangeRateDown = 0.0090
+NewFlightIdleThrottle = 0.085
+NewFlightEngineBrakeDrag = 0.0055
+NewFlightLowThrottleLiftRetention = 0.86
+NewFlightThrottleControlAuthorityScale = 0.16
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 6500
-FlightCeilingRange = 48
-MaxLevelSpeed = 0.496
-StallSpeedFactor = 0.333
-StallSpeed = 0.165
-CriticalAoA = 15.8
+FlightCeilingRange = 56
+StallSpeed = 0.18
+CriticalAoA = 17.0
 StallLiftLoss = 0.68
-AoADragMultiplier = 1.65
-StallInstability = 0.34
-StallRecoverySpeed = 0.191
-BaseDrag = 0.003
-InducedDrag = 0.008
-ControlSurfaceDrag = 0.003
-ClimbEnergyLoss = 0.006
-DiveEnergyGain = 0.008
-IdleDrag = 0.004
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 3.2
-MaxStructuralG = 5.2
-GControlPenalty = 0.68
-CompressibilitySpeed = 0.769
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 0.942
-OverspeedDamageRate = 0
+AoADragMultiplier = 1.85
+StallInstability = 0.42
+StallRecoverySpeed = 0.23
+StallSpeedFactor = 0.24
+StallStrength = 0.72
+DiveSpeedMultiplier = 1.2
+MaxComfortableG = 5
+MaxStructuralG = 8.5
+GControlPenalty = 0.62
+CompressibilitySpeed = 0.506
+CompressibilityPitchPenalty = 0.45
+MaxSafeSpeed = 0.605
+OverspeedDamageRate = 0.12
+BaseDrag = 0.0022
+InducedDrag = 0.0088
+ControlSurfaceDrag = 0.0034
+ClimbEnergyLoss = 0.0095
+DiveEnergyGain = 0.0090
+MaxLevelSpeed = 0.476
+IdleDrag = 0.0055
+
 PitchTorque = 0.26
 RollTorque = 0.25
 YawTorque = 0.2
@@ -60,15 +71,6 @@ InertiaMultiplier = 1.65
 ThrottleAcceleration = 0.017
 EngineDrag = 0.015
 
-NewFlightThrottleResponse = 1
-NewFlightThrottleChangeRateUp = 0.008
-NewFlightThrottleChangeRateDown = 0.01
-NewFlightIdleThrottle = 0.08
-NewFlightEngineBrakeDrag = 0.0035
-NewFlightLowThrottleLiftRetention = 0.82
-NewFlightThrottleControlAuthorityScale = 0.18
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 MobilityYaw = 0.42
 MobilityPitch = 0.48
 
@@ -82,8 +84,6 @@ MaxRotationPitch =  70
 
 AddTexture = bv138_1
 AddTexture = bv138_2
-
-
 
 AddSeat = -0.54, 0.60, 2.45
 AddSeat =  0.54, 0.70, 2.45
@@ -140,7 +140,6 @@ AddParticleSplash = 0.00,  0.00, -4.20, 3, 12.0, 3.0, 40, 0.01,  0
 ;WW2 prop plane bomber, AOW3 style
 AddRecipe = "ABC", "   ", "   ", A, mcheli:airframe2, B, mcheli:basicmechanicparts, C, mcheli:engine2
 
-
 BoundingBox =  0.00, 0.50, 5.00,  2.00, 1.00, 0.9
 ;BoundingBox =  0.00, 1.00, 2.00,  2.80, 3.00, 0.8
 BoundingBox =  0.00, 1.00,-1.00,  2.80, 3.00, 0.8
@@ -171,7 +170,6 @@ BoundingBox = 3.94, 2.74, -8.06, 1.0, 1.0
 BoundingBox = -3.94, 2.74, -8.06, 1.0, 1.0
 
 unmountposition = -0.54, 1.50, 2.45
-
 
 EntityWidth  = 0.70
 EntityHeight = 0.70

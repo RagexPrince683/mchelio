@@ -4,6 +4,42 @@ MaxHp = 100
 Speed = 4.00
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.18
+NewFlightThrottleChangeRateUp = 0.0055
+NewFlightThrottleChangeRateDown = 0.0075
+NewFlightIdleThrottle = 0.095
+NewFlightEngineBrakeDrag = 0.0030
+NewFlightLowThrottleLiftRetention = 0.88
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
+FlightCeiling = 20600
+FlightCeilingRange = 72
+StallSpeed = 0.72
+CriticalAoA = 18.0
+StallLiftLoss = 0.66
+AoADragMultiplier = 1.45
+StallInstability = 0.32
+StallRecoverySpeed = 0.922
+StallSpeedFactor = 0.18
+StallStrength = 0.62
+DiveSpeedMultiplier = 1.28
+MaxComfortableG = 7.5
+MaxStructuralG = 10.0
+GControlPenalty = 0.58
+CompressibilitySpeed = 3.84
+CompressibilityPitchPenalty = 0.5
+MaxSafeSpeed = 4.88
+OverspeedDamageRate = 0.14
+BaseDrag = 0.0013
+InducedDrag = 0.0054
+ControlSurfaceDrag = 0.0024
+ClimbEnergyLoss = 0.0058
+DiveEnergyGain = 0.011
+MaxLevelSpeed = 4
+IdleDrag = 0.0034
+
 PitchTorque = 0.259
 RollTorque = 0.286
 YawTorque = 0.193
@@ -14,38 +50,6 @@ InertiaMultiplier = 2.112
 ThrottleAcceleration = 0.033
 EngineDrag = 0.009
 
-NewFlightThrottleResponse = 1.34
-NewFlightThrottleChangeRateUp = 0.0048
-NewFlightThrottleChangeRateDown = 0.006
-NewFlightIdleThrottle = 0.055
-NewFlightEngineBrakeDrag = 0.002
-NewFlightLowThrottleLiftRetention = 0.72
-NewFlightThrottleControlAuthorityScale = 0.28
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
-FlightCeiling = 20600
-FlightCeilingRange = 48
-StallSpeed = 0.180
-CriticalAoA = 17.0
-StallLiftLoss = 0.76
-AoADragMultiplier = 2.00
-StallInstability = 0.45
-StallRecoverySpeed = 0.216
-DiveSpeedMultiplier = 1.05
-MaxComfortableG = 5.0
-MaxStructuralG = 7.0
-GControlPenalty = 0.76
-CompressibilitySpeed = 1.35
-CompressibilityPitchPenalty = 0.68
-MaxSafeSpeed = 1.96
-OverspeedDamageRate = 0.22
-BaseDrag = 0.0010
-InducedDrag = 0.0045
-ControlSurfaceDrag = 0.0025
-ClimbEnergyLoss = 0.0048
-DiveEnergyGain = 0.0110
-MaxLevelSpeed = 4.00
-IdleDrag = 0.0032
 MobilityYaw = 0.371
 MobilityPitch = 0.482
 MobilityRoll = 0.378
@@ -70,7 +74,6 @@ CameraZoom = 4
 AddSeat = 0.0, 1.8, 0.45
 
 unmountposition = 0.00,  2.18,  0.45
-
 
 enableback = true
 
@@ -124,40 +127,29 @@ BoundingBox = 0.0, 1.8, -12.0, 2.7, 1.15, 1.5
 BoundingBox = -2.82, 2.2, -8.55, 2.8, 0.3
 BoundingBox = 2.82, 2.2, -8.55, 2.8, 0.3
 
-
 BoundingBox = -1.82, 2.2, -6.25, 1.8, 0.3
 BoundingBox = 1.82, 2.2, -6.25, 1.8, 0.3
 
 BoundingBox = -1.07, 1.7, -11.38, 1.5, 0.3
 BoundingBox = 1.07, 1.7, -11.38, 1.5, 0.3
 
-
 BoundingBox = -2.17, 1.7, -12.38, 1.5, 0.3
 BoundingBox = 2.17, 1.7, -12.38, 1.5, 0.3
-
 
 BoundingBox = -1.31, 2.38, -9.15, 0.5, 1.4
 BoundingBox = 1.31, 2.38,  -9.15, 0.5, 1.4
 
-
-
 BoundingBox = -1.31, 2.65, -9.65, 0.5, 1.4
 BoundingBox = 1.31, 2.65,  -9.65, 0.5, 1.4
-
-
 
 BoundingBox = -1.31, 2.85, -10.15, 0.5, 1.4
 BoundingBox = 1.31, 2.85, -10.15, 0.5, 1.4
 
-
 BoundingBox = -1.31, 3.05, -10.65, 0.5, 1.4
 BoundingBox = 1.31, 3.05, -10.65, 0.5, 1.4
 
-
-
 BoundingBox = -1.31, 3.15, -11.15, 0.5, 1.4
 BoundingBox = 1.31, 3.15, -11.15, 0.5, 1.4
-
 
 BoundingBox = -1.31, 3.35, -11.65, 0.5, 1.8
 BoundingBox = 1.31, 3.35, -11.65, 0.5, 1.8

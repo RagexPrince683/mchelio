@@ -5,8 +5,6 @@ ItemID = 28750
 MaxHp = 150
 Speed = 0.475
 
-
-
 ;170mph
 
 Sound = peacemaker
@@ -34,30 +32,42 @@ MobilityRoll = 1.05
 Category = AG/CI/UT
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 0.95
+NewFlightThrottleChangeRateUp = 0.0065
+NewFlightThrottleChangeRateDown = 0.0090
+NewFlightIdleThrottle = 0.085
+NewFlightEngineBrakeDrag = 0.0055
+NewFlightLowThrottleLiftRetention = 0.86
+NewFlightThrottleControlAuthorityScale = 0.16
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 7600
-FlightCeilingRange = 40
-MaxLevelSpeed = 0.475
-StallSpeedFactor = 0.304
-StallSpeed = 0.144
-CriticalAoA = 17.5
+FlightCeilingRange = 56
+StallSpeed = 0.18
+CriticalAoA = 17.0
 StallLiftLoss = 0.68
-AoADragMultiplier = 1.6
-StallInstability = 0.36
-StallRecoverySpeed = 0.166
-BaseDrag = 0.003
-InducedDrag = 0.007
-ControlSurfaceDrag = 0.003
-ClimbEnergyLoss = 0.006
-DiveEnergyGain = 0.008
-IdleDrag = 0.004
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 4
-MaxStructuralG = 6
+AoADragMultiplier = 1.85
+StallInstability = 0.42
+StallRecoverySpeed = 0.23
+StallSpeedFactor = 0.24
+StallStrength = 0.72
+DiveSpeedMultiplier = 1.2
+MaxComfortableG = 5
+MaxStructuralG = 8.5
 GControlPenalty = 0.62
-CompressibilitySpeed = 0.736
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 0.902
-OverspeedDamageRate = 0
+CompressibilitySpeed = 0.484
+CompressibilityPitchPenalty = 0.45
+MaxSafeSpeed = 0.58
+OverspeedDamageRate = 0.12
+BaseDrag = 0.0022
+InducedDrag = 0.0088
+ControlSurfaceDrag = 0.0034
+ClimbEnergyLoss = 0.0095
+DiveEnergyGain = 0.0090
+MaxLevelSpeed = 0.456
+IdleDrag = 0.0055
+
 PitchTorque = 0.36
 RollTorque = 0.4
 YawTorque = 0.28
@@ -68,15 +78,6 @@ InertiaMultiplier = 0.96
 ThrottleAcceleration = 0.021
 EngineDrag = 0.014
 
-NewFlightThrottleResponse = 0.82
-NewFlightThrottleChangeRateUp = 0.012
-NewFlightThrottleChangeRateDown = 0.016
-NewFlightIdleThrottle = 0.105
-NewFlightEngineBrakeDrag = 0.0052
-NewFlightLowThrottleLiftRetention = 0.92
-NewFlightThrottleControlAuthorityScale = 0.1
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 MobilityYaw = 0.86
 MobilityPitch = 0.98
 
@@ -108,8 +109,6 @@ AddPartWeaponMissile = aumk24,     false, false,false, -5.01, 2.57, -1.31
 AddPartWeaponMissile = aumk24,     false, false,false,  5.01, 2.57, -2.32
 AddPartWeaponMissile = aumk24,     false, false,false, -5.01, 2.57, -2.32
 ;AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 駐退距離
-
-
 
 ;medium aircraft CAS, AOW3 style
 AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon2, F, mcheli:rocket, G, mcheli:electronics

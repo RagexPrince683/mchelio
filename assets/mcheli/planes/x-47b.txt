@@ -6,7 +6,6 @@ Speed = 1.914
 
 ;685mph cruising speed
 
-
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -26,32 +25,45 @@ Stealth = 0.35
 Category = UCAV/TECD
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0076
+NewFlightThrottleResponse = 1.15
+NewFlightThrottleChangeRateUp = 0.0038
+NewFlightThrottleChangeRateDown = 0.0055
+NewFlightIdleThrottle = 0.10
+NewFlightEngineBrakeDrag = 0.0028
+NewFlightLowThrottleLiftRetention = 0.88
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 12200
-FlightCeilingRange = 40
-MaxLevelSpeed = 1.914
-StallSpeedFactor = 0.191
-StallSpeed = 0.365
-CriticalAoA = 18
-StallLiftLoss = 0.6
-AoADragMultiplier = 1.35
-StallInstability = 0.18
-BaseDrag = 0.0017
-InducedDrag = 0.0068
-ControlSurfaceDrag = 0.0028
-ClimbEnergyLoss = 0.0056
+FlightCeilingRange = 72
+StallSpeed = 0.421
+CriticalAoA = 15.0
+StallLiftLoss = 0.68
+AoADragMultiplier = 1.55
+StallInstability = 0.25
+StallRecoverySpeed = 0.539
+StallSpeedFactor = 0.22
+StallStrength = 0.75
+DiveSpeedMultiplier = 1.18
+MaxComfortableG = 4.5
+MaxStructuralG = 7.5
+GControlPenalty = 0.65
+CompressibilitySpeed = 2.01
+CompressibilityPitchPenalty = 0.55
+MaxSafeSpeed = 2.201
+OverspeedDamageRate = 0.12
+BaseDrag = 0.0020
+InducedDrag = 0.0065
+ControlSurfaceDrag = 0.0022
+ClimbEnergyLoss = 0.0065
 DiveEnergyGain = 0.0090
-IdleDrag = 0.0038
+MaxLevelSpeed = 1.914
+IdleDrag = 0.0032
+
 MobilityYaw = 0.477
 MobilityPitch = 0.535
 MobilityRoll = 0.486
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 6
-MaxStructuralG = 8
-GControlPenalty = 0.45
-CompressibilitySpeed = 1.723
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 2.22
-OverspeedDamageRate = 0
 PitchTorque = 0.27
 RollTorque = 0.275
 YawTorque = 0.193
@@ -61,16 +73,6 @@ YawDamping = 0.561
 InertiaMultiplier = 1.776
 ThrottleAcceleration = 0.026
 EngineDrag = 0.011
-
-NewFlightThrottleResponse = 1.12
-NewFlightThrottleChangeRateUp = 0.0065
-NewFlightThrottleChangeRateDown = 0.008
-NewFlightIdleThrottle = 0.07
-NewFlightEngineBrakeDrag = 0.0028
-NewFlightLowThrottleLiftRetention = 0.8
-NewFlightThrottleControlAuthorityScale = 0.22
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 
 HUD = plane
 
@@ -91,7 +93,6 @@ AddPartLGHatch    =  2.02,  1.36, -1.00,  0,0,1, -90
 
 AddPartWing =  -5.04, 2.10, 0.00,  0,0,1,-150
 AddPartWing =   5.04, 2.10, 0.00,  0,0,1, 150
-
 
 AddPartNozzle = -0.35, 2.23, -5.23, -1,0,0
 AddPartNozzle =  0.35, 2.23, -5.23, -1,0,0

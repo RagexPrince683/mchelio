@@ -11,10 +11,7 @@ MobDropOption  = 0.97, 1.10, -12.91, 2
 
 ;513
 
-
 unmountposition = 0.58,  4.59,  1.75
-
-
 
 FlareType = 2
 MaxHP = 250
@@ -38,30 +35,42 @@ AddTexture = a400m_3
 Category = STA/AR/TA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0088
+NewFlightThrottleResponse = 1.22
+NewFlightThrottleChangeRateUp = 0.0032
+NewFlightThrottleChangeRateDown = 0.0048
+NewFlightIdleThrottle = 0.12
+NewFlightEngineBrakeDrag = 0.0032
+NewFlightLowThrottleLiftRetention = 0.91
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 11280
 FlightCeilingRange = 64
-MaxLevelSpeed = 1.45
-StallSpeedFactor = 0.244
-StallSpeed = 0.331
-CriticalAoA = 15.8
-StallLiftLoss = 0.68
-AoADragMultiplier = 1.65
-StallInstability = 0.34
-StallRecoverySpeed = 0.384
-BaseDrag = 0.0017
-InducedDrag = 0.008
-ControlSurfaceDrag = 0.003
-ClimbEnergyLoss = 0.0056
-DiveEnergyGain = 0.0090
-IdleDrag = 0.0038
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 3.2
+StallSpeed = 0.275
+CriticalAoA = 13.5
+StallLiftLoss = 0.74
+AoADragMultiplier = 2.15
+StallInstability = 0.3
+StallRecoverySpeed = 0.369
+StallSpeedFactor = 0.19
+StallStrength = 0.82
+DiveSpeedMultiplier = 1.14
+MaxComfortableG = 2.8
 MaxStructuralG = 5.2
-GControlPenalty = 0.68
+GControlPenalty = 0.78
 CompressibilitySpeed = 1.305
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 1.682
-OverspeedDamageRate = 0
+CompressibilityPitchPenalty = 0.58
+MaxSafeSpeed = 1.595
+OverspeedDamageRate = 0.18
+BaseDrag = 0.0029
+InducedDrag = 0.011
+ControlSurfaceDrag = 0.0042
+ClimbEnergyLoss = 0.013
+DiveEnergyGain = 0.0065
+MaxLevelSpeed = 1.334
+IdleDrag = 0.0040
+
 PitchTorque = 0.26
 RollTorque = 0.25
 YawTorque = 0.2
@@ -72,23 +81,12 @@ InertiaMultiplier = 1.65
 ThrottleAcceleration = 0.017
 EngineDrag = 0.015
 
-NewFlightThrottleResponse = 1.02
-NewFlightThrottleChangeRateUp = 0.0055
-NewFlightThrottleChangeRateDown = 0.007
-NewFlightIdleThrottle = 0.095
-NewFlightEngineBrakeDrag = 0.0028
-NewFlightLowThrottleLiftRetention = 0.86
-NewFlightThrottleControlAuthorityScale = 0.24
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
-
 HUD = planenvgonly, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
 AddSeat =  0.58,  4.59,  1.75
 AddSeat = -0.58,  4.59,  1.75
 AddSeat =  0.71,  4.59, -0.49
 AddSeat = -0.71,  4.59,  0.31
-
 
 AddSeat =  1.60,  1.7,  -7.8
 AddSeat = -1.60,  1.7,  -7.8
@@ -118,7 +116,6 @@ AddSeat =  1.60,  1.7,  -15.8
 AddSeat = -1.60,  1.7,  -15.8
 
 AddSeat =  0.00,  1.7,  -16
-
 
 AddPartLG =  2.77, 0.55, -17.63, 0, 0,-1, 120
 AddPartLG =  1.28, 0.54, -17.63, 0, 0, 1, 120
@@ -150,13 +147,11 @@ AddBlade = 1, 0,  -7.36,  4.66, -11.97,   0,0,-1
 AddPartRotor =   -14.10,  4.15, -13.93,  -1,0, 0
 AddBlade = 1, 0, -14.10,  4.15, -13.93,   0,0, 1
 
-
 AddRack = bnr32 / bnr32_police / impreza / growler / phantom / s15 / mxtmv / 350z / hel / humveewithweapon / hel2 / starion / rx7 / m2 / challenger / carrera_gt / bugattichiron / bnr34 / bcnr33 / altis / ae86 / m151 / m151_m2 / m151a1c / m151a2 / phantomarmored,   0.00,  1.98, -10.69,   0, 0, -34.93,   15,    5
 AddRack = bnr32 / bnr32_police / impreza / growler / phantom / s15 / mxtmv / 350z / hel / humveewithweapon / hel2 / starion / rx7 / m2 / challenger / carrera_gt / bugattichiron / bnr34 / bcnr33 / altis / ae86 / m151 / m151_m2 / m151a1c / m151a2 / phantomarmored,   0.00,  1.98, -17.47,   0, 0, -34.93,   15,    5
 AddRack = bnr32 / bnr32_police / impreza / growler / phantom / s15 / mxtmv / 350z / hel / humveewithweapon / hel2 / starion / rx7 / challenger / carrera_gt / bugattichiron / bnr34 / bcnr33 / altis / ae86 / m151 / m151_m2 / m151a1c / m151a2 / phantomarmored,   0.00,  1.98, -24.25,   0, 0, -34.93,   15,    5
 AddRack = bnr32 / bnr32_police / impreza / growler / phantom / s15 / mxtmv / 350z / hel / humveewithweapon / hel2 / starion / rx7 / challenger / carrera_gt / bugattichiron / bnr34 / bcnr33 / altis / ae86 / m151 / m151_m2 / m151a1c / m151a2 / phantomarmored,   0.00,  1.98, -20.47,   0, 0, -34.93,   15,    5
 AddRack = m1129 / strykericv / imshorad,   0.00,  1.98, -12.30,   0, 0, -34.93,   15,    5
-
 
 AddRack = container,     0.65,  2.19, -8.01,    0, 0, -34.93,   15,    5
 AddRack = container,    -0.65,  2.19, -8.01,    0, 0, -34.93,   15,    5
@@ -230,7 +225,6 @@ ExclusionSeat = 9, 25
 ExclusionSeat = 9, 26
 ExclusionSeat = 9, 27
 
-
 BoundingBox =  0.00, 3.35,  3.00,   2.5, 2.5
 BoundingBox =  0.00, 3.90, -3.73,   4.5, 5.0
 BoundingBox =  0.00, 4.00, -6.50,   6.0, 6.0
@@ -284,15 +278,12 @@ BoundingBox = -4.87, 16.69, -48.64, 3.5, 0.5
 BoundingBox = 6.87, 16.69, -49.64, 3.5, 0.5
 BoundingBox = -6.87, 16.69, -49.64, 3.5, 0.5
 
-
 ;basic unarmed transport mil large plane, AOW3 style
 AddRecipe = "ABC", "DA ", "E  ", A, mcheli:airframe3, B, mcheli:basicmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:electronics
 
 DamageFactor = 0.8
 
 enableback = true
-
-
 
 RotorSpeed = 2000
 

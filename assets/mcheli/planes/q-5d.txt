@@ -25,29 +25,46 @@ ThirdPersonDist = 18
 Category = GAA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.25
+NewFlightThrottleChangeRateUp = 0.0048
+NewFlightThrottleChangeRateDown = 0.0068
+NewFlightIdleThrottle = 0.10
+NewFlightEngineBrakeDrag = 0.0038
+NewFlightLowThrottleLiftRetention = 0.86
+NewFlightThrottleControlAuthorityScale = 0.13
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.17
+NewFlightCombatFlapDrag = 0.011
+NewFlightCombatFlapControl = 0.14
+NewFlightCombatFlapOverspeed = 0.74
 FlightCeiling = 16500
-FlightCeilingRange = 44
-MaxLevelSpeed = 2.105
-StallSpeedFactor = 0.174
-StallSpeed = 0.365
-CriticalAoA = 18
+FlightCeilingRange = 56
+StallSpeed = 0.442
+CriticalAoA = 15.5
 StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
+AoADragMultiplier = 1.7
 StallInstability = 0.38
-BaseDrag = 0.0017
-InducedDrag = 0.0064
-ControlSurfaceDrag = 0.0027
-ClimbEnergyLoss = 0.0054
-DiveEnergyGain = 0.0095
-IdleDrag = 0.0038
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 7
+StallRecoverySpeed = 0.575
+StallSpeedFactor = 0.21
+StallStrength = 0.7
+DiveSpeedMultiplier = 1.24
+MaxComfortableG = 5.8
 MaxStructuralG = 8.5
-GControlPenalty = 0.7
-CompressibilitySpeed = 1.895
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 2.442
-OverspeedDamageRate = 0
+GControlPenalty = 0.66
+CompressibilitySpeed = 1.958
+CompressibilityPitchPenalty = 0.62
+MaxSafeSpeed = 2.484
+OverspeedDamageRate = 0.16
+BaseDrag = 0.0018
+InducedDrag = 0.0068
+ControlSurfaceDrag = 0.0029
+ClimbEnergyLoss = 0.0078
+DiveEnergyGain = 0.011
+MaxLevelSpeed = 2.063
+IdleDrag = 0.0043
+
 PitchTorque = 0.421
 RollTorque = 0.462
 YawTorque = 0.31
@@ -57,20 +74,6 @@ YawDamping = 0.449
 InertiaMultiplier = 1.152
 ThrottleAcceleration = 0.033
 EngineDrag = 0.011
-
-NewFlightThrottleResponse = 1.15
-NewFlightThrottleChangeRateUp = 0.0078
-NewFlightThrottleChangeRateDown = 0.01
-NewFlightIdleThrottle = 0.075
-NewFlightEngineBrakeDrag = 0.0035
-NewFlightLowThrottleLiftRetention = 0.81
-NewFlightThrottleControlAuthorityScale = 0.18
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = true
-NewFlightCombatFlapLift = 0.15
-NewFlightCombatFlapDrag = 0.011
-NewFlightCombatFlapControl = 0.14
-NewFlightCombatFlapOverspeed = 0.72
 
 AddSeat = 0.00, 1.43, 2.0
 
@@ -110,10 +113,8 @@ AddPartWeaponMissile = q5pl-2,  false, false, false,  -4.515, 0.925, -4.13
 AddWeapon = q5type23, 1.181, 1.580, 0.661, 0.5, -2.0
 AddWeapon = q5type23, -1.107, 1.580, 0.661, -0.5, -2.0
 
-
 AddWeapon = q5rpod,  2.274, 1.022, 0.0,   1.0, -1.0
 AddWeapon = q5rpod, -2.274, 1.022, 0.0,  -1.0, -1.0
-
 
 AddWeapon = q5150kg,   0.31, 0.458, -0.18,  0.0, 0.0
 AddWeapon = q5150kg,  -0.31, 0.458, -0.18,  0.0, 0.0
@@ -127,7 +128,6 @@ AddWeapon = q5pl-2,  -4.515, 0.925, -4.13,  -1.0, 0.0
 ;AddWeapon = droptank2,  3.26, 0.748, -3.667,  0.0, 0.0
 ;AddWeapon = droptank2, -3.26, 0.748, -3.667,  0.0, 0.0
 
-
 BoundingBox =  0.00, 1.5, 2.4,  1.2, 1.4
 BoundingBox =  0.00, 1.5, 3.6,  1.2, 1.4
 BoundingBox =  0.00, 1.7, 1.5,  1.8, 1.1
@@ -140,10 +140,8 @@ BoundingBox =  0.00, 1.8, -6.7,  1.8, 1.6
 
 BoundingBox =  0.00, 1.65, -8.3,  1.6, 0.8, 1.5
 
-
 BoundingBox = 1.6, 1.5, -2.0, 1.4, 0.3
 BoundingBox = -1.6, 1.5, -2.0, 1.4, 0.3
-
 
 BoundingBox = 1.9, 1.5, -3.0, 2.0, 0.3
 BoundingBox = -1.9, 1.5, -3.0, 2.0, 0.3
@@ -154,14 +152,11 @@ BoundingBox = -3.6, 1.4, -4.7, 1.5, 0.3
 BoundingBox = 4.6, 1.4, -5.7, 1.1, 0.3
 BoundingBox = -4.6, 1.4, -5.7, 1.1, 0.3
 
-
-
 BoundingBox = 0.8, 2.19, -8.20, 1.2, 0.2
 BoundingBox = -0.8, 2.19, -8.2, 1.2, 0.2
 
 BoundingBox = 1.8, 2.05, -9.40, 1.2, 0.15
 BoundingBox = -1.8, 2.05, -9.4, 1.2, 0.15
-
 
 BoundingBox = 0.0, 2.6, -7.0, 0.5, 1.5
 BoundingBox = 0.0, 2.8, -7.5, 0.5, 1.5

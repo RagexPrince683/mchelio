@@ -30,30 +30,42 @@ RotorSpeed = 500.0
 Category = GAA/CASG
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0088
+NewFlightThrottleResponse = 1.22
+NewFlightThrottleChangeRateUp = 0.0032
+NewFlightThrottleChangeRateDown = 0.0048
+NewFlightIdleThrottle = 0.12
+NewFlightEngineBrakeDrag = 0.0032
+NewFlightLowThrottleLiftRetention = 0.91
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 7600
-FlightCeilingRange = 56
-MaxLevelSpeed = 1.03
-StallSpeedFactor = 0.262
-StallSpeed = 0.27
-CriticalAoA = 14.5
-StallLiftLoss = 0.72
-AoADragMultiplier = 1.75
-StallInstability = 0.38
-StallRecoverySpeed = 0.324
-BaseDrag = 0.003
-InducedDrag = 0.009
-ControlSurfaceDrag = 0.003
-ClimbEnergyLoss = 0.006
-DiveEnergyGain = 0.008
-IdleDrag = 0.004
-DiveSpeedMultiplier = 1.18
+FlightCeilingRange = 64
+StallSpeed = 0.22
+CriticalAoA = 13.5
+StallLiftLoss = 0.74
+AoADragMultiplier = 2.15
+StallInstability = 0.3
+StallRecoverySpeed = 0.295
+StallSpeedFactor = 0.19
+StallStrength = 0.82
+DiveSpeedMultiplier = 1.14
 MaxComfortableG = 2.8
-MaxStructuralG = 4.8
-GControlPenalty = 0.72
-CompressibilitySpeed = 1.597
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 1.957
-OverspeedDamageRate = 0
+MaxStructuralG = 5.2
+GControlPenalty = 0.78
+CompressibilitySpeed = 0.927
+CompressibilityPitchPenalty = 0.58
+MaxSafeSpeed = 1.133
+OverspeedDamageRate = 0.18
+BaseDrag = 0.0029
+InducedDrag = 0.011
+ControlSurfaceDrag = 0.0042
+ClimbEnergyLoss = 0.013
+DiveEnergyGain = 0.0065
+MaxLevelSpeed = 0.948
+IdleDrag = 0.0040
+
 PitchTorque = 0.19
 RollTorque = 0.19
 YawTorque = 0.15
@@ -63,16 +75,6 @@ YawDamping = 0.62
 InertiaMultiplier = 2.85
 ThrottleAcceleration = 0.015
 EngineDrag = 0.017
-
-NewFlightThrottleResponse = 0.98
-NewFlightThrottleChangeRateUp = 0.0065
-NewFlightThrottleChangeRateDown = 0.008
-NewFlightIdleThrottle = 0.1
-NewFlightEngineBrakeDrag = 0.0032
-NewFlightLowThrottleLiftRetention = 0.88
-NewFlightThrottleControlAuthorityScale = 0.22
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 
 HUD = plane, plane_gnr, none, none, none, none, none
 
@@ -120,7 +122,6 @@ AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframebomb, B, mcheli:basicmechanic
 AddPartHatch =   0.00, 3.62, -18.65, -1, 0,0, 27
 AddPartHatch =   0.00, 0.81, -13.46, -1, 0,0, 48
 
-
 AddWeapon = ac130m61a1_1,     1.65,  1.48,  -2.26,  0, 0, true,  1, -90, -50,50,  -20,70
 AddWeapon = ac130bofors40mm,  1.85,  1.75, -10.96, 10, 0, true,  1, -90, -50,50,  -20,70
 
@@ -133,7 +134,6 @@ BoundingBox =  0.00, 2.60, -11.60,  4.0, 4.0
 
 BoundingBox = -2.92, 4.00,  -6.60,  4.0, 1.0
 BoundingBox =  2.92, 4.00,  -6.60,  4.0, 1.0
-
 
 BoundingBox = -4.92, 4.00,  -6.60,  4.0, 1.0
 BoundingBox =  4.92, 4.00,  -6.60,  4.0, 1.0
@@ -167,13 +167,8 @@ BoundingBox = -9.47, 3.24, -3.26, 1.5, 1.5  , 1.5
 BoundingBox = 4.62, 3.24, -3.26, 1.5, 1.5   , 1.5
 BoundingBox = 9.47, 3.24, -3.26, 1.5, 1.5   , 1.5
 
-
-
-
-
 ; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute alt
 AddRack = container,   0.0, 1.4, -4.7,  0.0, 0.0, -16.1,  8.0,    20.0
-
 
 unmountposition = 0.65,  2.43,  2.00
 

@@ -23,32 +23,49 @@ EntityHeight = 0.75
 Category = CBMF/MF
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.18
+NewFlightThrottleChangeRateUp = 0.0055
+NewFlightThrottleChangeRateDown = 0.0075
+NewFlightIdleThrottle = 0.095
+NewFlightEngineBrakeDrag = 0.0030
+NewFlightLowThrottleLiftRetention = 0.88
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.14
+NewFlightCombatFlapDrag = 0.0090
+NewFlightCombatFlapControl = 0.12
+NewFlightCombatFlapOverspeed = 0.78
 FlightCeiling = 15240
-FlightCeilingRange = 48
+FlightCeilingRange = 72
+StallSpeed = 0.657
+CriticalAoA = 18.0
+StallLiftLoss = 0.66
+AoADragMultiplier = 1.45
+StallInstability = 0.32
+StallRecoverySpeed = 0.841
+StallSpeedFactor = 0.18
+StallStrength = 0.62
+DiveSpeedMultiplier = 1.28
+MaxComfortableG = 7.5
+MaxStructuralG = 10.0
+GControlPenalty = 0.58
+CompressibilitySpeed = 3.504
+CompressibilityPitchPenalty = 0.5
+MaxSafeSpeed = 4.453
+OverspeedDamageRate = 0.14
+BaseDrag = 0.0013
+InducedDrag = 0.0054
+ControlSurfaceDrag = 0.0024
+ClimbEnergyLoss = 0.0058
+DiveEnergyGain = 0.011
 MaxLevelSpeed = 3.65
-StallSpeedFactor = 0.13
-StallSpeed = 0.432
-CriticalAoA = 25
-StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
-StallInstability = 0.38
-BaseDrag = 0.0014
-InducedDrag = 0.0058
-ControlSurfaceDrag = 0.0025
-ClimbEnergyLoss = 0.0050
-DiveEnergyGain = 0.0100
-IdleDrag = 0.0035
+IdleDrag = 0.0034
+
 MobilityYaw = 1.272
 MobilityPitch = 1.498
 MobilityRoll = 1.728
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 7.5
-MaxStructuralG = 9
-GControlPenalty = 0.7
-CompressibilitySpeed = 3.285
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 4.234
-OverspeedDamageRate = 0
 PitchTorque = 0.464
 RollTorque = 0.528
 YawTorque = 0.342
@@ -59,30 +76,12 @@ InertiaMultiplier = 1.104
 ThrottleAcceleration = 0.037
 EngineDrag = 0.01
 
-NewFlightThrottleResponse = 1.03
-NewFlightThrottleChangeRateUp = 0.0097
-NewFlightThrottleChangeRateDown = 0.0127
-NewFlightIdleThrottle = 0.065
-NewFlightEngineBrakeDrag = 0.0028
-NewFlightLowThrottleLiftRetention = 0.82
-NewFlightThrottleControlAuthorityScale = 0.15
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = true
-NewFlightCombatFlapLift = 0.16
-NewFlightCombatFlapDrag = 0.012
-NewFlightCombatFlapControl = 0.15
-NewFlightCombatFlapOverspeed = 0.74
-
 HUD = plane, plane_gnr
-
 
 AddSeat =  0.00,  1.95,  2.20
 AddSeat =  0.00,  2.20,  0.00
 
-
-
 unmountposition = 0.00,  2.4,  2.20
-
 
 AddPartCanopy = 0.04, 3.41, -1.26, -1,0,0, 45
 
@@ -139,7 +138,6 @@ BoundingBox =  0.00, 1.95, -5.05,  3.0, 1.6
 BoundingBox =  0.00, 1.50, -7.85,  3.0, 1.6
 BoundingBox =  0.00, 1.50, -9.45,  3.0, 1.6
 
-
 BoundingBox =  3.30, 1.60, -5.15,  3.5, 0.5
 BoundingBox = -3.30, 1.60, -5.15,  3.5, 0.5
 
@@ -151,9 +149,6 @@ BoundingBox =  -2.40, 1.70, -10.95,  3.0, 0.4
 
 BoundingBox =  1.25, 3.88, -8.80,  1.4, 3.0
 BoundingBox =  -1.25, 3.88, -8.80,  1.4, 3.0
-
-
-
 
 enableback = true
 DamageFactor = 0.8

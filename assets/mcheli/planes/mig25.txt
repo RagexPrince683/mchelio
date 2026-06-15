@@ -19,32 +19,45 @@ SmoothShading = true
 Category = I/RA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.18
+NewFlightThrottleChangeRateUp = 0.0055
+NewFlightThrottleChangeRateDown = 0.0075
+NewFlightIdleThrottle = 0.095
+NewFlightEngineBrakeDrag = 0.0030
+NewFlightLowThrottleLiftRetention = 0.88
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 17000
-FlightCeilingRange = 48
-MaxLevelSpeed = 4.0
-StallSpeedFactor = 0.12
-StallSpeed = 0.505
-CriticalAoA = 15
-StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
-StallInstability = 0.38
-BaseDrag = 0.0012
-InducedDrag = 0.0060
-ControlSurfaceDrag = 0.0026
-ClimbEnergyLoss = 0.0050
-DiveEnergyGain = 0.0105
-IdleDrag = 0.0035
+FlightCeilingRange = 72
+StallSpeed = 0.72
+CriticalAoA = 18.0
+StallLiftLoss = 0.66
+AoADragMultiplier = 1.45
+StallInstability = 0.32
+StallRecoverySpeed = 0.922
+StallSpeedFactor = 0.18
+StallStrength = 0.62
+DiveSpeedMultiplier = 1.28
+MaxComfortableG = 7.5
+MaxStructuralG = 10.0
+GControlPenalty = 0.58
+CompressibilitySpeed = 3.84
+CompressibilityPitchPenalty = 0.5
+MaxSafeSpeed = 4.88
+OverspeedDamageRate = 0.14
+BaseDrag = 0.0013
+InducedDrag = 0.0054
+ControlSurfaceDrag = 0.0024
+ClimbEnergyLoss = 0.0058
+DiveEnergyGain = 0.011
+MaxLevelSpeed = 4
+IdleDrag = 0.0034
+
 MobilityYaw = 0.954
 MobilityPitch = 1.177
 MobilityRoll = 1.404
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 4.5
-MaxStructuralG = 6.5
-GControlPenalty = 0.7
-CompressibilitySpeed = 4.698
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 6.055
-OverspeedDamageRate = 0
 PitchTorque = 0.41
 RollTorque = 0.462
 YawTorque = 0.3
@@ -55,15 +68,6 @@ InertiaMultiplier = 1.296
 ThrottleAcceleration = 0.035
 EngineDrag = 0.01
 
-NewFlightThrottleResponse = 1.3
-NewFlightThrottleChangeRateUp = 0.0055
-NewFlightThrottleChangeRateDown = 0.007
-NewFlightIdleThrottle = 0.06
-NewFlightEngineBrakeDrag = 0.0024
-NewFlightLowThrottleLiftRetention = 0.74
-NewFlightThrottleControlAuthorityScale = 0.25
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 HUD = planenvgonly
 ParticlesScale = 0.7
 AddPartCanopy = -0.49, 3.12, 5.97, 0, 0, 1, 90
@@ -101,14 +105,10 @@ AddPartWeaponMissile = mig25R73, false, false, false,  6.01, 1.93, -4.8
 AddPartWeaponMissile = mig25R33, false, false, false,   -0.78, -1.2, -0.13
 AddPartWeaponMissile = mig25R33, false, false, false,  1.12, -1.2, -0.13
 
-
-
 AddWeapon = mig25R73,   -0.9629, 0.8007, 1.0, 0.0, 0.0 , true, 2
 AddWeapon = mig25R73,   0.9629, 0.8007, 1.0, 0.0, 0.0 , true, 2
 AddWeapon = mig25R33, -8.6351, 2.5433, -0.13,  -1.0, 0.0
 AddWeapon = mig25R33, 8.6351, 2.5433, -0.13,  -1.0, 0.0
-
-
 
 AddPartSlideWeaponBay = R73,0,0,0.4
 AddPartSlideWeaponBay = R33,0,0,0.4
@@ -126,8 +126,6 @@ BoundingBox =  0.0, 2.3, -5, 4, 2,1
 BoundingBox =  0.0, 2.3, -8.3,  3.8, 2,1.25
 
 BoundingBox = 0, 2.3, -11.97,  3.6, 2,1.5
-
-
 
 BoundingBox =   1.56, 3.57, -8.65, 0.5,1,1
 BoundingBox =  -1.56, 3.57, -8.65, 0.5,1,1
@@ -150,11 +148,8 @@ BoundingBox =  -1.79, 4.97, -12.65, 0.5,3.5,1
 BoundingBox =   1.69, 4.67, -13.15, 0.5,3,1
 BoundingBox =  -1.69, 4.67, -13.15, 0.5,3,1
 
-
 ;BoundingBox = -1.59, 2.3, -11.97,  4, 2,1.8
 ;BoundingBox =  -1.8, 4.97, -10.9, 1,5,1
-
-
 
 BoundingBox =  -3.2,1.5, -12, 2.7, 0.3,1
 BoundingBox =   3.2,1.5, -12, 2.7, 0.3,1

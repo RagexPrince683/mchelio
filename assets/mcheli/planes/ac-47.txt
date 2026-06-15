@@ -23,30 +23,42 @@ EnableParachuting = false
 Category = GAA/CASG
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0088
+NewFlightThrottleResponse = 1.22
+NewFlightThrottleChangeRateUp = 0.0032
+NewFlightThrottleChangeRateDown = 0.0048
+NewFlightIdleThrottle = 0.12
+NewFlightEngineBrakeDrag = 0.0032
+NewFlightLowThrottleLiftRetention = 0.91
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 7300
-FlightCeilingRange = 40
-MaxLevelSpeed = 0.626
-StallSpeedFactor = 0.306
-StallSpeed = 0.191
-CriticalAoA = 15.8
-StallLiftLoss = 0.68
-AoADragMultiplier = 1.65
-StallInstability = 0.34
-StallRecoverySpeed = 0.222
-BaseDrag = 0.002
-InducedDrag = 0.008
-ControlSurfaceDrag = 0.003
-ClimbEnergyLoss = 0.006
-DiveEnergyGain = 0.008
-IdleDrag = 0.004
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 3.2
+FlightCeilingRange = 64
+StallSpeed = 0.22
+CriticalAoA = 13.5
+StallLiftLoss = 0.74
+AoADragMultiplier = 2.15
+StallInstability = 0.3
+StallRecoverySpeed = 0.295
+StallSpeedFactor = 0.19
+StallStrength = 0.82
+DiveSpeedMultiplier = 1.14
+MaxComfortableG = 2.8
 MaxStructuralG = 5.2
-GControlPenalty = 0.68
-CompressibilitySpeed = 0.97
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 1.189
-OverspeedDamageRate = 0
+GControlPenalty = 0.78
+CompressibilitySpeed = 0.563
+CompressibilityPitchPenalty = 0.58
+MaxSafeSpeed = 0.689
+OverspeedDamageRate = 0.18
+BaseDrag = 0.0029
+InducedDrag = 0.011
+ControlSurfaceDrag = 0.0042
+ClimbEnergyLoss = 0.013
+DiveEnergyGain = 0.0065
+MaxLevelSpeed = 0.576
+IdleDrag = 0.0040
+
 PitchTorque = 0.26
 RollTorque = 0.25
 YawTorque = 0.2
@@ -56,16 +68,6 @@ YawDamping = 0.53
 InertiaMultiplier = 1.65
 ThrottleAcceleration = 0.017
 EngineDrag = 0.015
-
-NewFlightThrottleResponse = 1.02
-NewFlightThrottleChangeRateUp = 0.0055
-NewFlightThrottleChangeRateDown = 0.007
-NewFlightIdleThrottle = 0.095
-NewFlightEngineBrakeDrag = 0.0028
-NewFlightLowThrottleLiftRetention = 0.86
-NewFlightThrottleControlAuthorityScale = 0.24
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 
 ;OH BROTHER!!!
 
@@ -79,7 +81,6 @@ enableback = true
 DamageFactor = 0.8
 
 AddSeat = 0.68, 5.0, 1.78
-
 
 AutoPilotRot = -0.10
 CameraPosition = 1.8, 4.40, -7.42
@@ -120,9 +121,6 @@ AddBlade =1, 0, 3.77, 3.47, 0.29,  0, 0, 1
 ;AddRack = container,     0.0, 4.11, -9.19,  2.19, 4.39, -11.12,   15,    20
 ;AddRack = container,     0.0, 4.11, -11.35,  2.19, 4.39, -11.12,   15,    20
 
-
-
-
 ;-6.4338, 2.4156, -0.1949
 
 ;shamelessly stolen from mk5
@@ -157,10 +155,7 @@ AddPartWeapon    = m134puff2, false, true, false,  1.346, 4.8032, -8.9292
 AddPartWeapon    = m134puff2, false, true, true,   1.346, 5.1032, -8.9292
 AddPartRotWeapon = m134puff2, false, true, true,   1.346, 5.1032, -8.9292, -1,0,0
 
-
 AddWeapon = memeflare, 0.0, 5.0, -9, 0.0, 0.0, true, 3, -90, 0, 0, 0, 90
-
-
 
 AddPartLG    =  3.77, 2.78, -1.29,  -1,0,0,  -90
 AddPartLG    =  -3.77, 2.78, -1.29,  -1,0,0,  -90

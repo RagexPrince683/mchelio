@@ -26,29 +26,46 @@ enableback = true
 Category = AWTB/ID
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.18
+NewFlightThrottleChangeRateUp = 0.0055
+NewFlightThrottleChangeRateDown = 0.0075
+NewFlightIdleThrottle = 0.095
+NewFlightEngineBrakeDrag = 0.0030
+NewFlightLowThrottleLiftRetention = 0.88
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.14
+NewFlightCombatFlapDrag = 0.0090
+NewFlightCombatFlapControl = 0.12
+NewFlightCombatFlapOverspeed = 0.78
 FlightCeiling = 11000
-FlightCeilingRange = 48
+FlightCeilingRange = 72
+StallSpeed = 0.518
+CriticalAoA = 18.0
+StallLiftLoss = 0.66
+AoADragMultiplier = 1.45
+StallInstability = 0.32
+StallRecoverySpeed = 0.663
+StallSpeedFactor = 0.18
+StallStrength = 0.62
+DiveSpeedMultiplier = 1.28
+MaxComfortableG = 7.5
+MaxStructuralG = 10.0
+GControlPenalty = 0.58
+CompressibilitySpeed = 2.763
+CompressibilityPitchPenalty = 0.5
+MaxSafeSpeed = 3.511
+OverspeedDamageRate = 0.14
+BaseDrag = 0.0013
+InducedDrag = 0.0054
+ControlSurfaceDrag = 0.0024
+ClimbEnergyLoss = 0.0058
+DiveEnergyGain = 0.011
 MaxLevelSpeed = 2.878
-StallSpeedFactor = 0.145
-StallSpeed = 0.418
-CriticalAoA = 17
-StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
-StallInstability = 0.38
-BaseDrag = 0.0016
-InducedDrag = 0.0064
-ControlSurfaceDrag = 0.0028
-ClimbEnergyLoss = 0.0054
-DiveEnergyGain = 0.0095
-IdleDrag = 0.0038
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 6.5
-MaxStructuralG = 8.5
-GControlPenalty = 0.7
-CompressibilitySpeed = 2.59
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 3.338
-OverspeedDamageRate = 0
+IdleDrag = 0.0034
+
 PitchTorque = 0.367
 RollTorque = 0.396
 YawTorque = 0.278
@@ -58,20 +75,6 @@ YawDamping = 0.49
 InertiaMultiplier = 1.488
 ThrottleAcceleration = 0.033
 EngineDrag = 0.011
-
-NewFlightThrottleResponse = 1.12
-NewFlightThrottleChangeRateUp = 0.0075
-NewFlightThrottleChangeRateDown = 0.0095
-NewFlightIdleThrottle = 0.07
-NewFlightEngineBrakeDrag = 0.003
-NewFlightLowThrottleLiftRetention = 0.8
-NewFlightThrottleControlAuthorityScale = 0.2
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = true
-NewFlightCombatFlapLift = 0.13
-NewFlightCombatFlapDrag = 0.009
-NewFlightCombatFlapControl = 0.12
-NewFlightCombatFlapOverspeed = 0.8
 
 HUD = planesu24, plane_gnrsu24
 
@@ -107,7 +110,6 @@ AddPartWeaponMissile = su24fb250, false,  false,  false, -5.09,  1.91, -6.73
 AddPartWeaponMissile = su24fb250, false,  false,  false, -5.09,  1.91, -6.73
 AddPartWeaponMissile = su24fb250, false,  false,  false, -5.09,  1.91, -6.73
 
-
 ;200rnds
 AddWeapon = gsh-6-23,  0.08,  3.68,  10.08,   2.0, -3.0
 ;2
@@ -131,13 +133,11 @@ AddWeapon = korshun, -6.09,  2.89, -3.32,   0.0,  0.0 , true,  2
 AddWeapon = s8k, 4.36,  2.68, -0.76,   0.0,  0.0 , true,  2
 AddWeapon = s8k, -4.36,  2.68, -0.76,   0.0,  0.0 , true,  2
 
-
 AddWeapon = targeting_pod_block, -5.09,  1.91, -6.73,   0.0,  0.0
 AddWeapon = targeting_pod_mob, -5.09,  1.91, -6.73,   0.0,  0.0
 
 ;modern medium light plane (jet), AOW3 style
 AddRecipe = "ABC", "DEI", "GH ", A, mcheli:airframe2, B, mcheli:advancedmechanicparts, C, mcheli:engine3, D, mcheli:wheelair, E, mcheli:cannon1, G, mcheli:electronics, H, mcheli:fcs, I, mcheli:rocket2
-
 
 BoundingBox = 0.0, 3.4, 6.0, 2.0, 2.0
 BoundingBox = 0.0, 3.4, 5.0, 2.0, 2.0
@@ -158,9 +158,6 @@ BoundingBox =  5.92, 3.50, -3.90,  3.0, 0.4
 BoundingBox = -7.92, 3.50, -4.60,  2.0, 0.4
 BoundingBox =  7.92, 3.50, -4.60,  2.0, 0.4 
 
-
-
-
 BoundingBox = 2.82, 3.75, -10.56, 2.3, 0.3
 BoundingBox = -2.82, 3.75, -10.56, 2.3, 0.3
 
@@ -171,8 +168,6 @@ BoundingBox = 1.92, 3.75, -9.76, 2.3, 0.3
 BoundingBox = -1.92, 3.75, -9.76, 2.3, 0.3
 ;tail
 
-
-
 BoundingBox = 0.0, 4.90, -9.56, 0.5, 2.5
 
 BoundingBox = 0.0, 4.60, -9.06, 0.5, 2.5
@@ -182,7 +177,6 @@ BoundingBox = 0.0, 4.2, -8.56, 0.5, 2.5
 BoundingBox = 0.0, 3.9, -8.06, 0.5, 2.5
 
 BoundingBox = 0.0, 3.6, -7.56, 0.5, 2.5
-
 
 BoundingBox = 0.0, 5.20, -10.06, 0.5, 2.5
 BoundingBox = 0.0, 5.50, -10.56, 0.5, 2.5

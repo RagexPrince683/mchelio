@@ -26,31 +26,48 @@ MobilityRoll = 1.188
 Category = VTOL/FA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.25
+NewFlightThrottleChangeRateUp = 0.0048
+NewFlightThrottleChangeRateDown = 0.0068
+NewFlightIdleThrottle = 0.10
+NewFlightEngineBrakeDrag = 0.0038
+NewFlightLowThrottleLiftRetention = 0.86
+NewFlightThrottleControlAuthorityScale = 0.13
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.17
+NewFlightCombatFlapDrag = 0.011
+NewFlightCombatFlapControl = 0.14
+NewFlightCombatFlapOverspeed = 0.74
 FlightCeiling = 12000
-FlightCeilingRange = 44
-MaxLevelSpeed = 2.227
-StallSpeedFactor = 0.18
-StallSpeed = 0.4
-CriticalAoA = 18
+FlightCeilingRange = 56
+StallSpeed = 0.468
+CriticalAoA = 15.5
 StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
+AoADragMultiplier = 1.7
 StallInstability = 0.38
-BaseDrag = 0.0017
-InducedDrag = 0.0064
-ControlSurfaceDrag = 0.0027
-ClimbEnergyLoss = 0.0054
-DiveEnergyGain = 0.0095
-IdleDrag = 0.0038
+StallRecoverySpeed = 0.608
+StallSpeedFactor = 0.21
+StallStrength = 0.7
+DiveSpeedMultiplier = 1.24
+MaxComfortableG = 5.8
+MaxStructuralG = 8.5
+GControlPenalty = 0.66
+CompressibilitySpeed = 2.071
+CompressibilityPitchPenalty = 0.62
+MaxSafeSpeed = 2.628
+OverspeedDamageRate = 0.16
+BaseDrag = 0.0018
+InducedDrag = 0.0068
+ControlSurfaceDrag = 0.0029
+ClimbEnergyLoss = 0.0078
+DiveEnergyGain = 0.011
+MaxLevelSpeed = 2.182
+IdleDrag = 0.0043
+
 MobilityYaw = 0.954
 MobilityPitch = 1.07
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 6.5
-MaxStructuralG = 8
-GControlPenalty = 0.7
-CompressibilitySpeed = 2.004
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 2.583
-OverspeedDamageRate = 0
 PitchTorque = 0.421
 RollTorque = 0.462
 YawTorque = 0.31
@@ -61,26 +78,11 @@ InertiaMultiplier = 1.152
 ThrottleAcceleration = 0.033
 EngineDrag = 0.011
 
-NewFlightThrottleResponse = 1.1
-NewFlightThrottleChangeRateUp = 0.0085
-NewFlightThrottleChangeRateDown = 0.011
-NewFlightIdleThrottle = 0.085
-NewFlightEngineBrakeDrag = 0.004
-NewFlightLowThrottleLiftRetention = 0.84
-NewFlightThrottleControlAuthorityScale = 0.16
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = true
-NewFlightCombatFlapLift = 0.15
-NewFlightCombatFlapDrag = 0.011
-NewFlightCombatFlapControl = 0.14
-NewFlightCombatFlapOverspeed = 0.72
-
 HUD = plane
 
 AddSeat = 0.00,  1.09,  -0.06
 
 unmountposition = 0.00,  1.59,  -0.06
-
 
 DamageFactor = 0.8
 
@@ -121,7 +123,6 @@ AddRecipe = "AB ", "   ", "   ", A, mcheli:yak38_upk, B, mcheli:rocket3
 
 AddRecipe = "AB ", "   ", "   ", A, mcheli:yak38_x23, B, mcheli:rocket3
 
-
 BoundingBox =  0.00, 1.37,  1.21,  1.1, 1.1
 
 BoundingBox =  0.00, 1.35, 0.10,  1.2, 1.2
@@ -133,7 +134,6 @@ BoundingBox =  0.00, 1.65, -9.35,  1.8, 1.8
 BoundingBox =  0.00, 1.75, -11.1,  1.7, 1.4
 BoundingBox =  0.00, 1.95, -12.55,  1.4, 1.0
 
-
 BoundingBox = -1.84, 1.8, -7.57,  2.1, 0.3
 BoundingBox =  1.84, 1.8, -7.57,  2.1, 0.3
 
@@ -143,13 +143,11 @@ BoundingBox =  3.34, 1.5, -8.07,  1.5, 0.3
 BoundingBox = -1.64, 1.5, -6.07,  1.5, 0.3
 BoundingBox =  1.64, 1.5, -6.07,  1.5, 0.3
 
-
 BoundingBox = 0.65, 2.2, -13.75, 1.0, 0.3
 BoundingBox = -0.65, 2.2, -13.75, 1.0, 0.3
 
 BoundingBox = 1.55, 2.0, -13.75, 0.8, 0.3
 BoundingBox = -1.55, 2.0, -13.75, 0.8, 0.3
-
 
 BoundingBox = 0.0, 2.3, -10.61, 0.5, 1.5
 BoundingBox = 0.0, 2.4, -11.11, 0.5, 1.5

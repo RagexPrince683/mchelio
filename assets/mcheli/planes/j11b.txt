@@ -25,29 +25,46 @@ AddRecipe = "ABC", "DEF", "GGG", A, mcheli:airframe2, B, mcheli:advancedmechanic
 Category = ASF
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.18
+NewFlightThrottleChangeRateUp = 0.0055
+NewFlightThrottleChangeRateDown = 0.0075
+NewFlightIdleThrottle = 0.095
+NewFlightEngineBrakeDrag = 0.0030
+NewFlightLowThrottleLiftRetention = 0.88
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.14
+NewFlightCombatFlapDrag = 0.0090
+NewFlightCombatFlapControl = 0.12
+NewFlightCombatFlapOverspeed = 0.78
 FlightCeiling = 19000
-FlightCeilingRange = 48
-MaxLevelSpeed = 4.0
-StallSpeedFactor = 0.12
-StallSpeed = 0.4
-CriticalAoA = 24
-StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
-StallInstability = 0.38
-BaseDrag = 0.0014
-InducedDrag = 0.0058
-ControlSurfaceDrag = 0.0025
-ClimbEnergyLoss = 0.0050
-DiveEnergyGain = 0.0100
-IdleDrag = 0.0035
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 9
-MaxStructuralG = 11.5
-GControlPenalty = 0.7
-CompressibilitySpeed = 3.915
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 5.046
-OverspeedDamageRate = 0
+FlightCeilingRange = 72
+StallSpeed = 0.72
+CriticalAoA = 18.0
+StallLiftLoss = 0.66
+AoADragMultiplier = 1.45
+StallInstability = 0.32
+StallRecoverySpeed = 0.922
+StallSpeedFactor = 0.18
+StallStrength = 0.62
+DiveSpeedMultiplier = 1.28
+MaxComfortableG = 7.5
+MaxStructuralG = 10.0
+GControlPenalty = 0.58
+CompressibilitySpeed = 3.84
+CompressibilityPitchPenalty = 0.5
+MaxSafeSpeed = 4.88
+OverspeedDamageRate = 0.14
+BaseDrag = 0.0013
+InducedDrag = 0.0054
+ControlSurfaceDrag = 0.0024
+ClimbEnergyLoss = 0.0058
+DiveEnergyGain = 0.011
+MaxLevelSpeed = 4
+IdleDrag = 0.0034
+
 PitchTorque = 0.464
 RollTorque = 0.528
 YawTorque = 0.342
@@ -58,25 +75,9 @@ InertiaMultiplier = 1.104
 ThrottleAcceleration = 0.037
 EngineDrag = 0.01
 
-NewFlightThrottleResponse = 1.04
-NewFlightThrottleChangeRateUp = 0.0105
-NewFlightThrottleChangeRateDown = 0.013
-NewFlightIdleThrottle = 0.06
-NewFlightEngineBrakeDrag = 0.0026
-NewFlightLowThrottleLiftRetention = 0.8
-NewFlightThrottleControlAuthorityScale = 0.16
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = true
-NewFlightCombatFlapLift = 0.13
-NewFlightCombatFlapDrag = 0.009
-NewFlightCombatFlapControl = 0.12
-NewFlightCombatFlapOverspeed = 0.8
-
 HUD = plane
 
 AddSeat = 0.00, 3.24, 0.00
-
-
 
 MobilityYaw = 1.272
 MobilityRoll = 1.728
@@ -85,8 +86,6 @@ MobilityPitch = 1.498
 AddPartCanopy = 0.00, 4.5607, -1.4737, -1,0,0,  60
 
 AddPartCanopy = 0.00, 0, 0, 0,0,0,  0
-
-
 
 AddPartSteeringWheel =   2.4833,  3.1177,  -16.1226,  0 , 1,  -0.2,   -30
 AddPartSteeringWheel =  -2.4833,  3.1177,  -16.1226,   0, 1,  -0.2,   -30
@@ -102,8 +101,6 @@ AddPartLG =  2.4466,  2.0670, -9.8678,  -850.00, -100.00,-250.00,  90
 
 AddPartLGRev = -2.8688, 2.1494, -8.9094,   0, 0, 1.00,  -95
 AddPartLG = -2.4466,  2.0670, -9.8678,  850.00, -100.00,-250.00,  -90
-
-
 
 AddPartWeaponMissile = j11yj-91,    false,  false,  false,   0.00, 0.8485, -7.53
 AddPartWeaponMissile = j11yj-91,    false,  false,  false,   0.00, 0.8485, -12.50
@@ -143,13 +140,10 @@ AddWeapon = j11pl-12_2,   8.55, 1.84, -10.31,   2.0, -3.0
 AddWeapon = j11pl-8, -9.39, 1.20, -12.44,   2.0, -3.0
 AddWeapon = j11pl-8, 9.39, 1.20, -12.44,   2.0, -3.0
 
-
 AddWeapon = uhf_radar,  0.00, 3.0, 0.0,    0.0, 0.0
-
 
 AddPartHatch =  0.00, 3.5784, -6.8482,  1,0,0, -43
 AddPartHatch =  0.00, 3.9204, -3.927,  1,0,0, 40
-
 
 BoundingBox =  0.00, 2.8, 3.5,  1.5, 1.5,0.5
 BoundingBox =  0.00, 3.3,  -5.0,  3.5, 2.0,1
@@ -158,7 +152,6 @@ BoundingBox =  0.00, 2.3,  -9.0, 4.5, 2.0,1.5
 BoundingBox =  0.00, 2.1,  -13.5, 4.5, 1.6,1.2
 BoundingBox =  0.00, 2.0,  -16.5, 4.5, 1.4, 1.0
 
-
 BoundingBox =  4.37, 2.0, -10.47,  4.0, 1,1.2
 BoundingBox = -4.37, 2.0, -10.47,  4.0, 1,1.2
 
@@ -166,7 +159,6 @@ BoundingBox =  7.27, 2.0, -12.47,  4.0, 1,1.2
 BoundingBox = -7.27, 2.0, -12.47,  4.0, 1,1.2
 BoundingBox = -2.5, 4.57, -16.64, 1.0, 4.5
 BoundingBox = 2.5, 4.57, -16.64, 1.0, 4.5
-
 
 BoundingBox = -2.5, 4.27, -15.64, 1.0, 4.5
 BoundingBox = 2.5, 4.27, -15.64, 1.0, 4.5

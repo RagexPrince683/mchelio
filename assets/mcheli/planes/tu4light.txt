@@ -25,30 +25,42 @@ UnmountPosition = 3.0, 2.0, -4.0
 Category = SB
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0088
+NewFlightThrottleResponse = 1.22
+NewFlightThrottleChangeRateUp = 0.0032
+NewFlightThrottleChangeRateDown = 0.0048
+NewFlightIdleThrottle = 0.12
+NewFlightEngineBrakeDrag = 0.0032
+NewFlightLowThrottleLiftRetention = 0.91
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 10000
-FlightCeilingRange = 40
-MaxLevelSpeed = 0.971
-StallSpeedFactor = 0.305
-StallSpeed = 0.296
-CriticalAoA = 15.2
-StallLiftLoss = 0.7
-AoADragMultiplier = 1.7
-StallInstability = 0.36
-StallRecoverySpeed = 0.349
-BaseDrag = 0.002
-InducedDrag = 0.008
-ControlSurfaceDrag = 0.003
-ClimbEnergyLoss = 0.006
-DiveEnergyGain = 0.008
-IdleDrag = 0.004
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 3
-MaxStructuralG = 5
-GControlPenalty = 0.7
-CompressibilitySpeed = 1.505
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 1.845
-OverspeedDamageRate = 0
+FlightCeilingRange = 64
+StallSpeed = 0.22
+CriticalAoA = 13.5
+StallLiftLoss = 0.74
+AoADragMultiplier = 2.15
+StallInstability = 0.3
+StallRecoverySpeed = 0.295
+StallSpeedFactor = 0.19
+StallStrength = 0.82
+DiveSpeedMultiplier = 1.14
+MaxComfortableG = 2.8
+MaxStructuralG = 5.2
+GControlPenalty = 0.78
+CompressibilitySpeed = 0.874
+CompressibilityPitchPenalty = 0.58
+MaxSafeSpeed = 1.068
+OverspeedDamageRate = 0.18
+BaseDrag = 0.0029
+InducedDrag = 0.011
+ControlSurfaceDrag = 0.0042
+ClimbEnergyLoss = 0.013
+DiveEnergyGain = 0.0065
+MaxLevelSpeed = 0.893
+IdleDrag = 0.0040
+
 PitchTorque = 0.22
 RollTorque = 0.21
 YawTorque = 0.17
@@ -58,16 +70,6 @@ YawDamping = 0.55
 InertiaMultiplier = 2.15
 ThrottleAcceleration = 0.016
 EngineDrag = 0.016
-
-NewFlightThrottleResponse = 0.98
-NewFlightThrottleChangeRateUp = 0.006
-NewFlightThrottleChangeRateDown = 0.0075
-NewFlightIdleThrottle = 0.105
-NewFlightEngineBrakeDrag = 0.003
-NewFlightLowThrottleLiftRetention = 0.86
-NewFlightThrottleControlAuthorityScale = 0.24
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 
 CameraZoom = 2
 
@@ -94,15 +96,11 @@ AddGunnerSeat =  0.00, 3.2,  -5.05,  0.00, 4.36, -5.05,  false,  -90, 5, false
 ;6th seat rear gun
 AddGunnerSeat =  0.00, 3.8, -34.00,  0.00, 5, -34.7, false, -30, 30, false
 
-
 ;7th seat top cupola BACK
 AddGunnerSeat =  0.00, 3.2, -18.8103,  0.00, 4.36, -18.8103, false, -90, 5, false
 
 ;8th seat lower cupola BACK
 AddGunnerSeat =  0.00, 1.9, -27.5118,  0.00, 1.4, -27.5118, false, -5, 90, false
-
-
-
 
 AddPartWeaponBay = tu4fab500sh1,  0.98, 0.88, -12.3, 0, 0,  1, 90
 AddPartWeaponBay = tu4fab500sh1, -0.98, 0.88, -12.3, 0, 0, -1, 90
@@ -118,7 +116,6 @@ AddPartLG =  -0.45, 0.75,  -0.19,  0,0, 1, 60
 AddPartLG =   5.38, 1.60, -10.16,  1,0, 0, 120
 AddPartLG =  -5.38, 1.60, -10.16,  1,0, 0, 120
 AddPartLG =   0.00, 1.28,   0.60,  1,0, 0, 120
-
 
 AddPartRotor =   -5.33,  2.65,  -5.13,   0, 0, 1
 AddBlade = 1,0,  -5.33,  2.65,  -5.13,   0, 0, 1
@@ -148,7 +145,6 @@ AddRecipe = "AB ", "   ", "   ", A, mcheli:tu4, B, mcheli:airframe
 ;AddPartWeapon = b29mg12_7mm_uf2, false, true, true,  0.00, 1.81, -27.5118
 ;rear
 ;AddPartWeapon = b29mg12_7mm_rr, false, true, true,  0.00, 3.59, -34.84
-
 
 ;top cupola front
 AddPartWeapon = ns23tu4a, false, true, true,  0.00, 4.36, -2.8227
@@ -181,7 +177,6 @@ AddWeapon = ns23tu4d,   0.16,  4.4,  -20.5399, 0.0, 0.0, false,  7,    0, -360, 
 AddWeapon = ns23tu4e,  -0.16,  1.81, -27.5118, 0.0, 0.0, false, 8,    0, -360, 360, -5,  90
 AddWeapon = ns23tu4e,   0.16,  1.81, -27.5118, 0.0, 0.0, false, 8,    0, -360, 360, -5,  90
 
-
 AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
 
 AddWeapon = tu4fab500sh1,       0.55,  1.08,  -6.0, 0, 90, true,  2
@@ -202,8 +197,6 @@ AddWeapon = tu4fab500sh1,      -0.55,  1.08, -16.0, 0, 90, true,  2
 ;;AddWeapon = ruanm17allc,  -0.55,  1.08, -16.0, 0, 90, true,  1
 ;not real
 
-
-
 BoundingBox =  0.0, 2.6,  -2.6,  4.0, 4.0
 BoundingBox =  0.0, 2.6,  -6.6,  4.0, 4.0, 0.75
 BoundingBox =  0.0, 2.6, -10.6,  4.0, 4.0, 0.75
@@ -223,17 +216,12 @@ BoundingBox =  0.0, 8.0, -31.6,  1.0, 4.5
 BoundingBox =  0.0, 7.0, -29.6,  1.0, 4.5
 BoundingBox =  0.0, 7.0, -32.6,  1.0, 4.5
 
-
 ;engines
 BoundingBox = 5.49, 2.43, -7.63, 1.5, 1.5
 BoundingBox = 11.93, 2.91, -8.50, 1.5, 1.5
 
 BoundingBox = -5.49, 2.43, -7.63, 1.5, 1.5
 BoundingBox = -11.93, 2.91, -8.50, 1.5, 1.5
-
-
-
-
 
 BoundingBox =  -5.0, 2.2, -11.6,  5.0, 1.0, 1.25
 BoundingBox = -10.0, 3.0, -11.6,  5.0, 1.0, 1.25

@@ -28,30 +28,42 @@ MobDropOption  = 0.97, 1.10, -12.91, 2
 Category = STOL/SOMTA/TA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0088
+NewFlightThrottleResponse = 1.22
+NewFlightThrottleChangeRateUp = 0.0032
+NewFlightThrottleChangeRateDown = 0.0048
+NewFlightIdleThrottle = 0.12
+NewFlightEngineBrakeDrag = 0.0032
+NewFlightLowThrottleLiftRetention = 0.91
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 10000
-FlightCeilingRange = 56
-MaxLevelSpeed = 1.168
-StallSpeedFactor = 0.238
-StallSpeed = 0.278
-CriticalAoA = 14.5
-StallLiftLoss = 0.72
-AoADragMultiplier = 1.75
-StallInstability = 0.38
-StallRecoverySpeed = 0.334
-BaseDrag = 0.002
-InducedDrag = 0.009
-ControlSurfaceDrag = 0.003
-ClimbEnergyLoss = 0.006
-DiveEnergyGain = 0.008
-IdleDrag = 0.004
-DiveSpeedMultiplier = 1.18
+FlightCeilingRange = 64
+StallSpeed = 0.222
+CriticalAoA = 13.5
+StallLiftLoss = 0.74
+AoADragMultiplier = 2.15
+StallInstability = 0.3
+StallRecoverySpeed = 0.297
+StallSpeedFactor = 0.19
+StallStrength = 0.82
+DiveSpeedMultiplier = 1.14
 MaxComfortableG = 2.8
-MaxStructuralG = 4.8
-GControlPenalty = 0.72
-CompressibilitySpeed = 1.81
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 2.219
-OverspeedDamageRate = 0
+MaxStructuralG = 5.2
+GControlPenalty = 0.78
+CompressibilitySpeed = 1.051
+CompressibilityPitchPenalty = 0.58
+MaxSafeSpeed = 1.285
+OverspeedDamageRate = 0.18
+BaseDrag = 0.0029
+InducedDrag = 0.011
+ControlSurfaceDrag = 0.0042
+ClimbEnergyLoss = 0.013
+DiveEnergyGain = 0.0065
+MaxLevelSpeed = 1.075
+IdleDrag = 0.0040
+
 PitchTorque = 0.19
 RollTorque = 0.19
 YawTorque = 0.15
@@ -61,16 +73,6 @@ YawDamping = 0.62
 InertiaMultiplier = 2.85
 ThrottleAcceleration = 0.015
 EngineDrag = 0.017
-
-NewFlightThrottleResponse = 0.98
-NewFlightThrottleChangeRateUp = 0.0065
-NewFlightThrottleChangeRateDown = 0.008
-NewFlightIdleThrottle = 0.1
-NewFlightEngineBrakeDrag = 0.0032
-NewFlightLowThrottleLiftRetention = 0.88
-NewFlightThrottleControlAuthorityScale = 0.22
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 
 HUD = planenvg, plane_gnrnvg, plane_gnrnvg, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
@@ -132,7 +134,6 @@ AddSeat = 0.5, 1.10, -2.51
 AddSeat = 0.0, 1.10, -2.51
 AddSeat = -0.5, 1.10, -2.51
 
-
 AddPartLG =  0.00, 1.19,  0.37,  1,0,0
 AddPartLG =  0.00, 1.20, -7.16,  1,0,0, 60
 AddPartLG =  0.00, 1.20, -8.78,  1,0,0, 60
@@ -163,7 +164,6 @@ BoundingBox =  0.00, 2.60, -11.60,  4.0, 4.0
 
 BoundingBox = -2.92, 4.00,  -6.60,  4.0, 1.0
 BoundingBox =  2.92, 4.00,  -6.60,  4.0, 1.0
-
 
 BoundingBox = -4.92, 4.00,  -6.60,  4.0, 1.0
 BoundingBox =  4.92, 4.00,  -6.60,  4.0, 1.0
@@ -200,7 +200,6 @@ BoundingBox = 9.47, 3.24, -3.26, 1.5, 1.5   , 1.5
 DamageFactor = 0.8
 
 RotorSpeed = 500.0
-
 
 unmountposition = 0.65,  2.43,  2.00
 

@@ -18,32 +18,49 @@ SmoothShading = true
 Category = F/IA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0080
+NewFlightThrottleResponse = 1.25
+NewFlightThrottleChangeRateUp = 0.0048
+NewFlightThrottleChangeRateDown = 0.0068
+NewFlightIdleThrottle = 0.10
+NewFlightEngineBrakeDrag = 0.0038
+NewFlightLowThrottleLiftRetention = 0.86
+NewFlightThrottleControlAuthorityScale = 0.13
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = true
+NewFlightCombatFlapLift = 0.17
+NewFlightCombatFlapDrag = 0.011
+NewFlightCombatFlapControl = 0.14
+NewFlightCombatFlapOverspeed = 0.74
 FlightCeiling = 17500
-FlightCeilingRange = 44
-MaxLevelSpeed = 3.698
-StallSpeedFactor = 0.12
-StallSpeed = 0.365
-CriticalAoA = 18
+FlightCeilingRange = 56
+StallSpeed = 0.777
+CriticalAoA = 15.5
 StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
+AoADragMultiplier = 1.7
 StallInstability = 0.38
-BaseDrag = 0.0012
-InducedDrag = 0.0060
-ControlSurfaceDrag = 0.0026
-ClimbEnergyLoss = 0.0050
-DiveEnergyGain = 0.0105
-IdleDrag = 0.0035
+StallRecoverySpeed = 1.01
+StallSpeedFactor = 0.21
+StallStrength = 0.7
+DiveSpeedMultiplier = 1.24
+MaxComfortableG = 5.8
+MaxStructuralG = 8.5
+GControlPenalty = 0.66
+CompressibilitySpeed = 3.439
+CompressibilityPitchPenalty = 0.62
+MaxSafeSpeed = 4.364
+OverspeedDamageRate = 0.16
+BaseDrag = 0.0018
+InducedDrag = 0.0068
+ControlSurfaceDrag = 0.0029
+ClimbEnergyLoss = 0.0078
+DiveEnergyGain = 0.011
+MaxLevelSpeed = 3.624
+IdleDrag = 0.0043
+
 MobilityYaw = 0.954
 MobilityPitch = 1.177
 MobilityRoll = 1.404
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 8
-MaxStructuralG = 9.5
-GControlPenalty = 0.7
-CompressibilitySpeed = 3.328
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 4.29
-OverspeedDamageRate = 0
 PitchTorque = 0.41
 RollTorque = 0.462
 YawTorque = 0.3
@@ -54,19 +71,6 @@ InertiaMultiplier = 1.296
 ThrottleAcceleration = 0.035
 EngineDrag = 0.01
 
-NewFlightThrottleResponse = 1.24
-NewFlightThrottleChangeRateUp = 0.0068
-NewFlightThrottleChangeRateDown = 0.0088
-NewFlightIdleThrottle = 0.07
-NewFlightEngineBrakeDrag = 0.0032
-NewFlightLowThrottleLiftRetention = 0.78
-NewFlightThrottleControlAuthorityScale = 0.21
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = true
-NewFlightCombatFlapLift = 0.14
-NewFlightCombatFlapDrag = 0.01
-NewFlightCombatFlapControl = 0.13
-NewFlightCombatFlapOverspeed = 0.76
 AddPartNozzle =0,2.31,-11.97,-1,0,0
 HUD = mig21
 ParticlesScale = 0.7
@@ -106,7 +110,6 @@ AddPartThrottle=0.22,3.02,-12.96,-0.6,0.1,0,10
 AddPartThrottle=0.22,3.02,-12.96,-0.8,0.1,0,10
 AddPartThrottle=0,3.05,-12.96,-0.8,0.1,0,10
 
-
 AddPartThrottle=-0.73,2.31,-12.96,0,1,0,-10
 AddPartThrottle=-0.70,2.54,-12.96,0,1,0,-10
 
@@ -121,7 +124,6 @@ AddPartThrottle=-0.22,3.02,-12.96,-0.6,-0.1,0,10
 
 AddPartThrottle=-0.22,3.02,-12.96,-0.8,-0.1,0,10
 AddPartThrottle=-0,3.05,-12.96,-0.8,-0.1,0,10
-
 
 AddPartThrottle=-0.73,2.31,-12.96,0,1,0,-10
 AddPartThrottle=-0.70,2.09,-12.96,0,1,0,-10
@@ -138,7 +140,6 @@ AddPartThrottle=-0.22,1.61,-12.96,-0.6,-0.1,0,-10
 AddPartThrottle=-0.22,1.61,-12.96,-0.8,-0.1,0,-10
 AddPartThrottle=-0,1.58,-12.96,-0.8,-0.1,0,-10
 
-
 AddPartThrottle=0.73,2.31,-12.96,0,1,0,10
 AddPartThrottle=0.70,2.09,-12.96,0,1,0,10
 
@@ -154,13 +155,11 @@ AddPartThrottle=0.22,1.61,-12.96,0.6,0.1,0,10
 AddPartThrottle=0.22,1.61,-12.96,0.8,0.1,0,10
 AddPartThrottle=0,1.58,-12.96,0.8,0.1,0,10
 
-
 AddPartWeaponMissile = fueltank, false, false, false,  0.28, 1.32, -1.99
 AddPartWeaponMissile = r-3, false, false, false,  -3.5, 1.91, -3.69
 AddPartWeaponMissile = r-3, false, false, false,  3.5, 1.91, -3.69
 ;AddPartWeaponMissile = kh-25, false, false, false,   2.2259, 1.351, -4.599
 ;AddPartWeaponMissile = kh-25, false, false, false,  -2.2259, 1.351, -4.599
-
 
 AddWeapon = mig21nr30, -1.00, 2.40,  1
 AddWeapon = fueltank,  0.00, 0.6183, -4.331
@@ -171,8 +170,6 @@ AddWeapon = s-5, -2.8259, 1.451, -4.599, 0.0, 0.0
 
 ;modern light plane (early jet), AOW3 style
 AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:cannon1, F, mcheli:rocket, G, mcheli:electronics
-
-
 
 BoundingBox =  0,2.6, 4.36,  1.3, 1.3
 BoundingBox =  0,2.65, 3.02,  1.4, 1.4,1

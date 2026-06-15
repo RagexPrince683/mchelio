@@ -7,42 +7,52 @@ Speed = 1.609
 ;.644*1.74
 ;644mph
 
-
 Sound = mdninety
 ThrottleUpDown = 0.1
 MaxFuel         = 88400
 FuelConsumption = 22.902
 InventorySize = 64
 
-
-
 ; C = Civilian(民間機)
 Category = C/NBJA
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+NewFlightGravity = 0.0088
+NewFlightThrottleResponse = 1.22
+NewFlightThrottleChangeRateUp = 0.0032
+NewFlightThrottleChangeRateDown = 0.0048
+NewFlightIdleThrottle = 0.12
+NewFlightEngineBrakeDrag = 0.0032
+NewFlightLowThrottleLiftRetention = 0.91
+NewFlightThrottleControlAuthorityScale = 0.10
+NewFlightThrottleHudDisplay = true
+NewFlightCombatFlaps = false
 FlightCeiling = 11300
 FlightCeilingRange = 64
-MaxLevelSpeed = 1.609
-StallSpeedFactor = 0.243
-StallSpeed = 0.392
-CriticalAoA = 14
-StallLiftLoss = 0.7
-AoADragMultiplier = 1.65
-StallInstability = 0.38
-BaseDrag = 0.0017
-InducedDrag = 0.0068
-ControlSurfaceDrag = 0.0028
-ClimbEnergyLoss = 0.0056
-DiveEnergyGain = 0.0090
-IdleDrag = 0.0038
-DiveSpeedMultiplier = 1.18
-MaxComfortableG = 2.5
-MaxStructuralG = 4
-GControlPenalty = 0.7
+StallSpeed = 0.306
+CriticalAoA = 13.5
+StallLiftLoss = 0.74
+AoADragMultiplier = 2.15
+StallInstability = 0.3
+StallRecoverySpeed = 0.41
+StallSpeedFactor = 0.19
+StallStrength = 0.82
+DiveSpeedMultiplier = 1.14
+MaxComfortableG = 2.8
+MaxStructuralG = 5.2
+GControlPenalty = 0.78
 CompressibilitySpeed = 1.448
-CompressibilityPitchPenalty = 0
-MaxSafeSpeed = 1.866
-OverspeedDamageRate = 0
+CompressibilityPitchPenalty = 0.58
+MaxSafeSpeed = 1.77
+OverspeedDamageRate = 0.18
+BaseDrag = 0.0029
+InducedDrag = 0.011
+ControlSurfaceDrag = 0.0042
+ClimbEnergyLoss = 0.013
+DiveEnergyGain = 0.0065
+MaxLevelSpeed = 1.48
+IdleDrag = 0.0040
+
 PitchTorque = 0.27
 RollTorque = 0.275
 YawTorque = 0.193
@@ -52,16 +62,6 @@ YawDamping = 0.561
 InertiaMultiplier = 1.776
 ThrottleAcceleration = 0.026
 EngineDrag = 0.011
-
-NewFlightThrottleResponse = 1.02
-NewFlightThrottleChangeRateUp = 0.0055
-NewFlightThrottleChangeRateDown = 0.007
-NewFlightIdleThrottle = 0.095
-NewFlightEngineBrakeDrag = 0.0028
-NewFlightLowThrottleLiftRetention = 0.86
-NewFlightThrottleControlAuthorityScale = 0.24
-NewFlightThrottleHudDisplay = true
-NewFlightCombatFlaps = false
 
 HUD = civilian_aircraft, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none, none
 
@@ -116,9 +116,6 @@ AddSeat = -0.65, 2.8, -14.2
 AddSeat = -1.4, 2.8, -14.2
 AddSeat = 0.65, 2.8, -14.2
 AddSeat = 1.4, 2.8, -14.2
-
-
-
 
 ;basic unarmed large plane, AOW3 style
 AddRecipe = "ABC", "DAE", "   ", A, mcheli:airframe3, B, mcheli:basicmechanicparts, C, mcheli:engine2, D, mcheli:wheelair, E, mcheli:electronics
