@@ -24,7 +24,7 @@ Applies to planes, helicopters, tanks, turret/static weapons, ships, and any oth
 
 | Key | Type | Default | Notes |
 |---|---|---:|---|
-| `AddSeat` | `x,y,z[,rotYaw,rotPitch,...]` | none | Adds a normal seat. At least one seat is required unless a UAV flag creates one. |
+| `AddSeat` | `x,y,z[,rotYaw,rotPitch,...]` | none | Adds a normal seat. At least one seat is required unless a UAV flag creates one. A vehicle can define up to 500 combined seats and racks. |
 | `AddGunnerSeat` | list | none | Adds a gunner seat. |
 | `AddFixRotSeat` | list | none | Adds a fixed-rotation seat. |
 | `ExclusionSeat` | seat ids | none | One-based seat ids; parser stores zero-based exclusions. |
@@ -44,6 +44,7 @@ Applies to planes, helicopters, tanks, turret/static weapons, ships, and any oth
 | `MotionFactor` | float[0..1] | 0.96; plane constructor 0.975 | Per-tick horizontal damping after acceleration. Higher values retain more speed. |
 | `gravity` | float[-50..50] | -0.04 | Vertical acceleration in air. |
 | `gravityinwater` | float[-50..50] | -0.04 | Vertical acceleration while in water. |
+| `NewFlightGravity` / `FlightGravity` / `GravityOverride` | float[0..1] | global `NewFlightGravity` | Per-vehicle downward acceleration override for new-flight-model aircraft only. Omit to use the global config default. |
 | `float` | boolean | false | Enables floating/water behavior. |
 | `floatoffset` | float | 0 | Parser stores the negative of the supplied value. |
 | `FlightCeiling` | float[32..37650] | 9100 | Soft ceiling. Lift fades instead of hard-clamping altitude. |
