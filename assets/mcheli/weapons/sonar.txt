@@ -8,8 +8,8 @@ SoundVolume = 15.0
 SoundPitchRandom = 0.0
 
 ; Radius = Length * Power
-; 16 * 10 = 160 block sonar range
-Length = 16
+; 160 block sonar range?
+Length = 160
 Power = 10
 
 ; Target = ships uses bit 64 in MCH_Multiplay
