@@ -55,7 +55,7 @@ With the default `AllPlaneSpeed = 1000`, a 500 mph plane therefore uses `Speed 0
 | `NewFlightThrottleChangeRateDown` | float[0..0.1] | 0.008 | **New flight model only.** Pilot-commanded throttle decrease per tick. Usually slightly faster than increase for approach and dogfight energy control. |
 | `NewFlightIdleThrottle` | float[0..0.35] | 0.08 | **New flight model only.** Minimum effective engine power at 0% commanded throttle; keeps idle physically plausible without making idle accelerate like cruise. |
 | `NewFlightEngineBrakeDrag` | float[0..0.25] | 0.0035 | **New flight model only.** Closed-throttle/low-power drag used by the energy model. Replaces `IdleDrag` for opted-in planes. |
-| `NewFlightLowThrottleLiftRetention` | float[0..1] | 0.82 | **New flight model only.** Retains this fraction of the legacy throttle-coupled vertical support at idle so lift does not vanish immediately when throttle is chopped. Stall is still driven by airspeed/AoA. |
+| `NewFlightLowThrottleLiftRetention` | float[0..1] | 0.70 | **New flight model only.** Retains this fraction of the legacy throttle-coupled vertical support at idle so lift does not vanish immediately when throttle is chopped. Stall is still driven by airspeed/AoA. |
 | `NewFlightThrottleControlAuthorityScale` | float[0..1] | 0.18 | **New flight model only.** Maximum control-authority penalty at idle. Keep low so glide/landing controls remain useful. |
 | `NewFlightThrottleHudDisplay` | boolean | true | **New flight model only.** Shows pilot HUD text like `THR 85%`. Legacy HUDs are unchanged for planes that do not opt in. |
 | `NewFlightCombatFlaps` | boolean | false | **New flight model only.** Enables the combat-flap toggle on the Extra key. Inactive on legacy planes even if present. |

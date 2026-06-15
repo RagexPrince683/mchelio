@@ -232,7 +232,7 @@ The table below maps every vehicle text key found in vehicle parser classes to v
 | `NewFlightThrottleChangeRateDown` | Plane | float[0..0.1] | 0.008 | new-flight-only pilot throttle-down rate/tick |
 | `NewFlightIdleThrottle` | Plane | float[0..0.35] | 0.08 | new-flight-only effective idle power |
 | `NewFlightEngineBrakeDrag` | Plane | float[0..0.25] | 0.0035 | new-flight-only low-power drag |
-| `NewFlightLowThrottleLiftRetention` | Plane | float[0..1] | 0.82 | new-flight-only lift/support retained at idle |
+| `NewFlightLowThrottleLiftRetention` | Plane | float[0..1] | 0.70 | new-flight-only lift/support retained at idle |
 | `NewFlightThrottleControlAuthorityScale` | Plane | float[0..1] | 0.18 | new-flight-only idle control-authority penalty |
 | `NewFlightThrottleHudDisplay` | Plane | boolean | true | show `THR 0-100%` for new-flight pilots |
 | `NewFlightCombatFlaps` | Plane | boolean | false | enables new-flight-only combat flaps |
