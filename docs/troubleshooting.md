@@ -12,6 +12,9 @@ Check these first:
 
 ## Vehicles are invisible or missing textures
 
+- If a creative tab is empty or an expected vehicle is missing, verify that the matching content folder is installed and that the vehicle definition loaded without parser errors.
+- Vehicle configs need enough data to validate: at least one seat, at least one texture, and a usable item/model from the content loader.
+
 - Confirm `assets/mcheli/models/` and `assets/mcheli/textures/` are present.
 - Confirm the asset folder was not separated from the compiled classes.
 - Try Minecraft's resource-pack reload flow.
@@ -40,6 +43,8 @@ Check these first:
 - Confirm `EnableCommand=true` in `mcheli.cfg`.
 - Confirm your player name is allowed by the relevant `CommandPermission` entry.
 - Use `/mcheli list` to verify command registration.
+- Operators can use all subcommands; non-operators need per-subcommand `CommandPermission` entries. Granting `status` does not grant destructive commands such as `fill`, `killentity`, `removeentity`, or `attackentity`.
+- `/mcheli showboundingbox` toggles debug bounding boxes in memory and broadcasts the setting, but does not save the config file.
 
 ## Explosions or collisions are damaging too much terrain
 
@@ -59,7 +64,8 @@ Review:
 - Use `/mcheli status entity 10` to find high-count entities.
 - Clean up problematic entity classes with `/mcheli removeentity <classFragment>` only when you are certain what will be removed.
 - Reduce destructive projectile spam through recipes, rules, or weapon availability.
-- Consider client render/LOD settings for FPS issues.
+- Consider client render/LOD settings for FPS issues, including `EnableAircraftLODRender`, `AircraftLODStartDistance`, `AircraftLODFarDistance`, `RenderDistanceWeight`, and `MobRenderDistanceWeight`.
+- `MultiThreadedModelLoading = true` can reduce startup cost for large content packs and is enabled by default in the code documentation.
 
 ## Crafting recipes do not appear or are not desired
 

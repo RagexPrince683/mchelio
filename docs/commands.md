@@ -1,167 +1,94 @@
 # Command and Permission Reference
 
-MC Helicopter Overdrive+ registers one root command:
+All commands use the root command:
 
 ```text
 /mcheli <subcommand> ...
 ```
 
-Commands are enabled by `EnableCommand=true` in `config/mcheli.cfg`. The compiled command class exposes the following subcommands:
+Commands only run when `EnableCommand = true` in `config/mcheli.cfg`.
+
+## Permission model
+
+The command class allows the root command for everyone, then checks each subcommand before execution. Operators/players who can use vanilla `/gamemode` pass automatically. Non-operators need `CommandPermission` entries in `mcheli.cfg`.
+
+Format:
 
 ```text
-sendss, modlist, reconfig, title, fill, status, killentity, removeentity, attackentity, showboundingbox, list
+CommandPermission = commandName:PlayerName1, PlayerName2
 ```
 
-## Permissions
-
-Command access is controlled by `CommandPermission` entries in `mcheli.cfg`.
-
-Important behavior verified from the command implementation:
-
-- If a sender cannot use a subcommand, the command returns Minecraft's generic permission error.
-- Permission checks compare the subcommand name and player names from the config.
-- Server operators should not assume all `/mcheli` subcommands are harmless; several are destructive or diagnostic tools.
-
-## Command list
-
-### `/mcheli list`
-
-Prints the available MC Helicopter subcommands.
+Examples:
 
 ```text
-/mcheli list
+CommandPermission = modlist:Alice, Bob
+CommandPermission = status:ServerMod
+CommandPermission = reconfig:AdminHelper
 ```
 
-### `/mcheli reconfig`
+Permissions are per subcommand. Granting `status` does not grant `fill` or `killentity`.
 
-Reloads `mcheli.cfg` through the mod proxy. On a dedicated server it also sends updated server settings to clients.
+## Subcommands
+
+| Command | Syntax | Purpose |
+| --- | --- | --- |
+| `list` | `/mcheli list` | Prints the available MCHeli subcommands. |
+| `reconfig` | `/mcheli reconfig` | Reloads `mcheli.cfg`; on servers, broadcasts updated server settings to clients. |
+| `sendss` | `/mcheli sendss <playerName>` | Sends a client packet requesting/triggering screenshot-related client handling for the named player. |
+| `modlist` | `/mcheli modlist <playerName>` | Requests mod-list information from the named player. |
+| `title` | `/mcheli title <timeSeconds> <position> <jsonMessage>` | Sends a JSON chat title/message packet to clients. Time is clamped to 1-180 seconds; position is clamped by code to 0-5. |
+| `fill` | `/mcheli fill <x1> <y1> <z1> <x2> <y2> <z2> <block> [metadata] [oldBlockHandling] [dataTag]` | MCHeli copy of a fill/setblock-style admin utility. `oldBlockHandling` supports `replace`, `destroy`, `keep`, and `override` in tab completion. |
+| `status` | `/mcheli status <entity|tile> [minNum]` | Counts loaded entity or tile-entity classes in the sender's world and prints classes with at least `minNum` instances. |
+| `killentity` | `/mcheli killentity <entityClassNameFragment>` | Calls `setDead()` on matching loaded non-player entities. |
+| `removeentity` | `/mcheli removeentity <entityClassNameFragment>` | Marks matching loaded non-player entities dead by setting `isDead = true`. |
+| `attackentity` | `/mcheli attackentity <entityClassNameFragment> <damage> [damageSource]` | Damages matching loaded non-player entities. |
+| `showboundingbox` | `/mcheli showboundingbox <true|false>` | Toggles MCHeli debug bounding boxes and broadcasts server settings. This does not save the config file. |
+
+## `attackentity` damage sources
+
+Recognized names include:
+
+```text
+player, anvil, cactus, drown, fall, fallingBlock, generic,
+inFire, inWall, lava, magic, onFire, starve, wither
+```
+
+Tab completion also advertises `outOfWorld`, but the implementation does not assign a special `DamageSource` for it; unrecognized values fall back to generic damage.
+
+## Examples
+
+Reload server config:
 
 ```text
 /mcheli reconfig
 ```
 
-Use this after changing reloadable server-side settings. A full restart is still safer after large config or modpack changes.
+Show classes for loaded entities with at least 10 instances:
 
-### `/mcheli showboundingbox <true|false>`
+```text
+/mcheli status entity 10
+```
 
-Toggles `EnableDebugBoundingBox` and sends updated server settings to clients.
+Remove all loaded entities whose class name contains `EntityBullet`:
+
+```text
+/mcheli removeentity EntityBullet
+```
+
+Display a JSON title for 5 seconds at position 2:
+
+```text
+/mcheli title 5 2 {"text":"Objective updated","color":"gold"}
+```
+
+Enable debug bounding boxes for connected clients:
 
 ```text
 /mcheli showboundingbox true
-/mcheli showboundingbox false
 ```
 
-When enabled, the command reports `Enabled bounding box [F3 + b]`.
+## Safety notes
 
-### `/mcheli title <timeSeconds> <position> <jsonMessage>`
-
-Sends a JSON chat-component title packet to clients.
-
-```text
-/mcheli title 5 2 {"text":"Mission start","color":"gold"}
-```
-
-Verified constraints:
-
-- `timeSeconds` is clamped from `1` to `180`.
-- The implementation accepts positions starting at `0` and clamps high values to `5`, although its error text says `position[0~4]`.
-- `jsonMessage` must be valid Minecraft JSON chat-component syntax.
-
-### `/mcheli status <entity|tile> [minNum]`
-
-Prints grouped server-loaded entity or tile-entity counts.
-
-```text
-/mcheli status entity
-/mcheli status entity 10
-/mcheli status tile
-/mcheli status tile 5
-```
-
-Use this for lag investigations or to find unexpectedly numerous entity classes.
-
-### `/mcheli killentity <entityClassNameFragment>`
-
-Kills loaded entities whose class name contains the supplied string.
-
-```text
-/mcheli killentity EntityBat
-/mcheli killentity minecraft.entity.passive
-```
-
-This is destructive. Test with `/mcheli status entity` first.
-
-### `/mcheli removeentity <entityClassNameFragment>`
-
-Removes loaded entities whose class name contains the supplied string.
-
-```text
-/mcheli removeentity EntityItem
-/mcheli removeentity mcheli.weapon
-```
-
-This bypasses normal combat/death behavior and should be limited to trusted administrators.
-
-### `/mcheli attackentity <entityClassNameFragment> <damage> [damageSource]`
-
-Applies damage to matching loaded entities.
-
-```text
-/mcheli attackentity EntityZombie 10 generic
-/mcheli attackentity EntityPlayer 2 magic
-```
-
-Recognized damage sources include:
-
-```text
-player, anvil, cactus, drown, fall, fallingblock, generic, infire, inwall, lava, magic, onfire, starve, wither
-```
-
-If `player` is used by a player sender, the damage source is attributed to that player.
-
-### `/mcheli fill <x1> <y1> <z1> <x2> <y2> <z2> <blockName> [metadata] [oldBlockHandling] [dataTag]`
-
-A mod-provided fill command similar to Minecraft setblock/fill behavior.
-
-```text
-/mcheli fill ~-5 ~ ~-5 ~5 ~3 ~5 minecraft:air 0 destroy
-/mcheli fill 0 64 0 10 70 10 minecraft:stone 0 replace
-```
-
-Verified behavior:
-
-- Supports relative coordinates.
-- Supports `replace`, `keep`, `destroy`, and `override` handling.
-- Supports optional tile-entity NBT data tags.
-- Refuses very large operations above the implementation's block limit (`327680`).
-
-This is destructive and should be restricted.
-
-### `/mcheli sendss <playerName>`
-
-Sends a client packet to the named player. The command name and packet id indicate screenshot/request behavior.
-
-```text
-/mcheli sendss PlayerName
-```
-
-Because the repository only includes compiled classes, the exact client-side result could not be fully documented without runtime testing.
-
-### `/mcheli modlist <playerName>`
-
-Requests or displays mod-list information for the named player via the multiplayer packet handler.
-
-```text
-/mcheli modlist PlayerName
-```
-
-Because the repository only includes compiled classes, the exact client-side UI/report format could not be fully documented without runtime testing.
-
-## Recommended permission policy
-
-For public servers:
-
-- Give `list`, `status`, and possibly `modlist` only to moderators/admins.
-- Give `reconfig` only to owners or senior admins.
-- Give `fill`, `killentity`, `removeentity`, `attackentity`, and `showboundingbox` only to trusted technical admins.
-- Avoid giving `sendss` to general staff unless your community rules clearly disclose what it does.
+- `fill`, `killentity`, `removeentity`, and `attackentity` are destructive admin tools. Grant them only to trusted users.
+- Entity matching uses case-insensitive substring matching against Java class names. A broad fragment can affect more entities than intended.
+- `showboundingbox` changes the in-memory setting but the save call is commented out in source, so restart/reload behavior depends on `EnableDebugBoundingBox` in `mcheli.cfg`.
