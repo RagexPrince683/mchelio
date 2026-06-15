@@ -21,6 +21,10 @@ CameraPosition  = 0.0, 2.00, 4.78
 Category = SB
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+# PhysicalMass is translational aircraft weight/momentum for the new flight model.
+# EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
+PhysicalMass = 13.342
+EngineThrust = 0.305
 NewFlightGravity = 0.0080
 NewFlightThrottleResponse = 0.95
 NewFlightThrottleChangeRateUp = 0.0065

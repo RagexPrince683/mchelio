@@ -30,6 +30,10 @@ RotorSpeed = 200.0
 Category = UCAV
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+# PhysicalMass is translational aircraft weight/momentum for the new flight model.
+# EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
+PhysicalMass = 0.333
+EngineThrust = 0.004
 NewFlightGravity = 0.0076
 NewFlightThrottleResponse = 1.15
 NewFlightThrottleChangeRateUp = 0.0038

@@ -24,6 +24,10 @@ AddRecipe = "ABC", "DEF", "G  ", A, mcheli:airframe2, B, mcheli:advancedmechanic
 Category = MF
 EnableRealisticFlightModel = true
 UseNewMobilitySystem = true
+# PhysicalMass is translational aircraft weight/momentum for the new flight model.
+# EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
+PhysicalMass = 3.631
+EngineThrust = 0.179
 NewFlightGravity = 0.0080
 NewFlightThrottleResponse = 1.18
 NewFlightThrottleChangeRateUp = 0.0055
