@@ -12,8 +12,16 @@ Sound = missile_15_snd
 ProximityFuseDist = 2
 RigidityTime = 3
 TurningFactor = 0.16
-TickEndHoming = -1
-MaxDegreeOfMissile = 160
+MaxLockOnRange = 300
+AntiFlareCount = 4
+ActiveRadar = false
+ScanInterval = 6
+CanLockMissile = false
+EnableBVR = true
+IsHeatSeekerMissile = false
+IsRadarMissile = false
+TickEndHoming = 900
+MaxDegreeOfMissile = 46
 SpeedDependsAircraft = true
 
 
