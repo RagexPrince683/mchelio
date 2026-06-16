@@ -38,7 +38,7 @@ UseNewMobilitySystem = true
 # PhysicalMass is translational aircraft weight/momentum for the new flight model.
 # EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
 PhysicalMass = 3.800
-EngineThrust = 2.871
+EngineThrust = 4.26
 TakeoffDistanceMultiplier = 0.76
 NewFlightGravity = 0.0087
 NewFlightThrottleResponse = 1.120

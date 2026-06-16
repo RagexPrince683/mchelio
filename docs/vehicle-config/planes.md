@@ -319,8 +319,8 @@ Recommended mass/thrust starting ranges:
 | Early jets | 1.00 - 1.45 | 1.20 - 1.90 |
 | Modern fighters | 1.10 - 1.70 | 1.80 - 3.20 |
 | Attack aircraft | 1.35 - 2.10 | 1.30 - 2.30 |
-| Strategic bombers | 2.40 - 5.50 | 1.80 - 4.00 |
-| Cargo aircraft | 2.00 - 5.00 | 1.50 - 3.50 |
+| Strategic bombers | 2.40 - 5.50 | 3.00 - 6.30 |
+| Cargo aircraft | 2.00 - 5.15 | 3.20 - 5.50 |
 
 ### Takeoff distance multiplier
 
