@@ -5,6 +5,8 @@ Speed = 0
 MaxFuel         = 2200
 FuelConsumption = 2.8
 
+ExplosionSizeByCrash = 30
+
 Gravity = -0.61
 GravityInWater = -1.0
 Sound = none

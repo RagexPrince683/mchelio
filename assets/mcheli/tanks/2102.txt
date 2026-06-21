@@ -14,6 +14,8 @@ DamageFactor = 1.0
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 
+ExplosionSizeByCrash = 3
+
 HUD = bnr32_hud, none, none, none, none
 
 AddSeat =  0.6040,  0.22, 0.1

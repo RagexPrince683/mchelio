@@ -16,6 +16,8 @@ EnableNightVision = true
 DefaultFreelook = true
 HUD = vehicle
 
+ExplosionSizeByCrash = 0
+
 Category = JTAC
 
 CameraRotationSpeed = 10

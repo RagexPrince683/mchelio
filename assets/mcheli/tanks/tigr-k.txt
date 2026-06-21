@@ -11,6 +11,7 @@ AddTexture = tigr_1
 HUD = super_duty_hud,mbt_gnr,none,none,none,none,none
 Category = IMV
 WeightType = car
+ExplosionSizeByCrash = 8
 
 EnableEntityRadar = false
 MaxFuel         = 900

@@ -27,6 +27,9 @@ FlareType = 10
 CameraPosition = 0.00, 3.28,  0.00, false
 ThirdPersonDist = 8
 
+
+ExplosionSizeByCrash = 8
+
 Float= True
 GravityInWater = -0.2
 FloatOffset = 0.0

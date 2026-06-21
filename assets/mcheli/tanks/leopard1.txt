@@ -32,6 +32,9 @@ WeightedCenterZ = 0.0
 DefaultFreelook = true
 SubmergedDamageHeight = 1
 
+
+ExplosionSizeByCrash = 10
+
 Category = MBT
 
 HUD = mbt_hudtwo, gunnernvg

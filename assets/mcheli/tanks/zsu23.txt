@@ -26,6 +26,8 @@ HideEntity = true
 EnableBack = true
 AddTexture =zsu1
 
+ExplosionSizeByCrash = 12
+
 Category = SPAAG
 
 OnGroundPitchFactor = 2.0

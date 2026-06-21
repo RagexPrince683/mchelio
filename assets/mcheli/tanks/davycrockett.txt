@@ -15,6 +15,9 @@ speed = 0.01
 ;;MaxFuel         = 0
 ;;FuelConsumption = 0.0
 
+
+ExplosionSizeByCrash = 20
+
 ;SetWheelPos = 0.0, -0.0, 0.0, 0, 0
 SetWheelPos =  0.20,  -0.20,  0.20, -0.20
 enableback = true

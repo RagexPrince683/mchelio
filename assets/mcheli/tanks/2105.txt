@@ -18,6 +18,8 @@ EnableNightVision = false
 MaxFuel           = 650
 FuelConsumption   = 0.7
 
+ExplosionSizeByCrash = 3
+
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 

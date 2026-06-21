@@ -17,6 +17,8 @@ MinRotationPitch = -90
 MaxRotationPitch = 90
 MobilityRoll = 5
 
+ExplosionSizeByCrash = 100
+
 OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 2.0
 

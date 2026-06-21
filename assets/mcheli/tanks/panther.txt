@@ -4,6 +4,8 @@ ItemID = 32359
 
 MaxHp = 155
 
+ExplosionSizeByCrash = 18
+
 Category = MED
 
 Speed = 0.285

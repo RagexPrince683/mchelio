@@ -3,6 +3,8 @@ MaxHp = 250
 Speed = 0.4
 Sound = dieselman
 
+ExplosionSizeByCrash = 35
+
 SoundPitch = 0.8
 ThrottleUpDown = 2.0
 MobilityYawOnGround = 4.0

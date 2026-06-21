@@ -16,6 +16,8 @@ OnGroundRollFactor  = 4.8
 EntityWidth = 0.8
 EntityHeight = 0.8
 
+ExplosionSizeByCrash = 3
+
 HUD = bnr32_hud, none
 
 AddSeat =  0.4621,  0.03, 0.3429

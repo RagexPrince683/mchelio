@@ -21,6 +21,8 @@ FuelConsumption = 1.1
 ThirdPersonDist = 5
 CameraZoom = 0
 
+ExplosionSizeByCrash = 2
+
 WeightedCenterZ = 0.3
 
 

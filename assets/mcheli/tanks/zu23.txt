@@ -21,6 +21,8 @@ ThirdPersonDist = 10
 ;WeightType = 
 WeightedCenterZ = 0.0
 
+ExplosionSizeByCrash = 0
+
 Category = AAAC
 
 DefaultFreelook = true

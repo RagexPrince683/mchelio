@@ -9,6 +9,7 @@ Speed = 0.23
 
 Category = HT
 
+ExplosionSizeByCrash = 18
 
 Sound = istwo
 ThrottleUpDown = 1.3

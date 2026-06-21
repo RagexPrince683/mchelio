@@ -17,6 +17,8 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 1.0
 
+ExplosionSizeByCrash = 3
+
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8
 

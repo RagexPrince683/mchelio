@@ -24,6 +24,7 @@ StepHeight = 1.8
 DefaultFreelook = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
+ExplosionSizeByCrash = 25
 FlareType = 10
 
 Category = MBT

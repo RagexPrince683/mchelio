@@ -18,6 +18,8 @@ HideEntity = true
 ;FlareType = 10
 CameraPosition = 0.0, 3.85, -1.8578, true 
 
+ExplosionSizeByCrash = 10
+
 Category = SPH
 
 MobilityYawOnGround = 3.0

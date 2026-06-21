@@ -9,6 +9,8 @@ ThrottleUpDown = 0.81
 Sound = ural
 CanRide = true
 
+ExplosionSizeByCrash = 4
+
 MaxFuel = 1200
 FuelConsumption = 1.6
 

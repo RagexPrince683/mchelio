@@ -22,6 +22,8 @@ ThirdPersonDist = 12
 EnableNightVision = true
 FlareType = 10
 
+ExplosionSizeByCrash = 3
+
 SubmergedDamageHeight = 2
 
 

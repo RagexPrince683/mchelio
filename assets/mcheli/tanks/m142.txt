@@ -14,6 +14,8 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 0.8
 
+ExplosionSizeByCrash = 25
+
 Category = MLRS
 
 AddTexture = m142des

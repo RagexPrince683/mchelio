@@ -1,5 +1,7 @@
 DisplayName = Ground Drone UGV
 
+ExplosionSizeByCrash = 20
+
 ;wtf is this
 
 MaxHp = 15

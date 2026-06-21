@@ -2,6 +2,7 @@ DisplayName = Mazda RX-8
 MaxHp = 200
 ThrottleUpDown = 0.86
 ;5.9s
+ExplosionSizeByCrash = 3
 Speed = 1.47
 MobilityYawOnGround = 9.0
 StepHeight = 1.2

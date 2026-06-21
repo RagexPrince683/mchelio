@@ -29,6 +29,8 @@ EntityWidth  = 0.7
 EntityHeight = 0.7
 DefaultFreelook = false
 
+ExplosionSizeByCrash = 8
+
 SubmergedDamageHeight = 1
 
 ;  M = Military,  A = AAGun(対空砲)

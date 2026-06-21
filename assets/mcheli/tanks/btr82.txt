@@ -29,6 +29,9 @@ CameraPosition = 0.2, 3, -0, true
 
 TurretPosition = 0.0, 1.0, 0.0
 
+
+ExplosionSizeByCrash = 8
+
 SubmergedDamageHeight = 3
 
 Float = true

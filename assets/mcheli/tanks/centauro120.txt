@@ -12,6 +12,8 @@ FuelConsumption = 1.8
 CameraPosition = 0.00, 3.40, 0.00, true
 CameraZoom = 8
 
+ExplosionSizeByCrash = 18
+
 ;unknown
 
 EnableNightVision = true

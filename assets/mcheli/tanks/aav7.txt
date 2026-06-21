@@ -18,6 +18,8 @@ DefaultFreelook = true
 MaxFuel         = 1300
 FuelConsumption = 1.9
 
+ExplosionSizeByCrash = 8
+
 Category = AAPC
 
 AddTexture = aav7des

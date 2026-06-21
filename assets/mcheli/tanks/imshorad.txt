@@ -23,6 +23,8 @@ StepHeight = 1.5
 DefaultFreelook = true
 MotionFactor = 0.9
 
+ExplosionSizeByCrash = 12
+
 ;hi shorad im dad
 
 AddTexture = strykericvdes

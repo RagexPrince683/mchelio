@@ -19,6 +19,8 @@ FuelConsumption   = 1.1
 ThirdPersonDist = 5
 DefaultFreelook = false
 
+ExplosionSizeByCrash = 3
+
 WeightedCenterZ = 0.8
 
 ;AddTexture = uaz-469_9

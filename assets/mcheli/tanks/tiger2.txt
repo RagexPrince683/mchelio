@@ -7,6 +7,8 @@ ItemID = 32357
 MaxHp = 185
 Speed = 0.26
 
+ExplosionSizeByCrash = 25
+
 Category = HT
 
 Sound = V12TIGER

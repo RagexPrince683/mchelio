@@ -17,6 +17,8 @@ FuelConsumption   = 1.1
 ThirdPersonDist = 5
 DefaultFreelook = false
 
+ExplosionSizeByCrash = 3
+
 SetWheelPos =  0.45,  -0.24,  1.47, -1.19
 
 WeightedCenterZ = 0.8

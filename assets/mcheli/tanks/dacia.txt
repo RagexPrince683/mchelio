@@ -1,5 +1,7 @@
 ﻿﻿DisplayName = Dacia Sandero (2009)
 AddDisplayName = en_US, Dacia Sandero (2009)
+
+ExplosionSizeByCrash = 3
  
 ItemID = 28745
 MaxHp = 200

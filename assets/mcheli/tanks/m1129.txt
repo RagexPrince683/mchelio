@@ -23,6 +23,8 @@ StepHeight = 1.5
 DefaultFreelook = false
 MotionFactor = 0.9
 
+ExplosionSizeByCrash = 25
+
 AddTexture = m1129des
 
 SubmergedDamageHeight = 2

@@ -16,6 +16,8 @@ HUD = mbt_hud
 WeightType = Tank
 DefaultFreelook = true
 
+ExplosionSizeByCrash = 3
+
 Category = MBT
 
 CameraZoom = 10

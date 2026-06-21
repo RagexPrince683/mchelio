@@ -3,6 +3,8 @@ AddDisplayName = en_US, Generic ATV
 
 AddDisplayName = ja_JP, 民間ATV
 
+ExplosionSizeByCrash = 2
+
 
 MaxHp = 200
 Speed = 0.9

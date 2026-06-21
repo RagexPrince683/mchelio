@@ -6,6 +6,8 @@ MaxHp = 200
 ThrottleUpDown = 0.9
 ;4.5s 0-60
 
+ExplosionSizeByCrash = 3
+
 Speed = 1.55
 MobilityYawOnGround = 8.2
 StepHeight = 1.2

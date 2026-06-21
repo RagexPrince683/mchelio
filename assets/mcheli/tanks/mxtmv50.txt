@@ -17,6 +17,8 @@ EnableNightVision = false
 MaxFuel           = 900
 FuelConsumption   = 1.1
 
+ExplosionSizeByCrash = 3
+
 Category = IMV
 
 CameraZoom = 2

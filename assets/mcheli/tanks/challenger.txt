@@ -18,6 +18,8 @@ GravityInWater = -1.0
 DamageFactor = 1.0
 ;cred https://www.cgtrader.com/free-3d-models/car/sport-car/low-poly-dodge-challenger-srt-hellcat-2015
 
+ExplosionSizeByCrash = 3
+
 AddTexture = challenger2
 AddTexture = challenger3
 AddTexture = challenger4

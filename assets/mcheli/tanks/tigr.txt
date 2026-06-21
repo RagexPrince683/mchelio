@@ -5,6 +5,7 @@ MaxHp = 150
 Speed = 0.87
 Sound = diesel
 InventorySize = 18
+ExplosionSizeByCrash = 3
 
 DefaultFreelook = false
 EnableBack = true

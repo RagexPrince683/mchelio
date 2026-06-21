@@ -17,6 +17,8 @@ DefaultFreelook = false
 HideEntity = true
 CameraPosition = 0.00, 1.6, 2.15, false
 
+ExplosionSizeByCrash = 35
+
 Category = MLRS
 
 MobilityYawOnGround = 2.5

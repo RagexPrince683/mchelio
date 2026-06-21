@@ -13,6 +13,9 @@ MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = -0.2
 
+
+ExplosionSizeByCrash = 12
+
 Category = IFV
 
 Float = true

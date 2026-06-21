@@ -15,6 +15,9 @@ DefaultFreelook = true
 ThirdPersonDist = 12
 Category = LT
 
+
+ExplosionSizeByCrash = 10
+
 FlareType = 10
 
 AddTexture = M_41_90_2

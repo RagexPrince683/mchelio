@@ -18,6 +18,8 @@ MaxFuel         = 1200
 FuelConsumption = 1.6
 DefaultFreelook = true
 
+ExplosionSizeByCrash = 18
+
 Category = MFT/MED/FT
 
 EnableNightvision = false

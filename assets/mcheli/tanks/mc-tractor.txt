@@ -1,6 +1,7 @@
 DisplayName = Generic Tractor
 AddDisplayName = ja_JP, Generic トラクター
 
+ExplosionSizeByCrash = 2
 
 MaxHp = 80
 Speed = 0.25

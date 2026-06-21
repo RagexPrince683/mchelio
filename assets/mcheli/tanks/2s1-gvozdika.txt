@@ -12,6 +12,8 @@ DamageFactor = 0.8
 EnableNightVision = false
 CameraRotationSpeed = 6
 
+ExplosionSizeByCrash = 10
+
 Category = SPH
 
 MaxFuel         = 1800

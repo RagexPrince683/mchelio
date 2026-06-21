@@ -26,7 +26,7 @@ ThirdPersonDist = 8
 CameraPosition = 0.1136, 2.8065, 0.1832, true
 PivotTurnThrottle = 0.1
 
-
+ExplosionSizeByCrash = 8
 
 Float = true
 FloatOffset = -2.0

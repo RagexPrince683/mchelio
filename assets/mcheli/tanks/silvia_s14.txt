@@ -17,6 +17,8 @@ EnableNightVision = false
 MaxFuel           = 650
 FuelConsumption   = 0.7
 
+ExplosionSizeByCrash = 3
+
 AddTexture = silvia_s14b
 AddTexture = silvia_s14r
 AddTexture = silvia_s14dbl

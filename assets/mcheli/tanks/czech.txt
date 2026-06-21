@@ -13,6 +13,8 @@ GravityInWater = -1.0
 DamageFactor = 0.8
 CameraZoom = 4
 
+ExplosionSizeByCrash = 7
+
 Category = LT
 
 EnableNightVision = false

@@ -11,6 +11,8 @@ Gravity = -0.61
 Float = true
 FloatOffset = 0.0
 
+ExplosionSizeByCrash = 12
+
 Category = SPALT/ATD
 
 GravityInWater = -0.2

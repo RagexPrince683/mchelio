@@ -21,6 +21,8 @@ DefaultFreelook = true
 ;TurretPosition = 0.0, 0.0, 0.25
 FlareType = 10
 
+ExplosionSizeByCrash = 3
+
 Category = HAPC
 
 ;moved up by 17.10

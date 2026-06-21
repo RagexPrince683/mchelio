@@ -16,6 +16,7 @@ HUD = mbt_hudtwo, gunnernvg
 WeightType = Tank
 DefaultFreelook = true
 FlareType = 10
+ExplosionSizeByCrash = 25
 
 Category = MBT
 

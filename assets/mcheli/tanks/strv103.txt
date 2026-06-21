@@ -10,6 +10,9 @@ ThrottleUpDown = 5.0
 MinRotationPitch = -12
 MaxRotationPitch = 10
 
+;;highly contested, debated topic btw
+ExplosionSizeByCrash = 8
+
 MobilityRoll = 0
 Gravity = -0.61
 float = true

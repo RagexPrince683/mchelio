@@ -12,6 +12,8 @@ ThrottleUpDown = 0.815
 MaxFuel         = 650
 FuelConsumption = 0.7
 
+ExplosionSizeByCrash = 3
+
 WeightedCenterZ = -0.6
 
 ;OnGroundPitch = 45

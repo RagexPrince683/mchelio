@@ -12,6 +12,8 @@ EnableNightVision = false
 EnableEntityRadar = false
 Sound = bmptwoeng
 
+ExplosionSizeByCrash = 8
+
 Category = LCT
 
 CameraZoom = 3

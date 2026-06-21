@@ -16,6 +16,8 @@ HUD = mbt_hudtwo, gunnernvg, gunnernvg, none
 WeightType = Tank
 DefaultFreelook = false
 
+ExplosionSizeByCrash = 12
+
 Category = APC/ATM
 
 ThirdPersonDist = 8

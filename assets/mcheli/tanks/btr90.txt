@@ -27,6 +27,9 @@ DefaultFreelook = true
 MotionFactor = 0.9
 FlareType = 10
 
+
+ExplosionSizeByCrash = 12
+
 Float = true
 FloatOffset = -0.5
 ;perhaps this will fix previous projects?

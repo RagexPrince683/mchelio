@@ -16,6 +16,8 @@ WeightType = Tank
 DefaultFreelook = true
 FlareType = 10
 
+ExplosionSizeByCrash = 15
+
 Category = MBT
 
 AddTexture = type741

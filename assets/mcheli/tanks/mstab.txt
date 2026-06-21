@@ -16,6 +16,8 @@ DamageFactor = 1.0
 EnableNightVision = false
 DefaultFreelook = false
 
+ExplosionSizeByCrash = 12
+
 ArmorMinDamage = 8
 
 Category = H

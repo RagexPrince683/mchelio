@@ -12,6 +12,8 @@ MobilityRoll = 0
 Gravity = -0.61
 GravityInWater = 0.0
 
+ExplosionSizeByCrash = 30
+
 Category = TEL/TBM
 
 ;-11.80

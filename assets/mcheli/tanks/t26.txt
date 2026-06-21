@@ -27,6 +27,8 @@ HideEntity = true
 WeightType = Tank
 WeightedCenterZ = 0.0
 
+ExplosionSizeByCrash = 6
+
 Category = LT
 
 HUD = ww2tank_hud

@@ -20,6 +20,8 @@ MinRotationPitch = -12
 MaxRotationPitch = 5
 DefaultFreelook = true
 
+ExplosionSizeByCrash = 20
+
 Category = HT/AG
 
 SubmergedDamageHeight = 2

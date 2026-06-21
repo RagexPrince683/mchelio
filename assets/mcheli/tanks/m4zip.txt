@@ -20,7 +20,7 @@ HideEntity = true
 ;FlareType = 10
 CameraZoom = 4
 CameraPosition = 0.00,  3.50,  0.90, false
-
+ExplosionSizeByCrash = 12
 Category = FT
 
 MobilityYawOnGround = 3

@@ -21,6 +21,8 @@ HideEntity = true
 CameraZoom = 4
 CameraPosition = 0.00,  3.50,  0.90, false
 
+ExplosionSizeByCrash = 10
+
 Category = MED
 
 MobilityYawOnGround = 3.0

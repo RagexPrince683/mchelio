@@ -26,6 +26,8 @@ HideEntity = false
 EnableBack = true
 DefaultFreeLook = true
 
+ExplosionSizeByCrash = 20
+
 Category = TD
 
 OnGroundPitchFactor = 1.5

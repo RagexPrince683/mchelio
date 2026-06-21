@@ -1,6 +1,8 @@
 ﻿DisplayName = PGZ04A Type 95 SPAAA
 AddDisplayName = en_US, PGZ04A Type 95 SPAAA
 
+ExplosionSizeByCrash = 12
+
 AddDisplayName = ja_JP, PGZ04A Type 95 SPAAA
 ItemID = 9997
 MaxHp = 200

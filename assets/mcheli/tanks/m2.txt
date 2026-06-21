@@ -18,6 +18,8 @@ FuelConsumption   = 1.6
 DefaultFreelook = false
 ThirdPersonDist = 3
 
+ExplosionSizeByCrash = 0
+
 ArmorMinDamage = 8
 
 CameraZoom = 1

@@ -20,6 +20,8 @@ DefaultFreelook = false
 MotionFactor = 0.9
 ;FlareType = 10
 
+ExplosionSizeByCrash = 3
+
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 

@@ -12,6 +12,8 @@ AddTexture = jgsdf-mcv-1
 AddTexture = jgsdf-mcv-2
 AddTexture = jgsdf-mcv-3
 
+ExplosionSizeByCrash = 3
+
 Category = WTD/AAC/AAG/ATD/AWAFV
 
 AddGunnerSeat =  0.0, 1.0, -0.0

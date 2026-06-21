@@ -19,6 +19,7 @@ DefaultFreelook = true
 HideEntity = true
 FlareType = 10
 CameraZoom = 10
+ExplosionSizeByCrash = 25
 
 Category = MBT
 

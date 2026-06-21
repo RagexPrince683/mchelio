@@ -17,6 +17,8 @@ WeightType = Tank
 DefaultFreelook = true
 CameraZoom = 1
 
+ExplosionSizeByCrash = 10
+
 CameraRotationSpeed = 24
 
 Category = APC

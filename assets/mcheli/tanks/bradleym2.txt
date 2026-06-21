@@ -13,6 +13,8 @@ Gravity = -0.61
 Float = true
 FloatOffset = 0.0
 
+ExplosionSizeByCrash = 15
+
 AddTexture = bradleydes
 
 GravityInWater = -0.2

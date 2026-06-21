@@ -23,6 +23,8 @@ DefaultFreelook = false
 MotionFactor = 0.9
 SubmergedDamageHeight = 2
 
+ExplosionSizeByCrash = 26
+
 ThirdPersonDist = 16
 
 

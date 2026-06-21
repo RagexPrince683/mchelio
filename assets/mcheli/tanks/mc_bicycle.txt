@@ -23,6 +23,8 @@ EntityPitch = 10
 InventorySize = 9
 EnableBack = true
 
+ExplosionSizeByCrash = 0
+
 WeightType = none
 
 

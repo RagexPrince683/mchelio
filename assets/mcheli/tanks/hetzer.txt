@@ -14,6 +14,8 @@ HUD = ww2tank_hud, ww2tank_hud
 WeightType = Tank
 DefaultFreelook = false
 
+ExplosionSizeByCrash = 10
+
 AddTexture = Hetzer1
 AddTexture = Hetzer2
 

@@ -4,6 +4,8 @@ AddDisplayName = en_US, Type 62
 MaxHp = 110
 Speed = 0.37
 
+ExplosionSizeByCrash = 18
+
 ThrottleUpDown = 1.0
 MobilityYawOnGround = 2.0
 MobilityRoll = 0

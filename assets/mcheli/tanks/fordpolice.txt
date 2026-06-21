@@ -3,6 +3,8 @@ DisplayName = Ford Mondeo (NYPD)
 ;(en_EN)made in the Workshop of W&K (the Best military equipment and not only) - https://vk.com/wk_workshop
 ;cool, nice 4,500kb model, now let's fix some problems I found with it
 
+ExplosionSizeByCrash = 3
+
 ;-11.27
 ;-0.1127
 

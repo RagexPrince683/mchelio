@@ -21,6 +21,8 @@ CameraRotationSpeed = 8
 DefaultFreelook = true
 SubmergedDamageHeight = 2
 
+ExplosionSizeByCrash = 20
+
 Category = HT
 
  

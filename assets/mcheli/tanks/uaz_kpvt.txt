@@ -18,6 +18,8 @@ FuelConsumption   = 1.1
 ThirdPersonDist = 5
 DefaultFreelook = false
 
+ExplosionSizeByCrash = 3
+
 CameraZoom = 0
 
 WeightedCenterZ = 0.8

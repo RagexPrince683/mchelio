@@ -15,6 +15,8 @@ CameraRotationSpeed = 14
 FlareType = 10
 DefaultFreelook = true
 
+ExplosionSizeByCrash = 20
+
 Category = MBT
 
 MinRotationPitch = -14

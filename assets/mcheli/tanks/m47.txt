@@ -18,6 +18,8 @@ MinRotationPitch = -30
 MaxRotationPitch = 10
 DefaultFreelook = true
 
+ExplosionSizeByCrash = 18
+
 HideEntity = false
 
 HUD = ww2tank_hud, gunner, 

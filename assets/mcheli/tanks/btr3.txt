@@ -26,6 +26,8 @@ MotionFactor = 0.9
 FlareType = 10
 ThirdPersonDist = 8
 
+ExplosionSizeByCrash = 8
+
 CameraPosition = -0.0154, 3.4291, -0.0245
 
 SubmergedDamageHeight = 3

@@ -17,6 +17,8 @@ FuelConsumption   = 0.7
 ThirdPersonDist = 5
 DefaultFreelook = false
 
+ExplosionSizeByCrash = 3
+
 OnGroundPitchFactor = 10.0
 OnGroundRollFactor  = 4.8
 

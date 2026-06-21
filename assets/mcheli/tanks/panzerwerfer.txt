@@ -17,6 +17,8 @@ DefaultFreelook = false
 ThirdPersonDist = 8
 ;EnableGunnerMode = true
 
+ExplosionSizeByCrash = 25
+
 Category = HTRACMLRS
 
 AddTexture = Panzerwerfer1

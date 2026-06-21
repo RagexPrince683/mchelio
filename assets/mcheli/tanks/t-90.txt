@@ -19,6 +19,8 @@ DefaultFreelook = true
 HideEntity = true
 FlareType = 10
 
+ExplosionSizeByCrash = 20
+
 Category = MBT
 
 MobilityYawOnGround = 2.0

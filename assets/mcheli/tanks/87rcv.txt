@@ -28,6 +28,8 @@ FloatOffset = -2.0
 StepHeight = 2.0
 FlareType = 10
 
+ExplosionSizeByCrash = 8
+
 CameraPosition = 0.0, 3.68, 0.0, true
 
 SubmergedDamageHeight = 2

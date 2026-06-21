@@ -17,6 +17,8 @@ FuelConsumption   = 0.7
 ThirdPersonDist = 5
 DefaultFreelook = false
 
+ExplosionSizeByCrash = 3
+
 WeightedCenterZ = 0.5
 
 AddTexture = w123_2

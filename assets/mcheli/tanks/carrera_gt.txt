@@ -13,6 +13,8 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor = 1.0
 
+ExplosionSizeByCrash = 3
+
 ;-7.58
 ;-1.90
 

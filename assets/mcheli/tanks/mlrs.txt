@@ -8,6 +8,8 @@ MobilityYawOnGround = 2.3
 StepHeight = 1.8
 ThrottleUpDown = 2
 
+ExplosionSizeByCrash = 35
+
 Sound = mlrseng
 MinRotationPitch = -90
 MaxRotationPitch = 45

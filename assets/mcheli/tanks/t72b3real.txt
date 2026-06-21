@@ -18,6 +18,7 @@ MaxRotationPitch = 6
 DefaultFreelook = true
 HideEntity = true
 FlareType = 10
+ExplosionSizeByCrash = 25
 
 Category = MBT
 

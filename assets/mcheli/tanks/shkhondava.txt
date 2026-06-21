@@ -23,6 +23,8 @@ SubmergedDamageHeight = 2
 HideEntity = true
 DefaultFreelook = true
 
+ExplosionSizeByCrash = 32
+
 Category = SPH/SPG/SPA
 
 TurretPosition = 0, 1.0, 0

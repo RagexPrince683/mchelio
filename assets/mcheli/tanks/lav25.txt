@@ -25,6 +25,9 @@ OnGroundRollFactor  = 1.0
 FlareType = 10
 ThirdPersonDist = 8
 
+
+ExplosionSizeByCrash = 8
+
 Float = true
 FloatOffset = 0.0
 

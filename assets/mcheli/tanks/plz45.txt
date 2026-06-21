@@ -29,6 +29,8 @@ SubmergedDamageHeight = 2
 EnableEntityRadar = true
 HideEntity = true
 
+ExplosionSizeByCrash = 30
+
 Category = SPH/SPA
 
 AddTexture = plz45_1

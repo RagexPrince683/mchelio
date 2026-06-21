@@ -19,6 +19,8 @@ MaxFuel           = 900
 FuelConsumption   = 1.1
 ThirdPersonDist = 5
 
+ExplosionSizeByCrash = 6
+
 Category = IMV
 
 CameraZoom = 2

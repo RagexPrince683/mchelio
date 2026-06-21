@@ -26,6 +26,8 @@ OnGroundRollFactor  = 1.3
 FlareType = 10
 ThirdPersonDist = 12
 
+ExplosionSizeByCrash = 3
+
 Category = MBT
 ;\n\South Korean
 ;damn, guess we cant do next line indents here :c

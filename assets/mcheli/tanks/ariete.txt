@@ -21,6 +21,8 @@ MaxFuel         = 2400
 FuelConsumption = 3.2
 DefaultFreelook = true
 
+ExplosionSizeByCrash = 25
+
 Category = MBT
 
 StepHeight = 1.8

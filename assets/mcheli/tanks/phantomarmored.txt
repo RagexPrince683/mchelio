@@ -3,6 +3,7 @@ AddDisplayName = en_US, Rolls-Royce Phantom Armored
 AddDisplayName = ja_JP, ロールスロイス ファントム
 ItemID = 30111
 MaxHp = 200
+ExplosionSizeByCrash = 3
 ThrottleUpDown = 0.89
 ;armored so 4.6s
 Speed = 1.55

@@ -20,6 +20,8 @@ DefaultFreeLook = true
 HideEntity = true
 CameraPosition = 0.13,  2.80, 0.34, true
 
+ExplosionSizeByCrash = 10
+
 Category = LT
 
 MobilityYawOnGround = 3.0

@@ -16,6 +16,8 @@ HUD = mbt_hudtwo, none, none, none, none, none, none, none
 WeightType = Tank
 DefaultFreelook = false
 
+ExplosionSizeByCrash = 3
+
 Category = APC
 
 ThirdPersonDist = 8

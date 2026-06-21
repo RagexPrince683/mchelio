@@ -30,6 +30,8 @@ SubmergedDamageHeight = 3
 EnableEntityRadar = false
 HideEntity = false
 
+ExplosionSizeByCrash = 25
+
 Category = MBT
 
 ;-40.89

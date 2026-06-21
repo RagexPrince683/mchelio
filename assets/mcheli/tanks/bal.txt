@@ -23,6 +23,8 @@ DefaultFreelook = false
 MotionFactor = 0.9
 ThirdPersonDist = 12
 
+ExplosionSizeByCrash = 15
+
 SubmergedDamageHeight = 2
 
 ;  M = Military,  A = AAGun(対空砲)

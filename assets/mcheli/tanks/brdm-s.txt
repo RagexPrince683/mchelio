@@ -9,6 +9,8 @@ EnableBack = true
 HUD = mbt_hudtwo
 HideEntity = true
 
+ExplosionSizeByCrash = 15
+
 Category = AASC
 
 PivotTurnThrottle = 0.1

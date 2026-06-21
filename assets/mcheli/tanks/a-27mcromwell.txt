@@ -18,6 +18,7 @@ CameraPosition = 0.00, 3.45, -0.0600
 
 Category = MED
 
+ExplosionSizeByCrash = 12
 
 HideEntity = true
 

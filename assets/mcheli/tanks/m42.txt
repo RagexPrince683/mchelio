@@ -25,6 +25,8 @@ WeightType = tank
 HUD = ww2tank_hudtwo
 EnableNightVision = false
 
+ExplosionSizeByCrash = 9
+
 AddTexture = M_41_90_2
 AddTexture = M_41_90_3
 
