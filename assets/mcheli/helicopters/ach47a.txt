@@ -8,8 +8,8 @@ Float = true
 Speed = 1.7
 
 FlareType = 1
-MaxFuel         = 2400
-FuelConsumption = 1.0
+MaxFuel         = 3900
+FuelConsumption = 0.813
 onGroundPitch = 2.5
 Float = true
 FloatOffset = -0.9
