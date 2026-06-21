@@ -118,11 +118,11 @@ EnableBack = true
 
 MotionFactor = 0.9
 
-;ArmorMinDamage Å¬ƒ_ƒ[ƒWA‚±‚ê‚æ‚è¬‚³‚¢ƒ_ƒ[ƒW‚Í–³Œø‰»‚³‚ê‚é
-ArmorMinDamage = 20
-;ArmorMaxDamage Å‘åƒ_ƒ[ƒWA‚±‚ê‚æ‚è‘å‚«‚¢ƒ_ƒ[ƒW‚ÍÅ‘åƒ_ƒ[ƒW‚ÉŠÛ‚ß‚ç‚ê‚é
+MaxFuel         = 1300
+FuelConsumption = 1.9
+;ArmorMaxDamage æœ€å¤§ãƒ€ãƒ¡ãƒ¼ã‚¸ã€ã“ã‚Œã‚ˆã‚Šå¤§ãã„ãƒ€ãƒ¡ãƒ¼ã‚¸ã¯æœ€å¤§ãƒ€ãƒ¡ãƒ¼ã‚¸ã«ä¸¸ã‚ã‚‰ã‚Œã‚‹
 ;ArmorMaxDamage = 1000
-;ArmorDamageFactor ƒ_ƒ[ƒWŒW”ã‹L‚ÌMin/Max”ÍˆÍƒ`ƒFƒbƒNŒã‚Ìƒ_ƒ[ƒW‚ÌŒW” 1‚Å100%, 0.5‚Å50%
+;ArmorDamageFactor ãƒ€ãƒ¡ãƒ¼ã‚¸ä¿‚æ•°ä¸Šè¨˜ã®Min/Maxç¯„å›²ãƒã‚§ãƒƒã‚¯å¾Œã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã®ä¿‚æ•° 1ã§100%, 0.5ã§50%
 ArmorDamageFactor = 1.00
 
 MaxFuel         = 1200

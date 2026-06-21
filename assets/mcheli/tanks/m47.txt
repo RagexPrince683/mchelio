@@ -176,7 +176,7 @@ BoundingBox = 0.0, 0.85, 2.3, 2.79, 0.1, 0.21
 BoundingBox = -0.8, 1.00, 3.5, 0.25, 0.25, 0.55
 
 
-MaxFuel         = 600
+MaxFuel         = 1400
 FuelConsumption = 1.8
 ;idk man I just work here
 

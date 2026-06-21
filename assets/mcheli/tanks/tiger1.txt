@@ -58,7 +58,7 @@ MotionFactor = 0.9
 
 
 
-MaxFuel         = 1500
+MaxFuel         = 2400
 
 
 ;;fuel consumption is of a rate of 4.0 equals about 2,476 meters/blocks
@@ -67,7 +67,7 @@ MaxFuel         = 1500
 ;FuelConsumption = 924.5
 ;FuelConsumption = 10750
 ;10750 is what zero should look like but due to momentum (I think) it goes about eight blocks instead of zero
-FuelConsumption = 1.0
+FuelConsumption = 3.2
 
 TrackRollerRot = 30
 

@@ -84,8 +84,8 @@ MotionFactor = 0.9
 
 ArmorDamageFactor = 0.95
 
-MaxFuel         = 1200
-FuelConsumption = 2.0
+MaxFuel         = 1400
+FuelConsumption = 1.8
 
 ;slightly really less modern mbt tracked tank 
 AddRecipe = "ABC", "DGF", "EF ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:map, E, mcheli:advancedmechanicparts

@@ -13,8 +13,8 @@ GravityInWater = -1.0
 DamageFactor   = 1.0
 EnableNightVision = false
 CameraRotationSpeed = 40
-MaxFuel           = 0
-FuelConsumption   = 0
+MaxFuel           = 1200
+FuelConsumption   = 1.6
 DefaultFreelook = false
 ThirdPersonDist = 3
 

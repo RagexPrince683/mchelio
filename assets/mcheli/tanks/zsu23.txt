@@ -18,8 +18,8 @@ CameraZoom = 6
 EnableNightVision = true
 CameraRotationSpeed = 42
 EnableEntityRadar = true
-MaxFuel         = 1200
-FuelConsumption = 3.0
+MaxFuel         = 1800
+FuelConsumption = 2.4
 FlareType = 10
 CameraPosition = 0.00,  3.2, 0.17,false
 HideEntity = true
@@ -93,8 +93,8 @@ AddTrackRoller = 1.89,  0.16,  -2.65
 AddTrackRoller = 1.89,  0.60,  -3.85
 
 
-MaxFuel         = 600
-FuelConsumption = 2.0
+MaxFuel         = 1800
+FuelConsumption = 2.4
 
 
 ;BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70

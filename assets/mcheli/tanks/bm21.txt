@@ -16,8 +16,8 @@ DamageFactor = 1.0
 CameraZoom = 4
 EnableNightVision = false
 CameraRotationSpeed = 50
-MaxFuel         = 1200
-FuelConsumption = 3.0
+MaxFuel         = 2200
+FuelConsumption = 2.8
 StepHeight = 1.8
 ;FlareType = 10
 ;CameraPosition = 0.71,2.5,5.04, false
@@ -314,8 +314,8 @@ AddPartWheel     = -1.72,  0.37, -0.42
 
 AddPartSteeringWheel =   0.8084,  1.9722,  5.9498,   0, 1, -2.1445,   130
 
-MaxFuel = 600
-FuelConsumption = 2.0
+MaxFuel = 2200
+FuelConsumption = 2.8
 
 ;BoundingBox =  0.0, 0.6,  4,   3.4, 1.8,  0.70
 ;BoundingBox = -0.9, 1.6,  4,   2.4, 3.2,  0.70

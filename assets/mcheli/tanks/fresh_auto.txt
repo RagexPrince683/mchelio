@@ -61,8 +61,8 @@ AddRecipe = "ABC", "DE ", "   ", A, mcheli:lightchassis, B, mcheli:wheel4, C, mc
 AddRecipe = "AB ", "   ", "   ", A, mcheli:2105, B, mcheli:basicmechanicparts
 
 
-MaxFuel         = 1000
-FuelConsumption = 2
+MaxFuel         = 650
+FuelConsumption = 0.7
 
 BoundingBox = 0.0, 0.4, 1.8, 0.8, 0.7
 BoundingBox = 0.0, 0.1, 0.1, 2.0, 0.2

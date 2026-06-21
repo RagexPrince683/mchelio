@@ -15,8 +15,8 @@ Gravity        = -0.61
 GravityInWater = -1
 DamageFactor   = 0.95
 EnableNightVision = false
-MaxFuel           = 1200
-FuelConsumption   = 3.0
+MaxFuel           = 900
+FuelConsumption   = 1.1
 ThirdPersonDist = 5
 
 Category = IMV

@@ -9,8 +9,8 @@ ThrottleUpDown = 0.81
 Sound = ural
 CanRide = true
 
-MaxFuel = 2500
-FuelConsumption = 3.0
+MaxFuel = 1200
+FuelConsumption = 1.6
 
 ;-9.41
 ;-0.0941

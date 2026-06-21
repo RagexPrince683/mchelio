@@ -103,8 +103,8 @@ AddWeapon = targeting_pod_block, 0.0, 2.0, 0.0, 0.0, 0.0, false, 2
 AddWeapon = targeting_pod_ground, 0.0, 0.0, 0.0, 0.0, 0.0, false, 2
 ;AddWeapon = targeting_pod_mob, 0.0, 0.0, 0.0, 0.0, 0.0, false, 2
 
-MaxFuel         = 1500
-FuelConsumption = 2.0
+MaxFuel         = 900
+FuelConsumption = 1.1
 
 InventorySize = 35
 

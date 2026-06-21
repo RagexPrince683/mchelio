@@ -54,8 +54,8 @@ StepHeight = 1.8
 HideEntity = true
 
 
-MaxFuel         = 1500
-FuelConsumption = 1.0
+MaxFuel         = 2400
+FuelConsumption = 3.2
 
 TrackRollerRot = 50
 

@@ -15,8 +15,8 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1
 EnableNightVision = false
-MaxFuel           = 1200
-FuelConsumption   = 1.0
+MaxFuel           = 650
+FuelConsumption   = 0.7
 
 OnGroundPitchFactor = 18.0
 OnGroundRollFactor  = 4.8

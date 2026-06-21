@@ -97,8 +97,8 @@ SubmergedDamageHeight = 2
 Gravity = -1.0
 GravityInWater = -0.61
 
-MaxFuel         = 1800
-FuelConsumption = 0.5
+MaxFuel         = 1400
+FuelConsumption = 1.8
 
 
 

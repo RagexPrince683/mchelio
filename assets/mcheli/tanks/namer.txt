@@ -126,8 +126,8 @@ AddTrackRoller =  1.72,  0.73, -3.10
 
 
 
-MaxFuel         = 1200
-FuelConsumption = 2.5
+MaxFuel         = 1300
+FuelConsumption = 1.9
 
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 

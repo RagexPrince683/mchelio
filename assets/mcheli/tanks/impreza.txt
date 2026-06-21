@@ -87,8 +87,8 @@ AddWeapon = L_Claxon,    0.00, 0.00, 0.00,  0.0,0.0
 ;後退可能にする(暫定処置で今後削除される可能性有り)
 EnableBack = true
 
-MaxFuel         = 1500
-FuelConsumption = 1.0
+MaxFuel         = 650
+FuelConsumption = 0.7
 
 BoundingBox =  0.0, 0.00,  1.70,  2.4, 0.1
 BoundingBox =  0.0, 0.00, -1.8,  2.4, 0.1

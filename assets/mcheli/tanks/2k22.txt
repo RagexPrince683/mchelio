@@ -18,8 +18,8 @@ CameraZoom = 8
 EnableNightVision = true
 CameraRotationSpeed = 48
 EnableEntityRadar = true
-MaxFuel         = 1200
-FuelConsumption = 3.0
+MaxFuel         = 1800
+FuelConsumption = 2.4
 StepHeight = 1.8
 FlareType = 10
 AddTexture = 2k22_1
@@ -150,8 +150,8 @@ SetWheelPos =  1.3,  -0.24,  2.5,  1.54, 0.5, -0.55, -1.6, -2.65
 
 
 
-MaxFuel         = 500
-FuelConsumption = 2.0
+MaxFuel         = 1800
+FuelConsumption = 2.4
 
 
 ;BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70

@@ -121,8 +121,8 @@ AddWeapon = L_Claxon,    0.00, 0.00, 0.00,  0.0,0.0
 AddWeapon = drift,    1.0884, 0.0, -1.8604,  0.0,0.0
 AddWeapon = drift,   -1.0884, 0.0, -1.8604,  0.0,0.0
 
-MaxFuel         = 1200
-FuelConsumption = 2.0
+MaxFuel         = 650
+FuelConsumption = 0.7
 
 ;BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
 ;BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1

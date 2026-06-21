@@ -19,8 +19,8 @@ StepHeight = 1.8
 MinRotationPitch = -65
 MaxRotationPitch = 17
 DefaultFreelook = true
-MaxFuel         = 1200
-FuelConsumption = 2.0
+MaxFuel         = 1300
+FuelConsumption = 1.9
 HideEntity = false
 FlareType = 10
 

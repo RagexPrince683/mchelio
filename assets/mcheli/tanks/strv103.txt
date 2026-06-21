@@ -76,8 +76,8 @@ AddWeapon = strvfnmag,  1.41, 1.00, 1.74,  0.0, -1.0, true,1, 0,0,0, -12,10
 ;AddWeapon = mbt_cas, 0.00, 1.1444, 3.9061, 0.0 , 0.0
 AddPartWeapon = strvapfsds/ordnance_apds _strv/ordnance_he_strv/smokeshellstrv, false, true, true, 0.00, 1.1444, 0.00,  0.0, -1.0,
 
-MaxFuel         = 600
-FuelConsumption = 2.0
+MaxFuel         = 2400
+FuelConsumption = 3.2
 
 ;ArmorMinDamage = 10
 ;ArmorMaxDamage = 1000

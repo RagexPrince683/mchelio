@@ -17,8 +17,8 @@ FloatOffset = 0.0
 GravityInWater = -0.2
 DamageFactor   = 0.8
 EnableNightVision = true
-MaxFuel           = 1200
-FuelConsumption   = 1.0
+MaxFuel           = 2200
+FuelConsumption   = 2.8
 EnableEntityRadar = true
 CameraPosition = -0.50, 1.8,  3.83, true
 

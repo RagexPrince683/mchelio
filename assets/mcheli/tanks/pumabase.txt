@@ -74,8 +74,8 @@ TurretPosition = 0.5014, 2.702, 0.0
 
 MotionFactor = 0.9
 
-MaxFuel         = 1500
-FuelConsumption = 1.0
+MaxFuel         = 1300
+FuelConsumption = 1.9
 
 TrackRollerRot = 50
 

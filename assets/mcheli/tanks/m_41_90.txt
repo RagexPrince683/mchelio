@@ -105,8 +105,8 @@ AddPartWeaponChild = false, true, 0.0,    2.5498,  0.1268, 0.0
 
 
 
-MaxFuel         = 600
-FuelConsumption = 2.0
+MaxFuel         = 1400
+FuelConsumption = 1.8
 
 StepHeight = 1.8
 

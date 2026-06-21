@@ -14,8 +14,8 @@ CameraZoom = 8
 CameraPosition = 0.0,  3.9, 0.0, true
 CameraRotationSpeed = 17
 ;EnableEntityRadar = true
-MaxFuel         = 3600
-FuelConsumption = 3
+MaxFuel         = 2400
+FuelConsumption = 3.2
 DefaultFreelook = true
 
 Category = MBT/MED
