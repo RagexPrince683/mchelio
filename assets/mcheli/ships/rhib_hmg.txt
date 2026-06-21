@@ -1,8 +1,8 @@
-﻿DisplayName = NSW 11-meter RHIB with with M240 Mount
+DisplayName = NSW 11-meter RHIB with with M240 Mount
 AddDisplayName = en_US, NSW 11-meter RHIB with M240 Mount
 AddDisplayName = ja_JP, NSW 11-meter RHIB with M240
-MaxFuel         = 1200
-FuelConsumption = 1.0
+MaxFuel         = 250
+FuelConsumption = 0.009
 ItemID = 49998
 MaxHp = 130
 Speed = 0.58

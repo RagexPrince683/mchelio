@@ -1,4 +1,4 @@
-﻿DisplayName = DDG-1000 Zumwalt Destroyer
+DisplayName = DDG-1000 Zumwalt Destroyer
 AddDisplayName = en_US, DDG-1000 Zumwalt Destroyer
 AddDisplayName = ja_JP, DDG-1000 ズムウォルト駆逐艦
 
@@ -12,8 +12,8 @@ FloatOffset = 0.0
 Sound = warship_snd
 SoundVolume = 50
 ThrottleUpDown = 0.2
-MaxFuel         = 3000
-FuelConsumption = 5.2
+MaxFuel         = 1000000
+FuelConsumption = 0.579
 Gravity = -0.5
 GravityInWater = -0.2
 StepHeight = 5.0

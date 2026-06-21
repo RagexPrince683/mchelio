@@ -1,4 +1,4 @@
-﻿DisplayName = Landing Craft For Vehicles and Personnel (LCVP Boat)
+DisplayName = Landing Craft For Vehicles and Personnel (LCVP Boat)
 AddDisplayName = en_US, Landing Craft For Vehicles and Personnel (LCVP Boat)
 AddDisplayName = ja_JP, Lcvp輸送ボート
 
@@ -11,8 +11,8 @@ Float = true
 FloatOffset = 0.0
 Sound = boat
 ThrottleUpDown = 0.8
-MaxFuel         = 800
-FuelConsumption = 1.0
+MaxFuel         = 150
+FuelConsumption = 0.017
 Gravity = -0.15
 DamageFactor = 0.8
 ThirdPersonDist = 16
