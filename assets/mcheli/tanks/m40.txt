@@ -74,8 +74,8 @@ MotionFactor = 0.9
 ArmorMinDamage = 12
 
 
-MaxFuel         = 1200
-FuelConsumption = 1.2
+MaxFuel         = 1800
+FuelConsumption = 2.4
 
 ;medium tracked tank ww2 art
 AddRecipe = "ABC", "DB ", "   ", A, mcheli:mediumchassis, B, mcheli:cannon3, C, mcheli:engine2, D, mcheli:tanktracks

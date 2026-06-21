@@ -116,7 +116,7 @@ ArmorMinDamage = 19
 ArmorDamageFactor = 1.0
 
 MaxFuel         = 1200
-FuelConsumption = 1.0
+FuelConsumption = 1.6
 
 ;rear/side 38.1
 

@@ -128,8 +128,8 @@ AddTurretWeapon = merkava4mgcox,         0.5, 2.22, 1.00,  0.0,  0.0, false, 1, 
 AddPartTurretWeapon = merkava4mg7_62mm, false, true, true,  -0.83, 3.39,-0.57, 0
 AddTurretWeapon = merkava4mg7_62mm,          -0.83, 3.39,-0.57,  0.0,  0.0, false,2, 0,-60,120, -50, 5
 
-MaxFuel         = 1200
-FuelConsumption = 2.5
+MaxFuel         = 2400
+FuelConsumption = 3.2
 
 
 ;RideRack = 乗る機体名, ラック番号 (1～) 

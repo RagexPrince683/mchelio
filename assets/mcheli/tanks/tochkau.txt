@@ -78,8 +78,8 @@ ArmorMinDamage = 10
 
 ArmorDamageFactor = 1.00
 
-MaxFuel         = 1200
-FuelConsumption = 2.0
+MaxFuel         = 2200
+FuelConsumption = 2.8
 
 
 StepHeight = 1.5

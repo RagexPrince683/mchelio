@@ -12,8 +12,8 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1
 EnableNightVision = false
-MaxFuel           = 1500
-FuelConsumption   = 1.0
+MaxFuel           = 650
+FuelConsumption   = 0.7
 ThirdPersonDist = 5
 DefaultFreelook = false
 

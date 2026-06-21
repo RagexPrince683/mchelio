@@ -14,8 +14,8 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1.0
 EnableNightVision = false
-MaxFuel           = 1200
-FuelConsumption   = 1.0
+MaxFuel           = 650
+FuelConsumption   = 0.7
 
 AddTexture = silvia_s14b
 AddTexture = silvia_s14r

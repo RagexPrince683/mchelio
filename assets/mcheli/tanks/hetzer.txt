@@ -50,8 +50,8 @@ ArmorMinDamage = 15
 
 MotionFactor = 0.94
 
-MaxFuel         = 800
-FuelConsumption = 2
+MaxFuel         = 1400
+FuelConsumption = 1.8
 
 TrackRollerRot = 15
 

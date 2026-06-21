@@ -28,8 +28,8 @@ hud = car, none, none
 WeightedCenterZ = 0.1
 
 
-MaxFuel         = 300
-FuelConsumption = 0.8
+MaxFuel         = 650
+FuelConsumption = 0.7
 
 
 AddTexture = mc_atv

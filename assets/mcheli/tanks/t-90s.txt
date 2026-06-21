@@ -100,8 +100,8 @@ MotionFactor = 0.95
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
 ArmorDamageFactor = 0.95
 
-MaxFuel         = 1200
-FuelConsumption = 2.0
+MaxFuel         = 2400
+FuelConsumption = 3.2
 
 AddTexture = t-90s
 AddTexture = t-90s_1

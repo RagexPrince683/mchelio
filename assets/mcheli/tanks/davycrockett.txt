@@ -12,6 +12,9 @@ DamageFactor = 1.0
 CameraZoom = 0
 ;CameraPosition = 0.0, 2.27, 0.0
 speed = 0.01
+MaxFuel         = 0
+FuelConsumption = 0.0
+
 ;SetWheelPos = 0.0, -0.0, 0.0, 0, 0
 SetWheelPos =  0.20,  -0.20,  0.20, -0.20
 enableback = true

@@ -17,8 +17,8 @@ CameraZoom = 6
 EnableNightVision = false
 CameraRotationSpeed = 13
 EnableEntityRadar = false
-MaxFuel         = 1200
-FuelConsumption = 3.0
+MaxFuel         = 2200
+FuelConsumption = 2.8
 StepHeight = 1.5
 ;FlareType = 10
 CameraPosition =  0.0070,  2.85, -1.4493
@@ -112,8 +112,8 @@ AddTrackRoller = -1.93,  0.13,  -1.27
 AddTrackRoller = -1.93,  0.13,  -2.71
 AddTrackRoller = -1.92,  0.66,  2.44
 
-MaxFuel = 600
-FuelConsumption = 2.0
+MaxFuel = 2200
+FuelConsumption = 2.8
 
 ArmorMinDamage = 12
 

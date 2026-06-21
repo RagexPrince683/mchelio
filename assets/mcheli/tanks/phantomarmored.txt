@@ -16,8 +16,8 @@ Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1.0
 EnableNightVision = true
-MaxFuel           = 1200
-FuelConsumption   = 1.0
+MaxFuel           = 650
+FuelConsumption   = 0.7
 FlareType = 10
 
 EntityWidth  = 0.85

@@ -36,8 +36,8 @@ OnGroundRollFactor  = 3.5
 MobilityYawOnGround = 0.5
 PivotTurnThrottle = 0.0
 
-MaxFuel         = 1500
-FuelConsumption = 2.0
+MaxFuel         = 0
+FuelConsumption = 0.0
 
 TrackRollerRot = 2.5
 

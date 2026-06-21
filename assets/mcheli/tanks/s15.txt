@@ -99,8 +99,8 @@ AddWeapon = drift,   -1.0884, 0.0, -1.8604,  0.0,0.0
 AddPartCanopy   =  0.000, 0.000, 0.000,  0,0,0, 0
 
 
-MaxFuel         = 600
-FuelConsumption = 0.6
+MaxFuel         = 650
+FuelConsumption = 0.7
 
 ;BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
 ;BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1

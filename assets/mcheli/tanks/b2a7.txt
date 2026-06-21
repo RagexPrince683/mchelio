@@ -120,8 +120,8 @@ AddPartWeaponChild   = false, true, 0.7196, 3.6417, -1.995
 AddTurretWeapon = 2a7mg_127b, 0.7196, 3.6417, -1.995, 0.0, 0.0, false, 2, 0, -360,360, -70,10
 
 
-MaxFuel         = 1200
-FuelConsumption = 2.8
+MaxFuel         = 2400
+FuelConsumption = 3.2
 
 
 RideRack = c5, 1

@@ -78,8 +78,8 @@ ArmorMinDamage = 10
 ;ArmorMaxDamage = 250
 ArmorDamageFactor = 3.8
 
-MaxFuel         = 1000
-FuelConsumption = 2.0
+MaxFuel         = 1800
+FuelConsumption = 2.4
 
 
 ;med tracked cannon arty (modern)

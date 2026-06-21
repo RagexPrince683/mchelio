@@ -95,8 +95,8 @@ ArmorMinDamage = 15
 ;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
 ArmorDamageFactor = 1.00
 
-MaxFuel         = 1200
-FuelConsumption = 2.0
+MaxFuel         = 1400
+FuelConsumption = 1.8
 
 
 

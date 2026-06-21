@@ -124,8 +124,8 @@ BoundingBox =  0.0, 1.0,   0.75,   2.0, 0.18,  0.16
 ;slightly really less modern mbt tracked tank 
 AddRecipe = "ABC", "DGF", "E  ", A, mcheli:mediumchassis, B, mcheli:cannon2, C, mcheli:engine3, D, mcheli:tanktracks, G, mcheli:lap, E, mcheli:basicmechanicparts, F, mcheli:electronics
 
-MaxFuel         = 600
-FuelConsumption = 2.0
+MaxFuel         = 1400
+FuelConsumption = 1.8
 
 StepHeight = 1.8
 

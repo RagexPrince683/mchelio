@@ -78,8 +78,8 @@ ArmorMinDamage = 8
 ;ArmorMaxDamage = 250
 ;ArmorDamageFactor = 0.98
 
-MaxFuel         = 1000
-FuelConsumption = 2.0
+MaxFuel         = 2200
+FuelConsumption = 2.8
 
 ;light tracked spaa (modern)
 AddRecipe = "ABC", "DEF", "   ", A, mcheli:lightchassis, B, mcheli:rocket, C, mcheli:engine3, D, mcheli:tanktracks, E, mcheli:lap, F, mcheli:electronics

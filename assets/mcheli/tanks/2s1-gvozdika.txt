@@ -14,8 +14,8 @@ CameraRotationSpeed = 6
 
 Category = SPH
 
-MaxFuel         = 1400
-FuelConsumption = 2.1
+MaxFuel         = 1800
+FuelConsumption = 2.4
 StepHeight = 1.8
 
 DefaultFreelook = true

@@ -97,8 +97,8 @@ MotionFactor = 0.9
 
 ;ArmorDamageFactor = 0.98
 
-MaxFuel         = 1200
-FuelConsumption = 2.0
+MaxFuel         = 1300
+FuelConsumption = 1.9
 
 
 AddTexture = Strf 9040b_2

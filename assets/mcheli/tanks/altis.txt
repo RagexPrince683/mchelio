@@ -15,8 +15,8 @@ MobilityRoll     = 4
 Gravity = -0.61
 GravityInWater = -1.0
 DamageFactor   = 1.0
-MaxFuel           = 1200
-FuelConsumption   = 0.8
+MaxFuel           = 650
+FuelConsumption   = 0.7
 ThirdPersonDist = 8
 
 OnGroundPitchFactor = 18.0

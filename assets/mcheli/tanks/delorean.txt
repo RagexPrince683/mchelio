@@ -9,8 +9,8 @@ ThrottleUpDown = 0.815
 ;;EnableVtol = true
 ;;VtolYaw = 1.0
 ;;VtolPitch = 0.3
-MaxFuel         = 1000
-FuelConsumption = 1.0
+MaxFuel         = 650
+FuelConsumption = 0.7
 
 WeightedCenterZ = -0.6
 

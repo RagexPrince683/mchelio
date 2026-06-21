@@ -103,8 +103,8 @@ AddTurretWeapon = ztzmg_coaxial, -0.37, 2.11, 1.99,  0.0, 0.0, true,1, 0,-360,36
 AddPartWeapon = ztzmg_coaxial, false, true, false,  0.00, 1.65, 0.00, 0
 AddPartWeaponChild = false, true, -0.37, 2.11, 1.99
 
-MaxFuel         = 800
-FuelConsumption = 2.0
+MaxFuel         = 2400
+FuelConsumption = 3.2
 
 UnmountPosition = 0.0, 1.50, 0.00
 

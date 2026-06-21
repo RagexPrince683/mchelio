@@ -85,8 +85,8 @@ ArmorMinDamage = 15
 ;ArmorMaxDamage = 250
 ;ArmorDamageFactor = 0.98
 
-MaxFuel         = 1200
-FuelConsumption = 2.0
+MaxFuel         = 2200
+FuelConsumption = 2.8
 
 ;modern mbt tracked base to rocket bullshit 
 AddRecipe = "ABC", "DGF", "EHG", A, mcheli:mediumchassis, B, mcheli:rocket3, C, mcheli:engine3, D, mcheli:tanktracks, F, mcheli:electronics, G, mcheli:lap, E, mcheli:complexmechanicparts, H, mcheli:fcs2

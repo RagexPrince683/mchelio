@@ -48,8 +48,8 @@ HideEntity = true
 
 MotionFactor = 0.95
 
-MaxFuel         = 1500
-FuelConsumption = 2.0
+MaxFuel         = 2400
+FuelConsumption = 3.2
 
 TrackRollerRot = 50
 
