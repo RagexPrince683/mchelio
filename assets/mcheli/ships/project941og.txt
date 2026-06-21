@@ -42,8 +42,8 @@ MobilityYawOnGround = 0.2
 
 CameraPosition = 0.00, 18.0, 11, true
 
-MaxFuel         = 10
-FuelConsumption = 0.0
+MaxFuel         = 100000000
+FuelConsumption = 0.000
 
 
 

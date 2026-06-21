@@ -35,8 +35,8 @@ CanMoveOnGround = false
 CanRotOnGround  = false
 MobilityYawOnGround = 2.0
 
-MaxFuel         = 2500
-FuelConsumption = 2.0
+MaxFuel         = 1000000
+FuelConsumption = 0.579
 
 CameraPosition = 0.29, 9.20, 6.49
 

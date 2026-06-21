@@ -28,8 +28,8 @@ CanMoveOnGround = false
 CanRotOnGround  = false
 MobilityYawOnGround = 4.0
 
-MaxFuel         = 1500
-FuelConsumption = 2.0
+MaxFuel         = 660
+FuelConsumption = 0.023
 
 onGroundPitch = 4
 

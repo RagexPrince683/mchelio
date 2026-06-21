@@ -1,4 +1,4 @@
-﻿DisplayName = LCAC
+DisplayName = LCAC
 AddDisplayName = en_US, Landing Craft Air Cushion (LCAC)
 AddDisplayName = ja_JP, LCACエアクッション艇
 ItemID = 30112
@@ -30,9 +30,9 @@ Category = LC
 PivotTurnThrottle = 0.2
 
 ; 燃料搭載可能量
-MaxFuel         = 1000
+MaxFuel         = 5000
 ; 1秒間に消費する燃料
-FuelConsumption = 0.8
+FuelConsumption = 0.278
 
 AddPartWing =  0.00, 2.0183, -10.8808,  -1,0,0, 100
 AddPartWing =   0.00, 2.16, 10.9575,  1,0, 0, 100

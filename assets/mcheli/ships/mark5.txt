@@ -24,8 +24,8 @@ CanMoveOnGround = false
 CanRotOnGround  = false
 MobilityYawOnGround = 3.0
 
-MaxFuel         = 1500
-FuelConsumption = 2.0
+MaxFuel         = 2600
+FuelConsumption = 0.060
 
 AddPartRotor =    0.00,  2.35,-1.92,   0,1, 0
 AddBlade = 1, 0,  0.00,  2.35,-1.92,   0,1, 0

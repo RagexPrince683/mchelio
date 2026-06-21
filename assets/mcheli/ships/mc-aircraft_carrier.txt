@@ -1,4 +1,4 @@
-﻿DisplayName = CVN-68 USS Nimitz Aircraft Carrier
+DisplayName = CVN-68 USS Nimitz Aircraft Carrier
 AddDisplayName = en_US, CVN-68 USS Nimitz Aircraft Carrier
 AddDisplayName = ja_JP, CVN-68 Aircraft Carrier
 
@@ -13,8 +13,8 @@ Float = true
 FloatOffset = -0.3
 Sound = big_ships
 ThrottleUpDown = 0.2
-MaxFuel         = 10
-FuelConsumption = 0.0
+MaxFuel         = 100000000
+FuelConsumption = 0.000
 ;todo nuclear fuel sht
 Gravity = -0.15
 ArmorDamageFactor = 1.0

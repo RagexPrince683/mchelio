@@ -1,4 +1,4 @@
-﻿DisplayName = HSV-X1 Joint Venture
+DisplayName = HSV-X1 Joint Venture
 AddDisplayName = en_US, HSV-X1 Joint Venture
 AddDisplayName = ja_JP, HSV-X1 軍用フェリー
 
@@ -14,8 +14,8 @@ Float = true
 FloatOffset = 0.0
 Sound = big_ships
 ThrottleUpDown = 0.8
-MaxFuel         = 2000
-FuelConsumption = 1.2
+MaxFuel         = 250000
+FuelConsumption = 3.472
 Gravity = -0.5
 GravityInWater = -0.2
 StepHeight = 5.0
