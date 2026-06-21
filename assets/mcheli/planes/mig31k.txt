@@ -31,7 +31,6 @@ UseNewMobilitySystem = true
 # EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
 PhysicalMass = 2.450
 EngineThrust = 3.847
-TakeoffDistanceMultiplier = 0.70
 NewFlightGravity = 0.0080
 NewFlightThrottleResponse = 1.160
 NewFlightThrottleChangeRateUp = 0.0052
@@ -44,14 +43,19 @@ NewFlightThrottleHudDisplay = true
 NewFlightCombatFlaps = false
 FlightCeiling = 20600
 FlightCeilingRange = 96
-StallSpeed = 1.027
-CriticalAoA = 16.80
-StallLiftLoss = 0.820
+StallSpeed = 0.652
+CriticalAoA = 27.00
+TimeUntilStallPastCriticalAoA = 0.90
+TimeAfterStallUntilPitchDown = 0.85
+StallLiftLoss = 0.840
 AoADragMultiplier = 2.550
 StallInstability = 0.440
-StallRecoverySpeed = 1.356
+StallRecoverySpeed = 0.925
 StallSpeedFactor = 0.18
 StallStrength = 1.15
+StallRecoveryRate = 0.24
+StallBreakStrength = 1.00
+StallPitchRecoveryStrength = 0.88
 DiveSpeedMultiplier = 1.28
 MaxComfortableG = 7.5
 MaxStructuralG = 10.0
@@ -63,8 +67,6 @@ OverspeedDamageRate = 0.14
 BaseDrag = 0.0014
 InducedDrag = 0.0075
 ControlSurfaceDrag = 0.0035
-ClimbEnergyLoss = 0.0085
-DiveEnergyGain = 0.012
 MaxLevelSpeed = 3.95
 IdleDrag = 0.0034
 
@@ -80,9 +82,9 @@ EngineDrag = 0.009
 
 HUD = plane
 
-MobilityYaw = 0.386
-MobilityPitch = 0.516
-MobilityRoll = 0.408
+MobilityYaw = 0.444
+MobilityPitch = 0.593
+MobilityRoll = 0.469
 
 AddSeat = 0.00,  1.78,  0.02
 

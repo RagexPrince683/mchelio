@@ -11,7 +11,6 @@ UseNewMobilitySystem = true
 # EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
 PhysicalMass = 1.250
 EngineThrust = 1.489
-TakeoffDistanceMultiplier = 0.76
 NewFlightGravity = 0.0080
 NewFlightThrottleResponse = 1.280
 NewFlightThrottleChangeRateUp = 0.0045
@@ -24,14 +23,19 @@ NewFlightThrottleHudDisplay = true
 NewFlightCombatFlaps = false
 FlightCeiling = 15000
 FlightCeilingRange = 72
-StallSpeed = 0.761
-CriticalAoA = 14.20
-StallLiftLoss = 0.840
-AoADragMultiplier = 2.550
+StallSpeed = 0.611
+CriticalAoA = 21.00
+TimeUntilStallPastCriticalAoA = 0.90
+TimeAfterStallUntilPitchDown = 0.85
+StallLiftLoss = 0.860
+AoADragMultiplier = 2.750
 StallInstability = 0.500
-StallRecoverySpeed = 1.058
+StallRecoverySpeed = 0.867
 StallSpeedFactor = 0.21
 StallStrength = 1.18
+StallRecoveryRate = 0.22
+StallBreakStrength = 0.86
+StallPitchRecoveryStrength = 0.72
 DiveSpeedMultiplier = 1.24
 MaxComfortableG = 5.8
 MaxStructuralG = 8.5
@@ -43,8 +47,6 @@ OverspeedDamageRate = 0.16
 BaseDrag = 0.0016
 InducedDrag = 0.013
 ControlSurfaceDrag = 0.0048
-ClimbEnergyLoss = 0.015
-DiveEnergyGain = 0.013
 MaxLevelSpeed = 3.626
 IdleDrag = 0.0043
 
@@ -97,9 +99,9 @@ HUD = plane
 ;early modern light plane (late jet), AOW3 style (only AA)
 AddRecipe = "ABC", "DEG", "   ", A, mcheli:airframe, B, mcheli:basicmechanicparts, C, mcheli:engine1, D, mcheli:wheelair, E, mcheli:cannon1, G, mcheli:electronics 
 
-MobilityYaw = 1.002
-MobilityPitch = 1.271
-MobilityRoll = 1.544
+MobilityYaw = 1.082
+MobilityPitch = 1.373
+MobilityRoll = 1.668
 
 AddTexture = f-104-2
 ;AddTexture = f-104-de

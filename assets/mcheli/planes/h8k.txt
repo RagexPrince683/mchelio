@@ -21,8 +21,7 @@ UseNewMobilitySystem = true
 # PhysicalMass is translational aircraft weight/momentum for the new flight model.
 # EngineThrust is physical engine force; InertiaMultiplier remains rotational response only.
 PhysicalMass = 1.350
-EngineThrust = 1.002
-TakeoffDistanceMultiplier = 0.78
+EngineThrust = 1.458
 NewFlightGravity = 0.0082
 NewFlightThrottleResponse = 1.150
 NewFlightThrottleChangeRateUp = 0.0038
@@ -35,14 +34,19 @@ NewFlightThrottleHudDisplay = true
 NewFlightCombatFlaps = false
 FlightCeiling = 9000
 FlightCeilingRange = 56
-StallSpeed = 0.210
-CriticalAoA = 13.20
-StallLiftLoss = 0.740
-AoADragMultiplier = 2.850
+StallSpeed = 0.174
+CriticalAoA = 14.80
+TimeUntilStallPastCriticalAoA = 1.55
+TimeAfterStallUntilPitchDown = 1.30
+StallLiftLoss = 0.760
+AoADragMultiplier = 3.050
 StallInstability = 0.340
-StallRecoverySpeed = 0.311
+StallRecoverySpeed = 0.247
 StallSpeedFactor = 0.24
 StallStrength = 0.95
+StallRecoveryRate = 0.14
+StallBreakStrength = 0.52
+StallPitchRecoveryStrength = 0.42
 DiveSpeedMultiplier = 1.2
 MaxComfortableG = 5
 MaxStructuralG = 8.5
@@ -54,8 +58,6 @@ OverspeedDamageRate = 0.12
 BaseDrag = 0.0027
 InducedDrag = 0.017
 ControlSurfaceDrag = 0.0065
-ClimbEnergyLoss = 0.018
-DiveEnergyGain = 0.012
 MaxLevelSpeed = 0.777
 IdleDrag = 0.0055
 
@@ -76,9 +78,9 @@ CameraZoom = 2
 
 HUD = plane_wwii, plane_wwii, gunner, gunner, gunner, gunner, gunner
 
-MobilityYaw   = 0.386
-MobilityPitch = 0.442
-MobilityRoll  = 0.342
+MobilityYaw   = 0.444
+MobilityPitch = 0.508
+MobilityRoll  = 0.393
 ;MinRotationPitch = -60
 ;MaxRotationPitch =  60
 ;MinRotationRoll  = -60
