@@ -8,7 +8,8 @@ Speed = 0.3
 ;balancing
 Sound = bicycle
 ThrottleUpDown = 0.32
-MaxFuel         = 0
+MaxFuel         = 1
+;needs at least 1 to be able to move?
 ;its a bicycle
 FuelConsumption = 0.0
 Gravity = -0.1
