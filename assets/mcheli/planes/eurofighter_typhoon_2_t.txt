@@ -1,5 +1,12 @@
 DisplayName = Eurofighter Typhoon II (Taurus)
 AddDisplayName = en_US, Eurofighter Typhoon II (Taurus)
+NameOnEarlyASRadar = Fast Jet
+NameOnModernASRadar = Eurofighter Typhoon II (Taurus)
+NameOnEarlyAARadar = Fast Jet
+NameOnModernAARadar = Eurofighter Typhoon II (Taurus)
+ChaffWaitTime = 360
+ChaffUseTime = 120
+ThrottleDownFactor = 0.20
 ItemID = 28714
 MaxHp = 100
 EnableNightVision = true
@@ -13,6 +20,7 @@ Speed = 4.0
 
 EnableGunnerMode = true
 FlareType = 4
+HasChaff = true
 MaxFuel         = 20000
 FuelConsumption = 6.897
 ParticlesScale = 0.7

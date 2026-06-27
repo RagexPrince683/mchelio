@@ -1,6 +1,13 @@
 DisplayName = F-22A Raptor
 AddDisplayName = en_US, F-22A Raptor
 AddDisplayName = ja_JP, F-22A ラプター
+NameOnEarlyASRadar = Fast Jet
+NameOnModernASRadar = F-22A Raptor
+NameOnEarlyAARadar = Fast Jet
+NameOnModernAARadar = F-22A Raptor
+ChaffWaitTime = 360
+ChaffUseTime = 120
+ThrottleDownFactor = 0.20
 ItemID = 28726
 MaxHp = 100
 EnableNightVision = true
@@ -11,6 +18,7 @@ EnableEjectionSeat = true
 Speed = 4.0
 
 FlareType = 3
+HasChaff = true
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel         = 32800

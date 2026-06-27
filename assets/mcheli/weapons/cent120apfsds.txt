@@ -1,5 +1,10 @@
 DisplayName = 120mm OTO Melara 120/45 [CL3143 - APFSDS]
 Type = MachineGun1
+RecoilPitch = 1.70F
+RecoilYaw = 0.0F
+RecoilPitchRange = 0.59F
+RecoilYawRange = 0.42F
+RecoilRecoverFactor = 0.8F
 Power = 589
 ModelBullet = bullet105mm
 Acceleration = 16.0

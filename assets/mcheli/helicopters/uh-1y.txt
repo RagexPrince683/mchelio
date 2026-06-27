@@ -1,5 +1,12 @@
 DisplayName = UH-1Y Venom
 AddDisplayName = ja_JP, UH-1Y ペイヴホーク
+NameOnEarlyASRadar = Helicopter
+NameOnModernASRadar = UH-1Y Venom
+NameOnEarlyAARadar = Helicopter
+NameOnModernAARadar = UH-1Y Venom
+ChaffWaitTime = 400
+ChaffUseTime = 100
+ThrottleDownFactor = 0.35
 ItemID = 288166
 MaxHp = 100
 EnableGunnerMode = false
@@ -12,6 +19,7 @@ Speed = 1.89
 Sound = r44_heli
 ThrottleUpDown = 0.8
 FlareType = 3
+HasChaff = true
 CameraPosition = 0.0, 0.7, 3.5
 MaxFuel         = 2150
 FuelConsumption = 0.597
@@ -26,14 +34,20 @@ RotorSpoolUpRate = 0.025
 RotorSpoolDownRate = 0.033
 CollectiveResponse = 0.085
 CyclicAuthority = 0.78
-TailRotorAuthority = 1.02
+TailRotorAuthority = 1.275
 YawDamping = 0.2
 AngularInertia = 1.18
 TranslationalLiftCoefficient = 0.004
 VerticalDrag = 0.026
+MaxClimbRate = 0.16
 ParasiteDrag = 0.034
-HorizontalRotorThrustScale = 0.66
-HoverAssistStrength = 0.19
+HorizontalRotorThrustScale = 1.5
+HelicopterLateralThrustScale = 0.45
+HelicopterLateralDrag = 0.055
+HelicopterMaxLateralSpeedScale = 0.45
+HelicopterBackwardThrustScale = 0.35
+HelicopterMaxBackwardSpeedScale = 0.35
+HoverAssistStrength = 0.75
 
 
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)

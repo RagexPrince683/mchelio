@@ -2,6 +2,13 @@ DisplayName = CH47 chnuke radicon
 ;i might remove this...
 AddDisplayName = en_US, CH47 CHnuke RC
 AddDisplayName = ja_JP, CH-47 チヌーク ラジコンヘリ
+NameOnEarlyASRadar = Helicopter
+NameOnModernASRadar = CH47 chnuke radicon
+NameOnEarlyAARadar = Helicopter
+NameOnModernAARadar = CH47 chnuke radicon
+ChaffWaitTime = 400
+ChaffUseTime = 100
+ThrottleDownFactor = 0.35
 ItemID = 30024
 MaxHp = 20
 Speed = 0.3
@@ -25,14 +32,20 @@ RotorSpoolUpRate = 0.02
 RotorSpoolDownRate = 0.028
 CollectiveResponse = 0.075
 CyclicAuthority = 0.62
-TailRotorAuthority = 0.88
+TailRotorAuthority = 1.012
 YawDamping = 0.24
 AngularInertia = 1.9
 TranslationalLiftCoefficient = 0.003
 VerticalDrag = 0.032
+MaxClimbRate = 0.15
 ParasiteDrag = 0.045
-HorizontalRotorThrustScale = 0.6
-HoverAssistStrength = 0.14
+HorizontalRotorThrustScale = 1.28
+HelicopterLateralThrustScale = 0.45
+HelicopterLateralDrag = 0.055
+HelicopterMaxLateralSpeedScale = 0.45
+HelicopterBackwardThrustScale = 0.35
+HelicopterMaxBackwardSpeedScale = 0.35
+HoverAssistStrength = 0.75
 
 Category = sUAS
 

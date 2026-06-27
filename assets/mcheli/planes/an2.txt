@@ -1,12 +1,20 @@
 DisplayName = An-2
 AddDisplayName = en_US, An-2
 AddDisplayName = ja_JP, An-2
+NameOnEarlyASRadar = Large Aircraft
+NameOnModernASRadar = An-2
+NameOnEarlyAARadar = Large Aircraft
+NameOnModernAARadar = An-2
+ChaffWaitTime = 0
+ChaffUseTime = 0
+ThrottleDownFactor = 0.20
 ItemID = 28732
 MaxHp = 100
 ;130mph cruise speed
 ;160mph max speed
 
 Speed = 0.449
+HasBallisticComputer = true
 Sound = antwo
 ThrottleUpDown = 0.4
 MaxFuel         = 4960

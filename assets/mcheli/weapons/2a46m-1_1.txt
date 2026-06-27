@@ -1,5 +1,10 @@
 DisplayName = 125mm 2A46M-1 Smoothbore Cannon [3BM-15 - APFSDS]
 Type = MachineGun1
+RecoilPitch = 1.70F
+RecoilYaw = 0.0F
+RecoilPitchRange = 0.59F
+RecoilYawRange = 0.42F
+RecoilRecoverFactor = 0.8F
 Power = 440
 ModelBullet = bullet105mm
 Acceleration = 7.5

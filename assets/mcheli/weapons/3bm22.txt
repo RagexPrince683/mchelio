@@ -1,5 +1,10 @@
 DisplayName = 125mm 2A46M-1 Smoothbore Cannon [3BM22 - APFSDS]
 Type = MachineGun2
+RecoilPitch = 1.70F
+RecoilYaw = 0.0F
+RecoilPitchRange = 0.59F
+RecoilYawRange = 0.42F
+RecoilRecoverFactor = 0.8F
 Power = 425
 ModelBullet = 3bm42
 Flaming = false

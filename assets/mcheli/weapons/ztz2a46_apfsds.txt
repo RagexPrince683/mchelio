@@ -1,5 +1,10 @@
 DisplayName = 125mm Type 88C Cannon [125-I - APFSDS]
 Type = MachineGun1
+RecoilPitch = 1.70F
+RecoilYaw = 0.0F
+RecoilPitchRange = 0.59F
+RecoilYawRange = 0.42F
+RecoilRecoverFactor = 0.8F
 Power = 466
 
 Sight = None

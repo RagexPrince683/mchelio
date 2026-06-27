@@ -4,12 +4,20 @@ AddDisplayName = en_US, F-14D Tomcat (alt)
 ;but for now enjoy the wall of shit when hovering over item
 ;oh wait the 'super' tomcat doesn't exist
 AddDisplayName = ja_JP, F-14D スーパートムキャット
+NameOnEarlyASRadar = Fast Jet
+NameOnModernASRadar = F-14D Tomcat (alt)
+NameOnEarlyAARadar = Fast Jet
+NameOnModernAARadar = F-14D Tomcat (alt)
+ChaffWaitTime = 360
+ChaffUseTime = 120
+ThrottleDownFactor = 0.20
 ItemID = 28714
 MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
 RWRType = DIGITAL
 RadarType = MODERN_AA
+HasBallisticComputer = true
 EnableEjectionSeat = true
 ; Realism pass: F-14D top speed ~1,240 mph / 1,996 km/h, service ceiling ~16.15 km,
 ; internal fuel ~2,400 US gal / 9,085 L. MCH speed uses high-speed aircraft mph/1000 tuning.
@@ -78,6 +86,7 @@ MobilityPitch = 1.731
 MobilityRoll = 2.015
 sound = tomcat
 FlareType = 4
+HasChaff = true
 VariableSweepWing = true
 SweepWingSpeed = 0.96
 MaxFuel         = 36340

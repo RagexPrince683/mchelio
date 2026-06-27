@@ -1,6 +1,13 @@
 DisplayName = A-10 Thunderbolt II
 AddDisplayName = en_US, A-10 Thunderbolt II
 AddDisplayName = ja_JP, A-10 サンダーボルトⅡ
+NameOnEarlyASRadar = Fast Jet
+NameOnModernASRadar = A-10 Thunderbolt II
+NameOnEarlyAARadar = Fast Jet
+NameOnModernAARadar = A-10 Thunderbolt II
+ChaffWaitTime = 360
+ChaffUseTime = 120
+ThrottleDownFactor = 0.20
 ItemID = 28705
 MaxHp = 250
 Sound = aten
@@ -8,6 +15,7 @@ EnableNightVision = true
 EnableEntityRadar = true
 RWRType = DIGITAL
 RadarType = MODERN_AA
+HasBallisticComputer = true
 EnableEjectionSeat = true
 Speed = 1.45
 ;420
@@ -87,6 +95,7 @@ InertiaMultiplier = 1.550
 ; Deprecated/invalid legacy FM key retained for audit context: FallOfEffectSpeed = 0.6
 
 FlareType = 5
+HasChaff = true
 ThrottleUpDown = 0.2
 MaxFuel         = 6400
 FuelConsumption = 1.0

@@ -1,5 +1,10 @@
 DisplayName = 30mm 2A38M Cannon [AP-T]
 Type = MachineGun2
+RecoilPitch = 0.35F
+RecoilYaw = 0.0F
+RecoilPitchRange = 0.12F
+RecoilYawRange = 0.09F
+RecoilRecoverFactor = 0.8F
 Power = 65
 ModelBullet = bullet
 Flaming = false

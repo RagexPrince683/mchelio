@@ -1,6 +1,13 @@
 DisplayName = DJI Phantom Farming UAV
 AddDisplayName = en_US, DJI Phantom Farming UAV
 AddDisplayName = ja_JP, 農業用RCドローンUAV
+NameOnEarlyASRadar = Small UAV
+NameOnModernASRadar = DJI Phantom Farming UAV
+NameOnEarlyAARadar = Small UAV
+NameOnModernAARadar = DJI Phantom Farming UAV
+ChaffWaitTime = 400
+ChaffUseTime = 100
+ThrottleDownFactor = 0.35
 
 NewSmallUAV = true
 HideEntity = true
@@ -34,14 +41,20 @@ RotorSpoolUpRate = 0.038
 RotorSpoolDownRate = 0.048
 CollectiveResponse = 0.13
 CyclicAuthority = 0.88
-TailRotorAuthority = 1.08
+TailRotorAuthority = 1.458
 YawDamping = 0.23
 AngularInertia = 0.44
 TranslationalLiftCoefficient = 0.005
 VerticalDrag = 0.02
+MaxClimbRate = 0.13
 ParasiteDrag = 0.021
-HorizontalRotorThrustScale = 0.84
-HoverAssistStrength = 0.26
+HorizontalRotorThrustScale = 1.6
+HelicopterLateralThrustScale = 0.45
+HelicopterLateralDrag = 0.055
+HelicopterMaxLateralSpeedScale = 0.45
+HelicopterBackwardThrustScale = 0.35
+HelicopterMaxBackwardSpeedScale = 0.35
+HoverAssistStrength = 0.75
 
 Category = UAS
 

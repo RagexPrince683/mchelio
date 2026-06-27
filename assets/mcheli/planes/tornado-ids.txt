@@ -1,6 +1,13 @@
 DisplayName = Panavia Tornado IDS
 AddDisplayName = en_US, Panavia Tornado IDS
 AddDisplayName = ja_JP, パナヴィア トーネード IDS
+NameOnEarlyASRadar = Fast Jet
+NameOnModernASRadar = Panavia Tornado IDS
+NameOnEarlyAARadar = Fast Jet
+NameOnModernAARadar = Panavia Tornado IDS
+ChaffWaitTime = 360
+ChaffUseTime = 120
+ThrottleDownFactor = 0.20
 ItemID = 28720
 MaxHp = 100
 ThrottleUpDown = 0.3
@@ -9,12 +16,14 @@ EnableNightVision = true
 EnableEntityRadar = true
 RWRType = DIGITAL
 RadarType = MODERN_AS
+HasBallisticComputer = true
 EnableEjectionSeat = true
 Speed = 4.0
 
 ;1452mph
 
 FlareType = 4
+HasChaff = true
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 VariableSweepWing = true

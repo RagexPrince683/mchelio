@@ -1,5 +1,12 @@
 DisplayName = PZL W-3PL Gluszec
 AddDisplayName = ja_JP, PZL W-3PL グウシェッツ
+NameOnEarlyASRadar = Helicopter
+NameOnModernASRadar = PZL W-3PL Gluszec
+NameOnEarlyAARadar = Helicopter
+NameOnModernAARadar = PZL W-3PL Gluszec
+ChaffWaitTime = 400
+ChaffUseTime = 100
+ThrottleDownFactor = 0.35
 MaxHp = 100
 EnableGunnerMode = true
 EnableNightVision = true
@@ -8,6 +15,7 @@ RWRType = ALL_WAY_EARLY
 RadarType = EARLY_AS
 Speed = 1.62
 FlareType = 3
+HasChaff = true
 CameraPosition = 0.0, 1.1, 4.8
 ThirdPersonDist = 16
 
@@ -20,14 +28,20 @@ RotorSpoolUpRate = 0.024
 RotorSpoolDownRate = 0.032
 CollectiveResponse = 0.085
 CyclicAuthority = 0.78
-TailRotorAuthority = 1.02
+TailRotorAuthority = 1.275
 YawDamping = 0.2
 AngularInertia = 1.25
 TranslationalLiftCoefficient = 0.004
 VerticalDrag = 0.026
+MaxClimbRate = 0.16
 ParasiteDrag = 0.035
-HorizontalRotorThrustScale = 0.65
-HoverAssistStrength = 0.18
+HorizontalRotorThrustScale = 1.45
+HelicopterLateralThrustScale = 0.45
+HelicopterLateralDrag = 0.055
+HelicopterMaxLateralSpeedScale = 0.45
+HelicopterBackwardThrustScale = 0.35
+HelicopterMaxBackwardSpeedScale = 0.35
+HoverAssistStrength = 0.75
 
 
 
