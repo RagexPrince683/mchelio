@@ -5,11 +5,11 @@ NameOnEarlyASRadar = Large Ship
 NameOnModernASRadar = CVN-68 USS Nimitz Aircraft Carrier
 NameOnEarlyAARadar = Large Ship
 NameOnModernAARadar = CVN-68 USS Nimitz Aircraft Carrier
-ChaffWaitTime = 0
-ChaffUseTime = 0
+;;ChaffWaitTime = 0
+;;ChaffUseTime = 0
 ;;ThrottleDownFactor = 0.30
 
-PivotTurnThrottle = 0.2
+;;PivotTurnThrottle = 0.2
 
 PreventWaterBobbing = true
 
@@ -19,15 +19,15 @@ Speed = 0.36
 Float = true
 FloatOffset = -0.3
 Sound = big_ships
-ThrottleUpDown = 0.2
-MaxFuel         = 100000000
-FuelConsumption = 0.000
+;;ThrottleUpDown = 0.2
+MaxFuel         = 10
+FuelConsumption = 0.1
 ;todo nuclear fuel sht
 Gravity = -0.15
 ArmorDamageFactor = 1.0
 DamageFactor = 0.1
 Regeneration = true
-MobilityYawOnGround = 0.6
+;;MobilityYawOnGround = 0.6
 EnableNightVision = true
 EnableEntityRadar = true
 MotionFactor = 0.90
@@ -52,7 +52,9 @@ Category = NCAC/AC
 
 HUD = plane, gunner, gunner, gunner, gunner, gunner, gunner, none, none, none, none, none
 
-UnmountPosition = -33, 15, -34.6
+;;UnmountPosition = -33, 15, -34.6
+
+UnmountPosition= -5, 15, -5
 
 ;　main
 AddSeat =  -5.00,  2.59, -5.0
