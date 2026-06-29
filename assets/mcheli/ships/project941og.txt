@@ -223,3 +223,10 @@ BoundingBox = 0.0, 8.1, -6.0, 2.5, 5.8
 BoundingBox = 0.0, 8.1, -8.5, 2.5, 5.8
 BoundingBox = 0.0, 7.3, -10.5, 2, 6
 BoundingBox = 0.0, 7.3, -12.5, 2, 6
+
+
+;modern coldwar submarine
+AddRecipe = "AAC", "AAE", "BAD", A, mcheli:shiphull3, B, mcheli:shipnuclearreactormultipart, C, mcheli:engine3, D, mcheli:fcs3, E, mcheli:cannon3
+
+;modernization
+AddRecipe = "ABC", "   ", "   ", A, mcheli:project941, B, mcheli:fcs3, C, mcheli:wrench
