@@ -7,7 +7,7 @@ NameOnEarlyAARadar = Large Ship
 NameOnModernAARadar = CVN-68 USS Nimitz Aircraft Carrier
 ChaffWaitTime = 0
 ChaffUseTime = 0
-ThrottleDownFactor = 0.30
+;;ThrottleDownFactor = 0.30
 
 PivotTurnThrottle = 0.2
 
