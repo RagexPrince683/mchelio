@@ -1,12 +1,12 @@
-DisplayName = USS Ohio SSBN-726
-DisplayName = USS Ohio SSBN-726
-AddDisplayName = en_US, USS Ohio SSBN-726
-AddDisplayName = en_US, USS Ohio SSBN-726
-AddDisplayName = zh_CN, USS Ohio SSBN-726
+DisplayName = USS Tennessee SSBN-734
+DisplayName = USS Tennessee SSBN-734
+AddDisplayName = en_US, USS Tennessee SSBN-734
+AddDisplayName = en_US, USS Tennessee SSBN-734
+AddDisplayName = zh_CN, USS Tennessee SSBN-734
 NameOnEarlyASRadar = Surface Ship
-NameOnModernASRadar = USS Ohio SSBN-726
+NameOnModernASRadar = USS Tennessee SSBN-734
 NameOnEarlyAARadar = Surface Ship
-NameOnModernAARadar = USS Ohio SSBN-726
+NameOnModernAARadar = USS Tennessee SSBN-734
 ;;https://sketchfab.com/3d-models/ohio-class-submarine-ssbn-315be00711a24dce9f0fa6657df7521e
 ;;W Yakudami
 ChaffWaitTime = 0
@@ -106,30 +106,30 @@ AddWeapon = ohiomk48, 0.0, -5.0,  80.0, 0,0,true,  2, 0,-60,60, -10,60
 
 ;trident 1 version
 
-AddWeapon = ohiotrident, -1.56, 1.7, 32.5, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident,  1.56, 1.7, 32.5, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident, -1.56, 1.7, 29.47, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident,  1.56, 1.7, 29.47, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident, -1.56, 1.7, 26.38, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident,  1.56, 1.7, 26.38, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident, -1.56, 1.7, 23.45, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident,  1.56, 1.7, 23.45, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident, -1.56, 1.7, 20.46, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident,  1.56, 1.7, 20.46, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident, -1.56, 1.7, 17.33, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident,  1.56, 1.7, 17.33, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident, -1.56, 1.7, 14.33, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident,  1.56, 1.7, 14.33, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident, -1.56, 1.7, 11.25, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident,  1.56, 1.7, 11.25, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident, -1.56, 1.7, 8.17, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident,  1.56, 1.7, 8.17, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident, -1.56, 1.7, 5.25, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident,  1.56, 1.7, 5.25, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident, -1.56, 1.7, 2.17, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident,  1.56, 1.7, 2.17, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident, -1.56, 1.7, 0.0, 0,-90,true, 2, 0,-5,5, -95,-85
-AddWeapon = ohiotrident,  1.56, 1.7, 0.0, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2, -1.56, 1.7, 32.5, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2,  1.56, 1.7, 32.5, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2, -1.56, 1.7, 29.47, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2,  1.56, 1.7, 29.47, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2, -1.56, 1.7, 26.38, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2,  1.56, 1.7, 26.38, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2, -1.56, 1.7, 23.45, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2,  1.56, 1.7, 23.45, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2, -1.56, 1.7, 20.46, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2,  1.56, 1.7, 20.46, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2, -1.56, 1.7, 17.33, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2,  1.56, 1.7, 17.33, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2, -1.56, 1.7, 14.33, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2,  1.56, 1.7, 14.33, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2, -1.56, 1.7, 11.25, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2,  1.56, 1.7, 11.25, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2, -1.56, 1.7, 8.17, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2,  1.56, 1.7, 8.17, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2, -1.56, 1.7, 5.25, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2,  1.56, 1.7, 5.25, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2, -1.56, 1.7, 2.17, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2,  1.56, 1.7, 2.17, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2, -1.56, 1.7, 0.0, 0,-90,true, 2, 0,-5,5, -95,-85
+AddWeapon = ohiotrident2,  1.56, 1.7, 0.0, 0,-90,true, 2, 0,-5,5, -95,-85
 
 
 
