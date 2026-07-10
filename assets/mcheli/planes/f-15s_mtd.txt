@@ -9,6 +9,8 @@ ChaffWaitTime = 360
 ChaffUseTime = 120
 ThrottleDownFactor = 0.20
 ItemID = 28734
+Weight = 14500
+CanMountShip = true
 MaxHp = 100
 EnableNightVision = false
 ;oh wtf
@@ -25,6 +27,7 @@ MaxFuel         = 24400
 FuelConsumption = 6.256
 CameraPosition = 0.0, 0.70, 1.6
 EnableGunnerMode = true
+HasBombSight = false
 AutoPilotRot = 0
 ThrottleUpDown = 0.3
 

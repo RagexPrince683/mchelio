@@ -9,6 +9,8 @@ ChaffWaitTime = 360
 ChaffUseTime = 120
 ThrottleDownFactor = 0.20
 ItemID = 28740
+Weight = 17500
+CanMountShip = true
 MaxHp = 100
 EnableNightVision = true
 EnableEntityRadar = true
@@ -16,6 +18,8 @@ RWRType = DIGITAL
 RadarType = MODERN_AS
 HasBallisticComputer = true
 EnableEjectionSeat = true
+EnableGunnerMode = true
+HasBombSight = false
 Speed = 2.05
 
 Sound = faeighteen

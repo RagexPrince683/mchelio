@@ -9,11 +9,15 @@ ChaffWaitTime = 360
 ChaffUseTime = 120
 ThrottleDownFactor = 0.20
 ItemID = 28731
+Weight = 12500
+CanMountShip = true
 MaxHp = 100
 EnableNightVision = false
 EnableEntityRadar = false
 HasBallisticComputer = true
 EnableEjectionSeat = true
+EnableGunnerMode = true
+HasBombSight = false
 Sound = migfifteen
 Speed = 1.992
 

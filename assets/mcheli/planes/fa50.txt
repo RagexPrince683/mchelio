@@ -1,6 +1,8 @@
 DisplayName = FA-50
 AddDisplayName = en_US, FA-50
 AddDisplayName = ko_KR, FA-50 공격기
+Weight = 12500
+CanMountShip = true
 NameOnEarlyASRadar = Fast Jet
 NameOnModernASRadar = FA-50
 NameOnEarlyAARadar = Fast Jet
@@ -15,6 +17,8 @@ RWRType = DIGITAL
 RadarType = MODERN_AA
 HasBallisticComputer = true
 EnableEjectionSeat = true
+EnableGunnerMode = true
+HasBombSight = false
 Speed = 3.20
 FlareType = 4
 HasChaff = true

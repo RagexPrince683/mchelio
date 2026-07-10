@@ -1,5 +1,8 @@
 DisplayName = C5M Super Galaxy
 AddDisplayName = en_US, C5M Super Galaxy
+Weight = 381000
+CanMountShip = false
+MaximumExternalPayloadCapacity = 285000
 NameOnEarlyASRadar = Large Aircraft
 NameOnModernASRadar = C5M Super Galaxy
 NameOnEarlyAARadar = Large Aircraft
@@ -18,6 +21,7 @@ MaxFuel         = 603260
 FuelConsumption = 109.168
 InventorySize = 64
 EnableGunnerMode = true
+HasBombSight = false
 AutoPilotRot = 0
 FlareType = 2
 EnableNightVision = true

@@ -9,6 +9,8 @@ ChaffWaitTime = 500
 ChaffUseTime = 160
 ThrottleDownFactor = 0.20
 ItemID = 28747
+Weight = 340000
+CanMountShip = false
 MaxHp = 250
 Speed = 1.479
 
@@ -23,6 +25,7 @@ EnableEntityRadar = true
 RWRType = DIGITAL
 RadarType = MODERN_AA
 EnableGunnerMode = true
+HasBombSight = false
 ConcurrentGunnerMode = true
 FlareType = 2
 HasChaff = true

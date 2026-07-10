@@ -9,6 +9,8 @@ ChaffWaitTime = 360
 ChaffUseTime = 120
 ThrottleDownFactor = 0.20
 ItemID = 40016
+Weight = 17500
+CanMountShip = true
 MaxHp = 100
 Speed = 2.105
 ;752mph
@@ -28,6 +30,7 @@ HasChaff = true
 EnableEjectionSeat = true
 EnableSeaSurfaceParticle = true
 EnableGunnerMode = true
+HasBombSight = false
 CameraPosition = 0.0, 0.45, 2.0
 AutoPilotRot = 0.0
 ParticlesScale = 0.7

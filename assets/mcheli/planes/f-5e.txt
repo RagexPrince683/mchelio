@@ -9,6 +9,8 @@ ChaffWaitTime = 360
 ChaffUseTime = 120
 ThrottleDownFactor = 0.20
 ItemID = 40013
+Weight = 14500
+CanMountShip = true
 MaxHp = 100
 Speed = 3.40
 
@@ -107,6 +109,8 @@ RadarType = MODERN_AA
 HasBallisticComputer = true
 HasChaff = true
 EnableEjectionSeat = true
+EnableGunnerMode = true
+HasBombSight = false
 EnableSeaSurfaceParticle = true
 ParticlesScale = 0.7
 ThirdPersonDist = 17

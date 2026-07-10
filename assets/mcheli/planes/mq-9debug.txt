@@ -8,6 +8,8 @@ ChaffWaitTime = 360
 ChaffUseTime = 120
 ThrottleDownFactor = 0.20
 ItemID = 28707
+Weight = 4900
+CanMountShip = true
 MaxHp = 100
 Speed = 0.522
 FlightCeiling = 15000
@@ -24,6 +26,7 @@ EnableEntityRadar = true
 RadarType = MODERN_AA
 HasChaff = true
 EnableGunnerMode = true
+HasBombSight = false
 NewUAV = true
 ;;soon
 ;;ahh hell nah blud used slash comments in the txt

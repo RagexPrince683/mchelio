@@ -9,6 +9,8 @@ ChaffWaitTime = 360
 ChaffUseTime = 120
 ThrottleDownFactor = 0.20
 ItemID = 40009
+Weight = 14500
+CanMountShip = true
 MaxHp = 100
 Speed = 3.828
 Sound = faeighteen
@@ -108,6 +110,7 @@ MobilityRoll = 2.520
 ;OnGroundPitch = 3
 
 EnableGunnerMode = true
+HasBombSight = false
 CameraPosition = 0.0, 0.7, -1.0
 AutoPilotRot = 0
 

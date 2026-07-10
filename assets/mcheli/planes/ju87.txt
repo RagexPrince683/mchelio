@@ -1,3 +1,4 @@
+EnableGunnerMode = true
 DisplayName = Ju-87D-3 Stuka
 AddDisplayName = ru_RU, Ju-87D-3 Stuka
 NameOnEarlyASRadar = Fast Jet
@@ -8,6 +9,8 @@ ChaffWaitTime = 500
 ChaffUseTime = 160
 ThrottleDownFactor = 0.20
 ItemID = 30005
+Weight = 12000
+CanMountShip = true
 MaxHp = 150
 Speed = 0.679
 HasBallisticComputer = true

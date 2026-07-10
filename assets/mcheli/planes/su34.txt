@@ -1,5 +1,7 @@
 DisplayName = Su-34
 AddDisplayName = ja_JP, Su-34
+Weight = 16500
+CanMountShip = true
 NameOnEarlyASRadar = Fast Jet
 NameOnModernASRadar = Su-34
 NameOnEarlyAARadar = Fast Jet
@@ -14,6 +16,7 @@ RWRType = DIGITAL
 RadarType = MODERN_AS
 EnableEjectionSeat = true
 EnableGunnerMode = true
+HasBombSight = false
 ConcurrentGunnerMode = true
 Speed = 3.306
 FlareType = 4

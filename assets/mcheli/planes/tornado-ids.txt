@@ -9,6 +9,8 @@ ChaffWaitTime = 360
 ChaffUseTime = 120
 ThrottleDownFactor = 0.20
 ItemID = 28720
+Weight = 16500
+CanMountShip = true
 MaxHp = 100
 ThrottleUpDown = 0.3
 sound = tornado
@@ -18,6 +20,8 @@ RWRType = DIGITAL
 RadarType = MODERN_AS
 HasBallisticComputer = true
 EnableEjectionSeat = true
+EnableGunnerMode = true
+HasBombSight = false
 Speed = 4.0
 
 ;1452mph
