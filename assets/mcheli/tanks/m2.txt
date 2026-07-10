@@ -26,7 +26,7 @@ FuelConsumption   = 1.6
 DefaultFreelook = false
 ThirdPersonDist = 3
 
-ItemIconScaleFactor = 2
+ItemIconScaleFactor = 4
 
 ExplosionSizeByCrash = 0
 
