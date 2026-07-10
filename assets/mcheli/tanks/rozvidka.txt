@@ -1,5 +1,5 @@
 DisplayName = Ground Drone UGV
-Weight = 100000
+Weight = 5
 NameOnEarlyASRadar = Tank
 NameOnModernASRadar = Ground Drone UGV
 NameOnEarlyAARadar = Tank
