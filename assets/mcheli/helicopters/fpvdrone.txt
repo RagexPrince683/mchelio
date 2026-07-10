@@ -17,6 +17,7 @@ MaxFuel         = 12
 ExplosionBlock = 0
 FuelConsumption = 0.040
 Stealth = 0.4
+ItemIconScaleFactor = 3
 
 
 explosionSizeByCrash = 10

@@ -19,6 +19,7 @@ ParticlesScale = 0.2
 MaxFuel         = 18
 FuelConsumption = 0.010
 Stealth = 0.2
+ItemIconScaleFactor = 3
 
 explosionSizeByCrash = 4
 
