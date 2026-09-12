@@ -1,4 +1,6 @@
-# MC Helicopter Overdrive+
+# MC Helicopter Overdrive+ ASSET REPO
+
+NOTICE: THIS REPOSITORY IS DEPRICIATED. ALL FUTURE AND CURRENT ASSET WORK IS NOW IN THE MCH-MOCMASTER REPO https://github.com/RagexPrince683/MCH-mocmaster
 
 MC Helicopter Overdrive+ (`mcheli-overdrive`, mod id `mcheli`) is a content-heavy continuation and expansion of the classic **MC Helicopter** mod for **Minecraft 1.7.10 Forge**. It adds playable military and civilian aircraft, armored vehicles, ships, weapons, support equipment, custom HUDs, recipes, sounds, and asset configuration files.
 
